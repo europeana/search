@@ -45,7 +45,6 @@
         <h2>Candidate Search</h2>
     <form method="POST" action="referendum">
     {% csrf_token %}
-
     {{ form.as_p }}
     <input name="continue" type="submit" value="Submit and Add Another Query" id="continue"/>
     <input name="quit" type="submit" value="Submit and Log Out" id="quit"/>

@@ -3,7 +3,7 @@ import requests
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django import forms
-from .models import Language, User, Query, QueryMotive, QueryComment, QueryResult, REQD_RESULTS
+from .models import Language, User, Query, QueryMotive, QueryComment, QueryResult, REQD_RESULTS, ndcg
 from django.db import IntegrityError
 
 
@@ -49,14 +49,19 @@ def searchform(request):
             except IntegrityError:
                 return render(request, 'mobsource/searchform.html', { 'form':SearchForm(initial={'test_query':query, 'languages':lang, 'query_motive':motive, 'query_comment':comment, 'duplicate_key': 'T'}) })
             counter = 0
+            query_scores = []
             while counter < REQD_RESULTS:
                 id_field = 'result_id_' + str(counter)
                 rating_field = 'result_rating_' + str(counter)
                 item_id = search_form.cleaned_data[id_field]
                 item_rating = search_form.cleaned_data[rating_field]
+                query_scores.append(item_rating);
                 qr = QueryResult(query=q, position=counter, europeana_id=item_id, rating=item_rating)
                 qr.save()
                 counter += 1
+            score = ndcg(query_scores)
+            q.ndcg = score
+            q.save()
             if motive != '':
                 qm = QueryMotive(motive_text=motive, query=q)
                 qm.save()
