@@ -35,3 +35,4 @@ div#rating-warning{ text-align: right; position: absolute; width: 100%; top:0.8r
 #email-wrapper{ position: absolute; left: 82.5%; top: 2.75rem; }
 #email-wrapper p{ margin-bottom: 0; }
 #email-wrapper p a{ color: blue; }
+p#thank-you{ padding-top: 10px; padding-left: 10px; }
