@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block css %}
+#form-wrapper{ width: 500px; margin-bottom: 75px; }
+#wrapper{ width: 700px; }
+{% endblock %}
+{% block content %}
+<div id="wrapper">
+  <div id="inner-wrapper">
+    <div class="cf">
+    <a href="http://test.europeana.eu/portal" class="logo ir"><h1>Europeana Collections</h1></a>
+        </div>
+    <div id="form-wrapper">
+<form method="post" action=".">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="{% trans 'Submit' %}" />
+</form>
+      </div>
+  </div>
+</div>
+{% endblock %}
