@@ -8,9 +8,9 @@ At the moment two are envisaged: **mobsource** will be used for crowdsourcing mu
 
 So far ....
 
-Python >= 3.3 (to run the thing)
-psycopg2 (Postgres support)
-[django-registration](https://github.com/macropin/django-registration) (for one-step registration)
+* Python >= 3.3 (to run the thing)
+* psycopg2 (Postgres support)
+* [django-registration](https://github.com/macropin/django-registration) (for one-step registration)
 
 ## TODO
 
