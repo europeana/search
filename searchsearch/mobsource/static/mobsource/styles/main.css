@@ -1,26 +1,9 @@
-/* body{ font-family: 'Helvetica', 'Arial', sans;}
-h1{ font-size: 120%; font-weight: bold; }
-label{ float: left; width: 100%; }
-#user_form{ float: left; width: 25%;}
-#query_results{left: 25%; width:  65%; position: absolute; }
-.item_wrapper{ clear: both; margin-bottom: 75px; min-height: 250px; position: relative; }
-.thumbnail{ float: left; width: 20%; }
-.metadata{ margin-left: 22%; border: thin solid black; position: relative; padding: 10px; }
-.metadata div{ margin-bottom: 5px; }
-.metadata div.title{ width: 66%; } */
-/*.relevance-rater{ top: 10px; right: 0px; position: absolute; }*/
-/*.relevance-rater{ position: relative; left: 0px; top: 0px;  }
-.star-stub{ padding-top: 5px; margin-left: 0px; }
-.relevance-rater{ width: 100%; }
-.not-relevant{ bottom: 30px; } */
 .relevance-rater{ position: relative; margin-bottom: 2rem; }
 .star-label{ font-weight: 500; float: left; }
 .rating-cancel{ height: 0px; padding-left: 130px; }
 .rating-cancelled{ background-color: rgb(206,107,104); font-weight: bold; color: white; padding: 3px; }
 span.not-relevant{ font-weight: bold; }
 div.star-rating{ margin-top: 5px; padding-left: 5px; }
-/*#no-results-warning, #duplicate-key-warning, #rating-warning{ display: none; }
-#no-results-warning{ color: red; padding 10px; font-size: 80%; } */
 ul.errorlist li{ display: none; } /* We rely on JS to display the error msgs appropriately */
 .field-error{ border: thin solid red; }
 .warning, .error-text{ color: red; padding-top: 5px; position: absolute; width: 100%; }
@@ -49,3 +32,6 @@ div#rating-warning{ text-align: right; position: absolute; width: 100%; top:0.8r
 .search-list-item{ padding-bottom: 1rem; }
 #quit, #continue{ margin-left: auto;  margin-right: auto; display: block; }
 #quit{ margin-top: 5px; }
+#email-wrapper{ position: absolute; left: 82.5%; top: 2.75rem; }
+#email-wrapper p{ margin-bottom: 0; }
+#email-wrapper p a{ color: blue; }
