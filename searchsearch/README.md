@@ -22,3 +22,4 @@ So far ....
 
 1. Style 'forgot password' pages (right now they're just standard Django admin pages)
 2. Convert logged queries + nDCG scores and insert into DB
+3. Normalise ndcg scores into own table.
