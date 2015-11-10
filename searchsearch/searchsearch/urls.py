@@ -5,7 +5,7 @@ urlpatterns = [
 
     url(r'^volgus/', include('mobsource.urls', namespace='mobsource'), name="volgus"),
     url(r'^$', RedirectView.as_view(permanent=True, url="/volgus")),
-    url(r'^/accounts/register/complete/$', RedirectView.as_view(permanent=True, url="/volgus/referendum")),
+    url(r'^accounts/register/complete/$', RedirectView.as_view(permanent=True, url="/volgus/referendum")),
     url(r'^accounts/', include('registration.backends.simple.urls')),
     url(r'^admin/', include(admin.site.urls)),
 
