@@ -133,7 +133,7 @@ $(document).ready(function(){
                $(checked).click();
             }
             else if(rating == 0){
-alert(rater_selector + " .rating-cancel");
+
                 var cancel_selector = rater_selector + " .not-relevant";
                 $(cancel_selector).click();
 
