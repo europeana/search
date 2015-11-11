@@ -133,8 +133,8 @@ $(document).ready(function(){
                $(checked).click();
             }
             else if(rating == 0){
-
-                var cancel_selector = rater_selector + " .rating-cancel";
+alert(rater_selector + " .rating-cancel");
+                var cancel_selector = rater_selector + " .not-relevant";
                 $(cancel_selector).click();
 
             }
@@ -307,6 +307,7 @@ $(document).ready(function(){
             }
             else{
                 $("ul.errorlist.nonfield li:contains('logout')").remove();
+                launch_query.apply($("#id_test_query"));
                 return false;
             }
     }
