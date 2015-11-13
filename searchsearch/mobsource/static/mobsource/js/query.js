@@ -4,7 +4,6 @@ $(document).ready(function(){
 
         $("#loading").remove();
         var items_found = response['totalResults'];
-        if(!items_found){ warn_no_results() }
         var items_returned = response['itemsCount'];
         var header = $("<div class=\"results-header\"><div id=\"summary\" class=\"result-info\">Top <span id=\"items-returned\"\
         >" + items_returned + "</span> items from <span id='items-found'>" + items_found + "</span> found.</div></div>");
@@ -16,6 +15,7 @@ $(document).ready(function(){
         var wrapper = $("#query_results");
         wrapper.children().remove();    // clear previous results
         if(response['duplicate']){ show_duplicate_key_warning(); return false; }
+        if(!items_found){ warn_no_results(); return false; }
         wrapper.append(header);
         if(items_returned < 1) return false;
         var items_wrapper = $("<ul class=\"result-items\"></ul>");
