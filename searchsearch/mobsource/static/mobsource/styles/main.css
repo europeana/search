@@ -16,7 +16,6 @@ form p{ min-height: 100px; position: relative; }
 form p label{ font-weight: 500; }
 .results-list{ background-color: rgba(255, 255, 255, 1.0) }
 .logo{ background-image: url(http://www.europeana.eu/portal/themes/default/images/europeana-logo-2.png); width: 206px; height: 123px; }
-@media all and (min-width: 24em) {
 main, [role=main] { padding-top: 0rem; }
 .cf{ border-bottom: thin solid #4D4D4D; }
 #header-desc{ padding-left: 18em; padding-top: 2rem; }
@@ -27,7 +26,7 @@ main, [role=main] { padding-top: 0rem; }
 div.results-header{ position: relative;  }
 .result-info{ float: none; width: auto; margin-right:0px;}
 #summary{ display: inline-block; }
-div#rating-warning{ text-align: right; position: absolute; width: 100%; top:0.8rem; left: 0px; }
+div#rating-warning{ text-align: right; position: absolute; width: 100%; top:0.8rem; left: 0px; font-weight: bold; }
 .rating-missing{ color: red;  }
 .search-list-item{ padding-bottom: 1rem; }
 #quit, #continue{ margin-left: auto;  margin-right: auto; display: block; }

@@ -7,5 +7,6 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
     url(r'^referendum$', views.searchform, name='searchform'),
     url(r'^loc', views.do_query, name='query_execute'),
+    url(r'^trans', views.do_trans, name='query_translate'),
 
 ]

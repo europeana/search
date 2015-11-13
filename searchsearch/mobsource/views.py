@@ -6,6 +6,7 @@ from django import forms
 from .models import Language, User, Query, QueryMotive, QueryComment, QueryResult, REQD_RESULTS, ndcg
 from django.db import IntegrityError
 
+WS_KEY='fwejAubet'
 
 def index(request):
     return render(request, 'mobsource/index.html')
@@ -23,12 +24,13 @@ class SearchForm(forms.Form):
 
     test_query = forms.CharField(label="Query*", max_length=MAX_QUERY_LENGTH)
     lang_choice = [('', '------------')]
-    for row in Language.objects.all():
-        lang_choice.append((row.language, row.language))
+    for row in Language.objects.all().order_by('language'):
+        lang_choice.append((row.language_code, row.language))
     languages = forms.ChoiceField(label="What language is this?*", choices=lang_choice, widget=forms.Select(attrs={ 'id' : 'lang-selector'}), initial='')
     query_motive = forms.CharField(required=False, label="Why do you like this query? What are you looking for, and why is it interesting to you?", widget=forms.Textarea)
     query_comment = forms.CharField(required=False, label="Is there anything to note about this result set? Is there anything missing you were expecting to see? Anything you weren't expecting, or didn't want, to see?", widget=forms.Textarea)
     previous_query = forms.CharField(required=False, max_length=MAX_QUERY_LENGTH, widget=forms.HiddenInput(attrs={ "id" : "prev-query" }))
+    previous_language = forms.CharField(required=False, max_length=25, widget=forms.HiddenInput(attrs={ "id" : "prev-lang" }))
     duplicate_key = forms.CharField(required=False, max_length=1, widget=forms.HiddenInput(attrs={"id":"duplicate-key"}))
     logging_out = forms.CharField(required=False, max_length=1, widget=forms.HiddenInput(attrs={ "id" : "logging-out"}))
 
@@ -42,7 +44,7 @@ def searchform(request):
             motive = search_form.cleaned_data['query_motive']
             comment = search_form.cleaned_data['query_comment']
             source = User.objects.get(id=request.user.id)
-            l = Language.objects.get(language=lang)
+            l = Language.objects.get(language_code=lang)
             q = Query(query_text=query, language=l, source=source)
             try:
                 q.save()
@@ -83,17 +85,30 @@ def searchform(request):
 def do_query(search_obj):
 
     qry = search_obj.GET['query']
+    orig_qry = search_obj.GET['orig_query']
     url = "http://europeana.eu/api/v2/search.json"
     data = {
-            'wskey': 'fwejAubet',
+            'wskey': WS_KEY,
             'query':qry,
             'rows':10,
             'profile':'rich'
     }
     response = requests.get(url, params=data)
     as_json = response.json()
-    duplicate_test = Query.objects.filter(query_text=qry).count() > 0
+    duplicate_test = Query.objects.filter(query_text=orig_qry).count() > 0
     if(duplicate_test): as_json['duplicate']=True
     return JsonResponse(as_json)
 
+def do_trans(req):
+    qry = req.GET['query']
+    lang = req.GET['lang']
+    url = 'http://europeana.eu/api/v2/translateQuery.json'
+    data = {
+        'wskey': WS_KEY,
+        'term': qry,
+        'languageCodes': "en," + lang
+    }
+    response = requests.get(url, params=data)
+    as_json = response.json()
+    return JsonResponse(as_json)
 

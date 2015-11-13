@@ -43,30 +43,61 @@ $(document).ready(function(){
               </div>" + build_object_type_html(object_type)  + "</article></li>";
               var record_as_jq = $(record);
               $(items_wrapper).append(record_as_jq);
-              $(".star-stub").addClass("star").rating();    // need to trigger the plugin
+
 
         }
-
+        $(".star-stub").addClass("star").rating();    // need to trigger the plugin
+        if(query_is_new()){  reset_prev_query();}
+        else{ display_rating_errors(); }
         indicate_star_state();
-        display_rating_errors();
     }
 
-    var launch_query = function(){
+    var launch_query = function(translated_text){
 
-        var entered_text = $.trim($(this).val());
-        var prev_text = $.trim($("#prev-query").val());
-        if(prev_text != entered_text){
+        var translated_text = $.trim(translated_text);
+        var original_text = $.trim($("#id_test_query").val());
+        if(query_is_new()){
+
             clear_previous_ratings();
             clear_no_result_warning();
             clear_duplicate_key_warning();
+
         }
-        if(entered_text != ""){
-            $("#prev-query").val(entered_text);
-            var request = {};
-            request['query'] = entered_text;
-            if(prev_text != entered_text) add_loader();
-            $.ajax({url:'loc', data:request, dataType:"json"}).done(function(data){ display_items(data);  });
-        }
+        var request = {};
+        request['query'] = translated_text;
+        request['orig_query'] = original_text;
+        $.ajax({url:'loc', data:request, dataType:"json"}).done(function(data){ display_items(data);  });
+
+    }
+
+    var query_is_new = function(){
+
+        var entered_text = $.trim($("#id_test_query").val());
+        var prev_text = $.trim($("#prev-query").val());
+        var current_lang = $.trim($("#lang-selector").val());
+        var prev_lang = $.trim($("#prev-lang").val());
+        return ((entered_text != prev_text)||(current_lang != prev_lang))
+
+    }
+
+    var reset_prev_query = function(){
+        var now_text = $.trim($("#id_test_query").val());
+        var now_lang = $.trim($("#lang-selector").val());
+        $("#prev-query").val(now_text);
+        $("#prev-lang").val(now_lang);
+    }
+
+    var get_query_translation = function(){
+
+        if(query_formulated() === false) return false;
+        qry = $.trim($("#id_test_query").val());
+        lang = $.trim($("#lang-selector").val());
+        request = {};
+        request['query'] = qry;
+        request['lang'] = lang;
+        add_loader();
+        $.ajax({url:'trans', data:request, dataType:"json"}).done(function(data){ launch_query(data['translatedQuery']);  });
+
     }
 
     var build_object_type_html = function(object_type){
@@ -89,7 +120,7 @@ $(document).ready(function(){
             var input_height = $("#id_test_query").height();
             var p = $("#id_test_query").parent("p");
             p.css({ "position" : "relative" })
-            loading.css({ "left" : (input_width) + "px", "top" : (input_height + 22) + "px" });
+            loading.css({ "left" : (input_width) + "px", "top" : (input_height + 25) + "px" });
             p.append(loading);
 
     }
@@ -194,38 +225,29 @@ $(document).ready(function(){
 
     var sense_keystroke = function(keyboard){
 
-        if($("form p #no-results-warning").length){
+        if($("form p #no-results-warning").length){ clear_no_result_warning(); }
+        if($("form p #duplicate-key-warning").length){ clear_duplicate_key_warning(); }
+        if($(this).hasClass("field-error")){ clear_empty_field_warning.apply(this); }
+        if($("ul.errorlist.nonfield li:contains('result_')").length){ $("ul.errorlist.nonfield li:contains('result_')").remove(); }
+        if(keyboard.which == 13){ get_query_translation(); }
 
-            clear_no_result_warning();
+    }
 
-        }
-        if($("form p #duplicate-key-warning").length){
+    var query_formulated = function(){
 
-            clear_duplicate_key_warning();
-
-        }
-        if($(this).hasClass("field-error")){
-
-            clear_empty_field_warning.apply(this);
-
-        }
-        if($("ul.errorlist.nonfield li:contains('result_')").length){
-
-            $("ul.errorlist.nonfield li:contains('result_')").remove();
-
-        }
-        if(keyboard.which == 13){
+        if($("#lang-selector").val() != "" && $("#id_test_query").val() != "") return true;
+        if($("#lang-selector").val() == ""){
 
             $("#lang-selector").focus();
             return false;
 
         }
+        else{
 
-    }
+            $("#id_test_query").focus();
+            return false;
 
-    var enable_submit = function(){
-
-        $("#continue").prop("disabled", false)
+        }
 
     }
 
@@ -256,19 +278,37 @@ $(document).ready(function(){
 
        if($("ul.errorlist.nonfield li:contains('result_rating_')").length){
 
-            var rating_warning = $("#rating-warning").remove();
-            rating_warning.insertAfter("#summary");
-            $(rating_warning).css({ "display" : "block" });
-            // TODO: red CSS on items without a rating
+            missing_numbers = [];
             $("ul.errorlist.nonfield li:contains('result_rating_')").each(function(){
 
                 var raw_text = $(this).text();
                 var num_snippet = raw_text.substring(raw_text.indexOf("result_rating_") + "result_rating_".length, raw_text.lastIndexOf(")"));
+                var as_number = Number(num_snippet);
+                as_number++;
+                missing_numbers.push(as_number);
                 var item = $(".search-list-item").get(num_snippet);
                 $(item).find(".relevance-rater").addClass("rating-missing");
 
             });
+            var item_reference = missing_numbers.length == 1 ? "item" : "items";
+            var detailed_warning = "  Please add ratings for " + item_reference;
+            for(var i = 0; i < missing_numbers.length; i++){
 
+                var now_number = missing_numbers[i];
+                var prefix;
+                if(i == 0){ prefix = " "; }
+                else if(i == missing_numbers.length - 1){ prefix = " and "; }
+                else{ prefix = ", ";  }
+                detailed_warning += prefix + now_number;
+
+            }
+            if(missing_numbers.length == $(".search-list-item").length) detailed_warning = " Please add ratings for all items";
+            var rating_warning = $("#rating-warning").remove();
+            var warning_text = rating_warning.children("p").text();
+            warning_text += detailed_warning + ".";
+            rating_warning.children("p").text(warning_text);
+            rating_warning.insertAfter("#summary");
+            $(rating_warning).css({ "display" : "block" });
 
        }
 
@@ -307,7 +347,7 @@ $(document).ready(function(){
             }
             else{
                 $("ul.errorlist.nonfield li:contains('logout')").remove();
-                launch_query.apply($("#id_test_query"));
+                get_query_translation.apply($("#lang-selector"));
                 return false;
             }
     }
@@ -329,9 +369,9 @@ $(document).ready(function(){
             show_thank_you();
 
         }
-        else if($("#id_test_query").val() != ""){
+        else if($("#id_test_query").val() != "" && $("#lang-selector").val() != ""){
 
-            launch_query.apply($("#id_test_query"));
+            get_query_translation.apply($("#lang-selector"));
 
         }
 
@@ -343,11 +383,11 @@ $(document).ready(function(){
 
     $("#query_results").on('click', '.not-relevant', mark_not_relevant);
     $("#query_results").on('click', '.star-stub', set_relevance)
-    $("#id_test_query").blur(launch_query);
-    $("#id_test_query").mouseout(launch_query);
     $("#id_test_query").keydown(sense_keystroke);
+    $("#id_test_query").change(get_query_translation);
     $("#continue, #quit").click(set_unused_relevance);
     $("#lang-selector").click(clear_empty_field_warning);
+    $("#lang-selector").change(get_query_translation);
 
 });
 
