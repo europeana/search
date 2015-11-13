@@ -18,6 +18,8 @@ class SearchForm(forms.Form):
 
     def __init__(self, *args, **kwargs):
         super(forms.Form, self).__init__(*args, **kwargs)
+        # Because there are a lot of rating fields and their number might change
+        # we create them dynamically here
         for i in range(REQD_RESULTS):
             self.fields['result_id_' + str(i)] = forms.CharField(required=True, widget=forms.HiddenInput(attrs={ 'class' : 'euro-id'}))
             self.fields['result_rating_' + str(i)] = forms.IntegerField(required=True, widget=forms.HiddenInput(attrs={ 'class' : 'rel-rating'}))
@@ -29,6 +31,8 @@ class SearchForm(forms.Form):
     languages = forms.ChoiceField(label="What language is this?*", choices=lang_choice, widget=forms.Select(attrs={ 'id' : 'lang-selector'}), initial='')
     query_motive = forms.CharField(required=False, label="Why do you like this query? What are you looking for, and why is it interesting to you?", widget=forms.Textarea)
     query_comment = forms.CharField(required=False, label="Is there anything to note about this result set? Is there anything missing you were expecting to see? Anything you weren't expecting, or didn't want, to see?", widget=forms.Textarea)
+    # the fields below are all hidden fields used essentially just to maintain state in the
+    # event that a form submission fails validation
     previous_query = forms.CharField(required=False, max_length=MAX_QUERY_LENGTH, widget=forms.HiddenInput(attrs={ "id" : "prev-query" }))
     previous_language = forms.CharField(required=False, max_length=25, widget=forms.HiddenInput(attrs={ "id" : "prev-lang" }))
     duplicate_key = forms.CharField(required=False, max_length=1, widget=forms.HiddenInput(attrs={"id":"duplicate-key"}))
@@ -48,7 +52,7 @@ def searchform(request):
             q = Query(query_text=query, language=l, source=source)
             try:
                 q.save()
-            except IntegrityError:
+            except IntegrityError: # query text is defined as needing to be unique
                 return render(request, 'mobsource/searchform.html', { 'form':SearchForm(initial={'test_query':query, 'languages':lang, 'query_motive':motive, 'query_comment':comment, 'duplicate_key': 'T'}) })
             counter = 0
             query_scores = []
@@ -95,6 +99,8 @@ def do_query(search_obj):
     }
     response = requests.get(url, params=data)
     as_json = response.json()
+    # we do an initial uniqueness check just to ensure the user doesn't go
+    # through the whole rating palaver only to have their query rejected
     duplicate_test = Query.objects.filter(query_text=orig_qry).count() > 0
     if(duplicate_test): as_json['duplicate']=True
     return JsonResponse(as_json)

@@ -340,8 +340,8 @@ $(document).ready(function(){
 
     var check_logout = function(){
 
-            var msg = "This form is still missing data! If you leave the page now, your query will not be submitted. Are you sure you want to leave?";
-            if(confirm(msg)){
+            var msg = "\t\t\tThis form is still missing data!\n\nIf you leave the page now, your query will not be submitted.\n\n\t\t\tAre you sure you want to leave?";
+            if($("#id_test_query").val() == "" || confirm(msg)){
                 window.location = "/accounts/logout";
                 return false;
             }
@@ -354,27 +354,10 @@ $(document).ready(function(){
 
     var start_state = function(){
 
-        if($("ul.errorlist.nonfield li:contains('logout')").length){
-
-            check_logout();
-
-        }
-        else if($("#duplicate-key").val() == "T"){
-
-            show_duplicate_key_warning();
-
-        }
-        else if($("#duplicate-key").val() == "F" && $("#id_test_query").val() == ""){
-
-            show_thank_you();
-
-        }
-        else if($("#id_test_query").val() != "" && $("#lang-selector").val() != ""){
-
-            get_query_translation.apply($("#lang-selector"));
-
-        }
-
+        if($("ul.errorlist.nonfield li:contains('logout')").length){ check_logout(); }
+        else if($("#duplicate-key").val() == "T"){ show_duplicate_key_warning(); }
+        else if($("#duplicate-key").val() == "F" && $("#id_test_query").val() == ""){ show_thank_you(); }
+        else if($("#id_test_query").val() != "" && $("#lang-selector").val() != ""){ get_query_translation.apply($("#lang-selector")); }
         display_standard_errors();
 
     }
