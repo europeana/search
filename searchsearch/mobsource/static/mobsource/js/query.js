@@ -3,7 +3,6 @@ $(document).ready(function(){
     var display_items = function(response){
 
         $("#loading").remove();
-        if(response['duplicate']){ show_duplicate_key_warning(); return false; }
         var items_found = response['totalResults'];
         if(!items_found){ warn_no_results() }
         var items_returned = response['itemsCount'];
@@ -16,6 +15,7 @@ $(document).ready(function(){
         }
         var wrapper = $("#query_results");
         wrapper.children().remove();    // clear previous results
+        if(response['duplicate']){ show_duplicate_key_warning(); return false; }
         wrapper.append(header);
         if(items_returned < 1) return false;
         var items_wrapper = $("<ul class=\"result-items\"></ul>");
