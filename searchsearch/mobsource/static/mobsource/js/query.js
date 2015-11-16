@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+/**
+*   Requests a candidate query from users along with the language of the query; returns the results
+*   of the query via the Europeana Search API and asks the user to rate them on a scale of 0-5.
+*
+*   Required fields are the test query, its language, and a rating for each item. Optional 'commnt' and
+*  'motivation' fields are also present, but optional.
+*
+*   Note that query translation into English is in addition performed in the background - for example
+*   a search for 'Ισπανικού Εμφυλίου Πολέμου' will also search for 'Spanish Civil War'. However, this
+*   is mediated purely through Wikipedia entries, so in many cases no translation will be found.
+*
+**/
+
     var display_items = function(response){
 
         $("#loading").remove();
@@ -7,11 +20,6 @@ $(document).ready(function(){
         var items_returned = response['itemsCount'];
         var header = $("<div class=\"results-header\"><div id=\"summary\" class=\"result-info\">Top <span id=\"items-returned\"\
         >" + items_returned + "</span> items from <span id='items-found'>" + items_found + "</span> found.</div></div>");
-        if($("#rating-warning").length){
-
-            var rating_warning = $("#rating-warning").remove();
-            $(header).append(rating_warning);
-        }
         var wrapper = $("#query_results");
         wrapper.children().remove();    // clear previous results
         if(response['duplicate']){ show_duplicate_key_warning(); return false; }
@@ -170,7 +178,6 @@ $(document).ready(function(){
 
             }
         }
-
     }
 
     var mark_not_relevant = function(){
