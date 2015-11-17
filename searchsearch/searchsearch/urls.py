@@ -1,5 +1,6 @@
 from django.conf.urls import include, url
 from django.views.generic import RedirectView
+from django.contrib.auth.views import password_reset_confirm
 from django.contrib import admin
 urlpatterns = [
 
