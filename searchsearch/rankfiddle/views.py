@@ -3,7 +3,6 @@ from django import forms
 from .models import Query, CandidateBoostFields
 from django.http import HttpResponse
 from .models import MAX_QUERY_LENGTH
-import pysolr
 
 SOLR_SHARD_SIMPLE = 'http://sol1.ingest.eanadev.org:9191/solr/search_test_shard1_replica1/simple'
 
