@@ -2,6 +2,7 @@ from django.conf.urls import include, url
 from django.views.generic import RedirectView
 from django.contrib.auth.views import password_reset_confirm
 from django.contrib import admin
+
 urlpatterns = [
 
     url(r'^volgus/', include('mobsource.urls', namespace='mobsource'), name="volgus"),
@@ -10,5 +11,7 @@ urlpatterns = [
     url(r'^accounts/profile/$', RedirectView.as_view(permanent=True, url="/volgus/referendum")),
     url(r'^accounts/', include('registration.backends.simple.urls')),
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^rankfiddle/', include('rankfiddle.urls', namespace='rankfiddle'), name='rankfiddle'),
+
 
 ]
