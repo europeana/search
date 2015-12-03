@@ -35,14 +35,23 @@ div#rating-warning{ text-align: right; position: absolute; width: 100%; top:0.8r
 #email-wrapper p{ margin-bottom: 0; }
 #email-wrapper p a{ color: blue; }
 p#thank-you{ padding-top: 10px; padding-left: 10px; }
-#query_results{ border-left: thin solid #4D4D4D; }
-.search-results{ width: 33%; }
-.search-results div.container{ margin-left: none; max-width: none; }
-.weights { background: #F1F1EE;}
-.weights>h2 { text-transform: uppercase; font-weight: bold; font-size: 16px; font-size: 1rem; color: #4D4D4D; margin-bottom: 3.2rem}
+.weights { background: #F1F1EE; float: left; margin-right: 1.40845%; margin: 0; padding: 2rem 2rem 3.2rem 2rem; border-right: thin solid black; }
+.weights>h2, #param-feedback h2 { text-transform: uppercase; font-weight: bold; font-size: 16px; font-size: 1rem; color: #4D4D4D; }
+#param-feedback h2{ color: red; }
 input[type="number"]{ width:75px; }
 .boost{ position: relative; clear: both; }
 .boost p{ float: left; }
 .boost p:last-child{ margin-left: 75px; }
 .weights form>p{ clear: both; }
-#field-adder{ padding: 5px; color: #fff; background-color: #1A8AC7; width: 50%; margin-right: auto; margin-left: auto; clear: both; text-align: center; margin-bottom: 20px; border-radius: 3px; cursor: pointer; }
+#param-feedback{ border-left: thin solid black; float: left; width: auto; padding: 2rem 2rem 3.2rem; }
+.param-value{ position: relative; clear: both; }
+.param{ float: left; font-style: italic; }
+.value{ float: left; font-weight: bold; }
+.weights p{ margin-bottom: 0;}
+.results-list{ width: 50%; float: left; border-bottom: none; }
+#field-adder{ width: 8rem; padding: 5px; color: #fff; background-color: #1A8AC7; clear: both; text-align: center; margin-bottom: 20px; border-radius: 3px; cursor: pointer; }
+#param-feedback, #query_results, #user_form{ height: 4000px; } /* TODO: resize dynamically */
+.search-list-item{ margin-bottom: 0; padding-top: 3.2rem; }
+.weights form>p.para-phrase{ float: left;  }
+.weights form>p.para-slop{ float: right; padding-right: 12rem; clear: right; }
+form p{ min-height: 80px;  }

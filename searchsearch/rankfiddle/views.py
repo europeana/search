@@ -4,6 +4,7 @@ from .models import Query, CandidateBoostFields
 from django.http import HttpResponse, JsonResponse
 from .models import MAX_QUERY_LENGTH
 import requests
+import json
 
 SOLR_SHARD_SIMPLE = 'http://sol1.ingest.eanadev.org:9191/solr/search_1/search'
 
@@ -26,12 +27,12 @@ class QueryBoostForm(forms.Form):
     for row in Query.objects.all().order_by('query_text'):
         query_choice.append((row.query_text, row.query_text))
     query = forms.ChoiceField(label="Query", choices=query_choice, widget=forms.Select(attrs={ 'id' : 'query-selector'}), initial='')
-    pf = forms.DecimalField(label="Phrase Field", max_digits=4, decimal_places=1, initial=1.0)
-    ps = forms.DecimalField(label="Phrase Slop", max_digits=4, decimal_places=1, initial=1.0)
-    pf2 = forms.DecimalField(label="Phrase Bigram", max_digits=4, decimal_places=1, initial=1.0)
-    ps2 = forms.DecimalField(label="Bigram Slop", max_digits=4, decimal_places=1, initial=1.0)
-    pf3 = forms.DecimalField(label="Phrase Trigram", max_digits=4, decimal_places=1, initial=1.0)
-    ps3 = forms.DecimalField(label="Trigram Slop", max_digits=4, decimal_places=1, initial=1.0)
+    pf = forms.DecimalField(label="Phrase Field", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'phrase'}))
+    ps = forms.DecimalField(label="Phrase Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
+    pf2 = forms.DecimalField(label="Phrase Bigram", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'phrase'}))
+    ps2 = forms.DecimalField(label="Bigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
+    pf3 = forms.DecimalField(label="Phrase Trigram", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'phrase'}))
+    ps3 = forms.DecimalField(label="Trigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
     tibr = forms.DecimalField(label="Tiebreak (0.0 - 1.0)", max_digits=2, decimal_places=1, max_value=1.0, min_value=0.0, initial=0.0)
 
 def index(request):
@@ -54,7 +55,7 @@ def index(request):
             ps3 = quf.cleaned_data['ps3']
             tibr = quf.cleaned_data['tibr']
             results = do_query(q, boosts, pf, ps, pf2, ps2, pf3, ps3, tibr)
-            return render(request, 'rankfiddle/rankfiddle.html', {'form':quf, 'results':results })
+            return render(request, 'rankfiddle/rankfiddle.html', {'form':quf, 'params':results['responseHeader']['params'], 'docs':results['response']['docs'], 'result_count':results['response']['numFound']})
     else:
         quf = QueryBoostForm()
     return render(request, 'rankfiddle/rankfiddle.html', {'form':quf })
@@ -70,7 +71,8 @@ def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     if(pf3 != 1.0): solr_url += "&pf3=" + str(pf3)
     if(ps3 != 1.0): solr_url += "&ps3=" + str(ps3)
     if(tibr != 0.0): solr_url += "&tie=" + str(tibr)
-    solr_url += "&echoParams=explicit"
+    solr_url += "&echoParams=all"
+    solr_url += "&rows=10"
     solr_url += "&wt=json"
     qr = requests.get(solr_url)
     return qr.json()
