@@ -62,8 +62,9 @@ def index(request):
 
 def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     # TODO: need to control for defaults already present in bm25f handler (init to 0)
-    solr_url = SOLR_SHARD_SIMPLE + "?q={!type=simple}" + q;
-    if(len(qf) > 0): solr_url += "&qf=" + qf
+    solr_url = SOLR_SHARD_SIMPLE + "?q={!type=edismax}" + q;
+    # solr_url = SOLR_SHARD_SIMPLE + "?q=" + q;
+    if(len(qf) > 0):solr_url += "&qf=" + qf
     if(pf != 1.0): solr_url += "&pf=" + str(pf)
     if(ps != 1.0): solr_url += "&ps=" + str(ps)
     if(pf2 != 1.0): solr_url += "&pf2=" + str(pf2)
@@ -72,7 +73,18 @@ def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     if(ps3 != 1.0): solr_url += "&ps3=" + str(ps3)
     if(tibr != 0.0): solr_url += "&tie=" + str(tibr)
     solr_url += "&echoParams=all"
-    solr_url += "&rows=10"
+    solr_url += "&rows=25"
     solr_url += "&wt=json"
+    solr_url += "&bf=pow(europeana_completeness,2)"
+    solr_url += "&bq=description:*^1000"
     qr = requests.get(solr_url)
     return qr.json()
+
+    # current settings
+    # title^10
+    # subject^15
+    # description^10
+    # proxy_dc_creator^15
+    # text^1
+    # tie=0.8
+    # bf as above
