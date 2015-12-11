@@ -49,7 +49,7 @@ input[type="number"]{ width:75px; }
 .value{ float: left; font-weight: bold; }
 .weights p{ margin-bottom: 0;}
 .results-list{ width: 45%; float: left; border-bottom: none; }
-#field-adder{ width: 8rem; padding: 5px; color: #fff; background-color: #1A8AC7; clear: both; text-align: center; margin-bottom: 20px; border-radius: 3px; cursor: pointer; }
+.field-adder{ width: 12rem; padding: 5px; color: #fff; background-color: #1A8AC7; clear: both; text-align: center; margin-bottom: 20px; border-radius: 3px; cursor: pointer; }
 #param-feedback, #query_results, #user_form{ height: 10000px; } /* TODO: resize dynamically */
 .search-list-item{ margin-bottom: 0; padding-top: 3.2rem; }
 .weights form>p.para-phrase{ float: left;  }

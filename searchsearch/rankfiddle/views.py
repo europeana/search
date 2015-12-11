@@ -14,24 +14,36 @@ class QueryBoostForm(forms.Form):
         super(forms.Form, self).__init__(*args, **kwargs)
         fields = [('', '----------')]
         # we can set an arbitrary number of field + boost values
-        # here we set 50 as the upper limit (though 15 is probably too many)
+        # for both boost and phrase fields
+        # here we set 15 as the upper limit
         # we'll use JS to hide all but the first handful on the frontend
         # and supply an 'add' button to reveal these progressively as complexity increases
         for row in CandidateBoostFields.objects.all().order_by('field_name'):
             fields.append((row.field_name, row.field_name))
-        for i in range(1,51):
-            self.fields['field_' + str(i)] = forms.ChoiceField(label="Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field'}))
-            self.fields['field_boost_' + str(i)] = forms.DecimalField(label="Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'boost-factor'}))
+
+        # standard field boosts
+        for i in range(1,16):
+            self.fields['field_' + str(i)] = forms.ChoiceField(label="Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field standard-boost-field'}))
+            self.fields['field_boost_' + str(i)] = forms.DecimalField(label="Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
+        # phrase boosts
+        for i in range(1,11):
+            self.fields['phrase_field_' + str(i)] = forms.ChoiceField(label="Phrase Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field phrase-boost-field'}))
+            self.fields['phrase_field_boost_' + str(i)] = forms.DecimalField(label="Phrase Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'boost-factor phrase-boost-factor'}))
+        # bigram boosts
+        for i in range(1,11):
+            self.fields['bigram_field_' + str(i)] = forms.ChoiceField(label="Bigram Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field bigram-boost-field'}))
+            self.fields['bigram_field_boost_' + str(i)] = forms.DecimalField(label="Bigram Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'boost-factor bigram-boost-factor'}))
+        # trigram boosts
+        for i in range(1,11):
+            self.fields['trigram_field_' + str(i)] = forms.ChoiceField(label="Trigram Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field trigram-boost-field'}))
+            self.fields['trigram_field_boost_' + str(i)] = forms.DecimalField(label="Trigram Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'boost-factor trigram-boost-factor'}))
 
     query_choice = [('', '------------')]
     for row in Query.objects.all().order_by('query_text'):
         query_choice.append((row.query_text, row.query_text))
     query = forms.ChoiceField(label="Query", choices=query_choice, widget=forms.Select(attrs={ 'id' : 'query-selector'}), initial='')
-    pf = forms.DecimalField(label="Phrase Field", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'phrase'}))
     ps = forms.DecimalField(label="Phrase Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
-    pf2 = forms.DecimalField(label="Phrase Bigram", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'phrase'}))
     ps2 = forms.DecimalField(label="Bigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
-    pf3 = forms.DecimalField(label="Phrase Trigram", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'phrase'}))
     ps3 = forms.DecimalField(label="Trigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
     tibr = forms.DecimalField(label="Tiebreak (0.0 - 1.0)", max_digits=2, decimal_places=1, max_value=1.0, min_value=0.0, initial=0.0)
 
@@ -41,50 +53,46 @@ def index(request):
         quf = QueryBoostForm(request.POST)
         if(quf.is_valid()):
             q = quf.cleaned_data['query'] if quf.cleaned_data['query'].strip() != '' else '*:*'
-            boosts = ""
-            for i in range(1,51):
-                field_name = 'field_' + str(i)
-                if(quf.cleaned_data[field_name] != ''):
-                    boost = quf.cleaned_data[field_name] + "^" + str(quf.cleaned_data['field_boost_' + str(i)])
-                    boosts = boosts + boost + " "
-            pf = quf.cleaned_data['pf']
+            boosts = build_boosts(quf.cleaned_data, "field", 16)
+            phrase_boosts = build_boosts(quf.cleaned_data, "phrase_field", 11)
+            bigram_boosts = build_boosts(quf.cleaned_data, "trigram_field", 11)
+            trigram_boosts = build_boosts(quf.cleaned_data, "bigram_field", 11)
             ps = quf.cleaned_data['ps']
-            pf2 = quf.cleaned_data['pf2']
             ps2 = quf.cleaned_data['ps2']
-            pf3 = quf.cleaned_data['pf3']
             ps3 = quf.cleaned_data['ps3']
             tibr = quf.cleaned_data['tibr']
-            results = do_query(q, boosts, pf, ps, pf2, ps2, pf3, ps3, tibr)
+            results = do_query(q, boosts, phrase_boosts, ps, bigram_boosts, ps2, trigram_boosts, ps3, tibr)
             return render(request, 'rankfiddle/rankfiddle.html', {'form':quf, 'params':results['responseHeader']['params'], 'docs':results['response']['docs'], 'result_count':results['response']['numFound']})
     else:
         quf = QueryBoostForm()
     return render(request, 'rankfiddle/rankfiddle.html', {'form':quf })
 
+def build_boosts(cleaned_data, field_name, max_fields=20):
+    boosts = ""
+    for i in range(1,max_fields):
+        now_fn = field_name + "_" + str(i)
+        if(cleaned_data[now_fn] != ''):
+            field_boost = field_name + "_boost_" + str(i)
+            boost = cleaned_data[now_fn] + "^" + str(cleaned_data[field_boost])
+            boosts += boost + " "
+    return boosts
+
 def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     # TODO: need to control for defaults already present in bm25f handler (init to 0)
     solr_url = SOLR_SHARD_SIMPLE + "?q={!type=edismax}" + q;
-    # solr_url = SOLR_SHARD_SIMPLE + "?q=" + q;
     if(len(qf) > 0):solr_url += "&qf=" + qf
-    if(pf != 1.0): solr_url += "&pf=" + str(pf)
+    if(pf != 1.0): solr_url += "&pf=" + pf
     if(ps != 1.0): solr_url += "&ps=" + str(ps)
-    if(pf2 != 1.0): solr_url += "&pf2=" + str(pf2)
+    if(pf2 != 1.0): solr_url += "&pf2=" + pf2
     if(ps2 != 1.0): solr_url += "&ps2=" + str(ps2)
-    if(pf3 != 1.0): solr_url += "&pf3=" + str(pf3)
+    if(pf3 != 1.0): solr_url += "&pf3=" + pf3
     if(ps3 != 1.0): solr_url += "&ps3=" + str(ps3)
     if(tibr != 0.0): solr_url += "&tie=" + str(tibr)
     solr_url += "&echoParams=all"
     solr_url += "&rows=25"
     solr_url += "&wt=json"
     solr_url += "&bf=pow(europeana_completeness,2)"
-    solr_url += "&bq=description:*^1000"
+    solr_url += "&pf=text^25 title^20"
     qr = requests.get(solr_url)
     return qr.json()
 
-    # current settings
-    # title^10
-    # subject^15
-    # description^10
-    # proxy_dc_creator^15
-    # text^1
-    # tie=0.8
-    # bf as above
