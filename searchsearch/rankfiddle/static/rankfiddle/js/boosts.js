@@ -92,8 +92,6 @@ $(document).ready(function(){
 
     var line_up_slops = function(){
 
-        // TODO: align these with relevant page section
-        $("p:has('.phrase')").each(function(){ $(this).addClass("para-phrase")});
         $("p:has('.slop')").each(function(){ $(this).addClass("para-slop"); });
 
     }
@@ -101,7 +99,7 @@ $(document).ready(function(){
     make_field_boosts_first();
     hide_extra_field_boosts();
     add_field_adders();
-  //  line_up_slops();
+    line_up_slops();
 
   // TODO: MoreLikeThis fiddle
 

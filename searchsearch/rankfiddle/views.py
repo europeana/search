@@ -81,18 +81,17 @@ def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     # TODO: need to control for defaults already present in bm25f handler (init to 0)
     solr_url = SOLR_SHARD_SIMPLE + "?q={!type=edismax}" + q;
     if(len(qf) > 0):solr_url += "&qf=" + qf
-    if(pf != 1.0): solr_url += "&pf=" + pf
+    if(len(pf) > 0): solr_url += "&pf=" + pf
     if(ps != 1.0): solr_url += "&ps=" + str(ps)
-    if(pf2 != 1.0): solr_url += "&pf2=" + pf2
+    if(len(pf2) > 0): solr_url += "&pf2=" + pf2
     if(ps2 != 1.0): solr_url += "&ps2=" + str(ps2)
-    if(pf3 != 1.0): solr_url += "&pf3=" + pf3
+    if(len(pf3) > 0): solr_url += "&pf3=" + pf3
     if(ps3 != 1.0): solr_url += "&ps3=" + str(ps3)
     if(tibr != 0.0): solr_url += "&tie=" + str(tibr)
     solr_url += "&echoParams=all"
     solr_url += "&rows=25"
     solr_url += "&wt=json"
     solr_url += "&bf=pow(europeana_completeness,2)"
-    solr_url += "&pf=text^25 title^20"
     qr = requests.get(solr_url)
     return qr.json()
 
