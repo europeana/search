@@ -15,7 +15,7 @@ ul.errorlist li{ display: none; } /* We rely on JS to display the error msgs app
 form p{ min-height: 100px; position: relative; }
 form p label{ font-weight: 500; }
 .results-list{ background-color: rgba(255, 255, 255, 1.0) }
-.logo{ background-image: url(http://www.europeana.eu/portal/themes/default/images/europeana-logo-2.png); width: 206px; height: 123px; }
+.logo{ background-image: url(http://old.europeana.eu/portal/themes/default/images/europeana-logo-2.png); width: 206px; height: 123px; }
 main, [role=main] { padding-top: 0rem; }
 .cf{ border-bottom: thin solid #4D4D4D; }
 #header-desc{ padding-left: 18em; padding-top: 2rem; }
