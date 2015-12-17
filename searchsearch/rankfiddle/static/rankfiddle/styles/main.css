@@ -54,3 +54,4 @@ input[type="number"]{ width:75px; }
 .search-list-item{ margin-bottom: 0; padding-top: 3.2rem; }
 form p{ min-height: 80px;  }
 #launch-query{ margin-left: 9rem; margin-top: 2rem; padding-left: 3rem; padding-right: 3rem; }
+.item-image{ margin-right: 2rem; }
