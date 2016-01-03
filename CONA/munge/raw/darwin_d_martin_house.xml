@@ -1,0 +1,901 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <body alink="#663399" bgcolor="#FFFFFF" link="#3366CC" vlink="#663399">
+  <span class="CONA_facet">
+   Built Works
+  </span>
+  <table border="0" cellpadding="0" cellspacing="0" width="758">
+   <tr>
+    <td valign="top">
+     <a href="/">
+     </a>
+    </td>
+   </tr>
+  </table>
+  <table border="0" cellpadding="0" cellspacing="1" class="page" width="768">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- start breadcrumbs -->
+   <tr>
+    <td colspan="5" valign="top">
+     <a class="nav" href="/research/">
+      Research Home
+     </a>
+     <a class="nav" href="/research/tools/">
+      Tools
+     </a>
+     <a class="nav" href="/research/tools/vocabularies/cona/">
+      Cutural Objects Names Authority
+     </a>
+     <span class="nav_on">
+      Full Record Display
+      <br/>
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- end breadcrumbs -->
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <span style="font-size: x-large;">
+      Cultural Objects Names Authority
+      <sup>
+       ®
+      </sup>
+      Full Record Display
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" valign="top">
+     <a href="/research/tools/vocabularies/cona/">
+     </a>
+     <a href="javascript:history.back()">
+     </a>
+    </td>
+    <td align="right" valign="top">
+     <a href="javascript:help_popup()">
+     </a>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <div class="page">
+   <table border="0" cellpadding="0" cellspacing="5" id="TableRecHeader" width="758">
+    <tr>
+     <td class="page" nowrap="nowrap" valign="top">
+      <b>
+       ID: 700000062
+      </b>
+     </td>
+     <td align="right" class="page" nowrap="nowrap" valign="top">
+      <b>
+       Record Type:
+      </b>
+      <a href="javascript:code_lookup('record_type','BW')">
+       Built Work
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TablePrefTerm" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Darwin D. Martin House
+      </b>
+      (house; Frank Lloyd Wright (American, 1867-1959), for Darwin D. Mart...; 1904-1906)
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteEng" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+      The main house is a low two-story block with standard relation to grade, terminated at the left by a porte-cochere and at the right by a covered porch. The house is bisected by an entrance hall with a large unit-room to the right, different areas are separated by truncated partitions and portieres. Areas include a living room with an enormously wide fireplace, a library, and a dining room.
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableTerms" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Titles:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Darwin D. Martin House
+      </b>
+      (
+      <a href='javascript:code_lookup("preferred","")' onmouseout="return tooltip('')" onmouseover='return tooltip("Preferred Term")'>
+       preferred,
+      </a>
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      <a href='javascript:code_lookup("display","DD")' onmouseout="return tooltip('')" onmouseover='return tooltip("Display Term: Display")'>
+       ,D,
+      </a>
+      <a href='javascript:code_lookup("other","DE")' onmouseout="return tooltip('')" onmouseover="return tooltip('Other flag: Descriptive title')">
+       DE
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","undetermined")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: undetermined")'>
+       undetermined
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Darwin D. Martin Residence
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","undetermined")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: undetermined")'>
+       undetermined
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       D. D. Martin House
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","undetermined")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: undetermined")'>
+       undetermined
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCatLevel" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Catalog Level:
+      </b>
+      item
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableWorkTypes" width="758">
+   </table>
+   <b>
+    Work Types:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300005433&amp;find=&amp;logic=&amp;note=&amp;page=">
+       house
+      </a>
+      [300005433] (preferred)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      ..... (Objects Facet, Built Environment (hierarchy name), Single Built Works (hierarchy name), single built works (built environment), &lt;single built works by specific type&gt;, &lt;single built works by function&gt;, residential structures, dwellings)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableClassifications" width="758">
+   </table>
+   <b>
+    Classifications:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      architecture (preferred)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      Modern art
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreatorDisplay" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Creation Date:
+      </b>
+      1904-1906
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <b>
+    Creator Display:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      Frank Lloyd Wright (American, 1867-1959), for Darwin D. Martin (American businessman, 1865-1935)  [preferred,VP]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      architect
+      <a href="/vow/ULANFullDisplay?subjectid=500020307&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Wright, Frank Lloyd (American architect, 1867-1959)
+      </a>
+      [500020307]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      patron
+      <a href="/vow/ULANFullDisplay?subjectid=500329596&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Martin, D.D. (American businessman, 1865-1935)
+      </a>
+      [500329596]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreationDate" width="758">
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableLocations" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Locations:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage1">
+      <a href="/vow/TGNFullDisplay?subjectid=7013463&amp;english=Y&amp;find=&amp;place=&amp;nation=">
+       Buffalo
+      </a>
+      [7013463] Erie county (county), New York state (state), United States (nation), North and Central America (continent), World (facet) (Geographic)
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage2">
+      Address Note: 125 Jewett Parkway, Buffalo, NY
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableMaterials" width="758">
+    <tr>
+     <td>
+      <b>
+       Display Materials:
+      </b>
+      brick exterior walls, concrete slabs, some steel, stained glass windows, oak
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300010463&amp;find=&amp;logic=&amp;note=&amp;page=">
+       brick (clay product)
+      </a>
+      [300010463]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material, clay, clay products)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300133751&amp;find=&amp;logic=&amp;note=&amp;page=">
+       steel (alloy)
+      </a>
+      [300133751]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material, metal, &lt;metal by composition or origin&gt;, &lt;iron and iron alloy&gt;, iron alloy)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300010853&amp;find=&amp;logic=&amp;note=&amp;page=">
+       stained glass (material)
+      </a>
+      [300010853]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material, glass (material), &lt;glass by technique&gt;)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300012264&amp;find=&amp;logic=&amp;note=&amp;page=">
+       oak (wood)
+      </a>
+      [300012264]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by origin&gt;, biological material, plant material, &lt;wood and wood products&gt;, wood (plant material), &lt;wood by composition or origin&gt;, hardwood)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300111619&amp;find=&amp;logic=&amp;note=&amp;page=">
+       frame construction
+      </a>
+      [300111619]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Activities Facet, Processes and Techniques (hierarchy name), &lt;processes and techniques by specific type&gt;, &lt;additive and joining processes and techniques&gt;, assembling (additive and joining process), construction (assembling), &lt;construction by form&gt;)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300266342&amp;find=&amp;logic=&amp;note=&amp;page=">
+       concrete slabs
+      </a>
+      [300266342]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Objects Facet, Components (hierarchy name), components (objects parts), &lt;components by specific context&gt;, architectural elements, &lt;structural elements and components for structural elements&gt;, structural elements, structural systems, plate structures, &lt;structural slabs and structural slab components&gt;, slabs (structural elements))
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDimensions" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Dimensions:
+      </b>
+      2 story
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableEvents" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCultures" width="758">
+   </table>
+   <b>
+    Cultures:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      American (preferred)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableStyles" width="758">
+   </table>
+   <b>
+    Style/Period/Group/Movement:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300018208&amp;find=&amp;logic=&amp;note=&amp;page=">
+       Prairie School
+      </a>
+      [300018208] (preferred,N/A)
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Styles and Periods Facet, Styles and Periods (hierarchy name), &lt;styles| periods| and cultures by region&gt;, Americas| The, modern American, modern North American, &lt;modern North American architecture styles and movements&gt;)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableGeneralSubjects" width="758">
+   </table>
+   <b>
+    General Subject:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      architecture (preferred )
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDepictedSubjects" width="758">
+   </table>
+   <b>
+    Specific Subjects:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300005425&amp;find=&amp;logic=&amp;note=&amp;page=">
+       dwelling
+      </a>
+      [300005425]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Objects Facet, Built Environment (hierarchy name), Single Built Works (hierarchy name), single built works (built environment), &lt;single built works by specific type&gt;, &lt;single built works by function&gt;, residential structures) (AAT)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300111604&amp;find=&amp;logic=&amp;note=&amp;page=">
+       modular construction
+      </a>
+      [300111604]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Activities Facet, Processes and Techniques (hierarchy name), &lt;processes and techniques by specific type&gt;, &lt;additive and joining processes and techniques&gt;, assembling (additive and joining process), construction (assembling), &lt;construction by form&gt;) (AAT)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOutsideIcon" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOtherDisplays" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAssociativeRels" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" id="TableParentHierarchy" width="758">
+    <tr>
+     <td class="Hierpage">
+      <b>
+       List/Hierarchical Position:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000000&amp;alpha=">
+      </a>
+      .....
+      <a href="CONAFullSubject.aspx?subid=700000000">
+       Top of the CONA hierarchy
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000001&amp;alpha=">
+      </a>
+      ..........
+      <a href="CONAFullSubject.aspx?subid=700000001">
+       Built Works
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAdditionalNotes" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSourcesContribs" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Sources and Contributors:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Darwin D. Martin House
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052659">
+       Frank Lloyd Wright's Darwin D. Martin House Complex [online] (2000-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Darwin D. Martin Residence
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052659">
+       Frank Lloyd Wright's Darwin D. Martin House Complex [online] (2000-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      D. D. Martin House
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052659">
+       Frank Lloyd Wright's Darwin D. Martin House Complex [online] (2000-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSubjectSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Subject:
+      </b>
+      ....... [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td align="right" class="page">
+      English
+     </td>
+     <td class="page">
+      ..... [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052659">
+       Frank Lloyd Wright's Darwin D. Martin House Complex [online] (2000-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000046702">
+       CDWA online (1995-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+  </div>
+  <table border="0" cellpadding="0" cellspacing="0" width="736">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+  </table>
+  <a href="/research/tools/vocabularies/cona/">
+  </a>
+  <!-- END PRINT -->
+  <table>
+   <tr>
+    <td colspan="3" valign="top">
+     <br/>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <!-- start getty identifier -->
+     <table align="left" border="0" cellpadding="0" cellspacing="0" width="294">
+      <tr>
+       <td rowspan="2" valign="top" width="38">
+       </td>
+       <td valign="bottom" width="256">
+        <br/>
+        <span class="nav_on">
+         The J. Paul Getty Trust
+        </span>
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <br/>
+        <div class="nav">
+         <a href="/legal/copyright.html">
+          © 2004 J. Paul Getty Trust
+          <br/>
+          Terms of Use
+         </a>
+         /
+         <a href="/legal/privacy.html">
+          Privacy Policy
+         </a>
+         /
+         <a href="/about/contact_us.html">
+          Contact Us
+         </a>
+        </div>
+        <p>
+        </p>
+       </td>
+      </tr>
+     </table>
+     <!-- end getty identifier -->
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <!-- MPS Google Analytics, start -->
+  <!-- MPS Google Analytics, end -->
+ </body>
+</html>

@@ -1,0 +1,802 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <body alink="#663399" bgcolor="#FFFFFF" link="#3366CC" vlink="#663399">
+  <span class="CONA_facet">
+   Built Works
+  </span>
+  <table border="0" cellpadding="0" cellspacing="0" width="758">
+   <tr>
+    <td valign="top">
+     <a href="/">
+     </a>
+    </td>
+   </tr>
+  </table>
+  <table border="0" cellpadding="0" cellspacing="1" class="page" width="768">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- start breadcrumbs -->
+   <tr>
+    <td colspan="5" valign="top">
+     <a class="nav" href="/research/">
+      Research Home
+     </a>
+     <a class="nav" href="/research/tools/">
+      Tools
+     </a>
+     <a class="nav" href="/research/tools/vocabularies/cona/">
+      Cutural Objects Names Authority
+     </a>
+     <span class="nav_on">
+      Full Record Display
+      <br/>
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- end breadcrumbs -->
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <span style="font-size: x-large;">
+      Cultural Objects Names Authority
+      <sup>
+       ®
+      </sup>
+      Full Record Display
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" valign="top">
+     <a href="/research/tools/vocabularies/cona/">
+     </a>
+     <a href="javascript:history.back()">
+     </a>
+    </td>
+    <td align="right" valign="top">
+     <a href="javascript:help_popup()">
+     </a>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <div class="page">
+   <table border="0" cellpadding="0" cellspacing="5" id="TableRecHeader" width="758">
+    <tr>
+     <td class="page" nowrap="nowrap" valign="top">
+      <b>
+       ID: 700000110
+      </b>
+     </td>
+     <td align="right" class="page" nowrap="nowrap" valign="top">
+      <b>
+       Record Type:
+      </b>
+      <a href="javascript:code_lookup('record_type','BW')">
+       Built Work
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="page">
+      <font color="#3366CC">
+       <b>
+        Images:
+        <a href="http://www.northchristianchurch.com/pages/historicalpictures.html" target="_blank">
+         1
+        </a>
+        <a href="http://www.northchristianchurch.com/pages/churchpictures.html" target="_blank">
+         2
+        </a>
+       </b>
+      </font>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TablePrefTerm" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       North Christian Church
+      </b>
+      (church (building); designed by Eero Saarinen (American, 1910-1961); posthumousl...; designed 1961, completed 1964 ...)
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteEng" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+      The architect was working on this building when he died unexpectedly. Building has a hexagonal plan elongated along the east-west axis; it is a one-story building with the lower level nested in a moat within an earthen berm. The massive roof and spire rest over a concrete base. The sanctuary is located at center of interior space, direct light from oculus high in the ceiling and ring of clerestory windows. Six rolled steel arch legs are supported on steel arch bases set on the concrete foundation. The roof slopes on all sides; the central spire is terminated with a cross.
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableTerms" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Titles:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       North Christian Church
+      </b>
+      (
+      <a href='javascript:code_lookup("preferred","")' onmouseout="return tooltip('')" onmouseover='return tooltip("Preferred Term")'>
+       preferred,
+      </a>
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English-Preferred")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English-Preferred")'>
+       English-P
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCatLevel" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Catalog Level:
+      </b>
+      item
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableWorkTypes" width="758">
+   </table>
+   <b>
+    Work Types:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300007466&amp;find=&amp;logic=&amp;note=&amp;page=">
+       church (building)
+      </a>
+      [300007466] (preferred)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      ..... (Objects Facet, Built Environment (hierarchy name), Single Built Works (hierarchy name), single built works (built environment), &lt;single built works by specific type&gt;, &lt;single built works by function&gt;, ceremonial structures, religious structures, religious buildings)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableClassifications" width="758">
+   </table>
+   <b>
+    Classifications:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      architecture (preferred)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      Modern art
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreatorDisplay" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Creation Date:
+      </b>
+      designed 1961, completed 1964
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <b>
+    Creator Display:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      designed by Eero Saarinen (American, 1910-1961); posthumously, construction was supervised by firm of Eero Saarinen &amp; Associates (American architectural firm, 1950-1961) [preferred,VP]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      architect
+      <a href="/vow/ULANFullDisplay?subjectid=500006141&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Saarinen, Eero (American architect, designer, 1910-1961)
+      </a>
+      [500006141]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      architectural firm
+      <a href="/vow/ULANFullDisplay?subjectid=500119694&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Eero Saarinen &amp; Associates (American architectural firm, active 1950-1961)
+      </a>
+      [500119694]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      construction firm
+      <a href="/vow/ULANFullDisplay?subjectid=500329574&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Repp and Mundt, Inc. (American construction firm, contemporary)
+      </a>
+      [500329574]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      owner
+      <a href="/vow/ULANFullDisplay?subjectid=500329576&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Disciples of Christ (American religious institution, contemporary)
+      </a>
+      [500329576]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreationDate" width="758">
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableLocations" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Locations:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage1">
+      <a href="/vow/TGNFullDisplay?subjectid=7013644&amp;english=Y&amp;find=&amp;place=&amp;nation=">
+       Columbus
+      </a>
+      [7013644] Bartholomew county (county), Indiana (state), United States (nation), North and Central America (continent), World (facet) (Geographic)
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage2">
+      Address Note: 850 Tipton Lane, Columbus, IN 47201
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableMaterials" width="758">
+    <tr>
+     <td>
+      <b>
+       Display Materials:
+      </b>
+      hexagonal plan, concrete base, leaded copper spire, slate roof; welded steel buttresses support the roof and spire at the 6 axial corners
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300133751&amp;find=&amp;logic=&amp;note=&amp;page=">
+       steel (alloy)
+      </a>
+      [300133751]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material, metal, &lt;metal by composition or origin&gt;, &lt;iron and iron alloy&gt;, iron alloy)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300010737&amp;find=&amp;logic=&amp;note=&amp;page=">
+       concrete
+      </a>
+      [300010737]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300011646&amp;find=&amp;logic=&amp;note=&amp;page=">
+       slate (rock)
+      </a>
+      [300011646]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material, rock (inorganic material), metamorphic rock)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300000891&amp;find=&amp;logic=&amp;note=&amp;page=">
+       buttresses
+      </a>
+      [300000891]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Objects Facet, Components (hierarchy name), components (objects parts), &lt;components by specific context&gt;, architectural elements, &lt;structural elements and components for structural elements&gt;, structural elements, &lt;supporting and resisting elements&gt;)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300343770&amp;find=&amp;logic=&amp;note=&amp;page=">
+       hexagonal plan
+      </a>
+      [300343770]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Physical Attributes Facet, Attributes and Properties (hierarchy name), &lt;attributes and properties by specific type&gt;, form attributes, &lt;form attributes for architecture&gt;, building plan attributes)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDimensions" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Dimensions:
+      </b>
+      spire rises 58.5 meters (192 feet)
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableEvents" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCultures" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableStyles" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableGeneralSubjects" width="758">
+   </table>
+   <b>
+    General Subject:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      architecture (preferred )
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      religion and mythology
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDepictedSubjects" width="758">
+   </table>
+   <b>
+    Specific Subjects:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300007466&amp;find=&amp;logic=&amp;note=&amp;page=">
+       church (building)
+      </a>
+      [300007466]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Objects Facet, Built Environment (hierarchy name), Single Built Works (hierarchy name), single built works (built environment), &lt;single built works by specific type&gt;, &lt;single built works by function&gt;, ceremonial structures, religious structures, religious buildings) (AAT)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300056005&amp;find=&amp;logic=&amp;note=&amp;page=">
+       worship
+      </a>
+      [300056005]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Associated Concepts Facet, Associated Concepts (hierarchy name), &lt;religions and religious concepts&gt;, religious concepts) (AAT)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOutsideIcon" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOtherDisplays" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAssociativeRels" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" id="TableParentHierarchy" width="758">
+    <tr>
+     <td class="Hierpage">
+      <b>
+       List/Hierarchical Position:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000000&amp;alpha=">
+      </a>
+      .....
+      <a href="CONAFullSubject.aspx?subid=700000000">
+       Top of the CONA hierarchy
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000001&amp;alpha=">
+      </a>
+      ..........
+      <a href="CONAFullSubject.aspx?subid=700000001">
+       Built Works
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAdditionalNotes" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSourcesContribs" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Sources and Contributors:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      North Christian Church
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000046702">
+       CDWA online (1995-)
+      </a>
+      accessed 11 November 2010
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSubjectSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Subject:
+      </b>
+      ....... [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      .......................
+      <a href="CONASource.aspx?sourceid=2000052661">
+       North Christian Church online (2000-)
+      </a>
+      accessed 24 October 2012
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td align="right" class="page">
+      English
+     </td>
+     <td class="page">
+      ..... [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052104">
+       Columbus, Indiana (1980)
+      </a>
+      18
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052103">
+       Architectural Record 136 (1964)
+      </a>
+      185-190
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+  </div>
+  <table border="0" cellpadding="0" cellspacing="0" width="736">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+  </table>
+  <a href="/research/tools/vocabularies/cona/">
+  </a>
+  <!-- END PRINT -->
+  <table>
+   <tr>
+    <td colspan="3" valign="top">
+     <br/>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <!-- start getty identifier -->
+     <table align="left" border="0" cellpadding="0" cellspacing="0" width="294">
+      <tr>
+       <td rowspan="2" valign="top" width="38">
+       </td>
+       <td valign="bottom" width="256">
+        <br/>
+        <span class="nav_on">
+         The J. Paul Getty Trust
+        </span>
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <br/>
+        <div class="nav">
+         <a href="/legal/copyright.html">
+          © 2004 J. Paul Getty Trust
+          <br/>
+          Terms of Use
+         </a>
+         /
+         <a href="/legal/privacy.html">
+          Privacy Policy
+         </a>
+         /
+         <a href="/about/contact_us.html">
+          Contact Us
+         </a>
+        </div>
+        <p>
+        </p>
+       </td>
+      </tr>
+     </table>
+     <!-- end getty identifier -->
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <!-- MPS Google Analytics, start -->
+  <!-- MPS Google Analytics, end -->
+ </body>
+</html>

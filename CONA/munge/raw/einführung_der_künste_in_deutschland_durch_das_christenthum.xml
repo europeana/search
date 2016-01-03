@@ -1,0 +1,958 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <body alink="#663399" bgcolor="#FFFFFF" link="#3366CC" vlink="#663399">
+  <span class="CONA_facet">
+   Movable Works
+  </span>
+  <table border="0" cellpadding="0" cellspacing="0" width="758">
+   <tr>
+    <td valign="top">
+     <a href="/">
+     </a>
+    </td>
+   </tr>
+  </table>
+  <table border="0" cellpadding="0" cellspacing="1" class="page" width="768">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- start breadcrumbs -->
+   <tr>
+    <td colspan="5" valign="top">
+     <a class="nav" href="/research/">
+      Research Home
+     </a>
+     <a class="nav" href="/research/tools/">
+      Tools
+     </a>
+     <a class="nav" href="/research/tools/vocabularies/cona/">
+      Cutural Objects Names Authority
+     </a>
+     <span class="nav_on">
+      Full Record Display
+      <br/>
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- end breadcrumbs -->
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <span style="font-size: x-large;">
+      Cultural Objects Names Authority
+      <sup>
+       ®
+      </sup>
+      Full Record Display
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" valign="top">
+     <a href="/research/tools/vocabularies/cona/">
+     </a>
+     <a href="javascript:history.back()">
+     </a>
+    </td>
+    <td align="right" valign="top">
+     <a href="javascript:help_popup()">
+     </a>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <div class="page">
+   <table border="0" cellpadding="0" cellspacing="5" id="TableRecHeader" width="758">
+    <tr>
+     <td class="page" nowrap="nowrap" valign="top">
+      <b>
+       ID: 700000410
+      </b>
+     </td>
+     <td align="right" class="page" nowrap="nowrap" valign="top">
+      <b>
+       Record Type:
+      </b>
+      <a href="javascript:code_lookup('record_type','MW')">
+       Movable Work
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TablePrefTerm" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Einführung der Künste in Deutschland durch das Christenthum
+      </b>
+      (etching (print); Schäffer, Eugen Eduard (printmaker, 1802-1877), after a mur...; published 1839; Getty Research Institute, Special Collections (Los Angeles, ...; 904910; (OCoLC)ocn695613711; accession number: 2011.PR.3**)
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteEng" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+      Title and date from inscriptions in State 3; The print reproduces the central portion of an allegorical mural painted by Philip Veit at the Städelsches Kunstinstitut in Frankfurt-am-Main, known as the Introduction of the Arts to Germany through Christendom; Library's copy is accompanied by another impression with printed decorative borders (full sheet 47 x 73 cm.).
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableTerms" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Titles:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Einführung der Künste in Deutschland durch das Christenthum
+      </b>
+      (
+      <a href='javascript:code_lookup("preferred","")' onmouseout="return tooltip('')" onmouseover='return tooltip("Preferred Term")'>
+       preferred,
+      </a>
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("other","RP")' onmouseout="return tooltip('')" onmouseover="return tooltip('Other flag: Repository title')">
+       RP
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","German-Preferred")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: German-Preferred")'>
+       German-P
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Introduction of the Arts to Germany through Christendom
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("other","DE")' onmouseout="return tooltip('')" onmouseover="return tooltip('Other flag: Descriptive title')">
+       DE
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCatLevel" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Catalog Level:
+      </b>
+      item
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableWorkTypes" width="758">
+   </table>
+   <b>
+    Work Types:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300041365&amp;find=&amp;logic=&amp;note=&amp;page=">
+       etching (print)
+      </a>
+      [300041365] (preferred)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      ..... (Objects Facet, Visual and Verbal Communication (hierarchy name), Visual Works (hierarchy name), visual works (works), &lt;visual works by material or technique&gt;, prints (visual works), &lt;prints by process or technique&gt;, &lt;prints by process: transfer method&gt;, intaglio prints)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300041340&amp;find=&amp;logic=&amp;note=&amp;page=">
+       engraving (print)
+      </a>
+      [300041340]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      ..... (Objects Facet, Visual and Verbal Communication (hierarchy name), Visual Works (hierarchy name), visual works (works), &lt;visual works by material or technique&gt;, prints (visual works), &lt;prints by process or technique&gt;, &lt;prints by process: transfer method&gt;, intaglio prints)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300041569&amp;find=&amp;logic=&amp;note=&amp;page=">
+       reproductive print
+      </a>
+      [300041569]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      ..... (Objects Facet, Visual and Verbal Communication (hierarchy name), Visual Works (hierarchy name), visual works (works), &lt;visual works by material or technique&gt;, prints (visual works))
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300041273&amp;find=&amp;logic=&amp;note=&amp;page=">
+       prints (visual works)
+      </a>
+      [300041273]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      ..... (Objects Facet, Visual and Verbal Communication (hierarchy name), Visual Works (hierarchy name), visual works (works), &lt;visual works by material or technique&gt;)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableClassifications" width="758">
+   </table>
+   <b>
+    Classifications:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      prints (preferred)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreatorDisplay" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Creation Date:
+      </b>
+      published 1839
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <b>
+    Creator Display:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      Schäffer, Eugen Eduard (printmaker, 1802-1877), after a mural painted by Philip Veit; published: Den Mitgliedern des Kunstvereins in Frankfurt a/M [preferred,GRISC]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      artist
+      <a href="/vow/ULANFullDisplay?subjectid=500013745&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Veit, Philipp (German painter, 1793-1877)
+      </a>
+      [500013745]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      printmaker
+      <a href="/vow/ULANFullDisplay?subjectid=500092133&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Schäffer, Eugen Eduard (German engraver, lithographer, and draftsman, 1802-1871)
+      </a>
+      [500092133]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      publishers
+      <a href="/vow/ULANFullDisplay?subjectid=500305347&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Frankfurter Kunstverein (German art association, Frankfurt am Main, contemporary)
+      </a>
+      [500305347]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreationDate" width="758">
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableLocations" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Locations:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage1">
+      <b>
+       Current:
+      </b>
+      <a href="/vow/ULANFullDisplay?subjectid=500353615&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Getty Research Institute, Special Collections (Los Angeles, Los Angeles county, California, United States)
+      </a>
+      [500353615] Getty Research Institute, J. Paul Getty Trust, Corporate Bodies (Corp. Body)
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage2">
+      Repository Numbers: 904910; (OCoLC)ocn695613711; accession number: 2011.PR.3**
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage2">
+      Credit Line: copyright J. Paul Getty Trust, Getty Research Institute, Special Collections
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage2">
+      Address Note: 1200 Getty Center Dr., Suite 1100, Los Angeles, CA 90049-1688
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage1">
+      <b>
+       Other:
+      </b>
+      Publication:
+      <a href="/vow/TGNFullDisplay?subjectid=7005293&amp;english=Y&amp;find=&amp;place=&amp;nation=">
+       Frankfurt am Main
+      </a>
+      [7005293] Hessen state (state), Germany (nation), Europe (continent), World (facet) (Geographic)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableMaterials" width="758">
+    <tr>
+     <td>
+      <b>
+       Display Materials:
+      </b>
+      1 print: engraving and etching on chine collé
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300041273&amp;find=&amp;logic=&amp;note=&amp;page=">
+       prints (visual works)
+      </a>
+      [300041273]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Objects Facet, Visual and Verbal Communication (hierarchy name), Visual Works (hierarchy name), visual works (works), &lt;visual works by material or technique&gt;)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300053225&amp;find=&amp;logic=&amp;note=&amp;page=">
+       engraving (printing process)
+      </a>
+      [300053225]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Activities Facet, Processes and Techniques (hierarchy name), &lt;processes and techniques by specific type&gt;, image-making processes and techniques, &lt;printing and printing processes and techniques&gt;, printing processes, intaglio printing processes)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300053241&amp;find=&amp;logic=&amp;note=&amp;page=">
+       etching (printing process)
+      </a>
+      [300053241]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Activities Facet, Processes and Techniques (hierarchy name), &lt;processes and techniques by specific type&gt;, image-making processes and techniques, &lt;printing and printing processes and techniques&gt;, printing processes, intaglio printing processes)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300256021&amp;find=&amp;logic=&amp;note=&amp;page=">
+       chine collé (process)
+      </a>
+      [300256021]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Activities Facet, Processes and Techniques (hierarchy name), &lt;processes and techniques by specific type&gt;, stabilizing, strengthening)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDimensions" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Dimensions:
+      </b>
+      image 27.7 x 57.8 cm, chine collé sheet 38.7 x 62.6 cm, mounting sheet 53 x 74.5 cm
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableEvents" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCultures" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableStyles" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableGeneralSubjects" width="758">
+   </table>
+   <b>
+    General Subject:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      allegory (preferred )
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      didactic and propaganda
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      another work
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDepictedSubjects" width="758">
+   </table>
+   <b>
+    Specific Subjects:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300175240&amp;find=&amp;logic=&amp;note=&amp;page=">
+       arts (broad discipline)
+      </a>
+      [300175240]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Activities Facet, Disciplines (hierarchy name), disciplines, humanities, &lt;arts and related disciplines&gt;) (AAT)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300041569&amp;find=&amp;logic=&amp;note=&amp;page=">
+       reproductive print
+      </a>
+      [300041569]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Objects Facet, Visual and Verbal Communication (hierarchy name), Visual Works (hierarchy name), visual works (works), &lt;visual works by material or technique&gt;, prints (visual works)) (AAT)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300111192&amp;find=&amp;logic=&amp;note=&amp;page=">
+       German (culture or style)
+      </a>
+      [300111192]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Styles and Periods Facet, Styles and Periods (hierarchy name), &lt;styles| periods| and cultures by region&gt;, European, European regions) (AAT)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300073711&amp;find=&amp;logic=&amp;note=&amp;page=">
+       Christianity
+      </a>
+      [300073711]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Associated Concepts Facet, Associated Concepts (hierarchy name), &lt;religions and religious concepts&gt;, religions (belief systems| cultures)) (AAT)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOutsideIcon" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOtherDisplays" width="758">
+    <tr>
+     <td class="Otherpage">
+      <b>
+       Provenance:
+      </b>
+      rumbl; Purchase.
+     </td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+     <td class="Otherpage">
+      <b>
+       Inscriptions:
+      </b>
+      Einführung der Künste in Deutschland durch das Christenthum in dem Städelschen Kunstinstitute al Fresko gemalt von Philipp Veit ; gestochen von Eduard Schaeffer. Für das Jahr 1839.
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAssociativeRels" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" id="TableParentHierarchy" width="758">
+    <tr>
+     <td class="Hierpage">
+      <b>
+       List/Hierarchical Position:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000000&amp;alpha=">
+      </a>
+      .....
+      <a href="CONAFullSubject.aspx?subid=700000000">
+       Top of the CONA hierarchy
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000002&amp;alpha=">
+      </a>
+      ..........
+      <a href="CONAFullSubject.aspx?subid=700000002">
+       Movable Works
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAdditionalNotes" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSourcesContribs" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Sources and Contributors:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Einführung der Künste in Deutschland durch das Christenthum
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000016">
+       GRISC
+      </a>
+      ,
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052133">
+       GRI Special Collections Finding Aids databases (2012-)
+      </a>
+      904910
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Introduction of the Arts to Germany through Christendom
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000016">
+       GRISC
+      </a>
+      ,
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052133">
+       GRI Special Collections Finding Aids databases (2012-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSubjectSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Subject:
+      </b>
+      ....... [
+      <a href="CONAContributor.aspx?contribid=10000016">
+       GRISC
+      </a>
+      ,
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      .......................
+      <a href="CONASource.aspx?sourceid=2000052133">
+       GRI Special Collections Finding Aids databases (2012-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td align="right" class="page">
+      English
+     </td>
+     <td class="page">
+      ..... [
+      <a href="CONAContributor.aspx?contribid=10000016">
+       GRISC
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052133">
+       GRI Special Collections Finding Aids databases (2012-)
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+  </div>
+  <table border="0" cellpadding="0" cellspacing="0" width="736">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+  </table>
+  <a href="/research/tools/vocabularies/cona/">
+  </a>
+  <!-- END PRINT -->
+  <table>
+   <tr>
+    <td colspan="3" valign="top">
+     <br/>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <!-- start getty identifier -->
+     <table align="left" border="0" cellpadding="0" cellspacing="0" width="294">
+      <tr>
+       <td rowspan="2" valign="top" width="38">
+       </td>
+       <td valign="bottom" width="256">
+        <br/>
+        <span class="nav_on">
+         The J. Paul Getty Trust
+        </span>
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <br/>
+        <div class="nav">
+         <a href="/legal/copyright.html">
+          © 2004 J. Paul Getty Trust
+          <br/>
+          Terms of Use
+         </a>
+         /
+         <a href="/legal/privacy.html">
+          Privacy Policy
+         </a>
+         /
+         <a href="/about/contact_us.html">
+          Contact Us
+         </a>
+        </div>
+        <p>
+        </p>
+       </td>
+      </tr>
+     </table>
+     <!-- end getty identifier -->
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <!-- MPS Google Analytics, start -->
+  <!-- MPS Google Analytics, end -->
+ </body>
+</html>

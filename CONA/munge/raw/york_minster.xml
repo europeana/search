@@ -1,0 +1,1268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <body alink="#663399" bgcolor="#FFFFFF" link="#3366CC" vlink="#663399">
+  <span class="CONA_facet">
+   Built Works
+  </span>
+  <table border="0" cellpadding="0" cellspacing="0" width="758">
+   <tr>
+    <td valign="top">
+     <a href="/">
+     </a>
+    </td>
+   </tr>
+  </table>
+  <table border="0" cellpadding="0" cellspacing="1" class="page" width="768">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- start breadcrumbs -->
+   <tr>
+    <td colspan="5" valign="top">
+     <a class="nav" href="/research/">
+      Research Home
+     </a>
+     <a class="nav" href="/research/tools/">
+      Tools
+     </a>
+     <a class="nav" href="/research/tools/vocabularies/cona/">
+      Cutural Objects Names Authority
+     </a>
+     <span class="nav_on">
+      Full Record Display
+      <br/>
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <!-- end breadcrumbs -->
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <span style="font-size: x-large;">
+      Cultural Objects Names Authority
+      <sup>
+       ®
+      </sup>
+      Full Record Display
+     </span>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="4" valign="top">
+     <a href="/research/tools/vocabularies/cona/">
+     </a>
+     <a href="javascript:history.back()">
+     </a>
+    </td>
+    <td align="right" valign="top">
+     <a href="javascript:help_popup()">
+     </a>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5">
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <div class="page">
+   <table border="0" cellpadding="0" cellspacing="5" id="TableRecHeader" width="758">
+    <tr>
+     <td class="page" nowrap="nowrap" valign="top">
+      <b>
+       ID: 700002998
+      </b>
+     </td>
+     <td align="right" class="page" nowrap="nowrap" valign="top">
+      <b>
+       Record Type:
+      </b>
+      <a href="javascript:code_lookup('record_type','BW')">
+       Built Work
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="page">
+      <font color="#3366CC">
+       <b>
+        Images:
+        <a href="http://hdl.handle.net/1813.001/5t92" target="_blank">
+         1
+        </a>
+        <a href="http://upload.wikimedia.org/wikipedia/commons/b/b7/York_York_minster_interior_001.JPG" target="_blank">
+         2
+        </a>
+       </b>
+      </font>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TablePrefTerm" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       York Minster
+      </b>
+      (cathedral (building); unknown architect, constructed under Walter De Gray (British...; constructed 1220-1472, restore...; York (York, England, United Kingdom, Europe, World, Top of t...)
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteEng" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+      Considered one of England's greatest gothic buildings and the repository for the largest collection of medieval stained glass in England. The remains of a Roman basilica are located beneath the current structure. Several Christian churches have historically occupied this site: a wooden builing (destroyed 741), a stone Saxon church (destroyed 1075), and a Norman-style church. Archbishop Water de Gray ordered the construction of a Gothic structure starting in 1220. The Minster is built of oolite, or olitic limestone, from the Tadcaster area. The building was consecrated on July 3, 1472.
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableTerms" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Titles:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       York Minster
+      </b>
+      (
+      <a href='javascript:code_lookup("preferred","")' onmouseout="return tooltip('')" onmouseover='return tooltip("Preferred Term")'>
+       preferred,
+      </a>
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("aacr2","AY")' onmouseout="return tooltip('')" onmouseover='return tooltip("AACR2")'>
+       LC
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English-Preferred")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English-Preferred")'>
+       English-P
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Cathedral and Metropolitical Church of St Peter in York
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("other","FT")' onmouseout="return tooltip('')" onmouseover="return tooltip('Other flag: Full title')">
+       FT
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Minster
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       York Cathedral
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       St. Peter's Cathedral
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Metropolitan Church of St. Peter, York
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Dean &amp; Chapter of York
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+     <td class="Termpage">
+      <b>
+       Dean and Chapter of York
+      </b>
+      (
+      <a href='javascript:code_lookup("historical","HC")' onmouseout="return tooltip('')" onmouseover='return tooltip("Historical flag: Current")'>
+       C
+      </a>
+      ,
+      <a href='javascript:code_lookup("vernacular","VU")' onmouseout="return tooltip('')" onmouseover='return tooltip("Vernacular flag: Undetermined")'>
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("language","English")' onmouseout="return tooltip('')" onmouseover='return tooltip("Language of the Term: English")'>
+       English
+      </a>
+      ,
+      <a href='javascript:code_lookup("status","U")' onmouseout="return tooltip('')" onmouseover="return tooltip('Language Status: Undetermined')">
+       U
+      </a>
+      ,
+      <a href='javascript:code_lookup("xpos","XU")' onmouseout="return tooltip('')" onmouseover="return tooltip('Part of Speech: Undetermined')">
+       U
+      </a>
+      )
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCatLevel" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Catalog Level:
+      </b>
+      item
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableWorkTypes" width="758">
+   </table>
+   <b>
+    Work Types:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300007501&amp;find=&amp;logic=&amp;note=&amp;page=">
+       cathedral (building)
+      </a>
+      [300007501] (preferred)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      ..... (Objects Facet, Built Environment (hierarchy name), Single Built Works (hierarchy name), single built works (built environment), &lt;single built works by specific type&gt;, &lt;single built works by function&gt;, ceremonial structures, religious structures, religious buildings, churches (buildings), &lt;church buildings by location or context&gt;)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableClassifications" width="758">
+   </table>
+   <b>
+    Classifications:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      architecture (preferred)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreatorDisplay" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Creation Date:
+      </b>
+      constructed 1220-1472, restored 1967-1972
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <b>
+    Creator Display:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      unknown architect, constructed under Walter De Gray (British archbishop, died 1255), restoration by Bernard Feilden (English architect and conservator, born 1919) and Ove Arup &amp; Partners (British engineering firm and architectural firm, contemporary)  [preferred,VP]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      restorer
+      <a href="/vow/ULANFullDisplay?subjectid=500110328&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Feilden, Bernard (English architect and conservator, born 1919)
+      </a>
+      [500110328]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      architect
+      <a href="/vow/ULANFullDisplay?subjectid=500125274&amp;find=&amp;role=&amp;nation=&amp;page=">
+       unknown (unknown cultural designation)
+      </a>
+      [500125274]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      restorer
+      <a href="/vow/ULANFullDisplay?subjectid=500207783&amp;find=&amp;role=&amp;nation=&amp;page=">
+       Ove Arup &amp; Partners (British engineering firm and architectural firm, contemporary)
+      </a>
+      [500207783]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="40">
+     </td>
+     <td>
+      overseer
+      <a href="/vow/ULANFullDisplay?subjectid=500356783&amp;find=&amp;role=&amp;nation=&amp;page=">
+       De Gray, Walter (British archbishop, died 1255)
+      </a>
+      [500356783]
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCreationDate" width="758">
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableLocations" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Locations:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Locpage1">
+      <b>
+       Current:
+      </b>
+      <a href="/vow/TGNFullDisplay?subjectid=7011995&amp;english=Y&amp;find=&amp;place=&amp;nation=">
+       York
+      </a>
+      [7011995] York (unitary authority), England (country), United Kingdom (nation), Europe (continent), World (facet) (Geographic)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableMaterials" width="758">
+    <tr>
+     <td>
+      <b>
+       Display Materials:
+      </b>
+      oolite and stained glass
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300011310&amp;find=&amp;logic=&amp;note=&amp;page=">
+       oolite
+      </a>
+      [300011310]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material, rock (inorganic material), sedimentary rock, &lt;sedimentary rock by form&gt;)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300010853&amp;find=&amp;logic=&amp;note=&amp;page=">
+       stained glass (material)
+      </a>
+      [300010853]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Materials Facet, Materials (hierarchy name), materials (matter), &lt;materials by composition&gt;, inorganic material, glass (material), &lt;glass by technique&gt;)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300386948&amp;find=&amp;logic=&amp;note=&amp;page=">
+       stonemasonry
+      </a>
+      [300386948]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .......(Activities Facet, Processes and Techniques (hierarchy name), &lt;processes and techniques by specific type&gt;, &lt;processes and techniques by material&gt;)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDimensions" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Dimensions:
+      </b>
+      unavailable
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableEvents" width="758">
+   </table>
+   <b>
+    Events:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      consecration: 3 July 1472
+      <a href="/vow/TGNFullDisplay?subjectid=7011995&amp;english=Y&amp;find=&amp;place=&amp;nation=">
+       York
+      </a>
+      [7011995] (York (unitary authority), England (country), United Kingdom (nation), Europe (continent), World (facet))
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableCultures" width="758">
+   </table>
+   <b>
+    Cultures:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      British (preferred)
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      English
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableStyles" width="758">
+   </table>
+   <b>
+    Style/Period/Group/Movement:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="/vow/AATFullDisplay?subjectid=300020775&amp;find=&amp;logic=&amp;note=&amp;page=">
+       Gothic (Medieval)
+      </a>
+      [300020775] (preferred,period)
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....(Styles and Periods Facet, Styles and Periods (hierarchy name), &lt;styles| periods| and cultures by region&gt;, European, Medieval styles and periods, Medieval (European))
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableGeneralSubjects" width="758">
+   </table>
+   <b>
+    General Subject:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      architecture (preferred,isness )
+     </td>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      religion and mythology (purpose )
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableDepictedSubjects" width="758">
+   </table>
+   <b>
+    Specific Subjects:
+   </b>
+   <table border="0" cellpadding="0" cellspacing="2" width="758">
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      <a href="CONAIconographyRecord.aspx?iconid=1000056">
+       Saint Peter
+      </a>
+      [1000056]
+     </td>
+    </tr>
+    <tr>
+     <td width="20">
+     </td>
+     <td>
+      .....((Christian characters, Christian iconography, Religion, Mythology, and Legend)) (ICON)
+     </td>
+    </tr>
+   </table>
+   <br/>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOutsideIcon" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableOtherDisplays" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAssociativeRels" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="2" id="TableParentHierarchy" width="758">
+    <tr>
+     <td class="Hierpage">
+      <b>
+       List/Hierarchical Position:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000000&amp;alpha=">
+      </a>
+      .....
+      <a href="CONAFullSubject.aspx?subid=700000000">
+       Top of the CONA hierarchy
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      <a href="CONAHierarchy.aspx?subid=700000001&amp;alpha=">
+      </a>
+      ..........
+      <a href="CONAFullSubject.aspx?subid=700000001">
+       Built Works
+      </a>
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableAdditionalNotes" width="758">
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSourcesContribs" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Sources and Contributors:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      York Minster
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000007">
+       JPGM
+      </a>
+      ,
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052652">
+       Library of Congress Authorities online (2002-)
+      </a>
+      n50070955; accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052772">
+       Built Works Registry (2015-)
+      </a>
+      BWR3790673; accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052724">
+       York Minster [online] (2015-)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052723">
+       History of York (2015-)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Cathedral and Metropolitical Church of St Peter in York
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052723">
+       History of York (2015-)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Minster
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052772">
+       Built Works Registry (2015-)
+      </a>
+      accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      York Cathedral
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052652">
+       Library of Congress Authorities online (2002-)
+      </a>
+      n50070955; accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      St. Peter's Cathedral
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052652">
+       Library of Congress Authorities online (2002-)
+      </a>
+      n50070955; accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Metropolitan Church of St. Peter, York
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052652">
+       Library of Congress Authorities online (2002-)
+      </a>
+      n50070955; accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Dean &amp; Chapter of York
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052652">
+       Library of Congress Authorities online (2002-)
+      </a>
+      n50070955; accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage" valign="bottom">
+      Dean and Chapter of York
+     </td>
+     <td class="page" valign="bottom">
+      ........ [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      ........
+      <a href="CONASource.aspx?sourceid=2000052652">
+       Library of Congress Authorities online (2002-)
+      </a>
+      n50070955; accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableSubjectSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Subject:
+      </b>
+      ....... [
+      <a href="CONAContributor.aspx?contribid=10000007">
+       JPGM
+      </a>
+      ,
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      .......................
+      <a href="CONASource.aspx?sourceid=2000052723">
+       History of York (2015-)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      .......................
+      <a href="CONASource.aspx?sourceid=2000052724">
+       York Minster [online] (2015-)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      .......................
+      <a href="CONASource.aspx?sourceid=2000052773">
+       Engineering Timelines (2015-)
+      </a>
+      accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      .......................
+      <a href="CONASource.aspx?sourceid=2000052772">
+       Built Works Registry (2015-)
+      </a>
+      accessed 25 February 2015
+     </td>
+    </tr>
+    <tr>
+     <td class="Sourcepage">
+      .......................
+      <a href="CONASource.aspx?sourceid=2000052726">
+       Simpson, Yorkshire (2009)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+   <table border="0" cellpadding="0" cellspacing="0" id="TableNoteSources" width="758">
+    <tr>
+     <td class="page">
+      <b>
+       Note:
+      </b>
+     </td>
+    </tr>
+    <tr>
+     <td align="right" class="page">
+      English
+     </td>
+     <td class="page">
+      ..... [
+      <a href="CONAContributor.aspx?contribid=10000000">
+       VP
+      </a>
+      ]
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052723">
+       History of York (2015-)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052727">
+       Beckett and Hornak, York Minster (1981)
+      </a>
+      5-7
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052726">
+       Simpson, Yorkshire (2009)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+     <td>
+     </td>
+     <td class="page">
+      .....
+      <a href="CONASource.aspx?sourceid=2000052725">
+       Brown, Our Magnificent Fabrick (2003)
+      </a>
+      accessed 7 January 2015
+     </td>
+    </tr>
+    <tr>
+    </tr>
+   </table>
+  </div>
+  <table border="0" cellpadding="0" cellspacing="0" width="736">
+   <tr>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td bgcolor="#cccccc" colspan="6">
+    </td>
+   </tr>
+   <tr>
+    <td colspan="6">
+    </td>
+   </tr>
+  </table>
+  <a href="/research/tools/vocabularies/cona/">
+  </a>
+  <!-- END PRINT -->
+  <table>
+   <tr>
+    <td colspan="3" valign="top">
+     <br/>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+    <td>
+    </td>
+   </tr>
+   <tr>
+    <td colspan="5" valign="top">
+     <!-- start getty identifier -->
+     <table align="left" border="0" cellpadding="0" cellspacing="0" width="294">
+      <tr>
+       <td rowspan="2" valign="top" width="38">
+       </td>
+       <td valign="bottom" width="256">
+        <br/>
+        <span class="nav_on">
+         The J. Paul Getty Trust
+        </span>
+        <br/>
+       </td>
+      </tr>
+      <tr>
+       <td valign="top">
+        <br/>
+        <div class="nav">
+         <a href="/legal/copyright.html">
+          © 2004 J. Paul Getty Trust
+          <br/>
+          Terms of Use
+         </a>
+         /
+         <a href="/legal/privacy.html">
+          Privacy Policy
+         </a>
+         /
+         <a href="/about/contact_us.html">
+          Contact Us
+         </a>
+        </div>
+        <p>
+        </p>
+       </td>
+      </tr>
+     </table>
+     <!-- end getty identifier -->
+    </td>
+    <td>
+    </td>
+   </tr>
+  </table>
+  <!-- MPS Google Analytics, start -->
+  <!-- MPS Google Analytics, end -->
+ </body>
+</html>
