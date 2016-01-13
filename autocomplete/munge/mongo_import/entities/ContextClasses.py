@@ -1,17 +1,12 @@
 class ContextualClass:
 
     from pymongo import MongoClient
-    from xml.etree import ElementTree as ET
 
     MONGO_HOST = 'mongodb://mongo2.eanadev.org'
     MONGO_PORT = 27017
     CLIENT = MongoClient(MONGO_HOST, MONGO_PORT)
     CHUNK_SIZE = 100
     WRITEDIR = 'entities_out'
-
-    AA = 'Associative array'
-    SC = 'Scalar'
-    VR = 'Vector'
 
     def __init__(self, name, entity_class):
         self.mongo_entity_class = entity_class
@@ -28,11 +23,8 @@ class ContextualClass:
             start += ContextualClass.CHUNK_SIZE
 
     def build_solr_doc(self, entity_list, start):
-        """
-    :   param entity_list: Cursor
-    :   return: None
-        """
         from xml.etree import ElementTree as ET
+
         docroot = ET.Element('add')
         for entity in entity_list:
             self.build_entity_doc(docroot, entity)
@@ -54,6 +46,7 @@ class ContextualClass:
         reparsed = minidom.parseString(roughstring)
         reparsed.writexml( open(writepath, 'w'), indent="    ", addindent="    ", newl="\n")
         reparsed.unlink()
+        print("Complete") # TODO: change to Celery output
 
 class Concept(ContextualClass):
 
@@ -71,17 +64,12 @@ class Concept(ContextualClass):
         for key, value in entity_rows.items():
             if(key == 'about'): continue
             field_name = "skos_" + key
-            field_value = ""
             t = type(value)
-            print(t)
             if(t is str):
-                print('string')
                 self.add_field(doc, field_name, value)
             elif(t is list):
-                print('list')
                 [self.add_field(doc, field_name, i) for i in value]
             elif(t is dict):
-                print('dict')
                 for subkey, subvalue in value.items():
                     qualified_field_name = field_name + "." + subkey
                     for sv in subvalue:
