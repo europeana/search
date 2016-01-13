@@ -7,7 +7,6 @@ class Indexer:
 
     def index_file(self, filepath):
         import requests
-
         file = {'file': ( filepath, open(filepath, 'rb'), 'text/xml', {'Expires': '0'})}
         r = requests.post(self.update, files=file)
         return r.status_code
@@ -16,8 +15,8 @@ class Indexer:
         import requests
 
         commit_url = self.update + "?commit=true"
-        resp = requests.get(commit_url)
-        return resp.status
+        r = requests.get(commit_url)
+        return r.status_code
 
 
 
