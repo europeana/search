@@ -80,9 +80,15 @@
         <!-- these fields all consist of URI identifiers -->
         <field name="skos_closeMatch" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_broadMatch" type="string" indexed="true" stored="true" multiValued="true"/>
-        <field name="skos_exactMatch" type="string" indexed="true" stored="true" multiValued="true"/>    
+        <field name="skos_exactMatch" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="skos_relatedMatch" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_inScheme" type="string" indexed="true" stored="true" multiValued="true"/>    
-        <field name="skos_broader" type="string" indexed="true" stored="true" multiValued="true"/>    
+        <field name="skos_broader" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="skos_related" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="skos_narrower" type="string" indexed="true" stored="true" multiValued="true"/>
+
+        <field name="skos_notation" type="string" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="skos_note.*" type="text" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_note" type="text" indexed="true" stored="true" multiValued="false"/>
     </fields>
     <uniqueKey>europeana_id</uniqueKey>
@@ -92,12 +98,19 @@
     <!-- For Concepts -->
     <copyField source="skos_prefLabel.*" dest="skos_prefLabel"/>
     <copyField source="skos_altLabel.*" dest="skos_altLabel"/>
+    <copyField source="skos_note.*" dest="skos_note"/>
     <copyField source="skos_prefLabel.*" dest="text"/>
     <copyField source="skos_altLabel.*" dest="text"/>
+    <copyField source="skos_note.*" dest="text"/>
     <copyField source="skos_note" dest="text"/>
     <copyField source="skos_closeMatch" dest="text"/>
     <copyField source="skos_broadMatch" dest="text"/>
     <copyField source="skos_exactMatch" dest="text"/>
     <copyField source="skos_inScheme" dest="text"/>
     <copyField source="skos_broader" dest="text"/>
+    <copyField source="skos_related" dest="text"/>
+    <copyField source="skos_relatedMatch" dest="text"/>
+    <copyField source="skos_notation" dest="text"/>
+    <copyField source="skos_narrower" dest="text"/>
+    <copyField source="class_name_short" dest="text"/>
 </schema>
