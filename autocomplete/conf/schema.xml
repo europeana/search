@@ -89,7 +89,7 @@
 
         <field name="skos_notation" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="skos_note.*" type="text" indexed="true" stored="true" multiValued="true"/>
-        <field name="skos_note" type="text" indexed="true" stored="true" multiValued="false"/>
+        <field name="skos_note" type="text" indexed="true" stored="true" multiValued="true"/>
     </fields>
     <uniqueKey>europeana_id</uniqueKey>
     <defaultSearchField>text</defaultSearchField>
