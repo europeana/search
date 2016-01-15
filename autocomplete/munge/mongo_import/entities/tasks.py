@@ -1,17 +1,42 @@
 from celery import Celery, chain, group
-import ContextClasses, Indexer
+from celery.utils.log import get_task_logger
+from requests import ConnectionError
+from pymongo.errors import ServerSelectionTimeoutError
+
+import ContextClassHarvesters, Indexer
 
 app = Celery('tasks', broker='redis://localhost:6379/', backend='redis://localhost:6379/')
+logger = get_task_logger(__name__)
 
-@app.task(name='mongo_import.build_file')
-def build_file(start):
-    concept = ContextClasses.Concept()
-    entity_list = concept.build_entity_chunk(start)
-    status = concept.build_solr_doc(entity_list, start)
-    return status
+@app.task(name='mongo_import.get_count', bind=True, default_retry_delay=3, max_retries=5)
+def get_count(self):
+    try:
+        concept = ContextClassHarvesters.ConceptHarvester()
+        entity_count = concept.get_entity_count()
+        return entity_count
+    # note that we don't handle all possible exceptions
+    # Celery will pass most errors and exceptions onto the logger
+    # and set the task status to failure if left unhandled
+    # most of the time this is what we want
+    except ServerSelectionTimeoutError as ss:
+        raise self.retry(exc=ss)
 
-@app.task(name="mongo_import.index_file")
-def index_file(writepath):
-    print(writepath + "!")
+@app.task(name='mongo_import.build_file', bind=True, default_retry_delay=300, max_retries=5)
+def build_file(self, start):
+    try:
+        concept = ContextClassHarvesters.ConceptHarvester()
+        entity_list = concept.build_entity_chunk(start)
+        status = concept.build_solr_doc(entity_list, start)
+        return status
+    except ServerSelectionTimeoutError as ss:
+        raise self.retry(exc=ss)
+
+@app.task(name="mongo_import.index_file", bind=True, default_retry_delay=300, max_retries=5)
+def index_file(self, writepath):
     solr_indexer = Indexer.Indexer()
-    solr_indexer.index_file(writepath)
+    try:
+        solr_indexer.index_file(writepath)
+    except Indexer.UndefinedFieldException as ufe:
+        logger.error(ufe)
+    except ConnectionError as ce:
+        raise self.retry(exc=ce)
