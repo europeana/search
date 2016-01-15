@@ -86,10 +86,11 @@
         <field name="skos_broader" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_related" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_narrower" type="string" indexed="true" stored="true" multiValued="true"/>
-
-        <field name="skos_notation" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="skos_narrowMatch" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="skos_note.*" type="text" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_note" type="text" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="skos_notation.*" type="text" indexed="true" stored="true" multiValued="true"/>
+        <field name="skos_notation" type="text" indexed="true" stored="true" multiValued="true"/>
     </fields>
     <uniqueKey>europeana_id</uniqueKey>
     <defaultSearchField>text</defaultSearchField>
@@ -103,8 +104,11 @@
     <copyField source="skos_altLabel.*" dest="text"/>
     <copyField source="skos_note.*" dest="text"/>
     <copyField source="skos_note" dest="text"/>
+    <copyField source="skos_notation.*" dest="text"/>
+    <copyField source="skos_notation" dest="text"/>
     <copyField source="skos_closeMatch" dest="text"/>
     <copyField source="skos_broadMatch" dest="text"/>
+    <copyField source="skos_narrowMatch" dest="text"/>
     <copyField source="skos_exactMatch" dest="text"/>
     <copyField source="skos_inScheme" dest="text"/>
     <copyField source="skos_broader" dest="text"/>
