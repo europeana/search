@@ -69,9 +69,8 @@ class ConceptHarvester(ContextClassHarvester):
 
         doc = ET.SubElement(docroot, 'doc')
         id = entity_rows['about']
-        self.add_field(doc, 'europeana_id', id)
-        self.add_field(doc, 'class_name', self.mongo_entity_class)
-        self.add_field(doc, 'class_name_short', ContextClassHarvester.JAVA_TO_FRIENDLY_MAP[self.mongo_entity_class])
+        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'internal_type', ContextClassHarvester.JAVA_TO_FRIENDLY_MAP[self.mongo_entity_class])
         for key, value in entity_rows.items():
             if(key == 'about'): continue
             field_name = "skos_" + key
@@ -82,7 +81,8 @@ class ConceptHarvester(ContextClassHarvester):
                 [self.add_field(doc, field_name, i) for i in value]
             elif(t is dict):
                 for subkey, subvalue in value.items():
-                    qualified_field_name = field_name + "." + subkey
+                    # string 'def' is used to indicate absence of a language code
+                    qualified_field_name = field_name + "." + subkey if (subkey != "def") else field_name
                     for sv in subvalue:
                         self.add_field(doc, qualified_field_name, sv)
 
