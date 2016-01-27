@@ -65,12 +65,29 @@ class ConceptHarvester(ContextClassHarvester):
         return concepts_chunk
 
     def build_entity_doc(self, docroot, entity_rows):
+        import sys
+        sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
+        import RelevanceCounter
 
         doc = ET.SubElement(docroot, 'doc')
         id = entity_rows['about']
         self.add_field(doc, 'entity_id', id)
         self.add_field(doc, 'internal_type', ContextClassHarvester.JAVA_TO_FRIENDLY_MAP[self.mongo_entity_class])
+        euc = RelevanceCounter.EuDocRelevanceCounter()
+        euc_count = euc.get_new_term_count(id)
+        dbcount = 1 if('exactMatch' not in entity_rows) else len(entity_rows['exactMatch'])
+        dbp = RelevanceCounter.DbpediaRelevanceCounter(dbcount)
+        dbp_count = dbp.get_term_count(dbcount)
+        pref_label_en = entity_rows['prefLabel']['en']
+        wpc = RelevanceCounter.WpediaRelevanceCounter()
+        wpc_count = wpc.get_new_term_count(pref_label_en)
+        self.add_field(doc, 'europeana_doc_count', euc_count)
+        self.add_field(doc, 'dbpedia_sameas_count', dbp_count)
+        self.add_field(doc, 'wikipedia_clicks', wpc_count)
+        tmp_wpc_count = abs(wpc_count)
+        ds = euc_count * wpc_count
+        self.add_field(doc, 'derived_score', tmp_wpc_count)
         for key, value in entity_rows.items():
             if(key == 'about'): continue
             field_name = "skos_" + key
