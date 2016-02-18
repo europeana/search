@@ -16,7 +16,7 @@ def get_all_places():
 
 @app.task(name='mongo_import.build_solr_qs', bind=True, default_retry_delay=3, max_retries=5)
 def build_solr_qs(self, place):
-    solr_url = "http://sol1.ingest.eanadev.org:9191/solr/search_1/search?rows=0&wt=json&q="
+    solr_url = "http://sol1.ingest.org:9191/solr/search_1/search?rows=0&wt=json&q="
     ol = place['originalCodeUri']
     solr_qry = solr_url + "\"" + ol + "\""
     qo = {}
