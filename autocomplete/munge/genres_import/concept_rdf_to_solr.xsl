@@ -11,7 +11,8 @@
         <xsl:for-each select="/rdf:RDF/skos:Concept">
             <doc>
                 <field name="europeana_id"><xsl:value-of select="@rdf:about"/></field>
-                <field name="edm_conceptualClass">Concept</field>
+                <field name="class_name">eu.europeana.corelib.solr.entity.ConceptImpl</field>
+                <field name="class_name_short">Concept</field>
                 <xsl:apply-templates/>
             </doc>
         </xsl:for-each>
