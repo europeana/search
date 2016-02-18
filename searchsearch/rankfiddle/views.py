@@ -6,7 +6,7 @@ from .models import MAX_QUERY_LENGTH
 import requests
 import json
 
-SOLR_SHARD_SIMPLE = 'http://sol1.ingest.eanadev.org:9191/solr/search_1/search'
+SOLR_SHARD_SIMPLE = 'http://sol1.eanadev.org:9191/solr/search_1/search'
 
 class QueryBoostForm(forms.Form):
 
@@ -41,7 +41,8 @@ class QueryBoostForm(forms.Form):
     query_choice = [('', '------------')]
     for row in Query.objects.all().order_by('query_text'):
         query_choice.append((row.query_text, row.query_text))
-    query = forms.ChoiceField(label="Query", choices=query_choice, widget=forms.Select(attrs={ 'id' : 'query-selector'}), initial='')
+    query_freetext = forms.CharField(label="Query", max_length=200, widget=forms.TextInput(attrs={ 'id' : 'query-freetext'}), initial='')
+    query_dropdown = forms.ChoiceField(label="or choose from top queries", choices=query_choice, widget=forms.Select(attrs={ 'id' : 'query-selector'}), initial='')
     ps = forms.DecimalField(label="Phrase Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
     ps2 = forms.DecimalField(label="Bigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
     ps3 = forms.DecimalField(label="Trigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
@@ -52,7 +53,10 @@ def index(request):
     if request.method == 'POST':
         quf = QueryBoostForm(request.POST)
         if(quf.is_valid()):
-            q = quf.cleaned_data['query'] if quf.cleaned_data['query'].strip() != '' else '*:*'
+            query_freetext = quf.cleaned_data['query_freetext'].strip()
+            query_dropdown = quf.cleaned_data['query_dropdown'].strip()
+            q = query_freetext if query_freetext != '' else query_dropdown
+            q = q if q != '' else '*:*'
             boosts = build_boosts(quf.cleaned_data, "field", 16)
             phrase_boosts = build_boosts(quf.cleaned_data, "phrase_field", 11)
             bigram_boosts = build_boosts(quf.cleaned_data, "trigram_field", 11)
@@ -88,6 +92,7 @@ def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     if(len(pf3) > 0): solr_url += "&pf3=" + pf3
     if(ps3 != 1.0): solr_url += "&ps3=" + str(ps3)
     if(tibr != 0.0): solr_url += "&tie=" + str(tibr)
+    solr_url += "&fl=*"
     solr_url += "&echoParams=all"
     solr_url += "&rows=25"
     solr_url += "&wt=json"
