@@ -1,12 +1,26 @@
 $(document).ready(function(){
 
+    var deactivate_query_freetext = function(){
+
+        $(this).attr('disabled', false);
+        $("#query-freetext").val('');
+  //      $("#query-freetext").attr('disabled', true);
+
+    }
+
+    var deactivate_query_selector = function(){
+
+        $(this).attr('disabled', false);
+        $("#query-selector").val('');
+    //    $("#query-selector").attr('disabled', true);
+
+    }
 
     var make_field_boosts_first = function(){
 
         var last_add = $("p:has('#query-selector')");
         var field_type;
         $("p:has('.boost-field')").each(function(){
-
 
             if($(this).children('.phrase-boost-field').length > 0){ field_type = "phrase"; }
             else if($(this).children('.bigram-boost-field').length > 0){ field_type = "bigram"; }
@@ -100,6 +114,8 @@ $(document).ready(function(){
     hide_extra_field_boosts();
     add_field_adders();
     line_up_slops();
+    $("#query-freetext").focus(deactivate_query_selector)
+    $("#query-selector").focus(deactivate_query_freetext)
 
   // TODO: MoreLikeThis fiddle
 
