@@ -57,21 +57,31 @@ def get_place_records(self, id):
     from pymongo import MongoClient
     try:
         cl = MongoClient('136.243.103.29', 27017)
-        records = cl.annocultor_db.place.find({ 'originalCodeUri' : id})
-        id_with_labels = populate_id_and_labels(records)
+        id_records = cl.annocultor_db.lookup.find({ 'originalCodeUri' : id})
+        new_ids = get_new_ids(id_records)
+        id_with_labels = populate_id_and_labels(cl, id, new_ids)
     except ServerSelectionTimeoutError as ss:
         raise self.retry(exc=ss)
     cl.close()
     return id_with_labels
 
-def populate_id_and_labels(records):
+def get_new_ids(id_records):
+    new_ids = []
+    for idr in id_records:
+        new_ids.append(idr['codeUri'])
+    return new_ids
+
+def populate_id_and_labels(conn, old_id, new_id_list):
+    # so this will give us a triple map
+    # each old id with a map of new ids, composed of name and count
+    # old_id[new_id[label] = count]
     id_with_labels = {}
-    id_with_labels['id'] = ''
-    id_with_labels['label'] = {}
-    for rec in records:
-        id_with_labels['id'] = rec['codeUri']
-        label = rec['originalLabel']
-        id_with_labels['label'][label] = 0
+    id_with_labels['id'] = old_id
+    for new_id in new_id_list:
+        id_with_labels[new_id] = {}
+        new_places = conn.annocultor_db.places.find({ 'codeUri' : new_id })
+        for place in new_places:
+             id_with_labels[new_id][place['originalLabel']] = 0
     return id_with_labels
 
 @app.task(name='mongo_import.get_wpedia_hit_counts', bind=True, default_retry_delay=3, max_retries=5)
