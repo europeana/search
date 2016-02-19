@@ -76,12 +76,12 @@ def populate_id_and_labels(conn, old_id, new_id_list):
     # each old id with a map of new ids, composed of name and count
     # old_id[new_id[label] = count]
     id_with_labels = {}
-    id_with_labels['id'] = old_id
+    id_with_labels[old_id] = {}
     for new_id in new_id_list:
-        id_with_labels['id'][new_id] = {}
+        id_with_labels[old_id][new_id] = {}
         new_places = conn.annocultor_db.place.find({ 'codeUri' : new_id })
         for place in new_places:
-             id_with_labels[new_id][place['originalLabel']] = 0
+             id_with_labels[old_id][new_id][place['originalLabel']] = 0
     return id_with_labels
 
 @app.task(name='mongo_import.get_wpedia_hit_counts', bind=True, default_retry_delay=3, max_retries=5)
