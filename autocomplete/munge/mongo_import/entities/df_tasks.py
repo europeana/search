@@ -94,18 +94,6 @@ def get_wpedia_hit_counts(self, idwl):
     idwl['label'] = temp_labels
     return idwl
 
-@app.task(name='mongo_import.write_wpedia_hits', bind=True, default_retry_delay=3, max_retries=5)
-def write_wpedia_hits(self, idwl):
-    countstring = idwl['id'] + "\t"
-    counter = 0
-    for label, count in idwl['label'].items():
-        counter += count
-    countstring += str(counter)
-    countstring += "\n"
-    with open('all_places_wkpd.txt', 'a') as writefile:
-        writefile.write(countstring)
-    writefile.close()
-
 def build_df_list():
     populated_places = []
     with open("all_places_eu.txt", 'r') as ape:
@@ -117,6 +105,18 @@ def build_df_list():
             if (i % 100000 == 0): print("load " + str(i) +  " freqs");
             i+= 1
     return populated_places
+
+@app.task(name='mongo_import.write_wpedia_hits', bind=True, default_retry_delay=3, max_retries=5)
+def write_wpedia_hits(self, idwl):
+    countstring = idwl['id'] + "\t"
+    counter = 0
+    for label, count in idwl['label'].items():
+        counter += count
+    countstring += str(counter)
+    countstring += "\n"
+    with open('all_places_wkpd.txt', 'a') as writefile:
+        writefile.write(countstring)
+    writefile.close()
 
 
 
