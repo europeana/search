@@ -106,6 +106,19 @@ def write_wpedia_hits(self, idwl):
         writefile.write(countstring)
     writefile.close()
 
+def build_df_list():
+    populated_places = []
+    with open("all_places_eu.txt", 'r') as ape:
+        i = 0
+        for line in ape:
+            (place,freq) = line.split("\t") #decoded!
+            print(place)
+            populated_places.append(place)
+            if (i % 100000 == 0): print("load " + str(i) +  " freqs");
+            i+= 1
+    return populated_places
+
+
 
 
 
