@@ -65,7 +65,7 @@
 
         <!-- Relevance fields -->
         <field name="dbpedia_doc_count" type="int" indexed="true" stored="true" multiValued="false"/>
-        <field name="europeana doc_count" type="int" indexed="true" stored="true" multiValued="false"/>
+        <field name="europeana_doc_count" type="int" indexed="true" stored="true" multiValued="false"/>
         <field name="wikipedia_clicks" type="int" indexed="true" stored="true" multiValued="false"/>
         <!-- the above three factors are combined (in some fashion) to produce the derived_score,
              which is used directly for ranking -->
@@ -115,5 +115,7 @@
     <copyField source="skos_relatedMatch" dest="text"/>
     <copyField source="skos_notation" dest="text"/>
     <copyField source="skos_narrower" dest="text"/>
-    <copyField source="class_name_short" dest="text"/>
+	<!--
+    <copyField source="internal_type" dest="text"/>
+	-->
 </schema>
