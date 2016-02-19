@@ -89,18 +89,20 @@ def get_wpedia_hit_counts(self, idwl):
     url_base = 'http://stats.grok.se/json/en/latest90/'
     labels = idwl['label']
     temp_labels = {}
-    for label, count in labels.items():
-        search_label = label.replace(" ", "_")
-        count_url = url_base + search_label
-        try:
-            response = requests.get(count_url)
-            counts = response.json()['daily_views']
-            counter = 0
-            for date, date_count in counts.items():
-                counter += date_count
-            temp_labels[label] = counter
-        except ConnectionError as ce:
-            raise self.retry(exc=ce)
+    for old_id, new_id in idwl.items():
+        for new_id, label_map in new_id.items():
+            for label, count in labels.items():
+                search_label = label.replace(" ", "_")
+                count_url = url_base + search_label
+                try:
+                    response = requests.get(count_url)
+                    counts = response.json()['daily_views']
+                    counter = 0
+                    for date, date_count in counts.items():
+                        counter += date_count
+                    temp_labels[label] = counter
+                except ConnectionError as ce:
+                    raise self.retry(exc=ce)
     idwl['label'] = temp_labels
     return idwl
 
