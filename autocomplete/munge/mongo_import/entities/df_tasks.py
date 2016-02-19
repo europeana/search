@@ -57,7 +57,7 @@ def get_place_records(self, id):
     from pymongo import MongoClient
     try:
         cl = MongoClient('136.243.103.29', 27017)
-        records = cl.annocultor_db.place.find({ 'codeUri' : id})
+        records = cl.annocultor_db.place.find({ 'originalCodeUri' : id})
         id_with_labels = populate_id_and_labels(records)
     except ServerSelectionTimeoutError as ss:
         raise self.retry(exc=ss)
@@ -100,7 +100,6 @@ def build_df_list():
         i = 0
         for line in ape:
             (place,freq) = line.split("\t") #decoded!
-            print(place)
             populated_places.append(place)
             if (i % 100000 == 0): print("load " + str(i) +  " freqs");
             i+= 1
