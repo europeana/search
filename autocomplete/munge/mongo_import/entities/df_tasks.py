@@ -87,23 +87,17 @@ def populate_id_and_labels(conn, old_id, new_id_list):
 @app.task(name='mongo_import.get_wpedia_hit_counts', bind=True, default_retry_delay=3, max_retries=5)
 def get_wpedia_hit_counts(self, idwl):
     url_base = 'http://stats.grok.se/json/en/latest90/'
-    labels = idwl['label']
-    temp_labels = {}
     for old_id, new_id in idwl.items():
         for new_id, label_map in new_id.items():
-            for label, count in labels.items():
+            for label, count in label_map.items():
                 search_label = label.replace(" ", "_")
                 count_url = url_base + search_label
                 try:
                     response = requests.get(count_url)
-                    counts = response.json()['daily_views']
-                    counter = 0
-                    for date, date_count in counts.items():
-                        counter += date_count
-                    temp_labels[label] = counter
+                    views = response.json()['daily_views']
+                    label_map[label] = views
                 except ConnectionError as ce:
                     raise self.retry(exc=ce)
-    idwl['label'] = temp_labels
     return idwl
 
 def build_df_list():
