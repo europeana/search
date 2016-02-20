@@ -96,7 +96,7 @@ def get_wpedia_hit_counts(self, idwl):
                     response = requests.get(count_url)
                     all_dates = response.json()['daily_views']
                     counter = 0
-                    for date, views in all_dates:
+                    for date, views in all_dates.items():
                         counter += views
                     label_map[label] = counter
                 except ConnectionError as ce:
