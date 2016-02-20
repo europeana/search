@@ -116,14 +116,13 @@ def build_df_list():
 
 @app.task(name='mongo_import.write_wpedia_hits', bind=True, default_retry_delay=3, max_retries=5)
 def write_wpedia_hits(self, idwl):
-    countstring = idwl['id'] + "\t"
-    counter = 0
-    for label, count in idwl['label'].items():
-        counter += count
-    countstring += str(counter)
-    countstring += "\n"
+    outstring = ""
+    for old_id, new_id in idwl:
+        for new_id, label_map in new_id.items():
+            for label, count in new_id.items():
+                outstring += old_id + "\t" + new_id + "\t" + label + "\t" + str(count) + "\n"
     with open('all_places_wkpd.txt', 'a') as writefile:
-        writefile.write(countstring)
+        writefile.write(outstring)
     writefile.close()
 
 
