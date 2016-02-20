@@ -117,7 +117,7 @@ def build_df_list():
 @app.task(name='mongo_import.write_wpedia_hits', bind=True, default_retry_delay=3, max_retries=5)
 def write_wpedia_hits(self, idwl):
     outstring = ""
-    for old_id, new_id in idwl:
+    for old_id, new_id in idwl.items():
         for new_id, label_map in new_id.items():
             for label, count in new_id.items():
                 outstring += old_id + "\t" + new_id + "\t" + label + "\t" + str(count) + "\n"
