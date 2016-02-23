@@ -48,7 +48,7 @@ class ContextClassHarvester:
         reparsed = minidom.parseString(roughstring)
         reparsed = reparsed.toprettyxml(encoding='utf-8', indent="     ").decode('utf-8')
         with open(writepath, 'w') as writefile:
-            writefile.write(reparsed.encode('utf-8'))
+            writefile.write(reparsed)
             writefile.close()
         return writepath
 
@@ -199,8 +199,9 @@ class PlaceHarvester(ContextClassHarvester):
         i = 0
         for place_id in self.place_ids[start:start + ContextClassHarvester.CHUNK_SIZE]:
             place = self.legacy_mongo.europeana.Place.find_one({ 'about' : place_id })
-            places[i] = place
-            i += 1
+            if(place is not None):
+                places[i] = place
+                i += 1
         return places
 
     def build_entity_doc(self, docroot, entity_id, entity):
@@ -219,9 +220,11 @@ class PlaceHarvester(ContextClassHarvester):
             wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
             self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
             self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
-            for lang_code, label in entity['prefLabel']:
+            print(entity['prefLabel'])
+            for lang_code, label_list in entity['prefLabel'].items():
                 suffix = '.' + lang_code if lang_code != 'def' else ''
                 tagname = 'skos_prefLabel' + suffix
-                self.add_field(doc, tagname, label)
+                for label in label_list:
+                    self.add_field(doc, tagname, label)
 
 
