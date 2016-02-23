@@ -197,13 +197,16 @@ class PlaceHarvester(ContextClassHarvester):
         i = 0
         for place in places:
             place_hash[i] = place
+            i += 1
         return place_hash
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
         import sys
+        print(entity_rows)
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-        for entity_row in entity_rows[entity_id]:
+        for entity_row in entity_rows:
+            print(entity_row)
             id = entity_row['about']
             countkey = id + "|" + lang_code
             hitcount = self.pl_rc.get_term_count(countkey)
