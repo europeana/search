@@ -100,7 +100,7 @@ class AgentHarvester(ContextClassHarvester):
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
         self.ag_rc = RelevanceCounter.AgentRelevanceCounter()
-        self.legacy_mongo = MongoClient('mongodb://mongo2.eanadev.org', ContextClassHarvester.MONGO_PORT)
+        self.legacy_mongo = MongoClient('mongodb://mongo1.eanadev.org', ContextClassHarvester.MONGO_PORT)
 
     def get_entity_count(self):
         agents = self.client.annocultor_db.people.distinct( 'codeUri' )
@@ -186,7 +186,7 @@ class PlaceHarvester(ContextClassHarvester):
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
         self.pl_rc = RelevanceCounter.PlaceRelevanceCounter()
-        self.legacy_mongo = MongoClient('mongodb://mongo2.eanadev.org', ContextClassHarvester.MONGO_PORT)
+        self.legacy_mongo = MongoClient('mongodb://mongo1.eanadev.org', ContextClassHarvester.MONGO_PORT)
 
     def get_entity_count(self):
         return self.legacy_mongo.europeana.Place.find({}).count()
@@ -205,7 +205,7 @@ class PlaceHarvester(ContextClassHarvester):
             hitcount = self.pl_rc.get_term_count(countkey)
             eu_count = hitcount['eu_df']
             wk_count_90_days = hitcount['wpedia_clicks']
-            if(eu_count > 0):
+            if(eu_count > 0): # filter out all entities not found in our collections (doh!)
                 doc = ET.SubElement(docroot, 'doc')
                 self.add_field(doc, 'entity_id', id)
                 self.add_field(doc, 'internal_type', 'Place')
