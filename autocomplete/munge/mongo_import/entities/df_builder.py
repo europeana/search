@@ -15,5 +15,6 @@ from df_tasks import *
 #  export_agents()
 
 # all_places = get_unique_place_ids()
-wkpd_counts = group(chain( get_place_records.s(place) | get_wpedia_hit_counts.s().set(countdown=0.hi1) | write_wpedia_hits.s()  ) for place in build_df_list())
-wkpd_counts()
+# wkpd_counts = group(chain( get_place_records.s(place) | get_wpedia_hit_counts.s().set(countdown=0.1) | write_wpedia_hits.s()  ) for place in build_df_list())
+# wkpd_counts()
+

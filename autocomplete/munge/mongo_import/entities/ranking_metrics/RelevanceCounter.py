@@ -135,8 +135,6 @@ class DbpediaRelevanceCounter(RelevanceCounter):
 class AgentRelevanceCounter(RelevanceCounter):
 
     def __init__(self):
-        import json
-
         RelevanceCounter.__init__(self, 'agent_relevance')
         self.build_dictionary()
 
@@ -159,4 +157,33 @@ class AgentRelevanceCounter(RelevanceCounter):
             return agent_dict
         except KeyError:
             return { 'wpedia_clicks': 0, 'eu_df': 0 }
+
+class PlaceRelevanceCounter(RelevanceCounter):
+
+    def __init__(self):
+        RelevanceCounter.__init__(self, 'place_relevance')
+        self.build_dictionary()
+
+    def build_dictionary(self):
+        # parse sorted_both_places file into handy dictionary
+        self.freqs = {}
+        with open('ranking_metrics/resources/place_metrics.tsv') as pm:
+            for line in pm:
+                (old_id, new_id, label, wk_count, eu_count) = line.split("\t")
+                hash_key = old_id + "|" + label
+                self.freqs[hash_key] = {}
+                self.freqs[hash_key]['new_id'] = new_id
+                self.freqs[hash_key]['wk_hits'] = wk_count.strip()
+                self.freqs[hash_key]['eu_hits'] = eu_count.strip()
+
+    def get_term_count(self, qry_term):
+        try:
+            place_dict = {}
+            place_dict['wpedia_clicks'] = self.freqs[qry_term]['wk_hits']
+            place_dict['eu_df'] = self.freqs[qry_term]['eu_hits']
+            return place_dict
+        except KeyError:
+            return { 'wpedia_clicks': 0, 'eu_df': 0 }
+
+
 

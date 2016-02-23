@@ -54,6 +54,29 @@ def build_agent_file(self, start):
     except ServerSelectionTimeoutError as ss:
         raise self.retry(exc=ss)
 
+@app.task(name='mongo_import.get_place_count', bind=True, default_retry_delay=3, max_retries=5)
+def get_place_count(self):
+    try:
+        ph = ContextClassHarvesters.PlaceHarvester()
+        entity_count = ph.get_entity_count()
+        return entity_count
+    # note that we don't handle all possible exceptions
+    # Celery will pass most errors and exceptions onto the logger
+    # and set the task status to failure if left unhandled
+    # most of the time this is what we want
+    except ServerSelectionTimeoutError as ss:
+        raise self.retry(exc=ss)
+
+@app.task(name='mongo_import.build_place_file', bind=True, default_retry_delay=300, max_retries=5)
+def build_place_file(self, start):
+    try:
+        pl = ContextClassHarvesters.PlaceHarvester()
+        entity_list = pl.build_entity_chunk(start)
+        status = pl.build_solr_doc(entity_list, start)
+        return status
+    except ServerSelectionTimeoutError as ss:
+        raise self.retry(exc=ss)
+
 @app.task(name="mongo_import.index_file", bind=True, default_retry_delay=300, max_retries=5)
 def index_file(self, writepath):
     solr_indexer = Indexer.Indexer()

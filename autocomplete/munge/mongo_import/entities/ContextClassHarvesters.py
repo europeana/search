@@ -176,3 +176,46 @@ class AgentHarvester(ContextClassHarvester):
                     qualified_field_name = field_name + "." + subkey if (subkey != "def") else field_name
                     for sv in subvalue:
                         self.add_field(document, qualified_field_name, sv)
+
+class PlaceHarvester(ContextClassHarvester):
+
+    def __init__(self):
+        import sys
+        sys.path.append('ranking_metrics')
+        import RelevanceCounter
+        from pymongo import MongoClient
+        ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
+        self.pl_rc = RelevanceCounter.PlaceRelevanceCounter()
+        self.legacy_mongo = MongoClient('mongodb://mongo2.eanadev.org', ContextClassHarvester.MONGO_PORT)
+
+    def get_entity_count(self):
+        return self.legacy_mongo.europeana.Place.find({}).count()
+
+    def build_entity_chunk(self, start):
+        places = self.legacy_mongo.europeana.Place.distinct( 'about')[start:ContextClassHarvester.CHUNK_SIZE]
+        return places
+
+    def build_entity_doc(self, docroot, entity_id, entity_rows):
+        import sys
+        sys.path.append('ranking_metrics')
+        from xml.etree import ElementTree as ET
+        for entity_row in entity_rows:
+            id = entity_row['about']
+            countkey = id + "|" + lang_code
+            hitcount = self.pl_rc.get_term_count(countkey)
+            eu_count = hitcount['eu_df']
+            wk_count_90_days = hitcount['wpedia_clicks']
+            if(eu_count > 0):
+                doc = ET.SubElement(docroot, 'doc')
+                self.add_field(doc, 'entity_id', id)
+                self.add_field(doc, 'internal_type', 'Place')
+                self.add_field(doc, 'europeana_doc_count', str(eu_count))
+                wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
+                self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
+                self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
+                for lang_code, label in entity_rows['prefLabel']:
+                    suffix = '.' + lang_code if lang_code != 'def' else ''
+                    tagname = 'skos_prefLabel' + suffix
+                    self.add_field(doc, tagname, label)
+
+
