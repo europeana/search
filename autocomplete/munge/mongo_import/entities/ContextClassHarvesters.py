@@ -203,7 +203,7 @@ class PlaceHarvester(ContextClassHarvester):
         import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-        for entity_row in entity_rows:
+        for entity_row in entity_rows[entity_id]:
             id = entity_row['about']
             countkey = id + "|" + lang_code
             hitcount = self.pl_rc.get_term_count(countkey)
