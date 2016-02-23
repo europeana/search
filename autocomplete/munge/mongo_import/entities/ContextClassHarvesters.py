@@ -193,7 +193,11 @@ class PlaceHarvester(ContextClassHarvester):
 
     def build_entity_chunk(self, start):
         places = self.legacy_mongo.europeana.Place.find({})[start:ContextClassHarvester.CHUNK_SIZE]
-        return places
+        place_hash = {}
+        i = 0
+        for place in places:
+            place_hash[i] = place
+        return place_hash
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
         import sys
