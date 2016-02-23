@@ -187,42 +187,41 @@ class PlaceHarvester(ContextClassHarvester):
         ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
         self.pl_rc = RelevanceCounter.PlaceRelevanceCounter()
         self.legacy_mongo = MongoClient('mongodb://mongo1.eanadev.org', ContextClassHarvester.MONGO_PORT)
+        self.place_ids = []
+        for key, value in self.pl_rc.freqs.items():
+            self.place_ids.append(key)
 
     def get_entity_count(self):
-        return self.legacy_mongo.europeana.Place.find({}).count()
+        return len(self.place_ids)
 
     def build_entity_chunk(self, start):
-        places = self.legacy_mongo.europeana.Place.find({})[start:ContextClassHarvester.CHUNK_SIZE]
-        place_hash = {}
+        places = {}
         i = 0
-        for place in places:
-            place_hash[i] = place
+        for place_id in self.place_ids[start:start + ContextClassHarvester.CHUNK_SIZE]:
+            place = self.legacy_mongo.europeana.Place.find_one({ 'about' : place_id })
+            places[i] = place
             i += 1
-        return place_hash
+        return places
 
-    def build_entity_doc(self, docroot, entity_id, entity_rows):
+    def build_entity_doc(self, docroot, entity_id, entity):
         import sys
-        print(entity_rows)
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-        for entity_row in entity_rows:
-            print(entity_row)
-            id = entity_row['about']
-            countkey = id + "|" + lang_code
-            hitcount = self.pl_rc.get_term_count(countkey)
-            eu_count = hitcount['eu_df']
-            wk_count_90_days = hitcount['wpedia_clicks']
-            if(eu_count > 0): # filter out all entities not found in our collections (doh!)
-                doc = ET.SubElement(docroot, 'doc')
-                self.add_field(doc, 'entity_id', id)
-                self.add_field(doc, 'internal_type', 'Place')
-                self.add_field(doc, 'europeana_doc_count', str(eu_count))
-                wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
-                self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
-                self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
-                for lang_code, label in entity_rows['prefLabel']:
-                    suffix = '.' + lang_code if lang_code != 'def' else ''
-                    tagname = 'skos_prefLabel' + suffix
-                    self.add_field(doc, tagname, label)
+        id = entity['about']
+        hitcount = self.pl_rc.get_term_count(id)
+        eu_count = hitcount['eu_df']
+        wk_count_90_days = hitcount['wpedia_clicks']
+        if(eu_count > 0): # filter out all entities not found in our collections (doh!)
+            doc = ET.SubElement(docroot, 'doc')
+            self.add_field(doc, 'entity_id', id)
+            self.add_field(doc, 'internal_type', 'Place')
+            self.add_field(doc, 'europeana_doc_count', str(eu_count))
+            wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
+            self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
+            self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
+            for lang_code, label in entity['prefLabel']:
+                suffix = '.' + lang_code if lang_code != 'def' else ''
+                tagname = 'skos_prefLabel' + suffix
+                self.add_field(doc, tagname, label)
 
 

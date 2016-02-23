@@ -170,11 +170,13 @@ class PlaceRelevanceCounter(RelevanceCounter):
         with open('ranking_metrics/resources/place_metrics.tsv') as pm:
             for line in pm:
                 (old_id, new_id, label, wk_count, eu_count) = line.split("\t")
-                hash_key = old_id + "|" + label
-                self.freqs[hash_key] = {}
-                self.freqs[hash_key]['new_id'] = new_id
-                self.freqs[hash_key]['wk_hits'] = wk_count.strip()
-                self.freqs[hash_key]['eu_hits'] = eu_count.strip()
+                if(old_id in self.freqs):
+                    self.freqs[old_id]['eu_hits'] = int(self.freqs[old_id]['eu_hits']) + int(eu_count.strip())
+                    self.freqs[old_id]['wk_hits'] = int(self.freqs[old_id]['wk_hits']) + int(wk_count.strip())
+                else:
+                    self.freqs[old_id] = {}
+                    self.freqs[old_id]['eu_hits'] = int(eu_count.strip())
+                    self.freqs[old_id]['wk_hits'] = int(wk_count.strip())
 
     def get_term_count(self, qry_term):
         try:
