@@ -192,7 +192,7 @@ class PlaceHarvester(ContextClassHarvester):
         return self.legacy_mongo.europeana.Place.find({}).count()
 
     def build_entity_chunk(self, start):
-        places = self.legacy_mongo.europeana.Place.distinct( 'about')[start:ContextClassHarvester.CHUNK_SIZE]
+        places = self.legacy_mongo.europeana.Place.find({})[start:ContextClassHarvester.CHUNK_SIZE]
         return places
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
