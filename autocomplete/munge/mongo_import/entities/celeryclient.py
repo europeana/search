@@ -14,3 +14,4 @@ chunk_size = ContextClassHarvesters.ContextClassHarvester.CHUNK_SIZE
 # export_agents()
 
 export_places = group(build_place_file.s(i) for i in range(0, get_place_count.delay().get(), chunk_size ))
+export_places()
