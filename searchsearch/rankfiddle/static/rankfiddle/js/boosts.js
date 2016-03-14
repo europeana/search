@@ -4,7 +4,6 @@ $(document).ready(function(){
 
         $(this).attr('disabled', false);
         $("#query-freetext").val('');
-  //      $("#query-freetext").attr('disabled', true);
 
     }
 
@@ -12,7 +11,6 @@ $(document).ready(function(){
 
         $(this).attr('disabled', false);
         $("#query-selector").val('');
-    //    $("#query-selector").attr('disabled', true);
 
     }
 
@@ -110,12 +108,29 @@ $(document).ready(function(){
 
     }
 
+    var check_query_exists = function(){
+
+        var freetext = $.trim($("#query-freetext").val())
+        var dropdown = $.trim($("#query-selector").val())
+        submitted_query = dropdown == '' ? freetext : dropdown;
+        if(submitted_query == ''){
+
+            alert('Please enter or select a query term!');
+            return false;
+
+        }
+
+        return true;
+
+    }
+
     make_field_boosts_first();
     hide_extra_field_boosts();
     add_field_adders();
     line_up_slops();
     $("#query-freetext").focus(deactivate_query_selector)
     $("#query-selector").focus(deactivate_query_freetext)
+    $("#launch-query").click(check_query_exists)
 
   // TODO: MoreLikeThis fiddle
 

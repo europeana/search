@@ -41,8 +41,8 @@ class QueryBoostForm(forms.Form):
     query_choice = [('', '------------')]
     for row in Query.objects.all().order_by('query_text'):
         query_choice.append((row.query_text, row.query_text))
-    query_freetext = forms.CharField(label="Query", max_length=200, widget=forms.TextInput(attrs={ 'id' : 'query-freetext'}), initial='')
-    query_dropdown = forms.ChoiceField(label="or choose from top queries", choices=query_choice, widget=forms.Select(attrs={ 'id' : 'query-selector'}), initial='')
+    query_freetext = forms.CharField(label="Query", max_length=200, widget=forms.TextInput(attrs={ 'id' : 'query-freetext'}), initial='', required=False)
+    query_dropdown = forms.ChoiceField(label="or choose from top queries", choices=query_choice, widget=forms.Select(attrs={ 'id' : 'query-selector'}), initial='', required=False)
     ps = forms.DecimalField(label="Phrase Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
     ps2 = forms.DecimalField(label="Bigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
     ps3 = forms.DecimalField(label="Trigram Slop", max_digits=4, decimal_places=1, initial=1.0, widget=forms.NumberInput(attrs={ 'class' : 'slop'}))
@@ -97,6 +97,11 @@ def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     solr_url += "&rows=25"
     solr_url += "&wt=json"
     solr_url += "&bf=pow(europeana_completeness,2)"
+    print(solr_url)
     qr = requests.get(solr_url)
+    print(qr)
     return qr.json()
+
+def instructions(request):
+     return render(request, 'rankfiddle/instructions.html')
 
