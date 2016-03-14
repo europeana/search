@@ -1,0 +1,123 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'mobsource/styles/europeana.css' %}" />
+            <link rel="stylesheet" type="text/css" href="{% static 'mobsource/styles/accounts.css' %}" />
+
+ <!--   <link rel="stylesheet" type="text/css" href="{% static 'rankfiddle/styles/main.css' %}" /> -->
+    <title>RankFiddle Instructions</title>
+    <style type="text/css">
+        html{
+
+            font-size: 200%;
+
+        }
+        body{
+
+            font-size: 18pt;
+
+        }
+        h3{
+
+            font-size: 1.1rem;
+
+        }
+    div[role=main]{
+
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+
+        }
+        a#login{
+
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 10rem;
+        text-align: center;
+        border: 1px solid white;
+        }
+        a#login:hover{ border: 1px solid black; }
+        a#login:active{ border: 1px solid black; }
+        .cf{ position: relative; border-bottom: thin solid #4d4d4d; margin-bottom: 45px; }
+        #header-desc h1{ position: absolute; margin: 0;  left: 50%;  transform: translate(-50%, -100%); }
+        </style>
+</head>
+<body>
+<div role="main" class="page 1-page">
+    <div class="container">
+                <div class="cf">
+        <div id="header-desc">
+            <h1>RankFiddle Instructions</h1>
+        </div>
+            </div>
+<p>RankFiddle is a simple tool for playing with the values assigned to various ranking-related Solr parameters.
+Users can enter a query term, either one of their own or by selecting from a dropdown menu of Europeana's top queries,
+and alter the values of these parameters to see how they affect the order of results.</p>
+<h2>Query Terms</h2>
+<p>Two fields allow the input of query terms: the text input box labelled 'Query', or the dropdown box immediately below.
+The queries in the dropdown box are taken from the top 435 queries through the Europeana portal 21 December 2014 to
+03 March 2016.</p>
+<h2>What the parameters mean</h2>
+<p>There are, broadly speaking, three kinds of parameter that can be changed in RankFiddle.</p>
+<h3>Field boosts</h3>
+<p>Field boosts multiply the relevance of a hit in a given field by the factor of the boost. For example, if the
+'title' field is given a boost of 20, this means a hit in the title field is 20 times more valuable than a hit
+in any other field. Fractional boosts are supported: values such as '19.5' or '10.7' are possible, though in practice
+such fine distinctions are seldom helpful.</p>
+<p>It is not possible to create 'negative boosts', weighting some fields to be less than others.</p>
+<p>Note that, if no field is specified, RankFiddle will automatically search on the default 'text' field (a copyfield
+    holding the values of all the other fields. However, if
+a field <b>is</b> specified, all default behaviour is removed, and the text field will not be searched unless it is
+explicitly added with a field boost.</p>
+<p>Setting a field's boost to '1' is essentially stating that, while you wish the field to be searched, results in
+that field should not be boosted. This is probably a good setting for the 'text' field.</p>
+<p>The RankFiddle UI by default presents 8 controls for field boosting. It is possible to add more fields using the 'Add boost
+field' button - though if you find yourself using this, you should perhaps consider that your queries are becoming too complex.</p>
+<h3>Phrase boosts</h3>
+<p>This class of boosts includes <i>phrase boosts</i>, <i>bigram boosts</i>, <i>trigram boosts</i>, and the various <i>phrase-slop</i>
+    parameters.</p>
+<p>All these parameters relate <b>only</b> to how multi-term queries are handled; in other words, they have no effect upon
+single-term queries. More specifically, they allow boosting to occur in the event that more than one term from the query is matched.</p>
+<p>The simplest of these parameters is <i>phrase boost</i>. This only boosts fields that contain the <i>exact phrase</i> indicated in the query.
+For example, if the query was 'The Life and Opinions of Tristram Shandy, Gentleman', a phrase boost on the title field would be
+applied <b>if and only if</b> the title field contained that string, in that order.</p>
+<p>The bigram- and trigram-boost fields allow boosts based on partial matching (of two or three terms, respectively).
+For example, a trigram boost would be applied if three of the terms were found, such as 'Tristram Shandy, Gentleman'.
+    A bigram boost would require that only two of the terms match - so would apply even if the match consisted only
+    of the words 'Tristram Shandy'.
+</p>
+<p><i>Phrase slop</i> controls how many intervening words are allowed between matches. The default is 0 - so that
+the query 'Tristram Gentleman' would not match 'Tristram Shandy, Gentleman' because of the intervening 'Shandy'.
+However, if the phrase slop were set to 1, the boost <i>would</i> be applied, because of the 'sloppiness' of the
+matching.</p>
+<h3>Tiebreak</h3>
+<p>The naming of this parameter is not terribly helpful. In essence, it controls the contribution made by
+each field specified in 'field boosts' to the final relevance score.</p>
+<p>When tiebreak is set to 0 (the default), the relevance score for a document as a whole is simply the relevance
+of the highest-scoring field. When tiebreak is set to 1.0 (the highest possible value), the relevance score of document a
+    is equal to the sum of the relevance of all its fields.</p>
+<p>For example, suppose you had set field boosts of 20 on the title field, and 10 on the description field, and
+that two documents were returned for the query 'Garibaldi' - the first with a relevance of 10 in the title and 5
+in the description, the second with a relevance of 2 in the title and 12 in the description.</p>
+<p>If the tiebreak were set to 0, then the relevance of the first document would be 10 (because that is the relevance
+score of 'title', the highest scoring field), while it would be 12 for the second (the score of the description field).</p>
+<p>If it were set to 1, however, it would be (10 + 5 = ) 15 for the first document and (12 + 2 = ) 14 for the second.</p>
+<p>Set to 0.5, the scores would be (10 + (0.5 * 5) = ) 12.5 for the first document and (12 + (0.5 * 2) = ) 13 for the second.</p>
+<h2>Caveats</h2>
+<p>I originally developed RankFiddle as a lightweight way to play around
+with field boosting and do a little exploratory analysis. At the moment it is neither particularly robust nor user-friendly:
+    please send any complaints, suggestions, or comments to me at
+    <a href="mailto:timothy.hill@europeana.eu">timothy.hill@europeana.eu</a>.</p>
+<p>Note that the version of Solr we are using on our backend is 4.10. More recent versions of Solr have additional
+boosting capacities, such as negative boosts - but we don't have the capacity to support these at the moment.</p>
+<div id"app-wrapper">
+<a id="login" href="../rankfiddle">Enough chatter!<br/>Go to RankFiddle!</a>
+</div>
+    </div>
+</body>
+</body>
+</html>
