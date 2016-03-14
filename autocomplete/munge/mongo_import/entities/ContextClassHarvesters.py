@@ -219,7 +219,7 @@ class PlaceHarvester(ContextClassHarvester):
             wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
             self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
             self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
-            for lang_code, label in entity['prefLabel']:
+            for lang_code, label in entity['prefLabel'].item:
                 suffix = '.' + lang_code if lang_code != 'def' else ''
                 tagname = 'skos_prefLabel' + suffix
                 self.add_field(doc, tagname, label)
