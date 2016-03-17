@@ -1114,9 +1114,9 @@
        
      -->
 
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity">
       <lst name="suggester">
-         <str name="name">suggestConcept_exact</str>
+         <str name="name">suggestEntity_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1129,7 +1129,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_fuzzy</str>
+         <str name="name">suggestEntity_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1143,21 +1143,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept"
+                   name="/suggestEntity"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_exact</str>
-         <str name="suggest.dictionary">suggestConcept_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_exact</str>
+         <str name="suggest.dictionary">suggestEntity_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept</str>
+            <str>suggestEntity</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_en">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_en">
       <lst name="suggester">
-         <str name="name">suggestConcept_en_exact</str>
+         <str name="name">suggestEntity_en_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1170,7 +1170,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_en_fuzzy</str>
+         <str name="name">suggestEntity_en_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1184,21 +1184,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/en"
+                   name="/suggestEntity/en"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_en_exact</str>
-         <str name="suggest.dictionary">suggestConcept_en_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_en_exact</str>
+         <str name="suggest.dictionary">suggestEntity_en_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_en</str>
+            <str>suggestEntity_en</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fi">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fi">
       <lst name="suggester">
-         <str name="name">suggestConcept_fi_exact</str>
+         <str name="name">suggestEntity_fi_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1211,7 +1211,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_fi_fuzzy</str>
+         <str name="name">suggestEntity_fi_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1225,21 +1225,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/fi"
+                   name="/suggestEntity/fi"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fi_exact</str>
-         <str name="suggest.dictionary">suggestConcept_fi_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_fi_exact</str>
+         <str name="suggest.dictionary">suggestEntity_fi_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fi</str>
+            <str>suggestEntity_fi</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_de">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_de">
       <lst name="suggester">
-         <str name="name">suggestConcept_de_exact</str>
+         <str name="name">suggestEntity_de_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1252,7 +1252,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_de_fuzzy</str>
+         <str name="name">suggestEntity_de_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1266,21 +1266,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/de"
+                   name="/suggestEntity/de"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_de_exact</str>
-         <str name="suggest.dictionary">suggestConcept_de_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_de_exact</str>
+         <str name="suggest.dictionary">suggestEntity_de_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_de</str>
+            <str>suggestEntity_de</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ru">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ru">
       <lst name="suggester">
-         <str name="name">suggestConcept_ru_exact</str>
+         <str name="name">suggestEntity_ru_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1293,7 +1293,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_ru_fuzzy</str>
+         <str name="name">suggestEntity_ru_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1307,21 +1307,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/ru"
+                   name="/suggestEntity/ru"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ru_exact</str>
-         <str name="suggest.dictionary">suggestConcept_ru_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_ru_exact</str>
+         <str name="suggest.dictionary">suggestEntity_ru_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ru</str>
+            <str>suggestEntity_ru</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sr">
       <lst name="suggester">
-         <str name="name">suggestConcept_sr_exact</str>
+         <str name="name">suggestEntity_sr_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1334,7 +1334,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_sr_fuzzy</str>
+         <str name="name">suggestEntity_sr_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1348,21 +1348,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/sr"
+                   name="/suggestEntity/sr"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sr_exact</str>
-         <str name="suggest.dictionary">suggestConcept_sr_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_sr_exact</str>
+         <str name="suggest.dictionary">suggestEntity_sr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sr</str>
+            <str>suggestEntity_sr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sv">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sv">
       <lst name="suggester">
-         <str name="name">suggestConcept_sv_exact</str>
+         <str name="name">suggestEntity_sv_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1375,7 +1375,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_sv_fuzzy</str>
+         <str name="name">suggestEntity_sv_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1389,21 +1389,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/sv"
+                   name="/suggestEntity/sv"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sv_exact</str>
-         <str name="suggest.dictionary">suggestConcept_sv_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_sv_exact</str>
+         <str name="suggest.dictionary">suggestEntity_sv_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sv</str>
+            <str>suggestEntity_sv</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_bg">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_bg">
       <lst name="suggester">
-         <str name="name">suggestConcept_bg_exact</str>
+         <str name="name">suggestEntity_bg_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1416,7 +1416,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_bg_fuzzy</str>
+         <str name="name">suggestEntity_bg_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1430,21 +1430,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/bg"
+                   name="/suggestEntity/bg"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_bg_exact</str>
-         <str name="suggest.dictionary">suggestConcept_bg_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_bg_exact</str>
+         <str name="suggest.dictionary">suggestEntity_bg_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_bg</str>
+            <str>suggestEntity_bg</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_da">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_da">
       <lst name="suggester">
-         <str name="name">suggestConcept_da_exact</str>
+         <str name="name">suggestEntity_da_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1457,7 +1457,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_da_fuzzy</str>
+         <str name="name">suggestEntity_da_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1471,21 +1471,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/da"
+                   name="/suggestEntity/da"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_da_exact</str>
-         <str name="suggest.dictionary">suggestConcept_da_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_da_exact</str>
+         <str name="suggest.dictionary">suggestEntity_da_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_da</str>
+            <str>suggestEntity_da</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fr">
       <lst name="suggester">
-         <str name="name">suggestConcept_fr_exact</str>
+         <str name="name">suggestEntity_fr_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1498,7 +1498,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_fr_fuzzy</str>
+         <str name="name">suggestEntity_fr_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1512,21 +1512,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/fr"
+                   name="/suggestEntity/fr"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fr_exact</str>
-         <str name="suggest.dictionary">suggestConcept_fr_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_fr_exact</str>
+         <str name="suggest.dictionary">suggestEntity_fr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fr</str>
+            <str>suggestEntity_fr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_it">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_it">
       <lst name="suggester">
-         <str name="name">suggestConcept_it_exact</str>
+         <str name="name">suggestEntity_it_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1539,7 +1539,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_it_fuzzy</str>
+         <str name="name">suggestEntity_it_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1553,21 +1553,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/it"
+                   name="/suggestEntity/it"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_it_exact</str>
-         <str name="suggest.dictionary">suggestConcept_it_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_it_exact</str>
+         <str name="suggest.dictionary">suggestEntity_it_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_it</str>
+            <str>suggestEntity_it</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_pt">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pt">
       <lst name="suggester">
-         <str name="name">suggestConcept_pt_exact</str>
+         <str name="name">suggestEntity_pt_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1580,7 +1580,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_pt_fuzzy</str>
+         <str name="name">suggestEntity_pt_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1594,21 +1594,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/pt"
+                   name="/suggestEntity/pt"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_pt_exact</str>
-         <str name="suggest.dictionary">suggestConcept_pt_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_pt_exact</str>
+         <str name="suggest.dictionary">suggestEntity_pt_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_pt</str>
+            <str>suggestEntity_pt</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_vi">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_vi">
       <lst name="suggester">
-         <str name="name">suggestConcept_vi_exact</str>
+         <str name="name">suggestEntity_vi_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1621,7 +1621,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_vi_fuzzy</str>
+         <str name="name">suggestEntity_vi_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1635,21 +1635,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/vi"
+                   name="/suggestEntity/vi"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_vi_exact</str>
-         <str name="suggest.dictionary">suggestConcept_vi_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_vi_exact</str>
+         <str name="suggest.dictionary">suggestEntity_vi_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_vi</str>
+            <str>suggestEntity_vi</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ca">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ca">
       <lst name="suggester">
-         <str name="name">suggestConcept_ca_exact</str>
+         <str name="name">suggestEntity_ca_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1662,7 +1662,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_ca_fuzzy</str>
+         <str name="name">suggestEntity_ca_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1676,21 +1676,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/ca"
+                   name="/suggestEntity/ca"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ca_exact</str>
-         <str name="suggest.dictionary">suggestConcept_ca_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_ca_exact</str>
+         <str name="suggest.dictionary">suggestEntity_ca_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ca</str>
+            <str>suggestEntity_ca</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_nl">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_nl">
       <lst name="suggester">
-         <str name="name">suggestConcept_nl_exact</str>
+         <str name="name">suggestEntity_nl_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1703,7 +1703,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_nl_fuzzy</str>
+         <str name="name">suggestEntity_nl_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1717,21 +1717,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/nl"
+                   name="/suggestEntity/nl"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_nl_exact</str>
-         <str name="suggest.dictionary">suggestConcept_nl_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_nl_exact</str>
+         <str name="suggest.dictionary">suggestEntity_nl_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_nl</str>
+            <str>suggestEntity_nl</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_et">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_et">
       <lst name="suggester">
-         <str name="name">suggestConcept_et_exact</str>
+         <str name="name">suggestEntity_et_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1744,7 +1744,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_et_fuzzy</str>
+         <str name="name">suggestEntity_et_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1758,21 +1758,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/et"
+                   name="/suggestEntity/et"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_et_exact</str>
-         <str name="suggest.dictionary">suggestConcept_et_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_et_exact</str>
+         <str name="suggest.dictionary">suggestEntity_et_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_et</str>
+            <str>suggestEntity_et</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_es">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_es">
       <lst name="suggester">
-         <str name="name">suggestConcept_es_exact</str>
+         <str name="name">suggestEntity_es_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1785,7 +1785,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_es_fuzzy</str>
+         <str name="name">suggestEntity_es_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1799,21 +1799,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/es"
+                   name="/suggestEntity/es"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_es_exact</str>
-         <str name="suggest.dictionary">suggestConcept_es_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_es_exact</str>
+         <str name="suggest.dictionary">suggestEntity_es_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_es</str>
+            <str>suggestEntity_es</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_uk">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_uk">
       <lst name="suggester">
-         <str name="name">suggestConcept_uk_exact</str>
+         <str name="name">suggestEntity_uk_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1826,7 +1826,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_uk_fuzzy</str>
+         <str name="name">suggestEntity_uk_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1840,21 +1840,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/uk"
+                   name="/suggestEntity/uk"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_uk_exact</str>
-         <str name="suggest.dictionary">suggestConcept_uk_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_uk_exact</str>
+         <str name="suggest.dictionary">suggestEntity_uk_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_uk</str>
+            <str>suggestEntity_uk</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ar">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ar">
       <lst name="suggester">
-         <str name="name">suggestConcept_ar_exact</str>
+         <str name="name">suggestEntity_ar_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1867,7 +1867,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_ar_fuzzy</str>
+         <str name="name">suggestEntity_ar_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1881,21 +1881,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/ar"
+                   name="/suggestEntity/ar"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ar_exact</str>
-         <str name="suggest.dictionary">suggestConcept_ar_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_ar_exact</str>
+         <str name="suggest.dictionary">suggestEntity_ar_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ar</str>
+            <str>suggestEntity_ar</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_cs">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_cs">
       <lst name="suggester">
-         <str name="name">suggestConcept_cs_exact</str>
+         <str name="name">suggestEntity_cs_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1908,7 +1908,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_cs_fuzzy</str>
+         <str name="name">suggestEntity_cs_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1922,21 +1922,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/cs"
+                   name="/suggestEntity/cs"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_cs_exact</str>
-         <str name="suggest.dictionary">suggestConcept_cs_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_cs_exact</str>
+         <str name="suggest.dictionary">suggestEntity_cs_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_cs</str>
+            <str>suggestEntity_cs</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_hu">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hu">
       <lst name="suggester">
-         <str name="name">suggestConcept_hu_exact</str>
+         <str name="name">suggestEntity_hu_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1949,7 +1949,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_hu_fuzzy</str>
+         <str name="name">suggestEntity_hu_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1963,21 +1963,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/hu"
+                   name="/suggestEntity/hu"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_hu_exact</str>
-         <str name="suggest.dictionary">suggestConcept_hu_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_hu_exact</str>
+         <str name="suggest.dictionary">suggestEntity_hu_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_hu</str>
+            <str>suggestEntity_hu</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_id">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_id">
       <lst name="suggester">
-         <str name="name">suggestConcept_id_exact</str>
+         <str name="name">suggestEntity_id_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1990,7 +1990,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_id_fuzzy</str>
+         <str name="name">suggestEntity_id_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2004,21 +2004,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/id"
+                   name="/suggestEntity/id"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_id_exact</str>
-         <str name="suggest.dictionary">suggestConcept_id_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_id_exact</str>
+         <str name="suggest.dictionary">suggestEntity_id_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_id</str>
+            <str>suggestEntity_id</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ja">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ja">
       <lst name="suggester">
-         <str name="name">suggestConcept_ja_exact</str>
+         <str name="name">suggestEntity_ja_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2031,7 +2031,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_ja_fuzzy</str>
+         <str name="name">suggestEntity_ja_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2045,21 +2045,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/ja"
+                   name="/suggestEntity/ja"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ja_exact</str>
-         <str name="suggest.dictionary">suggestConcept_ja_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_ja_exact</str>
+         <str name="suggest.dictionary">suggestEntity_ja_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ja</str>
+            <str>suggestEntity_ja</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ko">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ko">
       <lst name="suggester">
-         <str name="name">suggestConcept_ko_exact</str>
+         <str name="name">suggestEntity_ko_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2072,7 +2072,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_ko_fuzzy</str>
+         <str name="name">suggestEntity_ko_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2086,21 +2086,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/ko"
+                   name="/suggestEntity/ko"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ko_exact</str>
-         <str name="suggest.dictionary">suggestConcept_ko_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_ko_exact</str>
+         <str name="suggest.dictionary">suggestEntity_ko_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ko</str>
+            <str>suggestEntity_ko</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_lt">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lt">
       <lst name="suggester">
-         <str name="name">suggestConcept_lt_exact</str>
+         <str name="name">suggestEntity_lt_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2113,7 +2113,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_lt_fuzzy</str>
+         <str name="name">suggestEntity_lt_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2127,21 +2127,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/lt"
+                   name="/suggestEntity/lt"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_lt_exact</str>
-         <str name="suggest.dictionary">suggestConcept_lt_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_lt_exact</str>
+         <str name="suggest.dictionary">suggestEntity_lt_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_lt</str>
+            <str>suggestEntity_lt</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_no">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_no">
       <lst name="suggester">
-         <str name="name">suggestConcept_no_exact</str>
+         <str name="name">suggestEntity_no_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2154,7 +2154,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_no_fuzzy</str>
+         <str name="name">suggestEntity_no_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2168,21 +2168,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/no"
+                   name="/suggestEntity/no"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_no_exact</str>
-         <str name="suggest.dictionary">suggestConcept_no_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_no_exact</str>
+         <str name="suggest.dictionary">suggestEntity_no_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_no</str>
+            <str>suggestEntity_no</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fa">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fa">
       <lst name="suggester">
-         <str name="name">suggestConcept_fa_exact</str>
+         <str name="name">suggestEntity_fa_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2195,7 +2195,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_fa_fuzzy</str>
+         <str name="name">suggestEntity_fa_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2209,21 +2209,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/fa"
+                   name="/suggestEntity/fa"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fa_exact</str>
-         <str name="suggest.dictionary">suggestConcept_fa_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_fa_exact</str>
+         <str name="suggest.dictionary">suggestEntity_fa_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fa</str>
+            <str>suggestEntity_fa</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_pl">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pl">
       <lst name="suggester">
-         <str name="name">suggestConcept_pl_exact</str>
+         <str name="name">suggestEntity_pl_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2236,7 +2236,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_pl_fuzzy</str>
+         <str name="name">suggestEntity_pl_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2250,21 +2250,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/pl"
+                   name="/suggestEntity/pl"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_pl_exact</str>
-         <str name="suggest.dictionary">suggestConcept_pl_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_pl_exact</str>
+         <str name="suggest.dictionary">suggestEntity_pl_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_pl</str>
+            <str>suggestEntity_pl</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ro">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ro">
       <lst name="suggester">
-         <str name="name">suggestConcept_ro_exact</str>
+         <str name="name">suggestEntity_ro_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2277,7 +2277,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_ro_fuzzy</str>
+         <str name="name">suggestEntity_ro_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2291,21 +2291,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/ro"
+                   name="/suggestEntity/ro"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ro_exact</str>
-         <str name="suggest.dictionary">suggestConcept_ro_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_ro_exact</str>
+         <str name="suggest.dictionary">suggestEntity_ro_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ro</str>
+            <str>suggestEntity_ro</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_th">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_th">
       <lst name="suggester">
-         <str name="name">suggestConcept_th_exact</str>
+         <str name="name">suggestEntity_th_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2318,7 +2318,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_th_fuzzy</str>
+         <str name="name">suggestEntity_th_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2332,21 +2332,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/th"
+                   name="/suggestEntity/th"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_th_exact</str>
-         <str name="suggest.dictionary">suggestConcept_th_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_th_exact</str>
+         <str name="suggest.dictionary">suggestEntity_th_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_th</str>
+            <str>suggestEntity_th</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sk">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sk">
       <lst name="suggester">
-         <str name="name">suggestConcept_sk_exact</str>
+         <str name="name">suggestEntity_sk_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2359,7 +2359,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_sk_fuzzy</str>
+         <str name="name">suggestEntity_sk_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2373,21 +2373,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/sk"
+                   name="/suggestEntity/sk"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sk_exact</str>
-         <str name="suggest.dictionary">suggestConcept_sk_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_sk_exact</str>
+         <str name="suggest.dictionary">suggestEntity_sk_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sk</str>
+            <str>suggestEntity_sk</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sl">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sl">
       <lst name="suggester">
-         <str name="name">suggestConcept_sl_exact</str>
+         <str name="name">suggestEntity_sl_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2400,7 +2400,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_sl_fuzzy</str>
+         <str name="name">suggestEntity_sl_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2414,21 +2414,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/sl"
+                   name="/suggestEntity/sl"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sl_exact</str>
-         <str name="suggest.dictionary">suggestConcept_sl_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_sl_exact</str>
+         <str name="suggest.dictionary">suggestEntity_sl_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sl</str>
+            <str>suggestEntity_sl</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_hr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hr">
       <lst name="suggester">
-         <str name="name">suggestConcept_hr_exact</str>
+         <str name="name">suggestEntity_hr_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2441,7 +2441,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_hr_fuzzy</str>
+         <str name="name">suggestEntity_hr_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2455,21 +2455,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/hr"
+                   name="/suggestEntity/hr"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_hr_exact</str>
-         <str name="suggest.dictionary">suggestConcept_hr_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_hr_exact</str>
+         <str name="suggest.dictionary">suggestEntity_hr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_hr</str>
+            <str>suggestEntity_hr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_el">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_el">
       <lst name="suggester">
-         <str name="name">suggestConcept_el_exact</str>
+         <str name="name">suggestEntity_el_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2482,7 +2482,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_el_fuzzy</str>
+         <str name="name">suggestEntity_el_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2496,21 +2496,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/el"
+                   name="/suggestEntity/el"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_el_exact</str>
-         <str name="suggest.dictionary">suggestConcept_el_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_el_exact</str>
+         <str name="suggest.dictionary">suggestEntity_el_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_el</str>
+            <str>suggestEntity_el</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_hi">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hi">
       <lst name="suggester">
-         <str name="name">suggestConcept_hi_exact</str>
+         <str name="name">suggestEntity_hi_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2523,7 +2523,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_hi_fuzzy</str>
+         <str name="name">suggestEntity_hi_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2537,21 +2537,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/hi"
+                   name="/suggestEntity/hi"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_hi_exact</str>
-         <str name="suggest.dictionary">suggestConcept_hi_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_hi_exact</str>
+         <str name="suggest.dictionary">suggestEntity_hi_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_hi</str>
+            <str>suggestEntity_hi</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_tr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_tr">
       <lst name="suggester">
-         <str name="name">suggestConcept_tr_exact</str>
+         <str name="name">suggestEntity_tr_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2564,7 +2564,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_tr_fuzzy</str>
+         <str name="name">suggestEntity_tr_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2578,21 +2578,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/tr"
+                   name="/suggestEntity/tr"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_tr_exact</str>
-         <str name="suggest.dictionary">suggestConcept_tr_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_tr_exact</str>
+         <str name="suggest.dictionary">suggestEntity_tr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_tr</str>
+            <str>suggestEntity_tr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_lv">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lv">
       <lst name="suggester">
-         <str name="name">suggestConcept_lv_exact</str>
+         <str name="name">suggestEntity_lv_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2605,7 +2605,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_lv_fuzzy</str>
+         <str name="name">suggestEntity_lv_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2619,21 +2619,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/lv"
+                   name="/suggestEntity/lv"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_lv_exact</str>
-         <str name="suggest.dictionary">suggestConcept_lv_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_lv_exact</str>
+         <str name="suggest.dictionary">suggestEntity_lv_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_lv</str>
+            <str>suggestEntity_lv</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ms">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ms">
       <lst name="suggester">
-         <str name="name">suggestConcept_ms_exact</str>
+         <str name="name">suggestEntity_ms_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2646,7 +2646,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_ms_fuzzy</str>
+         <str name="name">suggestEntity_ms_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2660,21 +2660,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/ms"
+                   name="/suggestEntity/ms"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ms_exact</str>
-         <str name="suggest.dictionary">suggestConcept_ms_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_ms_exact</str>
+         <str name="suggest.dictionary">suggestEntity_ms_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ms</str>
+            <str>suggestEntity_ms</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fil">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fil">
       <lst name="suggester">
-         <str name="name">suggestConcept_fil_exact</str>
+         <str name="name">suggestEntity_fil_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2687,7 +2687,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_fil_fuzzy</str>
+         <str name="name">suggestEntity_fil_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2701,21 +2701,21 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/fil"
+                   name="/suggestEntity/fil"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fil_exact</str>
-         <str name="suggest.dictionary">suggestConcept_fil_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_fil_exact</str>
+         <str name="suggest.dictionary">suggestEntity_fil_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fil</str>
+            <str>suggestEntity_fil</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_es_419">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_es_419">
       <lst name="suggester">
-         <str name="name">suggestConcept_es_419_exact</str>
+         <str name="name">suggestEntity_es_419_exact</str>
          <str name="lookupImpl">AnalyzingLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2728,7 +2728,7 @@
          <str name="exactMatchFirst">true</str>
       </lst>
       <lst name="suggester">
-         <str name="name">suggestConcept_es_419_fuzzy</str>
+         <str name="name">suggestEntity_es_419_fuzzy</str>
          <str name="lookupImpl">FuzzyLookupFactory</str>
          <str name="storeDir">suggester_fuzzy_dir</str>
          <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2742,16 +2742,16 @@
       </lst>
    </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-                   name="/suggestConcept/es_419"
+                   name="/suggestEntity/es_419"
                    startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_es_419_exact</str>
-         <str name="suggest.dictionary">suggestConcept_es_419_fuzzy</str>
+            <str name="suggest.dictionary">suggestEntity_es_419_exact</str>
+         <str name="suggest.dictionary">suggestEntity_es_419_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_es_419</str>
+            <str>suggestEntity_es_419</str>
         </arr>
     </requestHandler>
 
