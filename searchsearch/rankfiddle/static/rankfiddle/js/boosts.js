@@ -180,7 +180,7 @@ $(document).ready(function(){
     init();
     $("#query-freetext").focus(deactivate_query_selector);
     $("#query-selector").focus(deactivate_query_freetext);
-    $("input[name='weight_views']").click(function(){$("#launch-query").click()});
+    $("input[name='weight_views']").click(query_for_new_view);
     $("#launch-query").click(check_query_exists);
 
   // TODO: MoreLikeThis fiddle
