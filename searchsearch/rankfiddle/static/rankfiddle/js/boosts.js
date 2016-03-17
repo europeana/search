@@ -1,5 +1,46 @@
 $(document).ready(function(){
 
+    var init = function(){
+
+        make_field_boosts_first();
+        hide_extra_field_boosts();
+        add_field_adders();
+        line_up_slops();
+        $("#weightview-selector").prev("p").css("display", "inline");
+        $("#weightview-selector").prev("p").css("float", "left");
+        $("#weightview-selector").prev("p").css("min-height", "10px");
+        reflow_result_columns();
+
+    }
+
+    var reflow_result_columns = function(){
+
+        column_count = 0;
+        if($("#query-results-weighted ul.result-items li").length > 0) column_count++;
+        if($("#query-results-unweighted ul.result-items li").length > 0) column_count++;
+        if($("#query-results-bm25f ul.result-items li").length > 0) column_count++;
+        $("ul.result-items li").closest(".results-list").css("display", "block");
+
+        if(column_count < 2) return;
+        display_width = 66; // TODO: set this dynamically
+        column_width = display_width / column_count;
+        column_width = column_width.toString() + '%';
+        $(".results-list").css("width", column_width);
+        $("div.results-list").css("border-right", "thin solid black");
+        longest_list_count = Math.max($("#query-results-weighted ul.result-items li").length, $("#query-results-unweighted ul.result-items li").length, $("#query-results-bm25f ul.result-items li").length);
+        for(var i = 0; i < longest_list_count; i++){
+            var highest = Math.max($("#query-results-weighted ul.result-items li:eq(" + i + ")").innerHeight(), $("#query-results-unweighted ul.result-items li:eq(" + i + ")").innerHeight(), $("#query-results-bm25f ul.result-items li:eq(" + i + ")").innerHeight());
+            $("ul.result-items").each(function(){
+
+                nth_li = $(this).children("li")[i];
+                current_height = $(nth_li).innerHeight();
+                height_diff = highest - current_height;
+                $(nth_li).children(".search-list-item").innerHeight(highest);
+
+            });
+        }
+    }
+
     var deactivate_query_freetext = function(){
 
         $(this).attr('disabled', false);
@@ -124,13 +165,23 @@ $(document).ready(function(){
 
     }
 
-    make_field_boosts_first();
-    hide_extra_field_boosts();
-    add_field_adders();
-    line_up_slops();
-    $("#query-freetext").focus(deactivate_query_selector)
-    $("#query-selector").focus(deactivate_query_freetext)
-    $("#launch-query").click(check_query_exists)
+    var query_for_new_view = function(){
+
+        var freetext = $.trim($("#query-freetext").val())
+        var dropdown = $.trim($("#query-selector").val())
+        submitted_query = dropdown == '' ? freetext : dropdown;
+        if(submitted_query != ''){
+
+            $("#launch-query").click();
+
+        }
+    }
+
+    init();
+    $("#query-freetext").focus(deactivate_query_selector);
+    $("#query-selector").focus(deactivate_query_freetext);
+    $("input[name='weight_views']").click(function(){$("#launch-query").click()});
+    $("#launch-query").click(check_query_exists);
 
   // TODO: MoreLikeThis fiddle
 

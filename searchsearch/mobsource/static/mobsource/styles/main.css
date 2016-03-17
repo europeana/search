@@ -35,4 +35,4 @@ div#rating-warning{ text-align: right; position: absolute; width: 100%; top:0.8r
 #email-wrapper p{ margin-bottom: 0; }
 #email-wrapper p a{ color: blue; }
 p#thank-you{ padding-top: 10px; padding-left: 10px; }
-#query_results{ border-left: thin solid #4D4D4D; }
+#query-results-weighted{ border-left: thin solid #4D4D4D; }

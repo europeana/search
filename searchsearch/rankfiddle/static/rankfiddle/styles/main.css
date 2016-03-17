@@ -14,7 +14,7 @@ ul.errorlist li{ display: none; } /* We rely on JS to display the error msgs app
           background-image:url(../resources/ajax-loader.gif); display: inline-block; background-repeat: no-repeat; }
 form p{ min-height: 100px; position: relative; }
 form p label{ font-weight: 500; }
-.results-list{ background-color: rgba(255, 255, 255, 1.0) }
+.results-list{ background-color: rgba(255, 255, 255, 1.0); }
 .logo{ background-image: url(http://old.europeana.eu/portal/themes/default/images/europeana-logo-2.png); width: 206px; height: 123px; }
 main, [role=main] { padding-top: 0rem; }
 .cf{ border-bottom: thin solid #4D4D4D; }
@@ -48,9 +48,9 @@ input[type="number"]{ width:75px; }
 .param{ float: left; font-style: italic; }
 .value{ float: left; font-weight: bold; }
 .weights p{ margin-bottom: 0;}
-.results-list{ width: 45%; float: left; border-bottom: none; }
+.results-list{ width: 66%; float: left; border-bottom: none; }
 .field-adder{ width: 12rem; padding: 5px; color: #fff; background-color: #1A8AC7; clear: both; text-align: center; margin-bottom: 20px; border-radius: 3px; cursor: pointer; }
-#param-feedback, #query_results, #user_form{ height: 10000px; } /* TODO: resize dynamically */
+#param-feedback, #query_results, #user_form{ height: 15000px; } /* TODO: resize dynamically */
 .search-list-item{ margin-bottom: 0; padding-top: 3.2rem; }
 form p{ min-height: 80px;  }
 #launch-query{ margin-left: 9rem; margin-top: 2rem; padding-left: 3rem; padding-right: 3rem; }

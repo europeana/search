@@ -6,7 +6,9 @@ from .models import MAX_QUERY_LENGTH
 import requests
 import json
 
-SOLR_SHARD_SIMPLE = 'http://sol1.eanadev.org:9191/solr/search_1/search'
+SOLR_SHARD_EDSMX = 'http://sol1.eanadev.org:9191/solr/search_1/search'
+SOLR_SHARD_NOW8T = 'http://sol3.eanadev.org:9191/solr/search_1/search'
+SOLR_SHARD_BM25F = 'http://sol7.eanadev.org:9191/solr/search/search'
 
 class QueryBoostForm(forms.Form):
 
@@ -37,7 +39,7 @@ class QueryBoostForm(forms.Form):
         for i in range(1,11):
             self.fields['trigram_field_' + str(i)] = forms.ChoiceField(label="Trigram Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field trigram-boost-field'}))
             self.fields['trigram_field_boost_' + str(i)] = forms.DecimalField(label="Trigram Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'boost-factor trigram-boost-factor'}))
-
+    weight_views = forms.MultipleChoiceField(label="View", choices=[('weighted', 'My weightings'), ('unweighted', 'Current Collections results'), ('bm25f', 'BM25f-weighted')], initial=['weighted'], widget=forms.CheckboxSelectMultiple(attrs={ 'id' : 'weightview-selector'}))
     query_choice = [('', '------------')]
     for row in Query.objects.all().order_by('query_text'):
         query_choice.append((row.query_text, row.query_text))
@@ -53,6 +55,7 @@ def index(request):
     if request.method == 'POST':
         quf = QueryBoostForm(request.POST)
         if(quf.is_valid()):
+            wv = quf.cleaned_data['weight_views']
             query_freetext = quf.cleaned_data['query_freetext'].strip()
             query_dropdown = quf.cleaned_data['query_dropdown'].strip()
             q = query_freetext if query_freetext != '' else query_dropdown
@@ -65,11 +68,28 @@ def index(request):
             ps2 = quf.cleaned_data['ps2']
             ps3 = quf.cleaned_data['ps3']
             tibr = quf.cleaned_data['tibr']
-            results = do_query(q, boosts, phrase_boosts, ps, bigram_boosts, ps2, trigram_boosts, ps3, tibr)
-            return render(request, 'rankfiddle/rankfiddle.html', {'form':quf, 'params':results['responseHeader']['params'], 'docs':results['response']['docs'], 'result_count':results['response']['numFound']})
+            results = do_query(wv, q, boosts, phrase_boosts, ps, bigram_boosts, ps2, trigram_boosts, ps3, tibr)
+            return render(request, 'rankfiddle/rankfiddle.html', {'form':quf, 'params': build_params(results)})
     else:
         quf = QueryBoostForm()
     return render(request, 'rankfiddle/rankfiddle.html', {'form':quf })
+
+def build_params(raw_results):
+    params = {}
+    if('weighted' in raw_results):
+        params['weighted'] = {}
+        params['weighted']['headerparams'] = raw_results['weighted']['responseHeader']['params']
+        params['weighted']['results'] = raw_results['weighted']['response']['docs']
+        params['weighted']['count'] = raw_results['weighted']['response']['numFound']
+    if('unweighted' in raw_results):
+        params['unweighted'] = {}
+        params['unweighted']['results'] = raw_results['unweighted']['response']['docs']
+        params['unweighted']['count'] = raw_results['unweighted']['response']['numFound']
+    if('bm25f' in raw_results):
+        params['bm25f'] = {}
+        params['bm25f']['results'] = raw_results['bm25f']['response']['docs']
+        params['bm25f']['count'] = raw_results['bm25f']['response']['numFound']
+    return params
 
 def build_boosts(cleaned_data, field_name, max_fields=20):
     boosts = ""
@@ -81,9 +101,18 @@ def build_boosts(cleaned_data, field_name, max_fields=20):
             boosts += boost + " "
     return boosts
 
-def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
-    # TODO: need to control for defaults already present in bm25f handler (init to 0)
-    solr_url = SOLR_SHARD_SIMPLE + "?q={!type=edismax}" + q;
+def do_query(wv, q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
+    results = {}
+    if('weighted' in wv):
+        results['weighted'] = do_weighted_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr)
+    if('unweighted' in wv):
+        results['unweighted'] = do_unweighted_query(q)
+    if('bm25f' in wv):
+        results['bm25f'] = do_bm25f_query(q)
+    return results
+
+def do_weighted_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
+    solr_url = SOLR_SHARD_EDSMX + "?q={!type=edismax}" + q;
     if(len(qf) > 0):solr_url += "&qf=" + qf
     if(len(pf) > 0): solr_url += "&pf=" + pf
     if(ps != 1.0): solr_url += "&ps=" + str(ps)
@@ -97,7 +126,17 @@ def do_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     solr_url += "&rows=25"
     solr_url += "&wt=json"
     solr_url += "&bf=pow(europeana_completeness,2)"
-    print(solr_url)
+    qr = requests.get(solr_url)
+    return qr.json()
+
+def do_unweighted_query(q):
+    solr_url = SOLR_SHARD_NOW8T + "?q=" + q + "&wt=json&rows=25&fl=*"
+    qr = requests.get(solr_url)
+    print(qr)
+    return qr.json()
+
+def do_bm25f_query(q):
+    solr_url = SOLR_SHARD_BM25F + "?q=" + q + "&wt=json&rows=25&fl=*"
     qr = requests.get(solr_url)
     print(qr)
     return qr.json()
