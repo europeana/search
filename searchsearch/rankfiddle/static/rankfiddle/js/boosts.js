@@ -20,7 +20,6 @@ $(document).ready(function(){
         if($("#query-results-unweighted ul.result-items li").length > 0) column_count++;
         if($("#query-results-bm25f ul.result-items li").length > 0) column_count++;
         $("ul.result-items li").closest(".results-list").css("display", "block");
-
         if(column_count < 2) return;
         display_width = 66; // TODO: set this dynamically
         column_width = display_width / column_count;
@@ -30,13 +29,13 @@ $(document).ready(function(){
         longest_list_count = Math.max($("#query-results-weighted ul.result-items li").length, $("#query-results-unweighted ul.result-items li").length, $("#query-results-bm25f ul.result-items li").length);
         for(var i = 0; i < longest_list_count; i++){
             var highest = Math.max($("#query-results-weighted ul.result-items li:eq(" + i + ")").innerHeight(), $("#query-results-unweighted ul.result-items li:eq(" + i + ")").innerHeight(), $("#query-results-bm25f ul.result-items li:eq(" + i + ")").innerHeight());
+            var prev_total;
             $("ul.result-items").each(function(){
 
                 nth_li = $(this).children("li")[i];
-                current_height = $(nth_li).innerHeight();
-                height_diff = highest - current_height;
                 $(nth_li).children(".search-list-item").innerHeight(highest);
-
+                if(prev_total != undefined && i >= prev_total)$(nth_li).css("border-left", "thin solid black");
+                prev_total = $(this).children("li").length;
             });
         }
     }
