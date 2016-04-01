@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
  Licensed to the Apache Software Foundation (ASF) under one or more
  contributor license agreements.  See the NOTICE file distributed with
@@ -15,7 +15,6 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
-
 <!-- 
      For more details about configurations options that may appear in
      this file, see http://wiki.apache.org/solr/SolrConfigXml. 
@@ -604,12 +603,12 @@
           -->
                 <lst>
                     <str name="q">*:*</str>
-                    <str name="sort">score desc</str>
+                    <str name="sort">score desc, entity_id asc</str>
                     <str name="rows">10</str>
                 </lst>
                 <lst>
                     <str name="q">*:*</str>
-                    <str name="sort">score desc</str>
+                    <str name="sort">score desc, entity_id asc</str>
                     <str name="facet.field">TYPE</str>
                     <str name="rows">10</str>
                 </lst>
@@ -767,22 +766,28 @@
         <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
       -->
-    <lst name="defaults">
-      <str name="echoParams">explicit</str>
-      <int name="rows">10</int>
-    </lst>
-    <arr name="last-components">
-      <str>elevator</str>
-    </arr>
-  </requestHandler>
+        <lst name="defaults">
+            <str name="echoParams">explicit</str>
+            <int name="rows">10</int>
+        </lst>
+        <arr name="last-components">
+            <str>elevator</str>
+        </arr>
+    </requestHandler>
 
-   <requestHandler name="/update/dih" class="org.apache.solr.handler.dataimport.DataImportHandler">
-    <lst name="defaults">
-        <str name="config">dih-config.xml</str>
-    </lst>
-</requestHandler>
+    <requestHandler name="/update/dih" class="org.apache.solr.handler.dataimport.DataImportHandler">
+        <lst name="defaults">
+            <str name="config">dih-config.xml</str>
+        </lst>
+    </requestHandler>
 
-  <!-- ******************************************************************
+    <!-- <requestHandler name="/dataimporthandler" class="org.apache.solr.handler.dataimport.DataImportHandler">
+         <lst name="defaults">
+               <str name="config">dih-config.xml</str>
+         </lst>
+     </requestHandler>
+-->
+    <!-- ******************************************************************
                 New weightings added by thill 2015.12.22
                 replacing "search" RequestHandler immediately above 
                 as default handler.
@@ -1094,9 +1099,22 @@
        
      -->
 
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity">
         <lst name="suggester">
-            <str name="name">suggestConcept</str>
+            <str name="name">suggestEntity_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1105,22 +1123,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestConcept"
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity"
         startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept</str>
+            <str name="suggest.dictionary">suggestEntity_exact</str>
+            <str name="suggest.dictionary">suggestEntity_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept</str>
+            <str>suggestEntity</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_en">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_en">
         <lst name="suggester">
-            <str name="name">suggestConcept_en</str>
+            <str name="name">suggestEntity_en_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.en</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_en_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1129,22 +1163,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/en" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/en"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_en</str>
+            <str name="suggest.dictionary">suggestEntity_en_exact</str>
+            <str name="suggest.dictionary">suggestEntity_en_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_en</str>
+            <str>suggestEntity_en</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fi">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fi">
         <lst name="suggester">
-            <str name="name">suggestConcept_fi</str>
+            <str name="name">suggestEntity_fi_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.fi</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_fi_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1153,22 +1203,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/fi" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/fi"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fi</str>
+            <str name="suggest.dictionary">suggestEntity_fi_exact</str>
+            <str name="suggest.dictionary">suggestEntity_fi_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fi</str>
+            <str>suggestEntity_fi</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_de">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_de">
         <lst name="suggester">
-            <str name="name">suggestConcept_de</str>
+            <str name="name">suggestEntity_de_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.de</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_de_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1177,22 +1243,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/de" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/de"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_de</str>
+            <str name="suggest.dictionary">suggestEntity_de_exact</str>
+            <str name="suggest.dictionary">suggestEntity_de_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_de</str>
+            <str>suggestEntity_de</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ru">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ru">
         <lst name="suggester">
-            <str name="name">suggestConcept_ru</str>
+            <str name="name">suggestEntity_ru_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.ru</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_ru_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1201,22 +1283,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/ru" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ru"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ru</str>
+            <str name="suggest.dictionary">suggestEntity_ru_exact</str>
+            <str name="suggest.dictionary">suggestEntity_ru_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ru</str>
+            <str>suggestEntity_ru</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sr">
         <lst name="suggester">
-            <str name="name">suggestConcept_sr</str>
+            <str name="name">suggestEntity_sr_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.sr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_sr_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1225,22 +1323,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/sr" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sr"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sr</str>
+            <str name="suggest.dictionary">suggestEntity_sr_exact</str>
+            <str name="suggest.dictionary">suggestEntity_sr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sr</str>
+            <str>suggestEntity_sr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sv">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sv">
         <lst name="suggester">
-            <str name="name">suggestConcept_sv</str>
+            <str name="name">suggestEntity_sv_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.sv</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_sv_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1249,22 +1363,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/sv" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sv"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sv</str>
+            <str name="suggest.dictionary">suggestEntity_sv_exact</str>
+            <str name="suggest.dictionary">suggestEntity_sv_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sv</str>
+            <str>suggestEntity_sv</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_bg">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_bg">
         <lst name="suggester">
-            <str name="name">suggestConcept_bg</str>
+            <str name="name">suggestEntity_bg_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.bg</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_bg_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1273,22 +1403,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/bg" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/bg"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_bg</str>
+            <str name="suggest.dictionary">suggestEntity_bg_exact</str>
+            <str name="suggest.dictionary">suggestEntity_bg_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_bg</str>
+            <str>suggestEntity_bg</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_da">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_da">
         <lst name="suggester">
-            <str name="name">suggestConcept_da</str>
+            <str name="name">suggestEntity_da_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.da</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_da_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1297,22 +1443,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/da" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/da"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_da</str>
+            <str name="suggest.dictionary">suggestEntity_da_exact</str>
+            <str name="suggest.dictionary">suggestEntity_da_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_da</str>
+            <str>suggestEntity_da</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fr">
         <lst name="suggester">
-            <str name="name">suggestConcept_fr</str>
+            <str name="name">suggestEntity_fr_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.fr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_fr_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1321,22 +1483,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/fr" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/fr"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fr</str>
+            <str name="suggest.dictionary">suggestEntity_fr_exact</str>
+            <str name="suggest.dictionary">suggestEntity_fr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fr</str>
+            <str>suggestEntity_fr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_it">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_it">
         <lst name="suggester">
-            <str name="name">suggestConcept_it</str>
+            <str name="name">suggestEntity_it_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.it</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_it_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1345,22 +1523,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/it" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/it"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_it</str>
+            <str name="suggest.dictionary">suggestEntity_it_exact</str>
+            <str name="suggest.dictionary">suggestEntity_it_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_it</str>
+            <str>suggestEntity_it</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_pt">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pt">
         <lst name="suggester">
-            <str name="name">suggestConcept_pt</str>
+            <str name="name">suggestEntity_pt_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.pt</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_pt_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1369,22 +1563,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/pt" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/pt"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_pt</str>
+            <str name="suggest.dictionary">suggestEntity_pt_exact</str>
+            <str name="suggest.dictionary">suggestEntity_pt_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_pt</str>
+            <str>suggestEntity_pt</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_vi">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_vi">
         <lst name="suggester">
-            <str name="name">suggestConcept_vi</str>
+            <str name="name">suggestEntity_vi_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.vi</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_vi_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1393,22 +1603,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/vi" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/vi"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_vi</str>
+            <str name="suggest.dictionary">suggestEntity_vi_exact</str>
+            <str name="suggest.dictionary">suggestEntity_vi_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_vi</str>
+            <str>suggestEntity_vi</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ca">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ca">
         <lst name="suggester">
-            <str name="name">suggestConcept_ca</str>
+            <str name="name">suggestEntity_ca_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.ca</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_ca_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1417,22 +1643,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/ca" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ca"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ca</str>
+            <str name="suggest.dictionary">suggestEntity_ca_exact</str>
+            <str name="suggest.dictionary">suggestEntity_ca_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ca</str>
+            <str>suggestEntity_ca</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_nl">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_nl">
         <lst name="suggester">
-            <str name="name">suggestConcept_nl</str>
+            <str name="name">suggestEntity_nl_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.nl</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_nl_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1441,22 +1683,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/nl" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/nl"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_nl</str>
+            <str name="suggest.dictionary">suggestEntity_nl_exact</str>
+            <str name="suggest.dictionary">suggestEntity_nl_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_nl</str>
+            <str>suggestEntity_nl</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_et">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_et">
         <lst name="suggester">
-            <str name="name">suggestConcept_et</str>
+            <str name="name">suggestEntity_et_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.et</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_et_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1465,22 +1723,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/et" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/et"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_et</str>
+            <str name="suggest.dictionary">suggestEntity_et_exact</str>
+            <str name="suggest.dictionary">suggestEntity_et_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_et</str>
+            <str>suggestEntity_et</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_es">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_es">
         <lst name="suggester">
-            <str name="name">suggestConcept_es</str>
+            <str name="name">suggestEntity_es_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.es</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_es_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1489,22 +1763,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/es" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/es"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_es</str>
+            <str name="suggest.dictionary">suggestEntity_es_exact</str>
+            <str name="suggest.dictionary">suggestEntity_es_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_es</str>
+            <str>suggestEntity_es</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_uk">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_uk">
         <lst name="suggester">
-            <str name="name">suggestConcept_uk</str>
+            <str name="name">suggestEntity_uk_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.uk</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_uk_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1513,22 +1803,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/uk" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/uk"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_uk</str>
+            <str name="suggest.dictionary">suggestEntity_uk_exact</str>
+            <str name="suggest.dictionary">suggestEntity_uk_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_uk</str>
+            <str>suggestEntity_uk</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ar">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ar">
         <lst name="suggester">
-            <str name="name">suggestConcept_ar</str>
+            <str name="name">suggestEntity_ar_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.ar</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_ar_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1537,22 +1843,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/ar" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ar"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ar</str>
+            <str name="suggest.dictionary">suggestEntity_ar_exact</str>
+            <str name="suggest.dictionary">suggestEntity_ar_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ar</str>
+            <str>suggestEntity_ar</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_cs">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_cs">
         <lst name="suggester">
-            <str name="name">suggestConcept_cs</str>
+            <str name="name">suggestEntity_cs_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.cs</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_cs_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1561,22 +1883,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/cs" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/cs"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_cs</str>
+            <str name="suggest.dictionary">suggestEntity_cs_exact</str>
+            <str name="suggest.dictionary">suggestEntity_cs_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_cs</str>
+            <str>suggestEntity_cs</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_hu">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hu">
         <lst name="suggester">
-            <str name="name">suggestConcept_hu</str>
+            <str name="name">suggestEntity_hu_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.hu</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_hu_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1585,22 +1923,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/hu" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/hu"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_hu</str>
+            <str name="suggest.dictionary">suggestEntity_hu_exact</str>
+            <str name="suggest.dictionary">suggestEntity_hu_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_hu</str>
+            <str>suggestEntity_hu</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_id">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_id">
         <lst name="suggester">
-            <str name="name">suggestConcept_id</str>
+            <str name="name">suggestEntity_id_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.id</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_id_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1609,22 +1963,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/id" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/id"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_id</str>
+            <str name="suggest.dictionary">suggestEntity_id_exact</str>
+            <str name="suggest.dictionary">suggestEntity_id_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_id</str>
+            <str>suggestEntity_id</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ja">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ja">
         <lst name="suggester">
-            <str name="name">suggestConcept_ja</str>
+            <str name="name">suggestEntity_ja_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.ja</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_ja_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1633,22 +2003,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/ja" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ja"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ja</str>
+            <str name="suggest.dictionary">suggestEntity_ja_exact</str>
+            <str name="suggest.dictionary">suggestEntity_ja_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ja</str>
+            <str>suggestEntity_ja</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ko">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ko">
         <lst name="suggester">
-            <str name="name">suggestConcept_ko</str>
+            <str name="name">suggestEntity_ko_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.ko</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_ko_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1657,22 +2043,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/ko" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ko"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ko</str>
+            <str name="suggest.dictionary">suggestEntity_ko_exact</str>
+            <str name="suggest.dictionary">suggestEntity_ko_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ko</str>
+            <str>suggestEntity_ko</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_lt">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lt">
         <lst name="suggester">
-            <str name="name">suggestConcept_lt</str>
+            <str name="name">suggestEntity_lt_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.lt</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_lt_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1681,22 +2083,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/lt" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/lt"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_lt</str>
+            <str name="suggest.dictionary">suggestEntity_lt_exact</str>
+            <str name="suggest.dictionary">suggestEntity_lt_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_lt</str>
+            <str>suggestEntity_lt</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_no">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_no">
         <lst name="suggester">
-            <str name="name">suggestConcept_no</str>
+            <str name="name">suggestEntity_no_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.no</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_no_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1705,22 +2123,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/no" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/no"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_no</str>
+            <str name="suggest.dictionary">suggestEntity_no_exact</str>
+            <str name="suggest.dictionary">suggestEntity_no_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_no</str>
+            <str>suggestEntity_no</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fa">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fa">
         <lst name="suggester">
-            <str name="name">suggestConcept_fa</str>
+            <str name="name">suggestEntity_fa_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.fa</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_fa_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1729,22 +2163,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/fa" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/fa"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fa</str>
+            <str name="suggest.dictionary">suggestEntity_fa_exact</str>
+            <str name="suggest.dictionary">suggestEntity_fa_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fa</str>
+            <str>suggestEntity_fa</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_pl">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pl">
         <lst name="suggester">
-            <str name="name">suggestConcept_pl</str>
+            <str name="name">suggestEntity_pl_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.pl</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_pl_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1753,22 +2203,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/pl" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/pl"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_pl</str>
+            <str name="suggest.dictionary">suggestEntity_pl_exact</str>
+            <str name="suggest.dictionary">suggestEntity_pl_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_pl</str>
+            <str>suggestEntity_pl</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ro">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ro">
         <lst name="suggester">
-            <str name="name">suggestConcept_ro</str>
+            <str name="name">suggestEntity_ro_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.ro</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_ro_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1777,22 +2243,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/ro" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ro"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ro</str>
+            <str name="suggest.dictionary">suggestEntity_ro_exact</str>
+            <str name="suggest.dictionary">suggestEntity_ro_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ro</str>
+            <str>suggestEntity_ro</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_th">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_th">
         <lst name="suggester">
-            <str name="name">suggestConcept_th</str>
+            <str name="name">suggestEntity_th_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.th</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_th_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1801,22 +2283,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/th" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/th"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_th</str>
+            <str name="suggest.dictionary">suggestEntity_th_exact</str>
+            <str name="suggest.dictionary">suggestEntity_th_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_th</str>
+            <str>suggestEntity_th</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sk">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sk">
         <lst name="suggester">
-            <str name="name">suggestConcept_sk</str>
+            <str name="name">suggestEntity_sk_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.sk</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_sk_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1825,22 +2323,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/sk" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sk"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sk</str>
+            <str name="suggest.dictionary">suggestEntity_sk_exact</str>
+            <str name="suggest.dictionary">suggestEntity_sk_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sk</str>
+            <str>suggestEntity_sk</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_sl">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sl">
         <lst name="suggester">
-            <str name="name">suggestConcept_sl</str>
+            <str name="name">suggestEntity_sl_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.sl</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_sl_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1849,22 +2363,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/sl" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sl"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_sl</str>
+            <str name="suggest.dictionary">suggestEntity_sl_exact</str>
+            <str name="suggest.dictionary">suggestEntity_sl_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_sl</str>
+            <str>suggestEntity_sl</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_hr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hr">
         <lst name="suggester">
-            <str name="name">suggestConcept_hr</str>
+            <str name="name">suggestEntity_hr_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.hr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_hr_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1873,22 +2403,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/hr" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/hr"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_hr</str>
+            <str name="suggest.dictionary">suggestEntity_hr_exact</str>
+            <str name="suggest.dictionary">suggestEntity_hr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_hr</str>
+            <str>suggestEntity_hr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_el">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_el">
         <lst name="suggester">
-            <str name="name">suggestConcept_el</str>
+            <str name="name">suggestEntity_el_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.el</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_el_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1897,22 +2443,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/el" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/el"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_el</str>
+            <str name="suggest.dictionary">suggestEntity_el_exact</str>
+            <str name="suggest.dictionary">suggestEntity_el_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_el</str>
+            <str>suggestEntity_el</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_hi">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hi">
         <lst name="suggester">
-            <str name="name">suggestConcept_hi</str>
+            <str name="name">suggestEntity_hi_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.hi</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_hi_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1921,22 +2483,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/hi" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/hi"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_hi</str>
+            <str name="suggest.dictionary">suggestEntity_hi_exact</str>
+            <str name="suggest.dictionary">suggestEntity_hi_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_hi</str>
+            <str>suggestEntity_hi</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_tr">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_tr">
         <lst name="suggester">
-            <str name="name">suggestConcept_tr</str>
+            <str name="name">suggestEntity_tr_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.tr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_tr_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1945,22 +2523,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/tr" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/tr"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_tr</str>
+            <str name="suggest.dictionary">suggestEntity_tr_exact</str>
+            <str name="suggest.dictionary">suggestEntity_tr_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_tr</str>
+            <str>suggestEntity_tr</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_lv">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lv">
         <lst name="suggester">
-            <str name="name">suggestConcept_lv</str>
+            <str name="name">suggestEntity_lv_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.lv</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_lv_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1969,22 +2563,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/lv" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/lv"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_lv</str>
+            <str name="suggest.dictionary">suggestEntity_lv_exact</str>
+            <str name="suggest.dictionary">suggestEntity_lv_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_lv</str>
+            <str>suggestEntity_lv</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_ms">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ms">
         <lst name="suggester">
-            <str name="name">suggestConcept_ms</str>
+            <str name="name">suggestEntity_ms_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.ms</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_ms_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -1993,22 +2603,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/ms" startup="lazy">
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ms"
+        startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_ms</str>
+            <str name="suggest.dictionary">suggestEntity_ms_exact</str>
+            <str name="suggest.dictionary">suggestEntity_ms_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_ms</str>
+            <str>suggestEntity_ms</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_fil">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fil">
         <lst name="suggester">
-            <str name="name">suggestConcept_fil</str>
+            <str name="name">suggestEntity_fil_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.fil</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_fil_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2017,22 +2643,38 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/fil" startup="lazy">
+        name="/suggestEntity/fil" startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_fil</str>
+            <str name="suggest.dictionary">suggestEntity_fil_exact</str>
+            <str name="suggest.dictionary">suggestEntity_fil_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_fil</str>
+            <str>suggestEntity_fil</str>
         </arr>
     </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestConcept_es_419">
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_es_419">
         <lst name="suggester">
-            <str name="name">suggestConcept_es_419</str>
+            <str name="name">suggestEntity_es_419_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
+            <str name="storeDir">suggester_fuzzy_dir</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="field">skos_prefLabel.es_419</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">true</str>
+            <str name="buildOnCommit">false</str>
+            <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="suggester">
+            <str name="name">suggestEntity_es_419_fuzzy</str>
             <str name="lookupImpl">FuzzyLookupFactory</str>
             <str name="storeDir">suggester_fuzzy_dir</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
@@ -2041,17 +2683,20 @@
             <str name="buildOnStartup">true</str>
             <str name="buildOnCommit">false</str>
             <str name="weightField">derived_score</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestConcept/es_419" startup="lazy">
+        name="/suggestEntity/es_419" startup="lazy">
         <lst name="defaults">
             <str name="suggest">true</str>
             <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestConcept_es_419</str>
+            <str name="suggest.dictionary">suggestEntity_es_419_exact</str>
+            <str name="suggest.dictionary">suggestEntity_es_419_fuzzy</str>
         </lst>
         <arr name="components">
-            <str>suggestConcept_es_419</str>
+            <str>suggestEntity_es_419</str>
         </arr>
     </requestHandler>
 
@@ -2110,58 +2755,37 @@
     -->
     <searchComponent name="clustering" enable="${solr.clustering.enabled:false}"
         class="solr.clustering.ClusteringComponent">
-        <!-- Declare an engine -->
         <lst name="engine">
-            <!-- The name, only one can be named "default" -->
-            <str name="name">default</str>
-
-            <!-- Class name of Carrot2 clustering algorithm. 
-           
-           Currently available algorithms are:
-           
-           * org.carrot2.clustering.lingo.LingoClusteringAlgorithm
-           * org.carrot2.clustering.stc.STCClusteringAlgorithm
-           * org.carrot2.clustering.kmeans.BisectingKMeansClusteringAlgorithm
-           
-           See http://project.carrot2.org/algorithms.html for the
-           algorithm's characteristics.
-        -->
+            <str name="name">default_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
             <str name="carrot.algorithm">org.carrot2.clustering.lingo.LingoClusteringAlgorithm</str>
-
-            <!-- Overriding values for Carrot2 default algorithm attributes.
-
-           For a description of all available attributes, see:
-           http://download.carrot2.org/stable/manual/#chapter.components.
-           Use attribute key as name attribute of str elements
-           below. These can be further overridden for individual
-           requests by specifying attribute key as request parameter
-           name and attribute value as parameter value.
-        -->
             <str name="LingoClusteringAlgorithm.desiredClusterCountBase">20</str>
-
-            <!-- Location of Carrot2 lexical resources.
-
-           A directory from which to load Carrot2-specific stop words
-           and stop labels. Absolute or relative to Solr config directory.
-           If a specific resource (e.g. stopwords.en) is present in the
-           specified dir, it will completely override the corresponding
-           default one that ships with Carrot2.
-
-           For an overview of Carrot2 lexical resources, see:
-           http://download.carrot2.org/head/manual/#chapter.lexical-resources
-        -->
             <str name="carrot.lexicalResourcesDir">clustering/carrot2</str>
-
-            <!-- The language to assume for the documents.
-           
-           For a list of allowed values, see:
-           http://download.carrot2.org/stable/manual/#section.attribute.lingo.MultilingualClustering.defaultLanguage
-       -->
             <str name="MultilingualClustering.defaultLanguage">ENGLISH</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
         <lst name="engine">
-            <str name="name">stc</str>
+            <str name="name">default_fuzzy</str>
+            <str name="carrot.algorithm">org.carrot2.clustering.lingo.LingoClusteringAlgorithm</str>
+            <str name="LingoClusteringAlgorithm.desiredClusterCountBase">20</str>
+            <str name="carrot.lexicalResourcesDir">clustering/carrot2</str>
+            <str name="MultilingualClustering.defaultLanguage">ENGLISH</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="engine">
+            <str name="name">stc_exact</str>
+            <str name="lookupImpl">AnalyzingLookupFactory</str>
             <str name="carrot.algorithm">org.carrot2.clustering.stc.STCClusteringAlgorithm</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
+        </lst>
+        <lst name="engine">
+            <str name="name">stc_fuzzy</str>
+            <str name="carrot.algorithm">org.carrot2.clustering.stc.STCClusteringAlgorithm</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
 
@@ -2195,7 +2819,6 @@
        scoring.
     -->
     <searchComponent name="elevator" class="solr.QueryElevationComponent">
-        <!-- pick a fieldType to analyze queries -->
         <str name="queryFieldType">string</str>
         <str name="config-file">elevate.xml</str>
     </searchComponent>
@@ -2214,92 +2837,7 @@
 
        http://wiki.apache.org/solr/HighlightingParameters
     -->
-    <searchComponent class="solr.HighlightComponent" name="highlight">
-        <highlighting>
-            <!-- Configure the standard fragmenter -->
-            <!-- This could most likely be commented out in the "default" case -->
-            <fragmenter name="gap" default="true" class="solr.highlight.GapFragmenter">
-                <lst name="defaults">
-                    <int name="hl.fragsize">100</int>
-                </lst>
-            </fragmenter>
-
-            <!-- A regular-expression-based fragmenter 
-           (for sentence extraction) 
-        -->
-            <fragmenter name="regex" class="solr.highlight.RegexFragmenter">
-                <lst name="defaults">
-                    <!-- slightly smaller fragsizes work better because of slop -->
-                    <int name="hl.fragsize">70</int>
-                    <!-- allow 50% slop on fragment sizes -->
-                    <float name="hl.regex.slop">0.5</float>
-                    <!-- a basic sentence pattern -->
-                    <str name="hl.regex.pattern">[-\w ,/\n\&quot;&apos;]{20,200}</str>
-                </lst>
-            </fragmenter>
-
-            <!-- Configure the standard formatter -->
-            <formatter name="html" default="true" class="solr.highlight.HtmlFormatter">
-                <lst name="defaults">
-                    <str name="hl.simple.pre"><![CDATA[<em>]]></str>
-                    <str name="hl.simple.post"><![CDATA[</em>]]></str>
-                </lst>
-            </formatter>
-
-            <!-- Configure the standard encoder -->
-            <encoder name="html" class="solr.highlight.HtmlEncoder"/>
-
-            <!-- Configure the standard fragListBuilder -->
-            <fragListBuilder name="simple" default="true"
-                class="solr.highlight.SimpleFragListBuilder"/>
-
-            <!-- Configure the single fragListBuilder -->
-            <fragListBuilder name="single" class="solr.highlight.SingleFragListBuilder"/>
-
-            <!-- default tag FragmentsBuilder -->
-            <fragmentsBuilder name="default" default="true"
-                class="solr.highlight.ScoreOrderFragmentsBuilder">
-                <!-- 
-        <lst name="defaults">
-          <str name="hl.multiValuedSeparatorChar">/</str>
-        </lst>
-        -->
-            </fragmentsBuilder>
-
-            <!-- multi-colored tag FragmentsBuilder -->
-            <fragmentsBuilder name="colored" class="solr.highlight.ScoreOrderFragmentsBuilder">
-                <lst name="defaults">
-                    <str name="hl.tag.pre"><![CDATA[
-               <b style="background:yellow">,<b style="background:lawgreen">,
-               <b style="background:aquamarine">,<b style="background:magenta">,
-               <b style="background:palegreen">,<b style="background:coral">,
-               <b style="background:wheat">,<b style="background:khaki">,
-               <b style="background:lime">,<b style="background:deepskyblue">]]></str>
-                    <str name="hl.tag.post"><![CDATA[</b>]]></str>
-                </lst>
-            </fragmentsBuilder>
-
-            <boundaryScanner name="default" default="true"
-                class="solr.highlight.SimpleBoundaryScanner">
-                <lst name="defaults">
-                    <str name="hl.bs.maxScan">10</str>
-                    <str name="hl.bs.chars">.,!? &#9;&#10;&#13;</str>
-                </lst>
-            </boundaryScanner>
-
-            <boundaryScanner name="breakIterator"
-                class="solr.highlight.BreakIteratorBoundaryScanner">
-                <lst name="defaults">
-                    <!-- type should be one of CHARACTER, WORD(default), LINE and SENTENCE -->
-                    <str name="hl.bs.type">WORD</str>
-                    <!-- language and country are used when constructing Locale object.  -->
-                    <!-- And the Locale object will be used when getting instance of BreakIterator -->
-                    <str name="hl.bs.language">en</str>
-                    <str name="hl.bs.country">US</str>
-                </lst>
-            </boundaryScanner>
-        </highlighting>
-    </searchComponent>
+    <searchComponent class="solr.HighlightComponent" name="highlight"/>
 
     <!-- Update Processors
 
