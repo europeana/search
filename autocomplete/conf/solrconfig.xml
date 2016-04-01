@@ -767,25 +767,6 @@
         <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
       -->
-<<<<<<< HEAD
-        <lst name="defaults">
-            <str name="echoParams">explicit</str>
-            <int name="rows">10</int>
-        </lst>
-        <arr name="last-components">
-            <str>elevator</str>
-        </arr>
-    </requestHandler>
-
-    <requestHandler name="/update/dih" startup="lazy"
-        class="org.apache.solr.handler.dataimport.DataImportHandler">
-        <lst name="defaults">
-            <str name="config">dih-config.xml</str>
-        </lst>
-    </requestHandler>
-
-    <!-- ******************************************************************
-=======
     <lst name="defaults">
       <str name="echoParams">explicit</str>
       <int name="rows">10</int>
@@ -802,7 +783,6 @@
 </requestHandler>
 
   <!-- ******************************************************************
->>>>>>> 5046a7838097520bb44117128cdb3be7f9ef4189
                 New weightings added by thill 2015.12.22
                 replacing "search" RequestHandler immediately above 
                 as default handler.
