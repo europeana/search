@@ -776,7 +776,7 @@
     </arr>
   </requestHandler>
 
-   <requestHandler name="/update/dih" startup="lazy" class="org.apache.solr.handler.dataimport.DataImportHandler">
+   <requestHandler name="/update/dih" class="org.apache.solr.handler.dataimport.DataImportHandler">
     <lst name="defaults">
         <str name="config">dih-config.xml</str>
     </lst>
