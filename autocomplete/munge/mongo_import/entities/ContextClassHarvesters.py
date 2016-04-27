@@ -1,3 +1,35 @@
+class LanguageValidator:
+    # TODO: What to do with weird 'def' language tags all over the place
+    LOG_LOCATION = "../logs/langlogs/"
+
+    def __init__(self):
+        self.langmap = {}
+        with open('../all_langs.wkp', 'r') as all_langs:
+            for lang in all_langs:
+                if(not(lang.startswith("#")) and ("|" in lang)):
+                    (name, code) = lang.split('|')
+                    self.langmap[code.strip()] = name
+
+    def validate_lang_code(self, entity_id, code):
+       if(code in self.langmap.keys()):
+           return True
+       else:
+           code = code if code != '' else 'No code provided'
+           self.log_invalid_lang_code(entity_id, code)
+           return False
+
+    def log_invalid_lang_code(self, entity_id, code):
+        # TODO: differentiate logfiles by date
+        filename = "logs.txt"
+        filepath = LanguageValidator.LOG_LOCATION + filename
+        with open(filepath, 'a') as lgout:
+            msg = "Invalid language code found on entity " + str(entity_id) + ": " + str(code)
+            lgout.write(msg)
+            lgout.write("\n")
+
+    def print_langs(self):
+        print(self.langmap)
+
 class ContextClassHarvester:
 
     from os import getcwd
@@ -6,6 +38,8 @@ class ContextClassHarvester:
     MONGO_PORT = 27017
     CHUNK_SIZE = 1000
     WRITEDIR = getcwd() + '/../entities_out'
+    LANG_VALIDATOR = LanguageValidator()
+    LOG_LOCATION = '../logs/entlogs/'
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
@@ -42,12 +76,13 @@ class ContextClassHarvester:
     def write_to_file(self, doc, start):
         from xml.etree import ElementTree as ET
         from xml.dom import minidom
+        import io
 
         writepath = self.write_dir + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
         roughstring = ET.tostring(doc, encoding='utf-8')
         reparsed = minidom.parseString(roughstring)
         reparsed = reparsed.toprettyxml(encoding='utf-8', indent="     ").decode('utf-8')
-        with open(writepath, 'w') as writefile:
+        with io.open(writepath, 'w', encoding='utf-8') as writefile:
             writefile.write(reparsed)
             writefile.close()
         return writepath
@@ -79,17 +114,18 @@ class ConceptHarvester(ContextClassHarvester):
         self.add_field(doc, 'internal_type', 'Concept')
         euc_count = self.euro_rc.get_new_term_count(id)
         for now_doc in entity_rows:
-            lang = "." + now_doc['lang'] if 'lang' in now_doc else ''
-            label = now_doc['label'] if 'label' in now_doc else ''
-            if(lang == ".en"):
-                wpc_count = self.wpedia_rc.get_new_term_count(label)
-                self.add_field(doc, 'europeana_doc_count', str(euc_count))
-                self.add_field(doc, 'wikipedia_clicks', str(wpc_count))
-                tmp_wpc_count = abs(wpc_count)
-                ds = euc_count * tmp_wpc_count
-                self.add_field(doc, 'derived_score', str(ds))
-            field_name="skos_prefLabel" + lang
-            self.add_field(doc, field_name, label)
+            lang = now_doc['lang'] if 'lang' in now_doc else ''
+            if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(id, lang)):
+                label = now_doc['label'] if 'label' in now_doc else ''
+                if(lang == "en"):
+                    wpc_count = self.wpedia_rc.get_new_term_count(label)
+                    self.add_field(doc, 'europeana_doc_count', str(euc_count))
+                    self.add_field(doc, 'wikipedia_clicks', str(wpc_count))
+                    tmp_wpc_count = abs(wpc_count)
+                    ds = euc_count * tmp_wpc_count
+                    self.add_field(doc, 'derived_score', str(ds))
+                    field_name = "skos_prefLabel." + lang
+                    self.add_field(doc, field_name, label)
 
 class AgentHarvester(ContextClassHarvester):
 
@@ -111,71 +147,74 @@ class AgentHarvester(ContextClassHarvester):
         agents = self.client.annocultor_db.people.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
         agents_chunk = {}
         for agent in agents:
-            new_agent_id = self.client.annocultor_db.lookup.find_one({ 'codeUri' : agent })
-            try:
-                legacy_agent_id = new_agent_id['originalCodeUri']
-                agent_record = self.legacy_mongo.europeana.Agent.find({ 'about' : legacy_agent_id})
-                if(agent_record.count() == 0): raise KeyError
-                agents_chunk[agent] = agent_record
-            except Exception as e:
-                agent_record = self.client.annocultor_db.people.find({ 'codeUri' : agent })
-                agents_chunk[agent] = agent_record
+            agents_chunk[agent] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : agent })
         return agents_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
+        if(entity_rows is None):
+            self.log_missing_entry(entity_id)
+            return
         import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
         id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        if(entity_rows.count() > 0 and 'about' in entity_rows[0]):
-            self.build_legacy_doc(doc, entity_rows[0])
-        else:
-            self.build_current_doc(doc, entity_rows)
         self.add_field(doc, 'entity_id', id)
         self.add_field(doc, 'internal_type', 'Agent')
+        self.process_representation(doc, entity_id, entity_rows)
 
-    def build_current_doc(self, document, entity_rows):
-        langdict = {}
-        for item in entity_rows:
-            lang = item['lang']
-            label = item['label']
-            if(lang not in langdict):
-                langdict[lang] = list()
-                langdict[lang].append(label)
+    def process_representation(self, docroot, entity_id, entity_rows):
+        field_map = {}
+        field_map['prefLabel'] = 'skos_prefLabel'
+        field_map['altLabel'] = 'skos_altLabel'
+        # TODO: Expand for additional related fields
+        if('representation' in entity_rows):
+            for characteristic in entity_rows['representation']:
+                if(characteristic in field_map.keys()):
+                    for lang in entity_rows['representation'][characteristic]:
+                        if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
+                            field_name = field_map[characteristic]
+                            field_values = entity_rows['representation'][characteristic][lang]
+                            for field_value in field_values:
+                                qual_field_name = field_name + "." + lang
+                                self.add_field(docroot, field_name, field_value)
+                                self.add_field(docroot, qual_field_name, field_value)
+            if('owlSameAs' in entity_rows['representation']):
+                self.grab_relevance_ratings(docroot, entity_rows['representation']['owlSameAs'])
             else:
-                langdict[lang].append(label)
-        for lang, label_list in langdict.items():
-            self.add_field(document, "skos_prefLabel." + lang, label_list.pop(0))
-            for label in label_list:
-                self.add_field(document, "skos_altLabel." + lang, label)
-        self.add_field(document, 'europeana_doc_count', '0')
-        self.add_field(document, 'wikipedia_clicks', '0')
-        self.add_field(document, 'derived_score', '0')
+                self.assign_zero_relevance(docroot)
+        else:
+            return
 
-    def build_legacy_doc(self, document, entity_rows):
-        for key, value in entity_rows.items():
-            if(key == 'about'):
-                hitcounts = self.ag_rc.get_term_count(value)
+    def grab_relevance_ratings(self, docroot, sames):
+        import re
+        for same in sames:
+            if(re.match('http://dbpedia.org/resource/.+', same )):
+                hitcounts = self.ag_rc.get_term_count(same)
                 wpedia_clicks = hitcounts["wpedia_clicks"] if "wpedia_clicks" in hitcounts else -1
                 eu_df = hitcounts["eu_df"] if "eu_df" in hitcounts else 0
                 eu_df = eu_df if(eu_df != -1) else 0
                 ds = abs(wpedia_clicks * eu_df)
-                self.add_field(document, 'europeana_doc_count', str(eu_df))
-                self.add_field(document, 'wikipedia_clicks', str(wpedia_clicks))
-                self.add_field(document, 'derived_score', str(ds))
-            if(key != 'prefLabel' and key != 'altLabel'): continue
-            field_name = "skos_" + key
-            t = type(value)
-            if(t is str):
-                self.add_field(document, field_name, value)
-            elif(t is list):
-                [self.add_field(document, field_name, i) for i in value]
-            elif(t is dict):
-                for subkey, subvalue in value.items():
-                    qualified_field_name = field_name + "." + subkey if (subkey != "def") else field_name
-                    for sv in subvalue:
-                        self.add_field(document, qualified_field_name, sv)
+                self.add_field(docroot, 'europeana_doc_count', str(eu_df))
+                self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
+                self.add_field(docroot, 'derived_score', str(ds))
+                return True # we don't want more than one relevance ranking
+        # if no match is found, relevance score is 0
+        self.assign_zero_relevance(docroot)
+        return False
+
+    def assign_zero_relevance(self, docroot):
+        self.add_field(docroot, 'europeana_doc_count', '0')
+        self.add_field(docroot, 'wikipedia_clicks', '0')
+        self.add_field(docroot, 'derived_score', '0')
+
+    def log_missing_entry(self, entity_id):
+        msg = "Entity found in Agents but not TermList collection: " + entity_id
+        logfile = "missing_agents.txt"
+        logpath = ContextClassHarvester.LOG_LOCATION + logfile
+        with open(logpath, 'a') as lgout:
+            lgout.write(msg)
+            lgout.write("\n")
 
 class PlaceHarvester(ContextClassHarvester):
 
@@ -221,9 +260,12 @@ class PlaceHarvester(ContextClassHarvester):
             self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
             self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
             for lang_code, label_list in entity['prefLabel'].items():
-                suffix = '.' + lang_code if lang_code != 'def' else ''
-                tagname = 'skos_prefLabel' + suffix
-                for label in label_list:
-                    self.add_field(doc, tagname, label)
+                # we need to workaround 'def', though it's unclear why
+                if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(id, lang_code) or lang_code == 'def'):
+                    suffix = '.' + lang_code if lang_code != 'def' else ''
+                    tagname = 'skos_prefLabel' + suffix
+                    for label in label_list:
+                        self.add_field(doc, tagname, label)
+
 
 

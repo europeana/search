@@ -68,7 +68,7 @@ class EuDocRelevanceCounter(RelevanceCounter):
             old_uri = moclient.annocultor_db.lookup.find_one({'codeUri':qry_term})['originalCodeUri']
             moclient.close()
             qry_term = "\"" + old_uri + "\"" # exact matching!
-            solr_url = "http://sol1.ingest.eanadev.org:9191/solr/search_1/search"
+            solr_url = "http://sol1.eanadev.org:9191/solr/search_1/search"
             solr_url += "?q=" + qry_term
             solr_url += "&rows=0"
             solr_url += "&wt=json"
