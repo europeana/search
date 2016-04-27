@@ -12,6 +12,6 @@ urlpatterns = [
     url(r'^accounts/', include('registration.backends.simple.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^rankfiddle/', include('rankfiddle.urls', namespace='rankfiddle'), name='rankfiddle'),
-
+    url(r'^recluster/', include('recluster.urls', namespace='recluster'), name='recluster'),
 
 ]
