@@ -61,7 +61,7 @@
             multiValued="true"/>
 
         <!-- generic searchfield -->
-        <dynamicField name="text" type="text" indexed="true" stored="true" multiValued="true"/>
+        <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
 
     </fields>
     <uniqueKey>europeana_id</uniqueKey>
