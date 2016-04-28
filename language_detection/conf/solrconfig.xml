@@ -1295,13 +1295,14 @@
         <processor
         class="org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory">
         <lst name="defaults">
-            <str name="langid.fl">proxy_dc_title, proxy_dc_description</str>
+            <str name="langid">true</str>
+            <str name="langid.fl">proxy_dc_title proxy_dc_description</str>
             <str name="langid.langField">doclang</str>
             <str name="langid.langsField">parsedlangs</str>
             <str name="langid.threshold">0.8</str>
             <str name="langid.langsField">parsed_langs</str>
             <str name="langid.map">true</str>
-            <str name="langid.map.fl">proxy_dc_title proxy_dc_description</str>
+            <str name="langid.map.individual.fl">proxy_dc_title, proxy_dc_description</str>
             <str name="langid.map.individual">true</str>
             <str name="langid.map.keepOrig">true</str>
             <str name="langid.fallback">zz</str>
