@@ -1306,6 +1306,8 @@
             <str name="langid.fallback">zz</str>
         </lst>
     </processor>
+    <processor class="solr.LogUpdateProcessorFactory" />
+    <processor class="solr.RunUpdateProcessorFactory" />
     </updateRequestProcessorChain>
 
     <!-- Response Writers
