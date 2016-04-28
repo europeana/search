@@ -45,13 +45,13 @@
         <!-- input fields present in indexed documents -->
         <field name="targetlang" type="string" indexed="true" required="true" multiValued="false"
             stored="true"/>
-        <field name="doclang" type="string" indexed="true" required="true" multiValued="false"
+        <field name="doclang" type="string" indexed="true" required="false" multiValued="false"
             stored="true"/>
-        <field name="parsedlangs" type="string" indexed="true" required="true" multiValued="true"
+        <field name="parsedlangs" type="string" indexed="true" required="false" multiValued="true"
             stored="true"/>
-        <field name="proxy_dc_title" type="string" indexed="true" required="true"
+        <field name="proxy_dc_title" type="string" indexed="true" required="false"
             multiValued="false" stored="true"/>
-        <field name="proxy_dc_description" type="text" indexed="true" required="true"
+        <field name="proxy_dc_description" type="text" indexed="true" required="false"
             multiValued="false" stored="true"/>
 
         <!-- mapping fields (derived) -->
