@@ -604,12 +604,12 @@
           -->
                 <lst>
                     <str name="q">*:*</str>
-                    <str name="sort">score desc, entity_id asc</str>
+                    <str name="sort">score desc, europeana_id asc</str>
                     <str name="rows">10</str>
                 </lst>
                 <lst>
                     <str name="q">*:*</str>
-                    <str name="sort">score desc, entity_id asc</str>
+                    <str name="sort">score desc, europeana_id asc</str>
                     <str name="facet.field">TYPE</str>
                     <str name="rows">10</str>
                 </lst>
@@ -1162,7 +1162,7 @@
             <str name="MultilingualClustering.defaultLanguage">ENGLISH</str>
             <str name="buildOnOptimize">true</str>
             <str name="exactMatchFirst">true</str>
-            <str name="payloadField">entity_id</str>
+            <str name="payloadField">europeana_id</str>
         </lst>
         <lst name="engine">
             <str name="name">default_fuzzy</str>
@@ -1172,7 +1172,7 @@
             <str name="MultilingualClustering.defaultLanguage">ENGLISH</str>
             <str name="buildOnOptimize">true</str>
             <str name="exactMatchFirst">true</str>
-            <str name="payloadField">entity_id</str>
+            <str name="payloadField">europeana_id</str>
         </lst>
         <lst name="engine">
             <str name="name">stc_exact</str>
@@ -1180,14 +1180,14 @@
             <str name="carrot.algorithm">org.carrot2.clustering.stc.STCClusteringAlgorithm</str>
             <str name="buildOnOptimize">true</str>
             <str name="exactMatchFirst">true</str>
-            <str name="payloadField">entity_id</str>
+            <str name="payloadField">europeana_id</str>
         </lst>
         <lst name="engine">
             <str name="name">stc_fuzzy</str>
             <str name="carrot.algorithm">org.carrot2.clustering.stc.STCClusteringAlgorithm</str>
             <str name="buildOnOptimize">true</str>
             <str name="exactMatchFirst">true</str>
-            <str name="payloadField">entity_id</str>
+            <str name="payloadField">europeana_id</str>
         </lst>
     </searchComponent>
 
