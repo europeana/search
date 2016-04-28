@@ -1298,8 +1298,8 @@
         class="org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory">
         <lst name="defaults">
             <str name="langid.fl">proxy_dc_title, proxy_dc_description</str>
-            <str name="langid.langField">doc_lang</str>
-            <str name="langid.langsField">parsed_langs</str>
+            <str name="langid.langField">doclang</str>
+            <str name="langid.langsField">parsedlangs</str>
             <str name="langid.threshold">0.8</str>
             <str name="langid.langsField">parsed_langs</str>
             <str name="langid.map">true</str>
