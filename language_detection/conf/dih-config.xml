@@ -7,7 +7,7 @@
         -->
         <entity name="pickupdir" processor="FileListEntityProcessor" rootEntity="false"
             dataSource="null" fileName="^[\w\d-]+\.xml$"
-            baseDir="/opt/solr/data/import/langdetect/" recursive="false">
+            baseDir="/opt/solr/data/import/langdetect/" recursive="true">
             <!--
             Pickupxmlfile parses standard Solr update XML.
             Incoming values are split into multiple tokens when given a splitBy attribute.
