@@ -81,8 +81,8 @@
     <lib dir="/opt/solr-cores/lib/uima/lib"/>
     <lib dir="/opt/solr-cores/lib/uima/lucene-libs"/>
     <lib dir="/opt/solr/data/lib"/>
-    <!--<lib dir="/opt/solr-cores/lib/velocity/lib"/>
--->
+    <lib dir="/opt/solr/data/lib"/>
+
 
     <!--  <lib dir="../../contrib/extraction/lib" />
   <lib dir="../../contrib/clustering/lib/" />
