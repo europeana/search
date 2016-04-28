@@ -11,8 +11,8 @@ from df_tasks import *
 # eu_counts = group(chain( build_solr_qs.s(place) | get_df.s())  for place in all_places  )
 # eu_counts()
 
-#  export_agents = group(build_agent_file.s(i) for i in range(0, get_agent_count.delay().get(), chunk_size ))
-#  export_agents()
+export_agents = group(build_agent_file.s(i) for i in range(0, get_agent_count.delay().get(), chunk_size ))
+export_agents()
 
 # all_places = get_unique_place_ids()
 # wkpd_counts = group(chain( get_place_records.s(place) | get_wpedia_hit_counts.s().set(countdown=0.1) | write_wpedia_hits.s()  ) for place in build_df_list())
