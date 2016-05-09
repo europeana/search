@@ -1,5 +1,5 @@
 class LanguageValidator:
-    # TODO: What to do with weird 'def' language tags all over the place
+    # TODO: What to do with weird 'def' language tags all over the place?
     LOG_LOCATION = "../logs/langlogs/"
 
     def __init__(self):
@@ -121,8 +121,7 @@ class ConceptHarvester(ContextClassHarvester):
                     wpc_count = self.wpedia_rc.get_new_term_count(label)
                     self.add_field(doc, 'europeana_doc_count', str(euc_count))
                     self.add_field(doc, 'wikipedia_clicks', str(wpc_count))
-                    tmp_wpc_count = abs(wpc_count)
-                    ds = euc_count * tmp_wpc_count
+                    ds = self.euro_rc(euc_count, wpc_count)
                     self.add_field(doc, 'derived_score', str(ds))
                     field_name = "skos_prefLabel." + lang
                     self.add_field(doc, field_name, label)
@@ -194,7 +193,7 @@ class AgentHarvester(ContextClassHarvester):
                 wpedia_clicks = hitcounts["wpedia_clicks"] if "wpedia_clicks" in hitcounts else -1
                 eu_df = hitcounts["eu_df"] if "eu_df" in hitcounts else 0
                 eu_df = eu_df if(eu_df != -1) else 0
-                ds = abs(wpedia_clicks * eu_df)
+                ds = self.ag_rc.calculate_relevance_score(eu_df, wpedia_clicks)
                 self.add_field(docroot, 'europeana_doc_count', str(eu_df))
                 self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
                 self.add_field(docroot, 'derived_score', str(ds))
@@ -237,7 +236,7 @@ class PlaceHarvester(ContextClassHarvester):
         places = {}
         i = 0
         for place_id in self.place_ids[start:start + ContextClassHarvester.CHUNK_SIZE]:
-            place = self.legacy_mongo.europeana.Place.find_one({ 'about' : place_id })
+            place = self.client.annocultor_db.Place.find_one({ 'about' : place_id })
             if(place is not None):
                 places[i] = place
                 i += 1
@@ -258,6 +257,7 @@ class PlaceHarvester(ContextClassHarvester):
             self.add_field(doc, 'europeana_doc_count', str(eu_count))
             wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
             self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
+            ds = self.pl_rc.calculate_relevance_score(eu_count, wk_count_annual)
             self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
             for lang_code, label_list in entity['prefLabel'].items():
                 # we need to workaround 'def', though it's unclear why

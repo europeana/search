@@ -44,6 +44,13 @@ class RelevanceCounter:
             self.db.commit()
             return new_count
 
+    def calculate_relevance_score(self, eu_doc_count, wpedia_count):
+        relevance = abs(eu_doc_count) * abs(wpedia_count)
+        norm_factor = 1;
+        inv = 1 / relevance
+        normed = norm_factor - inv
+        normed = float(format(normed, '.5f'))
+        return normed
 
 class EuDocRelevanceCounter(RelevanceCounter):
 
