@@ -1,0 +1,13 @@
+Agent:
+    - prefLabel
+    - lifespan
+    - role
+Concept:
+    - prefLabel
+    - topConcept
+Place:
+    - prefLabel
+    - country
+Timespan:
+    - prefLabel
+    - dateRange
