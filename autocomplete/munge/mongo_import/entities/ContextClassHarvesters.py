@@ -90,9 +90,7 @@ class ContextClassHarvester:
         self.field_map['rdaGr2ProfessionOrOccupation'] = 'rdagr2_professionOrOccupation'
         self.field_map['rdaGr2BiographicalInformation'] = 'rdagr2_biographicalInformation'
         self.field_map['end'] = 'edm_end'
-        self.field_map['prefLabel'] = 'skos_prefLabel'
-        self.field_map['altLabel'] = 'skos_altLabel'
-        self.field_map['isPartOf'] = 'pl_skos_isPartOf'
+        self.field_map['isPartOf'] = 'skos_isPartOf'
 
     def build_solr_doc(self, entities, start):
         from xml.etree import ElementTree as ET
