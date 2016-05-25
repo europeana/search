@@ -336,7 +336,7 @@
 			multiValued="true"/>
 		<field name="proxy_edm_isNextInSequence" type="string" indexed="true" stored="true"
 			multiValued="true"/>
-		<dynamicField name="proxy_dcterms_medium" type="text" indexed="true" stored="true"
+		<field name="proxy_dcterms_medium" type="text" indexed="true" stored="true"
 			multiValued="true"/>
 		<!--<field name="proxy_edm_year" type="string" indexed="true" stored="true"
 			multiValued="true" />
@@ -725,7 +725,6 @@
 	<copyField source="proxy_dcterms_temporal.*" dest="subject"/>
 	<copyField source="proxy_dc_source" dest="source"/>
 	<copyField source="proxy_edm_type" dest="TYPE"/>
-	<copyField source="proxy_edm_type" dest="type_facet"/>
 	<copyField source="europeana_aggregation_edm_language.*" dest="LANGUAGE"/>
 	<copyField source="europeana_aggregation_edm_country.*" dest="COUNTRY"/>
 	<copyField source="proxy_edm_year.*" dest="YEAR"/>
@@ -734,8 +733,6 @@
 	<copyField source="proxy_dc_creator.*" dest="CREATOR"/>
 	<copyField source="proxy_dc_contributor" dest="CONTRIBUTOR"/>
 	<copyField source="proxy_dc_creator" dest="CREATOR"/>
-	<copyField source="proxy_dc_creator" dest="creator_facet"/>
-	<copyField source="proxy_dc_creator.*" dest="creator_facet"/>
 	<copyField source="provider_aggregation_edm_provider.*" dest="PROVIDER"/>
 	<copyField source="provider_aggregation_edm_rights.*" dest="RIGHTS"/>
 	<copyField source="provider_aggregation_edm_rights" dest="RIGHTS"/>
@@ -775,7 +772,6 @@
 	<copyField source="pl_skos_hiddenLabel.*" dest="pl_skos_hiddenLabel"/>
 
 	<copyField source="pl_skos_prefLabel.*" dest="pl_label_facet"/>
-	<copyField source="skos_concept" dest="concept_facet"/>
 	<copyField source="cc_skos_prefLabel.*" dest="cc_skos_prefLabel"/>
 	<copyField source="cc_skos_altLabel.*" dest="cc_skos_altLabel"/>
 	<copyField source="cc_skos_prefLabel.*" dest="text"/>
