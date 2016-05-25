@@ -169,11 +169,6 @@
 		<field name="edm_previewNoDistribute" type="boolean" indexed="true" stored="true"
 			multiValued="false"/>
 
-		<!-- current -->
-		<field name="creator_facet" type="string" indexed="true" stored="false" multivalued="true"/>
-		<field name="type_facet" type="string" indexed="true" stored="false" multiValued="true"/>
-		<field name="concept_facet" type="string" indexed="true" stored="false" multiValued="true"/>
-
 		<field name="location" type="text" indexed="true" stored="true" multiValued="true"/>
 
 		<field name="format" type="text" indexed="true" stored="true" multiValued="true"/>
@@ -248,8 +243,8 @@
 			stored="true" multiValued="true"/>
 		<field name="europeana_aggregation_edm_preview" type="string" indexed="true" stored="true"
 			multiValued="true"/>
-		<field name="europeana_aggregation_dc_creator" type="proper_name" indexed="true" stored="true"
-			multiValued="true" default="Europeana"/>
+		<field name="europeana_aggregation_dc_creator" type="proper_name" indexed="true"
+			stored="true" multiValued="true" default="Europeana"/>
 		<!-- WEB RESOURCE -->
 		<field name="edm_webResource" type="string" indexed="true" stored="true" multiValued="true"/>
 		<field name="wr_dc_rights" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -305,7 +300,8 @@
 			multiValued="true"/>
 		<field name="proxy_dc_coverage" type="string" indexed="true" stored="true"
 			multiValued="true"/>
-		<field name="proxy_dc_creator" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+		<field name="proxy_dc_creator" type="proper_name" indexed="true" stored="true"
+			multiValued="true"/>
 		<field name="proxy_dc_date" type="string" indexed="true" stored="true" multiValued="true"/>
 		<field name="proxy_dc_description" type="text" indexed="true" stored="true"
 			multiValued="true"/>
@@ -454,11 +450,13 @@
 		<field name="ag_skos_prefLabel" type="proper_name" indexed="true" stored="true"
 			multiValued="true"/>
 		<field name="ag_skos_note" type="text" indexed="true" stored="true" multiValued="true"/>
-		<field name="ag_skos_altLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+		<field name="ag_skos_altLabel" type="proper_name" indexed="true" stored="true"
+			multiValued="true"/>
 		<field name="ag_skos_hiddenLabel" type="proper_name" indexed="true" stored="false"
 			multiValued="true"/>
 		<field name="ag_owl_sameAs" type="string" indexed="true" stored="true" multiValued="true"/>
-		<field name="ag_foaf_name" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+		<field name="ag_foaf_name" type="proper_name" indexed="true" stored="true"
+			multiValued="true"/>
 		<dynamicField name="ag_owl_sameAs.*" type="string" indexed="true" stored="true"
 			multiValued="true"/>
 		<dynamicField name="ag_foaf_name.*" type="proper_name" indexed="true" stored="true"
@@ -479,10 +477,10 @@
 			multiValued="true"/>
 		<dynamicField name="ag_rdagr2_dateOfDeath.*" type="string" indexed="true" stored="true"
 			multiValued="true"/>
-		<dynamicField name="ag_rdagr2_placeOfBirth.*" type="proper_name" indexed="true" stored="true"
-			multiValued="true"/>
-		<dynamicField name="ag_rdagr2_placeOfDeath.*" type="proper_name" indexed="true" stored="true"
-			multiValued="true"/>
+		<dynamicField name="ag_rdagr2_placeOfBirth.*" type="proper_name" indexed="true"
+			stored="true" multiValued="true"/>
+		<dynamicField name="ag_rdagr2_placeOfDeath.*" type="proper_name" indexed="true"
+			stored="true" multiValued="true"/>
 		<dynamicField name="ag_rdagr2_professionOrOccupation.*" type="text" indexed="true"
 			stored="true" multiValued="true"/>
 		<dynamicField name="ag_rdagr2_dateOfTermination.*" type="string" indexed="true"
@@ -542,7 +540,8 @@
 			multiValued="true"/>
 		<field name="pl_skos_prefLabel" type="proper_name" indexed="true" stored="true"
 			multiValued="true"/>
-		<field name="pl_skos_altLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+		<field name="pl_skos_altLabel" type="proper_name" indexed="true" stored="true"
+			multiValued="true"/>
 		<field name="pl_skos_note" type="text" indexed="true" stored="true" multiValued="true"/>
 		<field name="pl_label_facet" type="string" indexed="true" stored="true" multiValued="true"/>
 		<field name="pl_wgs84_pos_lat" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -573,8 +572,7 @@
 		<dynamicField name="cc_skos_altLabel.*" type="text" indexed="true" stored="true"
 			multiValued="true"/>
 		<field name="cc_label_facet" type="string" indexed="true" stored="true" multiValued="true"/>
-		<field name="cc_skos_prefLabel" type="text" indexed="true" stored="true"
-			multiValued="true"/>
+		<field name="cc_skos_prefLabel" type="text" indexed="true" stored="true" multiValued="true"/>
 		<field name="cc_skos_note" type="text" indexed="true" stored="true" multiValued="true"/>
 		<field name="cc_skos_altLabel" type="text" indexed="true" stored="true" multiValued="true"/>
 		<field name="cc_skos_hiddenLabel" type="text" indexed="true" stored="false"
@@ -600,8 +598,10 @@
 			multiValued="true"/>
 		<field name="foaf_organization" type="string" indexed="true" stored="true"
 			multiValued="false"/>
-		<field name="org_skos_prefLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-		<field name="org_skos_altLabel" type="proper_name" indexed="true" stored="false" multiValued="true"/>
+		<field name="org_skos_prefLabel" type="proper_name" indexed="true" stored="true"
+			multiValued="true"/>
+		<field name="org_skos_altLabel" type="proper_name" indexed="true" stored="false"
+			multiValued="true"/>
 		<dynamicField name="org_skos_prefLabel.*" type="proper_name" indexed="true" stored="true"
 			multiValued="true"/>
 		<dynamicField name="org_skos_altLabel.*" type="proper_name" indexed="true" stored="true"
