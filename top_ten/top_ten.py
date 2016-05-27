@@ -9,12 +9,13 @@ top10_queries = [
     'heinz petry 16',
     'kuk stavel',
     'vermeer',
-    'Adressbuch Posen'
+    'Adressbuch Posen',
+    'filippo carli'
 ]
 
 SOLR_SHARD = 'http://sol1.eanadev.org:9191/solr/search_1/search?wt=json&fl=europeana_id,title&rows=10&q='
 
-with open('query_results.yml', 'w') as wrout:
+with open('query_results.txt', 'w') as wrout:
     for q in top10_queries:
         qry = SOLR_SHARD + q
         dot = requests.get(qry)
