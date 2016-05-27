@@ -1,10 +1,10 @@
 Agent:
     - prefLabel
     - lifespan
-    - role
+#    - role -- TODO: cannot currently be dereferenced
 Concept:
     - prefLabel
-    - topConcept
+#    - topConcept -- TODO: cannot currently be dereferenced
 Place:
     - prefLabel
     - country
