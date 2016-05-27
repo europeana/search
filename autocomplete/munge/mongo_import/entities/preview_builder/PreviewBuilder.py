@@ -1,5 +1,13 @@
 class PreviewBuilder:
 
+    CLASS_TO_URI_MAP = {
+
+        'Agent': 'http://www.europeana.eu/schemas/edm/Agent',
+        'Concept' : 'https://www.w3.org/2009/08/skos-reference/skos.html#Concept',
+        'Place' : 'http://www.europeana.eu/schemas/edm/Place'
+
+    }
+
     def __init__(self):
         from pymongo import MongoClient
         from ContextClassHarvesters import ContextClassHarvester
@@ -14,6 +22,7 @@ class PreviewBuilder:
         import json
         fields_to_build = self.field_config[entity_type]
         retfields = {}
+        retfields['type'] = self.CLASS_TO_URI_MAP[entity_type]
         for field in fields_to_build:
             val = getattr(self, 'build_' + field)(entity_rows)
             retfields[field] = val
