@@ -33,7 +33,7 @@ class Query:
 
     def update_stats(self):
         num_hits = len(self.previous_hits)
-        solr_qry = SOLR + "?wt=json&q=" + self.query + "&fl=europeana_id&rows=" + str(num_hits)
+        solr_qry = SOLR + "?wt=json&q={!boost b=pow(europeana_completeness,1)}" + self.query + "&fl=europeana_id&rows=" + str(num_hits)
         resp = requests.get(solr_qry).json()
         self.current_count = resp['response']['numFound']
         for doc in resp['response']['docs']:
@@ -113,7 +113,7 @@ class MetricsCalculator:
             id = record['_id']
             previous_ranks = [int(float(hit['relevance']) * 1000) for hit in record['previous_rankings']]
             current_ranks = [int(float(hit['relevance']) * 1000) for hit in record['current_rankings']]
-            dcg = self.ndcg_at_k(current_ranks, len(current_ranks), 1)
+            dcg = self.dcg_at_k(current_ranks, len(current_ranks), 1)
             max_dcg = self.dcg_at_k(sorted(previous_ranks, reverse=True), len(previous_ranks), 1)
             ndcg = 0
             if max_dcg:
@@ -123,8 +123,9 @@ class MetricsCalculator:
 
 class StatsHarvester():
 
-    def __init__(self):
+    def __init__(self, collection):
         self.cl = pymongo.MongoClient(MONGO, 27017)
+        self.collection = collection
 
     def get_stats(self):
         self.get_old_stats()
@@ -145,9 +146,11 @@ class StatsHarvester():
     def get_new_stats(self):
         for query in all_queries:
             query.update_stats()
-            id = self.cl.europeana.bm25f.insert_one(query.serialize_as_dict()).inserted_id
+            id = self.cl.europeana[self.collection].insert_one(query.serialize_as_dict()).inserted_id
 
 
+sh = StatsHarvester('bm25f_boosted')
+sh.get_stats()
 
 mc = MetricsCalculator()
-mc.calc_ndcg_on_each('bm25f')
+mc.calc_ndcg_on_each('bm25f_boosted')
