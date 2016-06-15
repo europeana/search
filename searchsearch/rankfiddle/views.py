@@ -8,7 +8,7 @@ import json
 
 SOLR_SHARD_EDSMX = 'http://sol1.eanadev.org:9191/solr/search_1/search'
 SOLR_SHARD_NOW8T = 'http://sol3.eanadev.org:9191/solr/search_1/search'
-SOLR_SHARD_BM25F = 'http://sol7.eanadev.org:9191/solr/search/search'
+SOLR_SHARD_TEST = 'http://sol7.eanadev.org:9191/solr/search/search'
 
 class QueryBoostForm(forms.Form):
 
@@ -39,7 +39,8 @@ class QueryBoostForm(forms.Form):
         for i in range(1,11):
             self.fields['trigram_field_' + str(i)] = forms.ChoiceField(label="Trigram Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field trigram-boost-field'}))
             self.fields['trigram_field_boost_' + str(i)] = forms.DecimalField(label="Trigram Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'boost-factor trigram-boost-factor'}))
-    weight_views = forms.MultipleChoiceField(label="View", choices=[('weighted', 'My weightings'), ('unweighted', 'Current Collections results'), ('bm25f', 'BM25f-weighted')], initial=['weighted'], widget=forms.CheckboxSelectMultiple(attrs={ 'id' : 'weightview-selector'}))
+
+    weight_views = forms.MultipleChoiceField(label="View", choices=[('weighted', 'My weightings'), ('unweighted', 'Current Collection'), ('bm25f', 'Test Collection')], initial=['weighted'], widget=forms.CheckboxSelectMultiple(attrs={ 'id' : 'weightview-selector'}))
     query_choice = [('', '------------')]
     for row in Query.objects.all().order_by('query_text'):
         query_choice.append((row.query_text, row.query_text))
@@ -132,13 +133,11 @@ def do_weighted_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
 def do_unweighted_query(q):
     solr_url = SOLR_SHARD_NOW8T + "?q=" + q + "&wt=json&rows=25&fl=*"
     qr = requests.get(solr_url)
-    print(qr)
     return qr.json()
 
 def do_bm25f_query(q):
-    solr_url = SOLR_SHARD_BM25F + "?q=" + q + "&wt=json&rows=25&fl=*"
+    solr_url = SOLR_SHARD_TEST + "?q=" + q + "&wt=json&rows=25&fl=*"
     qr = requests.get(solr_url)
-    print(qr)
     return qr.json()
 
 def instructions(request):
