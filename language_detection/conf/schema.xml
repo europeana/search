@@ -50,18 +50,19 @@
         <field name="parsedlangs" type="string" indexed="true" required="false" multiValued="true"
             stored="true"/>
         <field name="proxy_dc_title" type="string" indexed="true" required="false"
-            multiValued="false" stored="true"/>
+            multiValued="true" stored="true"/>
         <field name="proxy_dc_description" type="text" indexed="true" required="false"
-            multiValued="false" stored="true"/>
+            multiValued="true" stored="true"/>
 
         <!-- mapping fields (derived) -->
         <dynamicField name="proxy_dc_title_*" type="text" indexed="true" stored="true"
             multiValued="true"/>
         <dynamicField name="proxy_dc_description_*" type="text" indexed="true" stored="true"
-            multiValued="true"/>
+ multiValued="true"/>
 
         <!-- generic searchfield -->
         <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
+        <field name="langtext" type="text" indexed="true" stored="true" multiValued="true"/>
 
     </fields>
     <uniqueKey>europeana_id</uniqueKey>
@@ -73,5 +74,6 @@
     <copyField source="proxy_dc_title" dest="text"/>
     <copyField source="proxy_dc_description" dest="text"/>
     <copyField source="targetlang" dest="text"/>
-
+    <copyField source="proxy_dc_title" dest="langtext"/>
+    <copyField source="proxy_dc_description" dest="langtext"/>
 </schema>
