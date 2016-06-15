@@ -1,5 +1,5 @@
 class LanguageValidator:
-    # TODO: What to do with weird 'def' language tags all over the place
+    # TODO: What to do with weird 'def' language tags all over the place?
     LOG_LOCATION = "../logs/langlogs/"
 
     def __init__(self):
@@ -13,9 +13,21 @@ class LanguageValidator:
     def validate_lang_code(self, entity_id, code):
        if(code in self.langmap.keys()):
            return True
+       elif(code == 'def'):
+           # TODO: sort out the 'def' mess at some point
+           self.log_invalid_lang_code(entity_id, 'def')
+           return True
        else:
            code = code if code != '' else 'No code provided'
            self.log_invalid_lang_code(entity_id, code)
+           return False
+
+    def pure_validate_lang_code(self, code):
+       if(code in self.langmap.keys()):
+           return True
+       elif(code == 'def'):
+           return True
+       else:
            return False
 
     def log_invalid_lang_code(self, entity_id, code):
@@ -36,6 +48,8 @@ class ContextClassHarvester:
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
+    LEGACY_MONGO_HOST = 'mongodb://mongo1.eanadev.org'
+
     CHUNK_SIZE = 1000
     WRITEDIR = getcwd() + '/../entities_out'
     LANG_VALIDATOR = LanguageValidator()
@@ -45,7 +59,9 @@ class ContextClassHarvester:
         from pymongo import MongoClient
         import sys
         sys.path.append('ranking_metrics')
+        sys.path.append('preview_builder')
         import RelevanceCounter
+        import PreviewBuilder
 
         self.mongo_entity_class = entity_class
         self.name = name
@@ -53,6 +69,28 @@ class ContextClassHarvester:
         self.wpedia_rc = RelevanceCounter.WpediaRelevanceCounter()
         self.euro_rc = RelevanceCounter.EuDocRelevanceCounter()
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
+        self.preview_builder = PreviewBuilder.PreviewBuilder()
+        self.populate_field_map()
+
+    def populate_field_map(self):
+        # maps field names in Mongo to Solr schema field names
+        # the convention for Solr names is to retain the names from the
+        # Production schema, but drop the entity-type prefixes
+        self.field_map = {}
+        self.field_map['prefLabel'] = 'skos_prefLabel'
+        self.field_map['altLabel'] = 'skos_altLabel'
+        self.field_map['note'] = 'skos_note'
+        self.field_map['owlSameAs'] = 'owl_sameAs'
+        self.field_map['edmIsRelatedTo'] = 'skos_isRelatedTo'
+        self.field_map['dcIdentifier'] = 'dc_identifier'
+        self.field_map['rdaGr2DateOfBirth'] = 'rdagr2_dateOfBirth'
+        self.field_map['rdaGr2DateOfDeath'] = 'rdagr2_dateOfDeath'
+        self.field_map['rdaGr2PlaceOfBirth'] = 'rdagr2_placeOfBirth'
+        self.field_map['rdaGr2PlaceOfDeath'] = 'rdagr2_placeOfDeath'
+        self.field_map['rdaGr2ProfessionOrOccupation'] = 'rdagr2_professionOrOccupation'
+        self.field_map['rdaGr2BiographicalInformation'] = 'rdagr2_biographicalInformation'
+        self.field_map['end'] = 'edm_end'
+        self.field_map['isPartOf'] = 'skos_isPartOf'
 
     def build_solr_doc(self, entities, start):
         from xml.etree import ElementTree as ET
@@ -87,6 +125,32 @@ class ContextClassHarvester:
             writefile.close()
         return writepath
 
+    def process_representation(self, docroot, entity_id, entity_rows):
+        for characteristic in entity_rows['representation']:
+            if str(characteristic) not in self.field_map.keys():
+                # TODO: log this?
+                continue
+                # if the entry is a dictionary, then the keys should be language codes
+            if(type(entity_rows['representation'][characteristic]) is dict):
+                for lang in entity_rows['representation'][characteristic]:
+                    if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
+                        field_name = self.field_map[characteristic]
+                        field_values = entity_rows['representation'][characteristic][lang]
+                        for field_value in field_values:
+                            qual_field_name = field_name + "." + lang
+                            # self.add_field(docroot, field_name, field_value) # do this with copyfields
+                            self.add_field(docroot, qual_field_name, field_value)
+            elif(type(entity_rows['representation'][characteristic]) is list):
+                field_name = self.field_map[characteristic]
+                for entry in entity_rows['representation'][characteristic]:
+                    self.add_field(docroot, field_name, entry)
+        # TODO: find a better design pattern for calling grab_relevance_ratings
+        sames = None if 'owlSameAs' not in entity_rows['representation'] else entity_rows['representation']['owlSameAs']
+        self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'], sames)
+        raw_type = entity_rows['entityType'].replace('Impl', '')
+        payload = self.preview_builder.build_preview(raw_type, entity_id, entity_rows)
+        self.add_field(docroot, 'payload', payload)
+
 class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
@@ -100,32 +164,30 @@ class ConceptHarvester(ContextClassHarvester):
         concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )[start:start + ContextClassHarvester.CHUNK_SIZE]
         concepts_chunk = {}
         for concept in concepts:
-            concepts_chunk[concept] = self.client.annocultor_db.concept.find({ 'codeUri' : concept })
+            concepts_chunk[concept] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : concept })
         return concepts_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
         import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-
         doc = ET.SubElement(docroot, 'doc')
-        id = entity_rows[0]['codeUri']
+        id = entity_rows['codeUri']
         self.add_field(doc, 'entity_id', id)
         self.add_field(doc, 'internal_type', 'Concept')
-        euc_count = self.euro_rc.get_new_term_count(id)
-        for now_doc in entity_rows:
-            lang = now_doc['lang'] if 'lang' in now_doc else ''
-            if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(id, lang)):
-                label = now_doc['label'] if 'label' in now_doc else ''
-                if(lang == "en"):
-                    wpc_count = self.wpedia_rc.get_new_term_count(label)
-                    self.add_field(doc, 'europeana_doc_count', str(euc_count))
-                    self.add_field(doc, 'wikipedia_clicks', str(wpc_count))
-                    tmp_wpc_count = abs(wpc_count)
-                    ds = euc_count * tmp_wpc_count
-                    self.add_field(doc, 'derived_score', str(ds))
-                    field_name = "skos_prefLabel." + lang
-                    self.add_field(doc, field_name, label)
+        self.process_representation(doc, id, entity_rows)
+
+    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
+        wpc_count = 0
+        euc_count = self.euro_rc.get_new_term_count(entity_id)
+        ds = 0
+        if 'prefLabel' in entity_rows.keys() and 'en' in entity_rows['prefLabel'].keys():
+            label = entity_rows['prefLabel']['en'][0]
+            wpc_count = self.wpedia_rc.get_new_term_count(label)
+            ds = self.euro_rc.calculate_relevance_score(euc_count, wpc_count)
+        self.add_field(docroot, 'derived_score', str(ds))
+        self.add_field(docroot, 'europeana_doc_count', str(euc_count))
+        self.add_field(docroot, 'wikipedia_clicks', str(wpc_count))
 
 class AgentHarvester(ContextClassHarvester):
 
@@ -136,14 +198,12 @@ class AgentHarvester(ContextClassHarvester):
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
         self.ag_rc = RelevanceCounter.AgentRelevanceCounter()
-        self.legacy_mongo = MongoClient('mongodb://mongo1.eanadev.org', ContextClassHarvester.MONGO_PORT)
 
     def get_entity_count(self):
         agents = self.client.annocultor_db.people.distinct( 'codeUri' )
         return len(agents)
 
     def build_entity_chunk(self, start):
-        from pymongo import MongoClient
         agents = self.client.annocultor_db.people.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
         agents_chunk = {}
         for agent in agents:
@@ -163,30 +223,7 @@ class AgentHarvester(ContextClassHarvester):
         self.add_field(doc, 'internal_type', 'Agent')
         self.process_representation(doc, entity_id, entity_rows)
 
-    def process_representation(self, docroot, entity_id, entity_rows):
-        field_map = {}
-        field_map['prefLabel'] = 'skos_prefLabel'
-        field_map['altLabel'] = 'skos_altLabel'
-        # TODO: Expand for additional related fields
-        if('representation' in entity_rows):
-            for characteristic in entity_rows['representation']:
-                if(characteristic in field_map.keys()):
-                    for lang in entity_rows['representation'][characteristic]:
-                        if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
-                            field_name = field_map[characteristic]
-                            field_values = entity_rows['representation'][characteristic][lang]
-                            for field_value in field_values:
-                                qual_field_name = field_name + "." + lang
-                                self.add_field(docroot, field_name, field_value)
-                                self.add_field(docroot, qual_field_name, field_value)
-            if('owlSameAs' in entity_rows['representation']):
-                self.grab_relevance_ratings(docroot, entity_rows['representation']['owlSameAs'])
-            else:
-                self.assign_zero_relevance(docroot)
-        else:
-            return
-
-    def grab_relevance_ratings(self, docroot, sames):
+    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
         import re
         for same in sames:
             if(re.match('http://dbpedia.org/resource/.+', same )):
@@ -194,7 +231,7 @@ class AgentHarvester(ContextClassHarvester):
                 wpedia_clicks = hitcounts["wpedia_clicks"] if "wpedia_clicks" in hitcounts else -1
                 eu_df = hitcounts["eu_df"] if "eu_df" in hitcounts else 0
                 eu_df = eu_df if(eu_df != -1) else 0
-                ds = abs(wpedia_clicks * eu_df)
+                ds = self.ag_rc.calculate_relevance_score(eu_df, wpedia_clicks)
                 self.add_field(docroot, 'europeana_doc_count', str(eu_df))
                 self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
                 self.add_field(docroot, 'derived_score', str(ds))
@@ -225,7 +262,6 @@ class PlaceHarvester(ContextClassHarvester):
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
         self.pl_rc = RelevanceCounter.PlaceRelevanceCounter()
-        self.legacy_mongo = MongoClient('mongodb://mongo1.eanadev.org', ContextClassHarvester.MONGO_PORT)
         self.place_ids = []
         for key, value in self.pl_rc.freqs.items():
             self.place_ids.append(key)
@@ -234,38 +270,38 @@ class PlaceHarvester(ContextClassHarvester):
         return len(self.place_ids)
 
     def build_entity_chunk(self, start):
-        places = {}
-        i = 0
-        for place_id in self.place_ids[start:start + ContextClassHarvester.CHUNK_SIZE]:
-            place = self.legacy_mongo.europeana.Place.find_one({ 'about' : place_id })
-            if(place is not None):
-                places[i] = place
-                i += 1
-        return places
+        places = self.client.annocultor_db.place.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        places_chunk = {}
+        for place in places:
+            places_chunk[place] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : place })
+        return places_chunk
 
-    def build_entity_doc(self, docroot, entity_id, entity):
+    def build_entity_doc(self, docroot, entity_id, entity_rows):
         import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-        id = entity['about']
+        id = entity_id
         hitcount = self.pl_rc.get_term_count(id)
         eu_count = hitcount['eu_df']
         wk_count_90_days = hitcount['wpedia_clicks']
-        if(eu_count > 0): # filter out all entities not found in our collections (doh!)
-            doc = ET.SubElement(docroot, 'doc')
-            self.add_field(doc, 'entity_id', id)
-            self.add_field(doc, 'internal_type', 'Place')
-            self.add_field(doc, 'europeana_doc_count', str(eu_count))
-            wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
-            self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
-            self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
-            for lang_code, label_list in entity['prefLabel'].items():
-                # we need to workaround 'def', though it's unclear why
-                if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(id, lang_code) or lang_code == 'def'):
-                    suffix = '.' + lang_code if lang_code != 'def' else ''
-                    tagname = 'skos_prefLabel' + suffix
-                    for label in label_list:
-                        self.add_field(doc, tagname, label)
+        doc = ET.SubElement(docroot, 'doc')
+        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'internal_type', 'Place')
+        self.add_field(doc, 'europeana_doc_count', str(eu_count))
+        wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
+        self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
+        ds = self.pl_rc.calculate_relevance_score(eu_count, wk_count_annual)
+        self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
+        self.process_representation(doc, entity_id, entity_rows)
 
-
+    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
+        hitcounts = self.pl_rc.get_term_count(entity_id)
+        wpedia_clicks = hitcounts["wpedia_clicks"] if "wpedia_clicks" in hitcounts else -1
+        eu_df = hitcounts["eu_df"] if "eu_df" in hitcounts else 0
+        eu_df = eu_df if(eu_df != -1) else 0
+        ds = self.pl_rc.calculate_relevance_score(eu_df, wpedia_clicks)
+        self.add_field(docroot, 'europeana_doc_count', str(eu_df))
+        self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
+        self.add_field(docroot, 'derived_score', str(ds))
+        return True
 

@@ -1,0 +1,83 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More Like This Fiddle</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'mobsource/styles/europeana.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'rankfiddle/styles/main.css' %}" />
+    <script src="{% static 'mobsource/js/jquery.dev.js' %}"></script>
+    <script src="{% static 'mltfiddle/js/params.js' %}"></script>
+        <style type="text/css">
+        body { min-width: 1920px; }
+        #weightview-selector{ position: relative; }
+        #weightview-selector + p{ display: none; }
+        #weightview-selector li { float: left; padding-left: 10px; }
+        .results-list h3{ margin-left: 5.66038%; margin-top: 2rem; color: white; float: left; background-color: #BAD1D9; border: 1px solid #BADID9; padding: 2px 8px; border-radius: 4px;  }
+       /* .results-list{ display: none; } */
+        .item-type{ margin-left: 6.5% }
+        .icon-image, svg.icon{ display: none; }
+    </style>
+</head>
+<body id="body-projects">
+<div role="main" class="page 1-page">
+    <div class="cf">
+    <a href="http://test.europeana.eu/portal" class="logo ir"><h1>Europeana Collections</h1></a>
+         <div id="header-desc">
+            <h1>More Like This Fiddle</h1>
+            <h2>Finding Related Items in Europeana Collections</h2>
+         </div>
+    </div>
+    <div id="warnings">
+       <div id="no-results-warning" class="warning">
+            <p>
+                Search returned no results.
+            </p>
+        </div>
+    </div>
+        <div class="container">
+    <div id="user_form" class="weights">
+        <h2>Test Params</h2>
+        <form method="POST" action=".">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input name="launch-query" type="submit" value="Launch Query" id="launch-query"/>
+        </form>
+        </div>
+        <div class="results-list cf">
+            <h3>Initial Item</h3>
+
+            <ul class="result-items">
+                <li>
+                    <article class="search-list-item cf">
+                        <div class="item-preview">
+                            <div class="item-image">
+                                <a id="init-item-landing-page"><img id="init-item-thumbnail"/></a>
+                            </div>
+                        </div>
+                        <div class="item-info">
+                            <h1><a id="init-item-inner-landing-page"></a></h1>
+                            <p class="excerpt"><b>Description</b>:<div id="init-item-desc"></div></p>
+                            <div class="item-origin">
+                                <a class="external" id="init-item-ext-link" target="_blank">View at <div id="init-item-data-provider"></div></a>
+                            </div>
+                        </div>
+                        <footer>
+                            <div class="item-metadata">
+                                <span class="highlight item-type">
+                                    <svg class="icon icon-image"/>
+                                    <span id="init-item-type"></span>
+                                </span>
+                            </div>
+                        </footer>
+                    </article>
+                </li>
+</ul>
+
+
+        </div>
+
+
+
+</body>
+</html>

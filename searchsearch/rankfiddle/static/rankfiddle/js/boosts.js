@@ -25,7 +25,7 @@ $(document).ready(function(){
         column_width = display_width / column_count;
         column_width = column_width.toString() + '%';
         $(".results-list").css("width", column_width);
-        $("div.results-list").css("border-right", "thin solid black");
+        $("ul.result-items li").closest("div.results-list").css("border-right", "thin solid black");
         longest_list_count = Math.max($("#query-results-weighted ul.result-items li").length, $("#query-results-unweighted ul.result-items li").length, $("#query-results-bm25f ul.result-items li").length);
         for(var i = 0; i < longest_list_count; i++){
             var highest = Math.max($("#query-results-weighted ul.result-items li:eq(" + i + ")").innerHeight(), $("#query-results-unweighted ul.result-items li:eq(" + i + ")").innerHeight(), $("#query-results-bm25f ul.result-items li:eq(" + i + ")").innerHeight());
@@ -34,7 +34,6 @@ $(document).ready(function(){
 
                 nth_li = $(this).children("li")[i];
                 $(nth_li).children(".search-list-item").innerHeight(highest);
-                if(prev_total != undefined && i >= prev_total)$(nth_li).css("border-left", "thin solid black");
                 prev_total = $(this).children("li").length;
             });
         }

@@ -16,12 +16,12 @@ class RelevanceCounter:
 
         self.name = name
         self.dbpath = "ranking_metrics/db/" + name + "_db"
-        self.db = slt.connect(self.dbpath)
-        csr = self.db.cursor()
-        csr.execute("""
-            CREATE TABLE IF NOT EXISTS counts (id INTEGER PRIMARY KEY, name TEXT, total INTEGER)
-        """)
-        self.db.commit()
+#        self.db = slt.connect(self.dbpath)
+#        csr = self.db.cursor()
+#        csr.execute("""
+#            CREATE TABLE IF NOT EXISTS counts (id INTEGER PRIMARY KEY, name TEXT, total INTEGER)
+#        """)
+#        self.db.commit()
 
     def normalize_string(self, normanda):
         import re
@@ -44,6 +44,14 @@ class RelevanceCounter:
             self.db.commit()
             return new_count
 
+    def calculate_relevance_score(self, eu_doc_count, wpedia_count):
+        relevance = abs(eu_doc_count) * abs(wpedia_count)
+        if relevance == 0: return 0
+        norm_factor = 1;
+        inv = 1 / relevance
+        normed = norm_factor - inv
+        normed = float(format(normed, '.5f'))
+        return normed
 
 class EuDocRelevanceCounter(RelevanceCounter):
 
@@ -169,14 +177,15 @@ class PlaceRelevanceCounter(RelevanceCounter):
         self.freqs = {}
         with open('ranking_metrics/resources/place_metrics.tsv') as pm:
             for line in pm:
-                (old_id, new_id, label, wk_count, eu_count) = line.split("\t")
-                if(old_id in self.freqs):
-                    self.freqs[old_id]['eu_hits'] = int(self.freqs[old_id]['eu_hits']) + int(eu_count.strip())
-                    self.freqs[old_id]['wk_hits'] = int(self.freqs[old_id]['wk_hits']) + int(wk_count.strip())
+                (new_id, label, wk_count, eu_count) = line.split("\t")
+                new_id = new_id.replace("base", "basic") # weird problem with some geographic URIs
+                if(new_id in self.freqs):
+                    self.freqs[new_id]['eu_hits'] = int(self.freqs[new_id]['eu_hits']) + int(eu_count.strip())
+                    self.freqs[new_id]['wk_hits'] = int(self.freqs[new_id]['wk_hits']) + int(wk_count.strip())
                 else:
-                    self.freqs[old_id] = {}
-                    self.freqs[old_id]['eu_hits'] = int(eu_count.strip())
-                    self.freqs[old_id]['wk_hits'] = int(wk_count.strip())
+                    self.freqs[new_id] = {}
+                    self.freqs[new_id]['eu_hits'] = int(eu_count.strip())
+                    self.freqs[new_id]['wk_hits'] = int(wk_count.strip())
 
     def get_term_count(self, qry_term):
         try:

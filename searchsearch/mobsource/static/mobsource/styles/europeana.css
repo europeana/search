@@ -799,17 +799,17 @@ input[type="search"]::-webkit-search-decoration {
     display: block;
     float: left;
     width: 50%;
-    max-width: 168px;
+    max-width: 200px;
     height: 58px;
     margin: 0.4rem;
     margin-left: 2%;
     background-position: 0 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("../../images/europeana-logo-default.png")
+    background-image: url("http://styleguide.europeana.eu/v/0.2.42/images/europeana-logo-default.svg")
 }
 .svg .logo {
-    background-image: url("../../images/europeana-logo-default.svg")
+    background-image: url("http://styleguide.europeana.eu/v/0.2.42/images/europeana-logo-default.svg")
 }
 .footer {
     clear: both;
@@ -3487,8 +3487,8 @@ html:hover [class^="icon-"] {
 }
 .search-results .container {
     max-width: 80rem;
-    margin-left: auto;
-    margin-right: auto
+    margin-left: 1rem;
+    margin-right: auto;
 }
 .search-results .container:after {
     content: " ";
@@ -3506,8 +3506,8 @@ html:hover [class^="icon-"] {
 }
 @media all and (min-width: 50em) {
     .results-list {
-        width: 74.64789%;
-        float: right;
+        width: 75%;
+        float: left;
         margin-right: 0;
 /*        padding-bottom: 100em;
         margin-bottom: -100em */
@@ -3525,7 +3525,9 @@ html:hover [class^="icon-"] {
         float: left;
         margin-right: 1.40845%;
         margin: 0;
-        padding: 1.2rem 0 3.2rem 0
+        border-right: thin solid black;
+        height:15000px;
+       /* padding: 1.2rem 0 3.2rem 0 */
     }
 }
 .refine>h2 {

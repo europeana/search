@@ -1,0 +1,13 @@
+Agent:
+    - prefLabel
+    - lifespan
+#    - role -- TODO: cannot currently be dereferenced
+Concept:
+    - prefLabel
+#    - topConcept -- TODO: cannot currently be dereferenced
+Place:
+    - prefLabel
+    - country
+Timespan:
+    - prefLabel
+    - dateRange
