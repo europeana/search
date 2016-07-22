@@ -589,7 +589,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_def</str>
         </lst>
@@ -619,7 +619,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_en</str>
         </lst>
@@ -649,7 +649,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_fi</str>
         </lst>
@@ -679,7 +679,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_de</str>
@@ -710,7 +710,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_ru</str>
@@ -741,7 +741,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_sr</str>
@@ -772,7 +772,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_sv</str>
@@ -803,7 +803,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_bg</str>
@@ -834,7 +834,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_da</str>
@@ -865,7 +865,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_fr</str>
@@ -896,7 +896,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_it</str>
@@ -927,7 +927,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_pt</str>
@@ -958,7 +958,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_vi</str>
@@ -989,7 +989,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_ca</str>
@@ -1020,7 +1020,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_nl</str>
@@ -1051,7 +1051,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_et</str>
@@ -1082,7 +1082,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_es</str>
@@ -1113,7 +1113,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_uk</str>
@@ -1144,7 +1144,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_ar</str>
@@ -1175,7 +1175,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_cs</str>
@@ -1206,7 +1206,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
             <str name="indexPath">blendedInfixSuggesterIndexDir_hu</str>
@@ -1238,7 +1238,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
 
         </lst>
@@ -1268,7 +1268,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_ja</str>
 
@@ -1299,7 +1299,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_ko</str>
         </lst>
@@ -1329,7 +1329,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_lt</str>
         </lst>
@@ -1359,7 +1359,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_no</str>
         </lst>
@@ -1389,7 +1389,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_fa</str>
         </lst>
@@ -1419,7 +1419,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_fa</str>
         </lst>
@@ -1449,7 +1449,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_ro</str>
 
@@ -1480,7 +1480,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_th</str>
 
@@ -1511,7 +1511,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_sk</str>
         </lst>
@@ -1541,7 +1541,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_sl</str>
 
@@ -1572,7 +1572,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_hr</str>
 
@@ -1603,7 +1603,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_el</str>
 
@@ -1634,7 +1634,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_hi</str>
         </lst>
@@ -1664,7 +1664,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_tr</str>
         </lst>
@@ -1694,7 +1694,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_lv</str>
 
@@ -1725,7 +1725,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_ms</str>
 
@@ -1756,7 +1756,7 @@
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextFilter">internal_type</str>
+            <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
             <str name="indexPath">blendedInfixSuggesterIndexDir_fil</str>
         </lst>
