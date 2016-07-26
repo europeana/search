@@ -12,7 +12,7 @@ Python 3.x is required.
 
 #### Packages
 
-Extensive use is made of the [PyMongo](https://api.mongodb.com/python/current/), [Celery]((http://www.celeryproject.org/) and [requests](http://docs.python-requests.org/en/master/) libraries.
+Extensive use is made of the [PyMongo](https://api.mongodb.com/python/current/), [Celery](http://www.celeryproject.org/), and [requests](http://docs.python-requests.org/en/master/) libraries.
 
 ### Celery
 
