@@ -12,11 +12,11 @@ Python 3.x is required.
 
 #### Packages
 
-Extensive use is made of [PyMongo](https://api.mongodb.com/python/current/) and the [requests](http://docs.python-requests.org/en/master/) library.
+Extensive use is made of the [PyMongo](https://api.mongodb.com/python/current/), [Celery](http://www.celeryproject.org/), and [requests](http://docs.python-requests.org/en/master/) libraries.
 
 ### Celery
 
-[Celery](http://www.celeryproject.org/) relies upon a [Redis](http://redis.io) server running on 6379 to act as message broker.
+Celery relies upon a [Redis](http://redis.io) server running on 6379 to act as message broker.
 
 One implication of this is that the Celery libraries for Redis must also be installed. If using pip, this can be done with `pip3 install -U celery[redis]`.
 
