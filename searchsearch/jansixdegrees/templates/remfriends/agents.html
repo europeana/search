@@ -1,0 +1,64 @@
+{% load filters %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Agents (Dutch Golden Age)</title>
+    <script src="{% static 'remfriends/js/jquery.dev.js' %}"></script>
+    <script src="{% static 'remfriends/js/query.js' %}"></script>
+    <style type="text/css">
+        html{ font-family: Helvetica, Arial, sans-serif; font-size: 12pt; }
+        ul#id_role_select{ padding-bottom: 8em; }
+        ul#id_role_select, ul#id_order_select{ list-style-type: none; }
+        ul#id_role_select li{ width: 15em; float: left; }
+        ul#id_order_select li{ width: 12em; float: left; position: relative; }
+        ul#id_order_select li input{ display: block; position: absolute; left: -30px; }
+        ul#id_order_select{ margin-bottom: 6em; margin-left: 2em;}
+        form p{ clear: both; }
+        table { width: 90%; }
+        .agent-image { width: 0px; }
+        .agent-name, .patient-name{ width: 32.5%; vertical-align: middle; }
+        .relation-name{ width: 10%; }
+        .ibid { font-style: italic; }
+        .no-relations{ font-style: italic; }
+        .show-relations, .hide-relations, .no-relations { width: 25%; text-align: right; }
+        .show-relations a, .hide-relations a{ cursor: pointer; }
+        td img{ display: block; float: left; }
+        .agent-name a{ display: block; position: relative; left: 20px; }
+        .subagent-label{ display: table-cell; vertical-align: middle; height: 35px; position: relative; left: 10px; }
+    </style>
+</head>
+<body>
+<h1>List of Agents (Dutch Golden Age)</h1>
+<h2>Choose an agent</h2>
+    <form method="POST" action="">
+    {% csrf_token %}
+    {{ role_form.as_p }}
+        {{ order_form.as_p }}
+                <button type="submit" name="submit-roles" id="submit-roles">Submit Roles</button>
+
+        </form>
+<table>
+    {% for agent in agents %}
+    <tr class="toplevel {{ agent.wdid|as_id }}">
+        <td class="agent-portrait"></td>
+        {% if agent.portrait.image_url == ""  %}
+        <td class="agent-name {{ agent.wdid|as_id }}"><img src="{% static 'remfriends/images/unknown.jpg'  %}" height="61px" width="61px" style="padding:7px"/><span class="spacer" style="display:inline-block; width: 25px;"></span><a href="Agent/{{ agent.wdid|as_id }}" target="_blank">{{ agent.pref_label }} ({{agent.birthdate|as_year}}-{{agent.deathdate|as_year}})</a></td>
+        {% else %}
+        <td class="agent-name {{ agent.wdid|as_id }}"><img src="{{ agent.portrait.image_url }}" height="100px" width="75px"/><span class="spacer" style="display:inline-block; width: 25px;"></span><a href="Agent/{{ agent.wdid|as_id }}" target="_blank">{{ agent.pref_label }} ({{agent.birthdate|as_year}}-{{agent.deathdate|as_year}})</a></td>
+        {% endif %}
+        <td class="relation-name"></td>
+        <td class="patient-name"></td>
+        {% if agent.social_relation.count == 0 %}
+        <td class="no-relations">No {{ agent.pref_label }} Relations Available</td>
+        {% elif  agent.social_relation.count == 1%}
+        <td class="show-relations">Show <b>1</b> {{ agent.pref_label }} Relation</td>
+        {% else %}
+        <td class="show-relations">Show <b>{{ agent.social_relation.count }}</b> {{ agent.pref_label }} Relations</td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
