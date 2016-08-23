@@ -13,6 +13,7 @@
         #weightview-selector{ position: relative; }
         #weightview-selector + p{ display: none; }
         #weightview-selector li { float: left; padding-left: 10px; }
+            #init-item-id { visibility : hidden; }
         .results-list h3{ margin-left: 5.66038%; margin-top: 2rem; color: white; float: left; background-color: #BAD1D9; border: 1px solid #BADID9; padding: 2px 8px; border-radius: 4px;  }
        /* .results-list{ display: none; } */
         .item-type{ margin-left: 6.5% }
@@ -40,16 +41,22 @@
         <h2>Test Params</h2>
         <form method="POST" action=".">
             {% csrf_token %}
-            {{ form.as_p }}
-            <input name="launch-query" type="submit" value="Launch Query" id="launch-query"/>
+            {{ searchform.as_p }}
+            <input name="launch-init-query" type="submit" value="Go!" id="launch-init-query"/>
+        </form>
+        <form method="POST" action=".">
+            {% csrf_token %}
+            {{ mltform.as_p }}
+            <input name="launch-query" type="submit" value="Launch MLT Query" id="launch-query"/>
         </form>
         </div>
         <div class="results-list cf">
             <h3>Initial Item</h3>
-
+            <div id="qs"></div>
             <ul class="result-items">
                 <li>
                     <article class="search-list-item cf">
+                        <div id="init-item-id"></div>
                         <div class="item-preview">
                             <div class="item-image">
                                 <a id="init-item-landing-page"><img id="init-item-thumbnail"/></a>
@@ -72,12 +79,7 @@
                         </footer>
                     </article>
                 </li>
-</ul>
-
-
+            </ul>
         </div>
-
-
-
 </body>
 </html>

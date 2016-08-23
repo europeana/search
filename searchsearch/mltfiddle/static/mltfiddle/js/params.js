@@ -3,53 +3,139 @@ $(document).ready(function(){
     var init = function(){
 
 
-    /*    make_field_boosts_first();
-        hide_extra_field_boosts();
-        add_field_adders();
-        line_up_slops();
-        $("#weightview-selector").prev("p").css("display", "inline");
-        $("#weightview-selector").prev("p").css("float", "left");
-        $("#weightview-selector").prev("p").css("min-height", "10px");
-        reflow_result_columns();
-    */
+
 
     }
 
     var start_with_new_init_item = function(){
 
-        retrieve_init_item($(this).val());
+        return retrieve_init_item();
 
     }
 
-    var retrieve_init_item = function(item_id){
+    var retrieve_init_item = function(){
 
-
-        var item_id = $.trim(item_id);
-        // TODO: validate as integer < 250
-        request = {}
-        request['item_id'] = item_id
+        request = {};
+        request['searchterms'] = get_search_term();
         $.getJSON('inititem', request, display_init_item);
+        return false;
+
+    };
+
+    var get_search_term = function(){
+
+        return $.trim($("#id_searchterm").val());
+
+    }
+
+
+    var retrieve_related_items = function(){
+
+        request = get_sim_params();
+        $.getJSON('relateditems', request, display_related_items);
+        return false;
+
+    }
+
+    var get_sim_params = function(){
+
+        params = {}
+        params['europeana_id'] = $.trim($("#init-item-id").text());
+        params['mintf'] = $.trim($('#mintf').val());
+        params['mintf'] = $.trim($('#mintf').val());
+        params['mindf'] = $.trim($('#mindf').val());
+        params['maxdf'] = $.trim($('#maxdf').val());
+        params['minwl'] = $.trim($('#minwl').val());
+        params['maxwl'] = $.trim($('#maxwl').val());
+        params['maxqt'] = $.trim($('#maxqt').val());
+        params['maxntp'] = $.trim($('#maxntp').val());
+        params['boost'] = $.trim($('#boost').val());
+        params['searchterms'] = get_search_term();
+        $(".mlt-field").each(function(){
+            var raw_num = $(this).attr('id');
+            var tidy_num = $.trim(raw_num.substring(raw_num.lastIndexOf('_') + 1));
+            if($.trim($(this).val()) != "") params['simfield_' + String(tidy_num)] = $.trim($(this).val());
+        });
+        $(".boost-field").each(function(){
+            var raw_num = $(this).attr('id');
+            var tidy_num = $.trim(raw_num.substring(raw_num.lastIndexOf('_') + 1));
+            if($.trim($(this).val()) != "") params['boostfield_' + String(tidy_num)] = $.trim($(this).val());
+        });
+        $(".boost-factor").each(function(){
+
+            var raw_num = $(this).attr('id');
+            var tidy_num = $.trim(raw_num.substring(raw_num.lastIndexOf('_') + 1));
+            var corr_field = "#id_field_" + String(tidy_num)
+            // we only include boosts for defined fields
+            if($.trim($(corr_field).val()) != "") params['boostfactor_' + String(tidy_num)] = $.trim($(this).val());
+        });
+
+        return params;
+
+    }
+
+    var display_related_items = function(data){
+
+        var items_found = data['response']['docs'].length;
+        var header = $("<div class=\"results-header\"><div id=\"summary\" class=\"result-info\">Top <span id=\"items-returned\"\
+        >" + items_returned + "</span> items from <span id='items-found'>" + items_found + "</span> found.</div></div>");
+        var wrapper = $("#query_results");
+        wrapper.children().remove();    // clear previous results
+     //   if(response['duplicate']){ show_duplicate_key_warning(); return false; }
+        if(!items_found){ warn_no_results(); return false; }
+        wrapper.append(header);
+        if(items_returned < 1) return false;
+        var items_wrapper = $("<ul class=\"result-items\"></ul>");
+        wrapper.append(items_wrapper);
+        for(var i = 0; i < items_returned; i++){
+              var item = response['items'][i];
+              var title = item['title'];
+              var lang = item['language'] == undefined ? "None provided" : item['language'];
+              var data_provider = item['dataProvider'];
+              var country = item['country'] == undefined ? "None provided" : item['country'][0];
+              var desc = item['dcDescription'] == undefined ? "None provided" : item['dcDescription'];
+              var thumb = item['edmPreview'];
+              var item_url = item['edmIsShownAt'];
+              var europeana_id = item['id'];
+              europeana_page = item['guid'];
+              var all_concepts = item['edmConceptTerm'];
+              var object_type = item['type'];
+              var hidden = "#id_result_id_" + i;
+              $(hidden).val(europeana_id);
+              var record = "<li><article class=\"search-list-item cf\"><div class=\"item-preview\">\
+              <div class=\"item-image\"><a href=\"" + europeana_page  + "\"><img src=\"" + thumb + "\">\
+              </a></div></div><div class=\"item-info\"><h1><a href=\"" + europeana_page + "\">" + title + "</a>\
+              </h1>" + get_stars(i, europeana_id) + "<p class=\"excerpt\"><b>Description</b>: " + desc + "</p><div class=\"item-origin\">\
+              <a class=\"external\" href=\"" + item_url + "\">View at " + data_provider + "</a>\
+              </div>" + build_object_type_html(object_type)  + "</article></li>";
+              var record_as_jq = $(record);
+              $(items_wrapper).append(record_as_jq);
+
+
+        }
+        // if(query_is_new()){  reset_prev_query();}
 
 
     }
 
     var display_init_item = function(data){
 
-        title = data['title']
-        desc = data['description']
-        europeana_id = data['europeana_id']
-        url = data['url']
-        thumb = data['thumbnail']
-        type = data['resource_type']
-        data_provider = data['data_provider']
-        original_page = data['original_page']
-        $("#init-item-inner-landing-page").text(title)
-        $("#init-item-desc").text(desc)
-        $("#init-item-landing-page").attr("href", url)
-        $("#init-item-thumbnail").attr("src", thumb)
-        $("#init-item-type").text(type)
-        $("#init-item-ext-link").attr("href", original_page)
-        $("#init-item-data-provider").text(data_provider)
+        title = data['title'];
+        desc = data['description'];
+        europeana_id = data['europeana_id'];
+        url = data['url'];
+        thumb = data['thumbnail'];
+        type = data['resource_type'];
+        data_provider = data['data_provider'];
+        original_page = data['original_page'];
+        $("#init-item-inner-landing-page").text(title);
+        $("#init-item-desc").text(desc);
+        $("#init-item-landing-page").attr("href", url);
+        $("#init-item-thumbnail").attr("src", thumb);
+        $("#init-item-type").text(type);
+        $("#init-item-ext-link").attr("href", original_page);
+        $("#init-item-data-provider").text(data_provider);
+        $("#init-item-id").text(europeana_id);
 
     }
 
@@ -225,6 +311,7 @@ $(document).ready(function(){
 
 */
 
-    $("#query-selector").change(start_with_new_init_item);
+    $("#launch-init-query").click(start_with_new_init_item);
+    $("#launch-query").click(retrieve_related_items)
 
 })
