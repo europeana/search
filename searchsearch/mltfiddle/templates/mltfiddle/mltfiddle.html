@@ -9,16 +9,32 @@
     <script src="{% static 'mobsource/js/jquery.dev.js' %}"></script>
     <script src="{% static 'mltfiddle/js/params.js' %}"></script>
         <style type="text/css">
-        body { min-width: 1920px; }
         #weightview-selector{ position: relative; }
         #weightview-selector + p{ display: none; }
         #weightview-selector li { float: left; padding-left: 10px; }
             #init-item-id { visibility : hidden; }
-        .results-list h3{ margin-left: 5.66038%; margin-top: 2rem; color: white; float: left; background-color: #BAD1D9; border: 1px solid #BADID9; padding: 2px 8px; border-radius: 4px;  }
-       /* .results-list{ display: none; } */
+        .results-list h3{ margin-left: 5.66038%; margin-top: 2rem; color: white; float: left; background-color: #BAD1D9; border: 1px solid #BADID9; padding: 2px 8px; border-radius: 4px; clear: right;  }
         .item-type{ margin-left: 6.5% }
         .icon-image, svg.icon{ display: none; }
-    </style>
+            #interesting-terms{ border-bottom: thin solid black; padding-bottom: 1rem; }
+            #term-wrapper{ margin-left: 5.66038%; }
+            #interesting-terms h2{ font-style: italic; margin-left: 5.66038%; margin-top: 1rem; margin-bottom: 0.5rem; float: left; font-size: 1rem; clear: right;  }
+            .interest-field{ font-weight: bold; }
+            #term-wrapper{ display: block; clear: left; }
+            p.boost-field, .param-pair label{ width: 70%; float: left; }
+            p.boost-factor, .param-pair input{ width: 25%; float: left; }
+            .boost-unit{ padding-top: 15px; }
+            #launch-query{ margin-left: 6em; margin-right: 6em;  }
+            form p{ min-height: 60px; }
+            #launch-init-query{ margin-top: 15px; }
+            #init-item-display, #query-results{ visibility: hidden; width: auto; }
+            #query_results h3{ margin-bottom: 3em;  }
+            #no-hits-warning{ border-bottom: thin solid black; padding-bottom: 1rem; padding-top: 1rem; color: red; padding-left: 5.66038%; }
+            #main{ width: 10em; }
+            .item-image{ margin-right: 60px; }
+            #init-item-warning-wrapper{ margin-left: 2%; margin-top: 2rem; width: 50%; color: red; }
+            b{ color: black; }
+        </style>
 </head>
 <body id="body-projects">
 <div role="main" class="page 1-page">
@@ -28,35 +44,35 @@
             <h1>More Like This Fiddle</h1>
             <h2>Finding Related Items in Europeana Collections</h2>
          </div>
-    </div>
+    </div><!-- closing .cf -->
     <div id="warnings">
        <div id="no-results-warning" class="warning">
             <p>
                 Search returned no results.
             </p>
         </div>
-    </div>
+    </div> <!-- closing .warnings -->
         <div class="container">
     <div id="user_form" class="weights">
         <h2>Test Params</h2>
         <form method="POST" action=".">
             {% csrf_token %}
             {{ searchform.as_p }}
-            <input name="launch-init-query" type="submit" value="Go!" id="launch-init-query"/>
+            <input name="launch-init-query" type="submit" value="Get Initial Item" id="launch-init-query"/>
         </form>
         <form method="POST" action=".">
             {% csrf_token %}
             {{ mltform.as_p }}
+            <input name="europeana-id" type="hidden" id="europeana-id"/>
             <input name="launch-query" type="submit" value="Launch MLT Query" id="launch-query"/>
         </form>
         </div>
-        <div class="results-list cf">
+        <div class="results-list" id="init-item-display">
             <h3>Initial Item</h3>
             <div id="qs"></div>
             <ul class="result-items">
                 <li>
                     <article class="search-list-item cf">
-                        <div id="init-item-id"></div>
                         <div class="item-preview">
                             <div class="item-image">
                                 <a id="init-item-landing-page"><img id="init-item-thumbnail"/></a>
@@ -66,7 +82,7 @@
                             <h1><a id="init-item-inner-landing-page"></a></h1>
                             <p class="excerpt"><b>Description</b>:<div id="init-item-desc"></div></p>
                             <div class="item-origin">
-                                <a class="external" id="init-item-ext-link" target="_blank">View at <div id="init-item-data-provider"></div></a>
+                                <a class="external" id="init-item-ext-link" target="_blank">View at <span id="init-item-data-provider"></span></a>
                             </div>
                         </div>
                         <footer>
@@ -80,6 +96,9 @@
                     </article>
                 </li>
             </ul>
+            <div id="query_results">
+
+            </div>
         </div>
 </body>
 </html>

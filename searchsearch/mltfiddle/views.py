@@ -8,7 +8,7 @@ import json
 
 
 SOLR_MLT = "http://sol7.eanadev.org:9191/solr/search_2/mlt?wt=json"
-SOLR_SEARCH = "http://sol7.eanadev.org:9191/solr/search_2/search"
+SOLR_SEARCH = "http://sol7.eanadev.org:9191/solr/search_2/mlt"
 
 class InitialItemForm(forms.Form):
 
@@ -26,26 +26,25 @@ class MLTParamsForm(forms.Form):
         for fieldname in FieldName.objects.all().order_by('field_name'):
             fieldname_choice.append((fieldname.field_name, fieldname.field_name))
         self.fields['field_1'] = forms.ChoiceField(label=" Similarity Field Name 1", choices=fieldname_choice, required=False, widget=forms.Select(attrs={ 'class' : 'boost-field standard-boost-field'}),initial="title")
-        self.fields['field_boost_1'] = forms.DecimalField(label="Similarity Field Boost 1", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
+        self.fields['field_boost_1'] = forms.DecimalField(label="Boost", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
         self.fields['field_2'] = forms.ChoiceField(label=" Similarity Field Name 2", choices=fieldname_choice, required=False, widget=forms.Select(attrs={ 'class' : 'boost-field standard-boost-field'}),initial="description")
-        self.fields['field_boost_2'] = forms.DecimalField(label="Similarity Field Boost 2", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
+        self.fields['field_boost_2'] = forms.DecimalField(label="Boost", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
         self.fields['field_3'] = forms.ChoiceField(label=" Similarity Field Name 3", choices=fieldname_choice, required=False, widget=forms.Select(attrs={ 'class' : 'boost-field standard-boost-field'}),initial="subject")
-        self.fields['field_boost_3'] = forms.DecimalField(label="Similarity Field Boost 3", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
+        self.fields['field_boost_3'] = forms.DecimalField(label="Boost", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
         self.fields['field_4'] = forms.ChoiceField(label=" Similarity Field Name 4", choices=fieldname_choice, required=False, widget=forms.Select(attrs={ 'class' : 'boost-field standard-boost-field'}),initial="creator")
-        self.fields['field_boost_4'] = forms.DecimalField(label="Similarity Field Boost 4", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
+        self.fields['field_boost_4'] = forms.DecimalField(label="Boost", max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
         for i in range(5,11):
             self.fields['field_' + str(i)] = forms.ChoiceField(label=" Similarity Field Name " + str(i), choices=fieldname_choice, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field standard-boost-field'}))
-            self.fields['field_boost_' + str(i)] = forms.DecimalField(label="Similarity Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
+            self.fields['field_boost_' + str(i)] = forms.DecimalField(label="Boost" + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'standard-boost-factor boost-factor'}))
 
         self.fields['mintf'] = forms.IntegerField(label="Min Term Frequency", min_value=1, max_value=100, initial=1, required=False, widget=forms.NumberInput({ 'id' : 'mintf' }))
         self.fields['mindf'] = forms.IntegerField(label="Min Doc Frequency", min_value=1, max_value=100, initial=1, required=False, widget=forms.NumberInput({ 'id' : 'mindf' }))
-        self.fields['maxdf'] = forms.IntegerField(label="Max Doc Frequency", min_value=1, max_value=10000, initial=1000, required=False, widget=forms.NumberInput({ 'id' : 'maxdf' }))
+        self.fields['maxdf'] = forms.IntegerField(label="Max Doc Frequency", min_value=-1, max_value=10000000, initial=-1, required=False, widget=forms.NumberInput({ 'id' : 'maxdf' }))
         self.fields['minwl'] = forms.IntegerField(label="Min Word Length", min_value=1, max_value=10, initial=3, required=False, widget=forms.NumberInput({ 'id' : 'minwl' }))
-        self.fields['maxwl'] = forms.IntegerField(label="Max Word Length", min_value=0, max_value=25, initial=15,required=False, widget=forms.NumberInput({ 'id' : 'maxwl' }))
+        self.fields['maxwl'] = forms.IntegerField(label="Max Word Length", min_value=0, max_value=500, initial=150,required=False, widget=forms.NumberInput({ 'id' : 'maxwl' }))
         self.fields['maxqt'] = forms.IntegerField(label="Max Query Terms", min_value=0, max_value=100, initial=10, required=False, widget=forms.NumberInput({ 'id' : 'maxqt' }))
         self.fields['maxntp'] = forms.IntegerField(label="Max Tokens", min_value=0, max_value=10000, initial=1000, required=False, widget=forms.NumberInput({ 'id' : 'maxntp' }))
         self.fields['boost'] = forms.BooleanField(label="Boost?", required=False, initial=True, widget=forms.CheckboxInput({ 'id' : 'boost' }))
-
 
 def index(request):
     ini = InitialItemForm()
@@ -62,7 +61,8 @@ def retrieve_init_item(search_obj):
     try:
         item = res_j['response']['docs'][0]
     except:
-        item['description'] = 'No item found.'
+        iidb_j['europeana_id'] = 'no-item-found'
+        return JsonResponse(iidb_j)
     try:
         iidb_j['title'] = item['title'][0]
     except:
@@ -95,7 +95,8 @@ def retrieve_init_item(search_obj):
     return JsonResponse(iidb_j)
 
 def retrieve_related_items(search_obj):
-    root_query = "q=\"" + search_obj.GET['searchterms'] + "\""
+    root_query = "q=europeana_id:\"" + search_obj.GET['europeana_id'] + "\""
+    fields = "fl=*"
     mintf = "mlt.mintf=" + str(search_obj.GET['mintf'])
     mindf = "mlt.mindf=" + str(search_obj.GET['mindf'])
     maxdf = "mlt.maxdf=" + str(search_obj.GET['maxdf'])
@@ -112,19 +113,20 @@ def retrieve_related_items(search_obj):
             num = f.split("_")[1]
             bf = "boostfactor_" + str(num)
             boostfield = search_obj.GET[f]
-            # TODO:
             boostfactor = search_obj.GET[bf]
             field_w_boost = boostfield + "^" + str(boostfactor)
             boostfields.append(field_w_boost)
             searchfields.append(boostfield)
     boostparams = "qf=" + " ".join(boostfields) if len(boostfields) > 0 else ""
     fields = "mlt.fl=" + ",".join(searchfields)
-    params = [root_query, fields, mintf, mindf, maxdf, minwl, maxwl, maxqt, maxntp, boost]
+    params = [root_query, fields, mintf, mindf, minwl, maxwl, maxqt, maxntp, boost, fields]
+    if(str(search_obj.GET['maxdf']) != "-1"): params.append(maxdf)
     if len(boostparams) > 0: params.append(boostparams)
     qs = "&".join(params)
     qry = SOLR_MLT + "&" + qs
     res = requests.get(qry)
     res_j = res.json()
+    res_j['query'] = qry
     return JsonResponse(res_j)
 
 # note that the MLTHandler is already defined in the solrconfig.xml file
