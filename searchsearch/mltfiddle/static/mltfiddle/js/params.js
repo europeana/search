@@ -165,7 +165,7 @@ $(document).ready(function(){
     var build_object_type_html = function(object_type){
 
         var pretty_type = " " + object_type.toUpperCase();
-        var start = "<footer><div class=\"item-metadata\"><span class=\"highlight item-type\">\
+        var start = "<footer><div class=\"item-metadata\"><span class=\"highlight\">\
         <svg class=\"icon icon-image\">";
         var end = "</svg><span id=\"init-item-type\" style=\"margin-left:0px;\">" + pretty_type + "</span></span></div></footer>";
         type_to_icon_map = {"TEXT" : "book", "VIDEO" : "tv", "SOUND" : "music"}
