@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!--
  Licensed to the Apache Software Foundation (ASF) under one or more
  contributor license agreements.  See the NOTICE file distributed with
@@ -15,6 +15,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
+
 <!-- 
      For more details about configurations options that may appear in
      this file, see http://wiki.apache.org/solr/SolrConfigXml. 
@@ -28,89 +29,13 @@
        have your own custom plugins.
     -->
 
-    <!-- Set this to 'false' if you want solr to continue working after
-       it has encountered an severe configuration error.  In a
-       production environment, you may want solr to keep working even
-       if one handler is mis-configured.
-
-       You may also set this to false using by setting the system
-       property:
-
-         -Dsolr.abortOnConfigurationError=false
-    -->
-    <abortOnConfigurationError>${solr.abortOnConfigurationError:true}</abortOnConfigurationError>
-
     <!-- Controls what version of Lucene various components of Solr
        adhere to.  Generally, you want to use the latest version to
        get all bug fixes and improvements. It is highly recommended
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
-    -->
-    <luceneMatchVersion>4.10.1</luceneMatchVersion>
-
-    <!-- lib directives can be used to instruct Solr to load an Jars
-       identified and use them to resolve any "plugins" specified in
-       your solrconfig.xml or schema.xml (ie: Analyzers, Request
-       Handlers, etc...).
-
-       All directories and paths are resolved relative to the
-       instanceDir.
-
-       If a "./lib" directory exists in your instanceDir, all files
-       found in it are included as if you had used the following
-       syntax...
-       
-              <lib dir="./lib" />
-    -->
-
-    <!-- A dir option by itself adds any files found in the directory to
-       the classpath, this is useful for including all jars in a
-       directory.
-    -->
-    <lib dir="/opt/solr-cores/lib"/>
-    <lib dir="/opt/solr-cores/lib/analysis-extras/lib"/>
-    <lib dir="/opt/solr-cores/lib/analysis-extras/lucene-libs"/>
-    <lib dir="/opt/solr-cores/lib/clustering/lib"/>
-    <lib dir="/opt/solr-cores/lib/dataimporthandler-extras/lib"/>
-    <lib dir="/opt/solr-cores/lib/extraction/lib"/>
-    <lib dir="/opt/solr-cores/lib/langid/lib"/>
-    <lib dir="/opt/solr-cores/lib/map-reduce/lib"/>
-    <lib dir="/opt/solr-cores/lib/morphlines-cell/lib"/>
-    <lib dir="/opt/solr-cores/lib/morphlines-core/lib"/>
-    <lib dir="/opt/solr-cores/lib/uima/lib"/>
-    <lib dir="/opt/solr-cores/lib/uima/lucene-libs"/>
-    <lib dir="/opt/solr/data/lib"/>
-    <!--<lib dir="/opt/solr-cores/lib/velocity/lib"/>
--->
-
-    <!--  <lib dir="../../contrib/extraction/lib" />
-  <lib dir="../../contrib/clustering/lib/" />
-  <lib dir="../../contrib/velocity/lib" />
--->
-    <!-- When a regex is specified in addition to a directory, only the
-       files in that directory which completely match the regex
-       (anchored on both ends) will be included.
-    -->
-    <!--  
-<lib dir="../../dist/" regex="apache-solr-cell-\d.*\.jar" />
-  <lib dir="../../dist/" regex="apache-solr-clustering-\d.*\.jar" />
-  <lib dir="../../dist/" regex="apache-solr-dataimporthandler-\d.*\.jar" />
-  <lib dir="../../dist/" regex="apache-solr-langid-\d.*\.jar" />
-  <lib dir="../../dist/" regex="apache-solr-velocity-\d.*\.jar" />
--->
-    <!-- If a dir option (with or without a regex) is used and nothing
-       is found that matches, it will be ignored
-    -->
-    <!--  
-<lib dir="../../contrib/clustering/lib/" />
-  <lib dir="/total/crap/dir/ignored" />
--->
-    <!-- an exact path can be used to specify a specific file.  This
-       will cause a serious error to be logged if it can't be loaded.
-    -->
-    <!--
-  <lib path="../a-jar-that-does-not-exist.jar" /> 
   -->
+    <luceneMatchVersion>5.5.1</luceneMatchVersion>
 
     <!-- Data Directory
 
@@ -121,90 +46,59 @@
     -->
     <dataDir>${solr.data.dir:}</dataDir>
 
+    <lib dir="/opt/solr-5.5.1/dist"/>
+    <!-- <lib dir="/opt/solr-cores/lib/analysis-extras/lib"/>
+  <lib dir="/opt/solr-cores/lib/analysis-extras/lucene-libs"/>
+  <lib dir="/opt/solr-cores/lib/clustering/lib"/>
+  <lib dir="/opt/solr-cores/lib/dataimporthandler-extras/lib"/>
+  <lib dir="/opt/solr-cores/lib/extraction/lib"/>
+  <lib dir="/opt/solr-cores/lib/langid/lib"/>
+  <lib dir="/opt/solr-cores/lib/map-reduce/lib"/>
+  <lib dir="/opt/solr-cores/lib/morphlines-cell/lib"/>
+  <lib dir="/opt/solr-cores/lib/morphlines-core/lib"/>
+  <lib dir="/opt/solr-cores/lib/uima/lib"/>
+  <lib dir="/opt/solr-cores/lib/uima/lucene-libs"/>
+  <lib dir="/opt/solr/data/lib"/> -->
+
 
     <!-- The DirectoryFactory to use for indexes.
        
-       solr.StandardDirectoryFactory, the default, is filesystem
+       solr.StandardDirectoryFactory is filesystem
        based and tries to pick the best implementation for the current
-       JVM and platform.  One can force a particular implementation
-       via solr.MMapDirectoryFactory, solr.NIOFSDirectoryFactory, or
-       solr.SimpleFSDirectoryFactory.
+       JVM and platform.  solr.NRTCachingDirectoryFactory, the default,
+       wraps solr.StandardDirectoryFactory and caches small files in memory
+       for better NRT performance.
+
+       One can force a particular implementation via solr.MMapDirectoryFactory,
+       solr.NIOFSDirectoryFactory, or solr.SimpleFSDirectoryFactory.
 
        solr.RAMDirectoryFactory is memory based, not
        persistent, and doesn't work with replication.
     -->
     <directoryFactory name="DirectoryFactory"
-        class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
+        class="${solr.directoryFactory:solr.NRTCachingDirectoryFactory}"> </directoryFactory>
 
+    <!-- The CodecFactory for defining the format of the inverted index.
+       The default implementation is SchemaCodecFactory, which is the official Lucene
+       index format, but hooks into the schema to provide per-field customization of
+       the postings lists and per-document values in the fieldType element
+       (postingsFormat/docValuesFormat). Note that most of the alternative implementations
+       are experimental, so if you choose to customize the index format, it's a good
+       idea to convert back to the official format e.g. via IndexWriter.addIndexes(IndexReader)
+       before upgrading to a newer version to avoid unnecessary reindexing.
+  -->
+    <codecFactory class="solr.SchemaCodecFactory"/>
 
-    <!-- Index Defaults
+    <schemaFactory class="ClassicIndexSchemaFactory"/>
 
-       Values here affect all index writers and act as a default
-       unless overridden.
-
-       WARNING: See also the <mainIndex> section below for parameters
-       that overfor Solr's main Lucene index.
-    -->
-
-
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Index Config - These settings control low-level behavior of indexing
+       Most example settings here show the default value, but are commented
+       out, to more easily see where customizations have been made.
+       
+       Note: This replaces <indexDefaults> and <mainIndex> from older versions
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <indexConfig>
-        <!-- maxFieldLength was removed in 4.0. To get similar behavior, include a 
-         LimitTokenCountFilterFactory in your fieldType definition. E.g. 
-     <filter class="solr.LimitTokenCountFilterFactory" maxTokenCount="10000"/>
-    -->
-        <!-- Maximum time to wait for a write lock (ms) for an IndexWriter. Default: 1000 -->
-        <!-- <writeLockTimeout>1000</writeLockTimeout>  -->
-
-        <!-- Expert: Enabling compound file will use less files for the index, 
-         using fewer file descriptors on the expense of performance decrease. 
-         Default in Lucene is "true". Default in Solr is "false" (since 3.6) -->
-        <!-- <useCompoundFile>false</useCompoundFile> -->
-
-        <!-- ramBufferSizeMB sets the amount of RAM that may be used by Lucene
-         indexing for buffering added documents and deletions before they are
-         flushed to the Directory.
-         maxBufferedDocs sets a limit on the number of documents buffered
-         before flushing.
-         If both ramBufferSizeMB and maxBufferedDocs is set, then
-         Lucene will flush based on whichever limit is hit first.  -->
-        <!--<ramBufferSizeMB>100</ramBufferSizeMB>-->
-        <!-- <maxBufferedDocs>1000</maxBufferedDocs> -->
-
-        <!-- Expert: Merge Policy 
-         The Merge Policy in Lucene controls how merging of segments is done.
-         The default since Solr/Lucene 3.3 is TieredMergePolicy.
-         The default since Lucene 2.3 was the LogByteSizeMergePolicy,
-         Even older versions of Lucene used LogDocMergePolicy.
-      -->
-
-        <mergePolicy class="org.apache.lucene.index.TieredMergePolicy">
-            <int name="maxMergeAtOnce">10</int>
-            <int name="segmentsPerTier">10</int>
-            <double name="reclaimDeletesWeight">5.0</double>
-        </mergePolicy>
-
-
-        <!-- Merge Factor
-         The merge factor controls how many segments will get merged at a time.
-         For TieredMergePolicy, mergeFactor is a convenience parameter which
-         will set both MaxMergeAtOnce and SegmentsPerTier at once.
-         For LogByteSizeMergePolicy, mergeFactor decides how many new segments
-         will be allowed before they are merged into one.
-         Default is 10 for both merge policies.
-      -->
-        <!-- 
-    <mergeFactor>10</mergeFactor>
-      -->
-
-        <!-- Expert: Merge Scheduler
-         The Merge Scheduler in Lucene controls how merges are
-         performed.  The ConcurrentMergeScheduler (Lucene 2.3 default)
-         can perform merges in the background using separate threads.
-         The SerialMergeScheduler (Lucene 2.2 default) does not.
-     -->
-        <!-- 
-       <mergeScheduler class="org.apache.lucene.index.ConcurrentMergeScheduler"/>
-       -->
 
         <!-- LockFactory 
 
@@ -225,75 +119,21 @@
          More details on the nuances of each LockFactory...
          http://wiki.apache.org/lucene-java/AvailableLockFactories
     -->
-        <!--    <lockType>single</lockType>-->
-        <!-- Unlock On Startup
-
-         If true, unlock any held write or commit locks on startup.
-         This defeats the locking mechanism that allows multiple
-         processes to safely access a lucene index, and should be used
-         with care. Default is "false".
-
-         This is not needed if lock type is 'none' or 'single'
-     -->
-        <!--
-    <unlockOnStartup>false</unlockOnStartup>
-      -->
-
-        <!-- Expert: Controls how often Lucene loads terms into memory
-         Default is 128 and is likely good for most everyone.
-      -->
-        <!-- <termIndexInterval>128</termIndexInterval> -->
-
-        <!-- If true, IndexReaders will be reopened (often more efficient)
-         instead of closed and then opened. Default: true
-      -->
-        <!-- 
-    <reopenReaders>true</reopenReaders>
-      -->
-
-        <!-- Commit Deletion Policy
-
-         Custom deletion policies can be specified here. The class must
-         implement org.apache.lucene.index.IndexDeletionPolicy.
-
-         http://lucene.apache.org/java/3_5_0/api/core/org/apache/lucene/index/IndexDeletionPolicy.html
-
-         The default Solr IndexDeletionPolicy implementation supports
-         deleting index commit points on number of commits, age of
-         commit point and optimized status.
-         
-         The latest commit point should always be preserved regardless
-         of the criteria.
-    -->
-        <!-- 
-    <deletionPolicy class="solr.SolrDeletionPolicy">
-    -->
-        <!-- The number of commit points to be kept -->
-        <!-- <str name="maxCommitsToKeep">1</str> -->
-        <!-- The number of optimized commit points to be kept -->
-        <!-- <str name="maxOptimizedCommitsToKeep">0</str> -->
-        <!--
-          Delete all commit points once they have reached the given age.
-          Supports DateMathParser syntax e.g.
-        -->
-        <!--
-         <str name="maxCommitAge">30MINUTES</str>
-         <str name="maxCommitAge">1DAY</str>
-      -->
-        <!-- 
-    </deletionPolicy>
-    -->
+        <lockType>${solr.lock.type:native}</lockType>
 
         <!-- Lucene Infostream
        
          To aid in advanced debugging, Lucene provides an "InfoStream"
          of detailed information when indexing.
 
-         Setting The value to true will instruct the underlying Lucene
-         IndexWriter to write its debugging info the specified file
+         Setting the value to true will instruct the underlying Lucene
+         IndexWriter to write its info stream to solr's log. By default,
+         this is enabled here, and controlled through log4j.properties.
       -->
-        <!-- <infoStream file="INFOSTREAM.txt">false</infoStream> -->
+        <infoStream>true</infoStream>
     </indexConfig>
+
+
     <!-- JMX
        
        This example enables JMX if and only if an existing MBeanServer
@@ -314,12 +154,28 @@
 
     <!-- The default high-performance update handler -->
     <updateHandler class="solr.DirectUpdateHandler2">
+
+        <!-- Enables a transaction log, used for real-time get, durability, and
+         and solr cloud replica recovery.  The log can grow as big as
+         uncommitted changes to the index, so use of a hard autoCommit
+         is recommended (see below).
+         "dir" - the target directory for transaction logs, defaults to the
+                solr data directory.
+         "numVersionBuckets" - sets the number of buckets used to keep
+                track of max version values when checking for re-ordered
+                updates; increase this value to reduce the cost of
+                synchronizing access to version buckets during high-volume
+                indexing, this requires 8 bytes (long) * numVersionBuckets
+                of heap space per Solr core.
+    -->
         <updateLog>
             <str name="dir">${solr.ulog.dir:}</str>
+            <int name="numVersionBuckets">${solr.ulog.numVersionBuckets:65536}</int>
         </updateLog>
+
         <!-- AutoCommit
 
-         Perform a <commit/> automatically under certain conditions.
+         Perform a hard commit automatically under certain conditions.
          Instead of enabling autoCommit, consider using "commitWithin"
          when adding documents. 
 
@@ -328,110 +184,35 @@
          maxDocs - Maximum number of documents to add since the last
                    commit before automatically triggering a new commit.
 
-         maxTime - Maximum amount of time that is allowed to pass
-                   since a document was added before automaticly
+         maxTime - Maximum amount of time in ms that is allowed to pass
+                   since a document was added before automatically
                    triggering a new commit. 
-      -->
-        <!--   HERE_
-       <autoCommit> 
-         <maxDocs>100000</maxDocs>
-         <openSearcher>false</openSearcher>  
-       </autoCommit>
-     -->
+         openSearcher - if false, the commit causes recent index changes
+           to be flushed to stable storage, but does not cause a new
+           searcher to be opened to make those changes visible.
 
-        <!-- Update Related Event Listeners
-         
-         Various IndexWriter related events can trigger Listeners to
-         take actions.
-
-         postCommit - fired after every commit or optimize command
-         postOptimize - fired after every optimize command
-      -->
-        <!-- The RunExecutableListener executes an external command from a
-         hook such as postCommit or postOptimize.
-         
-         exe - the name of the executable to run
-         dir - dir to use as the current working directory. (default=".")
-         wait - the calling thread waits until the executable returns. 
-                (default="true")
-         args - the arguments to pass to the program.  (default is none)
-         env - environment variables to set.  (default is none)
-      -->
-        <!-- This example shows how RunExecutableListener could be used
-         with the script based replication...
-         http://wiki.apache.org/solr/CollectionDistribution
-      -->
-        <!--
-       <listener event="postCommit" class="solr.RunExecutableListener">
-         <str name="exe">solr/bin/snapshooter</str>
-         <str name="dir">.</str>
-         <bool name="wait">true</bool>
-         <arr name="args"> <str>arg1</str> <str>arg2</str> </arr>
-         <arr name="env"> <str>MYVAR=val1</str> </arr>
-       </listener>
+         If the updateLog is enabled, then it's highly recommended to
+         have some sort of hard autoCommit to limit the log size.
       -->
         <autoCommit>
-            <maxTime>60000</maxTime>
+            <maxTime>${solr.autoCommit.maxTime:15000}</maxTime>
             <openSearcher>false</openSearcher>
         </autoCommit>
 
-        <!-- SoftAutoCommit
-
-         Perform a 'soft' commit automatically under certain conditions.
-         This commit avoids ensuring that data is synched to disk.
-
-         maxDocs - Maximum number of documents to add since the last
-                   soft commit before automaticly triggering a new soft commit.
-
-         maxTime - Maximum amount of time in ms that is allowed to pass
-                   since a document was added before automaticly
-                   triggering a new soft commit.
+        <!-- softAutoCommit is like autoCommit except it causes a
+         'soft' commit which only ensures that changes are visible
+         but does not ensure that data is synced to disk.  This is
+         faster and more near-realtime friendly than a hard commit.
       -->
-
         <autoSoftCommit>
-            <maxTime>900000</maxTime>
-            <openSearcher>true</openSearcher>
+            <maxTime>${solr.autoSoftCommit.maxTime:-1}</maxTime>
         </autoSoftCommit>
+
     </updateHandler>
 
-    <!-- IndexReaderFactory
-
-       Use the following format to specify a custom IndexReaderFactory,
-       which allows for alternate IndexReader implementations.
-
-       ** Experimental Feature **
-
-       Please note - Using a custom IndexReaderFactory may prevent
-       certain other features from working. The API to
-       IndexReaderFactory may change without warning or may even be
-       removed from future releases if the problems cannot be
-       resolved.
-
-
-       ** Features that may not work with custom IndexReaderFactory **
-
-       The ReplicationHandler assumes a disk-resident index. Using a
-       custom IndexReader implementation may cause incompatibility
-       with ReplicationHandler and may cause replication to not work
-       correctly. See SOLR-1366 for details.
-
-    -->
-    <!--
-  <indexReaderFactory name="IndexReaderFactory" class="package.class">
-    <str name="someArg">Some Value</str>
-  </indexReaderFactory >
-  -->
-    <!-- By explicitly declaring the Factory, the termIndexDivisor can
-       be specified.
-    -->
-    <!--
-     <indexReaderFactory name="IndexReaderFactory" 
-                         class="solr.StandardIndexReaderFactory">
-       <int name="setTermIndexDivisor">12</int>
-     </indexReaderFactory >
-    -->
-
-
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Query section - these settings control query time things like caches
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
     <query>
         <!-- Max Boolean Clauses
 
@@ -480,56 +261,29 @@
            autowarmCount - the number of entries to prepopulate from
                and old cache.  
       -->
-        <filterCache class="solr.FastLRUCache" size="512" initialSize="512" autowarmCount="256"/>
+        <filterCache class="solr.FastLRUCache" size="512" initialSize="512" autowarmCount="0"/>
 
         <!-- Query Result Cache
-         
-         Caches results of searches - ordered lists of document ids
-         (DocList) based on a query, a sort, and the range of documents requested.  
-      -->
-        <!--<queryResultCache class="solr.LRUCache"
-                     size="16384"
-                     initialSize="8192"
-                     autowarmCount="4096"/>
-   -->
+
+        Caches results of searches - ordered lists of document ids
+        (DocList) based on a query, a sort, and the range of documents requested.
+        Additional supported parameter by LRUCache:
+           maxRamMB - the maximum amount of RAM (in MB) that this cache is allowed
+                      to occupy
+     -->
+        <queryResultCache class="solr.LRUCache" size="512" initialSize="512" autowarmCount="0"/>
+
         <!-- Document Cache
 
          Caches Lucene Document objects (the stored fields for each
          document).  Since Lucene internal document ids are transient,
          this cache will not be autowarmed.  
       -->
-        <!--<documentCache class="solr.LRUCache"
-                   size="200000"
-                   initialSize="200000"
-                  />
-    -->
-        <!-- Field Value Cache
-         
-         Cache used to hold field values that are quickly accessible
-         by document id.  The fieldValueCache is created by default
-         even if not configured here.
-      -->
-        <fieldValueCache class="solr.FastLRUCache" size="8" autowarmCount="8" showItems="8"/>
+        <documentCache class="solr.LRUCache" size="512" initialSize="512" autowarmCount="0"/>
 
-        <!-- Custom Cache
-
-         Example of a generic cache.  These caches may be accessed by
-         name through SolrIndexSearcher.getCache(),cacheLookup(), and
-         cacheInsert().  The purpose is to enable easy caching of
-         user/application level data.  The regenerator argument should
-         be specified as an implementation of solr.CacheRegenerator 
-         if autowarming is desired.  
-      -->
-        <!--
-       <cache name="myUserCache"
-              class="solr.LRUCache"
-              size="4096"
-              initialSize="1024"
-              autowarmCount="1024"
-              regenerator="com.mycompany.MyRegenerator"
-              />
-      -->
-
+        <!-- custom cache currently used by block join -->
+        <cache name="perSegFilter" class="solr.search.LRUCache" size="10" initialSize="0"
+            autowarmCount="10" regenerator="solr.NoOpRegenerator"/>
 
         <!-- Lazy Field Loading
 
@@ -541,23 +295,6 @@
     -->
         <enableLazyFieldLoading>true</enableLazyFieldLoading>
 
-        <!-- Use Filter For Sorted Query
-
-        A possible optimization that attempts to use a filter to
-        satisfy a search.  If the requested sort does not include
-        score, then the filterCache will be checked for a filter
-        matching the query. If found, the filter will be used as the
-        source of document ids, and then the sort will be applied to
-        that.
-
-        For most situations, this will not be useful unless you
-        frequently get the same search repeatedly with different sort
-        options, and none of them ever use "score"
-     -->
-        <!--
-      <useFilterForSortedQuery>true</useFilterForSortedQuery>
-     -->
-
         <!-- Result Window Size
 
         An optimization for use with the queryResultCache.  When a search
@@ -567,55 +304,12 @@
         then documents 0 through 49 will be collected and cached.  Any further
         requests in that range can be satisfied via the cache.  
      -->
-
-        <queryResultWindowSize>96</queryResultWindowSize>
+        <queryResultWindowSize>20</queryResultWindowSize>
 
         <!-- Maximum number of documents to cache for any entry in the
         queryResultCache. 
      -->
-
-        <queryResultMaxDocsCached>960</queryResultMaxDocsCached>
-
-        <!-- Query Related Event Listeners
-
-        Various IndexSearcher related events can trigger Listeners to
-        take actions.
-
-        newSearcher - fired whenever a new searcher is being prepared
-        and there is a current searcher handling requests (aka
-        registered).  It can be used to prime certain caches to
-        prevent long request times for certain requests.
-
-        firstSearcher - fired whenever a new searcher is being
-        prepared but there is no current registered searcher to handle
-        requests or to gain autowarming data from.
-
-        
-     -->
-        <!-- QuerySenderListener takes an array of NamedList and executes a
-         local query request for each NamedList in sequence. 
-      -->
-        <listener event="newSearcher" class="solr.QuerySenderListener">
-            <arr name="queries">
-                <!--
-           <lst><str name="q">solr</str><str name="sort">price asc</str></lst>
-           <lst><str name="q">rocks</str><str name="sort">weight asc</str></lst>
-          -->
-                <lst>
-                    <str name="q">*:*</str>
-                    <str name="sort">score desc, entity_id asc</str>
-                    <str name="rows">10</str>
-                </lst>
-                <lst>
-                    <str name="q">*:*</str>
-                    <str name="sort">score desc, entity_id asc</str>
-                    <str name="facet.field">TYPE</str>
-                    <str name="rows">10</str>
-                </lst>
-            </arr>
-        </listener>
-
-
+        <queryResultMaxDocsCached>200</queryResultMaxDocsCached>
 
         <!-- Use Cold Searcher
 
@@ -624,7 +318,7 @@
          warming searcher and use it.  If "false" then all requests
          will block until the first searcher is done warming.
       -->
-        <useColdSearcher>true</useColdSearcher>
+        <useColdSearcher>false</useColdSearcher>
 
         <!-- Max Warming Searchers
          
@@ -645,17 +339,21 @@
        This section contains instructions for how the SolrDispatchFilter
        should behave when processing requests for this SolrCore.
 
-       handleSelect affects the behavior of requests such as /select?qt=XXX
+       handleSelect is a legacy option that affects the behavior of requests
+       such as /select?qt=XXX
 
        handleSelect="true" will cause the SolrDispatchFilter to process
-       the request and will result in consistent error handling and
-       formatting for all types of requests.
+       the request and dispatch the query to a handler specified by the 
+       "qt" param, assuming "/select" isn't already registered.
 
        handleSelect="false" will cause the SolrDispatchFilter to
-       ignore "/select" requests and fallback to using the legacy
-       SolrServlet and it's Solr 1.1 style error formatting
+       ignore "/select" requests, resulting in a 404 unless a handler
+       is explicitly registered with the name "/select"
+
+       handleSelect="true" is not recommended for new users, but is the default
+       for backwards compatibility
     -->
-    <requestDispatcher handleSelect="true">
+    <requestDispatcher handleSelect="false">
         <!-- Request Parsing
 
          These settings indicate how Solr Requests may be parsed, and
@@ -665,8 +363,20 @@
          enableRemoteStreaming - enables use of the stream.file
          and stream.url parameters for specifying remote streams.
 
-         multipartUploadLimitInKB - specifies the max size of
+         multipartUploadLimitInKB - specifies the max size (in KiB) of
          Multipart File Uploads that Solr will allow in a Request.
+         
+         formdataUploadLimitInKB - specifies the max size (in KiB) of
+         form data (application/x-www-form-urlencoded) sent via
+         POST. You can use POST to pass request parameters not
+         fitting into the URL.
+         
+         addHttpRequestToContext - if set to true, it will instruct
+         the requestParsers to include the original HttpServletRequest
+         object in the context map of the SolrQueryRequest under the 
+         key "httpRequest". It will not be used by any of the existing
+         Solr components, but may be useful when developing custom 
+         plugins.
          
          *** WARNING ***
          The settings below authorize Solr to fetch remote files, You
@@ -674,7 +384,8 @@
          using enableRemoteStreaming="true"
 
       -->
-        <requestParsers enableRemoteStreaming="true" multipartUploadLimitInKB="2048000"/>
+        <requestParsers enableRemoteStreaming="true" multipartUploadLimitInKB="2048000"
+            formdataUploadLimitInKB="2048" addHttpRequestToContext="false"/>
 
         <!-- HTTP Caching
 
@@ -683,71 +394,25 @@
          The options below instruct Solr not to output any HTTP Caching
          related headers
       -->
-        <httpCaching lastModifiedFrom="openTime" etagSeed="Solr">
-            <cacheControl>max-age=2000000,public</cacheControl>
-        </httpCaching>
-        <!-- If you include a <cacheControl> directive, it will be used to
-         generate a Cache-Control header (as well as an Expires header
-         if the value contains "max-age=")
-         
-         By default, no Cache-Control header is generated.
-         
-         You can use the <cacheControl> option even if you have set
-         never304="true"
-      -->
-        <!--
-       <httpCaching never304="true" >
-         <cacheControl>max-age=30, public</cacheControl> 
-       </httpCaching>
-      -->
-        <!-- To enable Solr to respond with automatically generated HTTP
-         Caching headers, and to response to Cache Validation requests
-         correctly, set the value of never304="false"
-         
-         This will cause Solr to generate Last-Modified and ETag
-         headers based on the properties of the Index.
+        <httpCaching never304="true"/>
 
-         The following options can also be specified to affect the
-         values of these headers...
-
-         lastModFrom - the default value is "openTime" which means the
-         Last-Modified value (and validation against If-Modified-Since
-         requests) will all be relative to when the current Searcher
-         was opened.  You can change it to lastModFrom="dirLastMod" if
-         you want the value to exactly correspond to when the physical
-         index was last modified.
-
-         etagSeed="..." is an option you can change to force the ETag
-         header (and validation against If-None-Match requests) to be
-         different even if the index has not changed (ie: when making
-         significant changes to your config file)
-
-         (lastModifiedFrom and etagSeed are both ignored if you use
-         the never304="true" option)
-      -->
-        <!--
-       <httpCaching lastModifiedFrom="openTime"
-                    etagSeed="Solr">
-         <cacheControl>max-age=30, public</cacheControl> 
-       </httpCaching>
-      -->
     </requestDispatcher>
 
     <!-- Request Handlers 
 
        http://wiki.apache.org/solr/SolrRequestHandler
 
-       incoming queries will be dispatched to the correct handler
-       based on the path or the qt (query type) param.
+       Incoming queries will be dispatched to a specific handler by name
+       based on the path specified in the request.
 
-       Names starting with a '/' are accessed with the a path equal to
-       the registered name.  Names without a leading '/' are accessed
-       with: http://host/app/[core/]select?qt=name
+       Legacy behavior: If the request path uses "/select" but no Request
+       Handler has that name, and if handleSelect="true" has been specified in
+       the requestDispatcher, then the Request Handler is dispatched based on
+       the qt parameter.  Handlers without a leading '/' are accessed this way
+       like so: http://host/app/[core/]select?qt=name  If no qt is
+       given, then the requestHandler that declares default="true" will be
+       used or the one named "standard".
 
-       If a /select request is processed with out a qt param
-       specified, the requestHandler that declares default="true" will
-       be used.
-       
        If a Request Handler is declared with startup="lazy", then it will
        not be initialized until the first request that uses it.
 
@@ -761,8 +426,7 @@
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
     -->
-    <!-- <requestHandler name="search" class="solr.SearchHandler" default="true"> -->
-    <requestHandler name="search" class="solr.SearchHandler">
+    <requestHandler name="/select" class="solr.SearchHandler">
         <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
       -->
@@ -770,167 +434,41 @@
             <str name="echoParams">explicit</str>
             <int name="rows">10</int>
         </lst>
-        <arr name="last-components">
-            <str>elevator</str>
-        </arr>
+
     </requestHandler>
 
-    <requestHandler name="/update/dih" class="org.apache.solr.handler.dataimport.DataImportHandler">
-        <lst name="defaults">
-            <str name="config">dih-config.xml</str>
-        </lst>
-    </requestHandler>
-
-    <!-- <requestHandler name="/dataimporthandler" class="org.apache.solr.handler.dataimport.DataImportHandler">
-         <lst name="defaults">
-               <str name="config">dih-config.xml</str>
-         </lst>
-     </requestHandler>
--->
-    <!-- ******************************************************************
-                New weightings added by thill 2015.12.22
-                replacing "search" RequestHandler immediately above 
-                as default handler.
-       ****************************************************************** -->
-
-
-    <requestHandler name="standard" class="solr.SearchHandler" default="true">
+    <!-- A request handler that returns indented JSON by default -->
+    <requestHandler name="/query" class="solr.SearchHandler">
         <lst name="defaults">
             <str name="echoParams">explicit</str>
-        </lst>
-        <arr name="last-components">
-            <str>elevator</str>
-        </arr>
-
-    </requestHandler>
-
-    <!-- In addition to defaults, "appends" params can be specified
-         to identify values which should be appended to the list of
-         multi-val params from the query (or the existing "defaults").
-      -->
-    <!-- In this example, the param "fq=instock:true" would be appended to
-         any query time fq params the user may specify, as a mechanism for
-         partitioning the index, independent of any user selected filtering
-         that may also be desired (perhaps as a result of faceted searching).
-
-         NOTE: there is *absolutely* nothing a client can do to prevent these
-         "appends" values from being used, so don't use this mechanism
-         unless you are sure you always want it.
-      -->
-    <!--
-       <lst name="appends">
-         <str name="fq">inStock:true</str>
-       </lst>
-      -->
-    <!-- "invariants" are a way of letting the Solr maintainer lock down
-         the options available to Solr clients.  Any params values
-         specified here are used regardless of what values may be specified
-         in either the query, the "defaults", or the "appends" params.
-
-         In this example, the facet.field and facet.query params would
-         be fixed, limiting the facets clients can use.  Faceting is
-         not turned on by default - but if the client does specify
-         facet=true in the request, these are the only facets they
-         will be able to see counts for; regardless of what other
-         facet.field or facet.query params they may specify.
-
-         NOTE: there is *absolutely* nothing a client can do to prevent these
-         "invariants" values from being used, so don't use this mechanism
-         unless you are sure you always want it.
-      -->
-    <!--
-       <lst name="invariants">
-         <str name="facet.field">cat</str>
-         <str name="facet.field">manu_exact</str>
-         <str name="facet.query">price:[* TO 500]</str>
-         <str name="facet.query">price:[500 TO *]</str>
-       </lst>
-      -->
-    <!-- If the default list of SearchComponents is not desired, that
-         list can either be overridden completely, or components can be
-         prepended or appended to the default list.  (see below)
-      -->
-    <!--
-       <arr name="components">
-         <str>nameOfCustomComponent1</str>
-         <str>nameOfCustomComponent2</str>
-       </arr>
-      -->
-
-
-    <!-- A Robust Example
-
-       This example SearchHandler declaration shows off usage of the
-       SearchHandler with many defaults declared
-
-       Note that multiple instances of the same Request Handler
-       (SearchHandler) can be registered multiple times with different
-       names (and different init parameters)
-    -->
-
-
-    <!-- XML Update Request Handler.  
-       
-       http://wiki.apache.org/solr/UpdateXmlMessages
-
-       The canonical Request Handler for Modifying the Index through
-       commands specified using XML.
-
-       Note: Since solr1.1 requestHandlers requires a valid content
-       type header if posted in the body. For example, curl now
-       requires: -H 'Content-type:text/xml; charset=utf-8'
-    -->
-    <requestHandler name="/update" class="solr.UpdateRequestHandler">
-        <!-- See below for information on defining 
-         updateRequestProcessorChains that can be used by name 
-         on each Update Request
-      -->
-        <!--
-       <lst name="defaults">
-         <str name="update.chain">dedupe</str>
-       </lst>
-       -->
-    </requestHandler>
-    <!-- Binary Update Request Handler
-       http://wiki.apache.org/solr/javabin
-    -->
-    <requestHandler name="/update/javabin" class="solr.BinaryUpdateRequestHandler"/>
-
-    <!-- CSV Update Request Handler
-       http://wiki.apache.org/solr/UpdateCSV
-    -->
-    <requestHandler name="/update/csv" class="solr.CSVRequestHandler" startup="lazy"/>
-
-    <!-- JSON Update Request Handler
-       http://wiki.apache.org/solr/UpdateJSON
-    -->
-    <requestHandler name="/update/json" class="solr.JsonUpdateRequestHandler" startup="lazy"/>
-
-    <!-- Solr Cell Update Request Handler
-
-       http://wiki.apache.org/solr/ExtractingRequestHandler 
-
-    -->
-    <requestHandler name="/update/extract" startup="lazy"
-        class="solr.extraction.ExtractingRequestHandler">
-        <lst name="defaults">
-            <!-- All the main content goes into "text"... if you need to return
-           the extracted text or do highlighting, use a stored field. -->
-            <str name="fmap.content">text</str>
-            <str name="lowernames">true</str>
-            <str name="uprefix">ignored_</str>
-
-            <!-- capture link hrefs but ignore div attributes -->
-            <str name="captureAttr">true</str>
-            <str name="fmap.a">links</str>
-            <str name="fmap.div">ignored_</str>
+            <str name="wt">json</str>
+            <str name="indent">true</str>
+            <str name="df">text</str>
         </lst>
     </requestHandler>
 
-    <!-- XSLT Update Request Handler
-       Transforms incoming XML with stylesheet identified by tr=
+    <!--
+    The export request handler is used to export full sorted result sets.
+    Do not change these defaults.
   -->
-    <requestHandler name="/update/xslt" startup="lazy" class="solr.XsltUpdateRequestHandler"/>
+    <requestHandler name="/export" class="solr.SearchHandler">
+        <lst name="invariants">
+            <str name="rq">{!xport}</str>
+            <str name="wt">xsort</str>
+            <str name="distrib">false</str>
+        </lst>
+
+        <arr name="components">
+            <str>query</str>
+        </arr>
+    </requestHandler>
+
+
+    <initParams path="/update/**,/query,/select,/tvrh,/elevate,/spell">
+        <lst name="defaults">
+            <str name="df">text</str>
+        </lst>
+    </initParams>
 
     <!-- Field Analysis Request Handler
 
@@ -958,7 +496,7 @@
        http://wiki.apache.org/solr/AnalysisRequestHandler
 
        An analysis handler that provides a breakdown of the analysis
-       process of provided docuemnts. This handler expects a (single)
+       process of provided documents. This handler expects a (single)
        content stream with the following format:
 
        <docs>
@@ -986,45 +524,6 @@
     <requestHandler name="/analysis/document" class="solr.DocumentAnalysisRequestHandler"
         startup="lazy"/>
 
-    <!-- Admin Handlers
-
-       Admin Handlers - This will register all the standard admin
-       RequestHandlers.  
-    -->
-    <requestHandler name="/admin/" class="solr.admin.AdminHandlers"/>
-    <!-- This single handler is equivalent to the following... -->
-    <!--
-     <requestHandler name="/admin/luke"       class="solr.admin.LukeRequestHandler" />
-     <requestHandler name="/admin/system"     class="solr.admin.SystemInfoHandler" />
-     <requestHandler name="/admin/plugins"    class="solr.admin.PluginInfoHandler" />
-     <requestHandler name="/admin/threads"    class="solr.admin.ThreadDumpHandler" />
-     <requestHandler name="/admin/properties" class="solr.admin.PropertiesRequestHandler" />
-     <requestHandler name="/admin/file"       class="solr.admin.ShowFileRequestHandler" >
-    -->
-    <!-- If you wish to hide files under ${solr.home}/conf, explicitly
-       register the ShowFileRequestHandler using: 
-    -->
-    <!--
-     <requestHandler name="/admin/file" 
-                     class="solr.admin.ShowFileRequestHandler" >
-       <lst name="invariants">
-         <str name="hidden">synonyms.txt</str> 
-         <str name="hidden">anotherfile.txt</str> 
-       </lst>
-     </requestHandler>
-    -->
-
-    <!-- ping/healthcheck -->
-    <requestHandler name="/admin/ping" class="solr.PingRequestHandler">
-        <lst name="invariants">
-            <str name="qt">search</str>
-            <str name="q">solrpingquery</str>
-        </lst>
-        <lst name="defaults">
-            <str name="echoParams">all</str>
-        </lst>
-    </requestHandler>
-
     <!-- Echo the request contents back to the client -->
     <requestHandler name="/debug/dump" class="solr.DumpRequestHandler">
         <lst name="defaults">
@@ -1033,28 +532,7 @@
         </lst>
     </requestHandler>
 
-    <!-- Solr Replication
 
-       The SolrReplicationHandler supports replicating indexes from a
-       "master" used for indexing and "salves" used for queries.
-
-       http://wiki.apache.org/solr/SolrReplication 
-
-       In the example below, remove the <lst name="master"> section if
-       this is just a slave and remove  the <lst name="slave"> section
-       if this is just a master.
-    -->
-
-    <requestHandler name="/replication" class="solr.ReplicationHandler" startup="lazy"> </requestHandler>
-    <requestHandler name="/get" class="solr.RealTimeGetHandler">
-
-        <lst name="defaults">
-
-            <str name="omitHeader">true</str>
-
-        </lst>
-
-    </requestHandler>
 
     <!-- Search Components
 
@@ -1069,1810 +547,8 @@
        <searchComponent name="highlight" class="solr.HighlightComponent" />
        <searchComponent name="stats"     class="solr.StatsComponent" />
        <searchComponent name="debug"     class="solr.DebugComponent" />
-   
-       Default configuration in a requestHandler would look like:
-
-       <arr name="components">
-         <str>query</str>
-         <str>facet</str>
-         <str>mlt</str>
-         <str>highlight</str>
-         <str>stats</str>
-         <str>debug</str>
-       </arr>
-
-       If you register a searchComponent to one of the standard names, 
-       that will be used instead of the default.
-
-       To insert components before or after the 'standard' components, use:
-    
-       <arr name="first-components">
-         <str>myFirstComponentName</str>
-       </arr>
-    
-       <arr name="last-components">
-         <str>myLastComponentName</str>
-       </arr>
-
-       NOTE: The component registered with the name "debug" will
-       always be executed after the "last-components" 
        
      -->
-
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity">
-        <lst name="suggester">
-            <str name="name">suggestEntity_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_exact</str>
-            <str name="suggest.dictionary">suggestEntity_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_en">
-        <lst name="suggester">
-            <str name="name">suggestEntity_en_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.en</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_en_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.en</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/en"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_en_exact</str>
-            <str name="suggest.dictionary">suggestEntity_en_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_en</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fi">
-        <lst name="suggester">
-            <str name="name">suggestEntity_fi_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fi</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_fi_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fi</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/fi"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_fi_exact</str>
-            <str name="suggest.dictionary">suggestEntity_fi_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_fi</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_de">
-        <lst name="suggester">
-            <str name="name">suggestEntity_de_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.de</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_de_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.de</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/de"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_de_exact</str>
-            <str name="suggest.dictionary">suggestEntity_de_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_de</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ru">
-        <lst name="suggester">
-            <str name="name">suggestEntity_ru_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ru</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_ru_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ru</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ru"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_ru_exact</str>
-            <str name="suggest.dictionary">suggestEntity_ru_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_ru</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sr">
-        <lst name="suggester">
-            <str name="name">suggestEntity_sr_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_sr_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sr"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_sr_exact</str>
-            <str name="suggest.dictionary">suggestEntity_sr_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_sr</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sv">
-        <lst name="suggester">
-            <str name="name">suggestEntity_sv_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sv</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_sv_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sv</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sv"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_sv_exact</str>
-            <str name="suggest.dictionary">suggestEntity_sv_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_sv</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_bg">
-        <lst name="suggester">
-            <str name="name">suggestEntity_bg_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.bg</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_bg_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.bg</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/bg"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_bg_exact</str>
-            <str name="suggest.dictionary">suggestEntity_bg_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_bg</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_da">
-        <lst name="suggester">
-            <str name="name">suggestEntity_da_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.da</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_da_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.da</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/da"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_da_exact</str>
-            <str name="suggest.dictionary">suggestEntity_da_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_da</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fr">
-        <lst name="suggester">
-            <str name="name">suggestEntity_fr_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_fr_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/fr"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_fr_exact</str>
-            <str name="suggest.dictionary">suggestEntity_fr_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_fr</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_it">
-        <lst name="suggester">
-            <str name="name">suggestEntity_it_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.it</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_it_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.it</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/it"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_it_exact</str>
-            <str name="suggest.dictionary">suggestEntity_it_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_it</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pt">
-        <lst name="suggester">
-            <str name="name">suggestEntity_pt_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.pt</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_pt_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.pt</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/pt"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_pt_exact</str>
-            <str name="suggest.dictionary">suggestEntity_pt_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_pt</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_vi">
-        <lst name="suggester">
-            <str name="name">suggestEntity_vi_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.vi</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_vi_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.vi</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/vi"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_vi_exact</str>
-            <str name="suggest.dictionary">suggestEntity_vi_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_vi</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ca">
-        <lst name="suggester">
-            <str name="name">suggestEntity_ca_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ca</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_ca_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ca</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ca"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_ca_exact</str>
-            <str name="suggest.dictionary">suggestEntity_ca_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_ca</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_nl">
-        <lst name="suggester">
-            <str name="name">suggestEntity_nl_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.nl</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_nl_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.nl</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/nl"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_nl_exact</str>
-            <str name="suggest.dictionary">suggestEntity_nl_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_nl</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_et">
-        <lst name="suggester">
-            <str name="name">suggestEntity_et_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.et</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_et_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.et</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/et"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_et_exact</str>
-            <str name="suggest.dictionary">suggestEntity_et_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_et</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_es">
-        <lst name="suggester">
-            <str name="name">suggestEntity_es_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.es</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_es_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.es</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/es"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_es_exact</str>
-            <str name="suggest.dictionary">suggestEntity_es_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_es</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_uk">
-        <lst name="suggester">
-            <str name="name">suggestEntity_uk_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.uk</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_uk_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.uk</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/uk"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_uk_exact</str>
-            <str name="suggest.dictionary">suggestEntity_uk_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_uk</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ar">
-        <lst name="suggester">
-            <str name="name">suggestEntity_ar_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ar</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_ar_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ar</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ar"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_ar_exact</str>
-            <str name="suggest.dictionary">suggestEntity_ar_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_ar</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_cs">
-        <lst name="suggester">
-            <str name="name">suggestEntity_cs_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.cs</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_cs_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.cs</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/cs"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_cs_exact</str>
-            <str name="suggest.dictionary">suggestEntity_cs_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_cs</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hu">
-        <lst name="suggester">
-            <str name="name">suggestEntity_hu_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.hu</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_hu_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.hu</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/hu"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_hu_exact</str>
-            <str name="suggest.dictionary">suggestEntity_hu_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_hu</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_id">
-        <lst name="suggester">
-            <str name="name">suggestEntity_id_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.id</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_id_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.id</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/id"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_id_exact</str>
-            <str name="suggest.dictionary">suggestEntity_id_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_id</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ja">
-        <lst name="suggester">
-            <str name="name">suggestEntity_ja_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ja</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_ja_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ja</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ja"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_ja_exact</str>
-            <str name="suggest.dictionary">suggestEntity_ja_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_ja</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ko">
-        <lst name="suggester">
-            <str name="name">suggestEntity_ko_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ko</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_ko_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ko</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ko"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_ko_exact</str>
-            <str name="suggest.dictionary">suggestEntity_ko_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_ko</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lt">
-        <lst name="suggester">
-            <str name="name">suggestEntity_lt_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.lt</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_lt_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.lt</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/lt"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_lt_exact</str>
-            <str name="suggest.dictionary">suggestEntity_lt_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_lt</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_no">
-        <lst name="suggester">
-            <str name="name">suggestEntity_no_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.no</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_no_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.no</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/no"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_no_exact</str>
-            <str name="suggest.dictionary">suggestEntity_no_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_no</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fa">
-        <lst name="suggester">
-            <str name="name">suggestEntity_fa_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fa</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_fa_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fa</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/fa"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_fa_exact</str>
-            <str name="suggest.dictionary">suggestEntity_fa_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_fa</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pl">
-        <lst name="suggester">
-            <str name="name">suggestEntity_pl_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.pl</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_pl_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.pl</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/pl"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_pl_exact</str>
-            <str name="suggest.dictionary">suggestEntity_pl_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_pl</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ro">
-        <lst name="suggester">
-            <str name="name">suggestEntity_ro_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ro</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_ro_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ro</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ro"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_ro_exact</str>
-            <str name="suggest.dictionary">suggestEntity_ro_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_ro</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_th">
-        <lst name="suggester">
-            <str name="name">suggestEntity_th_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.th</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_th_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.th</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/th"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_th_exact</str>
-            <str name="suggest.dictionary">suggestEntity_th_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_th</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sk">
-        <lst name="suggester">
-            <str name="name">suggestEntity_sk_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sk</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_sk_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sk</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sk"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_sk_exact</str>
-            <str name="suggest.dictionary">suggestEntity_sk_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_sk</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sl">
-        <lst name="suggester">
-            <str name="name">suggestEntity_sl_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sl</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_sl_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.sl</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/sl"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_sl_exact</str>
-            <str name="suggest.dictionary">suggestEntity_sl_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_sl</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hr">
-        <lst name="suggester">
-            <str name="name">suggestEntity_hr_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.hr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_hr_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.hr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/hr"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_hr_exact</str>
-            <str name="suggest.dictionary">suggestEntity_hr_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_hr</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_el">
-        <lst name="suggester">
-            <str name="name">suggestEntity_el_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.el</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_el_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.el</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/el"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_el_exact</str>
-            <str name="suggest.dictionary">suggestEntity_el_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_el</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hi">
-        <lst name="suggester">
-            <str name="name">suggestEntity_hi_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.hi</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_hi_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.hi</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/hi"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_hi_exact</str>
-            <str name="suggest.dictionary">suggestEntity_hi_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_hi</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_tr">
-        <lst name="suggester">
-            <str name="name">suggestEntity_tr_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.tr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_tr_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.tr</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/tr"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_tr_exact</str>
-            <str name="suggest.dictionary">suggestEntity_tr_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_tr</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lv">
-        <lst name="suggester">
-            <str name="name">suggestEntity_lv_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.lv</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_lv_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.lv</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/lv"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_lv_exact</str>
-            <str name="suggest.dictionary">suggestEntity_lv_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_lv</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ms">
-        <lst name="suggester">
-            <str name="name">suggestEntity_ms_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ms</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_ms_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.ms</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" name="/suggestEntity/ms"
-        startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_ms_exact</str>
-            <str name="suggest.dictionary">suggestEntity_ms_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_ms</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fil">
-        <lst name="suggester">
-            <str name="name">suggestEntity_fil_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fil</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_fil_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.fil</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestEntity/fil" startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_fil_exact</str>
-            <str name="suggest.dictionary">suggestEntity_fil_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_fil</str>
-        </arr>
-    </requestHandler>
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity_es_419">
-        <lst name="suggester">
-            <str name="name">suggestEntity_es_419_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.es_419</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="suggester">
-            <str name="name">suggestEntity_es_419_fuzzy</str>
-            <str name="lookupImpl">FuzzyLookupFactory</str>
-            <str name="storeDir">suggester_fuzzy_dir</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel.es_419</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="buildOnStartup">true</str>
-            <str name="buildOnCommit">false</str>
-            <str name="weightField">derived_score</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler"
-        name="/suggestEntity/es_419" startup="lazy">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity_es_419_exact</str>
-            <str name="suggest.dictionary">suggestEntity_es_419_fuzzy</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity_es_419</str>
-        </arr>
-    </requestHandler>
-
-    <!--<searchComponent class="solr.SuggestComponent" name="suggestAgent">
-    
-  </searchComponent>-->
-
-    <!--<searchComponent class="solr.SuggestComponent" name="suggestPlace">
-    
-  </searchComponent>-->
-
-    <!--<searchComponent class="solr.SuggestComponent" name="suggestTimePeriod">
-    
-  </searchComponent>-->
-
-    <!--<searchComponent class="solr.SuggestComponent" name="suggestWork">
-    
-  </searchComponent>-->
-
-
-
-
-
-    <!-- Term Vector Component
-
-       http://wiki.apache.org/solr/TermVectorComponent
-    -->
-    <searchComponent name="tvComponent" class="solr.TermVectorComponent"/>
-
-    <!-- A request handler for demonstrating the term vector component
-
-       This is purely as an example.
-
-       In reality you will likely want to add the component to your 
-       already specified request handlers. 
-    -->
-    <requestHandler name="tvrh" class="solr.SearchHandler" startup="lazy">
-        <lst name="defaults">
-            <bool name="tv">true</bool>
-        </lst>
-        <arr name="last-components">
-            <str>tvComponent</str>
-        </arr>
-    </requestHandler>
-
-    <!-- Clustering Component
-
-       http://wiki.apache.org/solr/ClusteringComponent
-
-       This relies on third party jars which are notincluded in the
-       release.  To use this component (and the "/clustering" handler)
-       Those jars will need to be downloaded, and you'll need to set
-       the solr.cluster.enabled system property when running solr...
-
-          java -Dsolr.clustering.enabled=true -jar start.jar
-    -->
-    <searchComponent name="clustering" enable="${solr.clustering.enabled:false}"
-        class="solr.clustering.ClusteringComponent">
-        <lst name="engine">
-            <str name="name">default_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="carrot.algorithm">org.carrot2.clustering.lingo.LingoClusteringAlgorithm</str>
-            <str name="LingoClusteringAlgorithm.desiredClusterCountBase">20</str>
-            <str name="carrot.lexicalResourcesDir">clustering/carrot2</str>
-            <str name="MultilingualClustering.defaultLanguage">ENGLISH</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="engine">
-            <str name="name">default_fuzzy</str>
-            <str name="carrot.algorithm">org.carrot2.clustering.lingo.LingoClusteringAlgorithm</str>
-            <str name="LingoClusteringAlgorithm.desiredClusterCountBase">20</str>
-            <str name="carrot.lexicalResourcesDir">clustering/carrot2</str>
-            <str name="MultilingualClustering.defaultLanguage">ENGLISH</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="engine">
-            <str name="name">stc_exact</str>
-            <str name="lookupImpl">AnalyzingLookupFactory</str>
-            <str name="carrot.algorithm">org.carrot2.clustering.stc.STCClusteringAlgorithm</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-        <lst name="engine">
-            <str name="name">stc_fuzzy</str>
-            <str name="carrot.algorithm">org.carrot2.clustering.stc.STCClusteringAlgorithm</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="exactMatchFirst">true</str>
-            <str name="payloadField">payload</str>
-        </lst>
-    </searchComponent>
-
 
     <!-- Terms Component
 
@@ -2887,201 +563,1227 @@
     <requestHandler name="/terms" class="solr.SearchHandler" startup="lazy">
         <lst name="defaults">
             <bool name="terms">true</bool>
+            <bool name="distrib">false</bool>
         </lst>
         <arr name="components">
             <str>terms</str>
         </arr>
     </requestHandler>
 
-
-    <!-- Query Elevation Component
-
-       http://wiki.apache.org/solr/QueryElevationComponent
-
-       a search component that enables you to configure the top
-       results for a given query regardless of the normal lucene
-       scoring.
-    -->
-    <searchComponent name="elevator" class="solr.QueryElevationComponent">
-        <str name="queryFieldType">string</str>
-        <str name="config-file">elevate.xml</str>
-    </searchComponent>
-
-    <!-- A request handler for demonstrating the elevator component -->
-    <requestHandler name="/elevate" class="solr.SearchHandler" startup="lazy">
-        <lst name="defaults">
-            <str name="echoParams">explicit</str>
-        </lst>
-        <arr name="last-components">
-            <str>elevator</str>
-        </arr>
-    </requestHandler>
-
-    <!-- Highlighting Component
-
-       http://wiki.apache.org/solr/HighlightingParameters
-    -->
-    <searchComponent class="solr.HighlightComponent" name="highlight"/>
-
-    <!-- Update Processors
-
-       Chains of Update Processor Factories for dealing with Update
-       Requests can be declared, and then used by name in Update
-       Request Processors
-
-       http://wiki.apache.org/solr/UpdateRequestProcessor
-
-    -->
-    <!-- Deduplication
-
-       An example dedup update processor that creates the "id" field
-       on the fly based on the hash code of some other fields.  This
-       example has overwriteDupes set to false since we are using the
-       id field as the signatureField and Solr will maintain
-       uniqueness based on that anyway.  
-       
-    -->
-    <!--
-     <updateRequestProcessorChain name="dedupe">
-       <processor class="solr.processor.SignatureUpdateProcessorFactory">
-         <bool name="enabled">true</bool>
-         <str name="signatureField">id</str>
-         <bool name="overwriteDupes">false</bool>
-         <str name="fields">name,features,cat</str>
-         <str name="signatureClass">solr.processor.Lookup3Signature</str>
-       </processor>
-       <processor class="solr.LogUpdateProcessorFactory" />
-       <processor class="solr.RunUpdateProcessorFactory" />
-     </updateRequestProcessorChain>
-    -->
-
-    <!--
-       This example update chain identifies the language of the incoming
-       documents using the langid contrib. The detected language is
-       written to field language_s. No field name mapping is done.
-       The fields used for detection are text, title, subject and description,
-       making this example suitable for detecting languages form full-text
-       rich documents injected via ExtractingRequestHandler.
-       See more about langId at http://wiki.apache.org/solr/LanguageDetection
-    -->
-    <!--
-     <updateRequestProcessorChain name="langid">
-       <processor class="org.apache.solr.update.processor.TikaLanguageIdentifierUpdateProcessorFactory">
-         <str name="langid.fl">text,title,subject,description</str>
-         <str name="langid.langField">language_s</str>
-         <str name="langid.fallback">en</str>
-       </processor>
-       <processor class="solr.LogUpdateProcessorFactory" />
-       <processor class="solr.RunUpdateProcessorFactory" />
-     </updateRequestProcessorChain>
-    -->
-
-    <!-- Response Writers
-
-       http://wiki.apache.org/solr/QueryResponseWriter
-
-       Request responses will be written using the writer specified by
-       the 'wt' request parameter matching the name of a registered
-       writer.
-
-       The "default" writer is the default and will be used if 'wt' is
-       not specified in the request.
-    -->
-    <!-- The following response writers are implicitly configured unless
-       overridden...
-    -->
-    <!--
-     <queryResponseWriter name="xml" 
-                          default="true"
-                          class="solr.XMLResponseWriter" />
-     <queryResponseWriter name="json" class="solr.JSONResponseWriter"/>
-     <queryResponseWriter name="python" class="solr.PythonResponseWriter"/>
-     <queryResponseWriter name="ruby" class="solr.RubyResponseWriter"/>
-     <queryResponseWriter name="php" class="solr.PHPResponseWriter"/>
-     <queryResponseWriter name="phps" class="solr.PHPSerializedResponseWriter"/>
-     <queryResponseWriter name="csv" class="solr.CSVResponseWriter"/>
-    -->
-
-    <queryResponseWriter name="json" class="solr.JSONResponseWriter">
-        <!-- For the purposes of the tutorial, JSON responses are written as
-      plain text so that they are easy to read in *any* browser.
-      If you expect a MIME type of "application/json" just remove this override.
-     -->
-        <str name="content-type">text/plain; charset=UTF-8</str>
-    </queryResponseWriter>
-
-    <!--
-     Custom response writers can be declared as needed...
-    -->
-    <!-- The solr.velocity.enabled flag is used by Solr's test cases so that this response writer is not
-         loaded (causing an error if contrib/velocity has not been built fully) -->
-    <queryResponseWriter name="velocity" class="solr.VelocityResponseWriter"
-        enable="${solr.velocity.enabled:false}"/>
-
-
-    <!-- XSLT response writer transforms the XML output by any xslt file found
-       in Solr's conf/xslt directory.  Changes to xslt files are checked for
-       every xsltCacheLifetimeSeconds.  
-    -->
-    <queryResponseWriter name="xslt" class="solr.XSLTResponseWriter">
-        <int name="xsltCacheLifetimeSeconds">5</int>
-    </queryResponseWriter>
-
-    <!-- Query Parsers
-
-       http://wiki.apache.org/solr/SolrQuerySyntax
-
-       Multiple QParserPlugins can be registered by name, and then
-       used in either the "defType" param for the QueryComponent (used
-       by SearchHandler) or in LocalParams
-    -->
-    <!-- example of registering a query parser -->
-    <!--
-     <queryParser name="myparser" class="com.mycompany.MyQParserPlugin"/>
-    -->
-    <!--
- <queryParser name="bm25f"
-            class="eu.europeana.ranking.bm25f.BM25FParserPlugin">
-            <str name="mainField">text</str>
-	<float name="k1">2.052941</float>
-	<lst name="fieldsBoost">
-        	<float name="text"> 0.6684119</float>
-        	<float name="title"> 1.9444914</float>
-        	<float name="what"> 0.015632015</float>
-        	<float name="when"> 1.8931717</float>
-        	<float name="who"> 0.7799127</float>
-	</lst>
-	<lst name="fieldsB">
-       		 <float name="text"> 0.9766173</float>
-       		 <float name="title"> 0.5606159</float>
-        	<float name="what"> 0.43865865</float>
-        	<float name="when"> 0.8196297</float>
-       		 <float name="who"> 0.8619799</float>
-	</lst>    
-</queryParser> -->
-    <!-- Function Parsers
-
-       http://wiki.apache.org/solr/FunctionQuery
-
-       Multiple ValueSourceParsers can be registered by name, and then
-       used as function names when using the "func" QParser.
-    -->
-    <!-- example of registering a custom function parser  -->
-    <!--
-     <valueSourceParser name="myfunc" 
-                        class="com.mycompany.MyValueSourceParser" />
-    -->
-
     <!-- Legacy config for the admin interface -->
     <admin>
         <defaultQuery>*:*</defaultQuery>
-
-        <!-- configure a healthcheck file for servers behind a
-         loadbalancer 
-      -->
-        <!--
-       <healthcheck type="file">server-enabled</healthcheck>
-      -->
     </admin>
+
+    <!-- Suggest components -->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity">
+        <lst name="suggester">
+            <str name="name">suggestEntity</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_def</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'en'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_en">
+        <lst name="suggester">
+            <str name="name">suggestEntity_en</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.en</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.en</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_en</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/en">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_en</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_en</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'fi'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fi">
+        <lst name="suggester">
+            <str name="name">suggestEntity_fi</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.fi</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.fi</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_fi</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/fi">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_fi</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_fi</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'de'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_de">
+        <lst name="suggester">
+            <str name="name">suggestEntity_de</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.de</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.de</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_de</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/de">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_de</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_de</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'ru'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ru">
+        <lst name="suggester">
+            <str name="name">suggestEntity_ru</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.ru</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.ru</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_ru</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/ru">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_ru</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_ru</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'sr'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sr">
+        <lst name="suggester">
+            <str name="name">suggestEntity_sr</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.sr</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.sr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_sr</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/sr">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_sr</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_sr</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'sv'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sv">
+        <lst name="suggester">
+            <str name="name">suggestEntity_sv</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.sv</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.sv</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_sv</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/sv">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_sv</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_sv</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'bg'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_bg">
+        <lst name="suggester">
+            <str name="name">suggestEntity_bg</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.bg</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.bg</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_bg</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/bg">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_bg</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_bg</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'da'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_da">
+        <lst name="suggester">
+            <str name="name">suggestEntity_da</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.da</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.da</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_da</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/da">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_da</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_da</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'fr'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fr">
+        <lst name="suggester">
+            <str name="name">suggestEntity_fr</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.fr</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.fr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_fr</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/fr">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_fr</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_fr</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'it'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_it">
+        <lst name="suggester">
+            <str name="name">suggestEntity_it</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.it</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.it</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_it</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/it">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_it</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_it</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'pt'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pt">
+        <lst name="suggester">
+            <str name="name">suggestEntity_pt</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.pt</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.pt</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_pt</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/pt">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_pt</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_pt</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'vi'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_vi">
+        <lst name="suggester">
+            <str name="name">suggestEntity_vi</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.vi</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.vi</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_vi</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/vi">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_vi</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_vi</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'ca'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ca">
+        <lst name="suggester">
+            <str name="name">suggestEntity_ca</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.ca</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.ca</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_ca</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/ca">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_ca</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_ca</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'nl'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_nl">
+        <lst name="suggester">
+            <str name="name">suggestEntity_nl</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.nl</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.nl</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_nl</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/nl">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_nl</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_nl</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'et'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_et">
+        <lst name="suggester">
+            <str name="name">suggestEntity_et</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.et</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.et</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_et</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/et">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_et</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_et</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'es'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_es">
+        <lst name="suggester">
+            <str name="name">suggestEntity_es</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.es</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.es</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_es</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/es">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_es</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_es</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'uk'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_uk">
+        <lst name="suggester">
+            <str name="name">suggestEntity_uk</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.uk</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.uk</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_uk</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/uk">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_uk</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_uk</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'ar'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ar">
+        <lst name="suggester">
+            <str name="name">suggestEntity_ar</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.ar</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.ar</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_ar</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/ar">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_ar</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_ar</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'cs'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_cs">
+        <lst name="suggester">
+            <str name="name">suggestEntity_cs</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.cs</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.cs</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_cs</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/cs">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_cs</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_cs</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'hu'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hu">
+        <lst name="suggester">
+            <str name="name">suggestEntity_hu</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.hu</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.hu</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+            <str name="indexPath">blendedInfixSuggesterIndexDir_hu</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/hu">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_hu</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_hu</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'id'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_id">
+        <lst name="suggester">
+            <str name="name">suggestEntity_id</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.id</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_id</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.id</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/id">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_id</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_id</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'ja'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ja">
+        <lst name="suggester">
+            <str name="name">suggestEntity_ja</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.ja</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.ja</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_ja</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/ja">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_ja</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_ja</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'ko'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ko">
+        <lst name="suggester">
+            <str name="name">suggestEntity_ko</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.ko</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.ko</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_ko</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/ko">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_ko</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_ko</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'lt'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lt">
+        <lst name="suggester">
+            <str name="name">suggestEntity_lt</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.lt</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.lt</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_lt</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/lt">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_lt</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_lt</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'no'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_no">
+        <lst name="suggester">
+            <str name="name">suggestEntity_no</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.no</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.no</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_no</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/no">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_no</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_no</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'fa'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fa">
+        <lst name="suggester">
+            <str name="name">suggestEntity_fa</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.fa</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.fa</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_fa</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/fa">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_fa</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_fa</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'pl'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_pl">
+        <lst name="suggester">
+            <str name="name">suggestEntity_pl</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.pl</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.pl</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_fa</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/pl">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_pl</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_pl</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'ro'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ro">
+        <lst name="suggester">
+            <str name="name">suggestEntity_ro</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.ro</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.ro</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_ro</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/ro">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_ro</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_ro</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'th'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_th">
+        <lst name="suggester">
+            <str name="name">suggestEntity_th</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.th</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.th</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_th</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/th">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_th</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_th</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'sk'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sk">
+        <lst name="suggester">
+            <str name="name">suggestEntity_sk</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.sk</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.sk</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_sk</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/sk">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_sk</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_sk</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'sl'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_sl">
+        <lst name="suggester">
+            <str name="name">suggestEntity_sl</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.sl</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.sl</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_sl</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/sl">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_sl</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_sl</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'hr'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hr">
+        <lst name="suggester">
+            <str name="name">suggestEntity_hr</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.hr</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.hr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_hr</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/hr">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_hr</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_hr</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'el'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_el">
+        <lst name="suggester">
+            <str name="name">suggestEntity_el</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.el</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.el</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_el</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/el">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_el</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_el</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'hi'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_hi">
+        <lst name="suggester">
+            <str name="name">suggestEntity_hi</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.hi</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.hi</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_hi</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/hi">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_hi</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_hi</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'tr'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_tr">
+        <lst name="suggester">
+            <str name="name">suggestEntity_tr</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.tr</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.tr</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_tr</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/tr">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_tr</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_tr</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'lv'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_lv">
+        <lst name="suggester">
+            <str name="name">suggestEntity_lv</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.lv</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.lv</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_lv</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/lv">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_lv</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_lv</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'ms'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_ms">
+        <lst name="suggester">
+            <str name="name">suggestEntity_ms</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.ms</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.ms</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_ms</str>
+
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/ms">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_ms</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_ms</str>
+        </arr>
+    </requestHandler>
+    <!--Suggest components for language 'fil'-->
+    <searchComponent class="solr.SuggestComponent" name="suggestEntity_fil">
+        <lst name="suggester">
+            <str name="name">suggestEntity_fil</str>
+            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <str name="blenderType">position_linear</str>
+            <str name="field">skos_prefLabel.fil</str>
+            <str name="weightField">derived_score</str>
+            <str name="payloadField">payload.fil</str>
+            <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="buildOnStartup">false</str>
+            <str name="buildOnCommit">false</str>
+            <str name="buildOnOptimize">true</str>
+            <str name="contextField">internal_type</str>
+            <str name="exactMatchFirst">true</str>
+            <str name="indexPath">blendedInfixSuggesterIndexDir_fil</str>
+        </lst>
+    </searchComponent>
+    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
+        name="/suggestEntity/fil">
+        <lst name="defaults">
+            <str name="suggest">true</str>
+            <str name="suggest.count">10</str>
+            <str name="suggest.dictionary">suggestEntity_fil</str>
+        </lst>
+        <arr name="components">
+            <str>suggestEntity_fil</str>
+        </arr>
+    </requestHandler>
+
+    <requestHandler name="/update/dih" class="org.apache.solr.handler.dataimport.DataImportHandler">
+        <lst name="defaults">
+            <str name="config">dih-config.xml</str>
+        </lst>
+    </requestHandler>
+
+    <requestHandler name="/dataimporthandler"
+        class="org.apache.solr.handler.dataimport.DataImportHandler">
+        <lst name="defaults">
+            <str name="config">dih-config.xml</str>
+        </lst>
+    </requestHandler>
 
 </config>
