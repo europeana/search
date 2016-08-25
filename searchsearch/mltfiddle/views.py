@@ -53,13 +53,20 @@ def index(request):
 
 def retrieve_init_item(search_obj):
     terms = search_obj.GET['searchterms']
-    qry = SOLR_SEARCH + "?wt=json&rows=1&fl=*&q=\"" + terms + "\""
+    if(":" in terms):
+        (field, term) = terms.split(":")
+        field = field + ":"
+    else:
+        field = ""
+        term = terms
+    term = term.replace("\"", "")
+    qry = SOLR_SEARCH + "?wt=json&rows=1&fl=*&q=" + field + "\"" + term + "\""
     res = requests.get(qry)
     res_j = res.json()
     iidb_j = dict()
     item = dict()
     try:
-        item = res_j['response']['docs'][0]
+        item = res_j['match']['docs'][0]
     except:
         iidb_j['europeana_id'] = 'no-item-found'
         return JsonResponse(iidb_j)

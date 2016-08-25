@@ -108,6 +108,7 @@ $(document).ready(function(){
 
     var display_related_items = function(data){
 
+
         var items_found = data['response']['docs'].length;
         var interesting_terms = data['interestingTerms']
         var header = $("<div id=\"interesting-terms\"><h2>Interesting Terms</h2></div>");
@@ -163,10 +164,10 @@ $(document).ready(function(){
 
     var build_object_type_html = function(object_type){
 
-        var pretty_type = " " + object_type.toUpperCase().substring(0, 1) + object_type.toLowerCase().substring(1);
+        var pretty_type = " " + object_type.toUpperCase();
         var start = "<footer><div class=\"item-metadata\"><span class=\"highlight item-type\">\
         <svg class=\"icon icon-image\">";
-        var end = "</svg>" + pretty_type + "</span></div></footer>";
+        var end = "</svg><span id=\"init-item-type\" style=\"margin-left:0px;\">" + pretty_type + "</span></span></div></footer>";
         type_to_icon_map = {"TEXT" : "book", "VIDEO" : "tv", "SOUND" : "music"}
         var icon_type = type_to_icon_map[object_type] ? type_to_icon_map[object_type] : "image";
         var icon = "<use xlink:href=\"#icon-" + icon_type + "\"></use>";
@@ -188,7 +189,6 @@ $(document).ready(function(){
 
         europeana_id = data['europeana_id'];
         $("#init-item-warning-wrapper").remove();
-        $("")
         if(europeana_id == 'no-item-found'){
 
             warn_no_init_result($("#id_searchterm").val());
@@ -211,7 +211,6 @@ $(document).ready(function(){
         $("#init-item-type").text(type);
         $("#init-item-ext-link").attr("href", original_page);
         $("#init-item-data-provider").text(data_provider);
-        $("#init-item-id").text(europeana_id);
         $("#europeana-id").val(europeana_id);
 
     }
