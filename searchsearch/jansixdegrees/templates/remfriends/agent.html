@@ -67,15 +67,6 @@
         </div>
         {% endif %}
                 </div><!-- closing #europeana-searches -->
-                    {% if as_subject_eur.count > 0 %}
-    <h2>Depicted in Europeana</h2>
-            {% for eu_work in as_subject_eur %}
-            <tr>
-                <td><a href="{{ eu_work.euid|as_eurl }}" target="_blank">{{ eu_work.pref_label }}</a></td>
-            </tr>
-        {% endfor %}
-    </table>
-{% endif %}
     {% if works.count > 0 %}
     <h2>Works from Wikidata</h2>
     <table name="work-info">
@@ -86,8 +77,8 @@
         {% endfor %}
     </table>
     {% endif %}
-    <!-- {% if europeana_works.count > 0 %}
-    <h2>Europeana - Rijksmuseum Works</h2>
+     {% if europeana_works.count > 0 %}
+    <h2>Works from the Rijksmuseum (Europeana)</h2>
     <table name="ework-info">
         {% for ework in europeana_works %}
         <tr>
@@ -95,7 +86,7 @@
         </tr>
         {% endfor %}
     </table>
-    {% endif %} -->
+    {% endif %}
     {% if outward_relations.count > 0 %}
     <h2>Relationships</h2>
     <table name="social-relationships">
@@ -108,6 +99,15 @@
         {% endfor %}
     </table>
     {% endif %}
+    {% if as_subject_eur.count > 0 %}
+    <h2>Depicted in Europeana</h2>
+            {% for eu_work in as_subject_eur %}
+            <tr>
+                <td><a href="{{ eu_work.euid|as_eurl }}" target="_blank">{{ eu_work.pref_label }}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endif %}
     </div><!-- closing #wrapper -->
 </body>
 </html>
