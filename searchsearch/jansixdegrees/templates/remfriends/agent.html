@@ -5,16 +5,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Agent</title>
-   <!-- <link rel="stylesheet" type="text/css" href="{% static 'remfriends/styles/europeana.css' %}" />
-    <link rel="stylesheet" type="text/css" href="{% static 'remfriends/styles/main.css' %}" /> -->
-   <!-- <script src="{% static 'remfriends/js/jquery.dev.js' %}"></script>
-    <script src="{% static 'remfriends/js/query.js' %}"></script> -->
     <style type="text/css">
         body{ color: #E4E4E4; background-color: #1B1B1B; font-family: Arial, Helvetica, sans;}
         #wrapper { width:85%;margin-right: auto; margin-left: auto; margin-top: 5%; margin-bottom: 5%;}
         #agent-info{ position: relative; }
         #agent-img, #bio{ float: left; }
-        #bio{ clear: right; }
+        #bio{ clear: right; margin-bottom: 25px; }
         #agent-img { margin-right: 25px; margin-bottom: 25px; }
         #bio{ position: relative; }
         .label, .value{ display: inline-block; }
@@ -101,6 +97,7 @@
     {% endif %}
     {% if as_subject_eur.count > 0 %}
     <h2>Depicted in Europeana</h2>
+    <table name="europeana-subjects">
             {% for eu_work in as_subject_eur %}
             <tr>
                 <td><a href="{{ eu_work.euid|as_eurl }}" target="_blank">{{ eu_work.pref_label }}</a></td>
