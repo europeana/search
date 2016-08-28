@@ -64,8 +64,8 @@ def agent_list(request):
 def agent(request, agent_id):
     agent_id = "http://www.wikidata.org/entity/" + agent_id
     agent = Agent.objects.get(wdid=agent_id)
-    works = Work.objects.filter(creator__wdid=agent_id).order_by("pref_label")
-    eworks = EuropeanaWork.objects.filter(creator__wdid=agent_id).order_by("pref_label")
+    works = Work.objects.filter(creator__wdid=agent_id).order_by("pref_label").distinct()
+    eworks = EuropeanaWork.objects.filter(creator__wdid=agent_id).order_by("pref_label").distinct()
     outward_relations = SocialRelation.objects.filter(active=agent_id).select_related("relationship_type")
     roles = AgentRole.objects.filter(agent=agent_id)
     depicted_in_euro = EuropeanaWork.objects.filter(subject=agent_id)
@@ -85,3 +85,6 @@ def network(request, agent_id):
         info = [row.active.wdid, row.active.pref_label, row.relationship_type.pref_label, row.passive.pref_label, row.passive.wdid, portrait]
         orels.append(info)
     return HttpResponse(json.dumps(orels))
+
+def intro(request):
+    return render(request, 'remfriends/intro.html')
