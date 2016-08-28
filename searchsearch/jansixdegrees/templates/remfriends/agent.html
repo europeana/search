@@ -14,7 +14,7 @@
         #wrapper { width:85%;margin-right: auto; margin-left: auto; margin-top: 5%; margin-bottom: 5%;}
         #agent-info{ position: relative; }
         #agent-img, #bio{ float: left; }
-        #bio{ clear: right; }
+        #bio{ clear: right; margin-bottom: 25px; }
         #agent-img { margin-right: 25px; margin-bottom: 25px; }
         #bio{ position: relative; }
         .label, .value{ display: inline-block; }
@@ -101,6 +101,7 @@
     {% endif %}
     {% if as_subject_eur.count > 0 %}
     <h2>Depicted in Europeana</h2>
+    <table name="europeana-subjects">
             {% for eu_work in as_subject_eur %}
             <tr>
                 <td><a href="{{ eu_work.euid|as_eurl }}" target="_blank">{{ eu_work.pref_label }}</a></td>
