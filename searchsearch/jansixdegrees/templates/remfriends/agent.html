@@ -10,7 +10,7 @@
    <!-- <script src="{% static 'remfriends/js/jquery.dev.js' %}"></script>
     <script src="{% static 'remfriends/js/query.js' %}"></script> -->
     <style type="text/css">
-        body{ color: #E4E4E4; background-color: #1B1B1B; font-family: Arial, Helvetica, sans;;}
+        body{ color: #E4E4E4; background-color: #1B1B1B; font-family: Arial, Helvetica, sans;}
         #wrapper { width:85%;margin-right: auto; margin-left: auto; margin-top: 5%; margin-bottom: 5%;}
         #agent-info{ position: relative; }
         #agent-img, #bio{ float: left; }
@@ -78,7 +78,7 @@
     </table>
     {% endif %}
      {% if europeana_works.count > 0 %}
-    <h2>Works from the Rijksmuseum (Europeana)</h2>
+    <h2>Works from the Rijksmuseum (via Europeana)</h2>
     <table name="ework-info">
         {% for ework in europeana_works %}
         <tr>
