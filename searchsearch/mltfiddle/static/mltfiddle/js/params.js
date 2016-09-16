@@ -28,8 +28,10 @@ $(document).ready(function(){
 
     var retrieve_init_item = function(){
 
-        $("#init-loading").css({ "display" : "block" })
         $("#query_results").children().remove();
+        $("#related-loading").css({ "display" : "none" })
+        $("#init-item-display").css({ "display" : "none" });
+        $("#init-loading").css({ "display" : "block" })
         request = {};
         request['searchterms'] = get_search_term();
         $.getJSON('inititem', request, display_init_item);
@@ -170,6 +172,7 @@ $(document).ready(function(){
     var display_init_item = function(data){
 
         $("#init-loading").css({ "display" : "none" });
+        $("#init-item-display").css({ "display" : "block" });
         europeana_id = data['europeana_id'];
         $("#init-item-warning-wrapper").remove();
         if(europeana_id == 'no-item-found'){
