@@ -28,6 +28,7 @@ $(document).ready(function(){
 
     var retrieve_init_item = function(){
 
+        $("#init-loading").css({ "display" : "block" })
         $("#query_results").children().remove();
         request = {};
         request['searchterms'] = get_search_term();
@@ -39,9 +40,8 @@ $(document).ready(function(){
     var warn_no_init_result = function(bad_query){
 
         $("#init-item-display").css({ "visibility" : "hidden" });
-        var warning = $("<div class=\"results-list\" id=\"init-item-warning-wrapper\"><p id=\"no-init-item-warning\">Unfortunately the search term <b>" + bad_query + "</b> returned no hits.</p></div>");
+        var warning = $("<div class=\"results-list\" id=\"init-item-warning-wrapper\"><p id=\"no-init-item-warning\">Unfortunately the search term <b>" + bad_query + "</b> returned no hits.</p><p>Please note that MLTFiddle uses the test Solr core, which does not have all the contents of the Europeana Collections site.</p></div>");
         $("#user_form").after(warning);
-
 
     }
 
@@ -49,7 +49,7 @@ $(document).ready(function(){
 
         $("#query_results").css({ "visibility" : "visible"});
         $("#query_results").children().remove();
-        var warning = $("<p id=\"no-hits-warning\">Unfortunately, your search returned no results. Please try another query. <br/> Your query was " + bad_query + "</p>");
+        var warning = $("<p id=\"no-hits-warning\">Unfortunately, your search returned no results. Please try adjusting your parameters.</p>");
         $("#query_results").append(warning);
 
     }
@@ -60,10 +60,11 @@ $(document).ready(function(){
 
     }
 
-
     var retrieve_related_items = function(){
 
         request = get_sim_params();
+        $("#query_results").children().remove();
+        $("#related-loading").css({ "display" : "block" });
         $.getJSON('relateditems', request, display_related_items);
         return false;
 
@@ -82,6 +83,7 @@ $(document).ready(function(){
         params['maxqt'] = $.trim($('#maxqt').val());
         params['maxntp'] = $.trim($('#maxntp').val());
         params['boost'] = $.trim($('#boost').val());
+        params['qnum'] = $.trim($('#id_qnum').val());
         params['searchterms'] = get_search_term();
         $(".mlt-field").each(function(){
             var raw_num = $(this).attr('id');
@@ -108,31 +110,12 @@ $(document).ready(function(){
 
     var display_related_items = function(data){
 
-
-        var items_found = data['response']['docs'].length;
-        var interesting_terms = data['interestingTerms']
-        var header = $("<div id=\"interesting-terms\"><h2>Interesting Terms</h2></div>");
-        var term_wrapper = $("<div id=\"term-wrapper\"></div>");
-        $(header).append(term_wrapper)
-        for(var i = 0; i < interesting_terms.length; i += 2){
-
-            raw_term = interesting_terms[i];
-            breakdown = raw_term.split(":");
-            field = breakdown[0];
-            term = breakdown[1];
-            weight = interesting_terms[i + 1];
-            $(term_wrapper).append("<span class=\"interest-info\"><span class=\"interest-field\">" + field + "</span>: <span class=\"interest-term\">" + term + "</span> - \
-            <span class=\"interest-weight\">" + weight + "</span></span>");
-            if((i + 1) < (interesting_terms.length - 1) ){ $(term_wrapper).append(", ");}
-
-        }
+        $("#related-loading").css({ "display" : "none"  });
         var wrapper = $("#query_results");
         var results_header = $("<h3>Related Items</h3>");
         wrapper.children().remove();    // clear previous results
-        if(!items_found){ warn_no_results(data['query']); return false; }
-        wrapper.append(header);
+        if(data['response']['numFound'] == 0){ warn_no_results(data['query']); return false; }
         wrapper.append(results_header);
-        if(items_found < 1) return false;
         var items_wrapper = $("<ul class=\"result-items\"></ul>");
         wrapper.append(items_wrapper);
         for(var i = 0; i < 10; i++){
@@ -179,14 +162,14 @@ $(document).ready(function(){
 
         total_width = $(window).width();
         form_width = $("#user_form").width();
-        results_width = total_width - form_width - 65;
+        results_width = total_width - form_width - 70;
         $(".results-list").width(results_width);
-
 
     }
 
     var display_init_item = function(data){
 
+        $("#init-loading").css({ "display" : "none" });
         europeana_id = data['europeana_id'];
         $("#init-item-warning-wrapper").remove();
         if(europeana_id == 'no-item-found'){
@@ -205,6 +188,7 @@ $(document).ready(function(){
         data_provider = data['data_provider'];
         original_page = data['original_page'];
         $("#init-item-inner-landing-page").text(title);
+        $("#init-item-inner-landing-page").attr("href", url);
         $("#init-item-desc").text(desc);
         $("#init-item-landing-page").attr("href", url);
         $("#init-item-thumbnail").attr("src", thumb);

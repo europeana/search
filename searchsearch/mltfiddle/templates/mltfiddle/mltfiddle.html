@@ -12,28 +12,31 @@
         #weightview-selector{ position: relative; }
         #weightview-selector + p{ display: none; }
         #weightview-selector li { float: left; padding-left: 10px; }
-            #init-item-id { visibility : hidden; }
+        #init-item-id { visibility : hidden; }
         .results-list h3{ margin-left: 5.66038%; margin-top: 2rem; color: white; float: left; background-color: #BAD1D9; border: 1px solid #BADID9; padding: 2px 8px; border-radius: 4px; clear: right;  }
         .item-type{ margin-left: 6.5% }
         .icon-image, svg.icon{ display: none; }
-            #interesting-terms{ border-bottom: thin solid black; padding-bottom: 1rem; }
-            #term-wrapper{ margin-left: 5.66038%; }
-            #interesting-terms h2{ font-style: italic; margin-left: 5.66038%; margin-top: 1rem; margin-bottom: 0.5rem; float: left; font-size: 1rem; clear: right;  }
-            .interest-field{ font-weight: bold; }
-            #term-wrapper{ display: block; clear: left; }
-            p.boost-field, .param-pair label{ width: 70%; float: left; }
-            p.boost-factor, .param-pair input{ width: 25%; float: left; }
-            .boost-unit{ padding-top: 15px; }
-            #launch-query{ margin-left: 6em; margin-right: 6em;  }
-            form p{ min-height: 60px; }
-            #launch-init-query{ margin-top: 15px; }
-            #init-item-display, #query-results{ visibility: hidden; width: auto; }
-            #query_results h3{ margin-bottom: 3em;  }
-            #no-hits-warning{ border-bottom: thin solid black; padding-bottom: 1rem; padding-top: 1rem; color: red; padding-left: 5.66038%; }
-            #main{ width: 10em; }
-            .item-image{ margin-right: 60px; }
-            #init-item-warning-wrapper{ margin-left: 2%; margin-top: 2rem; width: 50%; color: red; }
-            b{ color: black; }
+        #interesting-terms{ border-bottom: thin solid black; padding-bottom: 1rem; }
+        #term-wrapper{ margin-left: 5.66038%; }
+        #interesting-terms h2{ font-style: italic; margin-left: 5.66038%; margin-top: 1rem; margin-bottom: 0.5rem; float: left; font-size: 1rem; clear: right;  }
+        .interest-field{ font-weight: bold; }
+        #term-wrapper{ display: block; clear: left; }
+        p.boost-field, .param-pair label{ width: 70%; float: left; }
+        p.boost-factor, .param-pair input{ width: 25%; float: left; }
+        .boost-unit{ padding-top: 15px; }
+        #launch-query{ margin-left: 6em; margin-right: 6em;  }
+        form p{ min-height: 60px; }
+        #launch-init-query{ margin-top: 15px; }
+        #init-item-display, #query-results{ visibility: hidden; width: auto; }
+        #query_results h3{ margin-bottom: 3em;  }
+        #no-hits-warning{ border-bottom: thin solid black; padding-bottom: 1rem; padding-top: 1rem; color: red; padding-left: 5.66038%; }
+        #main{ width: 10em; }
+        .item-image{ margin-right: 60px; }
+        #init-item-warning-wrapper{ margin-left: 2%; margin-top: 2rem; width: 50%; color: red; }
+        b{ color: black; }
+        div#init-loading, div#related-loading{ position: relative; display: none; }
+        div#init-loading{ float: left; width: 60%; height: 400px;  }
+        div#related-loading{ float: left; width: 100%; height: 400px;   }
         </style>
 </head>
 <body id="body-projects">
@@ -67,6 +70,9 @@
             <input name="launch-query" type="submit" value="Launch MLT Query" id="launch-query"/>
         </form>
         </div>
+        <div id="init-loading"                          >
+          <img src="{% static 'mltfiddle/images/loading.gif' %}" height="100px" width="100px" style="top: 0; bottom: 0; right: 0; left: 0; position: absolute; margin: auto;"></img>
+        </div>
         <div class="results-list" id="init-item-display">
             <h3>Initial Item</h3>
             <div id="qs"></div>
@@ -96,6 +102,9 @@
                     </article>
                 </li>
             </ul>
+            <div id="related-loading">
+            <img src="{% static 'mltfiddle/images/loading.gif' %}" height="100px" width="100px" style="top: 0; bottom: 0; right: 0; left: 0; position: absolute; margin: auto;"></img>
+          </div>
             <div id="query_results">
 
             </div>
