@@ -104,16 +104,22 @@ class PreviewBuilder:
         all_langs = {}
         pref_labels = langmap['prefLabel']
         for lang in pref_labels:
+            if(len(lang) == 0): continue
             all_langs[lang] = {}
             all_langs[lang]['prefLabel'] = pref_labels[lang]
+            all_langs[lang]['type'] = langmap['type']
             for key in langmap:
                 if key == 'prefLabel': continue
+                if key == 'type': continue
                 else:
                     if langmap[key] is None:
                         all_langs[lang][key] = None
                     elif lang in langmap[key]:
-                      all_langs[lang][key] = langmap[key][lang]
+                        try:
+                            # print("Lang is " + lang + " and key is " + key)
+                            all_langs[lang][key] = langmap[key][lang]
+                        except TypeError as te:
+                            print("ERROR!:"+ langmap)
                     elif 'def' in langmap[key]:
                         all_langs[lang][key] = langmap[key]['def']
         return all_langs
-

@@ -14,8 +14,8 @@ class RelevanceCounter:
     def __init__(self, name):
         import sqlite3 as slt
 
-        self.name = name
-        self.dbpath = "ranking_metrics/db/" + name + "_db"
+#        self.name = name
+#        self.dbpath = "ranking_metrics/db/" + name + "_db"
 #        self.db = slt.connect(self.dbpath)
 #        csr = self.db.cursor()
 #        csr.execute("""
@@ -131,15 +131,6 @@ class WpediaRelevanceCounter(RelevanceCounter):
             # TODO: Implement Wpedia query
             return -1
 
-class DbpediaRelevanceCounter(RelevanceCounter):
-
-    def __init__(self, same_as_count):
-        RelevanceCounter.__init__(self, 'Dbpedia_sameAs')
-        self.sac = same_as_count
-
-    def get_term_count(self, qry_term):
-        return self.sac
-
 class AgentRelevanceCounter(RelevanceCounter):
 
     def __init__(self):
@@ -177,8 +168,7 @@ class PlaceRelevanceCounter(RelevanceCounter):
         self.freqs = {}
         with open('ranking_metrics/resources/place_metrics.tsv') as pm:
             for line in pm:
-                (new_id, label, wk_count, eu_count) = line.split("\t")
-                new_id = new_id.replace("base", "basic") # weird problem with some geographic URIs
+                (_, new_id, label, wk_count, eu_count) = line.split("\t")
                 if(new_id in self.freqs):
                     self.freqs[new_id]['eu_hits'] = int(self.freqs[new_id]['eu_hits']) + int(eu_count.strip())
                     self.freqs[new_id]['wk_hits'] = int(self.freqs[new_id]['wk_hits']) + int(wk_count.strip())
@@ -190,11 +180,9 @@ class PlaceRelevanceCounter(RelevanceCounter):
     def get_term_count(self, qry_term):
         try:
             place_dict = {}
-            place_dict['wpedia_clicks'] = self.freqs[qry_term]['wk_hits']
+            wikipedia_clicks = self.freqs[qry_term]['wk_hits']
+            place_dict['wpedia_clicks'] = wikipedia_clicks * 4 if wikipedia_clicks > 0 else -1 # because harvested over 90-day period
             place_dict['eu_df'] = self.freqs[qry_term]['eu_hits']
             return place_dict
         except KeyError:
-            return { 'wpedia_clicks': 0, 'eu_df': 0 }
-
-
-
+            return { 'wpedia_clicks': -1, 'eu_df': 0 }
