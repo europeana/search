@@ -89,8 +89,7 @@ for uniq_term in terms['Type']:
 
 docroot = ET.Element('add')
 
-
-TARGET = 1000000
+TARGET = 1000
 PER_FILE = 100
 WRITEPATH = "samples/sample_"
 
@@ -113,9 +112,12 @@ for i in range(TARGET + 1):
     type_uri = type_uris[type_index]
     type_term = type_terms[type_index]
     item_id = "item_" + str(i)
+    collection = "a" if (i % 2 == 0) else "b"
     doc = ET.SubElement(docroot, "doc")
     xml_id = ET.SubElement(doc, "id")
     xml_id.text = item_id
+    xml_collection = ET.SubElement(doc, "collection")
+    xml_collection.text = collection
     xml_suri = ET.SubElement(doc, "subject_uri")
     xml_suri.text = subject_uri
     xml_sterm = ET.SubElement(doc, "subject_term")
