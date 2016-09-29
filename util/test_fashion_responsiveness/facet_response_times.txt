@@ -1,0 +1,116 @@
+DEFAULT FACETS
+===============
+Facet name: UGC
+Query time: 0.8135931491851807
+Distinct values: 2
+Total values: 42776325
+Average value string-length: 4.5
+
+
+Facet name: LANGUAGE
+Query time: 0.8475699424743652
+Distinct values: 36
+Total values: 53522845
+Average value string-length: 2.0277777777777777
+
+
+Facet name: TYPE
+Query time: 0.5997240543365479
+Distinct values: 5
+Total values: 53522845
+Average value string-length: 4.2
+
+
+Facet name: YEAR
+Query time: 1.9570980072021484
+Distinct values: 24007
+Total values: 25720554
+Average value string-length: 7.843712250593577
+
+
+Facet name: PROVIDER
+Query time: 0.7213249206542969
+Distinct values: 159
+Total values: 53522845
+Average value string-length: 26.87421383647799
+
+
+Facet name: DATA_PROVIDER
+Query time: 0.8098800182342529
+Distinct values: 3248
+Total values: 53372792
+Average value string-length: 33.70597290640394
+
+
+Facet name: COUNTRY
+Query time: 0.7028069496154785
+Distinct values: 40
+Total values: 53522845
+Average value string-length: 8.35
+
+
+Facet name: RIGHTS
+Query time: 0.7455830574035645
+Distinct values: 95
+Total values: 53512412
+Average value string-length: 48.694736842105264
+
+
+FASHION FACETS (all of Europeana)
+=================================
+Facet name: CREATOR
+Query time: 64.67437815666199
+Distinct values: 2648240
+Total values: 26282801
+Average value string-length: 33.39847596894541
+
+
+Facet name: skos_concept
+Query time: 34.68621301651001
+Distinct values: 1411555
+Total values: 61121699
+Average value string-length: 60.16835829988913
+
+
+Facet name: cc_skos_prefLabel.en
+Query time: 2.651966094970703
+Distinct values: 32458
+Total values: 50345084
+Average value string-length: 24.989463306426767
+
+
+Facet name: proxy_dc_format.en
+Query time: 1.1009302139282227
+Distinct values: 5302
+Total values: 2122458
+Average value string-length: 25.257827235005657
+
+
+FASHION FACETS (Europeana only)
+==============================
+Facet name: CREATOR
+Query time: 3.967158079147339
+Distinct values: 22388
+Total values: 1259179
+Average value string-length: 22.867294979453277
+
+
+Facet name: skos_concept
+Query time: 3.4191091060638428
+Distinct values: 1145
+Total values: 2389332
+Average value string-length: 49.99912663755458
+
+
+Facet name: cc_skos_prefLabel.en
+Query time: 1.528148889541626
+Distinct values: 1081
+Total values: 2385652
+Average value string-length: 9.827012025901942
+
+
+Facet name: proxy_dc_format.en
+Query time: 0.39904308319091797
+Distinct values: 111
+Total values: 73648
+Average value string-length: 18.45045045045045

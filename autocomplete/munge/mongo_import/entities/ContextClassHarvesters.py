@@ -89,6 +89,8 @@ class ContextClassHarvester:
         self.field_map['rdaGr2PlaceOfDeath'] = 'rdagr2_placeOfDeath'
         self.field_map['rdaGr2ProfessionOrOccupation'] = 'rdagr2_professionOrOccupation'
         self.field_map['rdaGr2BiographicalInformation'] = 'rdagr2_biographicalInformation'
+        self.field_map['latitude'] = 'wgs84_pos_lat'
+        self.field_map['longitude'] = 'wgs84_pos_long'
         self.field_map['end'] = 'edm_end'
         self.field_map['isPartOf'] = 'skos_isPartOf'
 
@@ -144,6 +146,14 @@ class ContextClassHarvester:
                 field_name = self.field_map[characteristic]
                 for entry in entity_rows['representation'][characteristic]:
                     self.add_field(docroot, field_name, entry)
+            else: # if a single value
+                try:
+                    field_name = self.field_map[characteristic]
+                    field_value = entity_rows['representation'][characteristic]
+                    self.add_field(docroot, field_name, str(field_value))
+                except KeyError as ke:
+                    print('Attribute ' + field_name + ' found in source but undefined in schema.')
+                # need to capture lat/long info here
         # TODO: find a better design pattern for calling grab_relevance_ratings
         sames = None if 'owlSameAs' not in entity_rows['representation'] else entity_rows['representation']['owlSameAs']
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'], sames)
@@ -267,7 +277,9 @@ class PlaceHarvester(ContextClassHarvester):
             self.place_ids.append(key)
 
     def get_entity_count(self):
-        return len(self.place_ids)
+        place_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/place/).*$' }} )
+        print(str(len(place_list)))
+        return len(place_list)
 
     def build_entity_chunk(self, start):
         places = self.client.annocultor_db.place.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
@@ -281,27 +293,17 @@ class PlaceHarvester(ContextClassHarvester):
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
         id = entity_id
-        hitcount = self.pl_rc.get_term_count(id)
-        eu_count = hitcount['eu_df']
-        wk_count_90_days = hitcount['wpedia_clicks']
         doc = ET.SubElement(docroot, 'doc')
         self.add_field(doc, 'entity_id', id)
         self.add_field(doc, 'internal_type', 'Place')
-        self.add_field(doc, 'europeana_doc_count', str(eu_count))
-        wk_count_annual = wk_count_90_days * 4 # an approximation is good enough here
-        self.add_field(doc, 'wikipedia_clicks', str(wk_count_annual))
-        ds = self.pl_rc.calculate_relevance_score(eu_count, wk_count_annual)
-        self.add_field(doc, 'derived_score', str(wk_count_annual * eu_count))
         self.process_representation(doc, entity_id, entity_rows)
 
     def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
         hitcounts = self.pl_rc.get_term_count(entity_id)
-        wpedia_clicks = hitcounts["wpedia_clicks"] if "wpedia_clicks" in hitcounts else -1
-        eu_df = hitcounts["eu_df"] if "eu_df" in hitcounts else 0
-        eu_df = eu_df if(eu_df != -1) else 0
+        wpedia_clicks = hitcounts["wpedia_clicks"]
+        eu_df = hitcounts["eu_df"]
         ds = self.pl_rc.calculate_relevance_score(eu_df, wpedia_clicks)
         self.add_field(docroot, 'europeana_doc_count', str(eu_df))
         self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
         self.add_field(docroot, 'derived_score', str(ds))
         return True
-
