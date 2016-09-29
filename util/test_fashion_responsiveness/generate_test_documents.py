@@ -89,7 +89,7 @@ for uniq_term in terms['Type']:
 
 docroot = ET.Element('add')
 
-TARGET = 1000
+TARGET = 1000000
 PER_FILE = 100
 WRITEPATH = "samples/sample_"
 
@@ -105,12 +105,10 @@ for i in range(TARGET + 1):
                 writefile.close()
         docroot = None
         docroot = ET.Element('add')
-    subject_index = i % subject_target
-    type_index = i % type_target
-    subject_uri = subject_uris[subject_index]
-    subject_term = subject_terms[subject_index]
-    type_uri = type_uris[type_index]
-    type_term = type_terms[type_index]
+    num_subjects = (i % 2) + 1
+    num_types = 3
+    subject_indices = random.sample(range(len(subject_uris)), num_subjects)
+    type_indices = random.sample(range(len(type_uris)), num_types)
     item_id = "item_" + str(i)
     collection = "a" if (i % 2 == 0) else "b"
     doc = ET.SubElement(docroot, "doc")
@@ -118,11 +116,17 @@ for i in range(TARGET + 1):
     xml_id.text = item_id
     xml_collection = ET.SubElement(doc, "collection")
     xml_collection.text = collection
-    xml_suri = ET.SubElement(doc, "subject_uri")
-    xml_suri.text = subject_uri
-    xml_sterm = ET.SubElement(doc, "subject_term")
-    xml_sterm.text = subject_term
-    xml_turi = ET.SubElement(doc, "type_uri")
-    xml_turi.text = type_uri
-    xml_tterm = ET.SubElement(doc, "type_term")
-    xml_tterm.text = type_term
+    for si in subject_indices:
+        subject_uri = subject_uris[si]
+        subject_term = subject_terms[si]
+        xml_suri = ET.SubElement(doc, "subject_uri")
+        xml_suri.text = subject_uri
+        xml_sterm = ET.SubElement(doc, "subject_term")
+        xml_sterm.text = subject_term
+    for ti in type_indices:
+        type_uri = type_uris[ti]
+        type_term = type_terms[ti]
+        xml_turi = ET.SubElement(doc, "type_uri")
+        xml_turi.text = type_uri
+        xml_tterm = ET.SubElement(doc, "type_term")
+        xml_tterm.text = type_term
