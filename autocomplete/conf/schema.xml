@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ZZ<?xml version="1.0" encoding="UTF-8"?>
 <schema name="entity" version="0.1">
     <types>
         <fieldType name="int" class="solr.TrieIntField" precisionStep="0" positionIncrementGap="0"/>
@@ -42,7 +42,7 @@
                 <filter class="solr.KStemFilterFactory"/>
             </analyzer>
         </fieldType>
-        
+
         <fieldType name="proper_name" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <tokenizer class="solr.WhitespaceTokenizerFactory"/>
@@ -90,29 +90,23 @@
 
         <dynamicField name="skos_prefLabel.*" type="proper_name" indexed="true" stored="true"
             multiValued="true"/>
-        <field name="skos_prefLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+        <field name="skos_prefLabel" type="proper_name" indexed="true" stored="true"
+            multiValued="true"/>
         <dynamicField name="skos_altLabel.*" type="proper_name" indexed="true" stored="true"
             multiValued="true"/>
-        <field name="skos_altLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+        <field name="skos_altLabel" type="proper_name" indexed="true" stored="true"
+            multiValued="true"/>
         <field name="foaf_name" type="proper_name" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="foaf_name.*" type="proper_name" indexed="true" stored="true"
             multiValued="true"/>
-        <copyField source="foaf_name.*" dest="foaf_name"></copyField>
+        <copyField source="foaf_name.*" dest="foaf_name"/>
         <!-- these fields all consist of URI identifiers -->
         <field name="owl_sameAs" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="edm_isRelatedTo" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="edm_isRelatedTo.*" type="string" indexed="true" stored="true"
+        <field name="edm_isNextInSequencep " type="string" indexed="true" stored="true"
             multiValued="true"/>
-        <copyField source="edm_isRelatedTo.*" dest="edm_isRelatedTo"/>
-        <field name="edm_isNextInSequence" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="dcterms_hasPart" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="dcterms_hasPart.*" type="string" indexed="true" stored="true"
-            multiValued="true"/>
-        <copyField source="dcterms_hasPart.*" dest="dcterms_hasPart"/>
         <field name="dcterms_isPartOf" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="dcterms_isPartOf.*" type="string" indexed="true" stored="true"
-            multiValued="true"/>
-        <copyField source="dcterms_isPartOf.*" dest="dcterms_isPartOf"/>
         <field name="skos_closeMatch" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_broadMatch" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="skos_exactMatch" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -155,7 +149,7 @@
         <dynamicField name="rdagr2_dateOfTermination.*" type="string" indexed="true" stored="true"
             multiValued="true"/>
         <copyField source="rdagr2_dateOfTermination.*" dest="rdagr2_dateOfTermination"/>
-        
+
         <!-- other Agent-related fields -->
         <field name="rdagr2_placeOfBirth" type="string" indexed="true" stored="true"
             multiValued="true"/>
@@ -172,10 +166,9 @@
         <dynamicField name="rdagr2_professionOrOccupation.*" type="text" indexed="true"
             stored="true" multiValued="true"/>
         <copyField source="rdagr2_professionOrOccupation.*" dest="rdagr2_professionOrOccupation"/>
-        <field name="rdagr2_gender" type="string" indexed="true" stored="true"
+        <field name="rdagr2_gender" type="string" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="rdagr2_gender.*" type="string" indexed="true" stored="true"
             multiValued="true"/>
-        <dynamicField name="rdagr2_gender.*" type="string" indexed="true"
-            stored="true" multiValued="true"/>
         <copyField source="rdagr2_gender.*" dest="rdagr2_gender"/>
         <field name="rdagr2_biographicalInformation" type="text" indexed="true" stored="true"
             multiValued="true"/>
@@ -183,23 +176,23 @@
             stored="true" multiValued="true"/>
         <copyField source="rdagr2_biographicalInformation.*" dest="rdagr2_biographicalInformation"/>
         <field name="edm_hasMet" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="edm_hasMet.*" type="string" indexed="true" stored="true" multiValued="true"/>
-        <copyField source="edm_hasMet.*" dest="edm_hasMet"/>
         <field name="edm_begin" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="edm_begin.*" type="string" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="edm_begin.*" type="string" indexed="true" stored="true"
+            multiValued="true"/>
         <copyField source="edm_begin.*" dest="edm_begin"/>
         <field name="edm_end" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="edm_end.*" type="string" indexed="true" stored="true" multiValued="true"/>
         <copyField source="edm_end.*" dest="edm_end"/>
-        
+
         <!-- Place-related fields -->
         <field name="wgs84_pos_lat" type="float" indexed="true" stored="true" multiValued="false"/>
         <field name="wgs84_pos_long" type="float" indexed="true" stored="true" multiValued="false"/>
         <field name="wgs84_pos_alt" type="float" indexed="true" stored="true" multiValued="false"/>
-        
+
         <field name="payload" type="json" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="payload.*" type="json" indexed="true" stored="true" multiValued="true"/>
         <copyField source="payload.*" dest="payload"/>
+        <field name="suggest_filters" indexed="true" stored="true" multiValued="true" type="string"/>
     </fields>
     <uniqueKey>id</uniqueKey>
     <defaultSearchField>text</defaultSearchField>
