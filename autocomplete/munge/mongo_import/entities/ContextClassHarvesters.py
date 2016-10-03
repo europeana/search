@@ -249,7 +249,7 @@ class AgentHarvester(ContextClassHarvester):
         import re
         for same in sames:
             if(re.match('http://dbpedia.org/resource/.+', same )):
-                hitcounts = self.relevance_counter.get_term_count(same)
+                hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
                 wpedia_clicks = hitcounts["wikipedia_hits"]
                 enrichment_hits = hitcounts["europeana_enrichment_hits"]
                 term_hits = hitcounts["europeana_string_hits"]
