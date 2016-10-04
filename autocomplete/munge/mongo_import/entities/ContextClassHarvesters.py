@@ -66,8 +66,6 @@ class ContextClassHarvester:
         self.mongo_entity_class = entity_class
         self.name = name
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
-        self.wpedia_rc = RelevanceCounter.WpediaRelevanceCounter()
-        self.euro_rc = RelevanceCounter.EuDocRelevanceCounter()
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
         self.preview_builder = PreviewBuilder.PreviewBuilder()
         self.populate_field_map()
@@ -127,6 +125,18 @@ class ContextClassHarvester:
             writefile.close()
         return writepath
 
+    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
+        hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
+        wpedia_clicks = hitcounts["wikipedia_hits"]
+        eu_enrichments = hitcounts["europeana_enrichment_hits"]
+        eu_terms = hitcounts["europeana_string_hits"]
+        ds = self.relevance_counter.calculate_relevance_score(wpedia_clicks, eu_enrichments, eu_terms)
+        self.add_field(docroot, 'europeana_doc_count', str(eu_enrichments))
+        self.add_field(docroot, 'europeana_term_hits', str(eu_terms))
+        self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
+        self.add_field(docroot, 'derived_score', str(ds))
+        return True
+
     def process_representation(self, docroot, entity_id, entity_rows):
         for characteristic in entity_rows['representation']:
             if str(characteristic) not in self.field_map.keys():
@@ -165,6 +175,8 @@ class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
         ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
+        import RelevanceCounter
+        self.relevance_counter = RelevanceCounter.ConceptRelevanceCounter()
 
     def get_entity_count(self):
         concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )
@@ -187,18 +199,6 @@ class ConceptHarvester(ContextClassHarvester):
         self.add_field(doc, 'internal_type', 'Concept')
         self.process_representation(doc, id, entity_rows)
 
-    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
-        wpc_count = 0
-        euc_count = self.euro_rc.get_new_term_count(entity_id)
-        ds = 0
-        if 'prefLabel' in entity_rows.keys() and 'en' in entity_rows['prefLabel'].keys():
-            label = entity_rows['prefLabel']['en'][0]
-            wpc_count = self.wpedia_rc.get_new_term_count(label)
-            ds = self.euro_rc.calculate_relevance_score(euc_count, wpc_count)
-        self.add_field(docroot, 'derived_score', str(ds))
-        self.add_field(docroot, 'europeana_doc_count', str(euc_count))
-        self.add_field(docroot, 'wikipedia_clicks', str(wpc_count))
-
 class AgentHarvester(ContextClassHarvester):
 
     def __init__(self):
@@ -207,7 +207,7 @@ class AgentHarvester(ContextClassHarvester):
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
-        self.ag_rc = RelevanceCounter.AgentRelevanceCounter()
+        self.relevance_counter = RelevanceCounter.AgentRelevanceCounter()
 
     def get_entity_count(self):
         agents = self.client.annocultor_db.people.distinct( 'codeUri' )
@@ -237,12 +237,13 @@ class AgentHarvester(ContextClassHarvester):
         import re
         for same in sames:
             if(re.match('http://dbpedia.org/resource/.+', same )):
-                hitcounts = self.ag_rc.get_term_count(same)
-                wpedia_clicks = hitcounts["wpedia_clicks"] if "wpedia_clicks" in hitcounts else -1
-                eu_df = hitcounts["eu_df"] if "eu_df" in hitcounts else 0
-                eu_df = eu_df if(eu_df != -1) else 0
-                ds = self.ag_rc.calculate_relevance_score(eu_df, wpedia_clicks)
-                self.add_field(docroot, 'europeana_doc_count', str(eu_df))
+                hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
+                wpedia_clicks = hitcounts["wikipedia_hits"]
+                enrichment_hits = hitcounts["europeana_enrichment_hits"]
+                term_hits = hitcounts["europeana_string_hits"]
+                ds = self.relevance_counter.calculate_relevance_score(wpedia_clicks, enrichment_hits, term_hits)
+                self.add_field(docroot, 'europeana_doc_count', str(enrichment_hits))
+                self.add_field(docroot, 'europeana_term_hits', str(term_hits))
                 self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
                 self.add_field(docroot, 'derived_score', str(ds))
                 return True # we don't want more than one relevance ranking
@@ -252,7 +253,8 @@ class AgentHarvester(ContextClassHarvester):
 
     def assign_zero_relevance(self, docroot):
         self.add_field(docroot, 'europeana_doc_count', '0')
-        self.add_field(docroot, 'wikipedia_clicks', '0')
+        self.add_field(docroot, 'europeana_term_hits', '0')
+        self.add_field(docroot, 'wikipedia_clicks', '-1')
         self.add_field(docroot, 'derived_score', '0')
 
     def log_missing_entry(self, entity_id):
@@ -271,14 +273,10 @@ class PlaceHarvester(ContextClassHarvester):
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
-        self.pl_rc = RelevanceCounter.PlaceRelevanceCounter()
-        self.place_ids = []
-        for key, value in self.pl_rc.freqs.items():
-            self.place_ids.append(key)
+        self.relevance_counter = RelevanceCounter.PlaceRelevanceCounter()
 
     def get_entity_count(self):
         place_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/place/).*$' }} )
-        print(str(len(place_list)))
         return len(place_list)
 
     def build_entity_chunk(self, start):
@@ -297,13 +295,3 @@ class PlaceHarvester(ContextClassHarvester):
         self.add_field(doc, 'entity_id', id)
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)
-
-    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
-        hitcounts = self.pl_rc.get_term_count(entity_id)
-        wpedia_clicks = hitcounts["wpedia_clicks"]
-        eu_df = hitcounts["eu_df"]
-        ds = self.pl_rc.calculate_relevance_score(eu_df, wpedia_clicks)
-        self.add_field(docroot, 'europeana_doc_count', str(eu_df))
-        self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
-        self.add_field(docroot, 'derived_score', str(ds))
-        return True
