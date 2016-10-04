@@ -76,83 +76,15 @@ class RelevanceCounter:
         normed = float(format(normed, '.5f'))
         return normed
 
-class EuDocRelevanceCounter(RelevanceCounter):
-
-    def __init__(self):
-        RelevanceCounter.__init__(self, 'Europeana_DF')
-
-    def normalize_string(self, normanda):
-        return normanda
-
-    def get_new_term_count(self, qry_term):
-        import requests
-        from pymongo import MongoClient
-
-        # enrichment with the new identifiers has not been attempted
-        # accordingly we need to first look up the old identifer, and then
-        # search Solr based on *that*
-
-        moclient = MongoClient(RelevanceCounter.MOSERVER, RelevanceCounter.MOPORT)
-        solr_url = ""
-        response = ""
-        try:
-            old_uri = moclient.annocultor_db.lookup.find_one({'codeUri':qry_term})['originalCodeUri']
-            moclient.close()
-            qry_term = "\"" + old_uri + "\"" # exact matching!
-            solr_url = "http://sol1.eanadev.org:9191/solr/search_1/search"
-            solr_url += "?q=" + qry_term
-            solr_url += "&rows=0"
-            solr_url += "&wt=json"
-            response = requests.get(solr_url)
-            return response.json()['response']['numFound']
-        except TypeError:
-            return 0
-
-class WpediaRelevanceCounter(RelevanceCounter):
-
-    def __init__(self):
-        RelevanceCounter.__init__(self, 'Wikipedia_clickstream')
-        self.build_dictionary()
-
-
-    def normalize_string(self, normanda):
-        """
-        :param normanda: a URI
-        :return: normalised term retrieved from end of URI
-        """
-        import re
-
-        normatus = normanda.split("/")[-1]
-        normatus = RelevanceCounter.normalize_string(normatus)
-        normatus = normatus.lower()
-        return normatus
-
-    def build_dictionary(self):
-        self.freqs = {}
-        with open("ranking_metrics/resources/wikipedia-click-frequencies.tsv", 'rU') as w:
-            i = 0
-            for line in w:
-                (wiki,freq) = line.split("\t") #decoded!
-                wiki = wiki.lower()
-                self.freqs[wiki]=int(freq)
-                # if (i % 100000 == 0): print("load " + str(i) +  " freqs");
-                i+=1
-
-    def get_term_count(self, qry_term):
-        # TODO: unbodge this
-        return self.get_new_term_count(qry_term)
-
-    def get_new_term_count(self, qry_term):
-        if(qry_term in self.freqs):
-            return self.freqs[qry_term]
-        else:
-            # TODO: Implement Wpedia query
-            return -1
-
 class AgentRelevanceCounter(RelevanceCounter):
 
     def __init__(self):
         RelevanceCounter.__init__(self, 'agent')
+
+class ConceptRelevanceCounter(RelevanceCounter):
+
+    def __init__(self):
+        RelevanceCounter.__init__(self, 'concept')
 
 class PlaceRelevanceCounter(RelevanceCounter):
 

@@ -66,8 +66,6 @@ class ContextClassHarvester:
         self.mongo_entity_class = entity_class
         self.name = name
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
-        self.wpedia_rc = RelevanceCounter.WpediaRelevanceCounter()
-        self.euro_rc = RelevanceCounter.EuDocRelevanceCounter()
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
         self.preview_builder = PreviewBuilder.PreviewBuilder()
         self.populate_field_map()
@@ -177,6 +175,8 @@ class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
         ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
+        import RelevanceCounter
+        self.relevance_counter = RelevanceCounter.ConceptRelevanceCounter()
 
     def get_entity_count(self):
         concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )
@@ -198,18 +198,6 @@ class ConceptHarvester(ContextClassHarvester):
         self.add_field(doc, 'entity_id', id)
         self.add_field(doc, 'internal_type', 'Concept')
         self.process_representation(doc, id, entity_rows)
-
-    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
-        wpc_count = 0
-        euc_count = self.euro_rc.get_new_term_count(entity_id)
-        ds = 0
-        if 'prefLabel' in entity_rows.keys() and 'en' in entity_rows['prefLabel'].keys():
-            label = entity_rows['prefLabel']['en'][0]
-            wpc_count = self.wpedia_rc.get_new_term_count(label)
-            ds = self.euro_rc.calculate_relevance_score(euc_count, wpc_count)
-        self.add_field(docroot, 'derived_score', str(ds))
-        self.add_field(docroot, 'europeana_doc_count', str(euc_count))
-        self.add_field(docroot, 'wikipedia_clicks', str(wpc_count))
 
 class AgentHarvester(ContextClassHarvester):
 
