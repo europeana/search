@@ -28,15 +28,14 @@ This means that to run a build, one needs to:
 
 1. Start the celery workers
 
-`
-cd entities
-celery -A tasks worker --loglevel=info
-`
+    cd entities
+    celery -A tasks worker --loglevel=info
+
 
 2. (Un)comment the relevant lines of celeryclient.py
-`
-python3 celeryclient.py
-`
+
+    python3 celeryclient.py
+
 ## Solr Configuration
 
 Autosuggest is implemented using Solr's built-in [Suggester](https://cwiki.apache.org/confluence/display/solr/Suggester) functionality. This is configured in the [solrconfig.xml](https://github.com/europeana/search/blob/master/autocomplete/conf/solrconfig.xml) file.
