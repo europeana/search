@@ -190,7 +190,7 @@ class ConceptHarvester(ContextClassHarvester):
         from xml.etree import ElementTree as ET
         doc = ET.SubElement(docroot, 'doc')
         id = entity_rows['codeUri']
-        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Concept')
         self.process_representation(doc, id, entity_rows)
 
@@ -224,7 +224,7 @@ class AgentHarvester(ContextClassHarvester):
         from xml.etree import ElementTree as ET
         id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Agent')
         self.process_representation(doc, entity_id, entity_rows)
 
@@ -263,6 +263,6 @@ class PlaceHarvester(ContextClassHarvester):
         from xml.etree import ElementTree as ET
         id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)

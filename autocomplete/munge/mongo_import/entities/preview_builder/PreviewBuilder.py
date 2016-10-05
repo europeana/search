@@ -27,7 +27,7 @@ class PreviewBuilder:
             val = getattr(self, 'build_' + field)(entity_rows)
             retfields[field] = val
         multilingual_labels = self.line_up_languages(retfields)
-        multilingual_labels['entity_id'] = entity_id
+        multilingual_labels['id'] = entity_id
         return json.dumps(multilingual_labels)
 
     def build_prefLabel(self, entity_rows):
