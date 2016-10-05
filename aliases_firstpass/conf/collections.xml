@@ -2,6 +2,8 @@
 <collections>
 <collection>
 	<name>test-collection</name>
+	<description>test</description>
+	<qs-rep>tst</qs-rep>
 	<filter>europeana_id:test</filter>
 </collection>
 
