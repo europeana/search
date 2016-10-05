@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collections>
+<collection>
+	<name>test-collection</name>
+	<filter>europeana_id:test</filter>
+</collection>
+
+</collections>
