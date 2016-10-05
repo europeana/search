@@ -48,9 +48,7 @@ class ContextClassHarvester:
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
-    LEGACY_MONGO_HOST = 'mongodb://mongo1.eanadev.org'
-
-    CHUNK_SIZE = 1000
+    CHUNK_SIZE = 1000   # each file will consist of 1000 entities
     WRITEDIR = getcwd() + '/../entities_out'
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = '../logs/entlogs/'
@@ -125,7 +123,7 @@ class ContextClassHarvester:
             writefile.close()
         return writepath
 
-    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
+    def grab_relevance_ratings(self, docroot, entity_id, entity_rows):
         hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
         wpedia_clicks = hitcounts["wikipedia_hits"]
         eu_enrichments = hitcounts["europeana_enrichment_hits"]
@@ -163,10 +161,7 @@ class ContextClassHarvester:
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
-                # need to capture lat/long info here
-        # TODO: find a better design pattern for calling grab_relevance_ratings
-        sames = None if 'owlSameAs' not in entity_rows['representation'] else entity_rows['representation']['owlSameAs']
-        self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'], sames)
+        self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
         raw_type = entity_rows['entityType'].replace('Impl', '')
         payload = self.preview_builder.build_preview(raw_type, entity_id, entity_rows)
         self.add_field(docroot, 'payload', payload)
@@ -232,30 +227,6 @@ class AgentHarvester(ContextClassHarvester):
         self.add_field(doc, 'entity_id', id)
         self.add_field(doc, 'internal_type', 'Agent')
         self.process_representation(doc, entity_id, entity_rows)
-
-    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
-        import re
-        for same in sames:
-            if(re.match('http://dbpedia.org/resource/.+', same )):
-                hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
-                wpedia_clicks = hitcounts["wikipedia_hits"]
-                enrichment_hits = hitcounts["europeana_enrichment_hits"]
-                term_hits = hitcounts["europeana_string_hits"]
-                ds = self.relevance_counter.calculate_relevance_score(wpedia_clicks, enrichment_hits, term_hits)
-                self.add_field(docroot, 'europeana_doc_count', str(enrichment_hits))
-                self.add_field(docroot, 'europeana_term_hits', str(term_hits))
-                self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
-                self.add_field(docroot, 'derived_score', str(ds))
-                return True # we don't want more than one relevance ranking
-        # if no match is found, relevance score is 0
-        self.assign_zero_relevance(docroot)
-        return False
-
-    def assign_zero_relevance(self, docroot):
-        self.add_field(docroot, 'europeana_doc_count', '0')
-        self.add_field(docroot, 'europeana_term_hits', '0')
-        self.add_field(docroot, 'wikipedia_clicks', '-1')
-        self.add_field(docroot, 'derived_score', '0')
 
     def log_missing_entry(self, entity_id):
         msg = "Entity found in Agents but not TermList collection: " + entity_id

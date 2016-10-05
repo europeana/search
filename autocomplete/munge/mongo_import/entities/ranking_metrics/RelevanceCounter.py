@@ -1,14 +1,20 @@
 import requests
 
 class RelevanceCounter:
+    """
+       Calculates the relevance of a given entity, based on three factors:
+       the number of clicks that entity's Wikipedia page has received over the
+       past year; the number of enrichments using the entity's URL found in
+       Europeana datastores; and the number of exact-match hits an OR query
+       using the entity's various language labels retrieves.
 
-    # we want a general class that stores unique keys
-    # along with a count of this key from a variety of web sources
-    # Wikipedia, Europeana db, etc.
 
-    # general pattern - check to see if entry exists
-    # if so, retrieve count
-    # if not, query for count and add to datastore
+       In terms of process, this class is very simple: while processing each
+       entity, it checks to see whether the above metrics are already stored
+       in the relevant sqlite dagabas. If so, it retrieves the results; if not,
+       it calculates the Europeana-related metrics (enrichment and term count)
+       and inserts these into the database for later retrieval.
+   """
 
     MOSERVER = 'mongodb://136.243.103.29'
     MOPORT = 27017
@@ -68,6 +74,8 @@ class RelevanceCounter:
             return 0
 
     def calculate_relevance_score(self, wpedia_count, eu_doc_count, eu_term_count):
+        # TODO: thie method of calculation results in values that are too high
+        # and not widely spread. Realibrate.
         relevance = abs(eu_doc_count + eu_term_count) * abs(wpedia_count)
         if relevance == 0: return 0
         norm_factor = 1;
