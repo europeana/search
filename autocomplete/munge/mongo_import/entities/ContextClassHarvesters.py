@@ -48,12 +48,11 @@ class ContextClassHarvester:
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
-    LEGACY_MONGO_HOST = 'mongodb://mongo1.eanadev.org'
-
-    CHUNK_SIZE = 1000
+    CHUNK_SIZE = 1000   # each file will consist of 1000 entities
     WRITEDIR = getcwd() + '/../entities_out'
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = '../logs/entlogs/'
+
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
@@ -75,22 +74,22 @@ class ContextClassHarvester:
         # the convention for Solr names is to retain the names from the
         # Production schema, but drop the entity-type prefixes
         self.field_map = {}
-        self.field_map['prefLabel'] = 'skos_prefLabel'
-        self.field_map['altLabel'] = 'skos_altLabel'
-        self.field_map['note'] = 'skos_note'
-        self.field_map['owlSameAs'] = 'owl_sameAs'
-        self.field_map['edmIsRelatedTo'] = 'skos_isRelatedTo'
-        self.field_map['dcIdentifier'] = 'dc_identifier'
-        self.field_map['rdaGr2DateOfBirth'] = 'rdagr2_dateOfBirth'
-        self.field_map['rdaGr2DateOfDeath'] = 'rdagr2_dateOfDeath'
-        self.field_map['rdaGr2PlaceOfBirth'] = 'rdagr2_placeOfBirth'
-        self.field_map['rdaGr2PlaceOfDeath'] = 'rdagr2_placeOfDeath'
-        self.field_map['rdaGr2ProfessionOrOccupation'] = 'rdagr2_professionOrOccupation'
-        self.field_map['rdaGr2BiographicalInformation'] = 'rdagr2_biographicalInformation'
-        self.field_map['latitude'] = 'wgs84_pos_lat'
-        self.field_map['longitude'] = 'wgs84_pos_long'
-        self.field_map['end'] = 'edm_end'
-        self.field_map['isPartOf'] = 'skos_isPartOf'
+        self.field_map['prefLabel'] = { 'label' : 'skos_prefLabel' , 'type' : 'string' }
+        self.field_map['altLabel'] = { 'label': 'skos_altLabel' , 'type' : 'string' }
+        self.field_map['note'] = { 'label': 'skos_note' , 'type' : 'string' }
+        self.field_map['owlSameAs'] = { 'label': 'owl_sameAs' , 'type' : 'ref' }
+        self.field_map['edmIsRelatedTo'] = { 'label': 'edm_isRelatedTo' , 'type' : 'ref' }
+        self.field_map['dcIdentifier'] = { 'label': 'dc_identifier' , 'type' : 'string' }
+        self.field_map['rdaGr2DateOfBirth'] = { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' }
+        self.field_map['rdaGr2DateOfDeath'] = { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' }
+        self.field_map['rdaGr2PlaceOfBirth'] = { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' }
+        self.field_map['rdaGr2PlaceOfDeath'] = { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' }
+        self.field_map['rdaGr2ProfessionOrOccupation'] =  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' }
+        self.field_map['rdaGr2BiographicalInformation'] = { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' }
+        self.field_map['latitude'] = { 'label': 'wgs84_pos_lat' , 'type' : 'string' }
+        self.field_map['longitude'] = { 'label': 'wgs84_pos_long' , 'type' : 'string' }
+        self.field_map['end'] = { 'label': 'edm_end' , 'type' : 'string' }
+        self.field_map['isPartOf'] = { 'label': 'dcterms_isPartOf' , 'type' : 'ref' }
 
     def build_solr_doc(self, entities, start):
         from xml.etree import ElementTree as ET
@@ -125,7 +124,7 @@ class ContextClassHarvester:
             writefile.close()
         return writepath
 
-    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
+    def grab_relevance_ratings(self, docroot, entity_id, entity_rows):
         hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
         wpedia_clicks = hitcounts["wikipedia_hits"]
         eu_enrichments = hitcounts["europeana_enrichment_hits"]
@@ -135,6 +134,7 @@ class ContextClassHarvester:
         self.add_field(docroot, 'europeana_term_hits', str(eu_terms))
         self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
         self.add_field(docroot, 'derived_score', str(ds))
+        self.add_suggest_filters(docroot, eu_terms)
         return True
 
     def process_representation(self, docroot, entity_id, entity_rows):
@@ -146,30 +146,38 @@ class ContextClassHarvester:
             if(type(entity_rows['representation'][characteristic]) is dict):
                 for lang in entity_rows['representation'][characteristic]:
                     if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
-                        field_name = self.field_map[characteristic]
+                        field_name = self.field_map[characteristic]['label']
                         field_values = entity_rows['representation'][characteristic][lang]
                         for field_value in field_values:
-                            qual_field_name = field_name + "." + lang
-                            # self.add_field(docroot, field_name, field_value) # do this with copyfields
-                            self.add_field(docroot, qual_field_name, field_value)
+                            if(self.field_map[characteristic]['type'] == 'string'):
+                                field_name += "."+ lang
+                            self.add_field(docroot, field_name, field_value)
+                            if(characteristic == 'prefLabel'):
+                                self.add_payload(docroot, entity_id, entity_rows, lang)
             elif(type(entity_rows['representation'][characteristic]) is list):
-                field_name = self.field_map[characteristic]
+                field_name = self.field_map[characteristic]['label']
                 for entry in entity_rows['representation'][characteristic]:
                     self.add_field(docroot, field_name, entry)
             else: # if a single value
                 try:
-                    field_name = self.field_map[characteristic]
+                    field_name = self.field_map[characteristic]['label']
                     field_value = entity_rows['representation'][characteristic]
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
-                # need to capture lat/long info here
-        # TODO: find a better design pattern for calling grab_relevance_ratings
-        sames = None if 'owlSameAs' not in entity_rows['representation'] else entity_rows['representation']['owlSameAs']
-        self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'], sames)
-        raw_type = entity_rows['entityType'].replace('Impl', '')
-        payload = self.preview_builder.build_preview(raw_type, entity_id, entity_rows)
-        self.add_field(docroot, 'payload', payload)
+        self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
+
+    def add_payload(self, docroot, entity_id, entity_rows, language):
+        type = entity_rows['entityType'].replace('Impl', '')
+        payload = self.preview_builder.build_preview(type, entity_id, entity_rows, language)
+        field_name = "payload." + language
+        self.add_field(docroot, field_name, payload)
+
+    def add_suggest_filters(self, docroot, term_hits):
+        entity_type = self.name[0:len(self.name) - 1].capitalize()
+        self.add_field(docroot, 'suggest_filters', entity_type)
+        if(term_hits > 0):
+            self.add_field(docroot, 'suggest_filters', 'in_europeana')
 
 class ConceptHarvester(ContextClassHarvester):
 
@@ -195,7 +203,7 @@ class ConceptHarvester(ContextClassHarvester):
         from xml.etree import ElementTree as ET
         doc = ET.SubElement(docroot, 'doc')
         id = entity_rows['codeUri']
-        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Concept')
         self.process_representation(doc, id, entity_rows)
 
@@ -229,33 +237,9 @@ class AgentHarvester(ContextClassHarvester):
         from xml.etree import ElementTree as ET
         id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Agent')
         self.process_representation(doc, entity_id, entity_rows)
-
-    def grab_relevance_ratings(self, docroot, entity_id, entity_rows, sames):
-        import re
-        for same in sames:
-            if(re.match('http://dbpedia.org/resource/.+', same )):
-                hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
-                wpedia_clicks = hitcounts["wikipedia_hits"]
-                enrichment_hits = hitcounts["europeana_enrichment_hits"]
-                term_hits = hitcounts["europeana_string_hits"]
-                ds = self.relevance_counter.calculate_relevance_score(wpedia_clicks, enrichment_hits, term_hits)
-                self.add_field(docroot, 'europeana_doc_count', str(enrichment_hits))
-                self.add_field(docroot, 'europeana_term_hits', str(term_hits))
-                self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
-                self.add_field(docroot, 'derived_score', str(ds))
-                return True # we don't want more than one relevance ranking
-        # if no match is found, relevance score is 0
-        self.assign_zero_relevance(docroot)
-        return False
-
-    def assign_zero_relevance(self, docroot):
-        self.add_field(docroot, 'europeana_doc_count', '0')
-        self.add_field(docroot, 'europeana_term_hits', '0')
-        self.add_field(docroot, 'wikipedia_clicks', '-1')
-        self.add_field(docroot, 'derived_score', '0')
 
     def log_missing_entry(self, entity_id):
         msg = "Entity found in Agents but not TermList collection: " + entity_id
@@ -292,6 +276,6 @@ class PlaceHarvester(ContextClassHarvester):
         from xml.etree import ElementTree as ET
         id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        self.add_field(doc, 'entity_id', id)
+        self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)

@@ -24,6 +24,19 @@ One implication of this is that the Celery libraries for Redis must also be inst
 
 The Celery tasks are defined in `tasks.py`, and invoked using `celeryclient.py`. "Configuration" of `celeryclient.py` is done simply through (un)commenting lines, at the moment.
 
+This means that to run a build, one needs to:
+
+1. Start the celery workers
+
+    `cd entities`
+
+    `celery -A tasks worker --loglevel=info`
+
+
+2. (Un)comment the relevant lines of celeryclient.py
+
+    `python3 celeryclient.py`
+
 ## Solr Configuration
 
 Autosuggest is implemented using Solr's built-in [Suggester](https://cwiki.apache.org/confluence/display/solr/Suggester) functionality. This is configured in the [solrconfig.xml](https://github.com/europeana/search/blob/master/autocomplete/conf/solrconfig.xml) file.
@@ -41,6 +54,3 @@ Each `ContextClassHarvester` has a `LanguageValidator`, which ensures that only 
 In addition, each `ContextClassHarvester` has a `RelevanceCounter`, which calculates relevance metrics, and a `PreviewBuilder`. This, as the name implies, creates the JSON structure necessary to support the entity preview found in the `payload` field.
 
 For further information, see code comments inline.
-
-
-
