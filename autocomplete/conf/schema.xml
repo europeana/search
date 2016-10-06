@@ -78,7 +78,6 @@ ZZ<?xml version="1.0" encoding="UTF-8"?>
         <field name="rights" type="string" indexed="true" stored="true" multiValued="true"/>
 
         <!-- Relevance fields -->
-        <field name="dbpedia_doc_count" type="int" indexed="true" stored="true" multiValued="false"/>
         <field name="europeana_doc_count" type="int" indexed="true" stored="true"
             multiValued="false"/>
         <field name="europeana_term_hits" type="int" indexed="true" stored="true"
