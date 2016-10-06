@@ -1,7 +1,7 @@
 Agent:
     - prefLabel
     - lifespan
-#    - role -- TODO: cannot currently be dereferenced
+    - role
 Concept:
     - prefLabel
 #    - topConcept -- TODO: cannot currently be dereferenced
