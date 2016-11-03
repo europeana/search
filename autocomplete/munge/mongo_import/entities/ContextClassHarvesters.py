@@ -114,7 +114,6 @@ class ContextClassHarvester:
         from xml.etree import ElementTree as ET
         from xml.dom import minidom
         import io
-
         writepath = self.write_dir + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
         roughstring = ET.tostring(doc, encoding='utf-8')
         reparsed = minidom.parseString(roughstring)
@@ -279,3 +278,25 @@ class PlaceHarvester(ContextClassHarvester):
         self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)
+
+class IndividualEntityBuilder():
+
+    def build_individual_entity(self, entity_id):
+        from pymongo import MongoClient
+        self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
+        entity_rows = self.client.annocultor_db.TermList.find_one({ "codeUri" : entity_id })
+        entity_chunk = {}
+        entity_chunk[entity_id] = entity_rows
+        try:
+            rawtype = entity_rows['entityType']
+            if(rawtype == 'PlaceImpl'):
+                harvester = PlaceHarvester()
+            elif(rawtype == 'AgentImpl'):
+                harvester = AgentHarvester()
+            else:
+                harvester = ConceptHarvester()
+            harvester.build_solr_doc(entity_chunk, int(entity_id.split("/")[-1]))
+            print("Entity " + entity_id + " written to " + rawtype[:-4] + " file.")
+        except Exception as e:
+            print("No entity with that ID found in database. " + str(e))
+            return
