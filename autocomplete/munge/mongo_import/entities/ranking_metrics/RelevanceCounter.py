@@ -75,13 +75,13 @@ class RelevanceCounter:
 
     def calculate_relevance_score(self, wpedia_count, eu_doc_count, eu_term_count):
         # TODO: thie method of calculation results in values that are too high
-        # and not widely spread. Realibrate.
+        # and not widely spread. Recalibrate.
         relevance = abs(eu_doc_count + eu_term_count) * abs(wpedia_count)
         if relevance == 0: return 0
         norm_factor = 1;
         inv = 1 / relevance
-        normed = norm_factor - inv
-        normed = float(format(normed, '.5f'))
+        normed = (norm_factor - inv) * 1000
+        # normed = float(format(normed, '.5f'))
         return normed
 
 class AgentRelevanceCounter(RelevanceCounter):
