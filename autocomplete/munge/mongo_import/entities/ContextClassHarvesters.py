@@ -145,6 +145,7 @@ class ContextClassHarvester:
             if(type(entity_rows['representation'][characteristic]) is dict):
                 for lang in entity_rows['representation'][characteristic]:
                     pref_label_count = 0
+                    prev_alts = []
                     if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
                         field_name = self.field_map[characteristic]['label']
                         field_values = entity_rows['representation'][characteristic][lang]
@@ -152,8 +153,17 @@ class ContextClassHarvester:
                             q_field_name = field_name
                             if(self.field_map[characteristic]['type'] == 'string'):
                                 q_field_name = field_name + "."+ lang
+                            # Code snarl: we often have more than one prefLabel per language in the data
+                            # We can also have altLabels
+                            # We want to shunt all but the first-encountered prefLabel into the altLabel field
+                            # while ensuring the altLabels are individually unique
+                            # TODO: Refactor (though note that this is a non-trivial refactoring)
                             if(characteristic == 'prefLabel' and pref_label_count > 0):
                                 q_field_name = "altLabel." + lang
+                            if('altLabel' in q_field_name):
+                                if(field_value in prev_alts):
+                                    continue
+                                prev_alts.append(field_value)
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0):
                                 self.add_payload(docroot, entity_id, entity_rows, lang)
