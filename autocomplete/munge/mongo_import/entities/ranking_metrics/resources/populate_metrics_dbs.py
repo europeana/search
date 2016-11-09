@@ -275,4 +275,5 @@ def get_label_count(entity_id):
 # test_db_working('place')
 # load_place_files()
 # load_concept_files()
-enrichment_sanity_check()
+# enrichment_sanity_check()
+update_place_counts()
