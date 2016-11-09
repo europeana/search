@@ -230,8 +230,10 @@ def update_entity_class(db):
     csr = db.cursor()
     qry = """ SELECT * FROM hits"""
     for row in csr.execute(qry):
-        entity_id = row.id
-        update_entity(entity_id, csr)
+        entity_id = row[0]
+        print(row)
+        ncsr = db.cursor()
+        update_entity(entity_id, ncsr)
         db.commit()
 
 def update_entity(entity_id, csr):
