@@ -2,8 +2,6 @@
 from pymongo import MongoClient
 import json, requests, sqlite3
 from sqlite3 import IntegrityError
-#from celery import delay
-from cache_metrics import create_agent_record
 
 
 SOLR_URI = "http://sol7.eanadev.org:9191/solr/search_2/search?wt=json&rows=0&q="
