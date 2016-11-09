@@ -144,6 +144,7 @@ class ContextClassHarvester:
                 # if the entry is a dictionary, then the keys should be language codes
             if(type(entity_rows['representation'][characteristic]) is dict):
                 for lang in entity_rows['representation'][characteristic]:
+                    pref_label_count = 0
                     if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
                         field_name = self.field_map[characteristic]['label']
                         field_values = entity_rows['representation'][characteristic][lang]
@@ -151,9 +152,12 @@ class ContextClassHarvester:
                             q_field_name = field_name
                             if(self.field_map[characteristic]['type'] == 'string'):
                                 q_field_name = field_name + "."+ lang
+                            if(characteristic == 'prefLabel' and pref_label_count > 0):
+                                q_field_name = "altLabel." + lang
                             self.add_field(docroot, q_field_name, field_value)
-                            if(characteristic == 'prefLabel'):
+                            if(characteristic == 'prefLabel' and pref_label_count == 0):
                                 self.add_payload(docroot, entity_id, entity_rows, lang)
+                                pref_label_count = 1
             elif(type(entity_rows['representation'][characteristic]) is list):
                 field_name = self.field_map[characteristic]['label']
                 for entry in entity_rows['representation'][characteristic]:
