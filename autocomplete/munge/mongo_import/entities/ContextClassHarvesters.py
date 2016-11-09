@@ -148,9 +148,10 @@ class ContextClassHarvester:
                         field_name = self.field_map[characteristic]['label']
                         field_values = entity_rows['representation'][characteristic][lang]
                         for field_value in field_values:
+                            q_field_name = field_name
                             if(self.field_map[characteristic]['type'] == 'string'):
-                                field_name += "."+ lang
-                            self.add_field(docroot, field_name, field_value)
+                                q_field_name = field_name + "."+ lang
+                            self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel'):
                                 self.add_payload(docroot, entity_id, entity_rows, lang)
             elif(type(entity_rows['representation'][characteristic]) is list):
