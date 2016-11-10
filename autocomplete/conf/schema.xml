@@ -1,4 +1,4 @@
-ZZ<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <schema name="entity" version="0.1">
     <types>
         <fieldType name="int" class="solr.TrieIntField" precisionStep="0" positionIncrementGap="0"/>
@@ -16,7 +16,7 @@ ZZ<?xml version="1.0" encoding="UTF-8"?>
         <fieldType name="suggestType" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <charFilter class="solr.MappingCharFilterFactory"
-                    mapping="mapping-ISOLatin1Accent.txt"/>
+                    mapping="accent-map.txt"/>
                 <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="[^a-zA-Z0-9]"
                     replacement=" "/>
                 <tokenizer class="solr.WhitespaceTokenizerFactory"/>
@@ -123,9 +123,6 @@ ZZ<?xml version="1.0" encoding="UTF-8"?>
         <field name="skos_notation" type="text" indexed="true" stored="true" multiValued="true"/>
 
         <field name="dc_identifier" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="dc_identifier.*" type="string" indexed="true" stored="true"
-            multiValued="true"/>
-        <copyField source="dc_identifier.*" dest="dc_identifier"/>
 
         <!-- some Agent-related date fields. Check datatyping -->
         <field name="rdagr2_dateOfBirth" type="string" indexed="true" stored="true"
@@ -166,9 +163,6 @@ ZZ<?xml version="1.0" encoding="UTF-8"?>
             stored="true" multiValued="true"/>
         <copyField source="rdagr2_professionOrOccupation.*" dest="rdagr2_professionOrOccupation"/>
         <field name="rdagr2_gender" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="rdagr2_gender.*" type="string" indexed="true" stored="true"
-            multiValued="true"/>
-        <copyField source="rdagr2_gender.*" dest="rdagr2_gender"/>
         <field name="rdagr2_biographicalInformation" type="text" indexed="true" stored="true"
             multiValued="true"/>
         <dynamicField name="rdagr2_biographicalInformation.*" type="text" indexed="true"
