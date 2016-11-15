@@ -231,7 +231,6 @@ def update_entity_class(db):
     qry = """ SELECT * FROM hits"""
     for row in csr.execute(qry):
         entity_id = row[0]
-        print(row)
         ncsr = db.cursor()
         update_entity(entity_id, ncsr)
         db.commit()
@@ -250,7 +249,6 @@ def get_enrichment_count(entity_id):
     except KeyError:
         print("Enrichment query failed for entity " + entity_id)
         return -1
-
 
 def get_label_count(entity_id):
     ent = moclient.annocultor_db.TermList.find_one({ 'codeUri' : entity_id })
@@ -271,6 +269,33 @@ def get_label_count(entity_id):
     except:
         print("Label query failed for entity " + entity_id)
         return -1
+
+def update_places_with_wk_hits():
+    place_counts = {}
+    with open('place_metrics.tsv', 'r') as places:
+        for place in places:
+            (geonames, _, _, _, wk_hits) = place.split("\t")
+            place_counts[geonames] = wk_hits
+    print(place_counts)
+    db = sqlite3.connect("../db/place.db")
+    csr = db.cursor()
+    qry = """ SELECT * FROM hits """
+    for row in csr.execute(qry):
+        entity_id = row[0]
+        ent = moclient.annocultor_db.lookup.find_one({ 'codeUri' : entity_id })
+        as_geonames = ent['originalCodeUri']
+        print(as_geonames + "!")
+        try:
+            wk_hits = place_counts[as_geonames]
+        except KeyError:
+            wk_hits = 0
+        upd = "UPDATE hits SET wikipedia_hits=" + str(wk_hits) + " WHERE id=\"" + entity_id + "\";"
+        print(upd)
+        csr2 = db.cursor()
+        csr2.execute(upd)
+        db.commit()
+
+
 # load_agent_files()
 # test_db_working('place')
 # load_place_files()
@@ -278,4 +303,5 @@ def get_label_count(entity_id):
 # enrichment_sanity_check()
 # update_place_counts()
 # update_agent_counts()
-update_concept_counts()
+#update_concept_counts()
+update_places_with_wk_hits()
