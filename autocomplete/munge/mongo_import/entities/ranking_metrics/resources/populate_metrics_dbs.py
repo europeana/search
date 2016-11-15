@@ -276,4 +276,6 @@ def get_label_count(entity_id):
 # load_place_files()
 # load_concept_files()
 # enrichment_sanity_check()
-update_place_counts()
+# update_place_counts()
+# update_agent_counts()
+update_concept_counts()
