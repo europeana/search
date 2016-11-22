@@ -1,4 +1,24 @@
-# creates and populates databases to store metric information in the Entity collection
+#
+# A selection of utility scripts for creating or updating sqlite databases
+# storing relevance information for Entity Collection entities.
+#
+# sqlite sturcture: one sqlite database for each entity type (Agent, Place, Concept)
+# Each database holds a single table 'hits', with columns (id, wikipedia_hits,
+# europeana_enrichment_hits, europeana_string_hits), where:
+# id is the Europeana Entity Collection URI identifier of the entity
+# wikipedia_hits is the number of visits that entity's Wikipedia page has received in a year
+# europeana_enrichment_hits is the number of Europeana documents that contain the id of the entity
+# europeana_string_hits is the number of Europeana documents returned by an OR search of all the
+# entity's prefLabels
+#
+# Note that most of these functions take considerable time to execute, typically because
+# they are querying a MongoDB and/or Solr at least once for every entity in the Entity
+# Collection.  They should accordingly be run in a linux screen session to prevent
+# dropped connections and the need to rerun the function from the beginning again.
+#
+# TODO: At the moment, these various functions are run on an ad-hoc basis. Monitor to
+# determine whether a more engineered (Celery?) solution is required.
+
 from pymongo import MongoClient
 import json, requests, sqlite3
 from sqlite3 import IntegrityError
@@ -10,6 +30,12 @@ MONGO_PORT = 27017
 moclient = MongoClient(MONGO_URI, MONGO_PORT)
 
 def create_agent_record(old_agent_record, moclient, db):
+    """
+    Creates a new Agent record, retrieves its relevance info, and inserts
+    this into the database.
+    """
+    # note that the old agent record  is required to load the agent's
+    # Wikipedia metrics
     solr_uri = "http://sol1.eanadev.org:9191/solr/search_1/search?wt=json&rows=0&q="
     csr = db.cursor()
     id = old_agent_record['uri']
@@ -44,12 +70,19 @@ def create_agent_record(old_agent_record, moclient, db):
     db.commit()
 
 def is_present_in_db(db, id):
+    """
+    Given a db and an id, returns a Boolean indicating whether the entity with
+    that identifier is already present in the database
+    """
     crsr = db.cursor()
     check = "SELECT * FROM hits WHERE id = '"  + id + "' LIMIT 1"
     test_rows = crsr.execute(check).fetchone()
     return bool(test_rows)
 
 def load_agent_files():
+    """
+    Bulk load of all agents listed in the agent_metrics.json file
+    """
     MONGO_URI = "mongodb://136.243.103.29"
     MONGO_PORT = 27017
     moclient = MongoClient(MONGO_URI, MONGO_PORT)
@@ -65,6 +98,10 @@ def load_agent_files():
     db.close()
 
 def create_place_record(id, wk_hits, labels, db):
+    """
+    Creates a new Place entity, retrieves its relevance info,
+    and inserts this into the database
+    """
     solr_uri = "http://sol1.eanadev.org:9191/solr/search_1/search?wt=json&rows=0&q="
     csr = db.cursor()
     enrichment_query = solr_uri + "\"" + id + "\""
@@ -90,6 +127,9 @@ def create_place_record(id, wk_hits, labels, db):
         return
 
 def load_place_files():
+    """
+    Bulk load of all Places listed in the place_metrics.tsv file.
+    """
     db = sqlite3.connect('../db/place.db')
     csr = db.cursor()
     csr.execute("""
@@ -114,6 +154,9 @@ def load_place_files():
     db.close()
 
 def load_concept_files():
+    """
+    Bulk load of all concepts listed in the wikipedia-click-frequencies.tsv file.
+    """
     MONGO_URI = "mongodb://136.243.103.29"
     MONGO_PORT = 27017
     moclient = MongoClient(MONGO_URI, MONGO_PORT)
@@ -164,15 +207,21 @@ def load_concept_files():
     db.close()
 
 
-def test_db_working(db_name):
+def test_db_working(db_name, id):
+    """
+    Toy method for basic sanity checking
+    """
     db_path = "../db/" + db_name + ".db"
     db = sqlite3.connect(db_path)
     csr = db.cursor()
-    qry = """ SELECT * FROM hits WHERE id='http://data.europeana.eu/place/base/100172'"""
+    qry = "SELECT * FROM hits WHERE id='" + id + "';"
     for row in csr.execute(qry):
         print(row)
 
 def enrichment_sanity_check():
+    """
+    Comprehensive sanity check
+    """
     # test concept
     cdb = sqlite3.connect("../db/concept.db")
     ccsr = cdb.cursor()
@@ -214,19 +263,22 @@ def enrichment_sanity_check():
     for parow in more_prows:
         print("Updated row is " + str(parow))
 
-def update_concept_counts():
+def update_concept_counts(): # self-explanatory
     db = sqlite3.connect("../db/concept.db")
     update_entity_class(db)
 
-def update_agent_counts():
+def update_agent_counts(): # self-explanatory
     db = sqlite3.connect("../db/agent.db")
     update_entity_class(db)
 
-def update_place_counts():
+def update_place_counts(): # self-explanatory
     db = sqlite3.connect("../db/place.db")
     update_entity_class(db)
 
 def update_entity_class(db):
+    """
+    Updates the metric information for every entity in the passed db.
+    """
     csr = db.cursor()
     qry = """ SELECT * FROM hits"""
     for row in csr.execute(qry):
@@ -236,12 +288,19 @@ def update_entity_class(db):
         db.commit()
 
 def update_entity(entity_id, csr):
+    """
+    Updates the stored metric information for passed entity id
+    """
     rich_hits = get_enrichment_count(entity_id)
     lbl_hits = get_label_count(entity_id)
     upd = "UPDATE hits SET europeana_enrichment_hits=" + str(rich_hits) + ",europeana_string_hits=" + str(lbl_hits) + " WHERE id=\"" + entity_id + "\";"
     csr.execute(upd)
 
 def get_enrichment_count(entity_id):
+    """
+    Returns the number of documents in Europeana collections enriched with
+    the relevant entity id
+    """
     enrichment_query = SOLR_URI + "\"" + entity_id + "\""
     try:
         enrichment_resp = requests.get(enrichment_query).json()
@@ -251,19 +310,25 @@ def get_enrichment_count(entity_id):
         return -1
 
 def get_label_count(entity_id):
+    """
+    Returns the number of hits for a given entity's prefLabels
+    """
     ent = moclient.annocultor_db.TermList.find_one({ 'codeUri' : entity_id })
     ent_type = ent['entityType'].replace('Impl', '')
     field = "who"
     if(ent_type == "Concept"): field = "what"
     if(ent_type == "Place"): field = "where"
     query_terms = []
+    # first, retrieve the prefLabel for every language from Mongo ...
     for lang in ent['representation']['prefLabel'].keys():
         terms = ent['representation']['prefLabel'][lang]
         for term in terms: query_terms.append(field + ":\"" + term + "\"")
+    # ... then turn this into a giant OR query ...
     label_query_terms = set(query_terms)
     label_query_term = " OR ".join(label_query_terms)
     label_query = SOLR_URI + label_query_term
     try:
+    # ... and return the result
         label_resp = requests.get(label_query).json()
         return label_resp['response']['numFound']
     except:
@@ -271,6 +336,10 @@ def get_label_count(entity_id):
         return -1
 
 def update_places_with_wk_hits():
+    """
+    Updates every Place entity with the number of views it had in
+    Wikipedia in the past year.
+    """
     place_counts = {}
     with open('place_metrics.tsv', 'r') as places:
         for place in places:
