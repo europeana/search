@@ -3,8 +3,10 @@ class LanguageValidator:
     LOG_LOCATION = "../logs/langlogs/"
 
     def __init__(self):
+        import os
         self.langmap = {}
-        with open('../all_langs.wkp', 'r') as all_langs:
+        langlistloc = os.path.join(os.path.dirname(__file__), '..', 'all_langs.wkp')
+        with open(langlistloc, 'r') as all_langs:
             for lang in all_langs:
                 if(not(lang.startswith("#")) and ("|" in lang)):
                     (name, code) = lang.split('|')
@@ -52,7 +54,26 @@ class ContextClassHarvester:
     WRITEDIR = getcwd() + '/../entities_out'
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = '../logs/entlogs/'
+    FIELD_MAP = {
 
+        'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
+        'altLabel' : { 'label': 'skos_altLabel' , 'type' : 'string' },
+        'note' : { 'label': 'skos_note' , 'type' : 'string' },
+        'owlSameAs' : { 'label': 'owl_sameAs' , 'type' : 'ref' },
+        'edmIsRelatedTo' : { 'label': 'edm_isRelatedTo' , 'type' : 'ref' },
+        'dcIdentifier' : { 'label': 'dc_identifier' , 'type' : 'string' },
+        'rdaGr2DateOfBirth' : { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' },
+        'rdaGr2DateOfDeath' : { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' },
+        'rdaGr2PlaceOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
+        'rdaGr2PlaceOfDeath' : { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' },
+        'rdaGr2ProfessionOrOccupation' :  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' },
+        'rdaGr2BiographicalInformation' : { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' },
+        'latitude' : { 'label': 'wgs84_pos_lat' , 'type' : 'string' },
+        'longitude' : { 'label': 'wgs84_pos_long' , 'type' : 'string' },
+        'end' : { 'label': 'edm_end' , 'type' : 'string' },
+        'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' }
+
+    }
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
@@ -67,29 +88,6 @@ class ContextClassHarvester:
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
         self.preview_builder = PreviewBuilder.PreviewBuilder()
-        self.populate_field_map()
-
-    def populate_field_map(self):
-        # maps field names in Mongo to Solr schema field names
-        # the convention for Solr names is to retain the names from the
-        # Production schema, but drop the entity-type prefixes
-        self.field_map = {}
-        self.field_map['prefLabel'] = { 'label' : 'skos_prefLabel' , 'type' : 'string' }
-        self.field_map['altLabel'] = { 'label': 'skos_altLabel' , 'type' : 'string' }
-        self.field_map['note'] = { 'label': 'skos_note' , 'type' : 'string' }
-        self.field_map['owlSameAs'] = { 'label': 'owl_sameAs' , 'type' : 'ref' }
-        self.field_map['edmIsRelatedTo'] = { 'label': 'edm_isRelatedTo' , 'type' : 'ref' }
-        self.field_map['dcIdentifier'] = { 'label': 'dc_identifier' , 'type' : 'string' }
-        self.field_map['rdaGr2DateOfBirth'] = { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' }
-        self.field_map['rdaGr2DateOfDeath'] = { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' }
-        self.field_map['rdaGr2PlaceOfBirth'] = { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' }
-        self.field_map['rdaGr2PlaceOfDeath'] = { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' }
-        self.field_map['rdaGr2ProfessionOrOccupation'] =  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' }
-        self.field_map['rdaGr2BiographicalInformation'] = { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' }
-        self.field_map['latitude'] = { 'label': 'wgs84_pos_lat' , 'type' : 'string' }
-        self.field_map['longitude'] = { 'label': 'wgs84_pos_long' , 'type' : 'string' }
-        self.field_map['end'] = { 'label': 'edm_end' , 'type' : 'string' }
-        self.field_map['isPartOf'] = { 'label': 'dcterms_isPartOf' , 'type' : 'ref' }
 
     def build_solr_doc(self, entities, start):
         from xml.etree import ElementTree as ET
@@ -138,7 +136,7 @@ class ContextClassHarvester:
 
     def process_representation(self, docroot, entity_id, entity_rows):
         for characteristic in entity_rows['representation']:
-            if str(characteristic) not in self.field_map.keys():
+            if str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
                 continue
                 # if the entry is a dictionary, then the keys should be language codes
@@ -147,11 +145,11 @@ class ContextClassHarvester:
                     pref_label_count = 0
                     prev_alts = []
                     if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
-                        field_name = self.field_map[characteristic]['label']
+                        field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                         field_values = entity_rows['representation'][characteristic][lang]
                         for field_value in field_values:
                             q_field_name = field_name
-                            if(self.field_map[characteristic]['type'] == 'string'):
+                            if(ContextClassHarvester.FIELD_MAP[characteristic]['type'] == 'string'):
                                 q_field_name = field_name + "."+ lang
                             # Code snarl: we often have more than one prefLabel per language in the data
                             # We can also have altLabels
@@ -169,12 +167,12 @@ class ContextClassHarvester:
                                 self.add_payload(docroot, entity_id, entity_rows, lang)
                                 pref_label_count = 1
             elif(type(entity_rows['representation'][characteristic]) is list):
-                field_name = self.field_map[characteristic]['label']
+                field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                 for entry in entity_rows['representation'][characteristic]:
                     self.add_field(docroot, field_name, entry)
             else: # if a single value
                 try:
-                    field_name = self.field_map[characteristic]['label']
+                    field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                     field_value = entity_rows['representation'][characteristic]
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
