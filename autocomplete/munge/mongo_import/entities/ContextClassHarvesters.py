@@ -301,7 +301,7 @@ class PlaceHarvester(ContextClassHarvester):
 class IndividualEntityBuilder:
     import os, shutil
 
-    TESTDIR = os.path.join(os.path.dirname(__file__), '..', 'tests', 'testfiles')
+    TESTDIR = os.path.join(os.path.dirname(__file__), '..', 'tests', 'testfiles', 'dynamic')
 
     def build_individual_entity(self, entity_id, is_test=False):
         from pymongo import MongoClient
