@@ -1,6 +1,7 @@
 class LanguageValidator:
+    import sys, os
     # TODO: What to do with weird 'def' language tags all over the place?
-    LOG_LOCATION = "../logs/langlogs/"
+    LOG_LOCATION = os.path.join(os.path.dirname(__file__), '..', 'logs', 'langlogs')
 
     def __init__(self):
         import os
@@ -46,12 +47,12 @@ class LanguageValidator:
 
 class ContextClassHarvester:
 
-    from os import getcwd
+    import os
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
     CHUNK_SIZE = 1000   # each file will consist of 1000 entities
-    WRITEDIR = getcwd() + '/../entities_out'
+    WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = '../logs/entlogs/'
     FIELD_MAP = {
@@ -77,9 +78,9 @@ class ContextClassHarvester:
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
-        import sys
-        sys.path.append('ranking_metrics')
-        sys.path.append('preview_builder')
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'preview_builder'))
         import RelevanceCounter
         import PreviewBuilder
 
@@ -112,7 +113,7 @@ class ContextClassHarvester:
         from xml.etree import ElementTree as ET
         from xml.dom import minidom
         import io
-        writepath = self.write_dir + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
+        writepath = self.get_writepath(start)
         roughstring = ET.tostring(doc, encoding='utf-8')
         reparsed = minidom.parseString(roughstring)
         reparsed = reparsed.toprettyxml(encoding='utf-8', indent="     ").decode('utf-8')
@@ -120,6 +121,9 @@ class ContextClassHarvester:
             writefile.write(reparsed)
             writefile.close()
         return writepath
+
+    def get_writepath(self, start):
+        return self.write_dir + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
 
     def grab_relevance_ratings(self, docroot, entity_id, entity_rows):
         hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
@@ -194,7 +198,9 @@ class ContextClassHarvester:
 class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
+        import sys, os
         ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
         self.relevance_counter = RelevanceCounter.ConceptRelevanceCounter()
 
@@ -222,8 +228,8 @@ class ConceptHarvester(ContextClassHarvester):
 class AgentHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys
-        sys.path.append('ranking_metrics')
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
@@ -264,8 +270,8 @@ class AgentHarvester(ContextClassHarvester):
 class PlaceHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys
-        sys.path.append('ranking_metrics')
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
@@ -292,24 +298,34 @@ class PlaceHarvester(ContextClassHarvester):
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)
 
-class IndividualEntityBuilder():
+class IndividualEntityBuilder:
+    import os, shutil
 
-    def build_individual_entity(self, entity_id):
+    TESTDIR = os.path.join(os.path.dirname(__file__), '..', 'tests', 'testfiles')
+
+    def build_individual_entity(self, entity_id, is_test=False):
         from pymongo import MongoClient
+        import os, shutil
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
         entity_rows = self.client.annocultor_db.TermList.find_one({ "codeUri" : entity_id })
         entity_chunk = {}
         entity_chunk[entity_id] = entity_rows
-        try:
-            rawtype = entity_rows['entityType']
-            if(rawtype == 'PlaceImpl'):
-                harvester = PlaceHarvester()
-            elif(rawtype == 'AgentImpl'):
-                harvester = AgentHarvester()
-            else:
-                harvester = ConceptHarvester()
-            harvester.build_solr_doc(entity_chunk, int(entity_id.split("/")[-1]))
-            print("Entity " + entity_id + " written to " + rawtype[:-4] + " file.")
-        except Exception as e:
-            print("No entity with that ID found in database. " + str(e))
-            return
+        rawtype = entity_rows['entityType']
+        if(rawtype == 'PlaceImpl'):
+            harvester = PlaceHarvester()
+        elif(rawtype == 'AgentImpl'):
+            harvester = AgentHarvester()
+        else:
+            harvester = ConceptHarvester()
+        start = int(entity_id.split("/")[-1])
+        harvester.build_solr_doc(entity_chunk, start)
+        print("Entity " + entity_id + " written to " + rawtype[0:-4].lower() + "_" + str(start) + ".xml file.")
+        if(is_test):
+            current_location = harvester.get_writepath(start)
+            namebits = entity_id.split("/")
+            newname = namebits[-3] + "_" + namebits[-1] + ".xml"
+            shutil.copyfile(current_location, IndividualEntityBuilder.TESTDIR + "/" + newname)
+            os.remove(current_location) # cleaning up
+#        except Exception as e:
+#            print("No entity with that ID found in database. " + str(e))
+#            return

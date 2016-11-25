@@ -22,8 +22,9 @@ class RelevanceCounter:
 
     def __init__(self, name):
         import sqlite3 as slt
+        import sys, os
         self.name = name
-        self.dbpath = "ranking_metrics/db/" + name + ".db"
+        self.dbpath = os.path.join(os.path.dirname(__file__), 'db', name + ".db")
         self.db = slt.connect(self.dbpath)
 
     def normalize_string(self, normanda):
