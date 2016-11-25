@@ -7,9 +7,10 @@
 # data of the imported entities.
 #
 #=========================================================================#
-import requests, json
+import requests, json, os, sys
 from pymongo import MongoClient
 import entities.ContextClassHarvesters
+import xml.etree.ElementTree as ET
 
 SOLR_URI = "http://entity-api.eanadev.org:9292/solr/test/select?wt=json&rows=0&q="
 MONGO_URI = "mongodb://136.243.103.29"
@@ -43,14 +44,64 @@ def get_solr_total():
 
 # tests on a couple of entities of each type
 def test_transform():
+    ieb = entities.ContextClassHarvesters.IndividualEntityBuilder()
+    test_entities = [
+         "http://data.europeana.eu/agent/base/11241",   # Paris Hilton
+         "http://data.europeana.eu/agent/base/146741",  # Leonardo da Vinci
+         "http://data.europeana.eu/place/base/40361",   # Den Haag
+         "http://data.europeana.eu/place/base/143914",  # Ferrara
+         "http://data.europeana.eu/concept/base/214",   # Neoclassicism
+         "http://data.europeana.eu/concept/base/207"    # Byzantine art
+    ]
+    for test_entity in test_entities:
+        ieb.build_individual_entity(test_entity, is_test=True)
     return False
+
+def test_against_reference():
+    test_files_against_mongo('reference')
+    return False
+
+def test_files_against_mongo(filedir):
+
+    fullpath = os.path.join(os.path.dirname(__file__), 'testfiles', filedir)
+    for filename in os.listdir(fullpath):
+        struct = ET.parse(os.path.join(fullpath, filename))
+        # we can assume a document of the structure [root]/add/doc/field
+        # with there being only one <doc> element per document
+
+        # first we create a hash of the xml structure
+        doc = struct.getroot().findall('doc')
+        all_fields = set([field.attrib['name'] for field in doc[0].iter('field')])
+        from_xml = {}
+        for field in all_fields:
+            rel_fields = doc[0].findall('field[@name="' + field + '"]')
+            vals = [rel_field.text for rel_field in rel_fields]
+            from_xml[field] = vals
+        from_mongo = {}
+        mongo_rec = moclient.annocultor_db.TermList.find_one({ 'codeUri' : from_xml['id'][0]})
+        mongo_rep = mongo_rec['representation']
+        for mkey in mongo_rep.keys():
+            mval = mongo_rep[mkey]
+            if(type(mval) is list):
+                from_mongo[mkey] = [item for item in mval]
+            elif(type(mval) is dict):
+                for k, v in mval.items():
+                    from_mongo[mkey + "." + k] = [item for item in mval[k]]
+            else: # if single value
+                from_mongo[mkey] = [mval]
+        # TODO: now that we have our hashes, we just have to compare them
+
+
+
+
+
+
+
 
 # presence of mandatory fields
 def test_mandatory_fields():
-    # mandatory fields are: id, internal_type, europeana_doc_count
-    # europeana_term_hits, wikipedia_clicks, suggest_filters, derived_score,
-    # at least one skos_prefLabel, one payload
-    # note that there are no mandatory fields for individual contextual classes
+    # note that there are no mandatory fields defined
+    # for individual contextual classes
 
     errors = []
     mandatory_fields = ['id', 'internal_type', 'europeana_doc_count'
@@ -94,4 +145,4 @@ def output_discrepancy(solr_total, comparator_name, comparator_count, log=False)
 def test_json_formation():
     return False
 
-# test_totals()
+test_against_reference()
