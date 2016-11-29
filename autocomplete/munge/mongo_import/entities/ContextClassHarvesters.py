@@ -56,7 +56,7 @@ class ContextClassHarvester:
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = '../logs/entlogs/'
     FIELD_MAP = {
-
+        # maps mongo fields to their solr equivalents
         'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
         'altLabel' : { 'label': 'skos_altLabel' , 'type' : 'string' },
         'note' : { 'label': 'skos_note' , 'type' : 'string' },
@@ -105,9 +105,13 @@ class ContextClassHarvester:
         f = ET.SubElement(docroot, 'field')
         f.set('name', field_name)
         try:
-            f.text = field_value
+            f.text = self.sanitize_field(field_value)
         except Exception as ex:
             print(field_name + "!" + field_value + str(ex))
+
+    def sanitize_field(self, field_value):
+        field_value = field_value.replace("\n", " ")
+        return field_value
 
     def write_to_file(self, doc, start):
         from xml.etree import ElementTree as ET
