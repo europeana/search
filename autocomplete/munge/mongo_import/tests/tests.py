@@ -16,6 +16,15 @@ SOLR_URI = "http://entity-api.eanadev.org:9292/solr/test/select?wt=json&rows=0&q
 MONGO_URI = "mongodb://136.243.103.29"
 MONGO_PORT = 27017
 moclient = MongoClient(MONGO_URI, MONGO_PORT)
+# FM (FIELD_MAP) maps Mongo field names to XML @name values
+FM = {}
+for k, v in entities.ContextClassHarvesters.ContextClassHarvester.FIELD_MAP.items():
+    FM[k] = v['label']
+
+# IFM (INVERTED_FIELD_MAP) maps XML @name values to Mongo field names
+IFM = {}
+for k, v in FM.items():
+    IFM[v] = k
 
 # basic sanity check on entity count numbers
 # check total
@@ -90,12 +99,30 @@ def test_files_against_mongo(filedir):
             else: # if single value
                 from_mongo[mkey] = [mval]
         # TODO: now that we have our hashes, we just have to compare them
+        # first, we check the fields
+        missing_from_mongo = [xml_key for xml_key in from_xml.keys() if (trim_lang_tag(xml_key) in IFM.keys() and xml_to_mongo(xml_key) not in from_mongo.keys())]
+        missing_from_xml = [mog_key for mog_key in from_mongo.keys() if (trim_lang_tag(mog_key) in FM.keys() and mongo_to_xml(mog_key) not in from_xml.keys())]
+        print("Missing from mongo: " + str(missing_from_mongo))
+        print("Missing from XML: " + str(missing_from_xml))
 
+def trim_lang_tag(field_name):
+    return field_name.split(".")[0]
 
+def xml_to_mongo(field_name):
+    unqualified_field = field_name.split(".")[0]
+    try:
+        lang_qualifier = "." + field_name.split(".")[1]
+    except:
+        lang_qualifier = ""
+    return IFM[unqualified_field] + lang_qualifier
 
-
-
-
+def mongo_to_xml(field_name):
+    unqualified_field = field_name.split(".")[0]
+    try:
+        lang_qualifier = "." + field_name.split(".")[1]
+    except:
+        lang_qualifier = ""
+    return FM[unqualified_field] + lang_qualifier
 
 
 # presence of mandatory fields
