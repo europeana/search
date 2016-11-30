@@ -62,9 +62,6 @@
         <field name="id" type="string" indexed="true" required="true" multiValued="false"
             stored="true"/>
 
-        <field name="rdf_about" type="string" indexed="true" required="true" multiValued="false"
-            stored="true"/>
-
         <field name="timestamp" type="date" indexed="true" stored="true" default="NOW"
             multiValued="false"/>
 
@@ -102,7 +99,7 @@
         <!-- these fields all consist of URI identifiers -->
         <field name="owl_sameAs" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="edm_isRelatedTo" type="string" indexed="true" stored="true" multiValued="true"/>
-        <field name="edm_isNextInSequencep " type="string" indexed="true" stored="true"
+        <field name="edm_isNextInSequence" type="string" indexed="true" stored="true"
             multiValued="true"/>
         <field name="dcterms_hasPart" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="dcterms_isPartOf" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -123,6 +120,7 @@
         <field name="skos_notation" type="text" indexed="true" stored="true" multiValued="true"/>
 
         <field name="dc_identifier" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="dc_date" type="string" indexed="true" stored="true" multiValued="true"/>
 
         <!-- some Agent-related date fields. Check datatyping -->
         <field name="rdagr2_dateOfBirth" type="string" indexed="true" stored="true"
@@ -191,7 +189,6 @@
     <defaultSearchField>text</defaultSearchField>
     <!-- COPYFIELDS -->
 
-    <copyField source="id" dest="rdf_about"/>
     <copyField source="skos_prefLabel.*" dest="skos_prefLabel"/>
     <copyField source="skos_altLabel.*" dest="skos_altLabel"/>
     <copyField source="skos_note.*" dest="skos_note"/>
