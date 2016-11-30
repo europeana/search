@@ -71,8 +71,11 @@ class ContextClassHarvester:
         'rdaGr2BiographicalInformation' : { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' },
         'latitude' : { 'label': 'wgs84_pos_lat' , 'type' : 'string' },
         'longitude' : { 'label': 'wgs84_pos_long' , 'type' : 'string' },
+        'begin' : { 'label': 'edm_begin' , 'type' : 'string' },
         'end' : { 'label': 'edm_end' , 'type' : 'string' },
-        'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' }
+        'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
+        'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
+        'date' : { 'label' : 'dc_date', 'type' : 'string' }
 
     }
 
