@@ -1,10 +1,13 @@
 class LanguageValidator:
+    import sys, os
     # TODO: What to do with weird 'def' language tags all over the place?
-    LOG_LOCATION = "../logs/langlogs/"
+    LOG_LOCATION = os.path.join(os.path.dirname(__file__), '..', 'logs', 'langlogs')
 
     def __init__(self):
+        import os
         self.langmap = {}
-        with open('../all_langs.wkp', 'r') as all_langs:
+        langlistloc = os.path.join(os.path.dirname(__file__), '..', 'all_langs.wkp')
+        with open(langlistloc, 'r') as all_langs:
             for lang in all_langs:
                 if(not(lang.startswith("#")) and ("|" in lang)):
                     (name, code) = lang.split('|')
@@ -44,21 +47,43 @@ class LanguageValidator:
 
 class ContextClassHarvester:
 
-    from os import getcwd
+    import os
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
     CHUNK_SIZE = 1000   # each file will consist of 1000 entities
-    WRITEDIR = getcwd() + '/../entities_out'
+    WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = '../logs/entlogs/'
+    FIELD_MAP = {
+        # maps mongo fields to their solr equivalents
+        'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
+        'altLabel' : { 'label': 'skos_altLabel' , 'type' : 'string' },
+        'note' : { 'label': 'skos_note' , 'type' : 'string' },
+        'owlSameAs' : { 'label': 'owl_sameAs' , 'type' : 'ref' },
+        'edmIsRelatedTo' : { 'label': 'edm_isRelatedTo' , 'type' : 'ref' },
+        'dcIdentifier' : { 'label': 'dc_identifier' , 'type' : 'string' },
+        'rdaGr2DateOfBirth' : { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' },
+        'rdaGr2DateOfDeath' : { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' },
+        'rdaGr2PlaceOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
+        'rdaGr2PlaceOfDeath' : { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' },
+        'rdaGr2ProfessionOrOccupation' :  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' },
+        'rdaGr2BiographicalInformation' : { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' },
+        'latitude' : { 'label': 'wgs84_pos_lat' , 'type' : 'string' },
+        'longitude' : { 'label': 'wgs84_pos_long' , 'type' : 'string' },
+        'begin' : { 'label': 'edm_begin' , 'type' : 'string' },
+        'end' : { 'label': 'edm_end' , 'type' : 'string' },
+        'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
+        'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
+        'date' : { 'label' : 'dc_date', 'type' : 'string' }
 
+    }
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
-        import sys
-        sys.path.append('ranking_metrics')
-        sys.path.append('preview_builder')
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'preview_builder'))
         import RelevanceCounter
         import PreviewBuilder
 
@@ -67,29 +92,6 @@ class ContextClassHarvester:
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
         self.preview_builder = PreviewBuilder.PreviewBuilder()
-        self.populate_field_map()
-
-    def populate_field_map(self):
-        # maps field names in Mongo to Solr schema field names
-        # the convention for Solr names is to retain the names from the
-        # Production schema, but drop the entity-type prefixes
-        self.field_map = {}
-        self.field_map['prefLabel'] = { 'label' : 'skos_prefLabel' , 'type' : 'string' }
-        self.field_map['altLabel'] = { 'label': 'skos_altLabel' , 'type' : 'string' }
-        self.field_map['note'] = { 'label': 'skos_note' , 'type' : 'string' }
-        self.field_map['owlSameAs'] = { 'label': 'owl_sameAs' , 'type' : 'ref' }
-        self.field_map['edmIsRelatedTo'] = { 'label': 'edm_isRelatedTo' , 'type' : 'ref' }
-        self.field_map['dcIdentifier'] = { 'label': 'dc_identifier' , 'type' : 'string' }
-        self.field_map['rdaGr2DateOfBirth'] = { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' }
-        self.field_map['rdaGr2DateOfDeath'] = { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' }
-        self.field_map['rdaGr2PlaceOfBirth'] = { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' }
-        self.field_map['rdaGr2PlaceOfDeath'] = { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' }
-        self.field_map['rdaGr2ProfessionOrOccupation'] =  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' }
-        self.field_map['rdaGr2BiographicalInformation'] = { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' }
-        self.field_map['latitude'] = { 'label': 'wgs84_pos_lat' , 'type' : 'string' }
-        self.field_map['longitude'] = { 'label': 'wgs84_pos_long' , 'type' : 'string' }
-        self.field_map['end'] = { 'label': 'edm_end' , 'type' : 'string' }
-        self.field_map['isPartOf'] = { 'label': 'dcterms_isPartOf' , 'type' : 'ref' }
 
     def build_solr_doc(self, entities, start):
         from xml.etree import ElementTree as ET
@@ -106,15 +108,19 @@ class ContextClassHarvester:
         f = ET.SubElement(docroot, 'field')
         f.set('name', field_name)
         try:
-            f.text = field_value
+            f.text = self.sanitize_field(field_value)
         except Exception as ex:
             print(field_name + "!" + field_value + str(ex))
+
+    def sanitize_field(self, field_value):
+        field_value = field_value.replace("\n", " ")
+        return field_value
 
     def write_to_file(self, doc, start):
         from xml.etree import ElementTree as ET
         from xml.dom import minidom
         import io
-        writepath = self.write_dir + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
+        writepath = self.get_writepath(start)
         roughstring = ET.tostring(doc, encoding='utf-8')
         reparsed = minidom.parseString(roughstring)
         reparsed = reparsed.toprettyxml(encoding='utf-8', indent="     ").decode('utf-8')
@@ -122,6 +128,9 @@ class ContextClassHarvester:
             writefile.write(reparsed)
             writefile.close()
         return writepath
+
+    def get_writepath(self, start):
+        return self.write_dir + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
 
     def grab_relevance_ratings(self, docroot, entity_id, entity_rows):
         hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
@@ -138,7 +147,7 @@ class ContextClassHarvester:
 
     def process_representation(self, docroot, entity_id, entity_rows):
         for characteristic in entity_rows['representation']:
-            if str(characteristic) not in self.field_map.keys():
+            if str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
                 continue
                 # if the entry is a dictionary, then the keys should be language codes
@@ -147,11 +156,11 @@ class ContextClassHarvester:
                     pref_label_count = 0
                     prev_alts = []
                     if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
-                        field_name = self.field_map[characteristic]['label']
+                        field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                         field_values = entity_rows['representation'][characteristic][lang]
                         for field_value in field_values:
                             q_field_name = field_name
-                            if(self.field_map[characteristic]['type'] == 'string'):
+                            if(ContextClassHarvester.FIELD_MAP[characteristic]['type'] == 'string'):
                                 q_field_name = field_name + "."+ lang
                             # Code snarl: we often have more than one prefLabel per language in the data
                             # We can also have altLabels
@@ -169,12 +178,12 @@ class ContextClassHarvester:
                                 self.add_payload(docroot, entity_id, entity_rows, lang)
                                 pref_label_count = 1
             elif(type(entity_rows['representation'][characteristic]) is list):
-                field_name = self.field_map[characteristic]['label']
+                field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                 for entry in entity_rows['representation'][characteristic]:
                     self.add_field(docroot, field_name, entry)
             else: # if a single value
                 try:
-                    field_name = self.field_map[characteristic]['label']
+                    field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                     field_value = entity_rows['representation'][characteristic]
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
@@ -196,7 +205,9 @@ class ContextClassHarvester:
 class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
+        import sys, os
         ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
         self.relevance_counter = RelevanceCounter.ConceptRelevanceCounter()
 
@@ -224,8 +235,8 @@ class ConceptHarvester(ContextClassHarvester):
 class AgentHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys
-        sys.path.append('ranking_metrics')
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
@@ -266,8 +277,8 @@ class AgentHarvester(ContextClassHarvester):
 class PlaceHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys
-        sys.path.append('ranking_metrics')
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
@@ -294,24 +305,34 @@ class PlaceHarvester(ContextClassHarvester):
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)
 
-class IndividualEntityBuilder():
+class IndividualEntityBuilder:
+    import os, shutil
 
-    def build_individual_entity(self, entity_id):
+    TESTDIR = os.path.join(os.path.dirname(__file__), '..', 'tests', 'testfiles', 'dynamic')
+
+    def build_individual_entity(self, entity_id, is_test=False):
         from pymongo import MongoClient
+        import os, shutil
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
         entity_rows = self.client.annocultor_db.TermList.find_one({ "codeUri" : entity_id })
         entity_chunk = {}
         entity_chunk[entity_id] = entity_rows
-        try:
-            rawtype = entity_rows['entityType']
-            if(rawtype == 'PlaceImpl'):
-                harvester = PlaceHarvester()
-            elif(rawtype == 'AgentImpl'):
-                harvester = AgentHarvester()
-            else:
-                harvester = ConceptHarvester()
-            harvester.build_solr_doc(entity_chunk, int(entity_id.split("/")[-1]))
-            print("Entity " + entity_id + " written to " + rawtype[:-4] + " file.")
-        except Exception as e:
-            print("No entity with that ID found in database. " + str(e))
-            return
+        rawtype = entity_rows['entityType']
+        if(rawtype == 'PlaceImpl'):
+            harvester = PlaceHarvester()
+        elif(rawtype == 'AgentImpl'):
+            harvester = AgentHarvester()
+        else:
+            harvester = ConceptHarvester()
+        start = int(entity_id.split("/")[-1])
+        harvester.build_solr_doc(entity_chunk, start)
+        print("Entity " + entity_id + " written to " + rawtype[0:-4].lower() + "_" + str(start) + ".xml file.")
+        if(is_test):
+            current_location = harvester.get_writepath(start)
+            namebits = entity_id.split("/")
+            newname = namebits[-3] + "_" + namebits[-1] + ".xml"
+            shutil.copyfile(current_location, IndividualEntityBuilder.TESTDIR + "/" + newname)
+            os.remove(current_location) # cleaning up
+#        except Exception as e:
+#            print("No entity with that ID found in database. " + str(e))
+#            return

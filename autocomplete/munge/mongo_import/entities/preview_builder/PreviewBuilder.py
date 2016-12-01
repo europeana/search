@@ -1,19 +1,20 @@
 import xml.etree.ElementTree as ET
-
+import os
 
 class PreviewBuilder:
 
-    tree = ET.parse('preview_builder/professions.rdf')
+    tree = ET.parse(os.path.join(os.path.dirname(__file__), 'professions.rdf'))
 
     PROFESSIONS = tree.getroot()
     ns = {'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'skos':'http://www.w3.org/2004/02/skos/core#', 'xml':'http://www.w3.org/XML/1998/namespace'}
 
     def __init__(self):
         from pymongo import MongoClient
-        from ContextClassHarvesters import ContextClassHarvester
+        from entities.ContextClassHarvesters import ContextClassHarvester
+        import sys, os
         import yaml
         self.mongoclient = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
-        with open('preview_builder/fieldconfig.yml') as yml:
+        with open(os.path.join(os.path.dirname(__file__), 'fieldconfig.yml')) as yml:
             self.field_config = yaml.load(yml)
 
     def build_preview(self, entity_type, entity_id, entity_rows, language):

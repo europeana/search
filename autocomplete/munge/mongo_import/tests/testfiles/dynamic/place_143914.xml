@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/place/base/143914</field>
+          <field name="internal_type">Place</field>
+          <field name="skos_prefLabel.it">Ferrara</field>
+          <field name="payload.it">{&quot;isPartOf&quot;: [{&quot;id&quot;: &quot;http://data.europeana.eu/place/base/92&quot;, &quot;prefLabel&quot;: &quot;Repubblica Italiana&quot;}, {&quot;id&quot;: &quot;http://data.europeana.eu/place/base/143931&quot;, &quot;prefLabel&quot;: &quot;Emilia-Romagna&quot;}], &quot;id&quot;: &quot;http://data.europeana.eu/place/base/143914&quot;, &quot;type&quot;: &quot;Place&quot;, &quot;prefLabel&quot;: &quot;Ferrara&quot;}</field>
+          <field name="altLabel.it">Provincia di Ferrara</field>
+          <field name="skos_prefLabel.fr">Ferrare</field>
+          <field name="payload.fr">{&quot;isPartOf&quot;: [{&quot;id&quot;: &quot;http://data.europeana.eu/place/base/92&quot;, &quot;prefLabel&quot;: &quot;Repubblica Italiana&quot;}, {&quot;id&quot;: &quot;http://data.europeana.eu/place/base/143931&quot;, &quot;prefLabel&quot;: &quot;Emilia-Romagna&quot;}], &quot;id&quot;: &quot;http://data.europeana.eu/place/base/143914&quot;, &quot;type&quot;: &quot;Place&quot;, &quot;prefLabel&quot;: &quot;Ferrare&quot;}</field>
+          <field name="dcterms_isPartOf">http://data.europeana.eu/place/base/92</field>
+          <field name="dcterms_isPartOf">http://data.europeana.eu/place/base/143931</field>
+          <field name="owl_sameAs">http://sws.geonames.org/3177088/</field>
+          <field name="skos_altLabel.def">Ferrara</field>
+          <field name="skos_altLabel.def">Provincia di Ferrara</field>
+          <field name="wgs84_pos_lat">44.79999923706055</field>
+          <field name="wgs84_pos_long">11.833330154418945</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">9425</field>
+          <field name="wikipedia_clicks">-1</field>
+          <field name="derived_score">0</field>
+          <field name="suggest_filters">Place</field>
+          <field name="suggest_filters">in_europeana</field>
+     </doc>
+</add>
