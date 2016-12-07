@@ -280,7 +280,7 @@ def update_entity_class(db):
     Updates the metric information for every entity in the passed db.
     """
     csr = db.cursor()
-    qry = """ SELECT * FROM hits"""
+    qry = """ SELECT * FROM hits """
     for row in csr.execute(qry):
         entity_id = row[0]
         ncsr = db.cursor()
@@ -364,6 +364,24 @@ def update_places_with_wk_hits():
         csr2.execute(upd)
         db.commit()
 
+def update_place_sanity_check():
+    e = "http://data.europeana.eu/place/base/41947"
+    db = sqlite3.connect("../db/place.db")
+    csr = db.cursor()
+    update_entity(e, csr)
+    db.commit()
+    ncsr = db.cursor()
+    qry = "SELECT * FROM HITS WHERE id=\"" + e + "\""
+    for row in ncsr.execute(qry):
+        print("ID is " + row[0])
+        print("Wikipedia Hits: " + str(row[1]))
+        print("Enrichment Hits: " + str(row[2]))
+        print("String Hits: " + str(row[3]))
+
+
+
+
+
 
 # load_agent_files()
 # test_db_working('place')
@@ -371,6 +389,7 @@ def update_places_with_wk_hits():
 # load_concept_files()
 # enrichment_sanity_check()
 update_place_counts()
-update_agent_counts()
-update_concept_counts()
+# update_agent_counts()
+# update_concept_counts()
 # update_places_with_wk_hits()
+# update_place_sanity_check()
