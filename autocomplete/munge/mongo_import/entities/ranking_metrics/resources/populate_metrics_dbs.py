@@ -375,6 +375,6 @@ def update_places_with_wk_hits():
 #update_concept_counts()
 # update_places_with_wk_hits()
 update_place_counts()
-update_agent_counts()
-update_concept_counts()
+#update_agent_counts()
+#update_concept_counts()
 # update_places_with_wk_hits()
