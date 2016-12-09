@@ -7,6 +7,7 @@
 # data of the imported entities itself.
 #
 #=========================================================================#
+
 import requests, json, os, sys, re
 from pymongo import MongoClient
 import entities.ContextClassHarvesters
@@ -26,20 +27,40 @@ IFM = {}
 for k, v in FM.items():
     IFM[v] = k
 
+class StatusReporter:
+
+    def __init__(self, status, test_name, entity_id, msg):
+        self.status = status
+        self.test_name = test_name
+        self.entity_id = entity_id
+        self.msg = msg
+
+    def display(suppress_stdout=False, log_to_file=False):
+        msg = self.test_name + " "
+        if(self.status == "OK"):
+            msg += "PASSED"
+        else:
+            msg += "FAILED"
+        msg += " on " + self.entity_id + ": " + self.msg
+        if(not(suppress_stdout)): print(msg + "\n")
+        if(log_to_file):
+            filepath =  os.path.join(os.path.dirname(__file__), '..', 'logs', 'import_tests', 'transform.log')
+            with open(filepath, 'a') as l:
+                l.write(msg + "\n")
+
 # basic sanity check on entity count numbers
 # check total
 # check each entity type's counts
 
 def test_totals():
 
-    # Get total from Mongo
+    # checking to make sure all entities successfully imported
     total_mongo_entities = int(moclient.annocultor_db.TermList.find({}).count())
     total_solr_entities = get_solr_total()
     if (total_mongo_entities == total_solr_entities):
-        print("Total count for Mongo and Solr datastores is: " + str(total_mongo_entities))
-        return True
+        return [StatusReporter("OK", "Test Totals", "All entities", "Totals match: " + str(total_mongo_entities) + " in both datastores")]
     else:
-        output_discrepancy(total_solr_entities, "Mongo", total_mongo_entities)
+        return [output_discrepancy(total_solr_entities, "Mongo", total_mongo_entities)]
     return False
 
 def get_solr_total():
@@ -48,7 +69,7 @@ def get_solr_total():
         return int(requests.get(slr_qry).json()['response']['numFound'])
     except Exception as e:
         print("Failure to parse Solr server response: " + str(e))
-        return -1
+        exit
 
 # tests on a couple of entities of each type
 def test_transform():
@@ -63,15 +84,17 @@ def test_transform():
     ]
     for test_entity in test_entities:
         ieb.build_individual_entity(test_entity, is_test=True)
-    test_files_against_mongo('dynamic')
-    return False
+    errors = test_files_against_mongo('dynamic')
+    errors.append(test_json_formation('dynamic'))
+    return errors
 
 def test_against_reference():
-    test_files_against_mongo('reference')
-    return False
+    errors = test_files_against_mongo('reference')
+    errors.append(test_json_formation('reference'))
+    return errors
 
 def test_files_against_mongo(filedir='reference'):
-
+    status_reports = []
     fullpath = os.path.join(os.path.dirname(__file__), 'testfiles', filedir)
     for filename in os.listdir(fullpath):
         struct = ET.parse(os.path.join(fullpath, filename))
@@ -103,9 +126,15 @@ def test_files_against_mongo(filedir='reference'):
         # first, we check the fields
         missing_from_mongo = [xml_key for xml_key in from_xml.keys() if (trim_lang_tag(xml_key) in IFM.keys() and xml_to_mongo(xml_key) not in from_mongo.keys())]
         missing_from_xml = [mog_key for mog_key in from_mongo.keys() if (trim_lang_tag(mog_key) in FM.keys() and mongo_to_xml(mog_key) not in from_xml.keys())]
-        print("Attribute report for entity " + from_xml["internal_type"][0] + " " + from_xml["id"][0].split("/")[-1])
-        print("Missing from mongo: " + str(missing_from_mongo))
-        print("Missing from XML: " + str(missing_from_xml))
+        if(len(missing_from_mongo) > 0 or len(missing_from_xml) > 0):
+            et = from_xml["internal_type"][0] + " " + from_xml["id"][0].split("/")[-1])
+            msg = ["Missing from mongo: " + str(missing_from_mongo)] ]
+            msg.append("Missing from XML: " + str(missing_from_xml))
+            test_name = "Test " + filedir + " files against Mongo"
+            msg = "; ".join(msg)
+            sr = StatusReporter("BAD", test_name, et, msg)
+            status_reports.append(sr)
+    return status_reports
 
 def trim_lang_tag(field_name):
     return field_name.split(".")[0]
@@ -131,7 +160,6 @@ def mongo_to_xml(field_name):
 def test_mandatory_fields():
     # note that there are no mandatory fields defined
     # for individual contextual classes
-
     errors = []
     mandatory_fields = ['id', 'internal_type', 'europeana_doc_count'
                         'europeana_term_hits', 'wikipedia_clicks', 'suggest_filters',
@@ -147,31 +175,28 @@ def test_mandatory_fields():
             exit
         mlogo = "Mandatory " + mfield + " field"
         disc = output_discrepancy(total_docs, mlogo, mfield_total)
-        if(disc != 0):
-            errors.append(mfield)
+        if(disc.status == "BAD"):
+            errors.append(disc)
     if (len(errors) == 0):
-        print("************************************")
-        print("All mandatory fields fully populated")
-        print("************************************")
-        return True
-    return False
+        errors.append(StatusReporter("OK", "Mandatory Field Test", "All Entities", "All mandatory fields fully populated."))
+    return errors
 
 def output_discrepancy(solr_total, comparator_name, comparator_count, log=False):
     discrepancy = abs(solr_total - comparator_count)
     if (discrepancy == 0):
-        print("=====================================")
-        print("Solr and " + comparator_name + " counts tally")
+        return StatusReporter("OK", comparator_name + " Tally", "All Entities", "Solr and " + comparator_name + " counts tally")
     else:
-        print("=====================================")
-        print("WARNING: Count mismatch between complete Solr count and " + comparator_name)
-        print("Solr (all documents): " + str(solr_total))
-        print(comparator_name + ": " + str(comparator_count))
-        print("Discrepancy: " + str(discrepancy))
-        print("======================================")
-    return int(discrepancy)
+        msg = ["WARNING: Count mismatch between complete Solr count and " + comparator_name]
+        msg.append("Solr (all documents): " + str(solr_total))
+        msg.append("Solr (all documents): " + str(solr_total))
+        msg.append(comparator_name + ": " + str(comparator_count))
+        msg.append("Discrepancy: " + str(discrepancy))
+        msg = "; ".join(msg)
+        return StatusReporter("BAD", comparator_name + " Tally", "All Entities", msg)
 
 # test no newlines in output
-def test_json_formation(filedir='reference'):
+def test_json_formation(filedir='dynamic'):
+    errors = []
     fullpath = os.path.join(os.path.dirname(__file__), 'testfiles', filedir)
     for filename in os.listdir(fullpath):
         struct = ET.parse(os.path.join(fullpath, filename))
@@ -182,7 +207,8 @@ def test_json_formation(filedir='reference'):
         for field in doc[0].iter('field'):
             text = field.text
             fieldname = field.attrib['name']
-            # payload fields contain JSON objects so need to be handled differently
+            # payload fields contain JSON objects so escaping needs
+            # different handling
             if(fieldname.startswith("payload")):
                 teststring = "{\"" + fieldname + "\":" + text + "}"
                 textbits = text.split('":')
@@ -199,8 +225,15 @@ def test_json_formation(filedir='reference'):
             try:
                 as_json = json.loads(teststring)
             except ValueError as ve:
-                print(text)
-                print("============================================")
-                print("Field " + fieldname + " with value " + text + " is not valid JSON")
-                print("-------------------")
-test_json_formation()
+                entity_id = from_xml["internal_type"] + str(from_xml["id"].split("/")[-1])
+                errors.append(StatusReporter("BAD", "JSON validity test", entity_id, "Field " + fieldname + " with value " + text + " is not valid JSON"))
+    return errors
+
+def run_test_suite():
+    errors = []
+    errors.append(test_totals())
+    errors.append(test_transform())
+    errors.append(test_mandatory_fields())
+    errors.append(test_files_against_mongo())
+    for error in errors:
+        error.display()
