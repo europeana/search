@@ -1,13 +1,13 @@
 # ========================================================================#
 #
-# Tests to ensure import process is running correctly.
+# Tests to ensure import process has run correctly.
 #
 # Note the scope of these tests: they test only that the import process
 # is yielding the expected output. They do nothing to validate the
-# data of the imported entities.
+# data of the imported entities itself.
 #
 #=========================================================================#
-import requests, json, os, sys
+import requests, json, os, sys, re
 from pymongo import MongoClient
 import entities.ContextClassHarvesters
 import xml.etree.ElementTree as ET
@@ -35,7 +35,6 @@ def test_totals():
     # Get total from Mongo
     total_mongo_entities = int(moclient.annocultor_db.TermList.find({}).count())
     total_solr_entities = get_solr_total()
-
     if (total_mongo_entities == total_solr_entities):
         print("Total count for Mongo and Solr datastores is: " + str(total_mongo_entities))
         return True
@@ -64,13 +63,14 @@ def test_transform():
     ]
     for test_entity in test_entities:
         ieb.build_individual_entity(test_entity, is_test=True)
+    test_files_against_mongo('dynamic')
     return False
 
 def test_against_reference():
     test_files_against_mongo('reference')
     return False
 
-def test_files_against_mongo(filedir):
+def test_files_against_mongo(filedir='reference'):
 
     fullpath = os.path.join(os.path.dirname(__file__), 'testfiles', filedir)
     for filename in os.listdir(fullpath):
@@ -78,7 +78,7 @@ def test_files_against_mongo(filedir):
         # we can assume a document of the structure [root]/add/doc/field
         # with there being only one <doc> element per document
 
-        # first we create a hash of the xml structure
+        # first we create a hash of the xml structure ...
         doc = struct.getroot().findall('doc')
         all_fields = set([field.attrib['name'] for field in doc[0].iter('field')])
         from_xml = {}
@@ -86,6 +86,7 @@ def test_files_against_mongo(filedir):
             rel_fields = doc[0].findall('field[@name="' + field + '"]')
             vals = [rel_field.text for rel_field in rel_fields]
             from_xml[field] = vals
+        # ... then of the structure in mongo
         from_mongo = {}
         mongo_rec = moclient.annocultor_db.TermList.find_one({ 'codeUri' : from_xml['id'][0]})
         mongo_rep = mongo_rec['representation']
@@ -102,6 +103,7 @@ def test_files_against_mongo(filedir):
         # first, we check the fields
         missing_from_mongo = [xml_key for xml_key in from_xml.keys() if (trim_lang_tag(xml_key) in IFM.keys() and xml_to_mongo(xml_key) not in from_mongo.keys())]
         missing_from_xml = [mog_key for mog_key in from_mongo.keys() if (trim_lang_tag(mog_key) in FM.keys() and mongo_to_xml(mog_key) not in from_xml.keys())]
+        print("Attribute report for entity " + from_xml["internal_type"][0] + " " + from_xml["id"][0].split("/")[-1])
         print("Missing from mongo: " + str(missing_from_mongo))
         print("Missing from XML: " + str(missing_from_xml))
 
@@ -167,9 +169,38 @@ def output_discrepancy(solr_total, comparator_name, comparator_count, log=False)
         print("Discrepancy: " + str(discrepancy))
         print("======================================")
     return int(discrepancy)
-# well-formedness and validity of payload JSON
-# including in particular lack of line breaks in payload
-def test_json_formation():
-    return False
 
-test_against_reference()
+# test no newlines in output
+def test_json_formation(filedir='reference'):
+    fullpath = os.path.join(os.path.dirname(__file__), 'testfiles', filedir)
+    for filename in os.listdir(fullpath):
+        struct = ET.parse(os.path.join(fullpath, filename))
+        doc = struct.getroot().findall('doc')
+        from_xml = {}
+        even = False
+        view = ""
+        for field in doc[0].iter('field'):
+            text = field.text
+            fieldname = field.attrib['name']
+            # payload fields contain JSON objects so need to be handled differently
+            if(fieldname.startswith("payload")):
+                teststring = "{\"" + fieldname + "\":" + text + "}"
+                textbits = text.split('":')
+                for bit in textbits:
+                    if(even and '"' in bit):
+                        firstbit = bit[:bit.find('"')]
+                        lastbit = bit[bit.rfind('"'):]
+                        midbit = bit[bit.find('"'):bit.rfind('"')].replace('"', "'")
+                    even = not(even)
+                text = '":'.join(textbits)
+            else:
+                text = text.replace('"', "'")
+                teststring = "{\"" + fieldname + "\":\"" + text + "\"}"
+            try:
+                as_json = json.loads(teststring)
+            except ValueError as ve:
+                print(text)
+                print("============================================")
+                print("Field " + fieldname + " with value " + text + " is not valid JSON")
+                print("-------------------")
+test_json_formation()
