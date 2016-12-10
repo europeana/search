@@ -158,7 +158,6 @@ def mongo_to_xml(field_name):
         lang_qualifier = ""
     return FM[unqualified_field] + lang_qualifier
 
-
 # presence of mandatory fields
 def test_mandatory_fields():
     # note that there are no mandatory fields defined
@@ -239,3 +238,31 @@ def run_test_suite(suppress_stdout=False, log_to_file=False):
     errors.extend(test_mandatory_fields())
     errors.extend(test_files_against_mongo())
     for error in errors: error.display(suppress_stdout, log_to_file)
+
+def report_filecount_discrepancy():
+    all_mongo_ids = []
+    all_solr_ids = []
+    all_records = moclient.annocultor_db.TermList.find({})
+    count = 0
+    for record in all_records:
+        try:
+            all_mongo_ids.append(record['codeUri'])
+        except:
+            pass
+        count += 1
+        if(count % 10000 == 0): print(str(count) + " Mongo records processed.")
+    solr_count = get_solr_total()
+    query_block = 250
+    for i in range(0, int(solr_count) + query_block, query_block):
+        qry = SOLR_URI + "*:*&fl=id&rows=" + str(query_block) + "&start=" + str(i)
+        qry = qry.replace("&rows=0", "")
+        resp = requests.get(qry).json()
+        for doc in resp['response']['docs']:
+            all_solr_ids.append(doc['id'])
+        if(i % 10000 == 0): print(str(i) + " Solr records processed.")
+    missing_ids = set(all_mongo_ids).difference(set(all_solr_ids))
+    filepath =  os.path.join(os.path.dirname(__file__), '..', 'logs', 'import_tests', 'missing_entities.log')
+    with open(filepath, 'w') as missids:
+        for id in missing_ids: missids.write(id + "\n")
+def report_field_discrepancy(fieldname):
+    pass
