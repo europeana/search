@@ -188,6 +188,34 @@ def test_mandatory_fields():
         errors.append(StatusReporter("OK", "Mandatory Field Test", "All Entities", "All mandatory fields fully populated."))
     return errors
 
+# every Contextual class has an attribute which it would normally be expected to have
+# even though its use is not required. This function checks to ensure that representative Entities
+# lacking this field in Solr are also lacking it in Mongo
+def test_expected_fields():
+    expected = {
+        'Agent' : ['rdagr2_dateOfBirth', 'rdagr2_biographicalInformation'],
+        'Place' : ['dcterms_isPartOf', 'wgs84_pos_lat', 'wgs84_pos_long'],
+        'Concept' : ['skos_note']
+    }
+    errors = []
+    x_qry = SOLR_URI.replace("rows=0", "rows=5")
+    for ent_type, expected_fields in expected.items():
+        for field in expected_fields:
+            qm = "-" + field + ":*&fl=id&fq=" + ent_type
+            qqry = x_qry + qm
+            try:
+                qresp = requests.get(qqry).json()['response']['docs']
+            except:
+                print("Test INCOMPLETE: connection to Solr server failed.")
+                system.exit()
+            missings = [doc['id'] for doc in qresp]
+            for missing in missings:
+                mongo_field = "representation." + IFM[field]
+                mqresp = moclient.annocultor_db.TermList.find_one({ "$and" :[{"codeUri" : missing }, { mongo_field : { "$exists" : True }} ]})
+                if(mqresp is not None):
+                    errors.append(StatusReporter("BAD", "Expected field test", missing, "Entity " + missing + " missing " + field + " field but field is present in Mongo."))
+    return errors
+
 def output_discrepancy(solr_total, comparator_name, comparator_count, log=False):
     discrepancy = abs(solr_total - comparator_count)
     if (discrepancy == 0):
@@ -242,6 +270,7 @@ def run_test_suite(suppress_stdout=False, log_to_file=False):
     errors.extend(test_transform())
     errors.extend(test_against_reference())
     errors.extend(test_mandatory_fields())
+    errors.extend(test_expected_fields())
     errors.extend(test_files_against_mongo())
     for error in errors: error.display(suppress_stdout, log_to_file)
 
