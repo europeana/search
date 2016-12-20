@@ -10,7 +10,7 @@ class PreviewBuilder:
 
     def __init__(self):
         from pymongo import MongoClient
-        from entities.ContextClassHarvesters import ContextClassHarvester
+        from ContextClassHarvesters import ContextClassHarvester
         import sys, os
         import yaml
         self.mongoclient = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
