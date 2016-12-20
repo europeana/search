@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-import os
+import os, re
 
 class PreviewBuilder:
 
@@ -25,7 +25,23 @@ class PreviewBuilder:
         preview_fields['type'] = entity_type
         for field in fields_to_build:
             val = getattr(self, 'build_' + field)(entity_rows, language, preview_fields)
+        preview_fields['max_recall'] = self.build_max_recall(preview_fields['prefLabel'])
         return json.dumps(preview_fields)
+
+    def build_max_recall(self, term):
+        all_terms = [term]
+        if(',' in term):
+            term_bits = term.strip().split(',')
+            term_bits.reverse()
+            reversed_term = " ".join(term_bits)
+        else:
+            term_bits = term.strip().split()
+            term_bits.insert(0, term_bits.pop())
+            term_bits[0] = term_bits[0] + ","
+            reversed_term = " ".join(term_bits)
+        reversed_term = re.sub("\s+", " ", reversed_term.strip())
+        all_terms.append(reversed_term)
+        return all_terms
 
     def build_prefLabel(self, entity_rows, language, preview_fields):
         lang_key = 'def' if language not in entity_rows['representation']['prefLabel'] else language
