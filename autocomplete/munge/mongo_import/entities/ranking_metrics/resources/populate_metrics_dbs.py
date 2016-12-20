@@ -278,7 +278,7 @@ def update_entity_class(db):
     Updates the metric information for every entity in the passed db.
     """
     csr = db.cursor()
-    qry = """ SELECT * FROM hits WHERE id="http://data.europeana.eu/place/base/42377" """
+    qry = """ SELECT * FROM hits """
     for row in csr.execute(qry):
         entity_id = row[0]
         ncsr = db.cursor()
