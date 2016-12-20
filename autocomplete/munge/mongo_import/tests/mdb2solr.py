@@ -56,7 +56,7 @@ class StatusReporter:
 def test_totals():
 
     # checking to make sure all entities successfully imported
-    total_mongo_entities = int(moclient.annocultor_db.TermList.find({}).count())
+    total_mongo_entities = int(moclient.annocultor_db.TermList.find({ "codeUri" : { "$regex" : "http://data.europeana.eu/.*" }}).count())
     total_solr_entities = get_solr_total()
     if (total_mongo_entities == total_solr_entities):
         return [StatusReporter("OK", "Test Totals", "All entities", "Totals match: " + str(total_mongo_entities) + " in both datastores")]
@@ -70,7 +70,7 @@ def get_solr_total():
         return int(requests.get(slr_qry).json()['response']['numFound'])
     except Exception as e:
         print("Failure to parse Solr server response: " + str(e))
-        exit
+        system.exit()
 
 # tests on a couple of entities of each type
 def test_transform():
@@ -83,12 +83,16 @@ def test_transform():
          "http://data.europeana.eu/concept/base/214",   # Neoclassicism
          "http://data.europeana.eu/concept/base/207"    # Byzantine art
     ]
+    # dynamically generte a file for each entity
     for test_entity in test_entities:
         ieb.build_individual_entity(test_entity, is_test=True)
+    # compare these entities to their Mongo representation
     errors = test_files_against_mongo('dynamic')
     errors.extend(test_json_formation('dynamic'))
     return errors
 
+# Compares stable files found in the testfiles/reference directory against
+# their representation in Mongo
 def test_against_reference():
     errors = test_files_against_mongo('reference')
     errors.extend(test_json_formation('reference'))
@@ -139,6 +143,8 @@ def test_files_against_mongo(filedir='reference'):
             status_reports.append(sr)
     return status_reports
 
+# Various utility functions facilitating comparison between Mongo and Solr
+# entity representations
 def trim_lang_tag(field_name):
     return field_name.split(".")[0]
 
@@ -158,7 +164,7 @@ def mongo_to_xml(field_name):
         lang_qualifier = ""
     return FM[unqualified_field] + lang_qualifier
 
-# presence of mandatory fields
+# check presence of mandatory fields
 def test_mandatory_fields():
     # note that there are no mandatory fields defined
     # for individual contextual classes
@@ -173,13 +179,41 @@ def test_mandatory_fields():
             mfield_total = int(requests.get(qry).json()['response']['numFound'])
         except Exception as e:
             print("Could not parse response string: " + str(e))
-            exit
+            system.exit()
         mlogo = "Mandatory " + mfield + " field"
         disc = output_discrepancy(total_docs, mlogo, mfield_total)
         if(disc.status == "BAD"):
             errors.append(disc)
     if (len(errors) == 0):
         errors.append(StatusReporter("OK", "Mandatory Field Test", "All Entities", "All mandatory fields fully populated."))
+    return errors
+
+# every Contextual class has an attribute which it would normally be expected to have
+# even though its use is not required. This function checks to ensure that representative Entities
+# lacking this field in Solr are also lacking it in Mongo
+def test_expected_fields():
+    expected = {
+        'Agent' : ['rdagr2_dateOfBirth', 'rdagr2_biographicalInformation'],
+        'Place' : ['dcterms_isPartOf', 'wgs84_pos_lat', 'wgs84_pos_long'],
+        'Concept' : ['skos_note']
+    }
+    errors = []
+    x_qry = SOLR_URI.replace("rows=0", "rows=5")
+    for ent_type, expected_fields in expected.items():
+        for field in expected_fields:
+            qm = "-" + field + ":*&fl=id&fq=" + ent_type
+            qqry = x_qry + qm
+            try:
+                qresp = requests.get(qqry).json()['response']['docs']
+            except:
+                print("Test INCOMPLETE: connection to Solr server failed.")
+                system.exit()
+            missings = [doc['id'] for doc in qresp]
+            for missing in missings:
+                mongo_field = "representation." + IFM[field]
+                mqresp = moclient.annocultor_db.TermList.find_one({ "$and" :[{"codeUri" : missing }, { mongo_field : { "$exists" : True }} ]})
+                if(mqresp is not None):
+                    errors.append(StatusReporter("BAD", "Expected field test", missing, "Entity " + missing + " missing " + field + " field but field is present in Mongo."))
     return errors
 
 def output_discrepancy(solr_total, comparator_name, comparator_count, log=False):
@@ -194,7 +228,7 @@ def output_discrepancy(solr_total, comparator_name, comparator_count, log=False)
         msg = "; ".join(msg)
         return StatusReporter("BAD", comparator_name + " Tally", "All Entities", msg)
 
-# test no newlines in output
+# test JSON is valid
 def test_json_formation(filedir):
     errors = []
     fullpath = os.path.join(os.path.dirname(__file__), 'testfiles', filedir)
@@ -236,13 +270,15 @@ def run_test_suite(suppress_stdout=False, log_to_file=False):
     errors.extend(test_transform())
     errors.extend(test_against_reference())
     errors.extend(test_mandatory_fields())
+    errors.extend(test_expected_fields())
     errors.extend(test_files_against_mongo())
     for error in errors: error.display(suppress_stdout, log_to_file)
 
+# generates a list of all IDs found in Mongo but not in Solr and writes it to file
 def report_filecount_discrepancy():
     all_mongo_ids = []
     all_solr_ids = []
-    all_records = moclient.annocultor_db.TermList.find({})
+    all_records = moclient.annocultor_db.TermList.find({ "codeUri" : { "$regex" : "http://data.europeana.eu/.*" }})
     count = 0
     for record in all_records:
         try:
@@ -256,13 +292,59 @@ def report_filecount_discrepancy():
     for i in range(0, int(solr_count) + query_block, query_block):
         qry = SOLR_URI + "*:*&fl=id&rows=" + str(query_block) + "&start=" + str(i)
         qry = qry.replace("&rows=0", "")
-        resp = requests.get(qry).json()
-        for doc in resp['response']['docs']:
-            all_solr_ids.append(doc['id'])
-        if(i % 10000 == 0): print(str(i) + " Solr records processed.")
+        try:
+            resp = requests.get(qry).json()
+            for doc in resp['response']['docs']:
+                all_solr_ids.append(doc['id'])
+        except:
+            print("Test INCOMPLETE: connection to Solr server failed.")
+            system.exit()
+        if(i % 10000 == 0 and i > 0): print(str(i) + " Solr records processed.")
     missing_ids = set(all_mongo_ids).difference(set(all_solr_ids))
     filepath =  os.path.join(os.path.dirname(__file__), '..', 'logs', 'import_tests', 'missing_entities.log')
     with open(filepath, 'w') as missids:
         for id in missing_ids: missids.write(id + "\n")
-def report_field_discrepancy(fieldname):
-    pass
+
+# generates a list of Solr documents missing the passed field, and writes it to file
+def report_missing_fields(fieldname):
+    # to avoid an expensive query, we first check whether *any* documents have
+    # the field in question, or if *all* of them do.
+    all = "*:*"
+    all_qry = SOLR_URI  + all
+    try:
+        all_count = requests.get(all_qry).json()['response']['numFound']
+    except:
+        print("Test INCOMPLETE: connection to Solr server failed.")
+        sys.exit()
+    trm = "-" + fieldname + ":*"
+    qry = SOLR_URI + trm
+    try:
+        qual_count = requests.get(qry).json()['response']['numFound']
+    except:
+        print("Test INCOMPLETE: connection to Solr server failed.")
+        sys.exit()
+    strt_message = ""
+    if(qual_count == all_count):
+        strt_message = "All documents missing field " + str(fieldname) + "\n"
+    elif(qual_count == 0):
+        strt_message = "Field " + fieldname + " exists on all documents.\n"
+    filename = str(fieldname) + "_report.log"
+    filepath =  os.path.join(os.path.dirname(__file__), '..', 'logs', 'import_tests', filename)
+    with open(filepath, 'w') as report:
+        report.write(strt_message)
+        if(qual_count > 0 and qual_count < all_count):
+            missing = []
+            ntrm = "-" + fieldname + ":*"
+            nqry = SOLR_URI + ntrm
+            query_block = 250
+            nqry = nqry.replace("rows=0", "rows=" + str(query_block))
+            for i in range(0, int(qual_count + query_block), query_block):
+                mnqry = nqry + "&start=" + str(i)
+                try:
+                    nresp = requests.get(mnqry).json()
+                except:
+                    print("Test INCOMPLETE: connection to Solr server failed.")
+                    system.exit()
+                for doc in nresp['response']['docs']:
+                    missing.append(doc['id'])
+            for missing_id in missing: report.write(missing_id + "\n")
