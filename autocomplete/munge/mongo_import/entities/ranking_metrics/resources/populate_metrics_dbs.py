@@ -314,7 +314,10 @@ def get_label_count(entity_id):
     Returns the number of hits for a given entity's prefLabels
     """
     ent = moclient.annocultor_db.TermList.find_one({ 'codeUri' : entity_id })
-    ent_type = ent['entityType'].replace('Impl', '')
+    try:
+        ent_type = ent['entityType'].replace('Impl', '')
+    except:
+        return -1
     field = "who"
     if(ent_type == "Concept"): field = "what"
     if(ent_type == "Place"): field = "where"
