@@ -4,11 +4,11 @@ This directory is for tests of the Entity Collection as it exists in Solr.
 
 Note that this directory has a package/module structure. To run the tests, it will be necessary to
 
-* cd to the `entities` directory
+* cd to the `mongo_import` directory
 * start a REPL by entering `python3` at the command prompt
 * `from tests import [package]`
 
-You will then be able to invoke whatever functions are required within that package. For example, to run all the tests found in `mdb2solr_tests.py`:
+You will then be able to invoke whatever functions are required within that package. For example, to run all the tests found in `mdb2solr.py`:
 
 * `from tests import mdb2solr as m2s`
 * `m2s.run_test_suite()`
