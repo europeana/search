@@ -13,7 +13,8 @@ from pymongo import MongoClient
 import entities.ContextClassHarvesters
 import xml.etree.ElementTree as ET
 
-SOLR_URI = "http://entity-api.eanadev.org:9292/solr/test/select?wt=json&rows=0&q="
+# SOLR_URI = "http://entity-api.eanadev.org:9292/solr/test/select?wt=json&rows=0&q="
+SOLR_URI = "http://144.76.218.178:9191/solr/ec_dev_cloud/select?wt=json&rows=0&q="
 MONGO_URI = "mongodb://136.243.103.29"
 MONGO_PORT = 27017
 moclient = MongoClient(MONGO_URI, MONGO_PORT)
@@ -70,7 +71,7 @@ def get_solr_total():
         return int(requests.get(slr_qry).json()['response']['numFound'])
     except Exception as e:
         print("Failure to parse Solr server response: " + str(e))
-        system.exit()
+        sys.exit()
 
 # tests on a couple of entities of each type
 def test_transform():
@@ -179,7 +180,7 @@ def test_mandatory_fields():
             mfield_total = int(requests.get(qry).json()['response']['numFound'])
         except Exception as e:
             print("Could not parse response string: " + str(e))
-            system.exit()
+            sys.exit()
         mlogo = "Mandatory " + mfield + " field"
         disc = output_discrepancy(total_docs, mlogo, mfield_total)
         if(disc.status == "BAD"):
@@ -207,7 +208,7 @@ def test_expected_fields():
                 qresp = requests.get(qqry).json()['response']['docs']
             except:
                 print("Test INCOMPLETE: connection to Solr server failed.")
-                system.exit()
+                sys.exit()
             missings = [doc['id'] for doc in qresp]
             for missing in missings:
                 mongo_field = "representation." + IFM[field]
@@ -298,7 +299,7 @@ def report_filecount_discrepancy():
                 all_solr_ids.append(doc['id'])
         except:
             print("Test INCOMPLETE: connection to Solr server failed.")
-            system.exit()
+            sys.exit()
         if(i % 10000 == 0 and i > 0): print(str(i) + " Solr records processed.")
     missing_ids = set(all_mongo_ids).difference(set(all_solr_ids))
     filepath =  os.path.join(os.path.dirname(__file__), '..', 'logs', 'import_tests', 'missing_entities.log')
@@ -344,7 +345,7 @@ def report_missing_fields(fieldname):
                     nresp = requests.get(mnqry).json()
                 except:
                     print("Test INCOMPLETE: connection to Solr server failed.")
-                    system.exit()
+                    sys.exit()
                 for doc in nresp['response']['docs']:
                     missing.append(doc['id'])
             for missing_id in missing: report.write(missing_id + "\n")
