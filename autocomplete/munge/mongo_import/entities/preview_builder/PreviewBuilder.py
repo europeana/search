@@ -10,6 +10,7 @@ class PreviewBuilder:
 
     def __init__(self):
         from pymongo import MongoClient
+        # note fixed import path
         from entities.ContextClassHarvesters import ContextClassHarvester
         import sys, os
         import yaml
@@ -25,7 +26,7 @@ class PreviewBuilder:
         preview_fields['type'] = entity_type
         for field in fields_to_build:
             val = getattr(self, 'build_' + field)(entity_rows, language, preview_fields)
-        preview_fields['max_recall'] = self.build_max_recall(preview_fields['prefLabel'])
+            preview_fields['max_recall'] = self.build_max_recall(preview_fields['prefLabel'])
         return json.dumps(preview_fields)
 
     def build_max_recall(self, term):
