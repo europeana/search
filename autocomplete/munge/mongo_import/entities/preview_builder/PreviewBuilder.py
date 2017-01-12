@@ -26,23 +26,44 @@ class PreviewBuilder:
         preview_fields['type'] = entity_type
         for field in fields_to_build:
             val = getattr(self, 'build_' + field)(entity_rows, language, preview_fields)
-            preview_fields['max_recall'] = self.build_max_recall(preview_fields['prefLabel'])
+            preview_fields['hiddenLabel'] = self.build_max_recall(entity_type, preview_fields['prefLabel'])
         return json.dumps(preview_fields)
 
-    def build_max_recall(self, term):
+    def build_max_recall(self, type, term):
+        # reimplements (with trim_term())
+        # https://github.com/europeana/uim-europeana/blob/master/workflow_plugins/
+        # europeana-uim-plugin-enrichment/src/main/java/eu/europeana/uim/enrichment/
+        # normalizer/AgentNormalizer.java
+        term = self.trim_term(term)
         all_terms = [term]
-        if(',' in term):
+        if(type != 'Agent'): # only agents need bibliographic inversion
+            return all_terms
+        elif(' ' not in term): # not possible to invert a single term
+            return all_terms
+        elif(',' in term):
             term_bits = term.strip().split(',')
             term_bits.reverse()
             reversed_term = " ".join(term_bits)
         else:
-            term_bits = term.strip().split()
+            term_bits = term.split()
             term_bits.insert(0, term_bits.pop())
             term_bits[0] = term_bits[0] + ","
             reversed_term = " ".join(term_bits)
         reversed_term = re.sub("\s+", " ", reversed_term.strip())
         all_terms.append(reversed_term)
         return all_terms
+
+    def trim_term(self, term):
+        term = term.strip()
+        if("(" in term):
+            term = term.split("(")[0]
+        elif("[" in term):
+            term = term.split("[")[0]
+        elif("<" in term):
+            term = term.split("<")[0]
+        elif(";" in term):
+            term = term.split(";")[0]
+        return term
 
     def build_prefLabel(self, entity_rows, language, preview_fields):
         lang_key = 'def' if language not in entity_rows['representation']['prefLabel'] else language

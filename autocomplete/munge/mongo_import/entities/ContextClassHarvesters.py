@@ -20,8 +20,10 @@ class LanguageValidator:
            # TODO: sort out the 'def' mess at some point
            self.log_invalid_lang_code(entity_id, 'def')
            return True
+       elif(code == ''):
+           self.log_invalid_lang_code(entity_id, 'Empty string')
+           return True
        else:
-           code = code if code != '' else 'No code provided'
            self.log_invalid_lang_code(entity_id, code)
            return False
 
@@ -161,22 +163,23 @@ class ContextClassHarvester:
                         field_values = entity_rows['representation'][characteristic][lang]
                         for field_value in field_values:
                             q_field_name = field_name
+                            unq_name = lang if lang != 'def' else ''
                             if(ContextClassHarvester.FIELD_MAP[characteristic]['type'] == 'string'):
-                                q_field_name = field_name + "."+ lang
+                                q_field_name = field_name + "."+ unq_name
                             # Code snarl: we often have more than one prefLabel per language in the data
                             # We can also have altLabels
                             # We want to shunt all but the first-encountered prefLabel into the altLabel field
                             # while ensuring the altLabels are individually unique
                             # TODO: Refactor (though note that this is a non-trivial refactoring)
                             if(characteristic == 'prefLabel' and pref_label_count > 0):
-                                q_field_name = "altLabel." + lang
+                                q_field_name = "skos_altLabel." + unq_name
                             if('altLabel' in q_field_name):
                                 if(field_value in prev_alts):
                                     continue
                                 prev_alts.append(field_value)
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0):
-                                self.add_payload(docroot, entity_id, entity_rows, lang)
+                                self.add_payload(docroot, entity_id, entity_rows, unq_name)
                                 pref_label_count = 1
             elif(type(entity_rows['representation'][characteristic]) is list):
                 field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
@@ -316,6 +319,7 @@ class IndividualEntityBuilder:
         import os, shutil
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
         entity_rows = self.client.annocultor_db.TermList.find_one({ "codeUri" : entity_id })
+        print(entity_rows)
         entity_chunk = {}
         entity_chunk[entity_id] = entity_rows
         rawtype = entity_rows['entityType']
@@ -327,7 +331,7 @@ class IndividualEntityBuilder:
             harvester = ConceptHarvester()
         start = int(entity_id.split("/")[-1])
         harvester.build_solr_doc(entity_chunk, start)
-        print("Entity " + entity_id + " written to " + rawtype[0:-4].lower() + "_" + str(start) + ".xml file.")
+        if(not(is_test)): print("Entity " + entity_id + " written to " + rawtype[0:-4].lower() + "_" + str(start) + ".xml file.")
         if(is_test):
             current_location = harvester.get_writepath(start)
             namebits = entity_id.split("/")
