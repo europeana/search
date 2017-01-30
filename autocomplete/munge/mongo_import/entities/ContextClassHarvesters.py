@@ -178,7 +178,7 @@ class ContextClassHarvester:
                                     continue
                                 prev_alts.append(field_value)
                             self.add_field(docroot, q_field_name, field_value)
-                            if(characteristic == 'prefLabel' and pref_label_count == 0):
+                            if(characteristic == 'prefLabel' and pref_label_count == 0 and unq_name != ""):
                                 self.add_payload(docroot, entity_id, entity_rows, unq_name)
                                 pref_label_count = 1
             elif(type(entity_rows['representation'][characteristic]) is list):
