@@ -18,9 +18,10 @@ SOLR_URI = "http://144.76.218.178:9191/solr/ec_dev_cloud/select?wt=json&rows=0&q
 MONGO_URI = "mongodb://136.243.103.29"
 MONGO_PORT = 27017
 moclient = MongoClient(MONGO_URI, MONGO_PORT)
+BIG_FM = entities.ContextClassHarvesters.ContextClassHarvester.FIELD_MAP
 # FM (FIELD_MAP) maps Mongo field names to XML @name values
 FM = {}
-for k, v in entities.ContextClassHarvesters.ContextClassHarvester.FIELD_MAP.items():
+for k, v in BIG_FM.items():
     FM[k] = v['label']
 
 # IFM (INVERTED_FIELD_MAP) maps XML @name values to Mongo field names
@@ -81,6 +82,7 @@ def test_transform():
          "http://data.europeana.eu/agent/base/146741",  # Leonardo da Vinci
          "http://data.europeana.eu/place/base/40361",   # Den Haag
          "http://data.europeana.eu/place/base/143914",  # Ferrara
+         "http://data.europeana.eu/place/base/216272",  # Japan
          "http://data.europeana.eu/concept/base/214",   # Neoclassicism
          "http://data.europeana.eu/concept/base/207"    # Byzantine art
     ]
@@ -114,27 +116,55 @@ def test_files_against_mongo(filedir='reference'):
         for field in all_fields:
             rel_fields = doc[0].findall('field[@name="' + field + '"]')
             vals = [rel_field.text for rel_field in rel_fields]
-            from_xml[field] = vals
+            # we need to normalise to 'def' for representing untagged string fields
+            normfield = field
+            if(field[-1] == "."):
+                normfield = field + "def"
+            elif("." not in field):
+                normfield = field + ".def"
+            from_xml[normfield] = vals
         # ... then of the structure in mongo
         from_mongo = {}
-        mongo_rec = moclient.annocultor_db.TermList.find_one({ 'codeUri' : from_xml['id'][0]})
+        mongo_rec = moclient.annocultor_db.TermList.find_one({ 'codeUri' : from_xml['id.def'][0]})
         mongo_rep = mongo_rec['representation']
         for mkey in mongo_rep.keys():
             mval = mongo_rep[mkey]
             if(type(mval) is list):
-                from_mongo[mkey] = [item for item in mval]
+                from_mongo[mkey + ".def"] = [item for item in mval]
             elif(type(mval) is dict):
                 for k, v in mval.items():
-                    from_mongo[mkey + "." + k] = [item for item in mval[k]]
+                    normfield = 'def' if k == '' else k
+                    from_mongo[mkey + "." + normfield] = [item for item in mval[k]]
             else: # if single value
-                from_mongo[mkey] = [mval]
+                from_mongo[mkey + ".def"] = [mval]
+        if(from_xml['id.def'][0] == "http://data.europeana.eu/agent/base/11241"):
+            print("!!!!!!!!!!!!!!!!!!!!!!!!!")
+            print(from_mongo)
+            print("˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜˜")
+            print(from_xml)
         # TODO: now that we have our hashes, we just have to compare them
         # first, we check the fields
         missing_from_mongo = [xml_key for xml_key in from_xml.keys() if (trim_lang_tag(xml_key) in IFM.keys() and xml_to_mongo(xml_key) not in from_mongo.keys())]
         missing_from_xml = [mog_key for mog_key in from_mongo.keys() if (trim_lang_tag(mog_key) in FM.keys() and mongo_to_xml(mog_key) not in from_xml.keys())]
+        # because extra prefLabels are converted to altLabels on import, we need
+        # to remove irrelevant altLabels from consideration
+        extra_alt_labels = [label for label in missing_from_mongo if 'skos_altLabel' in label]
+        for alt_label in extra_alt_labels:
+            langbit = alt_label.split(".")[1]
+            pref_label = "prefLabel." + langbit
+            try:
+                mongo_count = len(from_mongo[alt_label])
+            except:
+                mongo_count = 0
+            try:
+                mongo_count += len(from_mongo[pref_label])
+            except:
+                pass
+            xml_count = len(from_xml[alt_label])
+            if(xml_count == (mongo_count - 1)): missing_from_mongo.remove(alt_label)
         if(len(missing_from_mongo) > 0 or len(missing_from_xml) > 0):
-            entity_type = from_xml["internal_type"][0]
-            idno = from_xml["id"][0]
+            entity_type = from_xml["internal_type.def"][0]
+            idno = from_xml["id.def"][0]
             et = entity_type + " " + str(idno.split("/")[-1])
             msg = ["Missing from mongo: " + str(missing_from_mongo)]
             msg.append("Missing from XML: " + str(missing_from_xml))
@@ -262,7 +292,7 @@ def test_json_formation(filedir):
                 as_json = json.loads(teststring)
             except ValueError as ve:
                 entity_id = from_xml["internal_type"] + str(from_xml["id"].split("/")[-1])
-                errors.append(StatusReporter("BAD", "JSON validity test", entity_id, "Field " + fieldname + " with value " + text + " is not valid JSON"))
+                errors.append(StatusReporter("BAD", "JSON validity test ", entity_id, "Field " + fieldname + " with value " + text + " is not valid JSON"))
     return errors
 
 def run_test_suite(suppress_stdout=False, log_to_file=False):
