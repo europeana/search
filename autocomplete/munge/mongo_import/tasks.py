@@ -59,6 +59,7 @@ def build_agent_file(self, start):
 @app.task(name='mongo_import.get_place_count', bind=True, default_retry_delay=3, max_retries=5)
 def get_place_count(self):
     try:
+        from entities import ContextClassHarvesters
         ph = ContextClassHarvesters.PlaceHarvester()
         entity_count = ph.get_entity_count()
         return entity_count
@@ -72,6 +73,7 @@ def get_place_count(self):
 @app.task(name='mongo_import.build_place_file', bind=True, default_retry_delay=300, max_retries=5)
 def build_place_file(self, start):
     try:
+        from entities import ContextClassHarvesters
         pl = ContextClassHarvesters.PlaceHarvester()
         entity_list = pl.build_entity_chunk(start)
         status = pl.build_solr_doc(entity_list, start)

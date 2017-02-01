@@ -85,8 +85,6 @@ def load_agent_files():
     """
     MONGO_URI = "mongodb://136.243.103.29"
     MONGO_PORT = 27017
-    moclient = MongoClient(MONGO_URI, MONGO_PORT)
-    db = sqlite3.connect('../db/agent.db')
     csr = db.cursor()
     csr.execute("""
             CREATE TABLE IF NOT EXISTS hits (id VARCHAR(200) PRIMARY KEY, wikipedia_hits INTEGER, europeana_enrichment_hits INTEGER, europeana_string_hits INTEGER)
@@ -280,14 +278,14 @@ def update_entity_class(db):
     Updates the metric information for every entity in the passed db.
     """
     csr = db.cursor()
-    qry = """ SELECT * FROM hits WHERE id="http://data.europeana.eu/place/base/42377" """
+    qry = """ SELECT * FROM hits """
     for row in csr.execute(qry):
         entity_id = row[0]
         ncsr = db.cursor()
-        update_entity(entity_id, ncsr)
-        db.commit()
+        update_entity(entity_id, ncsr, db)
+   #     db.commit()
 
-def update_entity(entity_id, csr):
+def update_entity(entity_id, csr, db):
     """
     Updates the stored metric information for passed entity id
     """
@@ -295,11 +293,11 @@ def update_entity(entity_id, csr):
     lbl_hits = get_label_count(entity_id)
     upd = "UPDATE hits SET europeana_enrichment_hits=" + str(rich_hits) + ",europeana_string_hits=" + str(lbl_hits) + " WHERE id=\"" + entity_id + "\";"
     csr.execute(upd)
+    db.commit()
 
 def get_enrichment_count(entity_id):
     """
-    Returns the number of documents in Europeana collections enriched with
-    the relevant entity id
+
     """
     enrichment_query = SOLR_URI + "\"" + entity_id + "\""
     try:
@@ -391,8 +389,11 @@ def update_place_sanity_check():
 # load_place_files()
 # load_concept_files()
 # enrichment_sanity_check()
-update_place_counts()
+# update_place_counts()
 # update_agent_counts()
-# update_concept_counts()
+#update_concept_counts()
 # update_places_with_wk_hits()
-# update_place_sanity_check()
+update_place_counts()
+#update_agent_counts()
+#update_concept_counts()
+#update_place_sanity_check()

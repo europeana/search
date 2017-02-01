@@ -14,5 +14,5 @@ chunk_size = entities.ContextClassHarvesters.ContextClassHarvester.CHUNK_SIZE
 #export_agents = group(build_agent_file.s(i) for i in range(0, get_agent_count.delay().get(), chunk_size ))
 #export_agents()
 
-export_places = group(build_place_file.s(i) for i in range(0, 1000, chunk_size ))
+export_places = group(build_place_file.s(i) for i in range(0, get_place_count.delay().get(), chunk_size ))
 export_places()

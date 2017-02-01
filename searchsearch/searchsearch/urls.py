@@ -13,6 +13,8 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^rankfiddle/', include('rankfiddle.urls', namespace='rankfiddle'), name='rankfiddle'),
     url(r'^recluster/', include('recluster.urls', namespace='recluster'), name='recluster'),
+    url(r'^mltfiddle/', include('mltfiddle.urls', namespace='mltfiddle'), name='mltfiddle'),
+    url(r'^remfriends/', include('jansixdegrees.urls', namespace='jansixdegrees'), name='jansixdegrees')
     url(r'^mltfiddle/', include('mltfiddle.urls', namespace='mltfiddle'), name='rankfiddle'),
 
 ]
