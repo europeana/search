@@ -317,7 +317,7 @@ def get_label_count(entity_id):
     try:
         ent_type = ent['entityType'].replace('Impl', '')
     except:
-        return -1
+        return -1   
     field = "who"
     if(ent_type == "Concept"): field = "what"
     if(ent_type == "Place"): field = "where"
