@@ -26,10 +26,10 @@ def get_concept_count(self):
     # most of the time this is what we want
     except ServerSelectionTimeoutError as ss:
         try:
-            raise self.retry(exc=ss)
+            raise self.retry()
         except MaxRetriesExceededError:
             log_failure("Concepts", "Count")
-            raise self.retry(exc=ss)
+            return False
 
 @app.task(name='mongo_import.build_concept_file', bind=True, default_retry_delay=300, max_retries=5)
 def build_concept_file(self, start):
@@ -40,10 +40,10 @@ def build_concept_file(self, start):
         return status
     except ServerSelectionTimeoutError as ss:
         try:
-            raise self.retry(exc=ss)
+            raise self.retry()
         except MaxRetriesExceededError:
             log_failure("Concepts", start)
-            raise self.retry(exc=ss)
+            return False
 
 @app.task(name='mongo_import.get_agent_count', bind=True, default_retry_delay=3, max_retries=5)
 def get_agent_count(self):
@@ -57,10 +57,10 @@ def get_agent_count(self):
     # most of the time this is what we want
     except ServerSelectionTimeoutError as ss:
         try:
-            raise self.retry(exc=ss)
+            raise self.retry()
         except MaxRetriesExceededError:
             log_failure("Agents", "Count")
-            raise self.retry(exc=ss)
+            return False
 
 @app.task(name='mongo_import.build_agent_file', bind=True, default_retry_delay=300, max_retries=5)
 def build_agent_file(self, start):
@@ -71,10 +71,10 @@ def build_agent_file(self, start):
         return status
     except ServerSelectionTimeoutError as ss:
         try:
-            raise self.retry(exc=ss)
+            raise self.retry()
         except MaxRetriesExceededError:
             log_failure("Agents", start)
-            raise self.retry(exc=ss)
+            return False
 
 @app.task(name='mongo_import.get_place_count', bind=True, default_retry_delay=3, max_retries=5)
 def get_place_count(self):
@@ -88,11 +88,10 @@ def get_place_count(self):
     # most of the time this is what we want
     except ServerSelectionTimeoutError as ss:
         try:
-            raise self.retry(exc=ss)
+            raise self.retry()
         except MaxRetriesExceededError:
             log_failure("Places", "Count")
-            raise self.retry(exc=ss)
-
+            return False
 @app.task(name='mongo_import.build_place_file', bind=True, default_retry_delay=300, max_retries=5)
 def build_place_file(self, start):
     try:
@@ -102,7 +101,7 @@ def build_place_file(self, start):
         return status
     except ServerSelectionTimeoutError as ss:
         try:
-            raise self.retry(exc=ss)
+            raise self.retry()
         except:
             log_failure("Places", start)
-            raise self.retry(exc=ss)
+            return False
