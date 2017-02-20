@@ -46,7 +46,9 @@ Failures to build are logged to `logs/failed_builds.txt`. In the event that `fai
 For example, suppose the `failed_builds.txt` file informs you that a Place file failed to build, and that the failed file start at row 16000 of the database. To build that file, simply enter the REPL and:
 
 `>>> import entities.ContextClassHarvester as cch`
-`>>> cb = cch.ChunkBuilder('Place', 16000)``
+
+`>>> cb = cch.ChunkBuilder('Place', 16000)`
+
 `>>> cb.build_chunk()`
 
 It is anticipated that there will be no more than a handful of dropped files per entity import at most. This procedure is accordingly maintainable - and more reliable than attempting to use Celery's automated features here.
