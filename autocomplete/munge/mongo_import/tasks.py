@@ -3,15 +3,15 @@ from celery.exceptions import MaxRetriesExceededError
 from celery.utils.log import get_task_logger
 from requests import ConnectionError
 from pymongo.errors import ServerSelectionTimeoutError
-
 from entities import ContextClassHarvesters
+import datetime
 
 app = Celery('tasks', broker='redis://localhost:6379/', backend='redis://localhost:6379/')
 logger = get_task_logger(__name__)
 
 def log_failure(entity_type, chunk_start):
-    with open('logs/failed_builds.txt', 'w') as fails:
-        msg = entity_type + " build failed with start point " + str(chunk_start) + "\n"
+    with open('logs/failed_builds.txt', 'a') as fails:
+        msg = str(datetime.datetime.now().time()) + "\t" + entity_type + " build failed with start point " + str(chunk_start) + "\n"
         fails.write(msg)
 
 @app.task(name='mongo_import.get_concept_count', bind=True, default_retry_delay=3, max_retries=5)
