@@ -66,10 +66,10 @@ def output_for_machines(session_id, entries):
 client = connections.create_connection(hosts=['http://elasticsearch2.eanadev.org:9200'], timeout=60)
 basesearch = Search(using=client, index="logstash-*")
 start = "2017-03-01T00:00:00.005Z"
-end = "2017-03-07T00:00:00.005Z"
+end = "2017-03-08T00:00:00.005Z"
 start_date = datetime.datetime.strptime(start, "%Y-%m-%dT%H:%M:%S.%fZ")
 end_date = datetime.datetime.strptime(end, "%Y-%m-%dT%H:%M:%S.%fZ")
-initsearch = basesearch.query(Q("match", message='"Result rank"')).query('bool', filter=Q("exists", field="session_id")).sort('session_id', '@timestamp').query(Q({'range':{'@timestamp':{'gte': datetime.datetime.isoformat(start_date) + "Z",'lte': datetime.datetime.isoformat(end_date) + "Z"}}}))
+initsearch = basesearch.query(Q("match", message='"Result rank"')).query('bool', filter=Q("exists", field="session_id")).query(Q({'range':{'@timestamp':{'gte': datetime.datetime.isoformat(start_date) + "Z",'lte': datetime.datetime.isoformat(end_date) + "Z"}}})).sort('session_id', '@timestamp')
 
 all_for_humans = []
 all_for_machines = []
