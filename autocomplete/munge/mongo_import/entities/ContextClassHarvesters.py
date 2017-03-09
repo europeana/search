@@ -341,3 +341,17 @@ class IndividualEntityBuilder:
 #        except Exception as e:
 #            print("No entity with that ID found in database. " + str(e))
 #            return
+
+class ChunkBuilder:
+
+    def __init__(self, entity_type, start):
+        self.entity_type = entity_type.lower()
+        self.start = start
+
+    def build_chunk(self):
+        harvester = ConceptHarvester()
+        if(self.entity_type == "agent"):
+            harvester = AgentHarvester()
+        elif(self.entity_type == "place"):
+            harvester = PlaceHarvester()
+        harvester.build_entity_chunk(self.start)

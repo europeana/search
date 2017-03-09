@@ -34,8 +34,6 @@
             </analyzer>
             <analyzer type="query">
                 <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-                <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true"
-                    expand="true"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
                 <filter class="solr.ASCIIFoldingFilterFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
@@ -186,7 +184,6 @@
         <field name="suggest_filters" indexed="true" stored="true" multiValued="true" type="string"/>
     </fields>
     <uniqueKey>id</uniqueKey>
-    <defaultSearchField>text</defaultSearchField>
     <!-- COPYFIELDS -->
 
     <copyField source="skos_prefLabel.*" dest="skos_prefLabel"/>
