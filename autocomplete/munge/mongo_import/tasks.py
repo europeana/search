@@ -4,13 +4,13 @@ from requests import ConnectionError
 from pymongo.errors import ServerSelectionTimeoutError
 
 import entities.ContextClassHarvesters, entities.Indexer
-
 app = Celery('tasks', broker='redis://localhost:6379/', backend='redis://localhost:6379/')
 logger = get_task_logger(__name__)
 
 @app.task(name='mongo_import.get_concept_count', bind=True, default_retry_delay=3, max_retries=5)
 def get_concept_count(self):
     try:
+        from entities import ContextClassHarvesters
         concept = ContextClassHarvesters.ConceptHarvester()
         entity_count = concept.get_entity_count()
         return entity_count
@@ -24,7 +24,8 @@ def get_concept_count(self):
 @app.task(name='mongo_import.build_concept_file', bind=True, default_retry_delay=300, max_retries=5)
 def build_concept_file(self, start):
     try:
-        concept = entities.ContextClassHarvesters.ConceptHarvester()
+        from entities import ContextClassHarvesters
+        concept = ContextClassHarvesters.ConceptHarvester()
         entity_list = concept.build_entity_chunk(start)
         status = concept.build_solr_doc(entity_list, start)
         return status
