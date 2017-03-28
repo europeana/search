@@ -268,6 +268,9 @@ class AgentHarvester(ContextClassHarvester):
         doc = ET.SubElement(docroot, 'doc')
         self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Agent')
+        depiction = self.preview_builder.get_depiction(id)
+        if(depiction != -1):
+            self.add_field(doc, 'foaf_depiction', depiction)
         self.process_representation(doc, entity_id, entity_rows)
 
     def log_missing_entry(self, entity_id):
@@ -277,6 +280,7 @@ class AgentHarvester(ContextClassHarvester):
         with open(logpath, 'a') as lgout:
             lgout.write(msg)
             lgout.write("\n")
+
 
 class PlaceHarvester(ContextClassHarvester):
 

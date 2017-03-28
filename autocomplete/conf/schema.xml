@@ -34,6 +34,8 @@
             </analyzer>
             <analyzer type="query">
                 <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+                <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true"
+                    expand="true"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
                 <filter class="solr.ASCIIFoldingFilterFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
@@ -119,6 +121,7 @@
 
         <field name="dc_identifier" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="dc_date" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="foaf_depiction" type="string" indexed="true" stored="true" multiValued="false"/>
 
         <!-- some Agent-related date fields. Check datatyping -->
         <field name="rdagr2_dateOfBirth" type="string" indexed="true" stored="true"
@@ -184,6 +187,7 @@
         <field name="suggest_filters" indexed="true" stored="true" multiValued="true" type="string"/>
     </fields>
     <uniqueKey>id</uniqueKey>
+    <defaultSearchField>text</defaultSearchField>
     <!-- COPYFIELDS -->
 
     <copyField source="skos_prefLabel.*" dest="skos_prefLabel"/>

@@ -1,0 +1,15 @@
+DATA_PROVIDER	provider_aggregation_edm_dataProvider.*	10587
+COUNTRY	europeana_aggregation_edm_country.*	1100
+TYPE	proxy_edm_type	46
+europeana_collectionName	---	16
+RIGHTS	provider_aggregation_edm_rights.*,provider_aggregation_odrl_inherited_from	10
+PROVIDER	provider_aggregation_edm_provider.*	8
+LANGUAGE	europeana_aggregation_edm_language.*	7
+provider_aggregation_edm_rights	provider_aggregation_edm_rights.*	6
+COMPLETENESS	europeana_completeness	4
+proxy_dc_description.*	---	3
+proxy_edm_type	---	2
+proxy_dc_creator	proxy_dc_creator.*	1
+YEAR	proxy_edm_year.*	1
+cc_skos_prefLabel	cc_skos_prefLabel.*	1
+who	proxy_dc_contributor.*,proxy_dc_creator.*,ag_skos_prefLabel.*,ag_skos_altLabel.*,ag_foaf_name.*	1

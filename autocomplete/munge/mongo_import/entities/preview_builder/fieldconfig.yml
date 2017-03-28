@@ -2,6 +2,7 @@ Agent:
     - prefLabel
     - lifespan
     - role
+    - depiction
 Concept:
     - prefLabel
 #    - topConcept -- TODO: cannot currently be dereferenced

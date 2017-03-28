@@ -3,9 +3,8 @@ import os, re
 
 class PreviewBuilder:
 
-    tree = ET.parse(os.path.join(os.path.dirname(__file__), 'professions.rdf'))
-
-    PROFESSIONS = tree.getroot()
+    jobtree = ET.parse(os.path.join(os.path.dirname(__file__), 'professions.rdf'))
+    PROFESSIONS = jobtree.getroot()
     ns = {'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'skos':'http://www.w3.org/2004/02/skos/core#', 'xml':'http://www.w3.org/XML/1998/namespace'}
 
     def __init__(self):
@@ -14,6 +13,7 @@ class PreviewBuilder:
         from entities.ContextClassHarvesters import ContextClassHarvester
         import sys, os
         import yaml
+        self.load_depictions()
         self.mongoclient = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
         with open(os.path.join(os.path.dirname(__file__), 'fieldconfig.yml')) as yml:
             self.field_config = yaml.load(yml)
@@ -120,3 +120,28 @@ class PreviewBuilder:
 
     def build_dateRange(self, entity_rows, language):
         pass
+
+    # temporary (?!) hack - right now Agents are the only entity type with images
+    # and they are pulled in ad hoc from a static file
+
+    def load_depictions(self):
+        self.depictions = {}
+        with open(os.path.join(os.getcwd(), 'entities', 'resources', 'agents.wikidata.images.csv')) as imgs:
+            for line in imgs.readlines():
+                (agent_id, image_id) = line.split(sep=",", maxsplit=1)
+                agent_id = agent_id.strip()
+                image_id = image_id.strip()
+                self.depictions[agent_id] = image_id
+        print(self.depictions)
+
+    def get_depiction(self, entity_key):
+        try:
+            return self.depictions[entity_key]
+        except KeyError:
+            return -1
+
+    def build_depiction(self, entity_rows, language, preview_fields):
+        entity_id = entity_rows['codeUri']
+        depiction = self.get_depiction(entity_id)
+        if(depiction != -1):
+            preview_fields['depiction'] = depiction
