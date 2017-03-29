@@ -358,4 +358,5 @@ class ChunkBuilder:
             harvester = AgentHarvester()
         elif(self.entity_type == "place"):
             harvester = PlaceHarvester()
-        harvester.build_entity_chunk(self.start)
+        ec = harvester.build_entity_chunk(self.start)
+        harvester.build_solr_doc(ec, self.start)
