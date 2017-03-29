@@ -56,7 +56,7 @@ class ContextClassHarvester:
     CHUNK_SIZE = 1000   # each file will consist of 1000 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
     LANG_VALIDATOR = LanguageValidator()
-    LOG_LOCATION = '../logs/entlogs/'
+    LOG_LOCATION = 'logs/entlogs/'
     FIELD_MAP = {
         # maps mongo fields to their solr equivalents
         'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
