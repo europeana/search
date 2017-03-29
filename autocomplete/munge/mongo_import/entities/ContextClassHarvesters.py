@@ -77,7 +77,8 @@ class ContextClassHarvester:
         'end' : { 'label': 'edm_end' , 'type' : 'string' },
         'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
         'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
-        'date' : { 'label' : 'dc_date', 'type' : 'string' }
+        'date' : { 'label' : 'dc_date', 'type' : 'string' },
+        'exactMatch': { 'label' :  'skos_exactMatch', 'type' : 'string' }
 
     }
 
@@ -323,7 +324,6 @@ class IndividualEntityBuilder:
         import os, shutil
         self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
         entity_rows = self.client.annocultor_db.TermList.find_one({ "codeUri" : entity_id })
-        print(entity_rows)
         entity_chunk = {}
         entity_chunk[entity_id] = entity_rows
         rawtype = entity_rows['entityType']
