@@ -132,9 +132,9 @@ class PreviewBuilder:
                 agent_id = agent_id.strip()
                 image_id = image_id.strip()
                 self.depictions[agent_id] = image_id
-        print(self.depictions)
 
     def get_depiction(self, entity_key):
+        entity_key = entity_key.strip()
         try:
             return self.depictions[entity_key]
         except KeyError:
