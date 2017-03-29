@@ -77,7 +77,7 @@ class ContextClassHarvester:
         'end' : { 'label': 'edm_end' , 'type' : 'string' },
         'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
         'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
-        'date' : { 'label' : 'dc_date', 'type' : 'string' }
+        'date' : { 'label' : 'dc_date', 'type' : 'string' },
         'exactMatch': { 'label' :  'skos_exactMatch', 'type' : 'string' }
 
     }
