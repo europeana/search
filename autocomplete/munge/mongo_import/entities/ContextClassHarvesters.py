@@ -49,7 +49,7 @@ class LanguageValidator:
 
 class ContextClassHarvester:
 
-    import os, json
+    import os
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
@@ -151,6 +151,7 @@ class ContextClassHarvester:
         return True
 
     def process_representation(self, docroot, entity_id, entity_rows):
+        import json
         all_payloads = {}
         for characteristic in entity_rows['representation']:
             if str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
