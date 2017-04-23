@@ -203,7 +203,7 @@ class ContextClassHarvester:
     def add_payload(self, docroot, entity_id, entity_rows, language, payload_accumulator):
         type = entity_rows['entityType'].replace('Impl', '')
         payload = self.preview_builder.build_preview(type, entity_id, entity_rows, language)
-        payload_accumulator[language] = payload
+        payload_accumulator[language] = json.loads(payload)
         field_name = "payload." + language
         self.add_field(docroot, field_name, payload)
 
