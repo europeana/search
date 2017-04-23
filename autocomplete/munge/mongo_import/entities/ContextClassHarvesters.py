@@ -78,7 +78,8 @@ class ContextClassHarvester:
         'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
         'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
         'date' : { 'label' : 'dc_date', 'type' : 'string' },
-        'exactMatch': { 'label' :  'skos_exactMatch', 'type' : 'string' }
+        'exactMatch': { 'label' :  'skos_exactMatch', 'type' : 'string' },
+        'related' : { 'label' : 'skos_related', 'type' : 'ref'  }
 
     }
 
@@ -150,6 +151,7 @@ class ContextClassHarvester:
         return True
 
     def process_representation(self, docroot, entity_id, entity_rows):
+        all_payloads = {}
         for characteristic in entity_rows['representation']:
             if str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
@@ -178,9 +180,10 @@ class ContextClassHarvester:
                                 if(field_value in prev_alts):
                                     continue
                                 prev_alts.append(field_value)
+                            self.add_field(docroot, field_name, field_value)
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0 and unq_name != ""):
-                                self.add_payload(docroot, entity_id, entity_rows, unq_name)
+                                self.add_payload(docroot, entity_id, entity_rows, unq_name, all_payloads)
                                 pref_label_count = 1
             elif(type(entity_rows['representation'][characteristic]) is list):
                 field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
@@ -193,11 +196,13 @@ class ContextClassHarvester:
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
+        self.add_field(docroot, 'payload', json.dumps(all_payloads))
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
-    def add_payload(self, docroot, entity_id, entity_rows, language):
+    def add_payload(self, docroot, entity_id, entity_rows, language, payload_accumulator):
         type = entity_rows['entityType'].replace('Impl', '')
         payload = self.preview_builder.build_preview(type, entity_id, entity_rows, language)
+        payload_accumulator[language] = payload
         field_name = "payload." + language
         self.add_field(docroot, field_name, payload)
 
