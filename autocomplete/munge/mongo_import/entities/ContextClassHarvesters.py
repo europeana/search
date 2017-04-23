@@ -49,7 +49,7 @@ class LanguageValidator:
 
 class ContextClassHarvester:
 
-    import os
+    import os, json
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
