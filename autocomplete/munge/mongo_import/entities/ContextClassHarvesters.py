@@ -153,6 +153,7 @@ class ContextClassHarvester:
     def process_representation(self, docroot, entity_id, entity_rows):
         import json
         all_payloads = {}
+        all_preflabels = []
         for characteristic in entity_rows['representation']:
             if str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
@@ -181,11 +182,11 @@ class ContextClassHarvester:
                                 if(field_value in prev_alts):
                                     continue
                                 prev_alts.append(field_value)
-                            self.add_field(docroot, field_name, field_value)
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0 and unq_name != ""):
                                 self.add_payload(docroot, entity_id, entity_rows, unq_name, all_payloads)
                                 pref_label_count = 1
+                                all_preflabels.append(field_value)
             elif(type(entity_rows['representation'][characteristic]) is list):
                 field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                 for entry in entity_rows['representation'][characteristic]:
@@ -198,6 +199,7 @@ class ContextClassHarvester:
                 except KeyError as ke:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
         self.add_field(docroot, 'payload', json.dumps(all_payloads))
+        self.add_field(docroot, 'skos_prefLabel', " ".join(sorted(set(all_preflabels))))
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
     def add_payload(self, docroot, entity_id, entity_rows, language, payload_accumulator):
@@ -205,8 +207,6 @@ class ContextClassHarvester:
         type = entity_rows['entityType'].replace('Impl', '')
         payload = self.preview_builder.build_preview(type, entity_id, entity_rows, language)
         payload_accumulator[language] = json.loads(payload)
-        field_name = "payload." + language
-        self.add_field(docroot, field_name, payload)
 
     def add_suggest_filters(self, docroot, term_hits):
         entity_type = self.name[0:len(self.name) - 1].capitalize()
