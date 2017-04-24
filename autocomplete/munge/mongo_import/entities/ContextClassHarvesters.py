@@ -201,6 +201,7 @@ class ContextClassHarvester:
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
     def add_payload(self, docroot, entity_id, entity_rows, language, payload_accumulator):
+        import json
         type = entity_rows['entityType'].replace('Impl', '')
         payload = self.preview_builder.build_preview(type, entity_id, entity_rows, language)
         payload_accumulator[language] = json.loads(payload)
