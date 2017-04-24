@@ -180,14 +180,11 @@
         <field name="wgs84_pos_alt" type="float" indexed="true" stored="true" multiValued="false"/>
 
         <field name="payload" type="json" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="payload.*" type="json" indexed="true" stored="true" multiValued="true"/>
-        <copyField source="payload.*" dest="payload"/>
         <field name="suggest_filters" indexed="true" stored="true" multiValued="true" type="string"/>
     </fields>
     <uniqueKey>id</uniqueKey>
     <!-- COPYFIELDS -->
 
-    <copyField source="skos_prefLabel.*" dest="skos_prefLabel"/>
     <copyField source="skos_altLabel.*" dest="skos_altLabel"/>
     <copyField source="skos_note.*" dest="skos_note"/>
     <copyField source="skos_prefLabel.*" dest="text"/>

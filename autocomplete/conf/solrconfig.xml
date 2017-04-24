@@ -580,19 +580,20 @@
     <searchComponent class="solr.SuggestComponent" name="suggestEntity">
         <lst name="suggester">
             <str name="name">suggestEntity</str>
-            <str name="lookupImpl">BlendedInfixLookupFactory</str>
+            <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="blenderType">position_linear</str>
             <str name="field">skos_prefLabel</str>
             <str name="weightField">derived_score</str>
             <str name="payloadField">payload</str>
             <str name="suggestAnalyzerFieldType">suggestType</str>
+            <str name="allTermsRequired">false</str>
+            <str name="minPrefixChars">2</str>
+            <str name="highlight">true</str>
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
             <str name="contextField">internal_type</str>
             <str name="exactMatchFirst">true</str>
-            <str name="indexPath">blendedInfixSuggesterIndexDir_def</str>
         </lst>
     </searchComponent>
     <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
