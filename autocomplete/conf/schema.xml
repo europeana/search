@@ -181,6 +181,10 @@
 
         <field name="payload" type="json" indexed="true" stored="true" multiValued="true"/>
         <field name="suggest_filters" indexed="true" stored="true" multiValued="true" type="string"/>
+
+        <field name="coref" type="string" indexed="true" stored="true" multiValued="true"/>
+        <copyField source="owl_sameAs" dest="coref"/>
+        <copyField source="skos_exactMatch" dest="coref"/>
     </fields>
     <uniqueKey>id</uniqueKey>
     <!-- COPYFIELDS -->
