@@ -536,6 +536,9 @@ def report_filecount_discrepancy():
                 all_solr_ids.append(doc['id'])
         except:
             print("Test INCOMPLETE: connection to Solr server failed.")
+            print(missing_ids)
+            with open(filepath, 'w') as missids:
+                for id in missing_ids: missids.write(id + "\n")
             sys.exit()
         if(i % 10000 == 0 and i > 0): print(str(i) + " Solr records processed.")
     missing_ids = set(all_mongo_ids).difference(set(all_solr_ids))
@@ -582,6 +585,7 @@ def report_missing_fields(fieldname):
                     nresp = requests.get(mnqry).json()
                 except:
                     print("Test INCOMPLETE: connection to Solr server failed.")
+                    for missing_id in missing: report.write(missing_id + "\n")
                     sys.exit()
                 for doc in nresp['response']['docs']:
                     missing.append(doc['id'])
