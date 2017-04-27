@@ -298,6 +298,8 @@ def test_json_formation(filedir):
     return errors
 
 def compare_m2s_fieldcounts():
+    # gathers statistics on all populated mongo fields, solr fields
+    # and outputs the result
     (mongo_entity_counter, mongo_instance_counter) = get_mongo_fieldcounts()
     (solr_entity_counter, solr_instance_counter) = get_solr_fieldcounts()
     output_fieldcounts(mongo_entity_counter, mongo_instance_counter, solr_entity_counter, solr_instance_counter)
@@ -372,10 +374,9 @@ def get_mongo_fieldcounts():
     return (mongo_count_by_entity, mongo_count_by_instance)
 
 def get_solr_fieldcounts():
-    # retrieve fieldcounts through simple querying
-    # retrieve number of distinct values through faceting
-    # will return a structure similar to that of get_mongo_fieldcounts, above
-    # first we need to map mongo field names to Solr fieldnames
+    # performs a deep scan of the solr correctly
+    # and returns  a structure similar to that of
+    # get_mongo_fieldcounts, above
     solr_entity_counter = {}
     solr_instance_counter = {}
     chunk_size = 250
@@ -418,16 +419,12 @@ def get_solr_fieldcounts():
                         except KeyError:
                             solr_instance_counter[l] = {}
                             solr_instance_counter[l][v] = field_counts[l][v]
-            """print(field_counts)
-            print("-----------------------")
-            print(solr_entity_counter)
-            print("=======================")
-            print(solr_instance_counter)
-            print("***********************")"""
         i += chunk_size
     return (solr_entity_counter, solr_instance_counter)
 
 def derive_solr_field_name(mongo_field_name, solr_fields):
+    # given the name of a mongo field in Annocultor DB
+    # derives the name of the corresponding field in Solr
     errmsg = "NOT FOUND"
     if("." in mongo_field_name):
         unq_mongo_field_name = mongo_field_name[:mongo_field_name.index(".")]
@@ -446,6 +443,8 @@ def derive_solr_field_name(mongo_field_name, solr_fields):
             return errmsg
 
 def get_typed_count(typed_hash, entity_type='all'):
+    # returns the count for a given entity type (agent|concept|place)
+    # or sums counts for each item type if a combined total is desired
     if(entity_type == "all"):
         total = 0
         for k, v in typed_hash.items():
@@ -461,7 +460,8 @@ def output_fieldcount_by_entity(mongo_entity_counter, mongo_instance_counter, so
     filename = entity_type + "_fieldcount_report.log"
     filepath =  os.path.join(os.path.dirname(__file__), '..', 'logs', 'import_tests', filename)
     with open(filepath, 'w') as fr:
-        # field-count-by-entity
+        # Outputs a side-by-side comparison of the Mongo and Solr Entity Collection
+        # fields and their degree of population.
         fr.write("COMPARISON BY ENTITY:\nMONGO\t\t\t\t\tMONGO COUNT\t\tSOLR\t\t\t\t\tSOLR COUNT\n")
         fr.write("==================================================================================================\n")
         for mongo_field_name in sorted(mongo_entity_counter.keys()):
