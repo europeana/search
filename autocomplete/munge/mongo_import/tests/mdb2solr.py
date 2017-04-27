@@ -299,7 +299,7 @@ def test_json_formation(filedir):
 
 def compare_m2s_fieldcounts():
     (mongo_entity_counter, mongo_instance_counter) = get_mongo_fieldcounts()
-    (solr_entity_counter, solr_instance_counter) = get_solr_fieldcounts(mongo_entity_counter.keys())
+    (solr_entity_counter, solr_instance_counter) = get_solr_fieldcounts()
     output_fieldcounts(mongo_entity_counter, mongo_instance_counter, solr_entity_counter, solr_instance_counter)
 
 def get_mongo_fieldcounts():
@@ -371,7 +371,7 @@ def get_mongo_fieldcounts():
                         mongo_count_by_instance[k][e] = mini_count[k][e]
     return (mongo_count_by_entity, mongo_count_by_instance)
 
-def get_solr_fieldcounts(mongo_keys):
+def get_solr_fieldcounts():
     # retrieve fieldcounts through simple querying
     # retrieve number of distinct values through faceting
     # will return a structure similar to that of get_mongo_fieldcounts, above
@@ -387,6 +387,7 @@ def get_solr_fieldcounts(mongo_keys):
         slr_base += "&q=*:*&fl=*&rows=" + str(chunk_size)
         slr_chunk = slr_base + "&start=" + str(i)
         slr_r = requests.get(slr_chunk).json()
+        print("Processed " + str(i) + " records")
         for doc in slr_r['response']['docs']:
             entity_type = doc['internal_type'].lower()
             field_counts = {}
@@ -400,15 +401,7 @@ def get_solr_fieldcounts(mongo_keys):
                         field_counts[k] = {}
                         field_counts[k][entity_type] = 1
             for l in field_counts.keys():
-                print(str(field_counts))
-                print("-----------------------------")
-                print(str(l))
-                print("=============================")
-                print(str(field_counts[l]))
                 for v in field_counts[l].keys():
-                    print("+++++++++++++++++++")
-                    print(str(v))
-                    print("********************")
                     try:
                         solr_entity_counter[l][v] += 1
                     except KeyError:
@@ -423,8 +416,14 @@ def get_solr_fieldcounts(mongo_keys):
                         try:
                             solr_instance_counter[l][v] = field_counts[l][v]
                         except KeyError:
-                            solr_instance_counter[l][v] = {}
+                            solr_instance_counter[l] = {}
                             solr_instance_counter[l][v] = field_counts[l][v]
+            """print(field_counts)
+            print("-----------------------")
+            print(solr_entity_counter)
+            print("=======================")
+            print(solr_instance_counter)
+            print("***********************")"""
         i += chunk_size
     return (solr_entity_counter, solr_instance_counter)
 
@@ -453,8 +452,8 @@ def get_typed_count(typed_hash, entity_type='all'):
             total += v
         return total
     else:
-        if k in typed_hash.keys():
-            return typed_hash[k]
+        if entity_type in typed_hash.keys():
+            return typed_hash[entity_type]
         else:
             return 0
 
@@ -474,7 +473,7 @@ def output_fieldcount_by_entity(mongo_entity_counter, mongo_instance_counter, so
                 solr_count = "FIELD NOT FOUND"
             if(mongo_count == 0 and (solr_count == 0 or solr_count == "FIELD NOT FOUND")):
                 continue
-            fr.write(mongo_field_name + "\t\t" + mongo_count + "\t\t" + solr_field_name + "\t\t" + solr_count)
+            fr.write(mongo_field_name + "\t\t" + str(mongo_count) + "\t\t" + solr_field_name + "\t\t" + str(solr_count))
             fr.write("\n")
         fr.write("\n\nCOMPARISON BY FIELD:\nMONGO\t\t\t\t\tMONGO COUNT\t\tSOLR\t\t\t\t\tSOLR COUNT\n")
         fr.write("==================================================================================================\n")
@@ -482,11 +481,11 @@ def output_fieldcount_by_entity(mongo_entity_counter, mongo_instance_counter, so
             mongo_count = get_typed_count(mongo_instance_counter[mongo_field_name], entity_type)
             solr_field_name = derive_solr_field_name(mongo_field_name, solr_entity_counter.keys())
             try:
-                solr_count = get_typed_count(solr_instance_counter[solr_field_name])
+                solr_count = get_typed_count(solr_instance_counter[solr_field_name], entity_type)
             except KeyError:
                 solr_count = "FIELD NOT FOUND"
             if(mongo_count == 0 and (solr_count == 0 or solr_count == "FIELD NOT FOUND")): continue
-            fr.write(mongo_field_name + "\t\t" + mongo_count + "\t\t" + solr_field_name + "\t\t" + solr_count)
+            fr.write(mongo_field_name + "\t\t" + str(mongo_count) + "\t\t" + solr_field_name + "\t\t" + str(solr_count))
             fr.write("\n")
         if(entity_type == "all"):
             untranslatable_mongo_fields = set([k.split(".")[0] for k in mongo_entity_counter.keys() if k.split(".")[0] not in FM.keys()])
