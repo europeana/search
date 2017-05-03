@@ -184,7 +184,7 @@ class ContextClassHarvester:
                                 prev_alts.append(field_value)
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0 and unq_name != ""):
-                                self.add_payload(docroot, entity_id, entity_rows, unq_name, all_payloads)
+                                self.add_label_payload(entity_id, entity_rows, unq_name, all_payloads)
                                 pref_label_count = 1
                                 all_preflabels.append(field_value)
             elif(type(entity_rows['representation'][characteristic]) is list):
@@ -198,15 +198,23 @@ class ContextClassHarvester:
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
+        self.add_universal_payload(entity_id, entity_rows, all_payloads)
         self.add_field(docroot, 'payload', json.dumps(all_payloads))
         self.add_field(docroot, 'skos_prefLabel', " ".join(sorted(set(all_preflabels))))
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
-    def add_payload(self, docroot, entity_id, entity_rows, language, payload_accumulator):
+    def add_label_payload(self, entity_id, entity_rows, language, payload_accumulator):
         import json
         type = entity_rows['entityType'].replace('Impl', '')
-        payload = self.preview_builder.build_preview(type, entity_id, entity_rows, language)
-        payload_accumulator[language] = json.loads(payload)
+        payload = self.preview_builder.build_label_preview(type, entity_id, entity_rows, language)
+        payload_accumulator[language] = payload
+
+    def add_universal_payload(self, entity_id, entity_rows, payload_accumulator):
+        import json
+        etype = entity_rows['entityType'].replace('Impl', '')
+        payload = self.preview_builder.build_universal_preview(etype, entity_id, entity_rows)
+        for k, v in payload.items():
+            payload_accumulator[k] = v
 
     def add_suggest_filters(self, docroot, term_hits):
         entity_type = self.name[0:len(self.name) - 1].capitalize()

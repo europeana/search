@@ -40,17 +40,19 @@ class RelevanceCounter:
         csr.execute("SELECT * FROM hits WHERE id=?", (id,))
         first_row = csr.fetchone()
         if(first_row is not None):
-            (_, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits) = first_row
+            (_, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank) = first_row
         else:
             wikipedia_hits = -1
             europeana_enrichment_hits = self.get_enrichment_count(id)
             europeana_string_hits = self.get_label_count(representation)
-            z = csr.execute("INSERT INTO hits(id, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits) VALUES (?, ?, ?, ?)", (id, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits))
+            pagerank = 0
+            z = csr.execute("INSERT INTO hits(id, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank) VALUES (?, ?, ?, ?, ?)", (id, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank))
             self.db.commit()
         metrics = {
             "wikipedia_hits" : wikipedia_hits,
             "europeana_enrichment_hits" : europeana_enrichment_hits,
-            "europeana_string_hits" : europeana_string_hits
+            "europeana_string_hits" : europeana_string_hits,
+            "pagerank" : pagerank
         }
         return metrics
 

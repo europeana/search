@@ -15,19 +15,34 @@ class PreviewBuilder:
         import yaml
         self.load_depictions()
         self.mongoclient = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
-        with open(os.path.join(os.path.dirname(__file__), 'fieldconfig.yml')) as yml:
-            self.field_config = yaml.load(yml)
 
-    def build_preview(self, entity_type, entity_id, entity_rows, language):
+    def build_label_preview(self, entity_type, entity_id, entity_rows, language):
         import json
-        fields_to_build = self.field_config[entity_type]
+        preview_fields = {}
+        lang_key = 'def' if language not in entity_rows['representation']['prefLabel'] else language
+        try:
+            preview_fields['prefLabel'] = entity_rows['representation']['prefLabel'][lang_key][0]
+        except KeyError:
+            preview_fields['prefLabel'] = "NO PREFLABEL GIVEN"
+        preview_fields['hiddenLabel'] = self.build_max_recall(entity_type, preview_fields['prefLabel'])
+        if(entity_type == "Agent"):
+            self.build_role_lang_label(entity_rows, language, preview_fields)
+        elif(entity_type == "Place"):
+            self.build_country_lang_label(entity_rows, language, preview_fields)
+        return preview_fields
+
+    def build_universal_preview(self, entity_type, entity_id, entity_rows):
+        import json
         preview_fields = {}
         preview_fields['id'] = entity_id
         preview_fields['type'] = entity_type
-        for field in fields_to_build:
-            val = getattr(self, 'build_' + field)(entity_rows, language, preview_fields)
-            preview_fields['hiddenLabel'] = self.build_max_recall(entity_type, preview_fields['prefLabel'])
-        return json.dumps(preview_fields)
+        if(entity_type == "Agent"):
+            self.build_depiction(entity_rows, preview_fields )
+            self.build_lifespan(entity_rows, preview_fields)
+            self.build_role_generic_label(entity_rows, preview_fields)
+        elif(entity_type == "Place"):
+            self.build_country_generic_label(entity_rows, preview_fields)
+        return preview_fields
 
     def build_max_recall(self, type, term):
         # reimplements (with trim_term())
@@ -65,51 +80,81 @@ class PreviewBuilder:
             term = term.split(";")[0]
         return term
 
-    def build_prefLabel(self, entity_rows, language, preview_fields):
-        lang_key = 'def' if language not in entity_rows['representation']['prefLabel'] else language
-        if lang_key in entity_rows['representation']['prefLabel']:
-            preview_fields['prefLabel'] = entity_rows['representation']['prefLabel'][lang_key][0]
-
-    def build_lifespan(self, entity_rows, language, preview_fields):
+    def build_lifespan(self, entity_rows, preview_fields):
         # TODO: Validation routines to ensure agents have only one birthdate and deathdate apiece
         if('rdaGr2DateOfBirth' in entity_rows['representation'].keys()):
-            lang_key = 'def' if language not in entity_rows['representation']['rdaGr2DateOfBirth'] else language
-            if lang_key in entity_rows['representation']['rdaGr2DateOfBirth']:
-                preview_fields['dateOfBirth'] = entity_rows['representation']['rdaGr2DateOfBirth'][lang_key][0]
+            dob = entity_rows['representation']['rdaGr2DateOfBirth']
+            preview_fields['dateOfBirth'] = dob[list(dob.keys())[0]][0]
         if('rdaGr2DateOfDeath' in entity_rows['representation'].keys()):
-            lang_key = 'def' if language not in entity_rows['representation']['rdaGr2DateOfDeath'] else language
-            if lang_key in entity_rows['representation']['rdaGr2DateOfDeath']:
-                preview_fields['dateOfDeath'] = entity_rows['representation']['rdaGr2DateOfDeath'][lang_key][0]
+            dod = entity_rows['representation']['rdaGr2DateOfDeath']
+            preview_fields['dateOfDeath'] = dod[list(dod.keys())[0]][0]
 
-    def build_role(self, entity_rows, language, preview_fields):
+    def build_role_lang_label(self, entity_rows, language, preview_fields):
         if('rdaGr2ProfessionOrOccupation' in entity_rows['representation'].keys()):
-            lang_key = 'def' if language not in entity_rows['representation']['rdaGr2ProfessionOrOccupation'] else language
-            if lang_key in entity_rows['representation']['rdaGr2ProfessionOrOccupation']:
+            if language in entity_rows['representation']['rdaGr2ProfessionOrOccupation']:
                 roles = []
-                for role in entity_rows['representation']['rdaGr2ProfessionOrOccupation'][lang_key]:
+                for role in entity_rows['representation']['rdaGr2ProfessionOrOccupation'][language]:
                     if role.startswith('http'):
                         test_role = PreviewBuilder.PROFESSIONS.find('./rdf:Description[@rdf:about="' + role + '"]/skos:prefLabel[@xml:lang="' + language + '"]', PreviewBuilder.ns)
-                        if test_role is None:
-                            test_role = role.split("/")[-1]
-                        else:
-                            test_role = test_role.text
-                        roles.append(test_role)
+                        if test_role is not None:
+                            roles.append(test_role.text)
                     else:
                         roles.append(role)
+                if(len(roles)> 0):
+                    preview_fields['professionOrOccupation'] = roles
+
+    def build_role_generic_label(self, entity_rows, preview_fields):
+        roles = []
+        if('rdaGr2ProfessionOrOccupation' in entity_rows['representation'].keys()):
+            for lang_key in entity_rows['representation']['rdaGr2ProfessionOrOccupation'].keys():
+                for raw_role in entity_rows['representation']['rdaGr2ProfessionOrOccupation'][lang_key]:
+                    if(raw_role.startswith('http')):
+                        test_role = PreviewBuilder.PROFESSIONS.find('./rdf:Description[@rdf:about="' + role + '"]/skos:prefLabel[@xml:lang="en"]', PreviewBuilder.ns)
+                        if test_role is not None:
+                            roles.append(test_role.text)
+            if('' in entity_rows['representation']['rdaGr2ProfessionOrOccupation'].keys()):
+                for role in entity_rows['representation']['rdaGr2ProfessionOrOccupation']['']:
+                    roles.append(role)
+            elif('def' in entity_rows['representation']['rdaGr2ProfessionOrOccupation'].keys()):
+                for role in entity_rows['representation']['rdaGr2ProfessionOrOccupation']['def']:
+                    roles.append(role)
+            elif('en' in entity_rows['representation']['rdaGr2ProfessionOrOccupation'].keys()):
+                for role in entity_rows['representation']['rdaGr2ProfessionOrOccupation']['en']:
+                    roles.append(role)
+            if(len(roles) > 0):
                 preview_fields['professionOrOccupation'] = roles
 
-    def build_country(self, entity_rows, language, preview_fields):
+    def build_country_lang_label(self, entity_rows, language, preview_fields):
         if 'isPartOf' in entity_rows['representation'].keys():
-            parents = []
-            for lang_key in entity_rows['representation']['isPartOf']:
-                for parent_uri in entity_rows['representation']['isPartOf'][lang_key]:
-                    parent = self.mongoclient.annocultor_db.TermList.find_one({ 'codeUri' : parent_uri})
-                    if(parent is not None):
-                        pr_lang_key = lang_key if lang_key in parent['representation']['prefLabel'].keys() else ''
-                        label = parent['representation']['prefLabel'][pr_lang_key][0]
-                        pr_rep = { "id" : parent_uri, "prefLabel" : label }
-                        parents.append(pr_rep)
-            preview_fields['isPartOf'] = parents
+            ancestors = []
+            parents = set([parent_uri for k in entity_rows['representation']['isPartOf'].keys() for parent_uri in entity_rows['representation']['isPartOf'][k]])
+            for parent_uri in parents:
+                parent = self.mongoclient.annocultor_db.TermList.find_one({ 'codeUri' : parent_uri})
+                if(parent is not None and language in parent['representation']['prefLabel'].keys()):
+                    label = parent['representation']['prefLabel'][language][0]
+                    pr_rep = { "id" : parent_uri, "prefLabel" : label }
+                    ancestors.append(pr_rep)
+            if(len(ancestors) > 0): preview_fields['isPartOf'] = ancestors
+
+    def build_country_generic_label(self, entity_rows, preview_fields):
+        if 'isPartOf' in entity_rows['representation'].keys():
+            ancestors = []
+            parents = set([parent_uri for lang_key in entity_rows['representation']['isPartOf'].keys() for parent_uri in entity_rows['representation']['isPartOf'][lang_key]])
+            for parent_uri in parents:
+                parent = self.mongoclient.annocultor_db.TermList.find_one({ 'codeUri' : parent_uri})
+                if(parent is not None and '' in parent['representation']['prefLabel'].keys()):
+                    label = parent['representation']['prefLabel'][''][0]
+                    pr_rep = { "id" : parent_uri, "prefLabel" : label }
+                    ancestors.append(pr_rep)
+                elif(parent is not None and 'def' in parent['representation']['prefLabel'].keys()):
+                    label = parent['representation']['prefLabel']['def'][0]
+                    pr_rep = { "id" : parent_uri, "prefLabel" : label }
+                    ancestors.append(pr_rep)
+                elif(parent is not None and 'en' in parent['representation']['prefLabel'].keys()):
+                    label = parent['representation']['prefLabel']['en'][0]
+                    pr_rep = { "id" : parent_uri, "prefLabel" : label }
+                    ancestors.append(pr_rep)
+            if(len(ancestors) > 0): preview_fields['isPartOf'] = ancestors
 
     def build_topConcept(self, entity_rows, language):
         # TODO: update this method once top concepts dereferenceable
@@ -140,7 +185,7 @@ class PreviewBuilder:
         except KeyError:
             return -1
 
-    def build_depiction(self, entity_rows, language, preview_fields):
+    def build_depiction(self, entity_rows, preview_fields):
         entity_id = entity_rows['codeUri']
         depiction = self.get_depiction(entity_id)
         if(depiction != -1):
