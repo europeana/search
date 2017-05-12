@@ -1,18 +1,19 @@
 import os, datetime
 from socket import timeout
+from . import ES_URL, util
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search, Q
 from elasticsearch_dsl.query import Match, MultiMatch
 from elasticsearch_dsl.connections import connections
 
-ES_INSTANCE = connections.create_connection(hosts=['http://elasticsearch2.eanadev.org:9200'], timeout=60)
+ES_INSTANCE = connections.create_connection(hosts=[ES_URL], timeout=60)
 
 class SessionExtractor:
 
     def __init__(self, start_date, end_date, verbose=True):
         try:
-            self.start_date = self.create_date_object(start_date)
-            self.end_date = self.create_date_object(end_date)
+            self.start_date = util.create_date_object(start_date)
+            self.end_date = util.create_date_object(end_date)
             self.current_time = self.start_date
             self.verbose = verbose
         except ValueError as ve:
@@ -27,18 +28,11 @@ class SessionExtractor:
         self.harvest_sessions()
         self.output_sessions()
 
-    def create_date_object(self, iso_8601_date):
-        # TODO: expand possible precisions - right now this automatically
-        # runs midnight-to-midnight
-        aug_iso_8601_date = str(iso_8601_date) +  "T00:00:00.005Z"
-        date_as_obj = datetime.datetime.strptime(aug_iso_8601_date, "%Y-%m-%dT%H:%M:%S.%fZ")
-        return date_as_obj
-
     def harvest_sessions(self):
         global ES_INSTANCE
         initsearch = Search(using=ES_INSTANCE, index="logstash-*")
         session_search = initsearch.query('bool', filter=Q("exists", field="session_id"))
-        bespoke_search = session_search.query(Q("match", message="Search interaction"))
+        bespoke_search = session_search.query(Match(message={ "query" : "Search interaction", "type" : "phrase"}))
         if(self.verbose): print("Starting querying for sessions")
         while(self.current_time <= self.end_date):
             next_time = self.current_time + datetime.timedelta(minutes=5)
@@ -62,7 +56,7 @@ class SessionExtractor:
         sessions = set(self.session_list)
         sessions_count = len(sessions)
         with open(self.session_file, "w") as sout:
-            sout.write(str(interactions_count) + " interactions for " + str(sessions_count) + " users.")
+            if(self.verbose): print(str(interactions_count) + " interactions for " + str(sessions_count) + " users.")
             for session in sessions:
                 sout.write(session + "\n")
         if(self.verbose): print("Session IDs written to " + self.session_file)
