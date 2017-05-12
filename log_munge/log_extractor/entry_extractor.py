@@ -61,7 +61,11 @@ class EntryExtractor:
             for line in sessids.readlines():
                 sessid = line.strip()
                 session_entries = self.query_for_session_entries(sessid)
-                if(len(session_entries) > 0): self.output_session(sessid, session_entries)
+                if(len(session_entries) > 0):
+                    self.output_session(sessid, session_entries)
+                else:
+                    print("Finished processing files until " + self.end_date_as_string)
+                    exit()
                 line_counter += 1
                 if(self.verbose and line_counter % 100 == 0):
                     print("Processed " + str(line_counter) + " lines out of " + str(size) + " in file.")
