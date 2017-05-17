@@ -76,16 +76,15 @@ class RelevanceCounter:
         except:
             return 0
 
-    def calculate_relevance_score(self, wpedia_count, eu_doc_count, eu_term_count):
-        # TODO: thie method of calculation results in values that are too high
-        # and not widely spread. Recalibrate.
-        relevance = abs(eu_doc_count) * abs(eu_term_count) * abs(wpedia_count)
-        if relevance == 0: return 0
-        norm_factor = 1;
-        inv = 1 / relevance
-        normed = (norm_factor - inv) * 1000
-        # normed = float(format(normed, '.5f'))
-        return normed
+    def calculate_relevance_score(self, pagerank, eu_doc_count, eu_term_count):
+        pagerank = pagerank + 1 # eliminate values > 1
+        # two effects: pagerank only boosts values
+        # no europeana hits drops relevance to zero
+        # no pagerank value leaves relevance as europeana hits
+        relevance = eu_doc_count * pagerank
+        # but let's get this into a sensible range
+        normed_relevance = floor(math.log(relevance) * 10000)
+        return normed_relevance
 
 class AgentRelevanceCounter(RelevanceCounter):
 

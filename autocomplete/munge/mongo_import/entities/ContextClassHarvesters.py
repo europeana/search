@@ -139,13 +139,13 @@ class ContextClassHarvester:
 
     def grab_relevance_ratings(self, docroot, entity_id, entity_rows):
         hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
-        wpedia_clicks = hitcounts["wikipedia_hits"]
         eu_enrichments = hitcounts["europeana_enrichment_hits"]
         eu_terms = hitcounts["europeana_string_hits"]
+        pagerank = hitcounts["pagerank"]
         ds = self.relevance_counter.calculate_relevance_score(wpedia_clicks, eu_enrichments, eu_terms)
         self.add_field(docroot, 'europeana_doc_count', str(eu_enrichments))
         self.add_field(docroot, 'europeana_term_hits', str(eu_terms))
-        self.add_field(docroot, 'wikipedia_clicks', str(wpedia_clicks))
+        self.add_field(docroot, 'pagerank', str(pagerank))
         self.add_field(docroot, 'derived_score', str(ds))
         self.add_suggest_filters(docroot, eu_terms)
         return True

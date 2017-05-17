@@ -77,7 +77,8 @@
         <field name="europeana_term_hits" type="int" indexed="true" stored="true"
             multiValued="false"/>
         <field name="wikipedia_clicks" type="int" indexed="true" stored="true" multiValued="false"/>
-        <!-- the above three factors are combined (in some fashion) to produce the derived_score,
+        <field name="pagerank" type="float" indexed="true" stored="true" multiValued="false"/>
+        <!-- the above = factors are combined (in some fashion) to produce the derived_score,
              which is used directly for ranking -->
         <field name="derived_score" type="float" indexed="true" stored="true" multiValued="false"/>
 
