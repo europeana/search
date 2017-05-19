@@ -114,13 +114,14 @@ class PreviewBuilder:
                             roles[language] = [role]
             for uri in uris:
                 role = PreviewBuilder.PROFESSIONS.find('./rdf:Description[@rdf:about="' + role + '"]', PreviewBuilder.ns)
-                for role_label in role.findall("skos:prefLabel"):
-                    label_contents = role_label.text
-                    language = role_label.attrib["xml:lang"]
-                    try:
-                        roles[language].append(label_contents)
-                    except KeyError:
-                        roles[language] = [label_contents]
+                if(role):
+                    for role_label in role.findall("skos:prefLabel"):
+                        label_contents = role_label.text
+                        language = role_label.attrib["xml:lang"]
+                        try:
+                            roles[language].append(label_contents)
+                        except KeyError:
+                            roles[language] = [label_contents]
             return roles
         else:
             return None
