@@ -78,6 +78,7 @@ class RelevanceCounter:
             return 0
 
     def calculate_relevance_score(self, pagerank, eu_doc_count, eu_term_count):
+        if(pagerank is None): pagerank = 0
         pagerank = pagerank + 1 # eliminate values > 1
         # two effects: pagerank only boosts values
         # no europeana hits drops relevance to zero
