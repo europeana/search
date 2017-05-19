@@ -24,9 +24,9 @@ class PreviewBuilder:
         preview_fields['prefLabel'] = self.build_pref_label(entity_rows)
         preview_fields['hiddenLabel'] = self.build_max_recall(entity_type, entity_rows)
         if(entity_type == "Agent"):
-            if(self.get_depiction(entity_id)): preview_fields['depiction'] = depiction
+            if(self.get_depiction(entity_id)): preview_fields['depiction'] = self.get_depiction(entity_id)
             if(self.build_birthdate(entity_rows)): preview_fields['dateOfBirth'] = self.build_birthdate(entity_rows)
-            if(self.build_deathdate(entity_rows)): preview_fields['dateOfDeath'] = self.build_deathdate[entity_rows]
+            if(self.build_deathdate(entity_rows)): preview_fields['dateOfDeath'] = self.build_deathdate(entity_rows)
             if(self.build_role(entity_rows)): preview_fields['professionOrOccupation'] = self.build_role(entity_rows)
         elif(entity_type == "Place"):
             if(self.build_country_label(entity_rows)): preview_fields['isPartOf'] = self.build_country_label(entity_rows)
@@ -35,13 +35,13 @@ class PreviewBuilder:
     def build_pref_label(self, entity_rows):
         all_langs = {}
         for k in entity_rows['prefLabel']:
-            all_langs[k] = entity_rows['prefLabel'][0]
+            all_langs[k] = entity_rows['prefLabel'][k][0]
         return all_langs
 
     def build_max_recall(self, entity_type, entity_rows):
         all_langs = {}
         for k in entity_rows['prefLabel']:
-            all_langs[k] = self.transpose_terms(entity_type, entity_rows['prefLabel'][0])
+            all_langs[k] = self.transpose_terms(entity_type, entity_rows['prefLabel'][k][0])
         return all_langs
 
     def transpose_terms(self, type, term):
@@ -82,25 +82,29 @@ class PreviewBuilder:
 
     def build_birthdate(self, entity_rows):
         # TODO: Validation routines to ensure agents have only one birthdate and deathdate apiece
-        if('rdaGr2DateOfBirth' in entity_rows['representation'].keys()):
-            dob = entity_rows['representation']['rdaGr2DateOfBirth']
-            preview_fields['dateOfBirth'] = dob[list(dob.keys())[0]][0]
+        if('rdaGr2DateOfBirth' in entity_rows.keys()):
+            for lang in entity_rows['rdaGr2DateOfBirth'].keys():
+                dob = entity_rows['rdaGr2DateOfBirth'][lang][0]
+                break
+            return dob
         else:
             return None
 
     def build_deathdate(self, entity_rows):
-        if('rdaGr2DateOfDeath' in entity_rows['representation'].keys()):
-            dod = entity_rows['representation']['rdaGr2DateOfDeath']
-            preview_fields['dateOfDeath'] = dod[list(dod.keys())[0]][0]
+        if('rdaGr2DateOfDeath' in entity_rows.keys()):
+            for lang in entity_rows['rdaGr2DateOfDeath'].keys():
+                dod = entity_rows['rdaGr2DateOfDeath'][lang][0]
+                break
+            return dod
         else:
             return None
 
     def build_role(self, entity_rows):
         roles = {}
         uris = []
-        if('rdaGr2ProfessionOrOccupation' in entity_rows['representation'].keys()):
-            for language in entity_rows['representation']['rdaGr2ProfessionOrOccupation']:
-                for role in entity_rows['representation']['rdaGr2ProfessionOrOccupation'][language]:
+        if('rdaGr2ProfessionOrOccupation' in entity_rows.keys()):
+            for language in entity_rows['rdaGr2ProfessionOrOccupation']:
+                for role in entity_rows['rdaGr2ProfessionOrOccupation'][language]:
                     if role.startswith('http'):
                         uris.append(role)
                     else:
@@ -109,7 +113,7 @@ class PreviewBuilder:
                         except KeyError:
                             roles[language] = [role]
             for uri in uris:
-                role = PreviewBuilder.PROFESSIONS.find('./rdf:Description[@rdf:about="' + role + '"]
+                role = PreviewBuilder.PROFESSIONS.find('./rdf:Description[@rdf:about="' + role + '"]')
                 for role_label in role.findall("skos:prefLabel"):
                     label_contents = role_label.text
                     language = role_label.attrib["xml:lang"]
@@ -121,9 +125,9 @@ class PreviewBuilder:
         else:
             return None
 
-    def build_country_label(self, entity_rows, language, preview_fields):
-        if 'isPartOf' in entity_rows['representation'].keys():
-            parents = set([parent_uri for k in entity_rows['representation']['isPartOf'].keys() for parent_uri in entity_rows['representation']['isPartOf'][k]])
+    def build_country_label(self, entity_rows):
+        if 'isPartOf' in entity_rows.keys():
+            parents = set([parent_uri for k in entity_rows['isPartOf'].keys() for parent_uri in entity_rows['isPartOf'][k]])
             upper_geos = {}
             for parent_uri in parents:
                 parent = self.mongoclient.annocultor_db.TermList.find_one({ 'codeUri' : parent_uri})

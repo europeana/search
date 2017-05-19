@@ -1,4 +1,5 @@
 import requests
+import math
 
 class RelevanceCounter:
     """
@@ -83,7 +84,9 @@ class RelevanceCounter:
         # no pagerank value leaves relevance as europeana hits
         relevance = eu_doc_count * pagerank
         # but let's get this into a sensible range
-        normed_relevance = floor(math.log(relevance) * 10000)
+        if(relevance == 0):
+            return 0
+        normed_relevance = math.floor(math.log(relevance) * 10000)
         return normed_relevance
 
 class AgentRelevanceCounter(RelevanceCounter):

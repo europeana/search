@@ -114,7 +114,7 @@ class ContextClassHarvester:
         try:
             f.text = self.sanitize_field(field_value)
         except Exception as ex:
-            print(field_name + "!" + field_value + str(ex))
+            print(str(field_name) + "!" + str(field_value) + str(ex))
 
     def sanitize_field(self, field_value):
         field_value = field_value.replace("\n", " ")
@@ -210,7 +210,7 @@ class ContextClassHarvester:
     def build_payload(self, entity_id, entity_rows):
         import json
         entity_type = entity_rows['entityType'].replace('Impl', '')
-        payload = self.preview_builder.build_preview(entity_type, entity_id, entity_rows)
+        payload = self.preview_builder.build_preview(entity_type, entity_id, entity_rows['representation'])
         return payload
 
     def add_suggest_filters(self, docroot, term_hits):
