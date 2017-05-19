@@ -113,7 +113,7 @@ class PreviewBuilder:
                         except KeyError:
                             roles[language] = [role]
             for uri in uris:
-                role = PreviewBuilder.PROFESSIONS.find('./rdf:Description[@rdf:about="' + role + '"]', PreviewBuilder.ns)
+                role = PreviewBuilder.PROFESSIONS.find('./rdf:Description[@rdf:about="' + uri + '"]', PreviewBuilder.ns)
                 if(role):
                     for role_label in role.findall("skos:prefLabel"):
                         label_contents = role_label.text
