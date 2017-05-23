@@ -3,16 +3,16 @@ import math
 
 class RelevanceCounter:
     """
-       Calculates the relevance of a given entity, based on three factors:
-       the number of clicks that entity's Wikipedia page has received over the
-       past year; the number of enrichments using the entity's URL found in
-       Europeana datastores; and the number of exact-match hits an OR query
-       using the entity's various language labels retrieves.
+       Calculates the relevance of a given entity, based on two factors:
+       Wikidata PageRank and the number of exact-match hits an OR query
+       using the entity's various language labels retrieves. Two other factors
+       are also available: the number of enrichments using the entity's URL found in
+       Europeana datastores; and Wikipedia clickstream popularity.
 
 
        In terms of process, this class is very simple: while processing each
        entity, it checks to see whether the above metrics are already stored
-       in the relevant sqlite dagabas. If so, it retrieves the results; if not,
+       in the relevant sqlite database. If so, it retrieves the results; if not,
        it calculates the Europeana-related metrics (enrichment and term count)
        and inserts these into the database for later retrieval.
    """
@@ -42,6 +42,8 @@ class RelevanceCounter:
         first_row = csr.fetchone()
         if(first_row is not None):
             (_, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank) = first_row
+            if(pagerank is None):
+                pagerank = 0
         else:
             wikipedia_hits = -1
             europeana_enrichment_hits = self.get_enrichment_count(id)
