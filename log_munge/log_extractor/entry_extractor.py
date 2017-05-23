@@ -51,7 +51,13 @@ class EntryExtractor:
                 relevant_files.append(filename)
             else:
                 pass
-        return relevant_files
+        return
+
+    def get_individual_session(self, sess_id, output_dir=None):
+        if(output_dir is None):
+            output_dir = self.entry_directory
+        formatted_entries = self.query_for_session_entries(sess_id)
+        self.output_session(sess_id, formatted_entries, output_dir)
 
     def read_session_file(self, session_file):
         with open(os.path.join(self.sessid_directory, session_file)) as sessids_scan:
@@ -147,8 +153,34 @@ class EntryExtractor:
             constraints = ""
         return (query, constraints)
 
-    def output_session(self, session_id, parsed_entry_list):
-        with open(os.path.join(self.entry_directory, session_id + ".txt"), 'a') as sout:
+    def output_session(self, session_id, parsed_entry_list, entry_directory=None):
+        if(entry_directory is None):
+            entry_path = os.path.join(self.entry_directory, session_id + ".txt")
+        else:
+            entry_path =  os.path.join(os.path.dirname(__file__), entry_directory, session_id + ". txt") # write directory
+        with open(entry_path, 'a') as sout:
+            prev_entry = uninter("DUMMY TIMESTAMP", "DUMMY SESSION ID", "DUMMY MESSAGE")
             for entry in parsed_entry_list:
-                msg = type(entry).__name__ + "\t" + "\t".join(entry) + "\n"
+                base_search_type = self.determine_interaction_type(prev_entry, entry)
+                msg = base_search_type + "\t" + "\t".join(entry) + "\n"
                 sout.write(msg)
+                prev_entry = entry
+
+    def determine_interaction_type(self, prev_entry, now_entry):
+        ptype = type(prev_entry)
+        ntype = type(now_entry)
+        search_type = ntype.__name__
+        if(ptype == ntype and ptype == ssinter):
+            sterm = now_entry.search_term
+            cons = now_entry.constraints
+            rco = now_entry.result_count
+            psterm = prev_entry.search_term
+            pcons = prev_entry.constraints
+            prco = prev_entry.result_count
+            if(sterm == psterm and cons == pcons and rco == prco):
+                search_type = "RefreshOrPaginationInteraction"
+            elif(sterm == psterm and cons == pcons and rco < prco):
+                search_type = "CollectionFilterAdditionInteraction"
+            elif(sterm == psterm and cons == pcons and rco > prco):
+                search_type = "CollectionFilterRemovalInteraction"
+        return search_type
