@@ -201,7 +201,7 @@ class ContextClassHarvester:
         self.add_field(docroot, 'skos_prefLabel', " ".join(sorted(set(all_preflabels))))
         depiction = self.preview_builder.get_depiction(entity_id)
         if(depiction is not None):
-            self.add_field(doc, 'foaf_depiction', depiction)
+            self.add_field(docroot, 'foaf_depiction', depiction)
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
     #def add_label_payload(self, entity_id, entity_rows, language, payload_accumulator):
