@@ -23,8 +23,9 @@ class PreviewBuilder:
         preview_fields['type'] = entity_type
         preview_fields['prefLabel'] = self.build_pref_label(entity_rows)
         preview_fields['hiddenLabel'] = self.build_max_recall(entity_type, entity_rows)
+        if(self.get_depiction(entity_id)):
+            preview_fields['depiction'] = self.get_depiction(entity_id)
         if(entity_type == "Agent"):
-            if(self.get_depiction(entity_id)): preview_fields['depiction'] = self.get_depiction(entity_id)
             if(self.build_birthdate(entity_rows)): preview_fields['dateOfBirth'] = self.build_birthdate(entity_rows)
             if(self.build_deathdate(entity_rows)): preview_fields['dateOfDeath'] = self.build_deathdate(entity_rows)
             if(self.build_role(entity_rows)): preview_fields['professionOrOccupation'] = self.build_role(entity_rows)
@@ -155,12 +156,15 @@ class PreviewBuilder:
 
     def load_depictions(self):
         self.depictions = {}
-        with open(os.path.join(os.getcwd(), 'entities', 'resources', 'agents.wikidata.images.csv')) as imgs:
-            for line in imgs.readlines():
-                (agent_id, image_id) = line.split(sep=",", maxsplit=1)
-                agent_id = agent_id.strip()
-                image_id = image_id.strip()
-                self.depictions[agent_id] = image_id
+        image_files = ['agents.wikidata.images.csv', 'concepts.merge.images.csv']
+        for image_file in image_files:
+            with open(os.path.join(os.getcwd(), 'entities', 'resources', image_file)) as imgs:
+                for line in imgs.readlines():
+                    (agent_id, image_id) = line.split(sep=",", maxsplit=1)
+                    agent_id = agent_id.strip()
+                    image_id = image_id.strip()
+                    self.depictions[agent_id] = image_id
+
 
     def get_depiction(self, entity_key):
         entity_key = entity_key.strip()
