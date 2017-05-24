@@ -199,6 +199,9 @@ class ContextClassHarvester:
         payload = self.build_payload(entity_id, entity_rows)
         self.add_field(docroot, 'payload', json.dumps(payload))
         self.add_field(docroot, 'skos_prefLabel', " ".join(sorted(set(all_preflabels))))
+        depiction = self.preview_builder.get_depiction(entity_id)
+        if(depiction is not None):
+            self.add_field(doc, 'foaf_depiction', depiction)
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
     #def add_label_payload(self, entity_id, entity_rows, language, payload_accumulator):
@@ -281,9 +284,6 @@ class AgentHarvester(ContextClassHarvester):
         doc = ET.SubElement(docroot, 'doc')
         self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Agent')
-        depiction = self.preview_builder.get_depiction(id)
-        if(depiction != -1):
-            self.add_field(doc, 'foaf_depiction', depiction)
         self.process_representation(doc, entity_id, entity_rows)
 
     def log_missing_entry(self, entity_id):
