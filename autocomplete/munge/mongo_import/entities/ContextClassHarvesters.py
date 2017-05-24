@@ -53,7 +53,7 @@ class ContextClassHarvester:
 
     MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_PORT = 27017
-    CHUNK_SIZE = 100   # each file will consist of 100 entities
+    CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = 'logs/entlogs/'
