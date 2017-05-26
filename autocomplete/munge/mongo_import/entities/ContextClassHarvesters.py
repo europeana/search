@@ -198,7 +198,7 @@ class ContextClassHarvester:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
         payload = self.build_payload(entity_id, entity_rows)
         self.add_field(docroot, 'payload', json.dumps(payload))
-        self.add_field(docroot, 'skos_prefLabel', " ".join(sorted(set(all_preflabels))))
+        self.add_field(docroot, 'skos_prefLabel', "_".join(sorted(set(all_preflabels))))
         depiction = self.preview_builder.get_depiction(entity_id)
         if(depiction is not None):
             self.add_field(docroot, 'foaf_depiction', depiction)
