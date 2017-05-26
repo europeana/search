@@ -586,7 +586,7 @@
             <str name="weightField">derived_score</str>
             <str name="payloadField">payload</str>
             <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="allTermsRequired">false</str>
+            <str name="allTermsRequired">true</str>
             <str name="minPrefixChars">2</str>
             <str name="highlight">true</str>
             <str name="buildOnStartup">false</str>

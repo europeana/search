@@ -17,9 +17,9 @@
             <analyzer>
                 <charFilter class="solr.MappingCharFilterFactory"
                     mapping="accent-map.txt"/>
-                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="[^a-zA-Z0-9]"
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="[^a-zA-Z0-9_]"
                     replacement=" "/>
-                <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+                <tokenizer class="solr.PatternTokenizerFactory" pattern="_"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
             </analyzer>
         </fieldType>
