@@ -198,17 +198,22 @@ class ContextClassHarvester:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
         payload = self.build_payload(entity_id, entity_rows)
         self.add_field(docroot, 'payload', json.dumps(payload))
+        all_preflabels = self.shingle_preflabels(all_preflabels)
         self.add_field(docroot, 'skos_prefLabel', "_".join(sorted(set(all_preflabels))))
         depiction = self.preview_builder.get_depiction(entity_id)
         if(depiction is not None):
             self.add_field(docroot, 'foaf_depiction', depiction)
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
-    #def add_label_payload(self, entity_id, entity_rows, language, payload_accumulator):
-    #    import json
-    #    type = entity_rows['entityType'].replace('Impl', '')
-    #    payload = self.preview_builder.build_label_preview(type, entity_id, entity_rows, language)
-    #    payload_accumulator[language] = payload
+    def shingle_preflabels(self, preflabels):
+        shingled_labels = []
+        for label in preflabels:
+            all_terms = label.split()
+            for i in range(len(all_terms)):
+                shingle = " ".join(all_terms[i:len(all_terms)])
+                print(shingle)
+                shingled_labels.append(shingle)
+        return shingled_labels
 
     def build_payload(self, entity_id, entity_rows):
         import json
