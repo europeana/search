@@ -211,7 +211,6 @@ class ContextClassHarvester:
             all_terms = label.split()
             for i in range(len(all_terms)):
                 shingle = " ".join(all_terms[i:len(all_terms)])
-                print(shingle)
                 shingled_labels.append(shingle)
         return shingled_labels
 
