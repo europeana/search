@@ -182,7 +182,7 @@ class ContextClassHarvester:
                                     continue
                                 prev_alts.append(field_value)
                             self.add_field(docroot, q_field_name, field_value)
-                            if(characteristic == 'prefLabel' and pref_label_count == 0 and unq_name != ""):
+                            if(characteristic == 'prefLabel' and pref_label_count == 0):
                                 pref_label_count = 1
                                 all_preflabels.append(field_value)
             elif(type(entity_rows['representation'][characteristic]) is list):
@@ -201,7 +201,7 @@ class ContextClassHarvester:
         all_preflabels = self.shingle_preflabels(all_preflabels)
         self.add_field(docroot, 'skos_prefLabel', "_".join(sorted(set(all_preflabels))))
         depiction = self.preview_builder.get_depiction(entity_id)
-        if(depiction is not None):
+        if(depiction):
             self.add_field(docroot, 'foaf_depiction', depiction)
         self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
 
