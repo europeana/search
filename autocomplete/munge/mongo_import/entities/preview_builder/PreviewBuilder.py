@@ -169,6 +169,10 @@ class PreviewBuilder:
     def get_depiction(self, entity_key):
         entity_key = entity_key.strip()
         try:
-            return self.depictions[entity_key]
+            raw_loc = self.depictions[entity_key]
+            loc = re.sub(r"^\"", "", raw_loc)
+            loc = re.sub(r"\"$", "", loc)
+            print(loc)
+            return loc
         except KeyError:
             None
