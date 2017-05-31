@@ -1,4 +1,5 @@
 import requests
+import os
 import math
 
 class RelevanceCounter:
@@ -27,6 +28,11 @@ class RelevanceCounter:
         self.name = name
         self.dbpath = os.path.join(os.path.dirname(__file__), 'db', name + ".db")
         self.db = slt.connect(self.dbpath)
+        self.penalized_entities = []
+        with open(os.path.join(os.path.dirname(__file__), 'resources', 'worst_bets.txt')) as wbets:
+            for line in wbets.readlines():
+                line = line.strip()
+                self.penalized_entities.append(line)
 
     def normalize_string(self, normanda):
         import re
@@ -79,7 +85,7 @@ class RelevanceCounter:
         except:
             return 0
 
-    def calculate_relevance_score(self, pagerank, eu_doc_count, eu_term_count):
+    def calculate_relevance_score(self, id, pagerank, eu_doc_count, eu_term_count):
         if(pagerank is None): pagerank = 0
         pagerank = pagerank + 1 # eliminate values > 1
         # two effects: pagerank only boosts values
@@ -89,7 +95,10 @@ class RelevanceCounter:
         # but let's get this into a sensible range
         if(relevance == 0):
             return 0
-        normed_relevance = math.floor(math.log(relevance) * 10000)
+        deprecation_factor = 1
+        if(id in self.penalized_entities):
+            deprecation_factor = 0.5
+        normed_relevance = math.floor(math.log(relevance) * 10000) * deprecation_factor
         return normed_relevance
 
 class AgentRelevanceCounter(RelevanceCounter):

@@ -142,7 +142,7 @@ class ContextClassHarvester:
         eu_enrichments = hitcounts["europeana_enrichment_hits"]
         eu_terms = hitcounts["europeana_string_hits"]
         pagerank = hitcounts["pagerank"]
-        ds = self.relevance_counter.calculate_relevance_score(pagerank, eu_enrichments, eu_terms)
+        ds = self.relevance_counter.calculate_relevance_score(entity_id, pagerank, eu_enrichments, eu_terms)
         self.add_field(docroot, 'europeana_doc_count', str(eu_enrichments))
         self.add_field(docroot, 'europeana_term_hits', str(eu_terms))
         self.add_field(docroot, 'pagerank', str(pagerank))
