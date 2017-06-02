@@ -51,7 +51,7 @@ class EntryExtractor:
                 relevant_files.append(filename)
             else:
                 pass
-        return
+        return relevant_files
 
     def get_individual_session(self, sess_id, output_dir=None):
         if(output_dir is None):
