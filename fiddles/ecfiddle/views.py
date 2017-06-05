@@ -22,7 +22,7 @@ class ECQueryForm(forms.Form):
             fields.append((row.field_name, row.field_name))
 
         # first, need to be able to pick out the entity
-        picked_entity = forms.CharField(label='Entity', max_length=250)
+        self.fields["picked_entity"] = forms.CharField(label='Entity', max_length=250, widget=forms.TextInput(attrs={ 'class' : 'entity-picked '}))
 
         for i in range(4):
             self.create_clause_group(i, fields)
@@ -31,14 +31,17 @@ class ECQueryForm(forms.Form):
                 self.create_clause_group(pos, fields)
 
     def create_clause_group(self, position, fields):
+        subprefix = ""
+        if("_" in str(position)):
+            subprefix = "sub"
         # (i)   Operator picker (AND|OR)
-        self.fields['clause_' + str(position) + '_operator'] = forms.ChoiceField(label="Operator", choices=[('AND', 'AND'), ('OR', 'OR')], initial='AND', required=False, widget=forms.RadioSelect())
+        self.fields[subprefix + 'clause_' + str(position) + '_operator'] = forms.ChoiceField(label="Operator", choices=[('AND', 'AND'), ('OR', 'OR')], initial='AND', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-operator'}))
         # (ii)  Field selector
-        self.fields['clause_' + str(position) + '_field'] = forms.ChoiceField(label="Field Name", choices=fields, initial='', required=False)
+        self.fields[subprefix + 'clause_' + str(position) + '_field'] = forms.ChoiceField(label="Field Name", choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : subprefix + 'clause-field'}))
         # (iii) URL or term input 
-        self.fields['clause_' + str(position) + '_mode'] = forms.ChoiceField(label="Mode", choices=[('URL', 'URL'), ('Freetext', 'Freetext')], initial='URL', required=False, widget=forms.RadioSelect())
+        self.fields[subprefix + 'clause_' + str(position) + '_mode'] = forms.ChoiceField(label="Mode", choices=[('URL', 'URL'), ('Freetext', 'Freetext')], initial='URL', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-mode'}))
         # (iv)  Four subclause units (identical to the above)
-        self.fields['clause_' + str(position) + '_value'] = forms.CharField(label="value", max_length=250)
+        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="value", max_length=250, widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value'}))
 
 
 def index(request):
