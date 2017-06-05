@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block css %}
+#inner-wrapper{ padding-bottom: 100px; }
+{% endblock %}
+{% block content %}
+<div id="wrapper">
+  <div id="inner-wrapper">
+    <div class="cf">
+    <a href="http://test.europeana.eu/portal" class="logo ir"><h1>Europeana Collections</h1></a>
+        </div>
+    <div id="form-wrapper">
+        <h1>Logged out.</h1>
+        <p>Thank you for your query submission.</p>
+  <a id="login" href="/accounts/login">{% trans "Log back in again"  %}</a>
+      </div>
+  </div>
+</div>{% endblock %}

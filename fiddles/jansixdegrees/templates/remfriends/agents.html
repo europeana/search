@@ -1,0 +1,74 @@
+{% load filters %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Agents (Dutch Golden Age)</title>
+    <script src="{% static 'remfriends/js/jquery.dev.js' %}"></script>
+    <script src="{% static 'remfriends/js/query.js' %}"></script>
+    <style type="text/css">
+        html{ font-family: Helvetica, Arial, sans-serif; font-size: 12pt; }
+        body{ color: #E4E4E4; background-color: #1B1B1B; font-family: Arial, Helvetica, sans;}
+        #wrapper { width:85%;margin-right: auto; margin-left: auto; margin-top: 5%; }
+        ul#id_role_select{ padding-bottom: 8em; }
+        ul#id_role_select, ul#id_order_select{ list-style-type: none; }
+        ul#id_role_select li{ width: 15em; float: left; }
+        ul#id_order_select li{ width: 15em; float: left; position: relative; }
+        ul#id_order_select{ margin-bottom: 6em; position: relative; top: 30px; }
+        form p{ clear: both; }
+        table { width: 90%; }
+        .agent-image { width: 0px; }
+        .agent-name, .patient-name{ width: 32.5%; vertical-align: middle; margin-top:auto; margin-bottom: auto; }
+        .agent-name a{ padding-top: 40px; }
+        .relation-name{ width: 10%; }
+        .ibid { font-style: italic; }
+        .no-relations{ font-style: italic; }
+        .show-relations, .hide-relations, .no-relations { width: 25%; text-align: right; }
+        .show-relations a, .hide-relations a{ cursor: pointer; }
+        td img{ display: block; float: left; padding-top: 7.5px; padding-bottom: 7.5px; }
+        .agent-name a{ display: block; position: relative; left: 20px; }
+        .subagent-label{ display: table-cell;  position: relative; left: 10px; padding-top: 20px; font-weight: bold; font-size: 18px; width: 100px; }
+        a.unknown-image{ padding-top: 30px; }
+        a:link{ color: white; text-decoration: none; }
+        a:hover{ color: #ddd; text-decoration: underline; }
+        a:visited{ color: #ffff66; text-decoration: none; }
+        a:active{ color: #aaa; text-decoration: underline; }
+        p label[for=id_order_select_0]{ position: relative; top: 20px;  }
+        #submit-roles{ margin-top: 20px; margin-bottom: 35px;  }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+<h1>List of Agents (Dutch Golden Age)</h1>
+    <form method="POST" action="">
+    {% csrf_token %}
+    {{ role_form.as_p }}
+        {{ order_form.as_p }}
+                <button type="submit" name="submit-roles" id="submit-roles">Submit Role Filters</button>
+
+        </form>
+<table>
+    {% for agent in agents %}
+    <tr class="toplevel {{ agent.wdid|as_id }}">
+        <td class="agent-portrait"></td>
+        {% if agent.portrait.image_url == ""  %}
+        <td class="agent-name {{ agent.wdid|as_id }}"><img src="{% static 'remfriends/images/unknown.jpg'  %}" height="61px" width="61px" style="padding:7px"/><a href="Agent/{{ agent.wdid|as_id }}" target="_blank" class="unknown-image">{{ agent.pref_label }} ({{agent.birthdate|as_year}}-{{agent.deathdate|as_year}})</a></td>
+        {% else %}
+        <td class="agent-name {{ agent.wdid|as_id }}"><img src="{{ agent.portrait.image_url }}" height="100px" width="75px"/><a href="Agent/{{ agent.wdid|as_id }}" target="_blank">{{ agent.pref_label }} ({{agent.birthdate|as_year}}-{{agent.deathdate|as_year}})</a></td>
+        {% endif %}
+        <td class="relation-name"></td>
+        <td class="patient-name"></td>
+        {% if agent.social_relation.count == 0 %}
+        <td class="no-relations">No {{ agent.pref_label }} Relations Available</td>
+        {% elif  agent.social_relation.count == 1%}
+        <td class="show-relations">Show <b>1</b> {{ agent.pref_label }} Relation</td>
+        {% else %}
+        <td class="show-relations">Show <b>{{ agent.social_relation.count }}</b> {{ agent.pref_label }} Relations</td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+</table>
+    </div>
+</body>
+</html>

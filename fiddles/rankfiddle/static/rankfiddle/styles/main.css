@@ -1,0 +1,57 @@
+.relevance-rater{ position: relative; margin-bottom: 2rem; }
+.star-label{ font-weight: 500; float: left; }
+.rating-cancel{ height: 0px; padding-left: 130px; }
+.rating-cancelled{ background-color: rgb(206,107,104); font-weight: bold; color: white; padding: 3px; }
+span.not-relevant{ font-weight: bold; }
+div.star-rating{ margin-top: 5px; padding-left: 5px; }
+ul.errorlist li{ display: none; } /* We rely on JS to display the error msgs appropriately */
+.field-error{ border: thin solid red; }
+.warning, .error-text{ color: red; padding-top: 5px; position: absolute; width: 100%; }
+.warning{ display: none; }
+.error-text{ display: block; }
+.warnings{ display: none; }
+#loading{ background-color: eeee; width: 30px; height: 30px; position: absolute;
+          background-image:url(../resources/ajax-loader.gif); display: inline-block; background-repeat: no-repeat; }
+form p{ min-height: 100px; position: relative; }
+form p label{ font-weight: 500; }
+.results-list{ background-color: rgba(255, 255, 255, 1.0); }
+.logo{ background-image: url(http://styleguide.europeana.eu/v/0.2.42/images/europeana-logo-default.svg); background-size: 200px 300px; width: 206px; height: 123px; }
+main, [role=main] { padding-top: 0rem; }
+.cf{ border-bottom: thin solid #4D4D4D; }
+#header-desc{ padding-left: 18em; padding-top: 2rem; }
+#header-desc h1 { margin-bottom: 0.1rem; }
+#header-desc h2 { font-style: italic; }
+.weights h2{ margin-bottom: 1.5rem; }
+#items-returned, #items-found{ font-weight: bold; }
+div.results-header{ position: relative;  }
+.result-info{ float: none; width: auto; margin-right:0px;}
+#summary{ display: inline-block; }
+div#rating-warning{ text-align: right; position: absolute; width: 100%; top:0.8rem; left: 0px; font-weight: bold; }
+.rating-missing{ color: red;  }
+.search-list-item{ padding-bottom: 1rem; }
+#quit, #continue{ margin-left: auto;  margin-right: auto; display: block; }
+#quit{ margin-top: 5px; }
+#email-wrapper{ position: absolute; left: 82.5%; top: 2.75rem; }
+#email-wrapper p{ margin-bottom: 0; }
+#email-wrapper p a{ color: blue; }
+p#thank-you{ padding-top: 10px; padding-left: 10px; }
+.weights { background: #F1F1EE; float: left; margin-right: 1.40845%; margin: 0; padding: 2rem 2rem 3.2rem 2rem; border-right: thin solid black; }
+.weights>h2, #param-feedback h2 { text-transform: uppercase; font-weight: bold; font-size: 16px; font-size: 1rem; color: #4D4D4D; }
+#param-feedback h2{ color: red; }
+input[type="number"]{ width:75px; }
+.boost{ position: relative; clear: both; }
+.boost p{ float: left; }
+.boost p:last-child{ margin-left: 75px; }
+.weights form>p{ clear: both; }
+#param-feedback{ border-left: thin solid black; float: left; width: 20%; padding: 2rem 2rem 3.2rem; }
+.param-value{ position: relative; clear: both; }
+.param{ float: left; font-style: italic; }
+.value{ float: left; font-weight: bold; }
+.weights p{ margin-bottom: 0;}
+.results-list{ width: 66%; float: left; border-bottom: none; }
+.field-adder{ width: 12rem; padding: 5px; color: #fff; background-color: #1A8AC7; clear: both; text-align: center; margin-bottom: 20px; border-radius: 3px; cursor: pointer; }
+#param-feedback, #query_results, #user_form{ height: 15000px; } /* TODO: resize dynamically */
+.search-list-item{ margin-bottom: 0; padding-top: 3.2rem; }
+form p{ min-height: 80px;  }
+#launch-query{ margin-left: 9rem; margin-top: 2rem; padding-left: 3rem; padding-right: 3rem; }
+.item-image{ margin-right: 2rem; }

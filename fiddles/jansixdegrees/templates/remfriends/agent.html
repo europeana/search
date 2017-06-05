@@ -1,0 +1,110 @@
+{% load filters %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agent</title>
+    <style type="text/css">
+        body{ color: #E4E4E4; background-color: #1B1B1B; font-family: Arial, Helvetica, sans;}
+        #wrapper { width:85%;margin-right: auto; margin-left: auto; margin-top: 5%; margin-bottom: 5%;}
+        #agent-info{ position: relative; }
+        #agent-img, #bio{ float: left; }
+        #bio{ clear: right; margin-bottom: 25px; }
+        #agent-img { margin-right: 25px; margin-bottom: 25px; }
+        #bio{ position: relative; }
+        .label, .value{ display: inline-block; }
+        .label{ font-weight: bold; margin-right:10px; }
+        .value{ clear: right; }
+        h2, table{ clear: both; }
+        #home{ float: right; }
+        a:link{ color: white; text-decoration: none; }
+        a:hover{ color: #ddd; text-decoration: underline; }
+        a:visited{ color: #ffff66; text-decoration: none; }
+        a:active{ color: #aaa; text-decoration: underline; }
+        #europeana-searches{ margin-top: 5px;  }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+    <h1>{{ agent.pref_label }} ({{agent.birthdate|as_year}}-{{agent.deathdate|as_year}})</h1>
+    <!-- <div id="home"><a href="/remfriends/Agents">Back to agent list</a></div> -->
+    <div id="agent-info">
+        {% if agent.portrait.image_url %}
+        <div id="agent-img">
+            <img src="{{ agent.portrait.image_url }}" height="350px"/>
+        </div>
+        {% endif %}
+        <div id="bio">
+        {% if agent.portrait.image_url == None %}
+            <div id="image-warning">No image available</div>
+        {% endif %}
+        <div id="agent-gender"><div class="label">Gender: </div><div class="value"> {{ agent.sex }}</div></div>
+        <div id="agent-birthplace"><div class="label">Birthplace: </div><div class="value"> {{ agent.place_of_birth }}</div></div>
+        <div id="agent-deathplace"><div class="label">Deathplace: </div><div class="value"> {{ agent.place_of_death }}</div></div>
+            {% if roles %}
+            <div id ="agent-occupation"><div class="label">Occupation(s): </div><div class="value"> {{ roles|joinlist }}</div></div>
+            {% endif %}
+            <div id="wikidata-link"><div class="label">Wikidata link: </div><div class="value"><a href="{{ agent.wdid }}" target="_blank"> {{ agent.wdid }}</a></div></div>
+            </div><!-- closing #bio -->
+    </div> <!-- closing #agent-info -->
+    <div id="europeana-searches">
+            {% if agent.europeana_broad_set %}
+        <h2>Results from Europeana</h2>
+            <div id="europeana-search">
+            <div id="europeana-label" class="label">Europeana Search:</div>
+            <div id="europeana-query" class="value"><a href="{{ agent.europeana_broad_set|as_phrase_search }}" target="_blank">{{ agent.europeana_broad_set|as_phrase_search }}</a></div>
+        </div>
+        {% endif %}
+        {% if agent.europeana_narrow_set %}
+        <div id="rijks-search">
+            <div id="rijks-label" class="label">Europeana - Rijksmuseum holdings:</div>
+            <div id="rijks-query" class="value"><a href="{{ agent.europeana_narrow_set|as_phrase_search }}" target="_blank">{{ agent.europeana_narrow_set|as_phrase_search }}</a></div>
+        </div>
+        {% endif %}
+                </div><!-- closing #europeana-searches -->
+    {% if works.count > 0 %}
+    <h2>Works from Wikidata</h2>
+    <table name="work-info">
+        {% for work in works %}
+        <tr>
+            <td><a href="{{ work.wdid }}" target="_blank">{{ work.pref_label }}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+     {% if europeana_works.count > 0 %}
+    <h2>Works from the Rijksmuseum (via Europeana)</h2>
+    <table name="ework-info">
+        {% for ework in europeana_works %}
+        <tr>
+            <td><a href="{{ ework.euid|as_eurl }}" target="_blank">{{ ework.pref_label }}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+    {% if outward_relations.count > 0 %}
+    <h2>Relationships</h2>
+    <table name="social-relationships">
+        {% for orel in outward_relations %}
+            <tr>
+                <td>{{ orel.active.pref_label }}</td>
+                <td>{{ orel.relationship_type.pref_label|friendly_relations }}</td>
+                <td><a href="{{ orel.passive.wdid|as_id }}" target="_blank">{{ orel.passive.pref_label }}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+    {% if as_subject_eur.count > 0 %}
+    <h2>Depicted in Europeana</h2>
+    <table name="europeana-subjects">
+            {% for eu_work in as_subject_eur %}
+            <tr>
+                <td><a href="{{ eu_work.euid|as_eurl }}" target="_blank">{{ eu_work.pref_label }}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endif %}
+    </div><!-- closing #wrapper -->
+</body>
+</html>

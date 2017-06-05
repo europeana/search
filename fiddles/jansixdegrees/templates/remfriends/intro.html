@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exploring Europeana Through Social Networks - The Dutch Golden Age</title>
+    <style type="text/css">
+        body{ color: #E4E4E4; background-color: #1B1B1B; font-family: Arial, Helvetica, sans;;}
+        #wrapper { width:85%;margin-right: auto; margin-left: auto; margin-top: 5%; margin-bottom: 5%;}
+        a:link{ color: white; text-decoration: none; }
+        a:hover{ color: #ddd; text-decoration: underline; }
+        a:visited{ color: #ffff66; text-decoration: none; }
+        a:active{ color: #aaa; text-decoration: underline; }
+        span[lang='nl']{ font-style: italics; }
+        div#onwards{ margin-right: auto; margin-left: auto; position: relative; top: 60px; text-align: center; width: 250px; padding: 20px; border: thin solid white; border-radius: 10px;}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Exploring Europeana Through Social Networks - The Dutch Golden Age</h1>
+        <section>
+            <h2>Introduction: Hacking the Golden Age Social Graph</h2>
+            <section>
+                <h3>Background</h3>
+            <p><a href="http://144.76.218.176:8000/remfriends/Agents">This site</a> represents a refactoring of the social graph developed during the first
+                Europeana Hackweek, 20-24th June, by Pablo Uceda Gomez, Tim Hill, Hugo Manguinhas, and
+                Karl Pineau.</p>
+            <p>The motivation for developing a social graph was that Europeana will in the near future be
+            moving away from a record-oriented architecture for its data, towards the development of a knowledge
+            graph. During the Hack Week we decided to see how much of a knowledge graph we could create in a
+            short span of time - and what kind of effect this could have on how Europeana is explored and
+            used.</p>
+                </section>
+            <section><h3>Why a social graph?</h3>
+            <p>We decided in the first instance to focus specifically on a <em>social</em> graph because this
+                seemed both valuable and feasible. Art history is to a large extent a story of the interactions of
+            groups and individuals with each other, and of their influence upon each other. And while other approaches might have
+            been taken (for instance, an artwork- rather than artist-centred perspective), the nature of art-cataloguing
+            and the complexities of subsequent copying, reprinting, etc. meant that historical agents rather than
+            their creations seemed like a more rewarding path to pursue; much bibliographic work will need to be done
+            before major works of art can be considered digitally-coherent objects. Furthermore, social networks, in contrast to,
+            say, FRBR Works, are an intuitive notion for most users: the effect of adding a social graph to Europeana's
+            collections is more immediately clear than reorganization of artworks into, say, FRBR Works.</p>
+                <p>As a sidenote: one <b>unintuitive</b> aspect of the site is that such individuals are instances of
+                the Europeana Data Model Agent (edm:Agent) class, and are therefore often referred to as 'Agents' throughout
+                this site. Although in theory the word 'Agent' can also apply to organisations as well as individuals,
+                on this site the term is used only in reference to individual human beings.</p>
+                </section>
+            <section><h3>Why the Dutch Golden Age? Why Rembrandt?</h3>
+            <p>In terms of time-period and milieu, we decided to focus on the Dutch Golden Age - partly because of
+            the intrinsic interest of the subject, and partly because the metadata supplied to us for this period
+            by the Rijksmuseum is of exceptionally good quality. We further decided to restrict our scope to Rembrandt van Rijn,
+            and the social network radiating out from him. Restricting the dataset in this way seemed useful for
+            experimental and evaluative purposes; and in fact even with this restricted scope, our final dataset contains more than
+            1450 Agents, spanning five centuries and ranging in their birthplace from the Netherlands to Mughal India.</p>
+                </section>
+            <section><h3>Why a second site?</h3>
+            <p>Although during the Hack Week we succeeded in creating a usable social graph, the resulting site suffered from a
+            number of problems. First, the sheer number of images involved and the density of the graph made loading and response times extremely
+            slow. Second, the points of linkage between this graph and Europeana, although present, were left largely implicit, so that
+            it may have appeared to be something of a free-floating structure.</p>
+                <p>The purpose of this site, then, is to give a better sense of how the migration of our data from a document- to
+                a graph-based model will affect the Europeana platform, by making the demo site more usable and by tying it in
+                more closely to Europeana Collections as it exists today. A secondary purpose is to help illuminate the Dutch Golden
+                Age a little better - for even at this small a scale, and in this limited a working time-frame, the social
+                networks we created helped shed an unusual light upon the period and its arists.</p>
+                </section>
+        </section>
+        <section>
+        <h2>Using the site</h2>
+            <section>
+                <h3>Features</h3>
+        <p>Use of the site as it exists now should be, it is hoped, self-explanatory. The start-page allows filtration of the
+        Agent-list by profession (e.g., 'Sculptor', 'Midwife', 'Merchant'), with the default value set to 'Painters'. The
+        resulting list can be ordered by number of social relations, by birthdate, or alphabetically.</p>
+                <p>In addition, the social relations associated with each Agent can be revealed by clicking on their 'Show
+                Relations' label. The resulting display is nested, so that these relations can in turn have <em>their</em>
+                    relations expanded, and so on. This is an experimental feature, based on the intuition that one
+                    best comes to understand a graph by traversing it. As far as we're aware this is an entirely original
+                    approach to displaying and understanding social graphs. Whether it is also a useful one is a
+                question left to the user's discretion.</p>
+                <p>Clicking on an Agent name opens up that Agent's entity page in a new tab. This page contains at the very least
+                information drawn from Wikidata about the Agent and a link back to the Agent's Wikidata page. More often
+                it will also show an image of the Agent, a link to hits for that Agent in Europeana and/or the Rijskmuseum,
+                and to any other paintings of that Agent in Europeana collections.</p>
+            </section>
+            <section>
+                <h3>Problems and caveats</h3>
+                <p>The most basic problem encountered by the first version of the site remains unchanged: the sheer number
+                of images involved, and their high quality, means that page load times are long. This is mitigated to a
+                large extent by the capacity to filter by profession, meaning that not all images need to be displayed
+                at once. But the site is still a relatively slow one, and pages may take 4-8 seconds to render.</p>
+                <p>In addition, the purpose of this second site is specifically to showcase the work achieved during
+                    the Hack Week, not to add to it or correct it. This means that some data problems remain, and have
+                been deliberately left un-ironed out. For instance, the various linking algorithms became confused by the
+                number of Agents with the name 'Jan Six' (all of whom are related to each other), meaning that there are
+                multiple wrong hits for this family. In addition, while linking back to Europeana using a phrase search of the
+                Agent's full name generally yielded surprisingly good results, instances in which this results in incorrect
+                hits have been allowed to stand.</p>
+                <p>Finally, working on this has been a sporadic evenings-and-weekends project since the Hack week. Numerous small
+                bugs, typos, HTML/CSS infelicities etc. no doubt exist. Please do point them out to <a href="mailto:timothy.hill@europeana.eu">Timothy Hill</a>
+                when you find them.</p>
+            </section>
+        </section>
+        <section>
+            <h2>Questions addressed</h2>
+            <p>A full account of the Hack Week, the procedures used, and lessons learned, will be written up in the near
+            future (i.e., by 31.12.2016). In the meantime, here are a few high-level observations:</p>
+            <section>
+                <h3>How hard is it to create a useable knowledge graph?</h3>
+                <p>As it turned out, creating the knowledge graph that powers the site was relatively easy. First, the
+                relevant identifiers were harvested from our Rijksmuseum data (that is to say, all the Agents who
+                appeared in the metadata of any painting involving Rembrandt van Rijn). These identifiers were then
+                mapped to Wikidata identifiers using BabelNet, and Wikidata was queried for five degrees of
+                social-graph separation from this initial set. None of these steps was particularly challenging.</p>
+                <p>The difficult part was linking this knowledge graph back to Europeana holdings. Paintings from this
+                era are known under so many different names, and the Wikidata knowledge graph is so sparse here, that exact
+                    semantic matching from Wikidata paintings to Europeana paintings, or from Agents to Europeana records,
+                    had only very limited success in the time available during the Hack Week.
+                </p>
+                <p>Curiously, however, simple phrase-searching served to link Agents to Europeana records very well in
+                most cases. A more thorough assessment will have to be done in future. But by and large linking of an Agent
+                back to Europeana records could be accomplished through the simple expedient of double-quoting his or her name as a
+                phrase search against the portal.</p>
+            </section>
+            <section>
+                <h3>Just how useful is Wikidata anyway?</h3>
+                <p>Although a more thorough assessment will have to be made here, the main findings with regard to
+                Wikidata were:</p>
+                <ul>
+                    <li>As a social-graph generator it is incredibly useful, and well-populated for Agents of this period. </li>
+                    <li>its assertions can often be idiosyncratic. For instance, many of the Agents listed in Wikidata as having
+                    artistic or intellectual professions (painter, sculptor, poet, etc.) are in fact titled
+                    noblemen and -women who counted these amongst their cultural accomplishments. Typically little is known
+                    about their work, and none of it survives. While the labelling is not incorrect and sheds interesting light upon,
+                    for instance, women's history during the period, in most cases such information is not what the user
+                    had in mind when filtering for, e.g., 'Poets'.</li>
+                    <li>Linkage of artists to their works is (very) sparse. Rembrandt himself, for instance, is linked to only five known artistic works.</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Did anything weird show up?</h3>
+                <p>A couple of things!</p>
+                <p>First, attempts to find instances of Agents appearing as subjects of paintings surfaced the fact that the
+                 model for the Prodigal Son's (prostitute?) companion in Rembrandt's <a href="http://www.europeana.eu/portal/en/record/9200105/BibliographicResource_3000006113568.html">
+                        eponymous painting</a> was probably
+                his wife, <a href="http://144.76.218.178:8000/remfriends/Agent/Q109676">Saskia van Uylenburgh</a>.</p>
+                <p>Second, preliminary inspection of the social graph indicated a large cluster of individuals who were born
+                and died in India. As it turned out, this apparent bug arose because of Rembrandt's sketch of <a href="http://www.europeana.eu/portal/en/record/90402/RP_T_1961_82.html">
+                        De Groot Mogol Jahangir</a>, a figure who apparently fascinated Rembrandt and whose likeness he copied
+                from earlier images of the prince. In addition to shedding light upon Rembrandt and his working process itself,
+                the resulting social graph and its links back to Europeana indicated that we hold surprising amounts of Indian
+                content related to the period.</p>
+            </section>
+        </section>
+        <div id="onwards"><a href="http://144.76.218.178:8000/remfriends/Agents">OK, Got It!<br>Take me to the site!</a></div>
+        </div>
+</body>
+</html>

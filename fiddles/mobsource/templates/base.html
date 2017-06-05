@@ -1,0 +1,26 @@
+{% load i18n %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{% static 'mobsource/styles/europeana.css' %}" />
+    <link rel="stylesheet" href="{% static 'mobsource/styles/accounts.css' %}" />
+    <style>{% block css %}{% endblock %}</style>
+    <title>{% block title %}User test{% endblock %}</title>
+</head>
+
+<body>
+
+    <div id="content">
+    {% block content %}{% endblock %}
+    </div>
+
+    <div id="footer">
+    {% block footer %}
+
+    {% endblock %}
+    </div>
+</body>
+
+</html>
