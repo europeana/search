@@ -7,7 +7,7 @@ class TermExtractor:
 
 	def __init__(self):
 		self.entry_directory = os.path.join(os.path.dirname(__file__), 'intermediate_output', 'entries_by_session')
-		self.terms_directory = os.path.join(os.path.dirname(__file__), 'intermediate_output', 'terms')	
+		self.terms_directory = os.path.join(os.path.dirname(__file__), 'final_output', 'terms')	
 		self.terms = []
 
 	def extract_terms(self):
