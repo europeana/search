@@ -1,5 +1,6 @@
 <add>
 	<doc>
+                <field name="europeana_id">1</field>
 		<field name="stinan">Stored, indexed, and analysed</field>
 		<field name="unstinan">Not stored, but indexed and analysed</field>
 		<field name="stuninan">Stored, but not indexed, and analysed</field>
