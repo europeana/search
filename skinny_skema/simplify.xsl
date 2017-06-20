@@ -105,4 +105,11 @@
         <xsl:copy-of select="."/>
     </xsl:template>
     
+    <xsl:template match="copyField">
+        <xsl:variable name="raw-source" select="substring-before(@source, '.*')"/>
+        <xsl:if test="(@dest = $retain-changed or @dest = $retained-unchanged) and @dest ne 'text' and (@source = $retained-unchanged or @source = $retain-changed or $raw-source = $retain-changed or $raw-source = $retained-unchanged) and @dest ne $raw-source">
+            <xsl:copy-of select="."/>   
+        </xsl:if>
+    </xsl:template>
+    
 </xsl:stylesheet>
