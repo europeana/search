@@ -2,7 +2,60 @@ $(document).ready(function(){
 
     var init = function(){
 
-        $("p:empty").each(function(){
+        columnate();
+        init_autocomplete();
+        $("input[name=clause_0_operator]").prop("disabled", true);
+        $(".operator-wrapper .clause_0_group.column_1 * label").css({ "color" : "#aaa", "font-style" : "italic" });
+        $(".operator-wrapper .clause_0_group.column_1 label").css({ "color" : "#aaa", "font-style" : "italic" });
+
+    }
+
+    var init_autocomplete = function(){
+
+        var options = {
+
+            url: function(frag) {
+            return "http://test-entity.europeana.eu/entity/suggest?wskey=apidemo&rows=10&text=" + frag;
+            },
+            list: { match: { enabled: true },
+                    onChooseEvent: function() {
+                        global_search = $("#id_picked_entity").getSelectedItemData()
+                        var value = trim_autocomplete_msg(concatenate_autocomplete_msg(global_search));
+                        $("#id_picked_entity").val(value);
+            }},
+            listLocation: "contains",
+            getValue: concatenate_autocomplete_msg
+
+        }
+
+        $("#id_picked_entity").easyAutocomplete(options);
+
+    }
+
+    var concatenate_autocomplete_msg = function(element){
+
+        var label = element.prefLabel;
+        var expansion_label = element.hiddenLabel.join("; ");
+        var uri = element.id;
+        var cat = element.type;
+        var msg = label;
+        if(expansion_label != label){ msg += "<br>Expansion Labels: " + expansion_label; }
+        msg += "<br>type: " + cat;
+        msg += "<br>(" + uri + ")";
+        return msg;                  
+
+    }
+
+    var trim_autocomplete_msg = function(current_msg){
+
+        var msg = current_msg.replace(/<br>/g, ", ");
+        return msg;
+
+    }
+
+    var columnate = function(){
+
+      $("p:empty").each(function(){
 
             $(this).remove();
 
@@ -59,16 +112,22 @@ $(document).ready(function(){
         $(".operator-wrapper").each(function(){
 
             $(this).children(".column_1").wrapAll("<div class=\"column-1-wrapper\">");
+            $(this).children(".column_2").wrapAll("<div class=\"column-2-wrapper\">");
 
 
         });
 
         $(".mode-wrapper").each(function(){
 
+            $(this).children(".column_1").wrapAll("<div class=\"column-1-wrapper\">");
             $(this).children(".column_2").wrapAll("<div class=\"column-2-wrapper\">");
 
 
         });
+
+        $(".activator").prev().addClass("activator-label");
+
+
 
 
     }

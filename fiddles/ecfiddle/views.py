@@ -34,6 +34,13 @@ class ECQueryForm(forms.Form):
         subprefix = ""
         if("_" in str(position)):
             subprefix = "sub"
+            (clause_number, subclause_number) = position.split("_")
+            clause_number = int(clause_number) + 1
+            subclause_number = int(subclause_number) + 1
+            lbl = "Clause " + str(clause_number) + ", subclause " + str(subclause_number)
+            self.fields['subclause_' + position + "_activator"]  = forms.BooleanField(label=lbl, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
+        else:
+            self.fields['clause_' + str(position) + '_activator'] = forms.BooleanField(label="Clause " + str(position + 1), widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
         # (i)   Operator picker (AND|OR)
         self.fields[subprefix + 'clause_' + str(position) + '_operator'] = forms.ChoiceField(label="Operator", choices=[('AND', 'AND'), ('OR', 'OR')], initial='AND', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-operator'}))
         # (ii)  Field selector
@@ -41,7 +48,7 @@ class ECQueryForm(forms.Form):
         # (iii) URL or term input 
         self.fields[subprefix + 'clause_' + str(position) + '_mode'] = forms.ChoiceField(label="Mode", choices=[('URL', 'URL'), ('Freetext', 'Freetext')], initial='URL', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-mode'}))
         # (iv)  Four subclause units (identical to the above)
-        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="value", max_length=250, widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value'}))
+        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="Value", max_length=250, required=False, widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value'}))
 
 
 def index(request):

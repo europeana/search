@@ -3,8 +3,10 @@
 <head>
     <link rel="stylesheet" type="text/css" href="{% static 'mobsource/styles/europeana.css' %}" /> 
     <link rel="stylesheet" type="text/css" href="{% static 'rankfiddle/styles/main.css' %}" /> 
+    <link rel="stylesheet" type="text/css" href="{% static 'ecfiddle/styles/easy-autocomplete.css' %}" /> 
     <script src="{% static 'mobsource/js/jquery.dev.js' %}"></script>
-   <script src="{% static 'ecfiddle/js/boosts.js' %}"></script>
+    <script src="{% static 'ecfiddle/js/boosts.js' %}"></script>
+    <script src="{% static 'ecfiddle/js/jquery.easy-autocomplete.min.js' %}"></script>
     <title>E-C Fiddle</title>
     <style type="text/css">
         body { min-width: 1920px; }
@@ -18,10 +20,16 @@
         #id_picked_entity { margin-bottom: 35px; }
         form p { min-height: 20px; }
         .operator-wrapper, .mode-wrapper{ position: relative; clear: left;}
-        .column_1, .column_2{ float: left; }
-        .column_1{ width: 35%; }
-        .column_2{ width: 60%; }
-        ul.column_1{ clear: left; }
+        div.column-1-wrapper, div.column-2-wrapper{ float: left; }
+        div.column-1-wrapper{ width: 28%; }
+        div.column-2-wrapper{ width: 67%; }
+        div.column-1-wrapper{ clear: left; }
+        select.subclause-field, select.clause-field{ width: 15em; }
+        h3{ clear: both; padding-top: 1em; }
+        #id_picked_entity{ margin-bottom: 0px; }
+        #eac-container-id_picked_entity ul li{ border-top: thin solid gray; }
+        .activator{ position: absolute; top: 3px; left: 3px;   }
+        .activator-label{ position: absolute; left: 25px; }
     </style>
 </head>
 <body id="body-projects">
