@@ -5,10 +5,6 @@ from django.http import HttpResponse, JsonResponse
 import requests
 import json
 
-SOLR_SHARD_EDSMX = 'http://sol1.eanadev.org:9191/solr/search_1/search'
-SOLR_SHARD_NOW8T = 'http://sol3.eanadev.org:9191/solr/search_1/search'
-SOLR_SHARD_TEST = 'http://sol7.eanadev.org:9191/solr/search/search'
-
 class ECQueryForm(forms.Form):
 
     def __init__(self, *args, **kwargs):
@@ -17,6 +13,7 @@ class ECQueryForm(forms.Form):
         # populating the fields drop down
         # TODO: maybe reverse this, owing to frequency of
         # copyfield use?
+        self.fields["query_transmitter"] = forms.CharField(max_length=1000, widget=forms.TextInput(attrs={ "type" : "hidden"}))
         fields = [('', '----------')]
         for row in CandidateField.objects.all().order_by('field_name'):
             fields.append((row.field_name, row.field_name))
@@ -38,12 +35,12 @@ class ECQueryForm(forms.Form):
             clause_number = int(clause_number) + 1
             subclause_number = int(subclause_number) + 1
             lbl = "Clause " + str(clause_number) + ", subclause " + str(subclause_number)
-            self.fields['subclause_' + position + "_activator"]  = forms.BooleanField(label=lbl, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
+            self.fields['subclause_' + position + "_activator"]  = forms.BooleanField(label=lbl, required=False, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
         else:
             is_checked = int(position) == 0
             label="Clause " + str(position + 1)
             if(position == 0): label += " (mandatory)"
-            self.fields['clause_' + str(position) + '_activator'] = forms.BooleanField(label=label, initial=is_checked, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
+            self.fields['clause_' + str(position) + '_activator'] = forms.BooleanField(label=label, required=False, initial=is_checked, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
         # (i)   Operator picker (AND|OR)
         self.fields[subprefix + 'clause_' + str(position) + '_operator'] = forms.ChoiceField(label="Operator", choices=[('AND', 'AND'), ('OR', 'OR')], initial='AND', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-operator'}))
         # (ii)  Field selector
@@ -55,15 +52,21 @@ class ECQueryForm(forms.Form):
 
 
 def index(request):
-
     if request.method == 'POST':
         ecq = ECQueryForm(request.POST)
         if(ecq.is_valid()):
-           pass
-           # return render(request, 'rankfiddle/rankfiddle.html', {'form':quf, 'params': build_params(results)})
+            qry = ecq.cleaned_data["query_transmitter"]
+            results = do_basic_query(qry)
+            return render(request, 'rankfiddle/rankfiddle.html', {'form':ecq, 'results': results})
     else:
         ecq = ECQueryForm()
     return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq })
+
+def do_basic_query(query_string):
+    solr_url = "http://sol7.eanadev.org:9191/solr/search_2/search"
+    solr_qry = url + "?" + query_string
+    raw_results = requests.get(solr_qry)
+    return raw_results.json()
 
 """def build_params(raw_results):
     params = {}
@@ -130,5 +133,6 @@ def do_bm25f_query(q):
     qr = requests.get(solr_url)
     return qr.json()
 """
+
 def instructions(request):
-     return render(request, 'rankfiddle/instructions.html')
+    return render(request, 'rankfiddle/instructions.html')

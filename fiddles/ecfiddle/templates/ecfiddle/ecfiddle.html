@@ -68,8 +68,9 @@
     </form>
         </div>
 
-            <div class="results-list cf" id="query-results-weighted">
-                <h3>My weightings</h3>
+            <div class="results-list cf" id="query-results">
+                <div id="query-used">
+                </div>
 <ul class="result-items">
     {% for doc in params.weighted.results  %}
     <li>
@@ -100,7 +101,7 @@
     {% endfor %}
 </ul>
             </div>
-                    <div class="results-list cf" id="query-results-unweighted">
+                <!--    <div class="results-list cf" id="query-results-unweighted">
                         <h3>Current Collections results</h3>
 <ul class="result-items">
     {% for doc in params.unweighted.results  %}
@@ -163,7 +164,7 @@
     </li>
     {% endfor %}
 </ul>
-            </div>
+            </div> -->  
 
         <!--
         {% if params.weighted.headerparams.items %}

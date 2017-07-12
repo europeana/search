@@ -35,6 +35,7 @@ $(document).ready(function(){
     var init_disabled = function(){
 
         $("input[name=clause_0_operator]").prop("disabled", true);
+        $("#id_clause_0_activator").prop("checked", true);
         $("#id_clause_0_activator").prop("disabled", true);
         $(".operator-wrapper .clause_0_group.column_1 * label").css({ "visibility" : "hidden" });
         $(".operator-wrapper .clause_0_group.column_1 label").css({ "visibility" : "hidden" });
@@ -133,6 +134,11 @@ $(document).ready(function(){
                 return true;
 
             }
+            else if($(this).hasClass("errorlist")){
+
+                return true;
+
+            }
             else{
 
                 var identifier = get_current_identifier($(this));
@@ -169,9 +175,7 @@ $(document).ready(function(){
             $(this).children(".column_1").wrapAll("<div class=\"column-1-wrapper\">");
             $(this).children(".column_2").wrapAll("<div class=\"column-2-wrapper\">");
 
-
         });
-
         $(".mode-wrapper").each(function(){
 
             $(this).children(".column_1").wrapAll("<div class=\"column-1-wrapper\">");
@@ -179,10 +183,8 @@ $(document).ready(function(){
 
 
         });
-
         $(".activator").parent("p").addClass("activator-wrapper");
         $(".activator").prev().addClass("activator-label");
-
 
     }
 
@@ -210,7 +212,6 @@ $(document).ready(function(){
         }
         else{
 
-
             return "column_1";
 
         }
@@ -225,6 +226,7 @@ $(document).ready(function(){
         idid = ""
         if(cty == "clause"){
 
+            $(identifier).css({ "border" : "thin solid red"});
             idid = idno[1].toString();
 
         }
@@ -291,7 +293,10 @@ $(document).ready(function(){
             current_identifier = $(current_element).children("label").first().attr("for");
 
         }
+        if(typeof current_identifier == "undefined"){
 
+            alert($(current_element).prop("tagName"));
+        }
         return current_identifier;
 
     }
@@ -365,9 +370,12 @@ $(document).ready(function(){
     var retrieve_items = function(){
 
         var query = build_all_clauses();
-        alert(query);
+        $("#query-used").text(query);
+        $("#id_query_transmitter").text(query);
+        return true;
 
     }
+
 
     var build_all_clauses = function(){
 
