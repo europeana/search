@@ -40,15 +40,18 @@ class ECQueryForm(forms.Form):
             lbl = "Clause " + str(clause_number) + ", subclause " + str(subclause_number)
             self.fields['subclause_' + position + "_activator"]  = forms.BooleanField(label=lbl, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
         else:
-            self.fields['clause_' + str(position) + '_activator'] = forms.BooleanField(label="Clause " + str(position + 1), widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
+            is_checked = int(position) == 0
+            label="Clause " + str(position + 1)
+            if(position == 0): label += " (mandatory)"
+            self.fields['clause_' + str(position) + '_activator'] = forms.BooleanField(label=label, initial=is_checked, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
         # (i)   Operator picker (AND|OR)
         self.fields[subprefix + 'clause_' + str(position) + '_operator'] = forms.ChoiceField(label="Operator", choices=[('AND', 'AND'), ('OR', 'OR')], initial='AND', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-operator'}))
         # (ii)  Field selector
         self.fields[subprefix + 'clause_' + str(position) + '_field'] = forms.ChoiceField(label="Field Name", choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : subprefix + 'clause-field'}))
         # (iii) URL or term input 
-        self.fields[subprefix + 'clause_' + str(position) + '_mode'] = forms.ChoiceField(label="Mode", choices=[('URL', 'URL'), ('Freetext', 'Freetext')], initial='URL', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-mode'}))
+        self.fields[subprefix + 'clause_' + str(position) + '_mode'] = forms.ChoiceField(label="Mode", choices=[('URL', 'URL'), ('Freetext', 'Freetext')], initial='URL', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-mode mode-value'}))
         # (iv)  Four subclause units (identical to the above)
-        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="Value", max_length=250, required=False, widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value'}))
+        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="Value", max_length=250, required=False, widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value search-terms'}))
 
 
 def index(request):
