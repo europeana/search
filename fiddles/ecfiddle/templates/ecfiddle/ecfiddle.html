@@ -14,7 +14,6 @@
         #weightview-selector + p{ display: none; }
         #weightview-selector li { float:     left; padding-left: 10px; }
         .results-list h3{ margin-left: 5.66038%; margin-top: 2rem; color: white; float: left; background-color: #BAD1D9; border: 1px solid #BADID9; padding: 2px 8px; border-radius: 4px;  }
-        .results-list{ display: none; }
         .item-type{ margin-left: 6.5% }
         .icon-image, svg.icon{ display: none; }
         #id_picked_entity { margin-bottom: 35px; }
@@ -33,6 +32,7 @@
         .activator-label{ position: absolute; left: 20px; font-weight: bold;}
         .disabled-panel{ color: #aaa; font-style: italic;   }
         #id_clause_0_activator{ visibility : "hidden" ; }
+        #query-used{ padding: 10px 30px 10px 30px; font-size: 16px; font-weight: bold; border-bottom: thin solid black; background-color: #ddf; }
    </style>
 </head>
 <body id="body-projects">
@@ -67,12 +67,12 @@
 
     </form>
         </div>
-
             <div class="results-list cf" id="query-results">
-                <div id="query-used">
-                </div>
+                    {% if query %}
+                <div id="query-used">Query used: {{ query  }}</div>
+                    {% endif %}
 <ul class="result-items">
-    {% for doc in params.weighted.results  %}
+    {% for doc in results.docs  %}
     <li>
         <article class="search-list-item cf">
             <div class="item-preview">

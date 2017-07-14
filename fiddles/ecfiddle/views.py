@@ -56,17 +56,18 @@ def index(request):
         ecq = ECQueryForm(request.POST)
         if(ecq.is_valid()):
             qry = ecq.cleaned_data["query_transmitter"]
-            results = do_basic_query(qry)
-            return render(request, 'rankfiddle/rankfiddle.html', {'form':ecq, 'results': results})
+            results = do_basic_query(qry)['response']
+            print(results)
+            return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results})
     else:
         ecq = ECQueryForm()
     return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq })
 
 def do_basic_query(query_string):
     solr_url = "http://sol7.eanadev.org:9191/solr/search_2/search"
-    solr_qry = url + "?" + query_string
-    raw_results = requests.get(solr_qry)
-    return raw_results.json()
+    solr_qry = solr_url + "?q=" + query_string + "&wt=json"
+    res = requests.get(solr_qry)
+    return res.json()
 
 """def build_params(raw_results):
     params = {}

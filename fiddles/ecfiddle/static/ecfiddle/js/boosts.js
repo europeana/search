@@ -359,19 +359,21 @@ $(document).ready(function(){
 
     var disable_clause = function(el){
 
-        $(el).find("input").prop("disabled", true);
+
+        $(el).find("input").not("#id_query_transmitter").prop("disabled", true);
         $(el).find("input.search-terms").val("");
         $(el).find("select").prop("disabled", true);
         $(el).find("select").val("");
         $(el).addClass("disabled-panel");
         $(el).addClass("disabled-panel");
+
     }
 
     var retrieve_items = function(){
 
         var query = build_all_clauses();
         $("#query-used").text(query);
-        $("#id_query_transmitter").text(query);
+        $("#id_query_transmitter").val(query);
         return true;
 
     }
