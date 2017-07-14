@@ -22,6 +22,7 @@ $(document).ready(function(){
                         var value = trim_autocomplete_msg(concatenate_autocomplete_msg(global_search));
                         $("#id_picked_entity").val(value);
                         populate_query(global_search);
+                        check_activators();
             }},
             listLocation: "contains",
             getValue: concatenate_autocomplete_msg
@@ -44,8 +45,8 @@ $(document).ready(function(){
             check_clause_state.call(this);
 
         });
-        disable_clause($("#id_subclause_0_0_activator").parent("p"));
-
+        check_activators();
+        $(".clause_0_group.activator-wrapper").removeClass("disabled-panel");
     }
 
     var populate_query = function(entity){
@@ -54,12 +55,7 @@ $(document).ready(function(){
 
             var display_value = $.trim($(this).parents("div.mode-wrapper").find("input:checked").val()) == "URL" ? entity.id : entity.as_query; 
             $(this).val(display_value);
-            enable_clause($(this).parents("div.mode-wrapper").next("p.activator-wrapper"));
-            if($(this).is(".clause")){
 
-                enable_clause($(this).parents("div.mode-wrapper").nextAll("p.activator-wrapper.clause").first());   
-
-            }
 
         });
 
@@ -335,14 +331,8 @@ $(document).ready(function(){
                 disable_clause(this);
 
             });
-            var prev_clause_field = $(this).parent("p").next(".operator-wrapper").find("select").val();
-            if(prev_clause_field){
+            check_activators();
 
-                var next_clause_activator_p = $(this).parent("p").nextAll("p.clause.activator-wrapper");
-                $(next_clause_activator_p).removeClass("disabled-panel");
-                $(next_clause_activator_p).find("input").first().prop("disabled", false);
-            
-            }
         }
        
     }
@@ -377,7 +367,6 @@ $(document).ready(function(){
         return true;
 
     }
-
 
     var build_all_clauses = function(){
 
@@ -436,29 +425,48 @@ $(document).ready(function(){
 
     }
 
-    var check_next_activator_status = function(){
+    var check_activators = function(){
 
-        var next_activator_p = get_next_activator(this);
-        var next_clause_activator_p = get_next_clause_activator(this);
-        var next_activator = $(next_activator_p).find("input").first();
-        var next_clause_activator = $(next_clause_activator_p).find("input").first();
-        var inactive = $(this).val() == "";
-        if(inactive){
+        // first, disable the activator for every clause that doesn't have a value
+        $("select").filter(function(){ return $(this).val() == ""}).each(function(){
 
-            $(next_activator_p).addClass("disabled-panel");
-            $(next_clause_activator_p).addClass("disabled-panel");
+            disable_activator($(this).parents(".operator-wrapper").prev(".activator-wrapper"));
 
+        });
+
+        $("select.clause-field").filter(function(){ return $(this).val() != ""}).each(function(){
+
+            var next_activator_p = get_next_activator(this);
+            var next_clause_activator_p = get_next_clause_activator(this);
+            enable_activator(next_activator_p);
+            enable_activator(next_clause_activator_p);
+
+        });
+
+        $("select.subclause-field").filter(function(){ return $(this).val() != ""}).each(function(){
+
+            var next_activator_p = get_next_activator(this);
+            enable_activator(next_activator_p);
+
+        });
+
+
+    }
+
+    var disable_activator = function(activator_p){
+
+        $(activator_p).addClass("disabled-panel");
+        $(activator_p).find("input").first().prop("disabled", true);
+
+    }
+
+    var enable_activator = function(activator_p){
+
+        if($("#id_picked_entity").val() != ""){
+
+            $(activator_p).removeClass("disabled-panel");
+            $(activator_p).find("input").first().prop("disabled", false);
         }
-        else{
-
-            $(next_activator_p).removeClass("disabled-panel");
-            $(next_clause_activator_p).removeClass("disabled-panel");
-
-        }
-
-        $(next_activator).prop("disabled", inactive);
-        $(next_clause_activator).prop("disabled", inactive);
-
     }
 
     var get_next_activator = function(el){
@@ -478,7 +486,7 @@ $(document).ready(function(){
     $("#launch-query").click(retrieve_items);
     $("input[type=checkbox]").change(check_clause_state);
     $("input.mode-value").change(repopulate_query);
-    $("select").change(check_next_activator_status);
+    $("select").change(check_activators);
     init();
 
 })

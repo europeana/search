@@ -56,8 +56,11 @@ def index(request):
         ecq = ECQueryForm(request.POST)
         if(ecq.is_valid()):
             qry = ecq.cleaned_data["query_transmitter"]
-            results = do_basic_query(qry)['response']
-            print(results)
+            results = do_basic_query(qry)
+            try:
+                results = results['response']
+            except KeyError: # in this case the response from the server is bad
+                pass
             return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results})
     else:
         ecq = ECQueryForm()

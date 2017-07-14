@@ -32,7 +32,8 @@
         .activator-label{ position: absolute; left: 20px; font-weight: bold;}
         .disabled-panel{ color: #aaa; font-style: italic;   }
         #id_clause_0_activator{ visibility : "hidden" ; }
-        #query-used{ padding: 10px 30px 10px 30px; font-size: 16px; font-weight: bold; border-bottom: thin solid black; background-color: #ddf; }
+        #query-used, #server-error{ padding: 10px 30px 10px 30px; font-size: 16px; font-weight: bold; border-bottom: thin solid black; background-color: #ddf; }
+        #server-warning{ color: red; }
    </style>
 </head>
 <body id="body-projects">
@@ -71,6 +72,9 @@
                     {% if query %}
                 <div id="query-used">Query used: {{ query  }}</div>
                     {% endif %}
+                                {% if results.error %}
+                <div id="server-error"><span id="server-warning">Server Error: </span>{{ results.error.msg }}</div> 
+            {% endif %}
 <ul class="result-items">
     {% for doc in results.docs  %}
     <li>
@@ -101,85 +105,6 @@
     {% endfor %}
 </ul>
             </div>
-                <!--    <div class="results-list cf" id="query-results-unweighted">
-                        <h3>Current Collections results</h3>
-<ul class="result-items">
-    {% for doc in params.unweighted.results  %}
-    <li>
-        <article class="search-list-item cf">
-            <div class="item-preview">
-                <div class="item-image">
-                    <a href="{{ doc.europeana_aggregation_edm_landingPage }}"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
-
-                </div>
-            </div>
-            <div class="item-info">
-                <h1><a href="{{ doc.europeana_aggregation_edm_landingPage }}">{{ doc.title.0 }}</a></h1>
-                <p class="excerpt"><b>Description</b>: {{ doc.description.0 }}</p>
-                <div class="item-origin">
-                    <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>
-                </div>
-            </div>
-            <footer>
-                <div class="item-metadata">
-                    <span class="highlight item-type">
-                        <svg class="icon icon-image"/>
-                        {{ doc.proxy_edm_type.0 }}
-                    </span>
-                </div>
-            </footer>
-        </article>
-    </li>
-    {% endfor %}
-</ul>
-            </div>
-                    <div class="results-list cf" id="query-results-bm25f">
-                        <h3>Test Collection</h3>
-<ul class="result-items">
-    {% for doc in params.bm25f.results  %}
-    <li>
-        <article class="search-list-item cf">
-            <div class="item-preview">
-                <div class="item-image">
-                    <a href="{{ doc.europeana_aggregation_edm_landingPage }}"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
-
-                </div>
-            </div>
-            <div class="item-info">
-                <h1><a href="{{ doc.europeana_aggregation_edm_landingPage }}">{{ doc.title.0 }}</a></h1>
-                <p class="excerpt"><b>Description</b>: {{ doc.description.0 }}</p>
-                <div class="item-origin">
-                    <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>
-                </div>
-            </div>
-            <footer>
-                <div class="item-metadata">
-                    <span class="highlight item-type">
-                        <svg class="icon icon-image"/>
-                        {{ doc.proxy_edm_type.0 }}
-                    </span>
-                </div>
-            </footer>
-        </article>
-    </li>
-    {% endfor %}
-</ul>
-            </div> -->  
-
-        <!--
-        {% if params.weighted.headerparams.items %}
-   <div id="param-feedback">
-       <h2>Query Params </h2>
-            {%  for param, val in params.weighted.headerparams.items %}
-                <div class="param-value">
-                    <div class="param">{{ param }}: </div>
-                    <div class="value">{{ val }}</div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-    {% endif %} -->
-       <!-- </section> -->
 </div>
 </body>
 </html>
