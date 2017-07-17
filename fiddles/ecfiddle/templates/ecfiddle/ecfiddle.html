@@ -32,8 +32,15 @@
         .activator-label{ position: absolute; left: 20px; font-weight: bold;}
         .disabled-panel{ color: #aaa; font-style: italic;   }
         #id_clause_0_activator{ visibility : "hidden" ; }
-        #query-used, #server-error{ padding: 10px 30px 10px 30px; font-size: 16px; font-weight: bold; border-bottom: thin solid black; background-color: #ddf; }
+        #query-used, #server-error, #hitcount{ padding: 10px 30px 10px 30px; font-size: 16px; font-weight: bold; border-bottom: thin solid black; background-color: #ddf; }
+        #hitcount{ background-color: #fff; border: none;}
+        .no-docs{ color: red; }
         #server-warning{ color: red; }
+        #meta-buttons{ float: left; margin-top: 2rem; margin-bottom: 3rem;  }
+        #launch-query{ margin-top: 0px; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; }
+        #clear-query{ margin-left: 1rem; margin-top: 5px; }
+        div.item-info *{ width: 66%; }
+        div.item-image{ position: relative; right: 20em;   }
    </style>
 </head>
 <body id="body-projects">
@@ -63,8 +70,14 @@
     <form method="POST" action=".">
     {% csrf_token %}
     {{ form.as_p }}
-    <input name="launch-query" type="submit" value="Launch Query" id="launch-query"/>
-
+    <div id="meta-buttons">
+        <div id="launch-query-wrapper">
+            <input name="launch-query" type="submit" value="Go" id="launch-query"/>
+        </div>
+        <div id="clear-query-wrapper">
+            <input name="clear-query" type="reset" value="Clear" id="clear-query"/>
+        </div>
+    </div>
 
     </form>
         </div>
@@ -76,6 +89,17 @@
                 <div id="server-error"><span id="server-warning">Server Error: </span>{{ results.error.msg }}</div> 
             {% endif %}
 <ul class="result-items">
+    <div id="hitcount">
+    {% if results.numFound == 0 %}
+           <span class="no-docs">No documents found for this query!</span>
+    {% elif results.numFound == 1 %}
+            One document found
+    {% elif results.numFound > 1 %}
+           First {{ results.docs|length }} of {{ results.numFound }} result(s) shown   
+    {% elif results.numFound %}
+            <span class="no-docs">No documents found for this query!</span>
+    {% endif %}
+    </div>
     {% for doc in results.docs  %}
     <li>
         <article class="search-list-item cf">

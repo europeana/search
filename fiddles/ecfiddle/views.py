@@ -14,12 +14,15 @@ class ECQueryForm(forms.Form):
         # TODO: maybe reverse this, owing to frequency of
         # copyfield use?
         self.fields["query_transmitter"] = forms.CharField(max_length=1000, widget=forms.TextInput(attrs={ "type" : "hidden"}))
+        self.fields["reset_form"] = forms.CharField(max_length=1, initial="F", widget=forms.TextInput(attrs={ "type" : "hidden"}))
+        self.fields["search_id"] = forms.CharField(max_length=1000, widget=forms.TextInput(attrs={ "type" : "hidden", "id" : "search_as_url"}))
+        self.fields["search_as_query"] = forms.CharField(max_length=1000, widget=forms.TextInput(attrs={ "type" : "hidden", "id": "search_as_query" }))
         fields = [('', '----------')]
         for row in CandidateField.objects.all().order_by('field_name'):
             fields.append((row.field_name, row.field_name))
 
         # first, need to be able to pick out the entity
-        self.fields["picked_entity"] = forms.CharField(label='Entity', max_length=250, widget=forms.TextInput(attrs={ 'class' : 'entity-picked '}))
+        self.fields["picked_entity"] = forms.CharField(label='Entity', max_length=250, required=True, widget=forms.Textarea(attrs={ 'class' : 'entity-picked ', 'rows' : 4 }))
 
         for i in range(4):
             self.create_clause_group(i, fields)
@@ -44,24 +47,34 @@ class ECQueryForm(forms.Form):
         # (i)   Operator picker (AND|OR)
         self.fields[subprefix + 'clause_' + str(position) + '_operator'] = forms.ChoiceField(label="Operator", choices=[('AND', 'AND'), ('OR', 'OR')], initial='AND', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-operator'}))
         # (ii)  Field selector
-        self.fields[subprefix + 'clause_' + str(position) + '_field'] = forms.ChoiceField(label="Field Name", choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : subprefix + 'clause-field'}))
+        self.fields[subprefix + 'clause_' + str(position) + '_field'] = forms.ChoiceField(label="Field Name", choices=fields, initial='', required=(position == 0), widget=forms.Select(attrs={ 'class' : subprefix + 'clause-field'}))
         # (iii) URL or term input 
         self.fields[subprefix + 'clause_' + str(position) + '_mode'] = forms.ChoiceField(label="Mode", choices=[('URL', 'URL'), ('Freetext', 'Freetext')], initial='URL', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-mode mode-value'}))
         # (iv)  Four subclause units (identical to the above)
-        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="Value", max_length=250, required=False, widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value search-terms'}))
+        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="Value", max_length=250, required=(position==0), widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value search-terms'}))
 
 
 def index(request):
     if request.method == 'POST':
         ecq = ECQueryForm(request.POST)
         if(ecq.is_valid()):
+            print("is valid")
+            do_reset = ecq.cleaned_data["reset_form"]
+            if(do_reset == "T"):
+                print("triggering")
+                ecq = ECQueryForm()
+                return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq })
             qry = ecq.cleaned_data["query_transmitter"]
+            print(qry)
             results = do_basic_query(qry)
             try:
                 results = results['response']
+                print(results['numFound'])
             except KeyError: # in this case the response from the server is bad
                 pass
             return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results})
+        else:
+            print(ecq.clean())
     else:
         ecq = ECQueryForm()
     return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq })
