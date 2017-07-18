@@ -95,7 +95,7 @@
     {% elif results.numFound == 1 %}
             One document found
     {% elif results.numFound > 1 %}
-           First {{ results.docs|length }} of {{ results.numFound }} result(s) shown   
+            {{ page_info }}
     {% elif results.numFound %}
             <span class="no-docs">No documents found for this query!</span>
     {% endif %}
@@ -128,7 +128,31 @@
     </li>
     {% endfor %}
 </ul>
-            </div>
+
+            <!-- pagination info -->
+            <ol class="pagination">
+            {% if page_number == 1 and results.docs %}
+                 <li class="arrow is-disabled"> <a> ← <span class="is-vishidden">previous</span> </a> </li>
+            {% elif results.docs %}
+             <li class="arrow" id="arrow-back"> <a> ← <span class="is-vishidden">previous</span> </a> </li>
+            {% endif %}
+            {% for page in page_range %}
+            {% if page == page_number %}
+            <li class="pagination-item"><a class="is-current pagination-link">{{ page }}</a></li>
+            {% elif page == "…" %}
+            <li ><a>{{ page }}</a></li>         
+            {% else %}
+            <li class="pagination-item"><a class="pagination-link">{{ page }}</a></li>
+            {% endif %}
+            {% endfor %}
+            {% if page_number == page_range|length and results.docs %}
+            <li class="arrow is-disabled"> <a> <span class="is-vishidden">next</span> → </a> </li>
+            {% elif results.docs %}
+            <li class="arrow" id="arrow-forward"> <a> <span class="is-vishidden">next</span> → </a> </li>
+            {% endif %} 
+            </ol>
+            </div><!-- closing results list -->
+
 </div>
 </body>
 </html>

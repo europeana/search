@@ -126,7 +126,6 @@ $(document).ready(function(){
     }
 
     var do_form_layout = function(){
-
       $("p:empty").each(function(){
 
             $(this).remove();
@@ -151,16 +150,6 @@ $(document).ready(function(){
 
             }
             else if($(this).attr("id") == "meta-buttons"){
-
-                return true;
-
-            }
-            else if($(this).attr("id") == "search_as_url"){
-
-                return true;
-
-            }
-            else if($(this).attr("id") == "search_as_query"){
 
                 return true;
 
@@ -393,7 +382,7 @@ $(document).ready(function(){
     var disable_clause = function(el){
 
 
-        $(el).find("input").not("#id_query_transmitter").not("#id_reset_form").not("#search_as_url").not("#search_as_query").prop("disabled", true);
+        $(el).find("input").not("#id_query_transmitter").not("#id_reset_form").not("#search_as_url").not("#search_as_query").not("#page_no").prop("disabled", true);
         $(el).find("input.search-terms").val("");
         $(el).find("select").prop("disabled", true);
         $(el).find("select").val("");
@@ -540,6 +529,35 @@ $(document).ready(function(){
         $("#id_picked_entity").val("No value selected");
         $("#id_clause_0_field").val("text");
         $("#id_reset_form").val("T");
+        $("#page_no").val("1");
+        $("#launch-query").click();
+
+    }
+
+    var jump_to_page = function(){
+
+        var new_page = $.trim($(this).text());
+        change_page(new_page);
+
+    }
+
+    var advance_page = function(){
+
+        var new_page = parseInt($.trim($("#page_no").val())) + 1;
+        change_page(new_page);
+    
+    }
+
+    var retreat_page = function(){
+
+        var new_page = parseInt($.trim($("#page_no").val())) - 1;
+        change_page(new_page);
+
+    }
+
+    var change_page = function(new_page_no){
+
+        $("#page_no").val(new_page_no);
         $("#launch-query").click();
 
     }
@@ -549,6 +567,9 @@ $(document).ready(function(){
     $("input.mode-value").change(repopulate_query);
     $("select").change(check_activators);
     $("#clear-query").click(reset_form);
+    $(".pagination-item").click(jump_to_page);
+    $("#arrow-back").click(retreat_page);
+    $("#arrow-forward").click(advance_page);
     init();
 
 })
