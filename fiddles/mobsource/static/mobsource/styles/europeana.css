@@ -519,7 +519,7 @@ input[type=text]:focus:-ms-input-placeholder {
     color: #A6A6A6
 }
 button,
-input[type="submit"] {
+input[type="submit"], input[type="reset"] {
     width: auto;
     padding: 0.5rem 1rem;
     background: #1A8AC7;
