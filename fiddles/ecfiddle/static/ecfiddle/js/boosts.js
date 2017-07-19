@@ -357,7 +357,7 @@ $(document).ready(function(){
         }
         else{
 
-            $(this).parent("p").nextAll().each(function(){
+            $(this).parent("p").nextUntil("p.activator-wrapper").each(function(){
 
                 disable_clause(this);
 
@@ -394,6 +394,7 @@ $(document).ready(function(){
     var retrieve_items = function(){
 
         var query = build_all_clauses();
+        reset_pagination(query);
         persist_query_state(query);
         return true;
 
@@ -406,6 +407,16 @@ $(document).ready(function(){
         $("#search_as_url").val(global_search.id);
         $("#search_as_query").val(global_search.as_query);
         $("input,select").prop("disabled", false);
+
+    }
+
+    var reset_pagination = function(query){
+
+        if(query != $("#id_query_transmitter").val()){
+
+            $("#page_no").val("1");
+
+        }
 
     }
 
