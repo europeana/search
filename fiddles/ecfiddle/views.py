@@ -83,7 +83,6 @@ def do_basic_query(query_string, page_no):
     offset = (page_no - 1) * ITEMS_PER_PAGE
     solr_url = "http://sol7.eanadev.org:9191/solr/search_2/search"
     solr_qry = solr_url + "?q=" + query_string + "&wt=json&rows=" + str(ITEMS_PER_PAGE) + "&start=" + str(offset)
-    print(solr_qry)
     res = requests.get(solr_qry)
     return res.json()
 
@@ -93,14 +92,14 @@ def get_page_range(page_no, results):
     except KeyError:
         total_results = 0
     last_page_no = int(total_results) // int(ITEMS_PER_PAGE) + 1
-    print(str(int(total_results) % int(ITEMS_PER_PAGE)))
     if(int(total_results) % int(ITEMS_PER_PAGE) != 0):
         last_page_no += 1
     if(last_page_no > 80):
         last_page_no = 81
     raw_pge_rng = [i for i in range(1, last_page_no)]
-    pge_rng = []
+    pge_rng = raw_pge_rng
     if(last_page_no >= 20):
+        pge_rng = []
         num_links = 5
         span = (num_links - 1) // 2
         if(page_no <= span):
@@ -138,4 +137,4 @@ def generate_page_info(page_no, results):
     return msg
 
 def instructions(request):
-    return render(request, 'rankfiddle/instructions.html')
+    return render(request, 'ecfiddle/instructions.html')
