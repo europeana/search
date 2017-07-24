@@ -39,7 +39,7 @@ def index(request):
                     results = results['response']
                 except KeyError: # in this case the response from the server is bad
                     pass
-                return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results, 'page_number' : page_no,  'page_range' : page_range, 'page_info' : page_info })
+                return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results, 'page_number' : page_no,  'page_range' : page_range, 'page_info' : page_info, 'candidate_fields':candidate_fields })
     else:
         ecq = ECQueryForm()
     return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'candidate_fields':candidate_fields })
