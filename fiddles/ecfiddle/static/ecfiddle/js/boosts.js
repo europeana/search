@@ -30,7 +30,7 @@ $(document).ready(function(){
         var options = {
 
             url: function(frag) {
-            return "http://test-entity.europeana.eu/entity/suggest?wskey=apidemo&rows=10&text=" + frag;
+            return "http://entity-acceptance.europeana.eu//entity/suggest?wskey=apidemo&rows=10&text=" + frag;
             },
             list: { match: { enabled: true },
                     onChooseEvent: function() {
@@ -82,7 +82,6 @@ $(document).ready(function(){
 
     var querify_global_search = function(){
 
-        var raw_hidden_label = global_search.hiddenLabel;
         var all_names = [];
         for (var slot in global_search.hiddenLabel){
 
