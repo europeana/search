@@ -32,6 +32,7 @@ $(document).ready(function(){
             return "http://entity-acceptance.europeana.eu//entity/suggest?wskey=apidemo&rows=10&text=" + frag;
             },
             list: { match: { enabled: true },
+                    maxNumberOfElements: 10,
                     onChooseEvent: function() {
                         global_search = $("#id_picked_entity").getSelectedItemData()
                         querify_global_search();
