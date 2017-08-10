@@ -1,7 +1,10 @@
 import os, datetime, json, re
 from socket import timeout
 from . import ES_URL, EMPTY_FIELD_MSG, util
-from .util import UnknownInteraction as uninter, RankedRetrieveRecordInteraction as rrinter, SearchInteraction as ssinter
+from .util import UnknownInteraction as uninter
+from .util import RankedRetrieveRecordInteraction as rrinter
+from .util import SearchInteraction as ssinter
+from .util import ArbitraryAccessInteraction as aainter
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search, Q
 from elasticsearch_dsl.query import Match
@@ -19,12 +22,16 @@ class EntryExtractor:
         self.verbose = verbose
         self.sessid_directory = os.path.join(os.path.dirname(__file__), 'intermediate_output', 'sessions') # read directory
         self.entry_directory =  os.path.join(os.path.dirname(__file__), 'intermediate_output', 'entries_by_session') # write directory
+        self.temporal_filter = Q({'range':{'@timestamp':{'gte': datetime.datetime.isoformat(self.start_date) + "Z",'lte': datetime.datetime.isoformat(self.end_date) + "Z"}}})
         self.create_base_search()
+        self.create_mlt_search()
 
     def create_base_search(self):
-        temporal_filter = Q({'range':{'@timestamp':{'gte': datetime.datetime.isoformat(self.start_date) + "Z",'lte': datetime.datetime.isoformat(self.end_date) + "Z"}}})
-        self.base_search = Search(using=ES_INSTANCE, index="logstash-*").query(Match(message={ "query" : "Search interaction", "type" : "phrase"})).query('bool', filter=[temporal_filter])
+        self.base_search = Search(using=ES_INSTANCE, index="logstash-*").query(Match(message={ "query" : "Search interaction", "type" : "phrase"})).query('bool', filter=[self.temporal_filter])
 
+    def create_mlt_search(self):
+        self.mlt_search = Search(using=ES_INSTANCE, index="logstash-*").query(Match(message={ "query" : "[200] GET", "type" : "phrase" })).query('bool', filter=[self.temporal_filter]).query('bool', filter=[~Q('terms', message=['index', 'search.json', 'ancestor-self-siblings.json'])]).query(Match(action={ "query" : "show"}))
+        
     def extract_entries(self):
         scan_files = self.scan_sessions()
         if(len(scan_files) == 0):
@@ -37,6 +44,7 @@ class EntryExtractor:
             scan_file = scan_files[i]
             self.read_session_file(scan_file)
             if(self.verbose): print("Finished processing file " + str(i + 1) + " of " + str(len(scan_files)))
+
 
     def scan_sessions(self):
         # loop through the session files, checking for those with appropriate dates
@@ -67,8 +75,10 @@ class EntryExtractor:
             for line in sessids.readlines():
                 sessid = line.strip()
                 session_entries = self.query_for_session_entries(sessid)
-                if(len(session_entries) > 0):
-                    self.output_session(sessid, session_entries)
+                mlt_entries = self.query_for_mlt_entries(sessid, session_entries)
+                combined_entries =  self.combine_session_and_mlt_entries(session_entries, mlt_entries)
+                if(len(combined_entries) > 0):
+                    self.output_session(sessid, combined_entries)
                 else:
                     print("Finished processing files until " + self.end_date_as_string)
                     exit()
@@ -89,12 +99,48 @@ class EntryExtractor:
             formatted_entries.append(formatted_entry)
         return formatted_entries
 
+    def query_for_mlt_entries(self, sess_id, searched_items):
+        mlt_search = self.mlt_search.query(Q("match", session_id=sess_id)).sort('@timestamp')[:1000]
+        serp_records = self.extract_serp_records(searched_items)
+        all_mlts = []
+        try:
+            r = mlt_search.execute()
+        except:
+            print("Execution of MLT query failed")
+            return
+        for hit in r.hits:
+            path = self.standardise_path(hit['path'])
+            if(path not in serp_records and ".html" in hit['path']):
+                parsed_mlt = self.parse_entry(hit)
+                all_mlts.append(parsed_mlt)
+        return all_mlts 
+
+    def combine_session_and_mlt_entries(self, session_entries, mlt_entries):
+        session_entries.extend(mlt_entries)
+        combined_entries = sorted(session_entries, key=lambda x: x[0])
+        return combined_entries
+
+    def extract_serp_records(self, all_searches):
+        serp_records = []
+        for search in all_searches:
+            if(type(search) is rrinter):
+                record = self.standardise_path(search.uri)
+                serp_records.append(record)
+        return serp_records
+
+    def standardise_path(self, raw_record):
+        record_bits = raw_record.replace(".html", "").split("/")
+        record = "/" + record_bits[-2] + "/" + record_bits[-1]
+        return record
+
     def parse_entry(self, log_entry):
         timestamp = log_entry['@timestamp']
         msg = log_entry['message']
         session_id = log_entry['session_id']
         parsed_msg = self.parse_message(msg)
-        if(len(parsed_msg) == 3):
+        if(len(parsed_msg) == 1 and parsed_msg[0].startswith('[200] GET')):
+            return aainter(timestamp, session_id, parsed_msg[0])
+        elif(len(parsed_msg) == 3):
             (q, fl, total) = parsed_msg
             return ssinter(timestamp, session_id, q, fl, total)
         elif(len(parsed_msg) == 5):
