@@ -1,7 +1,9 @@
 import collections
 import datetime
+import time
 import dateutil.relativedelta
 import os
+import re
 
 Task = collections.namedtuple('Task', 'task_no timestamp search motive start_time end_time')
 
@@ -33,6 +35,19 @@ for filename in os.listdir(entry_directory):
 						all_tasks[k].append((session_id, search_term))
 			except ValueError as ve:
 				pass # non-SearchInteraction log entries fail silently
+
+
+candidate_terms_directory = os.path.join(os.path.dirname(__file__), '..', 'intermediate_output', 'candidate_terms')
+
+for t in all_tasks.keys():
+	filename = re.sub("[\W]", "", t[2])[0:25] + str(time.time()) + ".txt"
+	with open(os.path.join(candidate_terms_directory, filename), "w") as tout:
+		header = t[0] + "\t" + t[1].strftime("%Y-%m-%d %H:%M:%S") + "\t" + t[2] + "\t" + t[3]
+		tout.write(header + "\n")
+		tout.write("==================================================================\n")
+		for candidate_tuple in all_tasks[t]:
+			tout.write(("\t").join(candidate_tuple) + "\n")
+
 
 
 
