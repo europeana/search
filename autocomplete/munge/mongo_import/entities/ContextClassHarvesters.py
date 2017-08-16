@@ -89,7 +89,8 @@ class ContextClassHarvester:
         'exactMatch' : { 'label' : 'skos_exactMatch', 'type' : 'ref' },
         'closeMatch' : { 'label' : 'skos_closeMatch', 'type' : 'ref' },
         'notation' : { 'label' : 'skos_notation', 'type' : 'ref' },
-        'inScheme' : { 'label' : 'skos_inScheme', 'type' : 'ref' }
+        'inScheme' : { 'label' : 'skos_inScheme', 'type' : 'ref' },
+        'note' : { 'label' : 'skos_note', 'type' : 'string' }
  
     }
 
