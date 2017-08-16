@@ -79,8 +79,18 @@ class ContextClassHarvester:
         'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
         'date' : { 'label' : 'dc_date', 'type' : 'string' },
         'exactMatch': { 'label' :  'skos_exactMatch', 'type' : 'string' },
-        'related' : { 'label' : 'skos_related', 'type' : 'ref'  }
-
+        'related' : { 'label' : 'skos_related', 'type' : 'ref'  },
+        'broader' : { 'label' : 'skos_broader', 'type' : 'ref'},
+        'narrower' : { 'label' : 'skos_narrower', 'type' : 'ref'},
+        'related' : { 'label' : 'skos_related', 'type' : 'ref'},
+        'broadMatch' : { 'label' : 'skos_broadMatch', 'type' : 'ref'},
+        'narrowMatch' : { 'label' : 'skos_narrowMatch', 'type' : 'ref' },
+        'relatedMatch' : { 'label' : 'skos_relatedMatch', 'type' : 'ref' },
+        'exactMatch' : { 'label' : 'skos_exactMatch', 'type' : 'ref' },
+        'closeMatch' : { 'label' : 'skos_closeMatch', 'type' : 'ref' },
+        'notation' : { 'label' : 'skos_notation', 'type' : 'ref' },
+        'inScheme' : { 'label' : 'skos_inScheme', 'type' : 'ref' }
+ 
     }
 
     def __init__(self, name, entity_class):
@@ -151,6 +161,7 @@ class ContextClassHarvester:
         return True
 
     def process_representation(self, docroot, entity_id, entity_rows):
+        # TODO: Refactor to shrink this method
         import json
         all_preflabels = []
         for characteristic in entity_rows['representation']:
@@ -297,7 +308,6 @@ class AgentHarvester(ContextClassHarvester):
         with open(logpath, 'a') as lgout:
             lgout.write(msg)
             lgout.write("\n")
-
 
 class PlaceHarvester(ContextClassHarvester):
 
