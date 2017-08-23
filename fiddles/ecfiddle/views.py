@@ -46,7 +46,7 @@ def index(request):
 
 def do_basic_query(query_string, page_no):
     offset = (page_no - 1) * ITEMS_PER_PAGE
-    solr_url = "http://sol7.eanadev.org:9191/solr/search_2/search"
+    solr_url = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/search"
     solr_qry = solr_url + "?q=" + query_string + "&wt=json&rows=" + str(ITEMS_PER_PAGE) + "&start=" + str(offset)
     res = requests.get(solr_qry)
     return res.json()

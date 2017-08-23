@@ -25,11 +25,11 @@ $(document).ready(function(){
     }
 
     var init_autocomplete = function(){
-
         var options = {
 
             url: function(frag) {
-            return "http://entity-acceptance.europeana.eu//entity/suggest?wskey=apidemo&rows=10&text=" + frag;
+             req = "http://entity-acceptance.europeana.eu/entity/suggest?wskey=apidemo&rows=10&text=" + frag;
+             return req
             },
             list: { match: { enabled: true },
                     maxNumberOfElements: 10,
@@ -42,7 +42,7 @@ $(document).ready(function(){
                     },
 
             },
-            listLocation: "contains",
+            listLocation: "items",
             requestDelay: 500,
             getValue: concatenate_autocomplete_msg
 
@@ -60,14 +60,15 @@ $(document).ready(function(){
         $("#search-as-label").val(global_search.as_query);
     }
 
-
     var querify_global_search = function(){
 
         global_search.id = "\"" + global_search.id + "\"";
         var all_names = [];
         for (var slot in global_search.hiddenLabel){
-
-          all_names.push("\"" + global_search.hiddenLabel[slot] + "\"");
+          name_list = global_search.hiddenLabel[slot]
+          for(var i = 0; i < name_list.length; i++){
+            all_names.push("\"" + name_list[i] + "\"");
+           }
 
         }
 
@@ -87,7 +88,7 @@ $(document).ready(function(){
 
     var concatenate_autocomplete_msg = function(element){
 
-        var label = element.prefLabel;
+        var label = element.prefLabel["en"];
         var uri = element.id;
         var cat = element.type;
         msg = label + " (" + cat + ")"
