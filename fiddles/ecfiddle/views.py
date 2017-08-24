@@ -11,38 +11,73 @@ class ECQueryForm(forms.Form):
 
     def __init__(self, *args, **kwargs):
         super(forms.Form, self).__init__(*args, **kwargs)
-        # first, need to be able to pick out the entity
-        self.fields["solr_query"] = forms.CharField(label='Your query here', max_length=500, required=False, widget=forms.Textarea(attrs={ 'class' : 'query-to-submit', 'rows' : 6 }))
-        self.fields["picked_entity"] = forms.CharField(label='Enter text to select an entity', max_length=250, required=False, widget=forms.TextInput(attrs={ 'class' : 'entity-picked '}))
+
+        # populating the fields drop down
+        # TODO: maybe reverse this, owing to frequency of
+        # copyfield use?
+        self.fields["query_transmitter"] = forms.CharField(max_length=1000, widget=forms.TextInput(attrs={ "type" : "hidden"}))
+        self.fields["reset_form"] = forms.CharField(max_length=1, initial="F", widget=forms.TextInput(attrs={ "type" : "hidden"}))
+        self.fields["search_id"] = forms.CharField(max_length=1000, widget=forms.TextInput(attrs={ "type" : "hidden", "id" : "search_as_url"}))
+        self.fields["search_as_query"] = forms.CharField(max_length=1000, widget=forms.TextInput(attrs={ "type" : "hidden", "id": "search_as_query" }))
         self.fields["page"] = forms.CharField(max_length=2, initial="1", widget=forms.TextInput(attrs={ "type" : "hidden", "id" : "page_no"}))
-        # persistence fields
-        self.fields["entity_uri"] = forms.CharField(max_length=100, required=False, widget=forms.TextInput(attrs={ "type" : "hidden", "id" : "search-as-uri" }))
-        self.fields["entity_label"] = forms.CharField(max_length=350, required=False, widget=forms.TextInput(attrs={ "type" : "hidden", "id" : "search-as-label"}))
-        self.fields["do_reset"] = forms.CharField(max_length=1, initial="F", required=False, widget=forms.TextInput(attrs={ "type" : "hidden", "id" : "do-reset" }))
+        fields = [('', '----------')]
+        for row in CandidateField.objects.all().order_by('field_name'):
+            fields.append((row.field_name, row.field_name))
+
+        # first, need to be able to pick out the entity
+        self.fields["picked_entity"] = forms.CharField(label='Entity', max_length=250, required=True, widget=forms.Textarea(attrs={ 'class' : 'entity-picked ', 'rows' : 4 }))
+
+        for i in range(4):
+            self.create_clause_group(i, fields)
+            for j in range(4):
+                pos = str(i) + "_" + str(j)
+                self.create_clause_group(pos, fields)
+
+    def create_clause_group(self, position, fields):
+        subprefix = ""
+        if("_" in str(position)):
+            subprefix = "sub"
+            (clause_number, subclause_number) = position.split("_")
+            clause_number = int(clause_number) + 1
+            subclause_number = int(subclause_number) + 1
+            lbl = "Clause " + str(clause_number) + ", subclause " + str(subclause_number)
+            self.fields['subclause_' + position + "_activator"]  = forms.BooleanField(label=lbl, required=False, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
+        else:
+            is_checked = int(position) == 0
+            label="Clause " + str(position + 1)
+            if(position == 0): label += " (mandatory)"
+            self.fields['clause_' + str(position) + '_activator'] = forms.BooleanField(label=label, required=False, initial=is_checked, widget=forms.CheckboxInput(attrs={ 'class' : 'activator'}))
+        # (i)   Operator picker (AND|OR)
+        self.fields[subprefix + 'clause_' + str(position) + '_operator'] = forms.ChoiceField(label="Operator", choices=[('AND', 'AND'), ('OR', 'OR')], initial='AND', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-operator'}))
+        # (ii)  Field selector
+        self.fields[subprefix + 'clause_' + str(position) + '_field'] = forms.ChoiceField(label="Field Name", choices=fields, initial='', required=(position == 0), widget=forms.Select(attrs={ 'class' : subprefix + 'clause-field'}))
+        # (iii) URL or term input 
+        self.fields[subprefix + 'clause_' + str(position) + '_mode'] = forms.ChoiceField(label="Mode", choices=[('URL', 'URL'), ('Freetext', 'Freetext')], initial='URL', required=False, widget=forms.RadioSelect(attrs={ 'class' : subprefix + 'clause-mode mode-value'}))
+        # (iv)  Four subclause units (identical to the above)
+        self.fields[subprefix + 'clause_' + str(position) + '_value'] = forms.CharField(label="Value", max_length=250, required=(position==0), widget=forms.TextInput(attrs={ 'class' : subprefix + 'clause-value search-terms'}))
+
 
 def index(request):
-    candidate_fields = []
-    for row in CandidateField.objects.all().order_by('field_name'):
-        candidate_fields.append(row.field_name)
     if request.method == 'POST':
         ecq = ECQueryForm(request.POST)
         if(ecq.is_valid()):
-            if(ecq.cleaned_data["do_reset"] == "T"):
-                return render(request, 'ecfiddle/ecfiddle.html', {'form': ECQueryForm(), 'candidate_fields':candidate_fields })
-            else:
-                qry = ecq.cleaned_data["solr_query"]
-                page_no = int(ecq.cleaned_data["page"])
-                results = do_basic_query(qry, page_no)
-                page_range = get_page_range(page_no, results)
-                page_info = generate_page_info(page_no, results)
-                try:
-                    results = results['response']
-                except KeyError: # in this case the response from the server is bad
-                    pass
-                return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results, 'page_number' : page_no,  'page_range' : page_range, 'page_info' : page_info, 'candidate_fields':candidate_fields })
+            do_reset = ecq.cleaned_data["reset_form"]
+            page_no = int(ecq.cleaned_data["page"])
+            if(do_reset == "T"):
+                ecq = ECQueryForm()
+                return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq })
+            qry = ecq.cleaned_data["query_transmitter"]
+            results = do_basic_query(qry, page_no)
+            page_range = get_page_range(page_no, results)
+            page_info = generate_page_info(page_no, results)
+            try:
+                results = results['response']
+            except KeyError: # in this case the response from the server is bad
+                pass
+            return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results, 'page_number' : page_no,  'page_range' : page_range, 'page_info' : page_info })
     else:
         ecq = ECQueryForm()
-    return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'candidate_fields':candidate_fields })
+    return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq })
 
 def do_basic_query(query_string, page_no):
     offset = (page_no - 1) * ITEMS_PER_PAGE

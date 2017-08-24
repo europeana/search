@@ -53,7 +53,6 @@
         div.page[role=main]{ padding-top: 1rem; }
         div.page h1{ margin-right: auto; margin-left: auto; margin-bottom: 0.4rem;}
         #header-desc{ text-align: center; margin-right: auto; margin-left:auto; }
-        ol{ list-style-type: disc; width: 80%; margin-left: 10%; margin-bottom: 3rem;}
         </style>
 </head>
 <body>
@@ -66,15 +65,24 @@
         </div>
             </div>
             <h2>Overview</h2>
-<p>The purpose of the Entity Collection Fiddle tool (or 'ECFiddle' for short) is to provide help in exploring different strategies for querying our documents with entities from the Entity Collection.</p>
-<p>It provides some very simple assistance, in the form of:</p>
+<p>The purpose of the Entity Collection Fiddle tool (or 'ECFiddle' for short) is to allow easy exploration of the effect of different query strategies when querying our document collection with entities from the Entity Collection.</p>
+<p>The interface is intended to be self-explanatory: the user enters text into the search box and picks an entity from the resulting autocomplete list. They then use the subsequent form controls to generate search clauses, and results are displayed in the right hand column.</p>
+<h2>Clauses and how they work</h2>
+<p>While the form controls themselves are simple, the way they interact to generate clauses may appear complex, at least at first glance.</p>
+<p>Users can enter a maximum of <b>four clauses</b>, each of which may in turn be composed of up to five clauses itself.</p>
+<p>Although these clauses are labelled 'subclauses' in the user interface, this name is perhaps a little misleading. The real point is that all the subclauses work together to form a single bracketed expression - thus allowing the articulation of complex queries using Boolean operators.</p>
+<p>For example, supposing that you wanted to create a query that retrieved all records with 'Claude Debussy' listed as either a creator or a contributor - but only if this record had successfully been enriched with Debussy's Europeana EC identifier. This requires, in ECFiddle terms, two clauses to be expressed, one of which contains two subclauses:</p> <code>(CREATOR:"http://data.europeana.eu/agent/base/146790" OR CONTRIBUTOR:("Claude Debussy" OR "Debussy, Claude")) AND (text:"http://data.europeana.eu/agent/base/146790")</code><br/><br/>
+<p>Building and understanding these sorts of queries takes a certain amount of practice. In order to help the user understand the application logic, the generated query string is displayed above the list of results each time a query is submitted.
+</p>
+<h2>Search Controls</h2>
+<p>The controls for each clause are as follows:</p>
 <ol>
-<li>An autocomplete box, allowing the user to select items from the Entity Collection</li>
-<li>An Entity URI text box, displaying the URI of the selected entity.</li>
-<li>An Entity Expansion Labels, for displaying the labels stored by the Entity Collection for the selected entity.
+<li><b>Radio buttons</b> allowing the user to choose a <b>clause operator</b>: either 'AND' or 'OR'. The only exception to this rule is the first clause, which does not require an operator.</li>
+<li>A <b>field name</b> selector, allowing the user to pick which field the search will be applied upon.</li>
+<li><b>Radio buttons</b> for 'mode': that is to say, whether the search will use the entity's Europeana ID (a URI) or a namestring.</li>
+<li>A <b>textbox</b>, indicating the value of the URI or namestring which will be used for the search.</li>
 </ol>
-<p>The idea is that the user can then cut-and-paste these two strings to combine them into whatever queries he or she desires. Suggested fields to experiment with are supplied in the Candidate Fields panel, though of course the user is free to use whatever fields they deem necessary.</p>
-<p>When the user clicks 'Go', a search will be executed using the search string they have created, and the results displayed in the right-hand column. Alternatively, the user can clear the search using the 'Clear' button.</p>
+<p>When the user clicks 'Go', a search will be executed using the search string generated from these clauses, and the results displayed in the right-hand column. Alternatively, the user can clear the search using the 'Clear' button.</p>
       </div>
           <div id="login-wrapper">
         <a id="login" href=".">Okay, got it!</a>

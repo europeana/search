@@ -18,20 +18,27 @@
         .icon-image, svg.icon{ display: none; }
         #id_picked_entity { margin-bottom: 35px; }
         form p { min-height: 20px; }
+        .operator-wrapper, .mode-wrapper{ position: relative; clear: left;}
+        div.column-1-wrapper, div.column-2-wrapper{ float: left; }
+        div.column-1-wrapper{ width: 28%; }
+        div.column-2-wrapper{ width: 67%; }
+        div.column-1-wrapper{ clear: left; }
         select.subclause-field, select.clause-field{ width: 15em; }
         h3{ clear: both; padding-top: 1em; }
         #id_picked_entity{ margin-bottom: 0px; }
         #eac-container-id_picked_entity ul li{ border-top: thin solid gray; }
-        .entity-info-wrapper{ clear: left; }
+        .weights p.activator-wrapper{ margin-top: 20px; margin-bottom: 10px;}
+        .activator{ position: absolute; top: 7px; left: 0px;   }
+        .activator-label{ position: absolute; left: 20px; font-weight: bold;}
+        .disabled-panel{ color: #aaa; font-style: italic;   }
+        #id_clause_0_activator{ visibility : "hidden" ; }
         #query-used, #server-error, #hitcount{ padding: 10px 30px 10px 30px; font-size: 16px; font-weight: bold; border-bottom: thin solid black; background-color: #ddf; }
         #hitcount{ background-color: #fff; border: none;}
         .no-docs{ color: red; }
         #server-warning{ color: red; }
-        #meta-buttons{ margin-top: 1em; margin-bottom: 1em; position: relative;  }
-        #launch-query, #clear_query{ float: left; }
-        #launch-query{ margin-top: 0; margin-left: 0; padding-left: 1rem; padding-right: 1rem; margin-right: 1rem;  }
-        .entity-info-wrapper{ margin-top: 20px;   }
-        .entity-info{ padding: 10px; border: thin solid #c2c2c2; border-radius: 4px; min-height: 3rem;   }
+        #meta-buttons{ float: left; margin-top: 2rem; margin-bottom: 3rem;  }
+        #launch-query{ margin-top: 0px; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; }
+        #clear-query{ margin-left: 1rem; margin-top: 5px; }
         div.item-info *{ width: 66%; }
         div.item-image{ position: relative; right: 20em;   }
    </style>
@@ -72,29 +79,11 @@
         </div>
     </div>
 
-    <div id="uri-wrapper" class="entity-info-wrapper">
-    <label>Entity URI</label>
-    <div id="uri-body" class="entity-info">
-    </div>
-    </div><!-- closing uri-wrapper -->
-    <div id="labels-wrapper" class="entity-info-wrapper">
-    <label>Entity Expansion Labels</label>
-    <div id="labels-body" class="entity-info">
-    </div>
-    </div><!-- closing labels-wrapper -->
-    <div id="candidate-fields-wrapper" class="entity-info-wrapper">
-    <label>Candidate fields</label>
-    <div id="candidate-fields-body" class="entity-info">
-    {% for field in candidate_fields %}
-    <div class="candidate-field">{{ field }}</div>
-    {% endfor %}
-    </div>
-    </div>
     </form>
         </div>
             <div class="results-list cf" id="query-results">
                     {% if query %}
-                <div id="query-used">Query used: <span id="query-body">{{ query  }}</span></div>
+                <div id="query-used">Query used: {{ query  }}</div>
                     {% endif %}
                                 {% if results.error %}
                 <div id="server-error"><span id="server-warning">Server Error: </span>{{ results.error.msg }}</div> 
@@ -116,12 +105,12 @@
         <article class="search-list-item cf">
             <div class="item-preview">
                 <div class="item-image">
-                    <a href="{{ doc.europeana_aggregation_edm_landingPage }}"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
+                    <a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
 
                 </div>
             </div>
             <div class="item-info">
-                <h1><a href="{{ doc.europeana_aggregation_edm_landingPage }}">{{ doc.title.0 }}</a></h1>
+                <h1><a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html">{{ doc.title.0 }}</a></h1>
                 <p class="excerpt"><b>Description</b>: {{ doc.description.0 }}</p>
                 <div class="item-origin">
                     <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>
