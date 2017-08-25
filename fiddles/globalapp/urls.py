@@ -12,6 +12,7 @@ urlpatterns = [
     url(r'^accounts/', include('registration.backends.simple.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^rankfiddle/', include('rankfiddle.urls', namespace='rankfiddle'), name='rankfiddle'),
+    url(r'^ecfiddle-redux/', include('ecfiddleredux.urls', namespace='ecfiddleredux'), name='ecfiddleredux'),
     url(r'^ecfiddle/', include('ecfiddle.urls', namespace='ecfiddle'), name='ecfiddle'),
     url(r'^recluster/', include('recluster.urls', namespace='recluster'), name='recluster'),
     url(r'^mltfiddle/', include('mltfiddle.urls', namespace='mltfiddle'), name='mltfiddle'),
