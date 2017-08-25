@@ -16,10 +16,22 @@ $(document).ready(function(){
     var reflow_result_columns = function(){
 
         column_count = 0;
-        if($("#query-results-weighted ul.result-items li").length > 0) column_count++;
-        if($("#query-results-unweighted ul.result-items li").length > 0) column_count++;
-        if($("#query-results-bm25f ul.result-items li").length > 0) column_count++;
-        $("ul.result-items li").closest(".results-list").css("display", "block");
+        now_results = $("#query-results-unweighted ul.result-items li").length;
+        new_results = $("#query-results-weighted ul.result-items li").length;
+        if(now_results + new_results > 0){
+    //    if($("#query-results-weighted ul.result-items li").length > 0) column_count++;
+    //    if($("#query-results-unweighted ul.result-items li").length > 0) column_count++;
+    //    if($("#query-results-bm25f ul.result-items li").length > 0) column_count++;
+            if($("#weightview-selector_0").is(":checked")){ 
+                $(".results-list").first().css({"display" : "block"});
+                column_count++;
+            }
+            if($("#weightview-selector_1").is(":checked")){ 
+                $(".results-list:eq(1)").css({"display" : "block"});
+                column_count++;
+            }
+        }
+    //    $("ul.result-items li").closest(".results-list").css("display", "block");
         if(column_count < 2) return;
         display_width = 66; // TODO: set this dynamically
         column_width = display_width / column_count;

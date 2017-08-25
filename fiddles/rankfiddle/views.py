@@ -6,8 +6,8 @@ from .models import MAX_QUERY_LENGTH
 import requests
 import json
 
-SOLR_SHARD_EDSMX = 'http://sol1.eanadev.org:9191/solr/search_1/search'
-SOLR_SHARD_NOW8T = 'http://sol3.eanadev.org:9191/solr/search_1/search'
+SOLR_SHARD_EDSMX = 'http://sol13.eanadev.org:9191/solr/search_production_publish_1/search'
+SOLR_SHARD_NOW8T = 'http://sol7.eanadev.org:9191/solr/search_production_publish_1/search'
 SOLR_SHARD_TEST = 'http://sol7.eanadev.org:9191/solr/search/search'
 
 class QueryBoostForm(forms.Form):
@@ -40,7 +40,8 @@ class QueryBoostForm(forms.Form):
             self.fields['trigram_field_' + str(i)] = forms.ChoiceField(label="Trigram Field Name " + str(i), choices=fields, initial='', required=False, widget=forms.Select(attrs={ 'class' : 'boost-field trigram-boost-field'}))
             self.fields['trigram_field_boost_' + str(i)] = forms.DecimalField(label="Trigram Field Boost " + str(i), max_digits=4, decimal_places=1, initial=1.0, required=False, widget=forms.NumberInput(attrs={ 'class' : 'boost-factor trigram-boost-factor'}))
 
-    weight_views = forms.MultipleChoiceField(label="View", choices=[('weighted', 'My weightings'), ('unweighted', 'Current Collection'), ('bm25f', 'Test Collection')], initial=['weighted'], widget=forms.CheckboxSelectMultiple(attrs={ 'id' : 'weightview-selector'}))
+    weight_views = forms.MultipleChoiceField(label="View", choices=[('unweighted', 'Current Collection Default Search'), ('weighted', 'My weightings')], initial=['weighted', 'unweighted'], widget=forms.CheckboxSelectMultiple(attrs={ 'id' : 'weightview-selector'}))
+ #   weight_views = forms.MultipleChoiceField(label="View", choices=[('weighted', 'My weightings'), ('unweighted', 'Current Collection'), ('bm25f', 'Test Collection')], initial=['weighted'], widget=forms.CheckboxSelectMultiple(attrs={ 'id' : 'weightview-selector'}))
     query_choice = [('', '------------')]
     for row in Query.objects.all().order_by('query_text'):
         query_choice.append((row.query_text, row.query_text))
@@ -127,6 +128,7 @@ def do_weighted_query(q, qf, pf, ps, pf2, ps2, pf3, ps3, tibr):
     solr_url += "&rows=25"
     solr_url += "&wt=json"
     solr_url += "&bf=pow(europeana_completeness,2)"
+    print(solr_url)
     qr = requests.get(solr_url)
     return qr.json()
 

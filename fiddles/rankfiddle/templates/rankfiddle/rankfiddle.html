@@ -15,6 +15,7 @@
         .results-list{ display: none; }
         .item-type{ margin-left: 6.5% }
         .icon-image, svg.icon{ display: none; }
+        .nohits{ color: red; float: left; clear: left; font-weight: bold; margin-left: 5.66038%; }
     </style>
 </head>
 <body id="body-projects">
@@ -24,7 +25,7 @@
     <a href="http://test.europeana.eu/portal" class="logo ir"><h1>Europeana Collections</h1></a>
         <div id="header-desc">
             <h1>RankFiddle</h1>
-            <h2>Dynamic Querying of the Europeana DB</h2>
+            <h2>Dynamic Weighted Querying of the Europeana DB</h2>
         </div>
      <!--   <div id="email-wrapper">
             <p>Problems with this webform?</p>
@@ -50,53 +51,25 @@
 
     </form>
         </div>
-
-            <div class="results-list cf" id="query-results-weighted">
-                <h3>My weightings</h3>
-<ul class="result-items">
-    {% for doc in params.weighted.results  %}
-    <li>
-        <article class="search-list-item cf">
-            <div class="item-preview">
-                <div class="item-image">
-                    <a href="{{ doc.europeana_aggregation_edm_landingPage }}"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
-
-                </div>
-            </div>
-            <div class="item-info">
-                <h1><a href="{{ doc.europeana_aggregation_edm_landingPage }}">{{ doc.title.0 }}</a></h1>
-                <p class="excerpt"><b>Description</b>: {{ doc.description.0 }}</p>
-                <div class="item-origin">
-                    <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>
-                </div>
-            </div>
-            <footer>
-                <div class="item-metadata">
-                    <span class="highlight item-type">
-                        <svg class="icon icon-image"/>
-                        {{ doc.proxy_edm_type.0 }}
-                    </span>
-                </div>
-            </footer>
-        </article>
-    </li>
-    {% endfor %}
-</ul>
-            </div>
                     <div class="results-list cf" id="query-results-unweighted">
                         <h3>Current Collections results</h3>
+                                        {% if params.unweighted.results|length == 0 %}
+                    <div id="no-unweighted-results-warning" class="nohits">
+                        No results found in current collections for that query!
+                    </div>
+                {% endif %}
 <ul class="result-items">
     {% for doc in params.unweighted.results  %}
     <li>
         <article class="search-list-item cf">
             <div class="item-preview">
                 <div class="item-image">
-                    <a href="{{ doc.europeana_aggregation_edm_landingPage }}"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
+                    <a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
 
                 </div>
             </div>
             <div class="item-info">
-                <h1><a href="{{ doc.europeana_aggregation_edm_landingPage }}">{{ doc.title.0 }}</a></h1>
+                <h1><a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html">{{ doc.title.0 }}</a></h1>
                 <p class="excerpt"><b>Description</b>: {{ doc.description.0 }}</p>
                 <div class="item-origin">
                     <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>
@@ -115,7 +88,46 @@
     {% endfor %}
 </ul>
             </div>
-                    <div class="results-list cf" id="query-results-bm25f">
+                        <div class="results-list cf" id="query-results-weighted">
+                <h3>My weightings</h3>
+                {% if params.weighted.results|length == 0 %}
+                    <div id="no-weighted-results-warning" class="nohits">
+                        <p>No results found for that query!</p>
+                        <p>(Try including the default 'text' field for better recall)</p>
+                    </div>
+                {% endif %}
+
+<ul class="result-items">
+    {% for doc in params.weighted.results  %}
+    <li>
+        <article class="search-list-item cf">
+            <div class="item-preview">
+                <div class="item-image">
+                    <a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
+
+                </div>
+            </div>
+            <div class="item-info">
+                <h1><a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html">{{ doc.title.0 }}</a></h1>
+                <p class="excerpt"><b>Description</b>: {{ doc.description.0 }}</p>
+                <div class="item-origin">
+                    <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>
+                </div>
+            </div>
+            <footer>
+                <div class="item-metadata">
+                    <span class="highlight item-type">
+                        <svg class="icon icon-image"/>
+                        {{ doc.proxy_edm_type.0 }}
+                    </span>
+                </div>
+            </footer>
+        </article>
+    </li>
+    {% endfor %}
+</ul>
+            </div>
+                  <!--  <div class="results-list cf" id="query-results-bm25f">
                         <h3>Test Collection</h3>
 <ul class="result-items">
     {% for doc in params.bm25f.results  %}
@@ -133,7 +145,7 @@
                 <div class="item-origin">
                     <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>
                 </div>
-            </div>
+            </div> -->
             <footer>
                 <div class="item-metadata">
                     <span class="highlight item-type">
