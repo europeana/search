@@ -39,7 +39,7 @@
         #meta-buttons{ float: left; margin-top: 2rem; margin-bottom: 3rem;  }
         #launch-query{ margin-top: 0px; padding-left: 1rem; padding-right: 1rem; margin-left: 1rem; }
         #clear-query{ margin-left: 1rem; margin-top: 5px; }
-        div.item-info *{ width: 66%; }
+        div.item-info { width: 66%; }
         div.item-image{ position: relative; right: 20em;   }
    </style>
 </head>
@@ -105,12 +105,12 @@
         <article class="search-list-item cf">
             <div class="item-preview">
                 <div class="item-image">
-                    <a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
+                    <a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html" target="_blank"><img src="http://europeanastatic.eu/api/image?uri={{ doc.provider_aggregation_edm_object.0 }}&size=BRIEF_DOC&type=IMAGE"/></a>
 
                 </div>
             </div>
             <div class="item-info">
-                <h1><a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html">{{ doc.title.0 }}</a></h1>
+                <h1><a href="http://www.europeana.eu/portal/en/record/{{ doc.europeana_id }}.html" target="_blank">{{ doc.title.0 }}</a></h1>
                 <p class="excerpt"><b>Description</b>: {{ doc.description.0 }}</p>
                 <div class="item-origin">
                     <a class="external" href="{{ doc.provider_aggregation_edm_isShownAt.0 }}">View at {{ doc.DATA_PROVIDER.0 }}</a>

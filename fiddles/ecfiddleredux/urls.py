@@ -5,6 +5,6 @@ from . import views
 urlpatterns = [
 
     url(r'^$', views.index, name='ecfiddleredux_tool'),
-    url(r'instructions$', views.instructions, name='instructions'),
+    url(r'instructions$', views.reduxinstructions, name='reduxinstructions'),
 
 ]

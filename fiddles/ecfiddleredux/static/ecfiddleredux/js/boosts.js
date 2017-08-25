@@ -29,7 +29,7 @@ $(document).ready(function(){
 
             url: function(frag) {
              req = "http://entity-acceptance.europeana.eu/entity/suggest?wskey=apidemo&rows=10&text=" + frag;
-             return req
+             return req;
             },
             list: { match: { enabled: true },
                     maxNumberOfElements: 10,

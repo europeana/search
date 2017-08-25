@@ -28,7 +28,7 @@ def index(request):
         ecq = ECQueryForm(request.POST)
         if(ecq.is_valid()):
             if(ecq.cleaned_data["do_reset"] == "T"):
-                return render(request, 'ecfiddle/ecfiddle.html', {'form': ECQueryForm(), 'candidate_fields':candidate_fields })
+                return render(request, 'ecfiddleredux/ecfiddle.html', {'form': ECQueryForm(), 'candidate_fields':candidate_fields })
             else:
                 qry = ecq.cleaned_data["solr_query"]
                 page_no = int(ecq.cleaned_data["page"])
@@ -39,10 +39,10 @@ def index(request):
                     results = results['response']
                 except KeyError: # in this case the response from the server is bad
                     pass
-                return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results, 'page_number' : page_no,  'page_range' : page_range, 'page_info' : page_info, 'candidate_fields':candidate_fields })
+                return render(request, 'ecfiddleredux/ecfiddle.html', {'form':ecq, 'query' : qry, 'results': results, 'page_number' : page_no,  'page_range' : page_range, 'page_info' : page_info, 'candidate_fields':candidate_fields })
     else:
         ecq = ECQueryForm()
-    return render(request, 'ecfiddle/ecfiddle.html', {'form':ecq, 'candidate_fields':candidate_fields })
+    return render(request, 'ecfiddleredux/ecfiddle.html', {'form':ecq, 'candidate_fields':candidate_fields })
 
 def do_basic_query(query_string, page_no):
     offset = (page_no - 1) * ITEMS_PER_PAGE
@@ -101,5 +101,5 @@ def generate_page_info(page_no, results):
     msg = "Items " + str(start_index) + "-" + str(start_index + total_on_page) + " of " + str(total_items)
     return msg
 
-def instructions(request):
-    return render(request, 'ecfiddle/instructions.html')
+def reduxinstructions(request):
+    return render(request, 'ecfiddleredux/instructions.html')
