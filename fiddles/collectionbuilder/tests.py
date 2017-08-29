@@ -116,6 +116,26 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		self.assertEquals(prev_number_of_clauses + 1, new_number_of_clauses)
 		self.assertEquals(added_group_children, 0)
 
+	def test_change_clause_field(self):
+		# changing the field of a clause
+		xqe = XMLQueryEditor.XMLQueryEditor()
+		node_to_change = xqe.retrieve_node_by_id("1")
+		prev_field = node_to_change.find("field").text
+		xqe.set_field("proxy_dc_subject", "1")
+		changed_node = xqe.retrieve_node_by_id("1")
+		now_field = changed_node.find("field").text
+		self.assertNotEquals(prev_field, now_field)
+
+	def test_change_clause_value(self):
+		# changing the value associated with a field in a clause
+		xqe = XMLQueryEditor.XMLQueryEditor()
+		node_to_change = xqe.retrieve_node_by_id("1")
+		prev_field = node_to_change.find("value").text
+		xqe.set_value("new testing title", "1")
+		changed_node = xqe.retrieve_node_by_id("1")
+		now_field = changed_node.find("value").text
+		self.assertNotEquals(prev_field, now_field)
+
 	def test_deprecate_clause(self):
 		# the deprecation flag is correctly set and unset on clauses
 		xqe = XMLQueryEditor.XMLQueryEditor()

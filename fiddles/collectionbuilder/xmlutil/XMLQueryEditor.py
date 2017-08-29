@@ -151,7 +151,7 @@ class XMLQueryEditor:
 				negator = self.construct_negator(child)
 				clausular_contents = self.serialise_to_solr_query(child)
 				if(clausular_contents == ""):
-					query_string = ""
+					query_string += ""
 				else:
 					query_string += " " + operator + " " + negator + "(" + clausular_contents.strip() + ")"	
 		query_string = re.sub(r'\s+', ' ', query_string)
@@ -186,6 +186,15 @@ class XMLQueryEditor:
 		else:
 			return ""
 
+	def set_field(self, new_field, node_id):
+		node_to_change = self.retrieve_node_by_id(node_id)
+		if(node_to_change is None): return None
+		node_to_change.find("field").text = new_field
+
+	def set_value(self, new_value, node_id):
+		node_to_change = self.retrieve_node_by_id(node_id)
+		if(node_to_change is None): return None
+		node_to_change.find("value").text = new_value
 
 
 
