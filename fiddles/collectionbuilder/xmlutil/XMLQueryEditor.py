@@ -6,12 +6,24 @@ import re
 
 class XMLQueryEditor:
 
-	def __init__(self, query_name="test"):
-		self.query_name = query_name
-		self.build_tree()
+	def __init__(self, query_name=""):
+		if(query_name == ""):
+			self._tree = self.initialise()
+		else:
+			self.query_name = query_name
+			self._tree = self.build_tree_from_file()
 
-	def build_tree(self):
-		self._tree = self.load_query_file()
+	def initialise(self):
+		tree = ET.ElementTree(ET.fromstring('<query/>'))
+		root = tree.getroot()
+		blank_group = self.generate_clause_group()
+		root.append(blank_group)
+		blank_clause = self.generate_clause()
+		blank_group.append(blank_clause)
+		return tree
+
+	def build_tree_from_file(self):
+		return self.load_query_file()
 
 	def load_query_file(self):
 		filepath = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'stored_queries', self.query_name + ".xml")
@@ -41,6 +53,11 @@ class XMLQueryEditor:
 		for child in parent.findall("*"):
 			child.attrib["operator"] = self.determine_operator(parent, child)
 
+	def remove_node_from_root(self, node_id):
+		self._tree.getroot().remove(self._tree.getroot().find("*[@node-id=\"" + node_id + "\"]"))
+		for child in self._tree.getroot():
+			child.attrib["operator"] = self.determine_operator(self._tree.getroot(), child)
+
 	def generate_clause(self, operator="UNASSIGNED", field="", value="", lang="en", deprecated=False, negated=False):
 		clause = ET.Element("clause")
 		clause.attrib["node-id"] = self.generate_identifier()
@@ -56,6 +73,7 @@ class XMLQueryEditor:
 
 	def generate_clause_group(self, operator="UNASSIGNED", deprecated=False, negated=False):
 		clause_group = ET.Element("clause-group")
+		clause_group.attrib["node-id"] = self.generate_identifier()
 		clause_group.attrib["operator"] = operator
 		clause_group.attrib["deprecated"] = str(deprecated).lower()
 		clause_group.attrib["negated"] = str(negated).lower()
@@ -140,6 +158,7 @@ class XMLQueryEditor:
 
 	def serialise_to_solr_query(self, xml_struct=None):
 		query_string = ""
+		if(self.query_is_undefined()): return "*:*"
 		if(xml_struct is None):
 			xml_struct = self._tree
 		for child in xml_struct.findall("*"):
@@ -186,6 +205,10 @@ class XMLQueryEditor:
 		else:
 			return ""
 
+	def query_is_undefined(self):
+		defined_fields = [field for field in self._tree.getroot().findall(".//clause/field") if field.text != ""]
+		return len(defined_fields) == 0
+
 	def set_field(self, new_field, node_id):
 		node_to_change = self.retrieve_node_by_id(node_id)
 		if(node_to_change is None): return None
@@ -195,6 +218,9 @@ class XMLQueryEditor:
 		node_to_change = self.retrieve_node_by_id(node_id)
 		if(node_to_change is None): return None
 		node_to_change.find("value").text = new_value
+
+
+
 
 
 

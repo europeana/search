@@ -1,9 +1,45 @@
+{% load staticfiles %}
 <html>
 <head>
 	<title>Collection Builder</title>
+	<script src="{% static 'collectionbuilder/scripts/jquery.dev.js' %}"></script>
+	<script src="{% static 'collectionbuilder/scripts/render_query_controls.js' %}"></script>
+	<style type="text/css">
+		#info{ display: none; }
+		#results{ display: none; }
+		#query-wrapper{ width: 100%; position: relative; height: 300px; border-bottom: thin solid black;}
+		#query-container{ width: 75%; margin-left: auto; margin-right: auto; height: 80%; border: thin solid black;  }
+		.clause-group{ position: relative; width: 95%; margin-right: auto; margin-left: auto; border: thin solid black; margin-top: 10px; padding: 0 25px 0 25px;}
+		.clause{ position: relative; width: 95%; margin-right: auto; margin-left: auto; border: thin solid black; clear: both; margin-bottom: 10px;
+			padding: 0 25px 0 25px;
+		}
+		.button-set{ width: 100%; position: relative; clear: both; min-height: 40px;}
+		.button-control{ float: left; width: auto; border: thin solid black; padding: 5px 10px 5px 10px; margin: 0% 0% 0% 5%;  }
+		.ops-wrapper{  position: relative; clear: both; padding-bottom: 45px;  }
+		.operator-radio-set, .negated-wrapper{ float: left; }
+		h3{ margin: 5px 0px 5px 0px; }
+		.clause-input{ clear: both; margin: 25px 0px 25px 0px; padding: 0px 0px 5px 0px;}
+		.field-name, .field-value{ width: 45%; height: 35px; margin-left: 20px; }
+		.negated-wrapper{ margin-left: 15px; }
+	</style>
 </head>
 <body>
 <h1>Collection Builder</h1>
-<p>Text goes here.</p>
+<div id="query-wrapper">
+<div id="query-container">
+Query here
+</div>
+</div>
+<div id="qb">
+<p>Query builder here</p>
+<div id="clause-controllers">
+</div>
+</div>
+<div id="info">
+<p>Info here</p>
+</div>
+<div id="results">
+<p>Results here</p>
+</div>
 </body>
 </html>
