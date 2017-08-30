@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import xml.etree.ElementTree as ET
 from collectionbuilder.xmlutil import XMLQueryEditor
+import copy
 import requests
 import json
 import re
@@ -15,22 +16,27 @@ def index(request):
 	return render(request, 'collectionbuilder/index.html')
 
 def init(request):
-	tree = XQE.get_tree().getroot()
+	tree = copy.deepcopy(XQE.get_tree().getroot())
 	for clause in tree.findall(".//clause"):
 		append_all_fields(clause)
 	return HttpResponse(ET.tostring(tree), 'application/xml')
+
+def getfullquery(request):
+	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 
 def newclause(request):
 	node_id = request.GET["node_id"]
 	new_clause = XQE.generate_clause()
 	XQE.add_clausular_element(new_clause, node_id)
-	append_all_fields(new_clause)
-	return HttpResponse(ET.tostring(new_clause), 'application/xml')
+	dec_clause = copy.deepcopy(new_clause)
+	append_all_fields(dec_clause)
+	return HttpResponse(ET.tostring(dec_clause), 'application/xml')
 
 def newclausegroup(request):
 	node_id = request.GET["node_id"]
 	new_clause_group = XQE.generate_clause_group()
 	XQE.add_clausular_element(new_clause_group, node_id)
+	print(ET.tostring(XQE.get_tree().getroot()))
 	return HttpResponse(ET.tostring(new_clause_group), 'application/xml')
 
 def deleteclelement(request):
@@ -38,16 +44,18 @@ def deleteclelement(request):
 	node_to_reflow = request.GET["node_to_reflow"]
 	if(node_to_reflow == "0"):
 		XQE.remove_node_from_root(node_to_remove)
-		reflow_node = XQE.get_tree().getroot()
+		reflow_node = copy.deepcopy(XQE.get_tree().getroot())
 	else:
 		XQE.remove_node_by_id(node_to_remove)
-		reflow_node = XQE.retrieve_node_by_id(node_to_reflow)
+		reflow_node = copy.deepcopy(XQE.retrieve_node_by_id(node_to_reflow))
+	append_all_fields(reflow_node)
 	return HttpResponse(ET.tostring(reflow_node), 'application/xml')
 
 def facetvalues(request):
 	fieldname = request.GET["passedfield"]
 	qry = XQE.serialise_to_solr_query()
 	slr_qry = SOLR_URL + "&q=" + qry + "&rows=0&facet=true&facet.mincount=1&facet.limit=250&facet.field=" + fieldname
+	print(ET.tostring(XQE.get_tree().getroot()))
 	res = requests.get(slr_qry).json()
 	values_list = [val for val in res["facet_counts"]["facet_fields"][fieldname] if re.search('[a-zA-Z]', str(val))]
 	all_values = {}
@@ -56,32 +64,65 @@ def facetvalues(request):
 
 def translate(request):
 	term = request.GET["term"]
-	print("term is " + term)
 	wkdt_termsearch = "https://www.wikidata.org/w/api.php?format=json&action=wbsearchentities&language=en&limit=1&search=" + term
-	print(wkdt_termsearch)
 	termsearch_as_json = requests.get(wkdt_termsearch).json()
-	success = (termsearch_as_json['success'] == 1)
+	success = (termsearch_as_json['success'] == 1 and len(termsearch_as_json["search"]) > 0)
 	terms = {}
 	if(success):
 		entity_id = termsearch_as_json["search"][0]["id"]
 		wkdt_idsearch = "https://www.wikidata.org/w/api.php?format=json&action=wbgetentities&props=labels&ids=" + entity_id
 		idsearch_as_json = requests.get(wkdt_idsearch).json()
-		inner_success = idsearch_as_json['success'] == 1
+		inner_success = idsearch_as_json['success'] == 1 and len(idsearch_as_json['entities']) > 0
 		if(inner_success):
 			labels = idsearch_as_json['entities'][entity_id]['labels']
 			for lang in EXPANSION_LANGUAGES:
 			 if lang in labels:
 			 	trans_term = labels[lang]["value"]
 			 	terms[lang] = trans_term
-	print(str(terms))
 	return HttpResponse(json.dumps(terms), 'application/json')
 
+def updateoperator(request):
+	newop = request.GET["operator"]
+	node_id = request.GET["node_id"]
+	XQE.set_operator(newop, node_id)
+	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 
+def updatenegated(request):
+	newneg = request.GET["negstatus"]
+	node_id = request.GET["node_id"]
+	if(newneg == "negated"):
+		XQE.negate_by_id(node_id)
+	else:
+		XQE.unnegate_by_id(node_id)
+	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 
 def append_all_fields(new_clause):
 	all_fields_piggyback = ET.fromstring("<all-fields></all-fields>")
 	all_fields_piggyback.text = ",".join(ALL_FIELDS)
-	new_clause.append(all_fields_piggyback)
+	clause_type = new_clause.tag 
+	if(clause_type == "clause"):
+		new_clause.append(all_fields_piggyback)
+	elif(clause_type == "clause-group"):
+		for child in new_clause:
+			append_all_fields(child)
+
+
+def updatevalues(request):
+	clause_id = request.GET["node_id"]
+	field = request.GET["field_name"]
+	value = request.GET["field_value"]
+	XQE.set_field(field, clause_id)
+	XQE.set_value(value, clause_id)
+	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
+
+def changedeprecate(request):
+	node_id = request.GET["node_id"]
+	operation = request.GET["depstatus"]
+	if(operation == "deprecate"):
+		XQE.deprecate_by_id(node_id)
+	else:
+		XQE.undeprecate_by_id(node_id)
+	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 
 def instructions(request):
     return render(request, 'collectionbuilder/instructions.html')

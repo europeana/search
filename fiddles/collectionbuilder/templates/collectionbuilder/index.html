@@ -21,17 +21,32 @@
 		.clause-input{ clear: both; margin: 25px 0px 25px 0px; padding: 0px 0px 5px 0px;}
 		.field-name, .field-value{ width: 45%; height: 35px; margin-left: 20px; }
 		.negated-wrapper{ margin-left: 15px; }
+		.expansions{ border: thin solid black; margin: 10px; padding: 10px; position: relative; }
+		.lang-val{ font-style: italic; padding-left: 5px;  }
+		.lang-val::before{ content:"("; }
+		.lang-val::after{ content:")"; }
+		.finished-expanding{ position: absolute; bottom: 25px; right: 50px; }
+		#mode-shifter{ position: relative; margin: 15px 0 15px 0; padding-left: 35%; }
+		.deprecated-clause{ color: #aaaaaa; }
 	</style>
 </head>
 <body>
+{% if is_results == True %}
+<input type="hidden" name="is-results" id="is-results" value="true"/>
+{% else %}
+<input type="hidden" name="is-results" id="is-results" value="false"/>
+{% endif %}
 <h1>Collection Builder</h1>
 <div id="query-wrapper">
 <div id="query-container">
 Query here
 </div>
+<div id="mode-shifter">
+<div class="button-control" id="view-qb">Query Builder</div>
+<div class="button-control" id="view-results">Results</div>
+</div>
 </div>
 <div id="qb">
-<p>Query builder here</p>
 <div id="clause-controllers">
 </div>
 </div>
@@ -39,7 +54,7 @@ Query here
 <p>Info here</p>
 </div>
 <div id="results">
-<p>Results here</p>
+<h3>Results</h3>
 </div>
 </body>
 </html>

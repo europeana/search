@@ -20,6 +20,8 @@ class XMLQueryEditor:
 		root.append(blank_group)
 		blank_clause = self.generate_clause()
 		blank_group.append(blank_clause)
+		blank_group.attrib["operator"] = self.determine_operator(None, blank_group)
+		blank_clause.attrib["operator"] = self.determine_operator(blank_group, blank_clause)
 		return tree
 
 	def build_tree_from_file(self):
@@ -112,20 +114,18 @@ class XMLQueryEditor:
 		return position
 
 	def determine_operator(self, parent, child):
+		if(parent is None): return "FIRST"
 		position_in_sibs = self.get_position(parent, child)
 		if(position_in_sibs == 1):
 			return "FIRST"
 		if(child.attrib["operator"] != "UNASSIGNED"):
 			return child.attrib["operator"]
-		if(position_in_sibs == 2):
-			return "UNASSIGNED"
 		ands = ["and" for kid in parent.findall("*") if kid.attrib["operator"] == "AND"]
 		ors = ["or" for kid in parent.findall("*") if kid.attrib["operator"] == "OR"]
 		if(len(ands) > 0):
 			return "AND"
 		if(len(ors) > 0):
 			return "OR"
-		# this should probably be an error
 		return "UNASSIGNED"
  
 	def deprecate_by_id(self, node_id):
@@ -182,8 +182,9 @@ class XMLQueryEditor:
 		if(el.attrib["deprecated"] == "true"): return ""
 		operator = self.construct_operator(parent, el)
 		negator = self.construct_negator(el)
-		field = el.find("field").text
-		value = el.find("value").text
+		field = el.find("field").text.strip()
+		value = el.find("value").text.strip()
+		if(field == "" or value == ""): return ""
 		clause_as_string = (" " + operator + " " + negator + field + ":\"" + value + "\"")
 		return clause_as_string
 
@@ -218,6 +219,11 @@ class XMLQueryEditor:
 		node_to_change = self.retrieve_node_by_id(node_id)
 		if(node_to_change is None): return None
 		node_to_change.find("value").text = new_value
+
+	def set_operator(self, new_operator, node_id):
+		node_to_change = self.retrieve_node_by_id(node_id)
+		if(node_to_change is None): return None
+		node_to_change.attrib["operator"] = new_operator
 
 
 

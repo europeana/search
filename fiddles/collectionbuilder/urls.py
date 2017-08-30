@@ -7,10 +7,16 @@ urlpatterns = [
     url(r'^$', views.index, name='collectionbuilder'),
     url(r'init$', views.init, name='newquery'),
     url(r'new-clause$', views.newclause, name='newclause'),
-    url(r'new-clause-group$', views.newclausegroup, name='newclause'),
+    url(r'new-clause-group$', views.newclausegroup, name='newclausegroup'),
     url(r'delete-cl-element$', views.deleteclelement, name='deletion'),
     url(r'facet-values$', views.facetvalues, name='facetvalues'),
     url(r'translate$', views.translate, name='translate'),
+    url(r'updatevalues$', views.updatevalues, name='updatevalues'),
+    url(r'update-operator$', views.updateoperator, name='updateoperator'),
+    url(r'update-negated-status$', views.updatenegated, name="updatenegated"),
+    url(r'getfullquery$', views.getfullquery, name='getfullquery'),
+    url(r'getfullquery$', views.getfullquery, name='getfullquery'),
+    url(r'deprecate$', views.changedeprecate, name='changedeprecate'),
     url(r'instructions$', views.instructions, name='instructions'),
 
 ]

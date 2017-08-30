@@ -190,7 +190,7 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		xqe.remove_node_by_id("4")
 		xqe.remove_node_by_id("5")
-		clause = xqe.generate_clause(operator="UNASSIGNED", field="subject", value="Quellenforschung", lang="de")
+		clause = xqe.generate_clause(field="subject", value="Quellenforschung", lang="de")
 		xqe.add_clausular_element(clause, "2")
 		# while we're at it, let's make sure this is being added to the
 		# right point in the tree
