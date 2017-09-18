@@ -237,11 +237,56 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		expected = "title:\"test title\" AND (-proxy_dc_subject:\"test\" OR proxy_dc_subject:\"l'examen\" OR (CREATOR:\"Leonardo da Vinci\"))"
 		self.assertEquals(serialised_query, expected)
 
+	# operators appearing first in either the query or in individual clauses
+	# break the query. Deprecating earlier clauses accordingly means these
+	# clauses have to be suppressed.
+	# TODO: This logic should in fact be unified, rather than having FIRST as
+	# a pseudo-operator in the @operator attribute
+	def test_deprecating_first_clause_at_top_level_removes_subsequent_operator(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.deprecate_by_id("1")
+		self.assertEquals(xqe.retrieve_node_by_id("2").attrib["operator-suppressed"], "true")
 
+	def test_deprecating_first_clause_in_group_removes_subsequent_operator(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.deprecate_by_id("3")
+		self.assertEquals(xqe.retrieve_node_by_id("4").attrib["operator-suppressed"], "true")
 
+	# undeprecation needs to reverse these changes
+	def test_undoing_operator_suppression_at_top_level(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.deprecate_by_id("1")	
+		self.assertEquals(xqe.retrieve_node_by_id("2").attrib["operator-suppressed"], "true")
+		xqe.undeprecate_by_id("1")
+		self.assertEquals(xqe.retrieve_node_by_id("2").attrib["operator-suppressed"], "false")
 
+	def test_undoing_operator_suppression_at_group_level(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.deprecate_by_id("3")
+		self.assertEquals(xqe.retrieve_node_by_id("4").attrib["operator-suppressed"], "true")
+		xqe.undeprecate_by_id("3")		
+		self.assertEquals(xqe.retrieve_node_by_id("4").attrib["operator-suppressed"], "false")
 
+	# operator deprecation also needs to apply to clause groups in cases
+	# where the clause-group itself is not deprecated, but all
+	# of its children are
 
+	def test_no_operator_for_clause_group_when_all_clauses_deprecated(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.deprecate_by_id("6")
+		xqe.deprecate_by_id("7")
+		self.assertEquals(xqe.retrieve_node_by_id("5").attrib["operator-suppressed"], "true")
+
+	# and we need to make sure that re-activating one of the clauses restores the 
+	# clause-group operator
+
+	def test_reactivating_clause_reactivates_parent_group(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.deprecate_by_id("6")
+		xqe.deprecate_by_id("7")
+		self.assertEquals(xqe.retrieve_node_by_id("5").attrib["operator-suppressed"], "true")
+		xqe.undeprecate_by_id("6")
+		self.assertEquals(xqe.retrieve_node_by_id("5").attrib["operator-suppressed"], "false")
 
 
 
