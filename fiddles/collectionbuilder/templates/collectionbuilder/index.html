@@ -31,9 +31,29 @@
 		#to-save{ float: left; height: 30px; width: 200px; margin-left: 15px; visibility: hidden;}
 		input, select{ font-size: 16px; }
 		select{ margin-left: 20px; margin-top: 20px;}
+		#inconsistent-operator-warning{ position: absolute; padding: 15px; border: 2px solid black; width: 50%;  background-color: #ffffff; z-index: 10; border-radius: 10px; margin-top: 15%; margin-left: 25%;visibility: hidden;}
+		#iow-buttons{ position: relative; }
+		.iow-button{ border: thin solid black; float: left; padding: 5px; width: 25%; margin: 10px; text-align: center; min-height: 45px; vertical-align: middle; cursor: pointer; }
+		#iow-cancel{ padding-top: 15px; min-height: 35px; }
+		#new-operator{ font-style: italic; }
 	</style>
 </head>
 <body>
+<div id="inconsistent-operator-warning">
+<p>Changing just one operator in a clause group
+creates ambiguous queries.<br/><br/>
+To create a parseable query, you can either:<br/>
+<p>
+<ol>
+<li>Change all operators in this clause group to <span id="new-operator"></span></li>
+<li>Turn this clause into a clause group</li>
+</ol>
+<div id="iow-buttons">
+<div id="iow-change-all" class="iow-button">Change all operators</div>
+<div id="iow-convert-to-group" class="iow-button">Convert to clause group</div>
+<div id="iow-cancel" class="iow-button">Cancel</div>
+</div>		
+</div>
 {% if is_results == True %}
 <input type="hidden" name="is-results" id="is-results" value="true"/>
 {% else %}

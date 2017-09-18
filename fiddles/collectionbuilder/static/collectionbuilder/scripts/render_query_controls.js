@@ -612,12 +612,22 @@ $(document).ready(function(){
             dataType: "xml",
             data: { "operator" : opval, "node_id" : node_id },
             success: function(xml) {
-            		alert($(xml).text());
-            		build_solr_query(xml);
+            		if($(xml).text() == "Inconsistent Operators"){
+            			display_inconsistent_operator_warning(opval);
+            		}
+            		else{
+            			build_solr_query(xml);
+            		}
 
                 }
             });
 
+	}
+
+	var display_inconsistent_operator_warning = function(operator){
+
+		$("#inconsistent-operator-warning").css({ "visibility" : "visible"});
+		$("#new-operator").text(operator);
 	}
 
 	var update_operator_indirectly = function(){
@@ -712,6 +722,11 @@ $(document).ready(function(){
 
 		}
 
+	}
+
+	var hide_io_warning = function(){
+
+		$("#inconsistent-operator-warning").css({ "visibility" : "hidden"});
 
 	}
 
@@ -729,6 +744,7 @@ $(document).ready(function(){
 	$(document).on("change", ".field-value", update_clause);
 	$(document).on("change", ".operator-radio", update_operator_indirectly);
 	$(document).on("change", ".negcheck", update_negated_status_indirectly);
+	$("#iow-cancel").click(hide_io_warning);
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 });

@@ -217,7 +217,7 @@ class XMLQueryEditor:
 
 	def operators_are_consistent(self, new_operator, node_id):
 		clause_parent = self.find_clause_parent(node_id)
-		for clause_element in clause_parent.findall("./*[@operator]"):
+		for clause_element in clause_parent.findall("./*[@operator][@operator-suppressed=\"false\"]"):
 			if(clause_element.attrib["operator"] and clause_element.attrib["node-id"] != node_id):
 				return False
 		return True
