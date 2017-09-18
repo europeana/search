@@ -7,8 +7,8 @@
 	<style type="text/css">
 		#info{ display: none; }
 		#results{ display: none; }
-		#query-wrapper{ width: 100%; position: relative; height: 300px; border-bottom: thin solid black;}
-		#query-container{ width: 75%; margin-left: auto; margin-right: auto; height: 80%; border: thin solid black;  }
+		#query-wrapper{ width: 100%; position: relative; height: 150px; border-bottom: thin solid black; padding-bottom: 55px;}
+		#query-container{ width: 85%; margin-left: auto; margin-right: auto; height: 80%; border: thin solid black; font-family: Arial, Helvetic, _sans; font-size: 16px; }
 		.clause-group{ position: relative; width: 95%; margin-right: auto; margin-left: auto; border: thin solid black; margin-top: 10px; padding: 0 25px 0 25px;}
 		.clause{ position: relative; width: 95%; margin-right: auto; margin-left: auto; border: thin solid black; clear: both; margin-bottom: 10px;
 			padding: 0 25px 0 25px;
@@ -26,8 +26,11 @@
 		.lang-val::before{ content:"("; }
 		.lang-val::after{ content:")"; }
 		.finished-expanding{ position: absolute; bottom: 25px; right: 50px; }
-		#mode-shifter{ position: relative; margin: 15px 0 15px 0; padding-left: 35%; }
+		#mode-shifter{ position: relative; margin: 15px 0 15px 0; padding-left: 30%; }
 		.deprecated-clause{ color: #aaaaaa; }
+		#to-save{ float: left; height: 30px; width: 200px; margin-left: 15px; visibility: hidden;}
+		input, select{ font-size: 16px; }
+		select{ margin-left: 20px; margin-top: 20px;}
 	</style>
 </head>
 <body>
@@ -44,6 +47,8 @@ Query here
 <div id="mode-shifter">
 <div class="button-control" id="view-qb">Query Builder</div>
 <div class="button-control" id="view-results">Results</div>
+<div class="button-control" id="save-to-file">Save</div>
+<input name="file-name" value="File name here" id="to-save"/>
 </div>
 </div>
 <div id="qb">

@@ -12,6 +12,7 @@ class XMLQueryEditor:
 		else:
 			self.query_name = query_name
 			self._tree = self.build_tree_from_file()
+		self.check_operator_suppression()
 
 	def initialise(self):
 		tree = ET.ElementTree(ET.fromstring('<query/>'))
@@ -20,8 +21,6 @@ class XMLQueryEditor:
 		root.append(blank_group)
 		blank_clause = self.generate_clause()
 		blank_group.append(blank_clause)
-		blank_group.attrib["operator"] = self.determine_operator(None, blank_group)
-		blank_clause.attrib["operator"] = self.determine_operator(blank_group, blank_clause)
 		return tree
 
 	def build_tree_from_file(self):
@@ -52,33 +51,33 @@ class XMLQueryEditor:
 		parent = self._tree.getroot().find(".//*[@node-id=\"" + node_id + "\"]/..")
 		child = parent.find("*[@node-id=\"" + node_id + "\"]")
 		parent.remove(child)
-		for child in parent.findall("*"):
-			child.attrib["operator"] = self.determine_operator(parent, child)
+		self.check_operator_suppression()
 
 	def remove_node_from_root(self, node_id):
 		self._tree.getroot().remove(self._tree.getroot().find("*[@node-id=\"" + node_id + "\"]"))
-		for child in self._tree.getroot():
-			child.attrib["operator"] = self.determine_operator(self._tree.getroot(), child)
+		self.check_operator_suppression()
 
-	def generate_clause(self, operator="UNASSIGNED", field="", value="", lang="en", deprecated=False, negated=False):
+	def generate_clause(self, operator="AND", field="", value="", lang="en", deprecated=False, negated=False):
 		clause = ET.Element("clause")
 		clause.attrib["node-id"] = self.generate_identifier()
 		clause.attrib["operator"] = operator
 		clause.attrib["xml:lang"] = lang
 		clause.attrib["deprecated"] = str(deprecated).lower()
 		clause.attrib["negated"] = str(negated).lower()
+		clause.attrib["operator-suppressed"] = "false"
 		field_el = ET.SubElement(clause, "field")
 		value_el = ET.SubElement(clause, "value")
 		field_el.text = field
 		value_el.text = value
 		return clause
 
-	def generate_clause_group(self, operator="UNASSIGNED", deprecated=False, negated=False):
+	def generate_clause_group(self, operator="AND", deprecated=False, negated=False):
 		clause_group = ET.Element("clause-group")
 		clause_group.attrib["node-id"] = self.generate_identifier()
 		clause_group.attrib["operator"] = operator
 		clause_group.attrib["deprecated"] = str(deprecated).lower()
 		clause_group.attrib["negated"] = str(negated).lower()
+		clause_group.attrib["operator-suppressed"] = "false"
 		return clause_group
 
 	def add_clausular_element(self, clausular_element, to_el_id=None):
@@ -88,6 +87,7 @@ class XMLQueryEditor:
 		clausular_element.attrib["negated"] = str(self.default_negation_setting(to_clause)).lower()
 		to_clause.append(clausular_element)
 		clausular_element.attrib["operator"] = self.determine_operator(to_clause, clausular_element)
+		self.check_operator_suppression()
 
 	def default_negation_setting(self, parent):
 		nots = ["not" for child in parent.findall("*") if child.attrib["negated"] == "true"]
@@ -114,19 +114,10 @@ class XMLQueryEditor:
 		return position
 
 	def determine_operator(self, parent, child):
-		if(parent is None): return "FIRST"
-		position_in_sibs = self.get_position(parent, child)
-		if(position_in_sibs == 1):
-			return "FIRST"
-		if(child.attrib["operator"] != "UNASSIGNED"):
-			return child.attrib["operator"]
-		ands = ["and" for kid in parent.findall("*") if kid.attrib["operator"] == "AND"]
 		ors = ["or" for kid in parent.findall("*") if kid.attrib["operator"] == "OR"]
-		if(len(ands) > 0):
-			return "AND"
 		if(len(ors) > 0):
 			return "OR"
-		return "UNASSIGNED"
+		return "AND"
  
 	def deprecate_by_id(self, node_id):
 		dep = self.retrieve_node_by_id(node_id)
@@ -273,16 +264,6 @@ class XMLQueryEditor:
 			if(clause.attrib["deprecated"] == "false"):
 				return True 
 		return False
-
- 
-
-
-
-
-
-
-
-
 
 
 

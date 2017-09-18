@@ -14,6 +14,7 @@ urlpatterns = [
     url(r'updatevalues$', views.updatevalues, name='updatevalues'),
     url(r'update-operator$', views.updateoperator, name='updateoperator'),
     url(r'update-negated-status$', views.updatenegated, name="updatenegated"),
+    url(r'new-expansion-group$', views.newexpansiongroup, name="newexpansiongroup"),    
     url(r'getfullquery$', views.getfullquery, name='getfullquery'),
     url(r'getfullquery$', views.getfullquery, name='getfullquery'),
     url(r'deprecate$', views.changedeprecate, name='changedeprecate'),

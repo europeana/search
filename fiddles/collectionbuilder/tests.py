@@ -25,10 +25,10 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		# given the id of a clause, we retrieve it correctly
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		test_node = xqe.retrieve_node_by_id("1")
-		op = test_node.attrib["operator"]
+		op_suppressed = test_node.attrib["operator-suppressed"]
 		field = test_node.find("field").text 
 		value = test_node.find("value").text
-		self.assertEquals(op, "FIRST")
+		self.assertEquals(op_suppressed, "true")
 		self.assertEquals(field, "title")
 		self.assertEquals(value, "test title")
 
@@ -75,8 +75,8 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		# given the material for two clauses and an operator,
 		# appropriately generates a new clause group
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
-		clause_group = xqe.generate_clause_group(operator="FIRST")
-		self.assertEquals(clause_group.attrib["operator"], "FIRST")
+		clause_group = xqe.generate_clause_group()
+		self.assertEquals(clause_group.attrib["operator"], "AND")
 		self.assertEquals(clause_group.attrib["deprecated"], "false")
 		self.assertEquals(clause_group.attrib["negated"], "false")
 
@@ -173,37 +173,21 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 	# we need to ensure that the boolean operators (AND|OR) are 
 	# correctly handled when nodes are removed or added
 
-	def test_first_node_operator_is_first(self):
-		# the first node in a group of siblings is
-		# without an operator and is labelled "FIRST"
+	def test_first_node_operator_is_suppressed(self):
+		# the first node in a group of siblings has its operator suppressed
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		xqe.remove_node_by_id("3")
 		xqe.remove_node_by_id("4")
 		xqe.remove_node_by_id("5")
 		clause = xqe.generate_clause(operator="OR", field="subject", value="Quellenforschung", lang="de")
 		xqe.add_clausular_element(clause, "2")
-		self.assertEquals(clause.attrib["operator"], "FIRST")		
-
-	def test_second_node_with_operator_unassigned_when_added(self):
-		# any node added immediately after the first nodes
-		# should be explicitly flagged as needing an operator
-		xqe = XMLQueryEditor.XMLQueryEditor("test")
-		xqe.remove_node_by_id("4")
-		xqe.remove_node_by_id("5")
-		clause = xqe.generate_clause(field="subject", value="Quellenforschung", lang="de")
-		xqe.add_clausular_element(clause, "2")
-		# while we're at it, let's make sure this is being added to the
-		# right point in the tree
-		parent = xqe.retrieve_node_by_id("2")
-		pos = xqe.get_position(parent, clause)
-		self.assertEquals(pos, 2)
-		self.assertEquals(clause.attrib["operator"], "UNASSIGNED")
+		self.assertEquals(clause.attrib["operator-suppressed"], "true")		
 
 	def test_subsequent_nodes_inherit_and(self):
 		# any clause added to a group with an "AND" clause
 		# already defined also has the "AND" operator
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
-		clause = xqe.generate_clause(operator="UNASSIGNED", field="subject", value="Quellenforschung", lang="de")
+		clause = xqe.generate_clause(field="subject", value="Quellenforschung", lang="de")
 		xqe.add_clausular_element(clause, "5")
 		self.assertEquals(clause.attrib["operator"], "AND")
 
@@ -211,17 +195,19 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		# any clause added to a group containing an "OR" clause
 		# also has the "OR" operator
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
-		clause = xqe.generate_clause(operator="UNASSIGNED", field="subject", value="Quellenforschung", lang="de")
+		clause = xqe.generate_clause(field="subject", value="Quellenforschung", lang="de")
 		xqe.add_clausular_element(clause, "2")
 		self.assertEquals(clause.attrib["operator"], "OR")
 
 	def test_remove_first_clause_changes_operator_on_second(self):
 		# when the second node becomes the first, its operator 
-		# should be "FIRST"
+		# should be suppressed
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		unaltered_node = xqe.retrieve_node_by_id("2")
+		self.assertEquals(unaltered_node.attrib["operator-suppressed"], "false")
 		xqe.remove_node_by_id("1")
 		new_first_node = xqe.retrieve_node_by_id("2")
-		self.assertEquals(new_first_node.attrib["operator"], "FIRST")
+		self.assertEquals(new_first_node.attrib["operator-suppressed"], "true")
 
 	def test_remove_first_clause_has_no_operator_effect_on_third(self):
 		# need to ensure that this effect does not spread too far
@@ -240,8 +226,6 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 	# operators appearing first in either the query or in individual clauses
 	# break the query. Deprecating earlier clauses accordingly means these
 	# clauses have to be suppressed.
-	# TODO: This logic should in fact be unified, rather than having FIRST as
-	# a pseudo-operator in the @operator attribute
 	def test_deprecating_first_clause_at_top_level_removes_subsequent_operator(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		xqe.deprecate_by_id("1")

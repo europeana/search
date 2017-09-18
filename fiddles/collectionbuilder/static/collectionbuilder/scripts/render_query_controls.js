@@ -62,7 +62,7 @@ $(document).ready(function(){
 
 			}
 			else if(is_deprecated == "false"){
-				var operator = construct_query_operator(xml, $(this));
+				var operator = construct_query_operator($(this));
 				var negator = construct_query_negator($(this));
 				var node_id = "q_" + $(this).attr("node-id");
 				var step_parent = $("<span id=\"" + node_id + "\" class=\"stepparent\"></span>");
@@ -96,62 +96,45 @@ $(document).ready(function(){
 
 	}
 
-	var construct_query_operator = function(parent, child){
+	var construct_query_operator = function(child){
 
-		pos = get_effective_position(parent, child)
 		op = $(child).attr("operator")
-		if(pos == 1){
-			return ""
+		if($(child).attr("operator-suppressed") == "true"){
+			return "";
 		}
 		if(op == "AND"){
-			return "AND"
+			return "AND";
 		}
 		if(op == "OR"){
-			return "OR"
+			return "OR";
 		}
-		return ""
-
-	}
-
-	var get_effective_position = function(parent, child){
-
-		var position = 1
-		for(var sibling in parent.children()){
-			if(Object.is($(sibling), $(child))){
-				break
-			}
-			else if($(sibling).attr("deprecated") == "true"){
-				pass
-			}
-			else{
-				position += 1
-			}
-		}
-		return position
+		return "";
 
 	}
 
 	var construct_query_negator = function(child){
-		var neg = $(child).attr("negated")
-		if(neg == "true"){
-			return "-"
+		var neg = $(child).attr("negated");
+		var sup = $(child).attr("operator-suppressed");
+		if(neg == "true" && sup == "true"){
+			return "-";
 		}
 		else{
-			return ""
+			return "";
 		}
 
 	}
 
 	var serialise_clause_to_query = function(xml, clause){
 
-		var operator = construct_query_operator(xml, $(clause));
+		var operator = construct_query_operator(clause);
 		var negator = construct_query_negator($(clause));
 		var deprecated = $(clause).attr("deprecated") == "true" ? "class=\"deprecated-clause\"" : "";
 		var node_id = "q_" + $(clause).attr("node-id");		
 		var field = $(clause).find("field").text();
 		var value = $(clause).find("value").text();
+		if(value != "*"){ value = "\"" + value + "\""; }
 		var wrapper = $("<span " + deprecated + " id=\"" + node_id + "\"></span>");
-		var qs = " " + operator + " " + negator + field + ":\"" + value + "\"";
+		var qs = " " + operator + " " + negator + field + ":" + value;
 		$(wrapper).text(qs)
 		return $(wrapper);
 
@@ -196,7 +179,6 @@ $(document).ready(function(){
 	var update_query_text = function(query_text){
 
 		$("#query-container").text(query_text);
-
 
 	}
 
@@ -251,26 +233,16 @@ $(document).ready(function(){
 		var controls = $("<div class=\"operator-radio-set\"></div>");
 		var and_control = $("<input type=\"radio\" class=\"operator-radio\" value=\"AND\" name=\"" + name + "\">AND</input>");
 		var or_control = $("<input type=\"radio\" class=\"operator-radio\" value=\"OR\" name=\"" + name + "\">OR</input>");
-		if(operator != "FIRST"){
+		$(controls).append(and_control);
+		$(controls).append(or_control);
+		if(operator == "OR"){
 
-			$(controls).append(and_control);
-			$(controls).append(or_control);
-			if(operator == "AND"){
+			$(or_control).attr("checked", "checked");
 
-				$(and_control).attr("checked", "checked");
-				$(or_control).prop("disabled", true);
-			}
-			else if(operator == "OR"){
+		}
+		else{
 
-				$(or_control).attr("checked", "checked");
-				$(and_control).attr("disabled", true);
-
-			}
-			else{
-
-				$(and_control).attr("checked", "checked");
-				update_operator.apply($(and_control), [node_id]);
-			}
+			$(and_control).attr("checked", "checked");
 
 		}
 		return controls;
@@ -282,7 +254,6 @@ $(document).ready(function(){
 		var controls = $("<div class=\"negated-wrapper\">Negated (NOT): </div>");
 		var neg = $("<input type=\"checkbox\" class=\"negcheck\" value=\"negated\"></input>");
 		$(controls).append(neg)
-		console.log(is_negated + "!!!");
 		if(is_negated == "true"){
 
 			$(neg).attr("checked", "checked");
@@ -526,8 +497,39 @@ $(document).ready(function(){
 
 	var dismiss_expansions = function(){
 
-		$(this).parents(".expansions").first().remove();
+		var translations = [];
+		var that = this;
+		$(this).parents(".expansions").first().find("input:checked").next(".trans-label-wrapper").find(".lang-val").each(function(){
 
+			var trans = $(this).text();
+			translations.push(trans);
+
+		});
+
+		var field = $(this).parents(".clause").first().find(".field-name").val();
+		translations.push($(this).parents(".clause").first().find(".field-value").val());
+		var parent_id = $(this).parents("div.clause-group").first().attr("id");
+		add_expansion_clauses(parent_id, field, translations);
+		var this_id = $(this).parents(".clause").first().attr("id");
+		var delenda = $(this).parents(".expansions").first().prevAll(".button-set").first().find(".delete").first();
+		delete_clausular_element.apply(delenda);
+
+	}
+
+	var add_expansion_clauses = function(parent_id, field_name, translations){
+
+		$.ajax({
+            type: "GET",
+            url: "new-expansion-group",
+            cache: false,
+            dataType: "xml",
+            data: { "node_id" : parent_id, "fieldname" : field_name, "translations" : translations.join(",")  },
+            success: function(xml) {
+
+            		update_query_controls($(xml), $("#" + parent_id));
+
+            }
+        });
 	}
 
 	var update_clause = function(){
@@ -558,9 +560,45 @@ $(document).ready(function(){
 
 	var view_results = function(){
 
-		qry = $("#big-query-wrapper").text();
+		qry = serialise_query($("#big-query-wrapper"), false);
 		var results_page = "http://www.europeana.eu/portal/en/search?q=" + qry;
 		window.open(results_page, "_blank");
+
+	}
+
+	var serialise_query = function(root_qry, deprecation_flag){
+		qry_str = "";
+		$(root_qry).children().each(function(){
+
+			var is_deprecated = $(this).hasClass("deprecated-clause");
+			if(is_deprecated){ deprecation_flag = true; }
+			else{
+
+				if($(this).children().length == 0){
+
+					var raw_text = $(this).text();
+					qry_str += raw_text;
+					if(deprecation_flag){
+
+						qry_str = qry_str.replace(/AND /, "");
+						qry_str = qry_str.replace(/OR /, "");
+						deprecation_flag = false;	
+
+					}
+
+
+				}
+				else{
+
+					qry_str += serialise_query($(this), deprecation_flag);
+
+				}
+
+			}
+
+		});
+
+		return qry_str;
 
 	}
 
@@ -574,7 +612,7 @@ $(document).ready(function(){
             dataType: "xml",
             data: { "operator" : opval, "node_id" : node_id },
             success: function(xml) {
-            		console.log(xml);
+
             		build_solr_query(xml);
 
                 }
@@ -637,7 +675,6 @@ $(document).ready(function(){
 			$(this).text("Deactivate");
 
 		}
-		console.log(operation + "!!!!");
 		$.ajax({
             type: "GET",
             url: "deprecate",
@@ -645,7 +682,7 @@ $(document).ready(function(){
             dataType: "xml",
             data: { "depstatus" : operation, "node_id" : node_id },
             success: function(xml) {
-            		console.log(xml)
+
             		build_solr_query(xml);
 
                 }
@@ -657,6 +694,24 @@ $(document).ready(function(){
 
 		var node_id = get_parent_node_id($(this));
 		update_negated_status.apply(this, [node_id]);
+
+	}
+
+	var toggle_save_box = function(){
+
+		var save_box = $("#to-save");
+		var is_visible = $(save_box).css("visibility") != "hidden";
+		if(is_visible){
+
+			$(save_box).css({ "visibility" : "hidden"});
+
+		}
+		else{
+
+			$(save_box).css({ "visibility" : "visible"});
+
+		}
+
 
 	}
 
@@ -675,5 +730,5 @@ $(document).ready(function(){
 	$(document).on("change", ".operator-radio", update_operator_indirectly);
 	$(document).on("change", ".negcheck", update_negated_status_indirectly);
 	$("#view-results").click(view_results);
-
+	$("#save-to-file").click(toggle_save_box);
 });

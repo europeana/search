@@ -8,25 +8,25 @@ title:"test title" AND ((-proxy_dc_subject:"test"
 
 *******************************************************
 -->
-<clause operator="FIRST" deprecated="false" xml:lang="en" node-id="1" negated="false">
+<clause operator="FIRST" deprecated="false" xml:lang="en" node-id="1" negated="false" operator-suppressed="true">
 	<field>title</field>
 	<value>test title</value>
 </clause>
-<clause-group operator="AND" deprecated="false" node-id="2" negated="false">
-	<clause operator="FIRST" deprecated="false" xml:lang="en" node-id="3" negated="true">
+<clause-group operator="AND" deprecated="false" node-id="2" negated="false" operator-suppressed="false">
+	<clause operator="OR" deprecated="false" xml:lang="en" node-id="3" negated="true" operator-suppressed="true">
 		<field>proxy_dc_subject</field>
 		<value>test</value>
 	</clause>
-	<clause operator="OR" deprecated="false" xml:lang="fr" node-id="4" negated="false">
+	<clause operator="OR" deprecated="false" xml:lang="fr" node-id="4" negated="false" operator-suppressed="false">
 		<field>proxy_dc_subject</field>
 		<value>l'examen</value>
 	</clause>
-	<clause-group operator="OR" deprecated="false" node-id="5" negated="false">
-		<clause operator="FIRST" deprecated="true" xml:lang="it" node-id="6" negated="false">
+	<clause-group operator="OR" deprecated="false" node-id="5" negated="false" operator-suppressed="false">
+		<clause operator="AND" deprecated="true" xml:lang="it" node-id="6" negated="false" operator-suppressed="true">
 			<field>DATA_PROVIDER</field>
 			<value>Cultura Italia</value>
 		</clause>
-		<clause operator="AND" deprecated="false" xml:lang="en" node-id="7" negated="false">
+		<clause operator="AND" deprecated="false" xml:lang="en" node-id="7" negated="false" operator-suppressed="false">
 			<field>CREATOR</field>
 			<value>Leonardo da Vinci</value>
 		</clause>
