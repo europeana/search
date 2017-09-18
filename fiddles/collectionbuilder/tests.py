@@ -1,5 +1,6 @@
 from django.test import SimpleTestCase
 from collectionbuilder.xmlutil import XMLQueryEditor
+from collectionbuilder.xmlutil.InconsistentOperatorException import InconsistentOperatorException
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -272,5 +273,11 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe.undeprecate_by_id("6")
 		self.assertEquals(xqe.retrieve_node_by_id("5").attrib["operator-suppressed"], "false")
 
+	# changing the operator on just one clause unit when others
+	# have a different operator should flag a warning
 
-
+	def test_inconsistent_operator_warning(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		self.assertRaises(InconsistentOperatorException, xqe.set_operator("4", "AND"))
+		xqe.set_operator("4", "OR")
+		self.assertEquals(xqe.retrieve_node_by_id("4").attrib["operator"], "OR")

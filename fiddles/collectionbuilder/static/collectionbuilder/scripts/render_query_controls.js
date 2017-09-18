@@ -612,7 +612,7 @@ $(document).ready(function(){
             dataType: "xml",
             data: { "operator" : opval, "node_id" : node_id },
             success: function(xml) {
-
+            		alert($(xml).text());
             		build_solr_query(xml);
 
                 }

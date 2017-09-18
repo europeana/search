@@ -1,0 +1,2 @@
+class InconsistentOperatorException(Exception):
+	pass

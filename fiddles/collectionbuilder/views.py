@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import xml.etree.ElementTree as ET
 from collectionbuilder.xmlutil import XMLQueryEditor
+from collectionbuilder.xmlutil.InconsistentOperatorException import InconsistentOperatorException
 import copy
 import requests
 import json
@@ -96,8 +97,12 @@ def translate(request):
 def updateoperator(request):
 	newop = request.GET["operator"]
 	node_id = request.GET["node_id"]
-	XQE.set_operator(newop, node_id)
-	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
+	try:
+		XQE.set_operator(newop, node_id)
+		return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
+	except InconsistentOperatorException as ioe:
+		print("TRIGGERED")
+		return HttpResponse("<warning>Inconsistent Operators</warning>", 'appliation/xml')
 
 def updatenegated(request):
 	newneg = request.GET["negstatus"]

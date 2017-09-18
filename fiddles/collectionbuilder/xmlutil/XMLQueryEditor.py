@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 from datetime import datetime
+from .InconsistentOperatorException import InconsistentOperatorException	
 import hashlib
 import os
 import re
@@ -92,15 +93,6 @@ class XMLQueryEditor:
 	def default_negation_setting(self, parent):
 		nots = ["not" for child in parent.findall("*") if child.attrib["negated"] == "true"]
 		return len(nots) > 0
-
-	def get_position(self, parent, child):
-		position = 1
-		for sibling in parent.findall("*"):
-			if(sibling is child):
-				break
-			else:
-				position += 1
-		return position
 
 	def get_effective_position(self, parent, child):
 		position = 1
@@ -216,8 +208,19 @@ class XMLQueryEditor:
 
 	def set_operator(self, new_operator, node_id):
 		node_to_change = self.retrieve_node_by_id(node_id)
-		if(node_to_change is None): return None
-		node_to_change.attrib["operator"] = new_operator
+		if(node_to_change is None): 
+			return None
+		if(self.operators_are_consistent(new_operator, node_id)):
+			node_to_change.attrib["operator"] = new_operator
+		else:
+			raise InconsistentOperatorException('Operators should all be the same')
+
+	def operators_are_consistent(self, new_operator, node_id):
+		clause_parent = self.find_clause_parent(node_id)
+		for clause_element in clause_parent.findall("./*[@operator]"):
+			if(clause_element.attrib["operator"] and clause_element.attrib["node-id"] != node_id):
+				return False
+		return True
 
 	def check_operator_suppression(self):
 		root = self._tree.getroot()
