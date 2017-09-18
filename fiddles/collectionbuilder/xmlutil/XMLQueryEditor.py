@@ -132,6 +132,7 @@ class XMLQueryEditor:
 		dep = self.retrieve_node_by_id(node_id)
 		try:
 			dep.attrib["deprecated"] = "true"
+			self.check_operator_suppression()
 		except KeyError:
 			return None
 
@@ -139,6 +140,7 @@ class XMLQueryEditor:
 		undep = self.retrieve_node_by_id(node_id)
 		try:
 			undep.attrib["deprecated"] = "false"
+			self.check_operator_suppression()
 		except KeyError:
 			return None
 
@@ -185,7 +187,8 @@ class XMLQueryEditor:
 		field = el.find("field").text.strip()
 		value = el.find("value").text.strip()
 		if(field == "" or value == ""): return ""
-		clause_as_string = (" " + operator + " " + negator + field + ":\"" + value + "\"")
+		if(value != "*"): value = "\"" + value + "\""
+		clause_as_string = (" " + operator + " " + negator + field + ":" + value)
 		return clause_as_string
 
 	def construct_operator(self, parent, el):
@@ -224,6 +227,59 @@ class XMLQueryEditor:
 		node_to_change = self.retrieve_node_by_id(node_id)
 		if(node_to_change is None): return None
 		node_to_change.attrib["operator"] = new_operator
+
+	def check_operator_suppression(self):
+		root = self._tree.getroot()
+		all_clauses = root.findall(".//*[@deprecated]")
+		for clause in all_clauses:
+			node_id = clause.get("node-id")
+			preceding_clause_count = self.count_preceding_operators(node_id)
+			if(preceding_clause_count == 0):
+				clause.set("operator-suppressed", "true")
+			elif(self.is_empty_clause_group(clause)):
+				clause.set("operator-suppressed", "true")
+			else:
+				clause.set("operator-suppressed", "false")
+
+	def count_preceding_operators(self, node_id):
+		clause_parent = self.find_clause_parent(node_id)
+		all_nodes = clause_parent.findall(".//*[@deprecated=\"false\"]")
+		prev_nodes = []
+		for node in all_nodes:
+			if(node.get("node-id") == node_id):
+				break
+			else:
+				prev_nodes.append(node)
+		return len(prev_nodes)
+
+	def find_clause_parent(self, node_id):
+		# TODO: figure out why I couldn't do this with simple XPath
+		# using ETree
+		all_groups = self._tree.getroot().findall(".//clause-group")
+		for group in all_groups:
+			if(group.find("./clause[@node-id=\"" + node_id + "\"]")):
+				return group
+		return self._tree.getroot() 
+
+	def is_empty_clause_group(self, clausular_group):
+		if(clausular_group.tag != "clause-group"):
+			return False
+		else:
+			return not self.group_has_active_clauses(clausular_group)
+
+	def group_has_active_clauses(self, clause_group):
+		all_clauses = clause_group.findall(".//clause")
+		for clause in all_clauses:
+			if(clause.attrib["deprecated"] == "false"):
+				return True 
+		return False
+
+ 
+
+
+
+
+
 
 
 
