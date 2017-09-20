@@ -216,10 +216,13 @@ class XMLQueryEditor:
 			raise InconsistentOperatorException('Operators should all be the same')
 
 	def operators_are_consistent(self, new_operator, node_id):
+		print("NO is " + new_operator)
 		clause_parent = self.find_clause_parent(node_id)
 		for clause_element in clause_parent.findall("./*[@operator][@operator-suppressed=\"false\"]"):
-			if(clause_element.attrib["operator"] and clause_element.attrib["node-id"] != node_id):
+			if(clause_element.attrib["operator"] != new_operator and clause_element.attrib["node-id"] != node_id):
+				print("Detected operator is " + clause_element.attrib["operator"])
 				return False
+		print("Returning true")
 		return True
 
 	def check_operator_suppression(self):
@@ -251,8 +254,11 @@ class XMLQueryEditor:
 		# using ETree
 		all_groups = self._tree.getroot().findall(".//clause-group")
 		for group in all_groups:
-			if(group.find("./clause[@node-id=\"" + node_id + "\"]")):
+			print(group.attrib["node-id"])
+			if(group.find("./*[@node-id=\"" + node_id + "\"]")):
+				print("Group found")
 				return group
+		print("Returning root")
 		return self._tree.getroot() 
 
 	def is_empty_clause_group(self, clausular_group):

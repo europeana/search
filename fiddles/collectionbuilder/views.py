@@ -36,9 +36,15 @@ def newclause(request):
 def newclausegroup(request):
 	node_id = request.GET["node_id"]
 	new_clause_group = XQE.generate_clause_group()
+	new_clause = XQE.generate_clause()
+	group_id = new_clause_group.attrib["node-id"]
 	XQE.add_clausular_element(new_clause_group, node_id)
+	XQE.add_clausular_element(new_clause, group_id)
+	dec_group = copy.deepcopy(XQE.retrieve_node_by_id(group_id))
+	dec_clause = dec_group.find("./clause")
+	append_all_fields(dec_clause)
 	ET.dump(XQE._tree)
-	return HttpResponse(ET.tostring(new_clause_group), 'application/xml')
+	return HttpResponse(ET.tostring(dec_group), 'application/xml')
 
 def newexpansiongroup(request):
 	node_id = request.GET["node_id"]
@@ -101,7 +107,6 @@ def updateoperator(request):
 		XQE.set_operator(newop, node_id)
 		return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 	except InconsistentOperatorException as ioe:
-		print("TRIGGERED")
 		return HttpResponse("<warning>Inconsistent Operators</warning>", 'appliation/xml')
 
 def updatenegated(request):

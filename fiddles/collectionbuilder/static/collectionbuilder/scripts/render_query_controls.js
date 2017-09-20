@@ -188,13 +188,16 @@ $(document).ready(function(){
 		var is_negated = $(xml).attr("negated");
 		var is_deprecated = $(xml).attr("deprecated");
 		var operator = $(xml).attr("operator");
+		var is_suppressed = $(xml).attr("operator-suppressed");
 		var cg_wrapper = $("<div class=\"clause-group\" id=\"" + node_id + "\"></div>");
 		var lbl = $("<h3>Clause Group</h3>");
-		var ops_wrapper = $("<div class=\"ops-wrapper\"></div>");
 		var neg_control = create_negated_control(is_negated);
-		var op_control = create_op_control(node_id, operator);
 		var button_set = create_group_button_set();
-		$(ops_wrapper).append(op_control);
+		var ops_wrapper = $("<div class=\"ops-wrapper\"></div>");
+		if(is_suppressed == "false"){
+			var op_control = create_op_control(node_id, operator);
+			$(ops_wrapper).append(op_control);
+		}
 		$(ops_wrapper).append(neg_control);
 		$(cg_wrapper).append(lbl);
 		$(cg_wrapper).append(ops_wrapper);
@@ -211,14 +214,17 @@ $(document).ready(function(){
 		var is_negated = $(xml).attr("negated");
 		var is_deprecated = $(xml).attr("deprecated");
 		var operator = $(xml).attr("operator");
+		var is_suppressed = $(xml).attr("operator-suppressed");
 		var all_fields = $(xml).find("all-fields").text();
-		var ops_wrapper = $("<div class=\"ops-wrapper\"></div>");
-		var op_control = create_op_control(node_id, operator);
 		var neg_control = create_negated_control(is_negated);
 		var button_set = create_clause_button_set();
 		var inputs = create_clause_inputs(xml, all_fields);
 		var cl_wrapper = $("<div class=\"clause\" id=\"" + node_id + "\"><h3>Clause</h3></div>");
-		$(ops_wrapper).append(op_control);
+		var ops_wrapper = $("<div class=\"ops-wrapper\"></div>");
+		if(is_suppressed == "false"){
+			var op_control = create_op_control(node_id, operator);		
+			$(ops_wrapper).append(op_control);
+		}
 		$(ops_wrapper).append(neg_control);
 		$(cl_wrapper).append(ops_wrapper);
 		$(cl_wrapper).append(button_set);
