@@ -6,7 +6,7 @@ from datetime import datetime
 
 class XMLQueryEditorTestCase(SimpleTestCase):
 
-
+	namespaces = { 'xml', 'http://www.w3.org/XML/1998/namespace'} 
 	def test_xml_loaded(self):
 		# XML is correctly loaded and parsed
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
@@ -281,3 +281,24 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		self.assertRaises(InconsistentOperatorException, xqe.set_operator("4", "AND"))
 		xqe.set_operator("4", "OR")
 		self.assertEquals(xqe.retrieve_node_by_id("4").attrib["operator"], "OR")
+
+	def test_convert_to_clause_group(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		start_node = xqe.retrieve_node_by_id("4")
+		start_op = start_node.attrib["operator"]
+		start_neg = start_node.attrib["negated"]
+		start_lang = start_node.attrib["{http://www.w3.org/XML/1998/namespace}lang"]
+		xqe.convert_to_clause_group("4")
+		# we now test that the clause has a new position ...
+		found_node = xqe._tree.getroot().find("./clause-group/clause-group/clause[@node-id=\"4\"]")
+		self.assertIsNotNone(found_node)
+		# ... but is otherwise unchanged
+		end_op = found_node.attrib["operator"]
+		end_neg = found_node.attrib["negated"]
+		# TODO: why do I need to namespace here, but not in earlier tests?
+		end_lang = found_node.attrib["{http://www.w3.org/XML/1998/namespace}lang"]
+		self.assertEquals(start_op, end_op)
+		self.assertEquals(start_neg, end_neg)
+		self.assertEquals(start_lang, end_lang)
+
+	

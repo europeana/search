@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from .InconsistentOperatorException import InconsistentOperatorException	
 import hashlib
+import copy
 import os
 import re
 
@@ -216,13 +217,10 @@ class XMLQueryEditor:
 			raise InconsistentOperatorException('Operators should all be the same')
 
 	def operators_are_consistent(self, new_operator, node_id):
-		print("NO is " + new_operator)
 		clause_parent = self.find_clause_parent(node_id)
 		for clause_element in clause_parent.findall("./*[@operator][@operator-suppressed=\"false\"]"):
 			if(clause_element.attrib["operator"] != new_operator and clause_element.attrib["node-id"] != node_id):
-				print("Detected operator is " + clause_element.attrib["operator"])
 				return False
-		print("Returning true")
 		return True
 
 	def check_operator_suppression(self):
@@ -254,11 +252,8 @@ class XMLQueryEditor:
 		# using ETree
 		all_groups = self._tree.getroot().findall(".//clause-group")
 		for group in all_groups:
-			print(group.attrib["node-id"])
 			if(group.find("./*[@node-id=\"" + node_id + "\"]")):
-				print("Group found")
 				return group
-		print("Returning root")
 		return self._tree.getroot() 
 
 	def is_empty_clause_group(self, clausular_group):
@@ -274,5 +269,15 @@ class XMLQueryEditor:
 				return True 
 		return False
 
+	def convert_to_clause_group(self, node_id):
+		new_node = copy.deepcopy(self.retrieve_node_by_id(node_id))
+		parent_node_id = self.find_clause_parent(node_id).attrib["node-id"]
+		self.remove_node_by_id(node_id)
+		new_parent = self.generate_clause_group()
+		new_parent.append(new_node)
+		self.add_clausular_element(new_parent, parent_node_id)
+		return new_parent.attrib["node-id"]
 
+	def convert_to_clause(self, node_id):
+		pass
 

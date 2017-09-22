@@ -14,7 +14,7 @@
 			padding: 0 25px 0 25px;
 		}
 		.button-set{ width: 100%; position: relative; clear: both; min-height: 40px;}
-		.button-control{ float: left; width: auto; border: thin solid black; padding: 5px 10px 5px 10px; margin: 0% 0% 0% 5%;  }
+		.button-control{ float: left; width: auto; border: thin solid black; padding: 5px 10px 5px 10px; margin: 0% 0% 0% 5%; cursor: pointer; }
 		.ops-wrapper{  position: relative; clear: both; padding-bottom: 45px;  }
 		.operator-radio-set, .negated-wrapper{ float: left; }
 		h3{ margin: 5px 0px 5px 0px; }
@@ -36,6 +36,7 @@
 		.iow-button{ border: thin solid black; float: left; padding: 5px; width: 25%; margin: 10px; text-align: center; min-height: 45px; vertical-align: middle; cursor: pointer; }
 		#iow-cancel{ padding-top: 15px; min-height: 35px; }
 		#new-operator{ font-style: italic; }
+		#previous-operator-info{ visibility: hidden;  }
 	</style>
 </head>
 <body>
@@ -53,6 +54,10 @@ To create a parseable query, you can either:<br/>
 <div id="iow-convert-to-group" class="iow-button">Convert to clause group</div>
 <div id="iow-cancel" class="iow-button">Cancel</div>
 </div>		
+</div>
+<div id="previous-operator-info">
+<span id="previous-operator"></span>
+<span id="previous-node"></span>
 </div>
 {% if is_results == True %}
 <input type="hidden" name="is-results" id="is-results" value="true"/>

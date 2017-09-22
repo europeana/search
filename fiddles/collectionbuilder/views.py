@@ -43,7 +43,6 @@ def newclausegroup(request):
 	dec_group = copy.deepcopy(XQE.retrieve_node_by_id(group_id))
 	dec_clause = dec_group.find("./clause")
 	append_all_fields(dec_clause)
-	ET.dump(XQE._tree)
 	return HttpResponse(ET.tostring(dec_group), 'application/xml')
 
 def newexpansiongroup(request):
@@ -128,7 +127,6 @@ def append_all_fields(new_clause):
 		for child in new_clause:
 			append_all_fields(child)
 
-
 def updatevalues(request):
 	clause_id = request.GET["node_id"]
 	field = request.GET["field_name"]
@@ -145,6 +143,19 @@ def changedeprecate(request):
 	else:
 		XQE.undeprecate_by_id(node_id)
 	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
+
+def converttoclausegroup(request):
+	node_id = request.GET["node_id"]
+	group_id = XQE.convert_to_clause_group(node_id)
+	new_group = XQE.retrieve_node_by_id(group_id)
+	dec_group = copy.deepcopy(new_group)
+	dec_clause = dec_group.find("./clause")
+	append_all_fields(dec_clause)
+	return HttpResponse(ET.tostring(dec_group), 'application/xml')
+
+def converttoclause(request):
+	node_id = request.GET["node_id"]
+	return HttpResponse("<test/>", 'application/xml')	
 
 def instructions(request):
     return render(request, 'collectionbuilder/instructions.html')

@@ -19,5 +19,6 @@ urlpatterns = [
     url(r'getfullquery$', views.getfullquery, name='getfullquery'),
     url(r'deprecate$', views.changedeprecate, name='changedeprecate'),
     url(r'instructions$', views.instructions, name='instructions'),
-
+    url(r'convert-to-cg$', views.converttoclausegroup, name="converttoclausegroup"),
+    url(r'convert-to-cl$', views.converttoclause, name="converttoclause")
 ]

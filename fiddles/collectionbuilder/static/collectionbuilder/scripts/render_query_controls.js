@@ -619,7 +619,7 @@ $(document).ready(function(){
             data: { "operator" : opval, "node_id" : node_id },
             success: function(xml) {
             		if($(xml).text() == "Inconsistent Operators"){
-            			display_inconsistent_operator_warning(opval);
+            			display_inconsistent_operator_warning(opval, node_id);
             		}
             		else{
             			build_solr_query(xml);
@@ -630,10 +630,16 @@ $(document).ready(function(){
 
 	}
 
-	var display_inconsistent_operator_warning = function(operator){
+	var display_inconsistent_operator_warning = function(operator, node_id){
 
 		$("#inconsistent-operator-warning").css({ "visibility" : "visible"});
 		$("#new-operator").text(operator);
+		// info for if we want to revert the operator later
+		var operator_control_selector = "operator-radio-" + node_id;
+		var reverted_operator = operator == "AND" ? "OR" : "AND";
+		$("#previous-operator").text(reverted_operator);
+		$("#previous-node").text(node_id);
+
 	}
 
 	var update_operator_indirectly = function(){
@@ -730,9 +736,65 @@ $(document).ready(function(){
 
 	}
 
-	var hide_io_warning = function(){
+	var cancel_io_warning = function(){
 
 		$("#inconsistent-operator-warning").css({ "visibility" : "hidden"});
+		revert_to_previous_operator();
+
+	}
+
+	var revert_to_previous_operator = function(){
+
+		var previous_operator = $("#previous-operator").text();
+		var previous_node = $("#previous-node").text();
+		var operator_selector = "operator-radio-" + previous_node;
+		$("input[name=\"" + operator_selector + "\"][value=\"" + previous_operator + "\"]").click();
+
+	}
+
+	var convert_to_clause_group = function(){
+
+		var node_id = get_parent_node_id($(this));
+		var parent_node_id = get_parent_node_id($("#" + node_id));
+		$.ajax({
+            type: "GET",
+            url: "convert-to-cg",
+            cache: false,
+            dataType: "xml",
+            data: { "node_id" : node_id },
+            success: function(xml) {
+
+            		$("#" + node_id).remove();
+            		build_control_tree(xml, $("#" + parent_node_id));
+
+                }
+            });
+
+	}
+
+	var convert_to_clause = function(){
+
+	var node_id = get_parent_node_id($(this));
+	$.ajax({
+        type: "GET",
+        url: "convert-to-cl",
+        cache: false,
+        dataType: "xml",
+        data: { "node_id" : node_id },
+        success: function(xml) {
+
+        		alert("Convert to clause returning successfully");
+
+            }
+        });
+
+	}
+
+	var solve_inconsistency_by_conversion = function(){
+		var rel_node = $("#previous-node").text();
+		$("#" + rel_node).find(".convert-to-cg").click();
+
+
 
 	}
 
@@ -750,7 +812,10 @@ $(document).ready(function(){
 	$(document).on("change", ".field-value", update_clause);
 	$(document).on("change", ".operator-radio", update_operator_indirectly);
 	$(document).on("change", ".negcheck", update_negated_status_indirectly);
-	$("#iow-cancel").click(hide_io_warning);
+	$(document).on("click", ".convert-to-cg", convert_to_clause_group);
+	$(document).on("click", ".convert-to-cl", convert_to_clause);
+	$(document).on("click", "#iow-convert-to-group", solve_inconsistency_by_conversion)
+	$("#iow-cancel").click(cancel_io_warning);
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 });
