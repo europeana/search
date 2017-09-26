@@ -851,7 +851,7 @@
 
   <requestHandler name="/dataimport" class="org.apache.solr.handler.dataimport.DataImportHandler">
   <lst name="defaults">
-    <str name="config">/usr/local/solr-6.6.1/analysis/analytics/conf/dih-config.xml</str>
+    <str name="config">/usr/local/analysis/analytics/conf/dih-config.xml</str>
   </lst>
 </requestHandler>
 
