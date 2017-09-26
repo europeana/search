@@ -1,0 +1,23 @@
+<dataConfig>
+<dataSource encoding="UTF-8" type="FileDataSource"/>
+<document>
+<!--
+
+
+            Pickupdir fetches all files matching the filename regex in the supplied directory
+            and passes them to other entities which parse the file contents. 
+        
+-->
+<entity name="pickupdir" processor="FileListEntityProcessor" rootEntity="false" dataSource="null" fileName="^[\w\d-]+\.xml$" baseDir="/usr/local/analysis/import" recursive="true">
+<!--
+
+
+            Pickupxmlfile parses standard Solr update XML.
+            Incoming values are split into multiple tokens when given a splitBy attribute.
+            Dates are transformed into valid Solr dates when given a dateTimeFormat to parse.
+        
+-->
+<entity name="xml" processor="XPathEntityProcessor" transformer="RegexTransformer,TemplateTransformer" datasource="pickupdir" stream="true" useSolrAddSchema="true" url="${pickupdir.fileAbsolutePath}"/>
+</entity>
+</document>
+</dataConfig>
