@@ -57,6 +57,7 @@
         <field name="search_filter_term" type="text" indexed="true" stored="true" multiValued="true"/>
         <field name="rank_position" type="int" indexed="true" stored="true" multiValued="false"/>
         <field name="total_results" type="int" indexed="true" stored="true" multiValued="false"/>
+        <field name="uri" type="string" indexed="true" stored="true" multiValued="false"/>
         <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
 
 
@@ -64,26 +65,9 @@
     <uniqueKey>id</uniqueKey>
     <!-- COPYFIELDS -->
 
-    <copyField source="skos_altLabel.*" dest="skos_altLabel"/>
-    <copyField source="skos_note.*" dest="skos_note"/>
-    <copyField source="skos_prefLabel.*" dest="text"/>
-    <copyField source="skos_altLabel.*" dest="text"/>
-    <copyField source="skos_note.*" dest="text"/>
-    <copyField source="skos_note" dest="text"/>
-    <copyField source="skos_closeMatch" dest="text"/>
-    <copyField source="skos_broadMatch" dest="text"/>
-    <copyField source="skos_narrowMatch" dest="text"/>
-    <copyField source="skos_exactMatch" dest="text"/>
-    <copyField source="skos_inScheme" dest="text"/>
-    <copyField source="skos_broader" dest="text"/>
-    <copyField source="skos_related" dest="text"/>
-    <copyField source="skos_relatedMatch" dest="text"/>
-    <copyField source="skos_notation" dest="text"/>
-    <copyField source="skos_narrower" dest="text"/>
+    <copyField source="query_term" dest="search_query_term"/>
+    <copyField source="filter_term" dest="search_filter_term"/>
+    <copyField source="query_term" dest="text"/>
+    <copyField source="filter_term" dest="text"/>
 
-
-
-    <!--
-    <copyField source="internal_type" dest="text"/>
-	-->
 </schema>
