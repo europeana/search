@@ -146,12 +146,11 @@ def changedeprecate(request):
 
 def converttoclausegroup(request):
 	node_id = request.GET["node_id"]
-	group_id = XQE.convert_to_clause_group(node_id)
-	new_group = XQE.retrieve_node_by_id(group_id)
-	dec_group = copy.deepcopy(new_group)
-	dec_clause = dec_group.find("./clause")
-	append_all_fields(dec_clause)
-	return HttpResponse(ET.tostring(dec_group), 'application/xml')
+	group_parent = copy.deepcopy(XQE.convert_to_clause_group(node_id))
+	for clause in group_parent.findall(".//clause"):
+		append_all_fields(clause)
+	ET.dump(group_parent)
+	return HttpResponse(ET.tostring(group_parent), 'application/xml')
 
 def converttoclause(request):
 	node_id = request.GET["node_id"]

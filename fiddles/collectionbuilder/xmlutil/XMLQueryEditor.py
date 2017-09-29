@@ -280,7 +280,7 @@ class XMLQueryEditor:
 		new_parent = self.generate_clause_group()
 		new_parent.append(new_node)
 		self.add_clausular_element(new_parent, parent_node_id, position)
-		return new_parent.attrib["node-id"]
+		return self.retrieve_node_by_id(parent_node_id)
 
 	def get_element_position(self, node_id):
 		parent_node = self.find_clause_parent(node_id)

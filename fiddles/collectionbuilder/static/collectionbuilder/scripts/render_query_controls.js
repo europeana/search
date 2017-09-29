@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 	}
 
-	var build_control_tree = function(xml, parent_element, insertion_point){
+	var build_control_tree = function(xml, parent_element){
 
 		$(xml).children().each(function(){
 
@@ -24,14 +24,12 @@ $(document).ready(function(){
 			if(tag_type == "clause-group"){
 
 				clause_group_controls = render_clause_group($(this));
-				insert_clausular_element(parent_element, clause_group_controls, insertion_point);
-				//$(parent_element).append(clause_group_controls);
+				$(parent_element).append(clause_group_controls);
 			}
 			else if(tag_type == "clause"){
 
 				clause_controls = render_clause($(this));
-				insert_clausular_element(parent_element, clause_controls, insertion_point);
-			//	$(parent_element).append(clause_controls);
+				$(parent_element).append(clause_controls);
 
 			}
 			else if(typeof tag_type != 'undefined'){
@@ -42,24 +40,6 @@ $(document).ready(function(){
 			}
 
 		});
-
-	}
-
-	var insert_clausular_element = function(parent_element, clausular_element, insertion_point){
-
-		if(!insertion_point){
-
-			$(parent_element).append(clausular_element);
-
-		}
-		else{
-
-			$(insertion_point).after(clausular_element);
-
-
-		}
-
-
 
 	}
 
@@ -772,8 +752,9 @@ $(document).ready(function(){
 	}
 
 	var convert_to_clause_group = function(){
-
+		// flow is tricky here. this is the clause being converted ...
 		var node_id = get_parent_node_id($(this));
+		// and this is that clause's parent ...
 		var parent_node_id = get_parent_node_id($("#" + node_id));
 		$.ajax({
             type: "GET",
@@ -782,31 +763,49 @@ $(document).ready(function(){
             dataType: "xml",
             data: { "node_id" : node_id },
             success: function(xml) {
-
-            		var insertion_point = $("#" + node_id).prev();
-            		$("#" + node_id).remove();
-            		build_control_tree(xml, $("#" + parent_node_id), insertion_point);
+            		// the xml being returned is of the element parent
+            		// (that is to say, the parent of the newly-created clause group)
+            		// so we need to reflow from the element one level above
+            		// *that* - so to speak the grandparent
+            		reflow_from_parent(xml, parent_node_id)
 
                 }
             });
 
 	}
 
+	var reflow_from_parent = function(xml, parent_id){
+
+		var grandparent_id = get_parent_node_id($("#" + parent_id));
+		$("#" + parent_id).remove();
+		if(!grandparent_id){
+
+			update_query_controls(xml, "#clause-controllers");
+
+		}
+		else{
+
+			build_control_tree(xml, $("#" + grandparent_id));
+
+		}
+
+	}
+
 	var convert_to_clause = function(){
 
-	var node_id = get_parent_node_id($(this));
-	$.ajax({
-        type: "GET",
-        url: "convert-to-cl",
-        cache: false,
-        dataType: "xml",
-        data: { "node_id" : node_id },
-        success: function(xml) {
+		var node_id = get_parent_node_id($(this));
+		$.ajax({
+	        type: "GET",
+	        url: "convert-to-cl",
+	        cache: false,
+	        dataType: "xml",
+	        data: { "node_id" : node_id },
+	        success: function(xml) {
 
-        		alert("Convert to clause returning successfully");
+	        		alert("Convert to clause returning successfully");
 
-            }
-        });
+	            }
+	        });
 
 	}
 
