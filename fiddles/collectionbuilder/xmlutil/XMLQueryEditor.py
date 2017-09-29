@@ -296,7 +296,12 @@ class XMLQueryEditor:
 		group_parent = self.find_clause_parent(group_id)
 		group_node = self.retrieve_node_by_id(group_id)
 		group_position = self.get_element_position(group_id)
-		kids = [copy.deepcopy(kid) for kid in group_node.findall("./*")]
+		kids = []
+		for kid in group_node.findall("./*"):
+			is_consistent = self.operators_are_consistent(kid.get("operator"), group_id)
+			if(not is_consistent):
+				raise InconsistentOperatorException("Ungrouping yields incompatible operators")
+			kids.append(copy.deepcopy(kid))
 		self.remove_node_by_id(group_id)
 		for kid in reversed(kids):
 			group_parent.insert(group_position, kid)
