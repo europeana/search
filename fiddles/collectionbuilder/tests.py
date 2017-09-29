@@ -301,4 +301,11 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		self.assertEquals(start_neg, end_neg)
 		self.assertEquals(start_lang, end_lang)
 
+	def test_clause_group_conversion_leaves_tree_position_unchanged(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		start_node = xqe.retrieve_node_by_id("4")
+		xqe.convert_to_clause_group("4")
+		new_group_node = xqe._tree.getroot().find("./clause-group/clause-group[1]/clause[@node-id=\"4\"]")
+		self.assertIsNotNone(new_group_node)
+
 	

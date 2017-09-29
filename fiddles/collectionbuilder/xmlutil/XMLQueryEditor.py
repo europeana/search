@@ -82,12 +82,15 @@ class XMLQueryEditor:
 		clause_group.attrib["operator-suppressed"] = "false"
 		return clause_group
 
-	def add_clausular_element(self, clausular_element, to_el_id=None):
+	def add_clausular_element(self, clausular_element, to_el_id=None, position=-1):
 		to_clause = self._tree.getroot()
 		if(to_el_id is not None):
 			to_clause = self.retrieve_node_by_id(to_el_id)
 		clausular_element.attrib["negated"] = str(self.default_negation_setting(to_clause)).lower()
-		to_clause.append(clausular_element)
+		if(position == -1):
+			to_clause.append(clausular_element)
+		else:
+			to_clause.insert(position, clausular_element)
 		clausular_element.attrib["operator"] = self.determine_operator(to_clause, clausular_element)
 		self.check_operator_suppression()
 
@@ -271,13 +274,23 @@ class XMLQueryEditor:
 
 	def convert_to_clause_group(self, node_id):
 		new_node = copy.deepcopy(self.retrieve_node_by_id(node_id))
+		position = self.get_element_position(node_id)
 		parent_node_id = self.find_clause_parent(node_id).attrib["node-id"]
 		self.remove_node_by_id(node_id)
 		new_parent = self.generate_clause_group()
 		new_parent.append(new_node)
-		self.add_clausular_element(new_parent, parent_node_id)
+		self.add_clausular_element(new_parent, parent_node_id, position)
 		return new_parent.attrib["node-id"]
 
 	def convert_to_clause(self, node_id):
 		pass
 
+	def get_element_position(self, node_id):
+		parent_node = self.find_clause_parent(node_id)
+		child_count = 0
+		for child in parent_node.findall("*"):
+			child_id = child.get("node-id")
+			if(child_id == node_id):
+				return child_count
+			else:
+				child_count += 1
