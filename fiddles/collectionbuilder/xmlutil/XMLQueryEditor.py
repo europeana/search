@@ -282,9 +282,6 @@ class XMLQueryEditor:
 		self.add_clausular_element(new_parent, parent_node_id, position)
 		return new_parent.attrib["node-id"]
 
-	def convert_to_clause(self, node_id):
-		pass
-
 	def get_element_position(self, node_id):
 		parent_node = self.find_clause_parent(node_id)
 		child_count = 0
@@ -294,3 +291,13 @@ class XMLQueryEditor:
 				return child_count
 			else:
 				child_count += 1
+
+	def ungroup_clause_group(self, group_id):
+		group_parent = self.find_clause_parent(group_id)
+		group_node = self.retrieve_node_by_id(group_id)
+		group_position = self.get_element_position(group_id)
+		kids = [copy.deepcopy(kid) for kid in group_node.findall("./*")]
+		self.remove_node_by_id(group_id)
+		for kid in reversed(kids):
+			group_parent.insert(group_position, kid)
+		return group_parent

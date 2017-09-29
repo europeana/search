@@ -308,4 +308,14 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		new_group_node = xqe._tree.getroot().find("./clause-group/clause-group[1]/clause[@node-id=\"4\"]")
 		self.assertIsNotNone(new_group_node)
 
+	def test_convert_to_clause(self):
+		# elements should be in the same positions and with the same contents
+		# as they had prior to the clause-group being removed
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.ungroup_clause_group("2")
+		first_freed_clause = xqe.get_tree().getroot().find("./clause[2]")
+		second_freed_clause = xqe.get_tree().find("./clause[3]")
+		self.assertEquals(first_freed_clause.get("node-id"), "3")
+		self.assertEquals(second_freed_clause.get("node-id"), "4")
+
 	
