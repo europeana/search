@@ -39,7 +39,6 @@ $(document).ready(function(){
 
 			}
 
-
 		});
 
 	}
@@ -275,7 +274,7 @@ $(document).ready(function(){
 		var wrapper = $("<div class=\"button-set\"><div>");
 		var add_cg = $("<div class=\"button-control add-cg\">Add Clause Group</div>");
 		var add_cl = $("<div class=\"button-control add-cl\">Add Clause</div>");
-		var con = $("<div class=\"button-control convert-to-cl\">Convert to Clause</div>");
+		var con = $("<div class=\"button-control convert-to-cl\">Ungroup</div>");
 		var dep = $("<div class=\"button-control deprecate\">Deactivate</div>");
 		var del = $("<div class=\"button-control delete\">Delete</div>");
 		$(wrapper).append(add_cg);
@@ -290,7 +289,7 @@ $(document).ready(function(){
 	var create_clause_button_set = function(){
 
 		var wrapper = $("<div class=\"button-set\"><div>");
-		var con = $("<div class=\"button-control convert-to-cg\">Convert to Clause Group</div>");
+		var con = $("<div class=\"button-control convert-to-cg\">Group</div>");
 		var dep = $("<div class=\"button-control deprecate\">Deactivate</div>");
 		var del = $("<div class=\"button-control delete\">Delete</div>");
 		var exp = $("<div class=\"button-control expand\">Expand Labels</div>");
