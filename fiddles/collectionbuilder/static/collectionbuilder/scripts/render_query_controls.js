@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 	}
 
-	var build_control_tree = function(xml, parent_element){
+	var build_control_tree = function(xml, parent_element, insertion_point){
 
 		$(xml).children().each(function(){
 
@@ -24,12 +24,14 @@ $(document).ready(function(){
 			if(tag_type == "clause-group"){
 
 				clause_group_controls = render_clause_group($(this));
-				$(parent_element).append(clause_group_controls);
+				insert_clausular_element(parent_element, clause_group_controls, insertion_point);
+				//$(parent_element).append(clause_group_controls);
 			}
 			else if(tag_type == "clause"){
 
 				clause_controls = render_clause($(this));
-				$(parent_element).append(clause_controls);
+				insert_clausular_element(parent_element, clause_controls, insertion_point);
+			//	$(parent_element).append(clause_controls);
 
 			}
 			else if(typeof tag_type != 'undefined'){
@@ -40,6 +42,24 @@ $(document).ready(function(){
 			}
 
 		});
+
+	}
+
+	var insert_clausular_element = function(parent_element, clausular_element, insertion_point){
+
+		if(!insertion_point){
+
+			$(parent_element).append(clausular_element);
+
+		}
+		else{
+
+			$(insertion_point).after(clausular_element);
+
+
+		}
+
+
 
 	}
 
@@ -763,8 +783,9 @@ $(document).ready(function(){
             data: { "node_id" : node_id },
             success: function(xml) {
 
+            		var insertion_point = $("#" + node_id).prev();
             		$("#" + node_id).remove();
-            		build_control_tree(xml, $("#" + parent_node_id));
+            		build_control_tree(xml, $("#" + parent_node_id), insertion_point);
 
                 }
             });
