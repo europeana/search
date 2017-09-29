@@ -794,6 +794,7 @@ $(document).ready(function(){
 	var convert_to_clause = function(){
 
 		var node_id = get_parent_node_id($(this));
+		var parent_node_id = get_parent_node_id($("#" + node_id));
 		$.ajax({
 	        type: "GET",
 	        url: "convert-to-cl",
@@ -802,18 +803,38 @@ $(document).ready(function(){
 	        data: { "node_id" : node_id },
 	        success: function(xml) {
 
-	        		alert("Convert to clause returning successfully");
+            		if($(xml).text() == "Inconsistent Operators"){
+
+            			display_ungroup_warning(opval, node_id);
+
+            		}
+            		else{
+	        			
+	        			reflow_from_parent(xml, parent_node_id);
+	        		}
 
 	            }
 	        });
 
 	}
 
+	var display_ungroup_warning = function(){
+
+		$("#ungrouping-inconsistency-warning").css({"visibility" : "visible"});
+
+
+	}
+
+	var dismiss_ungrouping_warning = function(){
+
+		$("#ungrouping-inconsistency-warning").css({ "visibility" : "hidden"});
+
+	}
+
 	var solve_inconsistency_by_conversion = function(){
+		
 		var rel_node = $("#previous-node").text();
 		$("#" + rel_node).find(".convert-to-cg").click();
-
-
 
 	}
 
@@ -837,4 +858,5 @@ $(document).ready(function(){
 	$("#iow-cancel").click(cancel_io_warning);
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
+	$("#ungrouping-iow-cancel").click(dismiss_ungrouping_warning);
 });

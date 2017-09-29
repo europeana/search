@@ -31,7 +31,7 @@
 		#to-save{ float: left; height: 30px; width: 200px; margin-left: 15px; visibility: hidden;}
 		input, select{ font-size: 16px; }
 		select{ margin-left: 20px; margin-top: 20px;}
-		#inconsistent-operator-warning{ position: absolute; padding: 15px; border: 2px solid black; width: 50%;  background-color: #ffffff; z-index: 10; border-radius: 10px; margin-top: 15%; margin-left: 25%;visibility: hidden;}
+		#inconsistent-operator-warning, #ungrouping-inconsistency-warning{ position: absolute; padding: 15px; border: 2px solid black; width: 50%;  background-color: #ffffff; z-index: 10; border-radius: 10px; margin-top: 15%; margin-left: 25%;visibility: hidden;}
 		#iow-buttons{ position: relative; }
 		.iow-button{ border: thin solid black; float: left; padding: 5px; width: 25%; margin: 10px; text-align: center; min-height: 45px; vertical-align: middle; cursor: pointer; }
 		#iow-cancel{ padding-top: 15px; min-height: 35px; }
@@ -58,6 +58,13 @@ To create a parseable query, you can either:<br/>
 <div id="previous-operator-info">
 <span id="previous-operator"></span>
 <span id="previous-node"></span>
+</div>
+<div id="ungrouping-inconsistency-warning">
+<p>Removing this grouping causes the operators of the newly ungrouped clauses to 
+be inconsistent with those of their siblings</p>
+<p>Please alter the operators of these clauses before ungrouping them.</p>
+<br/><br/>
+<div id="ungrouping-iow-cancel" class="iow-button">Cancel</div>
 </div>
 {% if is_results == True %}
 <input type="hidden" name="is-results" id="is-results" value="true"/>

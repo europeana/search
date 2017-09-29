@@ -106,7 +106,7 @@ def updateoperator(request):
 		XQE.set_operator(newop, node_id)
 		return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 	except InconsistentOperatorException as ioe:
-		return HttpResponse("<warning>Inconsistent Operators</warning>", 'appliation/xml')
+		return HttpResponse("<warning>Inconsistent Operators</warning>", 'application/xml')
 
 def updatenegated(request):
 	newneg = request.GET["negstatus"]
@@ -149,12 +149,17 @@ def converttoclausegroup(request):
 	group_parent = copy.deepcopy(XQE.convert_to_clause_group(node_id))
 	for clause in group_parent.findall(".//clause"):
 		append_all_fields(clause)
-	ET.dump(group_parent)
 	return HttpResponse(ET.tostring(group_parent), 'application/xml')
 
 def converttoclause(request):
 	node_id = request.GET["node_id"]
-	return HttpResponse("<test/>", 'application/xml')	
+	try:
+		group_parent = copy.deepcopy(XQE.ungroup_clause_group(node_id))
+		for clause in group_parent.findall(".//clause"):
+			append_all_fields(clause)
+		return HttpResponse(ET.tostring(group_parent), 'application/xml')
+	except InconsistentOperatorException as ioe:
+		return HttpResponse("<warning>Inconsistent Operators</warning>", 'application/xml')	
 
 def instructions(request):
     return render(request, 'collectionbuilder/instructions.html')

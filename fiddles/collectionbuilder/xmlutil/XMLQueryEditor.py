@@ -305,4 +305,5 @@ class XMLQueryEditor:
 		self.remove_node_by_id(group_id)
 		for kid in reversed(kids):
 			group_parent.insert(group_position, kid)
+		self.check_operator_suppression()
 		return group_parent
