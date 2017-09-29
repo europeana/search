@@ -835,6 +835,14 @@ $(document).ready(function(){
 		
 		var rel_node = $("#previous-node").text();
 		$("#" + rel_node).find(".convert-to-cg").click();
+		cancel_io_warning();
+
+	}
+
+	var change_all_operators = function(){
+
+		//TODO: Implement this
+		cancel_io_warning();
 
 	}
 
@@ -856,6 +864,7 @@ $(document).ready(function(){
 	$(document).on("click", ".convert-to-cl", convert_to_clause);
 	$(document).on("click", "#iow-convert-to-group", solve_inconsistency_by_conversion)
 	$("#iow-cancel").click(cancel_io_warning);
+	$("#iow-change-all").click(change_all_operators);
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 	$("#ungrouping-iow-cancel").click(dismiss_ungrouping_warning);

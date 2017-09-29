@@ -2,7 +2,7 @@
 
 ## Immediate
 
-* get 'convert to clause' and 'convert to clause group' working
+* get 'convert all clauses to same operator' working
 
 ## Longer term
 
