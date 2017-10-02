@@ -419,17 +419,18 @@ $(document).ready(function(){
 		$(this).parents(".clause-input").find("select.facet-selector").remove();
 		build_facet_value_selector(new_field, $(this), "");
 
-
 	}
 
 	var build_facet_value_selector = function(field, form_control, current_value){
 
+		var node_id = get_parent_node_id($(form_control));
+		console.log(node_id);
 		$.ajax({
             type: "GET",
             url: "facet-values",
             cache: false,
             dataType: "json",
-            data: { "passedfield" : field },
+            data: { "passedfield" : field, "node_id" : node_id },
             success: function(json) {
 
             		vals = json["values"];
@@ -840,7 +841,6 @@ $(document).ready(function(){
 	}
 
 	var change_all_operators = function(){
-
 
 		var previous_operator = $("#previous-operator").text(); 
 		current_operator = $.trim(previous_operator) == "AND" ? "OR" : "AND";

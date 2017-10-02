@@ -221,7 +221,6 @@ class XMLQueryEditor:
 
 	def set_all_operators(self, new_operator, node_id):
 		parent_node = self.retrieve_node_by_id(node_id)
-		print(node_id)
 		for kid in parent_node.findall("./*"):
 			kid.set("operator", new_operator)
 		return parent_node
@@ -258,8 +257,6 @@ class XMLQueryEditor:
 		return len(prev_nodes)
 
 	def find_clause_parent(self, node_id):
-		# TODO: figure out why I couldn't do this with simple XPath
-		# using ETree
 		all_groups = self._tree.getroot().findall(".//clause-group")
 		for group in all_groups:
 			if(group.find("./*[@node-id=\"" + node_id + "\"]")):
@@ -314,3 +311,29 @@ class XMLQueryEditor:
 			group_parent.insert(group_position, kid)
 		self.check_operator_suppression()
 		return group_parent
+
+	def get_facet_query_for_clause(self, node_id):
+		# essentially, for the facet query we 
+		# (i) check to see whether the clause in question is an 'OR' clause
+		# (ii) if not, then no facet query is needed
+		# (iii) if it is, the query remains the same, but with all
+		# sibling clauses excluded from consideration
+		child_node = self.retrieve_node_by_id(node_id)
+		if(child_node.get("operator") != "OR"):
+			return self.serialise_to_solr_query()
+		parent_node = self.find_clause_parent(child_node.get("node-id"))
+		all_dep_statuses = []
+		for child in parent_node.findall("./*[@deprecated]"):
+			all_dep_statuses.append(child.get("deprecated"))
+			child.set("deprecated", "true")
+		fq = self.serialise_to_solr_query()
+		if(fq == ""):
+			fq = "*:*"
+		all_dep_statuses.reverse()
+		for child in parent_node.findall("./*[@deprecated]"):
+			child.set("deprecated", all_dep_statuses.pop())
+		return fq
+
+
+
+

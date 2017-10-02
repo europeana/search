@@ -71,9 +71,10 @@ def deleteclelement(request):
 
 def facetvalues(request):
 	fieldname = request.GET["passedfield"]
-	qry = XQE.serialise_to_solr_query()
-	slr_qry = SOLR_URL + "&q=" + qry + "&rows=0&facet=true&facet.mincount=1&facet.limit=250&facet.field=" + fieldname
-	print(ET.tostring(XQE.get_tree().getroot()))
+	node_id = request.GET["node_id"]
+	fq = XQE.get_facet_query_for_clause(node_id)
+	print("Facet query is " + fq)
+	slr_qry = SOLR_URL + "&q=" + fq + "&rows=0&facet=true&facet.mincount=1&facet.limit=250&facet.field=" + fieldname
 	res = requests.get(slr_qry).json()
 	values_list = [val for val in res["facet_counts"]["facet_fields"][fieldname] if re.search('[a-zA-Z]', str(val))]
 	all_values = {}
@@ -167,7 +168,6 @@ def forcealloperators(request):
 	group_parent = copy.deepcopy(XQE.set_all_operators(new_operator, node_id))
 	for clause in group_parent.findall(".//clause"):
 		append_all_fields(clause)
-	ET.dump(group_parent)
 	return HttpResponse(ET.tostring(group_parent), 'application/xml')	
 
 def instructions(request):

@@ -329,5 +329,17 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		self.assertEquals(xqe.retrieve_node_by_id("4").get("operator"), "AND")
 		self.assertEquals(xqe.retrieve_node_by_id("5").get("operator"), "AND")
 
+	def test_facet_query_excludes_on_OR(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		facet_query = xqe.get_facet_query_for_clause("4")
+		self.assertEquals(facet_query, "title:\"test title\"")
+
+	def test_facet_query_does_not_exclude_on_AND(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		original_query = xqe.serialise_to_solr_query()
+		facet_query = xqe.get_facet_query_for_clause("1")
+		self.assertEquals(original_query, facet_query)		
+
+
 
 	
