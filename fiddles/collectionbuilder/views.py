@@ -161,5 +161,14 @@ def converttoclause(request):
 	except InconsistentOperatorException as ioe:
 		return HttpResponse("<warning>Inconsistent Operators</warning>", 'application/xml')	
 
+def forcealloperators(request):
+	node_id = request.GET["node_id"]
+	new_operator = request.GET["operator"]
+	group_parent = copy.deepcopy(XQE.set_all_operators(new_operator, node_id))
+	for clause in group_parent.findall(".//clause"):
+		append_all_fields(clause)
+	ET.dump(group_parent)
+	return HttpResponse(ET.tostring(group_parent), 'application/xml')	
+
 def instructions(request):
     return render(request, 'collectionbuilder/instructions.html')

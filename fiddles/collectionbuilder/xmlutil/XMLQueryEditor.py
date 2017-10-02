@@ -219,6 +219,13 @@ class XMLQueryEditor:
 		else:
 			raise InconsistentOperatorException('Operators should all be the same')
 
+	def set_all_operators(self, new_operator, node_id):
+		parent_node = self.retrieve_node_by_id(node_id)
+		print(node_id)
+		for kid in parent_node.findall("./*"):
+			kid.set("operator", new_operator)
+		return parent_node
+
 	def operators_are_consistent(self, new_operator, node_id):
 		clause_parent = self.find_clause_parent(node_id)
 		for clause_element in clause_parent.findall("./*[@operator][@operator-suppressed=\"false\"]"):

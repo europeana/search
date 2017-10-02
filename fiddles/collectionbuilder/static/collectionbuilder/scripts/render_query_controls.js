@@ -841,8 +841,24 @@ $(document).ready(function(){
 
 	var change_all_operators = function(){
 
-		//TODO: Implement this
-		cancel_io_warning();
+
+		var previous_operator = $("#previous-operator").text(); 
+		current_operator = $.trim(previous_operator) == "AND" ? "OR" : "AND";
+		var node_id = $("#previous-node").text();
+		var parent_node_id = get_parent_node_id($("#" + node_id));
+		$.ajax({
+	        type: "GET",
+	        url: "force-all-operators",
+	        cache: false,
+	        dataType: "xml",
+	        data: { "node_id" : parent_node_id, "operator" : current_operator },
+	        success: function(xml) {
+
+				reflow_from_parent(xml, parent_node_id);
+				$("#inconsistent-operator-warning").css({ "visibility" : "hidden"});
+
+	            }
+	        });		
 
 	}
 

@@ -311,17 +311,23 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 	def test_convert_to_clause(self):
 		# elements should be in the same positions and with the same contents
 		# as they had prior to the clause-group being removed
-		pass
-		#xqe = XMLQueryEditor.XMLQueryEditor("test")
-		#xqe.ungroup_clause_group("2")
-		#first_freed_clause = xqe.get_tree().getroot().find("./clause[2]")
-		#second_freed_clause = xqe.get_tree().find("./clause[3]")
-		#self.assertEquals(first_freed_clause.get("node-id"), "3")
-		#self.assertEquals(second_freed_clause.get("node-id"), "4")
-
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.ungroup_clause_group("2")
+		first_freed_clause = xqe.get_tree().getroot().find("./clause[2]")
+		second_freed_clause = xqe.get_tree().find("./clause[3]")
+		self.assertEquals(first_freed_clause.get("node-id"), "3")
+		self.assertEquals(second_freed_clause.get("node-id"), "4")
 
 	def test_clause_conversion_triggers_inconsistency_error_as_needed(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		self.assertRaises(InconsistentOperatorException, xqe.ungroup_clause_group, "5")
+
+	def test_force_operator_conversion_raises_no_error(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.set_all_operators("AND", "2")
+		self.assertEquals(xqe.retrieve_node_by_id("3").get("operator"), "AND")
+		self.assertEquals(xqe.retrieve_node_by_id("4").get("operator"), "AND")
+		self.assertEquals(xqe.retrieve_node_by_id("5").get("operator"), "AND")
+
 
 	
