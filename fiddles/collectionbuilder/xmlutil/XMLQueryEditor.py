@@ -319,19 +319,25 @@ class XMLQueryEditor:
 		# (iii) if it is, the query remains the same, but with all
 		# sibling clauses excluded from consideration
 		child_node = self.retrieve_node_by_id(node_id)
-		if(child_node.get("operator") != "OR"):
-			return self.serialise_to_solr_query()
 		parent_node = self.find_clause_parent(child_node.get("node-id"))
-		all_dep_statuses = []
-		for child in parent_node.findall("./*[@deprecated]"):
-			all_dep_statuses.append(child.get("deprecated"))
-			child.set("deprecated", "true")
-		fq = self.serialise_to_solr_query()
+		only_child = len(parent_node.findall("./*[@deprecated]")) == 1
+		if(child_node.get("operator") != "OR"):
+			orig_dep = child_node.get("deprecated")
+			child_node.set("deprecated", "true")
+			fq = self.serialise_to_solr_query()
+			child_node.set("deprecated", orig_dep)
+		else:
+			all_dep_statuses = []
+			for child in parent_node.findall("./*[@deprecated]"):
+				all_dep_statuses.append(child.get("deprecated"))
+				child.set("deprecated", "true")
+			fq = self.serialise_to_solr_query()
+			print("OR triggered: " + fq)
+			all_dep_statuses.reverse()
+			for child in parent_node.findall("./*[@deprecated]"):
+				child.set("deprecated", all_dep_statuses.pop())
 		if(fq == ""):
 			fq = "*:*"
-		all_dep_statuses.reverse()
-		for child in parent_node.findall("./*[@deprecated]"):
-			child.set("deprecated", all_dep_statuses.pop())
 		return fq
 
 

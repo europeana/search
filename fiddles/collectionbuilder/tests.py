@@ -336,9 +336,8 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 
 	def test_facet_query_does_not_exclude_on_AND(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
-		original_query = xqe.serialise_to_solr_query()
 		facet_query = xqe.get_facet_query_for_clause("1")
-		self.assertEquals(original_query, facet_query)		
+		self.assertEquals("(-proxy_dc_subject:\"test\" OR proxy_dc_subject:\"l'examen\" OR (CREATOR:\"Leonardo da Vinci\"))", facet_query)		
 
 
 
