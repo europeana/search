@@ -27,7 +27,6 @@ $(document).ready(function(){
 				$(parent_element).append(clause_group_controls);
 			}
 			else if(tag_type == "clause"){
-
 				clause_controls = render_clause($(this));
 				$(parent_element).append(clause_controls);
 
@@ -303,9 +302,12 @@ $(document).ready(function(){
 
 	var create_clause_inputs = function(xml, field_list){
 
+		var node_id = $(xml).attr("node-id");
 		var field = $(xml).find("field").text();
 		var val = $(xml).find("value").text();
 		var select_list = $("<select class=\"all-field-listing\"></select>");
+		var no_val = $("<option value=\"\">--------------------</option>");
+		select_list.append(no_val);
 		field_list = field_list.split(",");
 		for(var i = 0; i < field_list.length; i++){
 
@@ -324,7 +326,7 @@ $(document).ready(function(){
 		$(input_wrapper).append(selector_wrapper);
 		if(val != ""){
 
-			build_facet_value_selector(field, $(select_list), val);
+			build_facet_value_selector(node_id, field, $(select_list), val);
 
 		}
 		return $(input_wrapper);
@@ -400,7 +402,6 @@ $(document).ready(function(){
             			$(selector).children(".clause-group").remove();
 
             			$(xml).children().each(function(){
-
             				update_query_controls($(this), $(selector));
 
             			})
@@ -415,16 +416,15 @@ $(document).ready(function(){
 	var populate_clause_inputs = function(){
 
 		var new_field = $(this).val();
+		var node_id = get_parent_node_id($(this));
 		$(this).parents(".clause-input").children(".field-name").first().val(new_field);
 		$(this).parents(".clause-input").find("select.facet-selector").remove();
-		build_facet_value_selector(new_field, $(this), "");
+		build_facet_value_selector(node_id, new_field, $(this), "");
 
 	}
 
-	var build_facet_value_selector = function(field, form_control, current_value){
+	var build_facet_value_selector = function(node_id, field, form_control, current_value){
 
-		var node_id = get_parent_node_id($(form_control));
-		console.log(node_id);
 		$.ajax({
             type: "GET",
             url: "facet-values",
@@ -435,13 +435,15 @@ $(document).ready(function(){
 
             		vals = json["values"];
             		var value_selector = $("<select class=\"facet-selector\"></select>");
+            		var no_val = $("<option value=\"\">---------</option>")
+            		$(value_selector).append(no_val);
             		for(var i = 0; i < vals.length; i++){
 
             			var option = $("<option value=\"" + vals[i] + "\">" + vals[i] + "</option>");
             			$(value_selector).append(option);
             		}
             		$(form_control).parents(".clause-input").children(".dropdowns").first().append(value_selector);
-
+            		$(value_selector).val(current_value);
                 }
             });
 	}
