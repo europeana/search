@@ -72,13 +72,16 @@ def deleteclelement(request):
 	return HttpResponse(ET.tostring(reflow_node), 'application/xml')
 
 def facetvalues(request):
-	fieldname = request.GET["passedfield"]
+
 	node_id = request.GET["node_id"]
+	current_field = request.GET["current_field"]
+	current_value = request.GET["current_value"]
+	XQE.set_field(current_field, node_id)
+	XQE.set_value(current_value, node_id)
 	fq = XQE.get_facet_query_for_clause(node_id)
-	print("Facet query is " + fq)
-	slr_qry = SOLR_URL + "&q=" + fq + "&rows=0&facet=true&facet.mincount=1&facet.limit=250&facet.field=" + fieldname
+	slr_qry = SOLR_URL + "&q=" + fq + "&rows=0&facet=true&facet.mincount=1&facet.limit=250&facet.field=" + current_field
 	res = requests.get(slr_qry).json()
-	values_list = [val for val in res["facet_counts"]["facet_fields"][fieldname] if re.search('[a-zA-Z]', str(val))]
+	values_list = [val for val in res["facet_counts"]["facet_fields"][current_field] if re.search('[a-zA-Z]', str(val))]
 	all_values = {}
 	all_values["values"] = values_list
 	return HttpResponse(json.dumps(all_values), 'application/json')

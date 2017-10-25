@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'convert-to-cg$', views.converttoclausegroup, name="converttoclausegroup"),
     url(r'convert-to-cl$', views.converttoclause, name="converttoclause"),
     url(r'force-all-operators$', views.forcealloperators, name="forcealloperators")
+    
 ]

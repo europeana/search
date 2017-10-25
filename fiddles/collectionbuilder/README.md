@@ -2,7 +2,7 @@
 
 ## Immediate
 
-* get 'convert all clauses to same operator' working
+* check out facet behaviour when clause removed
 
 ## Longer term
 

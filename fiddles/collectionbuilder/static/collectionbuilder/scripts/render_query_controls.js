@@ -42,7 +42,49 @@ $(document).ready(function(){
 
 	}
 
+	var update_facet_controls = function(node_id, xml){
+
+		// to minimise unecessary calls and reflows
+		// we first check to see which clauses have already
+		// been rebuilt
+		var all_clauses = find_all_clause_ids_on_page();
+		var unbuilt_clauses = [];
+		var current_clause_is_built = $("#" + node_id).find("select.facet-selector").length > 0;
+		$.each(all_clauses, function(index, value){
+
+			if(value != node_id || !current_clause_is_built){ unbuilt_clauses.push(value); }
+		});
+		for(var i = 0; i < unbuilt_clauses.length; i++){
+
+			var node_id = unbuilt_clauses[i];
+			var node = $("#" + node_id);
+			var field_selector = $(node).find(".all-field-listing").first();
+			var field = $(field_selector).val();
+			if(field.startsWith("---")){ continue; }
+			var current_control = $(node).find(".facet-selector").first();
+			var current_value = $(current_control).val();
+			if(!current_value){ current_value = "";   }
+			build_facet_value_selector(node_id, field, $(field_selector), current_value);
+
+		}
+
+	}
+
+	var find_all_clause_ids_on_page = function(){
+
+		var all_clauses = [];
+		$(".clause").each(function(){
+
+			all_clauses.push($(this).attr("id"));
+
+
+		});
+		return all_clauses;
+
+	}
+
 	var build_query_struct = function(xml, parent){
+
 		$("#query-container").children().remove();
 		$(xml).children().each(function(){
 
@@ -418,8 +460,9 @@ $(document).ready(function(){
 		var new_field = $(this).val();
 		var node_id = get_parent_node_id($(this));
 		$(this).parents(".clause-input").children(".field-name").first().val(new_field);
+		$(this).parents(".clause-input").find(".field-value").val("");
 		$(this).parents(".clause-input").find("select.facet-selector").remove();
-		build_facet_value_selector(node_id, new_field, $(this), "");
+		update_clause.apply($(this));
 
 	}
 
@@ -430,7 +473,7 @@ $(document).ready(function(){
             url: "facet-values",
             cache: false,
             dataType: "json",
-            data: { "passedfield" : field, "node_id" : node_id },
+            data: { "node_id" : node_id, "current_field" : field, "current_value" : current_value },
             success: function(json) {
 
             		vals = json["values"];
@@ -442,6 +485,7 @@ $(document).ready(function(){
             			var option = $("<option value=\"" + vals[i] + "\">" + vals[i] + "</option>");
             			$(value_selector).append(option);
             		}
+            		$("#" + node_id).find(".facet-selector").remove();
             		$(form_control).parents(".clause-input").children(".dropdowns").first().append(value_selector);
             		$(value_selector).val(current_value);
                 }
@@ -544,10 +588,13 @@ $(document).ready(function(){
 
 		var common_parent = $(this).parents(".clause").first();
 		var node_id = $(common_parent).attr("id");
-		var node_id_selector = "#" + node_id;
-		var field = $(common_parent).find(".field-name").first().val().trim();
-		var value = $(common_parent).find(".field-value").first().val().trim();
-		if(field != "" && value != ""){
+		var field = $(common_parent).find(".field-name").first().val();
+		var value = $(common_parent).find(".field-value").first().val();
+		if(!value){ value = ""; }
+		else{ value = value.trim(); }
+		if(!field){ field = ""; }
+		field = field.trim();
+	//	if(field != ""){
 
 		$.ajax({
             type: "GET",
@@ -557,12 +604,12 @@ $(document).ready(function(){
             data: { "node_id" : node_id, "field_name" : field, "field_value" : value },
             success: function(xml) {
 
-            		build_solr_query(xml);
+            		register_query_change(node_id, xml);
 
                 }
             });	
 
-		}
+		//}
 
 	}
 
@@ -624,7 +671,7 @@ $(document).ready(function(){
             			display_inconsistent_operator_warning(opval, node_id);
             		}
             		else{
-            			build_solr_query(xml);
+            			register_query_change(node_id, xml);
             		}
 
                 }
@@ -678,7 +725,7 @@ $(document).ready(function(){
             data: { "negstatus" : negval, "node_id" : node_id },
             success: function(xml) {
 
-            		build_solr_query(xml);
+            		register_query_change(node_id, xml);
 
                 }
             });
@@ -707,7 +754,7 @@ $(document).ready(function(){
             data: { "depstatus" : operation, "node_id" : node_id },
             success: function(xml) {
 
-            		build_solr_query(xml);
+            		register_query_change(node_id, xml);
 
                 }
             });
@@ -825,7 +872,6 @@ $(document).ready(function(){
 
 		$("#ungrouping-inconsistency-warning").css({"visibility" : "visible"});
 
-
 	}
 
 	var dismiss_ungrouping_warning = function(){
@@ -864,13 +910,20 @@ $(document).ready(function(){
 
 	}
 
+	var register_query_change = function(node_id, xml){
+
+		build_solr_query($(xml));
+		update_facet_controls(node_id, $(xml));
+
+	}
+
 	init_new_query();
 	$(document).on("click", ".add-cl", add_clause);
 	$(document).on("click", ".add-cg", add_clause_group);
 	$(document).on("click", ".delete", delete_clausular_element);
 	$(document).on("click", ".deprecate", deprecate_clausular_element);
 	$(document).on("change", "select.all-field-listing", populate_clause_inputs);
-	$(document).on("change", "select.all-field-listing", update_clause)
+//	$(document).on("change", "select.all-field-listing", update_clause)
 	$(document).on("change", "select.facet-selector", populate_clause_value);
 	$(document).on("change", "select.facet-selector", update_clause);
 	$(document).on("click", ".expand", expand_languages);

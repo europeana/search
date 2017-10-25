@@ -215,7 +215,9 @@ class XMLQueryEditor:
 		if(node_to_change is None): 
 			return None
 		if(self.operators_are_consistent(new_operator, node_id)):
-			node_to_change.attrib["operator"] = new_operator
+		#	node_to_change.attrib["operator"] = new_operator
+			parent_id = self.find_clause_parent(node_id).get("node-id")
+			self.set_all_operators(new_operator, parent_id)
 		else:
 			raise InconsistentOperatorException('Operators should all be the same')
 
