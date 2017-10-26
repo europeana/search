@@ -1,10 +1,16 @@
 import xml.etree.ElementTree as ET
+import requests
+import json
 from datetime import datetime
-from .InconsistentOperatorException import InconsistentOperatorException	
+from .InconsistentOperatorException import InconsistentOperatorException
+from .ZeroResultsException import ZeroResultsException
 import hashlib
 import copy
 import os
 import re
+
+# TODO: import this (right now this results in a circular import)
+SOLR_URL = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/select?wt=json"
 
 class XMLQueryEditor:
 
@@ -214,12 +220,28 @@ class XMLQueryEditor:
 		node_to_change = self.retrieve_node_by_id(node_id)
 		if(node_to_change is None): 
 			return None
-		if(self.operators_are_consistent(new_operator, node_id)):
-		#	node_to_change.attrib["operator"] = new_operator
-			parent_id = self.find_clause_parent(node_id).get("node-id")
-			self.set_all_operators(new_operator, parent_id)
-		else:
-			raise InconsistentOperatorException('Operators should all be the same')
+		is_consistent = self.operators_are_consistent(new_operator, node_id)
+		is_compatible = self.operators_are_compatible(new_operator, node_id)
+		parent_id = self.find_clause_parent(node_id).get("node-id")
+		self.set_all_operators(new_operator, parent_id)
+
+	def operators_are_compatible(self, new_operator, node_id):
+		node_to_change = self.retrieve_node_by_id(node_id)
+		prev_operator = node_to_change.get("operator")
+		node_to_change.set("operator", new_operator)
+		solr_qry = self.serialise_to_solr_query()
+		solr_qry = SOLR_URL + "&rows=0&q=" + solr_qry
+		node_to_change.set("operator", prev_operator)
+		try:
+			solr_results = requests.get(solr_qry).json()
+			count = solr_results["response"]["numFound"]
+			if(count == 0):
+				raise ZeroResultsException("Query returns zero results")
+			else:
+				print("Count is " + str(count))
+				return True
+		except Exception as e:
+			raise ZeroResultsException("Connection failure: " + str(e))
 
 	def set_all_operators(self, new_operator, node_id):
 		parent_node = self.retrieve_node_by_id(node_id)
@@ -231,7 +253,7 @@ class XMLQueryEditor:
 		clause_parent = self.find_clause_parent(node_id)
 		for clause_element in clause_parent.findall("./*[@operator][@operator-suppressed=\"false\"]"):
 			if(clause_element.attrib["operator"] != new_operator and clause_element.attrib["node-id"] != node_id):
-				return False
+				raise InconsistentOperatorException('Operators should all be the same')
 		return True
 
 	def check_operator_suppression(self):

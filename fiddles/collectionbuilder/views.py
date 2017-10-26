@@ -3,6 +3,7 @@ from django.http import HttpResponse
 import xml.etree.ElementTree as ET
 from collectionbuilder.xmlutil import XMLQueryEditor
 from collectionbuilder.xmlutil.InconsistentOperatorException import InconsistentOperatorException
+from collectionbuilder.xmlutil.ZeroResultsException import ZeroResultsException
 import copy
 import requests
 import json
@@ -72,19 +73,25 @@ def deleteclelement(request):
 	return HttpResponse(ET.tostring(reflow_node), 'application/xml')
 
 def facetvalues(request):
-
 	node_id = request.GET["node_id"]
 	current_field = request.GET["current_field"]
 	current_value = request.GET["current_value"]
 	XQE.set_field(current_field, node_id)
 	XQE.set_value(current_value, node_id)
 	fq = XQE.get_facet_query_for_clause(node_id)
-	slr_qry = SOLR_URL + "&q=" + fq + "&rows=0&facet=true&facet.mincount=1&facet.limit=250&facet.field=" + current_field
+	slr_qry = SOLR_URL + "&q=" + fq + "&rows=0&facet=true&facet.mincount=1&facet.limit=1000&facet.field=" + current_field
 	res = requests.get(slr_qry).json()
-	values_list = [val for val in res["facet_counts"]["facet_fields"][current_field] if re.search('[a-zA-Z]', str(val))]
 	all_values = {}
-	all_values["values"] = values_list
+	try:
+		values_list = [val for val in res["facet_counts"]["facet_fields"][current_field] if re.search('[a-zA-Z]', str(val))]
+		all_values["values"] = values_list
+	except KeyError:
+		error_msg = ["ERROR", res["error"]["msg"]]
+		all_values["values"] = error_msg
+	except Exception as e:
+		all_values["values"] = ["ERROR", "Unidentified error in making query: " + str(e)]
 	return HttpResponse(json.dumps(all_values), 'application/json')
+	
 
 def translate(request):
 	term = request.GET["term"]
@@ -113,6 +120,9 @@ def updateoperator(request):
 		return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 	except InconsistentOperatorException as ioe:
 		return HttpResponse("<warning>Inconsistent Operators</warning>", 'application/xml')
+	except ZeroResultsException as zre:
+		return HttpResponse("<warning>Zero Results</warning>", 'application/xml')
+
 
 def updatenegated(request):
 	newneg = request.GET["negstatus"]

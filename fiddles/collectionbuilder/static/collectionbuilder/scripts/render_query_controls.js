@@ -61,7 +61,7 @@ $(document).ready(function(){
 			var field_selector = $(node).find(".all-field-listing").first();
 			var field = $(field_selector).val();
 			if(field.startsWith("---")){ continue; }
-			var current_control = $(node).find(".facet-selector").first();
+			var current_control = $(node).find(".field-value").first();
 			var current_value = $(current_control).val();
 			if(!current_value){ current_value = "";   }
 			build_facet_value_selector(node_id, field, $(field_selector), current_value);
@@ -477,6 +477,13 @@ $(document).ready(function(){
             success: function(json) {
 
             		vals = json["values"];
+            		var is_error = (vals.length == 2 && vals[0] == "ERROR"); 
+            		if(is_error){
+
+            			show_facet_error(node_id, form_control, vals);
+            			return;
+
+            		}
             		var value_selector = $("<select class=\"facet-selector\"></select>");
             		var no_val = $("<option value=\"\">---------</option>")
             		$(value_selector).append(no_val);
@@ -488,8 +495,21 @@ $(document).ready(function(){
             		$("#" + node_id).find(".facet-selector").remove();
             		$(form_control).parents(".clause-input").children(".dropdowns").first().append(value_selector);
             		$(value_selector).val(current_value);
+
                 }
             });
+	}
+
+	var show_facet_error = function(node_id, form_control, error_list){
+
+		var err_msg = error_list[0] + ": " + error_list[1];
+		var err_opt = $("<option value=\"\">" + err_msg + "</option>");
+		var value_selector = $("<select class=\"facet-selector\"></select>");
+		$(value_selector).append(err_opt);
+        $(err_opt).attr("disabled", "disabled");
+        $("#" + node_id).find(".facet-selector").remove();
+        $(form_control).parents(".clause-input").children(".dropdowns").first().append(value_selector);
+
 	}
 
 	var populate_clause_value = function(){
@@ -668,7 +688,16 @@ $(document).ready(function(){
             data: { "operator" : opval, "node_id" : node_id },
             success: function(xml) {
             		if($(xml).text() == "Inconsistent Operators"){
+
+            			store_previous_operator_info(opval, node_id);
             			display_inconsistent_operator_warning(opval, node_id);
+            		}
+            		else if($(xml).text() == "Zero Results"){
+
+            			store_previous_operator_info(opval, node_id);
+            			display_zero_results_warning();
+            			revert_to_previous_operator();
+
             		}
             		else{
             			register_query_change(node_id, xml);
@@ -679,21 +708,32 @@ $(document).ready(function(){
 
 	}
 
-	var display_inconsistent_operator_warning = function(operator, node_id){
+	var display_zero_results_warning = function(){
 
-		$("#inconsistent-operator-warning").css({ "visibility" : "visible"});
-		$("#new-operator").text(operator);
+		alert("Changing this operator to AND yields 0 results.\n\nYou will need to change clause contents before attempting to change the operator.");
+		
+	}
+
+	var store_previous_operator_info = function(operator, node_id){
+
 		// info for if we want to revert the operator later
-		var operator_control_selector = "operator-radio-" + node_id;
 		var reverted_operator = operator == "AND" ? "OR" : "AND";
 		$("#previous-operator").text(reverted_operator);
 		$("#previous-node").text(node_id);
 
 	}
 
+	var display_inconsistent_operator_warning = function(operator, node_id){
+
+		$("#inconsistent-operator-warning").css({ "visibility" : "visible"});
+		$("#new-operator").text(operator);
+
+	}
+
 	var update_operator_indirectly = function(){
 
 		var node_id = get_parent_node_id($(this));
+		$("#" + node_id).find("select.facet-selector").remove();
 		update_operator.apply(this, [node_id]);
 
 	}
@@ -923,7 +963,6 @@ $(document).ready(function(){
 	$(document).on("click", ".delete", delete_clausular_element);
 	$(document).on("click", ".deprecate", deprecate_clausular_element);
 	$(document).on("change", "select.all-field-listing", populate_clause_inputs);
-//	$(document).on("change", "select.all-field-listing", update_clause)
 	$(document).on("change", "select.facet-selector", populate_clause_value);
 	$(document).on("change", "select.facet-selector", update_clause);
 	$(document).on("click", ".expand", expand_languages);

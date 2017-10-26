@@ -1,6 +1,7 @@
 from django.test import SimpleTestCase
 from collectionbuilder.xmlutil import XMLQueryEditor
 from collectionbuilder.xmlutil.InconsistentOperatorException import InconsistentOperatorException
+from collectionbuilder.xmlutil.ZeroResultsException import ZeroResultsException
 import xml.etree.ElementTree as ET
 from datetime import datetime
 
@@ -339,6 +340,23 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		facet_query = xqe.get_facet_query_for_clause("1")
 		self.assertEquals("(-proxy_dc_subject:\"test\" OR proxy_dc_subject:\"l'examen\" OR (CREATOR:\"Leonardo da Vinci\"))", facet_query)		
 
+	def test_zero_results_from_operator_raises_exception(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.remove_node_by_id("5")
+		xqe.set_field("TYPE", "3")
+		xqe.set_field("TYPE", "4")
+		xqe.set_value("IMAGE", "3")
+		xqe.set_value("TEXT", "4")
+		xqe.unnegate_by_id("3")
+		self.assertRaises(ZeroResultsException, xqe.set_operator, "AND", "4")
 
-
+	def ztest_gt_zero_results_from_operator_no_exception(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.remove_node_by_id("5")
+		xqe.set_field("TYPE", "3")
+		xqe.set_field("TYPE", "4")
+		xqe.set_value("IMAGE", "3")
+		xqe.set_value("TEXT", "4")
+		xqe.set_operator("OR", "4")
+	#	self.assertRaises(ZeroResultsException, xqe.set_operator, "OR", "4")
 	
