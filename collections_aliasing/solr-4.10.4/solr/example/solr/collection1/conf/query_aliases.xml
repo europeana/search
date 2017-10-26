@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alias-configs>
+   <alias-config>
+      <alias-pseudofield>theme</alias-pseudofield>
+      <alias-defs>
+         <alias-def>
+            <alias>test 1</alias>
+            <query>text:"test 1"</query>
+         </alias-def>
+         <alias-def>
+            <alias>test 2</alias>
+            <query>text:"test 2"</query>
+         </alias-def>
+      </alias-defs>
+   </alias-config>
+   <alias-config>
+      <alias-pseudofield>theme2</alias-pseudofield>
+      <alias-defs>
+         <alias-def>
+            <alias>test 3</alias>
+            <query>text:"test 3"</query>
+         </alias-def>
+      </alias-defs>
+   </alias-config>
+</alias-configs>
