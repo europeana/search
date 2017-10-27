@@ -17,5 +17,5 @@ urlpatterns = [
     url(r'^recluster/', include('recluster.urls', namespace='recluster'), name='recluster'),
     url(r'^mltfiddle/', include('mltfiddle.urls', namespace='mltfiddle'), name='mltfiddle'),
     url(r'^remfriends/', include('jansixdegrees.urls', namespace='jansixdegrees'), name='jansixdegrees'),
-
+    url(r'^collection-builder/', include('collectionbuilder.urls', namespace='collectionbuilder'), name='collectionbuilder'),
 ]

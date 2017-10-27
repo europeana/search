@@ -180,10 +180,13 @@ def converttoclause(request):
 def forcealloperators(request):
 	node_id = request.GET["node_id"]
 	new_operator = request.GET["operator"]
-	group_parent = copy.deepcopy(XQE.set_all_operators(new_operator, node_id))
-	for clause in group_parent.findall(".//clause"):
-		append_all_fields(clause)
-	return HttpResponse(ET.tostring(group_parent), 'application/xml')	
+	try:
+		group_parent = copy.deepcopy(XQE.set_all_operators(new_operator, node_id))
+		for clause in group_parent.findall(".//clause"):
+			append_all_fields(clause)
+		return HttpResponse(ET.tostring(group_parent), 'application/xml')
+	except ZeroResultsException as zre:
+		return HttpResponse("<warning>Zero Results</warning>", 'application/xml')	
 
 def instructions(request):
     return render(request, 'collectionbuilder/instructions.html')

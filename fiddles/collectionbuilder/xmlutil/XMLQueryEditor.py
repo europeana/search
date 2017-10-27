@@ -220,34 +220,55 @@ class XMLQueryEditor:
 		node_to_change = self.retrieve_node_by_id(node_id)
 		if(node_to_change is None): 
 			return None
+		# throws IncompatibleOperatorsException if it fails
 		is_consistent = self.operators_are_consistent(new_operator, node_id)
+		# throws ZeroResultsException if it fails
 		is_compatible = self.operators_are_compatible(new_operator, node_id)
 		parent_id = self.find_clause_parent(node_id).get("node-id")
-		self.set_all_operators(new_operator, parent_id)
+		if(parent_id is None): 
+			self.retrieve_node_by_id(node_id).set("operator", new_operator)
+		else:
+			self.set_all_operators(new_operator, parent_id, True)
 
 	def operators_are_compatible(self, new_operator, node_id):
 		node_to_change = self.retrieve_node_by_id(node_id)
 		prev_operator = node_to_change.get("operator")
+		backup_tree = copy.deepcopy(self._tree)
 		node_to_change.set("operator", new_operator)
+		try:
+			yields_results = self.preflight_facet_query()
+			return yields_results
+		except:
+			raise
+		finally:
+			self._tree = backup_tree;
+
+	def set_all_operators(self, new_operator, node_id, is_compatible=False):
+		parent_node = self.retrieve_node_by_id(node_id)
+		backup_tree = copy.deepcopy(self._tree)
+		for kid in parent_node.findall("./*"):
+			kid.set("operator", new_operator)
+		if(not(is_compatible)):
+			try:
+				self.preflight_facet_query()
+			except ZeroResultsException as zre:
+				self._tree = backup_tree
+				raise
+		return parent_node
+
+	def preflight_facet_query(self):
 		solr_qry = self.serialise_to_solr_query()
-		solr_qry = SOLR_URL + "&rows=0&q=" + solr_qry
-		node_to_change.set("operator", prev_operator)
+		solr_qry = SOLR_URL + "&rows=0&q=" + solr_qry	
 		try:
 			solr_results = requests.get(solr_qry).json()
 			count = solr_results["response"]["numFound"]
 			if(count == 0):
 				raise ZeroResultsException("Query returns zero results")
 			else:
-				print("Count is " + str(count))
 				return True
 		except Exception as e:
 			raise ZeroResultsException("Connection failure: " + str(e))
 
-	def set_all_operators(self, new_operator, node_id):
-		parent_node = self.retrieve_node_by_id(node_id)
-		for kid in parent_node.findall("./*"):
-			kid.set("operator", new_operator)
-		return parent_node
 
 	def operators_are_consistent(self, new_operator, node_id):
 		clause_parent = self.find_clause_parent(node_id)

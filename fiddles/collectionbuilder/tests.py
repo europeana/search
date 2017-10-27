@@ -323,12 +323,17 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		self.assertRaises(InconsistentOperatorException, xqe.ungroup_clause_group, "5")
 
-	def test_force_operator_conversion_raises_no_error(self):
+	def test_force_operator_conversion_raises_error_if_no_results(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
-		xqe.set_all_operators("AND", "2")
-		self.assertEquals(xqe.retrieve_node_by_id("3").get("operator"), "AND")
-		self.assertEquals(xqe.retrieve_node_by_id("4").get("operator"), "AND")
-		self.assertEquals(xqe.retrieve_node_by_id("5").get("operator"), "AND")
+		self.assertRaises(ZeroResultsException, xqe.set_all_operators, "OR", "5")
+
+	def test_force_operator_conversion_raises_no_error_if_results(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.set_operator("OR", "2")
+		xqe.set_all_operators("OR", "5")
+		self.assertEquals(xqe.retrieve_node_by_id("3").get("operator"), "OR")
+		self.assertEquals(xqe.retrieve_node_by_id("4").get("operator"), "OR")
+		self.assertEquals(xqe.retrieve_node_by_id("5").get("operator"), "OR")
 
 	def test_facet_query_excludes_on_OR(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
@@ -350,7 +355,7 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe.unnegate_by_id("3")
 		self.assertRaises(ZeroResultsException, xqe.set_operator, "AND", "4")
 
-	def ztest_gt_zero_results_from_operator_no_exception(self):
+	def test_gt_zero_results_from_operator_no_exception(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		xqe.remove_node_by_id("5")
 		xqe.set_field("TYPE", "3")
@@ -358,5 +363,4 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe.set_value("IMAGE", "3")
 		xqe.set_value("TEXT", "4")
 		xqe.set_operator("OR", "4")
-	#	self.assertRaises(ZeroResultsException, xqe.set_operator, "OR", "4")
 	

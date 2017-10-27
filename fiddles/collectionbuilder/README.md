@@ -12,3 +12,8 @@
 * facetable fields in config file
 * disguise root group's existence for user-friendliness
 * split JS file into multiple files
+
+### Refactoring
+
+* it's clear we need a 'preflight' mode for queries rather than handling
+'undo' operations piecemeal

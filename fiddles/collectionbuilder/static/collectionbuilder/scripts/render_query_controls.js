@@ -942,10 +942,21 @@ $(document).ready(function(){
 	        data: { "node_id" : parent_node_id, "operator" : current_operator },
 	        success: function(xml) {
 
-				reflow_from_parent(xml, parent_node_id);
 				$("#inconsistent-operator-warning").css({ "visibility" : "hidden"});
+            	if($(xml).text() == "Zero Results"){
+
+            		//	store_previous_operator_info(opval, node_id);
+            			display_zero_results_warning();
+            			revert_to_previous_operator();
+
+            	}
+            	else{
+				
+					reflow_from_parent(xml, parent_node_id);
 
 	            }
+
+	        }
 	        });		
 
 	}
