@@ -1032,6 +1032,47 @@ $(document).ready(function(){
 
 	}
 
+	var get_saved_queries = function(){
+
+			$.ajax({
+	       		type: "GET",
+	        	url: "get-saved-queries",
+	        	cache: false,
+	        	dataType: "json",
+	        	success: function(json) {
+
+					$.each(json, function(index, value){
+
+						var opt = "<option value=\"" + value + "\">" + value + "</option>";
+						$("select#query-list").append(opt);
+
+					});
+
+					$("select#query-list").css({"visibility" : "visible"});
+
+	        	}
+	        });		
+
+
+	}
+
+	var open_query = function(){
+
+		var query_name = $(this).val();
+		$.ajax({
+	       		type: "GET",
+	        	url: "open-query",
+	        	cache: false,
+	        	dataType: "xml",
+	        	data: {"query_name" : query_name },
+	        	success: function(xml) {
+
+					console.log(xml);
+	        	}
+	        });
+
+	}
+
 	init_new_query();
 	$(document).on("click", ".add-cl", add_clause);
 	$(document).on("click", ".add-cg", add_clause_group);
@@ -1048,10 +1089,12 @@ $(document).ready(function(){
 	$(document).on("click", ".convert-to-cg", convert_to_clause_group);
 	$(document).on("click", ".convert-to-cl", convert_to_clause);
 	$(document).on("click", "#iow-convert-to-group", solve_inconsistency_by_conversion)
+	$(document).on("change", "select#query-list", open_query)
 	$("#iow-cancel").click(cancel_io_warning);
 	$("#iow-change-all").click(change_all_operators);
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 	$("#ungrouping-iow-cancel").click(dismiss_ungrouping_warning);
+	$("#open-from-file").click(get_saved_queries)
 
 });

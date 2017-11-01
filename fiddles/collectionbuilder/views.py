@@ -188,5 +188,19 @@ def forcealloperators(request):
 	except ZeroResultsException as zre:
 		return HttpResponse("<warning>Zero Results</warning>", 'application/xml')	
 
+def getsavedqueries(request):
+	return HttpResponse(json.dumps(XQE.read_query_directory()), 'application/json')
+
+def savequery(request):
+	query_name = request.GET["query_name"]
+	# TODO: Throw exceptions and warnings here?
+	XMLQueryEditor.save_query_file(query_name)
+	return HttpResponse("<status>success</status>", 'application/xml')
+
+def openquery(request):
+	query_name = request.GET["query_name"]
+	XQE = XMLQueryEditor.XMLQueryEditor(query_name)
+	return init(request)
+
 def instructions(request):
     return render(request, 'collectionbuilder/instructions.html')

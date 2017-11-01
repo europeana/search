@@ -363,4 +363,22 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe.set_value("IMAGE", "3")
 		xqe.set_value("TEXT", "4")
 		xqe.set_operator("OR", "4")
+
+	def test_saves_with_fidelity(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.remove_node_by_id("5")
+		test_tree = ET.tostring(xqe.get_tree().getroot(), encoding="utf8", method="text")
+		new_name = "test2"
+		xqe.save_query_file(new_name)
+		xqe2 = XMLQueryEditor.XMLQueryEditor(new_name)
+		comparison_tree = ET.tostring(xqe2.get_tree().getroot(), encoding="utf8", method="text")
+		self.assertEquals(test_tree, comparison_tree)
+
+	def test_reading_directory(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		query_list = xqe.read_query_directory()
+		print(query_list)
+		self.assertGreater(len(query_list), 1)
+		self.assertIn("test", query_list)
+
 	

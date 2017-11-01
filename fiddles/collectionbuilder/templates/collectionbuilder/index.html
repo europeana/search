@@ -42,6 +42,8 @@
 		#previous-operator-info{ visibility: hidden;  }
 		.easy-autocomplete{ display:inline; }
 		select.all-field-listing, select.facet-selector{ max-width: 45%;  }
+		.eac-item{ font-family: "Arial", "Helvetic", _sans; }
+		#query-list{ visibility: hidden; }
 	</style>
 </head>
 <body>
@@ -84,7 +86,11 @@ Query here
 <div id="mode-shifter">
 <div class="button-control" id="view-qb">Query Builder</div>
 <div class="button-control" id="view-results">Results</div>
-<div class="button-control" id="save-to-file">Save</div>
+<div class="button-control" id="open-from-file">Open Query</div>
+<select name="query-list" id="query-list">
+	<option value="------------">--------------------</option>
+</select>
+<div class="button-control" id="save-to-file">Save Query</div>
 <input name="file-name" value="File name here" id="to-save"/>
 </div>
 </div>

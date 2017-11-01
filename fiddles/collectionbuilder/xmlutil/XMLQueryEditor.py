@@ -34,10 +34,23 @@ class XMLQueryEditor:
 	def build_tree_from_file(self):
 		return self.load_query_file()
 
+	# file saving-and-loading functions
+
 	def load_query_file(self):
 		filepath = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'stored_queries', self.query_name + ".xml")
 		tree = ET.parse(filepath)
 		return tree
+
+	def save_query_file(self, query_name=None):
+		if(query_name is None):
+			query_name = self.query_name
+		writepath = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'stored_queries', query_name + ".xml")
+		self.get_tree().write(writepath)
+
+	def read_query_directory(self):
+		dirpath = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'stored_queries')
+		query_list = [re.sub(".xml$", "", f) for f in os.listdir(dirpath) if os.path.isfile(os.path.join(dirpath, f))]
+		return query_list
 
 	def get_tree(self):
 		return self._tree

@@ -21,6 +21,9 @@ urlpatterns = [
     url(r'instructions$', views.instructions, name='instructions'),
     url(r'convert-to-cg$', views.converttoclausegroup, name="converttoclausegroup"),
     url(r'convert-to-cl$', views.converttoclause, name="converttoclause"),
-    url(r'force-all-operators$', views.forcealloperators, name="forcealloperators")
+    url(r'force-all-operators$', views.forcealloperators, name="forcealloperators"),
+    url(r'get-saved-queries$', views.getsavedqueries, name="getsavedqueries"),
+    url(r'open-query', views.openquery, name="openquery"),
+    url(r'save-query', views.savequery, name="savequery"),
     
 ]
