@@ -57,20 +57,6 @@ $(document).ready(function(){
 			create_autocomplete($(this), all_vals);
 		});
 
-		$(".field-value").each(function(index){
-
-			all_vals = [];
-			parent_selector = "#" + get_parent_node_id($(this));
-			$(parent_selector).find("select.facet-selector option").each(function(index){
-				all_vals.push($(this).text());
-
-
-			});
-			console.log(all_vals);
-			create_autocomplete($(this), all_vals);
-
-		});
-
 	}
 
 	var update_facet_controls = function(node_id, xml){
@@ -110,11 +96,27 @@ $(document).ready(function(){
 					maxNumberOfElements: 10,
 					match: {
 						enabled: true
+					},
+					onSelectItemEvent: function(){
+
+						update_selector_with_autocomplete_value(form_control, $(form_control).getSelectedItemData());
+
 					}
 				}
 
 			};
 			$(form_control).easyAutocomplete(opts);
+
+	}
+
+	var update_selector_with_autocomplete_value = function(form_control, auc_value){
+		// TODO: this is fragile. Generalise
+		var selector_class = $(form_control).hasClass("field-name") ? ".all-field-listing" : ".facet-selector";
+		var selector_function = $(form_control).hasClass("field-name") ? populate_clause_inputs : populate_clause_value;
+		var parent_selector = "#" + get_parent_node_id($(form_control));
+		var selector = $(parent_selector).find(selector_class).first();
+		selector.val(auc_value);
+		selector_function.apply(selector);
 
 	}
 
@@ -508,10 +510,10 @@ $(document).ready(function(){
 	var populate_clause_inputs = function(){
 
 		var new_field = $(this).val();
-		var node_id = get_parent_node_id($(this));
-		$(this).parents(".clause-input").children(".field-name").first().val(new_field);
-		$(this).parents(".clause-input").find(".field-value").val("");
-		$(this).parents(".clause-input").find("select.facet-selector").remove();
+		var node_selector = "#" + get_parent_node_id($(this));
+		$(node_selector).find(".field-name").first().val(new_field);
+		$(node_selector).find(".field-value").val("");
+		$(node_selector).find("select.facet-selector").remove();
 		update_clause.apply($(this));
 
 	}
@@ -567,7 +569,8 @@ $(document).ready(function(){
 	var populate_clause_value = function(){
 
 		var val = $(this).val();
-		$(this).parents(".clause-input").children(".field-value").first().val(val);
+		var node_selector = "#" + get_parent_node_id($(this));
+		$(node_selector).find(".field-value").first().val(val);
 	
 	}
 
@@ -1050,6 +1053,5 @@ $(document).ready(function(){
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 	$("#ungrouping-iow-cancel").click(dismiss_ungrouping_warning);
-	// autcomplete filtration
 
 });
