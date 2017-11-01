@@ -39,6 +39,37 @@ $(document).ready(function(){
 			}
 
 		});
+		 add_facet_field_autocompletes();
+	}
+
+	var add_facet_field_autocompletes = function(){
+
+		$(".field-name").each(function(index){
+
+			all_vals = [];
+			parent_selector = "#" + get_parent_node_id($(this));
+			$(parent_selector).find("select.all-field-listing option").each(function(index){
+
+				all_vals.push($(this).text());
+
+
+			});
+			create_autocomplete($(this), all_vals);
+		});
+
+		$(".field-value").each(function(index){
+
+			all_vals = [];
+			parent_selector = "#" + get_parent_node_id($(this));
+			$(parent_selector).find("select.facet-selector option").each(function(index){
+				all_vals.push($(this).text());
+
+
+			});
+			console.log(all_vals);
+			create_autocomplete($(this), all_vals);
+
+		});
 
 	}
 
@@ -65,10 +96,29 @@ $(document).ready(function(){
 			var current_value = $(current_control).val();
 			if(!current_value){ current_value = "";   }
 			build_facet_value_selector(node_id, field, $(field_selector), current_value);
-
+			
 		}
 
 	}
+
+	var create_autocomplete = function(form_control, vals){
+
+			var opts = { 
+				"data" : vals,
+				requestDelay: 250,
+				list: {
+					maxNumberOfElements: 10,
+					match: {
+						enabled: true
+					}
+				}
+
+			};
+			$(form_control).easyAutocomplete(opts);
+
+	}
+
+
 
 	var find_all_clause_ids_on_page = function(){
 
@@ -493,8 +543,10 @@ $(document).ready(function(){
             			$(value_selector).append(option);
             		}
             		$("#" + node_id).find(".facet-selector").remove();
-            		$(form_control).parents(".clause-input").children(".dropdowns").first().append(value_selector);
+            		var parent_selector = "#" + get_parent_node_id($(form_control)); 
+            		$(parent_selector).find(".dropdowns").first().append(value_selector);
             		$(value_selector).val(current_value);
+            		create_autocomplete($(parent_selector).find(".field-value").first(),vals);
 
                 }
             });
@@ -945,7 +997,6 @@ $(document).ready(function(){
 				$("#inconsistent-operator-warning").css({ "visibility" : "hidden"});
             	if($(xml).text() == "Zero Results"){
 
-            		//	store_previous_operator_info(opval, node_id);
             			display_zero_results_warning();
             			revert_to_previous_operator();
 
@@ -965,6 +1016,16 @@ $(document).ready(function(){
 
 		build_solr_query($(xml));
 		update_facet_controls(node_id, $(xml));
+
+	}
+
+	var autocomplete_by_filter = function(){
+
+		var val = $(this).val();
+		if(val.length <= 2){ return false; }
+		var node_id = get_parent_node_id($(this));
+		var selector = $("#" + node_id).find(".facet-selector");
+		$(selector).click();
 
 	}
 
@@ -989,4 +1050,6 @@ $(document).ready(function(){
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 	$("#ungrouping-iow-cancel").click(dismiss_ungrouping_warning);
+	// autcomplete filtration
+
 });

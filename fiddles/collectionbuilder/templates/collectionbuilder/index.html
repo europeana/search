@@ -4,6 +4,9 @@
 	<title>Collection Builder</title>
 	<script src="{% static 'collectionbuilder/scripts/jquery.dev.js' %}"></script>
 	<script src="{% static 'collectionbuilder/scripts/render_query_controls.js' %}"></script>
+	<script src="{% static 'collectionbuilder/scripts/jquery.easy-autocomplete.min.js'  %}"></script>
+	<link rel="stylesheet" href="{% static 'collectionbuilder/styles/easy-autocomplete.min.css' %}"></link> 
+	<link rel="stylesheet" href="{% static 'collectionbuilder/styles/easy-autocomplete.themes.min.css' %}"></link> 
 	<style type="text/css">
 		#info{ display: none; }
 		#results{ display: none; }
@@ -37,6 +40,8 @@
 		#iow-cancel{ padding-top: 15px; min-height: 35px; }
 		#new-operator{ font-style: italic; }
 		#previous-operator-info{ visibility: hidden;  }
+		.easy-autocomplete{ display:inline; }
+		select.all-field-listing, select.facet-selector{ max-width: 45%;  }
 	</style>
 </head>
 <body>
