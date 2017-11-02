@@ -26,6 +26,7 @@ class XMLQueryEditor:
 		tree = ET.ElementTree(ET.fromstring('<query/>'))
 		root = tree.getroot()
 		blank_group = self.generate_clause_group()
+		blank_group.set("wrapper", "true")
 		root.append(blank_group)
 		blank_clause = self.generate_clause()
 		blank_group.append(blank_clause)

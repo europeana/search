@@ -120,8 +120,6 @@ $(document).ready(function(){
 
 	}
 
-
-
 	var find_all_clause_ids_on_page = function(){
 
 		var all_clauses = [];
@@ -865,7 +863,13 @@ $(document).ready(function(){
 
 	var toggle_save_box = function(){
 
+		var query_name = get_current_query_name();
 		var save_box = $("#to-save");
+		if(query_name != ""){
+
+			$(save_box).val(query_name)
+
+		}
 		var is_visible = $(save_box).css("visibility") != "hidden";
 		if(is_visible){
 
@@ -1053,7 +1057,6 @@ $(document).ready(function(){
 	        	}
 	        });		
 
-
 	}
 
 	var open_query = function(){
@@ -1067,11 +1070,71 @@ $(document).ready(function(){
 	        	data: {"query_name" : query_name },
 	        	success: function(xml) {
 
-					console.log(xml);
+	        		wipe_query();
+	        		set_current_query_name(query_name);
+					update_query_controls($(xml), $("#clause-controllers"));
+	        	
 	        	}
 	        });
 
 	}
+
+	var wipe_query = function(){
+
+	    $("#clause-controllers").children().remove();
+
+	}
+
+	var reinit_query = function(){
+
+		wipe_query();
+		init_new_query();
+
+	}
+
+	var set_current_query_name = function(new_name){
+
+		new_name = $.trim(new_name);
+		$("#current-query-name").text(new_name);
+
+	}
+
+	var get_current_query_name = function(){
+
+		return $.trim($("#current-query-name").text());
+
+	}
+
+	var detect_save_query = function(event){
+
+		var key = event.which;
+		if(key == 13){
+
+			save_query();
+
+		}
+
+
+	}
+
+	var save_query = function(){
+
+		var query_name = $.trim($("#to-save").val());
+		$.ajax({
+       		type: "GET",
+        	url: "save-query",
+        	cache: false,
+        	dataType: "xml",
+        	data: { "query_name" : query_name },
+        	success: function(xml) {
+
+				alert("Query \"" + query_name + "\" saved OK." );
+
+        	}
+        });		
+
+	}
+
 
 	init_new_query();
 	$(document).on("click", ".add-cl", add_clause);
@@ -1095,6 +1158,8 @@ $(document).ready(function(){
 	$("#view-results").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 	$("#ungrouping-iow-cancel").click(dismiss_ungrouping_warning);
-	$("#open-from-file").click(get_saved_queries)
+	$("#open-from-file").click(get_saved_queries);
+	$("#reset-query").click(reinit_query);
+	$("#to-save").keypress(detect_save_query);
 
 });

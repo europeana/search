@@ -20,6 +20,8 @@ def index(request):
 	return render(request, 'collectionbuilder/index.html')
 
 def init(request):
+	global XQE
+	XQE = XMLQueryEditor.XMLQueryEditor()
 	tree = copy.deepcopy(XQE.get_tree().getroot())
 	for clause in tree.findall(".//clause"):
 		append_all_fields(clause)
@@ -194,13 +196,17 @@ def getsavedqueries(request):
 def savequery(request):
 	query_name = request.GET["query_name"]
 	# TODO: Throw exceptions and warnings here?
-	XMLQueryEditor.save_query_file(query_name)
+	XQE.save_query_file(query_name)
 	return HttpResponse("<status>success</status>", 'application/xml')
 
 def openquery(request):
 	query_name = request.GET["query_name"]
+	global XQE
 	XQE = XMLQueryEditor.XMLQueryEditor(query_name)
-	return init(request)
+	tree = copy.deepcopy(XQE.get_tree().getroot())
+	for clause in tree.findall(".//clause"):
+		append_all_fields(clause)
+	return HttpResponse(ET.tostring(tree), 'application/xml')
 
 def instructions(request):
     return render(request, 'collectionbuilder/instructions.html')
