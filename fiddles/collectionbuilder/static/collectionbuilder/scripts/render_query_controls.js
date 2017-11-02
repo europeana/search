@@ -279,8 +279,11 @@ $(document).ready(function(){
 		var is_deprecated = $(xml).attr("deprecated");
 		var operator = $(xml).attr("operator");
 		var is_suppressed = $(xml).attr("operator-suppressed");
+		var is_wrapper = $(xml).attr("wrapper") == "true";
+		lbl = is_wrapper ? "Query" : "Clause Group";
 		var cg_wrapper = $("<div class=\"clause-group\" id=\"" + node_id + "\"></div>");
-		var lbl = $("<h3>Clause Group</h3>");
+		if(is_wrapper){ cg_wrapper.addClass("query-build-wrapper")}
+		var lbl = $("<h3>" + lbl + "</h3>");
 		var neg_control = create_negated_control(is_negated);
 		var button_set = create_group_button_set();
 		var ops_wrapper = $("<div class=\"ops-wrapper\"></div>");
@@ -288,7 +291,9 @@ $(document).ready(function(){
 			var op_control = create_op_control(node_id, operator);
 			$(ops_wrapper).append(op_control);
 		}
-		$(ops_wrapper).append(neg_control);
+		if(!is_wrapper){ 
+			$(ops_wrapper).append(neg_control);
+		}
 		$(cg_wrapper).append(lbl);
 		$(cg_wrapper).append(ops_wrapper);
 		$(cg_wrapper).append(button_set);
@@ -1045,6 +1050,7 @@ $(document).ready(function(){
 	        	dataType: "json",
 	        	success: function(json) {
 
+	        		$("select#query-list").children("option").filter(function(){ return ($(this).val().indexOf("-") != 0) }).remove();
 					$.each(json, function(index, value){
 
 						var opt = "<option value=\"" + value + "\">" + value + "</option>";
@@ -1071,9 +1077,10 @@ $(document).ready(function(){
 	        	success: function(xml) {
 
 	        		wipe_query();
-	        		set_current_query_name(query_name);
+	        		console.log("QN: " + query_name);
 					update_query_controls($(xml), $("#clause-controllers"));
-	        	
+	        		set_current_query_name(query_name);
+
 	        	}
 	        });
 
@@ -1096,6 +1103,9 @@ $(document).ready(function(){
 
 		new_name = $.trim(new_name);
 		$("#current-query-name").text(new_name);
+		new_title = "Query - " + new_name;
+		console.log("NT: " + new_title);
+		$("div.query-build-wrapper h3").text(new_title);
 
 	}
 
@@ -1120,6 +1130,7 @@ $(document).ready(function(){
 	var save_query = function(){
 
 		var query_name = $.trim($("#to-save").val());
+		set_current_query_name(query_name);
 		$.ajax({
        		type: "GET",
         	url: "save-query",
@@ -1134,7 +1145,6 @@ $(document).ready(function(){
         });		
 
 	}
-
 
 	init_new_query();
 	$(document).on("click", ".add-cl", add_clause);
