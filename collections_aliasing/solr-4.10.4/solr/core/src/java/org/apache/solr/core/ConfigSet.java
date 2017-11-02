@@ -22,6 +22,10 @@ import org.apache.solr.schema.IndexSchema;
 /**
  * Stores a core's configuration in the form of a SolrConfig and IndexSchema
  */
+
+/**
+ * All references to 'aliasconfig' added thill 2017.11.02
+ */
 public class ConfigSet {
 
   private final String name;
@@ -29,13 +33,22 @@ public class ConfigSet {
   private final SolrConfig solrconfig;
 
   private final IndexSchema indexSchema;
+  
+  private final AliasConfig aliasconfig;
 
   public ConfigSet(String name, SolrConfig solrConfig, IndexSchema indexSchema) {
+    this(name, solrConfig, indexSchema, null);
+  }
+
+  public ConfigSet(String name, SolrConfig solrConfig, IndexSchema indexSchema, AliasConfig aliasConfig) {
+    
     this.name = name;
     this.solrconfig = solrConfig;
     this.indexSchema = indexSchema;
+    this.aliasconfig = aliasConfig;
+    
   }
-
+  
   public String getName() {
     return name;
   }
@@ -46,5 +59,11 @@ public class ConfigSet {
 
   public IndexSchema getIndexSchema() {
     return indexSchema;
+  }
+  
+  public AliasConfig getAliasConfig() {
+    
+    return aliasconfig;
+    
   }
 }

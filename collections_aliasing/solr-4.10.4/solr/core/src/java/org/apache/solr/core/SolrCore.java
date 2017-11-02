@@ -160,6 +160,7 @@ public final class SolrCore implements SolrInfoMBean, Closeable {
   private boolean isReloaded = false;
 
   private final SolrConfig solrConfig;
+  private final AliasConfig aliasConfig;  // added thill 2017.11.02
   private final SolrResourceLoader resourceLoader;
   private volatile IndexSchema schema;
   private final String dataDir;
@@ -220,6 +221,16 @@ public final class SolrCore implements SolrInfoMBean, Closeable {
    */
   public SolrConfig getSolrConfig() {
     return solrConfig;
+  }
+  
+  /*
+   * Added thill 2011.11.02
+   */
+  
+  public AliasConfig getAliasConfig() {
+    
+    return aliasConfig;
+    
   }
   
   /**
@@ -435,7 +446,7 @@ public final class SolrCore implements SolrInfoMBean, Closeable {
     }
     
     SolrCore core = new SolrCore(getName(), getDataDir(), coreConfig.getSolrConfig(),
-        coreConfig.getIndexSchema(), coreDescriptor, updateHandler, this.solrDelPolicy, prev);
+        coreConfig.getIndexSchema(), coreConfig.getAliasConfig(), coreDescriptor, updateHandler, this.solrDelPolicy, prev);
     core.solrDelPolicy = this.solrDelPolicy;
     
 
@@ -647,11 +658,11 @@ public final class SolrCore implements SolrInfoMBean, Closeable {
    * @since solr 1.3
    */
   public SolrCore(String name, String dataDir, SolrConfig config, IndexSchema schema, CoreDescriptor cd) {
-    this(name, dataDir, config, schema, cd, null, null, null);
+    this(name, dataDir, config, schema, null, cd, null, null, null);
   }
 
   public SolrCore(CoreDescriptor cd, ConfigSet coreConfig) {
-    this(cd.getName(), null, coreConfig.getSolrConfig(), coreConfig.getIndexSchema(), cd, null, null, null);
+    this(cd.getName(), null, coreConfig.getSolrConfig(), coreConfig.getIndexSchema(), coreConfig.getAliasConfig(), cd, null, null, null);
   }
 
 
@@ -664,6 +675,7 @@ public final class SolrCore implements SolrInfoMBean, Closeable {
     this.setName(name);
     this.schema = null;
     this.dataDir = null;
+    this.aliasConfig = null; // added thill 2017.11.02
     this.solrConfig = null;
     this.startTime = System.currentTimeMillis();
     this.maxWarmingSearchers = 2;  // we don't have a config yet, just pick a number.
@@ -688,12 +700,12 @@ public final class SolrCore implements SolrInfoMBean, Closeable {
    *
    *@since solr 1.3
    */
-  public SolrCore(String name, String dataDir, SolrConfig config, IndexSchema schema, CoreDescriptor cd, UpdateHandler updateHandler, IndexDeletionPolicyWrapper delPolicy, SolrCore prev) {
+  public SolrCore(String name, String dataDir, SolrConfig config, IndexSchema schema, AliasConfig aliasConfig, CoreDescriptor cd, UpdateHandler updateHandler, IndexDeletionPolicyWrapper delPolicy, SolrCore prev) {
     coreDescriptor = cd;
     this.setName( name );
     resourceLoader = config.getResourceLoader();
     this.solrConfig = config;
-    
+    this.aliasConfig = aliasConfig;
     if (updateHandler == null) {
       initDirectoryFactory();
     }

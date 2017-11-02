@@ -60,7 +60,8 @@ public abstract class ConfigSetService {
     try {
       SolrConfig solrConfig = createSolrConfig(dcore, coreLoader);
       IndexSchema schema = createIndexSchema(dcore, solrConfig);
-      return new ConfigSet(configName(dcore), solrConfig, schema);
+      AliasConfig aliasConfig = createAliasConfig(dcore, coreLoader);
+      return new ConfigSet(configName(dcore), solrConfig, schema, aliasConfig);
     }
     catch (Exception e) {
       throw new SolrException(SolrException.ErrorCode.SERVER_ERROR,
@@ -88,6 +89,17 @@ public abstract class ConfigSetService {
    */
   protected IndexSchema createIndexSchema(CoreDescriptor cd, SolrConfig solrConfig) {
     return IndexSchemaFactory.buildIndexSchema(cd.getSchemaName(), solrConfig);
+  }
+  
+  /**
+   * Added thill 2017.11.02
+   * 
+   */
+  
+  protected AliasConfig createAliasConfig(CoreDescriptor cd, SolrResourceLoader loader) {
+    
+    return AliasConfig.readFromResourceLoader(loader, cd.getConfigName());
+    
   }
 
   /**
