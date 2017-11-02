@@ -177,10 +177,16 @@ class XMLQueryEditor:
 				operator = self.construct_operator(xml_struct, child)
 				negator = self.construct_negator(child)
 				clausular_contents = self.serialise_to_solr_query(child)
+				try:
+					is_wrapper = (child.attrib["wrapper"] == "true")
+				except KeyError:
+					is_wrapper = False
+				start_grouper = "" if is_wrapper else "("
+				end_grouper = "" if is_wrapper else ")"
 				if(clausular_contents == ""):
 					query_string += ""
 				else:
-					query_string += " " + operator + " " + negator + "(" + clausular_contents.strip() + ")"	
+					query_string += " " + operator + " " + negator + start_grouper + clausular_contents.strip() + end_grouper	
 		query_string = re.sub(r'\s+', ' ', query_string)
 		if(not(query_string.startswith(" AND") and not(query_string.startswith(" OR")))):
 			query_string = query_string.lstrip()

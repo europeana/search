@@ -101,7 +101,7 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe.add_clausular_element(clausular_element=clause, to_el_id="2")
 		new_number_of_clauses = len(xqe.get_tree().getroot().findall(".//clause"))
 		self.assertEquals(prev_number_of_clauses + 1, new_number_of_clauses)
-		last_root_child = xqe.get_tree().getroot().findall("clause")[-1]
+		last_root_child = xqe.get_tree().getroot().findall("./clause-group/clause")[-1]
 		self.assertNotEquals(last_root_child.find("value").text, "Quellenforschung")
 		augmented_clause_group = xqe.retrieve_node_by_id("2")
 		last_child = augmented_clause_group.findall("clause")[-1]
@@ -291,7 +291,7 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		start_lang = start_node.attrib["{http://www.w3.org/XML/1998/namespace}lang"]
 		xqe.convert_to_clause_group("4")
 		# we now test that the clause has a new position ...
-		found_node = xqe._tree.getroot().find("./clause-group/clause-group/clause[@node-id=\"4\"]")
+		found_node = xqe._tree.getroot().find("./clause-group/clause-group/clause-group/clause[@node-id=\"4\"]")
 		self.assertIsNotNone(found_node)
 		# ... but is otherwise unchanged
 		end_op = found_node.attrib["operator"]
@@ -306,7 +306,7 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		start_node = xqe.retrieve_node_by_id("4")
 		xqe.convert_to_clause_group("4")
-		new_group_node = xqe._tree.getroot().find("./clause-group/clause-group[1]/clause[@node-id=\"4\"]")
+		new_group_node = xqe._tree.getroot().find("./clause-group/clause-group/clause-group[1]/clause[@node-id=\"4\"]")
 		self.assertIsNotNone(new_group_node)
 
 	def test_convert_to_clause(self):
@@ -314,8 +314,8 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		# as they had prior to the clause-group being removed
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		xqe.ungroup_clause_group("2")
-		first_freed_clause = xqe.get_tree().getroot().find("./clause[2]")
-		second_freed_clause = xqe.get_tree().find("./clause[3]")
+		first_freed_clause = xqe.get_tree().getroot().find("./clause-group/clause[2]")
+		second_freed_clause = xqe.get_tree().find("./clause-group/clause[3]")
 		self.assertEquals(first_freed_clause.get("node-id"), "3")
 		self.assertEquals(second_freed_clause.get("node-id"), "4")
 
@@ -377,7 +377,6 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 	def test_reading_directory(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		query_list = xqe.read_query_directory()
-		print(query_list)
 		self.assertGreater(len(query_list), 1)
 		self.assertIn("test", query_list)
 
