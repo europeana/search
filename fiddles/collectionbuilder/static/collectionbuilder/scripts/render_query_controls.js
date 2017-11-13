@@ -1067,22 +1067,31 @@ $(document).ready(function(){
 
 	var open_query = function(){
 
-		var query_name = $(this).val();
-		$.ajax({
-	       		type: "GET",
-	        	url: "open-query",
-	        	cache: false,
-	        	dataType: "xml",
-	        	data: {"query_name" : query_name },
-	        	success: function(xml) {
+		var current_query_exists = $.trim(serialise_query($("#big-query-wrapper"), false)) != "";
+		confirmed = true;
+		if(current_query_exists){ 
 
-	        		wipe_query();
-	        		console.log("QN: " + query_name);
-					update_query_controls($(xml), $("#clause-controllers"));
-	        		set_current_query_name(query_name);
+			var confirmed = confirm("Note: opening a new query will eliminate the previous query. Are you sure you wish to proceed?");
+		
+		}
+		if(confirmed){
 
-	        	}
-	        });
+			var query_name = $(this).val();
+			$.ajax({
+		       		type: "GET",
+		        	url: "open-query",
+		        	cache: false,
+		        	dataType: "xml",
+		        	data: {"query_name" : query_name },
+		        	success: function(xml) {
+
+		        		wipe_query();
+						update_query_controls($(xml), $("#clause-controllers"));
+		        		set_current_query_name(query_name);
+
+		        	}
+		        });
+		}
 
 	}
 
@@ -1104,7 +1113,6 @@ $(document).ready(function(){
 		new_name = $.trim(new_name);
 		$("#current-query-name").text(new_name);
 		new_title = "Query - " + new_name;
-		console.log("NT: " + new_title);
 		$("div.query-build-wrapper h3").text(new_title);
 
 	}
@@ -1129,20 +1137,30 @@ $(document).ready(function(){
 
 	var save_query = function(){
 
+		var active_query_name = get_current_query_name();
 		var query_name = $.trim($("#to-save").val());
-		set_current_query_name(query_name);
-		$.ajax({
-       		type: "GET",
-        	url: "save-query",
-        	cache: false,
-        	dataType: "xml",
-        	data: { "query_name" : query_name },
-        	success: function(xml) {
+		var confirmed = true;
+		if(active_query_name == query_name){
 
-				alert("Query \"" + query_name + "\" saved OK." );
+			confirmed = confirm("Overwrite query " + active_query_name + "?");
 
-        	}
-        });		
+		}
+		if(confirmed){
+
+			set_current_query_name(query_name);
+			$.ajax({
+	       		type: "GET",
+	        	url: "save-query",
+	        	cache: false,
+	        	dataType: "xml",
+	        	data: { "query_name" : query_name },
+	        	success: function(xml) {
+
+					alert("Query \"" + query_name + "\" saved OK." );
+
+	        	}
+	        });		
+		}
 
 	}
 
