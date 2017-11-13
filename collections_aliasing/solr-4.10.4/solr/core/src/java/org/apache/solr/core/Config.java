@@ -224,6 +224,20 @@ public class Config {
       throw new SolrException( SolrException.ErrorCode.SERVER_ERROR,"Error in xpath:" + path +" for " + name,e);
     }
   }
+  
+  public Object evaluate(String path, Node context, QName type) {
+    XPath xpath = xpathFactory.newXPath();
+    try {
+      String xstr=normalize(path);
+
+      // TODO: instead of prepending /prefix/, we could do the search rooted at /prefix...
+      Object o = xpath.evaluate(xstr, context, type);
+      return o;
+
+    } catch (XPathExpressionException e) {
+      throw new SolrException( SolrException.ErrorCode.SERVER_ERROR,"Error in xpath:" + path +" for " + name,e);
+    }
+  }
 
   public Node getNode(String path, boolean errifMissing) {
     return getNode(path, doc, errifMissing);

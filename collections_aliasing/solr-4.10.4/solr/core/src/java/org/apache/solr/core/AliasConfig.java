@@ -3,15 +3,20 @@ package org.apache.solr.core;
 import java.io.IOException;
 import java.util.HashMap;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import org.apache.solr.cloud.ZkSolrResourceLoader;
 import org.apache.solr.common.SolrException;
 import org.apache.solr.common.SolrException.ErrorCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
+
+import com.sun.org.apache.xerces.internal.dom.ElementImpl;
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -76,7 +81,7 @@ public class AliasConfig extends Config {
   public AliasConfig(SolrResourceLoader loader, String name, InputSource is)
       throws ParserConfigurationException, IOException, SAXException {
     
-      super(loader, name, is, "/alias-configs/");
+      super(loader, AliasConfig.DEFAULT_CONF_FILE, is, "/alias-configs/");
       this.aliases = populateAliases();
       Config.log.info("Loaded Aliases Config: " + name);
   
@@ -84,24 +89,39 @@ public class AliasConfig extends Config {
   
   private HashMap<String, HashMap<String, String>> populateAliases() {
     
-    HashMap<String,HashMap<String, String>> tempAliases = new HashMap<String, HashMap<String, String>>();
-    NodeList aliasFields = (NodeList) evaluate(".", XPathConstants.NODESET);
+    HashMap<String,HashMap<String, String>> allAliases = new HashMap<String, HashMap<String, String>>();
+    NodeList aliasFields = (NodeList) evaluate("alias-config", XPathConstants.NODESET);
     for(int i = 0; i < aliasFields.getLength(); i++) {
       
-      String fieldName = get("alias-pseudofield");
-      NodeList aliasNodes = (NodeList) evaluate(".", XPathConstants.NODESET);
+      ElementImpl pseudofieldNode = (ElementImpl) aliasFields.item(i);
+      String fieldName = pseudofieldNode.getElementsByTagName("alias-pseudofield").item(0).getTextContent();
+      NodeList configs = pseudofieldNode.getElementsByTagName("alias-def");
       HashMap<String, String> aliasMap = new HashMap<String, String>();
-      for(int j = 0; j < aliasNodes.getLength(); j++) {
+      for (int j=0; j < configs.getLength(); j++) {
         
-        String alias = get("alias");
-        String query = get("query");
-        aliasMap.put(alias, query);
+          ElementImpl configNode = (ElementImpl) configs.item(j);
+          String alias = configNode.getElementsByTagName("alias").item(0).getTextContent();
+          String query = configNode.getElementsByTagName("query").item(0).getTextContent();
+          aliasMap.put(alias, query);
         
       }
-      tempAliases.put(fieldName, aliasMap);
+        allAliases.put(fieldName, aliasMap);
     }
 
-    return tempAliases;
+    return allAliases;
+    
+  }
+  
+  public String getTestMsg() {
+    
+    return "Test message from Alias Configuration object.";
+    
+  }
+  
+  public HashMap<String, HashMap<String,String>> getAliases(){
+    
+    return this.aliases;
+    
     
   }
   
