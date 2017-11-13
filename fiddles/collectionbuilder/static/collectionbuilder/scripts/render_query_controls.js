@@ -532,6 +532,13 @@ $(document).ready(function(){
             success: function(json) {
 
             		vals = json["values"];
+            		var is_na = (vals.length == 1 && vals[0] == "Application Message: N/A");
+            		if(is_na){
+
+            			indicate_not_facetable(node_id);
+            			return;
+
+            		}
             		var is_error = (vals.length == 2 && vals[0] == "ERROR"); 
             		if(is_error){
 
@@ -566,6 +573,14 @@ $(document).ready(function(){
         $(err_opt).attr("disabled", "disabled");
         $("#" + node_id).find(".facet-selector").remove();
         $(form_control).parents(".clause-input").children(".dropdowns").first().append(value_selector);
+
+	}
+
+	var indicate_not_facetable = function(node_id){
+
+		var field_input = $("#" + node_id).find(".field-value");
+		$(field_input).val("Non-facetable value - enter text here");
+		$(field_input).addClass("facet-warning");
 
 	}
 
@@ -1164,6 +1179,18 @@ $(document).ready(function(){
 
 	}
 
+	var remove_facet_warning = function(){
+
+		if($(this).hasClass("facet-warning")){
+
+			$(this).val("");
+			$(this).removeClass("facet-warning");
+
+		}
+
+
+	}
+
 	init_new_query();
 	$(document).on("click", ".add-cl", add_clause);
 	$(document).on("click", ".add-cg", add_clause_group);
@@ -1175,6 +1202,7 @@ $(document).ready(function(){
 	$(document).on("click", ".expand", expand_languages);
 	$(document).on("click", ".finished-expanding", dismiss_expansions);
 	$(document).on("change", ".field-value", update_clause);
+	$(document).on("focus", ".field-value", remove_facet_warning);
 	$(document).on("change", ".operator-radio", update_operator_indirectly);
 	$(document).on("change", ".negcheck", update_negated_status_indirectly);
 	$(document).on("click", ".convert-to-cg", convert_to_clause_group);
