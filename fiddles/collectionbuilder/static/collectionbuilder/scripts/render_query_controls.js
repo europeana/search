@@ -189,24 +189,36 @@ $(document).ready(function(){
 	var construct_query_operator = function(child){
 
 		op = $(child).attr("operator")
+		var operator = "";
 		if($(child).attr("operator-suppressed") == "true"){
-			return "";
+			operator = "";
 		}
 		if(op == "AND"){
-			return "AND";
+			operator = "AND";
 		}
 		if(op == "OR"){
-			return "OR";
+			operator = "OR";
 		}
-		return "";
+		if(operator == ""){ return operator; }
+		else{
+
+			var open_tag = "<span class=\"operator-as-text\">";
+			var close_tag = "</span>";
+			return open_tag + operator + close_tag;
+
+		}
 
 	}
 
 	var construct_query_negator = function(child){
+
 		var neg = $(child).attr("negated");
 		var sup = $(child).attr("operator-suppressed");
+		negator = "";
 		if(neg == "true" && sup == "true"){
-			return "-";
+			var open_tag = "<span class=\"negator-as-text\">";
+			var close_tag = "</span>";
+			return open_tag + negator + close_tag;
 		}
 		else{
 			return "";
@@ -222,10 +234,15 @@ $(document).ready(function(){
 		var node_id = "q_" + $(clause).attr("node-id");		
 		var field = $(clause).find("field").text();
 		var value = $(clause).find("value").text();
+		var field_open_tag = "<span class=\"field-as-text\">";
+		var value_open_tag = "<span class=\"value-as-text\">";
+		var close_tag = "</span>";
 		if(value != "*"){ value = "\"" + value + "\""; }
 		var wrapper = $("<span " + deprecated + " id=\"" + node_id + "\"></span>");
+		field = field_open_tag + field + close_tag;
+		value = value_open_tag + value + close_tag;
 		var qs = " " + operator + " " + negator + field + ":" + value;
-		$(wrapper).text(qs)
+		$(wrapper).html(qs)
 		return $(wrapper);
 
 	}
@@ -568,8 +585,10 @@ $(document).ready(function(){
 
 		var input_box = $("#" + node_id).find(".field-value");
 		var msg = "Top 1000 facet values supplied";
-		$(input_box).addClass("facet-warning");
-		$(input_box).val(msg);
+		if($(input_box).val() == ""){
+			$(input_box).addClass("facet-warning");
+			$(input_box).val(msg);
+		}
 
 	}
 
@@ -594,12 +613,11 @@ $(document).ready(function(){
 		
 			$(field_input).val("Non-facetable value - enter text here");
 			$(field_input).addClass("facet-warning");
-			if ($(field_input).data('autocomplete')) {
+			var new_input = $(field_input).clone();
+			var dropdowns_wrapper = $(field_input).parents(".clause-input").first().find(".dropdowns").first();
+			$(field_input).parent().closest(".easy-autocomplete").remove();
+			$(new_input).insertBefore($(dropdowns_wrapper));
 
-  				$(field_input).autocomplete("destroy");
-  				$(field_input).removeData("autocomplete");
-
-			}
 
 		}
 
