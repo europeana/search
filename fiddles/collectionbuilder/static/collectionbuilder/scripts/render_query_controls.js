@@ -559,10 +559,20 @@ $(document).ready(function(){
             		$(parent_selector).find(".dropdowns").first().append(value_selector);
             		$(value_selector).val(current_value);
             		create_autocomplete($(parent_selector).find(".field-value").first(),vals);
-
+            		display_faceting_info(node_id);
                 }
             });
 	}
+
+	var display_faceting_info = function(node_id){
+
+		var input_box = $("#" + node_id).find(".field-value");
+		var msg = "Top 1000 facet values supplied";
+		$(input_box).addClass("facet-warning");
+		$(input_box).val(msg);
+
+	}
+
 
 	var show_facet_error = function(node_id, form_control, error_list){
 
@@ -579,8 +589,19 @@ $(document).ready(function(){
 	var indicate_not_facetable = function(node_id){
 
 		var field_input = $("#" + node_id).find(".field-value");
-		$(field_input).val("Non-facetable value - enter text here");
-		$(field_input).addClass("facet-warning");
+		var val = $(field_input).val();
+		if(val == ""){
+		
+			$(field_input).val("Non-facetable value - enter text here");
+			$(field_input).addClass("facet-warning");
+			if ($(field_input).data('autocomplete')) {
+
+  				$(field_input).autocomplete("destroy");
+  				$(field_input).removeData("autocomplete");
+
+			}
+
+		}
 
 	}
 
@@ -588,8 +609,10 @@ $(document).ready(function(){
 
 		var val = $(this).val();
 		var node_selector = "#" + get_parent_node_id($(this));
-		$(node_selector).find(".field-value").first().val(val);
-	
+		var input_box = $(node_selector).find(".field-value").first();
+		remove_facet_warning.apply(input_box);
+		$(input_box).val(val);
+
 	}
 
 	var expand_languages = function(){
@@ -687,8 +710,6 @@ $(document).ready(function(){
 		else{ value = value.trim(); }
 		if(!field){ field = ""; }
 		field = field.trim();
-	//	if(field != ""){
-
 		$.ajax({
             type: "GET",
             url: "updatevalues",
@@ -701,8 +722,6 @@ $(document).ready(function(){
 
                 }
             });	
-
-		//}
 
 	}
 
