@@ -92,6 +92,9 @@ public class AliasingRequestHandler extends SearchHandler{
           if(aliases.containsKey(fieldName)) {
             HashMap<String, String> themeAliases = aliases.get(fieldName);
             String collectionName = checkValue.split(":")[1].trim();
+            // let's also eliminate any possible confusion as to whether this is a phrase query or not
+            collectionName = collectionName.replace("\"", "");
+            collectionName = collectionName.replace("'", "");
             if(themeAliases.containsKey(collectionName)) {
               checkValue = themeAliases.get(collectionName);
             }
