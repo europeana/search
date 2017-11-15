@@ -193,11 +193,11 @@ $(document).ready(function(){
 		if($(child).attr("operator-suppressed") == "true"){
 			operator = "";
 		}
-		if(op == "AND"){
-			operator = "AND";
+		else if(op == "AND"){
+			operator = " AND ";
 		}
-		if(op == "OR"){
-			operator = "OR";
+		else if(op == "OR"){
+			operator = " OR ";
 		}
 		if(operator == ""){ return operator; }
 		else{
@@ -241,7 +241,7 @@ $(document).ready(function(){
 		var wrapper = $("<span " + deprecated + " id=\"" + node_id + "\"></span>");
 		field = field_open_tag + field + close_tag;
 		value = value_open_tag + value + close_tag;
-		var qs = " " + operator + " " + negator + field + ":" + value;
+		var qs = " " + operator + " " + negator + field + "<span class=\"semicolon\">:</span>" + value;
 		$(wrapper).html(qs)
 		return $(wrapper);
 
@@ -614,8 +614,10 @@ $(document).ready(function(){
 			$(field_input).val("Non-facetable value - enter text here");
 			$(field_input).addClass("facet-warning");
 			var new_input = $(field_input).clone();
+			var autocomplete = $(field_input).parent().closest(".easy-autocomplete");
 			var dropdowns_wrapper = $(field_input).parents(".clause-input").first().find(".dropdowns").first();
-			$(field_input).parent().closest(".easy-autocomplete").remove();
+			$(field_input).remove();
+			$(autocomplete).remove();
 			$(new_input).insertBefore($(dropdowns_wrapper));
 
 
@@ -746,6 +748,7 @@ $(document).ready(function(){
 	var view_results = function(){
 
 		qry = serialise_query($("#big-query-wrapper"), false);
+		console.log(qry);
 		var results_page = "http://www.europeana.eu/portal/en/search?q=" + qry;
 		window.open(results_page, "_blank");
 
