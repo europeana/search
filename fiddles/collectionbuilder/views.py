@@ -16,8 +16,7 @@ XQE = XMLQueryEditor.XMLQueryEditor()
 ALL_FIELDS = []
 FACET_FIELDS = []
 SOLR_URL = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/select?wt=json"
-EXPANSION_LANGUAGES = ["fr", "de", "es", "nl", "pl", "it"] #TODO: get more codes
-
+EXPANSION_LANGUAGES = ["fr", "de", "es", "nl", "pl", "it", "bg", "hu", "cs", "da", "et", "fi", "el", "hr", "ga", "lt", "lv", "pt", "ro", "sk", "sl", "sv", "hr", "mt", "el", "la", "gd", "ru", "ca", "cu"]
 def index(request):
 	here = os.path.dirname(os.path.realpath(__file__))
 	allfields_path = os.path.join(here, "conf", "allfields.txt")

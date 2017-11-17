@@ -638,7 +638,7 @@ $(document).ready(function(){
 	var expand_languages = function(){
 
 		var clause_box = $(this).parents(".clause").first();
-		var original_term = $(this).parents(".clause").first().children(".clause-input").first().children("input.field-value").first().val();
+		var original_term = $(clause_box).find("input.field-value").first().val();
 		$.ajax({
             type: "GET",
             url: "translate",
@@ -660,8 +660,19 @@ $(document).ready(function(){
 		$.each(json, function(k, v){ langs.push(k);});
 		langs = langs.sort()
 		var exp_wrapper = $("<div class=\"expansions\"></div>");
+		// let's do this in three columns
+		var num_columns = 4;
+		var adj_num_per_column = Math.ceil(langs.length / num_columns);
+		var current_column = $("<div class=\"trans-column\"></div>");
 		for(var i = 0; i < langs.length; i++){
 
+			var new_column = (i > 0 && i % adj_num_per_column == 0);
+			if(new_column){
+
+				$(exp_wrapper).append(current_column);
+				current_column = $("<div class=\"trans-column\"></div>");
+
+			}
 			lang_code = langs[i];
 			lang_trans = json[lang_code];
 			var trans_wrapper = $("<div class\"trans-wrapper\"></div>");
@@ -673,7 +684,13 @@ $(document).ready(function(){
 			$(info_wrapper).append(lang_val_display);
 			$(trans_wrapper).append(check);
 			$(trans_wrapper).append(info_wrapper);
-			$(exp_wrapper).append(trans_wrapper);
+			$(current_column).append(trans_wrapper);
+			var last_column = ( i == langs.length - 1);
+			if(last_column){
+
+				$(exp_wrapper).append(current_column);
+
+			}
 
 		}
 
@@ -701,6 +718,13 @@ $(document).ready(function(){
 		var this_id = $(this).parents(".clause").first().attr("id");
 		var delenda = $(this).parents(".expansions").first().prevAll(".button-set").first().find(".delete").first();
 		delete_clausular_element.apply(delenda);
+
+	}
+
+	var remove_translations_without_expansion = function(node_id){
+
+		var clause = $("#" + node_id);
+		$(clause).find(".expansions").remove();
 
 	}
 
@@ -923,6 +947,7 @@ $(document).ready(function(){
 
 	var toggle_save_box = function(){
 
+		$("#query-list").css({ "visibility" : "hidden" });
 		var query_name = get_current_query_name();
 		var save_box = $("#to-save");
 		if(query_name != ""){
@@ -1081,6 +1106,7 @@ $(document).ready(function(){
 
 	var register_query_change = function(node_id, xml){
 
+		remove_translations_without_expansion(node_id);
 		build_solr_query($(xml));
 		update_facet_controls(node_id, $(xml));
 
@@ -1098,6 +1124,7 @@ $(document).ready(function(){
 
 	var get_saved_queries = function(){
 
+			$("#to-save").css({"visibility" : "hidden"});
 			$.ajax({
 	       		type: "GET",
 	        	url: "get-saved-queries",
