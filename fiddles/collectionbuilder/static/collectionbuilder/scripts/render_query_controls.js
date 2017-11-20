@@ -302,7 +302,7 @@ $(document).ready(function(){
 		if(is_wrapper){ cg_wrapper.addClass("query-build-wrapper")}
 		var lbl = $("<h3>" + lbl + "</h3>");
 		var neg_control = create_negated_control(is_negated);
-		var button_set = create_group_button_set();
+		var button_set = create_group_button_set(is_wrapper);
 		var ops_wrapper = $("<div class=\"ops-wrapper\"></div>");
 		if(is_suppressed == "false"){
 			var op_control = create_op_control(node_id, operator);
@@ -382,7 +382,7 @@ $(document).ready(function(){
 
 	}
 
-	var create_group_button_set = function(){
+	var create_group_button_set = function(is_wrapper){
 
 		var wrapper = $("<div class=\"button-set\"><div>");
 		var add_cg = $("<div class=\"button-control add-cg\">Add Clause Group</div>");
@@ -392,9 +392,11 @@ $(document).ready(function(){
 		var del = $("<div class=\"button-control delete\">Delete</div>");
 		$(wrapper).append(add_cg);
 		$(wrapper).append(add_cl);
-		$(wrapper).append(con);
-		$(wrapper).append(dep);
-		$(wrapper).append(del);
+		if(!is_wrapper){
+			$(wrapper).append(con);
+			$(wrapper).append(dep);
+			$(wrapper).append(del);
+		}
 		return $(wrapper);
 
 	}
@@ -563,8 +565,25 @@ $(document).ready(function(){
             			return;
 
             		}
+            		var num_results = vals.length;
+            		var optstring = "--- Top " + num_results + " terms ---";
+            		if(num_results <=2){
+
+            			optstring = "-----------------";
+
+            		}
+            		else if(num_results == 1000){
+
+            			opstring = "--- Top 1000 terms ---";
+
+            		}
+            		else{
+
+            			optstring = "----- " + num_results + " terms -----";
+
+            		}
             		var value_selector = $("<select class=\"facet-selector\"></select>");
-            		var no_val = $("<option value=\"\">---------</option>")
+            		var no_val = $("<option value=\"\">" + optstring + "</option>")
             		$(value_selector).append(no_val);
             		for(var i = 0; i < vals.length; i++){
 
@@ -584,10 +603,8 @@ $(document).ready(function(){
 	var display_faceting_info = function(node_id){
 
 		var input_box = $("#" + node_id).find(".field-value");
-		var msg = "Top 1000 facet values supplied";
 		if($(input_box).val() == ""){
 			$(input_box).addClass("facet-warning");
-			$(input_box).val(msg);
 		}
 
 	}
@@ -648,7 +665,8 @@ $(document).ready(function(){
             success: function(json) {
 
             		render_term_expansions(json, clause_box);
-
+            		get_new_hit_count();
+            		
                 }
             });
 	}
@@ -772,7 +790,6 @@ $(document).ready(function(){
 	var view_results = function(){
 
 		qry = serialise_query($("#big-query-wrapper"), false);
-		console.log(qry);
 		var results_page = "http://www.europeana.eu/portal/en/search?q=" + qry;
 		window.open(results_page, "_blank");
 
@@ -1109,6 +1126,54 @@ $(document).ready(function(){
 		remove_translations_without_expansion(node_id);
 		build_solr_query($(xml));
 		update_facet_controls(node_id, $(xml));
+		get_new_hit_count();
+
+	}
+
+	var get_new_hit_count = function(){
+
+		$.ajax({
+            type: "GET",
+            url: "get-hit-count",
+            cache: false,
+            dataType: "json",
+            success: function(json) {
+
+            		var count = json['count'];
+            		display_new_hit_count(count, false);
+
+            },
+            error: function(json){
+
+            		display_new_hit_count(0, true);
+
+            }
+
+        });
+
+	}
+
+	var display_new_hit_count = function(new_count, revert){
+
+		var current_query_exists = $.trim(serialise_query($("#big-query-wrapper"), false)) != "";
+		if(!current_query_exists || revert == true){
+
+			$("#hit-count").removeClass("no-hits");
+			$("#hit-count").addClass("not-started");
+			$("#hit-count").text("Awaiting query");
+			return;
+
+		}
+		$("#hit-count").removeClass("not-started");
+		$("#hit-count").removeClass("no-hits");
+		var msg = new_count + " hits";
+		$("#hit-count").text(msg);
+		if(new_count == 0){
+
+			$("#hit-count").addClass("no-hits");
+
+		}
+
 
 	}
 

@@ -17,6 +17,7 @@ ALL_FIELDS = []
 FACET_FIELDS = []
 SOLR_URL = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/select?wt=json"
 EXPANSION_LANGUAGES = ["fr", "de", "es", "nl", "pl", "it", "bg", "hu", "cs", "da", "et", "fi", "el", "hr", "ga", "lt", "lv", "pt", "ro", "sk", "sl", "sv", "hr", "mt", "el", "la", "gd", "ru", "ca", "cu"]
+
 def index(request):
 	here = os.path.dirname(os.path.realpath(__file__))
 	allfields_path = os.path.join(here, "conf", "allfields.txt")
@@ -27,9 +28,6 @@ def index(request):
 	with open(facetfields_path) as facetfields:
 		for line in facetfields.readlines():
 			FACET_FIELDS.append(line.strip())
-	print(ALL_FIELDS)
-	print("____________")
-	print(FACET_FIELDS)
 	return render(request, 'collectionbuilder/index.html')
 
 def init(request):
@@ -98,12 +96,13 @@ def facetvalues(request):
 	XQE.set_field(current_field, node_id)
 	XQE.set_value(current_value, node_id)
 	fq = XQE.get_facet_query_for_clause(node_id)
-	slr_qry = SOLR_URL + "&q=" + fq + "&rows=0&facet=true&facet.mincount=1&facet.limit=1000&facet.field=" + current_field
-	print(slr_qry)
+	slr_qry = SOLR_URL + "&q=" + fq + "&rows=0&facet=true&facet.mincount=1&facet.limit=1250&facet.field=" + current_field
 	res = requests.get(slr_qry).json()
 	try:
 		values_list = [val for val in res["facet_counts"]["facet_fields"][current_field] if re.search('[a-zA-Z]', str(val))]
-		all_values["values"] = values_list
+		count_list = [c for c in res["facet_counts"]["facet_fields"][current_field] if re.match('^[\d]+$', str(c))]
+		all_values["values"] = values_list[:1000]
+		print(count_list)
 	except KeyError:
 		error_msg = ["ERROR", res["error"]["msg"]]
 		all_values["values"] = error_msg
@@ -214,6 +213,14 @@ def savequery(request):
 	query_name = request.GET["query_name"]
 	XQE.save_query_file(query_name)
 	return HttpResponse("<status>success</status>", 'application/xml')
+
+def gethitcount(request):
+	try:
+		count = XQE.postflight_query()
+		return HttpResponse(json.dumps({ 'count' : count }), 'application/json')
+	except:
+		return HttpResponse(json.dumps({'status':'false','message':'Connection failure'}), 'application/json')
+
 
 def openquery(request):
 	query_name = request.GET["query_name"]

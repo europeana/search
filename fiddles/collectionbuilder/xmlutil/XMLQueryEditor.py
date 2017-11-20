@@ -280,8 +280,7 @@ class XMLQueryEditor:
 		solr_qry = self.serialise_to_solr_query()
 		solr_qry = SOLR_URL + "&rows=0&q=" + solr_qry	
 		try:
-			solr_results = requests.get(solr_qry).json()
-			count = solr_results["response"]["numFound"]
+			count = self.postflight_query()
 			if(count == 0):
 				raise ZeroResultsException("Query returns zero results")
 			else:
@@ -289,6 +288,12 @@ class XMLQueryEditor:
 		except Exception as e:
 			raise ZeroResultsException("Connection failure: " + str(e))
 
+	def postflight_query(self):
+		solr_qry = self.serialise_to_solr_query()
+		solr_qry = SOLR_URL + "&rows=0&q=" + solr_qry	
+		solr_results = requests.get(solr_qry).json()
+		count = solr_results["response"]["numFound"]
+		return count
 
 	def operators_are_consistent(self, new_operator, node_id):
 		clause_parent = self.find_clause_parent(node_id)

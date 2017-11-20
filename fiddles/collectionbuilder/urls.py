@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'convert-to-cl$', views.converttoclause, name="converttoclause"),
     url(r'force-all-operators$', views.forcealloperators, name="forcealloperators"),
     url(r'get-saved-queries$', views.getsavedqueries, name="getsavedqueries"),
+    url(r'get-hit-count$', views.gethitcount, name="gethitcount"),
     url(r'open-query', views.openquery, name="openquery"),
     url(r'save-query', views.savequery, name="savequery"),
     
