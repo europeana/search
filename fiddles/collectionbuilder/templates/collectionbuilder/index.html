@@ -44,7 +44,7 @@
 		#current-query-name{ visibility: hidden; }
 		.facet-warning { color: #cccccc; font-style: italic; }
 		#mode-shifter{ position: relative; margin-top: 15px; }
-		#mode-shift-buttons, #mode-shift-controls{ clear: both; position: relative; width: 90%; margin-left: auto; margin-right: auto; }
+		#mode-shift-buttons, #mode-shift-controls{ clear: both; position: relative; width: 55%; margin-left: auto; margin-right: auto; }
 		#mode-shift-controls{ margin-top: 1em;  }
 		#query-list{ visibility: hidden; width: 9em; margin: 0 2em 0 2em; }
 		#to-save{ height: 30px; width: 9em; visibility: hidden; margin: 0 2em 0 1em;}
@@ -53,9 +53,11 @@
 		#qb{ clear: both; position: relative; top: 5em; }
 		.trans-column{ float: left; margin-right: 15px;}
 		h1{ margin-top: 0; padding-top: 0; }
-		#hit-count{ position: fixed; right: 15px; top: 15px; corner-radius: 5px; border: thin solid black; padding: 10px; background-color: #ffffff; width: 5em; text-align: center; color: black; z-index: 1000;}
+		#constant-controls{ position: fixed; width: 7em; right: -2em; top: 15px; z-index: 1000; }
+		#hit-count, #view-results { cursor: pointer; corner-radius: 5px; border: thin solid black; border-right: none; padding: 10px; background-color: #ffffff; width: 4em; text-align: center; color: black; margin-bottom: 10px;}
 		.not-started{ font-style: italic; background-color: #ffffff; color: black;}
 		#hit-count.no-hits{ background-color: red; color: white; font-weight: bold; }
+		.clause-warning-wrapper{ float: right; color: red; font-style: italic; }
 	</style>
 </head>
 <body>
@@ -92,18 +94,22 @@ be inconsistent with those of their siblings</p>
 <input type="hidden" name="is-results" id="is-results" value="false"/>
 {% endif %}
 <h1>Collection Builder</h1>
+<div id="constant-controls">
+<div id="view-results">
+	View<br/> Results
+</div>
 <div id="hit-count" class="not-started">
 	Awaiting query
 </div>
+</div><!-- closing constant controls -->
 <div id="query-wrapper">
 <div id="query-container">
 Query here
 </div>
 <div id="mode-shifter">
 	<div id="mode-shift-buttons"/>
-<div class="button-control" id="open-from-file">Open New<br/> Query</div>
+<div class="button-control" id="open-from-file">Open Saved<br/> Query</div>
 <div class="button-control" id="save-to-file">Save Current<br/> Query</div>
-<div class="button-control" id="view-results">View<br/> Results</div>
 <div class="button-control" id="reset-query">Reset Current<br/> Query</div>
 </div> <!-- closing #mode-shift-buttons -->
 <div id="mode-shift-controls">

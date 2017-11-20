@@ -102,6 +102,8 @@ def facetvalues(request):
 		values_list = [val for val in res["facet_counts"]["facet_fields"][current_field] if re.search('[a-zA-Z]', str(val))]
 		count_list = [c for c in res["facet_counts"]["facet_fields"][current_field] if re.match('^[\d]+$', str(c))]
 		all_values["values"] = values_list[:1000]
+		if(len(all_values) > 1000):
+			all_values["values"] = values_list[:1000]
 		print(count_list)
 	except KeyError:
 		error_msg = ["ERROR", res["error"]["msg"]]
@@ -109,7 +111,7 @@ def facetvalues(request):
 	except Exception as e:
 		all_values["values"] = ["ERROR", "Unidentified error in making query: " + str(e)]
 	return HttpResponse(json.dumps(all_values), 'application/json')
-	
+	# 232887
 
 def translate(request):
 	term = request.GET["term"]

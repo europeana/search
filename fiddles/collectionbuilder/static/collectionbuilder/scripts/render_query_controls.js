@@ -40,6 +40,7 @@ $(document).ready(function(){
 
 		});
 		 add_facet_field_autocompletes();
+
 	}
 
 	var add_facet_field_autocompletes = function(){
@@ -88,24 +89,24 @@ $(document).ready(function(){
 	}
 
 	var create_autocomplete = function(form_control, vals){
+		// TODO: update this to use facet.prefix
+		var opts = { 
+			"data" : vals,
+			requestDelay: 250,
+			list: {
+				maxNumberOfElements: 10,
+				match: {
+					enabled: true
+				},
+				onSelectItemEvent: function(){
 
-			var opts = { 
-				"data" : vals,
-				requestDelay: 250,
-				list: {
-					maxNumberOfElements: 10,
-					match: {
-						enabled: true
-					},
-					onSelectItemEvent: function(){
+					update_selector_with_autocomplete_value(form_control, $(form_control).getSelectedItemData());
 
-						update_selector_with_autocomplete_value(form_control, $(form_control).getSelectedItemData());
-
-					}
 				}
+			}
 
-			};
-			$(form_control).easyAutocomplete(opts);
+		};
+		$(form_control).easyAutocomplete(opts);
 
 	}
 
@@ -187,7 +188,7 @@ $(document).ready(function(){
 	}
 
 	var construct_query_operator = function(child){
-
+		console.log(child);
 		op = $(child).attr("operator")
 		var operator = "";
 		if($(child).attr("operator-suppressed") == "true"){
@@ -215,14 +216,10 @@ $(document).ready(function(){
 		var neg = $(child).attr("negated");
 		var sup = $(child).attr("operator-suppressed");
 		negator = "";
-		if(neg == "true" && sup == "true"){
-			var open_tag = "<span class=\"negator-as-text\">";
-			var close_tag = "</span>";
-			return open_tag + negator + close_tag;
+		if(neg == "true"){
+			negator = "<span class=\"negator-as-text\">-</span>";
 		}
-		else{
-			return "";
-		}
+		return negator;
 
 	}
 
@@ -250,6 +247,7 @@ $(document).ready(function(){
 	var update_query_controls = function(xml, selector){
 
 		build_control_tree($(xml), selector);
+		check_negation_warnings();
 		$.ajax({
         	type: "GET",
         	url: "getfullquery",
@@ -258,6 +256,7 @@ $(document).ready(function(){
         	success: function(xml) {
 
         		build_solr_query($(xml));
+
 
             }
         });
@@ -328,16 +327,18 @@ $(document).ready(function(){
 		var operator = $(xml).attr("operator");
 		var is_suppressed = $(xml).attr("operator-suppressed");
 		var all_fields = $(xml).find("all-fields").text();
-		var neg_control = create_negated_control(is_negated);
 		var button_set = create_clause_button_set();
 		var inputs = create_clause_inputs(xml, all_fields);
 		var cl_wrapper = $("<div class=\"clause\" id=\"" + node_id + "\"><h3>Clause</h3></div>");
 		var ops_wrapper = $("<div class=\"ops-wrapper\"></div>");
+		var warning_wrapper = $("<div class=\"clause-warning-wrapper\"></div>");
 		if(is_suppressed == "false"){
 			var op_control = create_op_control(node_id, operator);		
 			$(ops_wrapper).append(op_control);
 		}
+		var neg_control = create_negated_control(is_negated);
 		$(ops_wrapper).append(neg_control);
+		$(ops_wrapper).append(warning_wrapper);
 		$(cl_wrapper).append(ops_wrapper);
 		$(cl_wrapper).append(button_set);
 		$(cl_wrapper).append(inputs);
@@ -479,7 +480,6 @@ $(document).ready(function(){
             success: function(xml) {
 
             		update_query_controls($(xml), $("#" + node_id));
- 
                 }
             });
 
@@ -523,7 +523,8 @@ $(document).ready(function(){
             			})
 
             		}
- 
+            		get_new_hit_count();
+
                 }
             });		
 
@@ -626,7 +627,8 @@ $(document).ready(function(){
 
 		var field_input = $("#" + node_id).find(".field-value");
 		var val = $(field_input).val();
-		if(val == ""){
+		var field_name = $("#" + node_id).find(".field-name").val();
+		if(val == "" && field_name != ""){
 		
 			$(field_input).val("Non-facetable value - enter text here");
 			$(field_input).addClass("facet-warning");
@@ -636,7 +638,6 @@ $(document).ready(function(){
 			$(field_input).remove();
 			$(autocomplete).remove();
 			$(new_input).insertBefore($(dropdowns_wrapper));
-
 
 		}
 
@@ -666,7 +667,7 @@ $(document).ready(function(){
 
             		render_term_expansions(json, clause_box);
             		get_new_hit_count();
-            		
+
                 }
             });
 	}
@@ -856,6 +857,7 @@ $(document).ready(function(){
             		else{
             			register_query_change(node_id, xml);
             		}
+            		get_new_hit_count();
 
                 }
             });
@@ -920,6 +922,7 @@ $(document).ready(function(){
             success: function(xml) {
 
             		register_query_change(node_id, xml);
+            		check_negation_warnings();
 
                 }
             });
@@ -1045,6 +1048,7 @@ $(document).ready(function(){
 	var convert_to_clause = function(){
 
 		var node_id = get_parent_node_id($(this));
+		var opval = $("#" + node_id).find(".operator-radio:checked").val();
 		var parent_node_id = get_parent_node_id($("#" + node_id));
 		$.ajax({
 	        type: "GET",
@@ -1320,6 +1324,35 @@ $(document).ready(function(){
 
 		}
 
+	}
+
+	var check_negation_warnings = function(){
+
+		$(".clause").each(function(){
+
+			var node_id = $(this).attr("id");
+			show_negation_warning(node_id);
+
+		});
+
+	}
+
+	var show_negation_warning = function(node_id){
+
+		var now_node = $("#" + node_id);
+		var is_negated = $(now_node).find("input.negcheck").is(":checked");
+		var parent_clause = $(now_node).parents(".clause-group").first();
+		var count_kids = $(parent_clause).children(".clause:not(:has(input.negcheck:checked))").length;
+		if(count_kids == 0){
+
+			$(now_node).find(".clause-warning-wrapper").text("Clause-groups cannot consist only of negated clauses");
+
+		}
+		else{
+
+			$(now_node).find(".clause-warning-wrapper").text("");
+
+		}
 
 	}
 

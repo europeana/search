@@ -185,6 +185,9 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe.add_clausular_element(clause, "2")
 		self.assertEquals(clause.attrib["operator-suppressed"], "true")		
 
+	def test_deprecation_does_not_affect_suppression(self):
+		pass
+
 	def test_subsequent_nodes_inherit_and(self):
 		# any clause added to a group with an "AND" clause
 		# already defined also has the "AND" operator
