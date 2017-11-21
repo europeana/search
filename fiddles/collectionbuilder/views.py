@@ -104,7 +104,6 @@ def facetvalues(request):
 		all_values["values"] = values_list[:1000]
 		if(len(all_values) > 1000):
 			all_values["values"] = values_list[:1000]
-		print(count_list)
 	except KeyError:
 		error_msg = ["ERROR", res["error"]["msg"]]
 		all_values["values"] = error_msg

@@ -1239,6 +1239,7 @@ $(document).ready(function(){
 		        		wipe_query();
 						update_query_controls($(xml), $("#clause-controllers"));
 		        		set_current_query_name(query_name);
+		        		hide_save_controls();
 
 		        	}
 		        });
@@ -1256,6 +1257,14 @@ $(document).ready(function(){
 
 		wipe_query();
 		init_new_query();
+		hide_save_controls();
+
+	}
+
+	var hide_save_controls = function(){
+
+		$("#query-list").css({ "visibility" : "hidden"});
+		$("#to-save").css({ "visibility" : "hidden"});
 
 	}
 
@@ -1308,6 +1317,7 @@ $(document).ready(function(){
 	        	success: function(xml) {
 
 					alert("Query \"" + query_name + "\" saved OK." );
+					hide_save_controls();
 
 	        	}
 	        });		
