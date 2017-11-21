@@ -186,7 +186,19 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		self.assertEquals(clause.attrib["operator-suppressed"], "true")		
 
 	def test_deprecation_does_not_affect_suppression(self):
-		pass
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.remove_node_by_id("1")
+		xqe.deprecate_by_id("2")
+		post_deprecated_node = xqe.retrieve_node_by_id("2")
+		self.assertEquals(post_deprecated_node.attrib["operator-suppressed"], "true")
+
+	def test_revoking_deprecation_does_not_affect_suppressions(self):
+		xqe = XMLQueryEditor.XMLQueryEditor("test")
+		xqe.remove_node_by_id("1")
+		xqe.deprecate_by_id("2")
+		xqe.undeprecate_by_id("2")
+		post_deprecated_node = xqe.retrieve_node_by_id("2")
+		self.assertEquals(post_deprecated_node.attrib["operator-suppressed"], "true")
 
 	def test_subsequent_nodes_inherit_and(self):
 		# any clause added to a group with an "AND" clause

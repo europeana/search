@@ -188,7 +188,7 @@ $(document).ready(function(){
 	}
 
 	var construct_query_operator = function(child){
-		console.log(child);
+
 		op = $(child).attr("operator")
 		var operator = "";
 		if($(child).attr("operator-suppressed") == "true"){
@@ -1376,7 +1376,7 @@ $(document).ready(function(){
 	$(document).on("change", "select#query-list", open_query)
 	$("#iow-cancel").click(cancel_io_warning);
 	$("#iow-change-all").click(change_all_operators);
-	$("#view-results").click(view_results);
+	$("#hit-count").click(view_results);
 	$("#save-to-file").click(toggle_save_box);
 	$("#ungrouping-iow-cancel").click(dismiss_ungrouping_warning);
 	$("#open-from-file").click(get_saved_queries);

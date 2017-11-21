@@ -317,11 +317,13 @@ class XMLQueryEditor:
 
 	def count_preceding_operators(self, node_id):
 		clause_parent = self.find_clause_parent(node_id)
-		all_nodes = clause_parent.findall(".//*[@deprecated=\"false\"]")
+		all_nodes = clause_parent.findall(".//*[@deprecated]")
 		prev_nodes = []
 		for node in all_nodes:
 			if(node.get("node-id") == node_id):
 				break
+			elif(node.get("deprecated") == "true"):
+				continue
 			else:
 				prev_nodes.append(node)
 		return len(prev_nodes)

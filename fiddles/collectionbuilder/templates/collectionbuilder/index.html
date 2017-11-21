@@ -10,8 +10,8 @@
 	<style type="text/css">
 		#info{ display: none; }
 		#results{ display: none; }
-		#query-wrapper{ width: 100%; position: relative; height: 150px; }
-		#query-container{ width: 85%; margin-left: auto; margin-right: auto; height: 80%; border: thin solid black; font-family: Arial, Helvetic, _sans; font-size: 16px; }
+		#query-wrapper{ width: 100%; position: relative; min-height: 150px; }
+		#query-container{ width: 85%; margin-left: auto; margin-right: auto; min-height: 140px; border: thin solid black; font-family: Arial, Helvetic, _sans; font-size: 16px; }
 		.clause-group{ position: relative; width: 95%; margin-right: auto; margin-left: auto; border: thin solid black; margin-top: 10px; padding: 0 25px 0 25px;}
 		.clause{ position: relative; width: 95%; margin-right: auto; margin-left: auto; border: thin solid black; clear: both; margin-bottom: 10px;
 			padding: 0 25px 0 25px;
@@ -95,9 +95,6 @@ be inconsistent with those of their siblings</p>
 {% endif %}
 <h1>Collection Builder</h1>
 <div id="constant-controls">
-<div id="view-results">
-	View<br/> Results
-</div>
 <div id="hit-count" class="not-started">
 	Awaiting query
 </div>
