@@ -1258,6 +1258,7 @@ $(document).ready(function(){
 		wipe_query();
 		init_new_query();
 		hide_save_controls();
+		get_new_hit_count();
 
 	}
 
@@ -1291,7 +1292,6 @@ $(document).ready(function(){
 			save_query();
 
 		}
-
 
 	}
 
