@@ -21,14 +21,16 @@ $(document).ready(function(){
 		$(xml).children().each(function(){
 
 			tag_type = $(this).prop("tagName");
+			var first_clausular_child = get_first_clausular_child(parent_element);
+			var clausular_contents = null;
 			if(tag_type == "clause-group"){
 
-				clause_group_controls = render_clause_group($(this));
-				$(parent_element).append(clause_group_controls);
+				clausular_contents = render_clause_group($(this));
+
 			}
 			else if(tag_type == "clause"){
-				clause_controls = render_clause($(this));
-				$(parent_element).append(clause_controls);
+
+				clausular_contents = render_clause($(this));
 
 			}
 			else if(typeof tag_type != 'undefined'){
@@ -38,8 +40,38 @@ $(document).ready(function(){
 
 			}
 
+			if(first_clausular_child){
+
+				$(clausular_contents).insertBefore($(first_clausular_child));
+
+			}
+			else{
+
+				$(parent_element).append(clausular_contents);
+
+			}
+
 		});
-		 add_facet_field_autocompletes();
+		add_facet_field_autocompletes();
+
+	}
+
+	var get_first_clausular_child = function(parent_element){
+
+		var first_clausular_child = false;
+
+		$(parent_element).children().each(function(){
+
+			if($(this).hasClass("clause") || $(this).hasClass("clause-group")){
+				
+				first_clausular_child = $(this);
+				return false;
+
+			}
+
+		});
+
+		return first_clausular_child;
 
 	}
 
@@ -460,7 +492,6 @@ $(document).ready(function(){
             dataType: "xml",
             data: { "node_id" : node_id },
             success: function(xml) {
-
             		update_query_controls($(xml), $("#" + node_id));
  
                 }
@@ -675,6 +706,7 @@ $(document).ready(function(){
 	var render_term_expansions = function(json, clause_box){
 
 		// first we need to order the json contents
+		$(clause_box).find(".expansions").remove();
 		langs = []
 		$.each(json, function(k, v){ langs.push(k);});
 		langs = langs.sort()
