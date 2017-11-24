@@ -16,7 +16,7 @@ XQE = XMLQueryEditor.XMLQueryEditor()
 ALL_FIELDS = []
 FACET_FIELDS = []
 SOLR_URL = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/select?wt=json"
-EXPANSION_LANGUAGES = ["fr", "de", "es", "nl", "pl", "it", "bg", "hu", "cs", "da", "et", "fi", "el", "hr", "ga", "lt", "lv", "pt", "ro", "sk", "sl", "sv", "hr", "mt", "el", "la", "gd", "ru", "ca", "cu"]
+EXPANSION_LANGUAGES = {"fr" : "French", "de" : "German", "es" : "Spanish", "nl" : "Dutch", "pl" : "Polish", "it" : "Italian", "bg" : "Bulgarian", "hu" : "Hungarian", "cs" : "Czech", "da" : "Danish", "et" : "Estonian", "fi" : "Finnish", "el" : "Greek", "hr" : "Croatian", "ga": "Gaelic - Irish", "lt": "Lithuanian", "lv" : "Latvian", "pt" : "Portuguese", "ro" : "Romanian", "sk": "Slovak", "sl" : "Slovene", "sv" : "Swedish", "mt" : "Maltese", "la" : "Latin", "gd" : "Gaelic - Scots", "ru" : "Russian", "ca" : "Catalan", "cu" : "Old Church Slavonic", "cy" : "Welsh", "sr" : "Serbian"}
 
 def index(request):
 	here = os.path.dirname(os.path.realpath(__file__))
@@ -125,10 +125,10 @@ def translate(request):
 		inner_success = idsearch_as_json['success'] == 1 and len(idsearch_as_json['entities']) > 0
 		if(inner_success):
 			labels = idsearch_as_json['entities'][entity_id]['labels']
-			for lang in EXPANSION_LANGUAGES:
-			 if lang in labels:
-			 	trans_term = labels[lang]["value"]
-			 	terms[lang] = trans_term
+			for lang_code in EXPANSION_LANGUAGES.keys():
+			 if lang_code in labels:
+			 	trans_term = labels[lang_code]["value"]
+			 	terms[EXPANSION_LANGUAGES[lang_code]] = trans_term
 	return HttpResponse(json.dumps(terms), 'application/json')
 
 def updateoperator(request):
