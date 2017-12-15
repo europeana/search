@@ -15,4 +15,4 @@ Running SolrMeter is easy: simply
 
 Configuring SolrMeter for testing a given deployment is done through the `Edit > Settings` panel. The panel itself should be reasonably self-explanatory; settings for particular Solr deployments are given in the README.md document of the appropriate `query_files` subdirectory.
 
-[Settings Panel](settings_panel.png)
+![Settings Panel](settings_panel.png)
