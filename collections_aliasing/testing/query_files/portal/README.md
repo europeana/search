@@ -4,13 +4,13 @@ These files are for basic sanity-checking and testing of the Solr backend poweri
 
 The required settings are as follows:
 
-Query Mode: Standard
-Use Facets: true
-Use SolrCloud: true
-ZooKeeper Chroot: /
-Use Filter Queries: true
-Facet Method: fc
-Force echoParam=all: false
+* Query Mode: Standard
+* Use Facets: true
+* Use SolrCloud: true
+* ZooKeeper Chroot: /
+* Use Filter Queries: true
+* Facet Method: fc
+* Force echoParam=all: false
 
 The various File Path settings should be pointed at the appropriate files within this directory.
 
