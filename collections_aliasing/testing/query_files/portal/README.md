@@ -16,5 +16,5 @@ The various File Path settings should be pointed at the appropriate files within
 
 The Solr and Zookeeper parameters required will of course vary with the installation being tested. As of 2017.12.15, the appropriate settings were:
 
-URL Zookeeper: sol7.eanadev.org
-Default Solr Collection: search_production_publish_1
+* URL Zookeeper: sol7.eanadev.org
+* Default Solr Collection: search_production_publish_1
