@@ -13,6 +13,8 @@ Running SolrMeter is easy: simply
 `cd solrmeter/target`
 `java -jar solrmeter-0.4.1-SNAPSHOT-jar-with-dependencies.jar`
 
-![Settings Panel](settings_panel.png)
-
 Configuring SolrMeter for testing a given deployment is done through the `Edit > Settings` panel. The panel itself should be reasonably self-explanatory; settings for particular Solr deployments are given in the README.md document of the appropriate `query_files` subdirectory.
+
+A screenshot of the settings panel is provided below:
+
+![Settings Panel](settings_panel.png)
