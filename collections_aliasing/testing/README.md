@@ -8,7 +8,7 @@ Note that the testing referred to here is purely functional: determining that So
 
 The version of SolrMeter used here is the [application](https://github.com/idealista/solrmeter) extended by [idealista](https://github.com/idealista) to accommodate SolrCloud.
 
-Running SolrMeter is easy - simply:
+Running SolrMeter is easy - simply clean, compile, and jar the application, and then:
 
 `cd solrmeter/target`
 
