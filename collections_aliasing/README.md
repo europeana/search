@@ -26,7 +26,7 @@ Such queries can be long and convoluted, creating two problems:
 
 Aliasing is handled by the [`Aliasing Request Handler`](https://github.com/europeana/search/blob/master/collections_aliasing/solr-4.10.4/solr/core/src/java/org/apache/solr/handler/component/AliasingRequestHandler.java). This means that a reference to the handler must be made available in `solrconfig.xml`.
 
-Note that because the aliasing functionality is supplied by a `RequestHandler` rather than a `SearchComponent`, it is essentially "wrapping" our other search functionality. In particular, the BM25f `SearchComponent` can be used with the aliasing function intact.
+Note that because the aliasing functionality is supplied by a `RequestHandler` rather than a `SearchComponent`, it is essentially "wrapping" our other search functionality. In particular, the BM25f `SearchComponent` can be used with the aliasing function intact. This can be seen in the [default handler](https://github.com/europeana/search/blob/master/current_confs/search_api/conf/solrconfig.xml#L1156) of the deployed extension.
 
 ### Compilation
 
@@ -37,4 +37,10 @@ Implementing the aliasing functionality involves changes at two points.
 2. **Extended Request Handling:** As described above, aliasing at query-time is provided by the `AliasingRequestHandler` plugin.
 
 Because the first change extends core Solr functionality (that is to say, it falls outside Solr's plugin-based architecture for user extesions), deploying the aliasing functionality will involve compiling Solr from source. Depending on on the exact character of the deployment, it may be possible to deploy these changes essentially as though they constituted a plugin (albeit one using the `solr.core` package); but YMMV. 
+
+### Querying using aliases
+
+This is simple: querying can be done using standard Solr syntax, with the handler swapping in the expanded queries behind the scenes as appropriate. Any string defined in an `alias-pseudofield` element in the [query_aliases.xml]() document can be used as though it were a field; and it will accept any value defined in the `alias` element as though it were a value of that field. For example, using the [deployed query_aliases.xml] document, it is possible to use the term 'collection' as though it were a field defined in the `schema.xml` document, with values 'art', 'music', 'photography', etc.
+
+If the client submits a field that is defined neither in the `schema.xml` document nor in the `query_aliases.xml` file, it will fail silently (as Solr normally does with undefined fields with the deployed configuration). If the user attempts to use an alias which is not defined, a 400 error will be returned with the message that the alias is undefined.
 
