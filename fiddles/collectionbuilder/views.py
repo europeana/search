@@ -12,8 +12,6 @@ import json
 import re
 import os
 
-ALL_FIELDS = []
-FACET_FIELDS = []
 SOLR_URL = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/select?wt=json"
 EXPANSION_LANGUAGES = {"fr" : "French", "de" : "German", "es" : "Spanish", "nl" : "Dutch", "pl" : "Polish", "it" : "Italian", "bg" : "Bulgarian", "hu" : "Hungarian", "cs" : "Czech", "da" : "Danish", "et" : "Estonian", "fi" : "Finnish", "el" : "Greek", "hr" : "Croatian", "ga": "Gaelic - Irish", "lt": "Lithuanian", "lv" : "Latvian", "pt" : "Portuguese", "ro" : "Romanian", "sk": "Slovak", "sl" : "Slovene", "sv" : "Swedish", "mt" : "Maltese", "la" : "Latin", "gd" : "Gaelic - Scots", "ru" : "Russian", "ca" : "Catalan", "cu" : "Old Church Slavonic", "cy" : "Welsh", "sr" : "Serbian"}
 
@@ -21,19 +19,23 @@ def index(request):
 	here = os.path.dirname(os.path.realpath(__file__))
 	allfields_path = os.path.join(here, "conf", "allfields.txt")
 	facetfields_path = os.path.join(here, "conf", "facetfields.txt")
+	all_fields = []
+	facet_fields = []
 	with open(allfields_path) as allfields:
 		for line in allfields.readlines():
-			ALL_FIELDS.append(line.strip())
+			all_fields.append(line.strip())
 	with open(facetfields_path) as facetfields:
 		for line in facetfields.readlines():
-			FACET_FIELDS.append(line.strip())
+			facet_fields.append(line.strip())
+	request.session['ALL_FIELDS'] = all_fields
+	request.session['FACET_FIELDS'] = facet_fields
 	return render(request, 'collectionbuilder/index.html')
 
 def init(request):
 	XQE = initialise_session(request)
 	tree = copy.deepcopy(XQE.get_tree().getroot())
 	for clause in tree.findall(".//clause"):
-		append_all_fields(clause)
+		append_all_fields(clause, request)
 	return HttpResponse(ET.tostring(tree), 'application/xml')
 
 def getfullquery(request):
@@ -46,7 +48,7 @@ def newclause(request):
 	new_clause = XQE.generate_clause()
 	XQE.add_clausular_element(new_clause, node_id)
 	dec_clause = copy.deepcopy(new_clause)
-	append_all_fields(dec_clause)
+	append_all_fields(dec_clause, request)
 	store_XQE(request, XQE)
 	return HttpResponse(ET.tostring(dec_clause), 'application/xml')
 
@@ -61,7 +63,7 @@ def newclausegroup(request):
 	dec_group = copy.deepcopy(XQE.retrieve_node_by_id(group_id))
 	dec_clause = dec_group.find("./clause")
 	store_XQE(request, XQE)
-	append_all_fields(dec_clause)
+	append_all_fields(dec_clause, request)
 	return HttpResponse(ET.tostring(dec_group), 'application/xml')
 
 def newexpansiongroup(request):
@@ -88,16 +90,16 @@ def deleteclelement(request):
 	else:
 		XQE.remove_node_by_id(node_to_remove)
 		reflow_node = copy.deepcopy(XQE.retrieve_node_by_id(node_to_reflow))
-	append_all_fields(reflow_node)
+	append_all_fields(reflow_node, request)
 	store_XQE(request, XQE)
 	return HttpResponse(ET.tostring(reflow_node), 'application/xml')
 
 def facetvalues(request):
-	node_id = request.GET["node_id"]
-	current_field = request.GET["current_field"]
+	node_id = request.GET["node_id"].strip()
+	current_field = request.GET["current_field"].strip()
 	XQE = retrieve_XQE(request)
 	all_values = {}
-	if(current_field not in FACET_FIELDS):
+	if(current_field not in request.session['FACET_FIELDS']):
 		all_values["values"] = ["Application Message: N/A"]
 		return HttpResponse(json.dumps(all_values), 'application/json')
 	current_value = request.GET["current_value"]
@@ -167,9 +169,9 @@ def updatenegated(request):
 	store_XQE(request, XQE)
 	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 
-def append_all_fields(new_clause):
+def append_all_fields(new_clause, request):
 	all_fields_piggyback = ET.fromstring("<all-fields></all-fields>")
-	all_fields_piggyback.text = ",".join(ALL_FIELDS)
+	all_fields_piggyback.text = ",".join(request.session['ALL_FIELDS'])
 	clause_type = new_clause.tag 
 	if(clause_type == "clause"):
 		for all_list in new_clause.findall(".//all-fields"):
@@ -177,7 +179,7 @@ def append_all_fields(new_clause):
 		new_clause.append(all_fields_piggyback)
 	elif(clause_type == "clause-group"):
 		for child in new_clause:
-			append_all_fields(child)
+			append_all_fields(child, request)
 
 def updatevalues(request):
 	XQE = retrieve_XQE(request)
@@ -205,7 +207,7 @@ def converttoclausegroup(request):
 	node_id = request.GET["node_id"]
 	group_parent = copy.deepcopy(XQE.convert_to_clause_group(node_id))
 	for clause in group_parent.findall(".//clause"):
-		append_all_fields(clause)
+		append_all_fields(clause, request)
 	store_XQE(request, XQE)
 	return HttpResponse(ET.tostring(group_parent), 'application/xml')
 
@@ -228,7 +230,7 @@ def forcealloperators(request):
 	try:
 		group_parent = copy.deepcopy(XQE.set_all_operators(new_operator, node_id))
 		for clause in group_parent.findall(".//clause"):
-			append_all_fields(clause)
+			append_all_fields(clause, request)
 		store_XQE(request, XQE)
 		return HttpResponse(ET.tostring(group_parent), 'application/xml')
 	except ZeroResultsException as zre:
@@ -257,7 +259,7 @@ def openquery(request):
 	XQE = XMLQueryEditor.XMLQueryEditor(query_name)
 	tree = copy.deepcopy(XQE.get_tree().getroot())
 	for clause in tree.findall(".//clause"):
-		append_all_fields(clause)
+		append_all_fields(clause, request)
 	store_XQE(request, XQE)
 	return HttpResponse(ET.tostring(tree), 'application/xml')
 

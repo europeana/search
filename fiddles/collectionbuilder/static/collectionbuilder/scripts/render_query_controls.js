@@ -11,7 +11,12 @@ $(document).ready(function(){
 
             		update_query_controls($(xml), $("#clause-controllers"));
  
-                }
+                },
+            error: function(xml){
+
+            		alert(xml);
+
+            	}
             });
 
 	}

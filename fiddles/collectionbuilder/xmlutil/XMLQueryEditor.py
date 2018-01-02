@@ -402,6 +402,8 @@ class XMLQueryEditor:
 		# (ii) if not, then no facet query is needed
 		# (iii) if it is, the query remains the same, but with all
 		# sibling clauses excluded from consideration
+				# TODO: for some reasons this returns NoneType on occasion!
+
 		child_node = self.retrieve_node_by_id(node_id)
 		parent_node = self.find_clause_parent(child_node.get("node-id"))
 		if(child_node.get("operator") != "OR"):
