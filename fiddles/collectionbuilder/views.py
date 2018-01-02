@@ -38,7 +38,6 @@ def init(request):
 
 def getfullquery(request):
 	XQE = retrieve_XQE(request)
-	print(ET.tostring(XQE.get_tree().getroot()))
 	return HttpResponse(ET.tostring(XQE.get_tree().getroot()), 'application/xml')
 
 def newclause(request):
@@ -173,6 +172,8 @@ def append_all_fields(new_clause):
 	all_fields_piggyback.text = ",".join(ALL_FIELDS)
 	clause_type = new_clause.tag 
 	if(clause_type == "clause"):
+		for all_list in new_clause.findall(".//all-fields"):
+			new_clause.remove(all_list)
 		new_clause.append(all_fields_piggyback)
 	elif(clause_type == "clause-group"):
 		for child in new_clause:
@@ -280,10 +281,8 @@ def store_XQE(request, new_xqe):
 
 def initialise_session(request):
 	if('xqe' in request.session): 
-		print("DELETING XQE")
 		del request.session['xqe']
 	if('query_name' in request.session):
-		print("DELETING QUERY NAME")
 		del request.session['query_name']
 	XQE = XMLQueryEditor.XMLQueryEditor()
 	store_XQE(request, XQE)
