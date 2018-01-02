@@ -30,7 +30,12 @@ class XMLQueryEditor:
 		root.append(blank_group)
 		blank_clause = self.generate_clause()
 		blank_group.append(blank_clause)
+		self.query_name = ""
 		return tree
+
+	def initialise_from_session(self, xml_struct, query_name):
+		self._tree = ET.ElementTree(xml_struct)
+		self.query_name = query_name
 
 	def build_tree_from_file(self):
 		return self.load_query_file()
@@ -38,6 +43,7 @@ class XMLQueryEditor:
 	# file saving-and-loading functions
 
 	def load_query_file(self):
+		print("Loading from query file " + self.query_name)
 		filepath = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'stored_queries', self.query_name + ".xml")
 		tree = ET.parse(filepath)
 		return tree
@@ -83,7 +89,7 @@ class XMLQueryEditor:
 		clause = ET.Element("clause")
 		clause.attrib["node-id"] = self.generate_identifier()
 		clause.attrib["operator"] = operator
-		clause.attrib["xml:lang"] = lang
+		clause.attrib["lang"] = lang
 		clause.attrib["deprecated"] = str(deprecated).lower()
 		clause.attrib["negated"] = str(negated).lower()
 		clause.attrib["operator-suppressed"] = "false"
@@ -197,8 +203,14 @@ class XMLQueryEditor:
 		if(el.attrib["deprecated"] == "true"): return ""
 		operator = self.construct_operator(parent, el)
 		negator = self.construct_negator(el)
-		field = el.find("field").text.strip()
-		value = el.find("value").text.strip()
+		try:
+			field = el.find("field").text.strip()
+		except:
+			field = ""
+		try:
+			value = el.find("value").text.strip()
+		except:
+			value = ""
 		if(field == "" or value == ""): return ""
 		if(value != "*"): value = "\"" + value + "\""
 		clause_as_string = (" " + operator + " " + negator + field + ":" + value)
@@ -409,6 +421,13 @@ class XMLQueryEditor:
 		if(fq == ""):
 			fq = "*:*"
 		return fq
+
+	def set_query_name(self, query_name):
+		self.query_name = query_name
+
+	def get_query_name(self):
+
+		return self.query_name 
 
 
 

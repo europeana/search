@@ -1272,6 +1272,7 @@ $(document).ready(function(){
 						update_query_controls($(xml), $("#clause-controllers"));
 		        		set_current_query_name(query_name);
 		        		hide_save_controls();
+		        		get_new_hit_count()
 
 		        	}
 		        });

@@ -67,7 +67,7 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
 		clause = xqe.generate_clause(operator="OR", field="subject", value="Quellenforschung", lang="de")
 		self.assertEquals(clause.attrib["operator"], "OR")
-		self.assertEquals(clause.attrib["xml:lang"], "de")
+		self.assertEquals(clause.attrib["lang"], "de")
 		self.assertEquals(clause.attrib["deprecated"], "false")
 		self.assertEquals(clause.attrib["negated"], "false")
 		self.assertEquals(clause.find("field").text, "subject")
@@ -377,7 +377,7 @@ class XMLQueryEditorTestCase(SimpleTestCase):
 		xqe.set_field("TYPE", "4")
 		xqe.set_value("IMAGE", "3")
 		xqe.set_value("TEXT", "4")
-		xqe.set_operator("OR", "4")
+		xqe.set_operator("OR", "2")
 
 	def test_saves_with_fidelity(self):
 		xqe = XMLQueryEditor.XMLQueryEditor("test")
