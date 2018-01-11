@@ -19,7 +19,18 @@ def parse_filters(raw_filters):
 		new_filters[k] = eval(str(v))
 	return new_filters
 
+def strip_illegal_characters(raw_term):
+	illegal_xml_re = re.compile(u'[\x00-\x08\x0b-\x1f\x7f-\x84\x86-\x9f\ud800-\udfff\ufdd0-\ufddf\ufffe-\uffff]')
+	term = illegal_xml_re.sub(raw_term, '')
+	return term
+
 def convert_to_xml(interaction_type, timestamp, session_id, search_term, filters, num_results, rank_position=-1, uri=None):
+	timestamp = strip_illegal_characters(timestamp)
+	session_id = strip_illegal_characters(session_id)
+	search_term = strip_illegal_characters(search_term)
+	filters = strip_illegal_characters(search_term)
+	num_results = strip_illegal_characters(num_results)
+	rank_position = strip_illegal_characters(str(rank_position))
 	root = ET.Element("doc")
 	el_it = ET.SubElement(root, 'field')
 	el_it.set("name", "operation")
@@ -31,7 +42,7 @@ def convert_to_xml(interaction_type, timestamp, session_id, search_term, filters
 	el_sessid.set("name", "session_id")
 	el_sessid.text = session_id
 	el_search_term = ET.SubElement(root, 'field')
-	el_search_term.set("name", "search_term")
+	el_search_term.set("name", "query_term")
 	el_search_term.text = search_term
 	el_num_results = ET.SubElement(root, 'field')
 	el_num_results.set("name", "total_results")
@@ -41,6 +52,7 @@ def convert_to_xml(interaction_type, timestamp, session_id, search_term, filters
 		el_rank_position.set("name", "rank_position")
 		el_rank_position.text = str(rank_position)
 	if(uri is not None):
+		uri = strip_illegal_characters(uri)
 		el_uri = ET.SubElement(root, 'field')
 		el_uri.set("name", "uri")
 		uri = "http://www.europeana.eu/portal/en/record" + uri
@@ -56,13 +68,13 @@ def convert_to_xml(interaction_type, timestamp, session_id, search_term, filters
 
 def transform_search_interaction(line):
 	(interaction_type, timestamp, session_id, search_term, filters, num_results) = line.split("\t")
-	timestamp = timestamp[:-1] # remove trailing 'Z'
+	timestamp = timestamp[:-5] # remove trailing ms + 'Z'
 	filters = parse_filters(filters)
 	return convert_to_xml(interaction_type, timestamp, session_id, search_term, filters, num_results)
 
 def transform_ranked_retrieval(line):
 	(interaction_type, timestamp, session_id, search_term, filters, uri, rank_position, num_results) = line.split("\t")
-	timestamp = timestamp[:-1]
+	timestamp = timestamp[:-5]
 	filters = parse_filters(filters)
 	return convert_to_xml(interaction_type, timestamp, session_id, search_term, filters, num_results, rank_position, uri)
 
