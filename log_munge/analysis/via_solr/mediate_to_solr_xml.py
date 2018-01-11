@@ -28,9 +28,7 @@ def convert_to_xml(interaction_type, timestamp, session_id, search_term, filters
 	timestamp = strip_illegal_characters(timestamp)
 	session_id = strip_illegal_characters(session_id)
 	search_term = strip_illegal_characters(search_term)
-	filters = strip_illegal_characters(search_term)
 	num_results = strip_illegal_characters(num_results)
-	rank_position = strip_illegal_characters(str(rank_position))
 	root = ET.Element("doc")
 	el_it = ET.SubElement(root, 'field')
 	el_it.set("name", "operation")
@@ -61,6 +59,7 @@ def convert_to_xml(interaction_type, timestamp, session_id, search_term, filters
 		if(type(v) is not list):
 			v = [str(v)]
 		for value in v:
+			value = strip_illegal_characters(value)
 			el_filter = ET.SubElement(root, 'field')
 			el_filter.set("name", "filter_term")
 			el_filter.text = k + ":" + str(value)
