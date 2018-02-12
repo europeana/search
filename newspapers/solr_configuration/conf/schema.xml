@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Solr managed schema - automatically generated - DO NOT EDIT -->
+<schema name="multilingual-fulltext" version="0.1">
+  <uniqueKey>id</uniqueKey>
+  <!-- deprecating all non-text types for the moment (fulltext) -->
+  <!--<fieldType name="binary" class="solr.BinaryField"/>
+  <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
+  <fieldType name="booleans" class="solr.BoolField" sortMissingLast="true" multiValued="true"/>
+  <fieldType name="date" class="solr.TrieDateField" positionIncrementGap="0" precisionStep="0"/>
+  <fieldType name="dates" class="solr.TrieDateField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
+  <fieldType name="double" class="solr.TrieDoubleField" positionIncrementGap="0" precisionStep="0"/>
+  <fieldType name="doubles" class="solr.TrieDoubleField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
+  <fieldType name="float" class="solr.TrieFloatField" positionIncrementGap="0" precisionStep="0"/>
+  <fieldType name="floats" class="solr.TrieFloatField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
+  <fieldType name="ignored" class="solr.StrField" indexed="false" stored="false" multiValued="true"/>
+  <fieldType name="int" class="solr.TrieIntField" positionIncrementGap="0" precisionStep="0"/>
+  <fieldType name="ints" class="solr.TrieIntField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
+  <fieldType name="long" class="solr.TrieLongField" positionIncrementGap="0" precisionStep="0"/>
+  <fieldType name="longs" class="solr.TrieLongField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
+   <fieldType name="point" class="solr.PointType" subFieldSuffix="_d" dimension="2"/>
+  <fieldType name="random" class="solr.RandomSortField" indexed="true"/>
+  <fieldType name="string" class="solr.StrField" sortMissingLast="true"/>
+  <fieldType name="strings" class="solr.StrField" sortMissingLast="true" multiValued="true"/>
+  <fieldType name="tdate" class="solr.TrieDateField" positionIncrementGap="0" precisionStep="6"/>
+  <fieldType name="tdates" class="solr.TrieDateField" positionIncrementGap="0" multiValued="true" precisionStep="6"/>
+  <fieldType name="tdouble" class="solr.TrieDoubleField" positionIncrementGap="0" precisionStep="8"/>
+  <fieldType name="tdoubles" class="solr.TrieDoubleField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
+  -->
+  <fieldType name="string" class="solr.StrField" sortMissingLast="true"/>
+  <fieldType name="long" class="solr.TrieLongField" positionIncrementGap="0" precisionStep="0"/>
+  
+  <fieldType name="text_und" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_de" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ger.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="German2" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_de" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ger.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+  
+  <fieldType name="text_el" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.GreekLowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_gre.txt"
+        />
+      <filter class="solr.GreekStemFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_el" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.GreekLowerCaseFilterFactory"/>
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_gre.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_en" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_eng.txt"
+        />
+      <filter class="solr.PorterStemFilterFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType> 
+  <fieldType name="shingle_en" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_eng.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_es" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_spa.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="Spanish" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_es" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_spa.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>        
+ 
+  <fieldType name="text_et" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_est.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_et" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_est.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_fi" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fin.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="Finnish" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_fi" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fin.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+  
+  <fieldType name="text_fr" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fre.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="French" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_fr" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fre.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+  
+  <fieldType name="text_hr" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_hrv.txt"
+        />
+      <!--                 <filter class="solr.PorterStemFilterFactory"/> -->
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_hr" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_hrv.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_it" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ita.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="Italian" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_it" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ita.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_la" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lat.txt"
+        />
+      <!--                 <filter class="solr.PorterStemFilterFactory"/> -->
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_la" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lat.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_lv" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lav.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_lv" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lav.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_nl" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_dut.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="Dutch" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_nl" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_dut.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_pl" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_pol.txt"
+        />
+      <!-- 				<filter class="solr.solr.StempelPolishStemFilterFactory"/> -->
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_pl" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_pol.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_ru" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_rus.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="Russian" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_ru" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_rus.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_sr" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_srp.txt"
+        />
+      <!--                 <filter class="solr.PorterStemFilterFactory"/> -->
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_sr" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_srp.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_sv" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_swe.txt"
+        />
+      <filter class="solr.SnowballPorterFilterFactory" language="Swedish" />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_sv" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_swe.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+
+  <fieldType name="text_uk" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt"
+        />
+      <!--                 <filter class="solr.SnowballPorterFilterFactory" /> -->
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.TrimFilterFactory" />
+    </analyzer>
+  </fieldType>
+  <fieldType name="shingle_uk" class="solr.TextField" positionIncrementGap="100"
+    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+    <analyzer>
+      <charFilter class="solr.HTMLStripCharFilterFactory" />
+      <tokenizer class="solr.WhitespaceTokenizerFactory" />
+      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+        catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
+      <filter class="solr.LowerCaseFilterFactory" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt"
+        />
+      <filter class="solr.ASCIIFoldingFilterFactory" />
+      <filter class="solr.ShingleFilterFactory" minShingleSize="2" maxShingleSize="5" outputUnigrams="true" />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
+      <filter class="solr.PatternReplaceFilterFactory" pattern="(\s+)" replacement=" " replace="all" />
+      <filter class="solr.TrimFilterFactory" />
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+    </analyzer>
+  </fieldType>
+ 
+  <fieldType name="text_ar" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_ar.txt" ignoreCase="true"/>
+      <filter class="solr.ArabicNormalizationFilterFactory"/>
+      <filter class="solr.ArabicStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_bg" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_bg.txt" ignoreCase="true"/>
+      <filter class="solr.BulgarianStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_ca" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.ElisionFilterFactory" articles="lang/contractions_ca.txt" ignoreCase="true"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_ca.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Catalan"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_cz" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_cz.txt" ignoreCase="true"/>
+      <filter class="solr.CzechStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_da" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" format="snowball" words="lang/stopwords_da.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Danish"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_eu" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_eu.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Basque"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_fa" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <charFilter class="solr.PersianCharFilterFactory"/>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ArabicNormalizationFilterFactory"/>
+      <filter class="solr.PersianNormalizationFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_fa.txt" ignoreCase="true"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_ga" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.ElisionFilterFactory" articles="lang/contractions_ga.txt" ignoreCase="true"/>
+      <filter class="solr.StopFilterFactory" words="lang/hyphenations_ga.txt" ignoreCase="true"/>
+      <filter class="solr.IrishLowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_ga.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Irish"/>
+    </analyzer>
+  </fieldType> 
+  <fieldType name="text_gl" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_gl.txt" ignoreCase="true"/>
+      <filter class="solr.GalicianStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_hi" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.IndicNormalizationFilterFactory"/>
+      <filter class="solr.HindiNormalizationFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_hi.txt" ignoreCase="true"/>
+      <filter class="solr.HindiStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_hu" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" format="snowball" words="lang/stopwords_hu.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Hungarian"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_hy" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_hy.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Armenian"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_id" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_id.txt" ignoreCase="true"/>
+      <filter class="solr.IndonesianStemFilterFactory" stemDerivational="true"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_no" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" format="snowball" words="lang/stopwords_no.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Norwegian"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_pt" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" format="snowball" words="lang/stopwords_pt.txt" ignoreCase="true"/>
+      <filter class="solr.PortugueseLightStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_ro" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_ro.txt" ignoreCase="true"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Romanian"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_ja" class="solr.TextField" autoGeneratePhraseQueries="false" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.JapaneseTokenizerFactory" mode="search"/>
+      <filter class="solr.JapaneseBaseFormFilterFactory"/>
+      <filter class="solr.JapanesePartOfSpeechStopFilterFactory" tags="lang/stoptags_ja.txt"/>
+      <filter class="solr.CJKWidthFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_ja.txt" ignoreCase="true"/>
+      <filter class="solr.JapaneseKatakanaStemFilterFactory" minimumLength="4"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_th" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.ThaiTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_th.txt" ignoreCase="true"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_tr" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.TurkishLowerCaseFilterFactory"/>
+      <filter class="solr.StopFilterFactory" words="lang/stopwords_tr.txt" ignoreCase="false"/>
+      <filter class="solr.SnowballPorterFilterFactory" language="Turkish"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_ws" class="solr.TextField" positionIncrementGap="100">
+    <analyzer>
+      <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="tfloat" class="solr.TrieFloatField" positionIncrementGap="0" precisionStep="8"/>
+  <fieldType name="tfloats" class="solr.TrieFloatField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
+  <fieldType name="tint" class="solr.TrieIntField" positionIncrementGap="0" precisionStep="8"/>
+  <fieldType name="tints" class="solr.TrieIntField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
+  <fieldType name="tlong" class="solr.TrieLongField" positionIncrementGap="0" precisionStep="8"/>
+  <fieldType name="tlongs" class="solr.TrieLongField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
+
+  <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
+  <field name="doc_type" type="string" indexed="true" stored="true"/>
+  <field name="title" type="string" indexed="true" stored="true"/>
+  <field name="language" type="string" indexed="true" stored="true"/>
+  <field name="issue" type="string" indexed="true" stored="true"/>
+  <field name="date" type="string" indexed="true" stored="true"/>
+  <field name="body." type="text_und" indexed="true" stored="true"/>
+  <field name="body.de" type="text_de" indexed="true" stored="true"/>
+  <field name="body.el" type="text_el" indexed="true" stored="true"/>
+  <field name="body.en" type="text_en" indexed="true" stored="true"/>
+  <field name="body.es" type="text_es" indexed="true" stored="true"/>
+  <field name="body.et" type="text_et" indexed="true" stored="true"/>
+  <field name="body.fi" type="text_fi" indexed="true" stored="true"/>
+  <field name="body.fr" type="text_fr" indexed="true" stored="true"/>
+  <field name="body.hr" type="text_hr" indexed="true" stored="true"/>
+  <field name="body.it" type="text_it" indexed="true" stored="true"/>
+  <field name="body.la" type="text_la" indexed="true" stored="true"/>
+  <field name="body.lv" type="text_lv" indexed="true" stored="true"/>
+  <field name="body.nl" type="text_nl" indexed="true" stored="true"/>
+  <field name="body.pl" type="text_pl" indexed="true" stored="true"/>
+  <field name="body.ru" type="text_ru" indexed="true" stored="true"/>
+  <field name="body.sr" type="text_sr" indexed="true" stored="true"/>
+  <field name="body.sv" type="text_sv" indexed="true" stored="true"/>
+  <field name="body.uk" type="text_uk" indexed="true" stored="true"/>
+    
+</schema>
