@@ -18,6 +18,10 @@
                 <field name="doc_type">Newspaper</field><!-- TODO: Get URI for this -->
                 <field name="language"><xsl:value-of select="$language"/></field>
                 <field name="body.{$language}">
+                    <xsl:variable name="all-text" as="xs:string*" select="//alto:String/@CONTENT"/>
+                    <xsl:value-of select="$all-text"/>
+                </field>
+                <field name="body_with_payload.{$language}">
                     <xsl:for-each select="//alto:Page">
                         <xsl:variable name="pageno">
                             <xsl:value-of select="count(preceding-sibling::Page) + 1"/>
