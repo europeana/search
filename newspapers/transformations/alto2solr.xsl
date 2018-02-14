@@ -3,7 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
     xmlns:alto="http://www.loc.gov/standards/alto/ns-v2#"
-    exclude-result-prefixes="xs xd" version="2.0">
+    exclude-result-prefixes="xs xd alto" version="2.0"
+    >
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b> Feb 12, 2018</xd:p>
@@ -19,7 +20,7 @@
                 <field name="language"><xsl:value-of select="$language"/></field>
                 <field name="body.{$language}">
                     <xsl:variable name="all-text" as="xs:string*" select="//alto:String/@CONTENT"/>
-                    <xsl:value-of select="$all-text"/>
+                    <xsl:value-of select="normalize-space(replace(string-join($all-text, ' '), '\n', ' '))"/>
                 </field>
                 <field name="body_with_payload.{$language}">
                     <xsl:for-each select="//alto:Page">
@@ -27,14 +28,14 @@
                             <xsl:value-of select="count(preceding-sibling::Page) + 1"/>
                         </xsl:variable>
                         <xsl:for-each select="//alto:String">
-                            <xsl:variable name="content" select="@CONTENT"/>
+                            <xsl:variable name="content" select="replace(@CONTENT, '\n', ' ')"/>
                             <xsl:variable name="xpos" select="@HPOS"/>
                             <xsl:variable name="ypos" select="@VPOS"/>
                             <xsl:variable name="width" select="@WIDTH"/>
                             <xsl:variable name="height" select="@HEIGHT"/>
                             <xsl:variable name="posinfo"
                                 select="concat($pageno, ',', $xpos, ',', $ypos, ',', $width, ',', $height)"/>
-                            <xsl:variable name="token" select="concat($content, '|', $posinfo)"/>
+                            <xsl:variable name="token" select="normalize-space(concat($content, '|', $posinfo))"/>
                             <xsl:value-of select="$token"/>
                             <xsl:value-of select="' '"/>
                         </xsl:for-each>
