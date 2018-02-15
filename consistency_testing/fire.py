@@ -2,8 +2,8 @@ import requests
 import json
 import time
 
-api_uri = "https://www.europeana.eu/api/v2/search.json?wskey=api2demo&profile=minimal"
-solr_uri = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/search?wt=json&fl=title,europeana_id"
+api_uri = "https://www.europeana.eu/api/v2/search.json?wskey=api2demo&profile=minimal&rows=24"
+solr_uri = "http://sol7.eanadev.org:9191/solr/search_production_publish_1/search?wt=json&fl=title,europeana_id&rows=24"
 
 api_responses = {}
 solr_responses = {}
@@ -42,7 +42,7 @@ def build_query(entry, target="solr"):
 with open("queries.tsv") as qt:
 	for line in qt.readlines():
 		for i in range(query_reps):
-			time.sleep(300)
+			time.sleep(120)
 			qstring = build_query(line, "api")
 			apiq = api_uri + "&" + qstring
 			apir = requests.get(apiq).json()
