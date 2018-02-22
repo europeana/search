@@ -39,46 +39,49 @@ def build_query(entry, target="solr"):
 		query = qs + "=" + entry.strip()
 		return query
 
-
+all_queries = []
 with open("queries.tsv") as qt:
 	for line in qt.readlines():
-		for i in range(query_reps):
-			time.sleep(5)
-			qstring = build_query(line, "api")
-			apiq = api_uri + "&" + qstring
+		all_queries.append(line.strip())
+
+for i in range(0, query_reps):
+	for now_query in all_queries:
+		time.sleep(240)
+		qstring = build_query(now_query, "api")
+		apiq = api_uri + "&" + qstring
+		try:
+			apir = requests.get(apiq).json()
+			item_count = apir['totalResults']
+			qr = QueryResponse(i, item_count)
+			for item in apir['items']:
+				myid = item['id']
+				title = " ".join(item['title'])
+				qr.add_item(myid, title)
 			try:
-				#apir = requests.get(apiq).json()
-				#item_count = apir['totalResults']
-				#qr = QueryResponse(i, item_count)
-				#for item in apir['items']:
-				#	myid = item['id']
-			#		title = " ".join(item['title'])
-			#		qr.add_item(myid, title)
-			#	try:
-			#		api_responses[apiq].append(qr)
-			#	except KeyError:
-			#		api_responses[apiq] = [qr]
-				sstring = build_query(line)
-				server = str(random.randint(7,12))
-				solrq = solr_uri.replace("☃", server) + "&" + sstring
-				print(solrq)
-			except:
-				pass
-			solrr = requests.get(solrq).json()
+				api_responses[apiq].append(qr)
+			except KeyError:
+				api_responses[apiq] = [qr]
+			sstring = build_query(now_query)
+			server = str(random.randint(7,12))
+			solrq = solr_uri.replace("☃", server) + "&" + sstring
+			print(solrq)
+		except:
+			pass
+		solrr = requests.get(solrq).json()
+		try:
+			sitem_count = solrr['response']['numFound']
+			sqr = QueryResponse(i, sitem_count)
+			for doc in solrr['response']['docs']:
+				eid = doc['europeana_id']
+				title = " ".join(doc['title'])
+				sqr.add_item(eid, title)
+				solr_key = solrq.replace(server, "☃", 1)
 			try:
-				sitem_count = solrr['response']['numFound']
-				sqr = QueryResponse(i, sitem_count)
-				for doc in solrr['response']['docs']:
-					eid = doc['europeana_id']
-					title = " ".join(doc['title'])
-					sqr.add_item(eid, title)
-					solr_key = solrq.replace(server, "☃", 1)
-				try:
-					solr_responses[solr_key].append(sqr)
-				except KeyError:
-					solr_responses[solr_key] = [sqr]
-			except:
-				pass
+				solr_responses[solr_key].append(sqr)
+			except KeyError:
+				solr_responses[solr_key] = [sqr]
+		except:
+			pass
 
 with open('api_results.tsv', 'w') as ar:
 	for query, responses in api_responses.items():
