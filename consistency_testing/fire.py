@@ -3,8 +3,8 @@ import json
 import time
 import random
 
-api_uri = "https://www.europeana.eu/api/v2/search.json?wskey=api2demo&profile=minimal&rows=24"
-solr_uri = "http://sol☃.eanadev.org:9191/solr/search_production_publish_1/search?wt=json&fl=title,europeana_id&rows=24"
+api_uri = "https://www.europeana.eu/api/v2/search.json?wskey=api2demo&profile=minimal&rows=96"
+solr_uri = "http://sol☃.eanadev.org:9191/solr/search_production_publish_1/search?wt=json&fl=title,europeana_id&rows=96"
 
 api_responses = {}
 solr_responses = {}
@@ -28,16 +28,19 @@ class QueryResponse:
 		msg = position + "\t" + results + "\t" + "\t".join(str(item) for item in self.items)
 		return msg
 
-def build_query(entry, target="solr"):
+def build_query(entry, target, iteration):
+	offset = "96" if iteration % 2 == 1 else "0"
+	offset_qs = "&start=" + offset
 	qs = "q" if target != "api" else "query"
 	fq = "fq" if target != "api" else "qf"
 	try:
 		(query, fqs) = entry.split("\t")
 		filters = ("&").join(fq + "=" + f for f in fqs.split(","))
-		return qs + "=" + query + "&" + filters
+		qs = qs + "=" + query + "&" + filters
 	except ValueError:
-		query = qs + "=" + entry.strip()
-		return query
+		qs = qs + "=" + entry.strip()
+	qs += offset_qs
+	return qs
 
 all_queries = []
 with open("queries.tsv") as qt:
@@ -47,7 +50,7 @@ with open("queries.tsv") as qt:
 for i in range(0, query_reps):
 	for now_query in all_queries:
 		time.sleep(240)
-		qstring = build_query(now_query, "api")
+		qstring = build_query(now_query, "api", i)
 		apiq = api_uri + "&" + qstring
 		try:
 			apir = requests.get(apiq).json()
@@ -61,7 +64,7 @@ for i in range(0, query_reps):
 				api_responses[apiq].append(qr)
 			except KeyError:
 				api_responses[apiq] = [qr]
-			sstring = build_query(now_query)
+			sstring = build_query(now_query, "solr", i)
 			server = str(random.randint(7,12))
 			solrq = solr_uri.replace("☃", server) + "&" + sstring
 			print(solrq)
