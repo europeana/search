@@ -13,12 +13,13 @@
         <fieldType name="date" class="solr.TrieDateField" omitNorms="true" precisionStep="0"
             positionIncrementGap="0"/>
 
-        <fieldType name="suggestType" class="solr.TextField" positionIncrementGap="100">
+        <fieldType name="suggestType" class="solr.TextField" positionIncrementGap="100" termVectors="true" termPositions="true" termOffsets="true" storeOffsetsWithPositions="true">
             <analyzer>
+                <charFilter class="solr.PatternReplaceCharFilterFactory"
+                  pattern="[!'#%'()*+,-./:;=>?@[/]^{|}~]"
+                  replacement=""/>
                 <charFilter class="solr.MappingCharFilterFactory"
                     mapping="accent-map.txt"/>
-                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="[^a-zA-Z0-9_]"
-                    replacement=" "/>
                 <tokenizer class="solr.PatternTokenizerFactory" pattern="_"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
             </analyzer>
@@ -63,10 +64,14 @@
             multiValued="false"/>
 
         <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
-
-        <!-- Entity type, in human-readable form (Concept|Agent|TimePeriod|Place|Work) -->
+        <field name="text.*" type="text" indexed="true" stored="true" multiValued="true"/>
+        
+        <!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
+        <!-- DEPRECATED -->
         <field name="internal_type" type="string" indexed="true" stored="true" multiValued="false"
             required="true"/>
+        <!-- use this instead ... -->
+        <field name="type" type="string" indexed="true" stored="true" multiValued="false" required="true" />
 
         <!-- License info -->
         <field name="rights" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -78,24 +83,28 @@
             multiValued="false"/>
         <field name="wikipedia_clicks" type="int" indexed="true" stored="true" multiValued="false"/>
         <field name="pagerank" type="float" indexed="true" stored="true" multiValued="false"/>
-        <!-- the above = factors are combined (in some fashion) to produce the derived_score,
+        <!-- the above = factors are combined to produce the derived_score,
              which is used directly for ranking -->
         <field name="derived_score" type="float" indexed="true" stored="true" multiValued="false"/>
 
-        <dynamicField name="skos_prefLabel.*" type="proper_name" indexed="true" stored="true"
+        <dynamicField name="skos_prefLabel.*" type="proper_name" indexed="false" stored="true"
+            multiValued="false"/>
+        <field name="skos_prefLabel" type="proper_name" indexed="false" stored="true"
+            multiValued="true"/>            
+        <dynamicField name="skos_altLabel.*" type="proper_name" indexed="false" stored="true"
             multiValued="true"/>
-        <field name="skos_prefLabel" type="proper_name" indexed="true" stored="true"
-            multiValued="true"/>
-        <dynamicField name="skos_altLabel.*" type="proper_name" indexed="true" stored="true"
-            multiValued="true"/>
-        <field name="skos_altLabel" type="proper_name" indexed="true" stored="true"
+        <field name="skos_altLabel" type="proper_name" indexed="false" stored="true"
             multiValued="true"/>
         <field name="foaf_name" type="proper_name" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="foaf_name.*" type="proper_name" indexed="true" stored="true"
             multiValued="true"/>
         <copyField source="foaf_name.*" dest="foaf_name"/>
+        <field name="label" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+        <!-- populated by import scripts-->
+        <dynamicField name="label.*" type="proper_name" indexed="true" stored="true" multiValued="true"/>
+        
         <!-- these fields all consist of URI identifiers -->
-        <field name="owl_sameAs" type="string" indexed="true" stored="true" multiValued="true"/>
+         <field name="owl_sameAs" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="edm_isRelatedTo" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="edm_isNextInSequence" type="string" indexed="true" stored="true"
             multiValued="true"/>
@@ -182,30 +191,47 @@
 
         <field name="payload" type="json" indexed="true" stored="true" multiValued="true"/>
         <field name="suggest_filters" indexed="true" stored="true" multiValued="true" type="string"/>
-
         <field name="coref" type="string" indexed="true" stored="true" multiValued="true"/>
         <copyField source="owl_sameAs" dest="coref"/>
         <copyField source="skos_exactMatch" dest="coref"/>
+        
+        <!-- Organization fields -->
+        <field name="edm_acronym" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="foaf_logo" type="string" indexed="false" stored="true" multiValued="true" />
+        <field name="foaf_phone" type="string" indexed="false" stored="true" multiValued="true" />
+        <field name="foaf_mbox" type="string" indexed="false" stored="true" multiValued="true" />
+        <!-- these fields are all populated by controlled values. These are all en, but in future may be expanded -->
+        <dynamicField name="edm_europeanaRole.*" type="string" indexed="false" multiValued="true" />
+        <dynamicField name="edm_organizationDomain.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="edm_organizationScope.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="edm_organizationSector.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="edm_geographicLevel.*" type="string" indexed="false" stored="true" multiValued="false"/> 
+        <!-- ISO ALPHA-2 codes  -->
+        <dynamicField name="edm_country" type="string" indexed="false" stored="true" multiValued="false"/>
+        <!-- wildcards here indicate numbers; used because of the possibility of one organization having more
+             than one address -->
+        <dynamicField name="vcard_hasAddress.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <dynamicField name="vcard_streetAddress.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="vcard_locality.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <dynamicField name="vcard_region.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="vcard_postal-code.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <dynamicField name="vcard_country-name.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <dynamicField name="vcard_post-office-box.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <!-- dc: description not currently in the profile -->
+        <dynamicField name="dc_description.*" type="string" indexed="false" stored="true"/>
+        
     </fields>
     <uniqueKey>id</uniqueKey>
     <!-- COPYFIELDS -->
-
+    <!-- note that many 'copyfields' are populated artificially during the import process
+         rather than relying on Solr built-in functionality. In particular, language-specific
+         values for individual fields are also assigned to a language-specific text 'copyfield'
+         in the import pipeline -->
     <copyField source="skos_altLabel.*" dest="skos_altLabel"/>
     <copyField source="skos_note.*" dest="skos_note"/>
-    <copyField source="skos_prefLabel.*" dest="text"/>
-    <copyField source="skos_altLabel.*" dest="text"/>
-    <copyField source="skos_note.*" dest="text"/>
-    <copyField source="skos_note" dest="text"/>
-    <copyField source="skos_closeMatch" dest="text"/>
-    <copyField source="skos_broadMatch" dest="text"/>
-    <copyField source="skos_narrowMatch" dest="text"/>
-    <copyField source="skos_exactMatch" dest="text"/>
-    <copyField source="skos_inScheme" dest="text"/>
-    <copyField source="skos_broader" dest="text"/>
-    <copyField source="skos_related" dest="text"/>
-    <copyField source="skos_relatedMatch" dest="text"/>
-    <copyField source="skos_notation" dest="text"/>
-    <copyField source="skos_narrower" dest="text"/>
+    <copyField source="text.*" dest="text"/>
+    <copyField source="label.*" dest="label" />
+
 
 
 
