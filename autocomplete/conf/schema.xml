@@ -67,11 +67,11 @@
         <field name="text.*" type="text" indexed="true" stored="true" multiValued="true"/>
         
         <!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
-        <!-- DEPRECATED -->
+        <!-- about to be deprecated ... -->
         <field name="internal_type" type="string" indexed="true" stored="true" multiValued="false"
             required="true"/>
-        <!-- use this instead ... -->
-        <field name="type" type="string" indexed="true" stored="true" multiValued="false" required="true" />
+        <!-- use this shortly ... -->
+        <field name="type" type="string" indexed="true" stored="true" multiValued="false" required="false" />
 
         <!-- License info -->
         <field name="rights" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -196,27 +196,29 @@
         <copyField source="skos_exactMatch" dest="coref"/>
         
         <!-- Organization fields -->
-        <field name="edm_acronym" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="foaf_logo" type="string" indexed="false" stored="true" multiValued="true" />
         <field name="foaf_phone" type="string" indexed="false" stored="true" multiValued="true" />
         <field name="foaf_mbox" type="string" indexed="false" stored="true" multiValued="true" />
+        <field name="foaf_homepage" type="string" indexed="false" stored="true" multiValued="true" />
         <!-- these fields are all populated by controlled values. These are all en, but in future may be expanded -->
         <dynamicField name="edm_europeanaRole.*" type="string" indexed="false" multiValued="true" />
         <dynamicField name="edm_organizationDomain.*" type="string" indexed="false" stored="true" multiValued="false"/>
         <dynamicField name="edm_organizationScope.*" type="string" indexed="false" stored="true" multiValued="false"/>
         <dynamicField name="edm_organizationSector.*" type="string" indexed="false" stored="true" multiValued="false"/>
         <dynamicField name="edm_geographicLevel.*" type="string" indexed="false" stored="true" multiValued="false"/> 
+        <!-- standard language-defined dynamicField -->
+        <dynamicField name="edm_acronym.*" type="string" indexed="true" stored="true" multiValued="true"/>
         <!-- ISO ALPHA-2 codes  -->
-        <dynamicField name="edm_country" type="string" indexed="false" stored="true" multiValued="false"/>
+        <field name="edm_country" type="string" indexed="false" stored="true" multiValued="false"/>
         <!-- wildcards here indicate numbers; used because of the possibility of one organization having more
              than one address -->
         <dynamicField name="vcard_hasAddress.*" type="string" indexed="false" stored="true" multiValued="false" />
         <dynamicField name="vcard_streetAddress.*" type="string" indexed="false" stored="true" multiValued="false"/>
         <dynamicField name="vcard_locality.*" type="string" indexed="false" stored="true" multiValued="false" />
         <dynamicField name="vcard_region.*" type="string" indexed="false" stored="true" multiValued="false"/>
-        <dynamicField name="vcard_postal-code.*" type="string" indexed="false" stored="true" multiValued="false" />
-        <dynamicField name="vcard_country-name.*" type="string" indexed="false" stored="true" multiValued="false" />
-        <dynamicField name="vcard_post-office-box.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <dynamicField name="vcard_postalCode.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <dynamicField name="vcard_countryName.*" type="string" indexed="false" stored="true" multiValued="false" />
+        <dynamicField name="vcard_postOfficeBox.*" type="string" indexed="false" stored="true" multiValued="false" />
         <!-- dc: description not currently in the profile -->
         <dynamicField name="dc_description.*" type="string" indexed="false" stored="true"/>
         
