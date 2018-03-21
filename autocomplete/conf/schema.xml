@@ -57,19 +57,16 @@
         <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
 
         <!-- unique key -->
-        <field name="id" type="string" indexed="true" required="true" multiValued="false"
-            stored="true"/>
+        <field name="id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
 
-        <field name="timestamp" type="date" indexed="true" stored="true" default="NOW"
-            multiValued="false"/>
+        <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
 
         <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
-        <field name="text.*" type="text" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="text.*" type="text" indexed="true" stored="true" multiValued="true"/>
         
         <!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
         <!-- about to be deprecated ... -->
-        <field name="internal_type" type="string" indexed="true" stored="true" multiValued="false"
-            required="true"/>
+        <field name="internal_type" type="string" indexed="true" stored="true" multiValued="false" required="true"/>
         <!-- use this shortly ... -->
         <field name="type" type="string" indexed="true" stored="true" multiValued="false" required="false" />
 
@@ -87,14 +84,20 @@
              which is used directly for ranking -->
         <field name="derived_score" type="float" indexed="true" stored="true" multiValued="false"/>
 
-        <dynamicField name="skos_prefLabel.*" type="proper_name" indexed="false" stored="true"
-            multiValued="false"/>
-        <field name="skos_prefLabel" type="proper_name" indexed="false" stored="true"
-            multiValued="true"/>            
-        <dynamicField name="skos_altLabel.*" type="proper_name" indexed="false" stored="true"
-            multiValued="true"/>
-        <field name="skos_altLabel" type="proper_name" indexed="false" stored="true"
-            multiValued="true"/>
+        <dynamicField name="skos_prefLabel.*" type="string" indexed="false" stored="true" multiValued="false"/>   
+        <field name="skos_prefLabel" type="proper_name" indexed="false" stored="true" multiValued="true"/>   
+        <dynamicField name="prefLabel.*" type="proper_name" indexed="true" stored="true" multiValued="false" />
+        <copyField source="prefLabel.*" dest="skos_prefLabel.*" />
+        <dynamicField name="skos_altLabel.*" type="string" indexed="false" stored="true" multiValued="true"/>
+        <dynamicField name="altLabel.*" type="proper_name" indexed="true" stored="true" multiValued="false" />
+        <copyField source="altLabel.*" dest="skos_altLabel.*"/>
+        <copyField source="prefLabel.*" dest="label.*" />
+        <copyField source="altLabel.*" dest="label.*" />
+        <copyField source="edm_acronym.*" dest="label.*" />
+        <copyField source="prefLabel.*" dest="label" />
+        <copyField source="altLabel.*" dest="label" />
+        <copyField source="edm_acronym.*" dest="label" />
+
         <field name="foaf_name" type="proper_name" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="foaf_name.*" type="proper_name" indexed="true" stored="true"
             multiValued="true"/>
@@ -126,7 +129,7 @@
             multiValued="true"/>
         <field name="skos_notation" type="text" indexed="true" stored="true" multiValued="true"/>
 
-        <field name="dc_identifier" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="dc_identifier" type="string" indexed="false" stored="true" multiValued="true"/>
         <field name="dc_date" type="string" indexed="true" stored="true" multiValued="true"/>
 
         <!-- some Agent-related date fields. Check datatyping -->
@@ -202,14 +205,30 @@
         <field name="foaf_homepage" type="string" indexed="false" stored="true" multiValued="true" />
         <!-- these fields are all populated by controlled values. These are all en, but in future may be expanded -->
         <dynamicField name="edm_europeanaRole.*" type="string" indexed="false" multiValued="true" />
+        <dynamicField name="europeanaRole.*" type="string" indexed="true" multiValued="true" stored="false" />
+        <copyField source="europeanaRole.*" dest="edm_europeanaRole.*" />
         <dynamicField name="edm_organizationDomain.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="orgDomain.*" type="string" indexed="true" stored="false" multiValued="false" />
+        <copyField source="orgDomain.*" dest="edm_organizationDomain.*" />
+
         <dynamicField name="edm_organizationScope.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="orgScope.*" type="string" indexed="true" stored="false" multiValued="false" />
+        <copyField source="orgScope.*" dest="edm_organizationScope.*" />
+
         <dynamicField name="edm_organizationSector.*" type="string" indexed="false" stored="true" multiValued="false"/>
+        <dynamicField name="orgSector.*" type="string" indexed="true" stored="false" multiValued="false" />
+        <copyField source="orgSector.*" dest="edm_organizationSector.*" />
+
         <dynamicField name="edm_geographicLevel.*" type="string" indexed="false" stored="true" multiValued="false"/> 
+        <dynamicField name="geoLevel.*" type="string" indexed="true" stored="false" multiValued="false" />
+        <copyField source="geoLevel.*" dest="edm_geographicLevel.*" />
+
         <!-- standard language-defined dynamicField -->
-        <dynamicField name="edm_acronym.*" type="string" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="edm_acronym.*" type="string" indexed="false" stored="true" multiValued="true"/>
         <!-- ISO ALPHA-2 codes  -->
         <field name="edm_country" type="string" indexed="false" stored="true" multiValued="false"/>
+        <field name="country" type="string" indexed="true" stored="false" multiValued="false"/>
+        <copyField source="country" dest="edm_country"/>
         <!-- wildcards here indicate numbers; used because of the possibility of one organization having more
              than one address -->
         <dynamicField name="vcard_hasAddress.*" type="string" indexed="false" stored="true" multiValued="false" />
@@ -229,15 +248,29 @@
          rather than relying on Solr built-in functionality. In particular, language-specific
          values for individual fields are also assigned to a language-specific text 'copyfield'
          in the import pipeline -->
-    <copyField source="skos_altLabel.*" dest="skos_altLabel"/>
     <copyField source="skos_note.*" dest="skos_note"/>
-    <copyField source="text.*" dest="text"/>
-    <copyField source="label.*" dest="label" />
+
+    <!-- Organization copyfields -->
+
+    <copyField source="prefLabel.*" dest="text.*" />
+    <copyField source="altLabel.*" dest="text.*" />
+    <copyField source="edm_acronym.*" dest="text.*" />
+    <copyField source="dc_description.*" dest="text.*" />
+    <copyField source="europeanaRole.*" dest="text.*" />
+    <copyField source="organizationDomain.*" dest="text.*" />
+    <copyField source="organizationScope.*" dest="text.*" />
+    <copyField source="organizationSector.*" dest="text.*" />
+    <copyField source="geographicLevel.*" dest="text.*" />
+    <copyField source="prefLabel.*" dest="text" />
+    <copyField source="altLabel.*" dest="text" />
+    <copyField source="edm_acronym.*" dest="text" />
+    <copyField source="dc_description.*" dest="text" />
+    <copyField source="europeanaRole.*" dest="text" />
+    <copyField source="organizationDomain.*" dest="text" />
+    <copyField source="organizationScope.*" dest="text" />
+    <copyField source="organizationSector.*" dest="text" />
+    <copyField source="geographicLevel.*" dest="text" />
 
 
 
-
-    <!--
-    <copyField source="internal_type" dest="text"/>
-	-->
 </schema>
