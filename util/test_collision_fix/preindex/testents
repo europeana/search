@@ -1,0 +1,38 @@
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%27data.europeana.eu%2Fagent%2Fbase%2F11241%27&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=where%3A%27data.europeana.eu%2Fplace%2Fbase%2F5712%27&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22data.europeana.eu%2Fconcept%2Fbase%2F255%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22http%3A%2F%2Fdata.europeana.eu%2Fagent%2Fbase%2F101818%22&rows=1000&fl=europeana_id%2C+title&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22http%3A%2F%2Frdf.ablm.se%2FSE_ABLM_ENT_6%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3ALeopold+who%3Avon+who%3ASacher+who%3AMasoch&rows=1000&fl=*&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Leopold+von+Sacher-Masoch%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Depot-Generaal+van+Oorlog%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Depot%20Generaal+van+Oorlog%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Wider%C3%B8e%27s+Flyveselskap+A%2FS%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Wider%C3%B8e%27s+Flyveselskap+AS%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22W.C. Fields%22&rows=1000&fl=europeana_id%2C+title&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22W%20C%20Fields%22&rows=1000&fl=europeana_id%2C+title&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22WC%20Fields%22&rows=1000&fl=europeana_id%2C+title&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Martin+Luther+King%2C+Jr.%22&rows=1000&fl=europeana_id%2C+title&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Martin+Luther+King+Jr%22&rows=1000&fl=europeana_id%2C+title&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Martin+Luther+King+Jr.%22&rows=1000&fl=europeana_id%2C+title&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=where%3A%22St+Alban%27s%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=where%3A%22St+Albans%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=where%3A%22St.+Albans%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=proxy_dc_creator%3A%27Dr.+John+Dee%27&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=proxy_dc_creator%3A%27Dr+John+Dee%27&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=proxy_dc_creator%3A%22%5B%CE%91%CE%BD%CF%89%CE%BD%CF%8D%CE%BC%CF%89%CF%82%5D%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=proxy_dc_creator%3A%22%CE%91%CE%BD%CF%89%CE%BD%CF%8D%CE%BC%CF%89%CF%82%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22R%C3%B6ssing%2C+Roger%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Rossing%2C+Roger%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Parti+social+fran%C3%A7ais.%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Parti+social+francais%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22DAMGAARD HOLGER%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22damgaard holger%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22inventor%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A" inventor%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Culture%3A+cultura+di+Golasecca%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22Culture+cultura+di+Golasecca%22&rows=1000&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22L.+Szacinski+(firmaet)%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=who%3A%22L.+Szacinski+firmaet%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=proxy_dc_contributor%3A%22Niemirycz%2C+Juliusz%22&wt=json&indent=true&fl=europeana_id
+http://sol7.eanadev.org:9191/solr/search_2_shard2_replica1/select?q=proxy_dc_contributor%3A%22Niemirycz+Juliusz%22&wt=json&indent=true&fl=europeana_id
