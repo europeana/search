@@ -1,0 +1,7 @@
+SearchInteraction	2018-03-21T14:39:42.162Z	dc33d6e83df48bab3d20513b6c9de41b	Mubi South AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		0
+SearchInteraction	2018-03-21T14:41:36.236Z	dc33d6e83df48bab3d20513b6c9de41b	Gude AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		94
+RankedRetrieveRecordInteraction	2018-03-21T14:43:11.131Z	dc33d6e83df48bab3d20513b6c9de41b	Gude AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/90402/BK_1973_511_B	8	94
+SearchInteraction	2018-03-21T14:43:54.560Z	dc33d6e83df48bab3d20513b6c9de41b	Gude AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		94
+RefreshOrPaginationInteraction	2018-03-21T14:44:13.051Z	dc33d6e83df48bab3d20513b6c9de41b	Gude AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		94
+SearchInteraction	2018-03-21T14:44:20.532Z	dc33d6e83df48bab3d20513b6c9de41b	Gude		633
+ArbitraryAccessInteraction	2018-03-21T14:45:38.944Z	dc33d6e83df48bab3d20513b6c9de41b	[200] GET /portal/en/record/92034/GVNRC_CBG01_7674.html (PortalController#show)

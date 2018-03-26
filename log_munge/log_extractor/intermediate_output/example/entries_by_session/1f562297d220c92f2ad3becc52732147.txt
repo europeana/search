@@ -1,0 +1,7 @@
+ArbitraryAccessInteraction	2018-03-21T15:49:49.274Z	1f562297d220c92f2ad3becc52732147	[200] GET /portal/cs/record/2023601/oai_eu_dismarc_GHT_001_000000P8A635.html (PortalController#show)
+SearchInteraction	2018-03-21T15:50:45.914Z	1f562297d220c92f2ad3becc52732147	kubla		48
+CollectionFilterRemovalInteraction	2018-03-21T15:50:59.850Z	1f562297d220c92f2ad3becc52732147	kubla		7
+RankedRetrieveRecordInteraction	2018-03-21T15:51:04.324Z	1f562297d220c92f2ad3becc52732147	kubla		/2051945/data_euscreenXL_http___www_ceskatelevize_cz_ivysilani_10183430155_120_let_budovy_statni_opery_praha_20854215070_	1	7
+RankedRetrieveRecordInteraction	2018-03-21T15:53:14.044Z	1f562297d220c92f2ad3becc52732147	kubla		/2023601/oai_eu_dismarc_GHT_001_000000P8A636	6	7
+RankedRetrieveRecordInteraction	2018-03-21T15:54:58.335Z	1f562297d220c92f2ad3becc52732147	kubla		/2023601/oai_eu_dismarc_GHT_001_000000P8A636	6	7
+SearchInteraction	2018-03-21T16:03:25.798Z	1f562297d220c92f2ad3becc52732147	kubla		7

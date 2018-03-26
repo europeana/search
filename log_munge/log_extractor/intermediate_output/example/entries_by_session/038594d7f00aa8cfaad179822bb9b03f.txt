@@ -1,0 +1,5 @@
+ArbitraryAccessInteraction	2018-03-21T19:32:19.285Z	038594d7f00aa8cfaad179822bb9b03f	[200] GET /portal/en/record/90402/RP_F_2006_22_24.html (PortalController#show)
+SearchInteraction	2018-03-21T19:32:39.661Z	038594d7f00aa8cfaad179822bb9b03f	what:"photograph"		3545581
+SearchInteraction	2018-03-21T19:32:46.630Z	038594d7f00aa8cfaad179822bb9b03f	what:"photograph"	{'TYPE': ['IMAGE']}	3538729
+CollectionFilterRemovalInteraction	2018-03-21T19:33:22.050Z	038594d7f00aa8cfaad179822bb9b03f	what:"photograph"	{'TYPE': ['IMAGE']}	414917
+SearchInteraction	2018-03-21T19:33:23.709Z	038594d7f00aa8cfaad179822bb9b03f	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27168665

@@ -1,0 +1,3 @@
+ArbitraryAccessInteraction	2018-03-21T15:23:06.990Z	afc3ccb9b6fd26c19d863b7b3649b981	[200] GET /portal/it/record/9200214/BibliographicResource_3000073973152.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T15:23:40.694Z	afc3ccb9b6fd26c19d863b7b3649b981	[200] GET /portal/it/record/9200225/BibliographicResource_3000073976250.html (PortalController#show)
+SearchInteraction	2018-03-21T15:24:16.286Z	afc3ccb9b6fd26c19d863b7b3649b981	europeana_collectionName:(9200225_Ag_EU_TEL_a0536_Collections_1914-1918)		169

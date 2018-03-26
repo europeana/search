@@ -1,0 +1,5 @@
+ArbitraryAccessInteraction	2018-03-21T20:07:22.710Z	9b3b86ea27ee723b907c4390a2c82fe2	[200] GET /portal/pl/record/2058635/_tnn_26471.html (PortalController#show)
+SearchInteraction	2018-03-21T20:08:21.901Z	9b3b86ea27ee723b907c4390a2c82fe2	what:"tabela"		18
+RefreshOrPaginationInteraction	2018-03-21T20:08:23.671Z	9b3b86ea27ee723b907c4390a2c82fe2	what:"tabela"		18
+RefreshOrPaginationInteraction	2018-03-21T20:08:29.114Z	9b3b86ea27ee723b907c4390a2c82fe2	what:"tabela"		18
+ArbitraryAccessInteraction	2018-03-21T20:08:49.649Z	9b3b86ea27ee723b907c4390a2c82fe2	[200] GET /portal/pl/record/2058635/_tnn_26471.html (PortalController#show)

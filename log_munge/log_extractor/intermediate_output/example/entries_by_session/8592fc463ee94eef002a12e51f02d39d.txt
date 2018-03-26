@@ -1,0 +1,34 @@
+SearchInteraction	2018-03-21T11:18:26.824Z	8592fc463ee94eef002a12e51f02d39d	Die Kataloge der Dresdner Akademie-Ausstellungen, 1801-1850		0
+ArbitraryAccessInteraction	2018-03-21T12:31:44.951Z	8592fc463ee94eef002a12e51f02d39d	[200] GET /portal/pl/record/92033/BibliographicResource_3000053564306.html (PortalController#show)
+SearchInteraction	2018-03-21T12:31:58.556Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		10494
+CollectionFilterRemovalInteraction	2018-03-21T12:32:09.190Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		82
+RankedRetrieveRecordInteraction	2018-03-21T12:32:22.218Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		/9200479/item_1045802_	8	82
+SearchInteraction	2018-03-21T12:32:28.135Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		82
+RefreshOrPaginationInteraction	2018-03-21T12:32:42.668Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		82
+RefreshOrPaginationInteraction	2018-03-21T12:32:50.954Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		82
+RefreshOrPaginationInteraction	2018-03-21T12:32:58.246Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		82
+RefreshOrPaginationInteraction	2018-03-21T12:33:04.924Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		82
+RefreshOrPaginationInteraction	2018-03-21T12:33:11.500Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		82
+CollectionFilterAdditionInteraction	2018-03-21T12:34:24.523Z	8592fc463ee94eef002a12e51f02d39d	what:"Grafika i Rysunek"		0
+SearchInteraction	2018-03-21T12:34:30.239Z	8592fc463ee94eef002a12e51f02d39d	piwarski feliks		0
+SearchInteraction	2018-03-21T12:34:35.621Z	8592fc463ee94eef002a12e51f02d39d	chandelier		4926
+SearchInteraction	2018-03-21T12:34:47.031Z	8592fc463ee94eef002a12e51f02d39d	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T12:34:53.785Z	8592fc463ee94eef002a12e51f02d39d	jules chandelier		4
+SearchInteraction	2018-03-21T12:35:15.763Z	8592fc463ee94eef002a12e51f02d39d	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T12:35:21.936Z	8592fc463ee94eef002a12e51f02d39d	richter		40136
+SearchInteraction	2018-03-21T12:35:29.686Z	8592fc463ee94eef002a12e51f02d39d	richter	{'TYPE': ['IMAGE']}	26181
+SearchInteraction	2018-03-21T12:35:50.342Z	8592fc463ee94eef002a12e51f02d39d	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27168665
+SearchInteraction	2018-03-21T12:35:56.262Z	8592fc463ee94eef002a12e51f02d39d	Pulawy	{'TYPE': ['IMAGE']}	474
+RankedRetrieveRecordInteraction	2018-03-21T12:36:11.672Z	8592fc463ee94eef002a12e51f02d39d	Pulawy	{'TYPE': ['IMAGE']}	/9200479/item_9523815_	2	474
+SearchInteraction	2018-03-21T12:36:53.894Z	8592fc463ee94eef002a12e51f02d39d	Pulawy	{'TYPE': ['IMAGE']}	474
+RefreshOrPaginationInteraction	2018-03-21T12:37:00.737Z	8592fc463ee94eef002a12e51f02d39d	Pulawy	{'TYPE': ['IMAGE']}	474
+RefreshOrPaginationInteraction	2018-03-21T12:37:14.676Z	8592fc463ee94eef002a12e51f02d39d	Pulawy	{'TYPE': ['IMAGE']}	474
+SearchInteraction	2018-03-21T12:37:23.691Z	8592fc463ee94eef002a12e51f02d39d	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27168665
+SearchInteraction	2018-03-21T12:37:38.524Z	8592fc463ee94eef002a12e51f02d39d	Parchatka	{'TYPE': ['IMAGE']}	5
+SearchInteraction	2018-03-21T12:38:56.066Z	8592fc463ee94eef002a12e51f02d39d	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27168665
+SearchInteraction	2018-03-21T12:39:05.181Z	8592fc463ee94eef002a12e51f02d39d	czartoryska izabela	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-03-21T12:39:41.770Z	8592fc463ee94eef002a12e51f02d39d	czartoryska izabela	{'TYPE': ['IMAGE']}	/094041/_nnR1xrd	6	40
+SearchInteraction	2018-03-21T12:39:54.177Z	8592fc463ee94eef002a12e51f02d39d	czartoryska izabela	{'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-03-21T12:40:49.375Z	8592fc463ee94eef002a12e51f02d39d	czartoryska izabela	{'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-03-21T12:41:00.093Z	8592fc463ee94eef002a12e51f02d39d	czartoryska izabela	{'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-03-21T12:41:17.864Z	8592fc463ee94eef002a12e51f02d39d	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27168665

@@ -1,0 +1,16 @@
+SearchInteraction	2018-03-21T04:13:05.016Z	93660fe5a423dce075ae41df744c0769	nadar		8539
+SearchInteraction	2018-03-21T04:13:19.503Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum']}	90
+CollectionFilterAdditionInteraction	2018-03-21T04:13:26.114Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum']}	0
+CollectionFilterRemovalInteraction	2018-03-21T04:13:31.899Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum']}	90
+CollectionFilterAdditionInteraction	2018-03-21T04:13:36.225Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum']}	0
+SearchInteraction	2018-03-21T04:13:44.788Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	2
+CollectionFilterRemovalInteraction	2018-03-21T04:13:54.083Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	8001
+CollectionFilterAdditionInteraction	2018-03-21T04:13:59.775Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	145
+RefreshOrPaginationInteraction	2018-03-21T04:14:21.295Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	145
+RefreshOrPaginationInteraction	2018-03-21T04:14:37.539Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	145
+RefreshOrPaginationInteraction	2018-03-21T04:14:53.271Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	145
+RefreshOrPaginationInteraction	2018-03-21T04:15:09.439Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	145
+RankedRetrieveRecordInteraction	2018-03-21T04:15:17.529Z	93660fe5a423dce075ae41df744c0769	nadar	{'DATA_PROVIDER': ['Rijksmuseum', 'National Library of France']}	/9200365/BibliographicResource_3000149390085	6	145
+SearchInteraction	2018-03-21T04:15:29.782Z	93660fe5a423dce075ae41df744c0769	europeana_collectionName:(9200365_Ag_EU_TEL_a0142_Gallica)		2145448
+SearchInteraction	2018-03-21T04:24:08.802Z	93660fe5a423dce075ae41df744c0769	nadar 		8539
+CollectionFilterAdditionInteraction	2018-03-21T04:24:15.991Z	93660fe5a423dce075ae41df744c0769	nadar 		2

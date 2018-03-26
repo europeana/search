@@ -1,0 +1,12 @@
+ArbitraryAccessInteraction	2018-03-21T14:52:36.867Z	c871cbadec353874cd2b5278d2677569	[200] GET /portal/fr/record/9200312/BibliographicResource_3000094972624.html (PortalController#show)
+SearchInteraction	2018-03-21T14:53:46.027Z	c871cbadec353874cd2b5278d2677569	who:(Fréderic Sohr)		2
+SearchInteraction	2018-03-21T15:44:43.373Z	c871cbadec353874cd2b5278d2677569	st quentin		216
+CollectionFilterAdditionInteraction	2018-03-21T15:44:53.813Z	c871cbadec353874cd2b5278d2677569	st quentin		2
+SearchInteraction	2018-03-21T15:44:58.757Z	c871cbadec353874cd2b5278d2677569	lettre		66612
+SearchInteraction	2018-03-21T15:45:01.580Z	c871cbadec353874cd2b5278d2677569	NO VALUE PROVIDED		51332004
+RefreshOrPaginationInteraction	2018-03-21T15:45:03.371Z	c871cbadec353874cd2b5278d2677569	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T15:45:09.241Z	c871cbadec353874cd2b5278d2677569	civil st quentin		1
+ArbitraryAccessInteraction	2018-03-21T15:45:19.029Z	c871cbadec353874cd2b5278d2677569	[200] GET /portal/fr/record/2020601/contributions_7695.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T16:12:46.045Z	c871cbadec353874cd2b5278d2677569	[200] GET /portal/fr/record/9200312/BibliographicResource_3000094972624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T16:12:58.494Z	c871cbadec353874cd2b5278d2677569	[200] GET /portal/fr/record/9200312/BibliographicResource_3000093743132.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T16:32:51.468Z	c871cbadec353874cd2b5278d2677569	[200] GET /portal/fr/record/9200312/BibliographicResource_3000093743132.html (PortalController#show)

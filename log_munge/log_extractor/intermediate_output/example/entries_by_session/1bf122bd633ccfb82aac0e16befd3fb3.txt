@@ -1,0 +1,6 @@
+SearchInteraction	2018-03-21T11:09:04.813Z	1bf122bd633ccfb82aac0e16befd3fb3	("prisoner of war" OR Kriegsgefangener OR "Prisonnier de guerre" OR "prigioniero di guerra") AND what:"World War I"		6649
+CollectionFilterAdditionInteraction	2018-03-21T11:09:37.282Z	1bf122bd633ccfb82aac0e16befd3fb3	("prisoner of war" OR Kriegsgefangener OR "Prisonnier de guerre" OR "prigioniero di guerra") AND what:"World War I"		6491
+SearchInteraction	2018-03-21T11:09:58.485Z	1bf122bd633ccfb82aac0e16befd3fb3	("prisoner of war" OR Kriegsgefangener OR "Prisonnier de guerre" OR "prigioniero di guerra") AND what:"World War I"	{'TYPE': ['TEXT']}	2417
+RefreshOrPaginationInteraction	2018-03-21T11:10:19.593Z	1bf122bd633ccfb82aac0e16befd3fb3	("prisoner of war" OR Kriegsgefangener OR "Prisonnier de guerre" OR "prigioniero di guerra") AND what:"World War I"	{'TYPE': ['TEXT']}	2417
+CollectionFilterRemovalInteraction	2018-03-21T11:10:44.986Z	1bf122bd633ccfb82aac0e16befd3fb3	("prisoner of war" OR Kriegsgefangener OR "Prisonnier de guerre" OR "prigioniero di guerra") AND what:"World War I"	{'TYPE': ['TEXT']}	947
+SearchInteraction	2018-03-21T11:11:46.611Z	1bf122bd633ccfb82aac0e16befd3fb3	NO VALUE PROVIDED		4122465

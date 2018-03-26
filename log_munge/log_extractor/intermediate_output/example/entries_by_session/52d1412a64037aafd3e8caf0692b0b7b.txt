@@ -1,0 +1,46 @@
+ArbitraryAccessInteraction	2018-03-21T10:56:49.806Z	52d1412a64037aafd3e8caf0692b0b7b	[200] GET /portal/ro/record/9200456/BibliographicResource_3000136303707.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T11:03:54.560Z	52d1412a64037aafd3e8caf0692b0b7b	[200] GET /portal/ro/record/9200456/handle_123456789_67053.html (PortalController#show)
+SearchInteraction	2018-03-21T11:04:51.994Z	52d1412a64037aafd3e8caf0692b0b7b	basarabia		3873
+RefreshOrPaginationInteraction	2018-03-21T11:05:13.674Z	52d1412a64037aafd3e8caf0692b0b7b	basarabia		3873
+RefreshOrPaginationInteraction	2018-03-21T11:05:32.190Z	52d1412a64037aafd3e8caf0692b0b7b	basarabia		3873
+CollectionFilterAdditionInteraction	2018-03-21T11:05:49.520Z	52d1412a64037aafd3e8caf0692b0b7b	basarabia		0
+SearchInteraction	2018-03-21T11:05:55.205Z	52d1412a64037aafd3e8caf0692b0b7b	ghibu		8
+SearchInteraction	2018-03-21T11:06:53.011Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:07:03.913Z	52d1412a64037aafd3e8caf0692b0b7b	nistor		194
+CollectionFilterRemovalInteraction	2018-03-21T11:07:37.997Z	52d1412a64037aafd3e8caf0692b0b7b	nistor		22
+RefreshOrPaginationInteraction	2018-03-21T11:07:55.012Z	52d1412a64037aafd3e8caf0692b0b7b	nistor		22
+SearchInteraction	2018-03-21T11:08:23.837Z	52d1412a64037aafd3e8caf0692b0b7b	ion		6987
+SearchInteraction	2018-03-21T11:08:26.429Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+RefreshOrPaginationInteraction	2018-03-21T11:08:27.895Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+RefreshOrPaginationInteraction	2018-03-21T11:08:29.690Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:08:44.093Z	52d1412a64037aafd3e8caf0692b0b7b	unirea basarabiei		2
+RankedRetrieveRecordInteraction	2018-03-21T11:08:59.996Z	52d1412a64037aafd3e8caf0692b0b7b	unirea basarabiei		/2020601/contributions_15744	2	2
+SearchInteraction	2018-03-21T11:09:41.406Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:09:58.500Z	52d1412a64037aafd3e8caf0692b0b7b	kiritescu		6
+SearchInteraction	2018-03-21T11:10:29.788Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+RefreshOrPaginationInteraction	2018-03-21T11:11:01.892Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+RefreshOrPaginationInteraction	2018-03-21T11:11:27.658Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:11:41.217Z	52d1412a64037aafd3e8caf0692b0b7b	ciobanu		201
+RefreshOrPaginationInteraction	2018-03-21T11:12:08.932Z	52d1412a64037aafd3e8caf0692b0b7b	ciobanu		201
+CollectionFilterRemovalInteraction	2018-03-21T11:12:28.473Z	52d1412a64037aafd3e8caf0692b0b7b	ciobanu		46
+RefreshOrPaginationInteraction	2018-03-21T11:12:40.103Z	52d1412a64037aafd3e8caf0692b0b7b	ciobanu		46
+RefreshOrPaginationInteraction	2018-03-21T11:12:55.528Z	52d1412a64037aafd3e8caf0692b0b7b	ciobanu		46
+RefreshOrPaginationInteraction	2018-03-21T11:14:16.428Z	52d1412a64037aafd3e8caf0692b0b7b	ciobanu		46
+SearchInteraction	2018-03-21T11:14:30.564Z	52d1412a64037aafd3e8caf0692b0b7b	stefan		67061
+SearchInteraction	2018-03-21T11:14:32.244Z	52d1412a64037aafd3e8caf0692b0b7b	ciobanu		201
+SearchInteraction	2018-03-21T11:14:36.057Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:14:45.118Z	52d1412a64037aafd3e8caf0692b0b7b	suveica		14
+RefreshOrPaginationInteraction	2018-03-21T11:15:02.446Z	52d1412a64037aafd3e8caf0692b0b7b	suveica		14
+SearchInteraction	2018-03-21T11:15:27.293Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:15:35.106Z	52d1412a64037aafd3e8caf0692b0b7b	mamina		30
+RefreshOrPaginationInteraction	2018-03-21T11:15:48.566Z	52d1412a64037aafd3e8caf0692b0b7b	mamina		30
+RefreshOrPaginationInteraction	2018-03-21T11:16:07.124Z	52d1412a64037aafd3e8caf0692b0b7b	mamina		30
+SearchInteraction	2018-03-21T11:31:16.405Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:31:30.357Z	52d1412a64037aafd3e8caf0692b0b7b	leustean		6
+SearchInteraction	2018-03-21T11:51:22.209Z	52d1412a64037aafd3e8caf0692b0b7b	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T11:51:29.103Z	52d1412a64037aafd3e8caf0692b0b7b	boia		141
+RefreshOrPaginationInteraction	2018-03-21T11:52:02.628Z	52d1412a64037aafd3e8caf0692b0b7b	boia		141
+RefreshOrPaginationInteraction	2018-03-21T11:52:15.213Z	52d1412a64037aafd3e8caf0692b0b7b	boia		141
+RefreshOrPaginationInteraction	2018-03-21T11:52:31.316Z	52d1412a64037aafd3e8caf0692b0b7b	boia		141
+RefreshOrPaginationInteraction	2018-03-21T11:52:44.691Z	52d1412a64037aafd3e8caf0692b0b7b	boia		141
+CollectionFilterRemovalInteraction	2018-03-21T11:53:11.903Z	52d1412a64037aafd3e8caf0692b0b7b	boia		8

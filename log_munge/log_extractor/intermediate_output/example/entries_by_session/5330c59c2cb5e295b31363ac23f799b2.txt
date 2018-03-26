@@ -1,0 +1,9 @@
+SearchInteraction	2018-03-21T15:43:23.529Z	5330c59c2cb5e295b31363ac23f799b2	uilleann		1414
+CollectionFilterRemovalInteraction	2018-03-21T15:43:59.686Z	5330c59c2cb5e295b31363ac23f799b2	uilleann		35
+CollectionFilterAdditionInteraction	2018-03-21T15:44:15.571Z	5330c59c2cb5e295b31363ac23f799b2	uilleann		1414
+SearchInteraction	2018-03-21T15:44:19.464Z	5330c59c2cb5e295b31363ac23f799b2	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T15:44:28.346Z	5330c59c2cb5e295b31363ac23f799b2	uilleann pipes		1340
+SearchInteraction	2018-03-21T15:44:57.682Z	5330c59c2cb5e295b31363ac23f799b2	uilleann pipes	{'TYPE': ['IMAGE']}	14
+RankedRetrieveRecordInteraction	2018-03-21T15:45:26.038Z	5330c59c2cb5e295b31363ac23f799b2	uilleann pipes	{'TYPE': ['IMAGE']}	/2048087/ProvidedCHO_Horniman_Museum_and_Gardens_http___collections_horniman_ac_uk_objects_12699	12	14
+RankedRetrieveRecordInteraction	2018-03-21T15:46:18.805Z	5330c59c2cb5e295b31363ac23f799b2	uilleann pipes	{'TYPE': ['IMAGE']}	/2059213/data_sounds_7400	6	14
+RankedRetrieveRecordInteraction	2018-03-21T15:48:29.177Z	5330c59c2cb5e295b31363ac23f799b2	uilleann pipes	{'TYPE': ['IMAGE']}	/2059213/data_sounds_7401	5	14

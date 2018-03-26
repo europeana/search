@@ -1,0 +1,4 @@
+SearchInteraction	2018-03-21T16:01:11.207Z	8114f820dd58e18334d2ecd962381d91	louis XIV		7228
+SearchInteraction	2018-03-21T16:01:43.766Z	8114f820dd58e18334d2ecd962381d91	louis XIV	{'LANGUAGE': ['en']}	449
+RefreshOrPaginationInteraction	2018-03-21T16:02:02.999Z	8114f820dd58e18334d2ecd962381d91	louis XIV	{'LANGUAGE': ['en']}	449
+RankedRetrieveRecordInteraction	2018-03-21T16:02:12.991Z	8114f820dd58e18334d2ecd962381d91	louis XIV	{'LANGUAGE': ['en']}	/9200143/BibliographicResource_2000069505960	28	449

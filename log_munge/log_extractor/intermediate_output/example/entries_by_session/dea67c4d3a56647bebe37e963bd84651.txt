@@ -1,0 +1,16 @@
+SearchInteraction	2018-03-21T18:50:07.049Z	dea67c4d3a56647bebe37e963bd84651	lüge		528
+SearchInteraction	2018-03-21T18:50:17.157Z	dea67c4d3a56647bebe37e963bd84651	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T18:50:31.946Z	dea67c4d3a56647bebe37e963bd84651	betrayel		0
+RefreshOrPaginationInteraction	2018-03-21T18:52:07.729Z	dea67c4d3a56647bebe37e963bd84651	betrayel		0
+RefreshOrPaginationInteraction	2018-03-21T18:52:09.981Z	dea67c4d3a56647bebe37e963bd84651	betrayel		0
+SearchInteraction	2018-03-21T18:52:12.948Z	dea67c4d3a56647bebe37e963bd84651	NO VALUE PROVIDED		51332004
+SearchInteraction	2018-03-21T18:52:29.184Z	dea67c4d3a56647bebe37e963bd84651	rage		1475
+RankedRetrieveRecordInteraction	2018-03-21T18:52:36.497Z	dea67c4d3a56647bebe37e963bd84651	rage		/92093/BibliographicResource_1000086158887	1	1475
+SearchInteraction	2018-03-21T18:53:16.491Z	dea67c4d3a56647bebe37e963bd84651	Arts and Crafts	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst']}	266
+SearchInteraction	2018-03-21T18:53:43.405Z	dea67c4d3a56647bebe37e963bd84651	Dada		4857
+RefreshOrPaginationInteraction	2018-03-21T18:53:58.380Z	dea67c4d3a56647bebe37e963bd84651	Dada		4857
+RefreshOrPaginationInteraction	2018-03-21T18:54:08.108Z	dea67c4d3a56647bebe37e963bd84651	Dada		4857
+SearchInteraction	2018-03-21T18:54:16.188Z	dea67c4d3a56647bebe37e963bd84651	Dada	{'TYPE': ['IMAGE']}	965
+RefreshOrPaginationInteraction	2018-03-21T18:54:27.500Z	dea67c4d3a56647bebe37e963bd84651	Dada	{'TYPE': ['IMAGE']}	965
+RefreshOrPaginationInteraction	2018-03-21T18:54:33.987Z	dea67c4d3a56647bebe37e963bd84651	Dada	{'TYPE': ['IMAGE']}	965
+RankedRetrieveRecordInteraction	2018-03-21T18:54:44.190Z	dea67c4d3a56647bebe37e963bd84651	Dada	{'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000100189985	36	965

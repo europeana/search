@@ -1,0 +1,3 @@
+ArbitraryAccessInteraction	2018-03-21T12:01:06.477Z	7e488f639c33a4d432bba43c6a562009	[200] GET /portal/hu/record/92006/BibliographicResource_1000095233098.html (PortalController#show)
+SearchInteraction	2018-03-21T12:02:45.319Z	7e488f639c33a4d432bba43c6a562009	proxy_dc_format:"PDF"		168887
+ArbitraryAccessInteraction	2018-03-21T12:04:40.102Z	7e488f639c33a4d432bba43c6a562009	[200] GET /portal/hu/record/92006/BibliographicResource_1000095233098.html (PortalController#show)

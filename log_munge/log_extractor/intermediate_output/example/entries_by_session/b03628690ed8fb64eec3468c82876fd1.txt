@@ -1,0 +1,14 @@
+ArbitraryAccessInteraction	2018-03-21T20:47:55.254Z	b03628690ed8fb64eec3468c82876fd1	[200] GET /portal/en/record/08533/artifact_aspx_id_279.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T20:54:53.057Z	b03628690ed8fb64eec3468c82876fd1	[200] GET /portal/en/record/08533/artifact_aspx_id_520.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T20:55:30.529Z	b03628690ed8fb64eec3468c82876fd1	[200] GET /portal/en/record/08533/artifact_aspx_id_517.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T20:55:50.518Z	b03628690ed8fb64eec3468c82876fd1	[200] GET /portal/en/record/08533/artifact_aspx_id_466.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T21:03:01.570Z	b03628690ed8fb64eec3468c82876fd1	[200] GET /portal/en/record/08533/artifact_aspx_id_278.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-21T21:04:38.036Z	b03628690ed8fb64eec3468c82876fd1	[200] GET /portal/en/record/08533/artifact_aspx_id_279.html (PortalController#show)
+SearchInteraction	2018-03-21T21:06:41.416Z	b03628690ed8fb64eec3468c82876fd1	NO VALUE PROVIDED		679663
+RankedRetrieveRecordInteraction	2018-03-21T21:07:19.830Z	b03628690ed8fb64eec3468c82876fd1	NO VALUE PROVIDED		/08533/artifact_aspx_id_87	8	679663
+RankedRetrieveRecordInteraction	2018-03-21T21:09:32.970Z	b03628690ed8fb64eec3468c82876fd1	NO VALUE PROVIDED		/08533/artifact_aspx_id_84	9	679663
+SearchInteraction	2018-03-21T21:10:17.914Z	b03628690ed8fb64eec3468c82876fd1	who:(Erardi, Stefano 
+ Create)		3
+RankedRetrieveRecordInteraction	2018-03-21T21:10:49.575Z	b03628690ed8fb64eec3468c82876fd1	who:(Erardi, Stefano 
+ Create)		/08533/artifact_aspx_id_84	3	3
+ArbitraryAccessInteraction	2018-03-21T21:20:38.986Z	b03628690ed8fb64eec3468c82876fd1	[200] GET /portal/en/record/08533/artifact_aspx_id_279.html (PortalController#show)
