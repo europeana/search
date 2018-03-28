@@ -199,10 +199,10 @@
         <copyField source="skos_exactMatch" dest="coref"/>
         
         <!-- Organization fields -->
-        <field name="foaf_logo" type="string" indexed="false" stored="true" multiValued="true" />
+        <field name="foaf_logo" type="string" indexed="false" stored="true" multiValued="false" />
         <field name="foaf_phone" type="string" indexed="false" stored="true" multiValued="true" />
         <field name="foaf_mbox" type="string" indexed="false" stored="true" multiValued="true" />
-        <field name="foaf_homepage" type="string" indexed="false" stored="true" multiValued="true" />
+        <field name="foaf_homepage" type="string" indexed="false" stored="true" multiValued="false" />
         <!-- these fields are all populated by controlled values. These are all en, but in future may be expanded -->
         <dynamicField name="edm_europeanaRole.*" type="string" indexed="false" multiValued="true" />
         <dynamicField name="europeanaRole.*" type="string" indexed="true" multiValued="true" stored="false" />

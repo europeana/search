@@ -784,11 +784,23 @@
         </lst>
         <lst>
           <str name="q">*:*</str>
+          <str name="q">collection:art</str>
+        </lst>
+        <lst>
+          <str name="q">*:*</str>
+          <str name="q">collection:maps</str>
+        </lst>
+        <lst>
+          <str name="q">*:*</str>
+          <str name="q">collection:migration</str>
+        </lst>
+        <lst>
+          <str name="q">*:*</str>
           <str name="q">collection:music</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
-          <str name="q">collection:art</str>
+          <str name="q">collection:nature</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
@@ -796,12 +808,14 @@
         </lst>
         <lst> <!-- migration -->
           <str name="q">*:*</str>
-          <str name="q">collection:migration</str>
+          <str name="q">collection:sport</str>
+        </lst>
+        <lst> 
+          <str name="q">*:*</str>
+          <str name="q">collection:ww1</str>
         </lst>
       </arr>
     </listener>
-
-
     <listener event="newSearcher" class="solr.QuerySenderListener">
       <arr name="queries">
         <!--
@@ -990,11 +1004,23 @@
         </lst>
         <lst>
           <str name="q">*:*</str>
+          <str name="q">collection:art</str>
+        </lst>
+        <lst>
+          <str name="q">*:*</str>
+          <str name="q">collection:maps</str>
+        </lst>
+        <lst>
+          <str name="q">*:*</str>
+          <str name="q">collection:migration</str>
+        </lst>
+        <lst>
+          <str name="q">*:*</str>
           <str name="q">collection:music</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
-          <str name="q">collection:art</str>         
+          <str name="q">collection:nature</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
@@ -1002,7 +1028,11 @@
         </lst>
         <lst> 
           <str name="q">*:*</str>
-          <str name="q">collection:migration</str>
+          <str name="q">collection:sport</str>
+        </lst>
+        <lst> 
+          <str name="q">*:*</str>
+          <str name="q">collection:ww1</str>
         </lst>
       </arr>
     </listener>
