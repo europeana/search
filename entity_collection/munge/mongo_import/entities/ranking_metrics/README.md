@@ -15,7 +15,7 @@ The procedure for harvesting the relevance metrics is as follows;
 3. A mapping operation takes place to align our own identifiers with the Wikidata identifiers used in the Wikidata PageRank archive. The Wikidata identifier is then used to retrieve the relevant PageRank score.
 4. The entity identifier, number of Europeana hits, and PageRank are then all written to the relevant SQLite file in the `../db directory`.
 
-For the moment, all these steps are completed using ad hoc scripts. This is because the sources of our entities and the procedures for harvesting them have not yet stabilised: data is drawn from several different sources, and it is therefore currently impossible to take a completely standardised approach. The `populate_metrics_dbs.py` and `populate_organization_db.py` scripts may provide some guidance. But their utility is illustrative only. 
+For the moment, all these steps are completed using ad hoc scripts. This is because the sources of our entities and the procedures for harvesting them have not yet stabilised: data is drawn from several different sources, and it is therefore currently impossible to take a completely standardised approach. The `populate_metrics_dbs.py` and `populate_organization_db.py` scripts (both in the `resources` directory) may provide some guidance. But their utility is illustrative only. 
 
 ## Wikidata PageRank
 
