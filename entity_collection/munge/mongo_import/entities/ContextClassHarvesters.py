@@ -185,16 +185,28 @@ class ContextClassHarvester:
         self.add_suggest_filters(docroot, eu_terms)
         return True
 
+    def process_address(self, docroot, entity_id, address):
+        address_components = []
+        for k, v in address:
+            field_name = ContextClassHarvester.FIELD_MAP[k]
+            field_name = field_name + ".1"
+            self.add_field(docroot, field_name, v)
+            address_components.append(v)
+        self.add_field(docroot, "vcard_hasAddress.1", ",".join(address_components))
+
+
     def process_representation(self, docroot, entity_id, entity_rows):
         # TODO: Refactor to shrink this method
         import json
         all_preflabels = []
         for characteristic in entity_rows['representation']:
-            if str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
+            if(characteristic == "address"):
+                self.process_address(docroot, entity_id, entity_rows['representation']['address']['AddressImpl'])
+            elif str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
                 continue
                 # if the entry is a dictionary, then the keys should be language codes
-            if(type(entity_rows['representation'][characteristic]) is dict):
+            elif(type(entity_rows['representation'][characteristic]) is dict):
                 for lang in entity_rows['representation'][characteristic]:
                     pref_label_count = 0
                     prev_alts = []
@@ -364,6 +376,38 @@ class PlaceHarvester(ContextClassHarvester):
         self.add_field(doc, 'id', id)
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)
+
+class OrganizationHarvester(ContextClassHarvester):
+
+    def __init__(self):
+        import sys, os
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
+        import RelevanceCounter
+        from pymongo import MongoClient
+        ContextClassHarvester.__init__(self, 'organizations', 'eu.europeana.corelib.solr.entity.OrganizationImpl')
+        self.relevance_counter = RelevanceCounter.PlaceRelevanceCounter()
+
+    def get_entity_count(self):
+        org_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/organization/).*$' }} )
+        return len(org_list)
+
+    def build_entity_chunk(self, start):
+        orgs = self.client.annocultor_db.organization.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        orgs_chunk = {}
+        for org in orgs:
+            orgs_chunk[org] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : org })
+        return orgs_chunk
+
+    def build_entity_doc(self, docroot, entity_id, entity_rows):
+        import sys
+        sys.path.append('ranking_metrics')
+        from xml.etree import ElementTree as ET
+        id = entity_id
+        doc = ET.SubElement(docroot, 'doc')
+        self.add_field(doc, 'id', id)
+        self.add_field(doc, 'internal_type', 'Organization')
+        self.process_representation(doc, entity_id, entity_rows)
+
 
 class IndividualEntityBuilder:
     import os, shutil
