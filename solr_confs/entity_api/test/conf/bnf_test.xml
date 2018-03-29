@@ -1,0 +1,28 @@
+<add>
+    <doc>
+        <field name="id">http://data.europeana.eu/organization/1482250000002112001</field>
+        <field name="internal_type">Organization</field>
+        <field name="skos_prefLabel.en">National Library of France</field>
+        <field name="skos_altLabel.en">Bibliothèque nationale de France</field>
+        <field name="label.en">National Library of France</field>
+        <field name="label.en">Bibliothèque nationale de France</field>
+        <field name="label.en">BnF</field>
+        <field name="dc_identifier">1482250000002112001</field>
+        <field name="edm_acronym.en">BnF</field>
+        <field name="foaf_logo">https://commons.wikimedia.org/wiki/Category:Biblioth%C3%A8que_nationale_de_France#/media/File:Logo_BnF.svg</field>
+        <field name="foaf_homepage">www.bnf.fr</field>
+        <field name="europeanaRole.en">Direct Provider</field>
+        <field name="orgDomain.en">Library</field>
+        <field name="orgSector.en">Public</field>
+        <field name="orgScope.en">Cross</field>
+        <field name="geoLevel.en">National</field>
+        <field name="vcard_streetAddress.1">Quai François Mauriac</field>
+        <field name="vcard_locality.1">Paris</field>
+        <field name="vcard_postalCode.1">75706</field>
+        <field name="vcard_countryName.1">FR</field>
+        <field name="vcard_postOfficeBox.1">Paris Cedex 13</field>
+        <field name="vcard_hasAddress.1">Paris Cedex 13, Quai François Mauriac, Paris, FR 75706</field>
+        <field name="payload">{ "prefLabel": { "fr" : "Bibliothèque nationale de France"}, "acronym.en" : [ "BnF" ], "country" : "fr", "orgDomain.en" : "Library", "type" : "Organization", "id" : "http://data.europeana.eu/organization/base/1482250000002063029" }</field>
+        <field name="skos_prefLabel">BnF_National_National Library_National Library of_National Library of France_Bibliothèque_Bibliothèque nationale_Bibliothèque nationale de_Bibliothèque nationale de France</field>
+    </doc>
+</add>
