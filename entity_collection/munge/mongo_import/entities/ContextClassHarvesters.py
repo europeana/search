@@ -59,9 +59,17 @@ class ContextClassHarvester:
     LOG_LOCATION = 'logs/entlogs/'
     FIELD_MAP = {
         # maps mongo fields to their solr equivalents
+        # TODO: there are numerous fields defined in the schema but not 
+        # found in the actual data. They are accordingly not represented here.
+        # For a list of all fields that might conceivably exist in accordance
+        # with the data model, see https://docs.google.com/spreadsheets/d/
+        #           1b1UN27M2eCia0L54di0KQY7KcndTq8-wxzwM4wN-8DU/edit#gid=340708208
         'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
         'altLabel' : { 'label': 'skos_altLabel' , 'type' : 'string' },
+        'hiddenLabel' : { 'label' : 'skos_hiddenLabel', 'type' : 'string'},
         'note' : { 'label': 'skos_note' , 'type' : 'string' },
+        'begin' : { 'label' : 'edm_begin', 'type' : 'string'},
+        'end' : { 'label' : 'edm_end', 'type' : 'string'}, 
         'owlSameAs' : { 'label': 'owl_sameAs' , 'type' : 'ref' },
         'edmIsRelatedTo' : { 'label': 'edm_isRelatedTo' , 'type' : 'ref' },
         'dcIdentifier' : { 'label': 'dc_identifier' , 'type' : 'string' },
@@ -76,6 +84,7 @@ class ContextClassHarvester:
         'begin' : { 'label': 'edm_begin' , 'type' : 'string' },
         'end' : { 'label': 'edm_end' , 'type' : 'string' },
         'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
+        'hasPart' : { 'label' : 'dcterms_hasPart', 'type' : 'ref'},
         'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
         'date' : { 'label' : 'dc_date', 'type' : 'string' },
         'exactMatch': { 'label' :  'skos_exactMatch', 'type' : 'string' },
@@ -90,9 +99,24 @@ class ContextClassHarvester:
         'closeMatch' : { 'label' : 'skos_closeMatch', 'type' : 'ref' },
         'notation' : { 'label' : 'skos_notation', 'type' : 'ref' },
         'inScheme' : { 'label' : 'skos_inScheme', 'type' : 'ref' },
-        'note' : { 'label' : 'skos_note', 'type' : 'string' }
+        'note' : { 'label' : 'skos_note', 'type' : 'string' },
+        'foafLogo' : { 'label' : 'foaf_logo', 'type' : 'ref' },
+        'foafHomepage' : { 'label' : 'foaf_homepage', 'type' : 'ref'},
+        'edmEuropeanaRole' : { 'label' : 'edm_europeanaRole', 'type' : 'string'},
+        'edmOrganizationDomain' : { 'label' : 'edm_organizationDomain', 'type' : 'string'},
+        'edmOrganizationSector' : { 'label' : 'edm_organizationSector', 'type' : 'string'},
+        'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
+        'edmGeographicalLevel' : { 'label' : 'geoLevel', 'type' : 'string'},
+        'edmCountry' : { 'label' : 'edm_country', 'type' : 'string'},
+        'vcardStreetAddress' : { 'label' : 'vcard_streetAddress', 'type' : 'string'},
+        'vcardLocality' : { 'label' : 'vcard_locality', 'type' : 'string' },
+        'vcardPostalCode' : { 'label' : 'vcard_postalCode', 'type' : 'string'},
+        'vcardCountryName' : { 'label' : 'vcard_countryName', 'type' : 'string' },
+        'vcardPostOfficeBox' : { 'label' : 'vcard_postOfficeBox', 'type' : 'string'}
  
     }
+
+    # TODO: add address processing
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
