@@ -31,6 +31,13 @@ class PreviewBuilder:
             if(self.build_role(entity_rows)): preview_fields['professionOrOccupation'] = self.build_role(entity_rows)
         elif(entity_type == "Place"):
             if(self.build_country_label(entity_rows)): preview_fields['isPartOf'] = self.build_country_label(entity_rows)
+        elif(entity_type == "Organization"):
+            # for some reason the preview data model for multilingual 
+            # Organization fields is different from the mulitilingual
+            # model elsewhere
+            build_org_preview_field('edmCountry', preview_fields, entity_rows)
+            build_org_preview_field('edmAcronym', preview_fields, entity_rows)
+            build_org_preview_field('edmOrganizationDomain', preview_fields, entity_rows)
         return preview_fields
 
     def build_pref_label(self, entity_rows):
@@ -38,6 +45,11 @@ class PreviewBuilder:
         for k in entity_rows['prefLabel']:
             all_langs[k] = entity_rows['prefLabel'][k][0]
         return all_langs
+
+    def build_org_preview_field(field_name, preview_dictionary, entity_rows):
+        if(field_name in entity_rows.keys()):
+            for lang_code in entity_rows[field_name]:
+                preview_dictionary[field_name + "." + lang_code] = entity_rows[field_name][lang_code]
 
     def build_max_recall(self, entity_type, entity_rows):
         all_langs = {}
