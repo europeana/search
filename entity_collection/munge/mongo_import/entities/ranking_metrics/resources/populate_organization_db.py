@@ -27,15 +27,18 @@ org_mongo = MongoClient("mongodb://metis-storage.eanadev.org", 27017)
 orgs = org_mongo.annocultor_db.TermList.find({ "entityType" : "OrganizationImpl"})
 for org in orgs:
 	org_id = org['codeUri']
-	en_label = org['representation']['prefLabel']['en'][0]
-	o = OrgRecord(org_id, en_label)
-	lbls = []
-	for lv in org['representation']['prefLabel']:
-		[lbls.append(lbl) for lbl in org['representation']['prefLabel'][lv]]
-	for lv in org['representation']['altLabel']:
-		[lbls.append(lbl) for lbl in org['representation']['altLabel'][lv]]
-	o.all_labels = lbls
-	org_records.append(o)
+	try:
+		en_label = org['representation']['prefLabel']['en'][0]
+		o = OrgRecord(org_id, en_label)
+		lbls = []
+		for lv in org['representation']['prefLabel']:
+			[lbls.append(lbl) for lbl in org['representation']['prefLabel'][lv]]
+		for lv in org['representation']['altLabel']:
+			[lbls.append(lbl) for lbl in org['representation']['altLabel'][lv]]
+		o.all_labels = lbls
+		org_records.append(o)
+	except KeyError:
+		pass
 
 # first, lets get pagerank stats
 # first step: get the wikidata identifiers
@@ -55,9 +58,12 @@ for orgr in org_records:
 	now_query = wikidata_query.replace('XXXXX', lbl)
 	wikidata_req = wikidata_endpoint_url + now_query
 	as_json = requests.get(wikidata_req).json()
-	wikidata_id = as_json['results']['bindings'][0]['item']['value'].split("/")[-1]
-	coref = "http://wikidata.dbpedia.org/resource/" + wikidata_id
-	pagerank = all_pageranks[coref].strip()
+	try:
+		wikidata_id = as_json['results']['bindings'][0]['item']['value'].split("/")[-1]
+		coref = "http://wikidata.dbpedia.org/resource/" + wikidata_id
+		pagerank = all_pageranks[coref].strip()
+	except IndexError:
+		pagerank = 0
 	orgr.pagerank = pagerank
 	enrich_hits_query = solr_query.replace('XXXXX', "'" + orgid + "'")
 	enrich_as_json = requests.get(enrich_hits_query).json()
@@ -81,6 +87,10 @@ for orgr in org_records:
 	vals = [str("\"" + orgr.id + "\""), str(orgr.wpd_hits), str(orgr.uri_hits), str(orgr.term_hits), str(orgr.pagerank)]
 	instatement = "INSERT INTO hits VALUES(" + ",".join(vals) + ")"
 	print(instatement)
-	csr.execute(instatement)
+	try:
+		csr.execute(instatement)
+	except sqlite3.IntegrityError:
+		# if hit already registered
+		pass
 conn.commit()
 
