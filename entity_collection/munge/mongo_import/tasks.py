@@ -97,6 +97,7 @@ def get_place_count(self):
         except MaxRetriesExceededError:
             log_failure("Places", "Count")
             return False
+
 @app.task(name='mongo_import.build_place_file', bind=True, default_retry_delay=300, max_retries=5)
 def build_place_file(self, start):
     try:
@@ -109,4 +110,35 @@ def build_place_file(self, start):
             raise self.retry()
         except:
             log_failure("Places", start)
+            return False
+
+@app.task(name='mongo_import.get_org_count', bind=True, default_retry_delay=3, max_retries=5)
+def get_org_count(self):
+    try:
+        oh = ContextClassHarvesters.OrganizationHarvester()
+        entity_count = oh.get_entity_count()
+        return entity_count
+    # note that we don't handle all possible exceptions
+    # Celery will pass most errors and exceptions onto the logger
+    # and set the task status to failure if left unhandled
+    # most of the time this is what we want
+    except ServerSelectionTimeoutError as ss:
+        try:
+            raise self.retry()
+        except MaxRetriesExceededError:
+            log_failure("Organization", "Count")
+            return False
+            
+@app.task(name='mongo_import.build_org_file', bind=True, default_retry_delay=300, max_retries=5)
+def build_place_file(self, start):
+    try:
+        ol = ContextClassHarvesters.OrganizationHarvester()
+        entity_list = pl.build_entity_chunk(start)
+        status = pl.build_solr_doc(entity_list, start)
+        return status
+    except ServerSelectionTimeoutError as ss:
+        try:
+            raise self.retry()
+        except:
+            log_failure("Organization", start)
             return False

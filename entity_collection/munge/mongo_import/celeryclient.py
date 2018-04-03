@@ -1,5 +1,5 @@
 from celery import group, chain
-from tasks import build_concept_file, build_agent_file, get_concept_count, get_agent_count, get_place_count, build_place_file
+from tasks import build_concept_file, build_agent_file, get_concept_count, get_agent_count, get_place_count, build_place_file, get_org_count, build_org_file
 import entities.ContextClassHarvesters
 
 chunk_size = entities.ContextClassHarvesters.ContextClassHarvester.CHUNK_SIZE
@@ -16,3 +16,6 @@ export_agents()
 
 export_places = group(build_place_file.s(i) for i in range(0, get_place_count.delay().get(), chunk_size ))
 export_places()
+
+export_orgs = group(build_org_file.s(i) for i in range(0, get_org_count.delay().get(), chunk_size ))
+export_orgs()
