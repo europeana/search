@@ -35,10 +35,7 @@ def get_concept_count(self):
 @app.task(name='mongo_import.build_concept_file', bind=True, default_retry_delay=300, max_retries=5)
 def build_concept_file(self, start):
     try:
-<<<<<<< HEAD
         from entities import ContextClassHarvesters
-=======
->>>>>>> 8a69c9897c3eff9c5f2954c38060385159031263
         concept = ContextClassHarvesters.ConceptHarvester()
         entity_list = concept.build_entity_chunk(start)
         status = concept.build_solr_doc(entity_list, start)
