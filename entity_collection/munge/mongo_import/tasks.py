@@ -127,7 +127,7 @@ def get_org_count(self):
             return False
             
 @app.task(name='mongo_import.build_org_file', bind=True, default_retry_delay=300, max_retries=5)
-def build_place_file(self, start):
+def build_org_file(self, start):
     try:
         ol = ContextClassHarvesters.OrganizationHarvester()
         entity_list = pl.build_entity_chunk(start)
