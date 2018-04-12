@@ -47,11 +47,13 @@ class LanguageValidator:
     def print_langs(self):
         print(self.langmap)
 
+
 class ContextClassHarvester:
 
     import os
 
-    MONGO_HOST = 'mongodb://136.243.103.29'
+    #MONGO_HOST = 'mongodb://136.243.103.29'
+    MONGO_HOST = 'mongodb://metis-storage.eanadev.org'
     MONGO_PORT = 27017
     CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
@@ -108,6 +110,7 @@ class ContextClassHarvester:
         'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
         'edmGeographicalLevel' : { 'label' : 'geoLevel', 'type' : 'string'},
         'edmCountry' : { 'label' : 'edm_country', 'type' : 'string'},
+        #'about' : { 'label' : '', 'type' : 'string'},
         'vcardStreetAddress' : { 'label' : 'vcard_streetAddress', 'type' : 'string'},
         'vcardLocality' : { 'label' : 'vcard_locality', 'type' : 'string' },
         'vcardPostalCode' : { 'label' : 'vcard_postalCode', 'type' : 'string'},
@@ -115,6 +118,15 @@ class ContextClassHarvester:
         'vcardPostOfficeBox' : { 'label' : 'vcard_postOfficeBox', 'type' : 'string'}
  
     }
+
+    def log_warm_message(self, entity_id, message):
+        # TODO: differentiate logfiles by date
+        filename = "warn.txt"
+        filepath = LanguageValidator.LOG_LOCATION + filename
+        with open(filepath, 'a') as lgout:
+            msg = "Warning info on processing entity " + str(entity_id) + ": " + str(message)
+            lgout.write(msg)
+            lgout.write("\n")
 
     # TODO: add address processing
 
@@ -137,6 +149,7 @@ class ContextClassHarvester:
 
         docroot = ET.Element('add')
         for entity_id, values  in entities.items():
+            print("processing entity:" + entity_id)
             self.build_entity_doc(docroot, entity_id, values)
         self.client.close()
         return self.write_to_file(docroot, start)
@@ -187,8 +200,12 @@ class ContextClassHarvester:
 
     def process_address(self, docroot, entity_id, address):
         address_components = []
-        for k, v in address:
+        for k, v in address.items():
+            if ("about" == k):
+                continue
             field_name = ContextClassHarvester.FIELD_MAP[k]
+            if (field_name is None):
+               self.log_warm_message(entity_id, "unmapped field: " + k) 		
             field_name = field_name + ".1"
             self.add_field(docroot, field_name, v)
             address_components.append(v)
