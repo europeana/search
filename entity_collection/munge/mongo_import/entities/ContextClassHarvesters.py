@@ -54,6 +54,7 @@ class ContextClassHarvester:
 
     #MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_HOST = 'mongodb://metis-storage.eanadev.org'
+    MONGO_HOST = 'mongodb://localhost'
     MONGO_PORT = 27017
     CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
@@ -78,6 +79,7 @@ class ContextClassHarvester:
         'rdaGr2DateOfBirth' : { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' },
         'rdaGr2DateOfDeath' : { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' },
         'rdaGr2PlaceOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
+        'placeOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
         'rdaGr2PlaceOfDeath' : { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' },
         'rdaGr2ProfessionOrOccupation' :  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' },
         'rdaGr2BiographicalInformation' : { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' },
@@ -209,8 +211,8 @@ class ContextClassHarvester:
             field_name = field_name + ".1"
             self.add_field(docroot, field_name, v)
             address_components.append(v)
-        self.add_field(docroot, "vcard_hasAddress.1", ",".join(address_components))
-
+        if(len(address_components) > 0):
+            self.add_field(docroot, "vcard_hasAddress.1", ",".join(address_components))
 
     def process_representation(self, docroot, entity_id, entity_rows):
         # TODO: Refactor to shrink this method
@@ -222,7 +224,18 @@ class ContextClassHarvester:
             elif str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
                 continue
-                # if the entry is a dictionary, then the keys should be language codes
+            # TODO: Refactor horrible conditional
+            elif(str(characteristic) == "dcIdentifier"):
+                self.add_field(docroot, "dc_identifier", entity_rows['representation']['dcIdentifier']['def'][0])
+            elif(str(characteristic) == "edmOrganizationDomain"):
+                self.add_field(docroot, "edm_organizationDomain.en", entity_rows['representation']['edmOrganizationDomain']['en'])
+            elif(str(characteristic) == "edmCountry"):
+                self.add_field(docroot, "edm_country", entity_rows['representation']['edmCountry']['en'])
+            elif(str(characteristic) == "edmOrganizationSector"):
+                self.add_field(docroot, "edm_organizationSector.en", entity_rows['representation']['edmOrganizationSector']['en'])
+            elif(str(characteristic) == "edmOrganizationScope"):
+                self.add_field(docroot, "edm_organizationScope.en", entity_rows['representation']['edmOrganizationScope']['en'])            
+            # if the entry is a dictionary, then the keys should be language codes
             elif(type(entity_rows['representation'][characteristic]) is dict):
                 for lang in entity_rows['representation'][characteristic]:
                     pref_label_count = 0
@@ -443,6 +456,8 @@ class IndividualEntityBuilder:
             harvester = PlaceHarvester()
         elif(rawtype == 'AgentImpl'):
             harvester = AgentHarvester()
+        elif(rawtype == 'OrganizationImpl'):
+            harvester = OrganizationHarvester()
         else:
             harvester = ConceptHarvester()
         start = int(entity_id.split("/")[-1])
@@ -470,5 +485,7 @@ class ChunkBuilder:
             harvester = AgentHarvester()
         elif(self.entity_type == "place"):
             harvester = PlaceHarvester()
+        elif(self.entity_type == "organization"):
+            harvester = OrganizationHarvester()
         ec = harvester.build_entity_chunk(self.start)
         harvester.build_solr_doc(ec, self.start)

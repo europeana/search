@@ -61,6 +61,23 @@ The Autosuggest handler is invoked using the `/suggestEntity` path. This returns
 
 Note the simple field structures used by the Suggester: suggestions are made from the `skos_prefLabel` field (language-qualified as appropriate); the absolute relevance ranking is stored in `derived_score`; and the entity preview is stored in `payload`. All other fields are ignored by the Suggester (though they may of course be retrieved through other handlers).
 
+### Server setup
+
+The general configuration of the Entity Collection Solr server is described in the [Entity Collection Production Server Configuration](https://docs.google.com/document/d/1yw8xYt-vD23JgnrLVuy1TrteV02MpmnPYIBX6R9Yz5w/edit#heading=h.fn19y43dexa8) document.
+
+## Importing Entities Into the Entity Collection
+
+In general terms, the process of importing entities into the Entity Collection is performed in the following steps:
+
+1. Run the build scripts responsible for pulling the entity data out of Mongo and converting it into XML files.
+    1. Instructions for running these scripts can be found in the relevant GitHub repository and README file.
+1. Once the files are written, copy them to the appropriate directory (normally `entity-api.eanadev.org:/var/solr-test/data/import`)
+1. Import them into the Solr test core, using the DataImportHandler
+    1. The most convenient option here is to tick the 'Clean', 'Commit', and 'Auto-Refresh Status' options
+1. Once the data is in the core, the Suggester has to be built out of it. This is done by optimizing the core. This can be done in two ways
+    1. Using the [API](http://entity-api.eanadev.org:9292/solr/test/update?optimize=true)
+    2. Using the UI (though note that the Optimize button is available only via the [deprecated UI](http://entity-api.eanadev.org:9292/solr/old.html#/~cores/test))
+
 ## Python Code Structure
 
 The code structure is, in broad overview, extremely simple. Harvesting of entities from the MongoDB instance is performed by the appropriate subclass of `ContextClassHarvester` (so, for Agents, `AgentHarvester`, Places, `PlaceHarvester`, etc.)

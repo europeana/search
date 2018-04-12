@@ -292,10 +292,13 @@
     <copyField source="organizationScope.*" dest="text.*" />
     <copyField source="organizationSector.*" dest="text.*" />
     <copyField source="geographicLevel.*" dest="text.*" />
-    <copyField source="prefLabel.*" dest="text" />
-    <copyField source="altLabel.*" dest="text" />
+    <copyField source="skos_prefLabel.*" dest="text" />
+    <copyField source="skos_altLabel.*" dest="text" />
     <copyField source="edm_acronym.*" dest="text" />
+    <copyField source="skos_note.*" dest="text" />
     <copyField source="dc_description.*" dest="text" />
+    <copyField source="rdagr2_professionOrOccupation.*" dest="text" />
+    <copyField source="rdagr2_biographicalInformation.*" dest="text" />
     <copyField source="europeanaRole.*" dest="text" />
     <copyField source="organizationDomain.*" dest="text" />
     <copyField source="organizationScope.*" dest="text" />
