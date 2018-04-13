@@ -52,9 +52,7 @@ class ContextClassHarvester:
 
     import os
 
-    #MONGO_HOST = 'mongodb://136.243.103.29'
-    MONGO_HOST = 'mongodb://metis-storage.eanadev.org'
-    #MONGO_HOST = 'mongodb://localhost'
+    MONGO_HOST = 'mongodb://localhost'
     MONGO_PORT = 27017
     CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
