@@ -169,7 +169,7 @@
         <dynamicField name="rdagr2_placeOfBirth.*" type="string" indexed="false" stored="true"
             multiValued="true"/>
         <field name="placeOfBirth" type="string" indexed="true" stored="false" multiValued="true" />
-        <field name="placeOfBirth.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
+        <dynamicField name="placeOfBirth.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_placeOfBirth" dest="placeOfBirth" />
         <copyField source="rdagr2_placeOfBirth.*" dest="placeOfBirth.*" />       
         <field name="rdagr2_placeOfDeath" type="string" indexed="true" stored="true"
@@ -177,7 +177,7 @@
         <dynamicField name="rdagr2_placeOfDeath.*" type="string" indexed="false" stored="true"
             multiValued="true"/>
         <field name="placeOfDeath" type="string" indexed="true" stored="false" multiValued="true" />
-        <field name="placeOfDeath.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
+        <dynamicField name="placeOfDeath.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
         <field name="rdagr2_professionOrOccupation" type="string" indexed="true" stored="true"
             multiValued="true"/>
         <dynamicField name="rdagr2_professionOrOccupation.*" type="text" indexed="false"
