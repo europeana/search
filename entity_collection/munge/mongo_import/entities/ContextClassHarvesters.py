@@ -54,7 +54,7 @@ class ContextClassHarvester:
 
     #MONGO_HOST = 'mongodb://136.243.103.29'
     MONGO_HOST = 'mongodb://metis-storage.eanadev.org'
-    MONGO_HOST = 'mongodb://localhost'
+    #MONGO_HOST = 'mongodb://localhost'
     MONGO_PORT = 27017
     CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
@@ -112,7 +112,7 @@ class ContextClassHarvester:
         'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
         'edmGeographicalLevel' : { 'label' : 'geoLevel', 'type' : 'string'},
         'edmCountry' : { 'label' : 'edm_country', 'type' : 'string'},
-        #'about' : { 'label' : '', 'type' : 'string'},
+        'address_about' : { 'label' : 'vcard_hasAddress', 'type' : 'string'},
         'vcardStreetAddress' : { 'label' : 'vcard_streetAddress', 'type' : 'string'},
         'vcardLocality' : { 'label' : 'vcard_locality', 'type' : 'string' },
         'vcardPostalCode' : { 'label' : 'vcard_postalCode', 'type' : 'string'},
@@ -201,18 +201,23 @@ class ContextClassHarvester:
         return True
 
     def process_address(self, docroot, entity_id, address):
-        address_components = []
+        #TODO check if the full address is needed
+        #address_components = []
         for k, v in address.items():
+            key = k	
             if ("about" == k):
+                key = "address_" + k
+            if(key not in ContextClassHarvester.FIELD_MAP.keys()):
+                self.log_warm_message(entity_id, "unmapped field: " + key)
                 continue
-            field_name = ContextClassHarvester.FIELD_MAP[k]
-            if (field_name is None):
-               self.log_warm_message(entity_id, "unmapped field: " + k) 		
+            
+            field_name = ContextClassHarvester.FIELD_MAP[key]['label']
             field_name = field_name + ".1"
             self.add_field(docroot, field_name, v)
-            address_components.append(v)
-        if(len(address_components) > 0):
-            self.add_field(docroot, "vcard_hasAddress.1", ",".join(address_components))
+            #address_components.append(v)
+
+        #if(len(address_components) > 0):
+        #    self.add_field(docroot, "vcard_fulladdresskey...", ",".join(address_components))
 
     def process_representation(self, docroot, entity_id, entity_rows):
         # TODO: Refactor to shrink this method
@@ -415,7 +420,7 @@ class OrganizationHarvester(ContextClassHarvester):
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'organizations', 'eu.europeana.corelib.solr.entity.OrganizationImpl')
-        self.relevance_counter = RelevanceCounter.PlaceRelevanceCounter()
+        self.relevance_counter = RelevanceCounter.OrganizationRelevanceCounter()
 
     def get_entity_count(self):
         org_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/organization/).*$' }} )

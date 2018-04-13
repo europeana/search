@@ -115,3 +115,19 @@ class PlaceRelevanceCounter(RelevanceCounter):
 
     def __init__(self):
         RelevanceCounter.__init__(self, 'place')
+
+class OrganizationRelevanceCounter(RelevanceCounter):
+
+    def __init__(self):
+        RelevanceCounter.__init__(self, 'organization')
+
+    def get_enrichment_count(self, id):
+        #TODO add proper implementation of counting items for organizations
+        print("return default enrichment count 1 for organization: " + id)
+        return 1
+
+    def get_label_count(self, representation):
+        #TODO add proper implementation of counting enrichments with organizations
+        print("return default value for label count: 1")
+        return 1
+
