@@ -68,6 +68,7 @@ class ContextClassHarvester:
         'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
         'altLabel' : { 'label': 'skos_altLabel' , 'type' : 'string' },
         'hiddenLabel' : { 'label' : 'skos_hiddenLabel', 'type' : 'string'},
+        'edmAcronym' : { 'label' : 'edm_acronym', 'type' : 'string'},
         'note' : { 'label': 'skos_note' , 'type' : 'string' },
         'begin' : { 'label' : 'edm_begin', 'type' : 'string'},
         'end' : { 'label' : 'edm_end', 'type' : 'string'}, 
@@ -226,6 +227,7 @@ class ContextClassHarvester:
                 self.process_address(docroot, entity_id, entity_rows['representation']['address']['AddressImpl'])
             elif str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
+                print("unmapped property: " + str(characteristic))
                 continue
             # TODO: Refactor horrible conditional
             elif(str(characteristic) == "dcIdentifier"):
@@ -262,6 +264,10 @@ class ContextClassHarvester:
                                 if(field_value in prev_alts):
                                     continue
                                 prev_alts.append(field_value)
+
+                            if(characteristic == 'edmAcronym'):
+                                print("edmAcronym: " +  q_field_name + field_value)
+  
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0):
                                 pref_label_count = 1
@@ -422,6 +428,7 @@ class OrganizationHarvester(ContextClassHarvester):
 
     def get_entity_count(self):
         org_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/organization/).*$' }} )
+        print("importing organizations: " + str(len(org_list)))
         return len(org_list)
 
     def build_entity_chunk(self, start):
