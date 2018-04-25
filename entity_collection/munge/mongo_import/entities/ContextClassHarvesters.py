@@ -168,6 +168,7 @@ class ContextClassHarvester:
     def sanitize_field(self, field_value):
         field_value = field_value.replace("\n", " ")
         field_value = field_value.replace("\\n", " ")
+        field_value = field_value.replace("\t", " ")
         return field_value
 
     def write_to_file(self, doc, start):
