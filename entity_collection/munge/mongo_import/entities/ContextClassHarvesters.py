@@ -7,7 +7,7 @@ class LanguageValidator:
         import os
         self.langmap = {}
         langlistloc = os.path.join(os.path.dirname(__file__), '..', 'all_langs.wkp')
-        with open(langlistloc, 'r') as all_langs:
+        with open(langlistloc, 'r', encoding="UTF-8") as all_langs:
             for lang in all_langs:
                 if(not(lang.startswith("#")) and ("|" in lang)):
                     (name, code) = lang.split('|')
