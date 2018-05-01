@@ -1,0 +1,185 @@
+SearchInteraction	2018-02-07T14:41:48.974Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		1
+RankedRetrieveRecordInteraction	2018-02-07T14:41:56.013Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		/0940422/_nnl49cx	1	1
+ArbitraryAccessInteraction	2018-02-07T14:42:18.720Z	1060814dab05e5a505cfdd786c050249	[200] GET /portal/pl/record/0940422/_nnnd0lc.html (PortalController#show)
+SearchInteraction	2018-02-07T14:47:11.319Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+RefreshOrPaginationInteraction	2018-02-07T14:50:09.555Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+CollectionFilterAdditionInteraction	2018-02-07T14:50:17.662Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+RefreshOrPaginationInteraction	2018-02-07T14:50:20.167Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+SearchInteraction	2018-02-07T14:50:20.441Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+RefreshOrPaginationInteraction	2018-02-07T14:50:21.487Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:34.195Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-07T14:50:34.615Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	18
+CollectionFilterRemovalInteraction	2018-02-07T14:50:40.568Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterRemovalInteraction	2018-02-07T14:50:43.648Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	8
+CollectionFilterAdditionInteraction	2018-02-07T14:50:51.979Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:57.843Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-08T14:22:10.903Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:22:16.531Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:22:28.697Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+SearchInteraction	2018-02-08T14:22:33.387Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:22:39.779Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:22:54.421Z	1060814dab05e5a505cfdd786c050249	Luben	{'TYPE': ['IMAGE']}	91
+SearchInteraction	2018-02-08T14:23:00.978Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:02.036Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:04.098Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+SearchInteraction	2018-02-08T14:23:05.188Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:23:08.367Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:08.962Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:09.671Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:10.825Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:23:24.105Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:31.617Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:37.857Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:42.173Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+SearchInteraction	2018-02-08T14:32:19.220Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+SearchInteraction	2018-02-08T14:32:35.689Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:32:40.068Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:32:52.048Z	1060814dab05e5a505cfdd786c050249	europeana_collectionName:(0940416_Ag_PL_obc.opole.pl)		6868
+SearchInteraction	2018-02-07T14:41:48.974Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		1
+RankedRetrieveRecordInteraction	2018-02-07T14:41:56.013Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		/0940422/_nnl49cx	1	1
+ArbitraryAccessInteraction	2018-02-07T14:42:18.720Z	1060814dab05e5a505cfdd786c050249	[200] GET /portal/pl/record/0940422/_nnnd0lc.html (PortalController#show)
+SearchInteraction	2018-02-07T14:47:11.319Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+RefreshOrPaginationInteraction	2018-02-07T14:50:09.555Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+CollectionFilterAdditionInteraction	2018-02-07T14:50:17.662Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+RefreshOrPaginationInteraction	2018-02-07T14:50:20.167Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+SearchInteraction	2018-02-07T14:50:20.441Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+RefreshOrPaginationInteraction	2018-02-07T14:50:21.487Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:34.195Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-07T14:50:34.615Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	18
+CollectionFilterRemovalInteraction	2018-02-07T14:50:40.568Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterRemovalInteraction	2018-02-07T14:50:43.648Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	8
+CollectionFilterAdditionInteraction	2018-02-07T14:50:51.979Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:57.843Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-08T14:22:10.903Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:22:16.531Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:22:28.697Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+SearchInteraction	2018-02-08T14:22:33.387Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:22:39.779Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:22:54.421Z	1060814dab05e5a505cfdd786c050249	Luben	{'TYPE': ['IMAGE']}	91
+SearchInteraction	2018-02-08T14:23:00.978Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:02.036Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:04.098Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+SearchInteraction	2018-02-08T14:23:05.188Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:23:08.367Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:08.962Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:09.671Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:10.825Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:23:24.105Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:31.617Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:37.857Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:42.173Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+SearchInteraction	2018-02-08T14:32:19.220Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+SearchInteraction	2018-02-08T14:32:35.689Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:32:40.068Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:32:52.048Z	1060814dab05e5a505cfdd786c050249	europeana_collectionName:(0940416_Ag_PL_obc.opole.pl)		6868
+SearchInteraction	2018-02-07T14:41:48.974Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		1
+RankedRetrieveRecordInteraction	2018-02-07T14:41:56.013Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		/0940422/_nnl49cx	1	1
+ArbitraryAccessInteraction	2018-02-07T14:42:18.720Z	1060814dab05e5a505cfdd786c050249	[200] GET /portal/pl/record/0940422/_nnnd0lc.html (PortalController#show)
+SearchInteraction	2018-02-07T14:47:11.319Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+RefreshOrPaginationInteraction	2018-02-07T14:50:09.555Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+CollectionFilterAdditionInteraction	2018-02-07T14:50:17.662Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+RefreshOrPaginationInteraction	2018-02-07T14:50:20.167Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+SearchInteraction	2018-02-07T14:50:20.441Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+RefreshOrPaginationInteraction	2018-02-07T14:50:21.487Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:34.195Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-07T14:50:34.615Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	18
+CollectionFilterRemovalInteraction	2018-02-07T14:50:40.568Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterRemovalInteraction	2018-02-07T14:50:43.648Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	8
+CollectionFilterAdditionInteraction	2018-02-07T14:50:51.979Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:57.843Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-08T14:22:10.903Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:22:16.531Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:22:28.697Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+SearchInteraction	2018-02-08T14:22:33.387Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:22:39.779Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:22:54.421Z	1060814dab05e5a505cfdd786c050249	Luben	{'TYPE': ['IMAGE']}	91
+SearchInteraction	2018-02-08T14:23:00.978Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:02.036Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:04.098Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+SearchInteraction	2018-02-08T14:23:05.188Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:23:08.367Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:08.962Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:09.671Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:10.825Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:23:24.105Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:31.617Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:37.857Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:42.173Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+SearchInteraction	2018-02-08T14:32:19.220Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+SearchInteraction	2018-02-08T14:32:35.689Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:32:40.068Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:32:52.048Z	1060814dab05e5a505cfdd786c050249	europeana_collectionName:(0940416_Ag_PL_obc.opole.pl)		6868
+SearchInteraction	2018-02-07T14:41:48.974Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		1
+RankedRetrieveRecordInteraction	2018-02-07T14:41:56.013Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		/0940422/_nnl49cx	1	1
+ArbitraryAccessInteraction	2018-02-07T14:42:18.720Z	1060814dab05e5a505cfdd786c050249	[200] GET /portal/pl/record/0940422/_nnnd0lc.html (PortalController#show)
+SearchInteraction	2018-02-07T14:47:11.319Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+RefreshOrPaginationInteraction	2018-02-07T14:50:09.555Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+CollectionFilterAdditionInteraction	2018-02-07T14:50:17.662Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+RefreshOrPaginationInteraction	2018-02-07T14:50:20.167Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+SearchInteraction	2018-02-07T14:50:20.441Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+RefreshOrPaginationInteraction	2018-02-07T14:50:21.487Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:34.195Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-07T14:50:34.615Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	18
+CollectionFilterRemovalInteraction	2018-02-07T14:50:40.568Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterRemovalInteraction	2018-02-07T14:50:43.648Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	8
+CollectionFilterAdditionInteraction	2018-02-07T14:50:51.979Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:57.843Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-08T14:22:10.903Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:22:16.531Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:22:28.697Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+SearchInteraction	2018-02-08T14:22:33.387Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:22:39.779Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:22:54.421Z	1060814dab05e5a505cfdd786c050249	Luben	{'TYPE': ['IMAGE']}	91
+SearchInteraction	2018-02-08T14:23:00.978Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:02.036Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:04.098Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+SearchInteraction	2018-02-08T14:23:05.188Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:23:08.367Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:08.962Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:09.671Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:10.825Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:23:24.105Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:31.617Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:37.857Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:42.173Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+SearchInteraction	2018-02-08T14:32:19.220Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+SearchInteraction	2018-02-08T14:32:35.689Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:32:40.068Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:32:52.048Z	1060814dab05e5a505cfdd786c050249	europeana_collectionName:(0940416_Ag_PL_obc.opole.pl)		6868
+SearchInteraction	2018-02-07T14:41:48.974Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		1
+RankedRetrieveRecordInteraction	2018-02-07T14:41:56.013Z	1060814dab05e5a505cfdd786c050249	kodeks lubiński		/0940422/_nnl49cx	1	1
+ArbitraryAccessInteraction	2018-02-07T14:42:18.720Z	1060814dab05e5a505cfdd786c050249	[200] GET /portal/pl/record/0940422/_nnnd0lc.html (PortalController#show)
+SearchInteraction	2018-02-07T14:47:11.319Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+RefreshOrPaginationInteraction	2018-02-07T14:50:09.555Z	1060814dab05e5a505cfdd786c050249	Lubin		892
+CollectionFilterAdditionInteraction	2018-02-07T14:50:17.662Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+RefreshOrPaginationInteraction	2018-02-07T14:50:20.167Z	1060814dab05e5a505cfdd786c050249	Lubin		21
+SearchInteraction	2018-02-07T14:50:20.441Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+RefreshOrPaginationInteraction	2018-02-07T14:50:21.487Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:34.195Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-07T14:50:34.615Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	18
+CollectionFilterRemovalInteraction	2018-02-07T14:50:40.568Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterRemovalInteraction	2018-02-07T14:50:43.648Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	8
+CollectionFilterAdditionInteraction	2018-02-07T14:50:51.979Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	518
+CollectionFilterAdditionInteraction	2018-02-07T14:50:57.843Z	1060814dab05e5a505cfdd786c050249	Lubin	{'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-08T14:22:10.903Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:22:16.531Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:22:28.697Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+SearchInteraction	2018-02-08T14:22:33.387Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:22:39.779Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:22:54.421Z	1060814dab05e5a505cfdd786c050249	Luben	{'TYPE': ['IMAGE']}	91
+SearchInteraction	2018-02-08T14:23:00.978Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:02.036Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+RefreshOrPaginationInteraction	2018-02-08T14:23:04.098Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27294556
+SearchInteraction	2018-02-08T14:23:05.188Z	1060814dab05e5a505cfdd786c050249	Luben		662
+SearchInteraction	2018-02-08T14:23:08.367Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:08.962Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:09.671Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+RefreshOrPaginationInteraction	2018-02-08T14:23:10.825Z	1060814dab05e5a505cfdd786c050249	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-08T14:23:24.105Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:31.617Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:37.857Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+RankedRetrieveRecordInteraction	2018-02-08T14:23:42.173Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		/0940424/_nnhzV17	4	5
+SearchInteraction	2018-02-08T14:32:19.220Z	1060814dab05e5a505cfdd786c050249	Konrad Klose		5
+SearchInteraction	2018-02-08T14:32:35.689Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		1
+RankedRetrieveRecordInteraction	2018-02-08T14:32:40.068Z	1060814dab05e5a505cfdd786c050249	Der Hedwigs Codex von 1353		/0940416/_nn0Vg4d	1	1
+SearchInteraction	2018-02-08T14:32:52.048Z	1060814dab05e5a505cfdd786c050249	europeana_collectionName:(0940416_Ag_PL_obc.opole.pl)		6868

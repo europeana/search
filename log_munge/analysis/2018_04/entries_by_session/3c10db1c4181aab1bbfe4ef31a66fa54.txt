@@ -1,0 +1,150 @@
+SearchInteraction	2018-02-13T14:56:23.357Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		6
+CollectionFilterAdditionInteraction	2018-02-13T14:56:52.109Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:00.579Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+CollectionFilterRemovalInteraction	2018-02-13T14:57:11.737Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:21.552Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+ArbitraryAccessInteraction	2018-02-13T15:05:42.582Z	3c10db1c4181aab1bbfe4ef31a66fa54	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_6363851_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-13T18:10:23.940Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RankedRetrieveRecordInteraction	2018-02-13T18:10:31.430Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		/92064/BibliographicResource_1000126217101	1	1614
+SearchInteraction	2018-02-13T18:10:44.504Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:10:58.264Z	3c10db1c4181aab1bbfe4ef31a66fa54	rodi		1329
+SearchInteraction	2018-02-13T18:11:20.217Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:11:24.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterRemovalInteraction	2018-02-13T18:11:32.473Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+RefreshOrPaginationInteraction	2018-02-13T18:11:44.976Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+CollectionFilterAdditionInteraction	2018-02-13T18:12:01.092Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:13.229Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:12:16.004Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:23.840Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+SearchInteraction	2018-02-13T18:12:27.907Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		17122
+CollectionFilterAdditionInteraction	2018-02-13T18:12:42.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		0
+SearchInteraction	2018-02-13T18:12:54.098Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:12:58.599Z	3c10db1c4181aab1bbfe4ef31a66fa54	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T18:13:14.427Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterRemovalInteraction	2018-02-13T18:13:31.852Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		22
+RankedRetrieveRecordInteraction	2018-02-13T18:13:52.872Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		/9200369/webclient_DeliveryManager_pid_6358162_custom_att_2_simple_viewer	5	22
+SearchInteraction	2018-02-13T18:14:06.452Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterAdditionInteraction	2018-02-13T18:14:18.021Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		0
+SearchInteraction	2018-02-13T18:14:24.044Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:24.756Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:25.694Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T14:56:23.357Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		6
+CollectionFilterAdditionInteraction	2018-02-13T14:56:52.109Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:00.579Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+CollectionFilterRemovalInteraction	2018-02-13T14:57:11.737Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:21.552Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+ArbitraryAccessInteraction	2018-02-13T15:05:42.582Z	3c10db1c4181aab1bbfe4ef31a66fa54	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_6363851_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-13T18:10:23.940Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RankedRetrieveRecordInteraction	2018-02-13T18:10:31.430Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		/92064/BibliographicResource_1000126217101	1	1614
+SearchInteraction	2018-02-13T18:10:44.504Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:10:58.264Z	3c10db1c4181aab1bbfe4ef31a66fa54	rodi		1329
+SearchInteraction	2018-02-13T18:11:20.217Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:11:24.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterRemovalInteraction	2018-02-13T18:11:32.473Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+RefreshOrPaginationInteraction	2018-02-13T18:11:44.976Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+CollectionFilterAdditionInteraction	2018-02-13T18:12:01.092Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:13.229Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:12:16.004Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:23.840Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+SearchInteraction	2018-02-13T18:12:27.907Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		17122
+CollectionFilterAdditionInteraction	2018-02-13T18:12:42.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		0
+SearchInteraction	2018-02-13T18:12:54.098Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:12:58.599Z	3c10db1c4181aab1bbfe4ef31a66fa54	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T18:13:14.427Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterRemovalInteraction	2018-02-13T18:13:31.852Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		22
+RankedRetrieveRecordInteraction	2018-02-13T18:13:52.872Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		/9200369/webclient_DeliveryManager_pid_6358162_custom_att_2_simple_viewer	5	22
+SearchInteraction	2018-02-13T18:14:06.452Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterAdditionInteraction	2018-02-13T18:14:18.021Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		0
+SearchInteraction	2018-02-13T18:14:24.044Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:24.756Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:25.694Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T14:56:23.357Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		6
+CollectionFilterAdditionInteraction	2018-02-13T14:56:52.109Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:00.579Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+CollectionFilterRemovalInteraction	2018-02-13T14:57:11.737Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:21.552Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+ArbitraryAccessInteraction	2018-02-13T15:05:42.582Z	3c10db1c4181aab1bbfe4ef31a66fa54	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_6363851_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-13T18:10:23.940Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RankedRetrieveRecordInteraction	2018-02-13T18:10:31.430Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		/92064/BibliographicResource_1000126217101	1	1614
+SearchInteraction	2018-02-13T18:10:44.504Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:10:58.264Z	3c10db1c4181aab1bbfe4ef31a66fa54	rodi		1329
+SearchInteraction	2018-02-13T18:11:20.217Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:11:24.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterRemovalInteraction	2018-02-13T18:11:32.473Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+RefreshOrPaginationInteraction	2018-02-13T18:11:44.976Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+CollectionFilterAdditionInteraction	2018-02-13T18:12:01.092Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:13.229Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:12:16.004Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:23.840Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+SearchInteraction	2018-02-13T18:12:27.907Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		17122
+CollectionFilterAdditionInteraction	2018-02-13T18:12:42.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		0
+SearchInteraction	2018-02-13T18:12:54.098Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:12:58.599Z	3c10db1c4181aab1bbfe4ef31a66fa54	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T18:13:14.427Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterRemovalInteraction	2018-02-13T18:13:31.852Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		22
+RankedRetrieveRecordInteraction	2018-02-13T18:13:52.872Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		/9200369/webclient_DeliveryManager_pid_6358162_custom_att_2_simple_viewer	5	22
+SearchInteraction	2018-02-13T18:14:06.452Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterAdditionInteraction	2018-02-13T18:14:18.021Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		0
+SearchInteraction	2018-02-13T18:14:24.044Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:24.756Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:25.694Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T14:56:23.357Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		6
+CollectionFilterAdditionInteraction	2018-02-13T14:56:52.109Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:00.579Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+CollectionFilterRemovalInteraction	2018-02-13T14:57:11.737Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:21.552Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+ArbitraryAccessInteraction	2018-02-13T15:05:42.582Z	3c10db1c4181aab1bbfe4ef31a66fa54	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_6363851_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-13T18:10:23.940Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RankedRetrieveRecordInteraction	2018-02-13T18:10:31.430Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		/92064/BibliographicResource_1000126217101	1	1614
+SearchInteraction	2018-02-13T18:10:44.504Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:10:58.264Z	3c10db1c4181aab1bbfe4ef31a66fa54	rodi		1329
+SearchInteraction	2018-02-13T18:11:20.217Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:11:24.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterRemovalInteraction	2018-02-13T18:11:32.473Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+RefreshOrPaginationInteraction	2018-02-13T18:11:44.976Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+CollectionFilterAdditionInteraction	2018-02-13T18:12:01.092Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:13.229Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:12:16.004Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:23.840Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+SearchInteraction	2018-02-13T18:12:27.907Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		17122
+CollectionFilterAdditionInteraction	2018-02-13T18:12:42.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		0
+SearchInteraction	2018-02-13T18:12:54.098Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:12:58.599Z	3c10db1c4181aab1bbfe4ef31a66fa54	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T18:13:14.427Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterRemovalInteraction	2018-02-13T18:13:31.852Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		22
+RankedRetrieveRecordInteraction	2018-02-13T18:13:52.872Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		/9200369/webclient_DeliveryManager_pid_6358162_custom_att_2_simple_viewer	5	22
+SearchInteraction	2018-02-13T18:14:06.452Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterAdditionInteraction	2018-02-13T18:14:18.021Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		0
+SearchInteraction	2018-02-13T18:14:24.044Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:24.756Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:25.694Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T14:56:23.357Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		6
+CollectionFilterAdditionInteraction	2018-02-13T14:56:52.109Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:00.579Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+CollectionFilterRemovalInteraction	2018-02-13T14:57:11.737Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		16849
+CollectionFilterAdditionInteraction	2018-02-13T14:57:21.552Z	3c10db1c4181aab1bbfe4ef31a66fa54	what:"Fondo Paolo Monti"		0
+ArbitraryAccessInteraction	2018-02-13T15:05:42.582Z	3c10db1c4181aab1bbfe4ef31a66fa54	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_6363851_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-13T18:10:23.940Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RankedRetrieveRecordInteraction	2018-02-13T18:10:31.430Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		/92064/BibliographicResource_1000126217101	1	1614
+SearchInteraction	2018-02-13T18:10:44.504Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:10:58.264Z	3c10db1c4181aab1bbfe4ef31a66fa54	rodi		1329
+SearchInteraction	2018-02-13T18:11:20.217Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:11:24.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterRemovalInteraction	2018-02-13T18:11:32.473Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+RefreshOrPaginationInteraction	2018-02-13T18:11:44.976Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		21
+CollectionFilterAdditionInteraction	2018-02-13T18:12:01.092Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:13.229Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+CollectionFilterRemovalInteraction	2018-02-13T18:12:16.004Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+CollectionFilterAdditionInteraction	2018-02-13T18:12:23.840Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		0
+SearchInteraction	2018-02-13T18:12:27.907Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		17122
+CollectionFilterAdditionInteraction	2018-02-13T18:12:42.749Z	3c10db1c4181aab1bbfe4ef31a66fa54	paolo monti		0
+SearchInteraction	2018-02-13T18:12:54.098Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+SearchInteraction	2018-02-13T18:12:58.599Z	3c10db1c4181aab1bbfe4ef31a66fa54	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T18:13:14.427Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterRemovalInteraction	2018-02-13T18:13:31.852Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		22
+RankedRetrieveRecordInteraction	2018-02-13T18:13:52.872Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		/9200369/webclient_DeliveryManager_pid_6358162_custom_att_2_simple_viewer	5	22
+SearchInteraction	2018-02-13T18:14:06.452Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		16885
+CollectionFilterAdditionInteraction	2018-02-13T18:14:18.021Z	3c10db1c4181aab1bbfe4ef31a66fa54	"paolo monti"		0
+SearchInteraction	2018-02-13T18:14:24.044Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:24.756Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614
+RefreshOrPaginationInteraction	2018-02-13T18:14:25.694Z	3c10db1c4181aab1bbfe4ef31a66fa54	Gina Lollobrigida		1614

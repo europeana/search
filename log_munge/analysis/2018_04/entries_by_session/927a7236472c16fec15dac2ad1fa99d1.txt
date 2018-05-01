@@ -1,0 +1,185 @@
+SearchInteraction	2018-02-21T18:16:45.564Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+CollectionFilterAdditionInteraction	2018-02-21T18:16:58.699Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		0
+CollectionFilterRemovalInteraction	2018-02-21T18:17:02.860Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:17:08.568Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:17:25.163Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-21T18:17:37.827Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002724	8	225
+RankedRetrieveRecordInteraction	2018-02-21T18:17:52.566Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002719	12	225
+SearchInteraction	2018-02-21T18:21:38.958Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:43.773Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:50.169Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+SearchInteraction	2018-02-21T18:22:07.579Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain', 'austria'], 'TYPE': ['IMAGE']}	71
+SearchInteraction	2018-02-21T18:22:14.204Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-02-21T18:22:19.738Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00636279	5	17
+RankedRetrieveRecordInteraction	2018-02-21T18:26:07.000Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00626379	8	17
+SearchInteraction	2018-02-21T18:26:49.229Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:26:49.623Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:26:58.549Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-21T18:27:05.201Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:17.276Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_73988	61	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:58.545Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_74023	60	74
+SearchInteraction	2018-02-21T18:34:26.476Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:34:33.872Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	68
+RankedRetrieveRecordInteraction	2018-02-21T18:35:02.931Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	/2051945/data_euscreenXL_http___www_ceskatelevize_cz_ivysilani_10150778447_historie_cs_212452801400006_	26	68
+SearchInteraction	2018-02-21T18:35:36.721Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-21T18:35:43.425Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	/2051914/data_euscreenXL_IL5000011786	2	3
+SearchInteraction	2018-02-21T18:35:59.324Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe'], 'TYPE': ['VIDEO']}	3
+SearchInteraction	2018-02-21T18:36:06.072Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-21T18:36:09.843Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	/2051944/data_euscreenXL_4950473	1	5
+SearchInteraction	2018-02-21T18:36:59.048Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway']}	73
+SearchInteraction	2018-02-21T18:37:05.351Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe']}	71
+SearchInteraction	2018-02-21T18:37:08.530Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+RefreshOrPaginationInteraction	2018-02-21T18:37:22.982Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:37:41.695Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:37:56.312Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:38:01.487Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:15.183Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:16.395Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+SearchInteraction	2018-02-21T18:16:45.564Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+CollectionFilterAdditionInteraction	2018-02-21T18:16:58.699Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		0
+CollectionFilterRemovalInteraction	2018-02-21T18:17:02.860Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:17:08.568Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:17:25.163Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-21T18:17:37.827Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002724	8	225
+RankedRetrieveRecordInteraction	2018-02-21T18:17:52.566Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002719	12	225
+SearchInteraction	2018-02-21T18:21:38.958Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:43.773Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:50.169Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+SearchInteraction	2018-02-21T18:22:07.579Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain', 'austria'], 'TYPE': ['IMAGE']}	71
+SearchInteraction	2018-02-21T18:22:14.204Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-02-21T18:22:19.738Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00636279	5	17
+RankedRetrieveRecordInteraction	2018-02-21T18:26:07.000Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00626379	8	17
+SearchInteraction	2018-02-21T18:26:49.229Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:26:49.623Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:26:58.549Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-21T18:27:05.201Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:17.276Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_73988	61	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:58.545Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_74023	60	74
+SearchInteraction	2018-02-21T18:34:26.476Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:34:33.872Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	68
+RankedRetrieveRecordInteraction	2018-02-21T18:35:02.931Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	/2051945/data_euscreenXL_http___www_ceskatelevize_cz_ivysilani_10150778447_historie_cs_212452801400006_	26	68
+SearchInteraction	2018-02-21T18:35:36.721Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-21T18:35:43.425Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	/2051914/data_euscreenXL_IL5000011786	2	3
+SearchInteraction	2018-02-21T18:35:59.324Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe'], 'TYPE': ['VIDEO']}	3
+SearchInteraction	2018-02-21T18:36:06.072Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-21T18:36:09.843Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	/2051944/data_euscreenXL_4950473	1	5
+SearchInteraction	2018-02-21T18:36:59.048Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway']}	73
+SearchInteraction	2018-02-21T18:37:05.351Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe']}	71
+SearchInteraction	2018-02-21T18:37:08.530Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+RefreshOrPaginationInteraction	2018-02-21T18:37:22.982Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:37:41.695Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:37:56.312Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:38:01.487Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:15.183Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:16.395Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+SearchInteraction	2018-02-21T18:16:45.564Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+CollectionFilterAdditionInteraction	2018-02-21T18:16:58.699Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		0
+CollectionFilterRemovalInteraction	2018-02-21T18:17:02.860Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:17:08.568Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:17:25.163Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-21T18:17:37.827Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002724	8	225
+RankedRetrieveRecordInteraction	2018-02-21T18:17:52.566Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002719	12	225
+SearchInteraction	2018-02-21T18:21:38.958Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:43.773Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:50.169Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+SearchInteraction	2018-02-21T18:22:07.579Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain', 'austria'], 'TYPE': ['IMAGE']}	71
+SearchInteraction	2018-02-21T18:22:14.204Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-02-21T18:22:19.738Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00636279	5	17
+RankedRetrieveRecordInteraction	2018-02-21T18:26:07.000Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00626379	8	17
+SearchInteraction	2018-02-21T18:26:49.229Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:26:49.623Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:26:58.549Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-21T18:27:05.201Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:17.276Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_73988	61	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:58.545Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_74023	60	74
+SearchInteraction	2018-02-21T18:34:26.476Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:34:33.872Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	68
+RankedRetrieveRecordInteraction	2018-02-21T18:35:02.931Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	/2051945/data_euscreenXL_http___www_ceskatelevize_cz_ivysilani_10150778447_historie_cs_212452801400006_	26	68
+SearchInteraction	2018-02-21T18:35:36.721Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-21T18:35:43.425Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	/2051914/data_euscreenXL_IL5000011786	2	3
+SearchInteraction	2018-02-21T18:35:59.324Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe'], 'TYPE': ['VIDEO']}	3
+SearchInteraction	2018-02-21T18:36:06.072Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-21T18:36:09.843Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	/2051944/data_euscreenXL_4950473	1	5
+SearchInteraction	2018-02-21T18:36:59.048Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway']}	73
+SearchInteraction	2018-02-21T18:37:05.351Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe']}	71
+SearchInteraction	2018-02-21T18:37:08.530Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+RefreshOrPaginationInteraction	2018-02-21T18:37:22.982Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:37:41.695Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:37:56.312Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:38:01.487Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:15.183Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:16.395Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+SearchInteraction	2018-02-21T18:16:45.564Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+CollectionFilterAdditionInteraction	2018-02-21T18:16:58.699Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		0
+CollectionFilterRemovalInteraction	2018-02-21T18:17:02.860Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:17:08.568Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:17:25.163Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-21T18:17:37.827Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002724	8	225
+RankedRetrieveRecordInteraction	2018-02-21T18:17:52.566Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002719	12	225
+SearchInteraction	2018-02-21T18:21:38.958Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:43.773Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:50.169Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+SearchInteraction	2018-02-21T18:22:07.579Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain', 'austria'], 'TYPE': ['IMAGE']}	71
+SearchInteraction	2018-02-21T18:22:14.204Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-02-21T18:22:19.738Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00636279	5	17
+RankedRetrieveRecordInteraction	2018-02-21T18:26:07.000Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00626379	8	17
+SearchInteraction	2018-02-21T18:26:49.229Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:26:49.623Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:26:58.549Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-21T18:27:05.201Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:17.276Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_73988	61	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:58.545Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_74023	60	74
+SearchInteraction	2018-02-21T18:34:26.476Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:34:33.872Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	68
+RankedRetrieveRecordInteraction	2018-02-21T18:35:02.931Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	/2051945/data_euscreenXL_http___www_ceskatelevize_cz_ivysilani_10150778447_historie_cs_212452801400006_	26	68
+SearchInteraction	2018-02-21T18:35:36.721Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-21T18:35:43.425Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	/2051914/data_euscreenXL_IL5000011786	2	3
+SearchInteraction	2018-02-21T18:35:59.324Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe'], 'TYPE': ['VIDEO']}	3
+SearchInteraction	2018-02-21T18:36:06.072Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-21T18:36:09.843Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	/2051944/data_euscreenXL_4950473	1	5
+SearchInteraction	2018-02-21T18:36:59.048Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway']}	73
+SearchInteraction	2018-02-21T18:37:05.351Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe']}	71
+SearchInteraction	2018-02-21T18:37:08.530Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+RefreshOrPaginationInteraction	2018-02-21T18:37:22.982Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:37:41.695Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:37:56.312Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:38:01.487Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:15.183Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:16.395Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+SearchInteraction	2018-02-21T18:16:45.564Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+CollectionFilterAdditionInteraction	2018-02-21T18:16:58.699Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		0
+CollectionFilterRemovalInteraction	2018-02-21T18:17:02.860Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:17:08.568Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:17:25.163Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-21T18:17:37.827Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002724	8	225
+RankedRetrieveRecordInteraction	2018-02-21T18:17:52.566Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002719	12	225
+SearchInteraction	2018-02-21T18:21:38.958Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:43.773Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+RefreshOrPaginationInteraction	2018-02-21T18:21:50.169Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	54
+SearchInteraction	2018-02-21T18:22:07.579Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['spain', 'austria'], 'TYPE': ['IMAGE']}	71
+SearchInteraction	2018-02-21T18:22:14.204Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-02-21T18:22:19.738Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00636279	5	17
+RankedRetrieveRecordInteraction	2018-02-21T18:26:07.000Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['austria'], 'TYPE': ['IMAGE']}	/2024911/photography_ProvidedCHO_IMAGNO_brandst_tter_images_GesmbH_00626379	8	17
+SearchInteraction	2018-02-21T18:26:49.229Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:26:49.623Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+SearchInteraction	2018-02-21T18:26:58.549Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-21T18:27:05.201Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:17.276Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_73988	61	74
+RankedRetrieveRecordInteraction	2018-02-21T18:27:58.545Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	/2048080/detail_74023	60	74
+SearchInteraction	2018-02-21T18:34:26.476Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:34:33.872Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	68
+RankedRetrieveRecordInteraction	2018-02-21T18:35:02.931Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['VIDEO']}	/2051945/data_euscreenXL_http___www_ceskatelevize_cz_ivysilani_10150778447_historie_cs_212452801400006_	26	68
+SearchInteraction	2018-02-21T18:35:36.721Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-21T18:35:43.425Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['italy'], 'TYPE': ['VIDEO']}	/2051914/data_euscreenXL_IL5000011786	2	3
+SearchInteraction	2018-02-21T18:35:59.324Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe'], 'TYPE': ['VIDEO']}	3
+SearchInteraction	2018-02-21T18:36:06.072Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-21T18:36:09.843Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway'], 'TYPE': ['VIDEO']}	/2051944/data_euscreenXL_4950473	1	5
+SearchInteraction	2018-02-21T18:36:59.048Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe', 'norway']}	73
+SearchInteraction	2018-02-21T18:37:05.351Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'COUNTRY': ['europe']}	71
+SearchInteraction	2018-02-21T18:37:08.530Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+RefreshOrPaginationInteraction	2018-02-21T18:37:22.982Z	927a7236472c16fec15dac2ad1fa99d1	masaryk		504
+SearchInteraction	2018-02-21T18:37:41.695Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:37:56.312Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RefreshOrPaginationInteraction	2018-02-21T18:38:01.487Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:15.183Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225
+RankedRetrieveRecordInteraction	2018-02-21T18:53:16.395Z	927a7236472c16fec15dac2ad1fa99d1	masaryk	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022002725	7	225

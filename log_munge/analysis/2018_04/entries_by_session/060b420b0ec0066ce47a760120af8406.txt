@@ -1,0 +1,95 @@
+ArbitraryAccessInteraction	2018-02-27T12:17:46.857Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-27T12:18:54.893Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-27T12:21:01.303Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	51231
+SearchInteraction	2018-02-27T12:21:42.347Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+RefreshOrPaginationInteraction	2018-02-27T12:22:28.358Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:30.824Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:50.589Z	060b420b0ec0066ce47a760120af8406	Vilhelm Herold	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	0
+SearchInteraction	2018-02-27T12:24:28.386Z	060b420b0ec0066ce47a760120af8406	herold		2794
+SearchInteraction	2018-02-27T12:24:43.221Z	060b420b0ec0066ce47a760120af8406	herold	{'TYPE': ['SOUND']}	155
+SearchInteraction	2018-02-27T12:25:06.581Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:25:46.018Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:21.327Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:41.227Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:27:01.293Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028004654_1_a	47	84
+SearchInteraction	2018-02-27T12:27:41.362Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:27:50.489Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:28:04.930Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028003240_1_a	63	84
+SearchInteraction	2018-02-27T12:29:57.358Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:30:35.885Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_154_3265_4427_6358_f_tmp	84	84
+ArbitraryAccessInteraction	2018-02-27T12:17:46.857Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-27T12:18:54.893Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-27T12:21:01.303Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	51231
+SearchInteraction	2018-02-27T12:21:42.347Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+RefreshOrPaginationInteraction	2018-02-27T12:22:28.358Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:30.824Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:50.589Z	060b420b0ec0066ce47a760120af8406	Vilhelm Herold	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	0
+SearchInteraction	2018-02-27T12:24:28.386Z	060b420b0ec0066ce47a760120af8406	herold		2794
+SearchInteraction	2018-02-27T12:24:43.221Z	060b420b0ec0066ce47a760120af8406	herold	{'TYPE': ['SOUND']}	155
+SearchInteraction	2018-02-27T12:25:06.581Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:25:46.018Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:21.327Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:41.227Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:27:01.293Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028004654_1_a	47	84
+SearchInteraction	2018-02-27T12:27:41.362Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:27:50.489Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:28:04.930Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028003240_1_a	63	84
+SearchInteraction	2018-02-27T12:29:57.358Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:30:35.885Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_154_3265_4427_6358_f_tmp	84	84
+ArbitraryAccessInteraction	2018-02-27T12:17:46.857Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-27T12:18:54.893Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-27T12:21:01.303Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	51231
+SearchInteraction	2018-02-27T12:21:42.347Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+RefreshOrPaginationInteraction	2018-02-27T12:22:28.358Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:30.824Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:50.589Z	060b420b0ec0066ce47a760120af8406	Vilhelm Herold	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	0
+SearchInteraction	2018-02-27T12:24:28.386Z	060b420b0ec0066ce47a760120af8406	herold		2794
+SearchInteraction	2018-02-27T12:24:43.221Z	060b420b0ec0066ce47a760120af8406	herold	{'TYPE': ['SOUND']}	155
+SearchInteraction	2018-02-27T12:25:06.581Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:25:46.018Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:21.327Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:41.227Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:27:01.293Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028004654_1_a	47	84
+SearchInteraction	2018-02-27T12:27:41.362Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:27:50.489Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:28:04.930Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028003240_1_a	63	84
+SearchInteraction	2018-02-27T12:29:57.358Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:30:35.885Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_154_3265_4427_6358_f_tmp	84	84
+ArbitraryAccessInteraction	2018-02-27T12:17:46.857Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-27T12:18:54.893Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-27T12:21:01.303Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	51231
+SearchInteraction	2018-02-27T12:21:42.347Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+RefreshOrPaginationInteraction	2018-02-27T12:22:28.358Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:30.824Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:50.589Z	060b420b0ec0066ce47a760120af8406	Vilhelm Herold	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	0
+SearchInteraction	2018-02-27T12:24:28.386Z	060b420b0ec0066ce47a760120af8406	herold		2794
+SearchInteraction	2018-02-27T12:24:43.221Z	060b420b0ec0066ce47a760120af8406	herold	{'TYPE': ['SOUND']}	155
+SearchInteraction	2018-02-27T12:25:06.581Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:25:46.018Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:21.327Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:41.227Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:27:01.293Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028004654_1_a	47	84
+SearchInteraction	2018-02-27T12:27:41.362Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:27:50.489Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:28:04.930Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028003240_1_a	63	84
+SearchInteraction	2018-02-27T12:29:57.358Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:30:35.885Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_154_3265_4427_6358_f_tmp	84	84
+ArbitraryAccessInteraction	2018-02-27T12:17:46.857Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-27T12:18:54.893Z	060b420b0ec0066ce47a760120af8406	[200] GET /portal/da/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-27T12:21:01.303Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	51231
+SearchInteraction	2018-02-27T12:21:42.347Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+RefreshOrPaginationInteraction	2018-02-27T12:22:28.358Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:30.824Z	060b420b0ec0066ce47a760120af8406	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	111
+SearchInteraction	2018-02-27T12:23:50.589Z	060b420b0ec0066ce47a760120af8406	Vilhelm Herold	{'DATA_PROVIDER': ['Statsbiblioteket'], 'LANGUAGE': ['da'], 'MEDIA': ['true'], 'TYPE': ['SOUND']}	0
+SearchInteraction	2018-02-27T12:24:28.386Z	060b420b0ec0066ce47a760120af8406	herold		2794
+SearchInteraction	2018-02-27T12:24:43.221Z	060b420b0ec0066ce47a760120af8406	herold	{'TYPE': ['SOUND']}	155
+SearchInteraction	2018-02-27T12:25:06.581Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:25:46.018Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:21.327Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:26:41.227Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:27:01.293Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028004654_1_a	47	84
+SearchInteraction	2018-02-27T12:27:41.362Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RefreshOrPaginationInteraction	2018-02-27T12:27:50.489Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:28:04.930Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_400028003240_1_a	63	84
+SearchInteraction	2018-02-27T12:29:57.358Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	84
+RankedRetrieveRecordInteraction	2018-02-27T12:30:35.885Z	060b420b0ec0066ce47a760120af8406	herold	{'LANGUAGE': ['da'], 'TYPE': ['SOUND']}	/2059203/data_sounds_154_3265_4427_6358_f_tmp	84	84

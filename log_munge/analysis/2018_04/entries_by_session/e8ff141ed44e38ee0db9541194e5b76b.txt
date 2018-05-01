@@ -1,0 +1,65 @@
+SearchInteraction	2018-02-16T13:00:21.499Z	e8ff141ed44e38ee0db9541194e5b76b	dariah		0
+ArbitraryAccessInteraction	2018-03-12T12:26:00.376Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:32:45.280Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053575507.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:35:13.493Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+SearchInteraction	2018-03-12T12:35:24.777Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:35:45.032Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:36:51.267Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.510Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.711Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+SearchInteraction	2018-03-12T12:37:27.026Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+RefreshOrPaginationInteraction	2018-03-12T12:37:27.779Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+SearchInteraction	2018-03-12T12:37:34.012Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+RefreshOrPaginationInteraction	2018-03-12T12:37:34.187Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+SearchInteraction	2018-02-16T13:00:21.499Z	e8ff141ed44e38ee0db9541194e5b76b	dariah		0
+ArbitraryAccessInteraction	2018-03-12T12:26:00.376Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:32:45.280Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053575507.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:35:13.493Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+SearchInteraction	2018-03-12T12:35:24.777Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:35:45.032Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:36:51.267Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.510Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.711Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+SearchInteraction	2018-03-12T12:37:27.026Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+RefreshOrPaginationInteraction	2018-03-12T12:37:27.779Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+SearchInteraction	2018-03-12T12:37:34.012Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+RefreshOrPaginationInteraction	2018-03-12T12:37:34.187Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+SearchInteraction	2018-02-16T13:00:21.499Z	e8ff141ed44e38ee0db9541194e5b76b	dariah		0
+ArbitraryAccessInteraction	2018-03-12T12:26:00.376Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:32:45.280Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053575507.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:35:13.493Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+SearchInteraction	2018-03-12T12:35:24.777Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:35:45.032Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:36:51.267Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.510Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.711Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+SearchInteraction	2018-03-12T12:37:27.026Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+RefreshOrPaginationInteraction	2018-03-12T12:37:27.779Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+SearchInteraction	2018-03-12T12:37:34.012Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+RefreshOrPaginationInteraction	2018-03-12T12:37:34.187Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+SearchInteraction	2018-02-16T13:00:21.499Z	e8ff141ed44e38ee0db9541194e5b76b	dariah		0
+ArbitraryAccessInteraction	2018-03-12T12:26:00.376Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:32:45.280Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053575507.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:35:13.493Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+SearchInteraction	2018-03-12T12:35:24.777Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:35:45.032Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:36:51.267Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.510Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.711Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+SearchInteraction	2018-03-12T12:37:27.026Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+RefreshOrPaginationInteraction	2018-03-12T12:37:27.779Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+SearchInteraction	2018-03-12T12:37:34.012Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+RefreshOrPaginationInteraction	2018-03-12T12:37:34.187Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+SearchInteraction	2018-02-16T13:00:21.499Z	e8ff141ed44e38ee0db9541194e5b76b	dariah		0
+ArbitraryAccessInteraction	2018-03-12T12:26:00.376Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:32:45.280Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053575507.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T12:35:13.493Z	e8ff141ed44e38ee0db9541194e5b76b	[200] GET /portal/en/record/92033/BibliographicResource_3000053578187.html (PortalController#show)
+SearchInteraction	2018-03-12T12:35:24.777Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:35:45.032Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RefreshOrPaginationInteraction	2018-03-12T12:36:51.267Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.510Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+RankedRetrieveRecordInteraction	2018-03-12T12:36:56.711Z	e8ff141ed44e38ee0db9541194e5b76b	Baedeker		/9200386/BibliographicResource_3000135550867	26	328
+SearchInteraction	2018-03-12T12:37:27.026Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+RefreshOrPaginationInteraction	2018-03-12T12:37:27.779Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+SearchInteraction	2018-03-12T12:37:34.012Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318
+RefreshOrPaginationInteraction	2018-03-12T12:37:34.187Z	e8ff141ed44e38ee0db9541194e5b76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"	{'TYPE': ['IMAGE']}	3318

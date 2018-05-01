@@ -1,0 +1,110 @@
+SearchInteraction	2018-03-05T13:44:13.983Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía		5751
+SearchInteraction	2018-03-05T13:44:28.001Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:35.781Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/92023/BibliographicResource_2000068813077	1	18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:52.877Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/916118/S_TEK_photo_TEKA0117591	3	18
+SearchInteraction	2018-03-05T13:45:19.913Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+SearchInteraction	2018-03-05T13:45:36.684Z	a234c8c52d7c243d95896cb5b2d7f2d8	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T13:45:57.998Z	a234c8c52d7c243d95896cb5b2d7f2d8	Convento del Santo Ángel Custodio Granada		1
+SearchInteraction	2018-03-05T16:45:52.163Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RankedRetrieveRecordInteraction	2018-03-05T16:46:09.364Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		/9200376/BibliographicResource_3000100228769	9	123
+SearchInteraction	2018-03-05T16:46:30.034Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RefreshOrPaginationInteraction	2018-03-05T16:46:46.212Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+SearchInteraction	2018-03-05T16:46:51.674Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:47:07.595Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:47:26.527Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_125244_inventary_CE07996_table_FMUS_museum_MCTGR	18	87
+SearchInteraction	2018-03-05T16:47:59.294Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:48:40.487Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:49:16.924Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:49:29.926Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022713/oai_rebae_mcu_es_182119	51	87
+RankedRetrieveRecordInteraction	2018-03-05T16:50:34.698Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_WUNDERLICH_WUN_04186	57	87
+SearchInteraction	2018-03-05T16:50:59.634Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:22.562Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:52.521Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+SearchInteraction	2018-03-05T13:44:13.983Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía		5751
+SearchInteraction	2018-03-05T13:44:28.001Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:35.781Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/92023/BibliographicResource_2000068813077	1	18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:52.877Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/916118/S_TEK_photo_TEKA0117591	3	18
+SearchInteraction	2018-03-05T13:45:19.913Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+SearchInteraction	2018-03-05T13:45:36.684Z	a234c8c52d7c243d95896cb5b2d7f2d8	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T13:45:57.998Z	a234c8c52d7c243d95896cb5b2d7f2d8	Convento del Santo Ángel Custodio Granada		1
+SearchInteraction	2018-03-05T16:45:52.163Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RankedRetrieveRecordInteraction	2018-03-05T16:46:09.364Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		/9200376/BibliographicResource_3000100228769	9	123
+SearchInteraction	2018-03-05T16:46:30.034Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RefreshOrPaginationInteraction	2018-03-05T16:46:46.212Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+SearchInteraction	2018-03-05T16:46:51.674Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:47:07.595Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:47:26.527Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_125244_inventary_CE07996_table_FMUS_museum_MCTGR	18	87
+SearchInteraction	2018-03-05T16:47:59.294Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:48:40.487Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:49:16.924Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:49:29.926Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022713/oai_rebae_mcu_es_182119	51	87
+RankedRetrieveRecordInteraction	2018-03-05T16:50:34.698Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_WUNDERLICH_WUN_04186	57	87
+SearchInteraction	2018-03-05T16:50:59.634Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:22.562Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:52.521Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+SearchInteraction	2018-03-05T13:44:13.983Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía		5751
+SearchInteraction	2018-03-05T13:44:28.001Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:35.781Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/92023/BibliographicResource_2000068813077	1	18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:52.877Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/916118/S_TEK_photo_TEKA0117591	3	18
+SearchInteraction	2018-03-05T13:45:19.913Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+SearchInteraction	2018-03-05T13:45:36.684Z	a234c8c52d7c243d95896cb5b2d7f2d8	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T13:45:57.998Z	a234c8c52d7c243d95896cb5b2d7f2d8	Convento del Santo Ángel Custodio Granada		1
+SearchInteraction	2018-03-05T16:45:52.163Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RankedRetrieveRecordInteraction	2018-03-05T16:46:09.364Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		/9200376/BibliographicResource_3000100228769	9	123
+SearchInteraction	2018-03-05T16:46:30.034Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RefreshOrPaginationInteraction	2018-03-05T16:46:46.212Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+SearchInteraction	2018-03-05T16:46:51.674Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:47:07.595Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:47:26.527Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_125244_inventary_CE07996_table_FMUS_museum_MCTGR	18	87
+SearchInteraction	2018-03-05T16:47:59.294Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:48:40.487Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:49:16.924Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:49:29.926Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022713/oai_rebae_mcu_es_182119	51	87
+RankedRetrieveRecordInteraction	2018-03-05T16:50:34.698Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_WUNDERLICH_WUN_04186	57	87
+SearchInteraction	2018-03-05T16:50:59.634Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:22.562Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:52.521Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+SearchInteraction	2018-03-05T13:44:13.983Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía		5751
+SearchInteraction	2018-03-05T13:44:28.001Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:35.781Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/92023/BibliographicResource_2000068813077	1	18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:52.877Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/916118/S_TEK_photo_TEKA0117591	3	18
+SearchInteraction	2018-03-05T13:45:19.913Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+SearchInteraction	2018-03-05T13:45:36.684Z	a234c8c52d7c243d95896cb5b2d7f2d8	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T13:45:57.998Z	a234c8c52d7c243d95896cb5b2d7f2d8	Convento del Santo Ángel Custodio Granada		1
+SearchInteraction	2018-03-05T16:45:52.163Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RankedRetrieveRecordInteraction	2018-03-05T16:46:09.364Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		/9200376/BibliographicResource_3000100228769	9	123
+SearchInteraction	2018-03-05T16:46:30.034Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RefreshOrPaginationInteraction	2018-03-05T16:46:46.212Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+SearchInteraction	2018-03-05T16:46:51.674Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:47:07.595Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:47:26.527Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_125244_inventary_CE07996_table_FMUS_museum_MCTGR	18	87
+SearchInteraction	2018-03-05T16:47:59.294Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:48:40.487Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:49:16.924Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:49:29.926Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022713/oai_rebae_mcu_es_182119	51	87
+RankedRetrieveRecordInteraction	2018-03-05T16:50:34.698Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_WUNDERLICH_WUN_04186	57	87
+SearchInteraction	2018-03-05T16:50:59.634Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:22.562Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:52.521Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+SearchInteraction	2018-03-05T13:44:13.983Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía		5751
+SearchInteraction	2018-03-05T13:44:28.001Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:35.781Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/92023/BibliographicResource_2000068813077	1	18
+RankedRetrieveRecordInteraction	2018-03-05T13:44:52.877Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		/916118/S_TEK_photo_TEKA0117591	3	18
+SearchInteraction	2018-03-05T13:45:19.913Z	a234c8c52d7c243d95896cb5b2d7f2d8	Gran Vía Granada		18
+SearchInteraction	2018-03-05T13:45:36.684Z	a234c8c52d7c243d95896cb5b2d7f2d8	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T13:45:57.998Z	a234c8c52d7c243d95896cb5b2d7f2d8	Convento del Santo Ángel Custodio Granada		1
+SearchInteraction	2018-03-05T16:45:52.163Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RankedRetrieveRecordInteraction	2018-03-05T16:46:09.364Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		/9200376/BibliographicResource_3000100228769	9	123
+SearchInteraction	2018-03-05T16:46:30.034Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+RefreshOrPaginationInteraction	2018-03-05T16:46:46.212Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada		123
+SearchInteraction	2018-03-05T16:46:51.674Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:47:07.595Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:47:26.527Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_125244_inventary_CE07996_table_FMUS_museum_MCTGR	18	87
+SearchInteraction	2018-03-05T16:47:59.294Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:48:40.487Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:49:16.924Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RankedRetrieveRecordInteraction	2018-03-05T16:49:29.926Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022713/oai_rebae_mcu_es_182119	51	87
+RankedRetrieveRecordInteraction	2018-03-05T16:50:34.698Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_WUNDERLICH_WUN_04186	57	87
+SearchInteraction	2018-03-05T16:50:59.634Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:22.562Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87
+RefreshOrPaginationInteraction	2018-03-05T16:51:52.521Z	a234c8c52d7c243d95896cb5b2d7f2d8	Catedral de Granada	{'TYPE': ['IMAGE']}	87

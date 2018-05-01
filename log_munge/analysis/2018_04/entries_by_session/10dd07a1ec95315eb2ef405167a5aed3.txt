@@ -1,0 +1,180 @@
+ArbitraryAccessInteraction	2018-02-13T19:48:58.392Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2208.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:53:02.922Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2610.html (PortalController#show)
+SearchInteraction	2018-02-13T19:53:38.851Z	10dd07a1ec95315eb2ef405167a5aed3	type:"PhysicalObject"		0
+SearchInteraction	2018-02-13T19:53:55.862Z	10dd07a1ec95315eb2ef405167a5aed3	europeana_collectionName:(2022611_Ag_NO_ELocal_difo)		4660
+SearchInteraction	2018-02-13T19:54:44.627Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:54:56.885Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299174_jpg	2	1555
+SearchInteraction	2018-02-13T19:55:30.163Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:55:33.915Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+ArbitraryAccessInteraction	2018-02-13T19:56:40.489Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:56:40.714Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.383Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.527Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+SearchInteraction	2018-02-13T19:59:56.845Z	10dd07a1ec95315eb2ef405167a5aed3	road norway		1257
+SearchInteraction	2018-02-13T20:00:26.490Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RankedRetrieveRecordInteraction	2018-02-13T20:01:15.235Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	/91672/MM_foto_1144649	5	885
+SearchInteraction	2018-02-13T20:01:53.073Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:17.837Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:32.824Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:48.819Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:49.270Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:11.999Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:31.245Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:53.249Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:09.505Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:10.584Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:22.492Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:32.065Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:43.090Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:05:43.648Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:05.258Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:26.984Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:55.496Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:57.284Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:59.712Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+SearchInteraction	2018-02-13T20:13:48.185Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	69
+RankedRetrieveRecordInteraction	2018-02-13T20:14:12.117Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	/2022608/NF_NF_26197_052	51	69
+ArbitraryAccessInteraction	2018-02-13T19:48:58.392Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2208.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:53:02.922Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2610.html (PortalController#show)
+SearchInteraction	2018-02-13T19:53:38.851Z	10dd07a1ec95315eb2ef405167a5aed3	type:"PhysicalObject"		0
+SearchInteraction	2018-02-13T19:53:55.862Z	10dd07a1ec95315eb2ef405167a5aed3	europeana_collectionName:(2022611_Ag_NO_ELocal_difo)		4660
+SearchInteraction	2018-02-13T19:54:44.627Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:54:56.885Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299174_jpg	2	1555
+SearchInteraction	2018-02-13T19:55:30.163Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:55:33.915Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+ArbitraryAccessInteraction	2018-02-13T19:56:40.489Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:56:40.714Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.383Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.527Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+SearchInteraction	2018-02-13T19:59:56.845Z	10dd07a1ec95315eb2ef405167a5aed3	road norway		1257
+SearchInteraction	2018-02-13T20:00:26.490Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RankedRetrieveRecordInteraction	2018-02-13T20:01:15.235Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	/91672/MM_foto_1144649	5	885
+SearchInteraction	2018-02-13T20:01:53.073Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:17.837Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:32.824Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:48.819Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:49.270Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:11.999Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:31.245Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:53.249Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:09.505Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:10.584Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:22.492Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:32.065Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:43.090Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:05:43.648Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:05.258Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:26.984Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:55.496Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:57.284Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:59.712Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+SearchInteraction	2018-02-13T20:13:48.185Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	69
+RankedRetrieveRecordInteraction	2018-02-13T20:14:12.117Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	/2022608/NF_NF_26197_052	51	69
+ArbitraryAccessInteraction	2018-02-13T19:48:58.392Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2208.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:53:02.922Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2610.html (PortalController#show)
+SearchInteraction	2018-02-13T19:53:38.851Z	10dd07a1ec95315eb2ef405167a5aed3	type:"PhysicalObject"		0
+SearchInteraction	2018-02-13T19:53:55.862Z	10dd07a1ec95315eb2ef405167a5aed3	europeana_collectionName:(2022611_Ag_NO_ELocal_difo)		4660
+SearchInteraction	2018-02-13T19:54:44.627Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:54:56.885Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299174_jpg	2	1555
+SearchInteraction	2018-02-13T19:55:30.163Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:55:33.915Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+ArbitraryAccessInteraction	2018-02-13T19:56:40.489Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:56:40.714Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.383Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.527Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+SearchInteraction	2018-02-13T19:59:56.845Z	10dd07a1ec95315eb2ef405167a5aed3	road norway		1257
+SearchInteraction	2018-02-13T20:00:26.490Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RankedRetrieveRecordInteraction	2018-02-13T20:01:15.235Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	/91672/MM_foto_1144649	5	885
+SearchInteraction	2018-02-13T20:01:53.073Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:17.837Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:32.824Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:48.819Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:49.270Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:11.999Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:31.245Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:53.249Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:09.505Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:10.584Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:22.492Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:32.065Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:43.090Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:05:43.648Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:05.258Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:26.984Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:55.496Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:57.284Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:59.712Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+SearchInteraction	2018-02-13T20:13:48.185Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	69
+RankedRetrieveRecordInteraction	2018-02-13T20:14:12.117Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	/2022608/NF_NF_26197_052	51	69
+ArbitraryAccessInteraction	2018-02-13T19:48:58.392Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2208.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:53:02.922Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2610.html (PortalController#show)
+SearchInteraction	2018-02-13T19:53:38.851Z	10dd07a1ec95315eb2ef405167a5aed3	type:"PhysicalObject"		0
+SearchInteraction	2018-02-13T19:53:55.862Z	10dd07a1ec95315eb2ef405167a5aed3	europeana_collectionName:(2022611_Ag_NO_ELocal_difo)		4660
+SearchInteraction	2018-02-13T19:54:44.627Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:54:56.885Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299174_jpg	2	1555
+SearchInteraction	2018-02-13T19:55:30.163Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:55:33.915Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+ArbitraryAccessInteraction	2018-02-13T19:56:40.489Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:56:40.714Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.383Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.527Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+SearchInteraction	2018-02-13T19:59:56.845Z	10dd07a1ec95315eb2ef405167a5aed3	road norway		1257
+SearchInteraction	2018-02-13T20:00:26.490Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RankedRetrieveRecordInteraction	2018-02-13T20:01:15.235Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	/91672/MM_foto_1144649	5	885
+SearchInteraction	2018-02-13T20:01:53.073Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:17.837Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:32.824Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:48.819Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:49.270Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:11.999Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:31.245Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:53.249Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:09.505Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:10.584Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:22.492Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:32.065Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:43.090Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:05:43.648Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:05.258Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:26.984Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:55.496Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:57.284Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:59.712Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+SearchInteraction	2018-02-13T20:13:48.185Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	69
+RankedRetrieveRecordInteraction	2018-02-13T20:14:12.117Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	/2022608/NF_NF_26197_052	51	69
+ArbitraryAccessInteraction	2018-02-13T19:48:58.392Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2208.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:53:02.922Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2022611/H_DF_DF_2610.html (PortalController#show)
+SearchInteraction	2018-02-13T19:53:38.851Z	10dd07a1ec95315eb2ef405167a5aed3	type:"PhysicalObject"		0
+SearchInteraction	2018-02-13T19:53:55.862Z	10dd07a1ec95315eb2ef405167a5aed3	europeana_collectionName:(2022611_Ag_NO_ELocal_difo)		4660
+SearchInteraction	2018-02-13T19:54:44.627Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:54:56.885Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299174_jpg	2	1555
+SearchInteraction	2018-02-13T19:55:30.163Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-13T19:55:33.915Z	10dd07a1ec95315eb2ef405167a5aed3	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+ArbitraryAccessInteraction	2018-02-13T19:56:40.489Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:56:40.714Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299133_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.383Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T19:57:15.527Z	10dd07a1ec95315eb2ef405167a5aed3	[200] GET /portal/en/record/2024909/photography_ProvidedCHO_United_Archives_02299182_jpg.html (PortalController#show)
+SearchInteraction	2018-02-13T19:59:56.845Z	10dd07a1ec95315eb2ef405167a5aed3	road norway		1257
+SearchInteraction	2018-02-13T20:00:26.490Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RankedRetrieveRecordInteraction	2018-02-13T20:01:15.235Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	/91672/MM_foto_1144649	5	885
+SearchInteraction	2018-02-13T20:01:53.073Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:17.837Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:32.824Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:48.819Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:02:49.270Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:11.999Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:31.245Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:03:53.249Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:09.505Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:10.584Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:22.492Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:32.065Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:04:43.090Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:05:43.648Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:05.258Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:26.984Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:55.496Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:57.284Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+RefreshOrPaginationInteraction	2018-02-13T20:06:59.712Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'TYPE': ['IMAGE']}	885
+SearchInteraction	2018-02-13T20:13:48.185Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	69
+RankedRetrieveRecordInteraction	2018-02-13T20:14:12.117Z	10dd07a1ec95315eb2ef405167a5aed3	road norway	{'COUNTRY': ['norway'], 'TYPE': ['IMAGE']}	/2022608/NF_NF_26197_052	51	69

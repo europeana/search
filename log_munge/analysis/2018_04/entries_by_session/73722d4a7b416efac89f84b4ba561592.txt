@@ -1,0 +1,565 @@
+SearchInteraction	2018-01-18T10:53:20.892Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		10
+RankedRetrieveRecordInteraction	2018-01-18T10:53:27.248Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_6677	1	10
+RankedRetrieveRecordInteraction	2018-01-18T10:55:06.000Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_4397	9	10
+SearchInteraction	2018-01-18T10:56:11.205Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 		78
+SearchInteraction	2018-01-18T10:56:47.088Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RefreshOrPaginationInteraction	2018-01-18T10:56:56.095Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RankedRetrieveRecordInteraction	2018-01-18T10:57:06.211Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	/2059208/archives_items_42069_	23	78
+SearchInteraction	2018-01-18T10:57:43.717Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+RefreshOrPaginationInteraction	2018-01-18T10:57:54.614Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+SearchInteraction	2018-01-18T10:58:27.738Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:41.545Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:51.691Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+SearchInteraction	2018-01-18T10:59:24.108Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	20
+RankedRetrieveRecordInteraction	2018-01-18T10:59:31.947Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	/09102/_GNM_898397	9	20
+SearchInteraction	2018-01-18T11:00:00.580Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+RefreshOrPaginationInteraction	2018-01-18T11:00:01.913Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+SearchInteraction	2018-01-18T11:01:27.100Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:33.451Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022812032	8	1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:56.176Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022822169	2	1097
+ArbitraryAccessInteraction	2018-01-18T11:02:15.880Z	73722d4a7b416efac89f84b4ba561592	[200] GET /portal/en/record/92034/GVNRC_SFA03_SFA022822172.html (PortalController#show)
+SearchInteraction	2018-01-18T11:02:47.301Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RefreshOrPaginationInteraction	2018-01-18T11:02:54.474Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:02:58.308Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022807095	17	1097
+SearchInteraction	2018-01-18T11:03:19.515Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+RefreshOrPaginationInteraction	2018-01-18T11:03:30.857Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+SearchInteraction	2018-01-18T11:03:42.669Z	73722d4a7b416efac89f84b4ba561592	cambodge		4364
+RankedRetrieveRecordInteraction	2018-01-18T11:03:46.994Z	73722d4a7b416efac89f84b4ba561592	cambodge		/92034/GVNRC_VLIS01_00222_00003	2	4364
+SearchInteraction	2018-01-18T11:03:56.446Z	73722d4a7b416efac89f84b4ba561592	proxy_dcterms_medium:"katoen   "		17172
+SearchInteraction	2018-01-18T11:04:26.788Z	73722d4a7b416efac89f84b4ba561592	music library of greece		138
+SearchInteraction	2018-01-18T11:05:09.755Z	73722d4a7b416efac89f84b4ba561592	huis van bewaring		1625
+SearchInteraction	2018-01-18T11:05:25.884Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:32.770Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_Eurystomus_orientalis_Lue_70_2_1	1	24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:45.421Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_WA03044X0026_0011	4	24629
+SearchInteraction	2018-01-18T11:06:11.888Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+RefreshOrPaginationInteraction	2018-01-18T11:06:33.645Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:06:51.203Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	1
+CollectionFilterRemovalInteraction	2018-01-18T11:07:10.970Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:07:15.239Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RankedRetrieveRecordInteraction	2018-01-18T11:07:47.354Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/2059209/data_sounds_WAMPHX0019XX_0300	2	2
+SearchInteraction	2018-01-18T11:08:39.030Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	0
+CollectionFilterRemovalInteraction	2018-01-18T11:08:53.678Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RefreshOrPaginationInteraction	2018-01-18T11:08:54.060Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+CollectionFilterRemovalInteraction	2018-01-18T11:08:55.261Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterRemovalInteraction	2018-01-18T11:09:02.475Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+RankedRetrieveRecordInteraction	2018-01-18T11:09:19.709Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_soundscape_recording_DIG_115_4_1	7	55
+SearchInteraction	2018-01-18T11:10:21.260Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+SearchInteraction	2018-01-18T11:23:55.235Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-22T22:36:34.466Z	73722d4a7b416efac89f84b4ba561592	serbia		54022
+RankedRetrieveRecordInteraction	2018-02-22T22:37:06.344Z	73722d4a7b416efac89f84b4ba561592	serbia		/92084/sf_NBS_Zvucni_zapisi_virtuelna_brazda_Special_Rekord_D_2_244_2	11	54022
+SearchInteraction	2018-02-26T07:35:14.330Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-26T07:35:57.283Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+RankedRetrieveRecordInteraction	2018-02-26T07:36:07.703Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	/2059219/data_sounds_ark__12148_cb401450627	3	7
+SearchInteraction	2018-02-26T07:38:01.477Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+SearchInteraction	2018-02-26T07:38:07.242Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	2866
+RankedRetrieveRecordInteraction	2018-02-26T07:38:16.405Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	/92055/URN_NBN_SI_doc_2FANHEAJ	2	2866
+SearchInteraction	2018-02-26T07:38:59.266Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-26T07:39:07.080Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka	{'MEDIA': ['true']}	49
+SearchInteraction	2018-02-26T07:39:18.597Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true']}	13006973
+SearchInteraction	2018-02-26T07:39:30.227Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	9
+RankedRetrieveRecordInteraction	2018-02-26T07:39:35.809Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	/92040/BibliographicResource_3000094572390	1	9
+SearchInteraction	2018-03-30T09:43:23.737Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:14.124Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:22.710Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:38.516Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T09:57:03.744Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048716/object_HA_2084	46	5863
+SearchInteraction	2018-03-30T09:58:43.956Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:50.416Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:55.197Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:09.551Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:15.469Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:34.732Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:41.449Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:49.203Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:55.598Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:00.651Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:05.623Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:10.133Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:00:14.392Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048715/RMAH_198562_NLHR	188	5863
+SearchInteraction	2018-03-30T10:00:37.585Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:44.501Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:50.545Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:57.524Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:03.378Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:09.876Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:16.468Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:21.647Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:26.587Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:32.288Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:40.303Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:47.540Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:55.648Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:02.356Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:08.546Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:13.767Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:20.780Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:28.143Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:31.419Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:38.820Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:44.609Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:02:47.840Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048713/UJAEN_HASSET_5158	869	5863
+SearchInteraction	2018-03-30T10:03:03.651Z	73722d4a7b416efac89f84b4ba561592	acoustic vessel	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:08.088Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:16.648Z	73722d4a7b416efac89f84b4ba561592	acoustic	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:20.466Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:28.796Z	73722d4a7b416efac89f84b4ba561592	acoustics	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:34.013Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:03:38.184Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:42.318Z	73722d4a7b416efac89f84b4ba561592	akustika	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:45.518Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:51.317Z	73722d4a7b416efac89f84b4ba561592	akustički sud	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:55.803Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:04:01.856Z	73722d4a7b416efac89f84b4ba561592	noyon	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:04:04.882Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-01-18T10:53:20.892Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		10
+RankedRetrieveRecordInteraction	2018-01-18T10:53:27.248Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_6677	1	10
+RankedRetrieveRecordInteraction	2018-01-18T10:55:06.000Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_4397	9	10
+SearchInteraction	2018-01-18T10:56:11.205Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 		78
+SearchInteraction	2018-01-18T10:56:47.088Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RefreshOrPaginationInteraction	2018-01-18T10:56:56.095Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RankedRetrieveRecordInteraction	2018-01-18T10:57:06.211Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	/2059208/archives_items_42069_	23	78
+SearchInteraction	2018-01-18T10:57:43.717Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+RefreshOrPaginationInteraction	2018-01-18T10:57:54.614Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+SearchInteraction	2018-01-18T10:58:27.738Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:41.545Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:51.691Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+SearchInteraction	2018-01-18T10:59:24.108Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	20
+RankedRetrieveRecordInteraction	2018-01-18T10:59:31.947Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	/09102/_GNM_898397	9	20
+SearchInteraction	2018-01-18T11:00:00.580Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+RefreshOrPaginationInteraction	2018-01-18T11:00:01.913Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+SearchInteraction	2018-01-18T11:01:27.100Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:33.451Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022812032	8	1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:56.176Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022822169	2	1097
+ArbitraryAccessInteraction	2018-01-18T11:02:15.880Z	73722d4a7b416efac89f84b4ba561592	[200] GET /portal/en/record/92034/GVNRC_SFA03_SFA022822172.html (PortalController#show)
+SearchInteraction	2018-01-18T11:02:47.301Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RefreshOrPaginationInteraction	2018-01-18T11:02:54.474Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:02:58.308Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022807095	17	1097
+SearchInteraction	2018-01-18T11:03:19.515Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+RefreshOrPaginationInteraction	2018-01-18T11:03:30.857Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+SearchInteraction	2018-01-18T11:03:42.669Z	73722d4a7b416efac89f84b4ba561592	cambodge		4364
+RankedRetrieveRecordInteraction	2018-01-18T11:03:46.994Z	73722d4a7b416efac89f84b4ba561592	cambodge		/92034/GVNRC_VLIS01_00222_00003	2	4364
+SearchInteraction	2018-01-18T11:03:56.446Z	73722d4a7b416efac89f84b4ba561592	proxy_dcterms_medium:"katoen   "		17172
+SearchInteraction	2018-01-18T11:04:26.788Z	73722d4a7b416efac89f84b4ba561592	music library of greece		138
+SearchInteraction	2018-01-18T11:05:09.755Z	73722d4a7b416efac89f84b4ba561592	huis van bewaring		1625
+SearchInteraction	2018-01-18T11:05:25.884Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:32.770Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_Eurystomus_orientalis_Lue_70_2_1	1	24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:45.421Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_WA03044X0026_0011	4	24629
+SearchInteraction	2018-01-18T11:06:11.888Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+RefreshOrPaginationInteraction	2018-01-18T11:06:33.645Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:06:51.203Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	1
+CollectionFilterRemovalInteraction	2018-01-18T11:07:10.970Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:07:15.239Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RankedRetrieveRecordInteraction	2018-01-18T11:07:47.354Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/2059209/data_sounds_WAMPHX0019XX_0300	2	2
+SearchInteraction	2018-01-18T11:08:39.030Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	0
+CollectionFilterRemovalInteraction	2018-01-18T11:08:53.678Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RefreshOrPaginationInteraction	2018-01-18T11:08:54.060Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+CollectionFilterRemovalInteraction	2018-01-18T11:08:55.261Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterRemovalInteraction	2018-01-18T11:09:02.475Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+RankedRetrieveRecordInteraction	2018-01-18T11:09:19.709Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_soundscape_recording_DIG_115_4_1	7	55
+SearchInteraction	2018-01-18T11:10:21.260Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+SearchInteraction	2018-01-18T11:23:55.235Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-22T22:36:34.466Z	73722d4a7b416efac89f84b4ba561592	serbia		54022
+RankedRetrieveRecordInteraction	2018-02-22T22:37:06.344Z	73722d4a7b416efac89f84b4ba561592	serbia		/92084/sf_NBS_Zvucni_zapisi_virtuelna_brazda_Special_Rekord_D_2_244_2	11	54022
+SearchInteraction	2018-02-26T07:35:14.330Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-26T07:35:57.283Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+RankedRetrieveRecordInteraction	2018-02-26T07:36:07.703Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	/2059219/data_sounds_ark__12148_cb401450627	3	7
+SearchInteraction	2018-02-26T07:38:01.477Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+SearchInteraction	2018-02-26T07:38:07.242Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	2866
+RankedRetrieveRecordInteraction	2018-02-26T07:38:16.405Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	/92055/URN_NBN_SI_doc_2FANHEAJ	2	2866
+SearchInteraction	2018-02-26T07:38:59.266Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-26T07:39:07.080Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka	{'MEDIA': ['true']}	49
+SearchInteraction	2018-02-26T07:39:18.597Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true']}	13006973
+SearchInteraction	2018-02-26T07:39:30.227Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	9
+RankedRetrieveRecordInteraction	2018-02-26T07:39:35.809Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	/92040/BibliographicResource_3000094572390	1	9
+SearchInteraction	2018-03-30T09:43:23.737Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:14.124Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:22.710Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:38.516Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T09:57:03.744Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048716/object_HA_2084	46	5863
+SearchInteraction	2018-03-30T09:58:43.956Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:50.416Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:55.197Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:09.551Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:15.469Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:34.732Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:41.449Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:49.203Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:55.598Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:00.651Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:05.623Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:10.133Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:00:14.392Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048715/RMAH_198562_NLHR	188	5863
+SearchInteraction	2018-03-30T10:00:37.585Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:44.501Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:50.545Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:57.524Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:03.378Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:09.876Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:16.468Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:21.647Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:26.587Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:32.288Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:40.303Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:47.540Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:55.648Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:02.356Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:08.546Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:13.767Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:20.780Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:28.143Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:31.419Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:38.820Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:44.609Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:02:47.840Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048713/UJAEN_HASSET_5158	869	5863
+SearchInteraction	2018-03-30T10:03:03.651Z	73722d4a7b416efac89f84b4ba561592	acoustic vessel	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:08.088Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:16.648Z	73722d4a7b416efac89f84b4ba561592	acoustic	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:20.466Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:28.796Z	73722d4a7b416efac89f84b4ba561592	acoustics	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:34.013Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:03:38.184Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:42.318Z	73722d4a7b416efac89f84b4ba561592	akustika	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:45.518Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:51.317Z	73722d4a7b416efac89f84b4ba561592	akustički sud	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:55.803Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:04:01.856Z	73722d4a7b416efac89f84b4ba561592	noyon	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:04:04.882Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-01-18T10:53:20.892Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		10
+RankedRetrieveRecordInteraction	2018-01-18T10:53:27.248Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_6677	1	10
+RankedRetrieveRecordInteraction	2018-01-18T10:55:06.000Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_4397	9	10
+SearchInteraction	2018-01-18T10:56:11.205Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 		78
+SearchInteraction	2018-01-18T10:56:47.088Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RefreshOrPaginationInteraction	2018-01-18T10:56:56.095Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RankedRetrieveRecordInteraction	2018-01-18T10:57:06.211Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	/2059208/archives_items_42069_	23	78
+SearchInteraction	2018-01-18T10:57:43.717Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+RefreshOrPaginationInteraction	2018-01-18T10:57:54.614Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+SearchInteraction	2018-01-18T10:58:27.738Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:41.545Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:51.691Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+SearchInteraction	2018-01-18T10:59:24.108Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	20
+RankedRetrieveRecordInteraction	2018-01-18T10:59:31.947Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	/09102/_GNM_898397	9	20
+SearchInteraction	2018-01-18T11:00:00.580Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+RefreshOrPaginationInteraction	2018-01-18T11:00:01.913Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+SearchInteraction	2018-01-18T11:01:27.100Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:33.451Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022812032	8	1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:56.176Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022822169	2	1097
+ArbitraryAccessInteraction	2018-01-18T11:02:15.880Z	73722d4a7b416efac89f84b4ba561592	[200] GET /portal/en/record/92034/GVNRC_SFA03_SFA022822172.html (PortalController#show)
+SearchInteraction	2018-01-18T11:02:47.301Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RefreshOrPaginationInteraction	2018-01-18T11:02:54.474Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:02:58.308Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022807095	17	1097
+SearchInteraction	2018-01-18T11:03:19.515Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+RefreshOrPaginationInteraction	2018-01-18T11:03:30.857Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+SearchInteraction	2018-01-18T11:03:42.669Z	73722d4a7b416efac89f84b4ba561592	cambodge		4364
+RankedRetrieveRecordInteraction	2018-01-18T11:03:46.994Z	73722d4a7b416efac89f84b4ba561592	cambodge		/92034/GVNRC_VLIS01_00222_00003	2	4364
+SearchInteraction	2018-01-18T11:03:56.446Z	73722d4a7b416efac89f84b4ba561592	proxy_dcterms_medium:"katoen   "		17172
+SearchInteraction	2018-01-18T11:04:26.788Z	73722d4a7b416efac89f84b4ba561592	music library of greece		138
+SearchInteraction	2018-01-18T11:05:09.755Z	73722d4a7b416efac89f84b4ba561592	huis van bewaring		1625
+SearchInteraction	2018-01-18T11:05:25.884Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:32.770Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_Eurystomus_orientalis_Lue_70_2_1	1	24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:45.421Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_WA03044X0026_0011	4	24629
+SearchInteraction	2018-01-18T11:06:11.888Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+RefreshOrPaginationInteraction	2018-01-18T11:06:33.645Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:06:51.203Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	1
+CollectionFilterRemovalInteraction	2018-01-18T11:07:10.970Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:07:15.239Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RankedRetrieveRecordInteraction	2018-01-18T11:07:47.354Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/2059209/data_sounds_WAMPHX0019XX_0300	2	2
+SearchInteraction	2018-01-18T11:08:39.030Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	0
+CollectionFilterRemovalInteraction	2018-01-18T11:08:53.678Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RefreshOrPaginationInteraction	2018-01-18T11:08:54.060Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+CollectionFilterRemovalInteraction	2018-01-18T11:08:55.261Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterRemovalInteraction	2018-01-18T11:09:02.475Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+RankedRetrieveRecordInteraction	2018-01-18T11:09:19.709Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_soundscape_recording_DIG_115_4_1	7	55
+SearchInteraction	2018-01-18T11:10:21.260Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+SearchInteraction	2018-01-18T11:23:55.235Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-22T22:36:34.466Z	73722d4a7b416efac89f84b4ba561592	serbia		54022
+RankedRetrieveRecordInteraction	2018-02-22T22:37:06.344Z	73722d4a7b416efac89f84b4ba561592	serbia		/92084/sf_NBS_Zvucni_zapisi_virtuelna_brazda_Special_Rekord_D_2_244_2	11	54022
+SearchInteraction	2018-02-26T07:35:14.330Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-26T07:35:57.283Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+RankedRetrieveRecordInteraction	2018-02-26T07:36:07.703Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	/2059219/data_sounds_ark__12148_cb401450627	3	7
+SearchInteraction	2018-02-26T07:38:01.477Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+SearchInteraction	2018-02-26T07:38:07.242Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	2866
+RankedRetrieveRecordInteraction	2018-02-26T07:38:16.405Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	/92055/URN_NBN_SI_doc_2FANHEAJ	2	2866
+SearchInteraction	2018-02-26T07:38:59.266Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-26T07:39:07.080Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka	{'MEDIA': ['true']}	49
+SearchInteraction	2018-02-26T07:39:18.597Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true']}	13006973
+SearchInteraction	2018-02-26T07:39:30.227Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	9
+RankedRetrieveRecordInteraction	2018-02-26T07:39:35.809Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	/92040/BibliographicResource_3000094572390	1	9
+SearchInteraction	2018-03-30T09:43:23.737Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:14.124Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:22.710Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:38.516Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T09:57:03.744Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048716/object_HA_2084	46	5863
+SearchInteraction	2018-03-30T09:58:43.956Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:50.416Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:55.197Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:09.551Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:15.469Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:34.732Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:41.449Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:49.203Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:55.598Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:00.651Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:05.623Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:10.133Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:00:14.392Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048715/RMAH_198562_NLHR	188	5863
+SearchInteraction	2018-03-30T10:00:37.585Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:44.501Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:50.545Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:57.524Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:03.378Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:09.876Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:16.468Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:21.647Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:26.587Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:32.288Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:40.303Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:47.540Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:55.648Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:02.356Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:08.546Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:13.767Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:20.780Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:28.143Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:31.419Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:38.820Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:44.609Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:02:47.840Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048713/UJAEN_HASSET_5158	869	5863
+SearchInteraction	2018-03-30T10:03:03.651Z	73722d4a7b416efac89f84b4ba561592	acoustic vessel	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:08.088Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:16.648Z	73722d4a7b416efac89f84b4ba561592	acoustic	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:20.466Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:28.796Z	73722d4a7b416efac89f84b4ba561592	acoustics	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:34.013Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:03:38.184Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:42.318Z	73722d4a7b416efac89f84b4ba561592	akustika	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:45.518Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:51.317Z	73722d4a7b416efac89f84b4ba561592	akustički sud	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:55.803Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:04:01.856Z	73722d4a7b416efac89f84b4ba561592	noyon	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:04:04.882Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-01-18T10:53:20.892Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		10
+RankedRetrieveRecordInteraction	2018-01-18T10:53:27.248Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_6677	1	10
+RankedRetrieveRecordInteraction	2018-01-18T10:55:06.000Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_4397	9	10
+SearchInteraction	2018-01-18T10:56:11.205Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 		78
+SearchInteraction	2018-01-18T10:56:47.088Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RefreshOrPaginationInteraction	2018-01-18T10:56:56.095Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RankedRetrieveRecordInteraction	2018-01-18T10:57:06.211Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	/2059208/archives_items_42069_	23	78
+SearchInteraction	2018-01-18T10:57:43.717Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+RefreshOrPaginationInteraction	2018-01-18T10:57:54.614Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+SearchInteraction	2018-01-18T10:58:27.738Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:41.545Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:51.691Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+SearchInteraction	2018-01-18T10:59:24.108Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	20
+RankedRetrieveRecordInteraction	2018-01-18T10:59:31.947Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	/09102/_GNM_898397	9	20
+SearchInteraction	2018-01-18T11:00:00.580Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+RefreshOrPaginationInteraction	2018-01-18T11:00:01.913Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+SearchInteraction	2018-01-18T11:01:27.100Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:33.451Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022812032	8	1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:56.176Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022822169	2	1097
+ArbitraryAccessInteraction	2018-01-18T11:02:15.880Z	73722d4a7b416efac89f84b4ba561592	[200] GET /portal/en/record/92034/GVNRC_SFA03_SFA022822172.html (PortalController#show)
+SearchInteraction	2018-01-18T11:02:47.301Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RefreshOrPaginationInteraction	2018-01-18T11:02:54.474Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:02:58.308Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022807095	17	1097
+SearchInteraction	2018-01-18T11:03:19.515Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+RefreshOrPaginationInteraction	2018-01-18T11:03:30.857Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+SearchInteraction	2018-01-18T11:03:42.669Z	73722d4a7b416efac89f84b4ba561592	cambodge		4364
+RankedRetrieveRecordInteraction	2018-01-18T11:03:46.994Z	73722d4a7b416efac89f84b4ba561592	cambodge		/92034/GVNRC_VLIS01_00222_00003	2	4364
+SearchInteraction	2018-01-18T11:03:56.446Z	73722d4a7b416efac89f84b4ba561592	proxy_dcterms_medium:"katoen   "		17172
+SearchInteraction	2018-01-18T11:04:26.788Z	73722d4a7b416efac89f84b4ba561592	music library of greece		138
+SearchInteraction	2018-01-18T11:05:09.755Z	73722d4a7b416efac89f84b4ba561592	huis van bewaring		1625
+SearchInteraction	2018-01-18T11:05:25.884Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:32.770Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_Eurystomus_orientalis_Lue_70_2_1	1	24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:45.421Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_WA03044X0026_0011	4	24629
+SearchInteraction	2018-01-18T11:06:11.888Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+RefreshOrPaginationInteraction	2018-01-18T11:06:33.645Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:06:51.203Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	1
+CollectionFilterRemovalInteraction	2018-01-18T11:07:10.970Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:07:15.239Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RankedRetrieveRecordInteraction	2018-01-18T11:07:47.354Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/2059209/data_sounds_WAMPHX0019XX_0300	2	2
+SearchInteraction	2018-01-18T11:08:39.030Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	0
+CollectionFilterRemovalInteraction	2018-01-18T11:08:53.678Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RefreshOrPaginationInteraction	2018-01-18T11:08:54.060Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+CollectionFilterRemovalInteraction	2018-01-18T11:08:55.261Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterRemovalInteraction	2018-01-18T11:09:02.475Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+RankedRetrieveRecordInteraction	2018-01-18T11:09:19.709Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_soundscape_recording_DIG_115_4_1	7	55
+SearchInteraction	2018-01-18T11:10:21.260Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+SearchInteraction	2018-01-18T11:23:55.235Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-22T22:36:34.466Z	73722d4a7b416efac89f84b4ba561592	serbia		54022
+RankedRetrieveRecordInteraction	2018-02-22T22:37:06.344Z	73722d4a7b416efac89f84b4ba561592	serbia		/92084/sf_NBS_Zvucni_zapisi_virtuelna_brazda_Special_Rekord_D_2_244_2	11	54022
+SearchInteraction	2018-02-26T07:35:14.330Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-26T07:35:57.283Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+RankedRetrieveRecordInteraction	2018-02-26T07:36:07.703Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	/2059219/data_sounds_ark__12148_cb401450627	3	7
+SearchInteraction	2018-02-26T07:38:01.477Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+SearchInteraction	2018-02-26T07:38:07.242Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	2866
+RankedRetrieveRecordInteraction	2018-02-26T07:38:16.405Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	/92055/URN_NBN_SI_doc_2FANHEAJ	2	2866
+SearchInteraction	2018-02-26T07:38:59.266Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-26T07:39:07.080Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka	{'MEDIA': ['true']}	49
+SearchInteraction	2018-02-26T07:39:18.597Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true']}	13006973
+SearchInteraction	2018-02-26T07:39:30.227Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	9
+RankedRetrieveRecordInteraction	2018-02-26T07:39:35.809Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	/92040/BibliographicResource_3000094572390	1	9
+SearchInteraction	2018-03-30T09:43:23.737Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:14.124Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:22.710Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:38.516Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T09:57:03.744Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048716/object_HA_2084	46	5863
+SearchInteraction	2018-03-30T09:58:43.956Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:50.416Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:55.197Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:09.551Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:15.469Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:34.732Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:41.449Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:49.203Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:55.598Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:00.651Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:05.623Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:10.133Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:00:14.392Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048715/RMAH_198562_NLHR	188	5863
+SearchInteraction	2018-03-30T10:00:37.585Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:44.501Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:50.545Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:57.524Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:03.378Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:09.876Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:16.468Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:21.647Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:26.587Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:32.288Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:40.303Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:47.540Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:55.648Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:02.356Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:08.546Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:13.767Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:20.780Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:28.143Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:31.419Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:38.820Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:44.609Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:02:47.840Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048713/UJAEN_HASSET_5158	869	5863
+SearchInteraction	2018-03-30T10:03:03.651Z	73722d4a7b416efac89f84b4ba561592	acoustic vessel	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:08.088Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:16.648Z	73722d4a7b416efac89f84b4ba561592	acoustic	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:20.466Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:28.796Z	73722d4a7b416efac89f84b4ba561592	acoustics	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:34.013Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:03:38.184Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:42.318Z	73722d4a7b416efac89f84b4ba561592	akustika	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:45.518Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:51.317Z	73722d4a7b416efac89f84b4ba561592	akustički sud	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:55.803Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:04:01.856Z	73722d4a7b416efac89f84b4ba561592	noyon	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:04:04.882Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-01-18T10:53:20.892Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		10
+RankedRetrieveRecordInteraction	2018-01-18T10:53:27.248Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_6677	1	10
+RankedRetrieveRecordInteraction	2018-01-18T10:55:06.000Z	73722d4a7b416efac89f84b4ba561592	cnrs-cresson		/2059220/opac_index_php_lvl_notice_display_id_4397	9	10
+SearchInteraction	2018-01-18T10:56:11.205Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 		78
+SearchInteraction	2018-01-18T10:56:47.088Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RefreshOrPaginationInteraction	2018-01-18T10:56:56.095Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	78
+RankedRetrieveRecordInteraction	2018-01-18T10:57:06.211Z	73722d4a7b416efac89f84b4ba561592	cnrs-crem 	{'TYPE': ['SOUND']}	/2059208/archives_items_42069_	23	78
+SearchInteraction	2018-01-18T10:57:43.717Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+RefreshOrPaginationInteraction	2018-01-18T10:57:54.614Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED		58244
+SearchInteraction	2018-01-18T10:58:27.738Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:41.545Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+RefreshOrPaginationInteraction	2018-01-18T10:58:51.691Z	73722d4a7b416efac89f84b4ba561592	Art Nouveau		4305
+SearchInteraction	2018-01-18T10:59:24.108Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	20
+RankedRetrieveRecordInteraction	2018-01-18T10:59:31.947Z	73722d4a7b416efac89f84b4ba561592	aeolian harp	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	/09102/_GNM_898397	9	20
+SearchInteraction	2018-01-18T11:00:00.580Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+RefreshOrPaginationInteraction	2018-01-18T11:00:01.913Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Germanisches Nationalmuseum', 'Cité de la musique', 'Muziekinstrumentenmuseum - Musée des instruments de musique', 'University of Edinburgh'], 'TYPE': ['IMAGE']}	48430
+SearchInteraction	2018-01-18T11:01:27.100Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:33.451Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022812032	8	1097
+RankedRetrieveRecordInteraction	2018-01-18T11:01:56.176Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022822169	2	1097
+ArbitraryAccessInteraction	2018-01-18T11:02:15.880Z	73722d4a7b416efac89f84b4ba561592	[200] GET /portal/en/record/92034/GVNRC_SFA03_SFA022822172.html (PortalController#show)
+SearchInteraction	2018-01-18T11:02:47.301Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RefreshOrPaginationInteraction	2018-01-18T11:02:54.474Z	73722d4a7b416efac89f84b4ba561592	machinekamer		1097
+RankedRetrieveRecordInteraction	2018-01-18T11:02:58.308Z	73722d4a7b416efac89f84b4ba561592	machinekamer		/92034/GVNRC_SFA03_SFA022807095	17	1097
+SearchInteraction	2018-01-18T11:03:19.515Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+RefreshOrPaginationInteraction	2018-01-18T11:03:30.857Z	73722d4a7b416efac89f84b4ba561592	marimba	{'PROVIDER': ['MIMO - Musical Instrument Museums Online']}	14
+SearchInteraction	2018-01-18T11:03:42.669Z	73722d4a7b416efac89f84b4ba561592	cambodge		4364
+RankedRetrieveRecordInteraction	2018-01-18T11:03:46.994Z	73722d4a7b416efac89f84b4ba561592	cambodge		/92034/GVNRC_VLIS01_00222_00003	2	4364
+SearchInteraction	2018-01-18T11:03:56.446Z	73722d4a7b416efac89f84b4ba561592	proxy_dcterms_medium:"katoen   "		17172
+SearchInteraction	2018-01-18T11:04:26.788Z	73722d4a7b416efac89f84b4ba561592	music library of greece		138
+SearchInteraction	2018-01-18T11:05:09.755Z	73722d4a7b416efac89f84b4ba561592	huis van bewaring		1625
+SearchInteraction	2018-01-18T11:05:25.884Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:32.770Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_Eurystomus_orientalis_Lue_70_2_1	1	24629
+RankedRetrieveRecordInteraction	2018-01-18T11:05:45.421Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_WA03044X0026_0011	4	24629
+SearchInteraction	2018-01-18T11:06:11.888Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+RefreshOrPaginationInteraction	2018-01-18T11:06:33.645Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:06:51.203Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	1
+CollectionFilterRemovalInteraction	2018-01-18T11:07:10.970Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterAdditionInteraction	2018-01-18T11:07:15.239Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RankedRetrieveRecordInteraction	2018-01-18T11:07:47.354Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/2059209/data_sounds_WAMPHX0019XX_0300	2	2
+SearchInteraction	2018-01-18T11:08:39.030Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	0
+CollectionFilterRemovalInteraction	2018-01-18T11:08:53.678Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+RefreshOrPaginationInteraction	2018-01-18T11:08:54.060Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	2
+CollectionFilterRemovalInteraction	2018-01-18T11:08:55.261Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	24629
+CollectionFilterRemovalInteraction	2018-01-18T11:09:02.475Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+RankedRetrieveRecordInteraction	2018-01-18T11:09:19.709Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	/11622/_TIERSTIMMENARCHIV_MFN_GERMANY_TSA_soundscape_recording_DIG_115_4_1	7	55
+SearchInteraction	2018-01-18T11:10:21.260Z	73722d4a7b416efac89f84b4ba561592	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))	{'TYPE': ['SOUND']}	55
+SearchInteraction	2018-01-18T11:23:55.235Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-22T22:36:34.466Z	73722d4a7b416efac89f84b4ba561592	serbia		54022
+RankedRetrieveRecordInteraction	2018-02-22T22:37:06.344Z	73722d4a7b416efac89f84b4ba561592	serbia		/92084/sf_NBS_Zvucni_zapisi_virtuelna_brazda_Special_Rekord_D_2_244_2	11	54022
+SearchInteraction	2018-02-26T07:35:14.330Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-26T07:35:57.283Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+RankedRetrieveRecordInteraction	2018-02-26T07:36:07.703Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	/2059219/data_sounds_ark__12148_cb401450627	3	7
+SearchInteraction	2018-02-26T07:38:01.477Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	7
+SearchInteraction	2018-02-26T07:38:07.242Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	2866
+RankedRetrieveRecordInteraction	2018-02-26T07:38:16.405Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	/92055/URN_NBN_SI_doc_2FANHEAJ	2	2866
+SearchInteraction	2018-02-26T07:38:59.266Z	73722d4a7b416efac89f84b4ba561592	srbija	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-26T07:39:07.080Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka	{'MEDIA': ['true']}	49
+SearchInteraction	2018-02-26T07:39:18.597Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'MEDIA': ['true']}	13006973
+SearchInteraction	2018-02-26T07:39:30.227Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	9
+RankedRetrieveRecordInteraction	2018-02-26T07:39:35.809Z	73722d4a7b416efac89f84b4ba561592	narodna biblioteka srbije	{'MEDIA': ['true']}	/92040/BibliographicResource_3000094572390	1	9
+SearchInteraction	2018-03-30T09:43:23.737Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:14.124Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:22.710Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:56:38.516Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T09:57:03.744Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048716/object_HA_2084	46	5863
+SearchInteraction	2018-03-30T09:58:43.956Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:50.416Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:58:55.197Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:09.551Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:15.469Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:34.732Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:41.449Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:49.203Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T09:59:55.598Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:00.651Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:05.623Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:10.133Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:00:14.392Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048715/RMAH_198562_NLHR	188	5863
+SearchInteraction	2018-03-30T10:00:37.585Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:44.501Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:50.545Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:00:57.524Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:03.378Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:09.876Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:16.468Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:21.647Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:26.587Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:32.288Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:40.303Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:47.540Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:01:55.648Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:02.356Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:08.546Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:13.767Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:20.780Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:28.143Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:31.419Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:38.820Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:02:44.609Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RankedRetrieveRecordInteraction	2018-03-30T10:02:47.840Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	/2048713/UJAEN_HASSET_5158	869	5863
+SearchInteraction	2018-03-30T10:03:03.651Z	73722d4a7b416efac89f84b4ba561592	acoustic vessel	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:08.088Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:16.648Z	73722d4a7b416efac89f84b4ba561592	acoustic	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:20.466Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:28.796Z	73722d4a7b416efac89f84b4ba561592	acoustics	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:34.013Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+RefreshOrPaginationInteraction	2018-03-30T10:03:38.184Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:42.318Z	73722d4a7b416efac89f84b4ba561592	akustika	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:45.518Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:03:51.317Z	73722d4a7b416efac89f84b4ba561592	akustički sud	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:03:55.803Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863
+SearchInteraction	2018-03-30T10:04:01.856Z	73722d4a7b416efac89f84b4ba561592	noyon	{'PROVIDER': ['3D ICONS']}	0
+SearchInteraction	2018-03-30T10:04:04.882Z	73722d4a7b416efac89f84b4ba561592	NO VALUE PROVIDED	{'PROVIDER': ['3D ICONS']}	5863

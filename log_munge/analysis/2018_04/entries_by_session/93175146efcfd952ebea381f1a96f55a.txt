@@ -1,0 +1,130 @@
+ArbitraryAccessInteraction	2018-02-17T12:07:47.217Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:08:12.697Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_05e429fb_714f_21e5_1614_390c2e6ec82b.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:02.270Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_a754944c_2c48_2f9d_f32e_b4cd87a7c157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:36.933Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e989032c_26ab_e4b7_1652_01ab9dfbe33d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:26.329Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_be640d93_819f_2461_a7ee_915429ea7f3a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:40.439Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_d3d86ba7_d8fc_4593_889c_183db992f60e.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:11:37.397Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c77586fb_b7a1_0a97_7b06_264f03dd37b0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:06.278Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:11.759Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:19.551Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:47.921Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c13d7a28_b9d7_e239_92b0_f0cf379ea03f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:24.709Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e033ffb3_a9ec_dfc8_e388_e4f4b1483822.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:42.971Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b0771d9d_0f7b_f048_bbb8_abe971b23daf.html (PortalController#show)
+SearchInteraction	2018-02-17T12:14:55.463Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:14.963Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:23.574Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:36.995Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_1c6a9140_d481_11a4_901a_7e8c3d5497bc	111	124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:51.562Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_185dc733_1e0e_e067_8a0d_9e884169cb0b	113	124
+ArbitraryAccessInteraction	2018-02-17T12:16:35.088Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b486da97_d6e8_5524_a49a_7ee1351ea845.html (PortalController#show)
+SearchInteraction	2018-02-17T12:17:34.810Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:17:42.827Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_36f8de31_a17d_8464_e4cb_443dae87f782	97	124
+SearchInteraction	2018-02-17T12:18:16.628Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:18:42.824Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_3a4586d8_34f2_bfff_6b8c_62b84bb6186f	95	124
+SearchInteraction	2018-02-17T12:18:49.239Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:01.312Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_5bf19479_2ccd_5bc3_9cc0_a20f88ab66d7	73	124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:40.865Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_585ee15e_dacf_f5fd_21ad_e52169203ea9	75	124
+ArbitraryAccessInteraction	2018-02-17T12:07:47.217Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:08:12.697Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_05e429fb_714f_21e5_1614_390c2e6ec82b.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:02.270Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_a754944c_2c48_2f9d_f32e_b4cd87a7c157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:36.933Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e989032c_26ab_e4b7_1652_01ab9dfbe33d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:26.329Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_be640d93_819f_2461_a7ee_915429ea7f3a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:40.439Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_d3d86ba7_d8fc_4593_889c_183db992f60e.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:11:37.397Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c77586fb_b7a1_0a97_7b06_264f03dd37b0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:06.278Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:11.759Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:19.551Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:47.921Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c13d7a28_b9d7_e239_92b0_f0cf379ea03f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:24.709Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e033ffb3_a9ec_dfc8_e388_e4f4b1483822.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:42.971Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b0771d9d_0f7b_f048_bbb8_abe971b23daf.html (PortalController#show)
+SearchInteraction	2018-02-17T12:14:55.463Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:14.963Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:23.574Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:36.995Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_1c6a9140_d481_11a4_901a_7e8c3d5497bc	111	124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:51.562Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_185dc733_1e0e_e067_8a0d_9e884169cb0b	113	124
+ArbitraryAccessInteraction	2018-02-17T12:16:35.088Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b486da97_d6e8_5524_a49a_7ee1351ea845.html (PortalController#show)
+SearchInteraction	2018-02-17T12:17:34.810Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:17:42.827Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_36f8de31_a17d_8464_e4cb_443dae87f782	97	124
+SearchInteraction	2018-02-17T12:18:16.628Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:18:42.824Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_3a4586d8_34f2_bfff_6b8c_62b84bb6186f	95	124
+SearchInteraction	2018-02-17T12:18:49.239Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:01.312Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_5bf19479_2ccd_5bc3_9cc0_a20f88ab66d7	73	124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:40.865Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_585ee15e_dacf_f5fd_21ad_e52169203ea9	75	124
+ArbitraryAccessInteraction	2018-02-17T12:07:47.217Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:08:12.697Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_05e429fb_714f_21e5_1614_390c2e6ec82b.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:02.270Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_a754944c_2c48_2f9d_f32e_b4cd87a7c157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:36.933Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e989032c_26ab_e4b7_1652_01ab9dfbe33d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:26.329Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_be640d93_819f_2461_a7ee_915429ea7f3a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:40.439Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_d3d86ba7_d8fc_4593_889c_183db992f60e.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:11:37.397Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c77586fb_b7a1_0a97_7b06_264f03dd37b0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:06.278Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:11.759Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:19.551Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:47.921Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c13d7a28_b9d7_e239_92b0_f0cf379ea03f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:24.709Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e033ffb3_a9ec_dfc8_e388_e4f4b1483822.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:42.971Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b0771d9d_0f7b_f048_bbb8_abe971b23daf.html (PortalController#show)
+SearchInteraction	2018-02-17T12:14:55.463Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:14.963Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:23.574Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:36.995Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_1c6a9140_d481_11a4_901a_7e8c3d5497bc	111	124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:51.562Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_185dc733_1e0e_e067_8a0d_9e884169cb0b	113	124
+ArbitraryAccessInteraction	2018-02-17T12:16:35.088Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b486da97_d6e8_5524_a49a_7ee1351ea845.html (PortalController#show)
+SearchInteraction	2018-02-17T12:17:34.810Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:17:42.827Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_36f8de31_a17d_8464_e4cb_443dae87f782	97	124
+SearchInteraction	2018-02-17T12:18:16.628Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:18:42.824Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_3a4586d8_34f2_bfff_6b8c_62b84bb6186f	95	124
+SearchInteraction	2018-02-17T12:18:49.239Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:01.312Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_5bf19479_2ccd_5bc3_9cc0_a20f88ab66d7	73	124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:40.865Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_585ee15e_dacf_f5fd_21ad_e52169203ea9	75	124
+ArbitraryAccessInteraction	2018-02-17T12:07:47.217Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:08:12.697Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_05e429fb_714f_21e5_1614_390c2e6ec82b.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:02.270Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_a754944c_2c48_2f9d_f32e_b4cd87a7c157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:36.933Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e989032c_26ab_e4b7_1652_01ab9dfbe33d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:26.329Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_be640d93_819f_2461_a7ee_915429ea7f3a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:40.439Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_d3d86ba7_d8fc_4593_889c_183db992f60e.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:11:37.397Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c77586fb_b7a1_0a97_7b06_264f03dd37b0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:06.278Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:11.759Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:19.551Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:47.921Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c13d7a28_b9d7_e239_92b0_f0cf379ea03f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:24.709Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e033ffb3_a9ec_dfc8_e388_e4f4b1483822.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:42.971Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b0771d9d_0f7b_f048_bbb8_abe971b23daf.html (PortalController#show)
+SearchInteraction	2018-02-17T12:14:55.463Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:14.963Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:23.574Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:36.995Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_1c6a9140_d481_11a4_901a_7e8c3d5497bc	111	124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:51.562Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_185dc733_1e0e_e067_8a0d_9e884169cb0b	113	124
+ArbitraryAccessInteraction	2018-02-17T12:16:35.088Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b486da97_d6e8_5524_a49a_7ee1351ea845.html (PortalController#show)
+SearchInteraction	2018-02-17T12:17:34.810Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:17:42.827Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_36f8de31_a17d_8464_e4cb_443dae87f782	97	124
+SearchInteraction	2018-02-17T12:18:16.628Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:18:42.824Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_3a4586d8_34f2_bfff_6b8c_62b84bb6186f	95	124
+SearchInteraction	2018-02-17T12:18:49.239Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:01.312Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_5bf19479_2ccd_5bc3_9cc0_a20f88ab66d7	73	124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:40.865Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_585ee15e_dacf_f5fd_21ad_e52169203ea9	75	124
+ArbitraryAccessInteraction	2018-02-17T12:07:47.217Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:08:12.697Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_05e429fb_714f_21e5_1614_390c2e6ec82b.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:02.270Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_a754944c_2c48_2f9d_f32e_b4cd87a7c157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:09:36.933Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e989032c_26ab_e4b7_1652_01ab9dfbe33d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:26.329Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_be640d93_819f_2461_a7ee_915429ea7f3a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:10:40.439Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_d3d86ba7_d8fc_4593_889c_183db992f60e.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:11:37.397Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c77586fb_b7a1_0a97_7b06_264f03dd37b0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:06.278Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:11.759Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:19.551Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_ea964eb8_5d86_af3e_2652_64d3c490fa78.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:12:47.921Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_c13d7a28_b9d7_e239_92b0_f0cf379ea03f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:24.709Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_e033ffb3_a9ec_dfc8_e388_e4f4b1483822.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-17T12:13:42.971Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b0771d9d_0f7b_f048_bbb8_abe971b23daf.html (PortalController#show)
+SearchInteraction	2018-02-17T12:14:55.463Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:14.963Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RefreshOrPaginationInteraction	2018-02-17T12:15:23.574Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:36.995Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_1c6a9140_d481_11a4_901a_7e8c3d5497bc	111	124
+RankedRetrieveRecordInteraction	2018-02-17T12:15:51.562Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_185dc733_1e0e_e067_8a0d_9e884169cb0b	113	124
+ArbitraryAccessInteraction	2018-02-17T12:16:35.088Z	93175146efcfd952ebea381f1a96f55a	[200] GET /portal/nl/record/2021650/memorix_b486da97_d6e8_5524_a49a_7ee1351ea845.html (PortalController#show)
+SearchInteraction	2018-02-17T12:17:34.810Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:17:42.827Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_36f8de31_a17d_8464_e4cb_443dae87f782	97	124
+SearchInteraction	2018-02-17T12:18:16.628Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:18:42.824Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_3a4586d8_34f2_bfff_6b8c_62b84bb6186f	95	124
+SearchInteraction	2018-02-17T12:18:49.239Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:01.312Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_5bf19479_2ccd_5bc3_9cc0_a20f88ab66d7	73	124
+RankedRetrieveRecordInteraction	2018-02-17T12:19:40.865Z	93175146efcfd952ebea381f1a96f55a	what:"Kruys"		/2021650/memorix_585ee15e_dacf_f5fd_21ad_e52169203ea9	75	124

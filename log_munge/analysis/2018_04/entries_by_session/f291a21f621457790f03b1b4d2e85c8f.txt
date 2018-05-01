@@ -1,0 +1,75 @@
+SearchInteraction	2018-02-20T16:04:01.321Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:04:07.768Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92070/BibliographicResource_1000126221214	1	11935
+SearchInteraction	2018-02-20T16:05:40.876Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:05:47.230Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:11.594Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:24.427Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:06:53.792Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588273	48	11935
+SearchInteraction	2018-02-20T16:07:12.311Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:07:47.846Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:07.541Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588251	70	11935
+SearchInteraction	2018-02-20T16:08:14.174Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:55.738Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125584964	83	11935
+ArbitraryAccessInteraction	2018-02-20T16:44:43.833Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/data-sources.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T19:43:32.986Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/orphan-work-eu.html (PagesController#show)
+SearchInteraction	2018-02-20T19:44:19.050Z	f291a21f621457790f03b1b4d2e85c8f	"abraham ortelius" OR "ortelius, abraham"		1151
+SearchInteraction	2018-02-20T16:04:01.321Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:04:07.768Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92070/BibliographicResource_1000126221214	1	11935
+SearchInteraction	2018-02-20T16:05:40.876Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:05:47.230Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:11.594Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:24.427Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:06:53.792Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588273	48	11935
+SearchInteraction	2018-02-20T16:07:12.311Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:07:47.846Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:07.541Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588251	70	11935
+SearchInteraction	2018-02-20T16:08:14.174Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:55.738Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125584964	83	11935
+ArbitraryAccessInteraction	2018-02-20T16:44:43.833Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/data-sources.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T19:43:32.986Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/orphan-work-eu.html (PagesController#show)
+SearchInteraction	2018-02-20T19:44:19.050Z	f291a21f621457790f03b1b4d2e85c8f	"abraham ortelius" OR "ortelius, abraham"		1151
+SearchInteraction	2018-02-20T16:04:01.321Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:04:07.768Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92070/BibliographicResource_1000126221214	1	11935
+SearchInteraction	2018-02-20T16:05:40.876Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:05:47.230Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:11.594Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:24.427Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:06:53.792Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588273	48	11935
+SearchInteraction	2018-02-20T16:07:12.311Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:07:47.846Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:07.541Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588251	70	11935
+SearchInteraction	2018-02-20T16:08:14.174Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:55.738Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125584964	83	11935
+ArbitraryAccessInteraction	2018-02-20T16:44:43.833Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/data-sources.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T19:43:32.986Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/orphan-work-eu.html (PagesController#show)
+SearchInteraction	2018-02-20T19:44:19.050Z	f291a21f621457790f03b1b4d2e85c8f	"abraham ortelius" OR "ortelius, abraham"		1151
+SearchInteraction	2018-02-20T16:04:01.321Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:04:07.768Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92070/BibliographicResource_1000126221214	1	11935
+SearchInteraction	2018-02-20T16:05:40.876Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:05:47.230Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:11.594Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:24.427Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:06:53.792Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588273	48	11935
+SearchInteraction	2018-02-20T16:07:12.311Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:07:47.846Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:07.541Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588251	70	11935
+SearchInteraction	2018-02-20T16:08:14.174Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:55.738Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125584964	83	11935
+ArbitraryAccessInteraction	2018-02-20T16:44:43.833Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/data-sources.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T19:43:32.986Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/orphan-work-eu.html (PagesController#show)
+SearchInteraction	2018-02-20T19:44:19.050Z	f291a21f621457790f03b1b4d2e85c8f	"abraham ortelius" OR "ortelius, abraham"		1151
+SearchInteraction	2018-02-20T16:04:01.321Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:04:07.768Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92070/BibliographicResource_1000126221214	1	11935
+SearchInteraction	2018-02-20T16:05:40.876Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:05:47.230Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:11.594Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:06:24.427Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:06:53.792Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588273	48	11935
+SearchInteraction	2018-02-20T16:07:12.311Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RefreshOrPaginationInteraction	2018-02-20T16:07:47.846Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:07.541Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125588251	70	11935
+SearchInteraction	2018-02-20T16:08:14.174Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		11935
+RankedRetrieveRecordInteraction	2018-02-20T16:08:55.738Z	f291a21f621457790f03b1b4d2e85c8f	lisbon		/92027/BibliographicResource_1000125584964	83	11935
+ArbitraryAccessInteraction	2018-02-20T16:44:43.833Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/data-sources.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T19:43:32.986Z	f291a21f621457790f03b1b4d2e85c8f	[200] GET /portal/en/rights/orphan-work-eu.html (PagesController#show)
+SearchInteraction	2018-02-20T19:44:19.050Z	f291a21f621457790f03b1b4d2e85c8f	"abraham ortelius" OR "ortelius, abraham"		1151

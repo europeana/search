@@ -1,0 +1,45 @@
+SearchInteraction	2018-02-07T09:43:20.320Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+RefreshOrPaginationInteraction	2018-02-07T09:43:34.926Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+ArbitraryAccessInteraction	2018-02-07T09:45:05.305Z	13284b444efee3ac53dbc3c98a5469e4	[200] GET /portal/bg/about.html (PagesController#show)
+SearchInteraction	2018-02-07T09:45:33.059Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	469
+RankedRetrieveRecordInteraction	2018-02-07T09:45:55.787Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00542561	2	469
+RankedRetrieveRecordInteraction	2018-02-07T09:47:13.547Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00521910	3	469
+SearchInteraction	2018-02-07T09:54:20.549Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-02-07T09:54:45.631Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_LISTNAT00011_0001	3	24629
+SearchInteraction	2018-02-07T09:56:32.428Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['CNRS-CREM']}	21462
+SearchInteraction	2018-02-07T09:43:20.320Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+RefreshOrPaginationInteraction	2018-02-07T09:43:34.926Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+ArbitraryAccessInteraction	2018-02-07T09:45:05.305Z	13284b444efee3ac53dbc3c98a5469e4	[200] GET /portal/bg/about.html (PagesController#show)
+SearchInteraction	2018-02-07T09:45:33.059Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	469
+RankedRetrieveRecordInteraction	2018-02-07T09:45:55.787Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00542561	2	469
+RankedRetrieveRecordInteraction	2018-02-07T09:47:13.547Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00521910	3	469
+SearchInteraction	2018-02-07T09:54:20.549Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-02-07T09:54:45.631Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_LISTNAT00011_0001	3	24629
+SearchInteraction	2018-02-07T09:56:32.428Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['CNRS-CREM']}	21462
+SearchInteraction	2018-02-07T09:43:20.320Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+RefreshOrPaginationInteraction	2018-02-07T09:43:34.926Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+ArbitraryAccessInteraction	2018-02-07T09:45:05.305Z	13284b444efee3ac53dbc3c98a5469e4	[200] GET /portal/bg/about.html (PagesController#show)
+SearchInteraction	2018-02-07T09:45:33.059Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	469
+RankedRetrieveRecordInteraction	2018-02-07T09:45:55.787Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00542561	2	469
+RankedRetrieveRecordInteraction	2018-02-07T09:47:13.547Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00521910	3	469
+SearchInteraction	2018-02-07T09:54:20.549Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-02-07T09:54:45.631Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_LISTNAT00011_0001	3	24629
+SearchInteraction	2018-02-07T09:56:32.428Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['CNRS-CREM']}	21462
+SearchInteraction	2018-02-07T09:43:20.320Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+RefreshOrPaginationInteraction	2018-02-07T09:43:34.926Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+ArbitraryAccessInteraction	2018-02-07T09:45:05.305Z	13284b444efee3ac53dbc3c98a5469e4	[200] GET /portal/bg/about.html (PagesController#show)
+SearchInteraction	2018-02-07T09:45:33.059Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	469
+RankedRetrieveRecordInteraction	2018-02-07T09:45:55.787Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00542561	2	469
+RankedRetrieveRecordInteraction	2018-02-07T09:47:13.547Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00521910	3	469
+SearchInteraction	2018-02-07T09:54:20.549Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-02-07T09:54:45.631Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_LISTNAT00011_0001	3	24629
+SearchInteraction	2018-02-07T09:56:32.428Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['CNRS-CREM']}	21462
+SearchInteraction	2018-02-07T09:43:20.320Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+RefreshOrPaginationInteraction	2018-02-07T09:43:34.926Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090950
+ArbitraryAccessInteraction	2018-02-07T09:45:05.305Z	13284b444efee3ac53dbc3c98a5469e4	[200] GET /portal/bg/about.html (PagesController#show)
+SearchInteraction	2018-02-07T09:45:33.059Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	469
+RankedRetrieveRecordInteraction	2018-02-07T09:45:55.787Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00542561	2	469
+RankedRetrieveRecordInteraction	2018-02-07T09:47:13.547Z	13284b444efee3ac53dbc3c98a5469e4	Anton Bruckner	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library'], 'PROVIDER': ['Europeana Sounds']}	/2059216/data_item_onb_sounds_AL00521910	3	469
+SearchInteraction	2018-02-07T09:54:20.549Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		24629
+RankedRetrieveRecordInteraction	2018-02-07T09:54:45.631Z	13284b444efee3ac53dbc3c98a5469e4	(PROVIDER:"OpenUp!" AND TYPE:SOUND) OR (TYPE:SOUND AND what: (animal OR bird OR nature))		/2059209/data_sounds_LISTNAT00011_0001	3	24629
+SearchInteraction	2018-02-07T09:56:32.428Z	13284b444efee3ac53dbc3c98a5469e4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['CNRS-CREM']}	21462

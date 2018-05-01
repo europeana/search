@@ -1,0 +1,135 @@
+ArbitraryAccessInteraction	2018-02-21T03:43:40.130Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:49.469Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:46:40.361Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:49:39.887Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		152
+CollectionFilterRemovalInteraction	2018-02-21T03:49:51.089Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		4369
+CollectionFilterAdditionInteraction	2018-02-21T03:50:01.324Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		0
+SearchInteraction	2018-02-21T03:51:04.234Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		775
+CollectionFilterAdditionInteraction	2018-02-21T03:51:20.218Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+RefreshOrPaginationInteraction	2018-02-21T03:51:31.040Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+CollectionFilterRemovalInteraction	2018-02-21T03:51:41.910Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+RefreshOrPaginationInteraction	2018-02-21T03:51:42.344Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+SearchInteraction	2018-02-21T03:51:52.018Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		1
+CollectionFilterRemovalInteraction	2018-02-21T03:51:59.054Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		2
+ArbitraryAccessInteraction	2018-02-21T03:52:43.862Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:52:50.222Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:53:10.861Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-02-21T03:53:32.154Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:53:54.173Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska	{'DATA_PROVIDER': ['Uppsala University']}	109
+SearchInteraction	2018-02-21T03:54:03.089Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:04.078Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.183Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.296Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:07.785Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+SearchInteraction	2018-02-21T03:54:08.970Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:54:12.450Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T03:54:19.944Z	7a154a7a5bd8573872da99c047bdc2f5	Philosophie		19232
+ArbitraryAccessInteraction	2018-02-21T03:54:43.971Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:40.130Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:49.469Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:46:40.361Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:49:39.887Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		152
+CollectionFilterRemovalInteraction	2018-02-21T03:49:51.089Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		4369
+CollectionFilterAdditionInteraction	2018-02-21T03:50:01.324Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		0
+SearchInteraction	2018-02-21T03:51:04.234Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		775
+CollectionFilterAdditionInteraction	2018-02-21T03:51:20.218Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+RefreshOrPaginationInteraction	2018-02-21T03:51:31.040Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+CollectionFilterRemovalInteraction	2018-02-21T03:51:41.910Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+RefreshOrPaginationInteraction	2018-02-21T03:51:42.344Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+SearchInteraction	2018-02-21T03:51:52.018Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		1
+CollectionFilterRemovalInteraction	2018-02-21T03:51:59.054Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		2
+ArbitraryAccessInteraction	2018-02-21T03:52:43.862Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:52:50.222Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:53:10.861Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-02-21T03:53:32.154Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:53:54.173Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska	{'DATA_PROVIDER': ['Uppsala University']}	109
+SearchInteraction	2018-02-21T03:54:03.089Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:04.078Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.183Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.296Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:07.785Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+SearchInteraction	2018-02-21T03:54:08.970Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:54:12.450Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T03:54:19.944Z	7a154a7a5bd8573872da99c047bdc2f5	Philosophie		19232
+ArbitraryAccessInteraction	2018-02-21T03:54:43.971Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:40.130Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:49.469Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:46:40.361Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:49:39.887Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		152
+CollectionFilterRemovalInteraction	2018-02-21T03:49:51.089Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		4369
+CollectionFilterAdditionInteraction	2018-02-21T03:50:01.324Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		0
+SearchInteraction	2018-02-21T03:51:04.234Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		775
+CollectionFilterAdditionInteraction	2018-02-21T03:51:20.218Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+RefreshOrPaginationInteraction	2018-02-21T03:51:31.040Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+CollectionFilterRemovalInteraction	2018-02-21T03:51:41.910Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+RefreshOrPaginationInteraction	2018-02-21T03:51:42.344Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+SearchInteraction	2018-02-21T03:51:52.018Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		1
+CollectionFilterRemovalInteraction	2018-02-21T03:51:59.054Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		2
+ArbitraryAccessInteraction	2018-02-21T03:52:43.862Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:52:50.222Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:53:10.861Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-02-21T03:53:32.154Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:53:54.173Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska	{'DATA_PROVIDER': ['Uppsala University']}	109
+SearchInteraction	2018-02-21T03:54:03.089Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:04.078Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.183Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.296Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:07.785Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+SearchInteraction	2018-02-21T03:54:08.970Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:54:12.450Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T03:54:19.944Z	7a154a7a5bd8573872da99c047bdc2f5	Philosophie		19232
+ArbitraryAccessInteraction	2018-02-21T03:54:43.971Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:40.130Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:49.469Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:46:40.361Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:49:39.887Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		152
+CollectionFilterRemovalInteraction	2018-02-21T03:49:51.089Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		4369
+CollectionFilterAdditionInteraction	2018-02-21T03:50:01.324Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		0
+SearchInteraction	2018-02-21T03:51:04.234Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		775
+CollectionFilterAdditionInteraction	2018-02-21T03:51:20.218Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+RefreshOrPaginationInteraction	2018-02-21T03:51:31.040Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+CollectionFilterRemovalInteraction	2018-02-21T03:51:41.910Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+RefreshOrPaginationInteraction	2018-02-21T03:51:42.344Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+SearchInteraction	2018-02-21T03:51:52.018Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		1
+CollectionFilterRemovalInteraction	2018-02-21T03:51:59.054Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		2
+ArbitraryAccessInteraction	2018-02-21T03:52:43.862Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:52:50.222Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:53:10.861Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-02-21T03:53:32.154Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:53:54.173Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska	{'DATA_PROVIDER': ['Uppsala University']}	109
+SearchInteraction	2018-02-21T03:54:03.089Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:04.078Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.183Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.296Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:07.785Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+SearchInteraction	2018-02-21T03:54:08.970Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:54:12.450Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T03:54:19.944Z	7a154a7a5bd8573872da99c047bdc2f5	Philosophie		19232
+ArbitraryAccessInteraction	2018-02-21T03:54:43.971Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:40.130Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:43:49.469Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:46:40.361Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:49:39.887Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		152
+CollectionFilterRemovalInteraction	2018-02-21T03:49:51.089Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		4369
+CollectionFilterAdditionInteraction	2018-02-21T03:50:01.324Z	7a154a7a5bd8573872da99c047bdc2f5	Hein		0
+SearchInteraction	2018-02-21T03:51:04.234Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		775
+CollectionFilterAdditionInteraction	2018-02-21T03:51:20.218Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+RefreshOrPaginationInteraction	2018-02-21T03:51:31.040Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		0
+CollectionFilterRemovalInteraction	2018-02-21T03:51:41.910Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+RefreshOrPaginationInteraction	2018-02-21T03:51:42.344Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey		1
+SearchInteraction	2018-02-21T03:51:52.018Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		1
+CollectionFilterRemovalInteraction	2018-02-21T03:51:59.054Z	7a154a7a5bd8573872da99c047bdc2f5	Hockey Canada		2
+ArbitraryAccessInteraction	2018-02-21T03:52:43.862Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-21T03:52:50.222Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-02-21T03:53:10.861Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-02-21T03:53:32.154Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:53:54.173Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska	{'DATA_PROVIDER': ['Uppsala University']}	109
+SearchInteraction	2018-02-21T03:54:03.089Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:04.078Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.183Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:05.296Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+RefreshOrPaginationInteraction	2018-02-21T03:54:07.785Z	7a154a7a5bd8573872da99c047bdc2f5	filosofiska		151
+SearchInteraction	2018-02-21T03:54:08.970Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Uppsala University']}	74234
+SearchInteraction	2018-02-21T03:54:12.450Z	7a154a7a5bd8573872da99c047bdc2f5	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T03:54:19.944Z	7a154a7a5bd8573872da99c047bdc2f5	Philosophie		19232
+ArbitraryAccessInteraction	2018-02-21T03:54:43.971Z	7a154a7a5bd8573872da99c047bdc2f5	[200] GET /portal/de/about.html (PagesController#show)

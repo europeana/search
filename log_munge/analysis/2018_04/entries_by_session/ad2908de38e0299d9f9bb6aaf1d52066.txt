@@ -1,0 +1,115 @@
+SearchInteraction	2018-03-03T18:38:56.778Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		2934175
+CollectionFilterRemovalInteraction	2018-03-03T18:39:08.370Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RefreshOrPaginationInteraction	2018-03-03T18:39:09.450Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RankedRetrieveRecordInteraction	2018-03-03T18:39:29.753Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		/9200387/BibliographicResource_3000117248140	7	751
+SearchInteraction	2018-03-03T18:39:35.858Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+SearchInteraction	2018-03-03T18:39:49.165Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	600
+CollectionFilterRemovalInteraction	2018-03-03T18:39:55.969Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	819188
+RankedRetrieveRecordInteraction	2018-03-03T18:40:16.096Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	/2022325/0F66BE3D52E9CDAC5DE20EC77549DE2B539ED67D	3	819188
+SearchInteraction	2018-03-03T18:44:45.675Z	ad2908de38e0299d9f9bb6aaf1d52066	madrid		1112877
+SearchInteraction	2018-03-03T18:44:58.251Z	ad2908de38e0299d9f9bb6aaf1d52066	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T18:45:06.433Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:45:17.463Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000136363776	3	1754
+SearchInteraction	2018-03-03T18:45:46.598Z	ad2908de38e0299d9f9bb6aaf1d52066	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+ArbitraryAccessInteraction	2018-03-03T18:46:08.681Z	ad2908de38e0299d9f9bb6aaf1d52066	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363779.html (PortalController#show)
+SearchInteraction	2018-03-03T18:47:45.121Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:47:52.738Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100295833	13	1754
+SearchInteraction	2018-03-03T18:48:22.290Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RefreshOrPaginationInteraction	2018-03-03T18:48:48.353Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:49:04.604Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100201826	38	1754
+RankedRetrieveRecordInteraction	2018-03-03T18:50:28.030Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100187250	46	1754
+SearchInteraction	2018-03-03T18:50:52.261Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+SearchInteraction	2018-03-03T18:51:01.071Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+RefreshOrPaginationInteraction	2018-03-03T19:35:43.826Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+SearchInteraction	2018-03-03T18:38:56.778Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		2934175
+CollectionFilterRemovalInteraction	2018-03-03T18:39:08.370Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RefreshOrPaginationInteraction	2018-03-03T18:39:09.450Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RankedRetrieveRecordInteraction	2018-03-03T18:39:29.753Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		/9200387/BibliographicResource_3000117248140	7	751
+SearchInteraction	2018-03-03T18:39:35.858Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+SearchInteraction	2018-03-03T18:39:49.165Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	600
+CollectionFilterRemovalInteraction	2018-03-03T18:39:55.969Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	819188
+RankedRetrieveRecordInteraction	2018-03-03T18:40:16.096Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	/2022325/0F66BE3D52E9CDAC5DE20EC77549DE2B539ED67D	3	819188
+SearchInteraction	2018-03-03T18:44:45.675Z	ad2908de38e0299d9f9bb6aaf1d52066	madrid		1112877
+SearchInteraction	2018-03-03T18:44:58.251Z	ad2908de38e0299d9f9bb6aaf1d52066	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T18:45:06.433Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:45:17.463Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000136363776	3	1754
+SearchInteraction	2018-03-03T18:45:46.598Z	ad2908de38e0299d9f9bb6aaf1d52066	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+ArbitraryAccessInteraction	2018-03-03T18:46:08.681Z	ad2908de38e0299d9f9bb6aaf1d52066	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363779.html (PortalController#show)
+SearchInteraction	2018-03-03T18:47:45.121Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:47:52.738Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100295833	13	1754
+SearchInteraction	2018-03-03T18:48:22.290Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RefreshOrPaginationInteraction	2018-03-03T18:48:48.353Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:49:04.604Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100201826	38	1754
+RankedRetrieveRecordInteraction	2018-03-03T18:50:28.030Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100187250	46	1754
+SearchInteraction	2018-03-03T18:50:52.261Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+SearchInteraction	2018-03-03T18:51:01.071Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+RefreshOrPaginationInteraction	2018-03-03T19:35:43.826Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+SearchInteraction	2018-03-03T18:38:56.778Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		2934175
+CollectionFilterRemovalInteraction	2018-03-03T18:39:08.370Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RefreshOrPaginationInteraction	2018-03-03T18:39:09.450Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RankedRetrieveRecordInteraction	2018-03-03T18:39:29.753Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		/9200387/BibliographicResource_3000117248140	7	751
+SearchInteraction	2018-03-03T18:39:35.858Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+SearchInteraction	2018-03-03T18:39:49.165Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	600
+CollectionFilterRemovalInteraction	2018-03-03T18:39:55.969Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	819188
+RankedRetrieveRecordInteraction	2018-03-03T18:40:16.096Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	/2022325/0F66BE3D52E9CDAC5DE20EC77549DE2B539ED67D	3	819188
+SearchInteraction	2018-03-03T18:44:45.675Z	ad2908de38e0299d9f9bb6aaf1d52066	madrid		1112877
+SearchInteraction	2018-03-03T18:44:58.251Z	ad2908de38e0299d9f9bb6aaf1d52066	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T18:45:06.433Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:45:17.463Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000136363776	3	1754
+SearchInteraction	2018-03-03T18:45:46.598Z	ad2908de38e0299d9f9bb6aaf1d52066	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+ArbitraryAccessInteraction	2018-03-03T18:46:08.681Z	ad2908de38e0299d9f9bb6aaf1d52066	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363779.html (PortalController#show)
+SearchInteraction	2018-03-03T18:47:45.121Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:47:52.738Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100295833	13	1754
+SearchInteraction	2018-03-03T18:48:22.290Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RefreshOrPaginationInteraction	2018-03-03T18:48:48.353Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:49:04.604Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100201826	38	1754
+RankedRetrieveRecordInteraction	2018-03-03T18:50:28.030Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100187250	46	1754
+SearchInteraction	2018-03-03T18:50:52.261Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+SearchInteraction	2018-03-03T18:51:01.071Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+RefreshOrPaginationInteraction	2018-03-03T19:35:43.826Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+SearchInteraction	2018-03-03T18:38:56.778Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		2934175
+CollectionFilterRemovalInteraction	2018-03-03T18:39:08.370Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RefreshOrPaginationInteraction	2018-03-03T18:39:09.450Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RankedRetrieveRecordInteraction	2018-03-03T18:39:29.753Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		/9200387/BibliographicResource_3000117248140	7	751
+SearchInteraction	2018-03-03T18:39:35.858Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+SearchInteraction	2018-03-03T18:39:49.165Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	600
+CollectionFilterRemovalInteraction	2018-03-03T18:39:55.969Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	819188
+RankedRetrieveRecordInteraction	2018-03-03T18:40:16.096Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	/2022325/0F66BE3D52E9CDAC5DE20EC77549DE2B539ED67D	3	819188
+SearchInteraction	2018-03-03T18:44:45.675Z	ad2908de38e0299d9f9bb6aaf1d52066	madrid		1112877
+SearchInteraction	2018-03-03T18:44:58.251Z	ad2908de38e0299d9f9bb6aaf1d52066	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T18:45:06.433Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:45:17.463Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000136363776	3	1754
+SearchInteraction	2018-03-03T18:45:46.598Z	ad2908de38e0299d9f9bb6aaf1d52066	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+ArbitraryAccessInteraction	2018-03-03T18:46:08.681Z	ad2908de38e0299d9f9bb6aaf1d52066	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363779.html (PortalController#show)
+SearchInteraction	2018-03-03T18:47:45.121Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:47:52.738Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100295833	13	1754
+SearchInteraction	2018-03-03T18:48:22.290Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RefreshOrPaginationInteraction	2018-03-03T18:48:48.353Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:49:04.604Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100201826	38	1754
+RankedRetrieveRecordInteraction	2018-03-03T18:50:28.030Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100187250	46	1754
+SearchInteraction	2018-03-03T18:50:52.261Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+SearchInteraction	2018-03-03T18:51:01.071Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+RefreshOrPaginationInteraction	2018-03-03T19:35:43.826Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+SearchInteraction	2018-03-03T18:38:56.778Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		2934175
+CollectionFilterRemovalInteraction	2018-03-03T18:39:08.370Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RefreshOrPaginationInteraction	2018-03-03T18:39:09.450Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+RankedRetrieveRecordInteraction	2018-03-03T18:39:29.753Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		/9200387/BibliographicResource_3000117248140	7	751
+SearchInteraction	2018-03-03T18:39:35.858Z	ad2908de38e0299d9f9bb6aaf1d52066	spain		751
+SearchInteraction	2018-03-03T18:39:49.165Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	600
+CollectionFilterRemovalInteraction	2018-03-03T18:39:55.969Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	819188
+RankedRetrieveRecordInteraction	2018-03-03T18:40:16.096Z	ad2908de38e0299d9f9bb6aaf1d52066	spain	{'TYPE': ['IMAGE']}	/2022325/0F66BE3D52E9CDAC5DE20EC77549DE2B539ED67D	3	819188
+SearchInteraction	2018-03-03T18:44:45.675Z	ad2908de38e0299d9f9bb6aaf1d52066	madrid		1112877
+SearchInteraction	2018-03-03T18:44:58.251Z	ad2908de38e0299d9f9bb6aaf1d52066	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T18:45:06.433Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:45:17.463Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000136363776	3	1754
+SearchInteraction	2018-03-03T18:45:46.598Z	ad2908de38e0299d9f9bb6aaf1d52066	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+ArbitraryAccessInteraction	2018-03-03T18:46:08.681Z	ad2908de38e0299d9f9bb6aaf1d52066	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363779.html (PortalController#show)
+SearchInteraction	2018-03-03T18:47:45.121Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:47:52.738Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100295833	13	1754
+SearchInteraction	2018-03-03T18:48:22.290Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RefreshOrPaginationInteraction	2018-03-03T18:48:48.353Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+RankedRetrieveRecordInteraction	2018-03-03T18:49:04.604Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100201826	38	1754
+RankedRetrieveRecordInteraction	2018-03-03T18:50:28.030Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		/9200376/BibliographicResource_3000100187250	46	1754
+SearchInteraction	2018-03-03T18:50:52.261Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon		1754
+SearchInteraction	2018-03-03T18:51:01.071Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572
+RefreshOrPaginationInteraction	2018-03-03T19:35:43.826Z	ad2908de38e0299d9f9bb6aaf1d52066	gijon	{'TYPE': ['IMAGE']}	572

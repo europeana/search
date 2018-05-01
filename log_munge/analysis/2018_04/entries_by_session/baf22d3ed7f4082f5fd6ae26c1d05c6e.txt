@@ -1,0 +1,125 @@
+ArbitraryAccessInteraction	2018-02-09T13:47:24.494Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:52:55.933Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:53:37.345Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_ff12afc5_1459_476c_942e_11d4682e906f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:54:18.716Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_0d41b244_3c96_4448_be84_db7469828ab3.html (PortalController#show)
+SearchInteraction	2018-02-09T13:55:17.893Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RefreshOrPaginationInteraction	2018-02-09T13:55:37.699Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.791Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.995Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:54.999Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fc389831_bc13_4e31_bed7_5f452602b246	42	1375
+SearchInteraction	2018-02-09T13:57:33.400Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.403Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.421Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+SearchInteraction	2018-02-09T13:58:29.328Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+ArbitraryAccessInteraction	2018-02-09T14:00:19.644Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:44.874Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:45.185Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+SearchInteraction	2018-02-09T14:12:07.533Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	NO VALUE PROVIDED		720819
+ArbitraryAccessInteraction	2018-02-09T14:14:18.633Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:14:18.824Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+SearchInteraction	2018-02-09T14:20:07.465Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	foto's brandweer zaandam		3
+ArbitraryAccessInteraction	2018-02-09T14:20:59.877Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:11.627Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:38.233Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+SearchInteraction	2018-02-09T14:22:02.930Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	DATA_PROVIDER:"Gemeentearchief Zaanstad"		85843
+SearchInteraction	2018-02-09T14:22:20.609Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	europeana_collectionName:(2021631_Ag_NL_DigitaleCollectie_zaanstad)		85843
+ArbitraryAccessInteraction	2018-02-09T13:47:24.494Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:52:55.933Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:53:37.345Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_ff12afc5_1459_476c_942e_11d4682e906f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:54:18.716Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_0d41b244_3c96_4448_be84_db7469828ab3.html (PortalController#show)
+SearchInteraction	2018-02-09T13:55:17.893Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RefreshOrPaginationInteraction	2018-02-09T13:55:37.699Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.791Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.995Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:54.999Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fc389831_bc13_4e31_bed7_5f452602b246	42	1375
+SearchInteraction	2018-02-09T13:57:33.400Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.403Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.421Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+SearchInteraction	2018-02-09T13:58:29.328Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+ArbitraryAccessInteraction	2018-02-09T14:00:19.644Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:44.874Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:45.185Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+SearchInteraction	2018-02-09T14:12:07.533Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	NO VALUE PROVIDED		720819
+ArbitraryAccessInteraction	2018-02-09T14:14:18.633Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:14:18.824Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+SearchInteraction	2018-02-09T14:20:07.465Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	foto's brandweer zaandam		3
+ArbitraryAccessInteraction	2018-02-09T14:20:59.877Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:11.627Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:38.233Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+SearchInteraction	2018-02-09T14:22:02.930Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	DATA_PROVIDER:"Gemeentearchief Zaanstad"		85843
+SearchInteraction	2018-02-09T14:22:20.609Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	europeana_collectionName:(2021631_Ag_NL_DigitaleCollectie_zaanstad)		85843
+ArbitraryAccessInteraction	2018-02-09T13:47:24.494Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:52:55.933Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:53:37.345Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_ff12afc5_1459_476c_942e_11d4682e906f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:54:18.716Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_0d41b244_3c96_4448_be84_db7469828ab3.html (PortalController#show)
+SearchInteraction	2018-02-09T13:55:17.893Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RefreshOrPaginationInteraction	2018-02-09T13:55:37.699Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.791Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.995Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:54.999Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fc389831_bc13_4e31_bed7_5f452602b246	42	1375
+SearchInteraction	2018-02-09T13:57:33.400Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.403Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.421Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+SearchInteraction	2018-02-09T13:58:29.328Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+ArbitraryAccessInteraction	2018-02-09T14:00:19.644Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:44.874Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:45.185Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+SearchInteraction	2018-02-09T14:12:07.533Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	NO VALUE PROVIDED		720819
+ArbitraryAccessInteraction	2018-02-09T14:14:18.633Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:14:18.824Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+SearchInteraction	2018-02-09T14:20:07.465Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	foto's brandweer zaandam		3
+ArbitraryAccessInteraction	2018-02-09T14:20:59.877Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:11.627Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:38.233Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+SearchInteraction	2018-02-09T14:22:02.930Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	DATA_PROVIDER:"Gemeentearchief Zaanstad"		85843
+SearchInteraction	2018-02-09T14:22:20.609Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	europeana_collectionName:(2021631_Ag_NL_DigitaleCollectie_zaanstad)		85843
+ArbitraryAccessInteraction	2018-02-09T13:47:24.494Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:52:55.933Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:53:37.345Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_ff12afc5_1459_476c_942e_11d4682e906f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:54:18.716Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_0d41b244_3c96_4448_be84_db7469828ab3.html (PortalController#show)
+SearchInteraction	2018-02-09T13:55:17.893Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RefreshOrPaginationInteraction	2018-02-09T13:55:37.699Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.791Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.995Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:54.999Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fc389831_bc13_4e31_bed7_5f452602b246	42	1375
+SearchInteraction	2018-02-09T13:57:33.400Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.403Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.421Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+SearchInteraction	2018-02-09T13:58:29.328Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+ArbitraryAccessInteraction	2018-02-09T14:00:19.644Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:44.874Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:45.185Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+SearchInteraction	2018-02-09T14:12:07.533Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	NO VALUE PROVIDED		720819
+ArbitraryAccessInteraction	2018-02-09T14:14:18.633Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:14:18.824Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+SearchInteraction	2018-02-09T14:20:07.465Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	foto's brandweer zaandam		3
+ArbitraryAccessInteraction	2018-02-09T14:20:59.877Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:11.627Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:38.233Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+SearchInteraction	2018-02-09T14:22:02.930Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	DATA_PROVIDER:"Gemeentearchief Zaanstad"		85843
+SearchInteraction	2018-02-09T14:22:20.609Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	europeana_collectionName:(2021631_Ag_NL_DigitaleCollectie_zaanstad)		85843
+ArbitraryAccessInteraction	2018-02-09T13:47:24.494Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:52:55.933Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:53:37.345Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_ff12afc5_1459_476c_942e_11d4682e906f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T13:54:18.716Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_0d41b244_3c96_4448_be84_db7469828ab3.html (PortalController#show)
+SearchInteraction	2018-02-09T13:55:17.893Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RefreshOrPaginationInteraction	2018-02-09T13:55:37.699Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.791Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:04.995Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fcb8f85d_f72b_4c75_9665_863ac4b3dd9e	37	1375
+RankedRetrieveRecordInteraction	2018-02-09T13:56:54.999Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		/2021631/afbeelding_fc389831_bc13_4e31_bed7_5f452602b246	42	1375
+SearchInteraction	2018-02-09T13:57:33.400Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.403Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+RankedRetrieveRecordInteraction	2018-02-09T13:58:01.421Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"branden/brandweer"		/2021631/afbeelding_fb2b1561_9700_4628_b474_056acd7dded9	7	120
+SearchInteraction	2018-02-09T13:58:29.328Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	what:"Brandweermannen"		1375
+ArbitraryAccessInteraction	2018-02-09T14:00:19.644Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:44.874Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:11:45.185Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_dc9589f7_1ad1_42d3_bf51_7a9a07ccde04.html (PortalController#show)
+SearchInteraction	2018-02-09T14:12:07.533Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	NO VALUE PROVIDED		720819
+ArbitraryAccessInteraction	2018-02-09T14:14:18.633Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:14:18.824Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_3c935994_ee79_4a2c_9020_566ff4162ba5.html (PortalController#show)
+SearchInteraction	2018-02-09T14:20:07.465Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	foto's brandweer zaandam		3
+ArbitraryAccessInteraction	2018-02-09T14:20:59.877Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:11.627Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_f9c039e1_c863_44e4_90e5_11974e626d92.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T14:21:38.233Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	[200] GET /portal/nl/record/2021631/afbeelding_4204562c_9901_47f7_8ae2_a6b8faf40ae2.html (PortalController#show)
+SearchInteraction	2018-02-09T14:22:02.930Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	DATA_PROVIDER:"Gemeentearchief Zaanstad"		85843
+SearchInteraction	2018-02-09T14:22:20.609Z	baf22d3ed7f4082f5fd6ae26c1d05c6e	europeana_collectionName:(2021631_Ag_NL_DigitaleCollectie_zaanstad)		85843

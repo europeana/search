@@ -1,0 +1,70 @@
+ArbitraryAccessInteraction	2018-03-08T08:53:57.169Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:16.577Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-08T08:54:16.700Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-08T08:54:16.964Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-08T08:54:18.985Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	30968
+SearchInteraction	2018-03-08T08:54:19.142Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['3D']}	3461
+SearchInteraction	2018-03-08T08:54:19.563Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED		51416561
+ArbitraryAccessInteraction	2018-03-08T08:54:21.444Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/record/9200365/BibliographicResource_3000149353732.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.832Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.910Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/roadmap.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:25.073Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+ArbitraryAccessInteraction	2018-03-08T08:54:25.480Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.485Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.982Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:53:57.169Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:16.577Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-08T08:54:16.700Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-08T08:54:16.964Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-08T08:54:18.985Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	30968
+SearchInteraction	2018-03-08T08:54:19.142Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['3D']}	3461
+SearchInteraction	2018-03-08T08:54:19.563Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED		51416561
+ArbitraryAccessInteraction	2018-03-08T08:54:21.444Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/record/9200365/BibliographicResource_3000149353732.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.832Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.910Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/roadmap.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:25.073Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+ArbitraryAccessInteraction	2018-03-08T08:54:25.480Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.485Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.982Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:53:57.169Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:16.577Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-08T08:54:16.700Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-08T08:54:16.964Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-08T08:54:18.985Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	30968
+SearchInteraction	2018-03-08T08:54:19.142Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['3D']}	3461
+SearchInteraction	2018-03-08T08:54:19.563Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED		51416561
+ArbitraryAccessInteraction	2018-03-08T08:54:21.444Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/record/9200365/BibliographicResource_3000149353732.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.832Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.910Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/roadmap.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:25.073Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+ArbitraryAccessInteraction	2018-03-08T08:54:25.480Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.485Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.982Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:53:57.169Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:16.577Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-08T08:54:16.700Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-08T08:54:16.964Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-08T08:54:18.985Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	30968
+SearchInteraction	2018-03-08T08:54:19.142Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['3D']}	3461
+SearchInteraction	2018-03-08T08:54:19.563Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED		51416561
+ArbitraryAccessInteraction	2018-03-08T08:54:21.444Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/record/9200365/BibliographicResource_3000149353732.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.832Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.910Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/roadmap.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:25.073Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+ArbitraryAccessInteraction	2018-03-08T08:54:25.480Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.485Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.982Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:53:57.169Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:16.577Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-08T08:54:16.700Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-08T08:54:16.964Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-08T08:54:18.985Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	30968
+SearchInteraction	2018-03-08T08:54:19.142Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['3D']}	3461
+SearchInteraction	2018-03-08T08:54:19.563Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED		51416561
+ArbitraryAccessInteraction	2018-03-08T08:54:21.444Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/record/9200365/BibliographicResource_3000149353732.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.832Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:24.910Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/roadmap.html (PagesController#show)
+SearchInteraction	2018-03-08T08:54:25.073Z	7057c0d4e3c13839ef05f57ebe4f6390	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+ArbitraryAccessInteraction	2018-03-08T08:54:25.480Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.485Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-08T08:54:26.982Z	7057c0d4e3c13839ef05f57ebe4f6390	[200] GET /portal/en/rights.html (PagesController#show)

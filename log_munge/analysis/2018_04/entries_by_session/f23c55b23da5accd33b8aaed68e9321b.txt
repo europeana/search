@@ -1,0 +1,55 @@
+SearchInteraction	2018-03-02T20:34:43.311Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:46.406Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_28233	1	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:54.840Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_19263	11	7173
+SearchInteraction	2018-03-02T20:35:03.685Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#C0C0C0'], 'TYPE': ['IMAGE']}	2373
+SearchInteraction	2018-03-02T20:35:05.100Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	2543
+RankedRetrieveRecordInteraction	2018-03-02T20:35:11.340Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_3000074027893	10	2543
+ArbitraryAccessInteraction	2018-03-02T20:35:50.499Z	f23c55b23da5accd33b8aaed68e9321b	[200] GET /portal/it/about.html (PagesController#show)
+SearchInteraction	2018-03-03T16:48:09.631Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'TYPE': ['IMAGE']}	4833
+SearchInteraction	2018-03-03T16:48:20.915Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	3344
+SearchInteraction	2018-03-03T16:48:21.030Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	2386
+RankedRetrieveRecordInteraction	2018-03-03T16:48:27.349Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	/2048232/europeana_fashion_61896417_jpg	4	2386
+SearchInteraction	2018-03-02T20:34:43.311Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:46.406Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_28233	1	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:54.840Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_19263	11	7173
+SearchInteraction	2018-03-02T20:35:03.685Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#C0C0C0'], 'TYPE': ['IMAGE']}	2373
+SearchInteraction	2018-03-02T20:35:05.100Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	2543
+RankedRetrieveRecordInteraction	2018-03-02T20:35:11.340Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_3000074027893	10	2543
+ArbitraryAccessInteraction	2018-03-02T20:35:50.499Z	f23c55b23da5accd33b8aaed68e9321b	[200] GET /portal/it/about.html (PagesController#show)
+SearchInteraction	2018-03-03T16:48:09.631Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'TYPE': ['IMAGE']}	4833
+SearchInteraction	2018-03-03T16:48:20.915Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	3344
+SearchInteraction	2018-03-03T16:48:21.030Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	2386
+RankedRetrieveRecordInteraction	2018-03-03T16:48:27.349Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	/2048232/europeana_fashion_61896417_jpg	4	2386
+SearchInteraction	2018-03-02T20:34:43.311Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:46.406Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_28233	1	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:54.840Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_19263	11	7173
+SearchInteraction	2018-03-02T20:35:03.685Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#C0C0C0'], 'TYPE': ['IMAGE']}	2373
+SearchInteraction	2018-03-02T20:35:05.100Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	2543
+RankedRetrieveRecordInteraction	2018-03-02T20:35:11.340Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_3000074027893	10	2543
+ArbitraryAccessInteraction	2018-03-02T20:35:50.499Z	f23c55b23da5accd33b8aaed68e9321b	[200] GET /portal/it/about.html (PagesController#show)
+SearchInteraction	2018-03-03T16:48:09.631Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'TYPE': ['IMAGE']}	4833
+SearchInteraction	2018-03-03T16:48:20.915Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	3344
+SearchInteraction	2018-03-03T16:48:21.030Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	2386
+RankedRetrieveRecordInteraction	2018-03-03T16:48:27.349Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	/2048232/europeana_fashion_61896417_jpg	4	2386
+SearchInteraction	2018-03-02T20:34:43.311Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:46.406Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_28233	1	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:54.840Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_19263	11	7173
+SearchInteraction	2018-03-02T20:35:03.685Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#C0C0C0'], 'TYPE': ['IMAGE']}	2373
+SearchInteraction	2018-03-02T20:35:05.100Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	2543
+RankedRetrieveRecordInteraction	2018-03-02T20:35:11.340Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_3000074027893	10	2543
+ArbitraryAccessInteraction	2018-03-02T20:35:50.499Z	f23c55b23da5accd33b8aaed68e9321b	[200] GET /portal/it/about.html (PagesController#show)
+SearchInteraction	2018-03-03T16:48:09.631Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'TYPE': ['IMAGE']}	4833
+SearchInteraction	2018-03-03T16:48:20.915Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	3344
+SearchInteraction	2018-03-03T16:48:21.030Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	2386
+RankedRetrieveRecordInteraction	2018-03-03T16:48:27.349Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	/2048232/europeana_fashion_61896417_jpg	4	2386
+SearchInteraction	2018-03-02T20:34:43.311Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:46.406Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_28233	1	7173
+RankedRetrieveRecordInteraction	2018-03-02T20:34:54.840Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'TYPE': ['IMAGE']}	/92085/lnb_zl_19263	11	7173
+SearchInteraction	2018-03-02T20:35:03.685Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#C0C0C0'], 'TYPE': ['IMAGE']}	2373
+SearchInteraction	2018-03-02T20:35:05.100Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	2543
+RankedRetrieveRecordInteraction	2018-03-02T20:35:11.340Z	f23c55b23da5accd33b8aaed68e9321b	what:postcard	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_3000074027893	10	2543
+ArbitraryAccessInteraction	2018-03-02T20:35:50.499Z	f23c55b23da5accd33b8aaed68e9321b	[200] GET /portal/it/about.html (PagesController#show)
+SearchInteraction	2018-03-03T16:48:09.631Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'TYPE': ['IMAGE']}	4833
+SearchInteraction	2018-03-03T16:48:20.915Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#000000'], 'TYPE': ['IMAGE']}	3344
+SearchInteraction	2018-03-03T16:48:21.030Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	2386
+RankedRetrieveRecordInteraction	2018-03-03T16:48:27.349Z	f23c55b23da5accd33b8aaed68e9321b	Christian Dior	{'COLOURPALETTE': ['#696969'], 'TYPE': ['IMAGE']}	/2048232/europeana_fashion_61896417_jpg	4	2386

@@ -1,0 +1,60 @@
+SearchInteraction	2018-03-10T11:02:03.605Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+RankedRetrieveRecordInteraction	2018-03-10T11:02:06.884Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		/08627/14_18A281	14	70
+SearchInteraction	2018-03-10T11:05:22.074Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+SearchInteraction	2018-03-10T11:05:31.257Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RefreshOrPaginationInteraction	2018-03-10T11:05:39.583Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RankedRetrieveRecordInteraction	2018-03-10T11:05:48.098Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	/08601/______56542__________________	58	58
+SearchInteraction	2018-03-10T11:06:02.126Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	2999
+SearchInteraction	2018-03-10T11:06:16.357Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:24.069Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08627/14_18B66	1	82
+SearchInteraction	2018-03-10T11:06:48.900Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:52.444Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_88	13	82
+RankedRetrieveRecordInteraction	2018-03-10T11:07:05.508Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_79	18	82
+SearchInteraction	2018-03-10T11:02:03.605Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+RankedRetrieveRecordInteraction	2018-03-10T11:02:06.884Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		/08627/14_18A281	14	70
+SearchInteraction	2018-03-10T11:05:22.074Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+SearchInteraction	2018-03-10T11:05:31.257Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RefreshOrPaginationInteraction	2018-03-10T11:05:39.583Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RankedRetrieveRecordInteraction	2018-03-10T11:05:48.098Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	/08601/______56542__________________	58	58
+SearchInteraction	2018-03-10T11:06:02.126Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	2999
+SearchInteraction	2018-03-10T11:06:16.357Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:24.069Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08627/14_18B66	1	82
+SearchInteraction	2018-03-10T11:06:48.900Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:52.444Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_88	13	82
+RankedRetrieveRecordInteraction	2018-03-10T11:07:05.508Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_79	18	82
+SearchInteraction	2018-03-10T11:02:03.605Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+RankedRetrieveRecordInteraction	2018-03-10T11:02:06.884Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		/08627/14_18A281	14	70
+SearchInteraction	2018-03-10T11:05:22.074Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+SearchInteraction	2018-03-10T11:05:31.257Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RefreshOrPaginationInteraction	2018-03-10T11:05:39.583Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RankedRetrieveRecordInteraction	2018-03-10T11:05:48.098Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	/08601/______56542__________________	58	58
+SearchInteraction	2018-03-10T11:06:02.126Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	2999
+SearchInteraction	2018-03-10T11:06:16.357Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:24.069Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08627/14_18B66	1	82
+SearchInteraction	2018-03-10T11:06:48.900Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:52.444Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_88	13	82
+RankedRetrieveRecordInteraction	2018-03-10T11:07:05.508Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_79	18	82
+SearchInteraction	2018-03-10T11:02:03.605Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+RankedRetrieveRecordInteraction	2018-03-10T11:02:06.884Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		/08627/14_18A281	14	70
+SearchInteraction	2018-03-10T11:05:22.074Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+SearchInteraction	2018-03-10T11:05:31.257Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RefreshOrPaginationInteraction	2018-03-10T11:05:39.583Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RankedRetrieveRecordInteraction	2018-03-10T11:05:48.098Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	/08601/______56542__________________	58	58
+SearchInteraction	2018-03-10T11:06:02.126Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	2999
+SearchInteraction	2018-03-10T11:06:16.357Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:24.069Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08627/14_18B66	1	82
+SearchInteraction	2018-03-10T11:06:48.900Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:52.444Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_88	13	82
+RankedRetrieveRecordInteraction	2018-03-10T11:07:05.508Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_79	18	82
+SearchInteraction	2018-03-10T11:02:03.605Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+RankedRetrieveRecordInteraction	2018-03-10T11:02:06.884Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		/08627/14_18A281	14	70
+SearchInteraction	2018-03-10T11:05:22.074Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film		70
+SearchInteraction	2018-03-10T11:05:31.257Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RefreshOrPaginationInteraction	2018-03-10T11:05:39.583Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	58
+RankedRetrieveRecordInteraction	2018-03-10T11:05:48.098Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	somme film	{'TYPE': ['VIDEO']}	/08601/______56542__________________	58	58
+SearchInteraction	2018-03-10T11:06:02.126Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	2999
+SearchInteraction	2018-03-10T11:06:16.357Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:24.069Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08627/14_18B66	1	82
+SearchInteraction	2018-03-10T11:06:48.900Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	82
+RankedRetrieveRecordInteraction	2018-03-10T11:06:52.444Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_88	13	82
+RankedRetrieveRecordInteraction	2018-03-10T11:07:05.508Z	3a8f30f8c63ba6a5aec45cd7bf34e3ce	annales de la guerre	{'TYPE': ['VIDEO']}	/08622/IWM_508_79	18	82

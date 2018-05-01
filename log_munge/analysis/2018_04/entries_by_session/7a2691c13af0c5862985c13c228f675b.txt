@@ -1,0 +1,150 @@
+ArbitraryAccessInteraction	2018-01-25T11:59:41.650Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-25T12:40:26.675Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-26T16:51:51.316Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2021633/AtlantisPubliek_detail_aspx_xmldescid_14963501.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T22:48:27.680Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2048011/work_78687.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T17:54:22.728Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/9200110/BibliographicResource_1000126653425.html (PortalController#show)
+SearchInteraction	2018-02-22T17:54:48.612Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+CollectionFilterAdditionInteraction	2018-02-22T17:55:00.440Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		15
+SearchInteraction	2018-02-22T17:56:05.329Z	7a2691c13af0c5862985c13c228f675b	tomus sextus		276
+SearchInteraction	2018-02-22T17:56:06.474Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+SearchInteraction	2018-02-22T17:56:09.675Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:17.965Z	7a2691c13af0c5862985c13c228f675b	bullarum romanum		0
+SearchInteraction	2018-02-22T17:56:26.181Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:34.738Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RefreshOrPaginationInteraction	2018-02-22T17:57:34.249Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:57:54.049Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135504080	21	126
+SearchInteraction	2018-02-22T17:59:16.840Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:59:21.773Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000100033811	26	126
+SearchInteraction	2018-02-22T18:01:46.789Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+RankedRetrieveRecordInteraction	2018-02-22T18:10:23.067Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135522736	3	74
+SearchInteraction	2018-02-22T19:59:55.672Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		0
+CollectionFilterRemovalInteraction	2018-02-22T20:26:56.793Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+CollectionFilterAdditionInteraction	2018-02-22T20:27:01.654Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+SearchInteraction	2018-02-22T20:51:51.051Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T20:51:57.561Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+RankedRetrieveRecordInteraction	2018-02-22T20:52:29.043Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511974	7	93
+RankedRetrieveRecordInteraction	2018-02-22T20:53:30.816Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511962	9	93
+SearchInteraction	2018-02-22T20:59:35.776Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+SearchInteraction	2018-02-22T21:00:17.650Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T21:00:22.641Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		98
+RankedRetrieveRecordInteraction	2018-02-22T21:00:39.758Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		/9200386/BibliographicResource_3000135511177	3	98
+ArbitraryAccessInteraction	2018-01-25T11:59:41.650Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-25T12:40:26.675Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-26T16:51:51.316Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2021633/AtlantisPubliek_detail_aspx_xmldescid_14963501.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T22:48:27.680Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2048011/work_78687.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T17:54:22.728Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/9200110/BibliographicResource_1000126653425.html (PortalController#show)
+SearchInteraction	2018-02-22T17:54:48.612Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+CollectionFilterAdditionInteraction	2018-02-22T17:55:00.440Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		15
+SearchInteraction	2018-02-22T17:56:05.329Z	7a2691c13af0c5862985c13c228f675b	tomus sextus		276
+SearchInteraction	2018-02-22T17:56:06.474Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+SearchInteraction	2018-02-22T17:56:09.675Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:17.965Z	7a2691c13af0c5862985c13c228f675b	bullarum romanum		0
+SearchInteraction	2018-02-22T17:56:26.181Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:34.738Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RefreshOrPaginationInteraction	2018-02-22T17:57:34.249Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:57:54.049Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135504080	21	126
+SearchInteraction	2018-02-22T17:59:16.840Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:59:21.773Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000100033811	26	126
+SearchInteraction	2018-02-22T18:01:46.789Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+RankedRetrieveRecordInteraction	2018-02-22T18:10:23.067Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135522736	3	74
+SearchInteraction	2018-02-22T19:59:55.672Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		0
+CollectionFilterRemovalInteraction	2018-02-22T20:26:56.793Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+CollectionFilterAdditionInteraction	2018-02-22T20:27:01.654Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+SearchInteraction	2018-02-22T20:51:51.051Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T20:51:57.561Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+RankedRetrieveRecordInteraction	2018-02-22T20:52:29.043Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511974	7	93
+RankedRetrieveRecordInteraction	2018-02-22T20:53:30.816Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511962	9	93
+SearchInteraction	2018-02-22T20:59:35.776Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+SearchInteraction	2018-02-22T21:00:17.650Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T21:00:22.641Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		98
+RankedRetrieveRecordInteraction	2018-02-22T21:00:39.758Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		/9200386/BibliographicResource_3000135511177	3	98
+ArbitraryAccessInteraction	2018-01-25T11:59:41.650Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-25T12:40:26.675Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-26T16:51:51.316Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2021633/AtlantisPubliek_detail_aspx_xmldescid_14963501.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T22:48:27.680Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2048011/work_78687.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T17:54:22.728Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/9200110/BibliographicResource_1000126653425.html (PortalController#show)
+SearchInteraction	2018-02-22T17:54:48.612Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+CollectionFilterAdditionInteraction	2018-02-22T17:55:00.440Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		15
+SearchInteraction	2018-02-22T17:56:05.329Z	7a2691c13af0c5862985c13c228f675b	tomus sextus		276
+SearchInteraction	2018-02-22T17:56:06.474Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+SearchInteraction	2018-02-22T17:56:09.675Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:17.965Z	7a2691c13af0c5862985c13c228f675b	bullarum romanum		0
+SearchInteraction	2018-02-22T17:56:26.181Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:34.738Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RefreshOrPaginationInteraction	2018-02-22T17:57:34.249Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:57:54.049Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135504080	21	126
+SearchInteraction	2018-02-22T17:59:16.840Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:59:21.773Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000100033811	26	126
+SearchInteraction	2018-02-22T18:01:46.789Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+RankedRetrieveRecordInteraction	2018-02-22T18:10:23.067Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135522736	3	74
+SearchInteraction	2018-02-22T19:59:55.672Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		0
+CollectionFilterRemovalInteraction	2018-02-22T20:26:56.793Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+CollectionFilterAdditionInteraction	2018-02-22T20:27:01.654Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+SearchInteraction	2018-02-22T20:51:51.051Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T20:51:57.561Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+RankedRetrieveRecordInteraction	2018-02-22T20:52:29.043Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511974	7	93
+RankedRetrieveRecordInteraction	2018-02-22T20:53:30.816Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511962	9	93
+SearchInteraction	2018-02-22T20:59:35.776Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+SearchInteraction	2018-02-22T21:00:17.650Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T21:00:22.641Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		98
+RankedRetrieveRecordInteraction	2018-02-22T21:00:39.758Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		/9200386/BibliographicResource_3000135511177	3	98
+ArbitraryAccessInteraction	2018-01-25T11:59:41.650Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-25T12:40:26.675Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-26T16:51:51.316Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2021633/AtlantisPubliek_detail_aspx_xmldescid_14963501.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T22:48:27.680Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2048011/work_78687.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T17:54:22.728Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/9200110/BibliographicResource_1000126653425.html (PortalController#show)
+SearchInteraction	2018-02-22T17:54:48.612Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+CollectionFilterAdditionInteraction	2018-02-22T17:55:00.440Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		15
+SearchInteraction	2018-02-22T17:56:05.329Z	7a2691c13af0c5862985c13c228f675b	tomus sextus		276
+SearchInteraction	2018-02-22T17:56:06.474Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+SearchInteraction	2018-02-22T17:56:09.675Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:17.965Z	7a2691c13af0c5862985c13c228f675b	bullarum romanum		0
+SearchInteraction	2018-02-22T17:56:26.181Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:34.738Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RefreshOrPaginationInteraction	2018-02-22T17:57:34.249Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:57:54.049Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135504080	21	126
+SearchInteraction	2018-02-22T17:59:16.840Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:59:21.773Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000100033811	26	126
+SearchInteraction	2018-02-22T18:01:46.789Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+RankedRetrieveRecordInteraction	2018-02-22T18:10:23.067Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135522736	3	74
+SearchInteraction	2018-02-22T19:59:55.672Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		0
+CollectionFilterRemovalInteraction	2018-02-22T20:26:56.793Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+CollectionFilterAdditionInteraction	2018-02-22T20:27:01.654Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+SearchInteraction	2018-02-22T20:51:51.051Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T20:51:57.561Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+RankedRetrieveRecordInteraction	2018-02-22T20:52:29.043Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511974	7	93
+RankedRetrieveRecordInteraction	2018-02-22T20:53:30.816Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511962	9	93
+SearchInteraction	2018-02-22T20:59:35.776Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+SearchInteraction	2018-02-22T21:00:17.650Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T21:00:22.641Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		98
+RankedRetrieveRecordInteraction	2018-02-22T21:00:39.758Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		/9200386/BibliographicResource_3000135511177	3	98
+ArbitraryAccessInteraction	2018-01-25T11:59:41.650Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-25T12:40:26.675Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/en/record/2023006/24062A51_priref_16174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-26T16:51:51.316Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2021633/AtlantisPubliek_detail_aspx_xmldescid_14963501.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T22:48:27.680Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/2048011/work_78687.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T17:54:22.728Z	7a2691c13af0c5862985c13c228f675b	[200] GET /portal/nl/record/9200110/BibliographicResource_1000126653425.html (PortalController#show)
+SearchInteraction	2018-02-22T17:54:48.612Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+CollectionFilterAdditionInteraction	2018-02-22T17:55:00.440Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		15
+SearchInteraction	2018-02-22T17:56:05.329Z	7a2691c13af0c5862985c13c228f675b	tomus sextus		276
+SearchInteraction	2018-02-22T17:56:06.474Z	7a2691c13af0c5862985c13c228f675b	who:(Girolamo Mainardi)		237
+SearchInteraction	2018-02-22T17:56:09.675Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:17.965Z	7a2691c13af0c5862985c13c228f675b	bullarum romanum		0
+SearchInteraction	2018-02-22T17:56:26.181Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T17:56:34.738Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RefreshOrPaginationInteraction	2018-02-22T17:57:34.249Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:57:54.049Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135504080	21	126
+SearchInteraction	2018-02-22T17:59:16.840Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+RankedRetrieveRecordInteraction	2018-02-22T17:59:21.773Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000100033811	26	126
+SearchInteraction	2018-02-22T18:01:46.789Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+RankedRetrieveRecordInteraction	2018-02-22T18:10:23.067Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		/9200386/BibliographicResource_3000135522736	3	74
+SearchInteraction	2018-02-22T19:59:55.672Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		0
+CollectionFilterRemovalInteraction	2018-02-22T20:26:56.793Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		74
+CollectionFilterAdditionInteraction	2018-02-22T20:27:01.654Z	7a2691c13af0c5862985c13c228f675b	bullarium romanum		126
+SearchInteraction	2018-02-22T20:51:51.051Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T20:51:57.561Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+RankedRetrieveRecordInteraction	2018-02-22T20:52:29.043Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511974	7	93
+RankedRetrieveRecordInteraction	2018-02-22T20:53:30.816Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		/9200386/BibliographicResource_3000135511962	9	93
+SearchInteraction	2018-02-22T20:59:35.776Z	7a2691c13af0c5862985c13c228f675b	Bullarum diplomatum		93
+SearchInteraction	2018-02-22T21:00:17.650Z	7a2691c13af0c5862985c13c228f675b	NO VALUE PROVIDED		51588935
+SearchInteraction	2018-02-22T21:00:22.641Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		98
+RankedRetrieveRecordInteraction	2018-02-22T21:00:39.758Z	7a2691c13af0c5862985c13c228f675b	Magnum bullarium Romanum		/9200386/BibliographicResource_3000135511177	3	98

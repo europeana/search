@@ -1,0 +1,80 @@
+SearchInteraction	2018-03-13T16:57:39.815Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+RankedRetrieveRecordInteraction	2018-03-13T16:57:45.692Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_203143_000	2	145
+SearchInteraction	2018-03-13T16:58:45.805Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		845
+RankedRetrieveRecordInteraction	2018-03-13T16:58:55.774Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		/2021672/resource_document_mauritshuis_972	10	845
+SearchInteraction	2018-03-13T16:59:07.825Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:12.809Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:20.595Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:23.323Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:34.574Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		1
+RankedRetrieveRecordInteraction	2018-03-13T16:59:37.085Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		/2021672/resource_document_mauritshuis_R70	1	1
+SearchInteraction	2018-03-13T17:02:45.829Z	16ba85518bb49352128ef16125e16d2b	BnF		129
+RankedRetrieveRecordInteraction	2018-03-13T17:02:49.499Z	16ba85518bb49352128ef16125e16d2b	BnF		/2020601/contributions_9616_attachments_89667	1	129
+SearchInteraction	2018-03-13T17:03:06.054Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		125
+RankedRetrieveRecordInteraction	2018-03-13T17:03:10.122Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		/2020601/contributions_9581_attachments_89627	7	125
+SearchInteraction	2018-03-13T17:03:35.988Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		35134
+RankedRetrieveRecordInteraction	2018-03-13T17:03:41.886Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_996_10	11	35134
+SearchInteraction	2018-03-13T16:57:39.815Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+RankedRetrieveRecordInteraction	2018-03-13T16:57:45.692Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_203143_000	2	145
+SearchInteraction	2018-03-13T16:58:45.805Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		845
+RankedRetrieveRecordInteraction	2018-03-13T16:58:55.774Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		/2021672/resource_document_mauritshuis_972	10	845
+SearchInteraction	2018-03-13T16:59:07.825Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:12.809Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:20.595Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:23.323Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:34.574Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		1
+RankedRetrieveRecordInteraction	2018-03-13T16:59:37.085Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		/2021672/resource_document_mauritshuis_R70	1	1
+SearchInteraction	2018-03-13T17:02:45.829Z	16ba85518bb49352128ef16125e16d2b	BnF		129
+RankedRetrieveRecordInteraction	2018-03-13T17:02:49.499Z	16ba85518bb49352128ef16125e16d2b	BnF		/2020601/contributions_9616_attachments_89667	1	129
+SearchInteraction	2018-03-13T17:03:06.054Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		125
+RankedRetrieveRecordInteraction	2018-03-13T17:03:10.122Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		/2020601/contributions_9581_attachments_89627	7	125
+SearchInteraction	2018-03-13T17:03:35.988Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		35134
+RankedRetrieveRecordInteraction	2018-03-13T17:03:41.886Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_996_10	11	35134
+SearchInteraction	2018-03-13T16:57:39.815Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+RankedRetrieveRecordInteraction	2018-03-13T16:57:45.692Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_203143_000	2	145
+SearchInteraction	2018-03-13T16:58:45.805Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		845
+RankedRetrieveRecordInteraction	2018-03-13T16:58:55.774Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		/2021672/resource_document_mauritshuis_972	10	845
+SearchInteraction	2018-03-13T16:59:07.825Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:12.809Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:20.595Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:23.323Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:34.574Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		1
+RankedRetrieveRecordInteraction	2018-03-13T16:59:37.085Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		/2021672/resource_document_mauritshuis_R70	1	1
+SearchInteraction	2018-03-13T17:02:45.829Z	16ba85518bb49352128ef16125e16d2b	BnF		129
+RankedRetrieveRecordInteraction	2018-03-13T17:02:49.499Z	16ba85518bb49352128ef16125e16d2b	BnF		/2020601/contributions_9616_attachments_89667	1	129
+SearchInteraction	2018-03-13T17:03:06.054Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		125
+RankedRetrieveRecordInteraction	2018-03-13T17:03:10.122Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		/2020601/contributions_9581_attachments_89627	7	125
+SearchInteraction	2018-03-13T17:03:35.988Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		35134
+RankedRetrieveRecordInteraction	2018-03-13T17:03:41.886Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_996_10	11	35134
+SearchInteraction	2018-03-13T16:57:39.815Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+RankedRetrieveRecordInteraction	2018-03-13T16:57:45.692Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_203143_000	2	145
+SearchInteraction	2018-03-13T16:58:45.805Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		845
+RankedRetrieveRecordInteraction	2018-03-13T16:58:55.774Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		/2021672/resource_document_mauritshuis_972	10	845
+SearchInteraction	2018-03-13T16:59:07.825Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:12.809Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:20.595Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:23.323Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:34.574Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		1
+RankedRetrieveRecordInteraction	2018-03-13T16:59:37.085Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		/2021672/resource_document_mauritshuis_R70	1	1
+SearchInteraction	2018-03-13T17:02:45.829Z	16ba85518bb49352128ef16125e16d2b	BnF		129
+RankedRetrieveRecordInteraction	2018-03-13T17:02:49.499Z	16ba85518bb49352128ef16125e16d2b	BnF		/2020601/contributions_9616_attachments_89667	1	129
+SearchInteraction	2018-03-13T17:03:06.054Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		125
+RankedRetrieveRecordInteraction	2018-03-13T17:03:10.122Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		/2020601/contributions_9581_attachments_89627	7	125
+SearchInteraction	2018-03-13T17:03:35.988Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		35134
+RankedRetrieveRecordInteraction	2018-03-13T17:03:41.886Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_996_10	11	35134
+SearchInteraction	2018-03-13T16:57:39.815Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+RankedRetrieveRecordInteraction	2018-03-13T16:57:45.692Z	16ba85518bb49352128ef16125e16d2b	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_203143_000	2	145
+SearchInteraction	2018-03-13T16:58:45.805Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		845
+RankedRetrieveRecordInteraction	2018-03-13T16:58:55.774Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2021672_Ag_NL_DigitaleCollectie_Mauritshuis		/2021672/resource_document_mauritshuis_972	10	845
+SearchInteraction	2018-03-13T16:59:07.825Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:12.809Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:(2021672_Ag_NL_DigitaleCollectie_Mauritshuis)		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:20.595Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		845
+RankedRetrieveRecordInteraction	2018-03-13T16:59:23.323Z	16ba85518bb49352128ef16125e16d2b	DATA_PROVIDER:"Mauritshuis"		/2021672/resource_document_mauritshuis_R70	1	845
+SearchInteraction	2018-03-13T16:59:34.574Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		1
+RankedRetrieveRecordInteraction	2018-03-13T16:59:37.085Z	16ba85518bb49352128ef16125e16d2b	who:(Wendelien Schönfeld)		/2021672/resource_document_mauritshuis_R70	1	1
+SearchInteraction	2018-03-13T17:02:45.829Z	16ba85518bb49352128ef16125e16d2b	BnF		129
+RankedRetrieveRecordInteraction	2018-03-13T17:02:49.499Z	16ba85518bb49352128ef16125e16d2b	BnF		/2020601/contributions_9616_attachments_89667	1	129
+SearchInteraction	2018-03-13T17:03:06.054Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		125
+RankedRetrieveRecordInteraction	2018-03-13T17:03:10.122Z	16ba85518bb49352128ef16125e16d2b	who:(BnF, Sablé, 1)		/2020601/contributions_9581_attachments_89627	7	125
+SearchInteraction	2018-03-13T17:03:35.988Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		35134
+RankedRetrieveRecordInteraction	2018-03-13T17:03:41.886Z	16ba85518bb49352128ef16125e16d2b	europeana_collectionName:2024913_Ag_EU_EuropeanaPhotography_Parisienne_1007		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_996_10	11	35134

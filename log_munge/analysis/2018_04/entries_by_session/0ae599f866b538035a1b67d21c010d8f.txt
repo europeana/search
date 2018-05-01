@@ -1,0 +1,80 @@
+SearchInteraction	2018-02-19T09:42:22.478Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T09:43:21.361Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+CollectionFilterRemovalInteraction	2018-02-19T10:04:51.872Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-19T10:04:59.036Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+SearchInteraction	2018-02-19T10:05:02.364Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:05:10.216Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:26.530Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:42.413Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-19T10:06:07.284Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117226726	33	150
+SearchInteraction	2018-02-19T10:06:40.789Z	0ae599f866b538035a1b67d21c010d8f	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1062"		9982
+SearchInteraction	2018-02-19T10:07:00.325Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:07:11.439Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+RefreshOrPaginationInteraction	2018-02-19T10:07:38.711Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+SearchInteraction	2018-02-19T10:08:21.989Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	6032
+CollectionFilterAdditionInteraction	2018-02-19T10:08:53.105Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-19T10:09:09.269Z	0ae599f866b538035a1b67d21c010d8f	Diocletian	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	524
+SearchInteraction	2018-02-19T09:42:22.478Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T09:43:21.361Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+CollectionFilterRemovalInteraction	2018-02-19T10:04:51.872Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-19T10:04:59.036Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+SearchInteraction	2018-02-19T10:05:02.364Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:05:10.216Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:26.530Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:42.413Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-19T10:06:07.284Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117226726	33	150
+SearchInteraction	2018-02-19T10:06:40.789Z	0ae599f866b538035a1b67d21c010d8f	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1062"		9982
+SearchInteraction	2018-02-19T10:07:00.325Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:07:11.439Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+RefreshOrPaginationInteraction	2018-02-19T10:07:38.711Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+SearchInteraction	2018-02-19T10:08:21.989Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	6032
+CollectionFilterAdditionInteraction	2018-02-19T10:08:53.105Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-19T10:09:09.269Z	0ae599f866b538035a1b67d21c010d8f	Diocletian	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	524
+SearchInteraction	2018-02-19T09:42:22.478Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T09:43:21.361Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+CollectionFilterRemovalInteraction	2018-02-19T10:04:51.872Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-19T10:04:59.036Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+SearchInteraction	2018-02-19T10:05:02.364Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:05:10.216Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:26.530Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:42.413Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-19T10:06:07.284Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117226726	33	150
+SearchInteraction	2018-02-19T10:06:40.789Z	0ae599f866b538035a1b67d21c010d8f	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1062"		9982
+SearchInteraction	2018-02-19T10:07:00.325Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:07:11.439Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+RefreshOrPaginationInteraction	2018-02-19T10:07:38.711Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+SearchInteraction	2018-02-19T10:08:21.989Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	6032
+CollectionFilterAdditionInteraction	2018-02-19T10:08:53.105Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-19T10:09:09.269Z	0ae599f866b538035a1b67d21c010d8f	Diocletian	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	524
+SearchInteraction	2018-02-19T09:42:22.478Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T09:43:21.361Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+CollectionFilterRemovalInteraction	2018-02-19T10:04:51.872Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-19T10:04:59.036Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+SearchInteraction	2018-02-19T10:05:02.364Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:05:10.216Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:26.530Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:42.413Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-19T10:06:07.284Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117226726	33	150
+SearchInteraction	2018-02-19T10:06:40.789Z	0ae599f866b538035a1b67d21c010d8f	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1062"		9982
+SearchInteraction	2018-02-19T10:07:00.325Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:07:11.439Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+RefreshOrPaginationInteraction	2018-02-19T10:07:38.711Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+SearchInteraction	2018-02-19T10:08:21.989Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	6032
+CollectionFilterAdditionInteraction	2018-02-19T10:08:53.105Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-19T10:09:09.269Z	0ae599f866b538035a1b67d21c010d8f	Diocletian	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	524
+SearchInteraction	2018-02-19T09:42:22.478Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T09:43:21.361Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+CollectionFilterRemovalInteraction	2018-02-19T10:04:51.872Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-19T10:04:59.036Z	0ae599f866b538035a1b67d21c010d8f	Balkan	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1365
+SearchInteraction	2018-02-19T10:05:02.364Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:05:10.216Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:26.530Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-19T10:05:42.413Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-19T10:06:07.284Z	0ae599f866b538035a1b67d21c010d8f	Dubrovnik	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117226726	33	150
+SearchInteraction	2018-02-19T10:06:40.789Z	0ae599f866b538035a1b67d21c010d8f	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1062"		9982
+SearchInteraction	2018-02-19T10:07:00.325Z	0ae599f866b538035a1b67d21c010d8f	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:07:11.439Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+RefreshOrPaginationInteraction	2018-02-19T10:07:38.711Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3567
+SearchInteraction	2018-02-19T10:08:21.989Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	6032
+CollectionFilterAdditionInteraction	2018-02-19T10:08:53.105Z	0ae599f866b538035a1b67d21c010d8f	Split	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-02-19T10:09:09.269Z	0ae599f866b538035a1b67d21c010d8f	Diocletian	{'REUSABILITY': ['open', 'permission'], 'TYPE': ['IMAGE']}	524

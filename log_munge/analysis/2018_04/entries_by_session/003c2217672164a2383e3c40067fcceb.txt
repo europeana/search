@@ -1,0 +1,60 @@
+ArbitraryAccessInteraction	2018-02-10T09:15:01.856Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:16:01.546Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843105.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:27:23.701Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843300.html (PortalController#show)
+SearchInteraction	2018-02-10T09:27:48.281Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		44425
+CollectionFilterAdditionInteraction	2018-02-10T09:28:24.786Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		0
+ArbitraryAccessInteraction	2018-02-10T09:28:56.275Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+SearchInteraction	2018-02-10T09:29:16.502Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RefreshOrPaginationInteraction	2018-02-10T09:30:19.021Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RankedRetrieveRecordInteraction	2018-02-10T09:30:36.930Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		/2048604/data_item_onb_abo__2BZ138842502	15	17
+ArbitraryAccessInteraction	2018-02-10T09:31:07.564Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842708.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:00:36.963Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:06:37.140Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:15:01.856Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:16:01.546Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843105.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:27:23.701Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843300.html (PortalController#show)
+SearchInteraction	2018-02-10T09:27:48.281Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		44425
+CollectionFilterAdditionInteraction	2018-02-10T09:28:24.786Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		0
+ArbitraryAccessInteraction	2018-02-10T09:28:56.275Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+SearchInteraction	2018-02-10T09:29:16.502Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RefreshOrPaginationInteraction	2018-02-10T09:30:19.021Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RankedRetrieveRecordInteraction	2018-02-10T09:30:36.930Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		/2048604/data_item_onb_abo__2BZ138842502	15	17
+ArbitraryAccessInteraction	2018-02-10T09:31:07.564Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842708.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:00:36.963Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:06:37.140Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:15:01.856Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:16:01.546Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843105.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:27:23.701Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843300.html (PortalController#show)
+SearchInteraction	2018-02-10T09:27:48.281Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		44425
+CollectionFilterAdditionInteraction	2018-02-10T09:28:24.786Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		0
+ArbitraryAccessInteraction	2018-02-10T09:28:56.275Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+SearchInteraction	2018-02-10T09:29:16.502Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RefreshOrPaginationInteraction	2018-02-10T09:30:19.021Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RankedRetrieveRecordInteraction	2018-02-10T09:30:36.930Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		/2048604/data_item_onb_abo__2BZ138842502	15	17
+ArbitraryAccessInteraction	2018-02-10T09:31:07.564Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842708.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:00:36.963Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:06:37.140Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:15:01.856Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:16:01.546Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843105.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:27:23.701Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843300.html (PortalController#show)
+SearchInteraction	2018-02-10T09:27:48.281Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		44425
+CollectionFilterAdditionInteraction	2018-02-10T09:28:24.786Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		0
+ArbitraryAccessInteraction	2018-02-10T09:28:56.275Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+SearchInteraction	2018-02-10T09:29:16.502Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RefreshOrPaginationInteraction	2018-02-10T09:30:19.021Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RankedRetrieveRecordInteraction	2018-02-10T09:30:36.930Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		/2048604/data_item_onb_abo__2BZ138842502	15	17
+ArbitraryAccessInteraction	2018-02-10T09:31:07.564Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842708.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:00:36.963Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:06:37.140Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:15:01.856Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:16:01.546Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843105.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T09:27:23.701Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138843300.html (PortalController#show)
+SearchInteraction	2018-02-10T09:27:48.281Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		44425
+CollectionFilterAdditionInteraction	2018-02-10T09:28:24.786Z	003c2217672164a2383e3c40067fcceb	europeana_collectionName:(2048604_Ag_EU_DM2E_onb_abo)		0
+ArbitraryAccessInteraction	2018-02-10T09:28:56.275Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+SearchInteraction	2018-02-10T09:29:16.502Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RefreshOrPaginationInteraction	2018-02-10T09:30:19.021Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		17
+RankedRetrieveRecordInteraction	2018-02-10T09:30:36.930Z	003c2217672164a2383e3c40067fcceb	proxy_dcterms_isPartOf:"http://data.dm2e.eu/data/item/onb/abo/AC08750471"		/2048604/data_item_onb_abo__2BZ138842502	15	17
+ArbitraryAccessInteraction	2018-02-10T09:31:07.564Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842708.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:00:36.963Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T10:06:37.140Z	003c2217672164a2383e3c40067fcceb	[200] GET /portal/en/record/2048604/data_item_onb_abo__2BZ138842903.html (PortalController#show)

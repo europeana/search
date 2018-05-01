@@ -1,0 +1,100 @@
+ArbitraryAccessInteraction	2018-02-07T09:47:14.759Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/04802/B7233ED1DAAF4AB64F1F9FD2A7E42936E10C11C2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:48:48.068Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2051908/data_euscreenXL_ina_I06031935.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:49:44.022Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2023601/oai_eu_dismarc_GHT_001_00P2121A4372.html (PortalController#show)
+SearchInteraction	2018-02-07T09:51:38.906Z	f81da280e002411cf2d79618a9e6a4a6	freiberg		9350
+SearchInteraction	2018-02-07T09:51:46.947Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:08.669Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZWTZW2IBTKIWXBR7KGUL46IJ2ZEHG6VA	9	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:43.563Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZRRX3K6IE3N4BUKIIWDZV7AWDRTPH55N	12	1868
+SearchInteraction	2018-02-07T09:52:59.986Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:53:16.166Z	f81da280e002411cf2d79618a9e6a4a6	europeana_collectionName:(2048423_Ag_DE_DDB_Freiberg)		1868
+SearchInteraction	2018-02-07T09:53:22.191Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+RankedRetrieveRecordInteraction	2018-02-07T09:53:33.280Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		/2048423/item_LAGPNIOZL3ARYCTX4M4AL5DTT2ZAO7FK	10	14
+SearchInteraction	2018-02-07T09:53:50.767Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+CollectionFilterAdditionInteraction	2018-02-07T09:54:21.056Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		0
+CollectionFilterRemovalInteraction	2018-02-07T09:54:27.418Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:54:31.141Z	f81da280e002411cf2d79618a9e6a4a6	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T09:54:39.092Z	f81da280e002411cf2d79618a9e6a4a6	volume		86960
+SearchInteraction	2018-02-07T09:55:15.874Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'PROVIDER': ['Deutsche Digitale Bibliothek']}	927
+SearchInteraction	2018-02-07T09:55:30.914Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	589
+RankedRetrieveRecordInteraction	2018-02-07T09:55:37.937Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	/2048426/item_ZUEN7CVMPZDK7BWDVCHAMRD3FKJ3VF3D	2	589
+SearchInteraction	2018-02-07T09:55:43.443Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/ZKAVFCR44RKB73DJUTRRS2GHW7SFO6QK"		2
+ArbitraryAccessInteraction	2018-02-07T09:47:14.759Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/04802/B7233ED1DAAF4AB64F1F9FD2A7E42936E10C11C2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:48:48.068Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2051908/data_euscreenXL_ina_I06031935.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:49:44.022Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2023601/oai_eu_dismarc_GHT_001_00P2121A4372.html (PortalController#show)
+SearchInteraction	2018-02-07T09:51:38.906Z	f81da280e002411cf2d79618a9e6a4a6	freiberg		9350
+SearchInteraction	2018-02-07T09:51:46.947Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:08.669Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZWTZW2IBTKIWXBR7KGUL46IJ2ZEHG6VA	9	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:43.563Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZRRX3K6IE3N4BUKIIWDZV7AWDRTPH55N	12	1868
+SearchInteraction	2018-02-07T09:52:59.986Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:53:16.166Z	f81da280e002411cf2d79618a9e6a4a6	europeana_collectionName:(2048423_Ag_DE_DDB_Freiberg)		1868
+SearchInteraction	2018-02-07T09:53:22.191Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+RankedRetrieveRecordInteraction	2018-02-07T09:53:33.280Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		/2048423/item_LAGPNIOZL3ARYCTX4M4AL5DTT2ZAO7FK	10	14
+SearchInteraction	2018-02-07T09:53:50.767Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+CollectionFilterAdditionInteraction	2018-02-07T09:54:21.056Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		0
+CollectionFilterRemovalInteraction	2018-02-07T09:54:27.418Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:54:31.141Z	f81da280e002411cf2d79618a9e6a4a6	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T09:54:39.092Z	f81da280e002411cf2d79618a9e6a4a6	volume		86960
+SearchInteraction	2018-02-07T09:55:15.874Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'PROVIDER': ['Deutsche Digitale Bibliothek']}	927
+SearchInteraction	2018-02-07T09:55:30.914Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	589
+RankedRetrieveRecordInteraction	2018-02-07T09:55:37.937Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	/2048426/item_ZUEN7CVMPZDK7BWDVCHAMRD3FKJ3VF3D	2	589
+SearchInteraction	2018-02-07T09:55:43.443Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/ZKAVFCR44RKB73DJUTRRS2GHW7SFO6QK"		2
+ArbitraryAccessInteraction	2018-02-07T09:47:14.759Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/04802/B7233ED1DAAF4AB64F1F9FD2A7E42936E10C11C2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:48:48.068Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2051908/data_euscreenXL_ina_I06031935.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:49:44.022Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2023601/oai_eu_dismarc_GHT_001_00P2121A4372.html (PortalController#show)
+SearchInteraction	2018-02-07T09:51:38.906Z	f81da280e002411cf2d79618a9e6a4a6	freiberg		9350
+SearchInteraction	2018-02-07T09:51:46.947Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:08.669Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZWTZW2IBTKIWXBR7KGUL46IJ2ZEHG6VA	9	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:43.563Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZRRX3K6IE3N4BUKIIWDZV7AWDRTPH55N	12	1868
+SearchInteraction	2018-02-07T09:52:59.986Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:53:16.166Z	f81da280e002411cf2d79618a9e6a4a6	europeana_collectionName:(2048423_Ag_DE_DDB_Freiberg)		1868
+SearchInteraction	2018-02-07T09:53:22.191Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+RankedRetrieveRecordInteraction	2018-02-07T09:53:33.280Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		/2048423/item_LAGPNIOZL3ARYCTX4M4AL5DTT2ZAO7FK	10	14
+SearchInteraction	2018-02-07T09:53:50.767Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+CollectionFilterAdditionInteraction	2018-02-07T09:54:21.056Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		0
+CollectionFilterRemovalInteraction	2018-02-07T09:54:27.418Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:54:31.141Z	f81da280e002411cf2d79618a9e6a4a6	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T09:54:39.092Z	f81da280e002411cf2d79618a9e6a4a6	volume		86960
+SearchInteraction	2018-02-07T09:55:15.874Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'PROVIDER': ['Deutsche Digitale Bibliothek']}	927
+SearchInteraction	2018-02-07T09:55:30.914Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	589
+RankedRetrieveRecordInteraction	2018-02-07T09:55:37.937Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	/2048426/item_ZUEN7CVMPZDK7BWDVCHAMRD3FKJ3VF3D	2	589
+SearchInteraction	2018-02-07T09:55:43.443Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/ZKAVFCR44RKB73DJUTRRS2GHW7SFO6QK"		2
+ArbitraryAccessInteraction	2018-02-07T09:47:14.759Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/04802/B7233ED1DAAF4AB64F1F9FD2A7E42936E10C11C2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:48:48.068Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2051908/data_euscreenXL_ina_I06031935.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:49:44.022Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2023601/oai_eu_dismarc_GHT_001_00P2121A4372.html (PortalController#show)
+SearchInteraction	2018-02-07T09:51:38.906Z	f81da280e002411cf2d79618a9e6a4a6	freiberg		9350
+SearchInteraction	2018-02-07T09:51:46.947Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:08.669Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZWTZW2IBTKIWXBR7KGUL46IJ2ZEHG6VA	9	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:43.563Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZRRX3K6IE3N4BUKIIWDZV7AWDRTPH55N	12	1868
+SearchInteraction	2018-02-07T09:52:59.986Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:53:16.166Z	f81da280e002411cf2d79618a9e6a4a6	europeana_collectionName:(2048423_Ag_DE_DDB_Freiberg)		1868
+SearchInteraction	2018-02-07T09:53:22.191Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+RankedRetrieveRecordInteraction	2018-02-07T09:53:33.280Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		/2048423/item_LAGPNIOZL3ARYCTX4M4AL5DTT2ZAO7FK	10	14
+SearchInteraction	2018-02-07T09:53:50.767Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+CollectionFilterAdditionInteraction	2018-02-07T09:54:21.056Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		0
+CollectionFilterRemovalInteraction	2018-02-07T09:54:27.418Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:54:31.141Z	f81da280e002411cf2d79618a9e6a4a6	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T09:54:39.092Z	f81da280e002411cf2d79618a9e6a4a6	volume		86960
+SearchInteraction	2018-02-07T09:55:15.874Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'PROVIDER': ['Deutsche Digitale Bibliothek']}	927
+SearchInteraction	2018-02-07T09:55:30.914Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	589
+RankedRetrieveRecordInteraction	2018-02-07T09:55:37.937Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	/2048426/item_ZUEN7CVMPZDK7BWDVCHAMRD3FKJ3VF3D	2	589
+SearchInteraction	2018-02-07T09:55:43.443Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/ZKAVFCR44RKB73DJUTRRS2GHW7SFO6QK"		2
+ArbitraryAccessInteraction	2018-02-07T09:47:14.759Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/04802/B7233ED1DAAF4AB64F1F9FD2A7E42936E10C11C2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:48:48.068Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2051908/data_euscreenXL_ina_I06031935.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T09:49:44.022Z	f81da280e002411cf2d79618a9e6a4a6	[200] GET /portal/en/record/2023601/oai_eu_dismarc_GHT_001_00P2121A4372.html (PortalController#show)
+SearchInteraction	2018-02-07T09:51:38.906Z	f81da280e002411cf2d79618a9e6a4a6	freiberg		9350
+SearchInteraction	2018-02-07T09:51:46.947Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:08.669Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZWTZW2IBTKIWXBR7KGUL46IJ2ZEHG6VA	9	1868
+RankedRetrieveRecordInteraction	2018-02-07T09:52:43.563Z	f81da280e002411cf2d79618a9e6a4a6	freiberg	{'DATA_PROVIDER': ["Universitätsbibliothek 'Georgius Agricola' der TU Bergakademie Freiberg"]}	/2048423/item_ZRRX3K6IE3N4BUKIIWDZV7AWDRTPH55N	12	1868
+SearchInteraction	2018-02-07T09:52:59.986Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:53:16.166Z	f81da280e002411cf2d79618a9e6a4a6	europeana_collectionName:(2048423_Ag_DE_DDB_Freiberg)		1868
+SearchInteraction	2018-02-07T09:53:22.191Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+RankedRetrieveRecordInteraction	2018-02-07T09:53:33.280Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		/2048423/item_LAGPNIOZL3ARYCTX4M4AL5DTT2ZAO7FK	10	14
+SearchInteraction	2018-02-07T09:53:50.767Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+CollectionFilterAdditionInteraction	2018-02-07T09:54:21.056Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		0
+CollectionFilterRemovalInteraction	2018-02-07T09:54:27.418Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/2MPGADQJHLKTURREBFEY4KL5AJITMS4G"		14
+SearchInteraction	2018-02-07T09:54:31.141Z	f81da280e002411cf2d79618a9e6a4a6	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T09:54:39.092Z	f81da280e002411cf2d79618a9e6a4a6	volume		86960
+SearchInteraction	2018-02-07T09:55:15.874Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'PROVIDER': ['Deutsche Digitale Bibliothek']}	927
+SearchInteraction	2018-02-07T09:55:30.914Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	589
+RankedRetrieveRecordInteraction	2018-02-07T09:55:37.937Z	f81da280e002411cf2d79618a9e6a4a6	volume	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek'], 'PROVIDER': ['Deutsche Digitale Bibliothek']}	/2048426/item_ZUEN7CVMPZDK7BWDVCHAMRD3FKJ3VF3D	2	589
+SearchInteraction	2018-02-07T09:55:43.443Z	f81da280e002411cf2d79618a9e6a4a6	proxy_dcterms_isPartOf:"http://www.deutsche-digitale-bibliothek.de/item/ZKAVFCR44RKB73DJUTRRS2GHW7SFO6QK"		2

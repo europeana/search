@@ -1,0 +1,95 @@
+ArbitraryAccessInteraction	2018-02-20T12:30:38.012Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9e8b8d4_73b8_11e4_94d1_178500082580.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T12:30:55.692Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_edb8f2b8_73b8_11e4_a81a_831441e56f53.html (PortalController#show)
+SearchInteraction	2018-02-20T20:08:50.577Z	424c783caf23d8f4671fa31729747877	what:"Meijsen B.V. elektronica"		0
+ArbitraryAccessInteraction	2018-02-20T20:22:12.421Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9ff0df0_73b8_11e4_9521_977524dd05dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:23:27.852Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9d62232_73b8_11e4_948e_87d8e7573ac4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:06.248Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_ee16f7aa_73b8_11e4_a960_47855c362d95.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:27.030Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_027091ac_73b9_11e4_b039_9bd349e0abfe.html (PortalController#show)
+SearchInteraction	2018-02-20T20:49:46.771Z	424c783caf23d8f4671fa31729747877	markt 55		249
+CollectionFilterAdditionInteraction	2018-02-20T20:50:06.748Z	424c783caf23d8f4671fa31729747877	markt 55		19
+CollectionFilterRemovalInteraction	2018-02-20T20:50:13.730Z	424c783caf23d8f4671fa31729747877	markt 55		249
+RankedRetrieveRecordInteraction	2018-02-20T20:50:35.769Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:50:45.712Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:02.545Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:03.604Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:16.505Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:22.609Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+SearchInteraction	2018-02-20T20:51:38.463Z	424c783caf23d8f4671fa31729747877	roosendaal		64815
+CollectionFilterAdditionInteraction	2018-02-20T20:51:47.652Z	424c783caf23d8f4671fa31729747877	roosendaal		5
+RankedRetrieveRecordInteraction	2018-02-20T20:51:58.061Z	424c783caf23d8f4671fa31729747877	roosendaal		/2021655/gemeentearchief_weblet_72818_afbeelding_34c84faa_73b9_11e4_b552_c33535060d0a	5	5
+ArbitraryAccessInteraction	2018-02-20T12:30:38.012Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9e8b8d4_73b8_11e4_94d1_178500082580.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T12:30:55.692Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_edb8f2b8_73b8_11e4_a81a_831441e56f53.html (PortalController#show)
+SearchInteraction	2018-02-20T20:08:50.577Z	424c783caf23d8f4671fa31729747877	what:"Meijsen B.V. elektronica"		0
+ArbitraryAccessInteraction	2018-02-20T20:22:12.421Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9ff0df0_73b8_11e4_9521_977524dd05dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:23:27.852Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9d62232_73b8_11e4_948e_87d8e7573ac4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:06.248Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_ee16f7aa_73b8_11e4_a960_47855c362d95.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:27.030Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_027091ac_73b9_11e4_b039_9bd349e0abfe.html (PortalController#show)
+SearchInteraction	2018-02-20T20:49:46.771Z	424c783caf23d8f4671fa31729747877	markt 55		249
+CollectionFilterAdditionInteraction	2018-02-20T20:50:06.748Z	424c783caf23d8f4671fa31729747877	markt 55		19
+CollectionFilterRemovalInteraction	2018-02-20T20:50:13.730Z	424c783caf23d8f4671fa31729747877	markt 55		249
+RankedRetrieveRecordInteraction	2018-02-20T20:50:35.769Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:50:45.712Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:02.545Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:03.604Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:16.505Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:22.609Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+SearchInteraction	2018-02-20T20:51:38.463Z	424c783caf23d8f4671fa31729747877	roosendaal		64815
+CollectionFilterAdditionInteraction	2018-02-20T20:51:47.652Z	424c783caf23d8f4671fa31729747877	roosendaal		5
+RankedRetrieveRecordInteraction	2018-02-20T20:51:58.061Z	424c783caf23d8f4671fa31729747877	roosendaal		/2021655/gemeentearchief_weblet_72818_afbeelding_34c84faa_73b9_11e4_b552_c33535060d0a	5	5
+ArbitraryAccessInteraction	2018-02-20T12:30:38.012Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9e8b8d4_73b8_11e4_94d1_178500082580.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T12:30:55.692Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_edb8f2b8_73b8_11e4_a81a_831441e56f53.html (PortalController#show)
+SearchInteraction	2018-02-20T20:08:50.577Z	424c783caf23d8f4671fa31729747877	what:"Meijsen B.V. elektronica"		0
+ArbitraryAccessInteraction	2018-02-20T20:22:12.421Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9ff0df0_73b8_11e4_9521_977524dd05dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:23:27.852Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9d62232_73b8_11e4_948e_87d8e7573ac4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:06.248Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_ee16f7aa_73b8_11e4_a960_47855c362d95.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:27.030Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_027091ac_73b9_11e4_b039_9bd349e0abfe.html (PortalController#show)
+SearchInteraction	2018-02-20T20:49:46.771Z	424c783caf23d8f4671fa31729747877	markt 55		249
+CollectionFilterAdditionInteraction	2018-02-20T20:50:06.748Z	424c783caf23d8f4671fa31729747877	markt 55		19
+CollectionFilterRemovalInteraction	2018-02-20T20:50:13.730Z	424c783caf23d8f4671fa31729747877	markt 55		249
+RankedRetrieveRecordInteraction	2018-02-20T20:50:35.769Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:50:45.712Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:02.545Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:03.604Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:16.505Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:22.609Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+SearchInteraction	2018-02-20T20:51:38.463Z	424c783caf23d8f4671fa31729747877	roosendaal		64815
+CollectionFilterAdditionInteraction	2018-02-20T20:51:47.652Z	424c783caf23d8f4671fa31729747877	roosendaal		5
+RankedRetrieveRecordInteraction	2018-02-20T20:51:58.061Z	424c783caf23d8f4671fa31729747877	roosendaal		/2021655/gemeentearchief_weblet_72818_afbeelding_34c84faa_73b9_11e4_b552_c33535060d0a	5	5
+ArbitraryAccessInteraction	2018-02-20T12:30:38.012Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9e8b8d4_73b8_11e4_94d1_178500082580.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T12:30:55.692Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_edb8f2b8_73b8_11e4_a81a_831441e56f53.html (PortalController#show)
+SearchInteraction	2018-02-20T20:08:50.577Z	424c783caf23d8f4671fa31729747877	what:"Meijsen B.V. elektronica"		0
+ArbitraryAccessInteraction	2018-02-20T20:22:12.421Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9ff0df0_73b8_11e4_9521_977524dd05dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:23:27.852Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9d62232_73b8_11e4_948e_87d8e7573ac4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:06.248Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_ee16f7aa_73b8_11e4_a960_47855c362d95.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:27.030Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_027091ac_73b9_11e4_b039_9bd349e0abfe.html (PortalController#show)
+SearchInteraction	2018-02-20T20:49:46.771Z	424c783caf23d8f4671fa31729747877	markt 55		249
+CollectionFilterAdditionInteraction	2018-02-20T20:50:06.748Z	424c783caf23d8f4671fa31729747877	markt 55		19
+CollectionFilterRemovalInteraction	2018-02-20T20:50:13.730Z	424c783caf23d8f4671fa31729747877	markt 55		249
+RankedRetrieveRecordInteraction	2018-02-20T20:50:35.769Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:50:45.712Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:02.545Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:03.604Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:16.505Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:22.609Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+SearchInteraction	2018-02-20T20:51:38.463Z	424c783caf23d8f4671fa31729747877	roosendaal		64815
+CollectionFilterAdditionInteraction	2018-02-20T20:51:47.652Z	424c783caf23d8f4671fa31729747877	roosendaal		5
+RankedRetrieveRecordInteraction	2018-02-20T20:51:58.061Z	424c783caf23d8f4671fa31729747877	roosendaal		/2021655/gemeentearchief_weblet_72818_afbeelding_34c84faa_73b9_11e4_b552_c33535060d0a	5	5
+ArbitraryAccessInteraction	2018-02-20T12:30:38.012Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9e8b8d4_73b8_11e4_94d1_178500082580.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T12:30:55.692Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_edb8f2b8_73b8_11e4_a81a_831441e56f53.html (PortalController#show)
+SearchInteraction	2018-02-20T20:08:50.577Z	424c783caf23d8f4671fa31729747877	what:"Meijsen B.V. elektronica"		0
+ArbitraryAccessInteraction	2018-02-20T20:22:12.421Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9ff0df0_73b8_11e4_9521_977524dd05dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:23:27.852Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_f9d62232_73b8_11e4_948e_87d8e7573ac4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:06.248Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_ee16f7aa_73b8_11e4_a960_47855c362d95.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T20:24:27.030Z	424c783caf23d8f4671fa31729747877	[200] GET /portal/nl/record/2021655/gemeentearchief_weblet_72818_afbeelding_027091ac_73b9_11e4_b039_9bd349e0abfe.html (PortalController#show)
+SearchInteraction	2018-02-20T20:49:46.771Z	424c783caf23d8f4671fa31729747877	markt 55		249
+CollectionFilterAdditionInteraction	2018-02-20T20:50:06.748Z	424c783caf23d8f4671fa31729747877	markt 55		19
+CollectionFilterRemovalInteraction	2018-02-20T20:50:13.730Z	424c783caf23d8f4671fa31729747877	markt 55		249
+RankedRetrieveRecordInteraction	2018-02-20T20:50:35.769Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:50:45.712Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:02.545Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:03.604Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c983b0_73b8_11e4_9462_63361faf6554	5	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:16.505Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+RankedRetrieveRecordInteraction	2018-02-20T20:51:22.609Z	424c783caf23d8f4671fa31729747877	markt 55		/2021655/gemeentearchief_weblet_72818_afbeelding_f9c93f68_73b8_11e4_9461_1fad106a9001	6	19
+SearchInteraction	2018-02-20T20:51:38.463Z	424c783caf23d8f4671fa31729747877	roosendaal		64815
+CollectionFilterAdditionInteraction	2018-02-20T20:51:47.652Z	424c783caf23d8f4671fa31729747877	roosendaal		5
+RankedRetrieveRecordInteraction	2018-02-20T20:51:58.061Z	424c783caf23d8f4671fa31729747877	roosendaal		/2021655/gemeentearchief_weblet_72818_afbeelding_34c84faa_73b9_11e4_b552_c33535060d0a	5	5

@@ -1,0 +1,355 @@
+ArbitraryAccessInteraction	2018-03-12T21:15:39.970Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:43.265Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:47.514Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/record/2048089/KI_931_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:41.791Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:43.210Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+SearchInteraction	2018-03-12T21:17:50.405Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:04.644Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:14.604Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:19:53.159Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:00.381Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_9	39	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:16.595Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_8	40	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:29.490Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_32	42	149
+SearchInteraction	2018-03-12T21:20:45.086Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:56.004Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_16	49	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:18.265Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_9	58	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:24.698Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_6	59	149
+SearchInteraction	2018-03-12T21:21:44.523Z	f83f851ea907e043c20feab6685c5620	arabeska		154
+SearchInteraction	2018-03-12T21:21:54.315Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:21:59.639Z	f83f851ea907e043c20feab6685c5620	arabeske		249
+SearchInteraction	2018-03-12T21:22:07.192Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:17.380Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_6051	4	214
+SearchInteraction	2018-03-12T21:22:25.588Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:51.003Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_1505414	24	214
+SearchInteraction	2018-03-12T21:23:09.044Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:23:16.451Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+RankedRetrieveRecordInteraction	2018-03-12T21:24:29.998Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+SearchInteraction	2018-03-12T21:24:41.179Z	f83f851ea907e043c20feab6685c5620	PROVIDER:"Deutsche Digitale Bibliothek"		1303717
+RankedRetrieveRecordInteraction	2018-03-12T21:24:56.482Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ULSKUVMN4ONWSLHZZUEIBEDPREDESNMW	30	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:03.226Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_SROR65JXMYGKMKAGNPY3HHCGN733T475	33	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:09.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_QNUCVFYBTX66ZZO3NQGI64S7BLSF5ITA	34	214
+SearchInteraction	2018-03-12T21:25:19.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:56.730Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_OMSYMDBFNNUH2YWEORNQB3PY3WF5KPUY	38	214
+SearchInteraction	2018-03-12T21:26:07.474Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:30.253Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_12	55	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:35.567Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_11	56	214
+SearchInteraction	2018-03-12T21:26:47.860Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:04.715Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_3	61	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:08.083Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_2	62	214
+SearchInteraction	2018-03-12T21:27:44.434Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:27:55.591Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:28:07.439Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:14.248Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369945	99	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:39.233Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369386	108	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:45.644Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369387	107	214
+SearchInteraction	2018-03-12T21:28:52.642Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+CollectionFilterRemovalInteraction	2018-03-12T21:29:08.935Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:16.328Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:27.542Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:39.289Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:51.084Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:02.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:15.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-03-12T21:30:29.556Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:30.858Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:32.128Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+SearchInteraction	2018-03-12T21:30:38.648Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:30:55.154Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_8186	6	27
+RankedRetrieveRecordInteraction	2018-03-12T21:31:04.127Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1964_494	8	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:23.346Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:42.757Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_70	11	27
+SearchInteraction	2018-03-12T21:32:57.739Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:08.037Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:14.075Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:33:21.369Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+SearchInteraction	2018-03-12T21:33:26.073Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		6
+RankedRetrieveRecordInteraction	2018-03-12T21:33:33.472Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		/90402/RP_P_1953_71	5	6
+SearchInteraction	2018-03-12T21:49:40.711Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:49:46.798Z	f83f851ea907e043c20feab6685c5620	lowen kopf		214
+CollectionFilterRemovalInteraction	2018-03-12T21:50:04.406Z	f83f851ea907e043c20feab6685c5620	lowen kopf		7
+SearchInteraction	2018-03-12T21:50:12.123Z	f83f851ea907e043c20feab6685c5620	lowen kopf	{'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-03-12T21:52:48.691Z	f83f851ea907e043c20feab6685c5620	proxy_dc_publisher:"Rijksmuseum"		180503
+ArbitraryAccessInteraction	2018-03-12T21:15:39.970Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:43.265Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:47.514Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/record/2048089/KI_931_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:41.791Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:43.210Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+SearchInteraction	2018-03-12T21:17:50.405Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:04.644Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:14.604Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:19:53.159Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:00.381Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_9	39	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:16.595Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_8	40	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:29.490Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_32	42	149
+SearchInteraction	2018-03-12T21:20:45.086Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:56.004Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_16	49	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:18.265Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_9	58	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:24.698Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_6	59	149
+SearchInteraction	2018-03-12T21:21:44.523Z	f83f851ea907e043c20feab6685c5620	arabeska		154
+SearchInteraction	2018-03-12T21:21:54.315Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:21:59.639Z	f83f851ea907e043c20feab6685c5620	arabeske		249
+SearchInteraction	2018-03-12T21:22:07.192Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:17.380Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_6051	4	214
+SearchInteraction	2018-03-12T21:22:25.588Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:51.003Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_1505414	24	214
+SearchInteraction	2018-03-12T21:23:09.044Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:23:16.451Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+RankedRetrieveRecordInteraction	2018-03-12T21:24:29.998Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+SearchInteraction	2018-03-12T21:24:41.179Z	f83f851ea907e043c20feab6685c5620	PROVIDER:"Deutsche Digitale Bibliothek"		1303717
+RankedRetrieveRecordInteraction	2018-03-12T21:24:56.482Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ULSKUVMN4ONWSLHZZUEIBEDPREDESNMW	30	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:03.226Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_SROR65JXMYGKMKAGNPY3HHCGN733T475	33	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:09.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_QNUCVFYBTX66ZZO3NQGI64S7BLSF5ITA	34	214
+SearchInteraction	2018-03-12T21:25:19.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:56.730Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_OMSYMDBFNNUH2YWEORNQB3PY3WF5KPUY	38	214
+SearchInteraction	2018-03-12T21:26:07.474Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:30.253Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_12	55	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:35.567Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_11	56	214
+SearchInteraction	2018-03-12T21:26:47.860Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:04.715Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_3	61	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:08.083Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_2	62	214
+SearchInteraction	2018-03-12T21:27:44.434Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:27:55.591Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:28:07.439Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:14.248Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369945	99	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:39.233Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369386	108	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:45.644Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369387	107	214
+SearchInteraction	2018-03-12T21:28:52.642Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+CollectionFilterRemovalInteraction	2018-03-12T21:29:08.935Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:16.328Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:27.542Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:39.289Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:51.084Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:02.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:15.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-03-12T21:30:29.556Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:30.858Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:32.128Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+SearchInteraction	2018-03-12T21:30:38.648Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:30:55.154Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_8186	6	27
+RankedRetrieveRecordInteraction	2018-03-12T21:31:04.127Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1964_494	8	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:23.346Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:42.757Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_70	11	27
+SearchInteraction	2018-03-12T21:32:57.739Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:08.037Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:14.075Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:33:21.369Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+SearchInteraction	2018-03-12T21:33:26.073Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		6
+RankedRetrieveRecordInteraction	2018-03-12T21:33:33.472Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		/90402/RP_P_1953_71	5	6
+SearchInteraction	2018-03-12T21:49:40.711Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:49:46.798Z	f83f851ea907e043c20feab6685c5620	lowen kopf		214
+CollectionFilterRemovalInteraction	2018-03-12T21:50:04.406Z	f83f851ea907e043c20feab6685c5620	lowen kopf		7
+SearchInteraction	2018-03-12T21:50:12.123Z	f83f851ea907e043c20feab6685c5620	lowen kopf	{'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-03-12T21:52:48.691Z	f83f851ea907e043c20feab6685c5620	proxy_dc_publisher:"Rijksmuseum"		180503
+ArbitraryAccessInteraction	2018-03-12T21:15:39.970Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:43.265Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:47.514Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/record/2048089/KI_931_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:41.791Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:43.210Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+SearchInteraction	2018-03-12T21:17:50.405Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:04.644Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:14.604Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:19:53.159Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:00.381Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_9	39	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:16.595Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_8	40	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:29.490Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_32	42	149
+SearchInteraction	2018-03-12T21:20:45.086Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:56.004Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_16	49	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:18.265Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_9	58	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:24.698Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_6	59	149
+SearchInteraction	2018-03-12T21:21:44.523Z	f83f851ea907e043c20feab6685c5620	arabeska		154
+SearchInteraction	2018-03-12T21:21:54.315Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:21:59.639Z	f83f851ea907e043c20feab6685c5620	arabeske		249
+SearchInteraction	2018-03-12T21:22:07.192Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:17.380Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_6051	4	214
+SearchInteraction	2018-03-12T21:22:25.588Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:51.003Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_1505414	24	214
+SearchInteraction	2018-03-12T21:23:09.044Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:23:16.451Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+RankedRetrieveRecordInteraction	2018-03-12T21:24:29.998Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+SearchInteraction	2018-03-12T21:24:41.179Z	f83f851ea907e043c20feab6685c5620	PROVIDER:"Deutsche Digitale Bibliothek"		1303717
+RankedRetrieveRecordInteraction	2018-03-12T21:24:56.482Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ULSKUVMN4ONWSLHZZUEIBEDPREDESNMW	30	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:03.226Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_SROR65JXMYGKMKAGNPY3HHCGN733T475	33	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:09.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_QNUCVFYBTX66ZZO3NQGI64S7BLSF5ITA	34	214
+SearchInteraction	2018-03-12T21:25:19.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:56.730Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_OMSYMDBFNNUH2YWEORNQB3PY3WF5KPUY	38	214
+SearchInteraction	2018-03-12T21:26:07.474Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:30.253Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_12	55	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:35.567Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_11	56	214
+SearchInteraction	2018-03-12T21:26:47.860Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:04.715Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_3	61	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:08.083Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_2	62	214
+SearchInteraction	2018-03-12T21:27:44.434Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:27:55.591Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:28:07.439Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:14.248Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369945	99	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:39.233Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369386	108	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:45.644Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369387	107	214
+SearchInteraction	2018-03-12T21:28:52.642Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+CollectionFilterRemovalInteraction	2018-03-12T21:29:08.935Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:16.328Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:27.542Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:39.289Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:51.084Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:02.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:15.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-03-12T21:30:29.556Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:30.858Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:32.128Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+SearchInteraction	2018-03-12T21:30:38.648Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:30:55.154Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_8186	6	27
+RankedRetrieveRecordInteraction	2018-03-12T21:31:04.127Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1964_494	8	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:23.346Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:42.757Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_70	11	27
+SearchInteraction	2018-03-12T21:32:57.739Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:08.037Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:14.075Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:33:21.369Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+SearchInteraction	2018-03-12T21:33:26.073Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		6
+RankedRetrieveRecordInteraction	2018-03-12T21:33:33.472Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		/90402/RP_P_1953_71	5	6
+SearchInteraction	2018-03-12T21:49:40.711Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:49:46.798Z	f83f851ea907e043c20feab6685c5620	lowen kopf		214
+CollectionFilterRemovalInteraction	2018-03-12T21:50:04.406Z	f83f851ea907e043c20feab6685c5620	lowen kopf		7
+SearchInteraction	2018-03-12T21:50:12.123Z	f83f851ea907e043c20feab6685c5620	lowen kopf	{'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-03-12T21:52:48.691Z	f83f851ea907e043c20feab6685c5620	proxy_dc_publisher:"Rijksmuseum"		180503
+ArbitraryAccessInteraction	2018-03-12T21:15:39.970Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:43.265Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:47.514Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/record/2048089/KI_931_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:41.791Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:43.210Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+SearchInteraction	2018-03-12T21:17:50.405Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:04.644Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:14.604Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:19:53.159Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:00.381Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_9	39	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:16.595Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_8	40	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:29.490Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_32	42	149
+SearchInteraction	2018-03-12T21:20:45.086Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:56.004Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_16	49	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:18.265Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_9	58	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:24.698Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_6	59	149
+SearchInteraction	2018-03-12T21:21:44.523Z	f83f851ea907e043c20feab6685c5620	arabeska		154
+SearchInteraction	2018-03-12T21:21:54.315Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:21:59.639Z	f83f851ea907e043c20feab6685c5620	arabeske		249
+SearchInteraction	2018-03-12T21:22:07.192Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:17.380Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_6051	4	214
+SearchInteraction	2018-03-12T21:22:25.588Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:51.003Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_1505414	24	214
+SearchInteraction	2018-03-12T21:23:09.044Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:23:16.451Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+RankedRetrieveRecordInteraction	2018-03-12T21:24:29.998Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+SearchInteraction	2018-03-12T21:24:41.179Z	f83f851ea907e043c20feab6685c5620	PROVIDER:"Deutsche Digitale Bibliothek"		1303717
+RankedRetrieveRecordInteraction	2018-03-12T21:24:56.482Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ULSKUVMN4ONWSLHZZUEIBEDPREDESNMW	30	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:03.226Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_SROR65JXMYGKMKAGNPY3HHCGN733T475	33	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:09.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_QNUCVFYBTX66ZZO3NQGI64S7BLSF5ITA	34	214
+SearchInteraction	2018-03-12T21:25:19.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:56.730Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_OMSYMDBFNNUH2YWEORNQB3PY3WF5KPUY	38	214
+SearchInteraction	2018-03-12T21:26:07.474Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:30.253Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_12	55	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:35.567Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_11	56	214
+SearchInteraction	2018-03-12T21:26:47.860Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:04.715Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_3	61	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:08.083Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_2	62	214
+SearchInteraction	2018-03-12T21:27:44.434Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:27:55.591Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:28:07.439Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:14.248Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369945	99	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:39.233Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369386	108	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:45.644Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369387	107	214
+SearchInteraction	2018-03-12T21:28:52.642Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+CollectionFilterRemovalInteraction	2018-03-12T21:29:08.935Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:16.328Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:27.542Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:39.289Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:51.084Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:02.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:15.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-03-12T21:30:29.556Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:30.858Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:32.128Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+SearchInteraction	2018-03-12T21:30:38.648Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:30:55.154Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_8186	6	27
+RankedRetrieveRecordInteraction	2018-03-12T21:31:04.127Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1964_494	8	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:23.346Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:42.757Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_70	11	27
+SearchInteraction	2018-03-12T21:32:57.739Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:08.037Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:14.075Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:33:21.369Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+SearchInteraction	2018-03-12T21:33:26.073Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		6
+RankedRetrieveRecordInteraction	2018-03-12T21:33:33.472Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		/90402/RP_P_1953_71	5	6
+SearchInteraction	2018-03-12T21:49:40.711Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:49:46.798Z	f83f851ea907e043c20feab6685c5620	lowen kopf		214
+CollectionFilterRemovalInteraction	2018-03-12T21:50:04.406Z	f83f851ea907e043c20feab6685c5620	lowen kopf		7
+SearchInteraction	2018-03-12T21:50:12.123Z	f83f851ea907e043c20feab6685c5620	lowen kopf	{'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-03-12T21:52:48.691Z	f83f851ea907e043c20feab6685c5620	proxy_dc_publisher:"Rijksmuseum"		180503
+ArbitraryAccessInteraction	2018-03-12T21:15:39.970Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:43.265Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:15:47.514Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/record/2048089/KI_931_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:41.791Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-12T21:17:43.210Z	f83f851ea907e043c20feab6685c5620	[200] GET /portal/en/explore/people/50604-peter-flotner.html (EntitiesController#show)
+SearchInteraction	2018-03-12T21:17:50.405Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:04.644Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:18:14.604Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RefreshOrPaginationInteraction	2018-03-12T21:19:53.159Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:00.381Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_9	39	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:16.595Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_8	40	149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:29.490Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_32	42	149
+SearchInteraction	2018-03-12T21:20:45.086Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		149
+RankedRetrieveRecordInteraction	2018-03-12T21:20:56.004Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/2048089/KI_931_16	49	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:18.265Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_9	58	149
+RankedRetrieveRecordInteraction	2018-03-12T21:21:24.698Z	f83f851ea907e043c20feab6685c5620	proxy_dc_creator: "http://data.europeana.eu/agent/base/50604" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/50604"		/15514/KI_931_6	59	149
+SearchInteraction	2018-03-12T21:21:44.523Z	f83f851ea907e043c20feab6685c5620	arabeska		154
+SearchInteraction	2018-03-12T21:21:54.315Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:21:59.639Z	f83f851ea907e043c20feab6685c5620	arabeske		249
+SearchInteraction	2018-03-12T21:22:07.192Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:17.380Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_6051	4	214
+SearchInteraction	2018-03-12T21:22:25.588Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:22:51.003Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_1505414	24	214
+SearchInteraction	2018-03-12T21:23:09.044Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:23:16.451Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+RankedRetrieveRecordInteraction	2018-03-12T21:24:29.998Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ZQ4YGC6FHOMB3BUIBTMU4H4DJDZPCQT2	28	214
+SearchInteraction	2018-03-12T21:24:41.179Z	f83f851ea907e043c20feab6685c5620	PROVIDER:"Deutsche Digitale Bibliothek"		1303717
+RankedRetrieveRecordInteraction	2018-03-12T21:24:56.482Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_ULSKUVMN4ONWSLHZZUEIBEDPREDESNMW	30	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:03.226Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_SROR65JXMYGKMKAGNPY3HHCGN733T475	33	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:09.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_QNUCVFYBTX66ZZO3NQGI64S7BLSF5ITA	34	214
+SearchInteraction	2018-03-12T21:25:19.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:25:56.730Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048429/item_OMSYMDBFNNUH2YWEORNQB3PY3WF5KPUY	38	214
+SearchInteraction	2018-03-12T21:26:07.474Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:30.253Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_12	55	214
+RankedRetrieveRecordInteraction	2018-03-12T21:26:35.567Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_3670_11	56	214
+SearchInteraction	2018-03-12T21:26:47.860Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:04.715Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_3	61	214
+RankedRetrieveRecordInteraction	2018-03-12T21:27:08.083Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048089/KI_2288_2	62	214
+SearchInteraction	2018-03-12T21:27:44.434Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:27:55.591Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RefreshOrPaginationInteraction	2018-03-12T21:28:07.439Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:14.248Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369945	99	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:39.233Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369386	108	214
+RankedRetrieveRecordInteraction	2018-03-12T21:28:45.644Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10369387	107	214
+SearchInteraction	2018-03-12T21:28:52.642Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	214
+CollectionFilterRemovalInteraction	2018-03-12T21:29:08.935Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:16.328Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:27.542Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:39.289Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:29:51.084Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:02.127Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-03-12T21:30:15.184Z	f83f851ea907e043c20feab6685c5620	arabeske	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-03-12T21:30:29.556Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:30.858Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+RefreshOrPaginationInteraction	2018-03-12T21:30:32.128Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1033165
+SearchInteraction	2018-03-12T21:30:38.648Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:30:55.154Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_OB_8186	6	27
+RankedRetrieveRecordInteraction	2018-03-12T21:31:04.127Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1964_494	8	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:23.346Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+RankedRetrieveRecordInteraction	2018-03-12T21:32:42.757Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_70	11	27
+SearchInteraction	2018-03-12T21:32:57.739Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:08.037Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RefreshOrPaginationInteraction	2018-03-12T21:33:14.075Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	27
+RankedRetrieveRecordInteraction	2018-03-12T21:33:21.369Z	f83f851ea907e043c20feab6685c5620	mauresque	{'TYPE': ['IMAGE']}	/90402/RP_P_1953_72	9	27
+SearchInteraction	2018-03-12T21:33:26.073Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		6
+RankedRetrieveRecordInteraction	2018-03-12T21:33:33.472Z	f83f851ea907e043c20feab6685c5620	who:(Monogrammist GG)		/90402/RP_P_1953_71	5	6
+SearchInteraction	2018-03-12T21:49:40.711Z	f83f851ea907e043c20feab6685c5620	NO VALUE PROVIDED		51373663
+SearchInteraction	2018-03-12T21:49:46.798Z	f83f851ea907e043c20feab6685c5620	lowen kopf		214
+CollectionFilterRemovalInteraction	2018-03-12T21:50:04.406Z	f83f851ea907e043c20feab6685c5620	lowen kopf		7
+SearchInteraction	2018-03-12T21:50:12.123Z	f83f851ea907e043c20feab6685c5620	lowen kopf	{'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-03-12T21:52:48.691Z	f83f851ea907e043c20feab6685c5620	proxy_dc_publisher:"Rijksmuseum"		180503

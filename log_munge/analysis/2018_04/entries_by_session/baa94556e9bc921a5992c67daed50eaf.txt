@@ -1,0 +1,305 @@
+ArbitraryAccessInteraction	2018-01-17T23:06:51.426Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200143/BibliographicResource_2000069290478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T17:43:57.744Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200448/BibliographicResource_3000134129839.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T07:23:43.495Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-20T07:23:57.834Z	baa94556e9bc921a5992c67daed50eaf	kasperle		71
+SearchInteraction	2018-02-20T07:24:16.976Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'TYPE': ['IMAGE']}	68
+SearchInteraction	2018-02-20T07:24:34.535Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-02-20T07:29:59.255Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2064109/Museu_ProvidedCHO_Spielzeugmuseum_der_Stadt_N_rnberg__Museum_Lydia_Bayer__83077__Datensatz_	2	51
+SearchInteraction	2018-02-20T07:36:46.122Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:03.942Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:35.964Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:36.404Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:43:29.377Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-20T07:43:49.959Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:43:57.318Z	baa94556e9bc921a5992c67daed50eaf	Kasper	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	520
+SearchInteraction	2018-02-20T07:44:17.607Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:44:22.590Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:45:32.848Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:58:44.215Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:59:08.339Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T08:07:30.872Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+SearchInteraction	2018-02-20T08:07:58.269Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T08:08:04.103Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-20T10:50:38.619Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T10:51:22.947Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-20T10:51:37.355Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:42.473Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+CollectionFilterRemovalInteraction	2018-02-20T10:51:45.762Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:52.865Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+SearchInteraction	2018-02-21T07:29:57.094Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-21T17:05:31.145Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-22T06:46:13.504Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T07:44:05.636Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T18:37:35.861Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T23:54:03.653Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-26T07:58:05.182Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-26T13:49:30.887Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-26T13:49:40.336Z	baa94556e9bc921a5992c67daed50eaf	opiz		900
+RankedRetrieveRecordInteraction	2018-02-26T13:49:54.749Z	baa94556e9bc921a5992c67daed50eaf	opiz		/9200479/item_8041879_	1	900
+SearchInteraction	2018-02-26T13:49:59.999Z	baa94556e9bc921a5992c67daed50eaf	who:(Opiz, Georg-Emmanuel 1775-1841)		1
+SearchInteraction	2018-02-26T13:50:20.212Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'TYPE': ['IMAGE']}	773
+SearchInteraction	2018-02-26T13:50:29.152Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	290
+CollectionFilterRemovalInteraction	2018-02-26T13:50:47.197Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:06.126Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:22.225Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:29.864Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-26T13:51:42.733Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-02-26T13:51:49.375Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:11.461Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:29.209Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:41.628Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-02-26T20:50:11.785Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-27T07:26:39.672Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-28T06:31:57.813Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T06:34:35.888Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T20:43:12.649Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-03T08:45:13.789Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-04T08:48:39.505Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-05T05:35:44.049Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-06T05:36:45.833Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-08T04:36:03.293Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-09T07:20:54.929Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-01-17T23:06:51.426Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200143/BibliographicResource_2000069290478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T17:43:57.744Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200448/BibliographicResource_3000134129839.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T07:23:43.495Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-20T07:23:57.834Z	baa94556e9bc921a5992c67daed50eaf	kasperle		71
+SearchInteraction	2018-02-20T07:24:16.976Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'TYPE': ['IMAGE']}	68
+SearchInteraction	2018-02-20T07:24:34.535Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-02-20T07:29:59.255Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2064109/Museu_ProvidedCHO_Spielzeugmuseum_der_Stadt_N_rnberg__Museum_Lydia_Bayer__83077__Datensatz_	2	51
+SearchInteraction	2018-02-20T07:36:46.122Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:03.942Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:35.964Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:36.404Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:43:29.377Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-20T07:43:49.959Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:43:57.318Z	baa94556e9bc921a5992c67daed50eaf	Kasper	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	520
+SearchInteraction	2018-02-20T07:44:17.607Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:44:22.590Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:45:32.848Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:58:44.215Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:59:08.339Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T08:07:30.872Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+SearchInteraction	2018-02-20T08:07:58.269Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T08:08:04.103Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-20T10:50:38.619Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T10:51:22.947Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-20T10:51:37.355Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:42.473Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+CollectionFilterRemovalInteraction	2018-02-20T10:51:45.762Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:52.865Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+SearchInteraction	2018-02-21T07:29:57.094Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-21T17:05:31.145Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-22T06:46:13.504Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T07:44:05.636Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T18:37:35.861Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T23:54:03.653Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-26T07:58:05.182Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-26T13:49:30.887Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-26T13:49:40.336Z	baa94556e9bc921a5992c67daed50eaf	opiz		900
+RankedRetrieveRecordInteraction	2018-02-26T13:49:54.749Z	baa94556e9bc921a5992c67daed50eaf	opiz		/9200479/item_8041879_	1	900
+SearchInteraction	2018-02-26T13:49:59.999Z	baa94556e9bc921a5992c67daed50eaf	who:(Opiz, Georg-Emmanuel 1775-1841)		1
+SearchInteraction	2018-02-26T13:50:20.212Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'TYPE': ['IMAGE']}	773
+SearchInteraction	2018-02-26T13:50:29.152Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	290
+CollectionFilterRemovalInteraction	2018-02-26T13:50:47.197Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:06.126Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:22.225Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:29.864Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-26T13:51:42.733Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-02-26T13:51:49.375Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:11.461Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:29.209Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:41.628Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-02-26T20:50:11.785Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-27T07:26:39.672Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-28T06:31:57.813Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T06:34:35.888Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T20:43:12.649Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-03T08:45:13.789Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-04T08:48:39.505Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-05T05:35:44.049Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-06T05:36:45.833Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-08T04:36:03.293Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-09T07:20:54.929Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-01-17T23:06:51.426Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200143/BibliographicResource_2000069290478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T17:43:57.744Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200448/BibliographicResource_3000134129839.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T07:23:43.495Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-20T07:23:57.834Z	baa94556e9bc921a5992c67daed50eaf	kasperle		71
+SearchInteraction	2018-02-20T07:24:16.976Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'TYPE': ['IMAGE']}	68
+SearchInteraction	2018-02-20T07:24:34.535Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-02-20T07:29:59.255Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2064109/Museu_ProvidedCHO_Spielzeugmuseum_der_Stadt_N_rnberg__Museum_Lydia_Bayer__83077__Datensatz_	2	51
+SearchInteraction	2018-02-20T07:36:46.122Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:03.942Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:35.964Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:36.404Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:43:29.377Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-20T07:43:49.959Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:43:57.318Z	baa94556e9bc921a5992c67daed50eaf	Kasper	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	520
+SearchInteraction	2018-02-20T07:44:17.607Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:44:22.590Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:45:32.848Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:58:44.215Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:59:08.339Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T08:07:30.872Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+SearchInteraction	2018-02-20T08:07:58.269Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T08:08:04.103Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-20T10:50:38.619Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T10:51:22.947Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-20T10:51:37.355Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:42.473Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+CollectionFilterRemovalInteraction	2018-02-20T10:51:45.762Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:52.865Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+SearchInteraction	2018-02-21T07:29:57.094Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-21T17:05:31.145Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-22T06:46:13.504Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T07:44:05.636Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T18:37:35.861Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T23:54:03.653Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-26T07:58:05.182Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-26T13:49:30.887Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-26T13:49:40.336Z	baa94556e9bc921a5992c67daed50eaf	opiz		900
+RankedRetrieveRecordInteraction	2018-02-26T13:49:54.749Z	baa94556e9bc921a5992c67daed50eaf	opiz		/9200479/item_8041879_	1	900
+SearchInteraction	2018-02-26T13:49:59.999Z	baa94556e9bc921a5992c67daed50eaf	who:(Opiz, Georg-Emmanuel 1775-1841)		1
+SearchInteraction	2018-02-26T13:50:20.212Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'TYPE': ['IMAGE']}	773
+SearchInteraction	2018-02-26T13:50:29.152Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	290
+CollectionFilterRemovalInteraction	2018-02-26T13:50:47.197Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:06.126Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:22.225Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:29.864Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-26T13:51:42.733Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-02-26T13:51:49.375Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:11.461Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:29.209Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:41.628Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-02-26T20:50:11.785Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-27T07:26:39.672Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-28T06:31:57.813Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T06:34:35.888Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T20:43:12.649Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-03T08:45:13.789Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-04T08:48:39.505Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-05T05:35:44.049Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-06T05:36:45.833Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-08T04:36:03.293Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-09T07:20:54.929Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-01-17T23:06:51.426Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200143/BibliographicResource_2000069290478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T17:43:57.744Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200448/BibliographicResource_3000134129839.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T07:23:43.495Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-20T07:23:57.834Z	baa94556e9bc921a5992c67daed50eaf	kasperle		71
+SearchInteraction	2018-02-20T07:24:16.976Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'TYPE': ['IMAGE']}	68
+SearchInteraction	2018-02-20T07:24:34.535Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-02-20T07:29:59.255Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2064109/Museu_ProvidedCHO_Spielzeugmuseum_der_Stadt_N_rnberg__Museum_Lydia_Bayer__83077__Datensatz_	2	51
+SearchInteraction	2018-02-20T07:36:46.122Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:03.942Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:35.964Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:36.404Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:43:29.377Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-20T07:43:49.959Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:43:57.318Z	baa94556e9bc921a5992c67daed50eaf	Kasper	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	520
+SearchInteraction	2018-02-20T07:44:17.607Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:44:22.590Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:45:32.848Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:58:44.215Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:59:08.339Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T08:07:30.872Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+SearchInteraction	2018-02-20T08:07:58.269Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T08:08:04.103Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-20T10:50:38.619Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T10:51:22.947Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-20T10:51:37.355Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:42.473Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+CollectionFilterRemovalInteraction	2018-02-20T10:51:45.762Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:52.865Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+SearchInteraction	2018-02-21T07:29:57.094Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-21T17:05:31.145Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-22T06:46:13.504Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T07:44:05.636Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T18:37:35.861Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T23:54:03.653Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-26T07:58:05.182Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-26T13:49:30.887Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-26T13:49:40.336Z	baa94556e9bc921a5992c67daed50eaf	opiz		900
+RankedRetrieveRecordInteraction	2018-02-26T13:49:54.749Z	baa94556e9bc921a5992c67daed50eaf	opiz		/9200479/item_8041879_	1	900
+SearchInteraction	2018-02-26T13:49:59.999Z	baa94556e9bc921a5992c67daed50eaf	who:(Opiz, Georg-Emmanuel 1775-1841)		1
+SearchInteraction	2018-02-26T13:50:20.212Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'TYPE': ['IMAGE']}	773
+SearchInteraction	2018-02-26T13:50:29.152Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	290
+CollectionFilterRemovalInteraction	2018-02-26T13:50:47.197Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:06.126Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:22.225Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:29.864Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-26T13:51:42.733Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-02-26T13:51:49.375Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:11.461Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:29.209Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:41.628Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-02-26T20:50:11.785Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-27T07:26:39.672Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-28T06:31:57.813Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T06:34:35.888Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T20:43:12.649Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-03T08:45:13.789Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-04T08:48:39.505Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-05T05:35:44.049Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-06T05:36:45.833Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-08T04:36:03.293Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-09T07:20:54.929Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-01-17T23:06:51.426Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200143/BibliographicResource_2000069290478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T17:43:57.744Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/9200448/BibliographicResource_3000134129839.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T07:23:43.495Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-20T07:23:57.834Z	baa94556e9bc921a5992c67daed50eaf	kasperle		71
+SearchInteraction	2018-02-20T07:24:16.976Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'TYPE': ['IMAGE']}	68
+SearchInteraction	2018-02-20T07:24:34.535Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-02-20T07:29:59.255Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2064109/Museu_ProvidedCHO_Spielzeugmuseum_der_Stadt_N_rnberg__Museum_Lydia_Bayer__83077__Datensatz_	2	51
+SearchInteraction	2018-02-20T07:36:46.122Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:03.942Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:35.964Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:42:36.404Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-02-20T07:43:29.377Z	baa94556e9bc921a5992c67daed50eaf	kasperle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-20T07:43:49.959Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:43:57.318Z	baa94556e9bc921a5992c67daed50eaf	Kasper	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	520
+SearchInteraction	2018-02-20T07:44:17.607Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T07:44:22.590Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:45:32.848Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:58:44.215Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T07:59:08.339Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+RefreshOrPaginationInteraction	2018-02-20T08:07:30.872Z	baa94556e9bc921a5992c67daed50eaf	Kasperl	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	56
+SearchInteraction	2018-02-20T08:07:58.269Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T08:08:04.103Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-20T10:50:38.619Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-20T10:51:22.947Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-20T10:51:37.355Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:42.473Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+CollectionFilterRemovalInteraction	2018-02-20T10:51:45.762Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		1037
+CollectionFilterAdditionInteraction	2018-02-20T10:51:52.865Z	baa94556e9bc921a5992c67daed50eaf	who:(Breitner, George Hendrik)		0
+SearchInteraction	2018-02-21T07:29:57.094Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-21T17:05:31.145Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-22T06:46:13.504Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T07:44:05.636Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T18:37:35.861Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-23T23:54:03.653Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-26T07:58:05.182Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+ArbitraryAccessInteraction	2018-02-26T13:49:30.887Z	baa94556e9bc921a5992c67daed50eaf	[200] GET /portal/en/radio.html (PagesController#show)
+SearchInteraction	2018-02-26T13:49:40.336Z	baa94556e9bc921a5992c67daed50eaf	opiz		900
+RankedRetrieveRecordInteraction	2018-02-26T13:49:54.749Z	baa94556e9bc921a5992c67daed50eaf	opiz		/9200479/item_8041879_	1	900
+SearchInteraction	2018-02-26T13:49:59.999Z	baa94556e9bc921a5992c67daed50eaf	who:(Opiz, Georg-Emmanuel 1775-1841)		1
+SearchInteraction	2018-02-26T13:50:20.212Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'TYPE': ['IMAGE']}	773
+SearchInteraction	2018-02-26T13:50:29.152Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	290
+CollectionFilterRemovalInteraction	2018-02-26T13:50:47.197Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:06.126Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:22.225Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-26T13:51:29.864Z	baa94556e9bc921a5992c67daed50eaf	opiz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-26T13:51:42.733Z	baa94556e9bc921a5992c67daed50eaf	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-02-26T13:51:49.375Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:11.461Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:29.209Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-02-26T13:52:41.628Z	baa94556e9bc921a5992c67daed50eaf	Opitz	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-02-26T20:50:11.785Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-27T07:26:39.672Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-02-28T06:31:57.813Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T06:34:35.888Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-01T20:43:12.649Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-03T08:45:13.789Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-04T08:48:39.505Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-05T05:35:44.049Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-06T05:36:45.833Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-08T04:36:03.293Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41
+RefreshOrPaginationInteraction	2018-03-09T07:20:54.929Z	baa94556e9bc921a5992c67daed50eaf	polichinelle	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	41

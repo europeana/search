@@ -1,0 +1,85 @@
+ArbitraryAccessInteraction	2018-02-22T15:05:56.271Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:06:37.480Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-22T15:07:16.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'PROVIDER': ['Biblioteca Patrimonial Digital']}	1
+ArbitraryAccessInteraction	2018-02-22T15:07:43.009Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/help.html (PagesController#show)
+SearchInteraction	2018-02-22T15:11:21.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041763
+SearchInteraction	2018-02-22T15:11:42.765Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	24180
+CollectionFilterRemovalInteraction	2018-02-22T15:11:44.661Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3584
+RankedRetrieveRecordInteraction	2018-02-22T15:11:56.518Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048217/MUDE_M_D0140	7	3584
+SearchInteraction	2018-02-22T15:12:32.583Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2849326
+SearchInteraction	2018-02-22T15:12:38.177Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+RefreshOrPaginationInteraction	2018-02-22T15:12:39.273Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+SearchInteraction	2018-02-22T15:12:46.986Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'TYPE': ['TEXT']}	978
+ArbitraryAccessInteraction	2018-02-22T15:12:51.250Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+SearchInteraction	2018-02-22T15:13:11.114Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'TYPE': ['TEXT']}	951
+SearchInteraction	2018-02-22T15:13:25.205Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	36
+RankedRetrieveRecordInteraction	2018-02-22T15:13:34.290Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	/10501/50148	1	36
+ArbitraryAccessInteraction	2018-02-22T15:14:26.409Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:05:56.271Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:06:37.480Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-22T15:07:16.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'PROVIDER': ['Biblioteca Patrimonial Digital']}	1
+ArbitraryAccessInteraction	2018-02-22T15:07:43.009Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/help.html (PagesController#show)
+SearchInteraction	2018-02-22T15:11:21.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041763
+SearchInteraction	2018-02-22T15:11:42.765Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	24180
+CollectionFilterRemovalInteraction	2018-02-22T15:11:44.661Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3584
+RankedRetrieveRecordInteraction	2018-02-22T15:11:56.518Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048217/MUDE_M_D0140	7	3584
+SearchInteraction	2018-02-22T15:12:32.583Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2849326
+SearchInteraction	2018-02-22T15:12:38.177Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+RefreshOrPaginationInteraction	2018-02-22T15:12:39.273Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+SearchInteraction	2018-02-22T15:12:46.986Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'TYPE': ['TEXT']}	978
+ArbitraryAccessInteraction	2018-02-22T15:12:51.250Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+SearchInteraction	2018-02-22T15:13:11.114Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'TYPE': ['TEXT']}	951
+SearchInteraction	2018-02-22T15:13:25.205Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	36
+RankedRetrieveRecordInteraction	2018-02-22T15:13:34.290Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	/10501/50148	1	36
+ArbitraryAccessInteraction	2018-02-22T15:14:26.409Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:05:56.271Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:06:37.480Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-22T15:07:16.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'PROVIDER': ['Biblioteca Patrimonial Digital']}	1
+ArbitraryAccessInteraction	2018-02-22T15:07:43.009Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/help.html (PagesController#show)
+SearchInteraction	2018-02-22T15:11:21.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041763
+SearchInteraction	2018-02-22T15:11:42.765Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	24180
+CollectionFilterRemovalInteraction	2018-02-22T15:11:44.661Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3584
+RankedRetrieveRecordInteraction	2018-02-22T15:11:56.518Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048217/MUDE_M_D0140	7	3584
+SearchInteraction	2018-02-22T15:12:32.583Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2849326
+SearchInteraction	2018-02-22T15:12:38.177Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+RefreshOrPaginationInteraction	2018-02-22T15:12:39.273Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+SearchInteraction	2018-02-22T15:12:46.986Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'TYPE': ['TEXT']}	978
+ArbitraryAccessInteraction	2018-02-22T15:12:51.250Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+SearchInteraction	2018-02-22T15:13:11.114Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'TYPE': ['TEXT']}	951
+SearchInteraction	2018-02-22T15:13:25.205Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	36
+RankedRetrieveRecordInteraction	2018-02-22T15:13:34.290Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	/10501/50148	1	36
+ArbitraryAccessInteraction	2018-02-22T15:14:26.409Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:05:56.271Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:06:37.480Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-22T15:07:16.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'PROVIDER': ['Biblioteca Patrimonial Digital']}	1
+ArbitraryAccessInteraction	2018-02-22T15:07:43.009Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/help.html (PagesController#show)
+SearchInteraction	2018-02-22T15:11:21.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041763
+SearchInteraction	2018-02-22T15:11:42.765Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	24180
+CollectionFilterRemovalInteraction	2018-02-22T15:11:44.661Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3584
+RankedRetrieveRecordInteraction	2018-02-22T15:11:56.518Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048217/MUDE_M_D0140	7	3584
+SearchInteraction	2018-02-22T15:12:32.583Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2849326
+SearchInteraction	2018-02-22T15:12:38.177Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+RefreshOrPaginationInteraction	2018-02-22T15:12:39.273Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+SearchInteraction	2018-02-22T15:12:46.986Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'TYPE': ['TEXT']}	978
+ArbitraryAccessInteraction	2018-02-22T15:12:51.250Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+SearchInteraction	2018-02-22T15:13:11.114Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'TYPE': ['TEXT']}	951
+SearchInteraction	2018-02-22T15:13:25.205Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	36
+RankedRetrieveRecordInteraction	2018-02-22T15:13:34.290Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	/10501/50148	1	36
+ArbitraryAccessInteraction	2018-02-22T15:14:26.409Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:05:56.271Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-22T15:06:37.480Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/roadmap.html (PagesController#show)
+SearchInteraction	2018-02-22T15:07:16.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'PROVIDER': ['Biblioteca Patrimonial Digital']}	1
+ArbitraryAccessInteraction	2018-02-22T15:07:43.009Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/help.html (PagesController#show)
+SearchInteraction	2018-02-22T15:11:21.593Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041763
+SearchInteraction	2018-02-22T15:11:42.765Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	24180
+CollectionFilterRemovalInteraction	2018-02-22T15:11:44.661Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3584
+RankedRetrieveRecordInteraction	2018-02-22T15:11:56.518Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'COUNTRY': ['portugal'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048217/MUDE_M_D0140	7	3584
+SearchInteraction	2018-02-22T15:12:32.583Z	26c345f90bc1240bd912dcc54995ea8c	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2849326
+SearchInteraction	2018-02-22T15:12:38.177Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+RefreshOrPaginationInteraction	2018-02-22T15:12:39.273Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa		1100
+SearchInteraction	2018-02-22T15:12:46.986Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'TYPE': ['TEXT']}	978
+ArbitraryAccessInteraction	2018-02-22T15:12:51.250Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)
+SearchInteraction	2018-02-22T15:13:11.114Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'TYPE': ['TEXT']}	951
+SearchInteraction	2018-02-22T15:13:25.205Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	36
+RankedRetrieveRecordInteraction	2018-02-22T15:13:34.290Z	26c345f90bc1240bd912dcc54995ea8c	fernando pessoa	{'COUNTRY': ['portugal'], 'REUSABILITY': ['open'], 'TYPE': ['TEXT']}	/10501/50148	1	36
+ArbitraryAccessInteraction	2018-02-22T15:14:26.409Z	26c345f90bc1240bd912dcc54995ea8c	[200] GET /portal/pt/rights.html (PagesController#show)

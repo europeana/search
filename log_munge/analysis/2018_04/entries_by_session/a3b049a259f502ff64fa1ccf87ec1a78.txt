@@ -1,0 +1,55 @@
+SearchInteraction	2018-02-19T12:55:26.574Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres		293
+SearchInteraction	2018-02-19T12:56:25.268Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres	{'COUNTRY': ['germany']}	12
+SearchInteraction	2018-02-19T12:56:28.592Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:29.616Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:31.002Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+SearchInteraction	2018-02-19T12:56:36.315Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:13.964Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135547882	2	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:34.364Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135546767	3	203
+SearchInteraction	2018-02-19T13:05:39.819Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+SearchInteraction	2018-02-19T13:05:45.039Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'TYPE': ['IMAGE']}	75
+SearchInteraction	2018-02-19T13:07:15.482Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'DATA_PROVIDER': ['Deutsche Fotothek'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-19T12:55:26.574Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres		293
+SearchInteraction	2018-02-19T12:56:25.268Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres	{'COUNTRY': ['germany']}	12
+SearchInteraction	2018-02-19T12:56:28.592Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:29.616Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:31.002Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+SearchInteraction	2018-02-19T12:56:36.315Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:13.964Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135547882	2	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:34.364Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135546767	3	203
+SearchInteraction	2018-02-19T13:05:39.819Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+SearchInteraction	2018-02-19T13:05:45.039Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'TYPE': ['IMAGE']}	75
+SearchInteraction	2018-02-19T13:07:15.482Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'DATA_PROVIDER': ['Deutsche Fotothek'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-19T12:55:26.574Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres		293
+SearchInteraction	2018-02-19T12:56:25.268Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres	{'COUNTRY': ['germany']}	12
+SearchInteraction	2018-02-19T12:56:28.592Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:29.616Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:31.002Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+SearchInteraction	2018-02-19T12:56:36.315Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:13.964Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135547882	2	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:34.364Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135546767	3	203
+SearchInteraction	2018-02-19T13:05:39.819Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+SearchInteraction	2018-02-19T13:05:45.039Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'TYPE': ['IMAGE']}	75
+SearchInteraction	2018-02-19T13:07:15.482Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'DATA_PROVIDER': ['Deutsche Fotothek'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-19T12:55:26.574Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres		293
+SearchInteraction	2018-02-19T12:56:25.268Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres	{'COUNTRY': ['germany']}	12
+SearchInteraction	2018-02-19T12:56:28.592Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:29.616Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:31.002Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+SearchInteraction	2018-02-19T12:56:36.315Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:13.964Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135547882	2	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:34.364Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135546767	3	203
+SearchInteraction	2018-02-19T13:05:39.819Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+SearchInteraction	2018-02-19T13:05:45.039Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'TYPE': ['IMAGE']}	75
+SearchInteraction	2018-02-19T13:07:15.482Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'DATA_PROVIDER': ['Deutsche Fotothek'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-19T12:55:26.574Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres		293
+SearchInteraction	2018-02-19T12:56:25.268Z	a3b049a259f502ff64fa1ccf87ec1a78	sorcieres	{'COUNTRY': ['germany']}	12
+SearchInteraction	2018-02-19T12:56:28.592Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:29.616Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+RefreshOrPaginationInteraction	2018-02-19T12:56:31.002Z	a3b049a259f502ff64fa1ccf87ec1a78	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	5073361
+SearchInteraction	2018-02-19T12:56:36.315Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:13.964Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135547882	2	203
+RankedRetrieveRecordInteraction	2018-02-19T12:59:34.364Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	/9200386/BibliographicResource_3000135546767	3	203
+SearchInteraction	2018-02-19T13:05:39.819Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany']}	203
+SearchInteraction	2018-02-19T13:05:45.039Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'TYPE': ['IMAGE']}	75
+SearchInteraction	2018-02-19T13:07:15.482Z	a3b049a259f502ff64fa1ccf87ec1a78	hexen	{'COUNTRY': ['germany'], 'DATA_PROVIDER': ['Deutsche Fotothek'], 'TYPE': ['IMAGE']}	17

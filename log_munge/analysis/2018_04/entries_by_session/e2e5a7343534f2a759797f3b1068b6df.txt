@@ -1,0 +1,40 @@
+ArbitraryAccessInteraction	2018-03-02T14:38:55.707Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:38:59.379Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:06.755Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/record/2048213/item_O570440.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:27.930Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+SearchInteraction	2018-03-02T14:39:42.912Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:39:52.234Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_8	10	401
+SearchInteraction	2018-03-02T14:40:14.634Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:40:30.665Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_59	18	401
+ArbitraryAccessInteraction	2018-03-02T14:38:55.707Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:38:59.379Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:06.755Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/record/2048213/item_O570440.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:27.930Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+SearchInteraction	2018-03-02T14:39:42.912Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:39:52.234Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_8	10	401
+SearchInteraction	2018-03-02T14:40:14.634Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:40:30.665Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_59	18	401
+ArbitraryAccessInteraction	2018-03-02T14:38:55.707Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:38:59.379Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:06.755Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/record/2048213/item_O570440.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:27.930Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+SearchInteraction	2018-03-02T14:39:42.912Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:39:52.234Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_8	10	401
+SearchInteraction	2018-03-02T14:40:14.634Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:40:30.665Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_59	18	401
+ArbitraryAccessInteraction	2018-03-02T14:38:55.707Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:38:59.379Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:06.755Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/record/2048213/item_O570440.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:27.930Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+SearchInteraction	2018-03-02T14:39:42.912Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:39:52.234Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_8	10	401
+SearchInteraction	2018-03-02T14:40:14.634Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:40:30.665Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_59	18	401
+ArbitraryAccessInteraction	2018-03-02T14:38:55.707Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:38:59.379Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:06.755Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/record/2048213/item_O570440.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T14:39:27.930Z	e2e5a7343534f2a759797f3b1068b6df	[200] GET /portal/en/explore/people/66406-madeleine-vionnet.html (EntitiesController#show)
+SearchInteraction	2018-03-02T14:39:42.912Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:39:52.234Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_8	10	401
+SearchInteraction	2018-03-02T14:40:14.634Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		401
+RankedRetrieveRecordInteraction	2018-03-02T14:40:30.665Z	e2e5a7343534f2a759797f3b1068b6df	proxy_dc_creator: "http://data.europeana.eu/agent/base/66406" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/66406"		/2048218/UF_D_64_48_59	18	401

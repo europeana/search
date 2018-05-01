@@ -1,0 +1,105 @@
+SearchInteraction	2018-02-17T13:46:05.759Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+CollectionFilterRemovalInteraction	2018-02-17T13:49:54.520Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+RefreshOrPaginationInteraction	2018-02-17T13:50:35.108Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+CollectionFilterAdditionInteraction	2018-02-17T13:52:37.362Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+SearchInteraction	2018-02-17T13:52:38.611Z	9fa47b52c1581f7781a96cf84d657222	Liszt		3110
+SearchInteraction	2018-02-17T13:52:54.998Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.121Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.286Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:59.709Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:02.551Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:08.750Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T13:56:20.335Z	9fa47b52c1581f7781a96cf84d657222	Klassikstiftung		0
+SearchInteraction	2018-02-17T13:57:32.018Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Klassik Stiftung Weimar, Germany']}	7
+SearchInteraction	2018-02-17T13:58:13.980Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+RefreshOrPaginationInteraction	2018-02-17T14:13:39.468Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+SearchInteraction	2018-02-17T14:13:53.551Z	9fa47b52c1581f7781a96cf84d657222	Am horn	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	0
+SearchInteraction	2018-02-17T14:14:06.013Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	21294
+SearchInteraction	2018-02-17T14:14:57.040Z	9fa47b52c1581f7781a96cf84d657222	Kranach	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	0
+SearchInteraction	2018-02-17T14:15:01.864Z	9fa47b52c1581f7781a96cf84d657222	Kranach		222
+CollectionFilterAdditionInteraction	2018-02-17T14:15:43.920Z	9fa47b52c1581f7781a96cf84d657222	Kranach		0
+ArbitraryAccessInteraction	2018-02-17T14:19:34.629Z	9fa47b52c1581f7781a96cf84d657222	[200] GET /portal/de/rights/terms.html (PagesController#show)
+SearchInteraction	2018-02-17T13:46:05.759Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+CollectionFilterRemovalInteraction	2018-02-17T13:49:54.520Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+RefreshOrPaginationInteraction	2018-02-17T13:50:35.108Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+CollectionFilterAdditionInteraction	2018-02-17T13:52:37.362Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+SearchInteraction	2018-02-17T13:52:38.611Z	9fa47b52c1581f7781a96cf84d657222	Liszt		3110
+SearchInteraction	2018-02-17T13:52:54.998Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.121Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.286Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:59.709Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:02.551Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:08.750Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T13:56:20.335Z	9fa47b52c1581f7781a96cf84d657222	Klassikstiftung		0
+SearchInteraction	2018-02-17T13:57:32.018Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Klassik Stiftung Weimar, Germany']}	7
+SearchInteraction	2018-02-17T13:58:13.980Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+RefreshOrPaginationInteraction	2018-02-17T14:13:39.468Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+SearchInteraction	2018-02-17T14:13:53.551Z	9fa47b52c1581f7781a96cf84d657222	Am horn	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	0
+SearchInteraction	2018-02-17T14:14:06.013Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	21294
+SearchInteraction	2018-02-17T14:14:57.040Z	9fa47b52c1581f7781a96cf84d657222	Kranach	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	0
+SearchInteraction	2018-02-17T14:15:01.864Z	9fa47b52c1581f7781a96cf84d657222	Kranach		222
+CollectionFilterAdditionInteraction	2018-02-17T14:15:43.920Z	9fa47b52c1581f7781a96cf84d657222	Kranach		0
+ArbitraryAccessInteraction	2018-02-17T14:19:34.629Z	9fa47b52c1581f7781a96cf84d657222	[200] GET /portal/de/rights/terms.html (PagesController#show)
+SearchInteraction	2018-02-17T13:46:05.759Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+CollectionFilterRemovalInteraction	2018-02-17T13:49:54.520Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+RefreshOrPaginationInteraction	2018-02-17T13:50:35.108Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+CollectionFilterAdditionInteraction	2018-02-17T13:52:37.362Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+SearchInteraction	2018-02-17T13:52:38.611Z	9fa47b52c1581f7781a96cf84d657222	Liszt		3110
+SearchInteraction	2018-02-17T13:52:54.998Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.121Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.286Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:59.709Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:02.551Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:08.750Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T13:56:20.335Z	9fa47b52c1581f7781a96cf84d657222	Klassikstiftung		0
+SearchInteraction	2018-02-17T13:57:32.018Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Klassik Stiftung Weimar, Germany']}	7
+SearchInteraction	2018-02-17T13:58:13.980Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+RefreshOrPaginationInteraction	2018-02-17T14:13:39.468Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+SearchInteraction	2018-02-17T14:13:53.551Z	9fa47b52c1581f7781a96cf84d657222	Am horn	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	0
+SearchInteraction	2018-02-17T14:14:06.013Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	21294
+SearchInteraction	2018-02-17T14:14:57.040Z	9fa47b52c1581f7781a96cf84d657222	Kranach	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	0
+SearchInteraction	2018-02-17T14:15:01.864Z	9fa47b52c1581f7781a96cf84d657222	Kranach		222
+CollectionFilterAdditionInteraction	2018-02-17T14:15:43.920Z	9fa47b52c1581f7781a96cf84d657222	Kranach		0
+ArbitraryAccessInteraction	2018-02-17T14:19:34.629Z	9fa47b52c1581f7781a96cf84d657222	[200] GET /portal/de/rights/terms.html (PagesController#show)
+SearchInteraction	2018-02-17T13:46:05.759Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+CollectionFilterRemovalInteraction	2018-02-17T13:49:54.520Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+RefreshOrPaginationInteraction	2018-02-17T13:50:35.108Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+CollectionFilterAdditionInteraction	2018-02-17T13:52:37.362Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+SearchInteraction	2018-02-17T13:52:38.611Z	9fa47b52c1581f7781a96cf84d657222	Liszt		3110
+SearchInteraction	2018-02-17T13:52:54.998Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.121Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.286Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:59.709Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:02.551Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:08.750Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T13:56:20.335Z	9fa47b52c1581f7781a96cf84d657222	Klassikstiftung		0
+SearchInteraction	2018-02-17T13:57:32.018Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Klassik Stiftung Weimar, Germany']}	7
+SearchInteraction	2018-02-17T13:58:13.980Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+RefreshOrPaginationInteraction	2018-02-17T14:13:39.468Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+SearchInteraction	2018-02-17T14:13:53.551Z	9fa47b52c1581f7781a96cf84d657222	Am horn	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	0
+SearchInteraction	2018-02-17T14:14:06.013Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	21294
+SearchInteraction	2018-02-17T14:14:57.040Z	9fa47b52c1581f7781a96cf84d657222	Kranach	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	0
+SearchInteraction	2018-02-17T14:15:01.864Z	9fa47b52c1581f7781a96cf84d657222	Kranach		222
+CollectionFilterAdditionInteraction	2018-02-17T14:15:43.920Z	9fa47b52c1581f7781a96cf84d657222	Kranach		0
+ArbitraryAccessInteraction	2018-02-17T14:19:34.629Z	9fa47b52c1581f7781a96cf84d657222	[200] GET /portal/de/rights/terms.html (PagesController#show)
+SearchInteraction	2018-02-17T13:46:05.759Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+CollectionFilterRemovalInteraction	2018-02-17T13:49:54.520Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+RefreshOrPaginationInteraction	2018-02-17T13:50:35.108Z	9fa47b52c1581f7781a96cf84d657222	Weimar		33
+CollectionFilterAdditionInteraction	2018-02-17T13:52:37.362Z	9fa47b52c1581f7781a96cf84d657222	Weimar		13848
+SearchInteraction	2018-02-17T13:52:38.611Z	9fa47b52c1581f7781a96cf84d657222	Liszt		3110
+SearchInteraction	2018-02-17T13:52:54.998Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.121Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:57.286Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:52:59.709Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:02.551Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+RefreshOrPaginationInteraction	2018-02-17T13:53:08.750Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T13:56:20.335Z	9fa47b52c1581f7781a96cf84d657222	Klassikstiftung		0
+SearchInteraction	2018-02-17T13:57:32.018Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Klassik Stiftung Weimar, Germany']}	7
+SearchInteraction	2018-02-17T13:58:13.980Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+RefreshOrPaginationInteraction	2018-02-17T14:13:39.468Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	15
+SearchInteraction	2018-02-17T14:13:53.551Z	9fa47b52c1581f7781a96cf84d657222	Am horn	{'DATA_PROVIDER': ['Stadtmuseum Weimar im Bertuchhaus, Germany']}	0
+SearchInteraction	2018-02-17T14:14:06.013Z	9fa47b52c1581f7781a96cf84d657222	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	21294
+SearchInteraction	2018-02-17T14:14:57.040Z	9fa47b52c1581f7781a96cf84d657222	Kranach	{'DATA_PROVIDER': ['Bauhaus-Universität Weimar. Universitätsbibliothek']}	0
+SearchInteraction	2018-02-17T14:15:01.864Z	9fa47b52c1581f7781a96cf84d657222	Kranach		222
+CollectionFilterAdditionInteraction	2018-02-17T14:15:43.920Z	9fa47b52c1581f7781a96cf84d657222	Kranach		0
+ArbitraryAccessInteraction	2018-02-17T14:19:34.629Z	9fa47b52c1581f7781a96cf84d657222	[200] GET /portal/de/rights/terms.html (PagesController#show)

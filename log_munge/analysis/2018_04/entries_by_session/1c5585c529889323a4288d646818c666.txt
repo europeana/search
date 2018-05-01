@@ -1,0 +1,55 @@
+SearchInteraction	2018-03-07T14:43:35.432Z	1c5585c529889323a4288d646818c666	budapest		136900
+SearchInteraction	2018-03-07T14:43:48.183Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary']}	111584
+SearchInteraction	2018-03-07T14:44:14.746Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:37.285Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2
+CollectionFilterRemovalInteraction	2018-03-07T14:44:52.284Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:58.208Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2460
+SearchInteraction	2018-03-07T14:45:09.652Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+RefreshOrPaginationInteraction	2018-03-07T14:45:21.838Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+CollectionFilterRemovalInteraction	2018-03-07T14:45:27.461Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+CollectionFilterAdditionInteraction	2018-03-07T14:45:34.202Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-07T14:45:38.412Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+SearchInteraction	2018-03-07T14:43:35.432Z	1c5585c529889323a4288d646818c666	budapest		136900
+SearchInteraction	2018-03-07T14:43:48.183Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary']}	111584
+SearchInteraction	2018-03-07T14:44:14.746Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:37.285Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2
+CollectionFilterRemovalInteraction	2018-03-07T14:44:52.284Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:58.208Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2460
+SearchInteraction	2018-03-07T14:45:09.652Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+RefreshOrPaginationInteraction	2018-03-07T14:45:21.838Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+CollectionFilterRemovalInteraction	2018-03-07T14:45:27.461Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+CollectionFilterAdditionInteraction	2018-03-07T14:45:34.202Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-07T14:45:38.412Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+SearchInteraction	2018-03-07T14:43:35.432Z	1c5585c529889323a4288d646818c666	budapest		136900
+SearchInteraction	2018-03-07T14:43:48.183Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary']}	111584
+SearchInteraction	2018-03-07T14:44:14.746Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:37.285Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2
+CollectionFilterRemovalInteraction	2018-03-07T14:44:52.284Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:58.208Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2460
+SearchInteraction	2018-03-07T14:45:09.652Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+RefreshOrPaginationInteraction	2018-03-07T14:45:21.838Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+CollectionFilterRemovalInteraction	2018-03-07T14:45:27.461Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+CollectionFilterAdditionInteraction	2018-03-07T14:45:34.202Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-07T14:45:38.412Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+SearchInteraction	2018-03-07T14:43:35.432Z	1c5585c529889323a4288d646818c666	budapest		136900
+SearchInteraction	2018-03-07T14:43:48.183Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary']}	111584
+SearchInteraction	2018-03-07T14:44:14.746Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:37.285Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2
+CollectionFilterRemovalInteraction	2018-03-07T14:44:52.284Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:58.208Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2460
+SearchInteraction	2018-03-07T14:45:09.652Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+RefreshOrPaginationInteraction	2018-03-07T14:45:21.838Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+CollectionFilterRemovalInteraction	2018-03-07T14:45:27.461Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+CollectionFilterAdditionInteraction	2018-03-07T14:45:34.202Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-07T14:45:38.412Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+SearchInteraction	2018-03-07T14:43:35.432Z	1c5585c529889323a4288d646818c666	budapest		136900
+SearchInteraction	2018-03-07T14:43:48.183Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary']}	111584
+SearchInteraction	2018-03-07T14:44:14.746Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:37.285Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2
+CollectionFilterRemovalInteraction	2018-03-07T14:44:52.284Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+CollectionFilterAdditionInteraction	2018-03-07T14:44:58.208Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	2460
+SearchInteraction	2018-03-07T14:45:09.652Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+RefreshOrPaginationInteraction	2018-03-07T14:45:21.838Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	2455
+CollectionFilterRemovalInteraction	2018-03-07T14:45:27.461Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050
+CollectionFilterAdditionInteraction	2018-03-07T14:45:34.202Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-07T14:45:38.412Z	1c5585c529889323a4288d646818c666	budapest	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest'], 'TYPE': ['IMAGE']}	6050

@@ -1,0 +1,1015 @@
+SearchInteraction	2018-03-06T23:18:56.750Z	84ba8daefac90f6c0f7a139f43c7cc99	asian AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		22486
+SearchInteraction	2018-03-06T23:20:38.590Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		77
+RankedRetrieveRecordInteraction	2018-03-06T23:20:52.525Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200387/BibliographicResource_3000117260577	4	77
+SearchInteraction	2018-03-06T23:21:49.804Z	84ba8daefac90f6c0f7a139f43c7cc99	what:"Lower Cambrian Trilobite"		1
+SearchInteraction	2018-03-06T23:21:55.914Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:57.411Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:59.213Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T23:22:10.994Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		39
+SearchInteraction	2018-03-06T23:22:25.795Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	5
+RankedRetrieveRecordInteraction	2018-03-06T23:22:34.032Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	/08711/item_123511	1	5
+SearchInteraction	2018-03-06T23:23:04.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		1211
+RankedRetrieveRecordInteraction	2018-03-06T23:23:15.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		/9200387/BibliographicResource_3000117240532	7	1211
+SearchInteraction	2018-03-06T23:23:40.443Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+SearchInteraction	2018-03-06T23:23:57.937Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/licenses/by/*'], 'TYPE': ['IMAGE']}	33
+SearchInteraction	2018-03-06T23:24:11.950Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*'], 'TYPE': ['IMAGE']}	5
+SearchInteraction	2018-03-06T23:25:05.504Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-06T23:25:22.385Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T23:25:27.074Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:25:44.521Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:03.133Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:13.468Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:21.801Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:33.344Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+SearchInteraction	2018-03-06T23:30:06.876Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+RefreshOrPaginationInteraction	2018-03-06T23:30:15.697Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-03-06T23:30:26.120Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	858171
+SearchInteraction	2018-03-06T23:30:30.981Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-06T23:30:36.477Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-06T23:30:39.574Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+RankedRetrieveRecordInteraction	2018-03-06T23:30:43.757Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296728	1	1077
+ArbitraryAccessInteraction	2018-03-06T23:31:24.367Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:35:46.240Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:36:55.096Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117271096.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:07.918Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275085.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:14.421Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253872.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:12:41.863Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117267390	2	1077
+ArbitraryAccessInteraction	2018-03-07T01:12:59.849Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117263734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:13:05.429Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301149.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:21.919Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:27.992Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253213.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:38.343Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300556.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:29.183Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:25:46.404Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:28:11.730Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117299615	5	213695
+SearchInteraction	2018-03-07T01:28:23.939Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:29:11.013Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117292620	16	213695
+ArbitraryAccessInteraction	2018-03-07T01:29:48.509Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:29:57.159Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:00.474Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:09.793Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117247286.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:32.878Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300979.html (PortalController#show)
+SearchInteraction	2018-03-07T01:30:41.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:50.869Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282601	27	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:59.665Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117281583	30	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:33:08.441Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117277164	32	213695
+SearchInteraction	2018-03-07T01:34:03.045Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:34:11.277Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297202.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:34:32.724Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117268322	39	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:05.326Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117263459	46	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:09.310Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117262916	47	213695
+SearchInteraction	2018-03-07T01:37:06.515Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:37:22.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:25.094Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117292692.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:32.264Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290442.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:40:22.131Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117261052	53	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:40:27.284Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117255248	55	213695
+SearchInteraction	2018-03-07T01:41:01.969Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:41:09.809Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293786.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:41:29.925Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117277185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:43:00.757Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295403.html (PortalController#show)
+SearchInteraction	2018-03-07T01:44:42.509Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dc_publisher:"Ward, Lock & Co."		209
+SearchInteraction	2018-03-07T01:44:57.213Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01003941183&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=003941183&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:04.482Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01014832244&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=014832244&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:07.703Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RefreshOrPaginationInteraction	2018-03-07T01:45:47.631Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RankedRetrieveRecordInteraction	2018-03-07T01:46:11.374Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		/9200387/BibliographicResource_3000117301215	19	62529
+ArbitraryAccessInteraction	2018-03-07T01:51:15.798Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:34.496Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117260680.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:37.532Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117262123.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:53:12.900Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+SearchInteraction	2018-03-07T01:53:24.486Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:53:35.936Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:53:53.903Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T01:54:12.842Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:25.091Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:38.209Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:46.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:56.108Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:55:08.940Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:23.302Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282417	102	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:30.676Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282149	103	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:35.934Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117280124	104	213695
+SearchInteraction	2018-03-07T01:57:27.012Z	84ba8daefac90f6c0f7a139f43c7cc99	Up the River from Westminster to Windsor and Oxford; a descriptive panorama of Thames Scenery		0
+SearchInteraction	2018-03-07T01:57:34.756Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:37.095Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:38.553Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:22.876Z	84ba8daefac90f6c0f7a139f43c7cc99	circle from Poets' Wit and Humour		0
+SearchInteraction	2018-03-07T01:58:40.954Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:47.703Z	84ba8daefac90f6c0f7a139f43c7cc99	Poets' Wit and Humour		0
+ArbitraryAccessInteraction	2018-03-07T01:59:05.748Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-07T02:00:17.316Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117265139.html (PortalController#show)
+SearchInteraction	2018-03-07T02:00:31.789Z	84ba8daefac90f6c0f7a139f43c7cc99	circle		16842
+SearchInteraction	2018-03-07T02:00:48.671Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'TYPE': ['IMAGE']}	12912
+SearchInteraction	2018-03-07T02:01:03.963Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:18.102Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:35.152Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+ArbitraryAccessInteraction	2018-03-07T02:02:12.511Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250702.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:22.407Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:25.134Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117243700.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:03.776Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:50.463Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254867.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:53.843Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251194.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:01.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117248533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:09.729Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:46.799Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117291263.html (PortalController#show)
+SearchInteraction	2018-03-07T02:08:59.245Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:09:17.352Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117267316.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:27.082Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251936.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117281912.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:10.767Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:35.330Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275528.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:18.652Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117270738.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:38.487Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117276554.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T02:13:46.776Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126261547	25	7478
+SearchInteraction	2018-03-07T02:13:56.355Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:14:10.153Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:14:17.184Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T02:14:23.741Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:15:14.850Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250416.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:15:29.481Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245576.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:07.354Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280959.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:39.861Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T02:17:35.280Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:17:38.928Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299876.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:17:57.562Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+SearchInteraction	2018-03-07T02:18:05.572Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:18:30.593Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117288734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:32.731Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284240.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:37.033Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279756.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:23.276Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117273963.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:24.924Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246910.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:38.696Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117255346.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:02.667Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:11.503Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000113647349.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:50.588Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117241509.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:21.625Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295570.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:51.450Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246545.html (PortalController#show)
+SearchInteraction	2018-03-07T02:22:32.524Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:23:45.447Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-07T02:23:51.745Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'TYPE': ['IMAGE']}	29998
+SearchInteraction	2018-03-07T02:24:04.118Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:24:17.213Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296100	6	1968
+SearchInteraction	2018-03-07T02:24:24.837Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:39.852Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:54.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:09.700Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:27.610Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:37.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:25:55.738Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_1000055463084	79	1968
+SearchInteraction	2018-03-07T02:26:01.354Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:40.444Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:46.720Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:28:14.110Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297739.html (PortalController#show)
+SearchInteraction	2018-03-07T02:29:20.956Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:30:38.797Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:31:27.134Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+SearchInteraction	2018-03-07T02:31:37.070Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	21445
+RankedRetrieveRecordInteraction	2018-03-07T02:31:51.926Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	/9200497/items_show_515	1	21445
+SearchInteraction	2018-03-07T02:32:21.943Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:28.670Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:36.350Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:42.604Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:49.462Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:55.718Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:02.294Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:11.332Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:20.396Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:28.492Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:35.434Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:42.708Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:34:14.764Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:34:28.310Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:36:07.961Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294888.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:22.627Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293955.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:41.822Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:11.916Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293631.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:20.308Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:51.760Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117289020.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:39:40.171Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117244084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:40:24.067Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280409.html (PortalController#show)
+SearchInteraction	2018-03-07T02:47:19.896Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+CollectionFilterRemovalInteraction	2018-03-07T02:47:23.872Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+CollectionFilterAdditionInteraction	2018-03-07T02:47:33.299Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+RankedRetrieveRecordInteraction	2018-03-07T02:47:48.575Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117298653	8	233858
+SearchInteraction	2018-03-07T02:50:06.654Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RefreshOrPaginationInteraction	2018-03-07T02:50:16.846Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RankedRetrieveRecordInteraction	2018-03-07T02:50:24.564Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117269525	25	233858
+SearchInteraction	2018-03-07T02:50:38.667Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+ArbitraryAccessInteraction	2018-03-07T02:51:51.156Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295541.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:52:00.016Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+SearchInteraction	2018-03-07T03:09:32.782Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T03:09:39.452Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-06T23:18:56.750Z	84ba8daefac90f6c0f7a139f43c7cc99	asian AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		22486
+SearchInteraction	2018-03-06T23:20:38.590Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		77
+RankedRetrieveRecordInteraction	2018-03-06T23:20:52.525Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200387/BibliographicResource_3000117260577	4	77
+SearchInteraction	2018-03-06T23:21:49.804Z	84ba8daefac90f6c0f7a139f43c7cc99	what:"Lower Cambrian Trilobite"		1
+SearchInteraction	2018-03-06T23:21:55.914Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:57.411Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:59.213Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T23:22:10.994Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		39
+SearchInteraction	2018-03-06T23:22:25.795Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	5
+RankedRetrieveRecordInteraction	2018-03-06T23:22:34.032Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	/08711/item_123511	1	5
+SearchInteraction	2018-03-06T23:23:04.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		1211
+RankedRetrieveRecordInteraction	2018-03-06T23:23:15.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		/9200387/BibliographicResource_3000117240532	7	1211
+SearchInteraction	2018-03-06T23:23:40.443Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+SearchInteraction	2018-03-06T23:23:57.937Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/licenses/by/*'], 'TYPE': ['IMAGE']}	33
+SearchInteraction	2018-03-06T23:24:11.950Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*'], 'TYPE': ['IMAGE']}	5
+SearchInteraction	2018-03-06T23:25:05.504Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-06T23:25:22.385Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T23:25:27.074Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:25:44.521Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:03.133Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:13.468Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:21.801Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:33.344Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+SearchInteraction	2018-03-06T23:30:06.876Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+RefreshOrPaginationInteraction	2018-03-06T23:30:15.697Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-03-06T23:30:26.120Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	858171
+SearchInteraction	2018-03-06T23:30:30.981Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-06T23:30:36.477Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-06T23:30:39.574Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+RankedRetrieveRecordInteraction	2018-03-06T23:30:43.757Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296728	1	1077
+ArbitraryAccessInteraction	2018-03-06T23:31:24.367Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:35:46.240Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:36:55.096Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117271096.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:07.918Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275085.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:14.421Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253872.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:12:41.863Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117267390	2	1077
+ArbitraryAccessInteraction	2018-03-07T01:12:59.849Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117263734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:13:05.429Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301149.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:21.919Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:27.992Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253213.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:38.343Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300556.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:29.183Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:25:46.404Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:28:11.730Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117299615	5	213695
+SearchInteraction	2018-03-07T01:28:23.939Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:29:11.013Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117292620	16	213695
+ArbitraryAccessInteraction	2018-03-07T01:29:48.509Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:29:57.159Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:00.474Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:09.793Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117247286.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:32.878Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300979.html (PortalController#show)
+SearchInteraction	2018-03-07T01:30:41.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:50.869Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282601	27	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:59.665Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117281583	30	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:33:08.441Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117277164	32	213695
+SearchInteraction	2018-03-07T01:34:03.045Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:34:11.277Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297202.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:34:32.724Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117268322	39	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:05.326Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117263459	46	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:09.310Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117262916	47	213695
+SearchInteraction	2018-03-07T01:37:06.515Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:37:22.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:25.094Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117292692.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:32.264Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290442.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:40:22.131Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117261052	53	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:40:27.284Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117255248	55	213695
+SearchInteraction	2018-03-07T01:41:01.969Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:41:09.809Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293786.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:41:29.925Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117277185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:43:00.757Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295403.html (PortalController#show)
+SearchInteraction	2018-03-07T01:44:42.509Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dc_publisher:"Ward, Lock & Co."		209
+SearchInteraction	2018-03-07T01:44:57.213Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01003941183&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=003941183&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:04.482Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01014832244&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=014832244&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:07.703Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RefreshOrPaginationInteraction	2018-03-07T01:45:47.631Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RankedRetrieveRecordInteraction	2018-03-07T01:46:11.374Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		/9200387/BibliographicResource_3000117301215	19	62529
+ArbitraryAccessInteraction	2018-03-07T01:51:15.798Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:34.496Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117260680.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:37.532Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117262123.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:53:12.900Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+SearchInteraction	2018-03-07T01:53:24.486Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:53:35.936Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:53:53.903Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T01:54:12.842Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:25.091Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:38.209Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:46.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:56.108Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:55:08.940Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:23.302Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282417	102	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:30.676Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282149	103	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:35.934Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117280124	104	213695
+SearchInteraction	2018-03-07T01:57:27.012Z	84ba8daefac90f6c0f7a139f43c7cc99	Up the River from Westminster to Windsor and Oxford; a descriptive panorama of Thames Scenery		0
+SearchInteraction	2018-03-07T01:57:34.756Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:37.095Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:38.553Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:22.876Z	84ba8daefac90f6c0f7a139f43c7cc99	circle from Poets' Wit and Humour		0
+SearchInteraction	2018-03-07T01:58:40.954Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:47.703Z	84ba8daefac90f6c0f7a139f43c7cc99	Poets' Wit and Humour		0
+ArbitraryAccessInteraction	2018-03-07T01:59:05.748Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-07T02:00:17.316Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117265139.html (PortalController#show)
+SearchInteraction	2018-03-07T02:00:31.789Z	84ba8daefac90f6c0f7a139f43c7cc99	circle		16842
+SearchInteraction	2018-03-07T02:00:48.671Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'TYPE': ['IMAGE']}	12912
+SearchInteraction	2018-03-07T02:01:03.963Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:18.102Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:35.152Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+ArbitraryAccessInteraction	2018-03-07T02:02:12.511Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250702.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:22.407Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:25.134Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117243700.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:03.776Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:50.463Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254867.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:53.843Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251194.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:01.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117248533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:09.729Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:46.799Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117291263.html (PortalController#show)
+SearchInteraction	2018-03-07T02:08:59.245Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:09:17.352Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117267316.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:27.082Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251936.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117281912.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:10.767Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:35.330Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275528.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:18.652Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117270738.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:38.487Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117276554.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T02:13:46.776Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126261547	25	7478
+SearchInteraction	2018-03-07T02:13:56.355Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:14:10.153Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:14:17.184Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T02:14:23.741Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:15:14.850Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250416.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:15:29.481Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245576.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:07.354Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280959.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:39.861Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T02:17:35.280Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:17:38.928Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299876.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:17:57.562Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+SearchInteraction	2018-03-07T02:18:05.572Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:18:30.593Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117288734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:32.731Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284240.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:37.033Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279756.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:23.276Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117273963.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:24.924Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246910.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:38.696Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117255346.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:02.667Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:11.503Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000113647349.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:50.588Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117241509.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:21.625Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295570.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:51.450Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246545.html (PortalController#show)
+SearchInteraction	2018-03-07T02:22:32.524Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:23:45.447Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-07T02:23:51.745Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'TYPE': ['IMAGE']}	29998
+SearchInteraction	2018-03-07T02:24:04.118Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:24:17.213Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296100	6	1968
+SearchInteraction	2018-03-07T02:24:24.837Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:39.852Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:54.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:09.700Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:27.610Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:37.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:25:55.738Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_1000055463084	79	1968
+SearchInteraction	2018-03-07T02:26:01.354Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:40.444Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:46.720Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:28:14.110Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297739.html (PortalController#show)
+SearchInteraction	2018-03-07T02:29:20.956Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:30:38.797Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:31:27.134Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+SearchInteraction	2018-03-07T02:31:37.070Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	21445
+RankedRetrieveRecordInteraction	2018-03-07T02:31:51.926Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	/9200497/items_show_515	1	21445
+SearchInteraction	2018-03-07T02:32:21.943Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:28.670Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:36.350Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:42.604Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:49.462Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:55.718Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:02.294Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:11.332Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:20.396Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:28.492Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:35.434Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:42.708Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:34:14.764Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:34:28.310Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:36:07.961Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294888.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:22.627Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293955.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:41.822Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:11.916Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293631.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:20.308Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:51.760Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117289020.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:39:40.171Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117244084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:40:24.067Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280409.html (PortalController#show)
+SearchInteraction	2018-03-07T02:47:19.896Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+CollectionFilterRemovalInteraction	2018-03-07T02:47:23.872Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+CollectionFilterAdditionInteraction	2018-03-07T02:47:33.299Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+RankedRetrieveRecordInteraction	2018-03-07T02:47:48.575Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117298653	8	233858
+SearchInteraction	2018-03-07T02:50:06.654Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RefreshOrPaginationInteraction	2018-03-07T02:50:16.846Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RankedRetrieveRecordInteraction	2018-03-07T02:50:24.564Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117269525	25	233858
+SearchInteraction	2018-03-07T02:50:38.667Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+ArbitraryAccessInteraction	2018-03-07T02:51:51.156Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295541.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:52:00.016Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+SearchInteraction	2018-03-07T03:09:32.782Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T03:09:39.452Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-06T23:18:56.750Z	84ba8daefac90f6c0f7a139f43c7cc99	asian AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		22486
+SearchInteraction	2018-03-06T23:20:38.590Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		77
+RankedRetrieveRecordInteraction	2018-03-06T23:20:52.525Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200387/BibliographicResource_3000117260577	4	77
+SearchInteraction	2018-03-06T23:21:49.804Z	84ba8daefac90f6c0f7a139f43c7cc99	what:"Lower Cambrian Trilobite"		1
+SearchInteraction	2018-03-06T23:21:55.914Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:57.411Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:59.213Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T23:22:10.994Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		39
+SearchInteraction	2018-03-06T23:22:25.795Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	5
+RankedRetrieveRecordInteraction	2018-03-06T23:22:34.032Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	/08711/item_123511	1	5
+SearchInteraction	2018-03-06T23:23:04.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		1211
+RankedRetrieveRecordInteraction	2018-03-06T23:23:15.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		/9200387/BibliographicResource_3000117240532	7	1211
+SearchInteraction	2018-03-06T23:23:40.443Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+SearchInteraction	2018-03-06T23:23:57.937Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/licenses/by/*'], 'TYPE': ['IMAGE']}	33
+SearchInteraction	2018-03-06T23:24:11.950Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*'], 'TYPE': ['IMAGE']}	5
+SearchInteraction	2018-03-06T23:25:05.504Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-06T23:25:22.385Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T23:25:27.074Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:25:44.521Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:03.133Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:13.468Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:21.801Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:33.344Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+SearchInteraction	2018-03-06T23:30:06.876Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+RefreshOrPaginationInteraction	2018-03-06T23:30:15.697Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-03-06T23:30:26.120Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	858171
+SearchInteraction	2018-03-06T23:30:30.981Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-06T23:30:36.477Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-06T23:30:39.574Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+RankedRetrieveRecordInteraction	2018-03-06T23:30:43.757Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296728	1	1077
+ArbitraryAccessInteraction	2018-03-06T23:31:24.367Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:35:46.240Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:36:55.096Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117271096.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:07.918Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275085.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:14.421Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253872.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:12:41.863Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117267390	2	1077
+ArbitraryAccessInteraction	2018-03-07T01:12:59.849Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117263734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:13:05.429Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301149.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:21.919Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:27.992Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253213.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:38.343Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300556.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:29.183Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:25:46.404Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:28:11.730Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117299615	5	213695
+SearchInteraction	2018-03-07T01:28:23.939Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:29:11.013Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117292620	16	213695
+ArbitraryAccessInteraction	2018-03-07T01:29:48.509Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:29:57.159Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:00.474Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:09.793Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117247286.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:32.878Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300979.html (PortalController#show)
+SearchInteraction	2018-03-07T01:30:41.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:50.869Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282601	27	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:59.665Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117281583	30	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:33:08.441Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117277164	32	213695
+SearchInteraction	2018-03-07T01:34:03.045Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:34:11.277Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297202.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:34:32.724Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117268322	39	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:05.326Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117263459	46	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:09.310Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117262916	47	213695
+SearchInteraction	2018-03-07T01:37:06.515Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:37:22.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:25.094Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117292692.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:32.264Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290442.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:40:22.131Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117261052	53	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:40:27.284Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117255248	55	213695
+SearchInteraction	2018-03-07T01:41:01.969Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:41:09.809Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293786.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:41:29.925Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117277185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:43:00.757Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295403.html (PortalController#show)
+SearchInteraction	2018-03-07T01:44:42.509Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dc_publisher:"Ward, Lock & Co."		209
+SearchInteraction	2018-03-07T01:44:57.213Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01003941183&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=003941183&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:04.482Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01014832244&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=014832244&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:07.703Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RefreshOrPaginationInteraction	2018-03-07T01:45:47.631Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RankedRetrieveRecordInteraction	2018-03-07T01:46:11.374Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		/9200387/BibliographicResource_3000117301215	19	62529
+ArbitraryAccessInteraction	2018-03-07T01:51:15.798Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:34.496Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117260680.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:37.532Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117262123.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:53:12.900Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+SearchInteraction	2018-03-07T01:53:24.486Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:53:35.936Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:53:53.903Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T01:54:12.842Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:25.091Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:38.209Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:46.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:56.108Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:55:08.940Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:23.302Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282417	102	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:30.676Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282149	103	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:35.934Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117280124	104	213695
+SearchInteraction	2018-03-07T01:57:27.012Z	84ba8daefac90f6c0f7a139f43c7cc99	Up the River from Westminster to Windsor and Oxford; a descriptive panorama of Thames Scenery		0
+SearchInteraction	2018-03-07T01:57:34.756Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:37.095Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:38.553Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:22.876Z	84ba8daefac90f6c0f7a139f43c7cc99	circle from Poets' Wit and Humour		0
+SearchInteraction	2018-03-07T01:58:40.954Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:47.703Z	84ba8daefac90f6c0f7a139f43c7cc99	Poets' Wit and Humour		0
+ArbitraryAccessInteraction	2018-03-07T01:59:05.748Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-07T02:00:17.316Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117265139.html (PortalController#show)
+SearchInteraction	2018-03-07T02:00:31.789Z	84ba8daefac90f6c0f7a139f43c7cc99	circle		16842
+SearchInteraction	2018-03-07T02:00:48.671Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'TYPE': ['IMAGE']}	12912
+SearchInteraction	2018-03-07T02:01:03.963Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:18.102Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:35.152Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+ArbitraryAccessInteraction	2018-03-07T02:02:12.511Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250702.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:22.407Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:25.134Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117243700.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:03.776Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:50.463Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254867.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:53.843Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251194.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:01.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117248533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:09.729Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:46.799Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117291263.html (PortalController#show)
+SearchInteraction	2018-03-07T02:08:59.245Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:09:17.352Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117267316.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:27.082Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251936.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117281912.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:10.767Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:35.330Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275528.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:18.652Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117270738.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:38.487Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117276554.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T02:13:46.776Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126261547	25	7478
+SearchInteraction	2018-03-07T02:13:56.355Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:14:10.153Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:14:17.184Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T02:14:23.741Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:15:14.850Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250416.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:15:29.481Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245576.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:07.354Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280959.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:39.861Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T02:17:35.280Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:17:38.928Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299876.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:17:57.562Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+SearchInteraction	2018-03-07T02:18:05.572Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:18:30.593Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117288734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:32.731Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284240.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:37.033Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279756.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:23.276Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117273963.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:24.924Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246910.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:38.696Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117255346.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:02.667Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:11.503Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000113647349.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:50.588Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117241509.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:21.625Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295570.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:51.450Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246545.html (PortalController#show)
+SearchInteraction	2018-03-07T02:22:32.524Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:23:45.447Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-07T02:23:51.745Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'TYPE': ['IMAGE']}	29998
+SearchInteraction	2018-03-07T02:24:04.118Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:24:17.213Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296100	6	1968
+SearchInteraction	2018-03-07T02:24:24.837Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:39.852Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:54.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:09.700Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:27.610Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:37.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:25:55.738Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_1000055463084	79	1968
+SearchInteraction	2018-03-07T02:26:01.354Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:40.444Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:46.720Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:28:14.110Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297739.html (PortalController#show)
+SearchInteraction	2018-03-07T02:29:20.956Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:30:38.797Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:31:27.134Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+SearchInteraction	2018-03-07T02:31:37.070Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	21445
+RankedRetrieveRecordInteraction	2018-03-07T02:31:51.926Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	/9200497/items_show_515	1	21445
+SearchInteraction	2018-03-07T02:32:21.943Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:28.670Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:36.350Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:42.604Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:49.462Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:55.718Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:02.294Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:11.332Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:20.396Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:28.492Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:35.434Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:42.708Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:34:14.764Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:34:28.310Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:36:07.961Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294888.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:22.627Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293955.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:41.822Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:11.916Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293631.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:20.308Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:51.760Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117289020.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:39:40.171Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117244084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:40:24.067Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280409.html (PortalController#show)
+SearchInteraction	2018-03-07T02:47:19.896Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+CollectionFilterRemovalInteraction	2018-03-07T02:47:23.872Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+CollectionFilterAdditionInteraction	2018-03-07T02:47:33.299Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+RankedRetrieveRecordInteraction	2018-03-07T02:47:48.575Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117298653	8	233858
+SearchInteraction	2018-03-07T02:50:06.654Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RefreshOrPaginationInteraction	2018-03-07T02:50:16.846Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RankedRetrieveRecordInteraction	2018-03-07T02:50:24.564Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117269525	25	233858
+SearchInteraction	2018-03-07T02:50:38.667Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+ArbitraryAccessInteraction	2018-03-07T02:51:51.156Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295541.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:52:00.016Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+SearchInteraction	2018-03-07T03:09:32.782Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T03:09:39.452Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-06T23:18:56.750Z	84ba8daefac90f6c0f7a139f43c7cc99	asian AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		22486
+SearchInteraction	2018-03-06T23:20:38.590Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		77
+RankedRetrieveRecordInteraction	2018-03-06T23:20:52.525Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200387/BibliographicResource_3000117260577	4	77
+SearchInteraction	2018-03-06T23:21:49.804Z	84ba8daefac90f6c0f7a139f43c7cc99	what:"Lower Cambrian Trilobite"		1
+SearchInteraction	2018-03-06T23:21:55.914Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:57.411Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:59.213Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T23:22:10.994Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		39
+SearchInteraction	2018-03-06T23:22:25.795Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	5
+RankedRetrieveRecordInteraction	2018-03-06T23:22:34.032Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	/08711/item_123511	1	5
+SearchInteraction	2018-03-06T23:23:04.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		1211
+RankedRetrieveRecordInteraction	2018-03-06T23:23:15.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		/9200387/BibliographicResource_3000117240532	7	1211
+SearchInteraction	2018-03-06T23:23:40.443Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+SearchInteraction	2018-03-06T23:23:57.937Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/licenses/by/*'], 'TYPE': ['IMAGE']}	33
+SearchInteraction	2018-03-06T23:24:11.950Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*'], 'TYPE': ['IMAGE']}	5
+SearchInteraction	2018-03-06T23:25:05.504Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-06T23:25:22.385Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T23:25:27.074Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:25:44.521Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:03.133Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:13.468Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:21.801Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:33.344Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+SearchInteraction	2018-03-06T23:30:06.876Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+RefreshOrPaginationInteraction	2018-03-06T23:30:15.697Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-03-06T23:30:26.120Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	858171
+SearchInteraction	2018-03-06T23:30:30.981Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-06T23:30:36.477Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-06T23:30:39.574Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+RankedRetrieveRecordInteraction	2018-03-06T23:30:43.757Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296728	1	1077
+ArbitraryAccessInteraction	2018-03-06T23:31:24.367Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:35:46.240Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:36:55.096Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117271096.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:07.918Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275085.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:14.421Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253872.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:12:41.863Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117267390	2	1077
+ArbitraryAccessInteraction	2018-03-07T01:12:59.849Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117263734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:13:05.429Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301149.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:21.919Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:27.992Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253213.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:38.343Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300556.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:29.183Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:25:46.404Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:28:11.730Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117299615	5	213695
+SearchInteraction	2018-03-07T01:28:23.939Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:29:11.013Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117292620	16	213695
+ArbitraryAccessInteraction	2018-03-07T01:29:48.509Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:29:57.159Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:00.474Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:09.793Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117247286.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:32.878Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300979.html (PortalController#show)
+SearchInteraction	2018-03-07T01:30:41.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:50.869Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282601	27	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:59.665Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117281583	30	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:33:08.441Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117277164	32	213695
+SearchInteraction	2018-03-07T01:34:03.045Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:34:11.277Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297202.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:34:32.724Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117268322	39	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:05.326Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117263459	46	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:09.310Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117262916	47	213695
+SearchInteraction	2018-03-07T01:37:06.515Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:37:22.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:25.094Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117292692.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:32.264Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290442.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:40:22.131Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117261052	53	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:40:27.284Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117255248	55	213695
+SearchInteraction	2018-03-07T01:41:01.969Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:41:09.809Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293786.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:41:29.925Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117277185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:43:00.757Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295403.html (PortalController#show)
+SearchInteraction	2018-03-07T01:44:42.509Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dc_publisher:"Ward, Lock & Co."		209
+SearchInteraction	2018-03-07T01:44:57.213Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01003941183&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=003941183&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:04.482Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01014832244&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=014832244&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:07.703Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RefreshOrPaginationInteraction	2018-03-07T01:45:47.631Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RankedRetrieveRecordInteraction	2018-03-07T01:46:11.374Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		/9200387/BibliographicResource_3000117301215	19	62529
+ArbitraryAccessInteraction	2018-03-07T01:51:15.798Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:34.496Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117260680.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:37.532Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117262123.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:53:12.900Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+SearchInteraction	2018-03-07T01:53:24.486Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:53:35.936Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:53:53.903Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T01:54:12.842Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:25.091Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:38.209Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:46.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:56.108Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:55:08.940Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:23.302Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282417	102	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:30.676Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282149	103	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:35.934Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117280124	104	213695
+SearchInteraction	2018-03-07T01:57:27.012Z	84ba8daefac90f6c0f7a139f43c7cc99	Up the River from Westminster to Windsor and Oxford; a descriptive panorama of Thames Scenery		0
+SearchInteraction	2018-03-07T01:57:34.756Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:37.095Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:38.553Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:22.876Z	84ba8daefac90f6c0f7a139f43c7cc99	circle from Poets' Wit and Humour		0
+SearchInteraction	2018-03-07T01:58:40.954Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:47.703Z	84ba8daefac90f6c0f7a139f43c7cc99	Poets' Wit and Humour		0
+ArbitraryAccessInteraction	2018-03-07T01:59:05.748Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-07T02:00:17.316Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117265139.html (PortalController#show)
+SearchInteraction	2018-03-07T02:00:31.789Z	84ba8daefac90f6c0f7a139f43c7cc99	circle		16842
+SearchInteraction	2018-03-07T02:00:48.671Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'TYPE': ['IMAGE']}	12912
+SearchInteraction	2018-03-07T02:01:03.963Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:18.102Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:35.152Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+ArbitraryAccessInteraction	2018-03-07T02:02:12.511Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250702.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:22.407Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:25.134Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117243700.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:03.776Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:50.463Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254867.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:53.843Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251194.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:01.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117248533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:09.729Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:46.799Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117291263.html (PortalController#show)
+SearchInteraction	2018-03-07T02:08:59.245Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:09:17.352Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117267316.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:27.082Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251936.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117281912.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:10.767Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:35.330Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275528.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:18.652Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117270738.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:38.487Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117276554.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T02:13:46.776Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126261547	25	7478
+SearchInteraction	2018-03-07T02:13:56.355Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:14:10.153Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:14:17.184Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T02:14:23.741Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:15:14.850Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250416.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:15:29.481Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245576.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:07.354Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280959.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:39.861Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T02:17:35.280Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:17:38.928Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299876.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:17:57.562Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+SearchInteraction	2018-03-07T02:18:05.572Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:18:30.593Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117288734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:32.731Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284240.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:37.033Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279756.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:23.276Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117273963.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:24.924Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246910.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:38.696Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117255346.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:02.667Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:11.503Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000113647349.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:50.588Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117241509.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:21.625Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295570.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:51.450Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246545.html (PortalController#show)
+SearchInteraction	2018-03-07T02:22:32.524Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:23:45.447Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-07T02:23:51.745Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'TYPE': ['IMAGE']}	29998
+SearchInteraction	2018-03-07T02:24:04.118Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:24:17.213Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296100	6	1968
+SearchInteraction	2018-03-07T02:24:24.837Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:39.852Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:54.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:09.700Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:27.610Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:37.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:25:55.738Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_1000055463084	79	1968
+SearchInteraction	2018-03-07T02:26:01.354Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:40.444Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:46.720Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:28:14.110Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297739.html (PortalController#show)
+SearchInteraction	2018-03-07T02:29:20.956Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:30:38.797Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:31:27.134Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+SearchInteraction	2018-03-07T02:31:37.070Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	21445
+RankedRetrieveRecordInteraction	2018-03-07T02:31:51.926Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	/9200497/items_show_515	1	21445
+SearchInteraction	2018-03-07T02:32:21.943Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:28.670Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:36.350Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:42.604Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:49.462Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:55.718Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:02.294Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:11.332Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:20.396Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:28.492Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:35.434Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:42.708Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:34:14.764Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:34:28.310Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:36:07.961Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294888.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:22.627Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293955.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:41.822Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:11.916Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293631.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:20.308Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:51.760Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117289020.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:39:40.171Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117244084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:40:24.067Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280409.html (PortalController#show)
+SearchInteraction	2018-03-07T02:47:19.896Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+CollectionFilterRemovalInteraction	2018-03-07T02:47:23.872Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+CollectionFilterAdditionInteraction	2018-03-07T02:47:33.299Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+RankedRetrieveRecordInteraction	2018-03-07T02:47:48.575Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117298653	8	233858
+SearchInteraction	2018-03-07T02:50:06.654Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RefreshOrPaginationInteraction	2018-03-07T02:50:16.846Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RankedRetrieveRecordInteraction	2018-03-07T02:50:24.564Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117269525	25	233858
+SearchInteraction	2018-03-07T02:50:38.667Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+ArbitraryAccessInteraction	2018-03-07T02:51:51.156Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295541.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:52:00.016Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+SearchInteraction	2018-03-07T03:09:32.782Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T03:09:39.452Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-06T23:18:56.750Z	84ba8daefac90f6c0f7a139f43c7cc99	asian AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		22486
+SearchInteraction	2018-03-06T23:20:38.590Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		77
+RankedRetrieveRecordInteraction	2018-03-06T23:20:52.525Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200387/BibliographicResource_3000117260577	4	77
+SearchInteraction	2018-03-06T23:21:49.804Z	84ba8daefac90f6c0f7a139f43c7cc99	what:"Lower Cambrian Trilobite"		1
+SearchInteraction	2018-03-06T23:21:55.914Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:57.411Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T23:21:59.213Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T23:22:10.994Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		39
+SearchInteraction	2018-03-06T23:22:25.795Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	5
+RankedRetrieveRecordInteraction	2018-03-06T23:22:34.032Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	/08711/item_123511	1	5
+SearchInteraction	2018-03-06T23:23:04.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		1211
+RankedRetrieveRecordInteraction	2018-03-06T23:23:15.963Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite		/9200387/BibliographicResource_3000117240532	7	1211
+SearchInteraction	2018-03-06T23:23:40.443Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+SearchInteraction	2018-03-06T23:23:57.937Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/licenses/by/*'], 'TYPE': ['IMAGE']}	33
+SearchInteraction	2018-03-06T23:24:11.950Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*'], 'TYPE': ['IMAGE']}	5
+SearchInteraction	2018-03-06T23:25:05.504Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-06T23:25:22.385Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T23:25:27.074Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:25:44.521Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:03.133Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:13.468Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:21.801Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+RefreshOrPaginationInteraction	2018-03-06T23:26:33.344Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7461
+SearchInteraction	2018-03-06T23:30:06.876Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+RefreshOrPaginationInteraction	2018-03-06T23:30:15.697Z	84ba8daefac90f6c0f7a139f43c7cc99	fossile	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-03-06T23:30:26.120Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	858171
+SearchInteraction	2018-03-06T23:30:30.981Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-06T23:30:36.477Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-06T23:30:39.574Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	1077
+RankedRetrieveRecordInteraction	2018-03-06T23:30:43.757Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296728	1	1077
+ArbitraryAccessInteraction	2018-03-06T23:31:24.367Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:35:46.240Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:36:55.096Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117271096.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:07.918Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275085.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T23:37:14.421Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253872.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:12:41.863Z	84ba8daefac90f6c0f7a139f43c7cc99	trilobite	{'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117267390	2	1077
+ArbitraryAccessInteraction	2018-03-07T01:12:59.849Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117263734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:13:05.429Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301149.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:21.919Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:27.992Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117253213.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:14:38.343Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300556.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:29.183Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:17:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:25:46.404Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:28:11.730Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117299615	5	213695
+SearchInteraction	2018-03-07T01:28:23.939Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:29:11.013Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117292620	16	213695
+ArbitraryAccessInteraction	2018-03-07T01:29:48.509Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:29:57.159Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251654.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:00.474Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:09.793Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117247286.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:30:32.878Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117300979.html (PortalController#show)
+SearchInteraction	2018-03-07T01:30:41.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:50.869Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282601	27	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:32:59.665Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117281583	30	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:33:08.441Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117277164	32	213695
+SearchInteraction	2018-03-07T01:34:03.045Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:34:11.277Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297202.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:34:32.724Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117268322	39	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:05.326Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117263459	46	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:35:09.310Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117262916	47	213695
+SearchInteraction	2018-03-07T01:37:06.515Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:37:22.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:25.094Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117292692.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:37:32.264Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290442.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T01:40:22.131Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117261052	53	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:40:27.284Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117255248	55	213695
+SearchInteraction	2018-03-07T01:41:01.969Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:41:09.809Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293786.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:41:29.925Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117277185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:43:00.757Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295403.html (PortalController#show)
+SearchInteraction	2018-03-07T01:44:42.509Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dc_publisher:"Ward, Lock & Co."		209
+SearchInteraction	2018-03-07T01:44:57.213Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01003941183&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=003941183&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:04.482Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://explore.bl.uk/primo_library/libweb/action/search.do?cs=frb&doc=BLL01014832244&dscnt=1&scp.scps=scope:BLCONTENT&frbg=&tab=local_tab&srt=rank&ct=search&mode=Basic&dum=true&tb=t&indx=1&vlfreeText0=014832244&fn=search&vid=BLVU1"		0
+SearchInteraction	2018-03-07T01:45:07.703Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RefreshOrPaginationInteraction	2018-03-07T01:45:47.631Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		62529
+RankedRetrieveRecordInteraction	2018-03-07T01:46:11.374Z	84ba8daefac90f6c0f7a139f43c7cc99	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1225"		/9200387/BibliographicResource_3000117301215	19	62529
+ArbitraryAccessInteraction	2018-03-07T01:51:15.798Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275958.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:34.496Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117260680.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:51:37.532Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117262123.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T01:53:12.900Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+SearchInteraction	2018-03-07T01:53:24.486Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:53:35.936Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T01:53:53.903Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T01:54:12.842Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:25.091Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:38.209Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:46.529Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:54:56.108Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T01:55:08.940Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:23.302Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282417	102	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:30.676Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117282149	103	213695
+RankedRetrieveRecordInteraction	2018-03-07T01:55:35.934Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117280124	104	213695
+SearchInteraction	2018-03-07T01:57:27.012Z	84ba8daefac90f6c0f7a139f43c7cc99	Up the River from Westminster to Windsor and Oxford; a descriptive panorama of Thames Scenery		0
+SearchInteraction	2018-03-07T01:57:34.756Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:37.095Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-07T01:57:38.553Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:22.876Z	84ba8daefac90f6c0f7a139f43c7cc99	circle from Poets' Wit and Humour		0
+SearchInteraction	2018-03-07T01:58:40.954Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T01:58:47.703Z	84ba8daefac90f6c0f7a139f43c7cc99	Poets' Wit and Humour		0
+ArbitraryAccessInteraction	2018-03-07T01:59:05.748Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/help.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-07T02:00:17.316Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117265139.html (PortalController#show)
+SearchInteraction	2018-03-07T02:00:31.789Z	84ba8daefac90f6c0f7a139f43c7cc99	circle		16842
+SearchInteraction	2018-03-07T02:00:48.671Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'TYPE': ['IMAGE']}	12912
+SearchInteraction	2018-03-07T02:01:03.963Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:18.102Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:01:35.152Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+ArbitraryAccessInteraction	2018-03-07T02:02:12.511Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250702.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:22.407Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245555.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:02:25.134Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117243700.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:03.776Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117290462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:50.463Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117254867.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:04:53.843Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251194.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:01.015Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117248533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:09.729Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:06:46.799Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117291263.html (PortalController#show)
+SearchInteraction	2018-03-07T02:08:59.245Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:09:17.352Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117267316.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:27.082Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117251936.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:09:37.117Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117281912.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:10.767Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:11:35.330Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117275528.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:18.652Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117270738.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:12:38.487Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117276554.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-07T02:13:46.776Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126261547	25	7478
+SearchInteraction	2018-03-07T02:13:56.355Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+RefreshOrPaginationInteraction	2018-03-07T02:14:10.153Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:14:17.184Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+RefreshOrPaginationInteraction	2018-03-07T02:14:23.741Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213695
+ArbitraryAccessInteraction	2018-03-07T02:15:14.850Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117250416.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:15:29.481Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117245576.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:07.354Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280959.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:16:39.861Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117301024.html (PortalController#show)
+SearchInteraction	2018-03-07T02:17:35.280Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:17:38.928Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299876.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:17:57.562Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117299595.html (PortalController#show)
+SearchInteraction	2018-03-07T02:18:05.572Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+ArbitraryAccessInteraction	2018-03-07T02:18:30.593Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117288734.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:32.731Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117284240.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:18:37.033Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279756.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:23.276Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117273963.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:24.924Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246910.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:19:38.696Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117255346.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:02.667Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117279420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:11.503Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000113647349.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:20:50.588Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117241509.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:21.625Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295570.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:21:51.450Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117246545.html (PortalController#show)
+SearchInteraction	2018-03-07T02:22:32.524Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:23:45.447Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-07T02:23:51.745Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'TYPE': ['IMAGE']}	29998
+SearchInteraction	2018-03-07T02:24:04.118Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:24:17.213Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000117296100	6	1968
+SearchInteraction	2018-03-07T02:24:24.837Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:39.852Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:24:54.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:09.700Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:27.610Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:25:37.972Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RankedRetrieveRecordInteraction	2018-03-07T02:25:55.738Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_1000055463084	79	1968
+SearchInteraction	2018-03-07T02:26:01.354Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:40.444Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:27:46.720Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:28:14.110Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117297739.html (PortalController#show)
+SearchInteraction	2018-03-07T02:29:20.956Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+SearchInteraction	2018-03-07T02:30:38.797Z	84ba8daefac90f6c0f7a139f43c7cc99	circle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7478
+SearchInteraction	2018-03-07T02:31:27.134Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+SearchInteraction	2018-03-07T02:31:37.070Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	21445
+RankedRetrieveRecordInteraction	2018-03-07T02:31:51.926Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open']}	/9200497/items_show_515	1	21445
+SearchInteraction	2018-03-07T02:32:21.943Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:28.670Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:36.350Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:42.604Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:49.462Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:32:55.718Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:02.294Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:11.332Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:20.396Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:28.492Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:35.434Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+RefreshOrPaginationInteraction	2018-03-07T02:33:42.708Z	84ba8daefac90f6c0f7a139f43c7cc99	fossil	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1968
+ArbitraryAccessInteraction	2018-03-07T02:34:14.764Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:34:28.310Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:36:07.961Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117294888.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:22.627Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293955.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:37:41.822Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:11.916Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293631.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:20.308Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117293696.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:38:51.760Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117289020.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:39:40.171Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117244084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:40:24.067Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117280409.html (PortalController#show)
+SearchInteraction	2018-03-07T02:47:19.896Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+CollectionFilterRemovalInteraction	2018-03-07T02:47:23.872Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+CollectionFilterAdditionInteraction	2018-03-07T02:47:33.299Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		213846
+RankedRetrieveRecordInteraction	2018-03-07T02:47:48.575Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117298653	8	233858
+SearchInteraction	2018-03-07T02:50:06.654Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RefreshOrPaginationInteraction	2018-03-07T02:50:16.846Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+RankedRetrieveRecordInteraction	2018-03-07T02:50:24.564Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		/9200387/BibliographicResource_3000117269525	25	233858
+SearchInteraction	2018-03-07T02:50:38.667Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED		233858
+ArbitraryAccessInteraction	2018-03-07T02:51:51.156Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295541.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T02:52:00.016Z	84ba8daefac90f6c0f7a139f43c7cc99	[200] GET /portal/en/record/9200387/BibliographicResource_3000117295881.html (PortalController#show)
+SearchInteraction	2018-03-07T03:09:32.782Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T03:09:39.452Z	84ba8daefac90f6c0f7a139f43c7cc99	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750

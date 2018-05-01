@@ -1,0 +1,45 @@
+ArbitraryAccessInteraction	2018-02-27T10:48:50.794Z	baa5d3d4671e50cbce686245cd8ceb2a	[200] GET /portal/da/about.html (PagesController#show)
+SearchInteraction	2018-02-27T10:53:44.151Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: paper']}	29983
+SearchInteraction	2018-02-27T10:53:52.548Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	5383
+RankedRetrieveRecordInteraction	2018-02-27T10:54:06.059Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	/2048226/81043	11	5383
+SearchInteraction	2018-02-27T10:55:21.050Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'CREATOR': ['Chanel (Designer)'], 'THUMBNAIL': ['true']}	5238
+SearchInteraction	2018-02-27T10:57:11.355Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	176
+RankedRetrieveRecordInteraction	2018-02-27T10:57:27.605Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	/91647/SMVK_MM_Cyprus_3210474	1	176
+SearchInteraction	2018-02-27T10:59:11.948Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	24458
+RankedRetrieveRecordInteraction	2018-02-27T10:59:18.994Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	/9200503/redir_PTFOLRESQA1	7	24458
+ArbitraryAccessInteraction	2018-02-27T10:48:50.794Z	baa5d3d4671e50cbce686245cd8ceb2a	[200] GET /portal/da/about.html (PagesController#show)
+SearchInteraction	2018-02-27T10:53:44.151Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: paper']}	29983
+SearchInteraction	2018-02-27T10:53:52.548Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	5383
+RankedRetrieveRecordInteraction	2018-02-27T10:54:06.059Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	/2048226/81043	11	5383
+SearchInteraction	2018-02-27T10:55:21.050Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'CREATOR': ['Chanel (Designer)'], 'THUMBNAIL': ['true']}	5238
+SearchInteraction	2018-02-27T10:57:11.355Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	176
+RankedRetrieveRecordInteraction	2018-02-27T10:57:27.605Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	/91647/SMVK_MM_Cyprus_3210474	1	176
+SearchInteraction	2018-02-27T10:59:11.948Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	24458
+RankedRetrieveRecordInteraction	2018-02-27T10:59:18.994Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	/9200503/redir_PTFOLRESQA1	7	24458
+ArbitraryAccessInteraction	2018-02-27T10:48:50.794Z	baa5d3d4671e50cbce686245cd8ceb2a	[200] GET /portal/da/about.html (PagesController#show)
+SearchInteraction	2018-02-27T10:53:44.151Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: paper']}	29983
+SearchInteraction	2018-02-27T10:53:52.548Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	5383
+RankedRetrieveRecordInteraction	2018-02-27T10:54:06.059Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	/2048226/81043	11	5383
+SearchInteraction	2018-02-27T10:55:21.050Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'CREATOR': ['Chanel (Designer)'], 'THUMBNAIL': ['true']}	5238
+SearchInteraction	2018-02-27T10:57:11.355Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	176
+RankedRetrieveRecordInteraction	2018-02-27T10:57:27.605Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	/91647/SMVK_MM_Cyprus_3210474	1	176
+SearchInteraction	2018-02-27T10:59:11.948Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	24458
+RankedRetrieveRecordInteraction	2018-02-27T10:59:18.994Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	/9200503/redir_PTFOLRESQA1	7	24458
+ArbitraryAccessInteraction	2018-02-27T10:48:50.794Z	baa5d3d4671e50cbce686245cd8ceb2a	[200] GET /portal/da/about.html (PagesController#show)
+SearchInteraction	2018-02-27T10:53:44.151Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: paper']}	29983
+SearchInteraction	2018-02-27T10:53:52.548Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	5383
+RankedRetrieveRecordInteraction	2018-02-27T10:54:06.059Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	/2048226/81043	11	5383
+SearchInteraction	2018-02-27T10:55:21.050Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'CREATOR': ['Chanel (Designer)'], 'THUMBNAIL': ['true']}	5238
+SearchInteraction	2018-02-27T10:57:11.355Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	176
+RankedRetrieveRecordInteraction	2018-02-27T10:57:27.605Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	/91647/SMVK_MM_Cyprus_3210474	1	176
+SearchInteraction	2018-02-27T10:59:11.948Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	24458
+RankedRetrieveRecordInteraction	2018-02-27T10:59:18.994Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	/9200503/redir_PTFOLRESQA1	7	24458
+ArbitraryAccessInteraction	2018-02-27T10:48:50.794Z	baa5d3d4671e50cbce686245cd8ceb2a	[200] GET /portal/da/about.html (PagesController#show)
+SearchInteraction	2018-02-27T10:53:44.151Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: paper']}	29983
+SearchInteraction	2018-02-27T10:53:52.548Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	5383
+RankedRetrieveRecordInteraction	2018-02-27T10:54:06.059Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: embroidery']}	/2048226/81043	11	5383
+SearchInteraction	2018-02-27T10:55:21.050Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'CREATOR': ['Chanel (Designer)'], 'THUMBNAIL': ['true']}	5238
+SearchInteraction	2018-02-27T10:57:11.355Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	176
+RankedRetrieveRecordInteraction	2018-02-27T10:57:27.605Z	baa5d3d4671e50cbce686245cd8ceb2a	timestamp_created:[2018-02-01T00:00:00.000Z TO 2018-02-28T23:59:59.000Z]	{'DATA_PROVIDER': ['Medelhavsmuseet']}	/91647/SMVK_MM_Cyprus_3210474	1	176
+SearchInteraction	2018-02-27T10:59:11.948Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	24458
+RankedRetrieveRecordInteraction	2018-02-27T10:59:18.994Z	baa5d3d4671e50cbce686245cd8ceb2a	NO VALUE PROVIDED	{'PROVIDER': ['Bibliothèque nationale de France']}	/9200503/redir_PTFOLRESQA1	7	24458

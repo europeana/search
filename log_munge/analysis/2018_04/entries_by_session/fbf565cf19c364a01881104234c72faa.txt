@@ -1,0 +1,60 @@
+ArbitraryAccessInteraction	2018-02-07T15:22:47.863Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/92065/BibliographicResource_1000056120610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T15:26:10.974Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20723487_81_297.html (PortalController#show)
+SearchInteraction	2018-02-07T15:26:19.766Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+RefreshOrPaginationInteraction	2018-02-07T15:26:26.796Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+SearchInteraction	2018-02-07T15:26:30.014Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+RankedRetrieveRecordInteraction	2018-02-07T15:26:42.725Z	fbf565cf19c364a01881104234c72faa	manderscheid		/92004/AIPDIG_NKCR__TH_021______3NZKO0B_cs	7	222
+SearchInteraction	2018-02-07T15:27:15.592Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+SearchInteraction	2018-02-07T15:27:20.379Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:25.602Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:30.328Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:41.259Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:47.925Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+ArbitraryAccessInteraction	2018-02-07T15:22:47.863Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/92065/BibliographicResource_1000056120610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T15:26:10.974Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20723487_81_297.html (PortalController#show)
+SearchInteraction	2018-02-07T15:26:19.766Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+RefreshOrPaginationInteraction	2018-02-07T15:26:26.796Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+SearchInteraction	2018-02-07T15:26:30.014Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+RankedRetrieveRecordInteraction	2018-02-07T15:26:42.725Z	fbf565cf19c364a01881104234c72faa	manderscheid		/92004/AIPDIG_NKCR__TH_021______3NZKO0B_cs	7	222
+SearchInteraction	2018-02-07T15:27:15.592Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+SearchInteraction	2018-02-07T15:27:20.379Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:25.602Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:30.328Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:41.259Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:47.925Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+ArbitraryAccessInteraction	2018-02-07T15:22:47.863Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/92065/BibliographicResource_1000056120610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T15:26:10.974Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20723487_81_297.html (PortalController#show)
+SearchInteraction	2018-02-07T15:26:19.766Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+RefreshOrPaginationInteraction	2018-02-07T15:26:26.796Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+SearchInteraction	2018-02-07T15:26:30.014Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+RankedRetrieveRecordInteraction	2018-02-07T15:26:42.725Z	fbf565cf19c364a01881104234c72faa	manderscheid		/92004/AIPDIG_NKCR__TH_021______3NZKO0B_cs	7	222
+SearchInteraction	2018-02-07T15:27:15.592Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+SearchInteraction	2018-02-07T15:27:20.379Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:25.602Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:30.328Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:41.259Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:47.925Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+ArbitraryAccessInteraction	2018-02-07T15:22:47.863Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/92065/BibliographicResource_1000056120610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T15:26:10.974Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20723487_81_297.html (PortalController#show)
+SearchInteraction	2018-02-07T15:26:19.766Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+RefreshOrPaginationInteraction	2018-02-07T15:26:26.796Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+SearchInteraction	2018-02-07T15:26:30.014Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+RankedRetrieveRecordInteraction	2018-02-07T15:26:42.725Z	fbf565cf19c364a01881104234c72faa	manderscheid		/92004/AIPDIG_NKCR__TH_021______3NZKO0B_cs	7	222
+SearchInteraction	2018-02-07T15:27:15.592Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+SearchInteraction	2018-02-07T15:27:20.379Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:25.602Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:30.328Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:41.259Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:47.925Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+ArbitraryAccessInteraction	2018-02-07T15:22:47.863Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/92065/BibliographicResource_1000056120610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T15:26:10.974Z	fbf565cf19c364a01881104234c72faa	[200] GET /portal/de/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20723487_81_297.html (PortalController#show)
+SearchInteraction	2018-02-07T15:26:19.766Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+RefreshOrPaginationInteraction	2018-02-07T15:26:26.796Z	fbf565cf19c364a01881104234c72faa	oberkail		0
+SearchInteraction	2018-02-07T15:26:30.014Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+RankedRetrieveRecordInteraction	2018-02-07T15:26:42.725Z	fbf565cf19c364a01881104234c72faa	manderscheid		/92004/AIPDIG_NKCR__TH_021______3NZKO0B_cs	7	222
+SearchInteraction	2018-02-07T15:27:15.592Z	fbf565cf19c364a01881104234c72faa	manderscheid		222
+SearchInteraction	2018-02-07T15:27:20.379Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:25.602Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:30.328Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:41.259Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185
+RefreshOrPaginationInteraction	2018-02-07T15:27:47.925Z	fbf565cf19c364a01881104234c72faa	manderscheid	{'TYPE': ['IMAGE']}	185

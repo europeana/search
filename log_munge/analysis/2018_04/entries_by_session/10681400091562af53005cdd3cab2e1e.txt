@@ -1,0 +1,90 @@
+SearchInteraction	2018-02-20T06:37:34.907Z	10681400091562af53005cdd3cab2e1e	kino		38471
+SearchInteraction	2018-02-20T06:37:44.071Z	10681400091562af53005cdd3cab2e1e	kino	{'TYPE': ['IMAGE']}	21675
+SearchInteraction	2018-02-20T06:38:01.139Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:07.325Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2058617/https___svevid_locloudhosting_net_files_original_2494b50f9c5337184779d130483b0ec6_jpg	1	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:44.387Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2048053/MUO_044436_03	10	71
+SearchInteraction	2018-02-20T06:39:01.110Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:39:23.094Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:42.417Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_MSO_H_Pl_Essek_1913	68	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:59.700Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_DAZ_ZGD_0943	69	71
+SearchInteraction	2018-02-20T06:40:11.063Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:40:31.918Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:40:38.214Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2023827/166B7EB1019257D4DE9BFC42ADD81E9F35C50D3A	71	71
+SearchInteraction	2018-02-20T06:40:46.635Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		7
+RankedRetrieveRecordInteraction	2018-02-20T06:40:55.280Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		/2026118/_MSO_P_2566	5	7
+SearchInteraction	2018-02-20T06:41:23.319Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:30.967Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/1CFF2A0675ABC0B1354B9B393719A320F549224B	2	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:50.208Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/B23663BAC32F1DF4FCC10AA6AC559D1E594CEBA2	5	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:59.280Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/38A65132D2E22561D17834A1D0E3203CBA8423AD	6	8
+SearchInteraction	2018-02-20T06:37:34.907Z	10681400091562af53005cdd3cab2e1e	kino		38471
+SearchInteraction	2018-02-20T06:37:44.071Z	10681400091562af53005cdd3cab2e1e	kino	{'TYPE': ['IMAGE']}	21675
+SearchInteraction	2018-02-20T06:38:01.139Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:07.325Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2058617/https___svevid_locloudhosting_net_files_original_2494b50f9c5337184779d130483b0ec6_jpg	1	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:44.387Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2048053/MUO_044436_03	10	71
+SearchInteraction	2018-02-20T06:39:01.110Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:39:23.094Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:42.417Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_MSO_H_Pl_Essek_1913	68	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:59.700Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_DAZ_ZGD_0943	69	71
+SearchInteraction	2018-02-20T06:40:11.063Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:40:31.918Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:40:38.214Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2023827/166B7EB1019257D4DE9BFC42ADD81E9F35C50D3A	71	71
+SearchInteraction	2018-02-20T06:40:46.635Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		7
+RankedRetrieveRecordInteraction	2018-02-20T06:40:55.280Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		/2026118/_MSO_P_2566	5	7
+SearchInteraction	2018-02-20T06:41:23.319Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:30.967Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/1CFF2A0675ABC0B1354B9B393719A320F549224B	2	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:50.208Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/B23663BAC32F1DF4FCC10AA6AC559D1E594CEBA2	5	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:59.280Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/38A65132D2E22561D17834A1D0E3203CBA8423AD	6	8
+SearchInteraction	2018-02-20T06:37:34.907Z	10681400091562af53005cdd3cab2e1e	kino		38471
+SearchInteraction	2018-02-20T06:37:44.071Z	10681400091562af53005cdd3cab2e1e	kino	{'TYPE': ['IMAGE']}	21675
+SearchInteraction	2018-02-20T06:38:01.139Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:07.325Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2058617/https___svevid_locloudhosting_net_files_original_2494b50f9c5337184779d130483b0ec6_jpg	1	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:44.387Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2048053/MUO_044436_03	10	71
+SearchInteraction	2018-02-20T06:39:01.110Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:39:23.094Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:42.417Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_MSO_H_Pl_Essek_1913	68	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:59.700Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_DAZ_ZGD_0943	69	71
+SearchInteraction	2018-02-20T06:40:11.063Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:40:31.918Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:40:38.214Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2023827/166B7EB1019257D4DE9BFC42ADD81E9F35C50D3A	71	71
+SearchInteraction	2018-02-20T06:40:46.635Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		7
+RankedRetrieveRecordInteraction	2018-02-20T06:40:55.280Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		/2026118/_MSO_P_2566	5	7
+SearchInteraction	2018-02-20T06:41:23.319Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:30.967Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/1CFF2A0675ABC0B1354B9B393719A320F549224B	2	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:50.208Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/B23663BAC32F1DF4FCC10AA6AC559D1E594CEBA2	5	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:59.280Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/38A65132D2E22561D17834A1D0E3203CBA8423AD	6	8
+SearchInteraction	2018-02-20T06:37:34.907Z	10681400091562af53005cdd3cab2e1e	kino		38471
+SearchInteraction	2018-02-20T06:37:44.071Z	10681400091562af53005cdd3cab2e1e	kino	{'TYPE': ['IMAGE']}	21675
+SearchInteraction	2018-02-20T06:38:01.139Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:07.325Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2058617/https___svevid_locloudhosting_net_files_original_2494b50f9c5337184779d130483b0ec6_jpg	1	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:44.387Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2048053/MUO_044436_03	10	71
+SearchInteraction	2018-02-20T06:39:01.110Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:39:23.094Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:42.417Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_MSO_H_Pl_Essek_1913	68	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:59.700Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_DAZ_ZGD_0943	69	71
+SearchInteraction	2018-02-20T06:40:11.063Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:40:31.918Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:40:38.214Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2023827/166B7EB1019257D4DE9BFC42ADD81E9F35C50D3A	71	71
+SearchInteraction	2018-02-20T06:40:46.635Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		7
+RankedRetrieveRecordInteraction	2018-02-20T06:40:55.280Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		/2026118/_MSO_P_2566	5	7
+SearchInteraction	2018-02-20T06:41:23.319Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:30.967Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/1CFF2A0675ABC0B1354B9B393719A320F549224B	2	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:50.208Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/B23663BAC32F1DF4FCC10AA6AC559D1E594CEBA2	5	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:59.280Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/38A65132D2E22561D17834A1D0E3203CBA8423AD	6	8
+SearchInteraction	2018-02-20T06:37:34.907Z	10681400091562af53005cdd3cab2e1e	kino		38471
+SearchInteraction	2018-02-20T06:37:44.071Z	10681400091562af53005cdd3cab2e1e	kino	{'TYPE': ['IMAGE']}	21675
+SearchInteraction	2018-02-20T06:38:01.139Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:07.325Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2058617/https___svevid_locloudhosting_net_files_original_2494b50f9c5337184779d130483b0ec6_jpg	1	71
+RankedRetrieveRecordInteraction	2018-02-20T06:38:44.387Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2048053/MUO_044436_03	10	71
+SearchInteraction	2018-02-20T06:39:01.110Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:39:23.094Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:42.417Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_MSO_H_Pl_Essek_1913	68	71
+RankedRetrieveRecordInteraction	2018-02-20T06:39:59.700Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2026118/_DAZ_ZGD_0943	69	71
+SearchInteraction	2018-02-20T06:40:11.063Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-02-20T06:40:31.918Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	71
+RankedRetrieveRecordInteraction	2018-02-20T06:40:38.214Z	10681400091562af53005cdd3cab2e1e	kino	{'COUNTRY': ['croatia'], 'TYPE': ['IMAGE']}	/2023827/166B7EB1019257D4DE9BFC42ADD81E9F35C50D3A	71	71
+SearchInteraction	2018-02-20T06:40:46.635Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		7
+RankedRetrieveRecordInteraction	2018-02-20T06:40:55.280Z	10681400091562af53005cdd3cab2e1e	who:(Axmann, Viktor)		/2026118/_MSO_P_2566	5	7
+SearchInteraction	2018-02-20T06:41:23.319Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:30.967Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/1CFF2A0675ABC0B1354B9B393719A320F549224B	2	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:50.208Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/B23663BAC32F1DF4FCC10AA6AC559D1E594CEBA2	5	8
+RankedRetrieveRecordInteraction	2018-02-20T06:41:59.280Z	10681400091562af53005cdd3cab2e1e	what:"arhitektonski projekt"		/2023827/38A65132D2E22561D17834A1D0E3203CBA8423AD	6	8

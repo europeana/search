@@ -1,0 +1,565 @@
+ArbitraryAccessInteraction	2018-03-07T07:43:28.182Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_8165.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T07:59:55.835Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:03:42.181Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:09.587Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:42.738Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4769.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:05:26.343Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:06:24.223Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:00.372Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4780.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:33.753Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4772.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:13:56.813Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:15:22.882Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:16:03.691Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:21.314Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:33.769Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:50.734Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:17:14.775Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:17:21.123Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5105	49	1825
+SearchInteraction	2018-03-07T08:17:45.989Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:18:10.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5045	67	1825
+SearchInteraction	2018-03-07T08:18:54.779Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:04.235Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:12.550Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:19.875Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:28.686Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:37.177Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:45.846Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:57.866Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:19.578Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:46.241Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:53.269Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:01.270Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:22.210Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:21:29.731Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_4694	181	1825
+ArbitraryAccessInteraction	2018-03-07T08:22:01.415Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:22:18.154Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:26.095Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:32.387Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:38.947Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:47.244Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:53.173Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:59.725Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:09.831Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:19.565Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:30.098Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:56.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:03.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:10.036Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:18.746Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:25.780Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:33.135Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:40.018Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:46.626Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:52.584Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:59.844Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:06.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:13.084Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:20.033Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:28.915Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:35.764Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:47.401Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:54.936Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:02.604Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:12.227Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:21.543Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:27.438Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:38.002Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:45.742Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:52.762Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:59.274Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:06.665Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:14.612Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:21.894Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:31.636Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:44.262Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:13.956Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:20.308Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:25.239Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:31.295Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:51.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:57.714Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:05.313Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:22.352Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:34.234Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:42.515Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:00.025Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:12.777Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:33.010Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:55.202Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:11.343Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:23.020Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:34.065Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:41.522Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:49.183Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:56.988Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:04.640Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:13.481Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:40.465Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:00.899Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:24.064Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:47.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:04.986Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:14.089Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:25.472Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:32.858Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:39.457Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:46.284Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:05.702Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:12.350Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:19.077Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:28.316Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:35.258Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:41.524Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:48.004Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+ArbitraryAccessInteraction	2018-03-07T07:43:28.182Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_8165.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T07:59:55.835Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:03:42.181Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:09.587Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:42.738Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4769.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:05:26.343Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:06:24.223Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:00.372Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4780.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:33.753Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4772.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:13:56.813Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:15:22.882Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:16:03.691Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:21.314Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:33.769Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:50.734Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:17:14.775Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:17:21.123Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5105	49	1825
+SearchInteraction	2018-03-07T08:17:45.989Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:18:10.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5045	67	1825
+SearchInteraction	2018-03-07T08:18:54.779Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:04.235Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:12.550Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:19.875Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:28.686Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:37.177Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:45.846Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:57.866Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:19.578Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:46.241Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:53.269Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:01.270Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:22.210Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:21:29.731Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_4694	181	1825
+ArbitraryAccessInteraction	2018-03-07T08:22:01.415Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:22:18.154Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:26.095Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:32.387Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:38.947Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:47.244Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:53.173Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:59.725Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:09.831Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:19.565Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:30.098Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:56.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:03.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:10.036Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:18.746Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:25.780Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:33.135Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:40.018Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:46.626Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:52.584Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:59.844Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:06.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:13.084Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:20.033Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:28.915Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:35.764Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:47.401Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:54.936Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:02.604Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:12.227Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:21.543Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:27.438Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:38.002Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:45.742Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:52.762Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:59.274Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:06.665Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:14.612Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:21.894Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:31.636Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:44.262Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:13.956Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:20.308Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:25.239Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:31.295Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:51.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:57.714Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:05.313Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:22.352Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:34.234Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:42.515Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:00.025Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:12.777Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:33.010Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:55.202Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:11.343Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:23.020Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:34.065Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:41.522Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:49.183Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:56.988Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:04.640Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:13.481Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:40.465Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:00.899Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:24.064Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:47.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:04.986Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:14.089Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:25.472Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:32.858Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:39.457Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:46.284Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:05.702Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:12.350Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:19.077Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:28.316Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:35.258Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:41.524Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:48.004Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+ArbitraryAccessInteraction	2018-03-07T07:43:28.182Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_8165.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T07:59:55.835Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:03:42.181Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:09.587Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:42.738Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4769.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:05:26.343Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:06:24.223Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:00.372Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4780.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:33.753Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4772.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:13:56.813Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:15:22.882Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:16:03.691Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:21.314Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:33.769Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:50.734Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:17:14.775Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:17:21.123Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5105	49	1825
+SearchInteraction	2018-03-07T08:17:45.989Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:18:10.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5045	67	1825
+SearchInteraction	2018-03-07T08:18:54.779Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:04.235Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:12.550Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:19.875Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:28.686Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:37.177Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:45.846Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:57.866Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:19.578Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:46.241Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:53.269Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:01.270Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:22.210Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:21:29.731Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_4694	181	1825
+ArbitraryAccessInteraction	2018-03-07T08:22:01.415Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:22:18.154Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:26.095Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:32.387Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:38.947Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:47.244Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:53.173Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:59.725Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:09.831Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:19.565Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:30.098Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:56.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:03.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:10.036Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:18.746Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:25.780Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:33.135Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:40.018Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:46.626Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:52.584Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:59.844Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:06.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:13.084Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:20.033Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:28.915Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:35.764Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:47.401Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:54.936Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:02.604Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:12.227Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:21.543Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:27.438Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:38.002Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:45.742Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:52.762Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:59.274Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:06.665Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:14.612Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:21.894Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:31.636Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:44.262Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:13.956Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:20.308Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:25.239Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:31.295Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:51.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:57.714Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:05.313Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:22.352Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:34.234Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:42.515Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:00.025Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:12.777Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:33.010Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:55.202Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:11.343Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:23.020Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:34.065Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:41.522Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:49.183Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:56.988Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:04.640Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:13.481Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:40.465Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:00.899Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:24.064Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:47.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:04.986Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:14.089Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:25.472Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:32.858Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:39.457Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:46.284Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:05.702Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:12.350Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:19.077Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:28.316Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:35.258Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:41.524Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:48.004Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+ArbitraryAccessInteraction	2018-03-07T07:43:28.182Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_8165.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T07:59:55.835Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:03:42.181Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:09.587Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:42.738Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4769.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:05:26.343Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:06:24.223Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:00.372Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4780.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:33.753Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4772.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:13:56.813Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:15:22.882Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:16:03.691Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:21.314Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:33.769Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:50.734Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:17:14.775Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:17:21.123Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5105	49	1825
+SearchInteraction	2018-03-07T08:17:45.989Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:18:10.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5045	67	1825
+SearchInteraction	2018-03-07T08:18:54.779Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:04.235Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:12.550Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:19.875Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:28.686Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:37.177Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:45.846Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:57.866Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:19.578Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:46.241Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:53.269Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:01.270Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:22.210Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:21:29.731Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_4694	181	1825
+ArbitraryAccessInteraction	2018-03-07T08:22:01.415Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:22:18.154Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:26.095Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:32.387Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:38.947Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:47.244Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:53.173Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:59.725Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:09.831Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:19.565Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:30.098Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:56.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:03.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:10.036Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:18.746Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:25.780Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:33.135Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:40.018Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:46.626Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:52.584Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:59.844Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:06.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:13.084Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:20.033Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:28.915Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:35.764Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:47.401Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:54.936Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:02.604Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:12.227Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:21.543Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:27.438Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:38.002Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:45.742Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:52.762Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:59.274Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:06.665Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:14.612Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:21.894Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:31.636Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:44.262Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:13.956Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:20.308Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:25.239Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:31.295Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:51.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:57.714Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:05.313Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:22.352Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:34.234Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:42.515Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:00.025Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:12.777Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:33.010Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:55.202Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:11.343Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:23.020Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:34.065Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:41.522Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:49.183Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:56.988Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:04.640Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:13.481Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:40.465Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:00.899Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:24.064Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:47.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:04.986Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:14.089Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:25.472Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:32.858Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:39.457Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:46.284Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:05.702Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:12.350Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:19.077Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:28.316Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:35.258Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:41.524Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:48.004Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+ArbitraryAccessInteraction	2018-03-07T07:43:28.182Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_8165.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T07:59:55.835Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:03:42.181Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:09.587Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:04:42.738Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4769.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:05:26.343Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4784.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:06:24.223Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:00.372Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4780.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:07:33.753Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2048713/UJAEN_HASSET_4772.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:13:56.813Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T08:15:22.882Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:16:03.691Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:21.314Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:33.769Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:16:50.734Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:17:14.775Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:17:21.123Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5105	49	1825
+SearchInteraction	2018-03-07T08:17:45.989Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:18:10.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_5045	67	1825
+SearchInteraction	2018-03-07T08:18:54.779Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:04.235Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:12.550Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:19.875Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:28.686Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:37.177Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:45.846Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:19:57.866Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:19.578Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:46.241Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:20:53.269Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:01.270Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:21:22.210Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RankedRetrieveRecordInteraction	2018-03-07T08:21:29.731Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		/2048713/UJAEN_HASSET_4694	181	1825
+ArbitraryAccessInteraction	2018-03-07T08:22:01.415Z	c16c2c5d86b66ed319a20460c9b2b835	[200] GET /portal/es/record/2020738/UJAEN_HASSET_6964.html (PortalController#show)
+SearchInteraction	2018-03-07T08:22:18.154Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:26.095Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:32.387Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:38.947Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:47.244Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:53.173Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:22:59.725Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:09.831Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:19.565Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:30.098Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:23:56.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:03.268Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:10.036Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:18.746Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:25.780Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:33.135Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:40.018Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:46.626Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:52.584Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:24:59.844Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:06.889Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:13.084Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:20.033Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:28.915Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:35.764Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:47.401Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:25:54.936Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:02.604Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:12.227Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:21.543Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:27.438Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:38.002Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:45.742Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:52.762Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:26:59.274Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:06.665Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:14.612Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:21.894Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:31.636Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:27:44.262Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:13.956Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:20.308Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:25.239Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:31.295Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:51.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:28:57.714Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:05.313Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:22.352Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:34.234Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:29:42.515Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:00.025Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:12.777Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:33.010Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:30:55.202Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:11.343Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:23.020Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:34.065Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:41.522Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:49.183Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:31:56.988Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:04.640Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:13.481Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:32:40.465Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:00.899Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:24.064Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:33:47.362Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:04.986Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:14.089Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:25.472Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:32.858Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:39.457Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:34:46.284Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:05.702Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:12.350Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:19.077Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:28.316Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:35.258Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:41.524Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825
+RefreshOrPaginationInteraction	2018-03-07T08:35:48.004Z	c16c2c5d86b66ed319a20460c9b2b835	DATA_PROVIDER:"Instituto de Arqueología Ibérica-Universidad de Jaén"		1825

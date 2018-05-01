@@ -1,0 +1,145 @@
+ArbitraryAccessInteraction	2018-03-06T04:00:22.909Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056264_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:00:34.866Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056265_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:42.102Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056315_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:43.995Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/it/record/08611/UC_00056120_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:46.665Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056119_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:52.023Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056258_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:02:17.163Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RefreshOrPaginationInteraction	2018-03-06T04:02:43.206Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:52.311Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056256_0	17	65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:53.552Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056255_0	18	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:03.365Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056194_0	24	65
+SearchInteraction	2018-03-06T04:03:04.635Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:11.413Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056148_0	28	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:16.542Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056124_0	32	65
+SearchInteraction	2018-03-06T04:03:22.770Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:35.302Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056104_0	44	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:37.189Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056103_0	45	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:39.609Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056041_0	47	65
+SearchInteraction	2018-03-06T04:03:46.334Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:50.240Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056009_0	50	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:55.554Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055916_0	54	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:58.659Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055874_0	58	65
+SearchInteraction	2018-03-06T04:04:02.454Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:04:07.149Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055214_0	63	65
+ArbitraryAccessInteraction	2018-03-06T04:05:19.600Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056253_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:06:01.526Z	550d88ed9d364bc2d5a093d8487371db	europeana_collectionName:(08611_Ag_EU_EFG_Cineteca_del_Comune_di_Bologna)		39426
+SearchInteraction	2018-03-06T04:06:15.715Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T04:06:17.564Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T04:06:22.966Z	550d88ed9d364bc2d5a093d8487371db	nudi		1033
+ArbitraryAccessInteraction	2018-03-06T04:00:22.909Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056264_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:00:34.866Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056265_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:42.102Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056315_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:43.995Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/it/record/08611/UC_00056120_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:46.665Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056119_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:52.023Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056258_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:02:17.163Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RefreshOrPaginationInteraction	2018-03-06T04:02:43.206Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:52.311Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056256_0	17	65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:53.552Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056255_0	18	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:03.365Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056194_0	24	65
+SearchInteraction	2018-03-06T04:03:04.635Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:11.413Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056148_0	28	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:16.542Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056124_0	32	65
+SearchInteraction	2018-03-06T04:03:22.770Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:35.302Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056104_0	44	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:37.189Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056103_0	45	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:39.609Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056041_0	47	65
+SearchInteraction	2018-03-06T04:03:46.334Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:50.240Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056009_0	50	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:55.554Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055916_0	54	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:58.659Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055874_0	58	65
+SearchInteraction	2018-03-06T04:04:02.454Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:04:07.149Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055214_0	63	65
+ArbitraryAccessInteraction	2018-03-06T04:05:19.600Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056253_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:06:01.526Z	550d88ed9d364bc2d5a093d8487371db	europeana_collectionName:(08611_Ag_EU_EFG_Cineteca_del_Comune_di_Bologna)		39426
+SearchInteraction	2018-03-06T04:06:15.715Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T04:06:17.564Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T04:06:22.966Z	550d88ed9d364bc2d5a093d8487371db	nudi		1033
+ArbitraryAccessInteraction	2018-03-06T04:00:22.909Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056264_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:00:34.866Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056265_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:42.102Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056315_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:43.995Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/it/record/08611/UC_00056120_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:46.665Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056119_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:52.023Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056258_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:02:17.163Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RefreshOrPaginationInteraction	2018-03-06T04:02:43.206Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:52.311Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056256_0	17	65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:53.552Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056255_0	18	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:03.365Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056194_0	24	65
+SearchInteraction	2018-03-06T04:03:04.635Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:11.413Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056148_0	28	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:16.542Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056124_0	32	65
+SearchInteraction	2018-03-06T04:03:22.770Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:35.302Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056104_0	44	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:37.189Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056103_0	45	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:39.609Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056041_0	47	65
+SearchInteraction	2018-03-06T04:03:46.334Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:50.240Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056009_0	50	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:55.554Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055916_0	54	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:58.659Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055874_0	58	65
+SearchInteraction	2018-03-06T04:04:02.454Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:04:07.149Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055214_0	63	65
+ArbitraryAccessInteraction	2018-03-06T04:05:19.600Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056253_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:06:01.526Z	550d88ed9d364bc2d5a093d8487371db	europeana_collectionName:(08611_Ag_EU_EFG_Cineteca_del_Comune_di_Bologna)		39426
+SearchInteraction	2018-03-06T04:06:15.715Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T04:06:17.564Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T04:06:22.966Z	550d88ed9d364bc2d5a093d8487371db	nudi		1033
+ArbitraryAccessInteraction	2018-03-06T04:00:22.909Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056264_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:00:34.866Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056265_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:42.102Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056315_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:43.995Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/it/record/08611/UC_00056120_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:46.665Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056119_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:52.023Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056258_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:02:17.163Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RefreshOrPaginationInteraction	2018-03-06T04:02:43.206Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:52.311Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056256_0	17	65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:53.552Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056255_0	18	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:03.365Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056194_0	24	65
+SearchInteraction	2018-03-06T04:03:04.635Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:11.413Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056148_0	28	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:16.542Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056124_0	32	65
+SearchInteraction	2018-03-06T04:03:22.770Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:35.302Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056104_0	44	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:37.189Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056103_0	45	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:39.609Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056041_0	47	65
+SearchInteraction	2018-03-06T04:03:46.334Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:50.240Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056009_0	50	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:55.554Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055916_0	54	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:58.659Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055874_0	58	65
+SearchInteraction	2018-03-06T04:04:02.454Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:04:07.149Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055214_0	63	65
+ArbitraryAccessInteraction	2018-03-06T04:05:19.600Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056253_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:06:01.526Z	550d88ed9d364bc2d5a093d8487371db	europeana_collectionName:(08611_Ag_EU_EFG_Cineteca_del_Comune_di_Bologna)		39426
+SearchInteraction	2018-03-06T04:06:15.715Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T04:06:17.564Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T04:06:22.966Z	550d88ed9d364bc2d5a093d8487371db	nudi		1033
+ArbitraryAccessInteraction	2018-03-06T04:00:22.909Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056264_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:00:34.866Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056265_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:42.102Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/et/record/08611/UC_00056315_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:43.995Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/it/record/08611/UC_00056120_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:46.665Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056119_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T04:01:52.023Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056258_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:02:17.163Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RefreshOrPaginationInteraction	2018-03-06T04:02:43.206Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:52.311Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056256_0	17	65
+RankedRetrieveRecordInteraction	2018-03-06T04:02:53.552Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056255_0	18	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:03.365Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056194_0	24	65
+SearchInteraction	2018-03-06T04:03:04.635Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:11.413Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056148_0	28	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:16.542Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056124_0	32	65
+SearchInteraction	2018-03-06T04:03:22.770Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:35.302Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056104_0	44	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:37.189Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056103_0	45	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:39.609Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056041_0	47	65
+SearchInteraction	2018-03-06T04:03:46.334Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:50.240Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00056009_0	50	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:55.554Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055916_0	54	65
+RankedRetrieveRecordInteraction	2018-03-06T04:03:58.659Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055874_0	58	65
+SearchInteraction	2018-03-06T04:04:02.454Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		65
+RankedRetrieveRecordInteraction	2018-03-06T04:04:07.149Z	550d88ed9d364bc2d5a093d8487371db	who:(Barbara, Grandi)		/08611/UC_00055214_0	63	65
+ArbitraryAccessInteraction	2018-03-06T04:05:19.600Z	550d88ed9d364bc2d5a093d8487371db	[200] GET /portal/es/record/08611/UC_00056253_0.html (PortalController#show)
+SearchInteraction	2018-03-06T04:06:01.526Z	550d88ed9d364bc2d5a093d8487371db	europeana_collectionName:(08611_Ag_EU_EFG_Cineteca_del_Comune_di_Bologna)		39426
+SearchInteraction	2018-03-06T04:06:15.715Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T04:06:17.564Z	550d88ed9d364bc2d5a093d8487371db	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T04:06:22.966Z	550d88ed9d364bc2d5a093d8487371db	nudi		1033

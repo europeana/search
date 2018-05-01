@@ -1,0 +1,175 @@
+SearchInteraction	2018-03-09T13:34:41.401Z	9d675e4e2a77471c948bf01c8c9760ef	Singspielhalle		1
+SearchInteraction	2018-03-09T13:34:54.337Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-09T13:34:56.001Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:02.736Z	9d675e4e2a77471c948bf01c8c9760ef	Music Hall		6790
+SearchInteraction	2018-03-09T13:35:39.262Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:45.454Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+RefreshOrPaginationInteraction	2018-03-09T13:36:30.926Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+CollectionFilterAdditionInteraction	2018-03-09T13:37:29.585Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		0
+CollectionFilterRemovalInteraction	2018-03-12T11:35:10.456Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+SearchInteraction	2018-03-12T11:35:16.382Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T11:35:25.019Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant		194
+SearchInteraction	2018-03-12T11:35:32.001Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	104
+CollectionFilterRemovalInteraction	2018-03-12T11:43:41.196Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	3
+RankedRetrieveRecordInteraction	2018-03-12T11:43:54.079Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	/2059222/5545_html	2	3
+SearchInteraction	2018-03-12T11:44:20.223Z	9d675e4e2a77471c948bf01c8c9760ef	europeana_collectionName:(2059222_Ag_EU_eSOUNDS_1030_LARHRA-CNRS)		10046
+SearchInteraction	2018-03-12T12:54:02.292Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret		3986
+SearchInteraction	2018-03-12T12:54:13.182Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'TYPE': ['IMAGE']}	3130
+SearchInteraction	2018-03-12T12:54:28.264Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:54:56.378Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:55:32.159Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:18.555Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:32.864Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:46.479Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RankedRetrieveRecordInteraction	2018-03-12T12:57:31.866Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_5592_1	63	136
+SearchInteraction	2018-03-12T12:58:19.562Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:39.829Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:58.811Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:13.119Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:23.549Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:38.856Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-03-13T08:41:30.824Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied		406
+SearchInteraction	2018-03-13T08:41:45.853Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND']}	2
+SearchInteraction	2018-03-13T08:42:08.324Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RefreshOrPaginationInteraction	2018-03-13T08:42:09.841Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-03-13T08:42:44.171Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	/2023601/oai_eu_dismarc_GHT_001_00000P72A756	5	5
+SearchInteraction	2018-03-09T13:34:41.401Z	9d675e4e2a77471c948bf01c8c9760ef	Singspielhalle		1
+SearchInteraction	2018-03-09T13:34:54.337Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-09T13:34:56.001Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:02.736Z	9d675e4e2a77471c948bf01c8c9760ef	Music Hall		6790
+SearchInteraction	2018-03-09T13:35:39.262Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:45.454Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+RefreshOrPaginationInteraction	2018-03-09T13:36:30.926Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+CollectionFilterAdditionInteraction	2018-03-09T13:37:29.585Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		0
+CollectionFilterRemovalInteraction	2018-03-12T11:35:10.456Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+SearchInteraction	2018-03-12T11:35:16.382Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T11:35:25.019Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant		194
+SearchInteraction	2018-03-12T11:35:32.001Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	104
+CollectionFilterRemovalInteraction	2018-03-12T11:43:41.196Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	3
+RankedRetrieveRecordInteraction	2018-03-12T11:43:54.079Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	/2059222/5545_html	2	3
+SearchInteraction	2018-03-12T11:44:20.223Z	9d675e4e2a77471c948bf01c8c9760ef	europeana_collectionName:(2059222_Ag_EU_eSOUNDS_1030_LARHRA-CNRS)		10046
+SearchInteraction	2018-03-12T12:54:02.292Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret		3986
+SearchInteraction	2018-03-12T12:54:13.182Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'TYPE': ['IMAGE']}	3130
+SearchInteraction	2018-03-12T12:54:28.264Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:54:56.378Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:55:32.159Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:18.555Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:32.864Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:46.479Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RankedRetrieveRecordInteraction	2018-03-12T12:57:31.866Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_5592_1	63	136
+SearchInteraction	2018-03-12T12:58:19.562Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:39.829Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:58.811Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:13.119Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:23.549Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:38.856Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-03-13T08:41:30.824Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied		406
+SearchInteraction	2018-03-13T08:41:45.853Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND']}	2
+SearchInteraction	2018-03-13T08:42:08.324Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RefreshOrPaginationInteraction	2018-03-13T08:42:09.841Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-03-13T08:42:44.171Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	/2023601/oai_eu_dismarc_GHT_001_00000P72A756	5	5
+SearchInteraction	2018-03-09T13:34:41.401Z	9d675e4e2a77471c948bf01c8c9760ef	Singspielhalle		1
+SearchInteraction	2018-03-09T13:34:54.337Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-09T13:34:56.001Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:02.736Z	9d675e4e2a77471c948bf01c8c9760ef	Music Hall		6790
+SearchInteraction	2018-03-09T13:35:39.262Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:45.454Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+RefreshOrPaginationInteraction	2018-03-09T13:36:30.926Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+CollectionFilterAdditionInteraction	2018-03-09T13:37:29.585Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		0
+CollectionFilterRemovalInteraction	2018-03-12T11:35:10.456Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+SearchInteraction	2018-03-12T11:35:16.382Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T11:35:25.019Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant		194
+SearchInteraction	2018-03-12T11:35:32.001Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	104
+CollectionFilterRemovalInteraction	2018-03-12T11:43:41.196Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	3
+RankedRetrieveRecordInteraction	2018-03-12T11:43:54.079Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	/2059222/5545_html	2	3
+SearchInteraction	2018-03-12T11:44:20.223Z	9d675e4e2a77471c948bf01c8c9760ef	europeana_collectionName:(2059222_Ag_EU_eSOUNDS_1030_LARHRA-CNRS)		10046
+SearchInteraction	2018-03-12T12:54:02.292Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret		3986
+SearchInteraction	2018-03-12T12:54:13.182Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'TYPE': ['IMAGE']}	3130
+SearchInteraction	2018-03-12T12:54:28.264Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:54:56.378Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:55:32.159Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:18.555Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:32.864Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:46.479Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RankedRetrieveRecordInteraction	2018-03-12T12:57:31.866Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_5592_1	63	136
+SearchInteraction	2018-03-12T12:58:19.562Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:39.829Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:58.811Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:13.119Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:23.549Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:38.856Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-03-13T08:41:30.824Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied		406
+SearchInteraction	2018-03-13T08:41:45.853Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND']}	2
+SearchInteraction	2018-03-13T08:42:08.324Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RefreshOrPaginationInteraction	2018-03-13T08:42:09.841Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-03-13T08:42:44.171Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	/2023601/oai_eu_dismarc_GHT_001_00000P72A756	5	5
+SearchInteraction	2018-03-09T13:34:41.401Z	9d675e4e2a77471c948bf01c8c9760ef	Singspielhalle		1
+SearchInteraction	2018-03-09T13:34:54.337Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-09T13:34:56.001Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:02.736Z	9d675e4e2a77471c948bf01c8c9760ef	Music Hall		6790
+SearchInteraction	2018-03-09T13:35:39.262Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:45.454Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+RefreshOrPaginationInteraction	2018-03-09T13:36:30.926Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+CollectionFilterAdditionInteraction	2018-03-09T13:37:29.585Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		0
+CollectionFilterRemovalInteraction	2018-03-12T11:35:10.456Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+SearchInteraction	2018-03-12T11:35:16.382Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T11:35:25.019Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant		194
+SearchInteraction	2018-03-12T11:35:32.001Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	104
+CollectionFilterRemovalInteraction	2018-03-12T11:43:41.196Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	3
+RankedRetrieveRecordInteraction	2018-03-12T11:43:54.079Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	/2059222/5545_html	2	3
+SearchInteraction	2018-03-12T11:44:20.223Z	9d675e4e2a77471c948bf01c8c9760ef	europeana_collectionName:(2059222_Ag_EU_eSOUNDS_1030_LARHRA-CNRS)		10046
+SearchInteraction	2018-03-12T12:54:02.292Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret		3986
+SearchInteraction	2018-03-12T12:54:13.182Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'TYPE': ['IMAGE']}	3130
+SearchInteraction	2018-03-12T12:54:28.264Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:54:56.378Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:55:32.159Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:18.555Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:32.864Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:46.479Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RankedRetrieveRecordInteraction	2018-03-12T12:57:31.866Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_5592_1	63	136
+SearchInteraction	2018-03-12T12:58:19.562Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:39.829Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:58.811Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:13.119Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:23.549Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:38.856Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-03-13T08:41:30.824Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied		406
+SearchInteraction	2018-03-13T08:41:45.853Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND']}	2
+SearchInteraction	2018-03-13T08:42:08.324Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RefreshOrPaginationInteraction	2018-03-13T08:42:09.841Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-03-13T08:42:44.171Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	/2023601/oai_eu_dismarc_GHT_001_00000P72A756	5	5
+SearchInteraction	2018-03-09T13:34:41.401Z	9d675e4e2a77471c948bf01c8c9760ef	Singspielhalle		1
+SearchInteraction	2018-03-09T13:34:54.337Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-09T13:34:56.001Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:02.736Z	9d675e4e2a77471c948bf01c8c9760ef	Music Hall		6790
+SearchInteraction	2018-03-09T13:35:39.262Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T13:35:45.454Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+RefreshOrPaginationInteraction	2018-03-09T13:36:30.926Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+CollectionFilterAdditionInteraction	2018-03-09T13:37:29.585Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		0
+CollectionFilterRemovalInteraction	2018-03-12T11:35:10.456Z	9d675e4e2a77471c948bf01c8c9760ef	Café concert		203
+SearchInteraction	2018-03-12T11:35:16.382Z	9d675e4e2a77471c948bf01c8c9760ef	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T11:35:25.019Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant		194
+SearchInteraction	2018-03-12T11:35:32.001Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	104
+CollectionFilterRemovalInteraction	2018-03-12T11:43:41.196Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	3
+RankedRetrieveRecordInteraction	2018-03-12T11:43:54.079Z	9d675e4e2a77471c948bf01c8c9760ef	Aristide Bruant	{'TYPE': ['SOUND']}	/2059222/5545_html	2	3
+SearchInteraction	2018-03-12T11:44:20.223Z	9d675e4e2a77471c948bf01c8c9760ef	europeana_collectionName:(2059222_Ag_EU_eSOUNDS_1030_LARHRA-CNRS)		10046
+SearchInteraction	2018-03-12T12:54:02.292Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret		3986
+SearchInteraction	2018-03-12T12:54:13.182Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'TYPE': ['IMAGE']}	3130
+SearchInteraction	2018-03-12T12:54:28.264Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:54:56.378Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:55:32.159Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:18.555Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:32.864Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:56:46.479Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RankedRetrieveRecordInteraction	2018-03-12T12:57:31.866Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_5592_1	63	136
+SearchInteraction	2018-03-12T12:58:19.562Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:39.829Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:58:58.811Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:13.119Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:23.549Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-03-12T12:59:38.856Z	9d675e4e2a77471c948bf01c8c9760ef	Cabaret	{'IMAGE_COLOUR': ['false'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-03-13T08:41:30.824Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied		406
+SearchInteraction	2018-03-13T08:41:45.853Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND']}	2
+SearchInteraction	2018-03-13T08:42:08.324Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RefreshOrPaginationInteraction	2018-03-13T08:42:09.841Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-03-13T08:42:44.171Z	9d675e4e2a77471c948bf01c8c9760ef	Schaukellied	{'TYPE': ['SOUND', 'VIDEO']}	/2023601/oai_eu_dismarc_GHT_001_00000P72A756	5	5

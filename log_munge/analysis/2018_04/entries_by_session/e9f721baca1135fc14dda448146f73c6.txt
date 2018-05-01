@@ -1,0 +1,330 @@
+ArbitraryAccessInteraction	2018-02-26T13:25:45.919Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_89142_SC_id_RC_1_SRV_true_LANG_bg_SA_89142.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:28:47.541Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_102234_SC_id_RC_1_SRV_true_LANG_bg_SA_102234.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:29:39.276Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_99613_SC_id_RC_1_SRV_true_LANG_bg_SA_99613.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:20:05.875Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100344_SC_id_RC_1_SRV_true_LANG_bg_SA_100344.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:21:16.449Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_93410_SC_id_RC_1_SRV_true_LANG_bg_SA_93410.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:11.052Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94718_SC_id_RC_1_SRV_true_LANG_bg_SA_94718.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:45.245Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100374_SC_id_RC_1_SRV_true_LANG_bg_SA_100374.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:24:29.631Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100022_SC_id_RC_1_SRV_true_LANG_bg_SA_100022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:25:40.502Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100021_SC_id_RC_1_SRV_true_LANG_bg_SA_100021.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:28:44.023Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_101478_SC_id_RC_1_SRV_true_LANG_bg_SA_101478.html (PortalController#show)
+SearchInteraction	2018-02-26T14:29:15.490Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+RankedRetrieveRecordInteraction	2018-02-26T14:29:23.511Z	e9f721baca1135fc14dda448146f73c6	оркестър		/2058631/object_PSRL_17022235	3	101
+SearchInteraction	2018-02-26T14:30:37.073Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+CollectionFilterAdditionInteraction	2018-02-26T14:30:55.576Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:31:09.219Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RankedRetrieveRecordInteraction	2018-02-26T14:31:25.267Z	e9f721baca1135fc14dda448146f73c6	оркестър		/0943103/FC2FA3989B9CF0A02D0E792E88098E066EAFFB1A	12	61
+SearchInteraction	2018-02-26T14:31:45.459Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RefreshOrPaginationInteraction	2018-02-26T14:31:59.614Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+CollectionFilterAdditionInteraction	2018-02-26T14:32:16.335Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+CollectionFilterAdditionInteraction	2018-02-26T14:32:29.330Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:32:37.169Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+SearchInteraction	2018-02-26T14:32:41.857Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		1
+SearchInteraction	2018-02-26T14:32:42.295Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+SearchInteraction	2018-02-26T14:32:45.524Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		61
+SearchInteraction	2018-02-26T14:32:48.937Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:50.503Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:52.587Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T14:33:01.822Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RefreshOrPaginationInteraction	2018-02-26T14:33:14.430Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RankedRetrieveRecordInteraction	2018-02-26T14:33:20.701Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021981	14	943
+ArbitraryAccessInteraction	2018-02-26T14:34:51.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021748.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:35:47.075Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:36:26.886Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021650.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:20.496Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021649.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:39.593Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021982.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:02.056Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021647.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:27.190Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/0943108/view_show_article_pl_id_19858_SC_id_RC_1_SRV_true_LANG_bg_SA_19858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:39:03.925Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:10.629Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:31.572Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021757.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:22.140Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021645.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:43.996Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:46:44.329Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:06.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022001.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:28.765Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022013.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:44.146Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:48:01.552Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:50:17.107Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021986.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:51:48.192Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+SearchInteraction	2018-02-26T14:52:13.857Z	e9f721baca1135fc14dda448146f73c6	DATA_PROVIDER:"Регионална библиотека ПЕНЧО СЛАВЕЙКОВ - Варна / Public Library - Varna"		19807
+SearchInteraction	2018-02-26T14:52:20.041Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:29.080Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:36.836Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:44.659Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RankedRetrieveRecordInteraction	2018-02-26T14:52:53.473Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		/2058631/object_PSRL_17022003	37	784
+ArbitraryAccessInteraction	2018-02-26T14:53:36.554Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021720.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-26T14:54:50.181Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021624	17	943
+ArbitraryAccessInteraction	2018-02-26T14:55:45.854Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:09.814Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021611.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:30.881Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021620.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:58:06.358Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94807_SC_id_RC_1_SRV_true_LANG_bg_SA_94807.html (PortalController#show)
+SearchInteraction	2018-02-26T15:19:56.039Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1946
+CollectionFilterRemovalInteraction	2018-02-26T15:20:09.526Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		28
+CollectionFilterAdditionInteraction	2018-02-26T15:20:32.567Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1
+RankedRetrieveRecordInteraction	2018-02-26T15:20:37.019Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		/09431/view_show_photos_pl_id_97004_SC_id_RC_1_SRV_true_LANG_bg_SA_97004	1	1
+SearchInteraction	2018-02-26T15:20:54.451Z	e9f721baca1135fc14dda448146f73c6	what:"Кораби, военни"		274
+ArbitraryAccessInteraction	2018-02-26T13:25:45.919Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_89142_SC_id_RC_1_SRV_true_LANG_bg_SA_89142.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:28:47.541Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_102234_SC_id_RC_1_SRV_true_LANG_bg_SA_102234.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:29:39.276Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_99613_SC_id_RC_1_SRV_true_LANG_bg_SA_99613.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:20:05.875Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100344_SC_id_RC_1_SRV_true_LANG_bg_SA_100344.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:21:16.449Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_93410_SC_id_RC_1_SRV_true_LANG_bg_SA_93410.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:11.052Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94718_SC_id_RC_1_SRV_true_LANG_bg_SA_94718.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:45.245Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100374_SC_id_RC_1_SRV_true_LANG_bg_SA_100374.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:24:29.631Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100022_SC_id_RC_1_SRV_true_LANG_bg_SA_100022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:25:40.502Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100021_SC_id_RC_1_SRV_true_LANG_bg_SA_100021.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:28:44.023Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_101478_SC_id_RC_1_SRV_true_LANG_bg_SA_101478.html (PortalController#show)
+SearchInteraction	2018-02-26T14:29:15.490Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+RankedRetrieveRecordInteraction	2018-02-26T14:29:23.511Z	e9f721baca1135fc14dda448146f73c6	оркестър		/2058631/object_PSRL_17022235	3	101
+SearchInteraction	2018-02-26T14:30:37.073Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+CollectionFilterAdditionInteraction	2018-02-26T14:30:55.576Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:31:09.219Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RankedRetrieveRecordInteraction	2018-02-26T14:31:25.267Z	e9f721baca1135fc14dda448146f73c6	оркестър		/0943103/FC2FA3989B9CF0A02D0E792E88098E066EAFFB1A	12	61
+SearchInteraction	2018-02-26T14:31:45.459Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RefreshOrPaginationInteraction	2018-02-26T14:31:59.614Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+CollectionFilterAdditionInteraction	2018-02-26T14:32:16.335Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+CollectionFilterAdditionInteraction	2018-02-26T14:32:29.330Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:32:37.169Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+SearchInteraction	2018-02-26T14:32:41.857Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		1
+SearchInteraction	2018-02-26T14:32:42.295Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+SearchInteraction	2018-02-26T14:32:45.524Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		61
+SearchInteraction	2018-02-26T14:32:48.937Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:50.503Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:52.587Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T14:33:01.822Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RefreshOrPaginationInteraction	2018-02-26T14:33:14.430Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RankedRetrieveRecordInteraction	2018-02-26T14:33:20.701Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021981	14	943
+ArbitraryAccessInteraction	2018-02-26T14:34:51.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021748.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:35:47.075Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:36:26.886Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021650.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:20.496Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021649.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:39.593Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021982.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:02.056Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021647.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:27.190Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/0943108/view_show_article_pl_id_19858_SC_id_RC_1_SRV_true_LANG_bg_SA_19858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:39:03.925Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:10.629Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:31.572Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021757.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:22.140Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021645.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:43.996Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:46:44.329Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:06.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022001.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:28.765Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022013.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:44.146Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:48:01.552Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:50:17.107Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021986.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:51:48.192Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+SearchInteraction	2018-02-26T14:52:13.857Z	e9f721baca1135fc14dda448146f73c6	DATA_PROVIDER:"Регионална библиотека ПЕНЧО СЛАВЕЙКОВ - Варна / Public Library - Varna"		19807
+SearchInteraction	2018-02-26T14:52:20.041Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:29.080Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:36.836Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:44.659Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RankedRetrieveRecordInteraction	2018-02-26T14:52:53.473Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		/2058631/object_PSRL_17022003	37	784
+ArbitraryAccessInteraction	2018-02-26T14:53:36.554Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021720.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-26T14:54:50.181Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021624	17	943
+ArbitraryAccessInteraction	2018-02-26T14:55:45.854Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:09.814Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021611.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:30.881Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021620.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:58:06.358Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94807_SC_id_RC_1_SRV_true_LANG_bg_SA_94807.html (PortalController#show)
+SearchInteraction	2018-02-26T15:19:56.039Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1946
+CollectionFilterRemovalInteraction	2018-02-26T15:20:09.526Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		28
+CollectionFilterAdditionInteraction	2018-02-26T15:20:32.567Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1
+RankedRetrieveRecordInteraction	2018-02-26T15:20:37.019Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		/09431/view_show_photos_pl_id_97004_SC_id_RC_1_SRV_true_LANG_bg_SA_97004	1	1
+SearchInteraction	2018-02-26T15:20:54.451Z	e9f721baca1135fc14dda448146f73c6	what:"Кораби, военни"		274
+ArbitraryAccessInteraction	2018-02-26T13:25:45.919Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_89142_SC_id_RC_1_SRV_true_LANG_bg_SA_89142.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:28:47.541Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_102234_SC_id_RC_1_SRV_true_LANG_bg_SA_102234.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:29:39.276Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_99613_SC_id_RC_1_SRV_true_LANG_bg_SA_99613.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:20:05.875Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100344_SC_id_RC_1_SRV_true_LANG_bg_SA_100344.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:21:16.449Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_93410_SC_id_RC_1_SRV_true_LANG_bg_SA_93410.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:11.052Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94718_SC_id_RC_1_SRV_true_LANG_bg_SA_94718.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:45.245Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100374_SC_id_RC_1_SRV_true_LANG_bg_SA_100374.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:24:29.631Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100022_SC_id_RC_1_SRV_true_LANG_bg_SA_100022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:25:40.502Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100021_SC_id_RC_1_SRV_true_LANG_bg_SA_100021.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:28:44.023Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_101478_SC_id_RC_1_SRV_true_LANG_bg_SA_101478.html (PortalController#show)
+SearchInteraction	2018-02-26T14:29:15.490Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+RankedRetrieveRecordInteraction	2018-02-26T14:29:23.511Z	e9f721baca1135fc14dda448146f73c6	оркестър		/2058631/object_PSRL_17022235	3	101
+SearchInteraction	2018-02-26T14:30:37.073Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+CollectionFilterAdditionInteraction	2018-02-26T14:30:55.576Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:31:09.219Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RankedRetrieveRecordInteraction	2018-02-26T14:31:25.267Z	e9f721baca1135fc14dda448146f73c6	оркестър		/0943103/FC2FA3989B9CF0A02D0E792E88098E066EAFFB1A	12	61
+SearchInteraction	2018-02-26T14:31:45.459Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RefreshOrPaginationInteraction	2018-02-26T14:31:59.614Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+CollectionFilterAdditionInteraction	2018-02-26T14:32:16.335Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+CollectionFilterAdditionInteraction	2018-02-26T14:32:29.330Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:32:37.169Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+SearchInteraction	2018-02-26T14:32:41.857Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		1
+SearchInteraction	2018-02-26T14:32:42.295Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+SearchInteraction	2018-02-26T14:32:45.524Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		61
+SearchInteraction	2018-02-26T14:32:48.937Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:50.503Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:52.587Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T14:33:01.822Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RefreshOrPaginationInteraction	2018-02-26T14:33:14.430Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RankedRetrieveRecordInteraction	2018-02-26T14:33:20.701Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021981	14	943
+ArbitraryAccessInteraction	2018-02-26T14:34:51.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021748.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:35:47.075Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:36:26.886Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021650.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:20.496Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021649.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:39.593Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021982.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:02.056Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021647.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:27.190Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/0943108/view_show_article_pl_id_19858_SC_id_RC_1_SRV_true_LANG_bg_SA_19858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:39:03.925Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:10.629Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:31.572Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021757.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:22.140Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021645.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:43.996Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:46:44.329Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:06.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022001.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:28.765Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022013.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:44.146Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:48:01.552Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:50:17.107Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021986.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:51:48.192Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+SearchInteraction	2018-02-26T14:52:13.857Z	e9f721baca1135fc14dda448146f73c6	DATA_PROVIDER:"Регионална библиотека ПЕНЧО СЛАВЕЙКОВ - Варна / Public Library - Varna"		19807
+SearchInteraction	2018-02-26T14:52:20.041Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:29.080Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:36.836Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:44.659Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RankedRetrieveRecordInteraction	2018-02-26T14:52:53.473Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		/2058631/object_PSRL_17022003	37	784
+ArbitraryAccessInteraction	2018-02-26T14:53:36.554Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021720.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-26T14:54:50.181Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021624	17	943
+ArbitraryAccessInteraction	2018-02-26T14:55:45.854Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:09.814Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021611.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:30.881Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021620.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:58:06.358Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94807_SC_id_RC_1_SRV_true_LANG_bg_SA_94807.html (PortalController#show)
+SearchInteraction	2018-02-26T15:19:56.039Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1946
+CollectionFilterRemovalInteraction	2018-02-26T15:20:09.526Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		28
+CollectionFilterAdditionInteraction	2018-02-26T15:20:32.567Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1
+RankedRetrieveRecordInteraction	2018-02-26T15:20:37.019Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		/09431/view_show_photos_pl_id_97004_SC_id_RC_1_SRV_true_LANG_bg_SA_97004	1	1
+SearchInteraction	2018-02-26T15:20:54.451Z	e9f721baca1135fc14dda448146f73c6	what:"Кораби, военни"		274
+ArbitraryAccessInteraction	2018-02-26T13:25:45.919Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_89142_SC_id_RC_1_SRV_true_LANG_bg_SA_89142.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:28:47.541Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_102234_SC_id_RC_1_SRV_true_LANG_bg_SA_102234.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:29:39.276Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_99613_SC_id_RC_1_SRV_true_LANG_bg_SA_99613.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:20:05.875Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100344_SC_id_RC_1_SRV_true_LANG_bg_SA_100344.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:21:16.449Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_93410_SC_id_RC_1_SRV_true_LANG_bg_SA_93410.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:11.052Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94718_SC_id_RC_1_SRV_true_LANG_bg_SA_94718.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:45.245Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100374_SC_id_RC_1_SRV_true_LANG_bg_SA_100374.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:24:29.631Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100022_SC_id_RC_1_SRV_true_LANG_bg_SA_100022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:25:40.502Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100021_SC_id_RC_1_SRV_true_LANG_bg_SA_100021.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:28:44.023Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_101478_SC_id_RC_1_SRV_true_LANG_bg_SA_101478.html (PortalController#show)
+SearchInteraction	2018-02-26T14:29:15.490Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+RankedRetrieveRecordInteraction	2018-02-26T14:29:23.511Z	e9f721baca1135fc14dda448146f73c6	оркестър		/2058631/object_PSRL_17022235	3	101
+SearchInteraction	2018-02-26T14:30:37.073Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+CollectionFilterAdditionInteraction	2018-02-26T14:30:55.576Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:31:09.219Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RankedRetrieveRecordInteraction	2018-02-26T14:31:25.267Z	e9f721baca1135fc14dda448146f73c6	оркестър		/0943103/FC2FA3989B9CF0A02D0E792E88098E066EAFFB1A	12	61
+SearchInteraction	2018-02-26T14:31:45.459Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RefreshOrPaginationInteraction	2018-02-26T14:31:59.614Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+CollectionFilterAdditionInteraction	2018-02-26T14:32:16.335Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+CollectionFilterAdditionInteraction	2018-02-26T14:32:29.330Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:32:37.169Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+SearchInteraction	2018-02-26T14:32:41.857Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		1
+SearchInteraction	2018-02-26T14:32:42.295Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+SearchInteraction	2018-02-26T14:32:45.524Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		61
+SearchInteraction	2018-02-26T14:32:48.937Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:50.503Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:52.587Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T14:33:01.822Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RefreshOrPaginationInteraction	2018-02-26T14:33:14.430Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RankedRetrieveRecordInteraction	2018-02-26T14:33:20.701Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021981	14	943
+ArbitraryAccessInteraction	2018-02-26T14:34:51.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021748.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:35:47.075Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:36:26.886Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021650.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:20.496Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021649.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:39.593Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021982.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:02.056Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021647.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:27.190Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/0943108/view_show_article_pl_id_19858_SC_id_RC_1_SRV_true_LANG_bg_SA_19858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:39:03.925Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:10.629Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:31.572Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021757.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:22.140Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021645.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:43.996Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:46:44.329Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:06.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022001.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:28.765Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022013.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:44.146Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:48:01.552Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:50:17.107Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021986.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:51:48.192Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+SearchInteraction	2018-02-26T14:52:13.857Z	e9f721baca1135fc14dda448146f73c6	DATA_PROVIDER:"Регионална библиотека ПЕНЧО СЛАВЕЙКОВ - Варна / Public Library - Varna"		19807
+SearchInteraction	2018-02-26T14:52:20.041Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:29.080Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:36.836Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:44.659Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RankedRetrieveRecordInteraction	2018-02-26T14:52:53.473Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		/2058631/object_PSRL_17022003	37	784
+ArbitraryAccessInteraction	2018-02-26T14:53:36.554Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021720.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-26T14:54:50.181Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021624	17	943
+ArbitraryAccessInteraction	2018-02-26T14:55:45.854Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:09.814Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021611.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:30.881Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021620.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:58:06.358Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94807_SC_id_RC_1_SRV_true_LANG_bg_SA_94807.html (PortalController#show)
+SearchInteraction	2018-02-26T15:19:56.039Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1946
+CollectionFilterRemovalInteraction	2018-02-26T15:20:09.526Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		28
+CollectionFilterAdditionInteraction	2018-02-26T15:20:32.567Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1
+RankedRetrieveRecordInteraction	2018-02-26T15:20:37.019Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		/09431/view_show_photos_pl_id_97004_SC_id_RC_1_SRV_true_LANG_bg_SA_97004	1	1
+SearchInteraction	2018-02-26T15:20:54.451Z	e9f721baca1135fc14dda448146f73c6	what:"Кораби, военни"		274
+ArbitraryAccessInteraction	2018-02-26T13:25:45.919Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_89142_SC_id_RC_1_SRV_true_LANG_bg_SA_89142.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:28:47.541Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_102234_SC_id_RC_1_SRV_true_LANG_bg_SA_102234.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T13:29:39.276Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_99613_SC_id_RC_1_SRV_true_LANG_bg_SA_99613.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:20:05.875Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100344_SC_id_RC_1_SRV_true_LANG_bg_SA_100344.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:21:16.449Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_93410_SC_id_RC_1_SRV_true_LANG_bg_SA_93410.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:11.052Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94718_SC_id_RC_1_SRV_true_LANG_bg_SA_94718.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:22:45.245Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100374_SC_id_RC_1_SRV_true_LANG_bg_SA_100374.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:24:29.631Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100022_SC_id_RC_1_SRV_true_LANG_bg_SA_100022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:25:40.502Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_100021_SC_id_RC_1_SRV_true_LANG_bg_SA_100021.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:28:44.023Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_101478_SC_id_RC_1_SRV_true_LANG_bg_SA_101478.html (PortalController#show)
+SearchInteraction	2018-02-26T14:29:15.490Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+RankedRetrieveRecordInteraction	2018-02-26T14:29:23.511Z	e9f721baca1135fc14dda448146f73c6	оркестър		/2058631/object_PSRL_17022235	3	101
+SearchInteraction	2018-02-26T14:30:37.073Z	e9f721baca1135fc14dda448146f73c6	оркестър		101
+CollectionFilterAdditionInteraction	2018-02-26T14:30:55.576Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:31:09.219Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RankedRetrieveRecordInteraction	2018-02-26T14:31:25.267Z	e9f721baca1135fc14dda448146f73c6	оркестър		/0943103/FC2FA3989B9CF0A02D0E792E88098E066EAFFB1A	12	61
+SearchInteraction	2018-02-26T14:31:45.459Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+RefreshOrPaginationInteraction	2018-02-26T14:31:59.614Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+CollectionFilterAdditionInteraction	2018-02-26T14:32:16.335Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+CollectionFilterAdditionInteraction	2018-02-26T14:32:29.330Z	e9f721baca1135fc14dda448146f73c6	оркестър		0
+CollectionFilterRemovalInteraction	2018-02-26T14:32:37.169Z	e9f721baca1135fc14dda448146f73c6	оркестър		1
+SearchInteraction	2018-02-26T14:32:41.857Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		1
+SearchInteraction	2018-02-26T14:32:42.295Z	e9f721baca1135fc14dda448146f73c6	оркестър		61
+SearchInteraction	2018-02-26T14:32:45.524Z	e9f721baca1135fc14dda448146f73c6	варна - оркестър		61
+SearchInteraction	2018-02-26T14:32:48.937Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:50.503Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-26T14:32:52.587Z	e9f721baca1135fc14dda448146f73c6	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T14:33:01.822Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RefreshOrPaginationInteraction	2018-02-26T14:33:14.430Z	e9f721baca1135fc14dda448146f73c6	флот		943
+RankedRetrieveRecordInteraction	2018-02-26T14:33:20.701Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021981	14	943
+ArbitraryAccessInteraction	2018-02-26T14:34:51.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021748.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:35:47.075Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:36:26.886Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021650.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:20.496Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021649.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:37:39.593Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021982.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:02.056Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021647.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:38:27.190Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/0943108/view_show_article_pl_id_19858_SC_id_RC_1_SRV_true_LANG_bg_SA_19858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:39:03.925Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:10.629Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:40:31.572Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021757.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:22.140Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021645.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:42:43.996Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:46:44.329Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:06.228Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022001.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:28.765Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022013.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:47:44.146Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:48:01.552Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:50:17.107Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021986.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:51:48.192Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17022002.html (PortalController#show)
+SearchInteraction	2018-02-26T14:52:13.857Z	e9f721baca1135fc14dda448146f73c6	DATA_PROVIDER:"Регионална библиотека ПЕНЧО СЛАВЕЙКОВ - Варна / Public Library - Varna"		19807
+SearchInteraction	2018-02-26T14:52:20.041Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:29.080Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:36.836Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RefreshOrPaginationInteraction	2018-02-26T14:52:44.659Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		784
+RankedRetrieveRecordInteraction	2018-02-26T14:52:53.473Z	e9f721baca1135fc14dda448146f73c6	what:"Военни действия и операции"		/2058631/object_PSRL_17022003	37	784
+ArbitraryAccessInteraction	2018-02-26T14:53:36.554Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021720.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-26T14:54:50.181Z	e9f721baca1135fc14dda448146f73c6	флот		/2058631/object_PSRL_17021624	17	943
+ArbitraryAccessInteraction	2018-02-26T14:55:45.854Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:09.814Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021611.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:57:30.881Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/2058631/object_PSRL_17021620.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T14:58:06.358Z	e9f721baca1135fc14dda448146f73c6	[200] GET /portal/bg/record/09431/view_show_photos_pl_id_94807_SC_id_RC_1_SRV_true_LANG_bg_SA_94807.html (PortalController#show)
+SearchInteraction	2018-02-26T15:19:56.039Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1946
+CollectionFilterRemovalInteraction	2018-02-26T15:20:09.526Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		28
+CollectionFilterAdditionInteraction	2018-02-26T15:20:32.567Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		1
+RankedRetrieveRecordInteraction	2018-02-26T15:20:37.019Z	e9f721baca1135fc14dda448146f73c6	what:"Проект Стара Варна"		/09431/view_show_photos_pl_id_97004_SC_id_RC_1_SRV_true_LANG_bg_SA_97004	1	1
+SearchInteraction	2018-02-26T15:20:54.451Z	e9f721baca1135fc14dda448146f73c6	what:"Кораби, военни"		274

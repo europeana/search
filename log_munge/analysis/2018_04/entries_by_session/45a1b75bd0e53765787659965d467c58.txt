@@ -1,0 +1,305 @@
+SearchInteraction	2018-02-19T10:19:54.960Z	45a1b75bd0e53765787659965d467c58	paris		915513
+SearchInteraction	2018-02-19T10:20:04.193Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	416261
+RankedRetrieveRecordInteraction	2018-02-19T10:20:17.238Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	/92085/lnb_zl_35727	5	416261
+SearchInteraction	2018-02-19T10:20:40.426Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+RefreshOrPaginationInteraction	2018-02-19T10:20:43.149Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+SearchInteraction	2018-02-19T10:21:10.127Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	656
+CollectionFilterRemovalInteraction	2018-02-19T10:21:13.972Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:21.676Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:26.991Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:33.168Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+SearchInteraction	2018-02-19T10:21:52.299Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:53.580Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:54.964Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:21:59.248Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:05.787Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:13.230Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+SearchInteraction	2018-02-19T10:22:21.275Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:22:32.384Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+RefreshOrPaginationInteraction	2018-02-19T10:22:41.750Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+SearchInteraction	2018-02-19T10:22:53.596Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:07.476Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_E77B0DE0_4DC6_42D2_81FD_6B0EEAF72E1E_cho	10	86
+SearchInteraction	2018-02-19T10:23:26.018Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:31.835Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:39.433Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:45.898Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_7F2C6B43_EDC4_4F87_8789_53C44DAC6717_cho	42	86
+SearchInteraction	2018-02-19T10:25:20.429Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:25:29.344Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:25:38.330Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_3A061F84_FE89_4918_AA2D_4F9B1FD0FE8F_cho	67	86
+SearchInteraction	2018-02-19T10:27:38.337Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:45.498Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:46.103Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-19T10:27:50.407Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:17.275Z	45a1b75bd0e53765787659965d467c58	valorization of photographic	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T10:28:25.503Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:36.525Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:46.189Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:54.059Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+CollectionFilterAdditionInteraction	2018-02-19T10:29:03.503Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:04.760Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:12.356Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:38.263Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:46.054Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:29:52.679Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/NG_2007_22_20	40	242
+SearchInteraction	2018-02-19T10:32:53.734Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:33:03.546Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:33:27.783Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_ZQOFCLUATC4MLUPHSEEA2D2YCFNYOENO	70	242
+SearchInteraction	2018-02-19T10:34:34.225Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:47.475Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:54.670Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:11.080Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:18.210Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:35:30.468Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_FDQ3PTGX2FLHC7RKJJUGPRO5ZDAMVQEE	129	242
+SearchInteraction	2018-02-19T10:38:19.274Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:28.748Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:56.906Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:05.440Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:12.462Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:46:03.540Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345671	190	242
+SearchInteraction	2018-02-19T10:47:05.559Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:47:10.194Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345668	193	242
+RankedRetrieveRecordInteraction	2018-02-19T10:48:01.821Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345438	195	242
+SearchInteraction	2018-02-19T10:19:54.960Z	45a1b75bd0e53765787659965d467c58	paris		915513
+SearchInteraction	2018-02-19T10:20:04.193Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	416261
+RankedRetrieveRecordInteraction	2018-02-19T10:20:17.238Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	/92085/lnb_zl_35727	5	416261
+SearchInteraction	2018-02-19T10:20:40.426Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+RefreshOrPaginationInteraction	2018-02-19T10:20:43.149Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+SearchInteraction	2018-02-19T10:21:10.127Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	656
+CollectionFilterRemovalInteraction	2018-02-19T10:21:13.972Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:21.676Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:26.991Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:33.168Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+SearchInteraction	2018-02-19T10:21:52.299Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:53.580Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:54.964Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:21:59.248Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:05.787Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:13.230Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+SearchInteraction	2018-02-19T10:22:21.275Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:22:32.384Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+RefreshOrPaginationInteraction	2018-02-19T10:22:41.750Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+SearchInteraction	2018-02-19T10:22:53.596Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:07.476Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_E77B0DE0_4DC6_42D2_81FD_6B0EEAF72E1E_cho	10	86
+SearchInteraction	2018-02-19T10:23:26.018Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:31.835Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:39.433Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:45.898Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_7F2C6B43_EDC4_4F87_8789_53C44DAC6717_cho	42	86
+SearchInteraction	2018-02-19T10:25:20.429Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:25:29.344Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:25:38.330Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_3A061F84_FE89_4918_AA2D_4F9B1FD0FE8F_cho	67	86
+SearchInteraction	2018-02-19T10:27:38.337Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:45.498Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:46.103Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-19T10:27:50.407Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:17.275Z	45a1b75bd0e53765787659965d467c58	valorization of photographic	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T10:28:25.503Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:36.525Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:46.189Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:54.059Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+CollectionFilterAdditionInteraction	2018-02-19T10:29:03.503Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:04.760Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:12.356Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:38.263Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:46.054Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:29:52.679Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/NG_2007_22_20	40	242
+SearchInteraction	2018-02-19T10:32:53.734Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:33:03.546Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:33:27.783Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_ZQOFCLUATC4MLUPHSEEA2D2YCFNYOENO	70	242
+SearchInteraction	2018-02-19T10:34:34.225Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:47.475Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:54.670Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:11.080Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:18.210Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:35:30.468Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_FDQ3PTGX2FLHC7RKJJUGPRO5ZDAMVQEE	129	242
+SearchInteraction	2018-02-19T10:38:19.274Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:28.748Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:56.906Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:05.440Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:12.462Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:46:03.540Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345671	190	242
+SearchInteraction	2018-02-19T10:47:05.559Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:47:10.194Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345668	193	242
+RankedRetrieveRecordInteraction	2018-02-19T10:48:01.821Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345438	195	242
+SearchInteraction	2018-02-19T10:19:54.960Z	45a1b75bd0e53765787659965d467c58	paris		915513
+SearchInteraction	2018-02-19T10:20:04.193Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	416261
+RankedRetrieveRecordInteraction	2018-02-19T10:20:17.238Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	/92085/lnb_zl_35727	5	416261
+SearchInteraction	2018-02-19T10:20:40.426Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+RefreshOrPaginationInteraction	2018-02-19T10:20:43.149Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+SearchInteraction	2018-02-19T10:21:10.127Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	656
+CollectionFilterRemovalInteraction	2018-02-19T10:21:13.972Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:21.676Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:26.991Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:33.168Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+SearchInteraction	2018-02-19T10:21:52.299Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:53.580Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:54.964Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:21:59.248Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:05.787Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:13.230Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+SearchInteraction	2018-02-19T10:22:21.275Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:22:32.384Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+RefreshOrPaginationInteraction	2018-02-19T10:22:41.750Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+SearchInteraction	2018-02-19T10:22:53.596Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:07.476Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_E77B0DE0_4DC6_42D2_81FD_6B0EEAF72E1E_cho	10	86
+SearchInteraction	2018-02-19T10:23:26.018Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:31.835Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:39.433Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:45.898Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_7F2C6B43_EDC4_4F87_8789_53C44DAC6717_cho	42	86
+SearchInteraction	2018-02-19T10:25:20.429Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:25:29.344Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:25:38.330Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_3A061F84_FE89_4918_AA2D_4F9B1FD0FE8F_cho	67	86
+SearchInteraction	2018-02-19T10:27:38.337Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:45.498Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:46.103Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-19T10:27:50.407Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:17.275Z	45a1b75bd0e53765787659965d467c58	valorization of photographic	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T10:28:25.503Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:36.525Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:46.189Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:54.059Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+CollectionFilterAdditionInteraction	2018-02-19T10:29:03.503Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:04.760Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:12.356Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:38.263Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:46.054Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:29:52.679Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/NG_2007_22_20	40	242
+SearchInteraction	2018-02-19T10:32:53.734Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:33:03.546Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:33:27.783Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_ZQOFCLUATC4MLUPHSEEA2D2YCFNYOENO	70	242
+SearchInteraction	2018-02-19T10:34:34.225Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:47.475Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:54.670Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:11.080Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:18.210Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:35:30.468Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_FDQ3PTGX2FLHC7RKJJUGPRO5ZDAMVQEE	129	242
+SearchInteraction	2018-02-19T10:38:19.274Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:28.748Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:56.906Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:05.440Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:12.462Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:46:03.540Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345671	190	242
+SearchInteraction	2018-02-19T10:47:05.559Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:47:10.194Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345668	193	242
+RankedRetrieveRecordInteraction	2018-02-19T10:48:01.821Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345438	195	242
+SearchInteraction	2018-02-19T10:19:54.960Z	45a1b75bd0e53765787659965d467c58	paris		915513
+SearchInteraction	2018-02-19T10:20:04.193Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	416261
+RankedRetrieveRecordInteraction	2018-02-19T10:20:17.238Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	/92085/lnb_zl_35727	5	416261
+SearchInteraction	2018-02-19T10:20:40.426Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+RefreshOrPaginationInteraction	2018-02-19T10:20:43.149Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+SearchInteraction	2018-02-19T10:21:10.127Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	656
+CollectionFilterRemovalInteraction	2018-02-19T10:21:13.972Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:21.676Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:26.991Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:33.168Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+SearchInteraction	2018-02-19T10:21:52.299Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:53.580Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:54.964Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:21:59.248Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:05.787Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:13.230Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+SearchInteraction	2018-02-19T10:22:21.275Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:22:32.384Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+RefreshOrPaginationInteraction	2018-02-19T10:22:41.750Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+SearchInteraction	2018-02-19T10:22:53.596Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:07.476Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_E77B0DE0_4DC6_42D2_81FD_6B0EEAF72E1E_cho	10	86
+SearchInteraction	2018-02-19T10:23:26.018Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:31.835Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:39.433Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:45.898Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_7F2C6B43_EDC4_4F87_8789_53C44DAC6717_cho	42	86
+SearchInteraction	2018-02-19T10:25:20.429Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:25:29.344Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:25:38.330Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_3A061F84_FE89_4918_AA2D_4F9B1FD0FE8F_cho	67	86
+SearchInteraction	2018-02-19T10:27:38.337Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:45.498Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:46.103Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-19T10:27:50.407Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:17.275Z	45a1b75bd0e53765787659965d467c58	valorization of photographic	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T10:28:25.503Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:36.525Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:46.189Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:54.059Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+CollectionFilterAdditionInteraction	2018-02-19T10:29:03.503Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:04.760Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:12.356Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:38.263Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:46.054Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:29:52.679Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/NG_2007_22_20	40	242
+SearchInteraction	2018-02-19T10:32:53.734Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:33:03.546Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:33:27.783Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_ZQOFCLUATC4MLUPHSEEA2D2YCFNYOENO	70	242
+SearchInteraction	2018-02-19T10:34:34.225Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:47.475Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:54.670Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:11.080Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:18.210Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:35:30.468Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_FDQ3PTGX2FLHC7RKJJUGPRO5ZDAMVQEE	129	242
+SearchInteraction	2018-02-19T10:38:19.274Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:28.748Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:56.906Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:05.440Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:12.462Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:46:03.540Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345671	190	242
+SearchInteraction	2018-02-19T10:47:05.559Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:47:10.194Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345668	193	242
+RankedRetrieveRecordInteraction	2018-02-19T10:48:01.821Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345438	195	242
+SearchInteraction	2018-02-19T10:19:54.960Z	45a1b75bd0e53765787659965d467c58	paris		915513
+SearchInteraction	2018-02-19T10:20:04.193Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	416261
+RankedRetrieveRecordInteraction	2018-02-19T10:20:17.238Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	/92085/lnb_zl_35727	5	416261
+SearchInteraction	2018-02-19T10:20:40.426Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+RefreshOrPaginationInteraction	2018-02-19T10:20:43.149Z	45a1b75bd0e53765787659965d467c58	paris	{'TYPE': ['IMAGE']}	225394
+SearchInteraction	2018-02-19T10:21:10.127Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	656
+CollectionFilterRemovalInteraction	2018-02-19T10:21:13.972Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:21.676Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:26.991Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+RefreshOrPaginationInteraction	2018-02-19T10:21:33.168Z	45a1b75bd0e53765787659965d467c58	paris	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	72266
+SearchInteraction	2018-02-19T10:21:52.299Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:53.580Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+RefreshOrPaginationInteraction	2018-02-19T10:21:54.964Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:21:59.248Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:05.787Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+RefreshOrPaginationInteraction	2018-02-19T10:22:13.230Z	45a1b75bd0e53765787659965d467c58	Restoration	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	234
+SearchInteraction	2018-02-19T10:22:21.275Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T10:22:32.384Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+RefreshOrPaginationInteraction	2018-02-19T10:22:41.750Z	45a1b75bd0e53765787659965d467c58	history of photo	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7884
+SearchInteraction	2018-02-19T10:22:53.596Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:07.476Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_E77B0DE0_4DC6_42D2_81FD_6B0EEAF72E1E_cho	10	86
+SearchInteraction	2018-02-19T10:23:26.018Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:31.835Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:23:39.433Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:23:45.898Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_7F2C6B43_EDC4_4F87_8789_53C44DAC6717_cho	42	86
+SearchInteraction	2018-02-19T10:25:20.429Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:25:29.344Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-19T10:25:38.330Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2022093/10622_3A061F84_FE89_4918_AA2D_4F9B1FD0FE8F_cho	67	86
+SearchInteraction	2018-02-19T10:27:38.337Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:45.498Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-19T10:27:46.103Z	45a1b75bd0e53765787659965d467c58	history of photo	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-19T10:27:50.407Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:17.275Z	45a1b75bd0e53765787659965d467c58	valorization of photographic	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T10:28:25.503Z	45a1b75bd0e53765787659965d467c58	NO VALUE PROVIDED	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	500147
+SearchInteraction	2018-02-19T10:28:36.525Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:46.189Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+RefreshOrPaginationInteraction	2018-02-19T10:28:54.059Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4534
+CollectionFilterAdditionInteraction	2018-02-19T10:29:03.503Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:04.760Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:12.356Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:38.263Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:29:46.054Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:29:52.679Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/NG_2007_22_20	40	242
+SearchInteraction	2018-02-19T10:32:53.734Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:33:03.546Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:33:27.783Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_ZQOFCLUATC4MLUPHSEEA2D2YCFNYOENO	70	242
+SearchInteraction	2018-02-19T10:34:34.225Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:47.475Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:34:54.670Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:11.080Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:35:18.210Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:35:30.468Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2048429/item_FDQ3PTGX2FLHC7RKJJUGPRO5ZDAMVQEE	129	242
+SearchInteraction	2018-02-19T10:38:19.274Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:28.748Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:38:56.906Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:05.440Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RefreshOrPaginationInteraction	2018-02-19T10:39:12.462Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:46:03.540Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345671	190	242
+SearchInteraction	2018-02-19T10:47:05.559Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	242
+RankedRetrieveRecordInteraction	2018-02-19T10:47:10.194Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345668	193	242
+RankedRetrieveRecordInteraction	2018-02-19T10:48:01.821Z	45a1b75bd0e53765787659965d467c58	paris	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345438	195	242

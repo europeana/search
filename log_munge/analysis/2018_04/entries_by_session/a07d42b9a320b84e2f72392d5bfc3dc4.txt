@@ -1,0 +1,90 @@
+ArbitraryAccessInteraction	2018-02-23T13:43:52.818Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T15:25:40.826Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+SearchInteraction	2018-02-23T15:26:07.805Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+RefreshOrPaginationInteraction	2018-02-23T15:26:13.179Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+SearchInteraction	2018-02-23T15:26:22.924Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+RefreshOrPaginationInteraction	2018-02-23T15:26:23.870Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:37.578Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa ulica		0
+SearchInteraction	2018-02-23T15:26:43.133Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:49.562Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		0
+CollectionFilterRemovalInteraction	2018-02-23T15:27:00.517Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RefreshOrPaginationInteraction	2018-02-23T15:27:29.766Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:27:45.377Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/08520/MK_Foto_d01844_001_b_jpg	16	16
+SearchInteraction	2018-02-23T15:34:20.599Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:34:33.841Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/2026119/Partage_Plus_ProvidedCHO_eheritage_si__Zavod_za_varstvo_kulturne_dedi__ine_Slovenije__Urbanisti_ni_in_titut_Republike_Slovenije_SI_AN_ND_00934	1	16
+SearchInteraction	2018-02-23T15:35:04.084Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+RefreshOrPaginationInteraction	2018-02-23T15:35:17.825Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+SearchInteraction	2018-02-23T15:58:04.953Z	a07d42b9a320b84e2f72392d5bfc3dc4	who:(Rudolf Holzer arhitekt; 1906-1907)		1
+ArbitraryAccessInteraction	2018-02-25T09:31:33.869Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/08520/50962B894B2525B5D57C29E6EE987554C232D8BF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:43:52.818Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T15:25:40.826Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+SearchInteraction	2018-02-23T15:26:07.805Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+RefreshOrPaginationInteraction	2018-02-23T15:26:13.179Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+SearchInteraction	2018-02-23T15:26:22.924Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+RefreshOrPaginationInteraction	2018-02-23T15:26:23.870Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:37.578Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa ulica		0
+SearchInteraction	2018-02-23T15:26:43.133Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:49.562Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		0
+CollectionFilterRemovalInteraction	2018-02-23T15:27:00.517Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RefreshOrPaginationInteraction	2018-02-23T15:27:29.766Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:27:45.377Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/08520/MK_Foto_d01844_001_b_jpg	16	16
+SearchInteraction	2018-02-23T15:34:20.599Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:34:33.841Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/2026119/Partage_Plus_ProvidedCHO_eheritage_si__Zavod_za_varstvo_kulturne_dedi__ine_Slovenije__Urbanisti_ni_in_titut_Republike_Slovenije_SI_AN_ND_00934	1	16
+SearchInteraction	2018-02-23T15:35:04.084Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+RefreshOrPaginationInteraction	2018-02-23T15:35:17.825Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+SearchInteraction	2018-02-23T15:58:04.953Z	a07d42b9a320b84e2f72392d5bfc3dc4	who:(Rudolf Holzer arhitekt; 1906-1907)		1
+ArbitraryAccessInteraction	2018-02-25T09:31:33.869Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/08520/50962B894B2525B5D57C29E6EE987554C232D8BF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:43:52.818Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T15:25:40.826Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+SearchInteraction	2018-02-23T15:26:07.805Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+RefreshOrPaginationInteraction	2018-02-23T15:26:13.179Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+SearchInteraction	2018-02-23T15:26:22.924Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+RefreshOrPaginationInteraction	2018-02-23T15:26:23.870Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:37.578Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa ulica		0
+SearchInteraction	2018-02-23T15:26:43.133Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:49.562Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		0
+CollectionFilterRemovalInteraction	2018-02-23T15:27:00.517Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RefreshOrPaginationInteraction	2018-02-23T15:27:29.766Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:27:45.377Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/08520/MK_Foto_d01844_001_b_jpg	16	16
+SearchInteraction	2018-02-23T15:34:20.599Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:34:33.841Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/2026119/Partage_Plus_ProvidedCHO_eheritage_si__Zavod_za_varstvo_kulturne_dedi__ine_Slovenije__Urbanisti_ni_in_titut_Republike_Slovenije_SI_AN_ND_00934	1	16
+SearchInteraction	2018-02-23T15:35:04.084Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+RefreshOrPaginationInteraction	2018-02-23T15:35:17.825Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+SearchInteraction	2018-02-23T15:58:04.953Z	a07d42b9a320b84e2f72392d5bfc3dc4	who:(Rudolf Holzer arhitekt; 1906-1907)		1
+ArbitraryAccessInteraction	2018-02-25T09:31:33.869Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/08520/50962B894B2525B5D57C29E6EE987554C232D8BF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:43:52.818Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T15:25:40.826Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+SearchInteraction	2018-02-23T15:26:07.805Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+RefreshOrPaginationInteraction	2018-02-23T15:26:13.179Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+SearchInteraction	2018-02-23T15:26:22.924Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+RefreshOrPaginationInteraction	2018-02-23T15:26:23.870Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:37.578Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa ulica		0
+SearchInteraction	2018-02-23T15:26:43.133Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:49.562Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		0
+CollectionFilterRemovalInteraction	2018-02-23T15:27:00.517Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RefreshOrPaginationInteraction	2018-02-23T15:27:29.766Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:27:45.377Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/08520/MK_Foto_d01844_001_b_jpg	16	16
+SearchInteraction	2018-02-23T15:34:20.599Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:34:33.841Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/2026119/Partage_Plus_ProvidedCHO_eheritage_si__Zavod_za_varstvo_kulturne_dedi__ine_Slovenije__Urbanisti_ni_in_titut_Republike_Slovenije_SI_AN_ND_00934	1	16
+SearchInteraction	2018-02-23T15:35:04.084Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+RefreshOrPaginationInteraction	2018-02-23T15:35:17.825Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+SearchInteraction	2018-02-23T15:58:04.953Z	a07d42b9a320b84e2f72392d5bfc3dc4	who:(Rudolf Holzer arhitekt; 1906-1907)		1
+ArbitraryAccessInteraction	2018-02-25T09:31:33.869Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/08520/50962B894B2525B5D57C29E6EE987554C232D8BF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:43:52.818Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T15:25:40.826Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/2020712/DR_SI_IPCHS_DDG_016_091.html (PortalController#show)
+SearchInteraction	2018-02-23T15:26:07.805Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+RefreshOrPaginationInteraction	2018-02-23T15:26:13.179Z	a07d42b9a320b84e2f72392d5bfc3dc4	Hiša Tyrševa 14		0
+SearchInteraction	2018-02-23T15:26:22.924Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+RefreshOrPaginationInteraction	2018-02-23T15:26:23.870Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:37.578Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa ulica		0
+SearchInteraction	2018-02-23T15:26:43.133Z	a07d42b9a320b84e2f72392d5bfc3dc4	NO VALUE PROVIDED		1295666
+SearchInteraction	2018-02-23T15:26:49.562Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		0
+CollectionFilterRemovalInteraction	2018-02-23T15:27:00.517Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RefreshOrPaginationInteraction	2018-02-23T15:27:29.766Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:27:45.377Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/08520/MK_Foto_d01844_001_b_jpg	16	16
+SearchInteraction	2018-02-23T15:34:20.599Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		16
+RankedRetrieveRecordInteraction	2018-02-23T15:34:33.841Z	a07d42b9a320b84e2f72392d5bfc3dc4	tyrševa		/2026119/Partage_Plus_ProvidedCHO_eheritage_si__Zavod_za_varstvo_kulturne_dedi__ine_Slovenije__Urbanisti_ni_in_titut_Republike_Slovenije_SI_AN_ND_00934	1	16
+SearchInteraction	2018-02-23T15:35:04.084Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+RefreshOrPaginationInteraction	2018-02-23T15:35:17.825Z	a07d42b9a320b84e2f72392d5bfc3dc4	europeana_collectionName:(2026119_Ag_EU_PartagePlus_1033)		2648
+SearchInteraction	2018-02-23T15:58:04.953Z	a07d42b9a320b84e2f72392d5bfc3dc4	who:(Rudolf Holzer arhitekt; 1906-1907)		1
+ArbitraryAccessInteraction	2018-02-25T09:31:33.869Z	a07d42b9a320b84e2f72392d5bfc3dc4	[200] GET /portal/sl/record/08520/50962B894B2525B5D57C29E6EE987554C232D8BF.html (PortalController#show)

@@ -1,0 +1,60 @@
+ArbitraryAccessInteraction	2018-03-05T14:28:45.205Z	99d60d9abd903414bceb2be5d3de7002	[200] GET /portal/pt/record/2021618/internetserver_Details_kunst_37492.html (PortalController#show)
+SearchInteraction	2018-03-05T14:30:02.884Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+RefreshOrPaginationInteraction	2018-03-05T14:30:09.677Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+SearchInteraction	2018-03-05T14:30:20.297Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-05T15:29:34.524Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		33
+CollectionFilterAdditionInteraction	2018-03-05T15:29:42.099Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		2
+CollectionFilterAdditionInteraction	2018-03-05T15:29:45.955Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		0
+SearchInteraction	2018-03-05T15:38:48.126Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T15:38:57.652Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia	{'TYPE': ['IMAGE']}	19
+SearchInteraction	2018-03-05T19:13:35.782Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T19:13:45.950Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+RefreshOrPaginationInteraction	2018-03-05T19:14:33.712Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+ArbitraryAccessInteraction	2018-03-05T14:28:45.205Z	99d60d9abd903414bceb2be5d3de7002	[200] GET /portal/pt/record/2021618/internetserver_Details_kunst_37492.html (PortalController#show)
+SearchInteraction	2018-03-05T14:30:02.884Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+RefreshOrPaginationInteraction	2018-03-05T14:30:09.677Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+SearchInteraction	2018-03-05T14:30:20.297Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-05T15:29:34.524Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		33
+CollectionFilterAdditionInteraction	2018-03-05T15:29:42.099Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		2
+CollectionFilterAdditionInteraction	2018-03-05T15:29:45.955Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		0
+SearchInteraction	2018-03-05T15:38:48.126Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T15:38:57.652Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia	{'TYPE': ['IMAGE']}	19
+SearchInteraction	2018-03-05T19:13:35.782Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T19:13:45.950Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+RefreshOrPaginationInteraction	2018-03-05T19:14:33.712Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+ArbitraryAccessInteraction	2018-03-05T14:28:45.205Z	99d60d9abd903414bceb2be5d3de7002	[200] GET /portal/pt/record/2021618/internetserver_Details_kunst_37492.html (PortalController#show)
+SearchInteraction	2018-03-05T14:30:02.884Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+RefreshOrPaginationInteraction	2018-03-05T14:30:09.677Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+SearchInteraction	2018-03-05T14:30:20.297Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-05T15:29:34.524Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		33
+CollectionFilterAdditionInteraction	2018-03-05T15:29:42.099Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		2
+CollectionFilterAdditionInteraction	2018-03-05T15:29:45.955Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		0
+SearchInteraction	2018-03-05T15:38:48.126Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T15:38:57.652Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia	{'TYPE': ['IMAGE']}	19
+SearchInteraction	2018-03-05T19:13:35.782Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T19:13:45.950Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+RefreshOrPaginationInteraction	2018-03-05T19:14:33.712Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+ArbitraryAccessInteraction	2018-03-05T14:28:45.205Z	99d60d9abd903414bceb2be5d3de7002	[200] GET /portal/pt/record/2021618/internetserver_Details_kunst_37492.html (PortalController#show)
+SearchInteraction	2018-03-05T14:30:02.884Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+RefreshOrPaginationInteraction	2018-03-05T14:30:09.677Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+SearchInteraction	2018-03-05T14:30:20.297Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-05T15:29:34.524Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		33
+CollectionFilterAdditionInteraction	2018-03-05T15:29:42.099Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		2
+CollectionFilterAdditionInteraction	2018-03-05T15:29:45.955Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		0
+SearchInteraction	2018-03-05T15:38:48.126Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T15:38:57.652Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia	{'TYPE': ['IMAGE']}	19
+SearchInteraction	2018-03-05T19:13:35.782Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T19:13:45.950Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+RefreshOrPaginationInteraction	2018-03-05T19:14:33.712Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+ArbitraryAccessInteraction	2018-03-05T14:28:45.205Z	99d60d9abd903414bceb2be5d3de7002	[200] GET /portal/pt/record/2021618/internetserver_Details_kunst_37492.html (PortalController#show)
+SearchInteraction	2018-03-05T14:30:02.884Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+RefreshOrPaginationInteraction	2018-03-05T14:30:09.677Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)		57
+SearchInteraction	2018-03-05T14:30:20.297Z	99d60d9abd903414bceb2be5d3de7002	who:(Houel, Jean Pierre Louis Laurent)	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-05T15:29:34.524Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		33
+CollectionFilterAdditionInteraction	2018-03-05T15:29:42.099Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		2
+CollectionFilterAdditionInteraction	2018-03-05T15:29:45.955Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia		0
+SearchInteraction	2018-03-05T15:38:48.126Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T15:38:57.652Z	99d60d9abd903414bceb2be5d3de7002	Universalis Cosmographia	{'TYPE': ['IMAGE']}	19
+SearchInteraction	2018-03-05T19:13:35.782Z	99d60d9abd903414bceb2be5d3de7002	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-05T19:13:45.950Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24
+RefreshOrPaginationInteraction	2018-03-05T19:14:33.712Z	99d60d9abd903414bceb2be5d3de7002	Jean Beraud	{'TYPE': ['IMAGE']}	24

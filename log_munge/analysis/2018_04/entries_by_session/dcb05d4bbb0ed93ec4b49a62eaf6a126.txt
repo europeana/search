@@ -1,0 +1,110 @@
+ArbitraryAccessInteraction	2018-03-01T00:03:57.847Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:04:01.725Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+SearchInteraction	2018-03-01T00:05:20.512Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	aimer		47716
+SearchInteraction	2018-03-01T00:06:31.500Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	numero 20		77114
+SearchInteraction	2018-03-01T00:06:49.474Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:06:57.946Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	wieger		354
+SearchInteraction	2018-03-01T00:07:14.441Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:07:34.913Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RefreshOrPaginationInteraction	2018-03-01T00:08:13.123Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RankedRetrieveRecordInteraction	2018-03-01T00:08:26.374Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		/9200365/BibliographicResource_3000045600346	15	182
+SearchInteraction	2018-03-01T00:08:57.168Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50		202644
+SearchInteraction	2018-03-01T00:09:33.044Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50	{'REUSABILITY': ['open']}	97158
+SearchInteraction	2018-03-01T00:11:29.616Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	what:"text"		4761695
+SearchInteraction	2018-03-01T00:12:19.211Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:12:21.549Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:12:31.180Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	leon wieger		2
+SearchInteraction	2018-03-01T00:14:21.260Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	Léon Wieger		2
+SearchInteraction	2018-03-01T00:14:30.448Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:14:32.039Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:14:52.326Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	couvreur		152
+SearchInteraction	2018-03-01T00:15:04.817Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+ArbitraryAccessInteraction	2018-03-01T00:15:40.564Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:03:57.847Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:04:01.725Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+SearchInteraction	2018-03-01T00:05:20.512Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	aimer		47716
+SearchInteraction	2018-03-01T00:06:31.500Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	numero 20		77114
+SearchInteraction	2018-03-01T00:06:49.474Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:06:57.946Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	wieger		354
+SearchInteraction	2018-03-01T00:07:14.441Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:07:34.913Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RefreshOrPaginationInteraction	2018-03-01T00:08:13.123Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RankedRetrieveRecordInteraction	2018-03-01T00:08:26.374Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		/9200365/BibliographicResource_3000045600346	15	182
+SearchInteraction	2018-03-01T00:08:57.168Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50		202644
+SearchInteraction	2018-03-01T00:09:33.044Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50	{'REUSABILITY': ['open']}	97158
+SearchInteraction	2018-03-01T00:11:29.616Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	what:"text"		4761695
+SearchInteraction	2018-03-01T00:12:19.211Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:12:21.549Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:12:31.180Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	leon wieger		2
+SearchInteraction	2018-03-01T00:14:21.260Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	Léon Wieger		2
+SearchInteraction	2018-03-01T00:14:30.448Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:14:32.039Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:14:52.326Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	couvreur		152
+SearchInteraction	2018-03-01T00:15:04.817Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+ArbitraryAccessInteraction	2018-03-01T00:15:40.564Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:03:57.847Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:04:01.725Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+SearchInteraction	2018-03-01T00:05:20.512Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	aimer		47716
+SearchInteraction	2018-03-01T00:06:31.500Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	numero 20		77114
+SearchInteraction	2018-03-01T00:06:49.474Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:06:57.946Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	wieger		354
+SearchInteraction	2018-03-01T00:07:14.441Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:07:34.913Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RefreshOrPaginationInteraction	2018-03-01T00:08:13.123Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RankedRetrieveRecordInteraction	2018-03-01T00:08:26.374Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		/9200365/BibliographicResource_3000045600346	15	182
+SearchInteraction	2018-03-01T00:08:57.168Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50		202644
+SearchInteraction	2018-03-01T00:09:33.044Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50	{'REUSABILITY': ['open']}	97158
+SearchInteraction	2018-03-01T00:11:29.616Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	what:"text"		4761695
+SearchInteraction	2018-03-01T00:12:19.211Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:12:21.549Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:12:31.180Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	leon wieger		2
+SearchInteraction	2018-03-01T00:14:21.260Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	Léon Wieger		2
+SearchInteraction	2018-03-01T00:14:30.448Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:14:32.039Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:14:52.326Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	couvreur		152
+SearchInteraction	2018-03-01T00:15:04.817Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+ArbitraryAccessInteraction	2018-03-01T00:15:40.564Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:03:57.847Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:04:01.725Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+SearchInteraction	2018-03-01T00:05:20.512Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	aimer		47716
+SearchInteraction	2018-03-01T00:06:31.500Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	numero 20		77114
+SearchInteraction	2018-03-01T00:06:49.474Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:06:57.946Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	wieger		354
+SearchInteraction	2018-03-01T00:07:14.441Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:07:34.913Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RefreshOrPaginationInteraction	2018-03-01T00:08:13.123Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RankedRetrieveRecordInteraction	2018-03-01T00:08:26.374Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		/9200365/BibliographicResource_3000045600346	15	182
+SearchInteraction	2018-03-01T00:08:57.168Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50		202644
+SearchInteraction	2018-03-01T00:09:33.044Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50	{'REUSABILITY': ['open']}	97158
+SearchInteraction	2018-03-01T00:11:29.616Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	what:"text"		4761695
+SearchInteraction	2018-03-01T00:12:19.211Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:12:21.549Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:12:31.180Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	leon wieger		2
+SearchInteraction	2018-03-01T00:14:21.260Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	Léon Wieger		2
+SearchInteraction	2018-03-01T00:14:30.448Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:14:32.039Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:14:52.326Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	couvreur		152
+SearchInteraction	2018-03-01T00:15:04.817Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+ArbitraryAccessInteraction	2018-03-01T00:15:40.564Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:03:57.847Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T00:04:01.725Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)
+SearchInteraction	2018-03-01T00:05:20.512Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	aimer		47716
+SearchInteraction	2018-03-01T00:06:31.500Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	numero 20		77114
+SearchInteraction	2018-03-01T00:06:49.474Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:06:57.946Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	wieger		354
+SearchInteraction	2018-03-01T00:07:14.441Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:07:34.913Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RefreshOrPaginationInteraction	2018-03-01T00:08:13.123Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		182
+RankedRetrieveRecordInteraction	2018-03-01T00:08:26.374Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	caractères chinois		/9200365/BibliographicResource_3000045600346	15	182
+SearchInteraction	2018-03-01T00:08:57.168Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50		202644
+SearchInteraction	2018-03-01T00:09:33.044Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	50	{'REUSABILITY': ['open']}	97158
+SearchInteraction	2018-03-01T00:11:29.616Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	what:"text"		4761695
+SearchInteraction	2018-03-01T00:12:19.211Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:12:21.549Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:12:31.180Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	leon wieger		2
+SearchInteraction	2018-03-01T00:14:21.260Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	Léon Wieger		2
+SearchInteraction	2018-03-01T00:14:30.448Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+RefreshOrPaginationInteraction	2018-03-01T00:14:32.039Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-03-01T00:14:52.326Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	couvreur		152
+SearchInteraction	2018-03-01T00:15:04.817Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	NO VALUE PROVIDED		51553115
+ArbitraryAccessInteraction	2018-03-01T00:15:40.564Z	dcb05d4bbb0ed93ec4b49a62eaf6a126	[200] GET /portal/es/explore/people/119246-leon-wieger.html (EntitiesController#show)

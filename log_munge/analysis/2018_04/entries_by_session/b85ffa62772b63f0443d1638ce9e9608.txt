@@ -1,0 +1,210 @@
+SearchInteraction	2018-03-12T19:01:53.615Z	b85ffa62772b63f0443d1638ce9e9608	HITLER		8859
+SearchInteraction	2018-03-12T19:02:04.109Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	5258
+CollectionFilterAdditionInteraction	2018-03-12T19:02:10.906Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:02:24.122Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	135
+SearchInteraction	2018-03-12T19:02:33.411Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:43.394Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068826114	5	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:56.214Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068819924	6	15
+SearchInteraction	2018-03-12T19:03:17.447Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:35.650Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:42.864Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:03:48.839Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RefreshOrPaginationInteraction	2018-03-12T19:03:50.473Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-03-12T19:03:56.056Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_16	2	2
+RankedRetrieveRecordInteraction	2018-03-12T19:07:23.898Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_86	1	2
+SearchInteraction	2018-03-12T19:08:53.968Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:09:00.983Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:09:10.925Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-12T19:09:22.368Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+RefreshOrPaginationInteraction	2018-03-12T19:25:49.129Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:26:06.677Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:21.671Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:31.870Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:39.669Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+SearchInteraction	2018-03-12T19:39:44.078Z	b85ffa62772b63f0443d1638ce9e9608	nazi		5609
+SearchInteraction	2018-03-12T19:39:58.469Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:05.972Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:23.433Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:48:24.365Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:22.596Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:23.362Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:37.148Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:37:46.854Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:38:02.305Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+SearchInteraction	2018-03-12T20:38:38.704Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:38:55.711Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:39:11.236Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:14.214Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:24.438Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:32.834Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:39.386Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:47.033Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+SearchInteraction	2018-03-12T21:35:53.481Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:01:53.615Z	b85ffa62772b63f0443d1638ce9e9608	HITLER		8859
+SearchInteraction	2018-03-12T19:02:04.109Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	5258
+CollectionFilterAdditionInteraction	2018-03-12T19:02:10.906Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:02:24.122Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	135
+SearchInteraction	2018-03-12T19:02:33.411Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:43.394Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068826114	5	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:56.214Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068819924	6	15
+SearchInteraction	2018-03-12T19:03:17.447Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:35.650Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:42.864Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:03:48.839Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RefreshOrPaginationInteraction	2018-03-12T19:03:50.473Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-03-12T19:03:56.056Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_16	2	2
+RankedRetrieveRecordInteraction	2018-03-12T19:07:23.898Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_86	1	2
+SearchInteraction	2018-03-12T19:08:53.968Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:09:00.983Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:09:10.925Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-12T19:09:22.368Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+RefreshOrPaginationInteraction	2018-03-12T19:25:49.129Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:26:06.677Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:21.671Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:31.870Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:39.669Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+SearchInteraction	2018-03-12T19:39:44.078Z	b85ffa62772b63f0443d1638ce9e9608	nazi		5609
+SearchInteraction	2018-03-12T19:39:58.469Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:05.972Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:23.433Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:48:24.365Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:22.596Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:23.362Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:37.148Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:37:46.854Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:38:02.305Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+SearchInteraction	2018-03-12T20:38:38.704Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:38:55.711Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:39:11.236Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:14.214Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:24.438Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:32.834Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:39.386Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:47.033Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+SearchInteraction	2018-03-12T21:35:53.481Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:01:53.615Z	b85ffa62772b63f0443d1638ce9e9608	HITLER		8859
+SearchInteraction	2018-03-12T19:02:04.109Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	5258
+CollectionFilterAdditionInteraction	2018-03-12T19:02:10.906Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:02:24.122Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	135
+SearchInteraction	2018-03-12T19:02:33.411Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:43.394Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068826114	5	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:56.214Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068819924	6	15
+SearchInteraction	2018-03-12T19:03:17.447Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:35.650Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:42.864Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:03:48.839Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RefreshOrPaginationInteraction	2018-03-12T19:03:50.473Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-03-12T19:03:56.056Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_16	2	2
+RankedRetrieveRecordInteraction	2018-03-12T19:07:23.898Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_86	1	2
+SearchInteraction	2018-03-12T19:08:53.968Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:09:00.983Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:09:10.925Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-12T19:09:22.368Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+RefreshOrPaginationInteraction	2018-03-12T19:25:49.129Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:26:06.677Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:21.671Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:31.870Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:39.669Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+SearchInteraction	2018-03-12T19:39:44.078Z	b85ffa62772b63f0443d1638ce9e9608	nazi		5609
+SearchInteraction	2018-03-12T19:39:58.469Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:05.972Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:23.433Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:48:24.365Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:22.596Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:23.362Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:37.148Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:37:46.854Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:38:02.305Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+SearchInteraction	2018-03-12T20:38:38.704Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:38:55.711Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:39:11.236Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:14.214Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:24.438Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:32.834Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:39.386Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:47.033Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+SearchInteraction	2018-03-12T21:35:53.481Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:01:53.615Z	b85ffa62772b63f0443d1638ce9e9608	HITLER		8859
+SearchInteraction	2018-03-12T19:02:04.109Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	5258
+CollectionFilterAdditionInteraction	2018-03-12T19:02:10.906Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:02:24.122Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	135
+SearchInteraction	2018-03-12T19:02:33.411Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:43.394Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068826114	5	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:56.214Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068819924	6	15
+SearchInteraction	2018-03-12T19:03:17.447Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:35.650Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:42.864Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:03:48.839Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RefreshOrPaginationInteraction	2018-03-12T19:03:50.473Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-03-12T19:03:56.056Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_16	2	2
+RankedRetrieveRecordInteraction	2018-03-12T19:07:23.898Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_86	1	2
+SearchInteraction	2018-03-12T19:08:53.968Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:09:00.983Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:09:10.925Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-12T19:09:22.368Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+RefreshOrPaginationInteraction	2018-03-12T19:25:49.129Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:26:06.677Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:21.671Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:31.870Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:39.669Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+SearchInteraction	2018-03-12T19:39:44.078Z	b85ffa62772b63f0443d1638ce9e9608	nazi		5609
+SearchInteraction	2018-03-12T19:39:58.469Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:05.972Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:23.433Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:48:24.365Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:22.596Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:23.362Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:37.148Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:37:46.854Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:38:02.305Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+SearchInteraction	2018-03-12T20:38:38.704Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:38:55.711Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:39:11.236Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:14.214Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:24.438Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:32.834Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:39.386Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:47.033Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+SearchInteraction	2018-03-12T21:35:53.481Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:01:53.615Z	b85ffa62772b63f0443d1638ce9e9608	HITLER		8859
+SearchInteraction	2018-03-12T19:02:04.109Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	5258
+CollectionFilterAdditionInteraction	2018-03-12T19:02:10.906Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:02:24.122Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	135
+SearchInteraction	2018-03-12T19:02:33.411Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:43.394Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068826114	5	15
+RankedRetrieveRecordInteraction	2018-03-12T19:02:56.214Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	/92023/BibliographicResource_2000068819924	6	15
+SearchInteraction	2018-03-12T19:03:17.447Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:35.650Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	15
+SearchInteraction	2018-03-12T19:03:42.864Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:03:48.839Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RefreshOrPaginationInteraction	2018-03-12T19:03:50.473Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-03-12T19:03:56.056Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_16	2	2
+RankedRetrieveRecordInteraction	2018-03-12T19:07:23.898Z	b85ffa62772b63f0443d1638ce9e9608	HITLER	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['extra_large'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	/90402/NG_1991_6_86	1	2
+SearchInteraction	2018-03-12T19:08:53.968Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460
+SearchInteraction	2018-03-12T19:09:00.983Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'TYPE': ['IMAGE']}	1971
+SearchInteraction	2018-03-12T19:09:10.925Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-12T19:09:22.368Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+RefreshOrPaginationInteraction	2018-03-12T19:25:49.129Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	123
+SearchInteraction	2018-03-12T19:26:06.677Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:21.671Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:31.870Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+RefreshOrPaginationInteraction	2018-03-12T19:26:39.669Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler	{'IMAGE_ASPECTRATIO': ['Portrait'], 'IMAGE_SIZE': ['medium'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	37
+SearchInteraction	2018-03-12T19:39:44.078Z	b85ffa62772b63f0443d1638ce9e9608	nazi		5609
+SearchInteraction	2018-03-12T19:39:58.469Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:05.972Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:40:23.433Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:48:24.365Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:22.596Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:23.362Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T19:50:37.148Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:37:46.854Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+RefreshOrPaginationInteraction	2018-03-12T20:38:02.305Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'TYPE': ['IMAGE']}	3203
+SearchInteraction	2018-03-12T20:38:38.704Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:38:55.711Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:39:11.236Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:14.214Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:24.438Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:32.834Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:39.386Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+RefreshOrPaginationInteraction	2018-03-12T20:40:47.033Z	b85ffa62772b63f0443d1638ce9e9608	nazi	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	1062
+SearchInteraction	2018-03-12T21:35:53.481Z	b85ffa62772b63f0443d1638ce9e9608	adolf hitler		2460

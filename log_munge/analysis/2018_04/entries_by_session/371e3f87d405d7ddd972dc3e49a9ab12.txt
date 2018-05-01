@@ -1,0 +1,70 @@
+ArbitraryAccessInteraction	2018-02-21T15:11:50.303Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:17:05.138Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095401049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:21:43.404Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095382157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:24:01.130Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095399981.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:25:16.428Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095386644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:27:14.830Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:32:01.325Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+RefreshOrPaginationInteraction	2018-02-21T15:32:36.108Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+ArbitraryAccessInteraction	2018-02-21T15:43:17.356Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:43:38.863Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		95
+RankedRetrieveRecordInteraction	2018-02-21T15:44:30.526Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		/9200386/BibliographicResource_3000059059720	9	95
+ArbitraryAccessInteraction	2018-02-21T15:45:59.354Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+SearchInteraction	2018-02-21T15:51:37.700Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		1
+RankedRetrieveRecordInteraction	2018-02-21T15:51:42.956Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		/9200332/BibliographicResource_3000095319526	1	1
+ArbitraryAccessInteraction	2018-02-21T15:11:50.303Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:17:05.138Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095401049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:21:43.404Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095382157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:24:01.130Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095399981.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:25:16.428Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095386644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:27:14.830Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:32:01.325Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+RefreshOrPaginationInteraction	2018-02-21T15:32:36.108Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+ArbitraryAccessInteraction	2018-02-21T15:43:17.356Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:43:38.863Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		95
+RankedRetrieveRecordInteraction	2018-02-21T15:44:30.526Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		/9200386/BibliographicResource_3000059059720	9	95
+ArbitraryAccessInteraction	2018-02-21T15:45:59.354Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+SearchInteraction	2018-02-21T15:51:37.700Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		1
+RankedRetrieveRecordInteraction	2018-02-21T15:51:42.956Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		/9200332/BibliographicResource_3000095319526	1	1
+ArbitraryAccessInteraction	2018-02-21T15:11:50.303Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:17:05.138Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095401049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:21:43.404Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095382157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:24:01.130Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095399981.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:25:16.428Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095386644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:27:14.830Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:32:01.325Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+RefreshOrPaginationInteraction	2018-02-21T15:32:36.108Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+ArbitraryAccessInteraction	2018-02-21T15:43:17.356Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:43:38.863Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		95
+RankedRetrieveRecordInteraction	2018-02-21T15:44:30.526Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		/9200386/BibliographicResource_3000059059720	9	95
+ArbitraryAccessInteraction	2018-02-21T15:45:59.354Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+SearchInteraction	2018-02-21T15:51:37.700Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		1
+RankedRetrieveRecordInteraction	2018-02-21T15:51:42.956Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		/9200332/BibliographicResource_3000095319526	1	1
+ArbitraryAccessInteraction	2018-02-21T15:11:50.303Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:17:05.138Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095401049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:21:43.404Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095382157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:24:01.130Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095399981.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:25:16.428Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095386644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:27:14.830Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:32:01.325Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+RefreshOrPaginationInteraction	2018-02-21T15:32:36.108Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+ArbitraryAccessInteraction	2018-02-21T15:43:17.356Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:43:38.863Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		95
+RankedRetrieveRecordInteraction	2018-02-21T15:44:30.526Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		/9200386/BibliographicResource_3000059059720	9	95
+ArbitraryAccessInteraction	2018-02-21T15:45:59.354Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+SearchInteraction	2018-02-21T15:51:37.700Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		1
+RankedRetrieveRecordInteraction	2018-02-21T15:51:42.956Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		/9200332/BibliographicResource_3000095319526	1	1
+ArbitraryAccessInteraction	2018-02-21T15:11:50.303Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:17:05.138Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095401049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:21:43.404Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095382157.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:24:01.130Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095399981.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:25:16.428Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095386644.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T15:27:14.830Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:32:01.325Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+RefreshOrPaginationInteraction	2018-02-21T15:32:36.108Z	371e3f87d405d7ddd972dc3e49a9ab12	what:"book"		1172574
+ArbitraryAccessInteraction	2018-02-21T15:43:17.356Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000113535741.html (PortalController#show)
+SearchInteraction	2018-02-21T15:43:38.863Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		95
+RankedRetrieveRecordInteraction	2018-02-21T15:44:30.526Z	371e3f87d405d7ddd972dc3e49a9ab12	Roveredo		/9200386/BibliographicResource_3000059059720	9	95
+ArbitraryAccessInteraction	2018-02-21T15:45:59.354Z	371e3f87d405d7ddd972dc3e49a9ab12	[200] GET /portal/it/record/9200332/BibliographicResource_3000095316875.html (PortalController#show)
+SearchInteraction	2018-02-21T15:51:37.700Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		1
+RankedRetrieveRecordInteraction	2018-02-21T15:51:42.956Z	371e3f87d405d7ddd972dc3e49a9ab12	proxy_dcterms_isPartOf:"Collezione di opere scelte di autori Friulani.Vol.2."		/9200332/BibliographicResource_3000095319526	1	1

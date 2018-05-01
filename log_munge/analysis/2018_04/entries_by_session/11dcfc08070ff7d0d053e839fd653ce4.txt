@@ -1,0 +1,50 @@
+SearchInteraction	2018-02-07T12:32:34.774Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		121
+RankedRetrieveRecordInteraction	2018-02-07T12:33:03.153Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		/15508/14777	2	121
+ArbitraryAccessInteraction	2018-02-07T12:33:15.830Z	11dcfc08070ff7d0d053e839fd653ce4	[200] GET /portal/it/record/15508/28950.html (PortalController#show)
+SearchInteraction	2018-02-07T12:34:16.949Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T12:34:49.370Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RefreshOrPaginationInteraction	2018-02-07T12:35:06.129Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:35:21.993Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000279029	13	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:14.882Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000270003	15	145
+SearchInteraction	2018-02-07T12:36:22.874Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:34.660Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08634/1037479000000340003	34	145
+SearchInteraction	2018-02-07T12:32:34.774Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		121
+RankedRetrieveRecordInteraction	2018-02-07T12:33:03.153Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		/15508/14777	2	121
+ArbitraryAccessInteraction	2018-02-07T12:33:15.830Z	11dcfc08070ff7d0d053e839fd653ce4	[200] GET /portal/it/record/15508/28950.html (PortalController#show)
+SearchInteraction	2018-02-07T12:34:16.949Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T12:34:49.370Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RefreshOrPaginationInteraction	2018-02-07T12:35:06.129Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:35:21.993Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000279029	13	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:14.882Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000270003	15	145
+SearchInteraction	2018-02-07T12:36:22.874Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:34.660Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08634/1037479000000340003	34	145
+SearchInteraction	2018-02-07T12:32:34.774Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		121
+RankedRetrieveRecordInteraction	2018-02-07T12:33:03.153Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		/15508/14777	2	121
+ArbitraryAccessInteraction	2018-02-07T12:33:15.830Z	11dcfc08070ff7d0d053e839fd653ce4	[200] GET /portal/it/record/15508/28950.html (PortalController#show)
+SearchInteraction	2018-02-07T12:34:16.949Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T12:34:49.370Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RefreshOrPaginationInteraction	2018-02-07T12:35:06.129Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:35:21.993Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000279029	13	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:14.882Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000270003	15	145
+SearchInteraction	2018-02-07T12:36:22.874Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:34.660Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08634/1037479000000340003	34	145
+SearchInteraction	2018-02-07T12:32:34.774Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		121
+RankedRetrieveRecordInteraction	2018-02-07T12:33:03.153Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		/15508/14777	2	121
+ArbitraryAccessInteraction	2018-02-07T12:33:15.830Z	11dcfc08070ff7d0d053e839fd653ce4	[200] GET /portal/it/record/15508/28950.html (PortalController#show)
+SearchInteraction	2018-02-07T12:34:16.949Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T12:34:49.370Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RefreshOrPaginationInteraction	2018-02-07T12:35:06.129Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:35:21.993Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000279029	13	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:14.882Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000270003	15	145
+SearchInteraction	2018-02-07T12:36:22.874Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:34.660Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08634/1037479000000340003	34	145
+SearchInteraction	2018-02-07T12:32:34.774Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		121
+RankedRetrieveRecordInteraction	2018-02-07T12:33:03.153Z	11dcfc08070ff7d0d053e839fd653ce4	Joseph Anton Koch		/15508/14777	2	121
+ArbitraryAccessInteraction	2018-02-07T12:33:15.830Z	11dcfc08070ff7d0d053e839fd653ce4	[200] GET /portal/it/record/15508/28950.html (PortalController#show)
+SearchInteraction	2018-02-07T12:34:16.949Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T12:34:49.370Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RefreshOrPaginationInteraction	2018-02-07T12:35:06.129Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:35:21.993Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000279029	13	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:14.882Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08631/1037479000000270003	15	145
+SearchInteraction	2018-02-07T12:36:22.874Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	145
+RankedRetrieveRecordInteraction	2018-02-07T12:36:34.660Z	11dcfc08070ff7d0d053e839fd653ce4	TYPE:VIDEO AND what:"World War I"	{'COUNTRY': ['italy']}	/08634/1037479000000340003	34	145

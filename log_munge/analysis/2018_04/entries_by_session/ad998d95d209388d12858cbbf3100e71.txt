@@ -1,0 +1,190 @@
+SearchInteraction	2018-03-02T16:43:28.988Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		16
+RankedRetrieveRecordInteraction	2018-03-02T16:43:40.652Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		/9200143/BibliographicResource_2000069297586	6	16
+SearchInteraction	2018-03-02T16:45:21.462Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:43.913Z	ad998d95d209388d12858cbbf3100e71	pio baroja		1
+CollectionFilterRemovalInteraction	2018-03-02T16:45:54.594Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:57.445Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:04.639Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:07.919Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:14.336Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:24.536Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+SearchInteraction	2018-03-02T17:14:15.236Z	ad998d95d209388d12858cbbf3100e71	red dawn		87
+SearchInteraction	2018-03-02T17:14:18.083Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T18:13:28.659Z	ad998d95d209388d12858cbbf3100e71	jean lorrain		120
+SearchInteraction	2018-03-02T18:13:36.592Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+RankedRetrieveRecordInteraction	2018-03-02T18:13:43.709Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	/9200365/BibliographicResource_3000148103355	1	63
+SearchInteraction	2018-03-02T20:19:58.142Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:00.206Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:02.713Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:03.976Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-02T20:20:06.764Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+SearchInteraction	2018-03-02T20:20:16.779Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:27.010Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+CollectionFilterAdditionInteraction	2018-03-02T20:29:37.211Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-02T20:29:41.470Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:42.810Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:43.537Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.976Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.986Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.190Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.957Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:46.122Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:29:48.609Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+RefreshOrPaginationInteraction	2018-03-02T20:29:48.787Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-02T20:29:55.000Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:29:58.440Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:30:22.517Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false'], 'TYPE': ['TEXT']}	26
+SearchInteraction	2018-03-02T20:30:30.509Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	26
+RankedRetrieveRecordInteraction	2018-03-02T20:30:40.857Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	/9200479/item_13772946_	10	26
+SearchInteraction	2018-03-02T16:43:28.988Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		16
+RankedRetrieveRecordInteraction	2018-03-02T16:43:40.652Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		/9200143/BibliographicResource_2000069297586	6	16
+SearchInteraction	2018-03-02T16:45:21.462Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:43.913Z	ad998d95d209388d12858cbbf3100e71	pio baroja		1
+CollectionFilterRemovalInteraction	2018-03-02T16:45:54.594Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:57.445Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:04.639Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:07.919Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:14.336Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:24.536Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+SearchInteraction	2018-03-02T17:14:15.236Z	ad998d95d209388d12858cbbf3100e71	red dawn		87
+SearchInteraction	2018-03-02T17:14:18.083Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T18:13:28.659Z	ad998d95d209388d12858cbbf3100e71	jean lorrain		120
+SearchInteraction	2018-03-02T18:13:36.592Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+RankedRetrieveRecordInteraction	2018-03-02T18:13:43.709Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	/9200365/BibliographicResource_3000148103355	1	63
+SearchInteraction	2018-03-02T20:19:58.142Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:00.206Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:02.713Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:03.976Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-02T20:20:06.764Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+SearchInteraction	2018-03-02T20:20:16.779Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:27.010Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+CollectionFilterAdditionInteraction	2018-03-02T20:29:37.211Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-02T20:29:41.470Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:42.810Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:43.537Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.976Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.986Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.190Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.957Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:46.122Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:29:48.609Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+RefreshOrPaginationInteraction	2018-03-02T20:29:48.787Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-02T20:29:55.000Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:29:58.440Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:30:22.517Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false'], 'TYPE': ['TEXT']}	26
+SearchInteraction	2018-03-02T20:30:30.509Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	26
+RankedRetrieveRecordInteraction	2018-03-02T20:30:40.857Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	/9200479/item_13772946_	10	26
+SearchInteraction	2018-03-02T16:43:28.988Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		16
+RankedRetrieveRecordInteraction	2018-03-02T16:43:40.652Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		/9200143/BibliographicResource_2000069297586	6	16
+SearchInteraction	2018-03-02T16:45:21.462Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:43.913Z	ad998d95d209388d12858cbbf3100e71	pio baroja		1
+CollectionFilterRemovalInteraction	2018-03-02T16:45:54.594Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:57.445Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:04.639Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:07.919Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:14.336Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:24.536Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+SearchInteraction	2018-03-02T17:14:15.236Z	ad998d95d209388d12858cbbf3100e71	red dawn		87
+SearchInteraction	2018-03-02T17:14:18.083Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T18:13:28.659Z	ad998d95d209388d12858cbbf3100e71	jean lorrain		120
+SearchInteraction	2018-03-02T18:13:36.592Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+RankedRetrieveRecordInteraction	2018-03-02T18:13:43.709Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	/9200365/BibliographicResource_3000148103355	1	63
+SearchInteraction	2018-03-02T20:19:58.142Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:00.206Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:02.713Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:03.976Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-02T20:20:06.764Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+SearchInteraction	2018-03-02T20:20:16.779Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:27.010Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+CollectionFilterAdditionInteraction	2018-03-02T20:29:37.211Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-02T20:29:41.470Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:42.810Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:43.537Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.976Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.986Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.190Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.957Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:46.122Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:29:48.609Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+RefreshOrPaginationInteraction	2018-03-02T20:29:48.787Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-02T20:29:55.000Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:29:58.440Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:30:22.517Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false'], 'TYPE': ['TEXT']}	26
+SearchInteraction	2018-03-02T20:30:30.509Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	26
+RankedRetrieveRecordInteraction	2018-03-02T20:30:40.857Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	/9200479/item_13772946_	10	26
+SearchInteraction	2018-03-02T16:43:28.988Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		16
+RankedRetrieveRecordInteraction	2018-03-02T16:43:40.652Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		/9200143/BibliographicResource_2000069297586	6	16
+SearchInteraction	2018-03-02T16:45:21.462Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:43.913Z	ad998d95d209388d12858cbbf3100e71	pio baroja		1
+CollectionFilterRemovalInteraction	2018-03-02T16:45:54.594Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:57.445Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:04.639Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:07.919Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:14.336Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:24.536Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+SearchInteraction	2018-03-02T17:14:15.236Z	ad998d95d209388d12858cbbf3100e71	red dawn		87
+SearchInteraction	2018-03-02T17:14:18.083Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T18:13:28.659Z	ad998d95d209388d12858cbbf3100e71	jean lorrain		120
+SearchInteraction	2018-03-02T18:13:36.592Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+RankedRetrieveRecordInteraction	2018-03-02T18:13:43.709Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	/9200365/BibliographicResource_3000148103355	1	63
+SearchInteraction	2018-03-02T20:19:58.142Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:00.206Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:02.713Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:03.976Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-02T20:20:06.764Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+SearchInteraction	2018-03-02T20:20:16.779Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:27.010Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+CollectionFilterAdditionInteraction	2018-03-02T20:29:37.211Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-02T20:29:41.470Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:42.810Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:43.537Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.976Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.986Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.190Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.957Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:46.122Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:29:48.609Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+RefreshOrPaginationInteraction	2018-03-02T20:29:48.787Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-02T20:29:55.000Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:29:58.440Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:30:22.517Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false'], 'TYPE': ['TEXT']}	26
+SearchInteraction	2018-03-02T20:30:30.509Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	26
+RankedRetrieveRecordInteraction	2018-03-02T20:30:40.857Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	/9200479/item_13772946_	10	26
+SearchInteraction	2018-03-02T16:43:28.988Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		16
+RankedRetrieveRecordInteraction	2018-03-02T16:43:40.652Z	ad998d95d209388d12858cbbf3100e71	Dmitry Merezhkovsky		/9200143/BibliographicResource_2000069297586	6	16
+SearchInteraction	2018-03-02T16:45:21.462Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:43.913Z	ad998d95d209388d12858cbbf3100e71	pio baroja		1
+CollectionFilterRemovalInteraction	2018-03-02T16:45:54.594Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:45:57.445Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:04.639Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:07.919Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+CollectionFilterRemovalInteraction	2018-03-02T16:46:14.336Z	ad998d95d209388d12858cbbf3100e71	pio baroja		13466
+CollectionFilterAdditionInteraction	2018-03-02T16:46:24.536Z	ad998d95d209388d12858cbbf3100e71	pio baroja		0
+SearchInteraction	2018-03-02T17:14:15.236Z	ad998d95d209388d12858cbbf3100e71	red dawn		87
+SearchInteraction	2018-03-02T17:14:18.083Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T18:13:28.659Z	ad998d95d209388d12858cbbf3100e71	jean lorrain		120
+SearchInteraction	2018-03-02T18:13:36.592Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+RankedRetrieveRecordInteraction	2018-03-02T18:13:43.709Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	/9200365/BibliographicResource_3000148103355	1	63
+SearchInteraction	2018-03-02T20:19:58.142Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:00.206Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+RefreshOrPaginationInteraction	2018-03-02T20:20:02.713Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:03.976Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-02T20:20:06.764Z	ad998d95d209388d12858cbbf3100e71	jean lorrain	{'TYPE': ['TEXT']}	63
+SearchInteraction	2018-03-02T20:20:16.779Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:20:27.010Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+CollectionFilterAdditionInteraction	2018-03-02T20:29:37.211Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-02T20:29:41.470Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:42.810Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:43.537Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.976Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:44.986Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.190Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:45.957Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+RefreshOrPaginationInteraction	2018-03-02T20:29:46.122Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:29:48.609Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+RefreshOrPaginationInteraction	2018-03-02T20:29:48.787Z	ad998d95d209388d12858cbbf3100e71	John Antoine Nau	{'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-02T20:29:55.000Z	ad998d95d209388d12858cbbf3100e71	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-02T20:29:58.440Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TYPE': ['TEXT']}	264
+SearchInteraction	2018-03-02T20:30:22.517Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false'], 'TYPE': ['TEXT']}	26
+SearchInteraction	2018-03-02T20:30:30.509Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	26
+RankedRetrieveRecordInteraction	2018-03-02T20:30:40.857Z	ad998d95d209388d12858cbbf3100e71	Władysław Reymont	{'TEXT_FULLTEXT': ['false', 'true'], 'TYPE': ['TEXT']}	/9200479/item_13772946_	10	26

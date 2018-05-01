@@ -1,0 +1,70 @@
+SearchInteraction	2018-02-21T21:16:40.387Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:16:47.924Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:17:34.221Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:17:52.556Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_917	51	845
+SearchInteraction	2018-02-21T21:19:05.095Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:29.584Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:52.836Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:11.692Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:25.981Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:20:41.900Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_670	244	845
+ArbitraryAccessInteraction	2018-02-21T21:21:45.200Z	31228b76313cf00dc770a1a6dfb36cac	[200] GET /portal/ru/record/2021672/resource_document_mauritshuis_92.html (PortalController#show)
+SearchInteraction	2018-02-21T21:22:33.270Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:22:47.860Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_607	275	845
+SearchInteraction	2018-02-21T21:23:37.697Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-21T21:16:40.387Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:16:47.924Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:17:34.221Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:17:52.556Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_917	51	845
+SearchInteraction	2018-02-21T21:19:05.095Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:29.584Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:52.836Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:11.692Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:25.981Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:20:41.900Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_670	244	845
+ArbitraryAccessInteraction	2018-02-21T21:21:45.200Z	31228b76313cf00dc770a1a6dfb36cac	[200] GET /portal/ru/record/2021672/resource_document_mauritshuis_92.html (PortalController#show)
+SearchInteraction	2018-02-21T21:22:33.270Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:22:47.860Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_607	275	845
+SearchInteraction	2018-02-21T21:23:37.697Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-21T21:16:40.387Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:16:47.924Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:17:34.221Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:17:52.556Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_917	51	845
+SearchInteraction	2018-02-21T21:19:05.095Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:29.584Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:52.836Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:11.692Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:25.981Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:20:41.900Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_670	244	845
+ArbitraryAccessInteraction	2018-02-21T21:21:45.200Z	31228b76313cf00dc770a1a6dfb36cac	[200] GET /portal/ru/record/2021672/resource_document_mauritshuis_92.html (PortalController#show)
+SearchInteraction	2018-02-21T21:22:33.270Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:22:47.860Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_607	275	845
+SearchInteraction	2018-02-21T21:23:37.697Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-21T21:16:40.387Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:16:47.924Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:17:34.221Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:17:52.556Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_917	51	845
+SearchInteraction	2018-02-21T21:19:05.095Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:29.584Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:52.836Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:11.692Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:25.981Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:20:41.900Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_670	244	845
+ArbitraryAccessInteraction	2018-02-21T21:21:45.200Z	31228b76313cf00dc770a1a6dfb36cac	[200] GET /portal/ru/record/2021672/resource_document_mauritshuis_92.html (PortalController#show)
+SearchInteraction	2018-02-21T21:22:33.270Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:22:47.860Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_607	275	845
+SearchInteraction	2018-02-21T21:23:37.697Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+SearchInteraction	2018-02-21T21:16:40.387Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:16:47.924Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:17:34.221Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:17:52.556Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_917	51	845
+SearchInteraction	2018-02-21T21:19:05.095Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:29.584Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:19:52.836Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:11.692Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RefreshOrPaginationInteraction	2018-02-21T21:20:25.981Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:20:41.900Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_670	244	845
+ArbitraryAccessInteraction	2018-02-21T21:21:45.200Z	31228b76313cf00dc770a1a6dfb36cac	[200] GET /portal/ru/record/2021672/resource_document_mauritshuis_92.html (PortalController#show)
+SearchInteraction	2018-02-21T21:22:33.270Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845
+RankedRetrieveRecordInteraction	2018-02-21T21:22:47.860Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	/2021672/resource_document_mauritshuis_607	275	845
+SearchInteraction	2018-02-21T21:23:37.697Z	31228b76313cf00dc770a1a6dfb36cac	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Mauritshuis']}	845

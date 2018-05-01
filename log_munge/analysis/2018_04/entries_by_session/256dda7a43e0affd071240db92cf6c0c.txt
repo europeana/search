@@ -1,0 +1,160 @@
+SearchInteraction	2018-03-03T16:44:37.103Z	256dda7a43e0affd071240db92cf6c0c	marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:12.768Z	256dda7a43e0affd071240db92cf6c0c	marialust		/92034/GVNRC_NCRD01_123486882	1	91
+SearchInteraction	2018-03-03T16:45:39.477Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:45.541Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106549170	2	91
+RankedRetrieveRecordInteraction	2018-03-03T16:46:21.953Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106548654	3	91
+SearchInteraction	2018-03-03T16:46:53.358Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RefreshOrPaginationInteraction	2018-03-03T16:47:33.101Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:47:38.810Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_V03868	25	91
+RankedRetrieveRecordInteraction	2018-03-03T16:48:36.662Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_P01743	27	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:00.812Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F206_132	28	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:14.616Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F059_013	30	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:37.018Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006735	32	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:57.429Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006356	34	91
+ArbitraryAccessInteraction	2018-03-03T16:50:31.172Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_006355.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:50:48.161Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005163.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:07.750Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:38.823Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004230.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:56.140Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:15.312Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004229.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:27.834Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:36.071Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004226.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:59.786Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004222.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:16.914Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004225.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:33.761Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004224.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:54.469Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004221.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:54:29.781Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005477.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:55:23.338Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004094.html (PortalController#show)
+SearchInteraction	2018-03-03T16:55:43.136Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RefreshOrPaginationInteraction	2018-03-03T16:55:49.222Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RankedRetrieveRecordInteraction	2018-03-03T16:55:56.399Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		/2021636/GA_023501	39	41
+ArbitraryAccessInteraction	2018-03-03T17:09:39.227Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/GA_031937.html (PortalController#show)
+SearchInteraction	2018-03-03T17:28:33.455Z	256dda7a43e0affd071240db92cf6c0c	europeana_collectionName:(2021636_Ag_NL_DigitaleCollectie_CODA)		38412
+SearchInteraction	2018-03-03T16:44:37.103Z	256dda7a43e0affd071240db92cf6c0c	marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:12.768Z	256dda7a43e0affd071240db92cf6c0c	marialust		/92034/GVNRC_NCRD01_123486882	1	91
+SearchInteraction	2018-03-03T16:45:39.477Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:45.541Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106549170	2	91
+RankedRetrieveRecordInteraction	2018-03-03T16:46:21.953Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106548654	3	91
+SearchInteraction	2018-03-03T16:46:53.358Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RefreshOrPaginationInteraction	2018-03-03T16:47:33.101Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:47:38.810Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_V03868	25	91
+RankedRetrieveRecordInteraction	2018-03-03T16:48:36.662Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_P01743	27	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:00.812Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F206_132	28	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:14.616Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F059_013	30	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:37.018Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006735	32	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:57.429Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006356	34	91
+ArbitraryAccessInteraction	2018-03-03T16:50:31.172Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_006355.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:50:48.161Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005163.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:07.750Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:38.823Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004230.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:56.140Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:15.312Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004229.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:27.834Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:36.071Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004226.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:59.786Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004222.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:16.914Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004225.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:33.761Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004224.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:54.469Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004221.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:54:29.781Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005477.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:55:23.338Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004094.html (PortalController#show)
+SearchInteraction	2018-03-03T16:55:43.136Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RefreshOrPaginationInteraction	2018-03-03T16:55:49.222Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RankedRetrieveRecordInteraction	2018-03-03T16:55:56.399Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		/2021636/GA_023501	39	41
+ArbitraryAccessInteraction	2018-03-03T17:09:39.227Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/GA_031937.html (PortalController#show)
+SearchInteraction	2018-03-03T17:28:33.455Z	256dda7a43e0affd071240db92cf6c0c	europeana_collectionName:(2021636_Ag_NL_DigitaleCollectie_CODA)		38412
+SearchInteraction	2018-03-03T16:44:37.103Z	256dda7a43e0affd071240db92cf6c0c	marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:12.768Z	256dda7a43e0affd071240db92cf6c0c	marialust		/92034/GVNRC_NCRD01_123486882	1	91
+SearchInteraction	2018-03-03T16:45:39.477Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:45.541Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106549170	2	91
+RankedRetrieveRecordInteraction	2018-03-03T16:46:21.953Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106548654	3	91
+SearchInteraction	2018-03-03T16:46:53.358Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RefreshOrPaginationInteraction	2018-03-03T16:47:33.101Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:47:38.810Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_V03868	25	91
+RankedRetrieveRecordInteraction	2018-03-03T16:48:36.662Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_P01743	27	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:00.812Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F206_132	28	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:14.616Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F059_013	30	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:37.018Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006735	32	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:57.429Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006356	34	91
+ArbitraryAccessInteraction	2018-03-03T16:50:31.172Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_006355.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:50:48.161Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005163.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:07.750Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:38.823Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004230.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:56.140Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:15.312Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004229.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:27.834Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:36.071Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004226.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:59.786Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004222.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:16.914Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004225.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:33.761Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004224.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:54.469Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004221.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:54:29.781Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005477.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:55:23.338Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004094.html (PortalController#show)
+SearchInteraction	2018-03-03T16:55:43.136Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RefreshOrPaginationInteraction	2018-03-03T16:55:49.222Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RankedRetrieveRecordInteraction	2018-03-03T16:55:56.399Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		/2021636/GA_023501	39	41
+ArbitraryAccessInteraction	2018-03-03T17:09:39.227Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/GA_031937.html (PortalController#show)
+SearchInteraction	2018-03-03T17:28:33.455Z	256dda7a43e0affd071240db92cf6c0c	europeana_collectionName:(2021636_Ag_NL_DigitaleCollectie_CODA)		38412
+SearchInteraction	2018-03-03T16:44:37.103Z	256dda7a43e0affd071240db92cf6c0c	marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:12.768Z	256dda7a43e0affd071240db92cf6c0c	marialust		/92034/GVNRC_NCRD01_123486882	1	91
+SearchInteraction	2018-03-03T16:45:39.477Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:45.541Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106549170	2	91
+RankedRetrieveRecordInteraction	2018-03-03T16:46:21.953Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106548654	3	91
+SearchInteraction	2018-03-03T16:46:53.358Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RefreshOrPaginationInteraction	2018-03-03T16:47:33.101Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:47:38.810Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_V03868	25	91
+RankedRetrieveRecordInteraction	2018-03-03T16:48:36.662Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_P01743	27	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:00.812Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F206_132	28	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:14.616Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F059_013	30	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:37.018Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006735	32	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:57.429Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006356	34	91
+ArbitraryAccessInteraction	2018-03-03T16:50:31.172Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_006355.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:50:48.161Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005163.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:07.750Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:38.823Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004230.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:56.140Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:15.312Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004229.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:27.834Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:36.071Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004226.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:59.786Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004222.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:16.914Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004225.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:33.761Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004224.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:54.469Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004221.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:54:29.781Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005477.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:55:23.338Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004094.html (PortalController#show)
+SearchInteraction	2018-03-03T16:55:43.136Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RefreshOrPaginationInteraction	2018-03-03T16:55:49.222Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RankedRetrieveRecordInteraction	2018-03-03T16:55:56.399Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		/2021636/GA_023501	39	41
+ArbitraryAccessInteraction	2018-03-03T17:09:39.227Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/GA_031937.html (PortalController#show)
+SearchInteraction	2018-03-03T17:28:33.455Z	256dda7a43e0affd071240db92cf6c0c	europeana_collectionName:(2021636_Ag_NL_DigitaleCollectie_CODA)		38412
+SearchInteraction	2018-03-03T16:44:37.103Z	256dda7a43e0affd071240db92cf6c0c	marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:12.768Z	256dda7a43e0affd071240db92cf6c0c	marialust		/92034/GVNRC_NCRD01_123486882	1	91
+SearchInteraction	2018-03-03T16:45:39.477Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:45:45.541Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106549170	2	91
+RankedRetrieveRecordInteraction	2018-03-03T16:46:21.953Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/92034/GVNRC_NCRD01_106548654	3	91
+SearchInteraction	2018-03-03T16:46:53.358Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RefreshOrPaginationInteraction	2018-03-03T16:47:33.101Z	256dda7a43e0affd071240db92cf6c0c	Marialust		91
+RankedRetrieveRecordInteraction	2018-03-03T16:47:38.810Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_V03868	25	91
+RankedRetrieveRecordInteraction	2018-03-03T16:48:36.662Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_P01743	27	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:00.812Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F206_132	28	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:14.616Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021648/1186_F059_013	30	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:37.018Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006735	32	91
+RankedRetrieveRecordInteraction	2018-03-03T16:49:57.429Z	256dda7a43e0affd071240db92cf6c0c	Marialust		/2021636/P_006356	34	91
+ArbitraryAccessInteraction	2018-03-03T16:50:31.172Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_006355.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:50:48.161Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005163.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:07.750Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004231.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:38.823Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004230.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:51:56.140Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:15.312Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004229.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:27.834Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:36.071Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004226.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:52:59.786Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004222.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:16.914Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004225.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:33.761Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004224.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:53:54.469Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004221.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:54:29.781Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_005477.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T16:55:23.338Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/P_004094.html (PortalController#show)
+SearchInteraction	2018-03-03T16:55:43.136Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RefreshOrPaginationInteraction	2018-03-03T16:55:49.222Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		41
+RankedRetrieveRecordInteraction	2018-03-03T16:55:56.399Z	256dda7a43e0affd071240db92cf6c0c	what:"Marialust"		/2021636/GA_023501	39	41
+ArbitraryAccessInteraction	2018-03-03T17:09:39.227Z	256dda7a43e0affd071240db92cf6c0c	[200] GET /portal/nl/record/2021636/GA_031937.html (PortalController#show)
+SearchInteraction	2018-03-03T17:28:33.455Z	256dda7a43e0affd071240db92cf6c0c	europeana_collectionName:(2021636_Ag_NL_DigitaleCollectie_CODA)		38412

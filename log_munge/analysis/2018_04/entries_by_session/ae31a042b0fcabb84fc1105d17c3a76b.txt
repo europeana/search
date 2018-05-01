@@ -1,0 +1,160 @@
+ArbitraryAccessInteraction	2018-03-04T15:44:32.187Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0045.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:45:48.373Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0083.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:10.025Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0077.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:53.135Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:47:50.651Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:48:36.688Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0066.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:49:34.749Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0063.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:50:02.225Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0044.html (PortalController#show)
+SearchInteraction	2018-03-04T15:51:10.116Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		10
+RankedRetrieveRecordInteraction	2018-03-04T15:51:32.255Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		/9200376/BibliographicResource_3000100297689	3	10
+ArbitraryAccessInteraction	2018-03-04T15:52:07.820Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000100297871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:52:16.493Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363914.html (PortalController#show)
+SearchInteraction	2018-03-04T15:53:20.451Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RefreshOrPaginationInteraction	2018-03-04T15:53:20.474Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RankedRetrieveRecordInteraction	2018-03-04T15:54:05.006Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/9200376/BibliographicResource_3000100297689	2	3
+SearchInteraction	2018-03-04T15:55:27.130Z	ae31a042b0fcabb84fc1105d17c3a76b	europeana_collectionName:(9200376_Ag_EU_TEL_a1226_NationalLibrarySpain)		122026
+SearchInteraction	2018-03-04T15:55:42.802Z	ae31a042b0fcabb84fc1105d17c3a76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+RankedRetrieveRecordInteraction	2018-03-04T15:56:13.488Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/2022709/oai_fototeca_mcu_es_fototeca_FICHERO_20SERVICIO_20DE_20RECUPERACION_20ARTISTICA_SRA_0605_002	3	3
+SearchInteraction	2018-03-04T15:57:42.066Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		1520
+CollectionFilterAdditionInteraction	2018-03-04T15:58:34.950Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		0
+SearchInteraction	2018-03-04T15:58:40.718Z	ae31a042b0fcabb84fc1105d17c3a76b	Yurreta vizcaya		0
+SearchInteraction	2018-03-04T15:58:47.009Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T15:58:56.955Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T15:59:46.554Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+CollectionFilterAdditionInteraction	2018-03-04T16:00:08.043Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		0
+CollectionFilterRemovalInteraction	2018-03-04T16:00:13.027Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+SearchInteraction	2018-03-04T16:00:14.881Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T16:00:16.419Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:00:37.456Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RefreshOrPaginationInteraction	2018-03-04T16:01:40.091Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:07.921Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100297689	15	321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:44.624Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100250621	21	321
+ArbitraryAccessInteraction	2018-03-04T15:44:32.187Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0045.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:45:48.373Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0083.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:10.025Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0077.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:53.135Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:47:50.651Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:48:36.688Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0066.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:49:34.749Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0063.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:50:02.225Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0044.html (PortalController#show)
+SearchInteraction	2018-03-04T15:51:10.116Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		10
+RankedRetrieveRecordInteraction	2018-03-04T15:51:32.255Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		/9200376/BibliographicResource_3000100297689	3	10
+ArbitraryAccessInteraction	2018-03-04T15:52:07.820Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000100297871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:52:16.493Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363914.html (PortalController#show)
+SearchInteraction	2018-03-04T15:53:20.451Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RefreshOrPaginationInteraction	2018-03-04T15:53:20.474Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RankedRetrieveRecordInteraction	2018-03-04T15:54:05.006Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/9200376/BibliographicResource_3000100297689	2	3
+SearchInteraction	2018-03-04T15:55:27.130Z	ae31a042b0fcabb84fc1105d17c3a76b	europeana_collectionName:(9200376_Ag_EU_TEL_a1226_NationalLibrarySpain)		122026
+SearchInteraction	2018-03-04T15:55:42.802Z	ae31a042b0fcabb84fc1105d17c3a76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+RankedRetrieveRecordInteraction	2018-03-04T15:56:13.488Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/2022709/oai_fototeca_mcu_es_fototeca_FICHERO_20SERVICIO_20DE_20RECUPERACION_20ARTISTICA_SRA_0605_002	3	3
+SearchInteraction	2018-03-04T15:57:42.066Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		1520
+CollectionFilterAdditionInteraction	2018-03-04T15:58:34.950Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		0
+SearchInteraction	2018-03-04T15:58:40.718Z	ae31a042b0fcabb84fc1105d17c3a76b	Yurreta vizcaya		0
+SearchInteraction	2018-03-04T15:58:47.009Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T15:58:56.955Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T15:59:46.554Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+CollectionFilterAdditionInteraction	2018-03-04T16:00:08.043Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		0
+CollectionFilterRemovalInteraction	2018-03-04T16:00:13.027Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+SearchInteraction	2018-03-04T16:00:14.881Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T16:00:16.419Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:00:37.456Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RefreshOrPaginationInteraction	2018-03-04T16:01:40.091Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:07.921Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100297689	15	321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:44.624Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100250621	21	321
+ArbitraryAccessInteraction	2018-03-04T15:44:32.187Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0045.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:45:48.373Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0083.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:10.025Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0077.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:53.135Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:47:50.651Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:48:36.688Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0066.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:49:34.749Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0063.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:50:02.225Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0044.html (PortalController#show)
+SearchInteraction	2018-03-04T15:51:10.116Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		10
+RankedRetrieveRecordInteraction	2018-03-04T15:51:32.255Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		/9200376/BibliographicResource_3000100297689	3	10
+ArbitraryAccessInteraction	2018-03-04T15:52:07.820Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000100297871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:52:16.493Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363914.html (PortalController#show)
+SearchInteraction	2018-03-04T15:53:20.451Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RefreshOrPaginationInteraction	2018-03-04T15:53:20.474Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RankedRetrieveRecordInteraction	2018-03-04T15:54:05.006Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/9200376/BibliographicResource_3000100297689	2	3
+SearchInteraction	2018-03-04T15:55:27.130Z	ae31a042b0fcabb84fc1105d17c3a76b	europeana_collectionName:(9200376_Ag_EU_TEL_a1226_NationalLibrarySpain)		122026
+SearchInteraction	2018-03-04T15:55:42.802Z	ae31a042b0fcabb84fc1105d17c3a76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+RankedRetrieveRecordInteraction	2018-03-04T15:56:13.488Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/2022709/oai_fototeca_mcu_es_fototeca_FICHERO_20SERVICIO_20DE_20RECUPERACION_20ARTISTICA_SRA_0605_002	3	3
+SearchInteraction	2018-03-04T15:57:42.066Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		1520
+CollectionFilterAdditionInteraction	2018-03-04T15:58:34.950Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		0
+SearchInteraction	2018-03-04T15:58:40.718Z	ae31a042b0fcabb84fc1105d17c3a76b	Yurreta vizcaya		0
+SearchInteraction	2018-03-04T15:58:47.009Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T15:58:56.955Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T15:59:46.554Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+CollectionFilterAdditionInteraction	2018-03-04T16:00:08.043Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		0
+CollectionFilterRemovalInteraction	2018-03-04T16:00:13.027Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+SearchInteraction	2018-03-04T16:00:14.881Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T16:00:16.419Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:00:37.456Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RefreshOrPaginationInteraction	2018-03-04T16:01:40.091Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:07.921Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100297689	15	321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:44.624Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100250621	21	321
+ArbitraryAccessInteraction	2018-03-04T15:44:32.187Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0045.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:45:48.373Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0083.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:10.025Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0077.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:53.135Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:47:50.651Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:48:36.688Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0066.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:49:34.749Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0063.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:50:02.225Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0044.html (PortalController#show)
+SearchInteraction	2018-03-04T15:51:10.116Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		10
+RankedRetrieveRecordInteraction	2018-03-04T15:51:32.255Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		/9200376/BibliographicResource_3000100297689	3	10
+ArbitraryAccessInteraction	2018-03-04T15:52:07.820Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000100297871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:52:16.493Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363914.html (PortalController#show)
+SearchInteraction	2018-03-04T15:53:20.451Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RefreshOrPaginationInteraction	2018-03-04T15:53:20.474Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RankedRetrieveRecordInteraction	2018-03-04T15:54:05.006Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/9200376/BibliographicResource_3000100297689	2	3
+SearchInteraction	2018-03-04T15:55:27.130Z	ae31a042b0fcabb84fc1105d17c3a76b	europeana_collectionName:(9200376_Ag_EU_TEL_a1226_NationalLibrarySpain)		122026
+SearchInteraction	2018-03-04T15:55:42.802Z	ae31a042b0fcabb84fc1105d17c3a76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+RankedRetrieveRecordInteraction	2018-03-04T15:56:13.488Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/2022709/oai_fototeca_mcu_es_fototeca_FICHERO_20SERVICIO_20DE_20RECUPERACION_20ARTISTICA_SRA_0605_002	3	3
+SearchInteraction	2018-03-04T15:57:42.066Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		1520
+CollectionFilterAdditionInteraction	2018-03-04T15:58:34.950Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		0
+SearchInteraction	2018-03-04T15:58:40.718Z	ae31a042b0fcabb84fc1105d17c3a76b	Yurreta vizcaya		0
+SearchInteraction	2018-03-04T15:58:47.009Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T15:58:56.955Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T15:59:46.554Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+CollectionFilterAdditionInteraction	2018-03-04T16:00:08.043Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		0
+CollectionFilterRemovalInteraction	2018-03-04T16:00:13.027Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+SearchInteraction	2018-03-04T16:00:14.881Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T16:00:16.419Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:00:37.456Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RefreshOrPaginationInteraction	2018-03-04T16:01:40.091Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:07.921Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100297689	15	321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:44.624Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100250621	21	321
+ArbitraryAccessInteraction	2018-03-04T15:44:32.187Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0045.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:45:48.373Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0083.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:10.025Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0077.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:46:53.135Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:47:50.651Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:48:36.688Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0066.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:49:34.749Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0063.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:50:02.225Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/2022709/oai_fototeca_mcu_es_fototeca_ADQUISICIONES_20SUBASTAS_SB_0044.html (PortalController#show)
+SearchInteraction	2018-03-04T15:51:10.116Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		10
+RankedRetrieveRecordInteraction	2018-03-04T15:51:32.255Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango vizcaya		/9200376/BibliographicResource_3000100297689	3	10
+ArbitraryAccessInteraction	2018-03-04T15:52:07.820Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000100297871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T15:52:16.493Z	ae31a042b0fcabb84fc1105d17c3a76b	[200] GET /portal/es/record/9200376/BibliographicResource_3000136363914.html (PortalController#show)
+SearchInteraction	2018-03-04T15:53:20.451Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RefreshOrPaginationInteraction	2018-03-04T15:53:20.474Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		3
+RankedRetrieveRecordInteraction	2018-03-04T15:54:05.006Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/9200376/BibliographicResource_3000100297689	2	3
+SearchInteraction	2018-03-04T15:55:27.130Z	ae31a042b0fcabb84fc1105d17c3a76b	europeana_collectionName:(9200376_Ag_EU_TEL_a1226_NationalLibrarySpain)		122026
+SearchInteraction	2018-03-04T15:55:42.802Z	ae31a042b0fcabb84fc1105d17c3a76b	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+RankedRetrieveRecordInteraction	2018-03-04T15:56:13.488Z	ae31a042b0fcabb84fc1105d17c3a76b	Fotografías Durango vizcaya		/2022709/oai_fototeca_mcu_es_fototeca_FICHERO_20SERVICIO_20DE_20RECUPERACION_20ARTISTICA_SRA_0605_002	3	3
+SearchInteraction	2018-03-04T15:57:42.066Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		1520
+CollectionFilterAdditionInteraction	2018-03-04T15:58:34.950Z	ae31a042b0fcabb84fc1105d17c3a76b	Turrets 		0
+SearchInteraction	2018-03-04T15:58:40.718Z	ae31a042b0fcabb84fc1105d17c3a76b	Yurreta vizcaya		0
+SearchInteraction	2018-03-04T15:58:47.009Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T15:58:56.955Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T15:59:46.554Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+CollectionFilterAdditionInteraction	2018-03-04T16:00:08.043Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		0
+CollectionFilterRemovalInteraction	2018-03-04T16:00:13.027Z	ae31a042b0fcabb84fc1105d17c3a76b	Iurreta		4
+SearchInteraction	2018-03-04T16:00:14.881Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-04T16:00:16.419Z	ae31a042b0fcabb84fc1105d17c3a76b	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:00:37.456Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RefreshOrPaginationInteraction	2018-03-04T16:01:40.091Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:07.921Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100297689	15	321
+RankedRetrieveRecordInteraction	2018-03-04T16:02:44.624Z	ae31a042b0fcabb84fc1105d17c3a76b	Durango		/9200376/BibliographicResource_3000100250621	21	321

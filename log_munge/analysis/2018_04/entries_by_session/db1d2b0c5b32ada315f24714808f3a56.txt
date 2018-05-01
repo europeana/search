@@ -1,0 +1,55 @@
+ArbitraryAccessInteraction	2018-03-01T20:43:33.260Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_d91e37aa_5746_07df_ebd1_ce71e944f820.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:44:34.194Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_c82ef569_c798_7ffa_069c_434f2ae0d44d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:46:25.883Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_cd914534_1b76_b917_0ccd_fabbd9b41fe4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:47:22.205Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_f41e87f1_e8ee_31f1_306a_34d5009836ab.html (PortalController#show)
+SearchInteraction	2018-03-01T20:51:35.964Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:52:34.219Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RankedRetrieveRecordInteraction	2018-03-01T20:53:37.681Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		/2021650/memorix_beb573fd_9999_2c09_2a6f_255fb1457a63	16	4125326
+SearchInteraction	2018-03-01T20:55:13.134Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:55:58.145Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:56:41.221Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:57:09.581Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+ArbitraryAccessInteraction	2018-03-01T20:43:33.260Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_d91e37aa_5746_07df_ebd1_ce71e944f820.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:44:34.194Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_c82ef569_c798_7ffa_069c_434f2ae0d44d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:46:25.883Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_cd914534_1b76_b917_0ccd_fabbd9b41fe4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:47:22.205Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_f41e87f1_e8ee_31f1_306a_34d5009836ab.html (PortalController#show)
+SearchInteraction	2018-03-01T20:51:35.964Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:52:34.219Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RankedRetrieveRecordInteraction	2018-03-01T20:53:37.681Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		/2021650/memorix_beb573fd_9999_2c09_2a6f_255fb1457a63	16	4125326
+SearchInteraction	2018-03-01T20:55:13.134Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:55:58.145Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:56:41.221Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:57:09.581Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+ArbitraryAccessInteraction	2018-03-01T20:43:33.260Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_d91e37aa_5746_07df_ebd1_ce71e944f820.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:44:34.194Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_c82ef569_c798_7ffa_069c_434f2ae0d44d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:46:25.883Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_cd914534_1b76_b917_0ccd_fabbd9b41fe4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:47:22.205Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_f41e87f1_e8ee_31f1_306a_34d5009836ab.html (PortalController#show)
+SearchInteraction	2018-03-01T20:51:35.964Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:52:34.219Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RankedRetrieveRecordInteraction	2018-03-01T20:53:37.681Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		/2021650/memorix_beb573fd_9999_2c09_2a6f_255fb1457a63	16	4125326
+SearchInteraction	2018-03-01T20:55:13.134Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:55:58.145Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:56:41.221Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:57:09.581Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+ArbitraryAccessInteraction	2018-03-01T20:43:33.260Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_d91e37aa_5746_07df_ebd1_ce71e944f820.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:44:34.194Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_c82ef569_c798_7ffa_069c_434f2ae0d44d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:46:25.883Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_cd914534_1b76_b917_0ccd_fabbd9b41fe4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:47:22.205Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_f41e87f1_e8ee_31f1_306a_34d5009836ab.html (PortalController#show)
+SearchInteraction	2018-03-01T20:51:35.964Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:52:34.219Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RankedRetrieveRecordInteraction	2018-03-01T20:53:37.681Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		/2021650/memorix_beb573fd_9999_2c09_2a6f_255fb1457a63	16	4125326
+SearchInteraction	2018-03-01T20:55:13.134Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:55:58.145Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:56:41.221Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:57:09.581Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+ArbitraryAccessInteraction	2018-03-01T20:43:33.260Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_d91e37aa_5746_07df_ebd1_ce71e944f820.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:44:34.194Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_c82ef569_c798_7ffa_069c_434f2ae0d44d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:46:25.883Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_cd914534_1b76_b917_0ccd_fabbd9b41fe4.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T20:47:22.205Z	db1d2b0c5b32ada315f24714808f3a56	[200] GET /portal/nl/record/2021650/memorix_f41e87f1_e8ee_31f1_306a_34d5009836ab.html (PortalController#show)
+SearchInteraction	2018-03-01T20:51:35.964Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:52:34.219Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RankedRetrieveRecordInteraction	2018-03-01T20:53:37.681Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		/2021650/memorix_beb573fd_9999_2c09_2a6f_255fb1457a63	16	4125326
+SearchInteraction	2018-03-01T20:55:13.134Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:55:58.145Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:56:41.221Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326
+RefreshOrPaginationInteraction	2018-03-01T20:57:09.581Z	db1d2b0c5b32ada315f24714808f3a56	NO VALUE PROVIDED		4125326

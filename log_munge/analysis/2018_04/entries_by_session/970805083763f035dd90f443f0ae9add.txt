@@ -1,0 +1,150 @@
+ArbitraryAccessInteraction	2018-02-18T15:30:06.166Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__18781.html (PortalController#show)
+SearchInteraction	2018-02-18T15:30:50.051Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RefreshOrPaginationInteraction	2018-02-18T15:31:11.743Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RankedRetrieveRecordInteraction	2018-02-18T15:31:20.337Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__SAE_1858_028	37	424639
+RankedRetrieveRecordInteraction	2018-02-18T15:32:51.666Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__18770	3	424639
+SearchInteraction	2018-02-18T15:33:22.785Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'COLOURPALETTE': ['#DCDCDC'], 'TYPE': ['IMAGE']}	3300283
+SearchInteraction	2018-02-18T15:34:02.371Z	970805083763f035dd90f443f0ae9add	type:"Druck"		0
+SearchInteraction	2018-02-18T15:34:38.422Z	970805083763f035dd90f443f0ae9add	poelzig		4844
+SearchInteraction	2018-02-18T15:37:00.279Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:37:56.549Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/92099/BibliographicResource_2000081662432	1	51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:39:14.342Z	970805083763f035dd90f443f0ae9add	poelzig		/92054/URN_NBN_SI_doc_9022KP3Z	1	4844
+SearchInteraction	2018-02-18T16:06:36.898Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-18T16:06:47.147Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:07:28.779Z	970805083763f035dd90f443f0ae9add	weissenhof		/2024909/photography_ProvidedCHO_United_Archives_02173879_jpg	8	107
+SearchInteraction	2018-02-18T16:08:23.984Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:08:40.982Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__IGG_2261	23	107
+RankedRetrieveRecordInteraction	2018-02-18T16:09:53.255Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__HP_023_042	24	107
+SearchInteraction	2018-02-18T16:10:21.396Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:10:51.591Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__F_1808	33	107
+SearchInteraction	2018-02-18T17:32:25.376Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:32:47.537Z	970805083763f035dd90f443f0ae9add	weinbrenner	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:32:57.085Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:07.616Z	970805083763f035dd90f443f0ae9add	Schinkle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:33:15.084Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:21.064Z	970805083763f035dd90f443f0ae9add	Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	165
+SearchInteraction	2018-02-18T17:33:27.501Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:36.411Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RefreshOrPaginationInteraction	2018-02-18T17:34:26.488Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RankedRetrieveRecordInteraction	2018-02-18T17:34:41.532Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_3000126211583	22	84
+ArbitraryAccessInteraction	2018-02-19T07:08:39.097Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__10804.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T15:30:06.166Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__18781.html (PortalController#show)
+SearchInteraction	2018-02-18T15:30:50.051Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RefreshOrPaginationInteraction	2018-02-18T15:31:11.743Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RankedRetrieveRecordInteraction	2018-02-18T15:31:20.337Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__SAE_1858_028	37	424639
+RankedRetrieveRecordInteraction	2018-02-18T15:32:51.666Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__18770	3	424639
+SearchInteraction	2018-02-18T15:33:22.785Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'COLOURPALETTE': ['#DCDCDC'], 'TYPE': ['IMAGE']}	3300283
+SearchInteraction	2018-02-18T15:34:02.371Z	970805083763f035dd90f443f0ae9add	type:"Druck"		0
+SearchInteraction	2018-02-18T15:34:38.422Z	970805083763f035dd90f443f0ae9add	poelzig		4844
+SearchInteraction	2018-02-18T15:37:00.279Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:37:56.549Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/92099/BibliographicResource_2000081662432	1	51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:39:14.342Z	970805083763f035dd90f443f0ae9add	poelzig		/92054/URN_NBN_SI_doc_9022KP3Z	1	4844
+SearchInteraction	2018-02-18T16:06:36.898Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-18T16:06:47.147Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:07:28.779Z	970805083763f035dd90f443f0ae9add	weissenhof		/2024909/photography_ProvidedCHO_United_Archives_02173879_jpg	8	107
+SearchInteraction	2018-02-18T16:08:23.984Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:08:40.982Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__IGG_2261	23	107
+RankedRetrieveRecordInteraction	2018-02-18T16:09:53.255Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__HP_023_042	24	107
+SearchInteraction	2018-02-18T16:10:21.396Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:10:51.591Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__F_1808	33	107
+SearchInteraction	2018-02-18T17:32:25.376Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:32:47.537Z	970805083763f035dd90f443f0ae9add	weinbrenner	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:32:57.085Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:07.616Z	970805083763f035dd90f443f0ae9add	Schinkle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:33:15.084Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:21.064Z	970805083763f035dd90f443f0ae9add	Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	165
+SearchInteraction	2018-02-18T17:33:27.501Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:36.411Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RefreshOrPaginationInteraction	2018-02-18T17:34:26.488Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RankedRetrieveRecordInteraction	2018-02-18T17:34:41.532Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_3000126211583	22	84
+ArbitraryAccessInteraction	2018-02-19T07:08:39.097Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__10804.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T15:30:06.166Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__18781.html (PortalController#show)
+SearchInteraction	2018-02-18T15:30:50.051Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RefreshOrPaginationInteraction	2018-02-18T15:31:11.743Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RankedRetrieveRecordInteraction	2018-02-18T15:31:20.337Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__SAE_1858_028	37	424639
+RankedRetrieveRecordInteraction	2018-02-18T15:32:51.666Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__18770	3	424639
+SearchInteraction	2018-02-18T15:33:22.785Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'COLOURPALETTE': ['#DCDCDC'], 'TYPE': ['IMAGE']}	3300283
+SearchInteraction	2018-02-18T15:34:02.371Z	970805083763f035dd90f443f0ae9add	type:"Druck"		0
+SearchInteraction	2018-02-18T15:34:38.422Z	970805083763f035dd90f443f0ae9add	poelzig		4844
+SearchInteraction	2018-02-18T15:37:00.279Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:37:56.549Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/92099/BibliographicResource_2000081662432	1	51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:39:14.342Z	970805083763f035dd90f443f0ae9add	poelzig		/92054/URN_NBN_SI_doc_9022KP3Z	1	4844
+SearchInteraction	2018-02-18T16:06:36.898Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-18T16:06:47.147Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:07:28.779Z	970805083763f035dd90f443f0ae9add	weissenhof		/2024909/photography_ProvidedCHO_United_Archives_02173879_jpg	8	107
+SearchInteraction	2018-02-18T16:08:23.984Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:08:40.982Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__IGG_2261	23	107
+RankedRetrieveRecordInteraction	2018-02-18T16:09:53.255Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__HP_023_042	24	107
+SearchInteraction	2018-02-18T16:10:21.396Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:10:51.591Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__F_1808	33	107
+SearchInteraction	2018-02-18T17:32:25.376Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:32:47.537Z	970805083763f035dd90f443f0ae9add	weinbrenner	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:32:57.085Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:07.616Z	970805083763f035dd90f443f0ae9add	Schinkle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:33:15.084Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:21.064Z	970805083763f035dd90f443f0ae9add	Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	165
+SearchInteraction	2018-02-18T17:33:27.501Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:36.411Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RefreshOrPaginationInteraction	2018-02-18T17:34:26.488Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RankedRetrieveRecordInteraction	2018-02-18T17:34:41.532Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_3000126211583	22	84
+ArbitraryAccessInteraction	2018-02-19T07:08:39.097Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__10804.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T15:30:06.166Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__18781.html (PortalController#show)
+SearchInteraction	2018-02-18T15:30:50.051Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RefreshOrPaginationInteraction	2018-02-18T15:31:11.743Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RankedRetrieveRecordInteraction	2018-02-18T15:31:20.337Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__SAE_1858_028	37	424639
+RankedRetrieveRecordInteraction	2018-02-18T15:32:51.666Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__18770	3	424639
+SearchInteraction	2018-02-18T15:33:22.785Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'COLOURPALETTE': ['#DCDCDC'], 'TYPE': ['IMAGE']}	3300283
+SearchInteraction	2018-02-18T15:34:02.371Z	970805083763f035dd90f443f0ae9add	type:"Druck"		0
+SearchInteraction	2018-02-18T15:34:38.422Z	970805083763f035dd90f443f0ae9add	poelzig		4844
+SearchInteraction	2018-02-18T15:37:00.279Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:37:56.549Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/92099/BibliographicResource_2000081662432	1	51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:39:14.342Z	970805083763f035dd90f443f0ae9add	poelzig		/92054/URN_NBN_SI_doc_9022KP3Z	1	4844
+SearchInteraction	2018-02-18T16:06:36.898Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-18T16:06:47.147Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:07:28.779Z	970805083763f035dd90f443f0ae9add	weissenhof		/2024909/photography_ProvidedCHO_United_Archives_02173879_jpg	8	107
+SearchInteraction	2018-02-18T16:08:23.984Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:08:40.982Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__IGG_2261	23	107
+RankedRetrieveRecordInteraction	2018-02-18T16:09:53.255Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__HP_023_042	24	107
+SearchInteraction	2018-02-18T16:10:21.396Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:10:51.591Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__F_1808	33	107
+SearchInteraction	2018-02-18T17:32:25.376Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:32:47.537Z	970805083763f035dd90f443f0ae9add	weinbrenner	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:32:57.085Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:07.616Z	970805083763f035dd90f443f0ae9add	Schinkle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:33:15.084Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:21.064Z	970805083763f035dd90f443f0ae9add	Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	165
+SearchInteraction	2018-02-18T17:33:27.501Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:36.411Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RefreshOrPaginationInteraction	2018-02-18T17:34:26.488Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RankedRetrieveRecordInteraction	2018-02-18T17:34:41.532Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_3000126211583	22	84
+ArbitraryAccessInteraction	2018-02-19T07:08:39.097Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__10804.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T15:30:06.166Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__18781.html (PortalController#show)
+SearchInteraction	2018-02-18T15:30:50.051Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RefreshOrPaginationInteraction	2018-02-18T15:31:11.743Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		424639
+RankedRetrieveRecordInteraction	2018-02-18T15:31:20.337Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__SAE_1858_028	37	424639
+RankedRetrieveRecordInteraction	2018-02-18T15:32:51.666Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/08535/local__default__18770	3	424639
+SearchInteraction	2018-02-18T15:33:22.785Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'COLOURPALETTE': ['#DCDCDC'], 'TYPE': ['IMAGE']}	3300283
+SearchInteraction	2018-02-18T15:34:02.371Z	970805083763f035dd90f443f0ae9add	type:"Druck"		0
+SearchInteraction	2018-02-18T15:34:38.422Z	970805083763f035dd90f443f0ae9add	poelzig		4844
+SearchInteraction	2018-02-18T15:37:00.279Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:37:56.549Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		/92099/BibliographicResource_2000081662432	1	51595228
+RankedRetrieveRecordInteraction	2018-02-18T15:39:14.342Z	970805083763f035dd90f443f0ae9add	poelzig		/92054/URN_NBN_SI_doc_9022KP3Z	1	4844
+SearchInteraction	2018-02-18T16:06:36.898Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-18T16:06:47.147Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:07:28.779Z	970805083763f035dd90f443f0ae9add	weissenhof		/2024909/photography_ProvidedCHO_United_Archives_02173879_jpg	8	107
+SearchInteraction	2018-02-18T16:08:23.984Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:08:40.982Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__IGG_2261	23	107
+RankedRetrieveRecordInteraction	2018-02-18T16:09:53.255Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__HP_023_042	24	107
+SearchInteraction	2018-02-18T16:10:21.396Z	970805083763f035dd90f443f0ae9add	weissenhof		107
+RankedRetrieveRecordInteraction	2018-02-18T16:10:51.591Z	970805083763f035dd90f443f0ae9add	weissenhof		/08535/local__default__F_1808	33	107
+SearchInteraction	2018-02-18T17:32:25.376Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:32:47.537Z	970805083763f035dd90f443f0ae9add	weinbrenner	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:32:57.085Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:07.616Z	970805083763f035dd90f443f0ae9add	Schinkle	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-18T17:33:15.084Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:21.064Z	970805083763f035dd90f443f0ae9add	Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	165
+SearchInteraction	2018-02-18T17:33:27.501Z	970805083763f035dd90f443f0ae9add	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-18T17:33:36.411Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RefreshOrPaginationInteraction	2018-02-18T17:34:26.488Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	84
+RankedRetrieveRecordInteraction	2018-02-18T17:34:41.532Z	970805083763f035dd90f443f0ae9add	Karl Friedrich Schinkel	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200365/BibliographicResource_3000126211583	22	84
+ArbitraryAccessInteraction	2018-02-19T07:08:39.097Z	970805083763f035dd90f443f0ae9add	[200] GET /portal/en/record/08535/local__default__10804.html (PortalController#show)

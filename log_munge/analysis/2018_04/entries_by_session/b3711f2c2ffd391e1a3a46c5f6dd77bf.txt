@@ -1,0 +1,65 @@
+SearchInteraction	2018-03-09T08:51:16.729Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	who:(Peter Paul Rubens)		1610
+ArbitraryAccessInteraction	2018-03-09T08:52:07.679Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-09T08:52:37.924Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:43.276Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:44.474Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+SearchInteraction	2018-03-09T08:52:51.333Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'TYPE': ['VIDEO']}	14867
+SearchInteraction	2018-03-09T08:52:58.579Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	6955
+CollectionFilterAdditionInteraction	2018-03-09T08:53:18.013Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+CollectionFilterAdditionInteraction	2018-03-09T08:53:26.322Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:37.107Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:43.225Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+CollectionFilterRemovalInteraction	2018-03-09T08:53:43.701Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+RankedRetrieveRecordInteraction	2018-03-09T08:53:49.287Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	/91401/oai_cimu_aloes_0803275	12	295450
+SearchInteraction	2018-03-09T08:51:16.729Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	who:(Peter Paul Rubens)		1610
+ArbitraryAccessInteraction	2018-03-09T08:52:07.679Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-09T08:52:37.924Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:43.276Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:44.474Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+SearchInteraction	2018-03-09T08:52:51.333Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'TYPE': ['VIDEO']}	14867
+SearchInteraction	2018-03-09T08:52:58.579Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	6955
+CollectionFilterAdditionInteraction	2018-03-09T08:53:18.013Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+CollectionFilterAdditionInteraction	2018-03-09T08:53:26.322Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:37.107Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:43.225Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+CollectionFilterRemovalInteraction	2018-03-09T08:53:43.701Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+RankedRetrieveRecordInteraction	2018-03-09T08:53:49.287Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	/91401/oai_cimu_aloes_0803275	12	295450
+SearchInteraction	2018-03-09T08:51:16.729Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	who:(Peter Paul Rubens)		1610
+ArbitraryAccessInteraction	2018-03-09T08:52:07.679Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-09T08:52:37.924Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:43.276Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:44.474Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+SearchInteraction	2018-03-09T08:52:51.333Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'TYPE': ['VIDEO']}	14867
+SearchInteraction	2018-03-09T08:52:58.579Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	6955
+CollectionFilterAdditionInteraction	2018-03-09T08:53:18.013Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+CollectionFilterAdditionInteraction	2018-03-09T08:53:26.322Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:37.107Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:43.225Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+CollectionFilterRemovalInteraction	2018-03-09T08:53:43.701Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+RankedRetrieveRecordInteraction	2018-03-09T08:53:49.287Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	/91401/oai_cimu_aloes_0803275	12	295450
+SearchInteraction	2018-03-09T08:51:16.729Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	who:(Peter Paul Rubens)		1610
+ArbitraryAccessInteraction	2018-03-09T08:52:07.679Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-09T08:52:37.924Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:43.276Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:44.474Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+SearchInteraction	2018-03-09T08:52:51.333Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'TYPE': ['VIDEO']}	14867
+SearchInteraction	2018-03-09T08:52:58.579Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	6955
+CollectionFilterAdditionInteraction	2018-03-09T08:53:18.013Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+CollectionFilterAdditionInteraction	2018-03-09T08:53:26.322Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:37.107Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:43.225Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+CollectionFilterRemovalInteraction	2018-03-09T08:53:43.701Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+RankedRetrieveRecordInteraction	2018-03-09T08:53:49.287Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	/91401/oai_cimu_aloes_0803275	12	295450
+SearchInteraction	2018-03-09T08:51:16.729Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	who:(Peter Paul Rubens)		1610
+ArbitraryAccessInteraction	2018-03-09T08:52:07.679Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-09T08:52:37.924Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:43.276Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+RefreshOrPaginationInteraction	2018-03-09T08:52:44.474Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO		14867
+SearchInteraction	2018-03-09T08:52:51.333Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'TYPE': ['VIDEO']}	14867
+SearchInteraction	2018-03-09T08:52:58.579Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	6955
+CollectionFilterAdditionInteraction	2018-03-09T08:53:18.013Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+CollectionFilterAdditionInteraction	2018-03-09T08:53:26.322Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:37.107Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+RefreshOrPaginationInteraction	2018-03-09T08:53:43.225Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	0
+CollectionFilterRemovalInteraction	2018-03-09T08:53:43.701Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	295450
+RankedRetrieveRecordInteraction	2018-03-09T08:53:49.287Z	b3711f2c2ffd391e1a3a46c5f6dd77bf	TYPE:VIDEO	{'LANGUAGE': ['fr'], 'TYPE': ['VIDEO']}	/91401/oai_cimu_aloes_0803275	12	295450

@@ -1,0 +1,230 @@
+ArbitraryAccessInteraction	2018-01-29T11:41:20.366Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-01-29T11:41:45.887Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-01-29T11:43:08.797Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:25.160Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/explore/people/92141-paul-iribe.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:41.576Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230561.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:56:51.484Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230553.html (PortalController#show)
+SearchInteraction	2018-02-02T07:56:58.420Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RefreshOrPaginationInteraction	2018-02-02T07:57:05.602Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RankedRetrieveRecordInteraction	2018-02-02T07:57:10.343Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200365/BibliographicResource_3000135330813	14	57
+ArbitraryAccessInteraction	2018-02-02T07:58:04.626Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-02-02T07:58:10.954Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+RefreshOrPaginationInteraction	2018-02-06T11:52:50.293Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+CollectionFilterRemovalInteraction	2018-02-06T11:53:03.971Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+CollectionFilterAdditionInteraction	2018-02-06T11:53:19.987Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		0
+CollectionFilterRemovalInteraction	2018-02-06T11:53:22.578Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+SearchInteraction	2018-02-06T11:53:32.615Z	d401cc3573d1abeb51e504dfdb943400	NO VALUE PROVIDED		1289405
+RankedRetrieveRecordInteraction	2018-02-07T11:27:02.958Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200140/BibliographicResource_3000073968110	15	57
+SearchInteraction	2018-02-07T11:27:13.909Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-02-07T11:27:27.871Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:27:59.256Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968090.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:00.424Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968089.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:02.304Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:15.037Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:16.420Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:17.220Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:19.024Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968055.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:29.922Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968053.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:31.145Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968047.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:32.282Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968037.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:33.540Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968034.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:03:57.585Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:03.762Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:42.244Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:46.396Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968035.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:01.205Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:03.718Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968019.html (PortalController#show)
+SearchInteraction	2018-02-07T12:07:50.480Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:01.420Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000094921609	3	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:03.714Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000126236683	2	61
+SearchInteraction	2018-02-07T12:08:06.834Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:12.322Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:18.609Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:26.713Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048218/29780	45	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:27.903Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048202/DE_MUS_018313_2230566	46	61
+SearchInteraction	2018-02-07T12:08:30.293Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:09:03.498Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+ArbitraryAccessInteraction	2018-01-29T11:41:20.366Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-01-29T11:41:45.887Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-01-29T11:43:08.797Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:25.160Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/explore/people/92141-paul-iribe.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:41.576Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230561.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:56:51.484Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230553.html (PortalController#show)
+SearchInteraction	2018-02-02T07:56:58.420Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RefreshOrPaginationInteraction	2018-02-02T07:57:05.602Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RankedRetrieveRecordInteraction	2018-02-02T07:57:10.343Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200365/BibliographicResource_3000135330813	14	57
+ArbitraryAccessInteraction	2018-02-02T07:58:04.626Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-02-02T07:58:10.954Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+RefreshOrPaginationInteraction	2018-02-06T11:52:50.293Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+CollectionFilterRemovalInteraction	2018-02-06T11:53:03.971Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+CollectionFilterAdditionInteraction	2018-02-06T11:53:19.987Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		0
+CollectionFilterRemovalInteraction	2018-02-06T11:53:22.578Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+SearchInteraction	2018-02-06T11:53:32.615Z	d401cc3573d1abeb51e504dfdb943400	NO VALUE PROVIDED		1289405
+RankedRetrieveRecordInteraction	2018-02-07T11:27:02.958Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200140/BibliographicResource_3000073968110	15	57
+SearchInteraction	2018-02-07T11:27:13.909Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-02-07T11:27:27.871Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:27:59.256Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968090.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:00.424Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968089.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:02.304Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:15.037Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:16.420Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:17.220Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:19.024Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968055.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:29.922Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968053.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:31.145Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968047.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:32.282Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968037.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:33.540Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968034.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:03:57.585Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:03.762Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:42.244Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:46.396Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968035.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:01.205Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:03.718Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968019.html (PortalController#show)
+SearchInteraction	2018-02-07T12:07:50.480Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:01.420Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000094921609	3	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:03.714Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000126236683	2	61
+SearchInteraction	2018-02-07T12:08:06.834Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:12.322Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:18.609Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:26.713Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048218/29780	45	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:27.903Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048202/DE_MUS_018313_2230566	46	61
+SearchInteraction	2018-02-07T12:08:30.293Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:09:03.498Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+ArbitraryAccessInteraction	2018-01-29T11:41:20.366Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-01-29T11:41:45.887Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-01-29T11:43:08.797Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:25.160Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/explore/people/92141-paul-iribe.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:41.576Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230561.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:56:51.484Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230553.html (PortalController#show)
+SearchInteraction	2018-02-02T07:56:58.420Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RefreshOrPaginationInteraction	2018-02-02T07:57:05.602Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RankedRetrieveRecordInteraction	2018-02-02T07:57:10.343Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200365/BibliographicResource_3000135330813	14	57
+ArbitraryAccessInteraction	2018-02-02T07:58:04.626Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-02-02T07:58:10.954Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+RefreshOrPaginationInteraction	2018-02-06T11:52:50.293Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+CollectionFilterRemovalInteraction	2018-02-06T11:53:03.971Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+CollectionFilterAdditionInteraction	2018-02-06T11:53:19.987Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		0
+CollectionFilterRemovalInteraction	2018-02-06T11:53:22.578Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+SearchInteraction	2018-02-06T11:53:32.615Z	d401cc3573d1abeb51e504dfdb943400	NO VALUE PROVIDED		1289405
+RankedRetrieveRecordInteraction	2018-02-07T11:27:02.958Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200140/BibliographicResource_3000073968110	15	57
+SearchInteraction	2018-02-07T11:27:13.909Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-02-07T11:27:27.871Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:27:59.256Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968090.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:00.424Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968089.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:02.304Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:15.037Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:16.420Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:17.220Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:19.024Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968055.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:29.922Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968053.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:31.145Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968047.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:32.282Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968037.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:33.540Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968034.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:03:57.585Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:03.762Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:42.244Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:46.396Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968035.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:01.205Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:03.718Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968019.html (PortalController#show)
+SearchInteraction	2018-02-07T12:07:50.480Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:01.420Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000094921609	3	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:03.714Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000126236683	2	61
+SearchInteraction	2018-02-07T12:08:06.834Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:12.322Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:18.609Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:26.713Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048218/29780	45	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:27.903Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048202/DE_MUS_018313_2230566	46	61
+SearchInteraction	2018-02-07T12:08:30.293Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:09:03.498Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+ArbitraryAccessInteraction	2018-01-29T11:41:20.366Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-01-29T11:41:45.887Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-01-29T11:43:08.797Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:25.160Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/explore/people/92141-paul-iribe.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:41.576Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230561.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:56:51.484Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230553.html (PortalController#show)
+SearchInteraction	2018-02-02T07:56:58.420Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RefreshOrPaginationInteraction	2018-02-02T07:57:05.602Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RankedRetrieveRecordInteraction	2018-02-02T07:57:10.343Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200365/BibliographicResource_3000135330813	14	57
+ArbitraryAccessInteraction	2018-02-02T07:58:04.626Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-02-02T07:58:10.954Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+RefreshOrPaginationInteraction	2018-02-06T11:52:50.293Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+CollectionFilterRemovalInteraction	2018-02-06T11:53:03.971Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+CollectionFilterAdditionInteraction	2018-02-06T11:53:19.987Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		0
+CollectionFilterRemovalInteraction	2018-02-06T11:53:22.578Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+SearchInteraction	2018-02-06T11:53:32.615Z	d401cc3573d1abeb51e504dfdb943400	NO VALUE PROVIDED		1289405
+RankedRetrieveRecordInteraction	2018-02-07T11:27:02.958Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200140/BibliographicResource_3000073968110	15	57
+SearchInteraction	2018-02-07T11:27:13.909Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-02-07T11:27:27.871Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:27:59.256Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968090.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:00.424Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968089.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:02.304Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:15.037Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:16.420Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:17.220Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:19.024Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968055.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:29.922Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968053.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:31.145Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968047.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:32.282Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968037.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:33.540Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968034.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:03:57.585Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:03.762Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:42.244Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:46.396Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968035.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:01.205Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:03.718Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968019.html (PortalController#show)
+SearchInteraction	2018-02-07T12:07:50.480Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:01.420Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000094921609	3	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:03.714Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000126236683	2	61
+SearchInteraction	2018-02-07T12:08:06.834Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:12.322Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:18.609Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:26.713Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048218/29780	45	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:27.903Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048202/DE_MUS_018313_2230566	46	61
+SearchInteraction	2018-02-07T12:08:30.293Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:09:03.498Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+ArbitraryAccessInteraction	2018-01-29T11:41:20.366Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-01-29T11:41:45.887Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-01-29T11:43:08.797Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:25.160Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/explore/people/92141-paul-iribe.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-02T07:55:41.576Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230561.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-02T07:56:51.484Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/2048202/DE_MUS_018313_2230553.html (PortalController#show)
+SearchInteraction	2018-02-02T07:56:58.420Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RefreshOrPaginationInteraction	2018-02-02T07:57:05.602Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		57
+RankedRetrieveRecordInteraction	2018-02-02T07:57:10.343Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200365/BibliographicResource_3000135330813	14	57
+ArbitraryAccessInteraction	2018-02-02T07:58:04.626Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968024.html (PortalController#show)
+SearchInteraction	2018-02-02T07:58:10.954Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+RefreshOrPaginationInteraction	2018-02-06T11:52:50.293Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		60
+CollectionFilterRemovalInteraction	2018-02-06T11:53:03.971Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+CollectionFilterAdditionInteraction	2018-02-06T11:53:19.987Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		0
+CollectionFilterRemovalInteraction	2018-02-06T11:53:22.578Z	d401cc3573d1abeb51e504dfdb943400	proxy_dcterms_isPartOf:"http://catalogue.bnf.fr/ark:/12148/cb43742245x"		8
+SearchInteraction	2018-02-06T11:53:32.615Z	d401cc3573d1abeb51e504dfdb943400	NO VALUE PROVIDED		1289405
+RankedRetrieveRecordInteraction	2018-02-07T11:27:02.958Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_creator: "http://data.europeana.eu/agent/base/92141" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/92141"		/9200140/BibliographicResource_3000073968110	15	57
+SearchInteraction	2018-02-07T11:27:13.909Z	d401cc3573d1abeb51e504dfdb943400	proxy_dc_format:"application/pdf"		1522378
+ArbitraryAccessInteraction	2018-02-07T11:27:27.871Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:27:59.256Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968090.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:00.424Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968089.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:28:02.304Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:15.037Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968079.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:16.420Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968075.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:17.220Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:29:19.024Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968055.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:29.922Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968053.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:31.145Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968047.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:32.282Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968037.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T11:30:33.540Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968034.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:03:57.585Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968091.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:03.762Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:42.244Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968022.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:04:46.396Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968035.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:01.205Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968116.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T12:06:03.718Z	d401cc3573d1abeb51e504dfdb943400	[200] GET /portal/it/record/9200140/BibliographicResource_3000073968019.html (PortalController#show)
+SearchInteraction	2018-02-07T12:07:50.480Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:01.420Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000094921609	3	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:03.714Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/9200365/BibliographicResource_3000126236683	2	61
+SearchInteraction	2018-02-07T12:08:06.834Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:12.322Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:08:18.609Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:26.713Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048218/29780	45	61
+RankedRetrieveRecordInteraction	2018-02-07T12:08:27.903Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		/2048202/DE_MUS_018313_2230566	46	61
+SearchInteraction	2018-02-07T12:08:30.293Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61
+RefreshOrPaginationInteraction	2018-02-07T12:09:03.498Z	d401cc3573d1abeb51e504dfdb943400	 Paul Iribe		61

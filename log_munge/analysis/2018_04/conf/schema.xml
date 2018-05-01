@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema name="entity" version="0.1">
+    <types>
+        <fieldType name="int" class="solr.TrieIntField" precisionStep="0" positionIncrementGap="0"/>
+        <fieldType name="float" class="solr.TrieFloatField" precisionStep="0"
+            positionIncrementGap="0"/>
+        <fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0"/>
+        <fieldType name="double" class="solr.TrieDoubleField" precisionStep="0"
+            positionIncrementGap="0"/>
+        <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+        <fieldType name="json" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+        <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true" omitNorms="true"/>
+        <fieldType name="date" class="solr.TrieDateField" omitNorms="true" precisionStep="0"
+            positionIncrementGap="0"/>
+
+        <fieldType name="no_punctuation" class="solr.TextField" positionIncrementGap="100">
+            <analyzer>
+                <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+                <filter class="solr.PatternReplaceFilterFactory"
+                  pattern="\p{Punct}"
+                  replacement=""/>
+            </analyzer>
+        </fieldType>
+
+        <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
+            <analyzer type="index">
+                <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+                <filter class="solr.ASCIIFoldingFilterFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.KStemFilterFactory"/>
+            </analyzer>
+            <analyzer type="query">
+                <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"/>
+                <filter class="solr.ASCIIFoldingFilterFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.KStemFilterFactory"/>
+            </analyzer>
+        </fieldType>
+    </types>
+    <fields>
+        <!-- required field -->
+        <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
+
+        <!-- unique key -->
+        <field name="id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
+
+        <field name="timestamp" type="date" indexed="true" stored="true" default="NOW"
+            multiValued="false"/>
+        <field name="session_id" type="string" indexed="true" stored="true" multiValued="false"/>
+        <field name="operation" type="string" indexed="true" stored="true" multiValued="false"/>
+        <field name="interaction_timestamp" type="date" indexed="true" stored="true" multiValued="false"/>
+        <field name="query_term" type="string" indexed="true" stored="true" multiValued="false"/>
+        <field name="search_query_term" type="text" indexed="true" stored="true" multiValued="false"/>
+        <field name="filter_term" type="string" indexed="true" stored="true" multiValued="true"/>
+        <field name="search_filter_term" type="text" indexed="true" stored="true" multiValued="true"/>
+        <field name="rank_position" type="int" indexed="true" stored="true" multiValued="false"/>
+        <field name="total_results" type="int" indexed="true" stored="true" multiValued="false"/>
+        <field name="uri" type="string" indexed="true" stored="true" multiValued="false"/>
+        <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
+
+
+    </fields>
+    <uniqueKey>id</uniqueKey>
+    <!-- COPYFIELDS -->
+
+    <copyField source="query_term" dest="search_query_term"/>
+    <copyField source="filter_term" dest="search_filter_term"/>
+    <copyField source="query_term" dest="text"/>
+    <copyField source="filter_term" dest="text"/>
+
+</schema>

@@ -1,0 +1,345 @@
+SearchInteraction	2018-02-27T09:37:32.392Z	b712ef709653d6247856e102b51f437d	sound		820281
+SearchInteraction	2018-02-27T09:37:46.233Z	b712ef709653d6247856e102b51f437d	sound	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:13.132Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:27.885Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	3646
+RankedRetrieveRecordInteraction	2018-02-27T09:38:32.833Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	/9200257/BibliographicResource_3000055619941	1	3646
+SearchInteraction	2018-02-27T09:43:39.938Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+SearchInteraction	2018-02-27T09:43:44.709Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+RankedRetrieveRecordInteraction	2018-02-27T09:43:49.720Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		/9200257/BibliographicResource_3000055619973	1	2001
+SearchInteraction	2018-02-27T09:44:09.166Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+SearchInteraction	2018-02-27T09:44:13.078Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:44:16.101Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619975	1	1001
+SearchInteraction	2018-02-27T09:46:09.725Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:46:13.025Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619974	2	1001
+SearchInteraction	2018-02-27T09:47:27.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:34.828Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619971	5	1001
+SearchInteraction	2018-02-27T09:47:51.166Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:54.035Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619970	6	1001
+SearchInteraction	2018-02-27T09:49:05.890Z	b712ef709653d6247856e102b51f437d	what:"Sound recording"		41755
+RankedRetrieveRecordInteraction	2018-02-27T09:49:30.198Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619972	4	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:51:20.758Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619967	9	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:52:39.756Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619969	7	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:53:07.919Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619968	8	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:54:31.742Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619964	12	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:55:04.661Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619965	11	1001
+SearchInteraction	2018-02-27T10:16:50.076Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T10:16:54.728Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619962	14	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:07.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:13.447Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:18:25.481Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619960	16	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:19:59.355Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619957	19	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:21:16.323Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619954	22	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:06.470Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:10.209Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:24:19.739Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619958	18	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:25:30.688Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619952	24	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:26:23.921Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619953	23	1001
+ArbitraryAccessInteraction	2018-02-27T10:27:36.130Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619931.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:28:38.014Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619923.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:30:00.976Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619914.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:31:25.338Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619831.html (PortalController#show)
+SearchInteraction	2018-02-27T14:24:26.779Z	b712ef709653d6247856e102b51f437d	objects		2281385
+SearchInteraction	2018-02-27T14:31:20.098Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED		51596254
+ArbitraryAccessInteraction	2018-02-27T14:45:22.020Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:45:37.389Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_79431.html (PortalController#show)
+SearchInteraction	2018-02-27T14:46:09.168Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:14.893Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:19.196Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:23.637Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:32.091Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:36.645Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:45.982Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:30.047Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:36.117Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:41.396Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:46.167Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:53.137Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:56.568Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:00.151Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:05.426Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:10.405Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+ArbitraryAccessInteraction	2018-02-27T14:48:25.796Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+SearchInteraction	2018-02-27T14:48:36.463Z	b712ef709653d6247856e102b51f437d	who:(Philips N.V.)		34
+SearchInteraction	2018-02-27T14:48:50.088Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		11
+RankedRetrieveRecordInteraction	2018-02-27T14:48:56.153Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		/2021609/objecten_34240	11	11
+ArbitraryAccessInteraction	2018-02-27T14:49:27.671Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_90266_A.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:49:50.099Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67734_A_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:07.921Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_63902_1_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:34.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67746.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:54.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_66457.html (PortalController#show)
+SearchInteraction	2018-02-27T09:37:32.392Z	b712ef709653d6247856e102b51f437d	sound		820281
+SearchInteraction	2018-02-27T09:37:46.233Z	b712ef709653d6247856e102b51f437d	sound	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:13.132Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:27.885Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	3646
+RankedRetrieveRecordInteraction	2018-02-27T09:38:32.833Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	/9200257/BibliographicResource_3000055619941	1	3646
+SearchInteraction	2018-02-27T09:43:39.938Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+SearchInteraction	2018-02-27T09:43:44.709Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+RankedRetrieveRecordInteraction	2018-02-27T09:43:49.720Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		/9200257/BibliographicResource_3000055619973	1	2001
+SearchInteraction	2018-02-27T09:44:09.166Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+SearchInteraction	2018-02-27T09:44:13.078Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:44:16.101Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619975	1	1001
+SearchInteraction	2018-02-27T09:46:09.725Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:46:13.025Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619974	2	1001
+SearchInteraction	2018-02-27T09:47:27.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:34.828Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619971	5	1001
+SearchInteraction	2018-02-27T09:47:51.166Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:54.035Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619970	6	1001
+SearchInteraction	2018-02-27T09:49:05.890Z	b712ef709653d6247856e102b51f437d	what:"Sound recording"		41755
+RankedRetrieveRecordInteraction	2018-02-27T09:49:30.198Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619972	4	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:51:20.758Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619967	9	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:52:39.756Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619969	7	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:53:07.919Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619968	8	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:54:31.742Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619964	12	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:55:04.661Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619965	11	1001
+SearchInteraction	2018-02-27T10:16:50.076Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T10:16:54.728Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619962	14	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:07.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:13.447Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:18:25.481Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619960	16	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:19:59.355Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619957	19	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:21:16.323Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619954	22	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:06.470Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:10.209Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:24:19.739Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619958	18	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:25:30.688Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619952	24	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:26:23.921Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619953	23	1001
+ArbitraryAccessInteraction	2018-02-27T10:27:36.130Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619931.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:28:38.014Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619923.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:30:00.976Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619914.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:31:25.338Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619831.html (PortalController#show)
+SearchInteraction	2018-02-27T14:24:26.779Z	b712ef709653d6247856e102b51f437d	objects		2281385
+SearchInteraction	2018-02-27T14:31:20.098Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED		51596254
+ArbitraryAccessInteraction	2018-02-27T14:45:22.020Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:45:37.389Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_79431.html (PortalController#show)
+SearchInteraction	2018-02-27T14:46:09.168Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:14.893Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:19.196Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:23.637Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:32.091Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:36.645Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:45.982Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:30.047Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:36.117Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:41.396Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:46.167Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:53.137Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:56.568Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:00.151Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:05.426Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:10.405Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+ArbitraryAccessInteraction	2018-02-27T14:48:25.796Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+SearchInteraction	2018-02-27T14:48:36.463Z	b712ef709653d6247856e102b51f437d	who:(Philips N.V.)		34
+SearchInteraction	2018-02-27T14:48:50.088Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		11
+RankedRetrieveRecordInteraction	2018-02-27T14:48:56.153Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		/2021609/objecten_34240	11	11
+ArbitraryAccessInteraction	2018-02-27T14:49:27.671Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_90266_A.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:49:50.099Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67734_A_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:07.921Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_63902_1_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:34.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67746.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:54.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_66457.html (PortalController#show)
+SearchInteraction	2018-02-27T09:37:32.392Z	b712ef709653d6247856e102b51f437d	sound		820281
+SearchInteraction	2018-02-27T09:37:46.233Z	b712ef709653d6247856e102b51f437d	sound	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:13.132Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:27.885Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	3646
+RankedRetrieveRecordInteraction	2018-02-27T09:38:32.833Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	/9200257/BibliographicResource_3000055619941	1	3646
+SearchInteraction	2018-02-27T09:43:39.938Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+SearchInteraction	2018-02-27T09:43:44.709Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+RankedRetrieveRecordInteraction	2018-02-27T09:43:49.720Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		/9200257/BibliographicResource_3000055619973	1	2001
+SearchInteraction	2018-02-27T09:44:09.166Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+SearchInteraction	2018-02-27T09:44:13.078Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:44:16.101Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619975	1	1001
+SearchInteraction	2018-02-27T09:46:09.725Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:46:13.025Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619974	2	1001
+SearchInteraction	2018-02-27T09:47:27.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:34.828Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619971	5	1001
+SearchInteraction	2018-02-27T09:47:51.166Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:54.035Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619970	6	1001
+SearchInteraction	2018-02-27T09:49:05.890Z	b712ef709653d6247856e102b51f437d	what:"Sound recording"		41755
+RankedRetrieveRecordInteraction	2018-02-27T09:49:30.198Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619972	4	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:51:20.758Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619967	9	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:52:39.756Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619969	7	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:53:07.919Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619968	8	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:54:31.742Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619964	12	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:55:04.661Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619965	11	1001
+SearchInteraction	2018-02-27T10:16:50.076Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T10:16:54.728Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619962	14	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:07.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:13.447Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:18:25.481Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619960	16	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:19:59.355Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619957	19	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:21:16.323Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619954	22	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:06.470Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:10.209Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:24:19.739Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619958	18	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:25:30.688Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619952	24	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:26:23.921Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619953	23	1001
+ArbitraryAccessInteraction	2018-02-27T10:27:36.130Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619931.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:28:38.014Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619923.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:30:00.976Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619914.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:31:25.338Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619831.html (PortalController#show)
+SearchInteraction	2018-02-27T14:24:26.779Z	b712ef709653d6247856e102b51f437d	objects		2281385
+SearchInteraction	2018-02-27T14:31:20.098Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED		51596254
+ArbitraryAccessInteraction	2018-02-27T14:45:22.020Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:45:37.389Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_79431.html (PortalController#show)
+SearchInteraction	2018-02-27T14:46:09.168Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:14.893Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:19.196Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:23.637Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:32.091Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:36.645Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:45.982Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:30.047Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:36.117Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:41.396Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:46.167Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:53.137Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:56.568Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:00.151Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:05.426Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:10.405Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+ArbitraryAccessInteraction	2018-02-27T14:48:25.796Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+SearchInteraction	2018-02-27T14:48:36.463Z	b712ef709653d6247856e102b51f437d	who:(Philips N.V.)		34
+SearchInteraction	2018-02-27T14:48:50.088Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		11
+RankedRetrieveRecordInteraction	2018-02-27T14:48:56.153Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		/2021609/objecten_34240	11	11
+ArbitraryAccessInteraction	2018-02-27T14:49:27.671Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_90266_A.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:49:50.099Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67734_A_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:07.921Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_63902_1_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:34.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67746.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:54.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_66457.html (PortalController#show)
+SearchInteraction	2018-02-27T09:37:32.392Z	b712ef709653d6247856e102b51f437d	sound		820281
+SearchInteraction	2018-02-27T09:37:46.233Z	b712ef709653d6247856e102b51f437d	sound	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:13.132Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:27.885Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	3646
+RankedRetrieveRecordInteraction	2018-02-27T09:38:32.833Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	/9200257/BibliographicResource_3000055619941	1	3646
+SearchInteraction	2018-02-27T09:43:39.938Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+SearchInteraction	2018-02-27T09:43:44.709Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+RankedRetrieveRecordInteraction	2018-02-27T09:43:49.720Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		/9200257/BibliographicResource_3000055619973	1	2001
+SearchInteraction	2018-02-27T09:44:09.166Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+SearchInteraction	2018-02-27T09:44:13.078Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:44:16.101Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619975	1	1001
+SearchInteraction	2018-02-27T09:46:09.725Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:46:13.025Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619974	2	1001
+SearchInteraction	2018-02-27T09:47:27.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:34.828Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619971	5	1001
+SearchInteraction	2018-02-27T09:47:51.166Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:54.035Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619970	6	1001
+SearchInteraction	2018-02-27T09:49:05.890Z	b712ef709653d6247856e102b51f437d	what:"Sound recording"		41755
+RankedRetrieveRecordInteraction	2018-02-27T09:49:30.198Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619972	4	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:51:20.758Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619967	9	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:52:39.756Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619969	7	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:53:07.919Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619968	8	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:54:31.742Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619964	12	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:55:04.661Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619965	11	1001
+SearchInteraction	2018-02-27T10:16:50.076Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T10:16:54.728Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619962	14	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:07.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:13.447Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:18:25.481Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619960	16	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:19:59.355Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619957	19	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:21:16.323Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619954	22	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:06.470Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:10.209Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:24:19.739Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619958	18	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:25:30.688Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619952	24	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:26:23.921Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619953	23	1001
+ArbitraryAccessInteraction	2018-02-27T10:27:36.130Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619931.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:28:38.014Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619923.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:30:00.976Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619914.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:31:25.338Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619831.html (PortalController#show)
+SearchInteraction	2018-02-27T14:24:26.779Z	b712ef709653d6247856e102b51f437d	objects		2281385
+SearchInteraction	2018-02-27T14:31:20.098Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED		51596254
+ArbitraryAccessInteraction	2018-02-27T14:45:22.020Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:45:37.389Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_79431.html (PortalController#show)
+SearchInteraction	2018-02-27T14:46:09.168Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:14.893Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:19.196Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:23.637Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:32.091Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:36.645Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:45.982Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:30.047Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:36.117Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:41.396Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:46.167Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:53.137Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:56.568Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:00.151Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:05.426Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:10.405Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+ArbitraryAccessInteraction	2018-02-27T14:48:25.796Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+SearchInteraction	2018-02-27T14:48:36.463Z	b712ef709653d6247856e102b51f437d	who:(Philips N.V.)		34
+SearchInteraction	2018-02-27T14:48:50.088Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		11
+RankedRetrieveRecordInteraction	2018-02-27T14:48:56.153Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		/2021609/objecten_34240	11	11
+ArbitraryAccessInteraction	2018-02-27T14:49:27.671Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_90266_A.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:49:50.099Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67734_A_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:07.921Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_63902_1_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:34.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67746.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:54.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_66457.html (PortalController#show)
+SearchInteraction	2018-02-27T09:37:32.392Z	b712ef709653d6247856e102b51f437d	sound		820281
+SearchInteraction	2018-02-27T09:37:46.233Z	b712ef709653d6247856e102b51f437d	sound	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:13.132Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED	{'TYPE': ['SOUND']}	708326
+SearchInteraction	2018-02-27T09:38:27.885Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	3646
+RankedRetrieveRecordInteraction	2018-02-27T09:38:32.833Z	b712ef709653d6247856e102b51f437d	soundscape	{'TYPE': ['SOUND']}	/9200257/BibliographicResource_3000055619941	1	3646
+SearchInteraction	2018-02-27T09:43:39.938Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+SearchInteraction	2018-02-27T09:43:44.709Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+RankedRetrieveRecordInteraction	2018-02-27T09:43:49.720Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		/9200257/BibliographicResource_3000055619973	1	2001
+SearchInteraction	2018-02-27T09:44:09.166Z	b712ef709653d6247856e102b51f437d	proxy_dcterms_isPartOf:"UK Soundmap"		2001
+SearchInteraction	2018-02-27T09:44:13.078Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:44:16.101Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619975	1	1001
+SearchInteraction	2018-02-27T09:46:09.725Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:46:13.025Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619974	2	1001
+SearchInteraction	2018-02-27T09:47:27.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:34.828Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619971	5	1001
+SearchInteraction	2018-02-27T09:47:51.166Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T09:47:54.035Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619970	6	1001
+SearchInteraction	2018-02-27T09:49:05.890Z	b712ef709653d6247856e102b51f437d	what:"Sound recording"		41755
+RankedRetrieveRecordInteraction	2018-02-27T09:49:30.198Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619972	4	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:51:20.758Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619967	9	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:52:39.756Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619969	7	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:53:07.919Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619968	8	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:54:31.742Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619964	12	1001
+RankedRetrieveRecordInteraction	2018-02-27T09:55:04.661Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619965	11	1001
+SearchInteraction	2018-02-27T10:16:50.076Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		1001
+RankedRetrieveRecordInteraction	2018-02-27T10:16:54.728Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619962	14	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:07.900Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:17:13.447Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619961	15	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:18:25.481Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619960	16	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:19:59.355Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619957	19	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:21:16.323Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619954	22	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:06.470Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:23:10.209Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619955	21	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:24:19.739Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619958	18	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:25:30.688Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619952	24	1001
+RankedRetrieveRecordInteraction	2018-02-27T10:26:23.921Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(9200257_Ag_EU_TEL_a1200g_British_Library)		/9200257/BibliographicResource_3000055619953	23	1001
+ArbitraryAccessInteraction	2018-02-27T10:27:36.130Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619931.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:28:38.014Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619923.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:30:00.976Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619914.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:31:25.338Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/9200257/BibliographicResource_3000055619831.html (PortalController#show)
+SearchInteraction	2018-02-27T14:24:26.779Z	b712ef709653d6247856e102b51f437d	objects		2281385
+SearchInteraction	2018-02-27T14:31:20.098Z	b712ef709653d6247856e102b51f437d	NO VALUE PROVIDED		51596254
+ArbitraryAccessInteraction	2018-02-27T14:45:22.020Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:45:37.389Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_79431.html (PortalController#show)
+SearchInteraction	2018-02-27T14:46:09.168Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:14.893Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:19.196Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:23.637Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:32.091Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:36.645Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:46:45.982Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:30.047Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:36.117Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:41.396Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:46.167Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:53.137Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:47:56.568Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:00.151Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:05.426Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+RefreshOrPaginationInteraction	2018-02-27T14:48:10.405Z	b712ef709653d6247856e102b51f437d	europeana_collectionName:(2021609_Ag_NL_DigitaleCollectie_museum-rotterdam)		31989
+ArbitraryAccessInteraction	2018-02-27T14:48:25.796Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_82317.html (PortalController#show)
+SearchInteraction	2018-02-27T14:48:36.463Z	b712ef709653d6247856e102b51f437d	who:(Philips N.V.)		34
+SearchInteraction	2018-02-27T14:48:50.088Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		11
+RankedRetrieveRecordInteraction	2018-02-27T14:48:56.153Z	b712ef709653d6247856e102b51f437d	what:"radio, radio_ontvanger"		/2021609/objecten_34240	11	11
+ArbitraryAccessInteraction	2018-02-27T14:49:27.671Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_90266_A.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:49:50.099Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67734_A_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:07.921Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_63902_1_2.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:34.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_67746.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T14:50:54.577Z	b712ef709653d6247856e102b51f437d	[200] GET /portal/en/record/2021609/objecten_66457.html (PortalController#show)

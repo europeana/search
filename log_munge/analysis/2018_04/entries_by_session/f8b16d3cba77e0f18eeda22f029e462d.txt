@@ -1,0 +1,165 @@
+ArbitraryAccessInteraction	2018-02-15T09:25:25.927Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_14582_1.html (PortalController#show)
+SearchInteraction	2018-02-15T09:57:10.501Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	109
+SearchInteraction	2018-02-15T09:57:15.229Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:2064110*	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-15T09:57:25.536Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)		181
+SearchInteraction	2018-02-15T09:57:31.404Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200291*	{'REUSABILITY': ['open']}	37070
+SearchInteraction	2018-02-15T09:57:33.326Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200290*	{'REUSABILITY': ['open']}	6565
+ArbitraryAccessInteraction	2018-02-15T12:30:17.718Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2063618/FI_280_005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:30:29.595Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_I_473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:35:09.064Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086162648.html (PortalController#show)
+SearchInteraction	2018-02-15T12:36:19.412Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)		530
+SearchInteraction	2018-02-15T12:36:26.445Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:33.990Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:51.583Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:01.328Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_I_562	113	344
+SearchInteraction	2018-02-15T12:37:24.750Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:32.066Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_II_1254_3A54	193	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:21.515Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2619	222	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:27.672Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2224	235	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:37.173Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2148	266	344
+SearchInteraction	2018-02-15T12:38:41.133Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:41:16.113Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_2010_173	328	344
+SearchInteraction	2018-02-15T12:41:36.118Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:42:09.215Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_2010_213.html (PortalController#show)
+SearchInteraction	2018-02-15T12:42:16.752Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:43:06.538Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086154428.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:46:46.546Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2020601/contributions_20382_attachments_229998.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:41.228Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:43.226Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:52.145Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10112.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:58:07.050Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1081.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:20:24.393Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200365/BibliographicResource_1000055589291.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:21:45.948Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/90402/RP_P_1956_733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:54:08.663Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200495/yoolib_inha_8862.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T09:25:25.927Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_14582_1.html (PortalController#show)
+SearchInteraction	2018-02-15T09:57:10.501Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	109
+SearchInteraction	2018-02-15T09:57:15.229Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:2064110*	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-15T09:57:25.536Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)		181
+SearchInteraction	2018-02-15T09:57:31.404Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200291*	{'REUSABILITY': ['open']}	37070
+SearchInteraction	2018-02-15T09:57:33.326Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200290*	{'REUSABILITY': ['open']}	6565
+ArbitraryAccessInteraction	2018-02-15T12:30:17.718Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2063618/FI_280_005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:30:29.595Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_I_473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:35:09.064Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086162648.html (PortalController#show)
+SearchInteraction	2018-02-15T12:36:19.412Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)		530
+SearchInteraction	2018-02-15T12:36:26.445Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:33.990Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:51.583Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:01.328Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_I_562	113	344
+SearchInteraction	2018-02-15T12:37:24.750Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:32.066Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_II_1254_3A54	193	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:21.515Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2619	222	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:27.672Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2224	235	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:37.173Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2148	266	344
+SearchInteraction	2018-02-15T12:38:41.133Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:41:16.113Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_2010_173	328	344
+SearchInteraction	2018-02-15T12:41:36.118Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:42:09.215Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_2010_213.html (PortalController#show)
+SearchInteraction	2018-02-15T12:42:16.752Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:43:06.538Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086154428.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:46:46.546Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2020601/contributions_20382_attachments_229998.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:41.228Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:43.226Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:52.145Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10112.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:58:07.050Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1081.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:20:24.393Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200365/BibliographicResource_1000055589291.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:21:45.948Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/90402/RP_P_1956_733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:54:08.663Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200495/yoolib_inha_8862.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T09:25:25.927Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_14582_1.html (PortalController#show)
+SearchInteraction	2018-02-15T09:57:10.501Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	109
+SearchInteraction	2018-02-15T09:57:15.229Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:2064110*	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-15T09:57:25.536Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)		181
+SearchInteraction	2018-02-15T09:57:31.404Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200291*	{'REUSABILITY': ['open']}	37070
+SearchInteraction	2018-02-15T09:57:33.326Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200290*	{'REUSABILITY': ['open']}	6565
+ArbitraryAccessInteraction	2018-02-15T12:30:17.718Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2063618/FI_280_005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:30:29.595Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_I_473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:35:09.064Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086162648.html (PortalController#show)
+SearchInteraction	2018-02-15T12:36:19.412Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)		530
+SearchInteraction	2018-02-15T12:36:26.445Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:33.990Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:51.583Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:01.328Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_I_562	113	344
+SearchInteraction	2018-02-15T12:37:24.750Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:32.066Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_II_1254_3A54	193	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:21.515Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2619	222	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:27.672Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2224	235	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:37.173Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2148	266	344
+SearchInteraction	2018-02-15T12:38:41.133Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:41:16.113Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_2010_173	328	344
+SearchInteraction	2018-02-15T12:41:36.118Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:42:09.215Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_2010_213.html (PortalController#show)
+SearchInteraction	2018-02-15T12:42:16.752Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:43:06.538Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086154428.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:46:46.546Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2020601/contributions_20382_attachments_229998.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:41.228Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:43.226Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:52.145Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10112.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:58:07.050Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1081.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:20:24.393Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200365/BibliographicResource_1000055589291.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:21:45.948Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/90402/RP_P_1956_733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:54:08.663Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200495/yoolib_inha_8862.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T09:25:25.927Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_14582_1.html (PortalController#show)
+SearchInteraction	2018-02-15T09:57:10.501Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	109
+SearchInteraction	2018-02-15T09:57:15.229Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:2064110*	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-15T09:57:25.536Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)		181
+SearchInteraction	2018-02-15T09:57:31.404Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200291*	{'REUSABILITY': ['open']}	37070
+SearchInteraction	2018-02-15T09:57:33.326Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200290*	{'REUSABILITY': ['open']}	6565
+ArbitraryAccessInteraction	2018-02-15T12:30:17.718Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2063618/FI_280_005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:30:29.595Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_I_473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:35:09.064Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086162648.html (PortalController#show)
+SearchInteraction	2018-02-15T12:36:19.412Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)		530
+SearchInteraction	2018-02-15T12:36:26.445Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:33.990Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:51.583Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:01.328Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_I_562	113	344
+SearchInteraction	2018-02-15T12:37:24.750Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:32.066Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_II_1254_3A54	193	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:21.515Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2619	222	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:27.672Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2224	235	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:37.173Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2148	266	344
+SearchInteraction	2018-02-15T12:38:41.133Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:41:16.113Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_2010_173	328	344
+SearchInteraction	2018-02-15T12:41:36.118Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:42:09.215Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_2010_213.html (PortalController#show)
+SearchInteraction	2018-02-15T12:42:16.752Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:43:06.538Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086154428.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:46:46.546Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2020601/contributions_20382_attachments_229998.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:41.228Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:43.226Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:52.145Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10112.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:58:07.050Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1081.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:20:24.393Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200365/BibliographicResource_1000055589291.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:21:45.948Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/90402/RP_P_1956_733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:54:08.663Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200495/yoolib_inha_8862.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T09:25:25.927Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_14582_1.html (PortalController#show)
+SearchInteraction	2018-02-15T09:57:10.501Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	109
+SearchInteraction	2018-02-15T09:57:15.229Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:2064110*	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-15T09:57:25.536Z	f8b16d3cba77e0f18eeda22f029e462d	europeana_collectionName:(2064110_HungarianUniversity_FineArts)		181
+SearchInteraction	2018-02-15T09:57:31.404Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200291*	{'REUSABILITY': ['open']}	37070
+SearchInteraction	2018-02-15T09:57:33.326Z	f8b16d3cba77e0f18eeda22f029e462d	edm_datasetName:9200290*	{'REUSABILITY': ['open']}	6565
+ArbitraryAccessInteraction	2018-02-15T12:30:17.718Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2063618/FI_280_005.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:30:29.595Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_I_473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:35:09.064Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086162648.html (PortalController#show)
+SearchInteraction	2018-02-15T12:36:19.412Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)		530
+SearchInteraction	2018-02-15T12:36:26.445Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:33.990Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RefreshOrPaginationInteraction	2018-02-15T12:36:51.583Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:01.328Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_I_562	113	344
+SearchInteraction	2018-02-15T12:37:24.750Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:37:32.066Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_II_1254_3A54	193	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:21.515Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2619	222	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:27.672Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2224	235	344
+RankedRetrieveRecordInteraction	2018-02-15T12:38:37.173Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_III_2148	266	344
+SearchInteraction	2018-02-15T12:38:41.133Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+RankedRetrieveRecordInteraction	2018-02-15T12:41:16.113Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	/2021012/app_si_A_2010_173	328	344
+SearchInteraction	2018-02-15T12:41:36.118Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:42:09.215Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2021012/app_si_A_2010_213.html (PortalController#show)
+SearchInteraction	2018-02-15T12:42:16.752Z	f8b16d3cba77e0f18eeda22f029e462d	who:(Gallen-Kallela, Akseli)	{'DATA_PROVIDER': ['Finnish National Gallery']}	344
+ArbitraryAccessInteraction	2018-02-15T12:43:06.538Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/92093/BibliographicResource_1000086154428.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T12:46:46.546Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2020601/contributions_20382_attachments_229998.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:41.228Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10067.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:43.226Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:57:52.145Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10112.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T14:58:07.050Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1081.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:20:24.393Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200365/BibliographicResource_1000055589291.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:21:45.948Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/90402/RP_P_1956_733.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T15:54:08.663Z	f8b16d3cba77e0f18eeda22f029e462d	[200] GET /portal/en/record/9200495/yoolib_inha_8862.html (PortalController#show)

@@ -1,0 +1,80 @@
+ArbitraryAccessInteraction	2018-03-03T17:50:40.727Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ19405.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T17:51:11.102Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ11157.html (PortalController#show)
+SearchInteraction	2018-03-03T17:52:27.934Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+CollectionFilterRemovalInteraction	2018-03-03T17:53:18.225Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		4
+CollectionFilterAdditionInteraction	2018-03-03T17:53:27.465Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+SearchInteraction	2018-03-03T17:53:30.433Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T17:53:41.034Z	d9ad72ed3db94070628d8a3899c9f25a	stola		3453
+SearchInteraction	2018-03-03T17:54:12.691Z	d9ad72ed3db94070628d8a3899c9f25a	stola	{'TYPE': ['IMAGE']}	3276
+SearchInteraction	2018-03-03T17:54:34.471Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+RefreshOrPaginationInteraction	2018-03-03T17:54:35.954Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-03T17:55:25.142Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:55:57.690Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-03-03T17:56:16.838Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:56:29.226Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	38
+CollectionFilterAdditionInteraction	2018-03-03T17:56:53.593Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:57:19.086Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	2
+ArbitraryAccessInteraction	2018-03-03T17:50:40.727Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ19405.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T17:51:11.102Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ11157.html (PortalController#show)
+SearchInteraction	2018-03-03T17:52:27.934Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+CollectionFilterRemovalInteraction	2018-03-03T17:53:18.225Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		4
+CollectionFilterAdditionInteraction	2018-03-03T17:53:27.465Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+SearchInteraction	2018-03-03T17:53:30.433Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T17:53:41.034Z	d9ad72ed3db94070628d8a3899c9f25a	stola		3453
+SearchInteraction	2018-03-03T17:54:12.691Z	d9ad72ed3db94070628d8a3899c9f25a	stola	{'TYPE': ['IMAGE']}	3276
+SearchInteraction	2018-03-03T17:54:34.471Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+RefreshOrPaginationInteraction	2018-03-03T17:54:35.954Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-03T17:55:25.142Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:55:57.690Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-03-03T17:56:16.838Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:56:29.226Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	38
+CollectionFilterAdditionInteraction	2018-03-03T17:56:53.593Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:57:19.086Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	2
+ArbitraryAccessInteraction	2018-03-03T17:50:40.727Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ19405.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T17:51:11.102Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ11157.html (PortalController#show)
+SearchInteraction	2018-03-03T17:52:27.934Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+CollectionFilterRemovalInteraction	2018-03-03T17:53:18.225Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		4
+CollectionFilterAdditionInteraction	2018-03-03T17:53:27.465Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+SearchInteraction	2018-03-03T17:53:30.433Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T17:53:41.034Z	d9ad72ed3db94070628d8a3899c9f25a	stola		3453
+SearchInteraction	2018-03-03T17:54:12.691Z	d9ad72ed3db94070628d8a3899c9f25a	stola	{'TYPE': ['IMAGE']}	3276
+SearchInteraction	2018-03-03T17:54:34.471Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+RefreshOrPaginationInteraction	2018-03-03T17:54:35.954Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-03T17:55:25.142Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:55:57.690Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-03-03T17:56:16.838Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:56:29.226Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	38
+CollectionFilterAdditionInteraction	2018-03-03T17:56:53.593Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:57:19.086Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	2
+ArbitraryAccessInteraction	2018-03-03T17:50:40.727Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ19405.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T17:51:11.102Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ11157.html (PortalController#show)
+SearchInteraction	2018-03-03T17:52:27.934Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+CollectionFilterRemovalInteraction	2018-03-03T17:53:18.225Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		4
+CollectionFilterAdditionInteraction	2018-03-03T17:53:27.465Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+SearchInteraction	2018-03-03T17:53:30.433Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T17:53:41.034Z	d9ad72ed3db94070628d8a3899c9f25a	stola		3453
+SearchInteraction	2018-03-03T17:54:12.691Z	d9ad72ed3db94070628d8a3899c9f25a	stola	{'TYPE': ['IMAGE']}	3276
+SearchInteraction	2018-03-03T17:54:34.471Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+RefreshOrPaginationInteraction	2018-03-03T17:54:35.954Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-03T17:55:25.142Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:55:57.690Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-03-03T17:56:16.838Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:56:29.226Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	38
+CollectionFilterAdditionInteraction	2018-03-03T17:56:53.593Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:57:19.086Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	2
+ArbitraryAccessInteraction	2018-03-03T17:50:40.727Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ19405.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-03T17:51:11.102Z	d9ad72ed3db94070628d8a3899c9f25a	[200] GET /portal/nl/record/2048208/OBJ11157.html (PortalController#show)
+SearchInteraction	2018-03-03T17:52:27.934Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+CollectionFilterRemovalInteraction	2018-03-03T17:53:18.225Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		4
+CollectionFilterAdditionInteraction	2018-03-03T17:53:27.465Z	d9ad72ed3db94070628d8a3899c9f25a	kazuivel		11
+SearchInteraction	2018-03-03T17:53:30.433Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-03T17:53:41.034Z	d9ad72ed3db94070628d8a3899c9f25a	stola		3453
+SearchInteraction	2018-03-03T17:54:12.691Z	d9ad72ed3db94070628d8a3899c9f25a	stola	{'TYPE': ['IMAGE']}	3276
+SearchInteraction	2018-03-03T17:54:34.471Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+RefreshOrPaginationInteraction	2018-03-03T17:54:35.954Z	d9ad72ed3db94070628d8a3899c9f25a	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-03T17:55:25.142Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:55:57.690Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-03-03T17:56:16.838Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:56:29.226Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	38
+CollectionFilterAdditionInteraction	2018-03-03T17:56:53.593Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	18303
+CollectionFilterRemovalInteraction	2018-03-03T17:57:19.086Z	d9ad72ed3db94070628d8a3899c9f25a	Religie	{'TYPE': ['IMAGE']}	2

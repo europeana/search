@@ -1,0 +1,90 @@
+ArbitraryAccessInteraction	2018-03-06T10:00:03.044Z	91cb99987f291ddfac80048a295c9fad	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_79882_25.html (PortalController#show)
+SearchInteraction	2018-03-06T10:03:42.258Z	91cb99987f291ddfac80048a295c9fad	europeana 280	{'COUNTRY': ['denmark'], 'PROVIDER': ['Europeana 280']}	22
+SearchInteraction	2018-03-06T10:46:59.970Z	91cb99987f291ddfac80048a295c9fad	europeana_collectionName:90402_M_NL_Rijksmuseum		180458
+SearchInteraction	2018-03-06T10:48:38.290Z	91cb99987f291ddfac80048a295c9fad	norway		5769500
+CollectionFilterRemovalInteraction	2018-03-06T10:48:42.998Z	91cb99987f291ddfac80048a295c9fad	norway		60881
+SearchInteraction	2018-03-06T10:49:02.376Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	3
+RankedRetrieveRecordInteraction	2018-03-06T10:49:13.253Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	/2063612/NO_280_010	1	3
+SearchInteraction	2018-03-06T10:49:38.572Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 280']}	348
+SearchInteraction	2018-03-06T10:50:00.392Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	10
+CollectionFilterAdditionInteraction	2018-03-06T10:52:21.991Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	0
+SearchInteraction	2018-03-06T10:52:34.928Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: other techniques']}	1303
+SearchInteraction	2018-03-06T10:53:08.302Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'CREATOR': ['Emilio Pucci (Designer)'], 'THUMBNAIL': ['true']}	8188
+SearchInteraction	2018-03-06T10:53:37.052Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+RefreshOrPaginationInteraction	2018-03-06T10:53:37.185Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+SearchInteraction	2018-03-06T10:53:44.941Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:12.442Z	91cb99987f291ddfac80048a295c9fad	amsterdam		13260
+SearchInteraction	2018-03-06T10:54:44.749Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:52.026Z	91cb99987f291ddfac80048a295c9fad	klimt		13
+ArbitraryAccessInteraction	2018-03-06T10:00:03.044Z	91cb99987f291ddfac80048a295c9fad	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_79882_25.html (PortalController#show)
+SearchInteraction	2018-03-06T10:03:42.258Z	91cb99987f291ddfac80048a295c9fad	europeana 280	{'COUNTRY': ['denmark'], 'PROVIDER': ['Europeana 280']}	22
+SearchInteraction	2018-03-06T10:46:59.970Z	91cb99987f291ddfac80048a295c9fad	europeana_collectionName:90402_M_NL_Rijksmuseum		180458
+SearchInteraction	2018-03-06T10:48:38.290Z	91cb99987f291ddfac80048a295c9fad	norway		5769500
+CollectionFilterRemovalInteraction	2018-03-06T10:48:42.998Z	91cb99987f291ddfac80048a295c9fad	norway		60881
+SearchInteraction	2018-03-06T10:49:02.376Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	3
+RankedRetrieveRecordInteraction	2018-03-06T10:49:13.253Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	/2063612/NO_280_010	1	3
+SearchInteraction	2018-03-06T10:49:38.572Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 280']}	348
+SearchInteraction	2018-03-06T10:50:00.392Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	10
+CollectionFilterAdditionInteraction	2018-03-06T10:52:21.991Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	0
+SearchInteraction	2018-03-06T10:52:34.928Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: other techniques']}	1303
+SearchInteraction	2018-03-06T10:53:08.302Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'CREATOR': ['Emilio Pucci (Designer)'], 'THUMBNAIL': ['true']}	8188
+SearchInteraction	2018-03-06T10:53:37.052Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+RefreshOrPaginationInteraction	2018-03-06T10:53:37.185Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+SearchInteraction	2018-03-06T10:53:44.941Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:12.442Z	91cb99987f291ddfac80048a295c9fad	amsterdam		13260
+SearchInteraction	2018-03-06T10:54:44.749Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:52.026Z	91cb99987f291ddfac80048a295c9fad	klimt		13
+ArbitraryAccessInteraction	2018-03-06T10:00:03.044Z	91cb99987f291ddfac80048a295c9fad	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_79882_25.html (PortalController#show)
+SearchInteraction	2018-03-06T10:03:42.258Z	91cb99987f291ddfac80048a295c9fad	europeana 280	{'COUNTRY': ['denmark'], 'PROVIDER': ['Europeana 280']}	22
+SearchInteraction	2018-03-06T10:46:59.970Z	91cb99987f291ddfac80048a295c9fad	europeana_collectionName:90402_M_NL_Rijksmuseum		180458
+SearchInteraction	2018-03-06T10:48:38.290Z	91cb99987f291ddfac80048a295c9fad	norway		5769500
+CollectionFilterRemovalInteraction	2018-03-06T10:48:42.998Z	91cb99987f291ddfac80048a295c9fad	norway		60881
+SearchInteraction	2018-03-06T10:49:02.376Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	3
+RankedRetrieveRecordInteraction	2018-03-06T10:49:13.253Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	/2063612/NO_280_010	1	3
+SearchInteraction	2018-03-06T10:49:38.572Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 280']}	348
+SearchInteraction	2018-03-06T10:50:00.392Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	10
+CollectionFilterAdditionInteraction	2018-03-06T10:52:21.991Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	0
+SearchInteraction	2018-03-06T10:52:34.928Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: other techniques']}	1303
+SearchInteraction	2018-03-06T10:53:08.302Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'CREATOR': ['Emilio Pucci (Designer)'], 'THUMBNAIL': ['true']}	8188
+SearchInteraction	2018-03-06T10:53:37.052Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+RefreshOrPaginationInteraction	2018-03-06T10:53:37.185Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+SearchInteraction	2018-03-06T10:53:44.941Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:12.442Z	91cb99987f291ddfac80048a295c9fad	amsterdam		13260
+SearchInteraction	2018-03-06T10:54:44.749Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:52.026Z	91cb99987f291ddfac80048a295c9fad	klimt		13
+ArbitraryAccessInteraction	2018-03-06T10:00:03.044Z	91cb99987f291ddfac80048a295c9fad	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_79882_25.html (PortalController#show)
+SearchInteraction	2018-03-06T10:03:42.258Z	91cb99987f291ddfac80048a295c9fad	europeana 280	{'COUNTRY': ['denmark'], 'PROVIDER': ['Europeana 280']}	22
+SearchInteraction	2018-03-06T10:46:59.970Z	91cb99987f291ddfac80048a295c9fad	europeana_collectionName:90402_M_NL_Rijksmuseum		180458
+SearchInteraction	2018-03-06T10:48:38.290Z	91cb99987f291ddfac80048a295c9fad	norway		5769500
+CollectionFilterRemovalInteraction	2018-03-06T10:48:42.998Z	91cb99987f291ddfac80048a295c9fad	norway		60881
+SearchInteraction	2018-03-06T10:49:02.376Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	3
+RankedRetrieveRecordInteraction	2018-03-06T10:49:13.253Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	/2063612/NO_280_010	1	3
+SearchInteraction	2018-03-06T10:49:38.572Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 280']}	348
+SearchInteraction	2018-03-06T10:50:00.392Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	10
+CollectionFilterAdditionInteraction	2018-03-06T10:52:21.991Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	0
+SearchInteraction	2018-03-06T10:52:34.928Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: other techniques']}	1303
+SearchInteraction	2018-03-06T10:53:08.302Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'CREATOR': ['Emilio Pucci (Designer)'], 'THUMBNAIL': ['true']}	8188
+SearchInteraction	2018-03-06T10:53:37.052Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+RefreshOrPaginationInteraction	2018-03-06T10:53:37.185Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+SearchInteraction	2018-03-06T10:53:44.941Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:12.442Z	91cb99987f291ddfac80048a295c9fad	amsterdam		13260
+SearchInteraction	2018-03-06T10:54:44.749Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:52.026Z	91cb99987f291ddfac80048a295c9fad	klimt		13
+ArbitraryAccessInteraction	2018-03-06T10:00:03.044Z	91cb99987f291ddfac80048a295c9fad	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_79882_25.html (PortalController#show)
+SearchInteraction	2018-03-06T10:03:42.258Z	91cb99987f291ddfac80048a295c9fad	europeana 280	{'COUNTRY': ['denmark'], 'PROVIDER': ['Europeana 280']}	22
+SearchInteraction	2018-03-06T10:46:59.970Z	91cb99987f291ddfac80048a295c9fad	europeana_collectionName:90402_M_NL_Rijksmuseum		180458
+SearchInteraction	2018-03-06T10:48:38.290Z	91cb99987f291ddfac80048a295c9fad	norway		5769500
+CollectionFilterRemovalInteraction	2018-03-06T10:48:42.998Z	91cb99987f291ddfac80048a295c9fad	norway		60881
+SearchInteraction	2018-03-06T10:49:02.376Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	3
+RankedRetrieveRecordInteraction	2018-03-06T10:49:13.253Z	91cb99987f291ddfac80048a295c9fad	norway	{'PROVIDER': ['Europeana 280']}	/2063612/NO_280_010	1	3
+SearchInteraction	2018-03-06T10:49:38.572Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 280']}	348
+SearchInteraction	2018-03-06T10:50:00.392Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	10
+CollectionFilterAdditionInteraction	2018-03-06T10:52:21.991Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'COUNTRY': ['norway'], 'PROVIDER': ['Europeana 280']}	0
+SearchInteraction	2018-03-06T10:52:34.928Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: other techniques']}	1303
+SearchInteraction	2018-03-06T10:53:08.302Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED	{'CREATOR': ['Emilio Pucci (Designer)'], 'THUMBNAIL': ['true']}	8188
+SearchInteraction	2018-03-06T10:53:37.052Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+RefreshOrPaginationInteraction	2018-03-06T10:53:37.185Z	91cb99987f291ddfac80048a295c9fad	balanciaga		0
+SearchInteraction	2018-03-06T10:53:44.941Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:12.442Z	91cb99987f291ddfac80048a295c9fad	amsterdam		13260
+SearchInteraction	2018-03-06T10:54:44.749Z	91cb99987f291ddfac80048a295c9fad	NO VALUE PROVIDED		866466
+SearchInteraction	2018-03-06T10:54:52.026Z	91cb99987f291ddfac80048a295c9fad	klimt		13

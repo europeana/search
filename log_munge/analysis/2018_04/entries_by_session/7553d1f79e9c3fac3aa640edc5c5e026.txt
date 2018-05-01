@@ -1,0 +1,110 @@
+SearchInteraction	2018-02-19T12:22:43.738Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+RefreshOrPaginationInteraction	2018-02-19T12:22:43.967Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+SearchInteraction	2018-02-19T12:23:30.682Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.024Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.305Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:37.018Z	7553d1f79e9c3fac3aa640edc5c5e026	leone		95
+SearchInteraction	2018-02-19T12:23:44.041Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:50.453Z	7553d1f79e9c3fac3aa640edc5c5e026	timoleone		0
+SearchInteraction	2018-02-19T12:24:22.528Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RefreshOrPaginationInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:24:43.374Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421425	2	15
+SearchInteraction	2018-02-19T12:25:26.978Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:25:46.267Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421424	3	15
+SearchInteraction	2018-02-19T12:25:58.402Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+ArbitraryAccessInteraction	2018-02-19T12:27:35.443Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/20480101/421422.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T12:29:48.945Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/9200218/BibliographicResource_3000045540908_source.html (PortalController#show)
+SearchInteraction	2018-02-19T12:31:39.469Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:31:57.534Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:04.281Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:32:08.826Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:10.476Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+SearchInteraction	2018-02-19T12:22:43.738Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+RefreshOrPaginationInteraction	2018-02-19T12:22:43.967Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+SearchInteraction	2018-02-19T12:23:30.682Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.024Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.305Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:37.018Z	7553d1f79e9c3fac3aa640edc5c5e026	leone		95
+SearchInteraction	2018-02-19T12:23:44.041Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:50.453Z	7553d1f79e9c3fac3aa640edc5c5e026	timoleone		0
+SearchInteraction	2018-02-19T12:24:22.528Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RefreshOrPaginationInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:24:43.374Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421425	2	15
+SearchInteraction	2018-02-19T12:25:26.978Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:25:46.267Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421424	3	15
+SearchInteraction	2018-02-19T12:25:58.402Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+ArbitraryAccessInteraction	2018-02-19T12:27:35.443Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/20480101/421422.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T12:29:48.945Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/9200218/BibliographicResource_3000045540908_source.html (PortalController#show)
+SearchInteraction	2018-02-19T12:31:39.469Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:31:57.534Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:04.281Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:32:08.826Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:10.476Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+SearchInteraction	2018-02-19T12:22:43.738Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+RefreshOrPaginationInteraction	2018-02-19T12:22:43.967Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+SearchInteraction	2018-02-19T12:23:30.682Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.024Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.305Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:37.018Z	7553d1f79e9c3fac3aa640edc5c5e026	leone		95
+SearchInteraction	2018-02-19T12:23:44.041Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:50.453Z	7553d1f79e9c3fac3aa640edc5c5e026	timoleone		0
+SearchInteraction	2018-02-19T12:24:22.528Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RefreshOrPaginationInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:24:43.374Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421425	2	15
+SearchInteraction	2018-02-19T12:25:26.978Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:25:46.267Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421424	3	15
+SearchInteraction	2018-02-19T12:25:58.402Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+ArbitraryAccessInteraction	2018-02-19T12:27:35.443Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/20480101/421422.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T12:29:48.945Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/9200218/BibliographicResource_3000045540908_source.html (PortalController#show)
+SearchInteraction	2018-02-19T12:31:39.469Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:31:57.534Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:04.281Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:32:08.826Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:10.476Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+SearchInteraction	2018-02-19T12:22:43.738Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+RefreshOrPaginationInteraction	2018-02-19T12:22:43.967Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+SearchInteraction	2018-02-19T12:23:30.682Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.024Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.305Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:37.018Z	7553d1f79e9c3fac3aa640edc5c5e026	leone		95
+SearchInteraction	2018-02-19T12:23:44.041Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:50.453Z	7553d1f79e9c3fac3aa640edc5c5e026	timoleone		0
+SearchInteraction	2018-02-19T12:24:22.528Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RefreshOrPaginationInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:24:43.374Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421425	2	15
+SearchInteraction	2018-02-19T12:25:26.978Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:25:46.267Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421424	3	15
+SearchInteraction	2018-02-19T12:25:58.402Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+ArbitraryAccessInteraction	2018-02-19T12:27:35.443Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/20480101/421422.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T12:29:48.945Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/9200218/BibliographicResource_3000045540908_source.html (PortalController#show)
+SearchInteraction	2018-02-19T12:31:39.469Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:31:57.534Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:04.281Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:32:08.826Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:10.476Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+SearchInteraction	2018-02-19T12:22:43.738Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+RefreshOrPaginationInteraction	2018-02-19T12:22:43.967Z	7553d1f79e9c3fac3aa640edc5c5e026	cattaneo vitaliano		0
+SearchInteraction	2018-02-19T12:23:30.682Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.024Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+RefreshOrPaginationInteraction	2018-02-19T12:23:33.305Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:37.018Z	7553d1f79e9c3fac3aa640edc5c5e026	leone		95
+SearchInteraction	2018-02-19T12:23:44.041Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:23:50.453Z	7553d1f79e9c3fac3aa640edc5c5e026	timoleone		0
+SearchInteraction	2018-02-19T12:24:22.528Z	7553d1f79e9c3fac3aa640edc5c5e026	NO VALUE PROVIDED		515712
+SearchInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RefreshOrPaginationInteraction	2018-02-19T12:24:32.516Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:24:43.374Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421425	2	15
+SearchInteraction	2018-02-19T12:25:26.978Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		15
+RankedRetrieveRecordInteraction	2018-02-19T12:25:46.267Z	7553d1f79e9c3fac3aa640edc5c5e026	sartorelli		/20480101/421424	3	15
+SearchInteraction	2018-02-19T12:25:58.402Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+ArbitraryAccessInteraction	2018-02-19T12:27:35.443Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/20480101/421422.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T12:29:48.945Z	7553d1f79e9c3fac3aa640edc5c5e026	[200] GET /portal/it/record/9200218/BibliographicResource_3000045540908_source.html (PortalController#show)
+SearchInteraction	2018-02-19T12:31:39.469Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:31:57.534Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:04.281Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763
+CollectionFilterAdditionInteraction	2018-02-19T12:32:08.826Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		0
+CollectionFilterRemovalInteraction	2018-02-19T12:32:10.476Z	7553d1f79e9c3fac3aa640edc5c5e026	europeana_collectionName:(9200218_Ag_EU_TEL_a1134b_Collections_1914-1918)		24763

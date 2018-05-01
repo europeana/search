@@ -1,0 +1,110 @@
+SearchInteraction	2018-03-03T01:53:25.373Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:20.100Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:50.442Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:31.706Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:55.342Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:56:33.196Z	21a28f5df746cf754182c68edf6820a7	libros en galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-03T01:57:22.430Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:57:38.839Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+CollectionFilterAdditionInteraction	2018-03-03T01:58:22.179Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T01:58:43.566Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:01:39.016Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:02:52.537Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:03:42.952Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:05:46.172Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:06:26.209Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:07:18.291Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:24.465Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:43.569Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RankedRetrieveRecordInteraction	2018-03-03T02:09:33.303Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	/9200143/BibliographicResource_2000069363377	10	85
+SearchInteraction	2018-03-03T02:20:46.827Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+CollectionFilterAdditionInteraction	2018-03-03T02:21:12.884Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T02:21:23.904Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+SearchInteraction	2018-03-03T01:53:25.373Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:20.100Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:50.442Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:31.706Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:55.342Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:56:33.196Z	21a28f5df746cf754182c68edf6820a7	libros en galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-03T01:57:22.430Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:57:38.839Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+CollectionFilterAdditionInteraction	2018-03-03T01:58:22.179Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T01:58:43.566Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:01:39.016Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:02:52.537Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:03:42.952Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:05:46.172Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:06:26.209Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:07:18.291Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:24.465Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:43.569Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RankedRetrieveRecordInteraction	2018-03-03T02:09:33.303Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	/9200143/BibliographicResource_2000069363377	10	85
+SearchInteraction	2018-03-03T02:20:46.827Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+CollectionFilterAdditionInteraction	2018-03-03T02:21:12.884Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T02:21:23.904Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+SearchInteraction	2018-03-03T01:53:25.373Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:20.100Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:50.442Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:31.706Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:55.342Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:56:33.196Z	21a28f5df746cf754182c68edf6820a7	libros en galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-03T01:57:22.430Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:57:38.839Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+CollectionFilterAdditionInteraction	2018-03-03T01:58:22.179Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T01:58:43.566Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:01:39.016Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:02:52.537Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:03:42.952Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:05:46.172Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:06:26.209Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:07:18.291Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:24.465Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:43.569Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RankedRetrieveRecordInteraction	2018-03-03T02:09:33.303Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	/9200143/BibliographicResource_2000069363377	10	85
+SearchInteraction	2018-03-03T02:20:46.827Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+CollectionFilterAdditionInteraction	2018-03-03T02:21:12.884Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T02:21:23.904Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+SearchInteraction	2018-03-03T01:53:25.373Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:20.100Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:50.442Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:31.706Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:55.342Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:56:33.196Z	21a28f5df746cf754182c68edf6820a7	libros en galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-03T01:57:22.430Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:57:38.839Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+CollectionFilterAdditionInteraction	2018-03-03T01:58:22.179Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T01:58:43.566Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:01:39.016Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:02:52.537Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:03:42.952Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:05:46.172Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:06:26.209Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:07:18.291Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:24.465Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:43.569Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RankedRetrieveRecordInteraction	2018-03-03T02:09:33.303Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	/9200143/BibliographicResource_2000069363377	10	85
+SearchInteraction	2018-03-03T02:20:46.827Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+CollectionFilterAdditionInteraction	2018-03-03T02:21:12.884Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T02:21:23.904Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+SearchInteraction	2018-03-03T01:53:25.373Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:20.100Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:54:50.442Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:31.706Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-03T01:55:55.342Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:56:33.196Z	21a28f5df746cf754182c68edf6820a7	libros en galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	1
+SearchInteraction	2018-03-03T01:57:22.430Z	21a28f5df746cf754182c68edf6820a7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-03T01:57:38.839Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7
+CollectionFilterAdditionInteraction	2018-03-03T01:58:22.179Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T01:58:43.566Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:01:39.016Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:02:52.537Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:03:42.952Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:05:46.172Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:06:26.209Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:07:18.291Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:24.465Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RefreshOrPaginationInteraction	2018-03-03T02:08:43.569Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+RankedRetrieveRecordInteraction	2018-03-03T02:09:33.303Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	/9200143/BibliographicResource_2000069363377	10	85
+SearchInteraction	2018-03-03T02:20:46.827Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	85
+CollectionFilterAdditionInteraction	2018-03-03T02:21:12.884Z	21a28f5df746cf754182c68edf6820a7	Gallego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	3
+SearchInteraction	2018-03-03T02:21:23.904Z	21a28f5df746cf754182c68edf6820a7	Galego	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	7

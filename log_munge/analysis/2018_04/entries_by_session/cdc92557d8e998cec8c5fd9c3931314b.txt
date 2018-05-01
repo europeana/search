@@ -1,0 +1,60 @@
+SearchInteraction	2018-02-07T01:00:29.100Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:00:43.087Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:07.020Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_M0003713.html (PortalController#show)
+SearchInteraction	2018-02-07T01:01:42.748Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:52.382Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0078199.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-07T01:02:15.822Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200105/wellcome_historical_images_L0076327	30	63
+SearchInteraction	2018-02-07T01:02:28.258Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:02:36.924Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0058144.html (PortalController#show)
+SearchInteraction	2018-02-07T01:03:33.756Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:03:44.034Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+SearchInteraction	2018-02-07T01:05:19.434Z	cdc92557d8e998cec8c5fd9c3931314b	electroconvulsive therapy AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		4
+ArbitraryAccessInteraction	2018-02-07T01:05:28.202Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0070534.html (PortalController#show)
+SearchInteraction	2018-02-07T01:00:29.100Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:00:43.087Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:07.020Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_M0003713.html (PortalController#show)
+SearchInteraction	2018-02-07T01:01:42.748Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:52.382Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0078199.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-07T01:02:15.822Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200105/wellcome_historical_images_L0076327	30	63
+SearchInteraction	2018-02-07T01:02:28.258Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:02:36.924Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0058144.html (PortalController#show)
+SearchInteraction	2018-02-07T01:03:33.756Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:03:44.034Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+SearchInteraction	2018-02-07T01:05:19.434Z	cdc92557d8e998cec8c5fd9c3931314b	electroconvulsive therapy AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		4
+ArbitraryAccessInteraction	2018-02-07T01:05:28.202Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0070534.html (PortalController#show)
+SearchInteraction	2018-02-07T01:00:29.100Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:00:43.087Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:07.020Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_M0003713.html (PortalController#show)
+SearchInteraction	2018-02-07T01:01:42.748Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:52.382Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0078199.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-07T01:02:15.822Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200105/wellcome_historical_images_L0076327	30	63
+SearchInteraction	2018-02-07T01:02:28.258Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:02:36.924Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0058144.html (PortalController#show)
+SearchInteraction	2018-02-07T01:03:33.756Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:03:44.034Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+SearchInteraction	2018-02-07T01:05:19.434Z	cdc92557d8e998cec8c5fd9c3931314b	electroconvulsive therapy AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		4
+ArbitraryAccessInteraction	2018-02-07T01:05:28.202Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0070534.html (PortalController#show)
+SearchInteraction	2018-02-07T01:00:29.100Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:00:43.087Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:07.020Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_M0003713.html (PortalController#show)
+SearchInteraction	2018-02-07T01:01:42.748Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:52.382Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0078199.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-07T01:02:15.822Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200105/wellcome_historical_images_L0076327	30	63
+SearchInteraction	2018-02-07T01:02:28.258Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:02:36.924Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0058144.html (PortalController#show)
+SearchInteraction	2018-02-07T01:03:33.756Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:03:44.034Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+SearchInteraction	2018-02-07T01:05:19.434Z	cdc92557d8e998cec8c5fd9c3931314b	electroconvulsive therapy AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		4
+ArbitraryAccessInteraction	2018-02-07T01:05:28.202Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0070534.html (PortalController#show)
+SearchInteraction	2018-02-07T01:00:29.100Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:00:43.087Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:07.020Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_M0003713.html (PortalController#show)
+SearchInteraction	2018-02-07T01:01:42.748Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:01:52.382Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0078199.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-07T01:02:15.822Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		/9200105/wellcome_historical_images_L0076327	30	63
+SearchInteraction	2018-02-07T01:02:28.258Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+ArbitraryAccessInteraction	2018-02-07T01:02:36.924Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0058144.html (PortalController#show)
+SearchInteraction	2018-02-07T01:03:33.756Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+RefreshOrPaginationInteraction	2018-02-07T01:03:44.034Z	cdc92557d8e998cec8c5fd9c3931314b	Trephination AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		63
+SearchInteraction	2018-02-07T01:05:19.434Z	cdc92557d8e998cec8c5fd9c3931314b	electroconvulsive therapy AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		4
+ArbitraryAccessInteraction	2018-02-07T01:05:28.202Z	cdc92557d8e998cec8c5fd9c3931314b	[200] GET /portal/en/record/9200105/wellcome_historical_images_L0070534.html (PortalController#show)

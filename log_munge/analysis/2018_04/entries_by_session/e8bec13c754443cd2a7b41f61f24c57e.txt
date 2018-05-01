@@ -1,0 +1,105 @@
+SearchInteraction	2018-02-17T20:07:50.854Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum		34888
+SearchInteraction	2018-02-17T20:08:28.579Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum	{'COUNTRY': ['hungary']}	34824
+SearchInteraction	2018-02-17T20:08:32.876Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:36.879Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:43.307Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+SearchInteraction	2018-02-17T20:09:39.360Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+RefreshOrPaginationInteraction	2018-02-17T20:09:58.899Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+SearchInteraction	2018-02-17T20:23:43.500Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:06.997Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:16.721Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:32.794Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RankedRetrieveRecordInteraction	2018-02-17T20:25:05.510Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		/2023859/_http___keptar_oszk_hu_019500_019512__	39	40
+ArbitraryAccessInteraction	2018-02-17T20:25:51.838Z	e8bec13c754443cd2a7b41f61f24c57e	[200] GET /portal/hu/record/2023859/_http___keptar_oszk_hu_028800_028847__.html (PortalController#show)
+SearchInteraction	2018-02-17T20:27:17.681Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T20:27:31.532Z	e8bec13c754443cd2a7b41f61f24c57e	karton		84090
+SearchInteraction	2018-02-17T20:28:17.755Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:29.946Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:46.852Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+SearchInteraction	2018-02-17T20:29:50.100Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:09.856Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:52.813Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+SearchInteraction	2018-02-17T20:07:50.854Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum		34888
+SearchInteraction	2018-02-17T20:08:28.579Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum	{'COUNTRY': ['hungary']}	34824
+SearchInteraction	2018-02-17T20:08:32.876Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:36.879Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:43.307Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+SearchInteraction	2018-02-17T20:09:39.360Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+RefreshOrPaginationInteraction	2018-02-17T20:09:58.899Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+SearchInteraction	2018-02-17T20:23:43.500Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:06.997Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:16.721Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:32.794Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RankedRetrieveRecordInteraction	2018-02-17T20:25:05.510Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		/2023859/_http___keptar_oszk_hu_019500_019512__	39	40
+ArbitraryAccessInteraction	2018-02-17T20:25:51.838Z	e8bec13c754443cd2a7b41f61f24c57e	[200] GET /portal/hu/record/2023859/_http___keptar_oszk_hu_028800_028847__.html (PortalController#show)
+SearchInteraction	2018-02-17T20:27:17.681Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T20:27:31.532Z	e8bec13c754443cd2a7b41f61f24c57e	karton		84090
+SearchInteraction	2018-02-17T20:28:17.755Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:29.946Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:46.852Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+SearchInteraction	2018-02-17T20:29:50.100Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:09.856Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:52.813Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+SearchInteraction	2018-02-17T20:07:50.854Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum		34888
+SearchInteraction	2018-02-17T20:08:28.579Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum	{'COUNTRY': ['hungary']}	34824
+SearchInteraction	2018-02-17T20:08:32.876Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:36.879Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:43.307Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+SearchInteraction	2018-02-17T20:09:39.360Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+RefreshOrPaginationInteraction	2018-02-17T20:09:58.899Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+SearchInteraction	2018-02-17T20:23:43.500Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:06.997Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:16.721Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:32.794Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RankedRetrieveRecordInteraction	2018-02-17T20:25:05.510Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		/2023859/_http___keptar_oszk_hu_019500_019512__	39	40
+ArbitraryAccessInteraction	2018-02-17T20:25:51.838Z	e8bec13c754443cd2a7b41f61f24c57e	[200] GET /portal/hu/record/2023859/_http___keptar_oszk_hu_028800_028847__.html (PortalController#show)
+SearchInteraction	2018-02-17T20:27:17.681Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T20:27:31.532Z	e8bec13c754443cd2a7b41f61f24c57e	karton		84090
+SearchInteraction	2018-02-17T20:28:17.755Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:29.946Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:46.852Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+SearchInteraction	2018-02-17T20:29:50.100Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:09.856Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:52.813Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+SearchInteraction	2018-02-17T20:07:50.854Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum		34888
+SearchInteraction	2018-02-17T20:08:28.579Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum	{'COUNTRY': ['hungary']}	34824
+SearchInteraction	2018-02-17T20:08:32.876Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:36.879Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:43.307Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+SearchInteraction	2018-02-17T20:09:39.360Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+RefreshOrPaginationInteraction	2018-02-17T20:09:58.899Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+SearchInteraction	2018-02-17T20:23:43.500Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:06.997Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:16.721Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:32.794Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RankedRetrieveRecordInteraction	2018-02-17T20:25:05.510Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		/2023859/_http___keptar_oszk_hu_019500_019512__	39	40
+ArbitraryAccessInteraction	2018-02-17T20:25:51.838Z	e8bec13c754443cd2a7b41f61f24c57e	[200] GET /portal/hu/record/2023859/_http___keptar_oszk_hu_028800_028847__.html (PortalController#show)
+SearchInteraction	2018-02-17T20:27:17.681Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T20:27:31.532Z	e8bec13c754443cd2a7b41f61f24c57e	karton		84090
+SearchInteraction	2018-02-17T20:28:17.755Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:29.946Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:46.852Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+SearchInteraction	2018-02-17T20:29:50.100Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:09.856Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:52.813Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+SearchInteraction	2018-02-17T20:07:50.854Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum		34888
+SearchInteraction	2018-02-17T20:08:28.579Z	e8bec13c754443cd2a7b41f61f24c57e	Nemzeti Múzeum	{'COUNTRY': ['hungary']}	34824
+SearchInteraction	2018-02-17T20:08:32.876Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:36.879Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+RefreshOrPaginationInteraction	2018-02-17T20:08:43.307Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary']}	815495
+SearchInteraction	2018-02-17T20:09:39.360Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+RefreshOrPaginationInteraction	2018-02-17T20:09:58.899Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED	{'COUNTRY': ['hungary'], 'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	6431
+SearchInteraction	2018-02-17T20:23:43.500Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:06.997Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:16.721Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RefreshOrPaginationInteraction	2018-02-17T20:24:32.794Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		40
+RankedRetrieveRecordInteraction	2018-02-17T20:25:05.510Z	e8bec13c754443cd2a7b41f61f24c57e	szabadkőműves		/2023859/_http___keptar_oszk_hu_019500_019512__	39	40
+ArbitraryAccessInteraction	2018-02-17T20:25:51.838Z	e8bec13c754443cd2a7b41f61f24c57e	[200] GET /portal/hu/record/2023859/_http___keptar_oszk_hu_028800_028847__.html (PortalController#show)
+SearchInteraction	2018-02-17T20:27:17.681Z	e8bec13c754443cd2a7b41f61f24c57e	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-17T20:27:31.532Z	e8bec13c754443cd2a7b41f61f24c57e	karton		84090
+SearchInteraction	2018-02-17T20:28:17.755Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:29.946Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+RefreshOrPaginationInteraction	2018-02-17T20:28:46.852Z	e8bec13c754443cd2a7b41f61f24c57e	karton	{'DATA_PROVIDER': ['Magyar Nemzeti Múzeum - Budapest']}	369
+SearchInteraction	2018-02-17T20:29:50.100Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:09.856Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26
+RefreshOrPaginationInteraction	2018-02-17T20:30:52.813Z	e8bec13c754443cd2a7b41f61f24c57e	Magyar Nemzeti Múzeum		26

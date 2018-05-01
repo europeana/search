@@ -1,0 +1,100 @@
+ArbitraryAccessInteraction	2018-03-02T16:33:04.641Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2021657/114993.html (PortalController#show)
+SearchInteraction	2018-03-02T16:33:24.829Z	df28495e78f83806f5ccd21d02974d8c	atjeh		745
+RankedRetrieveRecordInteraction	2018-03-02T16:33:41.258Z	df28495e78f83806f5ccd21d02974d8c	atjeh		/92034/GVNRC_VKM01_A96_1_19	2	745
+SearchInteraction	2018-03-02T17:38:09.550Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+RankedRetrieveRecordInteraction	2018-03-02T17:38:17.559Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		/9200365/BibliographicResource_3000140772577	1	4
+SearchInteraction	2018-03-02T17:39:14.092Z	df28495e78f83806f5ccd21d02974d8c	DATA_PROVIDER:"National Library of France"		2615497
+SearchInteraction	2018-03-02T17:39:29.524Z	df28495e78f83806f5ccd21d02974d8c	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T17:39:36.056Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:39:52.752Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:40:05.567Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:16.071Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:28.944Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+CollectionFilterAdditionInteraction	2018-03-02T17:41:46.818Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		0
+CollectionFilterRemovalInteraction	2018-03-02T17:41:55.736Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		6
+CollectionFilterAdditionInteraction	2018-03-02T17:41:58.419Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+CollectionFilterRemovalInteraction	2018-03-02T17:42:00.527Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+SearchInteraction	2018-03-02T17:42:14.034Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	4
+RankedRetrieveRecordInteraction	2018-03-02T17:42:31.359Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_79686	3	4
+ArbitraryAccessInteraction	2018-03-02T17:42:45.049Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79684.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T17:43:25.869Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79596.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T16:33:04.641Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2021657/114993.html (PortalController#show)
+SearchInteraction	2018-03-02T16:33:24.829Z	df28495e78f83806f5ccd21d02974d8c	atjeh		745
+RankedRetrieveRecordInteraction	2018-03-02T16:33:41.258Z	df28495e78f83806f5ccd21d02974d8c	atjeh		/92034/GVNRC_VKM01_A96_1_19	2	745
+SearchInteraction	2018-03-02T17:38:09.550Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+RankedRetrieveRecordInteraction	2018-03-02T17:38:17.559Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		/9200365/BibliographicResource_3000140772577	1	4
+SearchInteraction	2018-03-02T17:39:14.092Z	df28495e78f83806f5ccd21d02974d8c	DATA_PROVIDER:"National Library of France"		2615497
+SearchInteraction	2018-03-02T17:39:29.524Z	df28495e78f83806f5ccd21d02974d8c	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T17:39:36.056Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:39:52.752Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:40:05.567Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:16.071Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:28.944Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+CollectionFilterAdditionInteraction	2018-03-02T17:41:46.818Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		0
+CollectionFilterRemovalInteraction	2018-03-02T17:41:55.736Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		6
+CollectionFilterAdditionInteraction	2018-03-02T17:41:58.419Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+CollectionFilterRemovalInteraction	2018-03-02T17:42:00.527Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+SearchInteraction	2018-03-02T17:42:14.034Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	4
+RankedRetrieveRecordInteraction	2018-03-02T17:42:31.359Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_79686	3	4
+ArbitraryAccessInteraction	2018-03-02T17:42:45.049Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79684.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T17:43:25.869Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79596.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T16:33:04.641Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2021657/114993.html (PortalController#show)
+SearchInteraction	2018-03-02T16:33:24.829Z	df28495e78f83806f5ccd21d02974d8c	atjeh		745
+RankedRetrieveRecordInteraction	2018-03-02T16:33:41.258Z	df28495e78f83806f5ccd21d02974d8c	atjeh		/92034/GVNRC_VKM01_A96_1_19	2	745
+SearchInteraction	2018-03-02T17:38:09.550Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+RankedRetrieveRecordInteraction	2018-03-02T17:38:17.559Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		/9200365/BibliographicResource_3000140772577	1	4
+SearchInteraction	2018-03-02T17:39:14.092Z	df28495e78f83806f5ccd21d02974d8c	DATA_PROVIDER:"National Library of France"		2615497
+SearchInteraction	2018-03-02T17:39:29.524Z	df28495e78f83806f5ccd21d02974d8c	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T17:39:36.056Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:39:52.752Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:40:05.567Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:16.071Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:28.944Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+CollectionFilterAdditionInteraction	2018-03-02T17:41:46.818Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		0
+CollectionFilterRemovalInteraction	2018-03-02T17:41:55.736Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		6
+CollectionFilterAdditionInteraction	2018-03-02T17:41:58.419Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+CollectionFilterRemovalInteraction	2018-03-02T17:42:00.527Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+SearchInteraction	2018-03-02T17:42:14.034Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	4
+RankedRetrieveRecordInteraction	2018-03-02T17:42:31.359Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_79686	3	4
+ArbitraryAccessInteraction	2018-03-02T17:42:45.049Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79684.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T17:43:25.869Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79596.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T16:33:04.641Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2021657/114993.html (PortalController#show)
+SearchInteraction	2018-03-02T16:33:24.829Z	df28495e78f83806f5ccd21d02974d8c	atjeh		745
+RankedRetrieveRecordInteraction	2018-03-02T16:33:41.258Z	df28495e78f83806f5ccd21d02974d8c	atjeh		/92034/GVNRC_VKM01_A96_1_19	2	745
+SearchInteraction	2018-03-02T17:38:09.550Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+RankedRetrieveRecordInteraction	2018-03-02T17:38:17.559Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		/9200365/BibliographicResource_3000140772577	1	4
+SearchInteraction	2018-03-02T17:39:14.092Z	df28495e78f83806f5ccd21d02974d8c	DATA_PROVIDER:"National Library of France"		2615497
+SearchInteraction	2018-03-02T17:39:29.524Z	df28495e78f83806f5ccd21d02974d8c	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T17:39:36.056Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:39:52.752Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:40:05.567Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:16.071Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:28.944Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+CollectionFilterAdditionInteraction	2018-03-02T17:41:46.818Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		0
+CollectionFilterRemovalInteraction	2018-03-02T17:41:55.736Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		6
+CollectionFilterAdditionInteraction	2018-03-02T17:41:58.419Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+CollectionFilterRemovalInteraction	2018-03-02T17:42:00.527Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+SearchInteraction	2018-03-02T17:42:14.034Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	4
+RankedRetrieveRecordInteraction	2018-03-02T17:42:31.359Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_79686	3	4
+ArbitraryAccessInteraction	2018-03-02T17:42:45.049Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79684.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T17:43:25.869Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79596.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T16:33:04.641Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2021657/114993.html (PortalController#show)
+SearchInteraction	2018-03-02T16:33:24.829Z	df28495e78f83806f5ccd21d02974d8c	atjeh		745
+RankedRetrieveRecordInteraction	2018-03-02T16:33:41.258Z	df28495e78f83806f5ccd21d02974d8c	atjeh		/92034/GVNRC_VKM01_A96_1_19	2	745
+SearchInteraction	2018-03-02T17:38:09.550Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+RankedRetrieveRecordInteraction	2018-03-02T17:38:17.559Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		/9200365/BibliographicResource_3000140772577	1	4
+SearchInteraction	2018-03-02T17:39:14.092Z	df28495e78f83806f5ccd21d02974d8c	DATA_PROVIDER:"National Library of France"		2615497
+SearchInteraction	2018-03-02T17:39:29.524Z	df28495e78f83806f5ccd21d02974d8c	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-02T17:39:36.056Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:39:52.752Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:40:05.567Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:16.071Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+RefreshOrPaginationInteraction	2018-03-02T17:41:28.944Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+CollectionFilterAdditionInteraction	2018-03-02T17:41:46.818Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		0
+CollectionFilterRemovalInteraction	2018-03-02T17:41:55.736Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		6
+CollectionFilterAdditionInteraction	2018-03-02T17:41:58.419Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		4
+CollectionFilterRemovalInteraction	2018-03-02T17:42:00.527Z	df28495e78f83806f5ccd21d02974d8c	Atjeh		745
+SearchInteraction	2018-03-02T17:42:14.034Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	4
+RankedRetrieveRecordInteraction	2018-03-02T17:42:31.359Z	df28495e78f83806f5ccd21d02974d8c	Atjeh	{'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_79686	3	4
+ArbitraryAccessInteraction	2018-03-02T17:42:45.049Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79684.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T17:43:25.869Z	df28495e78f83806f5ccd21d02974d8c	[200] GET /portal/en/record/2051906/data_euscreenXL_79596.html (PortalController#show)

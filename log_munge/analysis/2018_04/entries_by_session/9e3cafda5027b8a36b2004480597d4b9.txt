@@ -1,0 +1,315 @@
+ArbitraryAccessInteraction	2018-02-23T23:19:33.056Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/explore/people/310-ville-vallgren.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-23T23:20:07.021Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_38150.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T23:23:18.828Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_28232.html (PortalController#show)
+SearchInteraction	2018-02-23T23:23:39.809Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:24:22.501Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:25:12.591Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RankedRetrieveRecordInteraction	2018-02-23T23:26:13.639Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		/2021012/app_si_B_I_271	32	132
+SearchInteraction	2018-02-23T23:26:24.613Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:26:58.199Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:23.086Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:31.149Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:57.592Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:28:28.652Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:29:00.574Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+SearchInteraction	2018-02-23T23:30:18.761Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:21.325Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:23.864Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:24.862Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.080Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.197Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:30:39.134Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		5
+CollectionFilterAdditionInteraction	2018-02-23T23:31:24.686Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		0
+SearchInteraction	2018-02-23T23:32:54.097Z	9e3cafda5027b8a36b2004480597d4b9	theodore tholenaar		0
+SearchInteraction	2018-02-23T23:32:58.744Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:33:19.235Z	9e3cafda5027b8a36b2004480597d4b9	vasselot marquest		0
+SearchInteraction	2018-02-23T23:33:23.498Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:34:06.469Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+CollectionFilterRemovalInteraction	2018-02-23T23:34:26.263Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		4
+CollectionFilterAdditionInteraction	2018-02-23T23:34:36.104Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+SearchInteraction	2018-02-23T23:34:50.743Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:35:02.285Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		2
+RankedRetrieveRecordInteraction	2018-02-23T23:35:22.774Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		/9200495/yoolib_inha_15707	1	2
+SearchInteraction	2018-02-23T23:35:33.469Z	9e3cafda5027b8a36b2004480597d4b9	Ville Vallgren		132
+SearchInteraction	2018-02-23T23:36:08.707Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:36:14.791Z	9e3cafda5027b8a36b2004480597d4b9	savine		317
+SearchInteraction	2018-02-23T23:37:36.079Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:37:43.145Z	9e3cafda5027b8a36b2004480597d4b9	Arild Rosenkrantz 		2
+SearchInteraction	2018-02-23T23:42:09.675Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:42:16.483Z	9e3cafda5027b8a36b2004480597d4b9	sainville		28
+SearchInteraction	2018-02-23T23:43:34.436Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:43:41.594Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		23
+RankedRetrieveRecordInteraction	2018-02-23T23:44:15.743Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		/9200365/BibliographicResource_3000004791456	5	23
+SearchInteraction	2018-02-23T23:46:17.262Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:46:25.430Z	9e3cafda5027b8a36b2004480597d4b9	armand point		17
+RankedRetrieveRecordInteraction	2018-02-23T23:47:05.644Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+RankedRetrieveRecordInteraction	2018-02-23T23:55:20.552Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+SearchInteraction	2018-02-24T00:13:13.204Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:13:20.862Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		3
+RankedRetrieveRecordInteraction	2018-02-24T00:13:35.656Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		/2026118/_MGZ_06084	3	3
+SearchInteraction	2018-02-24T00:22:08.358Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:22:18.915Z	9e3cafda5027b8a36b2004480597d4b9	berengier		18
+SearchInteraction	2018-02-24T00:31:09.476Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:31:16.108Z	9e3cafda5027b8a36b2004480597d4b9	BERENGIER Theophile Paul Marie		0
+SearchInteraction	2018-02-24T00:34:56.418Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:35:02.897Z	9e3cafda5027b8a36b2004480597d4b9	bethune gaston		2
+SearchInteraction	2018-02-24T00:41:21.576Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:41:29.165Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		1
+RankedRetrieveRecordInteraction	2018-02-24T00:41:43.004Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		/03916/public_mistral_caran_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_ARC00745	1	1
+SearchInteraction	2018-02-24T00:47:46.069Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:47:54.668Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+RefreshOrPaginationInteraction	2018-02-24T00:48:26.233Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+SearchInteraction	2018-02-24T01:10:43.656Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T01:10:55.987Z	9e3cafda5027b8a36b2004480597d4b9	Maurice Chabas		1
+ArbitraryAccessInteraction	2018-02-23T23:19:33.056Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/explore/people/310-ville-vallgren.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-23T23:20:07.021Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_38150.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T23:23:18.828Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_28232.html (PortalController#show)
+SearchInteraction	2018-02-23T23:23:39.809Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:24:22.501Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:25:12.591Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RankedRetrieveRecordInteraction	2018-02-23T23:26:13.639Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		/2021012/app_si_B_I_271	32	132
+SearchInteraction	2018-02-23T23:26:24.613Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:26:58.199Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:23.086Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:31.149Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:57.592Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:28:28.652Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:29:00.574Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+SearchInteraction	2018-02-23T23:30:18.761Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:21.325Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:23.864Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:24.862Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.080Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.197Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:30:39.134Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		5
+CollectionFilterAdditionInteraction	2018-02-23T23:31:24.686Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		0
+SearchInteraction	2018-02-23T23:32:54.097Z	9e3cafda5027b8a36b2004480597d4b9	theodore tholenaar		0
+SearchInteraction	2018-02-23T23:32:58.744Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:33:19.235Z	9e3cafda5027b8a36b2004480597d4b9	vasselot marquest		0
+SearchInteraction	2018-02-23T23:33:23.498Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:34:06.469Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+CollectionFilterRemovalInteraction	2018-02-23T23:34:26.263Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		4
+CollectionFilterAdditionInteraction	2018-02-23T23:34:36.104Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+SearchInteraction	2018-02-23T23:34:50.743Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:35:02.285Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		2
+RankedRetrieveRecordInteraction	2018-02-23T23:35:22.774Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		/9200495/yoolib_inha_15707	1	2
+SearchInteraction	2018-02-23T23:35:33.469Z	9e3cafda5027b8a36b2004480597d4b9	Ville Vallgren		132
+SearchInteraction	2018-02-23T23:36:08.707Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:36:14.791Z	9e3cafda5027b8a36b2004480597d4b9	savine		317
+SearchInteraction	2018-02-23T23:37:36.079Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:37:43.145Z	9e3cafda5027b8a36b2004480597d4b9	Arild Rosenkrantz 		2
+SearchInteraction	2018-02-23T23:42:09.675Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:42:16.483Z	9e3cafda5027b8a36b2004480597d4b9	sainville		28
+SearchInteraction	2018-02-23T23:43:34.436Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:43:41.594Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		23
+RankedRetrieveRecordInteraction	2018-02-23T23:44:15.743Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		/9200365/BibliographicResource_3000004791456	5	23
+SearchInteraction	2018-02-23T23:46:17.262Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:46:25.430Z	9e3cafda5027b8a36b2004480597d4b9	armand point		17
+RankedRetrieveRecordInteraction	2018-02-23T23:47:05.644Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+RankedRetrieveRecordInteraction	2018-02-23T23:55:20.552Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+SearchInteraction	2018-02-24T00:13:13.204Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:13:20.862Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		3
+RankedRetrieveRecordInteraction	2018-02-24T00:13:35.656Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		/2026118/_MGZ_06084	3	3
+SearchInteraction	2018-02-24T00:22:08.358Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:22:18.915Z	9e3cafda5027b8a36b2004480597d4b9	berengier		18
+SearchInteraction	2018-02-24T00:31:09.476Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:31:16.108Z	9e3cafda5027b8a36b2004480597d4b9	BERENGIER Theophile Paul Marie		0
+SearchInteraction	2018-02-24T00:34:56.418Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:35:02.897Z	9e3cafda5027b8a36b2004480597d4b9	bethune gaston		2
+SearchInteraction	2018-02-24T00:41:21.576Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:41:29.165Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		1
+RankedRetrieveRecordInteraction	2018-02-24T00:41:43.004Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		/03916/public_mistral_caran_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_ARC00745	1	1
+SearchInteraction	2018-02-24T00:47:46.069Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:47:54.668Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+RefreshOrPaginationInteraction	2018-02-24T00:48:26.233Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+SearchInteraction	2018-02-24T01:10:43.656Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T01:10:55.987Z	9e3cafda5027b8a36b2004480597d4b9	Maurice Chabas		1
+ArbitraryAccessInteraction	2018-02-23T23:19:33.056Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/explore/people/310-ville-vallgren.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-23T23:20:07.021Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_38150.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T23:23:18.828Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_28232.html (PortalController#show)
+SearchInteraction	2018-02-23T23:23:39.809Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:24:22.501Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:25:12.591Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RankedRetrieveRecordInteraction	2018-02-23T23:26:13.639Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		/2021012/app_si_B_I_271	32	132
+SearchInteraction	2018-02-23T23:26:24.613Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:26:58.199Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:23.086Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:31.149Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:57.592Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:28:28.652Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:29:00.574Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+SearchInteraction	2018-02-23T23:30:18.761Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:21.325Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:23.864Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:24.862Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.080Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.197Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:30:39.134Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		5
+CollectionFilterAdditionInteraction	2018-02-23T23:31:24.686Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		0
+SearchInteraction	2018-02-23T23:32:54.097Z	9e3cafda5027b8a36b2004480597d4b9	theodore tholenaar		0
+SearchInteraction	2018-02-23T23:32:58.744Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:33:19.235Z	9e3cafda5027b8a36b2004480597d4b9	vasselot marquest		0
+SearchInteraction	2018-02-23T23:33:23.498Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:34:06.469Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+CollectionFilterRemovalInteraction	2018-02-23T23:34:26.263Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		4
+CollectionFilterAdditionInteraction	2018-02-23T23:34:36.104Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+SearchInteraction	2018-02-23T23:34:50.743Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:35:02.285Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		2
+RankedRetrieveRecordInteraction	2018-02-23T23:35:22.774Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		/9200495/yoolib_inha_15707	1	2
+SearchInteraction	2018-02-23T23:35:33.469Z	9e3cafda5027b8a36b2004480597d4b9	Ville Vallgren		132
+SearchInteraction	2018-02-23T23:36:08.707Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:36:14.791Z	9e3cafda5027b8a36b2004480597d4b9	savine		317
+SearchInteraction	2018-02-23T23:37:36.079Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:37:43.145Z	9e3cafda5027b8a36b2004480597d4b9	Arild Rosenkrantz 		2
+SearchInteraction	2018-02-23T23:42:09.675Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:42:16.483Z	9e3cafda5027b8a36b2004480597d4b9	sainville		28
+SearchInteraction	2018-02-23T23:43:34.436Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:43:41.594Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		23
+RankedRetrieveRecordInteraction	2018-02-23T23:44:15.743Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		/9200365/BibliographicResource_3000004791456	5	23
+SearchInteraction	2018-02-23T23:46:17.262Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:46:25.430Z	9e3cafda5027b8a36b2004480597d4b9	armand point		17
+RankedRetrieveRecordInteraction	2018-02-23T23:47:05.644Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+RankedRetrieveRecordInteraction	2018-02-23T23:55:20.552Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+SearchInteraction	2018-02-24T00:13:13.204Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:13:20.862Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		3
+RankedRetrieveRecordInteraction	2018-02-24T00:13:35.656Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		/2026118/_MGZ_06084	3	3
+SearchInteraction	2018-02-24T00:22:08.358Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:22:18.915Z	9e3cafda5027b8a36b2004480597d4b9	berengier		18
+SearchInteraction	2018-02-24T00:31:09.476Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:31:16.108Z	9e3cafda5027b8a36b2004480597d4b9	BERENGIER Theophile Paul Marie		0
+SearchInteraction	2018-02-24T00:34:56.418Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:35:02.897Z	9e3cafda5027b8a36b2004480597d4b9	bethune gaston		2
+SearchInteraction	2018-02-24T00:41:21.576Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:41:29.165Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		1
+RankedRetrieveRecordInteraction	2018-02-24T00:41:43.004Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		/03916/public_mistral_caran_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_ARC00745	1	1
+SearchInteraction	2018-02-24T00:47:46.069Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:47:54.668Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+RefreshOrPaginationInteraction	2018-02-24T00:48:26.233Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+SearchInteraction	2018-02-24T01:10:43.656Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T01:10:55.987Z	9e3cafda5027b8a36b2004480597d4b9	Maurice Chabas		1
+ArbitraryAccessInteraction	2018-02-23T23:19:33.056Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/explore/people/310-ville-vallgren.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-23T23:20:07.021Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_38150.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T23:23:18.828Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_28232.html (PortalController#show)
+SearchInteraction	2018-02-23T23:23:39.809Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:24:22.501Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:25:12.591Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RankedRetrieveRecordInteraction	2018-02-23T23:26:13.639Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		/2021012/app_si_B_I_271	32	132
+SearchInteraction	2018-02-23T23:26:24.613Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:26:58.199Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:23.086Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:31.149Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:57.592Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:28:28.652Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:29:00.574Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+SearchInteraction	2018-02-23T23:30:18.761Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:21.325Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:23.864Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:24.862Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.080Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.197Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:30:39.134Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		5
+CollectionFilterAdditionInteraction	2018-02-23T23:31:24.686Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		0
+SearchInteraction	2018-02-23T23:32:54.097Z	9e3cafda5027b8a36b2004480597d4b9	theodore tholenaar		0
+SearchInteraction	2018-02-23T23:32:58.744Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:33:19.235Z	9e3cafda5027b8a36b2004480597d4b9	vasselot marquest		0
+SearchInteraction	2018-02-23T23:33:23.498Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:34:06.469Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+CollectionFilterRemovalInteraction	2018-02-23T23:34:26.263Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		4
+CollectionFilterAdditionInteraction	2018-02-23T23:34:36.104Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+SearchInteraction	2018-02-23T23:34:50.743Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:35:02.285Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		2
+RankedRetrieveRecordInteraction	2018-02-23T23:35:22.774Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		/9200495/yoolib_inha_15707	1	2
+SearchInteraction	2018-02-23T23:35:33.469Z	9e3cafda5027b8a36b2004480597d4b9	Ville Vallgren		132
+SearchInteraction	2018-02-23T23:36:08.707Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:36:14.791Z	9e3cafda5027b8a36b2004480597d4b9	savine		317
+SearchInteraction	2018-02-23T23:37:36.079Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:37:43.145Z	9e3cafda5027b8a36b2004480597d4b9	Arild Rosenkrantz 		2
+SearchInteraction	2018-02-23T23:42:09.675Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:42:16.483Z	9e3cafda5027b8a36b2004480597d4b9	sainville		28
+SearchInteraction	2018-02-23T23:43:34.436Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:43:41.594Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		23
+RankedRetrieveRecordInteraction	2018-02-23T23:44:15.743Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		/9200365/BibliographicResource_3000004791456	5	23
+SearchInteraction	2018-02-23T23:46:17.262Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:46:25.430Z	9e3cafda5027b8a36b2004480597d4b9	armand point		17
+RankedRetrieveRecordInteraction	2018-02-23T23:47:05.644Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+RankedRetrieveRecordInteraction	2018-02-23T23:55:20.552Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+SearchInteraction	2018-02-24T00:13:13.204Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:13:20.862Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		3
+RankedRetrieveRecordInteraction	2018-02-24T00:13:35.656Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		/2026118/_MGZ_06084	3	3
+SearchInteraction	2018-02-24T00:22:08.358Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:22:18.915Z	9e3cafda5027b8a36b2004480597d4b9	berengier		18
+SearchInteraction	2018-02-24T00:31:09.476Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:31:16.108Z	9e3cafda5027b8a36b2004480597d4b9	BERENGIER Theophile Paul Marie		0
+SearchInteraction	2018-02-24T00:34:56.418Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:35:02.897Z	9e3cafda5027b8a36b2004480597d4b9	bethune gaston		2
+SearchInteraction	2018-02-24T00:41:21.576Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:41:29.165Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		1
+RankedRetrieveRecordInteraction	2018-02-24T00:41:43.004Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		/03916/public_mistral_caran_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_ARC00745	1	1
+SearchInteraction	2018-02-24T00:47:46.069Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:47:54.668Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+RefreshOrPaginationInteraction	2018-02-24T00:48:26.233Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+SearchInteraction	2018-02-24T01:10:43.656Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T01:10:55.987Z	9e3cafda5027b8a36b2004480597d4b9	Maurice Chabas		1
+ArbitraryAccessInteraction	2018-02-23T23:19:33.056Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/explore/people/310-ville-vallgren.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-23T23:20:07.021Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_38150.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T23:23:18.828Z	9e3cafda5027b8a36b2004480597d4b9	[200] GET /portal/it/record/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_28232.html (PortalController#show)
+SearchInteraction	2018-02-23T23:23:39.809Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:24:22.501Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:25:12.591Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RankedRetrieveRecordInteraction	2018-02-23T23:26:13.639Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		/2021012/app_si_B_I_271	32	132
+SearchInteraction	2018-02-23T23:26:24.613Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:26:58.199Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:23.086Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:31.149Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:27:57.592Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:28:28.652Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+RefreshOrPaginationInteraction	2018-02-23T23:29:00.574Z	9e3cafda5027b8a36b2004480597d4b9	ville vallgren		132
+SearchInteraction	2018-02-23T23:30:18.761Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:21.325Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:23.864Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:24.862Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.080Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-23T23:30:25.197Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:30:39.134Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		5
+CollectionFilterAdditionInteraction	2018-02-23T23:31:24.686Z	9e3cafda5027b8a36b2004480597d4b9	tholenaar		0
+SearchInteraction	2018-02-23T23:32:54.097Z	9e3cafda5027b8a36b2004480597d4b9	theodore tholenaar		0
+SearchInteraction	2018-02-23T23:32:58.744Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:33:19.235Z	9e3cafda5027b8a36b2004480597d4b9	vasselot marquest		0
+SearchInteraction	2018-02-23T23:33:23.498Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:34:06.469Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+CollectionFilterRemovalInteraction	2018-02-23T23:34:26.263Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		4
+CollectionFilterAdditionInteraction	2018-02-23T23:34:36.104Z	9e3cafda5027b8a36b2004480597d4b9	Marquet de Vasselot		18
+SearchInteraction	2018-02-23T23:34:50.743Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:35:02.285Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		2
+RankedRetrieveRecordInteraction	2018-02-23T23:35:22.774Z	9e3cafda5027b8a36b2004480597d4b9	Alexandre Séon		/9200495/yoolib_inha_15707	1	2
+SearchInteraction	2018-02-23T23:35:33.469Z	9e3cafda5027b8a36b2004480597d4b9	Ville Vallgren		132
+SearchInteraction	2018-02-23T23:36:08.707Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:36:14.791Z	9e3cafda5027b8a36b2004480597d4b9	savine		317
+SearchInteraction	2018-02-23T23:37:36.079Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:37:43.145Z	9e3cafda5027b8a36b2004480597d4b9	Arild Rosenkrantz 		2
+SearchInteraction	2018-02-23T23:42:09.675Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:42:16.483Z	9e3cafda5027b8a36b2004480597d4b9	sainville		28
+SearchInteraction	2018-02-23T23:43:34.436Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:43:41.594Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		23
+RankedRetrieveRecordInteraction	2018-02-23T23:44:15.743Z	9e3cafda5027b8a36b2004480597d4b9	pierre rambaud		/9200365/BibliographicResource_3000004791456	5	23
+SearchInteraction	2018-02-23T23:46:17.262Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T23:46:25.430Z	9e3cafda5027b8a36b2004480597d4b9	armand point		17
+RankedRetrieveRecordInteraction	2018-02-23T23:47:05.644Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+RankedRetrieveRecordInteraction	2018-02-23T23:55:20.552Z	9e3cafda5027b8a36b2004480597d4b9	armand point		/2026104/Partage_Plus_ProvidedCHO_Archivi_delle_arti_applicate_italiane_del_XX_secolo_492	12	17
+SearchInteraction	2018-02-24T00:13:13.204Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:13:20.862Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		3
+RankedRetrieveRecordInteraction	2018-02-24T00:13:35.656Z	9e3cafda5027b8a36b2004480597d4b9	etienne azambre		/2026118/_MGZ_06084	3	3
+SearchInteraction	2018-02-24T00:22:08.358Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:22:18.915Z	9e3cafda5027b8a36b2004480597d4b9	berengier		18
+SearchInteraction	2018-02-24T00:31:09.476Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:31:16.108Z	9e3cafda5027b8a36b2004480597d4b9	BERENGIER Theophile Paul Marie		0
+SearchInteraction	2018-02-24T00:34:56.418Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:35:02.897Z	9e3cafda5027b8a36b2004480597d4b9	bethune gaston		2
+SearchInteraction	2018-02-24T00:41:21.576Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:41:29.165Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		1
+RankedRetrieveRecordInteraction	2018-02-24T00:41:43.004Z	9e3cafda5027b8a36b2004480597d4b9	roger bloche		/03916/public_mistral_caran_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_ARC00745	1	1
+SearchInteraction	2018-02-24T00:47:46.069Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T00:47:54.668Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+RefreshOrPaginationInteraction	2018-02-24T00:48:26.233Z	9e3cafda5027b8a36b2004480597d4b9	bussiere gaston		39
+SearchInteraction	2018-02-24T01:10:43.656Z	9e3cafda5027b8a36b2004480597d4b9	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-24T01:10:55.987Z	9e3cafda5027b8a36b2004480597d4b9	Maurice Chabas		1

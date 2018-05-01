@@ -1,0 +1,115 @@
+SearchInteraction	2018-03-05T13:14:52.717Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:15:56.362Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['HIPLimburg']}	2592
+SearchInteraction	2018-03-05T13:15:59.207Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:16:30.807Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:17:28.547Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_St_R_003	7	600
+SearchInteraction	2018-03-05T13:17:46.740Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:09.500Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:35.333Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:18:55.522Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_MUO_033264	193	600
+SearchInteraction	2018-03-05T14:08:19.097Z	8fcf548d61396ad38ffa21066a6894ad	proxy_dcterms_isPartOf:"Zbirka razglednica"		829
+ArbitraryAccessInteraction	2018-03-05T14:23:35.545Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T14:40:10.846Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+SearchInteraction	2018-03-05T14:43:35.650Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:43:59.056Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1457	9	27496
+SearchInteraction	2018-03-05T14:44:01.290Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:05.461Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_IV_3630	16	27496
+SearchInteraction	2018-03-05T14:44:07.968Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:12.801Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_986	35	27496
+SearchInteraction	2018-03-05T14:44:13.825Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:20.583Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1537	37	27496
+SearchInteraction	2018-03-05T14:44:23.133Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:44:29.073Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:46:13.940Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+SearchInteraction	2018-03-05T13:14:52.717Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:15:56.362Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['HIPLimburg']}	2592
+SearchInteraction	2018-03-05T13:15:59.207Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:16:30.807Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:17:28.547Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_St_R_003	7	600
+SearchInteraction	2018-03-05T13:17:46.740Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:09.500Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:35.333Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:18:55.522Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_MUO_033264	193	600
+SearchInteraction	2018-03-05T14:08:19.097Z	8fcf548d61396ad38ffa21066a6894ad	proxy_dcterms_isPartOf:"Zbirka razglednica"		829
+ArbitraryAccessInteraction	2018-03-05T14:23:35.545Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T14:40:10.846Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+SearchInteraction	2018-03-05T14:43:35.650Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:43:59.056Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1457	9	27496
+SearchInteraction	2018-03-05T14:44:01.290Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:05.461Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_IV_3630	16	27496
+SearchInteraction	2018-03-05T14:44:07.968Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:12.801Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_986	35	27496
+SearchInteraction	2018-03-05T14:44:13.825Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:20.583Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1537	37	27496
+SearchInteraction	2018-03-05T14:44:23.133Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:44:29.073Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:46:13.940Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+SearchInteraction	2018-03-05T13:14:52.717Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:15:56.362Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['HIPLimburg']}	2592
+SearchInteraction	2018-03-05T13:15:59.207Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:16:30.807Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:17:28.547Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_St_R_003	7	600
+SearchInteraction	2018-03-05T13:17:46.740Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:09.500Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:35.333Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:18:55.522Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_MUO_033264	193	600
+SearchInteraction	2018-03-05T14:08:19.097Z	8fcf548d61396ad38ffa21066a6894ad	proxy_dcterms_isPartOf:"Zbirka razglednica"		829
+ArbitraryAccessInteraction	2018-03-05T14:23:35.545Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T14:40:10.846Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+SearchInteraction	2018-03-05T14:43:35.650Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:43:59.056Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1457	9	27496
+SearchInteraction	2018-03-05T14:44:01.290Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:05.461Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_IV_3630	16	27496
+SearchInteraction	2018-03-05T14:44:07.968Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:12.801Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_986	35	27496
+SearchInteraction	2018-03-05T14:44:13.825Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:20.583Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1537	37	27496
+SearchInteraction	2018-03-05T14:44:23.133Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:44:29.073Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:46:13.940Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+SearchInteraction	2018-03-05T13:14:52.717Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:15:56.362Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['HIPLimburg']}	2592
+SearchInteraction	2018-03-05T13:15:59.207Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:16:30.807Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:17:28.547Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_St_R_003	7	600
+SearchInteraction	2018-03-05T13:17:46.740Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:09.500Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:35.333Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:18:55.522Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_MUO_033264	193	600
+SearchInteraction	2018-03-05T14:08:19.097Z	8fcf548d61396ad38ffa21066a6894ad	proxy_dcterms_isPartOf:"Zbirka razglednica"		829
+ArbitraryAccessInteraction	2018-03-05T14:23:35.545Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T14:40:10.846Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+SearchInteraction	2018-03-05T14:43:35.650Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:43:59.056Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1457	9	27496
+SearchInteraction	2018-03-05T14:44:01.290Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:05.461Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_IV_3630	16	27496
+SearchInteraction	2018-03-05T14:44:07.968Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:12.801Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_986	35	27496
+SearchInteraction	2018-03-05T14:44:13.825Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:20.583Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1537	37	27496
+SearchInteraction	2018-03-05T14:44:23.133Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:44:29.073Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:46:13.940Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+SearchInteraction	2018-03-05T13:14:52.717Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:15:56.362Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['HIPLimburg']}	2592
+SearchInteraction	2018-03-05T13:15:59.207Z	8fcf548d61396ad38ffa21066a6894ad	postcard		126380
+SearchInteraction	2018-03-05T13:16:30.807Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:17:28.547Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_St_R_003	7	600
+SearchInteraction	2018-03-05T13:17:46.740Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:09.500Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RefreshOrPaginationInteraction	2018-03-05T13:18:35.333Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	600
+RankedRetrieveRecordInteraction	2018-03-05T13:18:55.522Z	8fcf548d61396ad38ffa21066a6894ad	postcard	{'DATA_PROVIDER': ['Muzej za umjetnost i obrt, Zagreb']}	/2026118/_MUO_033264	193	600
+SearchInteraction	2018-03-05T14:08:19.097Z	8fcf548d61396ad38ffa21066a6894ad	proxy_dcterms_isPartOf:"Zbirka razglednica"		829
+ArbitraryAccessInteraction	2018-03-05T14:23:35.545Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T14:40:10.846Z	8fcf548d61396ad38ffa21066a6894ad	[200] GET /portal/en/record/2021012/app_si_A_I_628.html (PortalController#show)
+SearchInteraction	2018-03-05T14:43:35.650Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:43:59.056Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1457	9	27496
+SearchInteraction	2018-03-05T14:44:01.290Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:05.461Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_IV_3630	16	27496
+SearchInteraction	2018-03-05T14:44:07.968Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:12.801Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_986	35	27496
+SearchInteraction	2018-03-05T14:44:13.825Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RankedRetrieveRecordInteraction	2018-03-05T14:44:20.583Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		/2021012/app_si_A_II_1537	37	27496
+SearchInteraction	2018-03-05T14:44:23.133Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:44:29.073Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496
+RefreshOrPaginationInteraction	2018-03-05T14:46:13.940Z	8fcf548d61396ad38ffa21066a6894ad	NO VALUE PROVIDED		27496

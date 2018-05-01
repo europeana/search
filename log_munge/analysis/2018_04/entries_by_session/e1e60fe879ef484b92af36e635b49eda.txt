@@ -1,0 +1,245 @@
+SearchInteraction	2018-02-15T17:51:21.174Z	e1e60fe879ef484b92af36e635b49eda	party crowd		394
+SearchInteraction	2018-02-15T17:51:26.312Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:41.416Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937403	9	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:58.708Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937398	12	288
+SearchInteraction	2018-02-15T17:52:05.195Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:52:06.122Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['extra_large'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-15T17:52:13.331Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+SearchInteraction	2018-02-15T17:54:29.883Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:54:42.647Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982711
+SearchInteraction	2018-02-15T17:54:48.650Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1114
+SearchInteraction	2018-02-15T17:55:04.652Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:55:21.651Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2058626/locloud_flickr_5492788722	9	351
+SearchInteraction	2018-02-15T17:55:39.329Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:55:48.495Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:06.661Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:14.280Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:23.356Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_694068	51	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:39.758Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_693583	60	351
+SearchInteraction	2018-02-15T17:57:07.951Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:20.752Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:30.002Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:46.529Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:57:58.056Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_691551	108	351
+SearchInteraction	2018-02-15T17:58:21.316Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:58:30.900Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T18:01:00.220Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+SearchInteraction	2018-02-15T18:01:08.661Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:14.797Z	e1e60fe879ef484b92af36e635b49eda	libération 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-15T18:01:18.461Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:30.320Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982427
+CollectionFilterRemovalInteraction	2018-02-15T18:01:41.978Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	608
+SearchInteraction	2018-02-15T18:04:31.914Z	e1e60fe879ef484b92af36e635b49eda	WWII		1043
+SearchInteraction	2018-02-15T18:04:38.508Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED		51554826
+SearchInteraction	2018-02-15T18:04:43.105Z	e1e60fe879ef484b92af36e635b49eda	war 		540703
+SearchInteraction	2018-02-15T18:04:52.189Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:03.646Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:10.565Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+CollectionFilterAdditionInteraction	2018-02-15T18:05:18.709Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:05:32.400Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:17:45.215Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+CollectionFilterRemovalInteraction	2018-02-15T18:18:21.690Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+SearchInteraction	2018-02-15T18:18:24.772Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+RefreshOrPaginationInteraction	2018-02-15T18:18:26.135Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+SearchInteraction	2018-02-15T18:18:31.277Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RefreshOrPaginationInteraction	2018-02-15T18:18:42.367Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RankedRetrieveRecordInteraction	2018-02-15T18:18:51.703Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022811776	14	695
+SearchInteraction	2018-02-18T22:09:20.952Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944		13
+SearchInteraction	2018-02-18T22:09:26.944Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-02-18T22:09:33.562Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_5695	7	8
+SearchInteraction	2018-02-15T17:51:21.174Z	e1e60fe879ef484b92af36e635b49eda	party crowd		394
+SearchInteraction	2018-02-15T17:51:26.312Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:41.416Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937403	9	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:58.708Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937398	12	288
+SearchInteraction	2018-02-15T17:52:05.195Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:52:06.122Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['extra_large'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-15T17:52:13.331Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+SearchInteraction	2018-02-15T17:54:29.883Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:54:42.647Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982711
+SearchInteraction	2018-02-15T17:54:48.650Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1114
+SearchInteraction	2018-02-15T17:55:04.652Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:55:21.651Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2058626/locloud_flickr_5492788722	9	351
+SearchInteraction	2018-02-15T17:55:39.329Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:55:48.495Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:06.661Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:14.280Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:23.356Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_694068	51	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:39.758Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_693583	60	351
+SearchInteraction	2018-02-15T17:57:07.951Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:20.752Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:30.002Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:46.529Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:57:58.056Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_691551	108	351
+SearchInteraction	2018-02-15T17:58:21.316Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:58:30.900Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T18:01:00.220Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+SearchInteraction	2018-02-15T18:01:08.661Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:14.797Z	e1e60fe879ef484b92af36e635b49eda	libération 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-15T18:01:18.461Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:30.320Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982427
+CollectionFilterRemovalInteraction	2018-02-15T18:01:41.978Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	608
+SearchInteraction	2018-02-15T18:04:31.914Z	e1e60fe879ef484b92af36e635b49eda	WWII		1043
+SearchInteraction	2018-02-15T18:04:38.508Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED		51554826
+SearchInteraction	2018-02-15T18:04:43.105Z	e1e60fe879ef484b92af36e635b49eda	war 		540703
+SearchInteraction	2018-02-15T18:04:52.189Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:03.646Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:10.565Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+CollectionFilterAdditionInteraction	2018-02-15T18:05:18.709Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:05:32.400Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:17:45.215Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+CollectionFilterRemovalInteraction	2018-02-15T18:18:21.690Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+SearchInteraction	2018-02-15T18:18:24.772Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+RefreshOrPaginationInteraction	2018-02-15T18:18:26.135Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+SearchInteraction	2018-02-15T18:18:31.277Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RefreshOrPaginationInteraction	2018-02-15T18:18:42.367Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RankedRetrieveRecordInteraction	2018-02-15T18:18:51.703Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022811776	14	695
+SearchInteraction	2018-02-18T22:09:20.952Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944		13
+SearchInteraction	2018-02-18T22:09:26.944Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-02-18T22:09:33.562Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_5695	7	8
+SearchInteraction	2018-02-15T17:51:21.174Z	e1e60fe879ef484b92af36e635b49eda	party crowd		394
+SearchInteraction	2018-02-15T17:51:26.312Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:41.416Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937403	9	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:58.708Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937398	12	288
+SearchInteraction	2018-02-15T17:52:05.195Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:52:06.122Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['extra_large'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-15T17:52:13.331Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+SearchInteraction	2018-02-15T17:54:29.883Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:54:42.647Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982711
+SearchInteraction	2018-02-15T17:54:48.650Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1114
+SearchInteraction	2018-02-15T17:55:04.652Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:55:21.651Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2058626/locloud_flickr_5492788722	9	351
+SearchInteraction	2018-02-15T17:55:39.329Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:55:48.495Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:06.661Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:14.280Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:23.356Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_694068	51	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:39.758Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_693583	60	351
+SearchInteraction	2018-02-15T17:57:07.951Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:20.752Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:30.002Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:46.529Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:57:58.056Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_691551	108	351
+SearchInteraction	2018-02-15T17:58:21.316Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:58:30.900Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T18:01:00.220Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+SearchInteraction	2018-02-15T18:01:08.661Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:14.797Z	e1e60fe879ef484b92af36e635b49eda	libération 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-15T18:01:18.461Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:30.320Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982427
+CollectionFilterRemovalInteraction	2018-02-15T18:01:41.978Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	608
+SearchInteraction	2018-02-15T18:04:31.914Z	e1e60fe879ef484b92af36e635b49eda	WWII		1043
+SearchInteraction	2018-02-15T18:04:38.508Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED		51554826
+SearchInteraction	2018-02-15T18:04:43.105Z	e1e60fe879ef484b92af36e635b49eda	war 		540703
+SearchInteraction	2018-02-15T18:04:52.189Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:03.646Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:10.565Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+CollectionFilterAdditionInteraction	2018-02-15T18:05:18.709Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:05:32.400Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:17:45.215Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+CollectionFilterRemovalInteraction	2018-02-15T18:18:21.690Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+SearchInteraction	2018-02-15T18:18:24.772Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+RefreshOrPaginationInteraction	2018-02-15T18:18:26.135Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+SearchInteraction	2018-02-15T18:18:31.277Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RefreshOrPaginationInteraction	2018-02-15T18:18:42.367Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RankedRetrieveRecordInteraction	2018-02-15T18:18:51.703Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022811776	14	695
+SearchInteraction	2018-02-18T22:09:20.952Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944		13
+SearchInteraction	2018-02-18T22:09:26.944Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-02-18T22:09:33.562Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_5695	7	8
+SearchInteraction	2018-02-15T17:51:21.174Z	e1e60fe879ef484b92af36e635b49eda	party crowd		394
+SearchInteraction	2018-02-15T17:51:26.312Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:41.416Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937403	9	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:58.708Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937398	12	288
+SearchInteraction	2018-02-15T17:52:05.195Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:52:06.122Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['extra_large'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-15T17:52:13.331Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+SearchInteraction	2018-02-15T17:54:29.883Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:54:42.647Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982711
+SearchInteraction	2018-02-15T17:54:48.650Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1114
+SearchInteraction	2018-02-15T17:55:04.652Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:55:21.651Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2058626/locloud_flickr_5492788722	9	351
+SearchInteraction	2018-02-15T17:55:39.329Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:55:48.495Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:06.661Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:14.280Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:23.356Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_694068	51	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:39.758Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_693583	60	351
+SearchInteraction	2018-02-15T17:57:07.951Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:20.752Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:30.002Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:46.529Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:57:58.056Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_691551	108	351
+SearchInteraction	2018-02-15T17:58:21.316Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:58:30.900Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T18:01:00.220Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+SearchInteraction	2018-02-15T18:01:08.661Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:14.797Z	e1e60fe879ef484b92af36e635b49eda	libération 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-15T18:01:18.461Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:30.320Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982427
+CollectionFilterRemovalInteraction	2018-02-15T18:01:41.978Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	608
+SearchInteraction	2018-02-15T18:04:31.914Z	e1e60fe879ef484b92af36e635b49eda	WWII		1043
+SearchInteraction	2018-02-15T18:04:38.508Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED		51554826
+SearchInteraction	2018-02-15T18:04:43.105Z	e1e60fe879ef484b92af36e635b49eda	war 		540703
+SearchInteraction	2018-02-15T18:04:52.189Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:03.646Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:10.565Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+CollectionFilterAdditionInteraction	2018-02-15T18:05:18.709Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:05:32.400Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:17:45.215Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+CollectionFilterRemovalInteraction	2018-02-15T18:18:21.690Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+SearchInteraction	2018-02-15T18:18:24.772Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+RefreshOrPaginationInteraction	2018-02-15T18:18:26.135Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+SearchInteraction	2018-02-15T18:18:31.277Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RefreshOrPaginationInteraction	2018-02-15T18:18:42.367Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RankedRetrieveRecordInteraction	2018-02-15T18:18:51.703Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022811776	14	695
+SearchInteraction	2018-02-18T22:09:20.952Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944		13
+SearchInteraction	2018-02-18T22:09:26.944Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-02-18T22:09:33.562Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_5695	7	8
+SearchInteraction	2018-02-15T17:51:21.174Z	e1e60fe879ef484b92af36e635b49eda	party crowd		394
+SearchInteraction	2018-02-15T17:51:26.312Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:41.416Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937403	9	288
+RankedRetrieveRecordInteraction	2018-02-15T17:51:58.708Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	/92022/BibliographicResource_1000125937398	12	288
+SearchInteraction	2018-02-15T17:52:05.195Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:52:06.122Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['extra_large'], 'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-15T17:52:13.331Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'TYPE': ['IMAGE']}	288
+SearchInteraction	2018-02-15T17:54:29.883Z	e1e60fe879ef484b92af36e635b49eda	party crowd	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	8
+SearchInteraction	2018-02-15T17:54:42.647Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982711
+SearchInteraction	2018-02-15T17:54:48.650Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1114
+SearchInteraction	2018-02-15T17:55:04.652Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:55:21.651Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2058626/locloud_flickr_5492788722	9	351
+SearchInteraction	2018-02-15T17:55:39.329Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:55:48.495Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:06.661Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:56:14.280Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:23.356Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_694068	51	351
+RankedRetrieveRecordInteraction	2018-02-15T17:56:39.758Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_693583	60	351
+SearchInteraction	2018-02-15T17:57:07.951Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:20.752Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:30.002Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:57:46.529Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RankedRetrieveRecordInteraction	2018-02-15T17:57:58.056Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_691551	108	351
+SearchInteraction	2018-02-15T17:58:21.316Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T17:58:30.900Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+RefreshOrPaginationInteraction	2018-02-15T18:01:00.220Z	e1e60fe879ef484b92af36e635b49eda	party 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	351
+SearchInteraction	2018-02-15T18:01:08.661Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:14.797Z	e1e60fe879ef484b92af36e635b49eda	libération 	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-15T18:01:18.461Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	525284
+SearchInteraction	2018-02-15T18:01:30.320Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	1982427
+CollectionFilterRemovalInteraction	2018-02-15T18:01:41.978Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['false', 'true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	608
+SearchInteraction	2018-02-15T18:04:31.914Z	e1e60fe879ef484b92af36e635b49eda	WWII		1043
+SearchInteraction	2018-02-15T18:04:38.508Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED		51554826
+SearchInteraction	2018-02-15T18:04:43.105Z	e1e60fe879ef484b92af36e635b49eda	war 		540703
+SearchInteraction	2018-02-15T18:04:52.189Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:03.646Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+RefreshOrPaginationInteraction	2018-02-15T18:05:10.565Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+CollectionFilterAdditionInteraction	2018-02-15T18:05:18.709Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:05:32.400Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+RefreshOrPaginationInteraction	2018-02-15T18:17:45.215Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	176
+CollectionFilterRemovalInteraction	2018-02-15T18:18:21.690Z	e1e60fe879ef484b92af36e635b49eda	war 	{'TYPE': ['IMAGE']}	350346
+SearchInteraction	2018-02-15T18:18:24.772Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+RefreshOrPaginationInteraction	2018-02-15T18:18:26.135Z	e1e60fe879ef484b92af36e635b49eda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27321841
+SearchInteraction	2018-02-15T18:18:31.277Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RefreshOrPaginationInteraction	2018-02-15T18:18:42.367Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	695
+RankedRetrieveRecordInteraction	2018-02-15T18:18:51.703Z	e1e60fe879ef484b92af36e635b49eda	pilote 	{'TYPE': ['IMAGE']}	/92034/GVNRC_SFA03_SFA022811776	14	695
+SearchInteraction	2018-02-18T22:09:20.952Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944		13
+SearchInteraction	2018-02-18T22:09:26.944Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-02-18T22:09:33.562Z	e1e60fe879ef484b92af36e635b49eda	libération de paris 1944	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_5695	7	8

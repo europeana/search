@@ -1,0 +1,280 @@
+SearchInteraction	2018-03-10T13:47:20.872Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+CollectionFilterAdditionInteraction	2018-03-10T13:47:51.362Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	0
+CollectionFilterRemovalInteraction	2018-03-10T13:48:27.473Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	1640
+CollectionFilterRemovalInteraction	2018-03-10T13:48:36.436Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+RefreshOrPaginationInteraction	2018-03-10T13:48:38.143Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+SearchInteraction	2018-03-10T13:49:48.082Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fiere		23
+SearchInteraction	2018-03-10T13:49:57.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+RefreshOrPaginationInteraction	2018-03-10T13:49:58.957Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+SearchInteraction	2018-03-10T13:50:08.116Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:50.696Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/92040/BibliographicResource_3000094575393	4	621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:55.858Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/9200369/webclient_DeliveryManager_pid_6903946_custom_att_2_simple_viewer	10	621
+SearchInteraction	2018-03-10T13:51:06.633Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:51:23.824Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:41.632Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460958	34	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:45.057Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460900	35	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:47.399Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460839	36	621
+SearchInteraction	2018-03-10T13:52:58.988Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:05.413Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1992000	37	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:14.409Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1176298	40	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:18.372Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1039231	44	621
+SearchInteraction	2018-03-10T13:53:30.817Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:54:31.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:29:14.793Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:24.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63911	76	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:36.115Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_698843	79	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:43.952Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63802	77	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:52.835Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690135	81	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:57.569Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690134	82	621
+SearchInteraction	2018-03-10T15:30:03.228Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:05.105Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:25.833Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:54.177Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:12.531Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:27.589Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:40.363Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:51.791Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:02.488Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:10.084Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+ArbitraryAccessInteraction	2018-03-10T15:46:44.566Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460901.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:49:17.032Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460957.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:08.643Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:22.265Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1461018.html (PortalController#show)
+SearchInteraction	2018-03-10T16:19:17.085Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T16:19:26.364Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		67760
+RankedRetrieveRecordInteraction	2018-03-10T16:23:03.807Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		/91619/SMVK_EM_objekt_3645723	1	67760
+SearchInteraction	2018-03-10T16:23:52.920Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:24:51.195Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:25:23.527Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:33.064Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:40.967Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:51.256Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:00.394Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:08.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:19.344Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:30.721Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:37.797Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T13:47:20.872Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+CollectionFilterAdditionInteraction	2018-03-10T13:47:51.362Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	0
+CollectionFilterRemovalInteraction	2018-03-10T13:48:27.473Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	1640
+CollectionFilterRemovalInteraction	2018-03-10T13:48:36.436Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+RefreshOrPaginationInteraction	2018-03-10T13:48:38.143Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+SearchInteraction	2018-03-10T13:49:48.082Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fiere		23
+SearchInteraction	2018-03-10T13:49:57.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+RefreshOrPaginationInteraction	2018-03-10T13:49:58.957Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+SearchInteraction	2018-03-10T13:50:08.116Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:50.696Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/92040/BibliographicResource_3000094575393	4	621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:55.858Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/9200369/webclient_DeliveryManager_pid_6903946_custom_att_2_simple_viewer	10	621
+SearchInteraction	2018-03-10T13:51:06.633Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:51:23.824Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:41.632Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460958	34	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:45.057Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460900	35	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:47.399Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460839	36	621
+SearchInteraction	2018-03-10T13:52:58.988Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:05.413Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1992000	37	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:14.409Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1176298	40	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:18.372Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1039231	44	621
+SearchInteraction	2018-03-10T13:53:30.817Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:54:31.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:29:14.793Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:24.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63911	76	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:36.115Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_698843	79	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:43.952Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63802	77	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:52.835Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690135	81	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:57.569Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690134	82	621
+SearchInteraction	2018-03-10T15:30:03.228Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:05.105Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:25.833Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:54.177Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:12.531Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:27.589Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:40.363Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:51.791Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:02.488Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:10.084Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+ArbitraryAccessInteraction	2018-03-10T15:46:44.566Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460901.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:49:17.032Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460957.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:08.643Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:22.265Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1461018.html (PortalController#show)
+SearchInteraction	2018-03-10T16:19:17.085Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T16:19:26.364Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		67760
+RankedRetrieveRecordInteraction	2018-03-10T16:23:03.807Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		/91619/SMVK_EM_objekt_3645723	1	67760
+SearchInteraction	2018-03-10T16:23:52.920Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:24:51.195Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:25:23.527Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:33.064Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:40.967Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:51.256Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:00.394Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:08.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:19.344Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:30.721Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:37.797Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T13:47:20.872Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+CollectionFilterAdditionInteraction	2018-03-10T13:47:51.362Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	0
+CollectionFilterRemovalInteraction	2018-03-10T13:48:27.473Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	1640
+CollectionFilterRemovalInteraction	2018-03-10T13:48:36.436Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+RefreshOrPaginationInteraction	2018-03-10T13:48:38.143Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+SearchInteraction	2018-03-10T13:49:48.082Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fiere		23
+SearchInteraction	2018-03-10T13:49:57.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+RefreshOrPaginationInteraction	2018-03-10T13:49:58.957Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+SearchInteraction	2018-03-10T13:50:08.116Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:50.696Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/92040/BibliographicResource_3000094575393	4	621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:55.858Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/9200369/webclient_DeliveryManager_pid_6903946_custom_att_2_simple_viewer	10	621
+SearchInteraction	2018-03-10T13:51:06.633Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:51:23.824Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:41.632Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460958	34	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:45.057Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460900	35	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:47.399Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460839	36	621
+SearchInteraction	2018-03-10T13:52:58.988Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:05.413Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1992000	37	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:14.409Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1176298	40	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:18.372Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1039231	44	621
+SearchInteraction	2018-03-10T13:53:30.817Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:54:31.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:29:14.793Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:24.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63911	76	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:36.115Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_698843	79	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:43.952Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63802	77	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:52.835Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690135	81	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:57.569Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690134	82	621
+SearchInteraction	2018-03-10T15:30:03.228Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:05.105Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:25.833Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:54.177Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:12.531Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:27.589Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:40.363Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:51.791Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:02.488Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:10.084Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+ArbitraryAccessInteraction	2018-03-10T15:46:44.566Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460901.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:49:17.032Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460957.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:08.643Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:22.265Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1461018.html (PortalController#show)
+SearchInteraction	2018-03-10T16:19:17.085Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T16:19:26.364Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		67760
+RankedRetrieveRecordInteraction	2018-03-10T16:23:03.807Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		/91619/SMVK_EM_objekt_3645723	1	67760
+SearchInteraction	2018-03-10T16:23:52.920Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:24:51.195Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:25:23.527Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:33.064Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:40.967Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:51.256Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:00.394Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:08.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:19.344Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:30.721Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:37.797Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T13:47:20.872Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+CollectionFilterAdditionInteraction	2018-03-10T13:47:51.362Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	0
+CollectionFilterRemovalInteraction	2018-03-10T13:48:27.473Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	1640
+CollectionFilterRemovalInteraction	2018-03-10T13:48:36.436Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+RefreshOrPaginationInteraction	2018-03-10T13:48:38.143Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+SearchInteraction	2018-03-10T13:49:48.082Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fiere		23
+SearchInteraction	2018-03-10T13:49:57.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+RefreshOrPaginationInteraction	2018-03-10T13:49:58.957Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+SearchInteraction	2018-03-10T13:50:08.116Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:50.696Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/92040/BibliographicResource_3000094575393	4	621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:55.858Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/9200369/webclient_DeliveryManager_pid_6903946_custom_att_2_simple_viewer	10	621
+SearchInteraction	2018-03-10T13:51:06.633Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:51:23.824Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:41.632Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460958	34	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:45.057Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460900	35	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:47.399Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460839	36	621
+SearchInteraction	2018-03-10T13:52:58.988Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:05.413Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1992000	37	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:14.409Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1176298	40	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:18.372Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1039231	44	621
+SearchInteraction	2018-03-10T13:53:30.817Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:54:31.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:29:14.793Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:24.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63911	76	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:36.115Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_698843	79	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:43.952Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63802	77	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:52.835Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690135	81	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:57.569Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690134	82	621
+SearchInteraction	2018-03-10T15:30:03.228Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:05.105Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:25.833Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:54.177Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:12.531Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:27.589Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:40.363Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:51.791Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:02.488Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:10.084Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+ArbitraryAccessInteraction	2018-03-10T15:46:44.566Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460901.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:49:17.032Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460957.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:08.643Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:22.265Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1461018.html (PortalController#show)
+SearchInteraction	2018-03-10T16:19:17.085Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T16:19:26.364Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		67760
+RankedRetrieveRecordInteraction	2018-03-10T16:23:03.807Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		/91619/SMVK_EM_objekt_3645723	1	67760
+SearchInteraction	2018-03-10T16:23:52.920Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:24:51.195Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:25:23.527Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:33.064Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:40.967Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:51.256Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:00.394Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:08.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:19.344Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:30.721Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:37.797Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T13:47:20.872Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+CollectionFilterAdditionInteraction	2018-03-10T13:47:51.362Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	0
+CollectionFilterRemovalInteraction	2018-03-10T13:48:27.473Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	1640
+CollectionFilterRemovalInteraction	2018-03-10T13:48:36.436Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+RefreshOrPaginationInteraction	2018-03-10T13:48:38.143Z	9a2471fe8f7f8f83f1b3a4b1345b7222	*:*	{'PROVIDER': ['Hispana']}	2743767
+SearchInteraction	2018-03-10T13:49:48.082Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fiere		23
+SearchInteraction	2018-03-10T13:49:57.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+RefreshOrPaginationInteraction	2018-03-10T13:49:58.957Z	9a2471fe8f7f8f83f1b3a4b1345b7222	NO VALUE PROVIDED		3412602
+SearchInteraction	2018-03-10T13:50:08.116Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:50.696Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/92040/BibliographicResource_3000094575393	4	621
+RankedRetrieveRecordInteraction	2018-03-10T13:50:55.858Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/9200369/webclient_DeliveryManager_pid_6903946_custom_att_2_simple_viewer	10	621
+SearchInteraction	2018-03-10T13:51:06.633Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:51:23.824Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:41.632Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460958	34	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:45.057Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460900	35	621
+RankedRetrieveRecordInteraction	2018-03-10T13:52:47.399Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91627/SMVK_EM_fotografi_1460839	36	621
+SearchInteraction	2018-03-10T13:52:58.988Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:05.413Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1992000	37	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:14.409Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1176298	40	621
+RankedRetrieveRecordInteraction	2018-03-10T13:53:18.372Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/91619/SMVK_EM_objekt_1039231	44	621
+SearchInteraction	2018-03-10T13:53:30.817Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T13:54:31.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:29:14.793Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:24.597Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63911	76	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:36.115Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_698843	79	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:43.952Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2048011/work_63802	77	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:52.835Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690135	81	621
+RankedRetrieveRecordInteraction	2018-03-10T15:29:57.569Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_690134	82	621
+SearchInteraction	2018-03-10T15:30:03.228Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:05.105Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:25.833Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:31:54.177Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:12.531Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:27.589Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:40.363Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:32:51.791Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:02.488Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+RefreshOrPaginationInteraction	2018-03-10T15:33:10.084Z	9a2471fe8f7f8f83f1b3a4b1345b7222	Fire		621
+ArbitraryAccessInteraction	2018-03-10T15:46:44.566Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460901.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:49:17.032Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460957.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:08.643Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1460858.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T15:50:22.265Z	9a2471fe8f7f8f83f1b3a4b1345b7222	[200] GET /portal/es/record/91627/SMVK_EM_fotografi_1461018.html (PortalController#show)
+SearchInteraction	2018-03-10T16:19:17.085Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+SearchInteraction	2018-03-10T16:19:26.364Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		67760
+RankedRetrieveRecordInteraction	2018-03-10T16:23:03.807Z	9a2471fe8f7f8f83f1b3a4b1345b7222	europeana_collectionName:(91619_Ag_SE_SwedishNationalHeritage_smvk-em)		/91619/SMVK_EM_objekt_3645723	1	67760
+SearchInteraction	2018-03-10T16:23:52.920Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:24:51.195Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:25:23.527Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:33.064Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:40.967Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:27:51.256Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:00.394Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:08.987Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:19.344Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:30.721Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694
+RefreshOrPaginationInteraction	2018-03-10T16:28:37.797Z	9a2471fe8f7f8f83f1b3a4b1345b7222	proxy_dcterms_isPartOf:"http://kulturarvsdata.se/SMVK-EM/samling/1038811"		694

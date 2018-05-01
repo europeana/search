@@ -1,0 +1,70 @@
+ArbitraryAccessInteraction	2018-03-08T18:55:43.331Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_9183ce9a_f9f2_c66c_6aca_03ed2ba60ba1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:56:19.292Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fcaeeaf7_2abb_39fb_f600_7cc3e1dc2756.html (PortalController#show)
+SearchInteraction	2018-03-08T18:56:48.819Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:56:57.862Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fc29b385_6fdd_df90_8346_25ae0085aecf	1	4034585
+ArbitraryAccessInteraction	2018-03-08T18:57:22.633Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_f68b7743_0160_2384_ef39_67b81da482ff.html (PortalController#show)
+SearchInteraction	2018-03-08T18:58:11.225Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:58:26.930Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_dc187546_24f5_20b2_b435_a37695d5a829	7	4034585
+SearchInteraction	2018-03-08T18:59:07.985Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:35.024Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:53.987Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T19:00:36.106Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+SearchInteraction	2018-03-08T19:00:50.301Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	170
+ArbitraryAccessInteraction	2018-03-08T19:02:35.280Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_55917845_593b_8efd_30d0_45953dba45d5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T19:03:39.194Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_c4ff144d_6251_3f0e_825d_f8111db18af5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:55:43.331Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_9183ce9a_f9f2_c66c_6aca_03ed2ba60ba1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:56:19.292Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fcaeeaf7_2abb_39fb_f600_7cc3e1dc2756.html (PortalController#show)
+SearchInteraction	2018-03-08T18:56:48.819Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:56:57.862Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fc29b385_6fdd_df90_8346_25ae0085aecf	1	4034585
+ArbitraryAccessInteraction	2018-03-08T18:57:22.633Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_f68b7743_0160_2384_ef39_67b81da482ff.html (PortalController#show)
+SearchInteraction	2018-03-08T18:58:11.225Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:58:26.930Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_dc187546_24f5_20b2_b435_a37695d5a829	7	4034585
+SearchInteraction	2018-03-08T18:59:07.985Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:35.024Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:53.987Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T19:00:36.106Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+SearchInteraction	2018-03-08T19:00:50.301Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	170
+ArbitraryAccessInteraction	2018-03-08T19:02:35.280Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_55917845_593b_8efd_30d0_45953dba45d5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T19:03:39.194Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_c4ff144d_6251_3f0e_825d_f8111db18af5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:55:43.331Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_9183ce9a_f9f2_c66c_6aca_03ed2ba60ba1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:56:19.292Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fcaeeaf7_2abb_39fb_f600_7cc3e1dc2756.html (PortalController#show)
+SearchInteraction	2018-03-08T18:56:48.819Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:56:57.862Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fc29b385_6fdd_df90_8346_25ae0085aecf	1	4034585
+ArbitraryAccessInteraction	2018-03-08T18:57:22.633Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_f68b7743_0160_2384_ef39_67b81da482ff.html (PortalController#show)
+SearchInteraction	2018-03-08T18:58:11.225Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:58:26.930Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_dc187546_24f5_20b2_b435_a37695d5a829	7	4034585
+SearchInteraction	2018-03-08T18:59:07.985Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:35.024Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:53.987Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T19:00:36.106Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+SearchInteraction	2018-03-08T19:00:50.301Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	170
+ArbitraryAccessInteraction	2018-03-08T19:02:35.280Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_55917845_593b_8efd_30d0_45953dba45d5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T19:03:39.194Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_c4ff144d_6251_3f0e_825d_f8111db18af5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:55:43.331Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_9183ce9a_f9f2_c66c_6aca_03ed2ba60ba1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:56:19.292Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fcaeeaf7_2abb_39fb_f600_7cc3e1dc2756.html (PortalController#show)
+SearchInteraction	2018-03-08T18:56:48.819Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:56:57.862Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fc29b385_6fdd_df90_8346_25ae0085aecf	1	4034585
+ArbitraryAccessInteraction	2018-03-08T18:57:22.633Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_f68b7743_0160_2384_ef39_67b81da482ff.html (PortalController#show)
+SearchInteraction	2018-03-08T18:58:11.225Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:58:26.930Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_dc187546_24f5_20b2_b435_a37695d5a829	7	4034585
+SearchInteraction	2018-03-08T18:59:07.985Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:35.024Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:53.987Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T19:00:36.106Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+SearchInteraction	2018-03-08T19:00:50.301Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	170
+ArbitraryAccessInteraction	2018-03-08T19:02:35.280Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_55917845_593b_8efd_30d0_45953dba45d5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T19:03:39.194Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_c4ff144d_6251_3f0e_825d_f8111db18af5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:55:43.331Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_9183ce9a_f9f2_c66c_6aca_03ed2ba60ba1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T18:56:19.292Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fcaeeaf7_2abb_39fb_f600_7cc3e1dc2756.html (PortalController#show)
+SearchInteraction	2018-03-08T18:56:48.819Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:56:57.862Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_fc29b385_6fdd_df90_8346_25ae0085aecf	1	4034585
+ArbitraryAccessInteraction	2018-03-08T18:57:22.633Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_f68b7743_0160_2384_ef39_67b81da482ff.html (PortalController#show)
+SearchInteraction	2018-03-08T18:58:11.225Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RankedRetrieveRecordInteraction	2018-03-08T18:58:26.930Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_dc187546_24f5_20b2_b435_a37695d5a829	7	4034585
+SearchInteraction	2018-03-08T18:59:07.985Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:35.024Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T18:59:53.987Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+RefreshOrPaginationInteraction	2018-03-08T19:00:36.106Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED		4034585
+SearchInteraction	2018-03-08T19:00:50.301Z	cefe0932c3e9fd219296846085d9b103	NO VALUE PROVIDED	{'TYPE': ['VIDEO']}	170
+ArbitraryAccessInteraction	2018-03-08T19:02:35.280Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_55917845_593b_8efd_30d0_45953dba45d5.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T19:03:39.194Z	cefe0932c3e9fd219296846085d9b103	[200] GET /portal/nl/record/2021662/zoeken_en_vinden_beeldbank_weergave_record_layout_default_id_c4ff144d_6251_3f0e_825d_f8111db18af5.html (PortalController#show)

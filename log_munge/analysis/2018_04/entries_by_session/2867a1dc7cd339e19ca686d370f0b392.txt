@@ -1,0 +1,260 @@
+SearchInteraction	2018-02-27T10:16:57.913Z	2867a1dc7cd339e19ca686d370f0b392	szlachta		1302
+SearchInteraction	2018-02-27T10:17:00.247Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+RefreshOrPaginationInteraction	2018-02-27T10:17:07.715Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-27T10:17:18.796Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RefreshOrPaginationInteraction	2018-02-27T10:17:28.002Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RankedRetrieveRecordInteraction	2018-02-27T10:17:34.521Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/92027/BibliographicResource_1000125583896	48	7969
+ArbitraryAccessInteraction	2018-02-27T10:17:47.903Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/92027/BibliographicResource_1000125583918.html (PortalController#show)
+SearchInteraction	2018-02-27T10:18:21.557Z	2867a1dc7cd339e19ca686d370f0b392	województwo czernihowskie		0
+SearchInteraction	2018-02-27T10:18:27.796Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:30.974Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:31.332Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:18:37.257Z	2867a1dc7cd339e19ca686d370f0b392	płockie		1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:30.505Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:31.333Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+SearchInteraction	2018-02-27T10:34:48.254Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		29
+RankedRetrieveRecordInteraction	2018-02-27T10:34:56.628Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855392	2	29
+RankedRetrieveRecordInteraction	2018-02-27T10:35:22.253Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855548	1	29
+SearchInteraction	2018-02-27T10:36:25.734Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		0
+SearchInteraction	2018-02-27T10:36:29.369Z	2867a1dc7cd339e19ca686d370f0b392	mundur wojewódzki		1
+SearchInteraction	2018-02-27T10:36:34.440Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:35.647Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:37.797Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:38.578Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:42.866Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:37:20.759Z	2867a1dc7cd339e19ca686d370f0b392	Archeologia prawna Polski		9
+SearchInteraction	2018-02-27T10:38:16.778Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		533
+RankedRetrieveRecordInteraction	2018-02-27T10:38:31.632Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		/9200479/item_8100970_	7	533
+SearchInteraction	2018-02-27T10:39:14.402Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		89
+RankedRetrieveRecordInteraction	2018-02-27T10:39:48.211Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		/0940426/_nnfhqrh	12	89
+SearchInteraction	2018-02-27T10:41:41.283Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		8
+RankedRetrieveRecordInteraction	2018-02-27T10:42:00.005Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		/0940442/_nnwTzxV	1	8
+ArbitraryAccessInteraction	2018-02-27T10:42:14.115Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:42:16.867Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:47.600Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:49.036Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:50.086Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+SearchInteraction	2018-02-27T10:51:31.011Z	2867a1dc7cd339e19ca686d370f0b392	W sprawie mundurów wojewódzkich		0
+SearchInteraction	2018-02-27T11:08:29.094Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:08:52.815Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:09:11.629Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+SearchInteraction	2018-02-27T11:09:27.499Z	2867a1dc7cd339e19ca686d370f0b392	Amelia hertz		0
+SearchInteraction	2018-02-27T11:09:42.667Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		2
+RankedRetrieveRecordInteraction	2018-02-27T11:09:49.785Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		/0940431/_nn70g02	2	2
+SearchInteraction	2018-02-27T11:10:29.007Z	2867a1dc7cd339e19ca686d370f0b392	who:(Hertzówna, Amelia 1878-1942)		1
+SearchInteraction	2018-02-27T11:10:55.684Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:09.968Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:24.037Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:45.988Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+SearchInteraction	2018-02-27T11:11:58.231Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:14.944Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:29.352Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+SearchInteraction	2018-02-27T11:12:47.997Z	2867a1dc7cd339e19ca686d370f0b392	Requiem aeternam		65
+SearchInteraction	2018-02-27T10:16:57.913Z	2867a1dc7cd339e19ca686d370f0b392	szlachta		1302
+SearchInteraction	2018-02-27T10:17:00.247Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+RefreshOrPaginationInteraction	2018-02-27T10:17:07.715Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-27T10:17:18.796Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RefreshOrPaginationInteraction	2018-02-27T10:17:28.002Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RankedRetrieveRecordInteraction	2018-02-27T10:17:34.521Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/92027/BibliographicResource_1000125583896	48	7969
+ArbitraryAccessInteraction	2018-02-27T10:17:47.903Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/92027/BibliographicResource_1000125583918.html (PortalController#show)
+SearchInteraction	2018-02-27T10:18:21.557Z	2867a1dc7cd339e19ca686d370f0b392	województwo czernihowskie		0
+SearchInteraction	2018-02-27T10:18:27.796Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:30.974Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:31.332Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:18:37.257Z	2867a1dc7cd339e19ca686d370f0b392	płockie		1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:30.505Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:31.333Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+SearchInteraction	2018-02-27T10:34:48.254Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		29
+RankedRetrieveRecordInteraction	2018-02-27T10:34:56.628Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855392	2	29
+RankedRetrieveRecordInteraction	2018-02-27T10:35:22.253Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855548	1	29
+SearchInteraction	2018-02-27T10:36:25.734Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		0
+SearchInteraction	2018-02-27T10:36:29.369Z	2867a1dc7cd339e19ca686d370f0b392	mundur wojewódzki		1
+SearchInteraction	2018-02-27T10:36:34.440Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:35.647Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:37.797Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:38.578Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:42.866Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:37:20.759Z	2867a1dc7cd339e19ca686d370f0b392	Archeologia prawna Polski		9
+SearchInteraction	2018-02-27T10:38:16.778Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		533
+RankedRetrieveRecordInteraction	2018-02-27T10:38:31.632Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		/9200479/item_8100970_	7	533
+SearchInteraction	2018-02-27T10:39:14.402Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		89
+RankedRetrieveRecordInteraction	2018-02-27T10:39:48.211Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		/0940426/_nnfhqrh	12	89
+SearchInteraction	2018-02-27T10:41:41.283Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		8
+RankedRetrieveRecordInteraction	2018-02-27T10:42:00.005Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		/0940442/_nnwTzxV	1	8
+ArbitraryAccessInteraction	2018-02-27T10:42:14.115Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:42:16.867Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:47.600Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:49.036Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:50.086Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+SearchInteraction	2018-02-27T10:51:31.011Z	2867a1dc7cd339e19ca686d370f0b392	W sprawie mundurów wojewódzkich		0
+SearchInteraction	2018-02-27T11:08:29.094Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:08:52.815Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:09:11.629Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+SearchInteraction	2018-02-27T11:09:27.499Z	2867a1dc7cd339e19ca686d370f0b392	Amelia hertz		0
+SearchInteraction	2018-02-27T11:09:42.667Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		2
+RankedRetrieveRecordInteraction	2018-02-27T11:09:49.785Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		/0940431/_nn70g02	2	2
+SearchInteraction	2018-02-27T11:10:29.007Z	2867a1dc7cd339e19ca686d370f0b392	who:(Hertzówna, Amelia 1878-1942)		1
+SearchInteraction	2018-02-27T11:10:55.684Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:09.968Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:24.037Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:45.988Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+SearchInteraction	2018-02-27T11:11:58.231Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:14.944Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:29.352Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+SearchInteraction	2018-02-27T11:12:47.997Z	2867a1dc7cd339e19ca686d370f0b392	Requiem aeternam		65
+SearchInteraction	2018-02-27T10:16:57.913Z	2867a1dc7cd339e19ca686d370f0b392	szlachta		1302
+SearchInteraction	2018-02-27T10:17:00.247Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+RefreshOrPaginationInteraction	2018-02-27T10:17:07.715Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-27T10:17:18.796Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RefreshOrPaginationInteraction	2018-02-27T10:17:28.002Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RankedRetrieveRecordInteraction	2018-02-27T10:17:34.521Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/92027/BibliographicResource_1000125583896	48	7969
+ArbitraryAccessInteraction	2018-02-27T10:17:47.903Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/92027/BibliographicResource_1000125583918.html (PortalController#show)
+SearchInteraction	2018-02-27T10:18:21.557Z	2867a1dc7cd339e19ca686d370f0b392	województwo czernihowskie		0
+SearchInteraction	2018-02-27T10:18:27.796Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:30.974Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:31.332Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:18:37.257Z	2867a1dc7cd339e19ca686d370f0b392	płockie		1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:30.505Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:31.333Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+SearchInteraction	2018-02-27T10:34:48.254Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		29
+RankedRetrieveRecordInteraction	2018-02-27T10:34:56.628Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855392	2	29
+RankedRetrieveRecordInteraction	2018-02-27T10:35:22.253Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855548	1	29
+SearchInteraction	2018-02-27T10:36:25.734Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		0
+SearchInteraction	2018-02-27T10:36:29.369Z	2867a1dc7cd339e19ca686d370f0b392	mundur wojewódzki		1
+SearchInteraction	2018-02-27T10:36:34.440Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:35.647Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:37.797Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:38.578Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:42.866Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:37:20.759Z	2867a1dc7cd339e19ca686d370f0b392	Archeologia prawna Polski		9
+SearchInteraction	2018-02-27T10:38:16.778Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		533
+RankedRetrieveRecordInteraction	2018-02-27T10:38:31.632Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		/9200479/item_8100970_	7	533
+SearchInteraction	2018-02-27T10:39:14.402Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		89
+RankedRetrieveRecordInteraction	2018-02-27T10:39:48.211Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		/0940426/_nnfhqrh	12	89
+SearchInteraction	2018-02-27T10:41:41.283Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		8
+RankedRetrieveRecordInteraction	2018-02-27T10:42:00.005Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		/0940442/_nnwTzxV	1	8
+ArbitraryAccessInteraction	2018-02-27T10:42:14.115Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:42:16.867Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:47.600Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:49.036Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:50.086Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+SearchInteraction	2018-02-27T10:51:31.011Z	2867a1dc7cd339e19ca686d370f0b392	W sprawie mundurów wojewódzkich		0
+SearchInteraction	2018-02-27T11:08:29.094Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:08:52.815Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:09:11.629Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+SearchInteraction	2018-02-27T11:09:27.499Z	2867a1dc7cd339e19ca686d370f0b392	Amelia hertz		0
+SearchInteraction	2018-02-27T11:09:42.667Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		2
+RankedRetrieveRecordInteraction	2018-02-27T11:09:49.785Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		/0940431/_nn70g02	2	2
+SearchInteraction	2018-02-27T11:10:29.007Z	2867a1dc7cd339e19ca686d370f0b392	who:(Hertzówna, Amelia 1878-1942)		1
+SearchInteraction	2018-02-27T11:10:55.684Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:09.968Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:24.037Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:45.988Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+SearchInteraction	2018-02-27T11:11:58.231Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:14.944Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:29.352Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+SearchInteraction	2018-02-27T11:12:47.997Z	2867a1dc7cd339e19ca686d370f0b392	Requiem aeternam		65
+SearchInteraction	2018-02-27T10:16:57.913Z	2867a1dc7cd339e19ca686d370f0b392	szlachta		1302
+SearchInteraction	2018-02-27T10:17:00.247Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+RefreshOrPaginationInteraction	2018-02-27T10:17:07.715Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-27T10:17:18.796Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RefreshOrPaginationInteraction	2018-02-27T10:17:28.002Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RankedRetrieveRecordInteraction	2018-02-27T10:17:34.521Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/92027/BibliographicResource_1000125583896	48	7969
+ArbitraryAccessInteraction	2018-02-27T10:17:47.903Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/92027/BibliographicResource_1000125583918.html (PortalController#show)
+SearchInteraction	2018-02-27T10:18:21.557Z	2867a1dc7cd339e19ca686d370f0b392	województwo czernihowskie		0
+SearchInteraction	2018-02-27T10:18:27.796Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:30.974Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:31.332Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:18:37.257Z	2867a1dc7cd339e19ca686d370f0b392	płockie		1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:30.505Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:31.333Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+SearchInteraction	2018-02-27T10:34:48.254Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		29
+RankedRetrieveRecordInteraction	2018-02-27T10:34:56.628Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855392	2	29
+RankedRetrieveRecordInteraction	2018-02-27T10:35:22.253Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855548	1	29
+SearchInteraction	2018-02-27T10:36:25.734Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		0
+SearchInteraction	2018-02-27T10:36:29.369Z	2867a1dc7cd339e19ca686d370f0b392	mundur wojewódzki		1
+SearchInteraction	2018-02-27T10:36:34.440Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:35.647Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:37.797Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:38.578Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:42.866Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:37:20.759Z	2867a1dc7cd339e19ca686d370f0b392	Archeologia prawna Polski		9
+SearchInteraction	2018-02-27T10:38:16.778Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		533
+RankedRetrieveRecordInteraction	2018-02-27T10:38:31.632Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		/9200479/item_8100970_	7	533
+SearchInteraction	2018-02-27T10:39:14.402Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		89
+RankedRetrieveRecordInteraction	2018-02-27T10:39:48.211Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		/0940426/_nnfhqrh	12	89
+SearchInteraction	2018-02-27T10:41:41.283Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		8
+RankedRetrieveRecordInteraction	2018-02-27T10:42:00.005Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		/0940442/_nnwTzxV	1	8
+ArbitraryAccessInteraction	2018-02-27T10:42:14.115Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:42:16.867Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:47.600Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:49.036Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:50.086Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+SearchInteraction	2018-02-27T10:51:31.011Z	2867a1dc7cd339e19ca686d370f0b392	W sprawie mundurów wojewódzkich		0
+SearchInteraction	2018-02-27T11:08:29.094Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:08:52.815Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:09:11.629Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+SearchInteraction	2018-02-27T11:09:27.499Z	2867a1dc7cd339e19ca686d370f0b392	Amelia hertz		0
+SearchInteraction	2018-02-27T11:09:42.667Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		2
+RankedRetrieveRecordInteraction	2018-02-27T11:09:49.785Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		/0940431/_nn70g02	2	2
+SearchInteraction	2018-02-27T11:10:29.007Z	2867a1dc7cd339e19ca686d370f0b392	who:(Hertzówna, Amelia 1878-1942)		1
+SearchInteraction	2018-02-27T11:10:55.684Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:09.968Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:24.037Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:45.988Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+SearchInteraction	2018-02-27T11:11:58.231Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:14.944Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:29.352Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+SearchInteraction	2018-02-27T11:12:47.997Z	2867a1dc7cd339e19ca686d370f0b392	Requiem aeternam		65
+SearchInteraction	2018-02-27T10:16:57.913Z	2867a1dc7cd339e19ca686d370f0b392	szlachta		1302
+SearchInteraction	2018-02-27T10:17:00.247Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+RefreshOrPaginationInteraction	2018-02-27T10:17:07.715Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-27T10:17:18.796Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RefreshOrPaginationInteraction	2018-02-27T10:17:28.002Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	7969
+RankedRetrieveRecordInteraction	2018-02-27T10:17:34.521Z	2867a1dc7cd339e19ca686d370f0b392	Warszawa	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/92027/BibliographicResource_1000125583896	48	7969
+ArbitraryAccessInteraction	2018-02-27T10:17:47.903Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/92027/BibliographicResource_1000125583918.html (PortalController#show)
+SearchInteraction	2018-02-27T10:18:21.557Z	2867a1dc7cd339e19ca686d370f0b392	województwo czernihowskie		0
+SearchInteraction	2018-02-27T10:18:27.796Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:30.974Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:18:31.332Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:18:37.257Z	2867a1dc7cd339e19ca686d370f0b392	płockie		1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:30.505Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+RankedRetrieveRecordInteraction	2018-02-27T10:19:31.333Z	2867a1dc7cd339e19ca686d370f0b392	płockie		/0940441/_nnh0gqm	8	1550
+SearchInteraction	2018-02-27T10:34:48.254Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		29
+RankedRetrieveRecordInteraction	2018-02-27T10:34:56.628Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855392	2	29
+RankedRetrieveRecordInteraction	2018-02-27T10:35:22.253Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		/9200386/BibliographicResource_3000095855548	1	29
+SearchInteraction	2018-02-27T10:36:25.734Z	2867a1dc7cd339e19ca686d370f0b392	Volumina Legum		0
+SearchInteraction	2018-02-27T10:36:29.369Z	2867a1dc7cd339e19ca686d370f0b392	mundur wojewódzki		1
+SearchInteraction	2018-02-27T10:36:34.440Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:35.647Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:37.797Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:38.578Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-27T10:36:42.866Z	2867a1dc7cd339e19ca686d370f0b392	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-27T10:37:20.759Z	2867a1dc7cd339e19ca686d370f0b392	Archeologia prawna Polski		9
+SearchInteraction	2018-02-27T10:38:16.778Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		533
+RankedRetrieveRecordInteraction	2018-02-27T10:38:31.632Z	2867a1dc7cd339e19ca686d370f0b392	Lelewel Joachim		/9200479/item_8100970_	7	533
+SearchInteraction	2018-02-27T10:39:14.402Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		89
+RankedRetrieveRecordInteraction	2018-02-27T10:39:48.211Z	2867a1dc7cd339e19ca686d370f0b392	Sejm Wielki		/0940426/_nnfhqrh	12	89
+SearchInteraction	2018-02-27T10:41:41.283Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		8
+RankedRetrieveRecordInteraction	2018-02-27T10:42:00.005Z	2867a1dc7cd339e19ca686d370f0b392	Broń i Barwa		/0940442/_nnwTzxV	1	8
+ArbitraryAccessInteraction	2018-02-27T10:42:14.115Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:42:16.867Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnprbsg.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:47.600Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:49.036Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T10:50:50.086Z	2867a1dc7cd339e19ca686d370f0b392	[200] GET /portal/pl/record/0940442/_nnwr624.html (PortalController#show)
+SearchInteraction	2018-02-27T10:51:31.011Z	2867a1dc7cd339e19ca686d370f0b392	W sprawie mundurów wojewódzkich		0
+SearchInteraction	2018-02-27T11:08:29.094Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:08:52.815Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+RefreshOrPaginationInteraction	2018-02-27T11:09:11.629Z	2867a1dc7cd339e19ca686d370f0b392	Assyria		165
+SearchInteraction	2018-02-27T11:09:27.499Z	2867a1dc7cd339e19ca686d370f0b392	Amelia hertz		0
+SearchInteraction	2018-02-27T11:09:42.667Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		2
+RankedRetrieveRecordInteraction	2018-02-27T11:09:49.785Z	2867a1dc7cd339e19ca686d370f0b392	hertzówna		/0940431/_nn70g02	2	2
+SearchInteraction	2018-02-27T11:10:29.007Z	2867a1dc7cd339e19ca686d370f0b392	who:(Hertzówna, Amelia 1878-1942)		1
+SearchInteraction	2018-02-27T11:10:55.684Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:09.968Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:24.037Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+RefreshOrPaginationInteraction	2018-02-27T11:11:45.988Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski		286
+SearchInteraction	2018-02-27T11:11:58.231Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:14.944Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+RefreshOrPaginationInteraction	2018-02-27T11:12:29.352Z	2867a1dc7cd339e19ca686d370f0b392	Stanisław Przybyszewski	{'TYPE': ['TEXT']}	209
+SearchInteraction	2018-02-27T11:12:47.997Z	2867a1dc7cd339e19ca686d370f0b392	Requiem aeternam		65

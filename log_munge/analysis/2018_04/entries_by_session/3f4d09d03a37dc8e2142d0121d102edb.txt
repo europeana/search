@@ -1,0 +1,200 @@
+SearchInteraction	2018-03-06T09:23:41.216Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+RefreshOrPaginationInteraction	2018-03-06T09:24:13.042Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+CollectionFilterAdditionInteraction	2018-03-06T09:24:23.418Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		1
+RankedRetrieveRecordInteraction	2018-03-06T09:24:26.356Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		/2021641/publiek_detail_aspx_xmldescid_121074571	1	1
+SearchInteraction	2018-03-06T09:25:08.321Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		2
+CollectionFilterAdditionInteraction	2018-03-06T09:25:12.171Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		1
+SearchInteraction	2018-03-06T09:25:19.487Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:27.003Z	3f4d09d03a37dc8e2142d0121d102edb	bible		45
+CollectionFilterAdditionInteraction	2018-03-06T09:25:31.492Z	3f4d09d03a37dc8e2142d0121d102edb	bible		1
+SearchInteraction	2018-03-06T09:25:36.926Z	3f4d09d03a37dc8e2142d0121d102edb	bullet		243
+SearchInteraction	2018-03-06T09:25:47.295Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:55.068Z	3f4d09d03a37dc8e2142d0121d102edb	box		304
+CollectionFilterAdditionInteraction	2018-03-06T09:25:59.402Z	3f4d09d03a37dc8e2142d0121d102edb	box		22
+SearchInteraction	2018-03-06T09:27:05.258Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+RankedRetrieveRecordInteraction	2018-03-06T09:27:08.642Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		/2021401/346666F66841E9E93BE7116FC163E44069E92741	1	1
+SearchInteraction	2018-03-06T09:27:31.307Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:27:34.632Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:27:41.629Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		516
+CollectionFilterAdditionInteraction	2018-03-06T09:27:45.708Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+RefreshOrPaginationInteraction	2018-03-06T09:28:01.361Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+SearchInteraction	2018-03-06T09:28:30.442Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-03-06T09:28:40.223Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9866	2	479
+ArbitraryAccessInteraction	2018-03-06T09:29:10.968Z	3f4d09d03a37dc8e2142d0121d102edb	[200] GET /portal/en/record/92034/GVNRC_VGM01_172.html (PortalController#show)
+SearchInteraction	2018-03-06T09:30:19.167Z	3f4d09d03a37dc8e2142d0121d102edb	Geiler		362
+SearchInteraction	2018-03-06T09:30:31.793Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:30:45.980Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:48.758Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:49.515Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:30:57.077Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire		6860
+SearchInteraction	2018-03-06T09:31:08.169Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open']}	2010
+SearchInteraction	2018-03-06T09:31:16.157Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	424
+RankedRetrieveRecordInteraction	2018-03-06T09:31:35.530Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_669	11	424
+SearchInteraction	2018-03-06T09:32:04.852Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:32:10.684Z	3f4d09d03a37dc8e2142d0121d102edb	love letter		145
+SearchInteraction	2018-03-06T09:32:21.886Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RefreshOrPaginationInteraction	2018-03-06T09:32:45.988Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RankedRetrieveRecordInteraction	2018-03-06T09:33:12.544Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	/2020601/contributions_20430	16	39
+SearchInteraction	2018-03-06T09:34:57.473Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-06T09:35:06.510Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RankedRetrieveRecordInteraction	2018-03-06T09:35:23.162Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	57030
+SearchInteraction	2018-03-06T09:23:41.216Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+RefreshOrPaginationInteraction	2018-03-06T09:24:13.042Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+CollectionFilterAdditionInteraction	2018-03-06T09:24:23.418Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		1
+RankedRetrieveRecordInteraction	2018-03-06T09:24:26.356Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		/2021641/publiek_detail_aspx_xmldescid_121074571	1	1
+SearchInteraction	2018-03-06T09:25:08.321Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		2
+CollectionFilterAdditionInteraction	2018-03-06T09:25:12.171Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		1
+SearchInteraction	2018-03-06T09:25:19.487Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:27.003Z	3f4d09d03a37dc8e2142d0121d102edb	bible		45
+CollectionFilterAdditionInteraction	2018-03-06T09:25:31.492Z	3f4d09d03a37dc8e2142d0121d102edb	bible		1
+SearchInteraction	2018-03-06T09:25:36.926Z	3f4d09d03a37dc8e2142d0121d102edb	bullet		243
+SearchInteraction	2018-03-06T09:25:47.295Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:55.068Z	3f4d09d03a37dc8e2142d0121d102edb	box		304
+CollectionFilterAdditionInteraction	2018-03-06T09:25:59.402Z	3f4d09d03a37dc8e2142d0121d102edb	box		22
+SearchInteraction	2018-03-06T09:27:05.258Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+RankedRetrieveRecordInteraction	2018-03-06T09:27:08.642Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		/2021401/346666F66841E9E93BE7116FC163E44069E92741	1	1
+SearchInteraction	2018-03-06T09:27:31.307Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:27:34.632Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:27:41.629Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		516
+CollectionFilterAdditionInteraction	2018-03-06T09:27:45.708Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+RefreshOrPaginationInteraction	2018-03-06T09:28:01.361Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+SearchInteraction	2018-03-06T09:28:30.442Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-03-06T09:28:40.223Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9866	2	479
+ArbitraryAccessInteraction	2018-03-06T09:29:10.968Z	3f4d09d03a37dc8e2142d0121d102edb	[200] GET /portal/en/record/92034/GVNRC_VGM01_172.html (PortalController#show)
+SearchInteraction	2018-03-06T09:30:19.167Z	3f4d09d03a37dc8e2142d0121d102edb	Geiler		362
+SearchInteraction	2018-03-06T09:30:31.793Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:30:45.980Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:48.758Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:49.515Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:30:57.077Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire		6860
+SearchInteraction	2018-03-06T09:31:08.169Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open']}	2010
+SearchInteraction	2018-03-06T09:31:16.157Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	424
+RankedRetrieveRecordInteraction	2018-03-06T09:31:35.530Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_669	11	424
+SearchInteraction	2018-03-06T09:32:04.852Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:32:10.684Z	3f4d09d03a37dc8e2142d0121d102edb	love letter		145
+SearchInteraction	2018-03-06T09:32:21.886Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RefreshOrPaginationInteraction	2018-03-06T09:32:45.988Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RankedRetrieveRecordInteraction	2018-03-06T09:33:12.544Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	/2020601/contributions_20430	16	39
+SearchInteraction	2018-03-06T09:34:57.473Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-06T09:35:06.510Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RankedRetrieveRecordInteraction	2018-03-06T09:35:23.162Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	57030
+SearchInteraction	2018-03-06T09:23:41.216Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+RefreshOrPaginationInteraction	2018-03-06T09:24:13.042Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+CollectionFilterAdditionInteraction	2018-03-06T09:24:23.418Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		1
+RankedRetrieveRecordInteraction	2018-03-06T09:24:26.356Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		/2021641/publiek_detail_aspx_xmldescid_121074571	1	1
+SearchInteraction	2018-03-06T09:25:08.321Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		2
+CollectionFilterAdditionInteraction	2018-03-06T09:25:12.171Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		1
+SearchInteraction	2018-03-06T09:25:19.487Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:27.003Z	3f4d09d03a37dc8e2142d0121d102edb	bible		45
+CollectionFilterAdditionInteraction	2018-03-06T09:25:31.492Z	3f4d09d03a37dc8e2142d0121d102edb	bible		1
+SearchInteraction	2018-03-06T09:25:36.926Z	3f4d09d03a37dc8e2142d0121d102edb	bullet		243
+SearchInteraction	2018-03-06T09:25:47.295Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:55.068Z	3f4d09d03a37dc8e2142d0121d102edb	box		304
+CollectionFilterAdditionInteraction	2018-03-06T09:25:59.402Z	3f4d09d03a37dc8e2142d0121d102edb	box		22
+SearchInteraction	2018-03-06T09:27:05.258Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+RankedRetrieveRecordInteraction	2018-03-06T09:27:08.642Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		/2021401/346666F66841E9E93BE7116FC163E44069E92741	1	1
+SearchInteraction	2018-03-06T09:27:31.307Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:27:34.632Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:27:41.629Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		516
+CollectionFilterAdditionInteraction	2018-03-06T09:27:45.708Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+RefreshOrPaginationInteraction	2018-03-06T09:28:01.361Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+SearchInteraction	2018-03-06T09:28:30.442Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-03-06T09:28:40.223Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9866	2	479
+ArbitraryAccessInteraction	2018-03-06T09:29:10.968Z	3f4d09d03a37dc8e2142d0121d102edb	[200] GET /portal/en/record/92034/GVNRC_VGM01_172.html (PortalController#show)
+SearchInteraction	2018-03-06T09:30:19.167Z	3f4d09d03a37dc8e2142d0121d102edb	Geiler		362
+SearchInteraction	2018-03-06T09:30:31.793Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:30:45.980Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:48.758Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:49.515Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:30:57.077Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire		6860
+SearchInteraction	2018-03-06T09:31:08.169Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open']}	2010
+SearchInteraction	2018-03-06T09:31:16.157Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	424
+RankedRetrieveRecordInteraction	2018-03-06T09:31:35.530Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_669	11	424
+SearchInteraction	2018-03-06T09:32:04.852Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:32:10.684Z	3f4d09d03a37dc8e2142d0121d102edb	love letter		145
+SearchInteraction	2018-03-06T09:32:21.886Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RefreshOrPaginationInteraction	2018-03-06T09:32:45.988Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RankedRetrieveRecordInteraction	2018-03-06T09:33:12.544Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	/2020601/contributions_20430	16	39
+SearchInteraction	2018-03-06T09:34:57.473Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-06T09:35:06.510Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RankedRetrieveRecordInteraction	2018-03-06T09:35:23.162Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	57030
+SearchInteraction	2018-03-06T09:23:41.216Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+RefreshOrPaginationInteraction	2018-03-06T09:24:13.042Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+CollectionFilterAdditionInteraction	2018-03-06T09:24:23.418Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		1
+RankedRetrieveRecordInteraction	2018-03-06T09:24:26.356Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		/2021641/publiek_detail_aspx_xmldescid_121074571	1	1
+SearchInteraction	2018-03-06T09:25:08.321Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		2
+CollectionFilterAdditionInteraction	2018-03-06T09:25:12.171Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		1
+SearchInteraction	2018-03-06T09:25:19.487Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:27.003Z	3f4d09d03a37dc8e2142d0121d102edb	bible		45
+CollectionFilterAdditionInteraction	2018-03-06T09:25:31.492Z	3f4d09d03a37dc8e2142d0121d102edb	bible		1
+SearchInteraction	2018-03-06T09:25:36.926Z	3f4d09d03a37dc8e2142d0121d102edb	bullet		243
+SearchInteraction	2018-03-06T09:25:47.295Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:55.068Z	3f4d09d03a37dc8e2142d0121d102edb	box		304
+CollectionFilterAdditionInteraction	2018-03-06T09:25:59.402Z	3f4d09d03a37dc8e2142d0121d102edb	box		22
+SearchInteraction	2018-03-06T09:27:05.258Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+RankedRetrieveRecordInteraction	2018-03-06T09:27:08.642Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		/2021401/346666F66841E9E93BE7116FC163E44069E92741	1	1
+SearchInteraction	2018-03-06T09:27:31.307Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:27:34.632Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:27:41.629Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		516
+CollectionFilterAdditionInteraction	2018-03-06T09:27:45.708Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+RefreshOrPaginationInteraction	2018-03-06T09:28:01.361Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+SearchInteraction	2018-03-06T09:28:30.442Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-03-06T09:28:40.223Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9866	2	479
+ArbitraryAccessInteraction	2018-03-06T09:29:10.968Z	3f4d09d03a37dc8e2142d0121d102edb	[200] GET /portal/en/record/92034/GVNRC_VGM01_172.html (PortalController#show)
+SearchInteraction	2018-03-06T09:30:19.167Z	3f4d09d03a37dc8e2142d0121d102edb	Geiler		362
+SearchInteraction	2018-03-06T09:30:31.793Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:30:45.980Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:48.758Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:49.515Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:30:57.077Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire		6860
+SearchInteraction	2018-03-06T09:31:08.169Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open']}	2010
+SearchInteraction	2018-03-06T09:31:16.157Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	424
+RankedRetrieveRecordInteraction	2018-03-06T09:31:35.530Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_669	11	424
+SearchInteraction	2018-03-06T09:32:04.852Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:32:10.684Z	3f4d09d03a37dc8e2142d0121d102edb	love letter		145
+SearchInteraction	2018-03-06T09:32:21.886Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RefreshOrPaginationInteraction	2018-03-06T09:32:45.988Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RankedRetrieveRecordInteraction	2018-03-06T09:33:12.544Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	/2020601/contributions_20430	16	39
+SearchInteraction	2018-03-06T09:34:57.473Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-06T09:35:06.510Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RankedRetrieveRecordInteraction	2018-03-06T09:35:23.162Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	57030
+SearchInteraction	2018-03-06T09:23:41.216Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+RefreshOrPaginationInteraction	2018-03-06T09:24:13.042Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		33
+CollectionFilterAdditionInteraction	2018-03-06T09:24:23.418Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		1
+RankedRetrieveRecordInteraction	2018-03-06T09:24:26.356Z	3f4d09d03a37dc8e2142d0121d102edb	gezin met 10 kinderen		/2021641/publiek_detail_aspx_xmldescid_121074571	1	1
+SearchInteraction	2018-03-06T09:25:08.321Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		2
+CollectionFilterAdditionInteraction	2018-03-06T09:25:12.171Z	3f4d09d03a37dc8e2142d0121d102edb	bible bullet		1
+SearchInteraction	2018-03-06T09:25:19.487Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:27.003Z	3f4d09d03a37dc8e2142d0121d102edb	bible		45
+CollectionFilterAdditionInteraction	2018-03-06T09:25:31.492Z	3f4d09d03a37dc8e2142d0121d102edb	bible		1
+SearchInteraction	2018-03-06T09:25:36.926Z	3f4d09d03a37dc8e2142d0121d102edb	bullet		243
+SearchInteraction	2018-03-06T09:25:47.295Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:25:55.068Z	3f4d09d03a37dc8e2142d0121d102edb	box		304
+CollectionFilterAdditionInteraction	2018-03-06T09:25:59.402Z	3f4d09d03a37dc8e2142d0121d102edb	box		22
+SearchInteraction	2018-03-06T09:27:05.258Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+RankedRetrieveRecordInteraction	2018-03-06T09:27:08.642Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		/2021401/346666F66841E9E93BE7116FC163E44069E92741	1	1
+SearchInteraction	2018-03-06T09:27:31.307Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:27:34.632Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:27:41.629Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		516
+CollectionFilterAdditionInteraction	2018-03-06T09:27:45.708Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+RefreshOrPaginationInteraction	2018-03-06T09:28:01.361Z	3f4d09d03a37dc8e2142d0121d102edb	matchbox		22
+SearchInteraction	2018-03-06T09:28:30.442Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-03-06T09:28:40.223Z	3f4d09d03a37dc8e2142d0121d102edb	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9866	2	479
+ArbitraryAccessInteraction	2018-03-06T09:29:10.968Z	3f4d09d03a37dc8e2142d0121d102edb	[200] GET /portal/en/record/92034/GVNRC_VGM01_172.html (PortalController#show)
+SearchInteraction	2018-03-06T09:30:19.167Z	3f4d09d03a37dc8e2142d0121d102edb	Geiler		362
+SearchInteraction	2018-03-06T09:30:31.793Z	3f4d09d03a37dc8e2142d0121d102edb	Kurt Geiler		1
+SearchInteraction	2018-03-06T09:30:45.980Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:48.758Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+RefreshOrPaginationInteraction	2018-03-06T09:30:49.515Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:30:57.077Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire		6860
+SearchInteraction	2018-03-06T09:31:08.169Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open']}	2010
+SearchInteraction	2018-03-06T09:31:16.157Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	424
+RankedRetrieveRecordInteraction	2018-03-06T09:31:35.530Z	3f4d09d03a37dc8e2142d0121d102edb	Voltaire	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_669	11	424
+SearchInteraction	2018-03-06T09:32:04.852Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-06T09:32:10.684Z	3f4d09d03a37dc8e2142d0121d102edb	love letter		145
+SearchInteraction	2018-03-06T09:32:21.886Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RefreshOrPaginationInteraction	2018-03-06T09:32:45.988Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	39
+RankedRetrieveRecordInteraction	2018-03-06T09:33:12.544Z	3f4d09d03a37dc8e2142d0121d102edb	love letter	{'REUSABILITY': ['open']}	/2020601/contributions_20430	16	39
+SearchInteraction	2018-03-06T09:34:57.473Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-06T09:35:06.510Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RankedRetrieveRecordInteraction	2018-03-06T09:35:23.162Z	3f4d09d03a37dc8e2142d0121d102edb	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	57030

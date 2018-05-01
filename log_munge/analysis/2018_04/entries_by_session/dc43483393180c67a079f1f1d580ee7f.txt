@@ -1,0 +1,215 @@
+SearchInteraction	2018-03-02T21:34:17.735Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	139
+SearchInteraction	2018-03-02T21:34:27.296Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:34:41.088Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+SearchInteraction	2018-03-02T21:34:48.458Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky']}	3
+SearchInteraction	2018-03-02T21:34:55.942Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:35:03.654Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	/20480101/351141	4	4
+SearchInteraction	2018-03-02T21:37:57.391Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	76571
+SearchInteraction	2018-03-02T21:38:08.424Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	0
+SearchInteraction	2018-03-02T21:38:13.356Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	2
+CollectionFilterAdditionInteraction	2018-03-02T21:38:38.452Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:38:49.802Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:00.922Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:09.227Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+CollectionFilterRemovalInteraction	2018-03-02T21:39:24.220Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:39:30.158Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	/20480101/351141	4	4
+ArbitraryAccessInteraction	2018-03-02T21:40:09.949Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410458.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T21:40:46.171Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410439.html (PortalController#show)
+SearchInteraction	2018-03-02T21:43:51.672Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+RefreshOrPaginationInteraction	2018-03-02T21:44:09.622Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+SearchInteraction	2018-03-02T21:44:33.420Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:25:19.247Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti']}	3
+SearchInteraction	2018-03-02T22:25:26.934Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	4
+SearchInteraction	2018-03-02T22:26:32.995Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:26:42.443Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	/2048080/detail_7543360	1	4
+SearchInteraction	2018-03-02T22:27:34.447Z	dc43483393180c67a079f1f1d580ee7f	DATA_PROVIDER:"Istituto per la Storia del Risorgimento Italiano"		30586
+SearchInteraction	2018-03-02T22:27:48.112Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:28:41.671Z	dc43483393180c67a079f1f1d580ee7f	klimno		4
+SearchInteraction	2018-03-02T22:28:57.904Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-03-02T22:29:06.527Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:29:13.199Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	/20480101/351141	1	1
+ArbitraryAccessInteraction	2018-03-02T22:30:11.675Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/398048.html (PortalController#show)
+SearchInteraction	2018-03-02T22:43:44.078Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RefreshOrPaginationInteraction	2018-03-02T22:44:26.142Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RankedRetrieveRecordInteraction	2018-03-02T22:45:20.653Z	dc43483393180c67a079f1f1d580ee7f	fiume		/9200457/BibliographicResource_3000141256394	46	9365
+SearchInteraction	2018-03-02T22:46:30.277Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RankedRetrieveRecordInteraction	2018-03-02T22:48:00.703Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	/9200352/_object_info_id_22392	48	5803
+SearchInteraction	2018-03-02T22:50:14.651Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:50:52.295Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:52:34.578Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:55:07.054Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+SearchInteraction	2018-03-02T22:55:48.326Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-02T22:56:03.675Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+RefreshOrPaginationInteraction	2018-03-02T22:57:49.740Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+SearchInteraction	2018-03-02T21:34:17.735Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	139
+SearchInteraction	2018-03-02T21:34:27.296Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:34:41.088Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+SearchInteraction	2018-03-02T21:34:48.458Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky']}	3
+SearchInteraction	2018-03-02T21:34:55.942Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:35:03.654Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	/20480101/351141	4	4
+SearchInteraction	2018-03-02T21:37:57.391Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	76571
+SearchInteraction	2018-03-02T21:38:08.424Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	0
+SearchInteraction	2018-03-02T21:38:13.356Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	2
+CollectionFilterAdditionInteraction	2018-03-02T21:38:38.452Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:38:49.802Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:00.922Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:09.227Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+CollectionFilterRemovalInteraction	2018-03-02T21:39:24.220Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:39:30.158Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	/20480101/351141	4	4
+ArbitraryAccessInteraction	2018-03-02T21:40:09.949Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410458.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T21:40:46.171Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410439.html (PortalController#show)
+SearchInteraction	2018-03-02T21:43:51.672Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+RefreshOrPaginationInteraction	2018-03-02T21:44:09.622Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+SearchInteraction	2018-03-02T21:44:33.420Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:25:19.247Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti']}	3
+SearchInteraction	2018-03-02T22:25:26.934Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	4
+SearchInteraction	2018-03-02T22:26:32.995Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:26:42.443Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	/2048080/detail_7543360	1	4
+SearchInteraction	2018-03-02T22:27:34.447Z	dc43483393180c67a079f1f1d580ee7f	DATA_PROVIDER:"Istituto per la Storia del Risorgimento Italiano"		30586
+SearchInteraction	2018-03-02T22:27:48.112Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:28:41.671Z	dc43483393180c67a079f1f1d580ee7f	klimno		4
+SearchInteraction	2018-03-02T22:28:57.904Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-03-02T22:29:06.527Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:29:13.199Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	/20480101/351141	1	1
+ArbitraryAccessInteraction	2018-03-02T22:30:11.675Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/398048.html (PortalController#show)
+SearchInteraction	2018-03-02T22:43:44.078Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RefreshOrPaginationInteraction	2018-03-02T22:44:26.142Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RankedRetrieveRecordInteraction	2018-03-02T22:45:20.653Z	dc43483393180c67a079f1f1d580ee7f	fiume		/9200457/BibliographicResource_3000141256394	46	9365
+SearchInteraction	2018-03-02T22:46:30.277Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RankedRetrieveRecordInteraction	2018-03-02T22:48:00.703Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	/9200352/_object_info_id_22392	48	5803
+SearchInteraction	2018-03-02T22:50:14.651Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:50:52.295Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:52:34.578Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:55:07.054Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+SearchInteraction	2018-03-02T22:55:48.326Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-02T22:56:03.675Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+RefreshOrPaginationInteraction	2018-03-02T22:57:49.740Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+SearchInteraction	2018-03-02T21:34:17.735Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	139
+SearchInteraction	2018-03-02T21:34:27.296Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:34:41.088Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+SearchInteraction	2018-03-02T21:34:48.458Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky']}	3
+SearchInteraction	2018-03-02T21:34:55.942Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:35:03.654Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	/20480101/351141	4	4
+SearchInteraction	2018-03-02T21:37:57.391Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	76571
+SearchInteraction	2018-03-02T21:38:08.424Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	0
+SearchInteraction	2018-03-02T21:38:13.356Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	2
+CollectionFilterAdditionInteraction	2018-03-02T21:38:38.452Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:38:49.802Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:00.922Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:09.227Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+CollectionFilterRemovalInteraction	2018-03-02T21:39:24.220Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:39:30.158Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	/20480101/351141	4	4
+ArbitraryAccessInteraction	2018-03-02T21:40:09.949Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410458.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T21:40:46.171Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410439.html (PortalController#show)
+SearchInteraction	2018-03-02T21:43:51.672Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+RefreshOrPaginationInteraction	2018-03-02T21:44:09.622Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+SearchInteraction	2018-03-02T21:44:33.420Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:25:19.247Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti']}	3
+SearchInteraction	2018-03-02T22:25:26.934Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	4
+SearchInteraction	2018-03-02T22:26:32.995Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:26:42.443Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	/2048080/detail_7543360	1	4
+SearchInteraction	2018-03-02T22:27:34.447Z	dc43483393180c67a079f1f1d580ee7f	DATA_PROVIDER:"Istituto per la Storia del Risorgimento Italiano"		30586
+SearchInteraction	2018-03-02T22:27:48.112Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:28:41.671Z	dc43483393180c67a079f1f1d580ee7f	klimno		4
+SearchInteraction	2018-03-02T22:28:57.904Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-03-02T22:29:06.527Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:29:13.199Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	/20480101/351141	1	1
+ArbitraryAccessInteraction	2018-03-02T22:30:11.675Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/398048.html (PortalController#show)
+SearchInteraction	2018-03-02T22:43:44.078Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RefreshOrPaginationInteraction	2018-03-02T22:44:26.142Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RankedRetrieveRecordInteraction	2018-03-02T22:45:20.653Z	dc43483393180c67a079f1f1d580ee7f	fiume		/9200457/BibliographicResource_3000141256394	46	9365
+SearchInteraction	2018-03-02T22:46:30.277Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RankedRetrieveRecordInteraction	2018-03-02T22:48:00.703Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	/9200352/_object_info_id_22392	48	5803
+SearchInteraction	2018-03-02T22:50:14.651Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:50:52.295Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:52:34.578Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:55:07.054Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+SearchInteraction	2018-03-02T22:55:48.326Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-02T22:56:03.675Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+RefreshOrPaginationInteraction	2018-03-02T22:57:49.740Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+SearchInteraction	2018-03-02T21:34:17.735Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	139
+SearchInteraction	2018-03-02T21:34:27.296Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:34:41.088Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+SearchInteraction	2018-03-02T21:34:48.458Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky']}	3
+SearchInteraction	2018-03-02T21:34:55.942Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:35:03.654Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	/20480101/351141	4	4
+SearchInteraction	2018-03-02T21:37:57.391Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	76571
+SearchInteraction	2018-03-02T21:38:08.424Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	0
+SearchInteraction	2018-03-02T21:38:13.356Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	2
+CollectionFilterAdditionInteraction	2018-03-02T21:38:38.452Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:38:49.802Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:00.922Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:09.227Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+CollectionFilterRemovalInteraction	2018-03-02T21:39:24.220Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:39:30.158Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	/20480101/351141	4	4
+ArbitraryAccessInteraction	2018-03-02T21:40:09.949Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410458.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T21:40:46.171Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410439.html (PortalController#show)
+SearchInteraction	2018-03-02T21:43:51.672Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+RefreshOrPaginationInteraction	2018-03-02T21:44:09.622Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+SearchInteraction	2018-03-02T21:44:33.420Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:25:19.247Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti']}	3
+SearchInteraction	2018-03-02T22:25:26.934Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	4
+SearchInteraction	2018-03-02T22:26:32.995Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:26:42.443Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	/2048080/detail_7543360	1	4
+SearchInteraction	2018-03-02T22:27:34.447Z	dc43483393180c67a079f1f1d580ee7f	DATA_PROVIDER:"Istituto per la Storia del Risorgimento Italiano"		30586
+SearchInteraction	2018-03-02T22:27:48.112Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:28:41.671Z	dc43483393180c67a079f1f1d580ee7f	klimno		4
+SearchInteraction	2018-03-02T22:28:57.904Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-03-02T22:29:06.527Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:29:13.199Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	/20480101/351141	1	1
+ArbitraryAccessInteraction	2018-03-02T22:30:11.675Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/398048.html (PortalController#show)
+SearchInteraction	2018-03-02T22:43:44.078Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RefreshOrPaginationInteraction	2018-03-02T22:44:26.142Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RankedRetrieveRecordInteraction	2018-03-02T22:45:20.653Z	dc43483393180c67a079f1f1d580ee7f	fiume		/9200457/BibliographicResource_3000141256394	46	9365
+SearchInteraction	2018-03-02T22:46:30.277Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RankedRetrieveRecordInteraction	2018-03-02T22:48:00.703Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	/9200352/_object_info_id_22392	48	5803
+SearchInteraction	2018-03-02T22:50:14.651Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:50:52.295Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:52:34.578Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:55:07.054Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+SearchInteraction	2018-03-02T22:55:48.326Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-02T22:56:03.675Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+RefreshOrPaginationInteraction	2018-03-02T22:57:49.740Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+SearchInteraction	2018-03-02T21:34:17.735Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	139
+SearchInteraction	2018-03-02T21:34:27.296Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:34:41.088Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa']}	0
+SearchInteraction	2018-03-02T21:34:48.458Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky']}	3
+SearchInteraction	2018-03-02T21:34:55.942Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:35:03.654Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	/20480101/351141	4	4
+SearchInteraction	2018-03-02T21:37:57.391Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	76571
+SearchInteraction	2018-03-02T21:38:08.424Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano']}	0
+SearchInteraction	2018-03-02T21:38:13.356Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	2
+CollectionFilterAdditionInteraction	2018-03-02T21:38:38.452Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+RefreshOrPaginationInteraction	2018-03-02T21:38:49.802Z	dc43483393180c67a079f1f1d580ee7f	dobrigno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:00.922Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+SearchInteraction	2018-03-02T21:39:09.227Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	0
+CollectionFilterRemovalInteraction	2018-03-02T21:39:24.220Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	4
+RankedRetrieveRecordInteraction	2018-03-02T21:39:30.158Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Istituto per la Storia del Risorgimento Italiano', 'Fondazione Luigi Micheletti']}	/20480101/351141	4	4
+ArbitraryAccessInteraction	2018-03-02T21:40:09.949Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410458.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-02T21:40:46.171Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/410439.html (PortalController#show)
+SearchInteraction	2018-03-02T21:43:51.672Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+RefreshOrPaginationInteraction	2018-03-02T21:44:09.622Z	dc43483393180c67a079f1f1d580ee7f	who:(Reparto fotocinematografico dell'Esercito)		65453
+SearchInteraction	2018-03-02T21:44:33.420Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:25:19.247Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti']}	3
+SearchInteraction	2018-03-02T22:25:26.934Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	4
+SearchInteraction	2018-03-02T22:26:32.995Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:26:42.443Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'DATA_PROVIDER': ['Knjižnica Makse Samsa', 'eSbírky', 'Fondazione Luigi Micheletti', 'Istituto per la Storia del Risorgimento Italiano']}	/2048080/detail_7543360	1	4
+SearchInteraction	2018-03-02T22:27:34.447Z	dc43483393180c67a079f1f1d580ee7f	DATA_PROVIDER:"Istituto per la Storia del Risorgimento Italiano"		30586
+SearchInteraction	2018-03-02T22:27:48.112Z	dc43483393180c67a079f1f1d580ee7f	europeana_collectionName:(20480101_Ag_EU_AthenaPlus_Istituto_Resorgimiento)		30586
+SearchInteraction	2018-03-02T22:28:41.671Z	dc43483393180c67a079f1f1d580ee7f	klimno		4
+SearchInteraction	2018-03-02T22:28:57.904Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-03-02T22:29:06.527Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-02T22:29:13.199Z	dc43483393180c67a079f1f1d580ee7f	klimno	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*'], 'TYPE': ['IMAGE']}	/20480101/351141	1	1
+ArbitraryAccessInteraction	2018-03-02T22:30:11.675Z	dc43483393180c67a079f1f1d580ee7f	[200] GET /portal/en/record/20480101/398048.html (PortalController#show)
+SearchInteraction	2018-03-02T22:43:44.078Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RefreshOrPaginationInteraction	2018-03-02T22:44:26.142Z	dc43483393180c67a079f1f1d580ee7f	fiume		9365
+RankedRetrieveRecordInteraction	2018-03-02T22:45:20.653Z	dc43483393180c67a079f1f1d580ee7f	fiume		/9200457/BibliographicResource_3000141256394	46	9365
+SearchInteraction	2018-03-02T22:46:30.277Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RankedRetrieveRecordInteraction	2018-03-02T22:48:00.703Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	/9200352/_object_info_id_22392	48	5803
+SearchInteraction	2018-03-02T22:50:14.651Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:50:52.295Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:52:34.578Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+RefreshOrPaginationInteraction	2018-03-02T22:55:07.054Z	dc43483393180c67a079f1f1d580ee7f	fiume	{'TYPE': ['IMAGE']}	5803
+SearchInteraction	2018-03-02T22:55:48.326Z	dc43483393180c67a079f1f1d580ee7f	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27243938
+SearchInteraction	2018-03-02T22:56:03.675Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719
+RefreshOrPaginationInteraction	2018-03-02T22:57:49.740Z	dc43483393180c67a079f1f1d580ee7f	saline	{'TYPE': ['IMAGE']}	719

@@ -1,0 +1,55 @@
+ArbitraryAccessInteraction	2018-03-10T15:54:52.824Z	f1817a2e26be44442cf7efb91b09354f	[200] GET /portal/it/record/9200332/BibliographicResource_3000095411247.html (PortalController#show)
+SearchInteraction	2018-03-10T17:59:31.601Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		5
+RankedRetrieveRecordInteraction	2018-03-10T18:00:17.147Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/04202/BibliographicResource_3000135697589	5	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:43.440Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000044850673	2	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:48.336Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000135546446	1	5
+SearchInteraction	2018-03-30T09:21:10.115Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum quae supersunt collectio altera		0
+SearchInteraction	2018-03-30T09:21:13.862Z	f1817a2e26be44442cf7efb91b09354f	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T09:21:19.396Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+CollectionFilterAdditionInteraction	2018-03-30T09:21:29.008Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		0
+CollectionFilterRemovalInteraction	2018-03-30T09:21:36.051Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+RefreshOrPaginationInteraction	2018-03-30T09:21:46.676Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+ArbitraryAccessInteraction	2018-03-10T15:54:52.824Z	f1817a2e26be44442cf7efb91b09354f	[200] GET /portal/it/record/9200332/BibliographicResource_3000095411247.html (PortalController#show)
+SearchInteraction	2018-03-10T17:59:31.601Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		5
+RankedRetrieveRecordInteraction	2018-03-10T18:00:17.147Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/04202/BibliographicResource_3000135697589	5	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:43.440Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000044850673	2	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:48.336Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000135546446	1	5
+SearchInteraction	2018-03-30T09:21:10.115Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum quae supersunt collectio altera		0
+SearchInteraction	2018-03-30T09:21:13.862Z	f1817a2e26be44442cf7efb91b09354f	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T09:21:19.396Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+CollectionFilterAdditionInteraction	2018-03-30T09:21:29.008Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		0
+CollectionFilterRemovalInteraction	2018-03-30T09:21:36.051Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+RefreshOrPaginationInteraction	2018-03-30T09:21:46.676Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+ArbitraryAccessInteraction	2018-03-10T15:54:52.824Z	f1817a2e26be44442cf7efb91b09354f	[200] GET /portal/it/record/9200332/BibliographicResource_3000095411247.html (PortalController#show)
+SearchInteraction	2018-03-10T17:59:31.601Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		5
+RankedRetrieveRecordInteraction	2018-03-10T18:00:17.147Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/04202/BibliographicResource_3000135697589	5	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:43.440Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000044850673	2	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:48.336Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000135546446	1	5
+SearchInteraction	2018-03-30T09:21:10.115Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum quae supersunt collectio altera		0
+SearchInteraction	2018-03-30T09:21:13.862Z	f1817a2e26be44442cf7efb91b09354f	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T09:21:19.396Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+CollectionFilterAdditionInteraction	2018-03-30T09:21:29.008Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		0
+CollectionFilterRemovalInteraction	2018-03-30T09:21:36.051Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+RefreshOrPaginationInteraction	2018-03-30T09:21:46.676Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+ArbitraryAccessInteraction	2018-03-10T15:54:52.824Z	f1817a2e26be44442cf7efb91b09354f	[200] GET /portal/it/record/9200332/BibliographicResource_3000095411247.html (PortalController#show)
+SearchInteraction	2018-03-10T17:59:31.601Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		5
+RankedRetrieveRecordInteraction	2018-03-10T18:00:17.147Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/04202/BibliographicResource_3000135697589	5	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:43.440Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000044850673	2	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:48.336Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000135546446	1	5
+SearchInteraction	2018-03-30T09:21:10.115Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum quae supersunt collectio altera		0
+SearchInteraction	2018-03-30T09:21:13.862Z	f1817a2e26be44442cf7efb91b09354f	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T09:21:19.396Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+CollectionFilterAdditionInteraction	2018-03-30T09:21:29.008Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		0
+CollectionFilterRemovalInteraction	2018-03-30T09:21:36.051Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+RefreshOrPaginationInteraction	2018-03-30T09:21:46.676Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+ArbitraryAccessInteraction	2018-03-10T15:54:52.824Z	f1817a2e26be44442cf7efb91b09354f	[200] GET /portal/it/record/9200332/BibliographicResource_3000095411247.html (PortalController#show)
+SearchInteraction	2018-03-10T17:59:31.601Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		5
+RankedRetrieveRecordInteraction	2018-03-10T18:00:17.147Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/04202/BibliographicResource_3000135697589	5	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:43.440Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000044850673	2	5
+RankedRetrieveRecordInteraction	2018-03-10T18:03:48.336Z	f1817a2e26be44442cf7efb91b09354f	Anthologiae Graecae a Constantino Cephala 		/9200386/BibliographicResource_3000135546446	1	5
+SearchInteraction	2018-03-30T09:21:10.115Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum quae supersunt collectio altera		0
+SearchInteraction	2018-03-30T09:21:13.862Z	f1817a2e26be44442cf7efb91b09354f	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T09:21:19.396Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+CollectionFilterAdditionInteraction	2018-03-30T09:21:29.008Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		0
+CollectionFilterRemovalInteraction	2018-03-30T09:21:36.051Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61
+RefreshOrPaginationInteraction	2018-03-30T09:21:46.676Z	f1817a2e26be44442cf7efb91b09354f	Herculanensium voluminum 		61

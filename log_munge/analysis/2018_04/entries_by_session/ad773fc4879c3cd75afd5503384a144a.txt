@@ -1,0 +1,150 @@
+ArbitraryAccessInteraction	2018-02-16T12:30:45.081Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:48.165Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:55.355Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_248610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:58.715Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_249821.html (PortalController#show)
+SearchInteraction	2018-02-16T12:31:33.393Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+SearchInteraction	2018-02-16T12:32:05.834Z	ad773fc4879c3cd75afd5503384a144a	who:(eesnimi: Georg Adolf autor)		0
+ArbitraryAccessInteraction	2018-02-16T12:32:14.544Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:32:22.491Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+SearchInteraction	2018-02-16T12:32:44.174Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:10.572Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_247824	17	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:13.109Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249680	18	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:16.847Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249376	21	57
+SearchInteraction	2018-02-16T12:33:20.091Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:23.673Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248127	26	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:28.828Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248938	31	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:32.171Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_250261	35	57
+SearchInteraction	2018-02-16T12:33:33.944Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:54.483Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249122	37	57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:00.423Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248024	43	57
+SearchInteraction	2018-02-16T12:34:04.552Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:10.912Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248448	54	57
+SearchInteraction	2018-02-16T12:38:02.578Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:38.147Z	ad773fc4879c3cd75afd5503384a144a	Albert Schweitzer		228
+SearchInteraction	2018-02-16T12:38:47.121Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:38:48.413Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:57.541Z	ad773fc4879c3cd75afd5503384a144a	Anton Schweitzer		100
+SearchInteraction	2018-02-16T12:39:35.515Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:36.879Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:37.887Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:39:53.154Z	ad773fc4879c3cd75afd5503384a144a	adolf gustav schweitzer		0
+ArbitraryAccessInteraction	2018-02-16T12:30:45.081Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:48.165Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:55.355Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_248610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:58.715Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_249821.html (PortalController#show)
+SearchInteraction	2018-02-16T12:31:33.393Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+SearchInteraction	2018-02-16T12:32:05.834Z	ad773fc4879c3cd75afd5503384a144a	who:(eesnimi: Georg Adolf autor)		0
+ArbitraryAccessInteraction	2018-02-16T12:32:14.544Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:32:22.491Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+SearchInteraction	2018-02-16T12:32:44.174Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:10.572Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_247824	17	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:13.109Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249680	18	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:16.847Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249376	21	57
+SearchInteraction	2018-02-16T12:33:20.091Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:23.673Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248127	26	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:28.828Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248938	31	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:32.171Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_250261	35	57
+SearchInteraction	2018-02-16T12:33:33.944Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:54.483Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249122	37	57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:00.423Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248024	43	57
+SearchInteraction	2018-02-16T12:34:04.552Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:10.912Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248448	54	57
+SearchInteraction	2018-02-16T12:38:02.578Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:38.147Z	ad773fc4879c3cd75afd5503384a144a	Albert Schweitzer		228
+SearchInteraction	2018-02-16T12:38:47.121Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:38:48.413Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:57.541Z	ad773fc4879c3cd75afd5503384a144a	Anton Schweitzer		100
+SearchInteraction	2018-02-16T12:39:35.515Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:36.879Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:37.887Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:39:53.154Z	ad773fc4879c3cd75afd5503384a144a	adolf gustav schweitzer		0
+ArbitraryAccessInteraction	2018-02-16T12:30:45.081Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:48.165Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:55.355Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_248610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:58.715Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_249821.html (PortalController#show)
+SearchInteraction	2018-02-16T12:31:33.393Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+SearchInteraction	2018-02-16T12:32:05.834Z	ad773fc4879c3cd75afd5503384a144a	who:(eesnimi: Georg Adolf autor)		0
+ArbitraryAccessInteraction	2018-02-16T12:32:14.544Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:32:22.491Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+SearchInteraction	2018-02-16T12:32:44.174Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:10.572Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_247824	17	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:13.109Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249680	18	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:16.847Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249376	21	57
+SearchInteraction	2018-02-16T12:33:20.091Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:23.673Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248127	26	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:28.828Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248938	31	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:32.171Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_250261	35	57
+SearchInteraction	2018-02-16T12:33:33.944Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:54.483Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249122	37	57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:00.423Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248024	43	57
+SearchInteraction	2018-02-16T12:34:04.552Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:10.912Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248448	54	57
+SearchInteraction	2018-02-16T12:38:02.578Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:38.147Z	ad773fc4879c3cd75afd5503384a144a	Albert Schweitzer		228
+SearchInteraction	2018-02-16T12:38:47.121Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:38:48.413Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:57.541Z	ad773fc4879c3cd75afd5503384a144a	Anton Schweitzer		100
+SearchInteraction	2018-02-16T12:39:35.515Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:36.879Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:37.887Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:39:53.154Z	ad773fc4879c3cd75afd5503384a144a	adolf gustav schweitzer		0
+ArbitraryAccessInteraction	2018-02-16T12:30:45.081Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:48.165Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:55.355Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_248610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:58.715Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_249821.html (PortalController#show)
+SearchInteraction	2018-02-16T12:31:33.393Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+SearchInteraction	2018-02-16T12:32:05.834Z	ad773fc4879c3cd75afd5503384a144a	who:(eesnimi: Georg Adolf autor)		0
+ArbitraryAccessInteraction	2018-02-16T12:32:14.544Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:32:22.491Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+SearchInteraction	2018-02-16T12:32:44.174Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:10.572Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_247824	17	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:13.109Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249680	18	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:16.847Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249376	21	57
+SearchInteraction	2018-02-16T12:33:20.091Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:23.673Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248127	26	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:28.828Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248938	31	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:32.171Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_250261	35	57
+SearchInteraction	2018-02-16T12:33:33.944Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:54.483Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249122	37	57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:00.423Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248024	43	57
+SearchInteraction	2018-02-16T12:34:04.552Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:10.912Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248448	54	57
+SearchInteraction	2018-02-16T12:38:02.578Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:38.147Z	ad773fc4879c3cd75afd5503384a144a	Albert Schweitzer		228
+SearchInteraction	2018-02-16T12:38:47.121Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:38:48.413Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:57.541Z	ad773fc4879c3cd75afd5503384a144a	Anton Schweitzer		100
+SearchInteraction	2018-02-16T12:39:35.515Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:36.879Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:37.887Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:39:53.154Z	ad773fc4879c3cd75afd5503384a144a	adolf gustav schweitzer		0
+ArbitraryAccessInteraction	2018-02-16T12:30:45.081Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:48.165Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:55.355Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_248610.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-16T12:30:58.715Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/record/2023869/museaalView_249821.html (PortalController#show)
+SearchInteraction	2018-02-16T12:31:33.393Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+SearchInteraction	2018-02-16T12:32:05.834Z	ad773fc4879c3cd75afd5503384a144a	who:(eesnimi: Georg Adolf autor)		0
+ArbitraryAccessInteraction	2018-02-16T12:32:14.544Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-16T12:32:22.491Z	ad773fc4879c3cd75afd5503384a144a	[200] GET /portal/ru/explore/people/107700-oskar-hoffmann.html (EntitiesController#show)
+SearchInteraction	2018-02-16T12:32:44.174Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:10.572Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_247824	17	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:13.109Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249680	18	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:16.847Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249376	21	57
+SearchInteraction	2018-02-16T12:33:20.091Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:23.673Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248127	26	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:28.828Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248938	31	57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:32.171Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_250261	35	57
+SearchInteraction	2018-02-16T12:33:33.944Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:33:54.483Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_249122	37	57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:00.423Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248024	43	57
+SearchInteraction	2018-02-16T12:34:04.552Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		57
+RankedRetrieveRecordInteraction	2018-02-16T12:34:10.912Z	ad773fc4879c3cd75afd5503384a144a	proxy_dc_creator: "http://data.europeana.eu/agent/base/107700" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/107700"		/2023869/museaalView_248448	54	57
+SearchInteraction	2018-02-16T12:38:02.578Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:38.147Z	ad773fc4879c3cd75afd5503384a144a	Albert Schweitzer		228
+SearchInteraction	2018-02-16T12:38:47.121Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:38:48.413Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:38:57.541Z	ad773fc4879c3cd75afd5503384a144a	Anton Schweitzer		100
+SearchInteraction	2018-02-16T12:39:35.515Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:36.879Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+RefreshOrPaginationInteraction	2018-02-16T12:39:37.887Z	ad773fc4879c3cd75afd5503384a144a	NO VALUE PROVIDED		51594558
+SearchInteraction	2018-02-16T12:39:53.154Z	ad773fc4879c3cd75afd5503384a144a	adolf gustav schweitzer		0

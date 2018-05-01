@@ -1,0 +1,75 @@
+SearchInteraction	2018-02-08T09:08:26.508Z	89e145959c355d8b1cc8b85ef5450a15	Guercino		749
+SearchInteraction	2018-02-08T09:08:38.984Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-08T09:08:46.168Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:02.671Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:24.248Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+SearchInteraction	2018-02-10T09:03:39.921Z	89e145959c355d8b1cc8b85ef5450a15	John William Waterhouse		7
+SearchInteraction	2018-02-11T10:58:31.849Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà		79
+SearchInteraction	2018-02-11T10:58:43.665Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà	{'REUSABILITY': ['restricted']}	4
+SearchInteraction	2018-02-12T13:01:03.064Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi		99
+SearchInteraction	2018-02-12T13:01:12.477Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	79
+RankedRetrieveRecordInteraction	2018-02-12T13:01:45.250Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	/2064105/Museu_ProvidedCHO_Hallwylska_museet_13271	13	79
+SearchInteraction	2018-02-13T09:14:56.309Z	89e145959c355d8b1cc8b85ef5450a15	pancake		337
+SearchInteraction	2018-02-13T09:15:11.117Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	63
+RankedRetrieveRecordInteraction	2018-02-13T09:15:35.033Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/SK_A_2294	3	63
+RankedRetrieveRecordInteraction	2018-02-13T09:27:03.633Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/RP_T_1948_374	5	63
+SearchInteraction	2018-02-08T09:08:26.508Z	89e145959c355d8b1cc8b85ef5450a15	Guercino		749
+SearchInteraction	2018-02-08T09:08:38.984Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-08T09:08:46.168Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:02.671Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:24.248Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+SearchInteraction	2018-02-10T09:03:39.921Z	89e145959c355d8b1cc8b85ef5450a15	John William Waterhouse		7
+SearchInteraction	2018-02-11T10:58:31.849Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà		79
+SearchInteraction	2018-02-11T10:58:43.665Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà	{'REUSABILITY': ['restricted']}	4
+SearchInteraction	2018-02-12T13:01:03.064Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi		99
+SearchInteraction	2018-02-12T13:01:12.477Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	79
+RankedRetrieveRecordInteraction	2018-02-12T13:01:45.250Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	/2064105/Museu_ProvidedCHO_Hallwylska_museet_13271	13	79
+SearchInteraction	2018-02-13T09:14:56.309Z	89e145959c355d8b1cc8b85ef5450a15	pancake		337
+SearchInteraction	2018-02-13T09:15:11.117Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	63
+RankedRetrieveRecordInteraction	2018-02-13T09:15:35.033Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/SK_A_2294	3	63
+RankedRetrieveRecordInteraction	2018-02-13T09:27:03.633Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/RP_T_1948_374	5	63
+SearchInteraction	2018-02-08T09:08:26.508Z	89e145959c355d8b1cc8b85ef5450a15	Guercino		749
+SearchInteraction	2018-02-08T09:08:38.984Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-08T09:08:46.168Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:02.671Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:24.248Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+SearchInteraction	2018-02-10T09:03:39.921Z	89e145959c355d8b1cc8b85ef5450a15	John William Waterhouse		7
+SearchInteraction	2018-02-11T10:58:31.849Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà		79
+SearchInteraction	2018-02-11T10:58:43.665Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà	{'REUSABILITY': ['restricted']}	4
+SearchInteraction	2018-02-12T13:01:03.064Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi		99
+SearchInteraction	2018-02-12T13:01:12.477Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	79
+RankedRetrieveRecordInteraction	2018-02-12T13:01:45.250Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	/2064105/Museu_ProvidedCHO_Hallwylska_museet_13271	13	79
+SearchInteraction	2018-02-13T09:14:56.309Z	89e145959c355d8b1cc8b85ef5450a15	pancake		337
+SearchInteraction	2018-02-13T09:15:11.117Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	63
+RankedRetrieveRecordInteraction	2018-02-13T09:15:35.033Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/SK_A_2294	3	63
+RankedRetrieveRecordInteraction	2018-02-13T09:27:03.633Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/RP_T_1948_374	5	63
+SearchInteraction	2018-02-08T09:08:26.508Z	89e145959c355d8b1cc8b85ef5450a15	Guercino		749
+SearchInteraction	2018-02-08T09:08:38.984Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-08T09:08:46.168Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:02.671Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:24.248Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+SearchInteraction	2018-02-10T09:03:39.921Z	89e145959c355d8b1cc8b85ef5450a15	John William Waterhouse		7
+SearchInteraction	2018-02-11T10:58:31.849Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà		79
+SearchInteraction	2018-02-11T10:58:43.665Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà	{'REUSABILITY': ['restricted']}	4
+SearchInteraction	2018-02-12T13:01:03.064Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi		99
+SearchInteraction	2018-02-12T13:01:12.477Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	79
+RankedRetrieveRecordInteraction	2018-02-12T13:01:45.250Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	/2064105/Museu_ProvidedCHO_Hallwylska_museet_13271	13	79
+SearchInteraction	2018-02-13T09:14:56.309Z	89e145959c355d8b1cc8b85ef5450a15	pancake		337
+SearchInteraction	2018-02-13T09:15:11.117Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	63
+RankedRetrieveRecordInteraction	2018-02-13T09:15:35.033Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/SK_A_2294	3	63
+RankedRetrieveRecordInteraction	2018-02-13T09:27:03.633Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/RP_T_1948_374	5	63
+SearchInteraction	2018-02-08T09:08:26.508Z	89e145959c355d8b1cc8b85ef5450a15	Guercino		749
+SearchInteraction	2018-02-08T09:08:38.984Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open']}	130
+SearchInteraction	2018-02-08T09:08:46.168Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:02.671Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+RefreshOrPaginationInteraction	2018-02-08T09:09:24.248Z	89e145959c355d8b1cc8b85ef5450a15	Guercino	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	122
+SearchInteraction	2018-02-10T09:03:39.921Z	89e145959c355d8b1cc8b85ef5450a15	John William Waterhouse		7
+SearchInteraction	2018-02-11T10:58:31.849Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà		79
+SearchInteraction	2018-02-11T10:58:43.665Z	89e145959c355d8b1cc8b85ef5450a15	Carlo Carrà	{'REUSABILITY': ['restricted']}	4
+SearchInteraction	2018-02-12T13:01:03.064Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi		99
+SearchInteraction	2018-02-12T13:01:12.477Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	79
+RankedRetrieveRecordInteraction	2018-02-12T13:01:45.250Z	89e145959c355d8b1cc8b85ef5450a15	Michelangelo Cerquozzi	{'REUSABILITY': ['open']}	/2064105/Museu_ProvidedCHO_Hallwylska_museet_13271	13	79
+SearchInteraction	2018-02-13T09:14:56.309Z	89e145959c355d8b1cc8b85ef5450a15	pancake		337
+SearchInteraction	2018-02-13T09:15:11.117Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	63
+RankedRetrieveRecordInteraction	2018-02-13T09:15:35.033Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/SK_A_2294	3	63
+RankedRetrieveRecordInteraction	2018-02-13T09:27:03.633Z	89e145959c355d8b1cc8b85ef5450a15	pancake	{'REUSABILITY': ['open']}	/90402/RP_T_1948_374	5	63

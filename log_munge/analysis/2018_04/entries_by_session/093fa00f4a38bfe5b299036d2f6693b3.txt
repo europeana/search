@@ -1,0 +1,120 @@
+ArbitraryAccessInteraction	2018-02-11T17:45:21.255Z	093fa00f4a38bfe5b299036d2f6693b3	[200] GET /portal/nl/record/2021648/1186_V01215.html (PortalController#show)
+SearchInteraction	2018-02-11T17:46:01.085Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie		8536
+SearchInteraction	2018-02-11T17:46:12.883Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	6147
+CollectionFilterRemovalInteraction	2018-02-11T17:46:38.547Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:05.626Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021650/memorix_742cc73a_eb18_11df_a391_13966e870614	3	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:44.729Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_efe25531_d8f5_48d6_9ed3_d8456db33874	9	67
+RankedRetrieveRecordInteraction	2018-02-11T17:48:46.985Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dbb95e5b_61e9_452a_82d2_8e4d99efee7a	12	67
+SearchInteraction	2018-02-11T17:49:07.680Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:49:16.446Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dad8f473_941a_47bc_a489_e70ef3bdab0f	13	67
+SearchInteraction	2018-02-11T17:49:57.767Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:11.426Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_958e0379_a9fd_4694_9fcc_843fee8c96c4	32	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:46.564Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_9310ecc4_e2f4_4da3_aa3b_b943918d1978	33	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:34.003Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_88e6ac4f_5c6a_474f_a68b_c90e43e5832c	35	67
+SearchInteraction	2018-02-11T17:51:48.381Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:59.967Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_811fa452_e9bc_4f8e_9335_227566e148f9	38	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:00.852Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_6066f229_b4ff_4048_b5f5_24a511969ed0	47	67
+SearchInteraction	2018-02-11T17:53:24.954Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:41.058Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_4a6640d3_cbb4_4180_89a0_7986b45ff59a	53	67
+SearchInteraction	2018-02-11T17:54:28.256Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:54:53.009Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0111f49b_8727_45f3_aa53_69daed85b805	67	67
+RankedRetrieveRecordInteraction	2018-02-11T17:55:07.200Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0a567317_5c90_48f5_b03c_2c7b8f6a3a6a	66	67
+SearchInteraction	2018-02-11T17:55:29.843Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:30.583Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:48.966Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+ArbitraryAccessInteraction	2018-02-11T17:45:21.255Z	093fa00f4a38bfe5b299036d2f6693b3	[200] GET /portal/nl/record/2021648/1186_V01215.html (PortalController#show)
+SearchInteraction	2018-02-11T17:46:01.085Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie		8536
+SearchInteraction	2018-02-11T17:46:12.883Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	6147
+CollectionFilterRemovalInteraction	2018-02-11T17:46:38.547Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:05.626Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021650/memorix_742cc73a_eb18_11df_a391_13966e870614	3	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:44.729Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_efe25531_d8f5_48d6_9ed3_d8456db33874	9	67
+RankedRetrieveRecordInteraction	2018-02-11T17:48:46.985Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dbb95e5b_61e9_452a_82d2_8e4d99efee7a	12	67
+SearchInteraction	2018-02-11T17:49:07.680Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:49:16.446Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dad8f473_941a_47bc_a489_e70ef3bdab0f	13	67
+SearchInteraction	2018-02-11T17:49:57.767Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:11.426Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_958e0379_a9fd_4694_9fcc_843fee8c96c4	32	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:46.564Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_9310ecc4_e2f4_4da3_aa3b_b943918d1978	33	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:34.003Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_88e6ac4f_5c6a_474f_a68b_c90e43e5832c	35	67
+SearchInteraction	2018-02-11T17:51:48.381Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:59.967Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_811fa452_e9bc_4f8e_9335_227566e148f9	38	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:00.852Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_6066f229_b4ff_4048_b5f5_24a511969ed0	47	67
+SearchInteraction	2018-02-11T17:53:24.954Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:41.058Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_4a6640d3_cbb4_4180_89a0_7986b45ff59a	53	67
+SearchInteraction	2018-02-11T17:54:28.256Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:54:53.009Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0111f49b_8727_45f3_aa53_69daed85b805	67	67
+RankedRetrieveRecordInteraction	2018-02-11T17:55:07.200Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0a567317_5c90_48f5_b03c_2c7b8f6a3a6a	66	67
+SearchInteraction	2018-02-11T17:55:29.843Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:30.583Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:48.966Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+ArbitraryAccessInteraction	2018-02-11T17:45:21.255Z	093fa00f4a38bfe5b299036d2f6693b3	[200] GET /portal/nl/record/2021648/1186_V01215.html (PortalController#show)
+SearchInteraction	2018-02-11T17:46:01.085Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie		8536
+SearchInteraction	2018-02-11T17:46:12.883Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	6147
+CollectionFilterRemovalInteraction	2018-02-11T17:46:38.547Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:05.626Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021650/memorix_742cc73a_eb18_11df_a391_13966e870614	3	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:44.729Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_efe25531_d8f5_48d6_9ed3_d8456db33874	9	67
+RankedRetrieveRecordInteraction	2018-02-11T17:48:46.985Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dbb95e5b_61e9_452a_82d2_8e4d99efee7a	12	67
+SearchInteraction	2018-02-11T17:49:07.680Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:49:16.446Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dad8f473_941a_47bc_a489_e70ef3bdab0f	13	67
+SearchInteraction	2018-02-11T17:49:57.767Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:11.426Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_958e0379_a9fd_4694_9fcc_843fee8c96c4	32	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:46.564Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_9310ecc4_e2f4_4da3_aa3b_b943918d1978	33	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:34.003Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_88e6ac4f_5c6a_474f_a68b_c90e43e5832c	35	67
+SearchInteraction	2018-02-11T17:51:48.381Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:59.967Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_811fa452_e9bc_4f8e_9335_227566e148f9	38	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:00.852Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_6066f229_b4ff_4048_b5f5_24a511969ed0	47	67
+SearchInteraction	2018-02-11T17:53:24.954Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:41.058Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_4a6640d3_cbb4_4180_89a0_7986b45ff59a	53	67
+SearchInteraction	2018-02-11T17:54:28.256Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:54:53.009Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0111f49b_8727_45f3_aa53_69daed85b805	67	67
+RankedRetrieveRecordInteraction	2018-02-11T17:55:07.200Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0a567317_5c90_48f5_b03c_2c7b8f6a3a6a	66	67
+SearchInteraction	2018-02-11T17:55:29.843Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:30.583Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:48.966Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+ArbitraryAccessInteraction	2018-02-11T17:45:21.255Z	093fa00f4a38bfe5b299036d2f6693b3	[200] GET /portal/nl/record/2021648/1186_V01215.html (PortalController#show)
+SearchInteraction	2018-02-11T17:46:01.085Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie		8536
+SearchInteraction	2018-02-11T17:46:12.883Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	6147
+CollectionFilterRemovalInteraction	2018-02-11T17:46:38.547Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:05.626Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021650/memorix_742cc73a_eb18_11df_a391_13966e870614	3	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:44.729Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_efe25531_d8f5_48d6_9ed3_d8456db33874	9	67
+RankedRetrieveRecordInteraction	2018-02-11T17:48:46.985Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dbb95e5b_61e9_452a_82d2_8e4d99efee7a	12	67
+SearchInteraction	2018-02-11T17:49:07.680Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:49:16.446Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dad8f473_941a_47bc_a489_e70ef3bdab0f	13	67
+SearchInteraction	2018-02-11T17:49:57.767Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:11.426Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_958e0379_a9fd_4694_9fcc_843fee8c96c4	32	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:46.564Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_9310ecc4_e2f4_4da3_aa3b_b943918d1978	33	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:34.003Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_88e6ac4f_5c6a_474f_a68b_c90e43e5832c	35	67
+SearchInteraction	2018-02-11T17:51:48.381Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:59.967Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_811fa452_e9bc_4f8e_9335_227566e148f9	38	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:00.852Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_6066f229_b4ff_4048_b5f5_24a511969ed0	47	67
+SearchInteraction	2018-02-11T17:53:24.954Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:41.058Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_4a6640d3_cbb4_4180_89a0_7986b45ff59a	53	67
+SearchInteraction	2018-02-11T17:54:28.256Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:54:53.009Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0111f49b_8727_45f3_aa53_69daed85b805	67	67
+RankedRetrieveRecordInteraction	2018-02-11T17:55:07.200Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0a567317_5c90_48f5_b03c_2c7b8f6a3a6a	66	67
+SearchInteraction	2018-02-11T17:55:29.843Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:30.583Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:48.966Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+ArbitraryAccessInteraction	2018-02-11T17:45:21.255Z	093fa00f4a38bfe5b299036d2f6693b3	[200] GET /portal/nl/record/2021648/1186_V01215.html (PortalController#show)
+SearchInteraction	2018-02-11T17:46:01.085Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie		8536
+SearchInteraction	2018-02-11T17:46:12.883Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	6147
+CollectionFilterRemovalInteraction	2018-02-11T17:46:38.547Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:05.626Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021650/memorix_742cc73a_eb18_11df_a391_13966e870614	3	67
+RankedRetrieveRecordInteraction	2018-02-11T17:47:44.729Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_efe25531_d8f5_48d6_9ed3_d8456db33874	9	67
+RankedRetrieveRecordInteraction	2018-02-11T17:48:46.985Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dbb95e5b_61e9_452a_82d2_8e4d99efee7a	12	67
+SearchInteraction	2018-02-11T17:49:07.680Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:49:16.446Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_dad8f473_941a_47bc_a489_e70ef3bdab0f	13	67
+SearchInteraction	2018-02-11T17:49:57.767Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:11.426Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_958e0379_a9fd_4694_9fcc_843fee8c96c4	32	67
+RankedRetrieveRecordInteraction	2018-02-11T17:50:46.564Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_9310ecc4_e2f4_4da3_aa3b_b943918d1978	33	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:34.003Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_88e6ac4f_5c6a_474f_a68b_c90e43e5832c	35	67
+SearchInteraction	2018-02-11T17:51:48.381Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:51:59.967Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_811fa452_e9bc_4f8e_9335_227566e148f9	38	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:00.852Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_6066f229_b4ff_4048_b5f5_24a511969ed0	47	67
+SearchInteraction	2018-02-11T17:53:24.954Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:53:41.058Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_4a6640d3_cbb4_4180_89a0_7986b45ff59a	53	67
+SearchInteraction	2018-02-11T17:54:28.256Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	67
+RankedRetrieveRecordInteraction	2018-02-11T17:54:53.009Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0111f49b_8727_45f3_aa53_69daed85b805	67	67
+RankedRetrieveRecordInteraction	2018-02-11T17:55:07.200Z	093fa00f4a38bfe5b299036d2f6693b3	artillerie	{'COUNTRY': ['netherlands']}	/2021631/afbeelding_0a567317_5c90_48f5_b03c_2c7b8f6a3a6a	66	67
+SearchInteraction	2018-02-11T17:55:29.843Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:30.583Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357
+RefreshOrPaginationInteraction	2018-02-11T17:59:48.966Z	093fa00f4a38bfe5b299036d2f6693b3	zaandam		58357

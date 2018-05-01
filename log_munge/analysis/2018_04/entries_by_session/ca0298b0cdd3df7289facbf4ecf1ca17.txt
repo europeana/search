@@ -1,0 +1,95 @@
+SearchInteraction	2018-02-25T06:35:40.504Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+RefreshOrPaginationInteraction	2018-02-25T06:36:02.055Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+SearchInteraction	2018-02-25T06:36:40.194Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas	{'TYPE': ['TEXT']}	1281
+SearchInteraction	2018-02-25T06:37:04.872Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:37:15.692Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:43.193Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100284877	2	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:51.080Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100246511	4	46
+SearchInteraction	2018-02-25T06:38:32.953Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:38:56.407Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/2022712/lod_oai_gredos_usal_es_10366____47300_ent0	18	46
+SearchInteraction	2018-02-25T06:39:19.500Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RefreshOrPaginationInteraction	2018-02-25T06:40:09.267Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+SearchInteraction	2018-02-25T06:40:57.634Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Demonología -- Obras anteriores a 1800"		11
+SearchInteraction	2018-02-25T06:41:18.067Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Superstición -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:41:27.705Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Alquimia -- Obras anteriores a 1800"		5
+SearchInteraction	2018-02-25T06:41:44.530Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Brujería -- Obras anteriores a 1800"		3
+SearchInteraction	2018-02-25T06:41:56.283Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Magia -- Aspecto religioso -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:43:28.679Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:43:39.814Z	ca0298b0cdd3df7289facbf4ecf1ca17	amor	{'TYPE': ['TEXT']}	8339
+SearchInteraction	2018-02-25T06:44:13.836Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:35:40.504Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+RefreshOrPaginationInteraction	2018-02-25T06:36:02.055Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+SearchInteraction	2018-02-25T06:36:40.194Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas	{'TYPE': ['TEXT']}	1281
+SearchInteraction	2018-02-25T06:37:04.872Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:37:15.692Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:43.193Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100284877	2	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:51.080Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100246511	4	46
+SearchInteraction	2018-02-25T06:38:32.953Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:38:56.407Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/2022712/lod_oai_gredos_usal_es_10366____47300_ent0	18	46
+SearchInteraction	2018-02-25T06:39:19.500Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RefreshOrPaginationInteraction	2018-02-25T06:40:09.267Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+SearchInteraction	2018-02-25T06:40:57.634Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Demonología -- Obras anteriores a 1800"		11
+SearchInteraction	2018-02-25T06:41:18.067Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Superstición -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:41:27.705Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Alquimia -- Obras anteriores a 1800"		5
+SearchInteraction	2018-02-25T06:41:44.530Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Brujería -- Obras anteriores a 1800"		3
+SearchInteraction	2018-02-25T06:41:56.283Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Magia -- Aspecto religioso -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:43:28.679Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:43:39.814Z	ca0298b0cdd3df7289facbf4ecf1ca17	amor	{'TYPE': ['TEXT']}	8339
+SearchInteraction	2018-02-25T06:44:13.836Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:35:40.504Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+RefreshOrPaginationInteraction	2018-02-25T06:36:02.055Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+SearchInteraction	2018-02-25T06:36:40.194Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas	{'TYPE': ['TEXT']}	1281
+SearchInteraction	2018-02-25T06:37:04.872Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:37:15.692Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:43.193Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100284877	2	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:51.080Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100246511	4	46
+SearchInteraction	2018-02-25T06:38:32.953Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:38:56.407Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/2022712/lod_oai_gredos_usal_es_10366____47300_ent0	18	46
+SearchInteraction	2018-02-25T06:39:19.500Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RefreshOrPaginationInteraction	2018-02-25T06:40:09.267Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+SearchInteraction	2018-02-25T06:40:57.634Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Demonología -- Obras anteriores a 1800"		11
+SearchInteraction	2018-02-25T06:41:18.067Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Superstición -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:41:27.705Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Alquimia -- Obras anteriores a 1800"		5
+SearchInteraction	2018-02-25T06:41:44.530Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Brujería -- Obras anteriores a 1800"		3
+SearchInteraction	2018-02-25T06:41:56.283Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Magia -- Aspecto religioso -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:43:28.679Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:43:39.814Z	ca0298b0cdd3df7289facbf4ecf1ca17	amor	{'TYPE': ['TEXT']}	8339
+SearchInteraction	2018-02-25T06:44:13.836Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:35:40.504Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+RefreshOrPaginationInteraction	2018-02-25T06:36:02.055Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+SearchInteraction	2018-02-25T06:36:40.194Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas	{'TYPE': ['TEXT']}	1281
+SearchInteraction	2018-02-25T06:37:04.872Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:37:15.692Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:43.193Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100284877	2	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:51.080Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100246511	4	46
+SearchInteraction	2018-02-25T06:38:32.953Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:38:56.407Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/2022712/lod_oai_gredos_usal_es_10366____47300_ent0	18	46
+SearchInteraction	2018-02-25T06:39:19.500Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RefreshOrPaginationInteraction	2018-02-25T06:40:09.267Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+SearchInteraction	2018-02-25T06:40:57.634Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Demonología -- Obras anteriores a 1800"		11
+SearchInteraction	2018-02-25T06:41:18.067Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Superstición -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:41:27.705Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Alquimia -- Obras anteriores a 1800"		5
+SearchInteraction	2018-02-25T06:41:44.530Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Brujería -- Obras anteriores a 1800"		3
+SearchInteraction	2018-02-25T06:41:56.283Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Magia -- Aspecto religioso -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:43:28.679Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:43:39.814Z	ca0298b0cdd3df7289facbf4ecf1ca17	amor	{'TYPE': ['TEXT']}	8339
+SearchInteraction	2018-02-25T06:44:13.836Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:35:40.504Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+RefreshOrPaginationInteraction	2018-02-25T06:36:02.055Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas		2903
+SearchInteraction	2018-02-25T06:36:40.194Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujas	{'TYPE': ['TEXT']}	1281
+SearchInteraction	2018-02-25T06:37:04.872Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:37:15.692Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:43.193Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100284877	2	46
+RankedRetrieveRecordInteraction	2018-02-25T06:37:51.080Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/9200376/BibliographicResource_3000100246511	4	46
+SearchInteraction	2018-02-25T06:38:32.953Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RankedRetrieveRecordInteraction	2018-02-25T06:38:56.407Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	/2022712/lod_oai_gredos_usal_es_10366____47300_ent0	18	46
+SearchInteraction	2018-02-25T06:39:19.500Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+RefreshOrPaginationInteraction	2018-02-25T06:40:09.267Z	ca0298b0cdd3df7289facbf4ecf1ca17	brujeria	{'TYPE': ['TEXT']}	46
+SearchInteraction	2018-02-25T06:40:57.634Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Demonología -- Obras anteriores a 1800"		11
+SearchInteraction	2018-02-25T06:41:18.067Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Superstición -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:41:27.705Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Alquimia -- Obras anteriores a 1800"		5
+SearchInteraction	2018-02-25T06:41:44.530Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Brujería -- Obras anteriores a 1800"		3
+SearchInteraction	2018-02-25T06:41:56.283Z	ca0298b0cdd3df7289facbf4ecf1ca17	what:"Magia -- Aspecto religioso -- Obras anteriores a 1800"		1
+SearchInteraction	2018-02-25T06:43:28.679Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983
+SearchInteraction	2018-02-25T06:43:39.814Z	ca0298b0cdd3df7289facbf4ecf1ca17	amor	{'TYPE': ['TEXT']}	8339
+SearchInteraction	2018-02-25T06:44:13.836Z	ca0298b0cdd3df7289facbf4ecf1ca17	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22339983

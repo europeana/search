@@ -1,0 +1,350 @@
+RankedRetrieveRecordInteraction	2018-03-09T08:47:16.621Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938889	4	1880
+RankedRetrieveRecordInteraction	2018-03-09T08:48:25.338Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938842	11	1880
+ArbitraryAccessInteraction	2018-03-09T08:58:16.365Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/2048128/10001.html (PortalController#show)
+SearchInteraction	2018-03-09T09:27:57.335Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RefreshOrPaginationInteraction	2018-03-09T09:28:03.345Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:05.801Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938706	38	1880
+SearchInteraction	2018-03-09T09:28:35.435Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:37.353Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938508	74	1880
+ArbitraryAccessInteraction	2018-03-09T10:00:18.301Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:01:02.805Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T10:01:13.179Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99986	2	172469
+ArbitraryAccessInteraction	2018-03-09T10:07:58.398Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:08:43.562Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:49.672Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:52.620Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:56.009Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:02.598Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:10.380Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:16.350Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:20.325Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:23.799Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+SearchInteraction	2018-03-09T10:09:27.964Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+RankedRetrieveRecordInteraction	2018-03-09T10:09:33.375Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	/2064118/90	11	379976
+SearchInteraction	2018-03-09T10:09:54.144Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:57.296Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:59.981Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['SOUND']}	10704
+SearchInteraction	2018-03-09T10:10:03.704Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:10:06.476Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RefreshOrPaginationInteraction	2018-03-09T10:10:09.280Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RankedRetrieveRecordInteraction	2018-03-09T10:10:12.174Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	/2064138/Museu_ProvidedCHO_museum_digital_19313__technical_number_	41	86565
+SearchInteraction	2018-03-09T10:17:20.975Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:17:23.637Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_870337	5	316
+RankedRetrieveRecordInteraction	2018-03-09T10:18:56.237Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_94693	2	316
+SearchInteraction	2018-03-09T10:19:56.287Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:19:59.177Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_865020	26	316
+SearchInteraction	2018-03-09T10:25:30.261Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RefreshOrPaginationInteraction	2018-03-09T10:25:36.296Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:25:40.431Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_86155	40	316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:11.156Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_861908	37	316
+SearchInteraction	2018-03-09T10:26:42.631Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:44.584Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_81841	74	316
+ArbitraryAccessInteraction	2018-03-09T10:30:16.238Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:30:23.678Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+SearchInteraction	2018-03-09T10:35:41.000Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:36:40.092Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930661	2	424
+SearchInteraction	2018-03-09T10:38:09.821Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:13.265Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:16.284Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:19.650Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:23.209Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:26.409Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:31.494Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+SearchInteraction	2018-03-09T10:38:38.330Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*	{'MEDIA': ['true']}	0
+SearchInteraction	2018-03-09T10:38:40.672Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:38:45.671Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930101	4	424
+ArbitraryAccessInteraction	2018-03-09T11:28:01.938Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200134/BibliographicResource_2000000010152.html (PortalController#show)
+SearchInteraction	2018-03-09T11:48:45.746Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:48.988Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_929649	5	424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:57.933Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_927415	11	424
+SearchInteraction	2018-03-09T12:13:50.887Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:34:41.571Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200569*		0
+SearchInteraction	2018-03-09T12:37:28.993Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:37:55.372Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T12:38:03.075Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T12:38:05.684Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/9980	25	172469
+RankedRetrieveRecordInteraction	2018-03-09T12:44:46.673Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99763	35	172469
+SearchInteraction	2018-03-09T13:10:02.459Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T14:02:30.934Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+SearchInteraction	2018-03-09T14:09:58.523Z	509331558746ba453973bf6915e0d3ce	partners		6869
+SearchInteraction	2018-03-09T14:11:35.436Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED	{'PROVIDER': ['CARARE']}	1924660
+RankedRetrieveRecordInteraction	2018-03-09T08:47:16.621Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938889	4	1880
+RankedRetrieveRecordInteraction	2018-03-09T08:48:25.338Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938842	11	1880
+ArbitraryAccessInteraction	2018-03-09T08:58:16.365Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/2048128/10001.html (PortalController#show)
+SearchInteraction	2018-03-09T09:27:57.335Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RefreshOrPaginationInteraction	2018-03-09T09:28:03.345Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:05.801Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938706	38	1880
+SearchInteraction	2018-03-09T09:28:35.435Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:37.353Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938508	74	1880
+ArbitraryAccessInteraction	2018-03-09T10:00:18.301Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:01:02.805Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T10:01:13.179Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99986	2	172469
+ArbitraryAccessInteraction	2018-03-09T10:07:58.398Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:08:43.562Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:49.672Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:52.620Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:56.009Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:02.598Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:10.380Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:16.350Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:20.325Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:23.799Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+SearchInteraction	2018-03-09T10:09:27.964Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+RankedRetrieveRecordInteraction	2018-03-09T10:09:33.375Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	/2064118/90	11	379976
+SearchInteraction	2018-03-09T10:09:54.144Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:57.296Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:59.981Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['SOUND']}	10704
+SearchInteraction	2018-03-09T10:10:03.704Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:10:06.476Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RefreshOrPaginationInteraction	2018-03-09T10:10:09.280Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RankedRetrieveRecordInteraction	2018-03-09T10:10:12.174Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	/2064138/Museu_ProvidedCHO_museum_digital_19313__technical_number_	41	86565
+SearchInteraction	2018-03-09T10:17:20.975Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:17:23.637Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_870337	5	316
+RankedRetrieveRecordInteraction	2018-03-09T10:18:56.237Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_94693	2	316
+SearchInteraction	2018-03-09T10:19:56.287Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:19:59.177Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_865020	26	316
+SearchInteraction	2018-03-09T10:25:30.261Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RefreshOrPaginationInteraction	2018-03-09T10:25:36.296Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:25:40.431Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_86155	40	316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:11.156Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_861908	37	316
+SearchInteraction	2018-03-09T10:26:42.631Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:44.584Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_81841	74	316
+ArbitraryAccessInteraction	2018-03-09T10:30:16.238Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:30:23.678Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+SearchInteraction	2018-03-09T10:35:41.000Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:36:40.092Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930661	2	424
+SearchInteraction	2018-03-09T10:38:09.821Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:13.265Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:16.284Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:19.650Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:23.209Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:26.409Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:31.494Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+SearchInteraction	2018-03-09T10:38:38.330Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*	{'MEDIA': ['true']}	0
+SearchInteraction	2018-03-09T10:38:40.672Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:38:45.671Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930101	4	424
+ArbitraryAccessInteraction	2018-03-09T11:28:01.938Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200134/BibliographicResource_2000000010152.html (PortalController#show)
+SearchInteraction	2018-03-09T11:48:45.746Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:48.988Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_929649	5	424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:57.933Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_927415	11	424
+SearchInteraction	2018-03-09T12:13:50.887Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:34:41.571Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200569*		0
+SearchInteraction	2018-03-09T12:37:28.993Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:37:55.372Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T12:38:03.075Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T12:38:05.684Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/9980	25	172469
+RankedRetrieveRecordInteraction	2018-03-09T12:44:46.673Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99763	35	172469
+SearchInteraction	2018-03-09T13:10:02.459Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T14:02:30.934Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+SearchInteraction	2018-03-09T14:09:58.523Z	509331558746ba453973bf6915e0d3ce	partners		6869
+SearchInteraction	2018-03-09T14:11:35.436Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED	{'PROVIDER': ['CARARE']}	1924660
+RankedRetrieveRecordInteraction	2018-03-09T08:47:16.621Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938889	4	1880
+RankedRetrieveRecordInteraction	2018-03-09T08:48:25.338Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938842	11	1880
+ArbitraryAccessInteraction	2018-03-09T08:58:16.365Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/2048128/10001.html (PortalController#show)
+SearchInteraction	2018-03-09T09:27:57.335Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RefreshOrPaginationInteraction	2018-03-09T09:28:03.345Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:05.801Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938706	38	1880
+SearchInteraction	2018-03-09T09:28:35.435Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:37.353Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938508	74	1880
+ArbitraryAccessInteraction	2018-03-09T10:00:18.301Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:01:02.805Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T10:01:13.179Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99986	2	172469
+ArbitraryAccessInteraction	2018-03-09T10:07:58.398Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:08:43.562Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:49.672Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:52.620Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:56.009Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:02.598Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:10.380Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:16.350Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:20.325Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:23.799Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+SearchInteraction	2018-03-09T10:09:27.964Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+RankedRetrieveRecordInteraction	2018-03-09T10:09:33.375Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	/2064118/90	11	379976
+SearchInteraction	2018-03-09T10:09:54.144Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:57.296Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:59.981Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['SOUND']}	10704
+SearchInteraction	2018-03-09T10:10:03.704Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:10:06.476Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RefreshOrPaginationInteraction	2018-03-09T10:10:09.280Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RankedRetrieveRecordInteraction	2018-03-09T10:10:12.174Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	/2064138/Museu_ProvidedCHO_museum_digital_19313__technical_number_	41	86565
+SearchInteraction	2018-03-09T10:17:20.975Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:17:23.637Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_870337	5	316
+RankedRetrieveRecordInteraction	2018-03-09T10:18:56.237Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_94693	2	316
+SearchInteraction	2018-03-09T10:19:56.287Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:19:59.177Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_865020	26	316
+SearchInteraction	2018-03-09T10:25:30.261Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RefreshOrPaginationInteraction	2018-03-09T10:25:36.296Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:25:40.431Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_86155	40	316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:11.156Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_861908	37	316
+SearchInteraction	2018-03-09T10:26:42.631Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:44.584Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_81841	74	316
+ArbitraryAccessInteraction	2018-03-09T10:30:16.238Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:30:23.678Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+SearchInteraction	2018-03-09T10:35:41.000Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:36:40.092Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930661	2	424
+SearchInteraction	2018-03-09T10:38:09.821Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:13.265Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:16.284Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:19.650Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:23.209Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:26.409Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:31.494Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+SearchInteraction	2018-03-09T10:38:38.330Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*	{'MEDIA': ['true']}	0
+SearchInteraction	2018-03-09T10:38:40.672Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:38:45.671Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930101	4	424
+ArbitraryAccessInteraction	2018-03-09T11:28:01.938Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200134/BibliographicResource_2000000010152.html (PortalController#show)
+SearchInteraction	2018-03-09T11:48:45.746Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:48.988Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_929649	5	424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:57.933Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_927415	11	424
+SearchInteraction	2018-03-09T12:13:50.887Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:34:41.571Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200569*		0
+SearchInteraction	2018-03-09T12:37:28.993Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:37:55.372Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T12:38:03.075Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T12:38:05.684Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/9980	25	172469
+RankedRetrieveRecordInteraction	2018-03-09T12:44:46.673Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99763	35	172469
+SearchInteraction	2018-03-09T13:10:02.459Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T14:02:30.934Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+SearchInteraction	2018-03-09T14:09:58.523Z	509331558746ba453973bf6915e0d3ce	partners		6869
+SearchInteraction	2018-03-09T14:11:35.436Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED	{'PROVIDER': ['CARARE']}	1924660
+RankedRetrieveRecordInteraction	2018-03-09T08:47:16.621Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938889	4	1880
+RankedRetrieveRecordInteraction	2018-03-09T08:48:25.338Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938842	11	1880
+ArbitraryAccessInteraction	2018-03-09T08:58:16.365Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/2048128/10001.html (PortalController#show)
+SearchInteraction	2018-03-09T09:27:57.335Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RefreshOrPaginationInteraction	2018-03-09T09:28:03.345Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:05.801Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938706	38	1880
+SearchInteraction	2018-03-09T09:28:35.435Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:37.353Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938508	74	1880
+ArbitraryAccessInteraction	2018-03-09T10:00:18.301Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:01:02.805Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T10:01:13.179Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99986	2	172469
+ArbitraryAccessInteraction	2018-03-09T10:07:58.398Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:08:43.562Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:49.672Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:52.620Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:56.009Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:02.598Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:10.380Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:16.350Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:20.325Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:23.799Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+SearchInteraction	2018-03-09T10:09:27.964Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+RankedRetrieveRecordInteraction	2018-03-09T10:09:33.375Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	/2064118/90	11	379976
+SearchInteraction	2018-03-09T10:09:54.144Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:57.296Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:59.981Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['SOUND']}	10704
+SearchInteraction	2018-03-09T10:10:03.704Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:10:06.476Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RefreshOrPaginationInteraction	2018-03-09T10:10:09.280Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RankedRetrieveRecordInteraction	2018-03-09T10:10:12.174Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	/2064138/Museu_ProvidedCHO_museum_digital_19313__technical_number_	41	86565
+SearchInteraction	2018-03-09T10:17:20.975Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:17:23.637Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_870337	5	316
+RankedRetrieveRecordInteraction	2018-03-09T10:18:56.237Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_94693	2	316
+SearchInteraction	2018-03-09T10:19:56.287Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:19:59.177Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_865020	26	316
+SearchInteraction	2018-03-09T10:25:30.261Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RefreshOrPaginationInteraction	2018-03-09T10:25:36.296Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:25:40.431Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_86155	40	316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:11.156Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_861908	37	316
+SearchInteraction	2018-03-09T10:26:42.631Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:44.584Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_81841	74	316
+ArbitraryAccessInteraction	2018-03-09T10:30:16.238Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:30:23.678Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+SearchInteraction	2018-03-09T10:35:41.000Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:36:40.092Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930661	2	424
+SearchInteraction	2018-03-09T10:38:09.821Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:13.265Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:16.284Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:19.650Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:23.209Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:26.409Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:31.494Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+SearchInteraction	2018-03-09T10:38:38.330Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*	{'MEDIA': ['true']}	0
+SearchInteraction	2018-03-09T10:38:40.672Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:38:45.671Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930101	4	424
+ArbitraryAccessInteraction	2018-03-09T11:28:01.938Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200134/BibliographicResource_2000000010152.html (PortalController#show)
+SearchInteraction	2018-03-09T11:48:45.746Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:48.988Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_929649	5	424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:57.933Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_927415	11	424
+SearchInteraction	2018-03-09T12:13:50.887Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:34:41.571Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200569*		0
+SearchInteraction	2018-03-09T12:37:28.993Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:37:55.372Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T12:38:03.075Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T12:38:05.684Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/9980	25	172469
+RankedRetrieveRecordInteraction	2018-03-09T12:44:46.673Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99763	35	172469
+SearchInteraction	2018-03-09T13:10:02.459Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T14:02:30.934Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+SearchInteraction	2018-03-09T14:09:58.523Z	509331558746ba453973bf6915e0d3ce	partners		6869
+SearchInteraction	2018-03-09T14:11:35.436Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED	{'PROVIDER': ['CARARE']}	1924660
+RankedRetrieveRecordInteraction	2018-03-09T08:47:16.621Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938889	4	1880
+RankedRetrieveRecordInteraction	2018-03-09T08:48:25.338Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938842	11	1880
+ArbitraryAccessInteraction	2018-03-09T08:58:16.365Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/2048128/10001.html (PortalController#show)
+SearchInteraction	2018-03-09T09:27:57.335Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RefreshOrPaginationInteraction	2018-03-09T09:28:03.345Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:05.801Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938706	38	1880
+SearchInteraction	2018-03-09T09:28:35.435Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		1880
+RankedRetrieveRecordInteraction	2018-03-09T09:28:37.353Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200442*		/9200442/oai_digitool_bibnat_ro_938508	74	1880
+ArbitraryAccessInteraction	2018-03-09T10:00:18.301Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:01:02.805Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T10:01:13.179Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99986	2	172469
+ArbitraryAccessInteraction	2018-03-09T10:07:58.398Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:08:43.562Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:49.672Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:52.620Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+RefreshOrPaginationInteraction	2018-03-09T10:08:56.009Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:02.598Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:10.380Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:16.350Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:20.325Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+RefreshOrPaginationInteraction	2018-03-09T10:09:23.799Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT', 'IMAGE']}	466541
+SearchInteraction	2018-03-09T10:09:27.964Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+RankedRetrieveRecordInteraction	2018-03-09T10:09:33.375Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	/2064118/90	11	379976
+SearchInteraction	2018-03-09T10:09:54.144Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['TEXT']}	379976
+SearchInteraction	2018-03-09T10:09:57.296Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:09:59.981Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['SOUND']}	10704
+SearchInteraction	2018-03-09T10:10:03.704Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*		477411
+SearchInteraction	2018-03-09T10:10:06.476Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RefreshOrPaginationInteraction	2018-03-09T10:10:09.280Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	86565
+RankedRetrieveRecordInteraction	2018-03-09T10:10:12.174Z	509331558746ba453973bf6915e0d3ce	provider_aggregation_edm_intermediateProvider:*	{'TYPE': ['IMAGE']}	/2064138/Museu_ProvidedCHO_museum_digital_19313__technical_number_	41	86565
+SearchInteraction	2018-03-09T10:17:20.975Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:17:23.637Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_870337	5	316
+RankedRetrieveRecordInteraction	2018-03-09T10:18:56.237Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_94693	2	316
+SearchInteraction	2018-03-09T10:19:56.287Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:19:59.177Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_865020	26	316
+SearchInteraction	2018-03-09T10:25:30.261Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RefreshOrPaginationInteraction	2018-03-09T10:25:36.296Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:25:40.431Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_86155	40	316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:11.156Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_861908	37	316
+SearchInteraction	2018-03-09T10:26:42.631Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+RankedRetrieveRecordInteraction	2018-03-09T10:26:44.584Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		/9200460/oai_digitool_bibnat_ro_81841	74	316
+ArbitraryAccessInteraction	2018-03-09T10:30:16.238Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200387/BibliographicResource_3000117269434.html (PortalController#show)
+SearchInteraction	2018-03-09T10:30:23.678Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200460*		316
+SearchInteraction	2018-03-09T10:35:41.000Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:36:40.092Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930661	2	424
+SearchInteraction	2018-03-09T10:38:09.821Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:13.265Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:16.284Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:19.650Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:23.209Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:26.409Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RefreshOrPaginationInteraction	2018-03-09T10:38:31.494Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+SearchInteraction	2018-03-09T10:38:38.330Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*	{'MEDIA': ['true']}	0
+SearchInteraction	2018-03-09T10:38:40.672Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T10:38:45.671Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_930101	4	424
+ArbitraryAccessInteraction	2018-03-09T11:28:01.938Z	509331558746ba453973bf6915e0d3ce	[200] GET /portal/en/record/9200134/BibliographicResource_2000000010152.html (PortalController#show)
+SearchInteraction	2018-03-09T11:48:45.746Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:48.988Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_929649	5	424
+RankedRetrieveRecordInteraction	2018-03-09T11:48:57.933Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200463*		/9200463/oai_digitool_bibnat_ro_927415	11	424
+SearchInteraction	2018-03-09T12:13:50.887Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:34:41.571Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:9200569*		0
+SearchInteraction	2018-03-09T12:37:28.993Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T12:37:55.372Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T12:38:03.075Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RankedRetrieveRecordInteraction	2018-03-09T12:38:05.684Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/9980	25	172469
+RankedRetrieveRecordInteraction	2018-03-09T12:44:46.673Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		/2048128/99763	35	172469
+SearchInteraction	2018-03-09T13:10:02.459Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+RefreshOrPaginationInteraction	2018-03-09T14:02:30.934Z	509331558746ba453973bf6915e0d3ce	europeana_collectionName:2048128*		172469
+SearchInteraction	2018-03-09T14:09:58.523Z	509331558746ba453973bf6915e0d3ce	partners		6869
+SearchInteraction	2018-03-09T14:11:35.436Z	509331558746ba453973bf6915e0d3ce	NO VALUE PROVIDED	{'PROVIDER': ['CARARE']}	1924660

@@ -1,0 +1,780 @@
+SearchInteraction	2018-02-28T13:53:53.505Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+RefreshOrPaginationInteraction	2018-02-28T13:54:00.785Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+SearchInteraction	2018-02-28T13:54:06.268Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'TYPE': ['IMAGE']}	887
+SearchInteraction	2018-02-28T13:54:14.712Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+RefreshOrPaginationInteraction	2018-02-28T13:54:43.554Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+CollectionFilterAdditionInteraction	2018-02-28T13:55:10.609Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-02-28T13:55:19.707Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:25.962Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+CollectionFilterAdditionInteraction	2018-02-28T13:55:53.407Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:56.922Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+SearchInteraction	2018-02-28T14:57:33.215Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		646
+CollectionFilterAdditionInteraction	2018-02-28T14:57:42.374Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		1
+SearchInteraction	2018-02-28T14:58:03.924Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:16.454Z	8929eeeb55a842e54f8802c9fa06b7d8	Eusebio Sempere		0
+SearchInteraction	2018-02-28T14:58:19.626Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:37.815Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	100901
+SearchInteraction	2018-02-28T14:58:53.691Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden	{'COUNTRY': ['germany']}	903
+SearchInteraction	2018-02-28T14:59:26.648Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		1971
+RankedRetrieveRecordInteraction	2018-02-28T14:59:44.875Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/90402/RP_F_1997_88_2	30	1971
+RankedRetrieveRecordInteraction	2018-02-28T15:00:45.748Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/2058610/oai_bvpb_mcu_es_538594	63	1971
+ArbitraryAccessInteraction	2018-02-28T15:11:19.892Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:14:50.262Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:17:19.738Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:24:57.211Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/08562/C40DC8AEC99DD3997539174E61A9A6880A5CDA23.html (PortalController#show)
+SearchInteraction	2018-02-28T15:27:17.232Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		683314
+CollectionFilterAdditionInteraction	2018-02-28T15:27:25.888Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		2609
+SearchInteraction	2018-02-28T15:27:45.262Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T15:28:05.948Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		828
+RankedRetrieveRecordInteraction	2018-02-28T15:28:18.501Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		/92027/BibliographicResource_3000117436998	4	828
+ArbitraryAccessInteraction	2018-02-28T15:30:47.229Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/de/explore/topics/94-architecture.html (EntitiesController#show)
+SearchInteraction	2018-02-28T15:30:48.611Z	8929eeeb55a842e54f8802c9fa06b7d8	what: "http://data.europeana.eu/concept/base/94"		701821
+SearchInteraction	2018-02-28T15:34:23.099Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		2
+RankedRetrieveRecordInteraction	2018-02-28T15:34:27.067Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		/2024909/photography_ProvidedCHO_United_Archives_01823714_jpg	1	2
+SearchInteraction	2018-02-28T15:37:53.470Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		3
+RankedRetrieveRecordInteraction	2018-02-28T15:37:58.593Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		/2058612/object_maeyaert_19061953	2	3
+ArbitraryAccessInteraction	2018-02-28T15:42:51.967Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:43:44.891Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+SearchInteraction	2018-02-28T15:47:47.686Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:47:55.959Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		36
+CollectionFilterRemovalInteraction	2018-02-28T15:48:15.734Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		7
+SearchInteraction	2018-02-28T15:48:21.601Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RefreshOrPaginationInteraction	2018-02-28T15:48:54.647Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RankedRetrieveRecordInteraction	2018-02-28T15:49:13.722Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		/2064108/Museu_ProvidedCHO_Kunstbibliothek__Staatliche_Museen_zu_Berlin_1418452	192	1452
+SearchInteraction	2018-02-28T15:51:05.895Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer cathedral Suchergebnisse Speyerer Dom – Wikipedia		0
+SearchInteraction	2018-02-28T15:51:24.773Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:51:36.164Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:51:50.162Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		6
+SearchInteraction	2018-02-28T15:51:59.115Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:15.478Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:37.572Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:58.985Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:15.646Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:30.322Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:45.640Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:02.732Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:18.698Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:40.017Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+SearchInteraction	2018-02-28T15:55:13.614Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:55:18.527Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+CollectionFilterRemovalInteraction	2018-02-28T15:55:24.145Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		40
+CollectionFilterAdditionInteraction	2018-02-28T15:55:44.551Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+SearchInteraction	2018-02-28T15:55:54.656Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'TYPE': ['IMAGE']}	2119
+SearchInteraction	2018-02-28T15:56:04.808Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:56:24.566Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:56:43.879Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_ede132538d3542e64b369a37c9d1fcdf44e174cc	115	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:04.676Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_80a0dca20a5e13207c9bde01c4d576beb9e8838a	172	1455
+SearchInteraction	2018-02-28T15:57:13.254Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:39.235Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_0112861f21e2d5308c3b159acdc0bbec9a6c0bd6	253	1455
+SearchInteraction	2018-02-28T15:57:46.973Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:14.556Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:27.880Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:50.449Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:13.107Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:33.154Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:59:55.337Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__20584	782	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:06.496Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__205	807	1455
+SearchInteraction	2018-02-28T16:00:27.317Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:45.742Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/15414/niah_search_jsp_type_record_county_LI_regno_21508016	910	1455
+ArbitraryAccessInteraction	2018-02-28T16:01:19.288Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/92023/BibliographicResource_2000068815967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.433Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F16397.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.471Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.525Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_cdbc7cf7fee57dc06893ba8f33946dd980a85a9d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.589Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_c439336ab4c293847c79ee6f3640bff2df9fa4dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_a15796a8078ca880b22e8cd761f2105339034a94.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_8ecb49d2e201e593d563690e82e48469fd7f8018.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.087Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_00e8988031adbd37c4f1c435c6120a23fb1cab0f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.098Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_0a69f58dc2ea20f1303050f20bbba822458b2e2d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.222Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_2692c3425ee1fe37f42bc0709aa2e213843d953a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.336Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f98d931693842d766f6fdd92dedffbd0c5af3ce1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.438Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F01215_AS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.498Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.685Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19502.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.810Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1117.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.214Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/lt/record/2021672/resource_document_mauritshuis_605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.370Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:01.935Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.090Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_YA4GQ55Q2D4B7MDISUAMY3CE3LPC7SIS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.170Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_OPBPJYPXMG7PIJDKC5JGQ2EQIA6TUM5K.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.237Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200137/BibliographicResource_3000053481160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.391Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_F5QTGNO5LATHTQQO3M4DBCHFMI55UXSF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.263Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_00_5348_29.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.280Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048128/124870.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.312Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_353098.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.321Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_1997_31_28.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.382Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345698.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.570Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026104/Partage_Plus_ProvidedCHO_Soprintendenza_alla_Galleria_nazionale_d_arte_moderna_e_contemporanea_1369.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.993Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345429.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.205Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.216Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_6.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.395Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_10.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.661Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6612.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.678Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.684Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7375.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.784Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8147.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.919Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.984Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7303.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.273Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.301Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6525.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.366Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_770.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.420Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6518.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.436Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.587Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_709.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.653Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2022709/oai_fototeca_mcu_es_fototeca_PANDO_PAN_C_004594.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.708Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f8250e7db50219a8a5adafddf51a6e5f8f288b06.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.722Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_efbef1bf2ed42bc1e93f9996e657f0fb6780e08a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.766Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_422580d12305d11988dbca3903b3ae1277886533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:09.083Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_90d18a79865828cee42ea8ea51370b6b4ceb51aa.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:08:43.597Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__68940.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:09:05.617Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67327.html (PortalController#show)
+SearchInteraction	2018-02-28T16:09:32.356Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		1122
+CollectionFilterRemovalInteraction	2018-02-28T16:09:47.203Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		623
+SearchInteraction	2018-02-28T16:09:52.849Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'TYPE': ['IMAGE']}	598
+SearchInteraction	2018-02-28T16:10:04.589Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+RefreshOrPaginationInteraction	2018-02-28T16:10:28.017Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+CollectionFilterAdditionInteraction	2018-02-28T16:23:15.565Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	3
+CollectionFilterRemovalInteraction	2018-02-28T16:23:20.864Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+SearchInteraction	2018-02-28T16:23:25.526Z	8929eeeb55a842e54f8802c9fa06b7d8	church	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	29185
+SearchInteraction	2018-02-28T16:23:28.496Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+SearchInteraction	2018-02-28T16:23:38.984Z	8929eeeb55a842e54f8802c9fa06b7d8	neo-romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	28
+SearchInteraction	2018-02-28T16:23:47.692Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+ArbitraryAccessInteraction	2018-02-28T18:06:56.545Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:10.228Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024907/photography_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Nacional_de_Catalunya_ANC_1_994_N_817.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:32.251Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_Y45LVV76ROCVOMHSJDIXKCM67OF6ZP45.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:59.522Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2064130/Museu_ProvidedCHO_museum_digital_44184__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:18:38.706Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_81f3e9e9ae7394ff0ca676f3b4c2a527f7004364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:21:19.825Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/2058612/object_CHB_8e52c5739502124c106988b111c09370f9a184c0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:05.724Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_550.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:22.767Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_379.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:41.319Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:29:49.611Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:39:11.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:40:26.602Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:41:38.177Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:42:56.085Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:44:08.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:46:57.232Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+SearchInteraction	2018-02-28T13:53:53.505Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+RefreshOrPaginationInteraction	2018-02-28T13:54:00.785Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+SearchInteraction	2018-02-28T13:54:06.268Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'TYPE': ['IMAGE']}	887
+SearchInteraction	2018-02-28T13:54:14.712Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+RefreshOrPaginationInteraction	2018-02-28T13:54:43.554Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+CollectionFilterAdditionInteraction	2018-02-28T13:55:10.609Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-02-28T13:55:19.707Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:25.962Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+CollectionFilterAdditionInteraction	2018-02-28T13:55:53.407Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:56.922Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+SearchInteraction	2018-02-28T14:57:33.215Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		646
+CollectionFilterAdditionInteraction	2018-02-28T14:57:42.374Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		1
+SearchInteraction	2018-02-28T14:58:03.924Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:16.454Z	8929eeeb55a842e54f8802c9fa06b7d8	Eusebio Sempere		0
+SearchInteraction	2018-02-28T14:58:19.626Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:37.815Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	100901
+SearchInteraction	2018-02-28T14:58:53.691Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden	{'COUNTRY': ['germany']}	903
+SearchInteraction	2018-02-28T14:59:26.648Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		1971
+RankedRetrieveRecordInteraction	2018-02-28T14:59:44.875Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/90402/RP_F_1997_88_2	30	1971
+RankedRetrieveRecordInteraction	2018-02-28T15:00:45.748Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/2058610/oai_bvpb_mcu_es_538594	63	1971
+ArbitraryAccessInteraction	2018-02-28T15:11:19.892Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:14:50.262Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:17:19.738Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:24:57.211Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/08562/C40DC8AEC99DD3997539174E61A9A6880A5CDA23.html (PortalController#show)
+SearchInteraction	2018-02-28T15:27:17.232Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		683314
+CollectionFilterAdditionInteraction	2018-02-28T15:27:25.888Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		2609
+SearchInteraction	2018-02-28T15:27:45.262Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T15:28:05.948Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		828
+RankedRetrieveRecordInteraction	2018-02-28T15:28:18.501Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		/92027/BibliographicResource_3000117436998	4	828
+ArbitraryAccessInteraction	2018-02-28T15:30:47.229Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/de/explore/topics/94-architecture.html (EntitiesController#show)
+SearchInteraction	2018-02-28T15:30:48.611Z	8929eeeb55a842e54f8802c9fa06b7d8	what: "http://data.europeana.eu/concept/base/94"		701821
+SearchInteraction	2018-02-28T15:34:23.099Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		2
+RankedRetrieveRecordInteraction	2018-02-28T15:34:27.067Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		/2024909/photography_ProvidedCHO_United_Archives_01823714_jpg	1	2
+SearchInteraction	2018-02-28T15:37:53.470Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		3
+RankedRetrieveRecordInteraction	2018-02-28T15:37:58.593Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		/2058612/object_maeyaert_19061953	2	3
+ArbitraryAccessInteraction	2018-02-28T15:42:51.967Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:43:44.891Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+SearchInteraction	2018-02-28T15:47:47.686Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:47:55.959Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		36
+CollectionFilterRemovalInteraction	2018-02-28T15:48:15.734Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		7
+SearchInteraction	2018-02-28T15:48:21.601Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RefreshOrPaginationInteraction	2018-02-28T15:48:54.647Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RankedRetrieveRecordInteraction	2018-02-28T15:49:13.722Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		/2064108/Museu_ProvidedCHO_Kunstbibliothek__Staatliche_Museen_zu_Berlin_1418452	192	1452
+SearchInteraction	2018-02-28T15:51:05.895Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer cathedral Suchergebnisse Speyerer Dom – Wikipedia		0
+SearchInteraction	2018-02-28T15:51:24.773Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:51:36.164Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:51:50.162Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		6
+SearchInteraction	2018-02-28T15:51:59.115Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:15.478Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:37.572Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:58.985Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:15.646Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:30.322Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:45.640Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:02.732Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:18.698Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:40.017Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+SearchInteraction	2018-02-28T15:55:13.614Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:55:18.527Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+CollectionFilterRemovalInteraction	2018-02-28T15:55:24.145Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		40
+CollectionFilterAdditionInteraction	2018-02-28T15:55:44.551Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+SearchInteraction	2018-02-28T15:55:54.656Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'TYPE': ['IMAGE']}	2119
+SearchInteraction	2018-02-28T15:56:04.808Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:56:24.566Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:56:43.879Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_ede132538d3542e64b369a37c9d1fcdf44e174cc	115	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:04.676Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_80a0dca20a5e13207c9bde01c4d576beb9e8838a	172	1455
+SearchInteraction	2018-02-28T15:57:13.254Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:39.235Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_0112861f21e2d5308c3b159acdc0bbec9a6c0bd6	253	1455
+SearchInteraction	2018-02-28T15:57:46.973Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:14.556Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:27.880Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:50.449Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:13.107Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:33.154Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:59:55.337Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__20584	782	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:06.496Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__205	807	1455
+SearchInteraction	2018-02-28T16:00:27.317Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:45.742Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/15414/niah_search_jsp_type_record_county_LI_regno_21508016	910	1455
+ArbitraryAccessInteraction	2018-02-28T16:01:19.288Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/92023/BibliographicResource_2000068815967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.433Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F16397.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.471Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.525Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_cdbc7cf7fee57dc06893ba8f33946dd980a85a9d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.589Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_c439336ab4c293847c79ee6f3640bff2df9fa4dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_a15796a8078ca880b22e8cd761f2105339034a94.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_8ecb49d2e201e593d563690e82e48469fd7f8018.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.087Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_00e8988031adbd37c4f1c435c6120a23fb1cab0f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.098Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_0a69f58dc2ea20f1303050f20bbba822458b2e2d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.222Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_2692c3425ee1fe37f42bc0709aa2e213843d953a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.336Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f98d931693842d766f6fdd92dedffbd0c5af3ce1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.438Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F01215_AS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.498Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.685Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19502.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.810Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1117.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.214Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/lt/record/2021672/resource_document_mauritshuis_605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.370Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:01.935Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.090Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_YA4GQ55Q2D4B7MDISUAMY3CE3LPC7SIS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.170Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_OPBPJYPXMG7PIJDKC5JGQ2EQIA6TUM5K.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.237Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200137/BibliographicResource_3000053481160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.391Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_F5QTGNO5LATHTQQO3M4DBCHFMI55UXSF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.263Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_00_5348_29.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.280Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048128/124870.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.312Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_353098.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.321Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_1997_31_28.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.382Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345698.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.570Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026104/Partage_Plus_ProvidedCHO_Soprintendenza_alla_Galleria_nazionale_d_arte_moderna_e_contemporanea_1369.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.993Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345429.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.205Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.216Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_6.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.395Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_10.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.661Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6612.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.678Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.684Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7375.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.784Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8147.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.919Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.984Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7303.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.273Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.301Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6525.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.366Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_770.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.420Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6518.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.436Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.587Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_709.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.653Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2022709/oai_fototeca_mcu_es_fototeca_PANDO_PAN_C_004594.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.708Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f8250e7db50219a8a5adafddf51a6e5f8f288b06.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.722Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_efbef1bf2ed42bc1e93f9996e657f0fb6780e08a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.766Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_422580d12305d11988dbca3903b3ae1277886533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:09.083Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_90d18a79865828cee42ea8ea51370b6b4ceb51aa.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:08:43.597Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__68940.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:09:05.617Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67327.html (PortalController#show)
+SearchInteraction	2018-02-28T16:09:32.356Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		1122
+CollectionFilterRemovalInteraction	2018-02-28T16:09:47.203Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		623
+SearchInteraction	2018-02-28T16:09:52.849Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'TYPE': ['IMAGE']}	598
+SearchInteraction	2018-02-28T16:10:04.589Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+RefreshOrPaginationInteraction	2018-02-28T16:10:28.017Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+CollectionFilterAdditionInteraction	2018-02-28T16:23:15.565Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	3
+CollectionFilterRemovalInteraction	2018-02-28T16:23:20.864Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+SearchInteraction	2018-02-28T16:23:25.526Z	8929eeeb55a842e54f8802c9fa06b7d8	church	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	29185
+SearchInteraction	2018-02-28T16:23:28.496Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+SearchInteraction	2018-02-28T16:23:38.984Z	8929eeeb55a842e54f8802c9fa06b7d8	neo-romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	28
+SearchInteraction	2018-02-28T16:23:47.692Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+ArbitraryAccessInteraction	2018-02-28T18:06:56.545Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:10.228Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024907/photography_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Nacional_de_Catalunya_ANC_1_994_N_817.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:32.251Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_Y45LVV76ROCVOMHSJDIXKCM67OF6ZP45.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:59.522Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2064130/Museu_ProvidedCHO_museum_digital_44184__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:18:38.706Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_81f3e9e9ae7394ff0ca676f3b4c2a527f7004364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:21:19.825Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/2058612/object_CHB_8e52c5739502124c106988b111c09370f9a184c0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:05.724Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_550.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:22.767Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_379.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:41.319Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:29:49.611Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:39:11.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:40:26.602Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:41:38.177Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:42:56.085Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:44:08.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:46:57.232Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+SearchInteraction	2018-02-28T13:53:53.505Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+RefreshOrPaginationInteraction	2018-02-28T13:54:00.785Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+SearchInteraction	2018-02-28T13:54:06.268Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'TYPE': ['IMAGE']}	887
+SearchInteraction	2018-02-28T13:54:14.712Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+RefreshOrPaginationInteraction	2018-02-28T13:54:43.554Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+CollectionFilterAdditionInteraction	2018-02-28T13:55:10.609Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-02-28T13:55:19.707Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:25.962Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+CollectionFilterAdditionInteraction	2018-02-28T13:55:53.407Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:56.922Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+SearchInteraction	2018-02-28T14:57:33.215Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		646
+CollectionFilterAdditionInteraction	2018-02-28T14:57:42.374Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		1
+SearchInteraction	2018-02-28T14:58:03.924Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:16.454Z	8929eeeb55a842e54f8802c9fa06b7d8	Eusebio Sempere		0
+SearchInteraction	2018-02-28T14:58:19.626Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:37.815Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	100901
+SearchInteraction	2018-02-28T14:58:53.691Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden	{'COUNTRY': ['germany']}	903
+SearchInteraction	2018-02-28T14:59:26.648Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		1971
+RankedRetrieveRecordInteraction	2018-02-28T14:59:44.875Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/90402/RP_F_1997_88_2	30	1971
+RankedRetrieveRecordInteraction	2018-02-28T15:00:45.748Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/2058610/oai_bvpb_mcu_es_538594	63	1971
+ArbitraryAccessInteraction	2018-02-28T15:11:19.892Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:14:50.262Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:17:19.738Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:24:57.211Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/08562/C40DC8AEC99DD3997539174E61A9A6880A5CDA23.html (PortalController#show)
+SearchInteraction	2018-02-28T15:27:17.232Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		683314
+CollectionFilterAdditionInteraction	2018-02-28T15:27:25.888Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		2609
+SearchInteraction	2018-02-28T15:27:45.262Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T15:28:05.948Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		828
+RankedRetrieveRecordInteraction	2018-02-28T15:28:18.501Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		/92027/BibliographicResource_3000117436998	4	828
+ArbitraryAccessInteraction	2018-02-28T15:30:47.229Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/de/explore/topics/94-architecture.html (EntitiesController#show)
+SearchInteraction	2018-02-28T15:30:48.611Z	8929eeeb55a842e54f8802c9fa06b7d8	what: "http://data.europeana.eu/concept/base/94"		701821
+SearchInteraction	2018-02-28T15:34:23.099Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		2
+RankedRetrieveRecordInteraction	2018-02-28T15:34:27.067Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		/2024909/photography_ProvidedCHO_United_Archives_01823714_jpg	1	2
+SearchInteraction	2018-02-28T15:37:53.470Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		3
+RankedRetrieveRecordInteraction	2018-02-28T15:37:58.593Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		/2058612/object_maeyaert_19061953	2	3
+ArbitraryAccessInteraction	2018-02-28T15:42:51.967Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:43:44.891Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+SearchInteraction	2018-02-28T15:47:47.686Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:47:55.959Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		36
+CollectionFilterRemovalInteraction	2018-02-28T15:48:15.734Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		7
+SearchInteraction	2018-02-28T15:48:21.601Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RefreshOrPaginationInteraction	2018-02-28T15:48:54.647Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RankedRetrieveRecordInteraction	2018-02-28T15:49:13.722Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		/2064108/Museu_ProvidedCHO_Kunstbibliothek__Staatliche_Museen_zu_Berlin_1418452	192	1452
+SearchInteraction	2018-02-28T15:51:05.895Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer cathedral Suchergebnisse Speyerer Dom – Wikipedia		0
+SearchInteraction	2018-02-28T15:51:24.773Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:51:36.164Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:51:50.162Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		6
+SearchInteraction	2018-02-28T15:51:59.115Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:15.478Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:37.572Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:58.985Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:15.646Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:30.322Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:45.640Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:02.732Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:18.698Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:40.017Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+SearchInteraction	2018-02-28T15:55:13.614Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:55:18.527Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+CollectionFilterRemovalInteraction	2018-02-28T15:55:24.145Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		40
+CollectionFilterAdditionInteraction	2018-02-28T15:55:44.551Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+SearchInteraction	2018-02-28T15:55:54.656Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'TYPE': ['IMAGE']}	2119
+SearchInteraction	2018-02-28T15:56:04.808Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:56:24.566Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:56:43.879Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_ede132538d3542e64b369a37c9d1fcdf44e174cc	115	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:04.676Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_80a0dca20a5e13207c9bde01c4d576beb9e8838a	172	1455
+SearchInteraction	2018-02-28T15:57:13.254Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:39.235Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_0112861f21e2d5308c3b159acdc0bbec9a6c0bd6	253	1455
+SearchInteraction	2018-02-28T15:57:46.973Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:14.556Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:27.880Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:50.449Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:13.107Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:33.154Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:59:55.337Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__20584	782	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:06.496Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__205	807	1455
+SearchInteraction	2018-02-28T16:00:27.317Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:45.742Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/15414/niah_search_jsp_type_record_county_LI_regno_21508016	910	1455
+ArbitraryAccessInteraction	2018-02-28T16:01:19.288Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/92023/BibliographicResource_2000068815967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.433Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F16397.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.471Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.525Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_cdbc7cf7fee57dc06893ba8f33946dd980a85a9d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.589Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_c439336ab4c293847c79ee6f3640bff2df9fa4dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_a15796a8078ca880b22e8cd761f2105339034a94.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_8ecb49d2e201e593d563690e82e48469fd7f8018.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.087Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_00e8988031adbd37c4f1c435c6120a23fb1cab0f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.098Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_0a69f58dc2ea20f1303050f20bbba822458b2e2d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.222Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_2692c3425ee1fe37f42bc0709aa2e213843d953a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.336Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f98d931693842d766f6fdd92dedffbd0c5af3ce1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.438Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F01215_AS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.498Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.685Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19502.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.810Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1117.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.214Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/lt/record/2021672/resource_document_mauritshuis_605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.370Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:01.935Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.090Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_YA4GQ55Q2D4B7MDISUAMY3CE3LPC7SIS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.170Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_OPBPJYPXMG7PIJDKC5JGQ2EQIA6TUM5K.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.237Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200137/BibliographicResource_3000053481160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.391Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_F5QTGNO5LATHTQQO3M4DBCHFMI55UXSF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.263Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_00_5348_29.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.280Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048128/124870.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.312Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_353098.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.321Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_1997_31_28.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.382Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345698.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.570Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026104/Partage_Plus_ProvidedCHO_Soprintendenza_alla_Galleria_nazionale_d_arte_moderna_e_contemporanea_1369.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.993Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345429.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.205Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.216Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_6.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.395Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_10.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.661Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6612.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.678Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.684Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7375.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.784Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8147.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.919Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.984Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7303.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.273Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.301Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6525.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.366Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_770.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.420Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6518.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.436Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.587Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_709.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.653Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2022709/oai_fototeca_mcu_es_fototeca_PANDO_PAN_C_004594.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.708Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f8250e7db50219a8a5adafddf51a6e5f8f288b06.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.722Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_efbef1bf2ed42bc1e93f9996e657f0fb6780e08a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.766Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_422580d12305d11988dbca3903b3ae1277886533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:09.083Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_90d18a79865828cee42ea8ea51370b6b4ceb51aa.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:08:43.597Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__68940.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:09:05.617Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67327.html (PortalController#show)
+SearchInteraction	2018-02-28T16:09:32.356Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		1122
+CollectionFilterRemovalInteraction	2018-02-28T16:09:47.203Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		623
+SearchInteraction	2018-02-28T16:09:52.849Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'TYPE': ['IMAGE']}	598
+SearchInteraction	2018-02-28T16:10:04.589Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+RefreshOrPaginationInteraction	2018-02-28T16:10:28.017Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+CollectionFilterAdditionInteraction	2018-02-28T16:23:15.565Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	3
+CollectionFilterRemovalInteraction	2018-02-28T16:23:20.864Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+SearchInteraction	2018-02-28T16:23:25.526Z	8929eeeb55a842e54f8802c9fa06b7d8	church	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	29185
+SearchInteraction	2018-02-28T16:23:28.496Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+SearchInteraction	2018-02-28T16:23:38.984Z	8929eeeb55a842e54f8802c9fa06b7d8	neo-romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	28
+SearchInteraction	2018-02-28T16:23:47.692Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+ArbitraryAccessInteraction	2018-02-28T18:06:56.545Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:10.228Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024907/photography_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Nacional_de_Catalunya_ANC_1_994_N_817.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:32.251Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_Y45LVV76ROCVOMHSJDIXKCM67OF6ZP45.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:59.522Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2064130/Museu_ProvidedCHO_museum_digital_44184__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:18:38.706Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_81f3e9e9ae7394ff0ca676f3b4c2a527f7004364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:21:19.825Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/2058612/object_CHB_8e52c5739502124c106988b111c09370f9a184c0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:05.724Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_550.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:22.767Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_379.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:41.319Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:29:49.611Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:39:11.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:40:26.602Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:41:38.177Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:42:56.085Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:44:08.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:46:57.232Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+SearchInteraction	2018-02-28T13:53:53.505Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+RefreshOrPaginationInteraction	2018-02-28T13:54:00.785Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+SearchInteraction	2018-02-28T13:54:06.268Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'TYPE': ['IMAGE']}	887
+SearchInteraction	2018-02-28T13:54:14.712Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+RefreshOrPaginationInteraction	2018-02-28T13:54:43.554Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+CollectionFilterAdditionInteraction	2018-02-28T13:55:10.609Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-02-28T13:55:19.707Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:25.962Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+CollectionFilterAdditionInteraction	2018-02-28T13:55:53.407Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:56.922Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+SearchInteraction	2018-02-28T14:57:33.215Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		646
+CollectionFilterAdditionInteraction	2018-02-28T14:57:42.374Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		1
+SearchInteraction	2018-02-28T14:58:03.924Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:16.454Z	8929eeeb55a842e54f8802c9fa06b7d8	Eusebio Sempere		0
+SearchInteraction	2018-02-28T14:58:19.626Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:37.815Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	100901
+SearchInteraction	2018-02-28T14:58:53.691Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden	{'COUNTRY': ['germany']}	903
+SearchInteraction	2018-02-28T14:59:26.648Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		1971
+RankedRetrieveRecordInteraction	2018-02-28T14:59:44.875Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/90402/RP_F_1997_88_2	30	1971
+RankedRetrieveRecordInteraction	2018-02-28T15:00:45.748Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/2058610/oai_bvpb_mcu_es_538594	63	1971
+ArbitraryAccessInteraction	2018-02-28T15:11:19.892Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:14:50.262Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:17:19.738Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:24:57.211Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/08562/C40DC8AEC99DD3997539174E61A9A6880A5CDA23.html (PortalController#show)
+SearchInteraction	2018-02-28T15:27:17.232Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		683314
+CollectionFilterAdditionInteraction	2018-02-28T15:27:25.888Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		2609
+SearchInteraction	2018-02-28T15:27:45.262Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T15:28:05.948Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		828
+RankedRetrieveRecordInteraction	2018-02-28T15:28:18.501Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		/92027/BibliographicResource_3000117436998	4	828
+ArbitraryAccessInteraction	2018-02-28T15:30:47.229Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/de/explore/topics/94-architecture.html (EntitiesController#show)
+SearchInteraction	2018-02-28T15:30:48.611Z	8929eeeb55a842e54f8802c9fa06b7d8	what: "http://data.europeana.eu/concept/base/94"		701821
+SearchInteraction	2018-02-28T15:34:23.099Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		2
+RankedRetrieveRecordInteraction	2018-02-28T15:34:27.067Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		/2024909/photography_ProvidedCHO_United_Archives_01823714_jpg	1	2
+SearchInteraction	2018-02-28T15:37:53.470Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		3
+RankedRetrieveRecordInteraction	2018-02-28T15:37:58.593Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		/2058612/object_maeyaert_19061953	2	3
+ArbitraryAccessInteraction	2018-02-28T15:42:51.967Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:43:44.891Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+SearchInteraction	2018-02-28T15:47:47.686Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:47:55.959Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		36
+CollectionFilterRemovalInteraction	2018-02-28T15:48:15.734Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		7
+SearchInteraction	2018-02-28T15:48:21.601Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RefreshOrPaginationInteraction	2018-02-28T15:48:54.647Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RankedRetrieveRecordInteraction	2018-02-28T15:49:13.722Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		/2064108/Museu_ProvidedCHO_Kunstbibliothek__Staatliche_Museen_zu_Berlin_1418452	192	1452
+SearchInteraction	2018-02-28T15:51:05.895Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer cathedral Suchergebnisse Speyerer Dom – Wikipedia		0
+SearchInteraction	2018-02-28T15:51:24.773Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:51:36.164Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:51:50.162Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		6
+SearchInteraction	2018-02-28T15:51:59.115Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:15.478Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:37.572Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:58.985Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:15.646Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:30.322Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:45.640Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:02.732Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:18.698Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:40.017Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+SearchInteraction	2018-02-28T15:55:13.614Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:55:18.527Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+CollectionFilterRemovalInteraction	2018-02-28T15:55:24.145Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		40
+CollectionFilterAdditionInteraction	2018-02-28T15:55:44.551Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+SearchInteraction	2018-02-28T15:55:54.656Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'TYPE': ['IMAGE']}	2119
+SearchInteraction	2018-02-28T15:56:04.808Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:56:24.566Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:56:43.879Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_ede132538d3542e64b369a37c9d1fcdf44e174cc	115	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:04.676Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_80a0dca20a5e13207c9bde01c4d576beb9e8838a	172	1455
+SearchInteraction	2018-02-28T15:57:13.254Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:39.235Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_0112861f21e2d5308c3b159acdc0bbec9a6c0bd6	253	1455
+SearchInteraction	2018-02-28T15:57:46.973Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:14.556Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:27.880Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:50.449Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:13.107Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:33.154Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:59:55.337Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__20584	782	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:06.496Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__205	807	1455
+SearchInteraction	2018-02-28T16:00:27.317Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:45.742Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/15414/niah_search_jsp_type_record_county_LI_regno_21508016	910	1455
+ArbitraryAccessInteraction	2018-02-28T16:01:19.288Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/92023/BibliographicResource_2000068815967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.433Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F16397.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.471Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.525Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_cdbc7cf7fee57dc06893ba8f33946dd980a85a9d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.589Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_c439336ab4c293847c79ee6f3640bff2df9fa4dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_a15796a8078ca880b22e8cd761f2105339034a94.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_8ecb49d2e201e593d563690e82e48469fd7f8018.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.087Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_00e8988031adbd37c4f1c435c6120a23fb1cab0f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.098Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_0a69f58dc2ea20f1303050f20bbba822458b2e2d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.222Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_2692c3425ee1fe37f42bc0709aa2e213843d953a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.336Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f98d931693842d766f6fdd92dedffbd0c5af3ce1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.438Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F01215_AS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.498Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.685Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19502.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.810Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1117.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.214Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/lt/record/2021672/resource_document_mauritshuis_605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.370Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:01.935Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.090Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_YA4GQ55Q2D4B7MDISUAMY3CE3LPC7SIS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.170Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_OPBPJYPXMG7PIJDKC5JGQ2EQIA6TUM5K.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.237Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200137/BibliographicResource_3000053481160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.391Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_F5QTGNO5LATHTQQO3M4DBCHFMI55UXSF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.263Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_00_5348_29.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.280Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048128/124870.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.312Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_353098.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.321Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_1997_31_28.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.382Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345698.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.570Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026104/Partage_Plus_ProvidedCHO_Soprintendenza_alla_Galleria_nazionale_d_arte_moderna_e_contemporanea_1369.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.993Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345429.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.205Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.216Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_6.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.395Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_10.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.661Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6612.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.678Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.684Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7375.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.784Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8147.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.919Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.984Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7303.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.273Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.301Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6525.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.366Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_770.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.420Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6518.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.436Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.587Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_709.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.653Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2022709/oai_fototeca_mcu_es_fototeca_PANDO_PAN_C_004594.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.708Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f8250e7db50219a8a5adafddf51a6e5f8f288b06.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.722Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_efbef1bf2ed42bc1e93f9996e657f0fb6780e08a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.766Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_422580d12305d11988dbca3903b3ae1277886533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:09.083Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_90d18a79865828cee42ea8ea51370b6b4ceb51aa.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:08:43.597Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__68940.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:09:05.617Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67327.html (PortalController#show)
+SearchInteraction	2018-02-28T16:09:32.356Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		1122
+CollectionFilterRemovalInteraction	2018-02-28T16:09:47.203Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		623
+SearchInteraction	2018-02-28T16:09:52.849Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'TYPE': ['IMAGE']}	598
+SearchInteraction	2018-02-28T16:10:04.589Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+RefreshOrPaginationInteraction	2018-02-28T16:10:28.017Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+CollectionFilterAdditionInteraction	2018-02-28T16:23:15.565Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	3
+CollectionFilterRemovalInteraction	2018-02-28T16:23:20.864Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+SearchInteraction	2018-02-28T16:23:25.526Z	8929eeeb55a842e54f8802c9fa06b7d8	church	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	29185
+SearchInteraction	2018-02-28T16:23:28.496Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+SearchInteraction	2018-02-28T16:23:38.984Z	8929eeeb55a842e54f8802c9fa06b7d8	neo-romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	28
+SearchInteraction	2018-02-28T16:23:47.692Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+ArbitraryAccessInteraction	2018-02-28T18:06:56.545Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:10.228Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024907/photography_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Nacional_de_Catalunya_ANC_1_994_N_817.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:32.251Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_Y45LVV76ROCVOMHSJDIXKCM67OF6ZP45.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:59.522Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2064130/Museu_ProvidedCHO_museum_digital_44184__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:18:38.706Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_81f3e9e9ae7394ff0ca676f3b4c2a527f7004364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:21:19.825Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/2058612/object_CHB_8e52c5739502124c106988b111c09370f9a184c0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:05.724Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_550.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:22.767Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_379.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:41.319Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:29:49.611Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:39:11.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:40:26.602Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:41:38.177Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:42:56.085Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:44:08.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:46:57.232Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+SearchInteraction	2018-02-28T13:53:53.505Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+RefreshOrPaginationInteraction	2018-02-28T13:54:00.785Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny		1350
+SearchInteraction	2018-02-28T13:54:06.268Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'TYPE': ['IMAGE']}	887
+SearchInteraction	2018-02-28T13:54:14.712Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+RefreshOrPaginationInteraction	2018-02-28T13:54:43.554Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	303
+CollectionFilterAdditionInteraction	2018-02-28T13:55:10.609Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-02-28T13:55:19.707Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:25.962Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+CollectionFilterAdditionInteraction	2018-02-28T13:55:53.407Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-28T13:55:56.922Z	8929eeeb55a842e54f8802c9fa06b7d8	Cluny	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	70
+SearchInteraction	2018-02-28T14:57:33.215Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		646
+CollectionFilterAdditionInteraction	2018-02-28T14:57:42.374Z	8929eeeb55a842e54f8802c9fa06b7d8	Semperoper		1
+SearchInteraction	2018-02-28T14:58:03.924Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:16.454Z	8929eeeb55a842e54f8802c9fa06b7d8	Eusebio Sempere		0
+SearchInteraction	2018-02-28T14:58:19.626Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T14:58:37.815Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'COUNTRY': ['germany']}	100901
+SearchInteraction	2018-02-28T14:58:53.691Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden	{'COUNTRY': ['germany']}	903
+SearchInteraction	2018-02-28T14:59:26.648Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		1971
+RankedRetrieveRecordInteraction	2018-02-28T14:59:44.875Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/90402/RP_F_1997_88_2	30	1971
+RankedRetrieveRecordInteraction	2018-02-28T15:00:45.748Z	8929eeeb55a842e54f8802c9fa06b7d8	dresden		/2058610/oai_bvpb_mcu_es_538594	63	1971
+ArbitraryAccessInteraction	2018-02-28T15:11:19.892Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:14:50.262Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:17:19.738Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:24:57.211Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/08562/C40DC8AEC99DD3997539174E61A9A6880A5CDA23.html (PortalController#show)
+SearchInteraction	2018-02-28T15:27:17.232Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		683314
+CollectionFilterAdditionInteraction	2018-02-28T15:27:25.888Z	8929eeeb55a842e54f8802c9fa06b7d8	wien		2609
+SearchInteraction	2018-02-28T15:27:45.262Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-02-28T15:28:05.948Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		828
+RankedRetrieveRecordInteraction	2018-02-28T15:28:18.501Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		/92027/BibliographicResource_3000117436998	4	828
+ArbitraryAccessInteraction	2018-02-28T15:30:47.229Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/de/explore/topics/94-architecture.html (EntitiesController#show)
+SearchInteraction	2018-02-28T15:30:48.611Z	8929eeeb55a842e54f8802c9fa06b7d8	what: "http://data.europeana.eu/concept/base/94"		701821
+SearchInteraction	2018-02-28T15:34:23.099Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		2
+RankedRetrieveRecordInteraction	2018-02-28T15:34:27.067Z	8929eeeb55a842e54f8802c9fa06b7d8	Springbrunnen auf dem Petersplatz vor dem Petersdom in Rom, Italien 1920er Jahre. Fountain on St. Peter's square in front of St. Peter's cathedral at Rome, Italy 1920s.		/2024909/photography_ProvidedCHO_United_Archives_01823714_jpg	1	2
+SearchInteraction	2018-02-28T15:37:53.470Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		3
+RankedRetrieveRecordInteraction	2018-02-28T15:37:58.593Z	8929eeeb55a842e54f8802c9fa06b7d8	Cultural heritage|Cathedral; Europe|United Kingdom|Wells		/2058612/object_maeyaert_19061953	2	3
+ArbitraryAccessInteraction	2018-02-28T15:42:51.967Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T15:43:44.891Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+SearchInteraction	2018-02-28T15:47:47.686Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:47:55.959Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		36
+CollectionFilterRemovalInteraction	2018-02-28T15:48:15.734Z	8929eeeb55a842e54f8802c9fa06b7d8	Speyer		7
+SearchInteraction	2018-02-28T15:48:21.601Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RefreshOrPaginationInteraction	2018-02-28T15:48:54.647Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		1452
+RankedRetrieveRecordInteraction	2018-02-28T15:49:13.722Z	8929eeeb55a842e54f8802c9fa06b7d8	Dom		/2064108/Museu_ProvidedCHO_Kunstbibliothek__Staatliche_Museen_zu_Berlin_1418452	192	1452
+SearchInteraction	2018-02-28T15:51:05.895Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer cathedral Suchergebnisse Speyerer Dom – Wikipedia		0
+SearchInteraction	2018-02-28T15:51:24.773Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:51:36.164Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		3358
+CollectionFilterRemovalInteraction	2018-02-28T15:51:50.162Z	8929eeeb55a842e54f8802c9fa06b7d8	speyer		6
+SearchInteraction	2018-02-28T15:51:59.115Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:15.478Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:37.572Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:52:58.985Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:15.646Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:30.322Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:53:45.640Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:02.732Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:18.698Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+RefreshOrPaginationInteraction	2018-02-28T15:54:40.017Z	8929eeeb55a842e54f8802c9fa06b7d8	cathedral		16109
+SearchInteraction	2018-02-28T15:55:13.614Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED		51553115
+SearchInteraction	2018-02-28T15:55:18.527Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+CollectionFilterRemovalInteraction	2018-02-28T15:55:24.145Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		40
+CollectionFilterAdditionInteraction	2018-02-28T15:55:44.551Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque		3198
+SearchInteraction	2018-02-28T15:55:54.656Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'TYPE': ['IMAGE']}	2119
+SearchInteraction	2018-02-28T15:56:04.808Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:56:24.566Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:56:43.879Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_ede132538d3542e64b369a37c9d1fcdf44e174cc	115	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:04.676Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_80a0dca20a5e13207c9bde01c4d576beb9e8838a	172	1455
+SearchInteraction	2018-02-28T15:57:13.254Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:57:39.235Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2058612/object_CHB_0112861f21e2d5308c3b159acdc0bbec9a6c0bd6	253	1455
+SearchInteraction	2018-02-28T15:57:46.973Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:14.556Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:27.880Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:58:50.449Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:13.107Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RefreshOrPaginationInteraction	2018-02-28T15:59:33.154Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T15:59:55.337Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__20584	782	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:06.496Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__205	807	1455
+SearchInteraction	2018-02-28T16:00:27.317Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	1455
+RankedRetrieveRecordInteraction	2018-02-28T16:00:45.742Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/15414/niah_search_jsp_type_record_county_LI_regno_21508016	910	1455
+ArbitraryAccessInteraction	2018-02-28T16:01:19.288Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/92023/BibliographicResource_2000068815967.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.433Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F16397.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.471Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.525Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_cdbc7cf7fee57dc06893ba8f33946dd980a85a9d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.589Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_c439336ab4c293847c79ee6f3640bff2df9fa4dc.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_a15796a8078ca880b22e8cd761f2105339034a94.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:19.898Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_8ecb49d2e201e593d563690e82e48469fd7f8018.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.087Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_00e8988031adbd37c4f1c435c6120a23fb1cab0f.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.098Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_0a69f58dc2ea20f1303050f20bbba822458b2e2d.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.222Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_2692c3425ee1fe37f42bc0709aa2e213843d953a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.336Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f98d931693842d766f6fdd92dedffbd0c5af3ce1.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.438Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_F01215_AS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.498Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.685Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19502.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:20.810Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1117.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.214Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/lt/record/2021672/resource_document_mauritshuis_605.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:01:21.370Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/cs/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__19500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:01.935Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.090Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_YA4GQ55Q2D4B7MDISUAMY3CE3LPC7SIS.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.170Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_OPBPJYPXMG7PIJDKC5JGQ2EQIA6TUM5K.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.237Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200137/BibliographicResource_3000053481160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:02.391Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_F5QTGNO5LATHTQQO3M4DBCHFMI55UXSF.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.263Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_00_5348_29.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.280Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048128/124870.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.312Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_353098.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.321Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/90402/RP_F_1997_31_28.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.382Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345698.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.570Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026104/Partage_Plus_ProvidedCHO_Soprintendenza_alla_Galleria_nazionale_d_arte_moderna_e_contemporanea_1369.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:03.993Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_345429.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.205Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.216Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_6.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:04.395Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_81685_10.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.661Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6612.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.678Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.684Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7375.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.784Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8147.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.919Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_8039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:06.984Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_7303.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.273Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_775.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.301Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6525.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.366Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_770.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:07.420Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/9200495/yoolib_inha_6518.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.436Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.587Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_709.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.653Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2022709/oai_fototeca_mcu_es_fototeca_PANDO_PAN_C_004594.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.708Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_f8250e7db50219a8a5adafddf51a6e5f8f288b06.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.722Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_efbef1bf2ed42bc1e93f9996e657f0fb6780e08a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:08.766Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_422580d12305d11988dbca3903b3ae1277886533.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:03:09.083Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_90d18a79865828cee42ea8ea51370b6b4ceb51aa.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:08:43.597Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__68940.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T16:09:05.617Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67327.html (PortalController#show)
+SearchInteraction	2018-02-28T16:09:32.356Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		1122
+CollectionFilterRemovalInteraction	2018-02-28T16:09:47.203Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art		623
+SearchInteraction	2018-02-28T16:09:52.849Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'TYPE': ['IMAGE']}	598
+SearchInteraction	2018-02-28T16:10:04.589Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+RefreshOrPaginationInteraction	2018-02-28T16:10:28.017Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+CollectionFilterAdditionInteraction	2018-02-28T16:23:15.565Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	3
+CollectionFilterRemovalInteraction	2018-02-28T16:23:20.864Z	8929eeeb55a842e54f8802c9fa06b7d8	Romanesque art	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	541
+SearchInteraction	2018-02-28T16:23:25.526Z	8929eeeb55a842e54f8802c9fa06b7d8	church	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	29185
+SearchInteraction	2018-02-28T16:23:28.496Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+SearchInteraction	2018-02-28T16:23:38.984Z	8929eeeb55a842e54f8802c9fa06b7d8	neo-romanesque	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	28
+SearchInteraction	2018-02-28T16:23:47.692Z	8929eeeb55a842e54f8802c9fa06b7d8	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	7693359
+ArbitraryAccessInteraction	2018-02-28T18:06:56.545Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:10.228Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2024907/photography_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Nacional_de_Catalunya_ANC_1_994_N_817.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:32.251Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048429/item_Y45LVV76ROCVOMHSJDIXKCM67OF6ZP45.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:08:59.522Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2064130/Museu_ProvidedCHO_museum_digital_44184__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:18:38.706Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_81f3e9e9ae7394ff0ca676f3b4c2a527f7004364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:21:19.825Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/es/record/2058612/object_CHB_8e52c5739502124c106988b111c09370f9a184c0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:05.724Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_550.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:22.767Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_379.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:26:41.319Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_765.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:29:49.611Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020732/DR_22.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:39:11.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__1071.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:40:26.602Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_5917.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:41:38.177Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__67350.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:42:56.085Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2026120/Partage_Plus_ProvidedCHO_Aveiro_City_Museum_AN_554.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:44:08.609Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2020704/DR_20408547.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T18:46:57.232Z	8929eeeb55a842e54f8802c9fa06b7d8	[200] GET /portal/en/record/2058612/object_CHB_4ebaa8af973e004421a65e1ab39d7b02bd5fe064.html (PortalController#show)

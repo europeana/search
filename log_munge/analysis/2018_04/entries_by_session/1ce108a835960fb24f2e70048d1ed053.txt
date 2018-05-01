@@ -1,0 +1,115 @@
+ArbitraryAccessInteraction	2018-02-25T14:15:54.591Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:16:24.169Z	1ce108a835960fb24f2e70048d1ed053	Cellonalpe		8
+ArbitraryAccessInteraction	2018-02-25T14:17:28.198Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:17:45.054Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RefreshOrPaginationInteraction	2018-02-25T14:17:59.500Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RankedRetrieveRecordInteraction	2018-02-25T14:18:12.634Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		/92061/BibliographicResource_1000125962659	6	10
+SearchInteraction	2018-02-25T14:18:26.437Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:18:38.709Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+RankedRetrieveRecordInteraction	2018-02-25T14:19:11.079Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		/9200291/bildarchivaustria_at_Preview_15801480	2	23
+SearchInteraction	2018-02-25T14:21:34.872Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+SearchInteraction	2018-02-25T14:22:06.043Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:22:16.002Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:23:29.338Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814049_source	5	93
+RankedRetrieveRecordInteraction	2018-02-25T14:24:23.191Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814038_source	6	93
+SearchInteraction	2018-02-25T14:25:15.863Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:26:37.293Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093800016_source	19	93
+SearchInteraction	2018-02-25T14:27:48.488Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:29:40.552Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000005917834_source	31	93
+SearchInteraction	2018-02-25T14:31:04.237Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:31:49.839Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:32:53.537Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:26.241Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:30.158Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+ArbitraryAccessInteraction	2018-02-25T14:15:54.591Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:16:24.169Z	1ce108a835960fb24f2e70048d1ed053	Cellonalpe		8
+ArbitraryAccessInteraction	2018-02-25T14:17:28.198Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:17:45.054Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RefreshOrPaginationInteraction	2018-02-25T14:17:59.500Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RankedRetrieveRecordInteraction	2018-02-25T14:18:12.634Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		/92061/BibliographicResource_1000125962659	6	10
+SearchInteraction	2018-02-25T14:18:26.437Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:18:38.709Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+RankedRetrieveRecordInteraction	2018-02-25T14:19:11.079Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		/9200291/bildarchivaustria_at_Preview_15801480	2	23
+SearchInteraction	2018-02-25T14:21:34.872Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+SearchInteraction	2018-02-25T14:22:06.043Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:22:16.002Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:23:29.338Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814049_source	5	93
+RankedRetrieveRecordInteraction	2018-02-25T14:24:23.191Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814038_source	6	93
+SearchInteraction	2018-02-25T14:25:15.863Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:26:37.293Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093800016_source	19	93
+SearchInteraction	2018-02-25T14:27:48.488Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:29:40.552Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000005917834_source	31	93
+SearchInteraction	2018-02-25T14:31:04.237Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:31:49.839Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:32:53.537Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:26.241Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:30.158Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+ArbitraryAccessInteraction	2018-02-25T14:15:54.591Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:16:24.169Z	1ce108a835960fb24f2e70048d1ed053	Cellonalpe		8
+ArbitraryAccessInteraction	2018-02-25T14:17:28.198Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:17:45.054Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RefreshOrPaginationInteraction	2018-02-25T14:17:59.500Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RankedRetrieveRecordInteraction	2018-02-25T14:18:12.634Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		/92061/BibliographicResource_1000125962659	6	10
+SearchInteraction	2018-02-25T14:18:26.437Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:18:38.709Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+RankedRetrieveRecordInteraction	2018-02-25T14:19:11.079Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		/9200291/bildarchivaustria_at_Preview_15801480	2	23
+SearchInteraction	2018-02-25T14:21:34.872Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+SearchInteraction	2018-02-25T14:22:06.043Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:22:16.002Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:23:29.338Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814049_source	5	93
+RankedRetrieveRecordInteraction	2018-02-25T14:24:23.191Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814038_source	6	93
+SearchInteraction	2018-02-25T14:25:15.863Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:26:37.293Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093800016_source	19	93
+SearchInteraction	2018-02-25T14:27:48.488Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:29:40.552Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000005917834_source	31	93
+SearchInteraction	2018-02-25T14:31:04.237Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:31:49.839Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:32:53.537Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:26.241Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:30.158Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+ArbitraryAccessInteraction	2018-02-25T14:15:54.591Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:16:24.169Z	1ce108a835960fb24f2e70048d1ed053	Cellonalpe		8
+ArbitraryAccessInteraction	2018-02-25T14:17:28.198Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:17:45.054Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RefreshOrPaginationInteraction	2018-02-25T14:17:59.500Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RankedRetrieveRecordInteraction	2018-02-25T14:18:12.634Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		/92061/BibliographicResource_1000125962659	6	10
+SearchInteraction	2018-02-25T14:18:26.437Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:18:38.709Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+RankedRetrieveRecordInteraction	2018-02-25T14:19:11.079Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		/9200291/bildarchivaustria_at_Preview_15801480	2	23
+SearchInteraction	2018-02-25T14:21:34.872Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+SearchInteraction	2018-02-25T14:22:06.043Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:22:16.002Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:23:29.338Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814049_source	5	93
+RankedRetrieveRecordInteraction	2018-02-25T14:24:23.191Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814038_source	6	93
+SearchInteraction	2018-02-25T14:25:15.863Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:26:37.293Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093800016_source	19	93
+SearchInteraction	2018-02-25T14:27:48.488Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:29:40.552Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000005917834_source	31	93
+SearchInteraction	2018-02-25T14:31:04.237Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:31:49.839Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:32:53.537Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:26.241Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:30.158Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+ArbitraryAccessInteraction	2018-02-25T14:15:54.591Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:16:24.169Z	1ce108a835960fb24f2e70048d1ed053	Cellonalpe		8
+ArbitraryAccessInteraction	2018-02-25T14:17:28.198Z	1ce108a835960fb24f2e70048d1ed053	[200] GET /portal/de/record/9200291/BibliographicResource_3000073504829.html (PortalController#show)
+SearchInteraction	2018-02-25T14:17:45.054Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RefreshOrPaginationInteraction	2018-02-25T14:17:59.500Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		10
+RankedRetrieveRecordInteraction	2018-02-25T14:18:12.634Z	1ce108a835960fb24f2e70048d1ed053	Plöckenpass		/92061/BibliographicResource_1000125962659	6	10
+SearchInteraction	2018-02-25T14:18:26.437Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:18:38.709Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+RankedRetrieveRecordInteraction	2018-02-25T14:19:11.079Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		/9200291/bildarchivaustria_at_Preview_15801480	2	23
+SearchInteraction	2018-02-25T14:21:34.872Z	1ce108a835960fb24f2e70048d1ed053	Freikofel		23
+SearchInteraction	2018-02-25T14:22:06.043Z	1ce108a835960fb24f2e70048d1ed053	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T14:22:16.002Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:23:29.338Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814049_source	5	93
+RankedRetrieveRecordInteraction	2018-02-25T14:24:23.191Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093814038_source	6	93
+SearchInteraction	2018-02-25T14:25:15.863Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:26:37.293Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000093800016_source	19	93
+SearchInteraction	2018-02-25T14:27:48.488Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RankedRetrieveRecordInteraction	2018-02-25T14:29:40.552Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		/9200196/BibliographicResource_3000005917834_source	31	93
+SearchInteraction	2018-02-25T14:31:04.237Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:31:49.839Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:32:53.537Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:26.241Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93
+RefreshOrPaginationInteraction	2018-02-25T14:33:30.158Z	1ce108a835960fb24f2e70048d1ed053	Pal piccolo		93

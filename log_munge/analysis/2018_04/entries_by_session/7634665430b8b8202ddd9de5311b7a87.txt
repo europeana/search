@@ -1,0 +1,75 @@
+SearchInteraction	2018-02-23T18:34:14.166Z	7634665430b8b8202ddd9de5311b7a87	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-23T18:36:57.287Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2167.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:37:24.030Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:38:56.430Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2158.html (PortalController#show)
+SearchInteraction	2018-02-23T18:39:24.560Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+RankedRetrieveRecordInteraction	2018-02-23T18:39:34.426Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18709	7	22
+SearchInteraction	2018-02-23T18:39:51.546Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+SearchInteraction	2018-02-23T18:42:20.006Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+RankedRetrieveRecordInteraction	2018-02-23T18:42:33.761Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194461	7	7
+SearchInteraction	2018-02-23T18:43:13.774Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+SearchInteraction	2018-02-23T18:43:31.451Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterRemovalInteraction	2018-02-23T18:43:50.520Z	7634665430b8b8202ddd9de5311b7a87	dali		3
+CollectionFilterAdditionInteraction	2018-02-23T18:43:56.839Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterAdditionInteraction	2018-02-23T18:44:04.521Z	7634665430b8b8202ddd9de5311b7a87	dali		1
+RankedRetrieveRecordInteraction	2018-02-23T18:44:09.249Z	7634665430b8b8202ddd9de5311b7a87	dali		/2051943/EUS_AA16EB20C6404CA3A923207FDB177CBF	1	1
+SearchInteraction	2018-02-23T18:34:14.166Z	7634665430b8b8202ddd9de5311b7a87	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-23T18:36:57.287Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2167.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:37:24.030Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:38:56.430Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2158.html (PortalController#show)
+SearchInteraction	2018-02-23T18:39:24.560Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+RankedRetrieveRecordInteraction	2018-02-23T18:39:34.426Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18709	7	22
+SearchInteraction	2018-02-23T18:39:51.546Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+SearchInteraction	2018-02-23T18:42:20.006Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+RankedRetrieveRecordInteraction	2018-02-23T18:42:33.761Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194461	7	7
+SearchInteraction	2018-02-23T18:43:13.774Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+SearchInteraction	2018-02-23T18:43:31.451Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterRemovalInteraction	2018-02-23T18:43:50.520Z	7634665430b8b8202ddd9de5311b7a87	dali		3
+CollectionFilterAdditionInteraction	2018-02-23T18:43:56.839Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterAdditionInteraction	2018-02-23T18:44:04.521Z	7634665430b8b8202ddd9de5311b7a87	dali		1
+RankedRetrieveRecordInteraction	2018-02-23T18:44:09.249Z	7634665430b8b8202ddd9de5311b7a87	dali		/2051943/EUS_AA16EB20C6404CA3A923207FDB177CBF	1	1
+SearchInteraction	2018-02-23T18:34:14.166Z	7634665430b8b8202ddd9de5311b7a87	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-23T18:36:57.287Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2167.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:37:24.030Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:38:56.430Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2158.html (PortalController#show)
+SearchInteraction	2018-02-23T18:39:24.560Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+RankedRetrieveRecordInteraction	2018-02-23T18:39:34.426Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18709	7	22
+SearchInteraction	2018-02-23T18:39:51.546Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+SearchInteraction	2018-02-23T18:42:20.006Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+RankedRetrieveRecordInteraction	2018-02-23T18:42:33.761Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194461	7	7
+SearchInteraction	2018-02-23T18:43:13.774Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+SearchInteraction	2018-02-23T18:43:31.451Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterRemovalInteraction	2018-02-23T18:43:50.520Z	7634665430b8b8202ddd9de5311b7a87	dali		3
+CollectionFilterAdditionInteraction	2018-02-23T18:43:56.839Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterAdditionInteraction	2018-02-23T18:44:04.521Z	7634665430b8b8202ddd9de5311b7a87	dali		1
+RankedRetrieveRecordInteraction	2018-02-23T18:44:09.249Z	7634665430b8b8202ddd9de5311b7a87	dali		/2051943/EUS_AA16EB20C6404CA3A923207FDB177CBF	1	1
+SearchInteraction	2018-02-23T18:34:14.166Z	7634665430b8b8202ddd9de5311b7a87	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-23T18:36:57.287Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2167.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:37:24.030Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:38:56.430Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2158.html (PortalController#show)
+SearchInteraction	2018-02-23T18:39:24.560Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+RankedRetrieveRecordInteraction	2018-02-23T18:39:34.426Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18709	7	22
+SearchInteraction	2018-02-23T18:39:51.546Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+SearchInteraction	2018-02-23T18:42:20.006Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+RankedRetrieveRecordInteraction	2018-02-23T18:42:33.761Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194461	7	7
+SearchInteraction	2018-02-23T18:43:13.774Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+SearchInteraction	2018-02-23T18:43:31.451Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterRemovalInteraction	2018-02-23T18:43:50.520Z	7634665430b8b8202ddd9de5311b7a87	dali		3
+CollectionFilterAdditionInteraction	2018-02-23T18:43:56.839Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterAdditionInteraction	2018-02-23T18:44:04.521Z	7634665430b8b8202ddd9de5311b7a87	dali		1
+RankedRetrieveRecordInteraction	2018-02-23T18:44:09.249Z	7634665430b8b8202ddd9de5311b7a87	dali		/2051943/EUS_AA16EB20C6404CA3A923207FDB177CBF	1	1
+SearchInteraction	2018-02-23T18:34:14.166Z	7634665430b8b8202ddd9de5311b7a87	Joan Busquets	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-23T18:36:57.287Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2167.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:37:24.030Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2174.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T18:38:56.430Z	7634665430b8b8202ddd9de5311b7a87	[200] GET /portal/fr/record/2021012/app_si_A_III_2158.html (PortalController#show)
+SearchInteraction	2018-02-23T18:39:24.560Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+RankedRetrieveRecordInteraction	2018-02-23T18:39:34.426Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18709	7	22
+SearchInteraction	2018-02-23T18:39:51.546Z	7634665430b8b8202ddd9de5311b7a87	dc_creator:Hanna Hirsch-Pauli		22
+SearchInteraction	2018-02-23T18:42:20.006Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+RankedRetrieveRecordInteraction	2018-02-23T18:42:33.761Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194461	7	7
+SearchInteraction	2018-02-23T18:43:13.774Z	7634665430b8b8202ddd9de5311b7a87	toulouse lautrec		7
+SearchInteraction	2018-02-23T18:43:31.451Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterRemovalInteraction	2018-02-23T18:43:50.520Z	7634665430b8b8202ddd9de5311b7a87	dali		3
+CollectionFilterAdditionInteraction	2018-02-23T18:43:56.839Z	7634665430b8b8202ddd9de5311b7a87	dali		159
+CollectionFilterAdditionInteraction	2018-02-23T18:44:04.521Z	7634665430b8b8202ddd9de5311b7a87	dali		1
+RankedRetrieveRecordInteraction	2018-02-23T18:44:09.249Z	7634665430b8b8202ddd9de5311b7a87	dali		/2051943/EUS_AA16EB20C6404CA3A923207FDB177CBF	1	1

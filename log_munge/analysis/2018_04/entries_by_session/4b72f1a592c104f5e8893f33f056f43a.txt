@@ -1,0 +1,125 @@
+ArbitraryAccessInteraction	2018-03-04T16:25:06.981Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-03-04T16:28:15.317Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:33.854Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		0
+CollectionFilterRemovalInteraction	2018-03-04T16:28:46.281Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:56.301Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		1
+ArbitraryAccessInteraction	2018-03-04T16:29:25.341Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-03-04T16:30:13.738Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:15.948Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:16.097Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.432Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.650Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:18.788Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:19.101Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:19.742Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:22.773Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:29.284Z	4b72f1a592c104f5e8893f33f056f43a	röll		4848
+SearchInteraction	2018-03-04T16:30:34.601Z	4b72f1a592c104f5e8893f33f056f43a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:30:40.352Z	4b72f1a592c104f5e8893f33f056f43a	röll		69
+SearchInteraction	2018-03-04T16:30:53.136Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:05.556Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:16.752Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+CollectionFilterAdditionInteraction	2018-03-04T16:31:26.578Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RefreshOrPaginationInteraction	2018-03-04T16:31:41.668Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-03-04T16:31:47.953Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	/15601/01E42AE96B86995418054197A131C84B4A874CB5	17	17
+SearchInteraction	2018-03-04T16:31:59.456Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+ArbitraryAccessInteraction	2018-03-04T16:25:06.981Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-03-04T16:28:15.317Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:33.854Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		0
+CollectionFilterRemovalInteraction	2018-03-04T16:28:46.281Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:56.301Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		1
+ArbitraryAccessInteraction	2018-03-04T16:29:25.341Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-03-04T16:30:13.738Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:15.948Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:16.097Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.432Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.650Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:18.788Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:19.101Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:19.742Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:22.773Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:29.284Z	4b72f1a592c104f5e8893f33f056f43a	röll		4848
+SearchInteraction	2018-03-04T16:30:34.601Z	4b72f1a592c104f5e8893f33f056f43a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:30:40.352Z	4b72f1a592c104f5e8893f33f056f43a	röll		69
+SearchInteraction	2018-03-04T16:30:53.136Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:05.556Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:16.752Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+CollectionFilterAdditionInteraction	2018-03-04T16:31:26.578Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RefreshOrPaginationInteraction	2018-03-04T16:31:41.668Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-03-04T16:31:47.953Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	/15601/01E42AE96B86995418054197A131C84B4A874CB5	17	17
+SearchInteraction	2018-03-04T16:31:59.456Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+ArbitraryAccessInteraction	2018-03-04T16:25:06.981Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-03-04T16:28:15.317Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:33.854Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		0
+CollectionFilterRemovalInteraction	2018-03-04T16:28:46.281Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:56.301Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		1
+ArbitraryAccessInteraction	2018-03-04T16:29:25.341Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-03-04T16:30:13.738Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:15.948Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:16.097Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.432Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.650Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:18.788Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:19.101Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:19.742Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:22.773Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:29.284Z	4b72f1a592c104f5e8893f33f056f43a	röll		4848
+SearchInteraction	2018-03-04T16:30:34.601Z	4b72f1a592c104f5e8893f33f056f43a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:30:40.352Z	4b72f1a592c104f5e8893f33f056f43a	röll		69
+SearchInteraction	2018-03-04T16:30:53.136Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:05.556Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:16.752Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+CollectionFilterAdditionInteraction	2018-03-04T16:31:26.578Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RefreshOrPaginationInteraction	2018-03-04T16:31:41.668Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-03-04T16:31:47.953Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	/15601/01E42AE96B86995418054197A131C84B4A874CB5	17	17
+SearchInteraction	2018-03-04T16:31:59.456Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+ArbitraryAccessInteraction	2018-03-04T16:25:06.981Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-03-04T16:28:15.317Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:33.854Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		0
+CollectionFilterRemovalInteraction	2018-03-04T16:28:46.281Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:56.301Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		1
+ArbitraryAccessInteraction	2018-03-04T16:29:25.341Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-03-04T16:30:13.738Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:15.948Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:16.097Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.432Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.650Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:18.788Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:19.101Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:19.742Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:22.773Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:29.284Z	4b72f1a592c104f5e8893f33f056f43a	röll		4848
+SearchInteraction	2018-03-04T16:30:34.601Z	4b72f1a592c104f5e8893f33f056f43a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:30:40.352Z	4b72f1a592c104f5e8893f33f056f43a	röll		69
+SearchInteraction	2018-03-04T16:30:53.136Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:05.556Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:16.752Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+CollectionFilterAdditionInteraction	2018-03-04T16:31:26.578Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RefreshOrPaginationInteraction	2018-03-04T16:31:41.668Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-03-04T16:31:47.953Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	/15601/01E42AE96B86995418054197A131C84B4A874CB5	17	17
+SearchInteraction	2018-03-04T16:31:59.456Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+ArbitraryAccessInteraction	2018-03-04T16:25:06.981Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/about.html (PagesController#show)
+SearchInteraction	2018-03-04T16:28:15.317Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:33.854Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		0
+CollectionFilterRemovalInteraction	2018-03-04T16:28:46.281Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+CollectionFilterAdditionInteraction	2018-03-04T16:28:56.301Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		1
+ArbitraryAccessInteraction	2018-03-04T16:29:25.341Z	4b72f1a592c104f5e8893f33f056f43a	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-03-04T16:30:13.738Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:15.948Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:16.097Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.432Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:17.650Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:18.788Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+RefreshOrPaginationInteraction	2018-03-04T16:30:19.101Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:19.742Z	4b72f1a592c104f5e8893f33f056f43a	röll		22718
+SearchInteraction	2018-03-04T16:30:22.773Z	4b72f1a592c104f5e8893f33f056f43a	zeitungen		2127
+SearchInteraction	2018-03-04T16:30:29.284Z	4b72f1a592c104f5e8893f33f056f43a	röll		4848
+SearchInteraction	2018-03-04T16:30:34.601Z	4b72f1a592c104f5e8893f33f056f43a	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-04T16:30:40.352Z	4b72f1a592c104f5e8893f33f056f43a	röll		69
+SearchInteraction	2018-03-04T16:30:53.136Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:05.556Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+RefreshOrPaginationInteraction	2018-03-04T16:31:16.752Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	65
+CollectionFilterAdditionInteraction	2018-03-04T16:31:26.578Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RefreshOrPaginationInteraction	2018-03-04T16:31:41.668Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17
+RankedRetrieveRecordInteraction	2018-03-04T16:31:47.953Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	/15601/01E42AE96B86995418054197A131C84B4A874CB5	17	17
+SearchInteraction	2018-03-04T16:31:59.456Z	4b72f1a592c104f5e8893f33f056f43a	röll	{'TYPE': ['IMAGE']}	17

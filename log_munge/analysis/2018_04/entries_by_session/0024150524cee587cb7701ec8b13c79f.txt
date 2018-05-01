@@ -1,0 +1,140 @@
+ArbitraryAccessInteraction	2018-02-27T22:53:14.808Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021650/memorix_34ce0676_eb18_11df_a391_13966e870614.html (PortalController#show)
+SearchInteraction	2018-02-27T22:53:27.913Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:39.645Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:52.597Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+CollectionFilterRemovalInteraction	2018-02-27T22:54:09.198Z	0024150524cee587cb7701ec8b13c79f	poolse		42
+SearchInteraction	2018-02-27T22:54:15.864Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:25.511Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021650/memorix_34f1adba_eb18_11df_a391_13966e870614	8	40
+SearchInteraction	2018-02-27T22:54:30.083Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-27T22:54:42.148Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:50.419Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74455	29	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:54.214Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74450	30	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:57.081Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72489	31	40
+RankedRetrieveRecordInteraction	2018-02-27T22:55:05.614Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72103	35	40
+SearchInteraction	2018-02-27T22:55:08.206Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-27T22:56:22.063Z	0024150524cee587cb7701ec8b13c79f	europeana_collectionName:(2021622_Ag_NL_DigitaleCollectie_BBWO2)		85049
+SearchInteraction	2018-02-27T22:56:36.139Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.241Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.286Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+SearchInteraction	2018-02-27T22:56:44.865Z	0024150524cee587cb7701ec8b13c79f	polish		414069
+SearchInteraction	2018-02-27T22:56:50.092Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	129986
+CollectionFilterRemovalInteraction	2018-02-27T22:56:56.239Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+RefreshOrPaginationInteraction	2018-02-27T22:57:06.231Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+SearchInteraction	2018-02-27T22:57:13.923Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+RefreshOrPaginationInteraction	2018-02-27T22:57:19.740Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+ArbitraryAccessInteraction	2018-02-27T22:58:03.471Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72464.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:58:24.892Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72310.html (PortalController#show)
+SearchInteraction	2018-02-27T22:58:46.944Z	0024150524cee587cb7701ec8b13c79f	what:"IMAGE"		3601992
+ArbitraryAccessInteraction	2018-02-27T22:59:41.823Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72297.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:53:14.808Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021650/memorix_34ce0676_eb18_11df_a391_13966e870614.html (PortalController#show)
+SearchInteraction	2018-02-27T22:53:27.913Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:39.645Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:52.597Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+CollectionFilterRemovalInteraction	2018-02-27T22:54:09.198Z	0024150524cee587cb7701ec8b13c79f	poolse		42
+SearchInteraction	2018-02-27T22:54:15.864Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:25.511Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021650/memorix_34f1adba_eb18_11df_a391_13966e870614	8	40
+SearchInteraction	2018-02-27T22:54:30.083Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-27T22:54:42.148Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:50.419Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74455	29	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:54.214Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74450	30	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:57.081Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72489	31	40
+RankedRetrieveRecordInteraction	2018-02-27T22:55:05.614Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72103	35	40
+SearchInteraction	2018-02-27T22:55:08.206Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-27T22:56:22.063Z	0024150524cee587cb7701ec8b13c79f	europeana_collectionName:(2021622_Ag_NL_DigitaleCollectie_BBWO2)		85049
+SearchInteraction	2018-02-27T22:56:36.139Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.241Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.286Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+SearchInteraction	2018-02-27T22:56:44.865Z	0024150524cee587cb7701ec8b13c79f	polish		414069
+SearchInteraction	2018-02-27T22:56:50.092Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	129986
+CollectionFilterRemovalInteraction	2018-02-27T22:56:56.239Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+RefreshOrPaginationInteraction	2018-02-27T22:57:06.231Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+SearchInteraction	2018-02-27T22:57:13.923Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+RefreshOrPaginationInteraction	2018-02-27T22:57:19.740Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+ArbitraryAccessInteraction	2018-02-27T22:58:03.471Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72464.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:58:24.892Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72310.html (PortalController#show)
+SearchInteraction	2018-02-27T22:58:46.944Z	0024150524cee587cb7701ec8b13c79f	what:"IMAGE"		3601992
+ArbitraryAccessInteraction	2018-02-27T22:59:41.823Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72297.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:53:14.808Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021650/memorix_34ce0676_eb18_11df_a391_13966e870614.html (PortalController#show)
+SearchInteraction	2018-02-27T22:53:27.913Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:39.645Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:52.597Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+CollectionFilterRemovalInteraction	2018-02-27T22:54:09.198Z	0024150524cee587cb7701ec8b13c79f	poolse		42
+SearchInteraction	2018-02-27T22:54:15.864Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:25.511Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021650/memorix_34f1adba_eb18_11df_a391_13966e870614	8	40
+SearchInteraction	2018-02-27T22:54:30.083Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-27T22:54:42.148Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:50.419Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74455	29	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:54.214Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74450	30	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:57.081Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72489	31	40
+RankedRetrieveRecordInteraction	2018-02-27T22:55:05.614Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72103	35	40
+SearchInteraction	2018-02-27T22:55:08.206Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-27T22:56:22.063Z	0024150524cee587cb7701ec8b13c79f	europeana_collectionName:(2021622_Ag_NL_DigitaleCollectie_BBWO2)		85049
+SearchInteraction	2018-02-27T22:56:36.139Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.241Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.286Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+SearchInteraction	2018-02-27T22:56:44.865Z	0024150524cee587cb7701ec8b13c79f	polish		414069
+SearchInteraction	2018-02-27T22:56:50.092Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	129986
+CollectionFilterRemovalInteraction	2018-02-27T22:56:56.239Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+RefreshOrPaginationInteraction	2018-02-27T22:57:06.231Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+SearchInteraction	2018-02-27T22:57:13.923Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+RefreshOrPaginationInteraction	2018-02-27T22:57:19.740Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+ArbitraryAccessInteraction	2018-02-27T22:58:03.471Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72464.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:58:24.892Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72310.html (PortalController#show)
+SearchInteraction	2018-02-27T22:58:46.944Z	0024150524cee587cb7701ec8b13c79f	what:"IMAGE"		3601992
+ArbitraryAccessInteraction	2018-02-27T22:59:41.823Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72297.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:53:14.808Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021650/memorix_34ce0676_eb18_11df_a391_13966e870614.html (PortalController#show)
+SearchInteraction	2018-02-27T22:53:27.913Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:39.645Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:52.597Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+CollectionFilterRemovalInteraction	2018-02-27T22:54:09.198Z	0024150524cee587cb7701ec8b13c79f	poolse		42
+SearchInteraction	2018-02-27T22:54:15.864Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:25.511Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021650/memorix_34f1adba_eb18_11df_a391_13966e870614	8	40
+SearchInteraction	2018-02-27T22:54:30.083Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-27T22:54:42.148Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:50.419Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74455	29	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:54.214Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74450	30	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:57.081Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72489	31	40
+RankedRetrieveRecordInteraction	2018-02-27T22:55:05.614Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72103	35	40
+SearchInteraction	2018-02-27T22:55:08.206Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-27T22:56:22.063Z	0024150524cee587cb7701ec8b13c79f	europeana_collectionName:(2021622_Ag_NL_DigitaleCollectie_BBWO2)		85049
+SearchInteraction	2018-02-27T22:56:36.139Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.241Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.286Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+SearchInteraction	2018-02-27T22:56:44.865Z	0024150524cee587cb7701ec8b13c79f	polish		414069
+SearchInteraction	2018-02-27T22:56:50.092Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	129986
+CollectionFilterRemovalInteraction	2018-02-27T22:56:56.239Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+RefreshOrPaginationInteraction	2018-02-27T22:57:06.231Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+SearchInteraction	2018-02-27T22:57:13.923Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+RefreshOrPaginationInteraction	2018-02-27T22:57:19.740Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+ArbitraryAccessInteraction	2018-02-27T22:58:03.471Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72464.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:58:24.892Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72310.html (PortalController#show)
+SearchInteraction	2018-02-27T22:58:46.944Z	0024150524cee587cb7701ec8b13c79f	what:"IMAGE"		3601992
+ArbitraryAccessInteraction	2018-02-27T22:59:41.823Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72297.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:53:14.808Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021650/memorix_34ce0676_eb18_11df_a391_13966e870614.html (PortalController#show)
+SearchInteraction	2018-02-27T22:53:27.913Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:39.645Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+RefreshOrPaginationInteraction	2018-02-27T22:53:52.597Z	0024150524cee587cb7701ec8b13c79f	poolse		1472
+CollectionFilterRemovalInteraction	2018-02-27T22:54:09.198Z	0024150524cee587cb7701ec8b13c79f	poolse		42
+SearchInteraction	2018-02-27T22:54:15.864Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:25.511Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021650/memorix_34f1adba_eb18_11df_a391_13966e870614	8	40
+SearchInteraction	2018-02-27T22:54:30.083Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RefreshOrPaginationInteraction	2018-02-27T22:54:42.148Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:50.419Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74455	29	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:54.214Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_74450	30	40
+RankedRetrieveRecordInteraction	2018-02-27T22:54:57.081Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72489	31	40
+RankedRetrieveRecordInteraction	2018-02-27T22:55:05.614Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	/2021622/detail_no_jsp_action_detail_imid_72103	35	40
+SearchInteraction	2018-02-27T22:55:08.206Z	0024150524cee587cb7701ec8b13c79f	poolse	{'TYPE': ['IMAGE']}	40
+SearchInteraction	2018-02-27T22:56:22.063Z	0024150524cee587cb7701ec8b13c79f	europeana_collectionName:(2021622_Ag_NL_DigitaleCollectie_BBWO2)		85049
+SearchInteraction	2018-02-27T22:56:36.139Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.241Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+RefreshOrPaginationInteraction	2018-02-27T22:56:39.286Z	0024150524cee587cb7701ec8b13c79f	NO VALUE PROVIDED		51598884
+SearchInteraction	2018-02-27T22:56:44.865Z	0024150524cee587cb7701ec8b13c79f	polish		414069
+SearchInteraction	2018-02-27T22:56:50.092Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	129986
+CollectionFilterRemovalInteraction	2018-02-27T22:56:56.239Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+RefreshOrPaginationInteraction	2018-02-27T22:57:06.231Z	0024150524cee587cb7701ec8b13c79f	polish	{'TYPE': ['IMAGE']}	2884
+SearchInteraction	2018-02-27T22:57:13.923Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+RefreshOrPaginationInteraction	2018-02-27T22:57:19.740Z	0024150524cee587cb7701ec8b13c79f	polish	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	2484
+ArbitraryAccessInteraction	2018-02-27T22:58:03.471Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72464.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T22:58:24.892Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72310.html (PortalController#show)
+SearchInteraction	2018-02-27T22:58:46.944Z	0024150524cee587cb7701ec8b13c79f	what:"IMAGE"		3601992
+ArbitraryAccessInteraction	2018-02-27T22:59:41.823Z	0024150524cee587cb7701ec8b13c79f	[200] GET /portal/pl/record/2021622/detail_no_jsp_action_detail_imid_72297.html (PortalController#show)

@@ -1,0 +1,95 @@
+SearchInteraction	2018-02-22T21:38:16.042Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-22T21:38:16.066Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:38:26.044Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_999	1	1868
+SearchInteraction	2018-02-22T21:39:04.399Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.317Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.780Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+ArbitraryAccessInteraction	2018-02-22T21:41:02.398Z	31505ac701fcdc2d7aa0740a0f39215f	[200] GET /portal/es/record/2020601/contributions_8850.html (PortalController#show)
+SearchInteraction	2018-02-22T21:42:11.426Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:42:38.490Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9984	4	1868
+SearchInteraction	2018-02-22T21:46:51.140Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+RefreshOrPaginationInteraction	2018-02-22T21:47:20.267Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+SearchInteraction	2018-02-22T21:48:42.676Z	31505ac701fcdc2d7aa0740a0f39215f	Nicola Perscheid		203
+SearchInteraction	2018-02-22T21:53:11.444Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:53:50.886Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:54:50.058Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:55:14.783Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+SearchInteraction	2018-02-22T21:55:23.335Z	31505ac701fcdc2d7aa0740a0f39215f	carte de visite	{'REUSABILITY': ['open']}	2388
+SearchInteraction	2018-02-22T21:56:14.954Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		2589
+RankedRetrieveRecordInteraction	2018-02-22T21:56:30.809Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		/08620/1037479000000240070	6	2589
+SearchInteraction	2018-02-22T21:38:16.042Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-22T21:38:16.066Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:38:26.044Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_999	1	1868
+SearchInteraction	2018-02-22T21:39:04.399Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.317Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.780Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+ArbitraryAccessInteraction	2018-02-22T21:41:02.398Z	31505ac701fcdc2d7aa0740a0f39215f	[200] GET /portal/es/record/2020601/contributions_8850.html (PortalController#show)
+SearchInteraction	2018-02-22T21:42:11.426Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:42:38.490Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9984	4	1868
+SearchInteraction	2018-02-22T21:46:51.140Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+RefreshOrPaginationInteraction	2018-02-22T21:47:20.267Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+SearchInteraction	2018-02-22T21:48:42.676Z	31505ac701fcdc2d7aa0740a0f39215f	Nicola Perscheid		203
+SearchInteraction	2018-02-22T21:53:11.444Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:53:50.886Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:54:50.058Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:55:14.783Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+SearchInteraction	2018-02-22T21:55:23.335Z	31505ac701fcdc2d7aa0740a0f39215f	carte de visite	{'REUSABILITY': ['open']}	2388
+SearchInteraction	2018-02-22T21:56:14.954Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		2589
+RankedRetrieveRecordInteraction	2018-02-22T21:56:30.809Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		/08620/1037479000000240070	6	2589
+SearchInteraction	2018-02-22T21:38:16.042Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-22T21:38:16.066Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:38:26.044Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_999	1	1868
+SearchInteraction	2018-02-22T21:39:04.399Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.317Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.780Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+ArbitraryAccessInteraction	2018-02-22T21:41:02.398Z	31505ac701fcdc2d7aa0740a0f39215f	[200] GET /portal/es/record/2020601/contributions_8850.html (PortalController#show)
+SearchInteraction	2018-02-22T21:42:11.426Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:42:38.490Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9984	4	1868
+SearchInteraction	2018-02-22T21:46:51.140Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+RefreshOrPaginationInteraction	2018-02-22T21:47:20.267Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+SearchInteraction	2018-02-22T21:48:42.676Z	31505ac701fcdc2d7aa0740a0f39215f	Nicola Perscheid		203
+SearchInteraction	2018-02-22T21:53:11.444Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:53:50.886Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:54:50.058Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:55:14.783Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+SearchInteraction	2018-02-22T21:55:23.335Z	31505ac701fcdc2d7aa0740a0f39215f	carte de visite	{'REUSABILITY': ['open']}	2388
+SearchInteraction	2018-02-22T21:56:14.954Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		2589
+RankedRetrieveRecordInteraction	2018-02-22T21:56:30.809Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		/08620/1037479000000240070	6	2589
+SearchInteraction	2018-02-22T21:38:16.042Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-22T21:38:16.066Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:38:26.044Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_999	1	1868
+SearchInteraction	2018-02-22T21:39:04.399Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.317Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.780Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+ArbitraryAccessInteraction	2018-02-22T21:41:02.398Z	31505ac701fcdc2d7aa0740a0f39215f	[200] GET /portal/es/record/2020601/contributions_8850.html (PortalController#show)
+SearchInteraction	2018-02-22T21:42:11.426Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:42:38.490Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9984	4	1868
+SearchInteraction	2018-02-22T21:46:51.140Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+RefreshOrPaginationInteraction	2018-02-22T21:47:20.267Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+SearchInteraction	2018-02-22T21:48:42.676Z	31505ac701fcdc2d7aa0740a0f39215f	Nicola Perscheid		203
+SearchInteraction	2018-02-22T21:53:11.444Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:53:50.886Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:54:50.058Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:55:14.783Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+SearchInteraction	2018-02-22T21:55:23.335Z	31505ac701fcdc2d7aa0740a0f39215f	carte de visite	{'REUSABILITY': ['open']}	2388
+SearchInteraction	2018-02-22T21:56:14.954Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		2589
+RankedRetrieveRecordInteraction	2018-02-22T21:56:30.809Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		/08620/1037479000000240070	6	2589
+SearchInteraction	2018-02-22T21:38:16.042Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-22T21:38:16.066Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:38:26.044Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_999	1	1868
+SearchInteraction	2018-02-22T21:39:04.399Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.317Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:39:23.780Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9958	5	1868
+ArbitraryAccessInteraction	2018-02-22T21:41:02.398Z	31505ac701fcdc2d7aa0740a0f39215f	[200] GET /portal/es/record/2020601/contributions_8850.html (PortalController#show)
+SearchInteraction	2018-02-22T21:42:11.426Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RankedRetrieveRecordInteraction	2018-02-22T21:42:38.490Z	31505ac701fcdc2d7aa0740a0f39215f	women	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9984	4	1868
+SearchInteraction	2018-02-22T21:46:51.140Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+RefreshOrPaginationInteraction	2018-02-22T21:47:20.267Z	31505ac701fcdc2d7aa0740a0f39215f	NO VALUE PROVIDED	{'COLOURPALETTE': ['#F5F5F5'], 'TYPE': ['IMAGE']}	1471297
+SearchInteraction	2018-02-22T21:48:42.676Z	31505ac701fcdc2d7aa0740a0f39215f	Nicola Perscheid		203
+SearchInteraction	2018-02-22T21:53:11.444Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:53:50.886Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:54:50.058Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+RefreshOrPaginationInteraction	2018-02-22T21:55:14.783Z	31505ac701fcdc2d7aa0740a0f39215f	Karl Heinrich Lämmel		1555
+SearchInteraction	2018-02-22T21:55:23.335Z	31505ac701fcdc2d7aa0740a0f39215f	carte de visite	{'REUSABILITY': ['open']}	2388
+SearchInteraction	2018-02-22T21:56:14.954Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		2589
+RankedRetrieveRecordInteraction	2018-02-22T21:56:30.809Z	31505ac701fcdc2d7aa0740a0f39215f	TYPE:VIDEO AND what:"World War I"		/08620/1037479000000240070	6	2589

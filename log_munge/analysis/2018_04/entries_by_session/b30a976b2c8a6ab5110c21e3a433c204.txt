@@ -1,0 +1,115 @@
+SearchInteraction	2018-03-03T21:09:11.011Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+SearchInteraction	2018-03-03T21:09:35.308Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T21:12:28.351Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:12:54.768Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126585138	20	104
+SearchInteraction	2018-03-03T21:22:32.801Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:23:58.623Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+RankedRetrieveRecordInteraction	2018-03-03T22:15:20.173Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+SearchInteraction	2018-03-03T22:26:54.080Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T22:27:26.711Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T22:28:28.931Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126560016	32	104
+SearchInteraction	2018-03-03T22:30:09.973Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+SearchInteraction	2018-03-03T22:30:11.818Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T09:09:08.305Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126616086	12	110
+SearchInteraction	2018-03-04T10:28:27.286Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RefreshOrPaginationInteraction	2018-03-04T10:28:32.342Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:29:02.829Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:30:19.591Z	b30a976b2c8a6ab5110c21e3a433c204	proxy_dc_publisher:"Sumtibus et Typis Caroli Tauchnitil"		13
+SearchInteraction	2018-03-04T10:30:26.484Z	b30a976b2c8a6ab5110c21e3a433c204	DATA_PROVIDER:"Complutense University Library of Madrid"		210875
+SearchInteraction	2018-03-04T10:32:04.083Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:14.504Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:16.159Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:33:49.656Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:33:55.854Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126592578	19	110
+SearchInteraction	2018-03-03T21:09:11.011Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+SearchInteraction	2018-03-03T21:09:35.308Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T21:12:28.351Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:12:54.768Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126585138	20	104
+SearchInteraction	2018-03-03T21:22:32.801Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:23:58.623Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+RankedRetrieveRecordInteraction	2018-03-03T22:15:20.173Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+SearchInteraction	2018-03-03T22:26:54.080Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T22:27:26.711Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T22:28:28.931Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126560016	32	104
+SearchInteraction	2018-03-03T22:30:09.973Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+SearchInteraction	2018-03-03T22:30:11.818Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T09:09:08.305Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126616086	12	110
+SearchInteraction	2018-03-04T10:28:27.286Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RefreshOrPaginationInteraction	2018-03-04T10:28:32.342Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:29:02.829Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:30:19.591Z	b30a976b2c8a6ab5110c21e3a433c204	proxy_dc_publisher:"Sumtibus et Typis Caroli Tauchnitil"		13
+SearchInteraction	2018-03-04T10:30:26.484Z	b30a976b2c8a6ab5110c21e3a433c204	DATA_PROVIDER:"Complutense University Library of Madrid"		210875
+SearchInteraction	2018-03-04T10:32:04.083Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:14.504Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:16.159Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:33:49.656Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:33:55.854Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126592578	19	110
+SearchInteraction	2018-03-03T21:09:11.011Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+SearchInteraction	2018-03-03T21:09:35.308Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T21:12:28.351Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:12:54.768Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126585138	20	104
+SearchInteraction	2018-03-03T21:22:32.801Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:23:58.623Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+RankedRetrieveRecordInteraction	2018-03-03T22:15:20.173Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+SearchInteraction	2018-03-03T22:26:54.080Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T22:27:26.711Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T22:28:28.931Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126560016	32	104
+SearchInteraction	2018-03-03T22:30:09.973Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+SearchInteraction	2018-03-03T22:30:11.818Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T09:09:08.305Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126616086	12	110
+SearchInteraction	2018-03-04T10:28:27.286Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RefreshOrPaginationInteraction	2018-03-04T10:28:32.342Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:29:02.829Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:30:19.591Z	b30a976b2c8a6ab5110c21e3a433c204	proxy_dc_publisher:"Sumtibus et Typis Caroli Tauchnitil"		13
+SearchInteraction	2018-03-04T10:30:26.484Z	b30a976b2c8a6ab5110c21e3a433c204	DATA_PROVIDER:"Complutense University Library of Madrid"		210875
+SearchInteraction	2018-03-04T10:32:04.083Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:14.504Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:16.159Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:33:49.656Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:33:55.854Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126592578	19	110
+SearchInteraction	2018-03-03T21:09:11.011Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+SearchInteraction	2018-03-03T21:09:35.308Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T21:12:28.351Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:12:54.768Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126585138	20	104
+SearchInteraction	2018-03-03T21:22:32.801Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:23:58.623Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+RankedRetrieveRecordInteraction	2018-03-03T22:15:20.173Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+SearchInteraction	2018-03-03T22:26:54.080Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T22:27:26.711Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T22:28:28.931Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126560016	32	104
+SearchInteraction	2018-03-03T22:30:09.973Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+SearchInteraction	2018-03-03T22:30:11.818Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T09:09:08.305Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126616086	12	110
+SearchInteraction	2018-03-04T10:28:27.286Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RefreshOrPaginationInteraction	2018-03-04T10:28:32.342Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:29:02.829Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:30:19.591Z	b30a976b2c8a6ab5110c21e3a433c204	proxy_dc_publisher:"Sumtibus et Typis Caroli Tauchnitil"		13
+SearchInteraction	2018-03-04T10:30:26.484Z	b30a976b2c8a6ab5110c21e3a433c204	DATA_PROVIDER:"Complutense University Library of Madrid"		210875
+SearchInteraction	2018-03-04T10:32:04.083Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:14.504Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:16.159Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:33:49.656Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:33:55.854Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126592578	19	110
+SearchInteraction	2018-03-03T21:09:11.011Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+SearchInteraction	2018-03-03T21:09:35.308Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T21:12:28.351Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:12:54.768Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126585138	20	104
+SearchInteraction	2018-03-03T21:22:32.801Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T21:23:58.623Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+RankedRetrieveRecordInteraction	2018-03-03T22:15:20.173Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126592578	15	104
+SearchInteraction	2018-03-03T22:26:54.080Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RefreshOrPaginationInteraction	2018-03-03T22:27:26.711Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+RankedRetrieveRecordInteraction	2018-03-03T22:28:28.931Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	/9200110/BibliographicResource_1000126560016	32	104
+SearchInteraction	2018-03-03T22:30:09.973Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas	{'COUNTRY': ['spain']}	104
+SearchInteraction	2018-03-03T22:30:11.818Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T09:09:08.305Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126616086	12	110
+SearchInteraction	2018-03-04T10:28:27.286Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RefreshOrPaginationInteraction	2018-03-04T10:28:32.342Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:29:02.829Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:30:19.591Z	b30a976b2c8a6ab5110c21e3a433c204	proxy_dc_publisher:"Sumtibus et Typis Caroli Tauchnitil"		13
+SearchInteraction	2018-03-04T10:30:26.484Z	b30a976b2c8a6ab5110c21e3a433c204	DATA_PROVIDER:"Complutense University Library of Madrid"		210875
+SearchInteraction	2018-03-04T10:32:04.083Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:14.504Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+RankedRetrieveRecordInteraction	2018-03-04T10:32:16.159Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126597037	17	110
+SearchInteraction	2018-03-04T10:33:49.656Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		110
+RankedRetrieveRecordInteraction	2018-03-04T10:33:55.854Z	b30a976b2c8a6ab5110c21e3a433c204	Vidas paralelas		/9200110/BibliographicResource_1000126592578	19	110

@@ -1,0 +1,85 @@
+ArbitraryAccessInteraction	2018-03-12T11:06:43.242Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:07:55.401Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:08:02.073Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048414/item_YFCZA5Y7CBYTJ4PBGCMUIS6AYJKKQR33.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:10:54.117Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:11:09.383Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+SearchInteraction	2018-03-12T11:11:25.197Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+RefreshOrPaginationInteraction	2018-03-12T11:11:30.664Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+SearchInteraction	2018-03-12T11:11:35.801Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro		166
+SearchInteraction	2018-03-12T11:11:53.431Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-03-12T11:12:08.388Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+CollectionFilterAdditionInteraction	2018-03-12T11:12:14.557Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T11:12:20.095Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:24.389Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:49.211Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+CollectionFilterAdditionInteraction	2018-03-12T11:12:58.976Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	1
+ArbitraryAccessInteraction	2018-03-12T11:13:18.014Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:13:28.449Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:06:43.242Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:07:55.401Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:08:02.073Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048414/item_YFCZA5Y7CBYTJ4PBGCMUIS6AYJKKQR33.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:10:54.117Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:11:09.383Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+SearchInteraction	2018-03-12T11:11:25.197Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+RefreshOrPaginationInteraction	2018-03-12T11:11:30.664Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+SearchInteraction	2018-03-12T11:11:35.801Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro		166
+SearchInteraction	2018-03-12T11:11:53.431Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-03-12T11:12:08.388Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+CollectionFilterAdditionInteraction	2018-03-12T11:12:14.557Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T11:12:20.095Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:24.389Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:49.211Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+CollectionFilterAdditionInteraction	2018-03-12T11:12:58.976Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	1
+ArbitraryAccessInteraction	2018-03-12T11:13:18.014Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:13:28.449Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:06:43.242Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:07:55.401Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:08:02.073Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048414/item_YFCZA5Y7CBYTJ4PBGCMUIS6AYJKKQR33.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:10:54.117Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:11:09.383Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+SearchInteraction	2018-03-12T11:11:25.197Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+RefreshOrPaginationInteraction	2018-03-12T11:11:30.664Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+SearchInteraction	2018-03-12T11:11:35.801Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro		166
+SearchInteraction	2018-03-12T11:11:53.431Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-03-12T11:12:08.388Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+CollectionFilterAdditionInteraction	2018-03-12T11:12:14.557Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T11:12:20.095Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:24.389Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:49.211Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+CollectionFilterAdditionInteraction	2018-03-12T11:12:58.976Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	1
+ArbitraryAccessInteraction	2018-03-12T11:13:18.014Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:13:28.449Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:06:43.242Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:07:55.401Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:08:02.073Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048414/item_YFCZA5Y7CBYTJ4PBGCMUIS6AYJKKQR33.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:10:54.117Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:11:09.383Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+SearchInteraction	2018-03-12T11:11:25.197Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+RefreshOrPaginationInteraction	2018-03-12T11:11:30.664Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+SearchInteraction	2018-03-12T11:11:35.801Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro		166
+SearchInteraction	2018-03-12T11:11:53.431Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-03-12T11:12:08.388Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+CollectionFilterAdditionInteraction	2018-03-12T11:12:14.557Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T11:12:20.095Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:24.389Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:49.211Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+CollectionFilterAdditionInteraction	2018-03-12T11:12:58.976Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	1
+ArbitraryAccessInteraction	2018-03-12T11:13:18.014Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:13:28.449Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:06:43.242Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:07:55.401Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:08:02.073Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048414/item_YFCZA5Y7CBYTJ4PBGCMUIS6AYJKKQR33.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:10:54.117Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:11:09.383Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_BVMXS423BYEQZH2YYF6DJCBZSNIF6VCB.html (PortalController#show)
+SearchInteraction	2018-03-12T11:11:25.197Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+RefreshOrPaginationInteraction	2018-03-12T11:11:30.664Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro Sonnentempel		0
+SearchInteraction	2018-03-12T11:11:35.801Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro		166
+SearchInteraction	2018-03-12T11:11:53.431Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+RefreshOrPaginationInteraction	2018-03-12T11:12:08.388Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	71
+CollectionFilterAdditionInteraction	2018-03-12T11:12:14.557Z	4aec6e0c5bbd4f699ddec068c0fa611b	Il Ciro	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T11:12:20.095Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:24.389Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+RefreshOrPaginationInteraction	2018-03-12T11:12:49.211Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	218
+CollectionFilterAdditionInteraction	2018-03-12T11:12:58.976Z	4aec6e0c5bbd4f699ddec068c0fa611b	Juvarra	{'TYPE': ['IMAGE']}	1
+ArbitraryAccessInteraction	2018-03-12T11:13:18.014Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048411/item_32GG3BTBOIF74CZAQQG55I5ROYVECRKL.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T11:13:28.449Z	4aec6e0c5bbd4f699ddec068c0fa611b	[200] GET /portal/de/record/2048418/item_F3XEHTB5WYTJUQ26Y4KNDT37HKLSM4H7.html (PortalController#show)

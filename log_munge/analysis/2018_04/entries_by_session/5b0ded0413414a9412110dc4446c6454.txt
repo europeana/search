@@ -1,0 +1,435 @@
+ArbitraryAccessInteraction	2018-02-14T01:09:37.657Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/rights.html (PagesController#show)
+SearchInteraction	2018-02-14T01:10:25.112Z	5b0ded0413414a9412110dc4446c6454	home front	{'MEDIA': ['true'], 'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	77
+SearchInteraction	2018-02-14T01:10:33.138Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+SearchInteraction	2018-02-14T01:10:51.366Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:07.017Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:15.069Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:27.755Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:28.282Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:29.622Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:39.353Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:54.249Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:09.030Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:15.549Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:26.815Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:43.297Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:54.120Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-02-14T01:13:02.895Z	5b0ded0413414a9412110dc4446c6454	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	4965
+SearchInteraction	2018-02-14T01:13:25.436Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:13:41.496Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RankedRetrieveRecordInteraction	2018-02-14T01:14:05.872Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	/92085/lnb_zl_26997	20	72787
+SearchInteraction	2018-02-14T01:14:09.200Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:17.280Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:25.256Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+SearchInteraction	2018-02-14T01:14:41.574Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	9109
+SearchInteraction	2018-02-14T01:14:50.427Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:14:58.971Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:06.596Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:19.521Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:26.647Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:36.483Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:29.459Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:37.336Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:46.368Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:54.721Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:01.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:08.250Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:16.788Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:23.044Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:30.934Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:37.762Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:46.275Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:53.010Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:21.470Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:29.092Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:36.246Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:42.260Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:05.379Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:14.756Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:26.122Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:32.713Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+SearchInteraction	2018-02-14T01:31:51.502Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+CollectionFilterAdditionInteraction	2018-02-14T01:31:55.186Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-14T01:31:57.230Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+SearchInteraction	2018-02-14T01:32:13.991Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:22.332Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:43.295Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:51.047Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:03.742Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:13.414Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:22.284Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:29.697Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:38.043Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:51.344Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:59.391Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RankedRetrieveRecordInteraction	2018-02-14T01:34:14.933Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2020601/contributions_9169_attachments_87337	132	2504
+ArbitraryAccessInteraction	2018-02-14T01:35:03.883Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_153131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T01:35:17.643Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_152847.html (PortalController#show)
+SearchInteraction	2018-02-14T01:36:19.183Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:36:48.049Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+ArbitraryAccessInteraction	2018-02-14T01:37:49.607Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11075_attachments_129010.html (PortalController#show)
+SearchInteraction	2018-02-14T01:39:04.583Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:39:19.303Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:40:31.773Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+SearchInteraction	2018-02-14T01:40:57.602Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:41:07.390Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:32.818Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:39.306Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:47.976Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:57.163Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:42:16.237Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+SearchInteraction	2018-02-14T01:42:24.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:42:29.672Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:42:48.264Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:02.348Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:14.279Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:35.646Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:43.063Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+ArbitraryAccessInteraction	2018-02-14T01:09:37.657Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/rights.html (PagesController#show)
+SearchInteraction	2018-02-14T01:10:25.112Z	5b0ded0413414a9412110dc4446c6454	home front	{'MEDIA': ['true'], 'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	77
+SearchInteraction	2018-02-14T01:10:33.138Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+SearchInteraction	2018-02-14T01:10:51.366Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:07.017Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:15.069Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:27.755Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:28.282Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:29.622Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:39.353Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:54.249Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:09.030Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:15.549Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:26.815Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:43.297Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:54.120Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-02-14T01:13:02.895Z	5b0ded0413414a9412110dc4446c6454	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	4965
+SearchInteraction	2018-02-14T01:13:25.436Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:13:41.496Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RankedRetrieveRecordInteraction	2018-02-14T01:14:05.872Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	/92085/lnb_zl_26997	20	72787
+SearchInteraction	2018-02-14T01:14:09.200Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:17.280Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:25.256Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+SearchInteraction	2018-02-14T01:14:41.574Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	9109
+SearchInteraction	2018-02-14T01:14:50.427Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:14:58.971Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:06.596Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:19.521Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:26.647Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:36.483Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:29.459Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:37.336Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:46.368Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:54.721Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:01.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:08.250Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:16.788Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:23.044Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:30.934Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:37.762Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:46.275Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:53.010Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:21.470Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:29.092Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:36.246Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:42.260Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:05.379Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:14.756Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:26.122Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:32.713Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+SearchInteraction	2018-02-14T01:31:51.502Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+CollectionFilterAdditionInteraction	2018-02-14T01:31:55.186Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-14T01:31:57.230Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+SearchInteraction	2018-02-14T01:32:13.991Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:22.332Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:43.295Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:51.047Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:03.742Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:13.414Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:22.284Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:29.697Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:38.043Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:51.344Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:59.391Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RankedRetrieveRecordInteraction	2018-02-14T01:34:14.933Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2020601/contributions_9169_attachments_87337	132	2504
+ArbitraryAccessInteraction	2018-02-14T01:35:03.883Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_153131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T01:35:17.643Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_152847.html (PortalController#show)
+SearchInteraction	2018-02-14T01:36:19.183Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:36:48.049Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+ArbitraryAccessInteraction	2018-02-14T01:37:49.607Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11075_attachments_129010.html (PortalController#show)
+SearchInteraction	2018-02-14T01:39:04.583Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:39:19.303Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:40:31.773Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+SearchInteraction	2018-02-14T01:40:57.602Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:41:07.390Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:32.818Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:39.306Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:47.976Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:57.163Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:42:16.237Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+SearchInteraction	2018-02-14T01:42:24.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:42:29.672Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:42:48.264Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:02.348Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:14.279Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:35.646Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:43.063Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+ArbitraryAccessInteraction	2018-02-14T01:09:37.657Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/rights.html (PagesController#show)
+SearchInteraction	2018-02-14T01:10:25.112Z	5b0ded0413414a9412110dc4446c6454	home front	{'MEDIA': ['true'], 'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	77
+SearchInteraction	2018-02-14T01:10:33.138Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+SearchInteraction	2018-02-14T01:10:51.366Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:07.017Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:15.069Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:27.755Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:28.282Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:29.622Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:39.353Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:54.249Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:09.030Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:15.549Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:26.815Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:43.297Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:54.120Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-02-14T01:13:02.895Z	5b0ded0413414a9412110dc4446c6454	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	4965
+SearchInteraction	2018-02-14T01:13:25.436Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:13:41.496Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RankedRetrieveRecordInteraction	2018-02-14T01:14:05.872Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	/92085/lnb_zl_26997	20	72787
+SearchInteraction	2018-02-14T01:14:09.200Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:17.280Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:25.256Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+SearchInteraction	2018-02-14T01:14:41.574Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	9109
+SearchInteraction	2018-02-14T01:14:50.427Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:14:58.971Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:06.596Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:19.521Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:26.647Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:36.483Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:29.459Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:37.336Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:46.368Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:54.721Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:01.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:08.250Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:16.788Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:23.044Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:30.934Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:37.762Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:46.275Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:53.010Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:21.470Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:29.092Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:36.246Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:42.260Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:05.379Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:14.756Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:26.122Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:32.713Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+SearchInteraction	2018-02-14T01:31:51.502Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+CollectionFilterAdditionInteraction	2018-02-14T01:31:55.186Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-14T01:31:57.230Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+SearchInteraction	2018-02-14T01:32:13.991Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:22.332Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:43.295Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:51.047Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:03.742Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:13.414Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:22.284Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:29.697Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:38.043Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:51.344Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:59.391Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RankedRetrieveRecordInteraction	2018-02-14T01:34:14.933Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2020601/contributions_9169_attachments_87337	132	2504
+ArbitraryAccessInteraction	2018-02-14T01:35:03.883Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_153131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T01:35:17.643Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_152847.html (PortalController#show)
+SearchInteraction	2018-02-14T01:36:19.183Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:36:48.049Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+ArbitraryAccessInteraction	2018-02-14T01:37:49.607Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11075_attachments_129010.html (PortalController#show)
+SearchInteraction	2018-02-14T01:39:04.583Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:39:19.303Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:40:31.773Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+SearchInteraction	2018-02-14T01:40:57.602Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:41:07.390Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:32.818Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:39.306Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:47.976Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:57.163Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:42:16.237Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+SearchInteraction	2018-02-14T01:42:24.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:42:29.672Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:42:48.264Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:02.348Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:14.279Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:35.646Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:43.063Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+ArbitraryAccessInteraction	2018-02-14T01:09:37.657Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/rights.html (PagesController#show)
+SearchInteraction	2018-02-14T01:10:25.112Z	5b0ded0413414a9412110dc4446c6454	home front	{'MEDIA': ['true'], 'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	77
+SearchInteraction	2018-02-14T01:10:33.138Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+SearchInteraction	2018-02-14T01:10:51.366Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:07.017Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:15.069Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:27.755Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:28.282Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:29.622Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:39.353Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:54.249Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:09.030Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:15.549Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:26.815Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:43.297Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:54.120Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-02-14T01:13:02.895Z	5b0ded0413414a9412110dc4446c6454	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	4965
+SearchInteraction	2018-02-14T01:13:25.436Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:13:41.496Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RankedRetrieveRecordInteraction	2018-02-14T01:14:05.872Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	/92085/lnb_zl_26997	20	72787
+SearchInteraction	2018-02-14T01:14:09.200Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:17.280Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:25.256Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+SearchInteraction	2018-02-14T01:14:41.574Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	9109
+SearchInteraction	2018-02-14T01:14:50.427Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:14:58.971Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:06.596Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:19.521Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:26.647Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:36.483Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:29.459Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:37.336Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:46.368Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:54.721Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:01.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:08.250Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:16.788Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:23.044Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:30.934Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:37.762Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:46.275Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:53.010Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:21.470Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:29.092Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:36.246Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:42.260Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:05.379Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:14.756Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:26.122Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:32.713Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+SearchInteraction	2018-02-14T01:31:51.502Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+CollectionFilterAdditionInteraction	2018-02-14T01:31:55.186Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-14T01:31:57.230Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+SearchInteraction	2018-02-14T01:32:13.991Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:22.332Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:43.295Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:51.047Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:03.742Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:13.414Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:22.284Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:29.697Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:38.043Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:51.344Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:59.391Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RankedRetrieveRecordInteraction	2018-02-14T01:34:14.933Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2020601/contributions_9169_attachments_87337	132	2504
+ArbitraryAccessInteraction	2018-02-14T01:35:03.883Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_153131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T01:35:17.643Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_152847.html (PortalController#show)
+SearchInteraction	2018-02-14T01:36:19.183Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:36:48.049Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+ArbitraryAccessInteraction	2018-02-14T01:37:49.607Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11075_attachments_129010.html (PortalController#show)
+SearchInteraction	2018-02-14T01:39:04.583Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:39:19.303Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:40:31.773Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+SearchInteraction	2018-02-14T01:40:57.602Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:41:07.390Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:32.818Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:39.306Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:47.976Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:57.163Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:42:16.237Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+SearchInteraction	2018-02-14T01:42:24.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:42:29.672Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:42:48.264Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:02.348Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:14.279Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:35.646Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:43.063Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+ArbitraryAccessInteraction	2018-02-14T01:09:37.657Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/rights.html (PagesController#show)
+SearchInteraction	2018-02-14T01:10:25.112Z	5b0ded0413414a9412110dc4446c6454	home front	{'MEDIA': ['true'], 'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	77
+SearchInteraction	2018-02-14T01:10:33.138Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+SearchInteraction	2018-02-14T01:10:51.366Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:07.017Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:15.069Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:27.755Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:28.282Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:29.622Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:39.353Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:11:54.249Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:09.030Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:15.549Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:26.815Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:43.297Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+RefreshOrPaginationInteraction	2018-02-14T01:12:54.120Z	5b0ded0413414a9412110dc4446c6454	eastern front	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	136
+SearchInteraction	2018-02-14T01:13:02.895Z	5b0ded0413414a9412110dc4446c6454	NO VALUE PROVIDED	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	4965
+SearchInteraction	2018-02-14T01:13:25.436Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:13:41.496Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RankedRetrieveRecordInteraction	2018-02-14T01:14:05.872Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	/92085/lnb_zl_26997	20	72787
+SearchInteraction	2018-02-14T01:14:09.200Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:17.280Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+RefreshOrPaginationInteraction	2018-02-14T01:14:25.256Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'TYPE': ['IMAGE']}	72787
+SearchInteraction	2018-02-14T01:14:41.574Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	9109
+SearchInteraction	2018-02-14T01:14:50.427Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:14:58.971Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:06.596Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:19.521Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:26.647Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:15:36.483Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:29.459Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:37.336Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:46.368Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:16:54.721Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:01.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:08.250Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:16.788Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:23.044Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:30.934Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:37.762Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:46.275Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:17:53.010Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:21.470Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:29.092Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:36.246Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:30:42.260Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:05.379Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:14.756Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:26.122Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+RefreshOrPaginationInteraction	2018-02-14T01:31:32.713Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	302
+SearchInteraction	2018-02-14T01:31:51.502Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+CollectionFilterAdditionInteraction	2018-02-14T01:31:55.186Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-14T01:31:57.230Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['germany', 'europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2806
+SearchInteraction	2018-02-14T01:32:13.991Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:22.332Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:43.295Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:32:51.047Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:03.742Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:13.414Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:22.284Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:29.697Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:38.043Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:51.344Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:33:59.391Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RankedRetrieveRecordInteraction	2018-02-14T01:34:14.933Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2020601/contributions_9169_attachments_87337	132	2504
+ArbitraryAccessInteraction	2018-02-14T01:35:03.883Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_153131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T01:35:17.643Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11071_attachments_152847.html (PortalController#show)
+SearchInteraction	2018-02-14T01:36:19.183Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:36:48.049Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+ArbitraryAccessInteraction	2018-02-14T01:37:49.607Z	5b0ded0413414a9412110dc4446c6454	[200] GET /portal/de/record/2020601/contributions_11075_attachments_129010.html (PortalController#show)
+SearchInteraction	2018-02-14T01:39:04.583Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+RefreshOrPaginationInteraction	2018-02-14T01:39:19.303Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:40:31.773Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+SearchInteraction	2018-02-14T01:40:57.602Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:41:07.390Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:32.818Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:39.306Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:47.976Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:41:57.163Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+RefreshOrPaginationInteraction	2018-02-14T01:42:16.237Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/tiff'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	103
+SearchInteraction	2018-02-14T01:42:24.334Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2504
+SearchInteraction	2018-02-14T01:42:29.672Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:42:48.264Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:02.348Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:43:14.279Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:35.646Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254
+RefreshOrPaginationInteraction	2018-02-14T01:52:43.063Z	5b0ded0413414a9412110dc4446c6454	what:photograph	{'COUNTRY': ['europe'], 'MIME_TYPE': ['image/jpeg'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1254

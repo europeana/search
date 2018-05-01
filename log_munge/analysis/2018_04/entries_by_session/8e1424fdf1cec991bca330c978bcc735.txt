@@ -1,0 +1,220 @@
+SearchInteraction	2018-01-04T14:51:29.191Z	8e1424fdf1cec991bca330c978bcc735	hokusai		796
+SearchInteraction	2018-01-04T14:51:40.738Z	8e1424fdf1cec991bca330c978bcc735	hokusai	{'DATA_PROVIDER': ['Rijksmuseum']}	186
+ArbitraryAccessInteraction	2018-01-04T14:51:51.630Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/90402/RP_P_2008_8.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T10:54:03.398Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000095905360	5	6
+RankedRetrieveRecordInteraction	2018-01-15T10:54:29.225Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000116159728	6	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:40.256Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000136354917	1	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:56.866Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100308752	2	6
+ArbitraryAccessInteraction	2018-01-15T11:51:11.196Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100178583.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T11:51:22.014Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100174391	4	6
+ArbitraryAccessInteraction	2018-01-15T11:51:42.428Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100225130.html (PortalController#show)
+SearchInteraction	2018-01-15T12:30:35.114Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"		192
+ArbitraryAccessInteraction	2018-01-22T04:13:27.639Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048429/item_E2KMC42S625D7TMBDC2HESMNEMPIPKZZ.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:29.772Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:59.038Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_840.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-23T06:22:52.970Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+SearchInteraction	2018-02-07T07:06:14.373Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+RankedRetrieveRecordInteraction	2018-02-07T07:06:17.836Z	8e1424fdf1cec991bca330c978bcc735	hokusai		/08533/artifact_aspx_id_1063	1	798
+SearchInteraction	2018-02-07T07:12:02.944Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+SearchInteraction	2018-02-07T07:12:12.115Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:13.315Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:14.906Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:17.195Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:18.055Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T07:12:31.352Z	8e1424fdf1cec991bca330c978bcc735	rubens		8360
+RankedRetrieveRecordInteraction	2018-02-07T07:12:38.733Z	8e1424fdf1cec991bca330c978bcc735	rubens		/15502/GG_806	5	8360
+SearchInteraction	2018-02-07T07:13:19.518Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+RankedRetrieveRecordInteraction	2018-02-07T07:13:32.225Z	8e1424fdf1cec991bca330c978bcc735	gallica		/9200507/Reading_Europe_96739	6	2043
+SearchInteraction	2018-02-07T07:13:53.461Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+ArbitraryAccessInteraction	2018-02-07T07:14:37.982Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T07:15:00.035Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T14:45:50.850Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200386/BibliographicResource_3000045384152.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T03:30:40.806Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+SearchInteraction	2018-03-07T03:30:48.891Z	8e1424fdf1cec991bca330c978bcc735	proxy_dc_creator: "http://data.europeana.eu/agent/base/146741" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/146741"		826
+ArbitraryAccessInteraction	2018-03-07T05:16:19.732Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/000002/_UEDIN_214.html (PortalController#show)
+SearchInteraction	2018-03-07T11:01:14.684Z	8e1424fdf1cec991bca330c978bcc735	sparql		9
+ArbitraryAccessInteraction	2018-03-07T13:01:05.510Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/92094/BibliographicResource_1000086165652.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:04:18.058Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2058618/object_KUAS_7433078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:09.969Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2064128/Museu_ProvidedCHO_museum_digital_3699__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:56.324Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048401/item_5EJOQE7VEYXBGHMVFFUABXM37T224DCY.html (PortalController#show)
+SearchInteraction	2018-03-13T15:25:20.296Z	8e1424fdf1cec991bca330c978bcc735	ulysses little review		1
+SearchInteraction	2018-03-13T15:25:39.357Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.420Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.500Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:45.331Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-01-04T14:51:29.191Z	8e1424fdf1cec991bca330c978bcc735	hokusai		796
+SearchInteraction	2018-01-04T14:51:40.738Z	8e1424fdf1cec991bca330c978bcc735	hokusai	{'DATA_PROVIDER': ['Rijksmuseum']}	186
+ArbitraryAccessInteraction	2018-01-04T14:51:51.630Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/90402/RP_P_2008_8.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T10:54:03.398Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000095905360	5	6
+RankedRetrieveRecordInteraction	2018-01-15T10:54:29.225Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000116159728	6	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:40.256Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000136354917	1	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:56.866Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100308752	2	6
+ArbitraryAccessInteraction	2018-01-15T11:51:11.196Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100178583.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T11:51:22.014Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100174391	4	6
+ArbitraryAccessInteraction	2018-01-15T11:51:42.428Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100225130.html (PortalController#show)
+SearchInteraction	2018-01-15T12:30:35.114Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"		192
+ArbitraryAccessInteraction	2018-01-22T04:13:27.639Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048429/item_E2KMC42S625D7TMBDC2HESMNEMPIPKZZ.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:29.772Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:59.038Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_840.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-23T06:22:52.970Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+SearchInteraction	2018-02-07T07:06:14.373Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+RankedRetrieveRecordInteraction	2018-02-07T07:06:17.836Z	8e1424fdf1cec991bca330c978bcc735	hokusai		/08533/artifact_aspx_id_1063	1	798
+SearchInteraction	2018-02-07T07:12:02.944Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+SearchInteraction	2018-02-07T07:12:12.115Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:13.315Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:14.906Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:17.195Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:18.055Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T07:12:31.352Z	8e1424fdf1cec991bca330c978bcc735	rubens		8360
+RankedRetrieveRecordInteraction	2018-02-07T07:12:38.733Z	8e1424fdf1cec991bca330c978bcc735	rubens		/15502/GG_806	5	8360
+SearchInteraction	2018-02-07T07:13:19.518Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+RankedRetrieveRecordInteraction	2018-02-07T07:13:32.225Z	8e1424fdf1cec991bca330c978bcc735	gallica		/9200507/Reading_Europe_96739	6	2043
+SearchInteraction	2018-02-07T07:13:53.461Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+ArbitraryAccessInteraction	2018-02-07T07:14:37.982Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T07:15:00.035Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T14:45:50.850Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200386/BibliographicResource_3000045384152.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T03:30:40.806Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+SearchInteraction	2018-03-07T03:30:48.891Z	8e1424fdf1cec991bca330c978bcc735	proxy_dc_creator: "http://data.europeana.eu/agent/base/146741" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/146741"		826
+ArbitraryAccessInteraction	2018-03-07T05:16:19.732Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/000002/_UEDIN_214.html (PortalController#show)
+SearchInteraction	2018-03-07T11:01:14.684Z	8e1424fdf1cec991bca330c978bcc735	sparql		9
+ArbitraryAccessInteraction	2018-03-07T13:01:05.510Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/92094/BibliographicResource_1000086165652.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:04:18.058Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2058618/object_KUAS_7433078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:09.969Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2064128/Museu_ProvidedCHO_museum_digital_3699__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:56.324Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048401/item_5EJOQE7VEYXBGHMVFFUABXM37T224DCY.html (PortalController#show)
+SearchInteraction	2018-03-13T15:25:20.296Z	8e1424fdf1cec991bca330c978bcc735	ulysses little review		1
+SearchInteraction	2018-03-13T15:25:39.357Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.420Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.500Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:45.331Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-01-04T14:51:29.191Z	8e1424fdf1cec991bca330c978bcc735	hokusai		796
+SearchInteraction	2018-01-04T14:51:40.738Z	8e1424fdf1cec991bca330c978bcc735	hokusai	{'DATA_PROVIDER': ['Rijksmuseum']}	186
+ArbitraryAccessInteraction	2018-01-04T14:51:51.630Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/90402/RP_P_2008_8.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T10:54:03.398Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000095905360	5	6
+RankedRetrieveRecordInteraction	2018-01-15T10:54:29.225Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000116159728	6	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:40.256Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000136354917	1	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:56.866Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100308752	2	6
+ArbitraryAccessInteraction	2018-01-15T11:51:11.196Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100178583.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T11:51:22.014Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100174391	4	6
+ArbitraryAccessInteraction	2018-01-15T11:51:42.428Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100225130.html (PortalController#show)
+SearchInteraction	2018-01-15T12:30:35.114Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"		192
+ArbitraryAccessInteraction	2018-01-22T04:13:27.639Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048429/item_E2KMC42S625D7TMBDC2HESMNEMPIPKZZ.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:29.772Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:59.038Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_840.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-23T06:22:52.970Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+SearchInteraction	2018-02-07T07:06:14.373Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+RankedRetrieveRecordInteraction	2018-02-07T07:06:17.836Z	8e1424fdf1cec991bca330c978bcc735	hokusai		/08533/artifact_aspx_id_1063	1	798
+SearchInteraction	2018-02-07T07:12:02.944Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+SearchInteraction	2018-02-07T07:12:12.115Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:13.315Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:14.906Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:17.195Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:18.055Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T07:12:31.352Z	8e1424fdf1cec991bca330c978bcc735	rubens		8360
+RankedRetrieveRecordInteraction	2018-02-07T07:12:38.733Z	8e1424fdf1cec991bca330c978bcc735	rubens		/15502/GG_806	5	8360
+SearchInteraction	2018-02-07T07:13:19.518Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+RankedRetrieveRecordInteraction	2018-02-07T07:13:32.225Z	8e1424fdf1cec991bca330c978bcc735	gallica		/9200507/Reading_Europe_96739	6	2043
+SearchInteraction	2018-02-07T07:13:53.461Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+ArbitraryAccessInteraction	2018-02-07T07:14:37.982Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T07:15:00.035Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T14:45:50.850Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200386/BibliographicResource_3000045384152.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T03:30:40.806Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+SearchInteraction	2018-03-07T03:30:48.891Z	8e1424fdf1cec991bca330c978bcc735	proxy_dc_creator: "http://data.europeana.eu/agent/base/146741" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/146741"		826
+ArbitraryAccessInteraction	2018-03-07T05:16:19.732Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/000002/_UEDIN_214.html (PortalController#show)
+SearchInteraction	2018-03-07T11:01:14.684Z	8e1424fdf1cec991bca330c978bcc735	sparql		9
+ArbitraryAccessInteraction	2018-03-07T13:01:05.510Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/92094/BibliographicResource_1000086165652.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:04:18.058Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2058618/object_KUAS_7433078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:09.969Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2064128/Museu_ProvidedCHO_museum_digital_3699__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:56.324Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048401/item_5EJOQE7VEYXBGHMVFFUABXM37T224DCY.html (PortalController#show)
+SearchInteraction	2018-03-13T15:25:20.296Z	8e1424fdf1cec991bca330c978bcc735	ulysses little review		1
+SearchInteraction	2018-03-13T15:25:39.357Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.420Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.500Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:45.331Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-01-04T14:51:29.191Z	8e1424fdf1cec991bca330c978bcc735	hokusai		796
+SearchInteraction	2018-01-04T14:51:40.738Z	8e1424fdf1cec991bca330c978bcc735	hokusai	{'DATA_PROVIDER': ['Rijksmuseum']}	186
+ArbitraryAccessInteraction	2018-01-04T14:51:51.630Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/90402/RP_P_2008_8.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T10:54:03.398Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000095905360	5	6
+RankedRetrieveRecordInteraction	2018-01-15T10:54:29.225Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000116159728	6	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:40.256Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000136354917	1	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:56.866Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100308752	2	6
+ArbitraryAccessInteraction	2018-01-15T11:51:11.196Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100178583.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T11:51:22.014Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100174391	4	6
+ArbitraryAccessInteraction	2018-01-15T11:51:42.428Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100225130.html (PortalController#show)
+SearchInteraction	2018-01-15T12:30:35.114Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"		192
+ArbitraryAccessInteraction	2018-01-22T04:13:27.639Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048429/item_E2KMC42S625D7TMBDC2HESMNEMPIPKZZ.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:29.772Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:59.038Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_840.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-23T06:22:52.970Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+SearchInteraction	2018-02-07T07:06:14.373Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+RankedRetrieveRecordInteraction	2018-02-07T07:06:17.836Z	8e1424fdf1cec991bca330c978bcc735	hokusai		/08533/artifact_aspx_id_1063	1	798
+SearchInteraction	2018-02-07T07:12:02.944Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+SearchInteraction	2018-02-07T07:12:12.115Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:13.315Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:14.906Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:17.195Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:18.055Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T07:12:31.352Z	8e1424fdf1cec991bca330c978bcc735	rubens		8360
+RankedRetrieveRecordInteraction	2018-02-07T07:12:38.733Z	8e1424fdf1cec991bca330c978bcc735	rubens		/15502/GG_806	5	8360
+SearchInteraction	2018-02-07T07:13:19.518Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+RankedRetrieveRecordInteraction	2018-02-07T07:13:32.225Z	8e1424fdf1cec991bca330c978bcc735	gallica		/9200507/Reading_Europe_96739	6	2043
+SearchInteraction	2018-02-07T07:13:53.461Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+ArbitraryAccessInteraction	2018-02-07T07:14:37.982Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T07:15:00.035Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T14:45:50.850Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200386/BibliographicResource_3000045384152.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T03:30:40.806Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+SearchInteraction	2018-03-07T03:30:48.891Z	8e1424fdf1cec991bca330c978bcc735	proxy_dc_creator: "http://data.europeana.eu/agent/base/146741" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/146741"		826
+ArbitraryAccessInteraction	2018-03-07T05:16:19.732Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/000002/_UEDIN_214.html (PortalController#show)
+SearchInteraction	2018-03-07T11:01:14.684Z	8e1424fdf1cec991bca330c978bcc735	sparql		9
+ArbitraryAccessInteraction	2018-03-07T13:01:05.510Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/92094/BibliographicResource_1000086165652.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:04:18.058Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2058618/object_KUAS_7433078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:09.969Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2064128/Museu_ProvidedCHO_museum_digital_3699__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:56.324Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048401/item_5EJOQE7VEYXBGHMVFFUABXM37T224DCY.html (PortalController#show)
+SearchInteraction	2018-03-13T15:25:20.296Z	8e1424fdf1cec991bca330c978bcc735	ulysses little review		1
+SearchInteraction	2018-03-13T15:25:39.357Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.420Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.500Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:45.331Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-01-04T14:51:29.191Z	8e1424fdf1cec991bca330c978bcc735	hokusai		796
+SearchInteraction	2018-01-04T14:51:40.738Z	8e1424fdf1cec991bca330c978bcc735	hokusai	{'DATA_PROVIDER': ['Rijksmuseum']}	186
+ArbitraryAccessInteraction	2018-01-04T14:51:51.630Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/90402/RP_P_2008_8.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T10:54:03.398Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000095905360	5	6
+RankedRetrieveRecordInteraction	2018-01-15T10:54:29.225Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200365/BibliographicResource_3000116159728	6	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:40.256Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000136354917	1	6
+RankedRetrieveRecordInteraction	2018-01-15T11:50:56.866Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100308752	2	6
+ArbitraryAccessInteraction	2018-01-15T11:51:11.196Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100178583.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-01-15T11:51:22.014Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"	{'TYPE': ['SOUND']}	/9200376/BibliographicResource_3000100174391	4	6
+ArbitraryAccessInteraction	2018-01-15T11:51:42.428Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200376/BibliographicResource_3000100225130.html (PortalController#show)
+SearchInteraction	2018-01-15T12:30:35.114Z	8e1424fdf1cec991bca330c978bcc735	"Rodolphe Berger"		192
+ArbitraryAccessInteraction	2018-01-22T04:13:27.639Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048429/item_E2KMC42S625D7TMBDC2HESMNEMPIPKZZ.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:29.772Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_146.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-22T04:15:59.038Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_840.html (PortalController#show)
+ArbitraryAccessInteraction	2018-01-23T06:22:52.970Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+SearchInteraction	2018-02-07T07:06:14.373Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+RankedRetrieveRecordInteraction	2018-02-07T07:06:17.836Z	8e1424fdf1cec991bca330c978bcc735	hokusai		/08533/artifact_aspx_id_1063	1	798
+SearchInteraction	2018-02-07T07:12:02.944Z	8e1424fdf1cec991bca330c978bcc735	hokusai		798
+SearchInteraction	2018-02-07T07:12:12.115Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:13.315Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:14.906Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:17.195Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+RefreshOrPaginationInteraction	2018-02-07T07:12:18.055Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T07:12:31.352Z	8e1424fdf1cec991bca330c978bcc735	rubens		8360
+RankedRetrieveRecordInteraction	2018-02-07T07:12:38.733Z	8e1424fdf1cec991bca330c978bcc735	rubens		/15502/GG_806	5	8360
+SearchInteraction	2018-02-07T07:13:19.518Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+RankedRetrieveRecordInteraction	2018-02-07T07:13:32.225Z	8e1424fdf1cec991bca330c978bcc735	gallica		/9200507/Reading_Europe_96739	6	2043
+SearchInteraction	2018-02-07T07:13:53.461Z	8e1424fdf1cec991bca330c978bcc735	gallica		2043
+ArbitraryAccessInteraction	2018-02-07T07:14:37.982Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T07:15:00.035Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200211/en_list_one_vad_0342.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-12T14:45:50.850Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/9200386/BibliographicResource_3000045384152.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T03:30:40.806Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+SearchInteraction	2018-03-07T03:30:48.891Z	8e1424fdf1cec991bca330c978bcc735	proxy_dc_creator: "http://data.europeana.eu/agent/base/146741" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/146741"		826
+ArbitraryAccessInteraction	2018-03-07T05:16:19.732Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/000002/_UEDIN_214.html (PortalController#show)
+SearchInteraction	2018-03-07T11:01:14.684Z	8e1424fdf1cec991bca330c978bcc735	sparql		9
+ArbitraryAccessInteraction	2018-03-07T13:01:05.510Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/92094/BibliographicResource_1000086165652.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:04:18.058Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2058618/object_KUAS_7433078.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:09.969Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2064128/Museu_ProvidedCHO_museum_digital_3699__technical_number_.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T13:11:56.324Z	8e1424fdf1cec991bca330c978bcc735	[200] GET /portal/en/record/2048401/item_5EJOQE7VEYXBGHMVFFUABXM37T224DCY.html (PortalController#show)
+SearchInteraction	2018-03-13T15:25:20.296Z	8e1424fdf1cec991bca330c978bcc735	ulysses little review		1
+SearchInteraction	2018-03-13T15:25:39.357Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.420Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:43.500Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451
+RefreshOrPaginationInteraction	2018-03-13T15:25:45.331Z	8e1424fdf1cec991bca330c978bcc735	NO VALUE PROVIDED		51374451

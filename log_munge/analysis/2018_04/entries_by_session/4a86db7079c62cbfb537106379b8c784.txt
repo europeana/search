@@ -1,0 +1,260 @@
+ArbitraryAccessInteraction	2018-02-11T19:59:16.607Z	4a86db7079c62cbfb537106379b8c784	[200] GET /portal/it/record/9200376/BibliographicResource_3000100293893.html (PortalController#show)
+SearchInteraction	2018-02-11T19:59:29.305Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		10
+RankedRetrieveRecordInteraction	2018-02-11T19:59:40.041Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03318_B	10	10
+SearchInteraction	2018-02-11T19:59:45.551Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T19:59:52.803Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		3
+CollectionFilterRemovalInteraction	2018-02-11T20:00:11.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		4
+CollectionFilterRemovalInteraction	2018-02-11T20:00:30.822Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		5
+RankedRetrieveRecordInteraction	2018-02-11T20:00:48.354Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03320_B	2	5
+SearchInteraction	2018-02-11T20:01:43.662Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1
+CollectionFilterAdditionInteraction	2018-02-11T20:01:59.240Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:09.526Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:19.920Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:27.554Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+CollectionFilterRemovalInteraction	2018-02-11T20:02:39.524Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:03:26.203Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_20861_B	54	1202
+SearchInteraction	2018-02-11T20:04:05.611Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:04:53.229Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_15445_B	153	1202
+SearchInteraction	2018-02-11T20:05:46.527Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:06:38.928Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:07:51.096Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:09:01.634Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:10:31.497Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_06011_B	546	1202
+SearchInteraction	2018-02-11T20:11:45.114Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:14:03.445Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:14:40.175Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_04495_B	684	1202
+SearchInteraction	2018-02-11T20:17:12.675Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:18:39.973Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03659_B	826	1202
+SearchInteraction	2018-02-11T20:20:09.866Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+CollectionFilterRemovalInteraction	2018-02-11T20:21:47.648Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:21:56.351Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:22:59.911Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:24:03.187Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:25:07.691Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:03.015Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:48.352Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:27:56.401Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:28:36.163Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:29:26.897Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:31:34.174Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+CollectionFilterRemovalInteraction	2018-02-11T20:33:35.577Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:33:44.572Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:35:02.263Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:12.962Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:55.389Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:37:42.359Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:38:50.869Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:40:33.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:41:59.007Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:43:51.382Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:45:44.517Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+CollectionFilterRemovalInteraction	2018-02-11T20:46:40.916Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:46:51.164Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		31
+ArbitraryAccessInteraction	2018-02-11T19:59:16.607Z	4a86db7079c62cbfb537106379b8c784	[200] GET /portal/it/record/9200376/BibliographicResource_3000100293893.html (PortalController#show)
+SearchInteraction	2018-02-11T19:59:29.305Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		10
+RankedRetrieveRecordInteraction	2018-02-11T19:59:40.041Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03318_B	10	10
+SearchInteraction	2018-02-11T19:59:45.551Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T19:59:52.803Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		3
+CollectionFilterRemovalInteraction	2018-02-11T20:00:11.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		4
+CollectionFilterRemovalInteraction	2018-02-11T20:00:30.822Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		5
+RankedRetrieveRecordInteraction	2018-02-11T20:00:48.354Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03320_B	2	5
+SearchInteraction	2018-02-11T20:01:43.662Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1
+CollectionFilterAdditionInteraction	2018-02-11T20:01:59.240Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:09.526Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:19.920Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:27.554Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+CollectionFilterRemovalInteraction	2018-02-11T20:02:39.524Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:03:26.203Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_20861_B	54	1202
+SearchInteraction	2018-02-11T20:04:05.611Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:04:53.229Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_15445_B	153	1202
+SearchInteraction	2018-02-11T20:05:46.527Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:06:38.928Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:07:51.096Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:09:01.634Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:10:31.497Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_06011_B	546	1202
+SearchInteraction	2018-02-11T20:11:45.114Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:14:03.445Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:14:40.175Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_04495_B	684	1202
+SearchInteraction	2018-02-11T20:17:12.675Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:18:39.973Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03659_B	826	1202
+SearchInteraction	2018-02-11T20:20:09.866Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+CollectionFilterRemovalInteraction	2018-02-11T20:21:47.648Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:21:56.351Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:22:59.911Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:24:03.187Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:25:07.691Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:03.015Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:48.352Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:27:56.401Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:28:36.163Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:29:26.897Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:31:34.174Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+CollectionFilterRemovalInteraction	2018-02-11T20:33:35.577Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:33:44.572Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:35:02.263Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:12.962Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:55.389Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:37:42.359Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:38:50.869Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:40:33.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:41:59.007Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:43:51.382Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:45:44.517Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+CollectionFilterRemovalInteraction	2018-02-11T20:46:40.916Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:46:51.164Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		31
+ArbitraryAccessInteraction	2018-02-11T19:59:16.607Z	4a86db7079c62cbfb537106379b8c784	[200] GET /portal/it/record/9200376/BibliographicResource_3000100293893.html (PortalController#show)
+SearchInteraction	2018-02-11T19:59:29.305Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		10
+RankedRetrieveRecordInteraction	2018-02-11T19:59:40.041Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03318_B	10	10
+SearchInteraction	2018-02-11T19:59:45.551Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T19:59:52.803Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		3
+CollectionFilterRemovalInteraction	2018-02-11T20:00:11.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		4
+CollectionFilterRemovalInteraction	2018-02-11T20:00:30.822Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		5
+RankedRetrieveRecordInteraction	2018-02-11T20:00:48.354Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03320_B	2	5
+SearchInteraction	2018-02-11T20:01:43.662Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1
+CollectionFilterAdditionInteraction	2018-02-11T20:01:59.240Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:09.526Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:19.920Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:27.554Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+CollectionFilterRemovalInteraction	2018-02-11T20:02:39.524Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:03:26.203Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_20861_B	54	1202
+SearchInteraction	2018-02-11T20:04:05.611Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:04:53.229Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_15445_B	153	1202
+SearchInteraction	2018-02-11T20:05:46.527Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:06:38.928Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:07:51.096Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:09:01.634Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:10:31.497Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_06011_B	546	1202
+SearchInteraction	2018-02-11T20:11:45.114Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:14:03.445Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:14:40.175Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_04495_B	684	1202
+SearchInteraction	2018-02-11T20:17:12.675Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:18:39.973Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03659_B	826	1202
+SearchInteraction	2018-02-11T20:20:09.866Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+CollectionFilterRemovalInteraction	2018-02-11T20:21:47.648Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:21:56.351Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:22:59.911Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:24:03.187Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:25:07.691Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:03.015Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:48.352Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:27:56.401Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:28:36.163Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:29:26.897Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:31:34.174Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+CollectionFilterRemovalInteraction	2018-02-11T20:33:35.577Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:33:44.572Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:35:02.263Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:12.962Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:55.389Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:37:42.359Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:38:50.869Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:40:33.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:41:59.007Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:43:51.382Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:45:44.517Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+CollectionFilterRemovalInteraction	2018-02-11T20:46:40.916Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:46:51.164Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		31
+ArbitraryAccessInteraction	2018-02-11T19:59:16.607Z	4a86db7079c62cbfb537106379b8c784	[200] GET /portal/it/record/9200376/BibliographicResource_3000100293893.html (PortalController#show)
+SearchInteraction	2018-02-11T19:59:29.305Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		10
+RankedRetrieveRecordInteraction	2018-02-11T19:59:40.041Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03318_B	10	10
+SearchInteraction	2018-02-11T19:59:45.551Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T19:59:52.803Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		3
+CollectionFilterRemovalInteraction	2018-02-11T20:00:11.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		4
+CollectionFilterRemovalInteraction	2018-02-11T20:00:30.822Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		5
+RankedRetrieveRecordInteraction	2018-02-11T20:00:48.354Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03320_B	2	5
+SearchInteraction	2018-02-11T20:01:43.662Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1
+CollectionFilterAdditionInteraction	2018-02-11T20:01:59.240Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:09.526Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:19.920Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:27.554Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+CollectionFilterRemovalInteraction	2018-02-11T20:02:39.524Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:03:26.203Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_20861_B	54	1202
+SearchInteraction	2018-02-11T20:04:05.611Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:04:53.229Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_15445_B	153	1202
+SearchInteraction	2018-02-11T20:05:46.527Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:06:38.928Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:07:51.096Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:09:01.634Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:10:31.497Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_06011_B	546	1202
+SearchInteraction	2018-02-11T20:11:45.114Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:14:03.445Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:14:40.175Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_04495_B	684	1202
+SearchInteraction	2018-02-11T20:17:12.675Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:18:39.973Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03659_B	826	1202
+SearchInteraction	2018-02-11T20:20:09.866Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+CollectionFilterRemovalInteraction	2018-02-11T20:21:47.648Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:21:56.351Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:22:59.911Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:24:03.187Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:25:07.691Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:03.015Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:48.352Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:27:56.401Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:28:36.163Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:29:26.897Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:31:34.174Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+CollectionFilterRemovalInteraction	2018-02-11T20:33:35.577Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:33:44.572Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:35:02.263Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:12.962Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:55.389Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:37:42.359Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:38:50.869Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:40:33.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:41:59.007Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:43:51.382Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:45:44.517Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+CollectionFilterRemovalInteraction	2018-02-11T20:46:40.916Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:46:51.164Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		31
+ArbitraryAccessInteraction	2018-02-11T19:59:16.607Z	4a86db7079c62cbfb537106379b8c784	[200] GET /portal/it/record/9200376/BibliographicResource_3000100293893.html (PortalController#show)
+SearchInteraction	2018-02-11T19:59:29.305Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		10
+RankedRetrieveRecordInteraction	2018-02-11T19:59:40.041Z	4a86db7079c62cbfb537106379b8c784	fausto palafox		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03318_B	10	10
+SearchInteraction	2018-02-11T19:59:45.551Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T19:59:52.803Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		3
+CollectionFilterRemovalInteraction	2018-02-11T20:00:11.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		4
+CollectionFilterRemovalInteraction	2018-02-11T20:00:30.822Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		5
+RankedRetrieveRecordInteraction	2018-02-11T20:00:48.354Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03320_B	2	5
+SearchInteraction	2018-02-11T20:01:43.662Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1
+CollectionFilterAdditionInteraction	2018-02-11T20:01:59.240Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:09.526Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:19.920Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+RefreshOrPaginationInteraction	2018-02-11T20:02:27.554Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		0
+CollectionFilterRemovalInteraction	2018-02-11T20:02:39.524Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:03:26.203Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_20861_B	54	1202
+SearchInteraction	2018-02-11T20:04:05.611Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:04:53.229Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_15445_B	153	1202
+SearchInteraction	2018-02-11T20:05:46.527Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:06:38.928Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:07:51.096Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:09:01.634Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:10:31.497Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_06011_B	546	1202
+SearchInteraction	2018-02-11T20:11:45.114Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RefreshOrPaginationInteraction	2018-02-11T20:14:03.445Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:14:40.175Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_04495_B	684	1202
+SearchInteraction	2018-02-11T20:17:12.675Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+RankedRetrieveRecordInteraction	2018-02-11T20:18:39.973Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		/2022709/oai_fototeca_mcu_es_fototeca_MORENO_03659_B	826	1202
+SearchInteraction	2018-02-11T20:20:09.866Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1202
+CollectionFilterRemovalInteraction	2018-02-11T20:21:47.648Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:21:56.351Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:22:59.911Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:24:03.187Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:25:07.691Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:03.015Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:26:48.352Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:27:56.401Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:28:36.163Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:29:26.897Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+RefreshOrPaginationInteraction	2018-02-11T20:31:34.174Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		2000
+CollectionFilterRemovalInteraction	2018-02-11T20:33:35.577Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:33:44.572Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:35:02.263Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:12.962Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:36:55.389Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:37:42.359Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:38:50.869Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:40:33.075Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:41:59.007Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:43:51.382Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+RefreshOrPaginationInteraction	2018-02-11T20:45:44.517Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		1608
+CollectionFilterRemovalInteraction	2018-02-11T20:46:40.916Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		55928
+CollectionFilterAdditionInteraction	2018-02-11T20:46:51.164Z	4a86db7079c62cbfb537106379b8c784	who:(Casa Moreno. Archivo de Arte Español 1893-1953)		31

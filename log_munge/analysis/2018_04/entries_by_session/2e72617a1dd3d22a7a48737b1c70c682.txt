@@ -1,0 +1,275 @@
+ArbitraryAccessInteraction	2018-03-12T20:56:17.487Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021622/detail_no_jsp_action_detail_imid_71243.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:16.032Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52742716.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:57.909Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+SearchInteraction	2018-03-12T21:09:37.309Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+RefreshOrPaginationInteraction	2018-03-12T21:15:43.425Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:15:49.038Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:15:59.226Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59351875	1	99
+SearchInteraction	2018-03-12T21:20:18.016Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:20:41.766Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:20:50.469Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:21:48.744Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_53009943	23	99
+SearchInteraction	2018-03-12T21:22:20.177Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:22:29.868Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52813259	27	99
+RankedRetrieveRecordInteraction	2018-03-12T21:23:11.381Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52811597	28	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:05.963Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52796117	34	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:31.749Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52795893	35	99
+SearchInteraction	2018-03-12T21:28:56.719Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:29:03.545Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52791974	37	99
+RankedRetrieveRecordInteraction	2018-03-12T21:30:24.128Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52779343	42	99
+SearchInteraction	2018-03-12T21:31:02.860Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:31:21.420Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743897	52	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:36.916Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:37.573Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:35:46.445Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52738523	60	99
+SearchInteraction	2018-03-12T21:39:05.539Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:39:36.157Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52725183	69	99
+SearchInteraction	2018-03-12T21:39:59.990Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:29.047Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52704035	77	99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:59.629Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52694526	81	99
+SearchInteraction	2018-03-12T21:41:30.358Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:42:16.910Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:42:40.376Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52664851	97	99
+SearchInteraction	2018-03-12T21:44:20.192Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:44:39.345Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:44:59.321Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59162103	7	23
+SearchInteraction	2018-03-12T21:45:25.173Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:45:40.139Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52773338	15	23
+SearchInteraction	2018-03-12T21:46:10.483Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:46:17.505Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:46:29.989Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_57753648	1	49
+RankedRetrieveRecordInteraction	2018-03-12T21:48:18.544Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+RankedRetrieveRecordInteraction	2018-03-12T21:49:32.727Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52723387	6	49
+RankedRetrieveRecordInteraction	2018-03-12T21:51:04.697Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52688409	7	49
+SearchInteraction	2018-03-12T21:51:27.350Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:41.014Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:48.683Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:55.664Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:52:21.983Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:52:43.039Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+ArbitraryAccessInteraction	2018-03-12T21:54:45.942Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:05:30.473Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52707677.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:13:33.979Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_55215074.html (PortalController#show)
+SearchInteraction	2018-03-12T22:14:11.817Z	2e72617a1dd3d22a7a48737b1c70c682	europeana_collectionName:(2021642_Ag_NL_DigitaleCollectie_gemeente_schouwen)		37755
+ArbitraryAccessInteraction	2018-03-12T22:15:03.355Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855722.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:15:24.668Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855726.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T20:56:17.487Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021622/detail_no_jsp_action_detail_imid_71243.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:16.032Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52742716.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:57.909Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+SearchInteraction	2018-03-12T21:09:37.309Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+RefreshOrPaginationInteraction	2018-03-12T21:15:43.425Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:15:49.038Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:15:59.226Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59351875	1	99
+SearchInteraction	2018-03-12T21:20:18.016Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:20:41.766Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:20:50.469Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:21:48.744Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_53009943	23	99
+SearchInteraction	2018-03-12T21:22:20.177Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:22:29.868Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52813259	27	99
+RankedRetrieveRecordInteraction	2018-03-12T21:23:11.381Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52811597	28	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:05.963Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52796117	34	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:31.749Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52795893	35	99
+SearchInteraction	2018-03-12T21:28:56.719Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:29:03.545Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52791974	37	99
+RankedRetrieveRecordInteraction	2018-03-12T21:30:24.128Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52779343	42	99
+SearchInteraction	2018-03-12T21:31:02.860Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:31:21.420Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743897	52	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:36.916Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:37.573Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:35:46.445Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52738523	60	99
+SearchInteraction	2018-03-12T21:39:05.539Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:39:36.157Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52725183	69	99
+SearchInteraction	2018-03-12T21:39:59.990Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:29.047Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52704035	77	99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:59.629Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52694526	81	99
+SearchInteraction	2018-03-12T21:41:30.358Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:42:16.910Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:42:40.376Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52664851	97	99
+SearchInteraction	2018-03-12T21:44:20.192Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:44:39.345Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:44:59.321Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59162103	7	23
+SearchInteraction	2018-03-12T21:45:25.173Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:45:40.139Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52773338	15	23
+SearchInteraction	2018-03-12T21:46:10.483Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:46:17.505Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:46:29.989Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_57753648	1	49
+RankedRetrieveRecordInteraction	2018-03-12T21:48:18.544Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+RankedRetrieveRecordInteraction	2018-03-12T21:49:32.727Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52723387	6	49
+RankedRetrieveRecordInteraction	2018-03-12T21:51:04.697Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52688409	7	49
+SearchInteraction	2018-03-12T21:51:27.350Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:41.014Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:48.683Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:55.664Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:52:21.983Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:52:43.039Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+ArbitraryAccessInteraction	2018-03-12T21:54:45.942Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:05:30.473Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52707677.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:13:33.979Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_55215074.html (PortalController#show)
+SearchInteraction	2018-03-12T22:14:11.817Z	2e72617a1dd3d22a7a48737b1c70c682	europeana_collectionName:(2021642_Ag_NL_DigitaleCollectie_gemeente_schouwen)		37755
+ArbitraryAccessInteraction	2018-03-12T22:15:03.355Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855722.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:15:24.668Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855726.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T20:56:17.487Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021622/detail_no_jsp_action_detail_imid_71243.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:16.032Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52742716.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:57.909Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+SearchInteraction	2018-03-12T21:09:37.309Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+RefreshOrPaginationInteraction	2018-03-12T21:15:43.425Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:15:49.038Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:15:59.226Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59351875	1	99
+SearchInteraction	2018-03-12T21:20:18.016Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:20:41.766Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:20:50.469Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:21:48.744Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_53009943	23	99
+SearchInteraction	2018-03-12T21:22:20.177Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:22:29.868Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52813259	27	99
+RankedRetrieveRecordInteraction	2018-03-12T21:23:11.381Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52811597	28	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:05.963Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52796117	34	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:31.749Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52795893	35	99
+SearchInteraction	2018-03-12T21:28:56.719Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:29:03.545Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52791974	37	99
+RankedRetrieveRecordInteraction	2018-03-12T21:30:24.128Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52779343	42	99
+SearchInteraction	2018-03-12T21:31:02.860Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:31:21.420Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743897	52	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:36.916Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:37.573Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:35:46.445Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52738523	60	99
+SearchInteraction	2018-03-12T21:39:05.539Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:39:36.157Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52725183	69	99
+SearchInteraction	2018-03-12T21:39:59.990Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:29.047Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52704035	77	99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:59.629Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52694526	81	99
+SearchInteraction	2018-03-12T21:41:30.358Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:42:16.910Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:42:40.376Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52664851	97	99
+SearchInteraction	2018-03-12T21:44:20.192Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:44:39.345Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:44:59.321Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59162103	7	23
+SearchInteraction	2018-03-12T21:45:25.173Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:45:40.139Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52773338	15	23
+SearchInteraction	2018-03-12T21:46:10.483Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:46:17.505Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:46:29.989Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_57753648	1	49
+RankedRetrieveRecordInteraction	2018-03-12T21:48:18.544Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+RankedRetrieveRecordInteraction	2018-03-12T21:49:32.727Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52723387	6	49
+RankedRetrieveRecordInteraction	2018-03-12T21:51:04.697Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52688409	7	49
+SearchInteraction	2018-03-12T21:51:27.350Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:41.014Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:48.683Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:55.664Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:52:21.983Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:52:43.039Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+ArbitraryAccessInteraction	2018-03-12T21:54:45.942Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:05:30.473Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52707677.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:13:33.979Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_55215074.html (PortalController#show)
+SearchInteraction	2018-03-12T22:14:11.817Z	2e72617a1dd3d22a7a48737b1c70c682	europeana_collectionName:(2021642_Ag_NL_DigitaleCollectie_gemeente_schouwen)		37755
+ArbitraryAccessInteraction	2018-03-12T22:15:03.355Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855722.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:15:24.668Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855726.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T20:56:17.487Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021622/detail_no_jsp_action_detail_imid_71243.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:16.032Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52742716.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:57.909Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+SearchInteraction	2018-03-12T21:09:37.309Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+RefreshOrPaginationInteraction	2018-03-12T21:15:43.425Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:15:49.038Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:15:59.226Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59351875	1	99
+SearchInteraction	2018-03-12T21:20:18.016Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:20:41.766Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:20:50.469Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:21:48.744Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_53009943	23	99
+SearchInteraction	2018-03-12T21:22:20.177Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:22:29.868Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52813259	27	99
+RankedRetrieveRecordInteraction	2018-03-12T21:23:11.381Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52811597	28	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:05.963Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52796117	34	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:31.749Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52795893	35	99
+SearchInteraction	2018-03-12T21:28:56.719Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:29:03.545Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52791974	37	99
+RankedRetrieveRecordInteraction	2018-03-12T21:30:24.128Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52779343	42	99
+SearchInteraction	2018-03-12T21:31:02.860Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:31:21.420Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743897	52	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:36.916Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:37.573Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:35:46.445Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52738523	60	99
+SearchInteraction	2018-03-12T21:39:05.539Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:39:36.157Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52725183	69	99
+SearchInteraction	2018-03-12T21:39:59.990Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:29.047Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52704035	77	99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:59.629Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52694526	81	99
+SearchInteraction	2018-03-12T21:41:30.358Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:42:16.910Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:42:40.376Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52664851	97	99
+SearchInteraction	2018-03-12T21:44:20.192Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:44:39.345Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:44:59.321Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59162103	7	23
+SearchInteraction	2018-03-12T21:45:25.173Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:45:40.139Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52773338	15	23
+SearchInteraction	2018-03-12T21:46:10.483Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:46:17.505Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:46:29.989Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_57753648	1	49
+RankedRetrieveRecordInteraction	2018-03-12T21:48:18.544Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+RankedRetrieveRecordInteraction	2018-03-12T21:49:32.727Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52723387	6	49
+RankedRetrieveRecordInteraction	2018-03-12T21:51:04.697Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52688409	7	49
+SearchInteraction	2018-03-12T21:51:27.350Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:41.014Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:48.683Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:55.664Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:52:21.983Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:52:43.039Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+ArbitraryAccessInteraction	2018-03-12T21:54:45.942Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:05:30.473Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52707677.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:13:33.979Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_55215074.html (PortalController#show)
+SearchInteraction	2018-03-12T22:14:11.817Z	2e72617a1dd3d22a7a48737b1c70c682	europeana_collectionName:(2021642_Ag_NL_DigitaleCollectie_gemeente_schouwen)		37755
+ArbitraryAccessInteraction	2018-03-12T22:15:03.355Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855722.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:15:24.668Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855726.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T20:56:17.487Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021622/detail_no_jsp_action_detail_imid_71243.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:16.032Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52742716.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T21:08:57.909Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+SearchInteraction	2018-03-12T21:09:37.309Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+RefreshOrPaginationInteraction	2018-03-12T21:15:43.425Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:15:49.038Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:15:59.226Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59351875	1	99
+SearchInteraction	2018-03-12T21:20:18.016Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:20:41.766Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:20:50.469Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:21:48.744Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_53009943	23	99
+SearchInteraction	2018-03-12T21:22:20.177Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:22:29.868Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52813259	27	99
+RankedRetrieveRecordInteraction	2018-03-12T21:23:11.381Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52811597	28	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:05.963Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52796117	34	99
+RankedRetrieveRecordInteraction	2018-03-12T21:24:31.749Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52795893	35	99
+SearchInteraction	2018-03-12T21:28:56.719Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:29:03.545Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52791974	37	99
+RankedRetrieveRecordInteraction	2018-03-12T21:30:24.128Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52779343	42	99
+SearchInteraction	2018-03-12T21:31:02.860Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:31:21.420Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743897	52	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:36.916Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:33:37.573Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743248	56	99
+RankedRetrieveRecordInteraction	2018-03-12T21:35:46.445Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52738523	60	99
+SearchInteraction	2018-03-12T21:39:05.539Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:39:36.157Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52725183	69	99
+SearchInteraction	2018-03-12T21:39:59.990Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:29.047Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52704035	77	99
+RankedRetrieveRecordInteraction	2018-03-12T21:40:59.629Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52694526	81	99
+SearchInteraction	2018-03-12T21:41:30.358Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RefreshOrPaginationInteraction	2018-03-12T21:42:16.910Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		99
+RankedRetrieveRecordInteraction	2018-03-12T21:42:40.376Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52664851	97	99
+SearchInteraction	2018-03-12T21:44:20.192Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:44:39.345Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:44:59.321Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_59162103	7	23
+SearchInteraction	2018-03-12T21:45:25.173Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		23
+RankedRetrieveRecordInteraction	2018-03-12T21:45:40.139Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52773338	15	23
+SearchInteraction	2018-03-12T21:46:10.483Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		180184
+CollectionFilterRemovalInteraction	2018-03-12T21:46:17.505Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:46:29.989Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_57753648	1	49
+RankedRetrieveRecordInteraction	2018-03-12T21:48:18.544Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+RankedRetrieveRecordInteraction	2018-03-12T21:49:32.727Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52723387	6	49
+RankedRetrieveRecordInteraction	2018-03-12T21:51:04.697Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52688409	7	49
+SearchInteraction	2018-03-12T21:51:27.350Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:41.014Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:48.683Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:51:55.664Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RefreshOrPaginationInteraction	2018-03-12T21:52:21.983Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		49
+RankedRetrieveRecordInteraction	2018-03-12T21:52:43.039Z	2e72617a1dd3d22a7a48737b1c70c682	proxy_dcterms_medium:"http://data.europeana.eu/concept/base/48"		/2021642/Atlantispubliek_Default_aspx_detail_52743825	5	49
+ArbitraryAccessInteraction	2018-03-12T21:54:45.942Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54177868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:05:30.473Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_52707677.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:13:33.979Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_55215074.html (PortalController#show)
+SearchInteraction	2018-03-12T22:14:11.817Z	2e72617a1dd3d22a7a48737b1c70c682	europeana_collectionName:(2021642_Ag_NL_DigitaleCollectie_gemeente_schouwen)		37755
+ArbitraryAccessInteraction	2018-03-12T22:15:03.355Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855722.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T22:15:24.668Z	2e72617a1dd3d22a7a48737b1c70c682	[200] GET /portal/nl/record/2021642/Atlantispubliek_Default_aspx_detail_54855726.html (PortalController#show)

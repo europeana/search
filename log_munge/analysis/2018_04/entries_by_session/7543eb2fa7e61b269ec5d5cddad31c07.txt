@@ -1,0 +1,85 @@
+ArbitraryAccessInteraction	2018-02-13T08:00:11.139Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:01:40.002Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:02:46.761Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11715.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:25.952Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:50.426Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12731.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:04.856Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:22.224Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:19.624Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11713.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:55.581Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_10909.html (PortalController#show)
+SearchInteraction	2018-02-13T08:08:10.327Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:18.554Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11714	2	3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:43.938Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_10899	5	3816792
+SearchInteraction	2018-02-13T08:09:22.737Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	1830113
+RankedRetrieveRecordInteraction	2018-02-13T08:09:38.114Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11581	1	3816792
+ArbitraryAccessInteraction	2018-02-13T08:11:44.906Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:12:46.029Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T14:09:24.670Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:00:11.139Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:01:40.002Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:02:46.761Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11715.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:25.952Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:50.426Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12731.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:04.856Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:22.224Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:19.624Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11713.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:55.581Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_10909.html (PortalController#show)
+SearchInteraction	2018-02-13T08:08:10.327Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:18.554Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11714	2	3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:43.938Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_10899	5	3816792
+SearchInteraction	2018-02-13T08:09:22.737Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	1830113
+RankedRetrieveRecordInteraction	2018-02-13T08:09:38.114Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11581	1	3816792
+ArbitraryAccessInteraction	2018-02-13T08:11:44.906Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:12:46.029Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T14:09:24.670Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:00:11.139Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:01:40.002Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:02:46.761Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11715.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:25.952Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:50.426Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12731.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:04.856Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:22.224Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:19.624Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11713.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:55.581Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_10909.html (PortalController#show)
+SearchInteraction	2018-02-13T08:08:10.327Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:18.554Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11714	2	3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:43.938Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_10899	5	3816792
+SearchInteraction	2018-02-13T08:09:22.737Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	1830113
+RankedRetrieveRecordInteraction	2018-02-13T08:09:38.114Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11581	1	3816792
+ArbitraryAccessInteraction	2018-02-13T08:11:44.906Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:12:46.029Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T14:09:24.670Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:00:11.139Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:01:40.002Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:02:46.761Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11715.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:25.952Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:50.426Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12731.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:04.856Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:22.224Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:19.624Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11713.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:55.581Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_10909.html (PortalController#show)
+SearchInteraction	2018-02-13T08:08:10.327Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:18.554Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11714	2	3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:43.938Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_10899	5	3816792
+SearchInteraction	2018-02-13T08:09:22.737Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	1830113
+RankedRetrieveRecordInteraction	2018-02-13T08:09:38.114Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11581	1	3816792
+ArbitraryAccessInteraction	2018-02-13T08:11:44.906Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:12:46.029Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T14:09:24.670Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_868.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:00:11.139Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:01:40.002Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:02:46.761Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11715.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:25.952Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:03:50.426Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12731.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:04.856Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:04:22.224Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:19.624Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11713.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:05:55.581Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_10909.html (PortalController#show)
+SearchInteraction	2018-02-13T08:08:10.327Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:18.554Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11714	2	3816792
+RankedRetrieveRecordInteraction	2018-02-13T08:08:43.938Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_10899	5	3816792
+SearchInteraction	2018-02-13T08:09:22.737Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	1830113
+RankedRetrieveRecordInteraction	2018-02-13T08:09:38.114Z	7543eb2fa7e61b269ec5d5cddad31c07	NO VALUE PROVIDED		/2020705/DR_11581	1	3816792
+ArbitraryAccessInteraction	2018-02-13T08:11:44.906Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_11720.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T08:12:46.029Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_12892.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-14T14:09:24.670Z	7543eb2fa7e61b269ec5d5cddad31c07	[200] GET /portal/en/record/2020705/DR_868.html (PortalController#show)

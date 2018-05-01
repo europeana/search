@@ -1,0 +1,160 @@
+SearchInteraction	2018-02-20T12:59:17.345Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: silver']}	6220
+SearchInteraction	2018-02-20T13:00:02.009Z	1e9aa8f15253fed1913b5a72ee2d7479	(cyanotype OR cyanotypie OR cyanotypi)		181
+SearchInteraction	2018-02-20T13:01:25.889Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+SearchInteraction	2018-02-20T13:01:39.304Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:47.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:52.777Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:01:59.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_91	35	33751
+SearchInteraction	2018-02-20T13:02:13.465Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:02:19.127Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:26.799Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_66	59	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:36.380Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_67	58	33751
+SearchInteraction	2018-02-20T13:02:46.187Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:00.196Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:17.995Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:22.288Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:24.913Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:31.910Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:39.886Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:45.271Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+SearchInteraction	2018-02-20T13:04:33.882Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:04:43.362Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200234/download_type_document_docid_340246	2	7
+SearchInteraction	2018-02-20T13:05:20.200Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:28.108Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200332/BibliographicResource_3000095442826	5	7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:39.960Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN6314_Pixels_0	4	7
+SearchInteraction	2018-02-20T13:05:57.397Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:14.065Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:21.384Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:30.180Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:40.471Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:48.051Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:59.784Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:07:04.897Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+SearchInteraction	2018-02-20T12:59:17.345Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: silver']}	6220
+SearchInteraction	2018-02-20T13:00:02.009Z	1e9aa8f15253fed1913b5a72ee2d7479	(cyanotype OR cyanotypie OR cyanotypi)		181
+SearchInteraction	2018-02-20T13:01:25.889Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+SearchInteraction	2018-02-20T13:01:39.304Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:47.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:52.777Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:01:59.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_91	35	33751
+SearchInteraction	2018-02-20T13:02:13.465Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:02:19.127Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:26.799Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_66	59	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:36.380Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_67	58	33751
+SearchInteraction	2018-02-20T13:02:46.187Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:00.196Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:17.995Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:22.288Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:24.913Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:31.910Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:39.886Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:45.271Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+SearchInteraction	2018-02-20T13:04:33.882Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:04:43.362Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200234/download_type_document_docid_340246	2	7
+SearchInteraction	2018-02-20T13:05:20.200Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:28.108Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200332/BibliographicResource_3000095442826	5	7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:39.960Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN6314_Pixels_0	4	7
+SearchInteraction	2018-02-20T13:05:57.397Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:14.065Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:21.384Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:30.180Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:40.471Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:48.051Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:59.784Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:07:04.897Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+SearchInteraction	2018-02-20T12:59:17.345Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: silver']}	6220
+SearchInteraction	2018-02-20T13:00:02.009Z	1e9aa8f15253fed1913b5a72ee2d7479	(cyanotype OR cyanotypie OR cyanotypi)		181
+SearchInteraction	2018-02-20T13:01:25.889Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+SearchInteraction	2018-02-20T13:01:39.304Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:47.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:52.777Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:01:59.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_91	35	33751
+SearchInteraction	2018-02-20T13:02:13.465Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:02:19.127Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:26.799Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_66	59	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:36.380Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_67	58	33751
+SearchInteraction	2018-02-20T13:02:46.187Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:00.196Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:17.995Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:22.288Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:24.913Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:31.910Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:39.886Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:45.271Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+SearchInteraction	2018-02-20T13:04:33.882Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:04:43.362Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200234/download_type_document_docid_340246	2	7
+SearchInteraction	2018-02-20T13:05:20.200Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:28.108Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200332/BibliographicResource_3000095442826	5	7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:39.960Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN6314_Pixels_0	4	7
+SearchInteraction	2018-02-20T13:05:57.397Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:14.065Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:21.384Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:30.180Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:40.471Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:48.051Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:59.784Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:07:04.897Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+SearchInteraction	2018-02-20T12:59:17.345Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: silver']}	6220
+SearchInteraction	2018-02-20T13:00:02.009Z	1e9aa8f15253fed1913b5a72ee2d7479	(cyanotype OR cyanotypie OR cyanotypi)		181
+SearchInteraction	2018-02-20T13:01:25.889Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+SearchInteraction	2018-02-20T13:01:39.304Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:47.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:52.777Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:01:59.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_91	35	33751
+SearchInteraction	2018-02-20T13:02:13.465Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:02:19.127Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:26.799Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_66	59	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:36.380Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_67	58	33751
+SearchInteraction	2018-02-20T13:02:46.187Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:00.196Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:17.995Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:22.288Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:24.913Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:31.910Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:39.886Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:45.271Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+SearchInteraction	2018-02-20T13:04:33.882Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:04:43.362Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200234/download_type_document_docid_340246	2	7
+SearchInteraction	2018-02-20T13:05:20.200Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:28.108Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200332/BibliographicResource_3000095442826	5	7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:39.960Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN6314_Pixels_0	4	7
+SearchInteraction	2018-02-20T13:05:57.397Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:14.065Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:21.384Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:30.180Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:40.471Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:48.051Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:59.784Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:07:04.897Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+SearchInteraction	2018-02-20T12:59:17.345Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: silver']}	6220
+SearchInteraction	2018-02-20T13:00:02.009Z	1e9aa8f15253fed1913b5a72ee2d7479	(cyanotype OR cyanotypie OR cyanotypi)		181
+SearchInteraction	2018-02-20T13:01:25.889Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+SearchInteraction	2018-02-20T13:01:39.304Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:47.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:01:52.777Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:01:59.668Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_91	35	33751
+SearchInteraction	2018-02-20T13:02:13.465Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:02:19.127Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:26.799Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_66	59	33751
+RankedRetrieveRecordInteraction	2018-02-20T13:02:36.380Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/9200499/yoolib_bmchambery_67	58	33751
+SearchInteraction	2018-02-20T13:02:46.187Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:00.196Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:17.995Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:22.288Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:24.913Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:31.910Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:39.886Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+RefreshOrPaginationInteraction	2018-02-20T13:03:45.271Z	1e9aa8f15253fed1913b5a72ee2d7479	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	33751
+SearchInteraction	2018-02-20T13:04:33.882Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:04:43.362Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200234/download_type_document_docid_340246	2	7
+SearchInteraction	2018-02-20T13:05:20.200Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:28.108Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/9200332/BibliographicResource_3000095442826	5	7
+RankedRetrieveRecordInteraction	2018-02-20T13:05:39.960Z	1e9aa8f15253fed1913b5a72ee2d7479	("mappa mundi" OR Mappamoundi OR mapppamundi OR "mappae mundi")		/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN6314_Pixels_0	4	7
+SearchInteraction	2018-02-20T13:05:57.397Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:14.065Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:21.384Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:30.180Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:40.471Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:48.051Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:06:59.784Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917
+RefreshOrPaginationInteraction	2018-02-20T13:07:04.897Z	1e9aa8f15253fed1913b5a72ee2d7479	what:maps AND (title:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR what:(Sweden OR Suede OR Sverige OR Schweden OR Zweden) OR where:(Sweden OR Suede OR Sverige OR Schweden OR Zweden))		917

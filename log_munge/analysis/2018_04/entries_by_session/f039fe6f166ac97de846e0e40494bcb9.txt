@@ -1,0 +1,105 @@
+SearchInteraction	2018-03-06T09:39:58.853Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T09:46:41.432Z	f039fe6f166ac97de846e0e40494bcb9	Virginia foureaux 		1
+SearchInteraction	2018-03-06T09:47:33.116Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:47:35.216Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:48:03.386Z	f039fe6f166ac97de846e0e40494bcb9	Frank marlo 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+ArbitraryAccessInteraction	2018-03-06T09:48:15.993Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/help.html (PagesController#show)
+SearchInteraction	2018-03-06T09:48:56.255Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-06T09:48:58.539Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:49:23.428Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true']}	12966418
+SearchInteraction	2018-03-06T09:49:24.688Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:43:11.977Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T13:50:17.866Z	f039fe6f166ac97de846e0e40494bcb9	Virginia aragon		4
+ArbitraryAccessInteraction	2018-03-06T13:54:47.258Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/record/9200302/BibliographicResource_3000059475304.html (PortalController#show)
+SearchInteraction	2018-03-06T13:55:06.150Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T13:56:23.293Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T13:57:56.472Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:20.803Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:21.787Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T13:58:58.716Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-06T13:59:09.301Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:59:20.032Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T09:39:58.853Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T09:46:41.432Z	f039fe6f166ac97de846e0e40494bcb9	Virginia foureaux 		1
+SearchInteraction	2018-03-06T09:47:33.116Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:47:35.216Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:48:03.386Z	f039fe6f166ac97de846e0e40494bcb9	Frank marlo 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+ArbitraryAccessInteraction	2018-03-06T09:48:15.993Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/help.html (PagesController#show)
+SearchInteraction	2018-03-06T09:48:56.255Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-06T09:48:58.539Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:49:23.428Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true']}	12966418
+SearchInteraction	2018-03-06T09:49:24.688Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:43:11.977Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T13:50:17.866Z	f039fe6f166ac97de846e0e40494bcb9	Virginia aragon		4
+ArbitraryAccessInteraction	2018-03-06T13:54:47.258Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/record/9200302/BibliographicResource_3000059475304.html (PortalController#show)
+SearchInteraction	2018-03-06T13:55:06.150Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T13:56:23.293Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T13:57:56.472Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:20.803Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:21.787Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T13:58:58.716Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-06T13:59:09.301Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:59:20.032Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T09:39:58.853Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T09:46:41.432Z	f039fe6f166ac97de846e0e40494bcb9	Virginia foureaux 		1
+SearchInteraction	2018-03-06T09:47:33.116Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:47:35.216Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:48:03.386Z	f039fe6f166ac97de846e0e40494bcb9	Frank marlo 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+ArbitraryAccessInteraction	2018-03-06T09:48:15.993Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/help.html (PagesController#show)
+SearchInteraction	2018-03-06T09:48:56.255Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-06T09:48:58.539Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:49:23.428Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true']}	12966418
+SearchInteraction	2018-03-06T09:49:24.688Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:43:11.977Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T13:50:17.866Z	f039fe6f166ac97de846e0e40494bcb9	Virginia aragon		4
+ArbitraryAccessInteraction	2018-03-06T13:54:47.258Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/record/9200302/BibliographicResource_3000059475304.html (PortalController#show)
+SearchInteraction	2018-03-06T13:55:06.150Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T13:56:23.293Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T13:57:56.472Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:20.803Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:21.787Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T13:58:58.716Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-06T13:59:09.301Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:59:20.032Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T09:39:58.853Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T09:46:41.432Z	f039fe6f166ac97de846e0e40494bcb9	Virginia foureaux 		1
+SearchInteraction	2018-03-06T09:47:33.116Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:47:35.216Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:48:03.386Z	f039fe6f166ac97de846e0e40494bcb9	Frank marlo 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+ArbitraryAccessInteraction	2018-03-06T09:48:15.993Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/help.html (PagesController#show)
+SearchInteraction	2018-03-06T09:48:56.255Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-06T09:48:58.539Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:49:23.428Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true']}	12966418
+SearchInteraction	2018-03-06T09:49:24.688Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:43:11.977Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T13:50:17.866Z	f039fe6f166ac97de846e0e40494bcb9	Virginia aragon		4
+ArbitraryAccessInteraction	2018-03-06T13:54:47.258Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/record/9200302/BibliographicResource_3000059475304.html (PortalController#show)
+SearchInteraction	2018-03-06T13:55:06.150Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T13:56:23.293Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T13:57:56.472Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:20.803Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:21.787Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T13:58:58.716Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-06T13:59:09.301Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:59:20.032Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T09:39:58.853Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T09:46:41.432Z	f039fe6f166ac97de846e0e40494bcb9	Virginia foureaux 		1
+SearchInteraction	2018-03-06T09:47:33.116Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T09:47:35.216Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:48:03.386Z	f039fe6f166ac97de846e0e40494bcb9	Frank marlo 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+ArbitraryAccessInteraction	2018-03-06T09:48:15.993Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/help.html (PagesController#show)
+SearchInteraction	2018-03-06T09:48:56.255Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+RefreshOrPaginationInteraction	2018-03-06T09:48:58.539Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	2808771
+SearchInteraction	2018-03-06T09:49:23.428Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'MEDIA': ['true']}	12966418
+SearchInteraction	2018-03-06T09:49:24.688Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'MEDIA': ['true'], 'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:43:11.977Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 		4
+SearchInteraction	2018-03-06T13:50:17.866Z	f039fe6f166ac97de846e0e40494bcb9	Virginia aragon		4
+ArbitraryAccessInteraction	2018-03-06T13:54:47.258Z	f039fe6f166ac97de846e0e40494bcb9	[200] GET /portal/es/record/9200302/BibliographicResource_3000059475304.html (PortalController#show)
+SearchInteraction	2018-03-06T13:55:06.150Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4
+SearchInteraction	2018-03-06T13:56:23.293Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-06T13:57:56.472Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:20.803Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-06T13:58:21.787Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+SearchInteraction	2018-03-06T13:58:58.716Z	f039fe6f166ac97de846e0e40494bcb9	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+SearchInteraction	2018-03-06T13:59:09.301Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon 	{'TYPE': ['TEXT']}	0
+SearchInteraction	2018-03-06T13:59:20.032Z	f039fe6f166ac97de846e0e40494bcb9	Virginia Aragon		4

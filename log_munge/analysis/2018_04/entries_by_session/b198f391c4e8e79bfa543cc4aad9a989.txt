@@ -1,0 +1,115 @@
+ArbitraryAccessInteraction	2018-03-13T17:56:47.752Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/es/about.html (PagesController#show)
+SearchInteraction	2018-03-13T17:59:00.284Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterAdditionInteraction	2018-03-13T17:59:05.266Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		0
+CollectionFilterRemovalInteraction	2018-03-13T17:59:12.042Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterRemovalInteraction	2018-03-13T17:59:16.522Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+RankedRetrieveRecordInteraction	2018-03-13T18:02:22.629Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		/2022709/oai_fototeca_mcu_es_fototeca_TARJETAS_20POSTALES_TP_0687	1	5
+SearchInteraction	2018-03-13T18:04:20.905Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+SearchInteraction	2018-03-13T18:04:37.466Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:04:41.225Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:43.318Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:44.796Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:45.240Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:04:55.591Z	b198f391c4e8e79bfa543cc4aad9a989	Caravaca de la Cruz		0
+SearchInteraction	2018-03-13T18:04:58.824Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:05:55.812Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:06:11.569Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:06:24.354Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	6930631
+SearchInteraction	2018-03-13T18:07:05.838Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:07:11.406Z	b198f391c4e8e79bfa543cc4aad9a989	murcia	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	527
+SearchInteraction	2018-03-13T18:07:45.523Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-03-13T18:10:58.879Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-13T18:11:04.536Z	b198f391c4e8e79bfa543cc4aad9a989	Édith Piaf	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	3
+ArbitraryAccessInteraction	2018-03-13T18:35:55.229Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-13T17:56:47.752Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/es/about.html (PagesController#show)
+SearchInteraction	2018-03-13T17:59:00.284Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterAdditionInteraction	2018-03-13T17:59:05.266Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		0
+CollectionFilterRemovalInteraction	2018-03-13T17:59:12.042Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterRemovalInteraction	2018-03-13T17:59:16.522Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+RankedRetrieveRecordInteraction	2018-03-13T18:02:22.629Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		/2022709/oai_fototeca_mcu_es_fototeca_TARJETAS_20POSTALES_TP_0687	1	5
+SearchInteraction	2018-03-13T18:04:20.905Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+SearchInteraction	2018-03-13T18:04:37.466Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:04:41.225Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:43.318Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:44.796Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:45.240Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:04:55.591Z	b198f391c4e8e79bfa543cc4aad9a989	Caravaca de la Cruz		0
+SearchInteraction	2018-03-13T18:04:58.824Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:05:55.812Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:06:11.569Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:06:24.354Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	6930631
+SearchInteraction	2018-03-13T18:07:05.838Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:07:11.406Z	b198f391c4e8e79bfa543cc4aad9a989	murcia	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	527
+SearchInteraction	2018-03-13T18:07:45.523Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-03-13T18:10:58.879Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-13T18:11:04.536Z	b198f391c4e8e79bfa543cc4aad9a989	Édith Piaf	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	3
+ArbitraryAccessInteraction	2018-03-13T18:35:55.229Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-13T17:56:47.752Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/es/about.html (PagesController#show)
+SearchInteraction	2018-03-13T17:59:00.284Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterAdditionInteraction	2018-03-13T17:59:05.266Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		0
+CollectionFilterRemovalInteraction	2018-03-13T17:59:12.042Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterRemovalInteraction	2018-03-13T17:59:16.522Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+RankedRetrieveRecordInteraction	2018-03-13T18:02:22.629Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		/2022709/oai_fototeca_mcu_es_fototeca_TARJETAS_20POSTALES_TP_0687	1	5
+SearchInteraction	2018-03-13T18:04:20.905Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+SearchInteraction	2018-03-13T18:04:37.466Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:04:41.225Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:43.318Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:44.796Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:45.240Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:04:55.591Z	b198f391c4e8e79bfa543cc4aad9a989	Caravaca de la Cruz		0
+SearchInteraction	2018-03-13T18:04:58.824Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:05:55.812Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:06:11.569Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:06:24.354Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	6930631
+SearchInteraction	2018-03-13T18:07:05.838Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:07:11.406Z	b198f391c4e8e79bfa543cc4aad9a989	murcia	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	527
+SearchInteraction	2018-03-13T18:07:45.523Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-03-13T18:10:58.879Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-13T18:11:04.536Z	b198f391c4e8e79bfa543cc4aad9a989	Édith Piaf	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	3
+ArbitraryAccessInteraction	2018-03-13T18:35:55.229Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-13T17:56:47.752Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/es/about.html (PagesController#show)
+SearchInteraction	2018-03-13T17:59:00.284Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterAdditionInteraction	2018-03-13T17:59:05.266Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		0
+CollectionFilterRemovalInteraction	2018-03-13T17:59:12.042Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterRemovalInteraction	2018-03-13T17:59:16.522Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+RankedRetrieveRecordInteraction	2018-03-13T18:02:22.629Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		/2022709/oai_fototeca_mcu_es_fototeca_TARJETAS_20POSTALES_TP_0687	1	5
+SearchInteraction	2018-03-13T18:04:20.905Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+SearchInteraction	2018-03-13T18:04:37.466Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:04:41.225Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:43.318Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:44.796Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:45.240Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:04:55.591Z	b198f391c4e8e79bfa543cc4aad9a989	Caravaca de la Cruz		0
+SearchInteraction	2018-03-13T18:04:58.824Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:05:55.812Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:06:11.569Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:06:24.354Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	6930631
+SearchInteraction	2018-03-13T18:07:05.838Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:07:11.406Z	b198f391c4e8e79bfa543cc4aad9a989	murcia	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	527
+SearchInteraction	2018-03-13T18:07:45.523Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-03-13T18:10:58.879Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-13T18:11:04.536Z	b198f391c4e8e79bfa543cc4aad9a989	Édith Piaf	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	3
+ArbitraryAccessInteraction	2018-03-13T18:35:55.229Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+ArbitraryAccessInteraction	2018-03-13T17:56:47.752Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/es/about.html (PagesController#show)
+SearchInteraction	2018-03-13T17:59:00.284Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterAdditionInteraction	2018-03-13T17:59:05.266Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		0
+CollectionFilterRemovalInteraction	2018-03-13T17:59:12.042Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		131
+CollectionFilterRemovalInteraction	2018-03-13T17:59:16.522Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+RankedRetrieveRecordInteraction	2018-03-13T18:02:22.629Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		/2022709/oai_fototeca_mcu_es_fototeca_TARJETAS_20POSTALES_TP_0687	1	5
+SearchInteraction	2018-03-13T18:04:20.905Z	b198f391c4e8e79bfa543cc4aad9a989	jumilla		5
+SearchInteraction	2018-03-13T18:04:37.466Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:04:41.225Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:43.318Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:44.796Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+RefreshOrPaginationInteraction	2018-03-13T18:04:45.240Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:04:55.591Z	b198f391c4e8e79bfa543cc4aad9a989	Caravaca de la Cruz		0
+SearchInteraction	2018-03-13T18:04:58.824Z	b198f391c4e8e79bfa543cc4aad9a989	yecla		0
+SearchInteraction	2018-03-13T18:05:55.812Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-13T18:06:11.569Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:06:24.354Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'IMAGE_COLOUR': ['true'], 'MEDIA': ['true'], 'TYPE': ['IMAGE']}	6930631
+SearchInteraction	2018-03-13T18:07:05.838Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041713
+SearchInteraction	2018-03-13T18:07:11.406Z	b198f391c4e8e79bfa543cc4aad9a989	murcia	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	527
+SearchInteraction	2018-03-13T18:07:45.523Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED		51374451
+SearchInteraction	2018-03-13T18:10:58.879Z	b198f391c4e8e79bfa543cc4aad9a989	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-03-13T18:11:04.536Z	b198f391c4e8e79bfa543cc4aad9a989	Édith Piaf	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	3
+ArbitraryAccessInteraction	2018-03-13T18:35:55.229Z	b198f391c4e8e79bfa543cc4aad9a989	[200] GET /portal/en/rights/rr-f.html (PagesController#show)

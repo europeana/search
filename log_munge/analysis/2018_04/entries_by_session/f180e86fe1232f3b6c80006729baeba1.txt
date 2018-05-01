@@ -1,0 +1,70 @@
+SearchInteraction	2018-02-13T20:47:46.400Z	f180e86fe1232f3b6c80006729baeba1	discours d'un poilu		1
+SearchInteraction	2018-02-13T20:49:00.614Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:02.376Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:04.770Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T20:49:19.046Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:49:55.240Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:50:54.258Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+SearchInteraction	2018-02-13T20:51:08.282Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	1794
+CollectionFilterRemovalInteraction	2018-02-13T20:51:24.438Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+RefreshOrPaginationInteraction	2018-02-13T20:52:53.332Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+ArbitraryAccessInteraction	2018-02-13T20:53:43.673Z	f180e86fe1232f3b6c80006729baeba1	[200] GET /portal/fr/record/9200324/BibliographicResource_3000140739206.html (PortalController#show)
+SearchInteraction	2018-02-13T21:00:55.810Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+RefreshOrPaginationInteraction	2018-02-13T21:01:00.931Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+SearchInteraction	2018-02-13T21:01:41.435Z	f180e86fe1232f3b6c80006729baeba1	conditions de vie d'un poilu	{'TYPE': ['TEXT']}	4
+SearchInteraction	2018-02-13T20:47:46.400Z	f180e86fe1232f3b6c80006729baeba1	discours d'un poilu		1
+SearchInteraction	2018-02-13T20:49:00.614Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:02.376Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:04.770Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T20:49:19.046Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:49:55.240Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:50:54.258Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+SearchInteraction	2018-02-13T20:51:08.282Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	1794
+CollectionFilterRemovalInteraction	2018-02-13T20:51:24.438Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+RefreshOrPaginationInteraction	2018-02-13T20:52:53.332Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+ArbitraryAccessInteraction	2018-02-13T20:53:43.673Z	f180e86fe1232f3b6c80006729baeba1	[200] GET /portal/fr/record/9200324/BibliographicResource_3000140739206.html (PortalController#show)
+SearchInteraction	2018-02-13T21:00:55.810Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+RefreshOrPaginationInteraction	2018-02-13T21:01:00.931Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+SearchInteraction	2018-02-13T21:01:41.435Z	f180e86fe1232f3b6c80006729baeba1	conditions de vie d'un poilu	{'TYPE': ['TEXT']}	4
+SearchInteraction	2018-02-13T20:47:46.400Z	f180e86fe1232f3b6c80006729baeba1	discours d'un poilu		1
+SearchInteraction	2018-02-13T20:49:00.614Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:02.376Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:04.770Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T20:49:19.046Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:49:55.240Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:50:54.258Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+SearchInteraction	2018-02-13T20:51:08.282Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	1794
+CollectionFilterRemovalInteraction	2018-02-13T20:51:24.438Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+RefreshOrPaginationInteraction	2018-02-13T20:52:53.332Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+ArbitraryAccessInteraction	2018-02-13T20:53:43.673Z	f180e86fe1232f3b6c80006729baeba1	[200] GET /portal/fr/record/9200324/BibliographicResource_3000140739206.html (PortalController#show)
+SearchInteraction	2018-02-13T21:00:55.810Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+RefreshOrPaginationInteraction	2018-02-13T21:01:00.931Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+SearchInteraction	2018-02-13T21:01:41.435Z	f180e86fe1232f3b6c80006729baeba1	conditions de vie d'un poilu	{'TYPE': ['TEXT']}	4
+SearchInteraction	2018-02-13T20:47:46.400Z	f180e86fe1232f3b6c80006729baeba1	discours d'un poilu		1
+SearchInteraction	2018-02-13T20:49:00.614Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:02.376Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:04.770Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T20:49:19.046Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:49:55.240Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:50:54.258Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+SearchInteraction	2018-02-13T20:51:08.282Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	1794
+CollectionFilterRemovalInteraction	2018-02-13T20:51:24.438Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+RefreshOrPaginationInteraction	2018-02-13T20:52:53.332Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+ArbitraryAccessInteraction	2018-02-13T20:53:43.673Z	f180e86fe1232f3b6c80006729baeba1	[200] GET /portal/fr/record/9200324/BibliographicResource_3000140739206.html (PortalController#show)
+SearchInteraction	2018-02-13T21:00:55.810Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+RefreshOrPaginationInteraction	2018-02-13T21:01:00.931Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+SearchInteraction	2018-02-13T21:01:41.435Z	f180e86fe1232f3b6c80006729baeba1	conditions de vie d'un poilu	{'TYPE': ['TEXT']}	4
+SearchInteraction	2018-02-13T20:47:46.400Z	f180e86fe1232f3b6c80006729baeba1	discours d'un poilu		1
+SearchInteraction	2018-02-13T20:49:00.614Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:02.376Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+RefreshOrPaginationInteraction	2018-02-13T20:49:04.770Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T20:49:19.046Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:49:55.240Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+RefreshOrPaginationInteraction	2018-02-13T20:50:54.258Z	f180e86fe1232f3b6c80006729baeba1	poilus		3151
+SearchInteraction	2018-02-13T20:51:08.282Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	1794
+CollectionFilterRemovalInteraction	2018-02-13T20:51:24.438Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+RefreshOrPaginationInteraction	2018-02-13T20:52:53.332Z	f180e86fe1232f3b6c80006729baeba1	poilus	{'TYPE': ['TEXT']}	411
+ArbitraryAccessInteraction	2018-02-13T20:53:43.673Z	f180e86fe1232f3b6c80006729baeba1	[200] GET /portal/fr/record/9200324/BibliographicResource_3000140739206.html (PortalController#show)
+SearchInteraction	2018-02-13T21:00:55.810Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+RefreshOrPaginationInteraction	2018-02-13T21:01:00.931Z	f180e86fe1232f3b6c80006729baeba1	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	313877
+SearchInteraction	2018-02-13T21:01:41.435Z	f180e86fe1232f3b6c80006729baeba1	conditions de vie d'un poilu	{'TYPE': ['TEXT']}	4

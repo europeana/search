@@ -1,0 +1,40 @@
+ArbitraryAccessInteraction	2018-03-12T07:58:56.365Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048319/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T07:59:57.235Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___I.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:01.954Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:07.257Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___a.html (PortalController#show)
+SearchInteraction	2018-03-12T08:00:40.880Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		57557
+RankedRetrieveRecordInteraction	2018-03-12T08:00:54.606Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		/2048359/providedCHO_4_ZHPB4_position_c2_c0_c9	2	57557
+SearchInteraction	2018-03-12T08:01:04.716Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		57557
+CollectionFilterAdditionInteraction	2018-03-12T08:01:09.877Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		5537
+ArbitraryAccessInteraction	2018-03-12T07:58:56.365Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048319/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T07:59:57.235Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___I.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:01.954Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:07.257Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___a.html (PortalController#show)
+SearchInteraction	2018-03-12T08:00:40.880Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		57557
+RankedRetrieveRecordInteraction	2018-03-12T08:00:54.606Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		/2048359/providedCHO_4_ZHPB4_position_c2_c0_c9	2	57557
+SearchInteraction	2018-03-12T08:01:04.716Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		57557
+CollectionFilterAdditionInteraction	2018-03-12T08:01:09.877Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		5537
+ArbitraryAccessInteraction	2018-03-12T07:58:56.365Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048319/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T07:59:57.235Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___I.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:01.954Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:07.257Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___a.html (PortalController#show)
+SearchInteraction	2018-03-12T08:00:40.880Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		57557
+RankedRetrieveRecordInteraction	2018-03-12T08:00:54.606Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		/2048359/providedCHO_4_ZHPB4_position_c2_c0_c9	2	57557
+SearchInteraction	2018-03-12T08:01:04.716Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		57557
+CollectionFilterAdditionInteraction	2018-03-12T08:01:09.877Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		5537
+ArbitraryAccessInteraction	2018-03-12T07:58:56.365Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048319/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T07:59:57.235Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___I.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:01.954Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:07.257Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___a.html (PortalController#show)
+SearchInteraction	2018-03-12T08:00:40.880Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		57557
+RankedRetrieveRecordInteraction	2018-03-12T08:00:54.606Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		/2048359/providedCHO_4_ZHPB4_position_c2_c0_c9	2	57557
+SearchInteraction	2018-03-12T08:01:04.716Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		57557
+CollectionFilterAdditionInteraction	2018-03-12T08:01:09.877Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		5537
+ArbitraryAccessInteraction	2018-03-12T07:58:56.365Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048319/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T07:59:57.235Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___I.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:01.954Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T08:00:07.257Z	0a6c67c709a0a4d0dad109e50f24c6ea	[200] GET /portal/nl/record/2048359/providedCHO_1_05_05_1_05_05___a.html (PortalController#show)
+SearchInteraction	2018-03-12T08:00:40.880Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		57557
+RankedRetrieveRecordInteraction	2018-03-12T08:00:54.606Z	0a6c67c709a0a4d0dad109e50f24c6ea	europeana_collectionName:(2048359_Ag_EU_ApeX_NL-HaNA01)		/2048359/providedCHO_4_ZHPB4_position_c2_c0_c9	2	57557
+SearchInteraction	2018-03-12T08:01:04.716Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		57557
+CollectionFilterAdditionInteraction	2018-03-12T08:01:09.877Z	0a6c67c709a0a4d0dad109e50f24c6ea	DATA_PROVIDER:"Nationaal Archief, Den Haag"		5537

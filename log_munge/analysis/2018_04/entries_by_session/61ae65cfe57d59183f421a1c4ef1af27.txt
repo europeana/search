@@ -1,0 +1,460 @@
+ArbitraryAccessInteraction	2018-02-08T08:47:07.952Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+SearchInteraction	2018-02-08T08:47:24.992Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"		89584
+SearchInteraction	2018-02-08T08:47:30.188Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'TYPE': ['VIDEO']}	4312
+SearchInteraction	2018-02-08T08:47:36.642Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-08T08:48:31.893Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_62838	2	5
+ArbitraryAccessInteraction	2018-02-08T08:51:32.367Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:43.221Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:52.578Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63435.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:04.324Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44790.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:09.614Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63311.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-08T08:52:50.165Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_53418	3	5
+ArbitraryAccessInteraction	2018-02-08T08:59:24.470Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80813.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:59:56.894Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:00:11.840Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80120.html (PortalController#show)
+SearchInteraction	2018-02-08T09:02:58.543Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"		35435
+SearchInteraction	2018-02-08T09:03:18.485Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'TYPE': ['VIDEO']}	6631
+SearchInteraction	2018-02-08T09:03:27.008Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:03:36.907Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2059210/data_sounds_oai_openimages_eu_764602	1	994
+RankedRetrieveRecordInteraction	2018-02-08T09:04:21.939Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08630/1037479000000275003	11	994
+SearchInteraction	2018-02-08T09:04:27.504Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:50.001Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:57.036Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:05:05.215Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000047822_1	46	994
+ArbitraryAccessInteraction	2018-02-08T09:13:17.422Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_638835.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:13:48.408Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_97919.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:14:12.220Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_754886.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:17:36.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:18:09.181Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_789584.html (PortalController#show)
+SearchInteraction	2018-02-08T09:18:27.303Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"		207
+ArbitraryAccessInteraction	2018-02-08T09:19:21.072Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_654406.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:30.192Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:44.771Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665772.html (PortalController#show)
+SearchInteraction	2018-02-08T09:20:29.423Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"	{'TYPE': ['VIDEO']}	1
+ArbitraryAccessInteraction	2018-02-08T09:24:03.804Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_662387.html (PortalController#show)
+SearchInteraction	2018-02-08T09:24:48.087Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"		193
+SearchInteraction	2018-02-08T09:24:54.582Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'TYPE': ['VIDEO']}	18
+SearchInteraction	2018-02-08T09:25:02.044Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:07.885Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_673282	1	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:12.728Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08614/cat34787	2	2
+ArbitraryAccessInteraction	2018-02-08T09:26:44.768Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat17387.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:26:46.335Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat67578.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:14.969Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:26.059Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat103560.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:43.091Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat72305.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:56.032Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat45818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:30:25.207Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+SearchInteraction	2018-02-08T09:30:51.278Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit		200
+SearchInteraction	2018-02-08T09:31:05.970Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit	{'TYPE': ['VIDEO']}	21
+ArbitraryAccessInteraction	2018-02-08T09:34:21.661Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52446.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:30.631Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52724.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:40.811Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_630752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:54.389Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_785633.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:38:44.048Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_2151.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:38.981Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13607.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:56.903Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:08.073Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11331.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:57.373Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_27500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:04.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:13.544Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12134.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:27.395Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_17788.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:40.423Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_9026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:45:59.553Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_22900.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:35.217Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_31115.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:37.785Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_657325.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:54:50.283Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12697.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:07.289Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13279.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:10.201Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13918.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:58:52.858Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_62023.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:05:55.346Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625767.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:45.375Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_59725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:49.954Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_61380.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:07:38.900Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_14871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:33.370Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1335.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:51.414Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_148966.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:12.240Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_127787.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:15.787Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_141006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:18.860Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:26.887Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:43.760Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_616251.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:54.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_626065.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:58.974Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625821.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:24:01.208Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625793.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:14.471Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13837.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:17.360Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1689.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:40:21.320Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_131566.html (PortalController#show)
+SearchInteraction	2018-02-08T10:46:01.688Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"		523
+SearchInteraction	2018-02-08T10:46:07.722Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'TYPE': ['VIDEO']}	68
+SearchInteraction	2018-02-08T10:46:12.325Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	0
+ArbitraryAccessInteraction	2018-02-08T10:46:57.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_660207.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:04.150Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669587.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:10.763Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_672818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:51:50.767Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676145.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:47:07.952Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+SearchInteraction	2018-02-08T08:47:24.992Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"		89584
+SearchInteraction	2018-02-08T08:47:30.188Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'TYPE': ['VIDEO']}	4312
+SearchInteraction	2018-02-08T08:47:36.642Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-08T08:48:31.893Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_62838	2	5
+ArbitraryAccessInteraction	2018-02-08T08:51:32.367Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:43.221Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:52.578Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63435.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:04.324Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44790.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:09.614Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63311.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-08T08:52:50.165Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_53418	3	5
+ArbitraryAccessInteraction	2018-02-08T08:59:24.470Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80813.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:59:56.894Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:00:11.840Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80120.html (PortalController#show)
+SearchInteraction	2018-02-08T09:02:58.543Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"		35435
+SearchInteraction	2018-02-08T09:03:18.485Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'TYPE': ['VIDEO']}	6631
+SearchInteraction	2018-02-08T09:03:27.008Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:03:36.907Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2059210/data_sounds_oai_openimages_eu_764602	1	994
+RankedRetrieveRecordInteraction	2018-02-08T09:04:21.939Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08630/1037479000000275003	11	994
+SearchInteraction	2018-02-08T09:04:27.504Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:50.001Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:57.036Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:05:05.215Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000047822_1	46	994
+ArbitraryAccessInteraction	2018-02-08T09:13:17.422Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_638835.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:13:48.408Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_97919.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:14:12.220Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_754886.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:17:36.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:18:09.181Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_789584.html (PortalController#show)
+SearchInteraction	2018-02-08T09:18:27.303Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"		207
+ArbitraryAccessInteraction	2018-02-08T09:19:21.072Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_654406.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:30.192Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:44.771Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665772.html (PortalController#show)
+SearchInteraction	2018-02-08T09:20:29.423Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"	{'TYPE': ['VIDEO']}	1
+ArbitraryAccessInteraction	2018-02-08T09:24:03.804Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_662387.html (PortalController#show)
+SearchInteraction	2018-02-08T09:24:48.087Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"		193
+SearchInteraction	2018-02-08T09:24:54.582Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'TYPE': ['VIDEO']}	18
+SearchInteraction	2018-02-08T09:25:02.044Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:07.885Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_673282	1	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:12.728Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08614/cat34787	2	2
+ArbitraryAccessInteraction	2018-02-08T09:26:44.768Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat17387.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:26:46.335Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat67578.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:14.969Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:26.059Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat103560.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:43.091Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat72305.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:56.032Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat45818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:30:25.207Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+SearchInteraction	2018-02-08T09:30:51.278Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit		200
+SearchInteraction	2018-02-08T09:31:05.970Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit	{'TYPE': ['VIDEO']}	21
+ArbitraryAccessInteraction	2018-02-08T09:34:21.661Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52446.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:30.631Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52724.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:40.811Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_630752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:54.389Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_785633.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:38:44.048Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_2151.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:38.981Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13607.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:56.903Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:08.073Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11331.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:57.373Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_27500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:04.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:13.544Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12134.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:27.395Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_17788.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:40.423Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_9026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:45:59.553Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_22900.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:35.217Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_31115.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:37.785Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_657325.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:54:50.283Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12697.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:07.289Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13279.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:10.201Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13918.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:58:52.858Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_62023.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:05:55.346Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625767.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:45.375Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_59725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:49.954Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_61380.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:07:38.900Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_14871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:33.370Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1335.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:51.414Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_148966.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:12.240Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_127787.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:15.787Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_141006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:18.860Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:26.887Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:43.760Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_616251.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:54.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_626065.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:58.974Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625821.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:24:01.208Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625793.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:14.471Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13837.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:17.360Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1689.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:40:21.320Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_131566.html (PortalController#show)
+SearchInteraction	2018-02-08T10:46:01.688Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"		523
+SearchInteraction	2018-02-08T10:46:07.722Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'TYPE': ['VIDEO']}	68
+SearchInteraction	2018-02-08T10:46:12.325Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	0
+ArbitraryAccessInteraction	2018-02-08T10:46:57.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_660207.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:04.150Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669587.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:10.763Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_672818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:51:50.767Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676145.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:47:07.952Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+SearchInteraction	2018-02-08T08:47:24.992Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"		89584
+SearchInteraction	2018-02-08T08:47:30.188Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'TYPE': ['VIDEO']}	4312
+SearchInteraction	2018-02-08T08:47:36.642Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-08T08:48:31.893Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_62838	2	5
+ArbitraryAccessInteraction	2018-02-08T08:51:32.367Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:43.221Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:52.578Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63435.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:04.324Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44790.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:09.614Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63311.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-08T08:52:50.165Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_53418	3	5
+ArbitraryAccessInteraction	2018-02-08T08:59:24.470Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80813.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:59:56.894Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:00:11.840Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80120.html (PortalController#show)
+SearchInteraction	2018-02-08T09:02:58.543Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"		35435
+SearchInteraction	2018-02-08T09:03:18.485Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'TYPE': ['VIDEO']}	6631
+SearchInteraction	2018-02-08T09:03:27.008Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:03:36.907Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2059210/data_sounds_oai_openimages_eu_764602	1	994
+RankedRetrieveRecordInteraction	2018-02-08T09:04:21.939Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08630/1037479000000275003	11	994
+SearchInteraction	2018-02-08T09:04:27.504Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:50.001Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:57.036Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:05:05.215Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000047822_1	46	994
+ArbitraryAccessInteraction	2018-02-08T09:13:17.422Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_638835.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:13:48.408Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_97919.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:14:12.220Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_754886.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:17:36.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:18:09.181Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_789584.html (PortalController#show)
+SearchInteraction	2018-02-08T09:18:27.303Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"		207
+ArbitraryAccessInteraction	2018-02-08T09:19:21.072Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_654406.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:30.192Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:44.771Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665772.html (PortalController#show)
+SearchInteraction	2018-02-08T09:20:29.423Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"	{'TYPE': ['VIDEO']}	1
+ArbitraryAccessInteraction	2018-02-08T09:24:03.804Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_662387.html (PortalController#show)
+SearchInteraction	2018-02-08T09:24:48.087Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"		193
+SearchInteraction	2018-02-08T09:24:54.582Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'TYPE': ['VIDEO']}	18
+SearchInteraction	2018-02-08T09:25:02.044Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:07.885Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_673282	1	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:12.728Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08614/cat34787	2	2
+ArbitraryAccessInteraction	2018-02-08T09:26:44.768Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat17387.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:26:46.335Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat67578.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:14.969Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:26.059Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat103560.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:43.091Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat72305.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:56.032Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat45818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:30:25.207Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+SearchInteraction	2018-02-08T09:30:51.278Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit		200
+SearchInteraction	2018-02-08T09:31:05.970Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit	{'TYPE': ['VIDEO']}	21
+ArbitraryAccessInteraction	2018-02-08T09:34:21.661Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52446.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:30.631Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52724.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:40.811Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_630752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:54.389Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_785633.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:38:44.048Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_2151.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:38.981Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13607.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:56.903Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:08.073Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11331.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:57.373Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_27500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:04.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:13.544Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12134.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:27.395Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_17788.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:40.423Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_9026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:45:59.553Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_22900.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:35.217Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_31115.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:37.785Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_657325.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:54:50.283Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12697.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:07.289Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13279.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:10.201Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13918.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:58:52.858Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_62023.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:05:55.346Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625767.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:45.375Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_59725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:49.954Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_61380.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:07:38.900Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_14871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:33.370Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1335.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:51.414Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_148966.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:12.240Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_127787.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:15.787Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_141006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:18.860Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:26.887Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:43.760Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_616251.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:54.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_626065.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:58.974Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625821.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:24:01.208Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625793.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:14.471Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13837.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:17.360Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1689.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:40:21.320Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_131566.html (PortalController#show)
+SearchInteraction	2018-02-08T10:46:01.688Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"		523
+SearchInteraction	2018-02-08T10:46:07.722Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'TYPE': ['VIDEO']}	68
+SearchInteraction	2018-02-08T10:46:12.325Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	0
+ArbitraryAccessInteraction	2018-02-08T10:46:57.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_660207.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:04.150Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669587.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:10.763Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_672818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:51:50.767Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676145.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:47:07.952Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+SearchInteraction	2018-02-08T08:47:24.992Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"		89584
+SearchInteraction	2018-02-08T08:47:30.188Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'TYPE': ['VIDEO']}	4312
+SearchInteraction	2018-02-08T08:47:36.642Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-08T08:48:31.893Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_62838	2	5
+ArbitraryAccessInteraction	2018-02-08T08:51:32.367Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:43.221Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:52.578Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63435.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:04.324Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44790.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:09.614Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63311.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-08T08:52:50.165Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_53418	3	5
+ArbitraryAccessInteraction	2018-02-08T08:59:24.470Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80813.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:59:56.894Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:00:11.840Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80120.html (PortalController#show)
+SearchInteraction	2018-02-08T09:02:58.543Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"		35435
+SearchInteraction	2018-02-08T09:03:18.485Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'TYPE': ['VIDEO']}	6631
+SearchInteraction	2018-02-08T09:03:27.008Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:03:36.907Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2059210/data_sounds_oai_openimages_eu_764602	1	994
+RankedRetrieveRecordInteraction	2018-02-08T09:04:21.939Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08630/1037479000000275003	11	994
+SearchInteraction	2018-02-08T09:04:27.504Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:50.001Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:57.036Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:05:05.215Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000047822_1	46	994
+ArbitraryAccessInteraction	2018-02-08T09:13:17.422Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_638835.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:13:48.408Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_97919.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:14:12.220Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_754886.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:17:36.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:18:09.181Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_789584.html (PortalController#show)
+SearchInteraction	2018-02-08T09:18:27.303Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"		207
+ArbitraryAccessInteraction	2018-02-08T09:19:21.072Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_654406.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:30.192Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:44.771Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665772.html (PortalController#show)
+SearchInteraction	2018-02-08T09:20:29.423Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"	{'TYPE': ['VIDEO']}	1
+ArbitraryAccessInteraction	2018-02-08T09:24:03.804Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_662387.html (PortalController#show)
+SearchInteraction	2018-02-08T09:24:48.087Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"		193
+SearchInteraction	2018-02-08T09:24:54.582Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'TYPE': ['VIDEO']}	18
+SearchInteraction	2018-02-08T09:25:02.044Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:07.885Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_673282	1	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:12.728Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08614/cat34787	2	2
+ArbitraryAccessInteraction	2018-02-08T09:26:44.768Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat17387.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:26:46.335Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat67578.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:14.969Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:26.059Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat103560.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:43.091Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat72305.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:56.032Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat45818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:30:25.207Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+SearchInteraction	2018-02-08T09:30:51.278Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit		200
+SearchInteraction	2018-02-08T09:31:05.970Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit	{'TYPE': ['VIDEO']}	21
+ArbitraryAccessInteraction	2018-02-08T09:34:21.661Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52446.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:30.631Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52724.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:40.811Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_630752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:54.389Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_785633.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:38:44.048Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_2151.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:38.981Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13607.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:56.903Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:08.073Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11331.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:57.373Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_27500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:04.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:13.544Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12134.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:27.395Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_17788.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:40.423Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_9026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:45:59.553Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_22900.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:35.217Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_31115.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:37.785Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_657325.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:54:50.283Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12697.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:07.289Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13279.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:10.201Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13918.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:58:52.858Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_62023.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:05:55.346Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625767.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:45.375Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_59725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:49.954Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_61380.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:07:38.900Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_14871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:33.370Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1335.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:51.414Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_148966.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:12.240Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_127787.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:15.787Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_141006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:18.860Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:26.887Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:43.760Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_616251.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:54.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_626065.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:58.974Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625821.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:24:01.208Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625793.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:14.471Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13837.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:17.360Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1689.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:40:21.320Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_131566.html (PortalController#show)
+SearchInteraction	2018-02-08T10:46:01.688Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"		523
+SearchInteraction	2018-02-08T10:46:07.722Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'TYPE': ['VIDEO']}	68
+SearchInteraction	2018-02-08T10:46:12.325Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	0
+ArbitraryAccessInteraction	2018-02-08T10:46:57.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_660207.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:04.150Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669587.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:10.763Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_672818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:51:50.767Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676145.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:47:07.952Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_10088.html (PortalController#show)
+SearchInteraction	2018-02-08T08:47:24.992Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"		89584
+SearchInteraction	2018-02-08T08:47:30.188Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'TYPE': ['VIDEO']}	4312
+SearchInteraction	2018-02-08T08:47:36.642Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	5
+RankedRetrieveRecordInteraction	2018-02-08T08:48:31.893Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_62838	2	5
+ArbitraryAccessInteraction	2018-02-08T08:51:32.367Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:43.221Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:51:52.578Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63435.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:04.324Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44790.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:52:09.614Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_63311.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-08T08:52:50.165Z	61ae65cfe57d59183f421a1c4ef1af27	what:"students"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_53418	3	5
+ArbitraryAccessInteraction	2018-02-08T08:59:24.470Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80813.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T08:59:56.894Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_44315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:00:11.840Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_80120.html (PortalController#show)
+SearchInteraction	2018-02-08T09:02:58.543Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"		35435
+SearchInteraction	2018-02-08T09:03:18.485Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'TYPE': ['VIDEO']}	6631
+SearchInteraction	2018-02-08T09:03:27.008Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:03:36.907Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2059210/data_sounds_oai_openimages_eu_764602	1	994
+RankedRetrieveRecordInteraction	2018-02-08T09:04:21.939Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08630/1037479000000275003	11	994
+SearchInteraction	2018-02-08T09:04:27.504Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:50.001Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RefreshOrPaginationInteraction	2018-02-08T09:04:57.036Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	994
+RankedRetrieveRecordInteraction	2018-02-08T09:05:05.215Z	61ae65cfe57d59183f421a1c4ef1af27	what:"cinemas"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000047822_1	46	994
+ArbitraryAccessInteraction	2018-02-08T09:13:17.422Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_638835.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:13:48.408Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_97919.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:14:12.220Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_754886.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:17:36.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669247.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:18:09.181Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_789584.html (PortalController#show)
+SearchInteraction	2018-02-08T09:18:27.303Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"		207
+ArbitraryAccessInteraction	2018-02-08T09:19:21.072Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_654406.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:30.192Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676364.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:19:44.771Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_665772.html (PortalController#show)
+SearchInteraction	2018-02-08T09:20:29.423Z	61ae65cfe57d59183f421a1c4ef1af27	what:"poppenkast"	{'TYPE': ['VIDEO']}	1
+ArbitraryAccessInteraction	2018-02-08T09:24:03.804Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_662387.html (PortalController#show)
+SearchInteraction	2018-02-08T09:24:48.087Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"		193
+SearchInteraction	2018-02-08T09:24:54.582Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'TYPE': ['VIDEO']}	18
+SearchInteraction	2018-02-08T09:25:02.044Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:07.885Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/2051906/data_euscreenXL_http___openbeelden_nl_media_673282	1	2
+RankedRetrieveRecordInteraction	2018-02-08T09:25:12.728Z	61ae65cfe57d59183f421a1c4ef1af27	what:"camera's"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08614/cat34787	2	2
+ArbitraryAccessInteraction	2018-02-08T09:26:44.768Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat17387.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:26:46.335Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat67578.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:14.969Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:26.059Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat103560.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:43.091Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat72305.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:27:56.032Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat45818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:30:25.207Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/08614/cat4140.html (PortalController#show)
+SearchInteraction	2018-02-08T09:30:51.278Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit		200
+SearchInteraction	2018-02-08T09:31:05.970Z	61ae65cfe57d59183f421a1c4ef1af27	Nederland vooruit	{'TYPE': ['VIDEO']}	21
+ArbitraryAccessInteraction	2018-02-08T09:34:21.661Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52446.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:30.631Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_52724.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:40.811Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_630752.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:34:54.389Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_785633.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:38:44.048Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_2151.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:38.981Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13607.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:39:56.903Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12039.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:08.073Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11331.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:40:57.373Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_27500.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:04.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_11450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:13.544Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12134.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:27.395Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_17788.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:44:40.423Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_9026.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:45:59.553Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_22900.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:35.217Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_31115.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:46:37.785Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_657325.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:54:50.283Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_12697.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:07.289Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13279.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:55:10.201Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13918.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T09:58:52.858Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_62023.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:05:55.346Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625767.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:45.375Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_59725.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:06:49.954Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_61380.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:07:38.900Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_14871.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:33.370Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1335.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:21:51.414Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_148966.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:12.240Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_127787.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:15.787Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_141006.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:18.860Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:22:26.887Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13534.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:43.760Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_616251.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:54.896Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_626065.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:23:58.974Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625821.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:24:01.208Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_625793.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:14.471Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_13837.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:39:17.360Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_1689.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:40:21.320Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_131566.html (PortalController#show)
+SearchInteraction	2018-02-08T10:46:01.688Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"		523
+SearchInteraction	2018-02-08T10:46:07.722Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'TYPE': ['VIDEO']}	68
+SearchInteraction	2018-02-08T10:46:12.325Z	61ae65cfe57d59183f421a1c4ef1af27	what:"vaccinations"	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	0
+ArbitraryAccessInteraction	2018-02-08T10:46:57.872Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_660207.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:04.150Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_669587.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:47:10.763Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_672818.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-08T10:51:50.767Z	61ae65cfe57d59183f421a1c4ef1af27	[200] GET /portal/fr/record/2051906/data_euscreenXL_http___openbeelden_nl_media_676145.html (PortalController#show)

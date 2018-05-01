@@ -1,0 +1,290 @@
+ArbitraryAccessInteraction	2018-03-04T02:36:27.432Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9127.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T05:16:09.018Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_13426.html (PortalController#show)
+SearchInteraction	2018-03-06T05:16:55.448Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+RefreshOrPaginationInteraction	2018-03-06T05:17:25.869Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+CollectionFilterAdditionInteraction	2018-03-06T05:17:34.115Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:17:41.954Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000140738830	1	166
+SearchInteraction	2018-03-06T05:18:08.926Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:18:25.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000051878892	12	166
+SearchInteraction	2018-03-06T05:18:59.292Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RefreshOrPaginationInteraction	2018-03-06T05:19:14.441Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:25.055Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_13175	28	166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:49.801Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_829_15	31	166
+SearchInteraction	2018-03-06T05:20:20.593Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:30.667Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74078_7	38	166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:53.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74011_24	39	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:26.407Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_16	43	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:50.529Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1022_9	41	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:14.130Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9846_attachments_95270	45	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:45.095Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_3	42	166
+RankedRetrieveRecordInteraction	2018-03-06T05:23:08.851Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9613	48	166
+SearchInteraction	2018-03-06T05:24:10.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:24.316Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:25.461Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:47.621Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9095	57	166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:03.084Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8926_attachments_86066	59	166
+SearchInteraction	2018-03-06T05:25:30.267Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:47.307Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_99432	65	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:14.052Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_83488	66	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:42.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7954_attachments_80710	72	166
+SearchInteraction	2018-03-06T05:27:13.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:27:18.306Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7673	75	166
+ArbitraryAccessInteraction	2018-03-06T05:28:00.023Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9752.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-06T05:29:50.566Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20986	83	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:12.813Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20426_attachments_230131	84	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:33.879Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7464_attachments_78553	77	166
+SearchInteraction	2018-03-06T05:31:08.063Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:31:25.285Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20282_attachments_229537	85	166
+SearchInteraction	2018-03-06T05:31:52.731Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:07.336Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_16871_attachments_179452	104	166
+SearchInteraction	2018-03-06T05:32:46.119Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:51.402Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_15111_attachments_156788	111	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:22.123Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14313	116	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:48.480Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13426_attachments_136946	119	166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:14.525Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14063_attachments_142765	118	166
+SearchInteraction	2018-03-06T05:34:44.907Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:52.035Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13210	126	166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:26.807Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12405	129	166
+SearchInteraction	2018-03-06T05:35:51.549Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:57.852Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12173	134	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:16.237Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119423	139	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:40.391Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_118239	141	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:03.830Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119421	140	166
+SearchInteraction	2018-03-06T05:37:28.050Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:35.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10984_attachments_115384	146	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:57.788Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_101360	153	166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:30.634Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_120684	152	166
+SearchInteraction	2018-03-06T05:38:48.186Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:59.874Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/08604/07FEF36EECE34FADB36AFEF2943686C2	166	166
+ArbitraryAccessInteraction	2018-03-04T02:36:27.432Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9127.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T05:16:09.018Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_13426.html (PortalController#show)
+SearchInteraction	2018-03-06T05:16:55.448Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+RefreshOrPaginationInteraction	2018-03-06T05:17:25.869Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+CollectionFilterAdditionInteraction	2018-03-06T05:17:34.115Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:17:41.954Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000140738830	1	166
+SearchInteraction	2018-03-06T05:18:08.926Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:18:25.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000051878892	12	166
+SearchInteraction	2018-03-06T05:18:59.292Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RefreshOrPaginationInteraction	2018-03-06T05:19:14.441Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:25.055Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_13175	28	166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:49.801Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_829_15	31	166
+SearchInteraction	2018-03-06T05:20:20.593Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:30.667Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74078_7	38	166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:53.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74011_24	39	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:26.407Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_16	43	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:50.529Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1022_9	41	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:14.130Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9846_attachments_95270	45	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:45.095Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_3	42	166
+RankedRetrieveRecordInteraction	2018-03-06T05:23:08.851Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9613	48	166
+SearchInteraction	2018-03-06T05:24:10.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:24.316Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:25.461Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:47.621Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9095	57	166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:03.084Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8926_attachments_86066	59	166
+SearchInteraction	2018-03-06T05:25:30.267Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:47.307Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_99432	65	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:14.052Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_83488	66	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:42.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7954_attachments_80710	72	166
+SearchInteraction	2018-03-06T05:27:13.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:27:18.306Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7673	75	166
+ArbitraryAccessInteraction	2018-03-06T05:28:00.023Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9752.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-06T05:29:50.566Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20986	83	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:12.813Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20426_attachments_230131	84	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:33.879Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7464_attachments_78553	77	166
+SearchInteraction	2018-03-06T05:31:08.063Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:31:25.285Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20282_attachments_229537	85	166
+SearchInteraction	2018-03-06T05:31:52.731Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:07.336Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_16871_attachments_179452	104	166
+SearchInteraction	2018-03-06T05:32:46.119Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:51.402Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_15111_attachments_156788	111	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:22.123Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14313	116	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:48.480Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13426_attachments_136946	119	166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:14.525Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14063_attachments_142765	118	166
+SearchInteraction	2018-03-06T05:34:44.907Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:52.035Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13210	126	166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:26.807Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12405	129	166
+SearchInteraction	2018-03-06T05:35:51.549Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:57.852Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12173	134	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:16.237Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119423	139	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:40.391Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_118239	141	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:03.830Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119421	140	166
+SearchInteraction	2018-03-06T05:37:28.050Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:35.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10984_attachments_115384	146	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:57.788Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_101360	153	166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:30.634Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_120684	152	166
+SearchInteraction	2018-03-06T05:38:48.186Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:59.874Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/08604/07FEF36EECE34FADB36AFEF2943686C2	166	166
+ArbitraryAccessInteraction	2018-03-04T02:36:27.432Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9127.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T05:16:09.018Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_13426.html (PortalController#show)
+SearchInteraction	2018-03-06T05:16:55.448Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+RefreshOrPaginationInteraction	2018-03-06T05:17:25.869Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+CollectionFilterAdditionInteraction	2018-03-06T05:17:34.115Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:17:41.954Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000140738830	1	166
+SearchInteraction	2018-03-06T05:18:08.926Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:18:25.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000051878892	12	166
+SearchInteraction	2018-03-06T05:18:59.292Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RefreshOrPaginationInteraction	2018-03-06T05:19:14.441Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:25.055Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_13175	28	166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:49.801Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_829_15	31	166
+SearchInteraction	2018-03-06T05:20:20.593Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:30.667Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74078_7	38	166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:53.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74011_24	39	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:26.407Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_16	43	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:50.529Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1022_9	41	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:14.130Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9846_attachments_95270	45	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:45.095Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_3	42	166
+RankedRetrieveRecordInteraction	2018-03-06T05:23:08.851Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9613	48	166
+SearchInteraction	2018-03-06T05:24:10.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:24.316Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:25.461Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:47.621Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9095	57	166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:03.084Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8926_attachments_86066	59	166
+SearchInteraction	2018-03-06T05:25:30.267Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:47.307Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_99432	65	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:14.052Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_83488	66	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:42.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7954_attachments_80710	72	166
+SearchInteraction	2018-03-06T05:27:13.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:27:18.306Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7673	75	166
+ArbitraryAccessInteraction	2018-03-06T05:28:00.023Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9752.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-06T05:29:50.566Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20986	83	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:12.813Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20426_attachments_230131	84	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:33.879Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7464_attachments_78553	77	166
+SearchInteraction	2018-03-06T05:31:08.063Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:31:25.285Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20282_attachments_229537	85	166
+SearchInteraction	2018-03-06T05:31:52.731Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:07.336Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_16871_attachments_179452	104	166
+SearchInteraction	2018-03-06T05:32:46.119Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:51.402Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_15111_attachments_156788	111	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:22.123Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14313	116	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:48.480Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13426_attachments_136946	119	166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:14.525Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14063_attachments_142765	118	166
+SearchInteraction	2018-03-06T05:34:44.907Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:52.035Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13210	126	166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:26.807Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12405	129	166
+SearchInteraction	2018-03-06T05:35:51.549Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:57.852Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12173	134	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:16.237Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119423	139	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:40.391Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_118239	141	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:03.830Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119421	140	166
+SearchInteraction	2018-03-06T05:37:28.050Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:35.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10984_attachments_115384	146	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:57.788Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_101360	153	166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:30.634Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_120684	152	166
+SearchInteraction	2018-03-06T05:38:48.186Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:59.874Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/08604/07FEF36EECE34FADB36AFEF2943686C2	166	166
+ArbitraryAccessInteraction	2018-03-04T02:36:27.432Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9127.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T05:16:09.018Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_13426.html (PortalController#show)
+SearchInteraction	2018-03-06T05:16:55.448Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+RefreshOrPaginationInteraction	2018-03-06T05:17:25.869Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+CollectionFilterAdditionInteraction	2018-03-06T05:17:34.115Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:17:41.954Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000140738830	1	166
+SearchInteraction	2018-03-06T05:18:08.926Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:18:25.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000051878892	12	166
+SearchInteraction	2018-03-06T05:18:59.292Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RefreshOrPaginationInteraction	2018-03-06T05:19:14.441Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:25.055Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_13175	28	166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:49.801Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_829_15	31	166
+SearchInteraction	2018-03-06T05:20:20.593Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:30.667Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74078_7	38	166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:53.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74011_24	39	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:26.407Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_16	43	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:50.529Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1022_9	41	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:14.130Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9846_attachments_95270	45	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:45.095Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_3	42	166
+RankedRetrieveRecordInteraction	2018-03-06T05:23:08.851Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9613	48	166
+SearchInteraction	2018-03-06T05:24:10.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:24.316Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:25.461Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:47.621Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9095	57	166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:03.084Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8926_attachments_86066	59	166
+SearchInteraction	2018-03-06T05:25:30.267Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:47.307Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_99432	65	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:14.052Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_83488	66	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:42.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7954_attachments_80710	72	166
+SearchInteraction	2018-03-06T05:27:13.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:27:18.306Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7673	75	166
+ArbitraryAccessInteraction	2018-03-06T05:28:00.023Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9752.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-06T05:29:50.566Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20986	83	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:12.813Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20426_attachments_230131	84	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:33.879Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7464_attachments_78553	77	166
+SearchInteraction	2018-03-06T05:31:08.063Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:31:25.285Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20282_attachments_229537	85	166
+SearchInteraction	2018-03-06T05:31:52.731Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:07.336Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_16871_attachments_179452	104	166
+SearchInteraction	2018-03-06T05:32:46.119Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:51.402Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_15111_attachments_156788	111	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:22.123Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14313	116	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:48.480Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13426_attachments_136946	119	166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:14.525Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14063_attachments_142765	118	166
+SearchInteraction	2018-03-06T05:34:44.907Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:52.035Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13210	126	166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:26.807Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12405	129	166
+SearchInteraction	2018-03-06T05:35:51.549Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:57.852Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12173	134	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:16.237Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119423	139	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:40.391Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_118239	141	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:03.830Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119421	140	166
+SearchInteraction	2018-03-06T05:37:28.050Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:35.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10984_attachments_115384	146	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:57.788Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_101360	153	166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:30.634Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_120684	152	166
+SearchInteraction	2018-03-06T05:38:48.186Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:59.874Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/08604/07FEF36EECE34FADB36AFEF2943686C2	166	166
+ArbitraryAccessInteraction	2018-03-04T02:36:27.432Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9127.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-06T05:16:09.018Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_13426.html (PortalController#show)
+SearchInteraction	2018-03-06T05:16:55.448Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+RefreshOrPaginationInteraction	2018-03-06T05:17:25.869Z	ec35215c0b2b2502c7e692807f3429a5	zouave		704
+CollectionFilterAdditionInteraction	2018-03-06T05:17:34.115Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:17:41.954Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000140738830	1	166
+SearchInteraction	2018-03-06T05:18:08.926Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:18:25.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/9200324/BibliographicResource_3000051878892	12	166
+SearchInteraction	2018-03-06T05:18:59.292Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RefreshOrPaginationInteraction	2018-03-06T05:19:14.441Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:25.055Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2048043/ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_13175	28	166
+RankedRetrieveRecordInteraction	2018-03-06T05:19:49.801Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_829_15	31	166
+SearchInteraction	2018-03-06T05:20:20.593Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:30.667Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74078_7	38	166
+RankedRetrieveRecordInteraction	2018-03-06T05:20:53.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_74011_24	39	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:26.407Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_16	43	166
+RankedRetrieveRecordInteraction	2018-03-06T05:21:50.529Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1022_9	41	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:14.130Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9846_attachments_95270	45	166
+RankedRetrieveRecordInteraction	2018-03-06T05:22:45.095Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_1014_3	42	166
+RankedRetrieveRecordInteraction	2018-03-06T05:23:08.851Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9613	48	166
+SearchInteraction	2018-03-06T05:24:10.412Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:24.316Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:25.461Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9127_attachments_87160	55	166
+RankedRetrieveRecordInteraction	2018-03-06T05:24:47.621Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_9095	57	166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:03.084Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8926_attachments_86066	59	166
+SearchInteraction	2018-03-06T05:25:30.267Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:25:47.307Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_99432	65	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:14.052Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_8550_attachments_83488	66	166
+RankedRetrieveRecordInteraction	2018-03-06T05:26:42.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7954_attachments_80710	72	166
+SearchInteraction	2018-03-06T05:27:13.796Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:27:18.306Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7673	75	166
+ArbitraryAccessInteraction	2018-03-06T05:28:00.023Z	ec35215c0b2b2502c7e692807f3429a5	[200] GET /portal/en/record/2020601/contributions_9752.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-03-06T05:29:50.566Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20986	83	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:12.813Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20426_attachments_230131	84	166
+RankedRetrieveRecordInteraction	2018-03-06T05:30:33.879Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_7464_attachments_78553	77	166
+SearchInteraction	2018-03-06T05:31:08.063Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:31:25.285Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_20282_attachments_229537	85	166
+SearchInteraction	2018-03-06T05:31:52.731Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:07.336Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_16871_attachments_179452	104	166
+SearchInteraction	2018-03-06T05:32:46.119Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:32:51.402Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_15111_attachments_156788	111	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:22.123Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14313	116	166
+RankedRetrieveRecordInteraction	2018-03-06T05:33:48.480Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13426_attachments_136946	119	166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:14.525Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_14063_attachments_142765	118	166
+SearchInteraction	2018-03-06T05:34:44.907Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:34:52.035Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_13210	126	166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:26.807Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12405	129	166
+SearchInteraction	2018-03-06T05:35:51.549Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:35:57.852Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_12173	134	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:16.237Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119423	139	166
+RankedRetrieveRecordInteraction	2018-03-06T05:36:40.391Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_118239	141	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:03.830Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_11577_attachments_119421	140	166
+SearchInteraction	2018-03-06T05:37:28.050Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:35.716Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10984_attachments_115384	146	166
+RankedRetrieveRecordInteraction	2018-03-06T05:37:57.788Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_101360	153	166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:30.634Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/2020601/contributions_10378_attachments_120684	152	166
+SearchInteraction	2018-03-06T05:38:48.186Z	ec35215c0b2b2502c7e692807f3429a5	zouave		166
+RankedRetrieveRecordInteraction	2018-03-06T05:38:59.874Z	ec35215c0b2b2502c7e692807f3429a5	zouave		/08604/07FEF36EECE34FADB36AFEF2943686C2	166	166

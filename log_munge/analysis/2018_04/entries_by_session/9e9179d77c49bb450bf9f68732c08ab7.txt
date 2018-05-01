@@ -1,0 +1,400 @@
+SearchInteraction	2018-02-08T20:18:19.596Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+SearchInteraction	2018-02-08T20:19:52.176Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-08T20:20:09.692Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'TYPE': ['VIDEO']}	2589
+SearchInteraction	2018-02-08T20:20:19.894Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'REUSABILITY': ['open'], 'TYPE': ['VIDEO']}	283
+SearchInteraction	2018-02-08T20:22:26.050Z	9e9179d77c49bb450bf9f68732c08ab7	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+ArbitraryAccessInteraction	2018-02-20T20:19:30.946Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T20:19:54.173Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/rights.html (PagesController#show)
+SearchInteraction	2018-02-21T06:44:34.122Z	9e9179d77c49bb450bf9f68732c08ab7	curling		887
+CollectionFilterAdditionInteraction	2018-02-21T06:44:42.868Z	9e9179d77c49bb450bf9f68732c08ab7	curling		7
+SearchInteraction	2018-02-21T06:44:43.200Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+RefreshOrPaginationInteraction	2018-02-21T06:44:44.587Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T06:44:49.763Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45517
+CollectionFilterAdditionInteraction	2018-02-21T06:44:54.096Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+CollectionFilterRemovalInteraction	2018-02-21T06:44:58.276Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		376
+CollectionFilterAdditionInteraction	2018-02-21T06:45:03.161Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+RankedRetrieveRecordInteraction	2018-02-21T06:45:11.127Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		/9200365/BibliographicResource_2000081591625	5	17
+ArbitraryAccessInteraction	2018-02-23T12:53:24.627Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_1968084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T12:58:22.010Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:12:21.202Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_28290.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:14:10.658Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:22:15.531Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_30400.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T16:24:55.976Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_8984183.html (PortalController#show)
+SearchInteraction	2018-02-24T19:02:57.390Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45507
+SearchInteraction	2018-02-24T19:03:03.758Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'TYPE': ['IMAGE']}	40202
+SearchInteraction	2018-02-24T19:03:15.983Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	4045
+SearchInteraction	2018-02-24T19:06:59.709Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+CollectionFilterRemovalInteraction	2018-02-24T19:07:53.095Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-24T19:07:58.020Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-25T10:06:22.198Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:43:28.099Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:44:16.495Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92023/BibliographicResource_3000074026697.html (PortalController#show)
+SearchInteraction	2018-02-25T17:27:31.354Z	9e9179d77c49bb450bf9f68732c08ab7	curling		888
+SearchInteraction	2018-02-25T17:27:36.161Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'TYPE': ['IMAGE']}	762
+SearchInteraction	2018-02-25T17:27:44.520Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	556
+SearchInteraction	2018-02-25T17:27:52.113Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	483
+SearchInteraction	2018-02-25T19:33:11.608Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-25T19:33:12.962Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-02-25T19:33:16.526Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-25T19:33:23.303Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-25T19:39:00.093Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_P_1880_A_3916	14	86
+SearchInteraction	2018-02-25T19:39:06.034Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-26T17:27:04.346Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-26T17:28:02.713Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-26T17:28:13.881Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-03-14T19:28:05.899Z	9e9179d77c49bb450bf9f68732c08ab7	statistics		11803
+SearchInteraction	2018-03-14T19:28:12.750Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:14.845Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:15.733Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-14T19:28:25.784Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-03-14T19:28:44.756Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-14T19:29:00.757Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	6
+RankedRetrieveRecordInteraction	2018-03-14T19:29:10.542Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200272/BibliographicResource_3000135328383	4	6
+SearchInteraction	2018-03-14T19:29:21.555Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:29:34.022Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+RankedRetrieveRecordInteraction	2018-03-14T19:29:59.511Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000113647099	18	30
+SearchInteraction	2018-03-14T19:30:25.972Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-14T19:30:27.564Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+SearchInteraction	2018-03-14T19:30:30.828Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+RefreshOrPaginationInteraction	2018-03-14T19:30:32.253Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:36.556Z	9e9179d77c49bb450bf9f68732c08ab7	equation	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-03-14T19:30:41.427Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:50.393Z	9e9179d77c49bb450bf9f68732c08ab7	mathematics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1092
+SearchInteraction	2018-03-14T19:31:04.415Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:31:09.559Z	9e9179d77c49bb450bf9f68732c08ab7	statistik	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	11
+SearchInteraction	2018-03-16T19:45:09.144Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		6693
+CollectionFilterAdditionInteraction	2018-03-16T19:45:15.222Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		245
+CollectionFilterRemovalInteraction	2018-03-19T06:46:12.130Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		248
+SearchInteraction	2018-03-24T14:53:37.016Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+ArbitraryAccessInteraction	2018-03-26T17:55:55.546Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-26T18:00:43.295Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+RefreshOrPaginationInteraction	2018-03-29T09:12:35.488Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T09:13:06.189Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:13:17.193Z	9e9179d77c49bb450bf9f68732c08ab7	postcard	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3721
+SearchInteraction	2018-03-29T09:13:25.101Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+RefreshOrPaginationInteraction	2018-03-29T09:13:26.760Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:14:00.437Z	9e9179d77c49bb450bf9f68732c08ab7	finland		216
+SearchInteraction	2018-03-29T14:51:32.699Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T14:51:47.138Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T14:52:01.819Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3460
+RankedRetrieveRecordInteraction	2018-03-29T14:52:07.725Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	3460
+SearchInteraction	2018-02-08T20:18:19.596Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+SearchInteraction	2018-02-08T20:19:52.176Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-08T20:20:09.692Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'TYPE': ['VIDEO']}	2589
+SearchInteraction	2018-02-08T20:20:19.894Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'REUSABILITY': ['open'], 'TYPE': ['VIDEO']}	283
+SearchInteraction	2018-02-08T20:22:26.050Z	9e9179d77c49bb450bf9f68732c08ab7	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+ArbitraryAccessInteraction	2018-02-20T20:19:30.946Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T20:19:54.173Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/rights.html (PagesController#show)
+SearchInteraction	2018-02-21T06:44:34.122Z	9e9179d77c49bb450bf9f68732c08ab7	curling		887
+CollectionFilterAdditionInteraction	2018-02-21T06:44:42.868Z	9e9179d77c49bb450bf9f68732c08ab7	curling		7
+SearchInteraction	2018-02-21T06:44:43.200Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+RefreshOrPaginationInteraction	2018-02-21T06:44:44.587Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T06:44:49.763Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45517
+CollectionFilterAdditionInteraction	2018-02-21T06:44:54.096Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+CollectionFilterRemovalInteraction	2018-02-21T06:44:58.276Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		376
+CollectionFilterAdditionInteraction	2018-02-21T06:45:03.161Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+RankedRetrieveRecordInteraction	2018-02-21T06:45:11.127Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		/9200365/BibliographicResource_2000081591625	5	17
+ArbitraryAccessInteraction	2018-02-23T12:53:24.627Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_1968084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T12:58:22.010Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:12:21.202Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_28290.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:14:10.658Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:22:15.531Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_30400.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T16:24:55.976Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_8984183.html (PortalController#show)
+SearchInteraction	2018-02-24T19:02:57.390Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45507
+SearchInteraction	2018-02-24T19:03:03.758Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'TYPE': ['IMAGE']}	40202
+SearchInteraction	2018-02-24T19:03:15.983Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	4045
+SearchInteraction	2018-02-24T19:06:59.709Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+CollectionFilterRemovalInteraction	2018-02-24T19:07:53.095Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-24T19:07:58.020Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-25T10:06:22.198Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:43:28.099Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:44:16.495Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92023/BibliographicResource_3000074026697.html (PortalController#show)
+SearchInteraction	2018-02-25T17:27:31.354Z	9e9179d77c49bb450bf9f68732c08ab7	curling		888
+SearchInteraction	2018-02-25T17:27:36.161Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'TYPE': ['IMAGE']}	762
+SearchInteraction	2018-02-25T17:27:44.520Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	556
+SearchInteraction	2018-02-25T17:27:52.113Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	483
+SearchInteraction	2018-02-25T19:33:11.608Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-25T19:33:12.962Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-02-25T19:33:16.526Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-25T19:33:23.303Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-25T19:39:00.093Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_P_1880_A_3916	14	86
+SearchInteraction	2018-02-25T19:39:06.034Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-26T17:27:04.346Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-26T17:28:02.713Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-26T17:28:13.881Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-03-14T19:28:05.899Z	9e9179d77c49bb450bf9f68732c08ab7	statistics		11803
+SearchInteraction	2018-03-14T19:28:12.750Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:14.845Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:15.733Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-14T19:28:25.784Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-03-14T19:28:44.756Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-14T19:29:00.757Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	6
+RankedRetrieveRecordInteraction	2018-03-14T19:29:10.542Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200272/BibliographicResource_3000135328383	4	6
+SearchInteraction	2018-03-14T19:29:21.555Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:29:34.022Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+RankedRetrieveRecordInteraction	2018-03-14T19:29:59.511Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000113647099	18	30
+SearchInteraction	2018-03-14T19:30:25.972Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-14T19:30:27.564Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+SearchInteraction	2018-03-14T19:30:30.828Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+RefreshOrPaginationInteraction	2018-03-14T19:30:32.253Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:36.556Z	9e9179d77c49bb450bf9f68732c08ab7	equation	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-03-14T19:30:41.427Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:50.393Z	9e9179d77c49bb450bf9f68732c08ab7	mathematics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1092
+SearchInteraction	2018-03-14T19:31:04.415Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:31:09.559Z	9e9179d77c49bb450bf9f68732c08ab7	statistik	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	11
+SearchInteraction	2018-03-16T19:45:09.144Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		6693
+CollectionFilterAdditionInteraction	2018-03-16T19:45:15.222Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		245
+CollectionFilterRemovalInteraction	2018-03-19T06:46:12.130Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		248
+SearchInteraction	2018-03-24T14:53:37.016Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+ArbitraryAccessInteraction	2018-03-26T17:55:55.546Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-26T18:00:43.295Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+RefreshOrPaginationInteraction	2018-03-29T09:12:35.488Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T09:13:06.189Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:13:17.193Z	9e9179d77c49bb450bf9f68732c08ab7	postcard	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3721
+SearchInteraction	2018-03-29T09:13:25.101Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+RefreshOrPaginationInteraction	2018-03-29T09:13:26.760Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:14:00.437Z	9e9179d77c49bb450bf9f68732c08ab7	finland		216
+SearchInteraction	2018-03-29T14:51:32.699Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T14:51:47.138Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T14:52:01.819Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3460
+RankedRetrieveRecordInteraction	2018-03-29T14:52:07.725Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	3460
+SearchInteraction	2018-02-08T20:18:19.596Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+SearchInteraction	2018-02-08T20:19:52.176Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-08T20:20:09.692Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'TYPE': ['VIDEO']}	2589
+SearchInteraction	2018-02-08T20:20:19.894Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'REUSABILITY': ['open'], 'TYPE': ['VIDEO']}	283
+SearchInteraction	2018-02-08T20:22:26.050Z	9e9179d77c49bb450bf9f68732c08ab7	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+ArbitraryAccessInteraction	2018-02-20T20:19:30.946Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T20:19:54.173Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/rights.html (PagesController#show)
+SearchInteraction	2018-02-21T06:44:34.122Z	9e9179d77c49bb450bf9f68732c08ab7	curling		887
+CollectionFilterAdditionInteraction	2018-02-21T06:44:42.868Z	9e9179d77c49bb450bf9f68732c08ab7	curling		7
+SearchInteraction	2018-02-21T06:44:43.200Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+RefreshOrPaginationInteraction	2018-02-21T06:44:44.587Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T06:44:49.763Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45517
+CollectionFilterAdditionInteraction	2018-02-21T06:44:54.096Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+CollectionFilterRemovalInteraction	2018-02-21T06:44:58.276Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		376
+CollectionFilterAdditionInteraction	2018-02-21T06:45:03.161Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+RankedRetrieveRecordInteraction	2018-02-21T06:45:11.127Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		/9200365/BibliographicResource_2000081591625	5	17
+ArbitraryAccessInteraction	2018-02-23T12:53:24.627Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_1968084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T12:58:22.010Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:12:21.202Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_28290.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:14:10.658Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:22:15.531Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_30400.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T16:24:55.976Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_8984183.html (PortalController#show)
+SearchInteraction	2018-02-24T19:02:57.390Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45507
+SearchInteraction	2018-02-24T19:03:03.758Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'TYPE': ['IMAGE']}	40202
+SearchInteraction	2018-02-24T19:03:15.983Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	4045
+SearchInteraction	2018-02-24T19:06:59.709Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+CollectionFilterRemovalInteraction	2018-02-24T19:07:53.095Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-24T19:07:58.020Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-25T10:06:22.198Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:43:28.099Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:44:16.495Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92023/BibliographicResource_3000074026697.html (PortalController#show)
+SearchInteraction	2018-02-25T17:27:31.354Z	9e9179d77c49bb450bf9f68732c08ab7	curling		888
+SearchInteraction	2018-02-25T17:27:36.161Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'TYPE': ['IMAGE']}	762
+SearchInteraction	2018-02-25T17:27:44.520Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	556
+SearchInteraction	2018-02-25T17:27:52.113Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	483
+SearchInteraction	2018-02-25T19:33:11.608Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-25T19:33:12.962Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-02-25T19:33:16.526Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-25T19:33:23.303Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-25T19:39:00.093Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_P_1880_A_3916	14	86
+SearchInteraction	2018-02-25T19:39:06.034Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-26T17:27:04.346Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-26T17:28:02.713Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-26T17:28:13.881Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-03-14T19:28:05.899Z	9e9179d77c49bb450bf9f68732c08ab7	statistics		11803
+SearchInteraction	2018-03-14T19:28:12.750Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:14.845Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:15.733Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-14T19:28:25.784Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-03-14T19:28:44.756Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-14T19:29:00.757Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	6
+RankedRetrieveRecordInteraction	2018-03-14T19:29:10.542Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200272/BibliographicResource_3000135328383	4	6
+SearchInteraction	2018-03-14T19:29:21.555Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:29:34.022Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+RankedRetrieveRecordInteraction	2018-03-14T19:29:59.511Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000113647099	18	30
+SearchInteraction	2018-03-14T19:30:25.972Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-14T19:30:27.564Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+SearchInteraction	2018-03-14T19:30:30.828Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+RefreshOrPaginationInteraction	2018-03-14T19:30:32.253Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:36.556Z	9e9179d77c49bb450bf9f68732c08ab7	equation	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-03-14T19:30:41.427Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:50.393Z	9e9179d77c49bb450bf9f68732c08ab7	mathematics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1092
+SearchInteraction	2018-03-14T19:31:04.415Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:31:09.559Z	9e9179d77c49bb450bf9f68732c08ab7	statistik	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	11
+SearchInteraction	2018-03-16T19:45:09.144Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		6693
+CollectionFilterAdditionInteraction	2018-03-16T19:45:15.222Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		245
+CollectionFilterRemovalInteraction	2018-03-19T06:46:12.130Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		248
+SearchInteraction	2018-03-24T14:53:37.016Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+ArbitraryAccessInteraction	2018-03-26T17:55:55.546Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-26T18:00:43.295Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+RefreshOrPaginationInteraction	2018-03-29T09:12:35.488Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T09:13:06.189Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:13:17.193Z	9e9179d77c49bb450bf9f68732c08ab7	postcard	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3721
+SearchInteraction	2018-03-29T09:13:25.101Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+RefreshOrPaginationInteraction	2018-03-29T09:13:26.760Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:14:00.437Z	9e9179d77c49bb450bf9f68732c08ab7	finland		216
+SearchInteraction	2018-03-29T14:51:32.699Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T14:51:47.138Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T14:52:01.819Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3460
+RankedRetrieveRecordInteraction	2018-03-29T14:52:07.725Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	3460
+SearchInteraction	2018-02-08T20:18:19.596Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+SearchInteraction	2018-02-08T20:19:52.176Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-08T20:20:09.692Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'TYPE': ['VIDEO']}	2589
+SearchInteraction	2018-02-08T20:20:19.894Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'REUSABILITY': ['open'], 'TYPE': ['VIDEO']}	283
+SearchInteraction	2018-02-08T20:22:26.050Z	9e9179d77c49bb450bf9f68732c08ab7	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+ArbitraryAccessInteraction	2018-02-20T20:19:30.946Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T20:19:54.173Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/rights.html (PagesController#show)
+SearchInteraction	2018-02-21T06:44:34.122Z	9e9179d77c49bb450bf9f68732c08ab7	curling		887
+CollectionFilterAdditionInteraction	2018-02-21T06:44:42.868Z	9e9179d77c49bb450bf9f68732c08ab7	curling		7
+SearchInteraction	2018-02-21T06:44:43.200Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+RefreshOrPaginationInteraction	2018-02-21T06:44:44.587Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T06:44:49.763Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45517
+CollectionFilterAdditionInteraction	2018-02-21T06:44:54.096Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+CollectionFilterRemovalInteraction	2018-02-21T06:44:58.276Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		376
+CollectionFilterAdditionInteraction	2018-02-21T06:45:03.161Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+RankedRetrieveRecordInteraction	2018-02-21T06:45:11.127Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		/9200365/BibliographicResource_2000081591625	5	17
+ArbitraryAccessInteraction	2018-02-23T12:53:24.627Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_1968084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T12:58:22.010Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:12:21.202Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_28290.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:14:10.658Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:22:15.531Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_30400.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T16:24:55.976Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_8984183.html (PortalController#show)
+SearchInteraction	2018-02-24T19:02:57.390Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45507
+SearchInteraction	2018-02-24T19:03:03.758Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'TYPE': ['IMAGE']}	40202
+SearchInteraction	2018-02-24T19:03:15.983Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	4045
+SearchInteraction	2018-02-24T19:06:59.709Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+CollectionFilterRemovalInteraction	2018-02-24T19:07:53.095Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-24T19:07:58.020Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-25T10:06:22.198Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:43:28.099Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:44:16.495Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92023/BibliographicResource_3000074026697.html (PortalController#show)
+SearchInteraction	2018-02-25T17:27:31.354Z	9e9179d77c49bb450bf9f68732c08ab7	curling		888
+SearchInteraction	2018-02-25T17:27:36.161Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'TYPE': ['IMAGE']}	762
+SearchInteraction	2018-02-25T17:27:44.520Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	556
+SearchInteraction	2018-02-25T17:27:52.113Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	483
+SearchInteraction	2018-02-25T19:33:11.608Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-25T19:33:12.962Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-02-25T19:33:16.526Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-25T19:33:23.303Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-25T19:39:00.093Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_P_1880_A_3916	14	86
+SearchInteraction	2018-02-25T19:39:06.034Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-26T17:27:04.346Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-26T17:28:02.713Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-26T17:28:13.881Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-03-14T19:28:05.899Z	9e9179d77c49bb450bf9f68732c08ab7	statistics		11803
+SearchInteraction	2018-03-14T19:28:12.750Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:14.845Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:15.733Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-14T19:28:25.784Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-03-14T19:28:44.756Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-14T19:29:00.757Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	6
+RankedRetrieveRecordInteraction	2018-03-14T19:29:10.542Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200272/BibliographicResource_3000135328383	4	6
+SearchInteraction	2018-03-14T19:29:21.555Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:29:34.022Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+RankedRetrieveRecordInteraction	2018-03-14T19:29:59.511Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000113647099	18	30
+SearchInteraction	2018-03-14T19:30:25.972Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-14T19:30:27.564Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+SearchInteraction	2018-03-14T19:30:30.828Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+RefreshOrPaginationInteraction	2018-03-14T19:30:32.253Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:36.556Z	9e9179d77c49bb450bf9f68732c08ab7	equation	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-03-14T19:30:41.427Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:50.393Z	9e9179d77c49bb450bf9f68732c08ab7	mathematics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1092
+SearchInteraction	2018-03-14T19:31:04.415Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:31:09.559Z	9e9179d77c49bb450bf9f68732c08ab7	statistik	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	11
+SearchInteraction	2018-03-16T19:45:09.144Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		6693
+CollectionFilterAdditionInteraction	2018-03-16T19:45:15.222Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		245
+CollectionFilterRemovalInteraction	2018-03-19T06:46:12.130Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		248
+SearchInteraction	2018-03-24T14:53:37.016Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+ArbitraryAccessInteraction	2018-03-26T17:55:55.546Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-26T18:00:43.295Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+RefreshOrPaginationInteraction	2018-03-29T09:12:35.488Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T09:13:06.189Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:13:17.193Z	9e9179d77c49bb450bf9f68732c08ab7	postcard	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3721
+SearchInteraction	2018-03-29T09:13:25.101Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+RefreshOrPaginationInteraction	2018-03-29T09:13:26.760Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:14:00.437Z	9e9179d77c49bb450bf9f68732c08ab7	finland		216
+SearchInteraction	2018-03-29T14:51:32.699Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T14:51:47.138Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T14:52:01.819Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3460
+RankedRetrieveRecordInteraction	2018-03-29T14:52:07.725Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	3460
+SearchInteraction	2018-02-08T20:18:19.596Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+SearchInteraction	2018-02-08T20:19:52.176Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-08T20:20:09.692Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'TYPE': ['VIDEO']}	2589
+SearchInteraction	2018-02-08T20:20:19.894Z	9e9179d77c49bb450bf9f68732c08ab7	TYPE:VIDEO AND what:"World War I"	{'REUSABILITY': ['open'], 'TYPE': ['VIDEO']}	283
+SearchInteraction	2018-02-08T20:22:26.050Z	9e9179d77c49bb450bf9f68732c08ab7	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+ArbitraryAccessInteraction	2018-02-20T20:19:30.946Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/about.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-20T20:19:54.173Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/fi/rights.html (PagesController#show)
+SearchInteraction	2018-02-21T06:44:34.122Z	9e9179d77c49bb450bf9f68732c08ab7	curling		887
+CollectionFilterAdditionInteraction	2018-02-21T06:44:42.868Z	9e9179d77c49bb450bf9f68732c08ab7	curling		7
+SearchInteraction	2018-02-21T06:44:43.200Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+RefreshOrPaginationInteraction	2018-02-21T06:44:44.587Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED		51581697
+SearchInteraction	2018-02-21T06:44:49.763Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45517
+CollectionFilterAdditionInteraction	2018-02-21T06:44:54.096Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+CollectionFilterRemovalInteraction	2018-02-21T06:44:58.276Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		376
+CollectionFilterAdditionInteraction	2018-02-21T06:45:03.161Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		17
+RankedRetrieveRecordInteraction	2018-02-21T06:45:11.127Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		/9200365/BibliographicResource_2000081591625	5	17
+ArbitraryAccessInteraction	2018-02-23T12:53:24.627Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_1968084.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T12:58:22.010Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:12:21.202Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_28290.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:14:10.658Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T13:22:15.531Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92085/lnb_zl_30400.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T16:24:55.976Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/9200434/oai_baa_onb_at_8984183.html (PortalController#show)
+SearchInteraction	2018-02-24T19:02:57.390Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki		45507
+SearchInteraction	2018-02-24T19:03:03.758Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'TYPE': ['IMAGE']}	40202
+SearchInteraction	2018-02-24T19:03:15.983Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	4045
+SearchInteraction	2018-02-24T19:06:59.709Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+CollectionFilterRemovalInteraction	2018-02-24T19:07:53.095Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-24T19:07:58.020Z	9e9179d77c49bb450bf9f68732c08ab7	helsinki	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	145
+ArbitraryAccessInteraction	2018-02-25T10:06:22.198Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:43:28.099Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92040/BibliographicResource_3000094573504.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T12:44:16.495Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/record/92023/BibliographicResource_3000074026697.html (PortalController#show)
+SearchInteraction	2018-02-25T17:27:31.354Z	9e9179d77c49bb450bf9f68732c08ab7	curling		888
+SearchInteraction	2018-02-25T17:27:36.161Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'TYPE': ['IMAGE']}	762
+SearchInteraction	2018-02-25T17:27:44.520Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	556
+SearchInteraction	2018-02-25T17:27:52.113Z	9e9179d77c49bb450bf9f68732c08ab7	curling	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	483
+SearchInteraction	2018-02-25T19:33:11.608Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-25T19:33:12.962Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-02-25T19:33:16.526Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RefreshOrPaginationInteraction	2018-02-25T19:33:23.303Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+RankedRetrieveRecordInteraction	2018-02-25T19:39:00.093Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_P_1880_A_3916	14	86
+SearchInteraction	2018-02-25T19:39:06.034Z	9e9179d77c49bb450bf9f68732c08ab7	vermeer	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	86
+SearchInteraction	2018-02-26T17:27:04.346Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-02-26T17:28:02.713Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+RefreshOrPaginationInteraction	2018-02-26T17:28:13.881Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916992
+SearchInteraction	2018-03-14T19:28:05.899Z	9e9179d77c49bb450bf9f68732c08ab7	statistics		11803
+SearchInteraction	2018-03-14T19:28:12.750Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:14.845Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+RefreshOrPaginationInteraction	2018-03-14T19:28:15.733Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'TYPE': ['IMAGE']}	438
+SearchInteraction	2018-03-14T19:28:25.784Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+RefreshOrPaginationInteraction	2018-03-14T19:28:44.756Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	38
+SearchInteraction	2018-03-14T19:29:00.757Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	6
+RankedRetrieveRecordInteraction	2018-03-14T19:29:10.542Z	9e9179d77c49bb450bf9f68732c08ab7	statistics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200272/BibliographicResource_3000135328383	4	6
+SearchInteraction	2018-03-14T19:29:21.555Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:29:34.022Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+RankedRetrieveRecordInteraction	2018-03-14T19:29:59.511Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200387/BibliographicResource_3000113647099	18	30
+SearchInteraction	2018-03-14T19:30:25.972Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-14T19:30:27.564Z	9e9179d77c49bb450bf9f68732c08ab7	geometry	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	30
+SearchInteraction	2018-03-14T19:30:30.828Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+RefreshOrPaginationInteraction	2018-03-14T19:30:32.253Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:36.556Z	9e9179d77c49bb450bf9f68732c08ab7	equation	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3
+SearchInteraction	2018-03-14T19:30:41.427Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:30:50.393Z	9e9179d77c49bb450bf9f68732c08ab7	mathematics	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1092
+SearchInteraction	2018-03-14T19:31:04.415Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	2916984
+SearchInteraction	2018-03-14T19:31:09.559Z	9e9179d77c49bb450bf9f68732c08ab7	statistik	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	11
+SearchInteraction	2018-03-16T19:45:09.144Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		6693
+CollectionFilterAdditionInteraction	2018-03-16T19:45:15.222Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		245
+CollectionFilterRemovalInteraction	2018-03-19T06:46:12.130Z	9e9179d77c49bb450bf9f68732c08ab7	pearl		248
+SearchInteraction	2018-03-24T14:53:37.016Z	9e9179d77c49bb450bf9f68732c08ab7	what:postcard	{'TYPE': ['IMAGE']}	7173
+ArbitraryAccessInteraction	2018-03-26T17:55:55.546Z	9e9179d77c49bb450bf9f68732c08ab7	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-03-26T18:00:43.295Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+RefreshOrPaginationInteraction	2018-03-29T09:12:35.488Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T09:13:06.189Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:13:17.193Z	9e9179d77c49bb450bf9f68732c08ab7	postcard	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	3721
+SearchInteraction	2018-03-29T09:13:25.101Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+RefreshOrPaginationInteraction	2018-03-29T09:13:26.760Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T09:14:00.437Z	9e9179d77c49bb450bf9f68732c08ab7	finland		216
+SearchInteraction	2018-03-29T14:51:32.699Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	9841121
+CollectionFilterRemovalInteraction	2018-03-29T14:51:47.138Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	99224
+SearchInteraction	2018-03-29T14:52:01.819Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3460
+RankedRetrieveRecordInteraction	2018-03-29T14:52:07.725Z	9e9179d77c49bb450bf9f68732c08ab7	NO VALUE PROVIDED	{'MEDIA': ['true'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200336/BibliographicResource_3000095550128	1	3460

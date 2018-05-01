@@ -1,0 +1,145 @@
+SearchInteraction	2018-02-14T21:50:23.269Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		1381545
+CollectionFilterRemovalInteraction	2018-02-14T21:50:36.205Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		23900
+SearchInteraction	2018-02-14T21:50:43.378Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open']}	16512
+SearchInteraction	2018-02-14T21:50:55.519Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RankedRetrieveRecordInteraction	2018-02-14T21:51:11.916Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_6862	9	15392
+SearchInteraction	2018-02-14T21:51:38.568Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RefreshOrPaginationInteraction	2018-02-14T21:51:51.772Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+CollectionFilterRemovalInteraction	2018-02-14T21:51:57.625Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+RefreshOrPaginationInteraction	2018-02-14T21:52:05.445Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:15.309Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	406
+SearchInteraction	2018-02-14T21:52:20.008Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:25.422Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:31.870Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328556_custom_att_2_simple_viewer	2	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:49.074Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328555_custom_att_2_simple_viewer	3	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:08.805Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328554_custom_att_2_simple_viewer	4	1019
+SearchInteraction	2018-02-14T21:53:29.731Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RefreshOrPaginationInteraction	2018-02-14T21:53:44.823Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:51.041Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_T_2004_115	26	1019
+SearchInteraction	2018-02-14T21:55:45.994Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:55:53.615Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:00.957Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:12.055Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:20.990Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:28.858Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:40.252Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:48.889Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:57:00.589Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:57:16.590Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'COLOURPALETTE': ['#F0FFF0'], 'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	90
+SearchInteraction	2018-02-14T21:57:24.780Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:50:23.269Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		1381545
+CollectionFilterRemovalInteraction	2018-02-14T21:50:36.205Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		23900
+SearchInteraction	2018-02-14T21:50:43.378Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open']}	16512
+SearchInteraction	2018-02-14T21:50:55.519Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RankedRetrieveRecordInteraction	2018-02-14T21:51:11.916Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_6862	9	15392
+SearchInteraction	2018-02-14T21:51:38.568Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RefreshOrPaginationInteraction	2018-02-14T21:51:51.772Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+CollectionFilterRemovalInteraction	2018-02-14T21:51:57.625Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+RefreshOrPaginationInteraction	2018-02-14T21:52:05.445Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:15.309Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	406
+SearchInteraction	2018-02-14T21:52:20.008Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:25.422Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:31.870Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328556_custom_att_2_simple_viewer	2	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:49.074Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328555_custom_att_2_simple_viewer	3	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:08.805Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328554_custom_att_2_simple_viewer	4	1019
+SearchInteraction	2018-02-14T21:53:29.731Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RefreshOrPaginationInteraction	2018-02-14T21:53:44.823Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:51.041Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_T_2004_115	26	1019
+SearchInteraction	2018-02-14T21:55:45.994Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:55:53.615Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:00.957Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:12.055Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:20.990Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:28.858Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:40.252Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:48.889Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:57:00.589Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:57:16.590Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'COLOURPALETTE': ['#F0FFF0'], 'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	90
+SearchInteraction	2018-02-14T21:57:24.780Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:50:23.269Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		1381545
+CollectionFilterRemovalInteraction	2018-02-14T21:50:36.205Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		23900
+SearchInteraction	2018-02-14T21:50:43.378Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open']}	16512
+SearchInteraction	2018-02-14T21:50:55.519Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RankedRetrieveRecordInteraction	2018-02-14T21:51:11.916Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_6862	9	15392
+SearchInteraction	2018-02-14T21:51:38.568Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RefreshOrPaginationInteraction	2018-02-14T21:51:51.772Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+CollectionFilterRemovalInteraction	2018-02-14T21:51:57.625Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+RefreshOrPaginationInteraction	2018-02-14T21:52:05.445Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:15.309Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	406
+SearchInteraction	2018-02-14T21:52:20.008Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:25.422Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:31.870Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328556_custom_att_2_simple_viewer	2	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:49.074Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328555_custom_att_2_simple_viewer	3	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:08.805Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328554_custom_att_2_simple_viewer	4	1019
+SearchInteraction	2018-02-14T21:53:29.731Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RefreshOrPaginationInteraction	2018-02-14T21:53:44.823Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:51.041Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_T_2004_115	26	1019
+SearchInteraction	2018-02-14T21:55:45.994Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:55:53.615Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:00.957Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:12.055Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:20.990Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:28.858Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:40.252Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:48.889Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:57:00.589Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:57:16.590Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'COLOURPALETTE': ['#F0FFF0'], 'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	90
+SearchInteraction	2018-02-14T21:57:24.780Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:50:23.269Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		1381545
+CollectionFilterRemovalInteraction	2018-02-14T21:50:36.205Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		23900
+SearchInteraction	2018-02-14T21:50:43.378Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open']}	16512
+SearchInteraction	2018-02-14T21:50:55.519Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RankedRetrieveRecordInteraction	2018-02-14T21:51:11.916Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_6862	9	15392
+SearchInteraction	2018-02-14T21:51:38.568Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RefreshOrPaginationInteraction	2018-02-14T21:51:51.772Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+CollectionFilterRemovalInteraction	2018-02-14T21:51:57.625Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+RefreshOrPaginationInteraction	2018-02-14T21:52:05.445Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:15.309Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	406
+SearchInteraction	2018-02-14T21:52:20.008Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:25.422Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:31.870Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328556_custom_att_2_simple_viewer	2	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:49.074Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328555_custom_att_2_simple_viewer	3	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:08.805Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328554_custom_att_2_simple_viewer	4	1019
+SearchInteraction	2018-02-14T21:53:29.731Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RefreshOrPaginationInteraction	2018-02-14T21:53:44.823Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:51.041Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_T_2004_115	26	1019
+SearchInteraction	2018-02-14T21:55:45.994Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:55:53.615Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:00.957Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:12.055Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:20.990Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:28.858Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:40.252Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:48.889Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:57:00.589Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:57:16.590Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'COLOURPALETTE': ['#F0FFF0'], 'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	90
+SearchInteraction	2018-02-14T21:57:24.780Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:50:23.269Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		1381545
+CollectionFilterRemovalInteraction	2018-02-14T21:50:36.205Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy		23900
+SearchInteraction	2018-02-14T21:50:43.378Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open']}	16512
+SearchInteraction	2018-02-14T21:50:55.519Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RankedRetrieveRecordInteraction	2018-02-14T21:51:11.916Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200495/yoolib_inha_6862	9	15392
+SearchInteraction	2018-02-14T21:51:38.568Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+RefreshOrPaginationInteraction	2018-02-14T21:51:51.772Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	15392
+CollectionFilterRemovalInteraction	2018-02-14T21:51:57.625Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+RefreshOrPaginationInteraction	2018-02-14T21:52:05.445Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:15.309Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	406
+SearchInteraction	2018-02-14T21:52:20.008Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1666
+SearchInteraction	2018-02-14T21:52:25.422Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:31.870Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328556_custom_att_2_simple_viewer	2	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:52:49.074Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328555_custom_att_2_simple_viewer	3	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:08.805Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200369/webclient_DeliveryManager_pid_6328554_custom_att_2_simple_viewer	4	1019
+SearchInteraction	2018-02-14T21:53:29.731Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RefreshOrPaginationInteraction	2018-02-14T21:53:44.823Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1019
+RankedRetrieveRecordInteraction	2018-02-14T21:53:51.041Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/90402/RP_T_2004_115	26	1019
+SearchInteraction	2018-02-14T21:55:45.994Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:55:53.615Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:00.957Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:12.055Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:20.990Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:28.858Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:40.252Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:56:48.889Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+RefreshOrPaginationInteraction	2018-02-14T21:57:00.589Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008
+SearchInteraction	2018-02-14T21:57:16.590Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'COLOURPALETTE': ['#F0FFF0'], 'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	90
+SearchInteraction	2018-02-14T21:57:24.780Z	d05b9fcb1d9d3c7a39afa1aecbbd1e9f	italy	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['extra_large'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1008

@@ -1,0 +1,190 @@
+SearchInteraction	2018-02-27T14:50:42.562Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin, postcards, museum		0
+SearchInteraction	2018-02-27T14:50:47.310Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED		51596254
+SearchInteraction	2018-02-27T14:50:55.205Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		824872
+CollectionFilterAdditionInteraction	2018-02-27T15:09:15.536Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		2006
+SearchInteraction	2018-02-27T15:09:20.743Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'TYPE': ['IMAGE']}	1830
+SearchInteraction	2018-02-27T15:09:28.677Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	20
+SearchInteraction	2018-02-27T15:09:33.970Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	782
+CollectionFilterAdditionInteraction	2018-02-27T15:09:49.429Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:10:42.277Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:07.186Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:22.957Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:48.721Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:12:45.701Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+SearchInteraction	2018-02-27T15:33:43.039Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		4001447
+CollectionFilterAdditionInteraction	2018-02-27T15:33:49.207Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		28767
+SearchInteraction	2018-02-27T15:33:54.924Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'TYPE': ['IMAGE']}	28699
+SearchInteraction	2018-02-27T15:34:05.841Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	19638
+SearchInteraction	2018-02-27T15:34:13.867Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+RefreshOrPaginationInteraction	2018-02-27T15:34:55.370Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+SearchInteraction	2018-02-27T15:35:21.893Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+RefreshOrPaginationInteraction	2018-02-27T15:35:22.737Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+SearchInteraction	2018-02-27T15:36:09.073Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:11.580Z	ef7c8bc93ac4d3e081d25b85c701a608	postcard	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:14.387Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	170492
+SearchInteraction	2018-02-27T15:38:19.952Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-27T15:38:33.500Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	10
+SearchInteraction	2018-02-27T15:54:19.618Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit		406
+SearchInteraction	2018-02-27T15:54:27.996Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'TYPE': ['IMAGE']}	390
+SearchInteraction	2018-02-27T15:54:38.351Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+RankedRetrieveRecordInteraction	2018-02-27T15:54:43.103Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Staatliche_Museen_zu_Berlin__Nationalgalerie_958605	3	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:09.170Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__F_5937	28	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:32.714Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__B_2881	46	341
+RankedRetrieveRecordInteraction	2018-02-27T15:56:02.371Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_081	92	341
+SearchInteraction	2018-02-27T15:56:16.015Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	14
+CollectionFilterRemovalInteraction	2018-02-27T15:56:32.629Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+CollectionFilterAdditionInteraction	2018-02-27T15:56:38.862Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:45.686Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_078	7	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:59.447Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_077	8	21
+SearchInteraction	2018-02-27T14:50:42.562Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin, postcards, museum		0
+SearchInteraction	2018-02-27T14:50:47.310Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED		51596254
+SearchInteraction	2018-02-27T14:50:55.205Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		824872
+CollectionFilterAdditionInteraction	2018-02-27T15:09:15.536Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		2006
+SearchInteraction	2018-02-27T15:09:20.743Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'TYPE': ['IMAGE']}	1830
+SearchInteraction	2018-02-27T15:09:28.677Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	20
+SearchInteraction	2018-02-27T15:09:33.970Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	782
+CollectionFilterAdditionInteraction	2018-02-27T15:09:49.429Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:10:42.277Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:07.186Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:22.957Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:48.721Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:12:45.701Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+SearchInteraction	2018-02-27T15:33:43.039Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		4001447
+CollectionFilterAdditionInteraction	2018-02-27T15:33:49.207Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		28767
+SearchInteraction	2018-02-27T15:33:54.924Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'TYPE': ['IMAGE']}	28699
+SearchInteraction	2018-02-27T15:34:05.841Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	19638
+SearchInteraction	2018-02-27T15:34:13.867Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+RefreshOrPaginationInteraction	2018-02-27T15:34:55.370Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+SearchInteraction	2018-02-27T15:35:21.893Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+RefreshOrPaginationInteraction	2018-02-27T15:35:22.737Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+SearchInteraction	2018-02-27T15:36:09.073Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:11.580Z	ef7c8bc93ac4d3e081d25b85c701a608	postcard	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:14.387Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	170492
+SearchInteraction	2018-02-27T15:38:19.952Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-27T15:38:33.500Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	10
+SearchInteraction	2018-02-27T15:54:19.618Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit		406
+SearchInteraction	2018-02-27T15:54:27.996Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'TYPE': ['IMAGE']}	390
+SearchInteraction	2018-02-27T15:54:38.351Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+RankedRetrieveRecordInteraction	2018-02-27T15:54:43.103Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Staatliche_Museen_zu_Berlin__Nationalgalerie_958605	3	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:09.170Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__F_5937	28	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:32.714Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__B_2881	46	341
+RankedRetrieveRecordInteraction	2018-02-27T15:56:02.371Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_081	92	341
+SearchInteraction	2018-02-27T15:56:16.015Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	14
+CollectionFilterRemovalInteraction	2018-02-27T15:56:32.629Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+CollectionFilterAdditionInteraction	2018-02-27T15:56:38.862Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:45.686Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_078	7	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:59.447Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_077	8	21
+SearchInteraction	2018-02-27T14:50:42.562Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin, postcards, museum		0
+SearchInteraction	2018-02-27T14:50:47.310Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED		51596254
+SearchInteraction	2018-02-27T14:50:55.205Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		824872
+CollectionFilterAdditionInteraction	2018-02-27T15:09:15.536Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		2006
+SearchInteraction	2018-02-27T15:09:20.743Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'TYPE': ['IMAGE']}	1830
+SearchInteraction	2018-02-27T15:09:28.677Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	20
+SearchInteraction	2018-02-27T15:09:33.970Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	782
+CollectionFilterAdditionInteraction	2018-02-27T15:09:49.429Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:10:42.277Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:07.186Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:22.957Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:48.721Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:12:45.701Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+SearchInteraction	2018-02-27T15:33:43.039Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		4001447
+CollectionFilterAdditionInteraction	2018-02-27T15:33:49.207Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		28767
+SearchInteraction	2018-02-27T15:33:54.924Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'TYPE': ['IMAGE']}	28699
+SearchInteraction	2018-02-27T15:34:05.841Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	19638
+SearchInteraction	2018-02-27T15:34:13.867Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+RefreshOrPaginationInteraction	2018-02-27T15:34:55.370Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+SearchInteraction	2018-02-27T15:35:21.893Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+RefreshOrPaginationInteraction	2018-02-27T15:35:22.737Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+SearchInteraction	2018-02-27T15:36:09.073Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:11.580Z	ef7c8bc93ac4d3e081d25b85c701a608	postcard	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:14.387Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	170492
+SearchInteraction	2018-02-27T15:38:19.952Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-27T15:38:33.500Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	10
+SearchInteraction	2018-02-27T15:54:19.618Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit		406
+SearchInteraction	2018-02-27T15:54:27.996Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'TYPE': ['IMAGE']}	390
+SearchInteraction	2018-02-27T15:54:38.351Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+RankedRetrieveRecordInteraction	2018-02-27T15:54:43.103Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Staatliche_Museen_zu_Berlin__Nationalgalerie_958605	3	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:09.170Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__F_5937	28	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:32.714Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__B_2881	46	341
+RankedRetrieveRecordInteraction	2018-02-27T15:56:02.371Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_081	92	341
+SearchInteraction	2018-02-27T15:56:16.015Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	14
+CollectionFilterRemovalInteraction	2018-02-27T15:56:32.629Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+CollectionFilterAdditionInteraction	2018-02-27T15:56:38.862Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:45.686Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_078	7	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:59.447Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_077	8	21
+SearchInteraction	2018-02-27T14:50:42.562Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin, postcards, museum		0
+SearchInteraction	2018-02-27T14:50:47.310Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED		51596254
+SearchInteraction	2018-02-27T14:50:55.205Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		824872
+CollectionFilterAdditionInteraction	2018-02-27T15:09:15.536Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		2006
+SearchInteraction	2018-02-27T15:09:20.743Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'TYPE': ['IMAGE']}	1830
+SearchInteraction	2018-02-27T15:09:28.677Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	20
+SearchInteraction	2018-02-27T15:09:33.970Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	782
+CollectionFilterAdditionInteraction	2018-02-27T15:09:49.429Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:10:42.277Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:07.186Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:22.957Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:48.721Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:12:45.701Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+SearchInteraction	2018-02-27T15:33:43.039Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		4001447
+CollectionFilterAdditionInteraction	2018-02-27T15:33:49.207Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		28767
+SearchInteraction	2018-02-27T15:33:54.924Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'TYPE': ['IMAGE']}	28699
+SearchInteraction	2018-02-27T15:34:05.841Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	19638
+SearchInteraction	2018-02-27T15:34:13.867Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+RefreshOrPaginationInteraction	2018-02-27T15:34:55.370Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+SearchInteraction	2018-02-27T15:35:21.893Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+RefreshOrPaginationInteraction	2018-02-27T15:35:22.737Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+SearchInteraction	2018-02-27T15:36:09.073Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:11.580Z	ef7c8bc93ac4d3e081d25b85c701a608	postcard	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:14.387Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	170492
+SearchInteraction	2018-02-27T15:38:19.952Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-27T15:38:33.500Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	10
+SearchInteraction	2018-02-27T15:54:19.618Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit		406
+SearchInteraction	2018-02-27T15:54:27.996Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'TYPE': ['IMAGE']}	390
+SearchInteraction	2018-02-27T15:54:38.351Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+RankedRetrieveRecordInteraction	2018-02-27T15:54:43.103Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Staatliche_Museen_zu_Berlin__Nationalgalerie_958605	3	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:09.170Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__F_5937	28	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:32.714Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__B_2881	46	341
+RankedRetrieveRecordInteraction	2018-02-27T15:56:02.371Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_081	92	341
+SearchInteraction	2018-02-27T15:56:16.015Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	14
+CollectionFilterRemovalInteraction	2018-02-27T15:56:32.629Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+CollectionFilterAdditionInteraction	2018-02-27T15:56:38.862Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:45.686Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_078	7	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:59.447Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_077	8	21
+SearchInteraction	2018-02-27T14:50:42.562Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin, postcards, museum		0
+SearchInteraction	2018-02-27T14:50:47.310Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED		51596254
+SearchInteraction	2018-02-27T14:50:55.205Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		824872
+CollectionFilterAdditionInteraction	2018-02-27T15:09:15.536Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin		2006
+SearchInteraction	2018-02-27T15:09:20.743Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'TYPE': ['IMAGE']}	1830
+SearchInteraction	2018-02-27T15:09:28.677Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	20
+SearchInteraction	2018-02-27T15:09:33.970Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	782
+CollectionFilterAdditionInteraction	2018-02-27T15:09:49.429Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:10:42.277Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:07.186Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:22.957Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:11:48.721Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+RefreshOrPaginationInteraction	2018-02-27T15:12:45.701Z	ef7c8bc93ac4d3e081d25b85c701a608	Berlin	{'REUSABILITY': ['open', 'restricted'], 'TYPE': ['IMAGE']}	558
+SearchInteraction	2018-02-27T15:33:43.039Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		4001447
+CollectionFilterAdditionInteraction	2018-02-27T15:33:49.207Z	ef7c8bc93ac4d3e081d25b85c701a608	museum		28767
+SearchInteraction	2018-02-27T15:33:54.924Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'TYPE': ['IMAGE']}	28699
+SearchInteraction	2018-02-27T15:34:05.841Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	19638
+SearchInteraction	2018-02-27T15:34:13.867Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+RefreshOrPaginationInteraction	2018-02-27T15:34:55.370Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19989
+SearchInteraction	2018-02-27T15:35:21.893Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+RefreshOrPaginationInteraction	2018-02-27T15:35:22.737Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19099
+SearchInteraction	2018-02-27T15:36:09.073Z	ef7c8bc93ac4d3e081d25b85c701a608	museum	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:11.580Z	ef7c8bc93ac4d3e081d25b85c701a608	postcard	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	19097
+SearchInteraction	2018-02-27T15:38:14.387Z	ef7c8bc93ac4d3e081d25b85c701a608	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	170492
+SearchInteraction	2018-02-27T15:38:19.952Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'DATA_PROVIDER': ['Stadtgeschichtliches Museum Leipzig'], 'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-27T15:38:33.500Z	ef7c8bc93ac4d3e081d25b85c701a608	Rummelplatz	{'MEDIA': ['true'], 'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	10
+SearchInteraction	2018-02-27T15:54:19.618Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit		406
+SearchInteraction	2018-02-27T15:54:27.996Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'TYPE': ['IMAGE']}	390
+SearchInteraction	2018-02-27T15:54:38.351Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+RankedRetrieveRecordInteraction	2018-02-27T15:54:43.103Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Staatliche_Museen_zu_Berlin__Nationalgalerie_958605	3	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:09.170Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__F_5937	28	341
+RankedRetrieveRecordInteraction	2018-02-27T15:55:32.714Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__B_2881	46	341
+RankedRetrieveRecordInteraction	2018-02-27T15:56:02.371Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_081	92	341
+SearchInteraction	2018-02-27T15:56:16.015Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	14
+CollectionFilterRemovalInteraction	2018-02-27T15:56:32.629Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	341
+CollectionFilterAdditionInteraction	2018-02-27T15:56:38.862Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:45.686Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_078	7	21
+RankedRetrieveRecordInteraction	2018-02-27T15:56:59.447Z	ef7c8bc93ac4d3e081d25b85c701a608	Moabit	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/08535/local__default__BZ_F_27_077	8	21

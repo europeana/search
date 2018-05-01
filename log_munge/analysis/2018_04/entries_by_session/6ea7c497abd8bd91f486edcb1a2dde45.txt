@@ -1,0 +1,495 @@
+SearchInteraction	2018-02-19T21:59:01.409Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+ArbitraryAccessInteraction	2018-02-19T22:16:31.993Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2020601/contributions_10903_attachments_125101.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:24.938Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:40.025Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/bg/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:54.809Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ca/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:11.510Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/cs/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:36.449Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/da/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:50.711Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/de/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:07.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/el/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:24.094Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:38.157Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/es/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:53.246Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/et/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:06.272Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fi/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:21.666Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:39.301Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ga/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:00.396Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:16.951Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hu/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:34.896Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/it/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:57.082Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:16.658Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:35.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/mt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:29.005Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/no/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:47.992Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/nl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:02.909Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:17.819Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:33.644Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ru/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:51.807Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sk/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:08.112Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:23.343Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:41.279Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ro/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:56.645Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2022608/OMU_OB_F20855a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:26:27.447Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/90402/SK_A_3471.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:06.547Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:27.151Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-02-19T22:34:42.740Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:34:59.956Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:15.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:35.057Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:52.518Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:09.658Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:24.660Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:43.811Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:02.110Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:19.524Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:34.207Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:49.237Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:05.918Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:24.158Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:42.634Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:58.563Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:15.647Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:31.409Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:50.492Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:08.387Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:27.847Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:47.285Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:03.849Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:19.826Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:38.112Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:54.306Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:42:13.020Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+SearchInteraction	2018-02-19T22:42:33.002Z	6ea7c497abd8bd91f486edcb1a2dde45	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-19T22:42:51.516Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:07.545Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:28.370Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:45.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:03.197Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:27.962Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:43.059Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:00.989Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:20.096Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+SearchInteraction	2018-02-19T22:45:36.269Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T22:45:51.453Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-19T22:46:09.635Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission']}	1
+SearchInteraction	2018-02-19T22:46:30.347Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-02-19T22:46:52.487Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'COUNTRY': ['austria']}	1
+SearchInteraction	2018-02-19T22:47:10.403Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'LANGUAGE': ['de']}	1
+SearchInteraction	2018-02-19T22:47:30.470Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'PROVIDER': ['Kulturpool']}	1
+SearchInteraction	2018-02-19T22:47:49.902Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'DATA_PROVIDER': ['Kunsthistorisches Museum']}	1
+SearchInteraction	2018-02-19T22:48:10.123Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:33.097Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:54.569Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:14.231Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:31.651Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:54.828Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:15.545Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:32.703Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:54.557Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:51:11.967Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:19.937Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:40.076Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:04.782Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:30.008Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:48.942Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:54:48.691Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:55:53.088Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:58:06.282Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:00:19.346Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:03:53.810Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+SearchInteraction	2018-02-19T21:59:01.409Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+ArbitraryAccessInteraction	2018-02-19T22:16:31.993Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2020601/contributions_10903_attachments_125101.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:24.938Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:40.025Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/bg/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:54.809Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ca/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:11.510Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/cs/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:36.449Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/da/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:50.711Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/de/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:07.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/el/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:24.094Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:38.157Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/es/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:53.246Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/et/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:06.272Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fi/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:21.666Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:39.301Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ga/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:00.396Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:16.951Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hu/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:34.896Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/it/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:57.082Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:16.658Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:35.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/mt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:29.005Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/no/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:47.992Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/nl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:02.909Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:17.819Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:33.644Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ru/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:51.807Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sk/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:08.112Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:23.343Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:41.279Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ro/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:56.645Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2022608/OMU_OB_F20855a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:26:27.447Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/90402/SK_A_3471.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:06.547Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:27.151Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-02-19T22:34:42.740Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:34:59.956Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:15.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:35.057Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:52.518Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:09.658Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:24.660Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:43.811Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:02.110Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:19.524Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:34.207Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:49.237Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:05.918Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:24.158Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:42.634Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:58.563Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:15.647Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:31.409Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:50.492Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:08.387Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:27.847Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:47.285Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:03.849Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:19.826Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:38.112Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:54.306Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:42:13.020Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+SearchInteraction	2018-02-19T22:42:33.002Z	6ea7c497abd8bd91f486edcb1a2dde45	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-19T22:42:51.516Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:07.545Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:28.370Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:45.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:03.197Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:27.962Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:43.059Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:00.989Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:20.096Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+SearchInteraction	2018-02-19T22:45:36.269Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T22:45:51.453Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-19T22:46:09.635Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission']}	1
+SearchInteraction	2018-02-19T22:46:30.347Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-02-19T22:46:52.487Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'COUNTRY': ['austria']}	1
+SearchInteraction	2018-02-19T22:47:10.403Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'LANGUAGE': ['de']}	1
+SearchInteraction	2018-02-19T22:47:30.470Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'PROVIDER': ['Kulturpool']}	1
+SearchInteraction	2018-02-19T22:47:49.902Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'DATA_PROVIDER': ['Kunsthistorisches Museum']}	1
+SearchInteraction	2018-02-19T22:48:10.123Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:33.097Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:54.569Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:14.231Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:31.651Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:54.828Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:15.545Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:32.703Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:54.557Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:51:11.967Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:19.937Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:40.076Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:04.782Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:30.008Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:48.942Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:54:48.691Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:55:53.088Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:58:06.282Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:00:19.346Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:03:53.810Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+SearchInteraction	2018-02-19T21:59:01.409Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+ArbitraryAccessInteraction	2018-02-19T22:16:31.993Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2020601/contributions_10903_attachments_125101.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:24.938Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:40.025Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/bg/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:54.809Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ca/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:11.510Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/cs/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:36.449Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/da/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:50.711Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/de/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:07.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/el/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:24.094Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:38.157Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/es/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:53.246Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/et/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:06.272Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fi/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:21.666Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:39.301Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ga/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:00.396Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:16.951Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hu/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:34.896Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/it/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:57.082Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:16.658Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:35.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/mt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:29.005Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/no/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:47.992Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/nl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:02.909Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:17.819Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:33.644Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ru/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:51.807Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sk/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:08.112Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:23.343Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:41.279Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ro/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:56.645Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2022608/OMU_OB_F20855a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:26:27.447Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/90402/SK_A_3471.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:06.547Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:27.151Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-02-19T22:34:42.740Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:34:59.956Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:15.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:35.057Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:52.518Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:09.658Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:24.660Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:43.811Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:02.110Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:19.524Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:34.207Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:49.237Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:05.918Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:24.158Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:42.634Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:58.563Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:15.647Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:31.409Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:50.492Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:08.387Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:27.847Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:47.285Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:03.849Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:19.826Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:38.112Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:54.306Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:42:13.020Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+SearchInteraction	2018-02-19T22:42:33.002Z	6ea7c497abd8bd91f486edcb1a2dde45	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-19T22:42:51.516Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:07.545Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:28.370Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:45.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:03.197Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:27.962Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:43.059Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:00.989Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:20.096Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+SearchInteraction	2018-02-19T22:45:36.269Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T22:45:51.453Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-19T22:46:09.635Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission']}	1
+SearchInteraction	2018-02-19T22:46:30.347Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-02-19T22:46:52.487Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'COUNTRY': ['austria']}	1
+SearchInteraction	2018-02-19T22:47:10.403Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'LANGUAGE': ['de']}	1
+SearchInteraction	2018-02-19T22:47:30.470Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'PROVIDER': ['Kulturpool']}	1
+SearchInteraction	2018-02-19T22:47:49.902Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'DATA_PROVIDER': ['Kunsthistorisches Museum']}	1
+SearchInteraction	2018-02-19T22:48:10.123Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:33.097Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:54.569Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:14.231Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:31.651Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:54.828Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:15.545Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:32.703Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:54.557Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:51:11.967Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:19.937Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:40.076Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:04.782Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:30.008Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:48.942Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:54:48.691Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:55:53.088Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:58:06.282Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:00:19.346Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:03:53.810Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+SearchInteraction	2018-02-19T21:59:01.409Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+ArbitraryAccessInteraction	2018-02-19T22:16:31.993Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2020601/contributions_10903_attachments_125101.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:24.938Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:40.025Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/bg/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:54.809Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ca/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:11.510Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/cs/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:36.449Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/da/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:50.711Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/de/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:07.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/el/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:24.094Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:38.157Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/es/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:53.246Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/et/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:06.272Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fi/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:21.666Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:39.301Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ga/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:00.396Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:16.951Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hu/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:34.896Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/it/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:57.082Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:16.658Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:35.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/mt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:29.005Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/no/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:47.992Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/nl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:02.909Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:17.819Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:33.644Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ru/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:51.807Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sk/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:08.112Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:23.343Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:41.279Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ro/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:56.645Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2022608/OMU_OB_F20855a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:26:27.447Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/90402/SK_A_3471.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:06.547Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:27.151Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-02-19T22:34:42.740Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:34:59.956Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:15.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:35.057Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:52.518Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:09.658Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:24.660Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:43.811Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:02.110Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:19.524Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:34.207Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:49.237Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:05.918Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:24.158Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:42.634Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:58.563Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:15.647Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:31.409Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:50.492Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:08.387Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:27.847Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:47.285Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:03.849Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:19.826Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:38.112Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:54.306Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:42:13.020Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+SearchInteraction	2018-02-19T22:42:33.002Z	6ea7c497abd8bd91f486edcb1a2dde45	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-19T22:42:51.516Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:07.545Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:28.370Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:45.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:03.197Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:27.962Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:43.059Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:00.989Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:20.096Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+SearchInteraction	2018-02-19T22:45:36.269Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T22:45:51.453Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-19T22:46:09.635Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission']}	1
+SearchInteraction	2018-02-19T22:46:30.347Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-02-19T22:46:52.487Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'COUNTRY': ['austria']}	1
+SearchInteraction	2018-02-19T22:47:10.403Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'LANGUAGE': ['de']}	1
+SearchInteraction	2018-02-19T22:47:30.470Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'PROVIDER': ['Kulturpool']}	1
+SearchInteraction	2018-02-19T22:47:49.902Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'DATA_PROVIDER': ['Kunsthistorisches Museum']}	1
+SearchInteraction	2018-02-19T22:48:10.123Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:33.097Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:54.569Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:14.231Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:31.651Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:54.828Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:15.545Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:32.703Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:54.557Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:51:11.967Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:19.937Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:40.076Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:04.782Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:30.008Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:48.942Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:54:48.691Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:55:53.088Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:58:06.282Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:00:19.346Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:03:53.810Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+SearchInteraction	2018-02-19T21:59:01.409Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+ArbitraryAccessInteraction	2018-02-19T22:16:31.993Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2020601/contributions_10903_attachments_125101.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:24.938Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:40.025Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/bg/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:17:54.809Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ca/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:11.510Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/cs/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:36.449Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/da/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:18:50.711Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/de/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:07.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/el/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:24.094Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:38.157Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/es/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:19:53.246Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/et/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:06.272Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fi/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:21.666Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:20:39.301Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ga/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:00.396Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hr/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:16.951Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/hu/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:34.896Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/it/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:21:57.082Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:16.658Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/lv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:22:35.668Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/mt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:29.005Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/no/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:23:47.992Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/nl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:02.909Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:17.819Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/pt/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:33.644Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ru/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:24:51.807Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sk/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:08.112Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sl/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:23.343Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/sv/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:41.279Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/ro/rights/privacy.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:25:56.645Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/2022608/OMU_OB_F20855a.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:26:27.447Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/record/90402/SK_A_3471.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:06.547Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/contact.html (PagesController#show)
+ArbitraryAccessInteraction	2018-02-19T22:34:27.151Z	6ea7c497abd8bd91f486edcb1a2dde45	[200] GET /portal/en/about.html (PagesController#show)
+SearchInteraction	2018-02-19T22:34:42.740Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:34:59.956Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:15.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:35.057Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:35:52.518Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:09.658Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:24.660Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:36:43.811Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:02.110Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:19.524Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:34.207Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:37:49.237Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:05.918Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:24.158Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:42.634Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:38:58.563Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:15.647Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:31.409Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:39:50.492Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:08.387Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:27.847Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:40:47.285Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:03.849Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:19.826Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:38.112Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:41:54.306Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+RefreshOrPaginationInteraction	2018-02-19T22:42:13.020Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		1
+SearchInteraction	2018-02-19T22:42:33.002Z	6ea7c497abd8bd91f486edcb1a2dde45	NO VALUE PROVIDED		51595228
+SearchInteraction	2018-02-19T22:42:51.516Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:07.545Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:28.370Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:43:45.597Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:03.197Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:27.962Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:44:43.059Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:00.989Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+RefreshOrPaginationInteraction	2018-02-19T22:45:20.096Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius		0
+SearchInteraction	2018-02-19T22:45:36.269Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T22:45:51.453Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'MEDIA': ['true']}	0
+SearchInteraction	2018-02-19T22:46:09.635Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission']}	1
+SearchInteraction	2018-02-19T22:46:30.347Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'REUSABILITY': ['permission'], 'RIGHTS': ['http*://rightsstatements.org/vocab/InC/*']}	1
+SearchInteraction	2018-02-19T22:46:52.487Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'COUNTRY': ['austria']}	1
+SearchInteraction	2018-02-19T22:47:10.403Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'LANGUAGE': ['de']}	1
+SearchInteraction	2018-02-19T22:47:30.470Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'PROVIDER': ['Kulturpool']}	1
+SearchInteraction	2018-02-19T22:47:49.902Z	6ea7c497abd8bd91f486edcb1a2dde45	iulius clouius	{'DATA_PROVIDER': ['Kunsthistorisches Museum']}	1
+SearchInteraction	2018-02-19T22:48:10.123Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:33.097Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:48:54.569Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:14.231Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:31.651Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:49:54.828Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:15.545Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:32.703Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:50:54.557Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:51:11.967Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:19.937Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:52:40.076Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:04.782Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:30.008Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:53:48.942Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:54:48.691Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:55:53.088Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T22:58:06.282Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:00:19.346Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871
+RefreshOrPaginationInteraction	2018-02-19T23:03:53.810Z	6ea7c497abd8bd91f486edcb1a2dde45	europeana_collectionName:9200439*		871

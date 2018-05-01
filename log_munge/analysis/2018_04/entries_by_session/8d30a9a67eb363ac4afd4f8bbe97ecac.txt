@@ -1,0 +1,95 @@
+SearchInteraction	2018-02-07T10:12:04.352Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+CollectionFilterRemovalInteraction	2018-02-07T10:12:18.382Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2694
+CollectionFilterAdditionInteraction	2018-02-07T10:12:29.195Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T10:12:51.554Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:TEXT		313877
+SearchInteraction	2018-02-07T10:13:38.491Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:43.833Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:51.070Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:57.170Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:59.218Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+SearchInteraction	2018-02-07T10:17:04.033Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+ArbitraryAccessInteraction	2018-02-07T10:41:49.728Z	8d30a9a67eb363ac4afd4f8bbe97ecac	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-02-07T10:42:42.985Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:43:16.755Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9912	4	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:44:04.852Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9961	2	2608
+SearchInteraction	2018-02-07T10:45:29.212Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:45:40.451Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9809_attachments_91556	15	2608
+SearchInteraction	2018-02-07T10:46:07.649Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RefreshOrPaginationInteraction	2018-02-07T10:46:34.737Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RankedRetrieveRecordInteraction	2018-02-07T10:46:41.312Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		/2020601/contributions_9809_attachments_137796	5	5
+SearchInteraction	2018-02-07T10:12:04.352Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+CollectionFilterRemovalInteraction	2018-02-07T10:12:18.382Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2694
+CollectionFilterAdditionInteraction	2018-02-07T10:12:29.195Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T10:12:51.554Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:TEXT		313877
+SearchInteraction	2018-02-07T10:13:38.491Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:43.833Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:51.070Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:57.170Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:59.218Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+SearchInteraction	2018-02-07T10:17:04.033Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+ArbitraryAccessInteraction	2018-02-07T10:41:49.728Z	8d30a9a67eb363ac4afd4f8bbe97ecac	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-02-07T10:42:42.985Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:43:16.755Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9912	4	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:44:04.852Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9961	2	2608
+SearchInteraction	2018-02-07T10:45:29.212Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:45:40.451Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9809_attachments_91556	15	2608
+SearchInteraction	2018-02-07T10:46:07.649Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RefreshOrPaginationInteraction	2018-02-07T10:46:34.737Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RankedRetrieveRecordInteraction	2018-02-07T10:46:41.312Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		/2020601/contributions_9809_attachments_137796	5	5
+SearchInteraction	2018-02-07T10:12:04.352Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+CollectionFilterRemovalInteraction	2018-02-07T10:12:18.382Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2694
+CollectionFilterAdditionInteraction	2018-02-07T10:12:29.195Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T10:12:51.554Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:TEXT		313877
+SearchInteraction	2018-02-07T10:13:38.491Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:43.833Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:51.070Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:57.170Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:59.218Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+SearchInteraction	2018-02-07T10:17:04.033Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+ArbitraryAccessInteraction	2018-02-07T10:41:49.728Z	8d30a9a67eb363ac4afd4f8bbe97ecac	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-02-07T10:42:42.985Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:43:16.755Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9912	4	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:44:04.852Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9961	2	2608
+SearchInteraction	2018-02-07T10:45:29.212Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:45:40.451Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9809_attachments_91556	15	2608
+SearchInteraction	2018-02-07T10:46:07.649Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RefreshOrPaginationInteraction	2018-02-07T10:46:34.737Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RankedRetrieveRecordInteraction	2018-02-07T10:46:41.312Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		/2020601/contributions_9809_attachments_137796	5	5
+SearchInteraction	2018-02-07T10:12:04.352Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+CollectionFilterRemovalInteraction	2018-02-07T10:12:18.382Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2694
+CollectionFilterAdditionInteraction	2018-02-07T10:12:29.195Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T10:12:51.554Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:TEXT		313877
+SearchInteraction	2018-02-07T10:13:38.491Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:43.833Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:51.070Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:57.170Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:59.218Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+SearchInteraction	2018-02-07T10:17:04.033Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+ArbitraryAccessInteraction	2018-02-07T10:41:49.728Z	8d30a9a67eb363ac4afd4f8bbe97ecac	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-02-07T10:42:42.985Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:43:16.755Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9912	4	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:44:04.852Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9961	2	2608
+SearchInteraction	2018-02-07T10:45:29.212Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:45:40.451Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9809_attachments_91556	15	2608
+SearchInteraction	2018-02-07T10:46:07.649Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RefreshOrPaginationInteraction	2018-02-07T10:46:34.737Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RankedRetrieveRecordInteraction	2018-02-07T10:46:41.312Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		/2020601/contributions_9809_attachments_137796	5	5
+SearchInteraction	2018-02-07T10:12:04.352Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+CollectionFilterRemovalInteraction	2018-02-07T10:12:18.382Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2694
+CollectionFilterAdditionInteraction	2018-02-07T10:12:29.195Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:VIDEO AND what:"World War I"		2589
+SearchInteraction	2018-02-07T10:12:51.554Z	8d30a9a67eb363ac4afd4f8bbe97ecac	TYPE:TEXT		313877
+SearchInteraction	2018-02-07T10:13:38.491Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:43.833Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:51.070Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:57.170Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+RankedRetrieveRecordInteraction	2018-02-07T10:13:59.218Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_997	1	479
+SearchInteraction	2018-02-07T10:17:04.033Z	8d30a9a67eb363ac4afd4f8bbe97ecac	letters	{'PROVIDER': ['Europeana 1914-1918']}	479
+ArbitraryAccessInteraction	2018-02-07T10:41:49.728Z	8d30a9a67eb363ac4afd4f8bbe97ecac	[200] GET /portal/de/help.html (PagesController#show)
+SearchInteraction	2018-02-07T10:42:42.985Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:43:16.755Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9912	4	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:44:04.852Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9961	2	2608
+SearchInteraction	2018-02-07T10:45:29.212Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	2608
+RankedRetrieveRecordInteraction	2018-02-07T10:45:40.451Z	8d30a9a67eb363ac4afd4f8bbe97ecac	eastern front	{'PROVIDER': ['Europeana 1914-1918']}	/2020601/contributions_9809_attachments_91556	15	2608
+SearchInteraction	2018-02-07T10:46:07.649Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RefreshOrPaginationInteraction	2018-02-07T10:46:34.737Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		5
+RankedRetrieveRecordInteraction	2018-02-07T10:46:41.312Z	8d30a9a67eb363ac4afd4f8bbe97ecac	proxy_dcterms_isPartOf:"http://www.europeana1914-1918.eu/contributions/9809"		/2020601/contributions_9809_attachments_137796	5	5

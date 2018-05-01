@@ -1,0 +1,80 @@
+ArbitraryAccessInteraction	2018-02-28T03:44:08.744Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:45:09.624Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		16
+RankedRetrieveRecordInteraction	2018-02-28T03:45:26.929Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		/2059505/data_foodanddrink_ADA_F_016574_0000	2	16
+SearchInteraction	2018-02-28T03:45:33.417Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+RefreshOrPaginationInteraction	2018-02-28T03:45:37.730Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+ArbitraryAccessInteraction	2018-02-28T03:46:42.545Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:46:55.042Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel de Oude)		6
+SearchInteraction	2018-02-28T03:46:56.036Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel the Elder)		6
+ArbitraryAccessInteraction	2018-02-28T03:47:06.502Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1073.html (PortalController#show)
+SearchInteraction	2018-02-28T03:47:20.509Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		4
+RankedRetrieveRecordInteraction	2018-02-28T03:47:32.692Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		/2021672/resource_document_mauritshuis_1108	2	4
+SearchInteraction	2018-02-28T03:52:36.636Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	24
+SearchInteraction	2018-02-28T03:52:52.990Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED		242995
+SearchInteraction	2018-02-28T03:53:02.004Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	46229
+CollectionFilterAdditionInteraction	2018-02-28T03:53:14.860Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+RefreshOrPaginationInteraction	2018-02-28T03:53:31.163Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+ArbitraryAccessInteraction	2018-02-28T03:44:08.744Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:45:09.624Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		16
+RankedRetrieveRecordInteraction	2018-02-28T03:45:26.929Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		/2059505/data_foodanddrink_ADA_F_016574_0000	2	16
+SearchInteraction	2018-02-28T03:45:33.417Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+RefreshOrPaginationInteraction	2018-02-28T03:45:37.730Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+ArbitraryAccessInteraction	2018-02-28T03:46:42.545Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:46:55.042Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel de Oude)		6
+SearchInteraction	2018-02-28T03:46:56.036Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel the Elder)		6
+ArbitraryAccessInteraction	2018-02-28T03:47:06.502Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1073.html (PortalController#show)
+SearchInteraction	2018-02-28T03:47:20.509Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		4
+RankedRetrieveRecordInteraction	2018-02-28T03:47:32.692Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		/2021672/resource_document_mauritshuis_1108	2	4
+SearchInteraction	2018-02-28T03:52:36.636Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	24
+SearchInteraction	2018-02-28T03:52:52.990Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED		242995
+SearchInteraction	2018-02-28T03:53:02.004Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	46229
+CollectionFilterAdditionInteraction	2018-02-28T03:53:14.860Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+RefreshOrPaginationInteraction	2018-02-28T03:53:31.163Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+ArbitraryAccessInteraction	2018-02-28T03:44:08.744Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:45:09.624Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		16
+RankedRetrieveRecordInteraction	2018-02-28T03:45:26.929Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		/2059505/data_foodanddrink_ADA_F_016574_0000	2	16
+SearchInteraction	2018-02-28T03:45:33.417Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+RefreshOrPaginationInteraction	2018-02-28T03:45:37.730Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+ArbitraryAccessInteraction	2018-02-28T03:46:42.545Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:46:55.042Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel de Oude)		6
+SearchInteraction	2018-02-28T03:46:56.036Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel the Elder)		6
+ArbitraryAccessInteraction	2018-02-28T03:47:06.502Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1073.html (PortalController#show)
+SearchInteraction	2018-02-28T03:47:20.509Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		4
+RankedRetrieveRecordInteraction	2018-02-28T03:47:32.692Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		/2021672/resource_document_mauritshuis_1108	2	4
+SearchInteraction	2018-02-28T03:52:36.636Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	24
+SearchInteraction	2018-02-28T03:52:52.990Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED		242995
+SearchInteraction	2018-02-28T03:53:02.004Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	46229
+CollectionFilterAdditionInteraction	2018-02-28T03:53:14.860Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+RefreshOrPaginationInteraction	2018-02-28T03:53:31.163Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+ArbitraryAccessInteraction	2018-02-28T03:44:08.744Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:45:09.624Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		16
+RankedRetrieveRecordInteraction	2018-02-28T03:45:26.929Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		/2059505/data_foodanddrink_ADA_F_016574_0000	2	16
+SearchInteraction	2018-02-28T03:45:33.417Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+RefreshOrPaginationInteraction	2018-02-28T03:45:37.730Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+ArbitraryAccessInteraction	2018-02-28T03:46:42.545Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:46:55.042Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel de Oude)		6
+SearchInteraction	2018-02-28T03:46:56.036Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel the Elder)		6
+ArbitraryAccessInteraction	2018-02-28T03:47:06.502Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1073.html (PortalController#show)
+SearchInteraction	2018-02-28T03:47:20.509Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		4
+RankedRetrieveRecordInteraction	2018-02-28T03:47:32.692Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		/2021672/resource_document_mauritshuis_1108	2	4
+SearchInteraction	2018-02-28T03:52:36.636Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	24
+SearchInteraction	2018-02-28T03:52:52.990Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED		242995
+SearchInteraction	2018-02-28T03:53:02.004Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	46229
+CollectionFilterAdditionInteraction	2018-02-28T03:53:14.860Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+RefreshOrPaginationInteraction	2018-02-28T03:53:31.163Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+ArbitraryAccessInteraction	2018-02-28T03:44:08.744Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:45:09.624Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		16
+RankedRetrieveRecordInteraction	2018-02-28T03:45:26.929Z	1eef9eb09baa065f67b9287539cfa0b6	jan brueghel the elder		/2059505/data_foodanddrink_ADA_F_016574_0000	2	16
+SearchInteraction	2018-02-28T03:45:33.417Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+RefreshOrPaginationInteraction	2018-02-28T03:45:37.730Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Brueghel Jan the Elder 1568-1625;;Bruegel, Jan, the Elder;;Brueghel, Jan Velvet;;Bruegel, Jan Velvet)		0
+ArbitraryAccessInteraction	2018-02-28T03:46:42.545Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1072.html (PortalController#show)
+SearchInteraction	2018-02-28T03:46:55.042Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel de Oude)		6
+SearchInteraction	2018-02-28T03:46:56.036Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Jan Brueghel the Elder)		6
+ArbitraryAccessInteraction	2018-02-28T03:47:06.502Z	1eef9eb09baa065f67b9287539cfa0b6	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_1073.html (PortalController#show)
+SearchInteraction	2018-02-28T03:47:20.509Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		4
+RankedRetrieveRecordInteraction	2018-02-28T03:47:32.692Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Balthasar van der Ast)		/2021672/resource_document_mauritshuis_1108	2	4
+SearchInteraction	2018-02-28T03:52:36.636Z	1eef9eb09baa065f67b9287539cfa0b6	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	24
+SearchInteraction	2018-02-28T03:52:52.990Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED		242995
+SearchInteraction	2018-02-28T03:53:02.004Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	46229
+CollectionFilterAdditionInteraction	2018-02-28T03:53:14.860Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302
+RefreshOrPaginationInteraction	2018-02-28T03:53:31.163Z	1eef9eb09baa065f67b9287539cfa0b6	NO VALUE PROVIDED	{'COUNTRY': ['netherlands']}	16302

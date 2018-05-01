@@ -1,0 +1,95 @@
+ArbitraryAccessInteraction	2018-03-05T07:22:27.845Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+SearchInteraction	2018-03-05T07:24:56.490Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		10
+ArbitraryAccessInteraction	2018-03-05T07:25:07.061Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-03-05T07:36:50.090Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:04.079Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:55.347Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:08.998Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:20.320Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:36.878Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:42.644Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:45.697Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:48.355Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:50.892Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+SearchInteraction	2018-03-05T07:38:53.529Z	6da17dab9f408da6169d6c46243d215f	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-05T07:39:08.832Z	6da17dab9f408da6169d6c46243d215f	charles darwin		11
+RankedRetrieveRecordInteraction	2018-03-05T07:39:12.137Z	6da17dab9f408da6169d6c46243d215f	charles darwin		/92023/BibliographicResource_2000068849960	1	11
+ArbitraryAccessInteraction	2018-03-05T07:44:35.175Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+SearchInteraction	2018-03-05T07:46:05.335Z	6da17dab9f408da6169d6c46243d215f	who:(Darwin, Charles)		835
+ArbitraryAccessInteraction	2018-03-05T07:59:02.169Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T07:22:27.845Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+SearchInteraction	2018-03-05T07:24:56.490Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		10
+ArbitraryAccessInteraction	2018-03-05T07:25:07.061Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-03-05T07:36:50.090Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:04.079Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:55.347Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:08.998Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:20.320Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:36.878Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:42.644Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:45.697Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:48.355Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:50.892Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+SearchInteraction	2018-03-05T07:38:53.529Z	6da17dab9f408da6169d6c46243d215f	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-05T07:39:08.832Z	6da17dab9f408da6169d6c46243d215f	charles darwin		11
+RankedRetrieveRecordInteraction	2018-03-05T07:39:12.137Z	6da17dab9f408da6169d6c46243d215f	charles darwin		/92023/BibliographicResource_2000068849960	1	11
+ArbitraryAccessInteraction	2018-03-05T07:44:35.175Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+SearchInteraction	2018-03-05T07:46:05.335Z	6da17dab9f408da6169d6c46243d215f	who:(Darwin, Charles)		835
+ArbitraryAccessInteraction	2018-03-05T07:59:02.169Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T07:22:27.845Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+SearchInteraction	2018-03-05T07:24:56.490Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		10
+ArbitraryAccessInteraction	2018-03-05T07:25:07.061Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-03-05T07:36:50.090Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:04.079Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:55.347Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:08.998Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:20.320Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:36.878Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:42.644Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:45.697Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:48.355Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:50.892Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+SearchInteraction	2018-03-05T07:38:53.529Z	6da17dab9f408da6169d6c46243d215f	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-05T07:39:08.832Z	6da17dab9f408da6169d6c46243d215f	charles darwin		11
+RankedRetrieveRecordInteraction	2018-03-05T07:39:12.137Z	6da17dab9f408da6169d6c46243d215f	charles darwin		/92023/BibliographicResource_2000068849960	1	11
+ArbitraryAccessInteraction	2018-03-05T07:44:35.175Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+SearchInteraction	2018-03-05T07:46:05.335Z	6da17dab9f408da6169d6c46243d215f	who:(Darwin, Charles)		835
+ArbitraryAccessInteraction	2018-03-05T07:59:02.169Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T07:22:27.845Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+SearchInteraction	2018-03-05T07:24:56.490Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		10
+ArbitraryAccessInteraction	2018-03-05T07:25:07.061Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-03-05T07:36:50.090Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:04.079Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:55.347Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:08.998Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:20.320Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:36.878Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:42.644Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:45.697Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:48.355Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:50.892Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+SearchInteraction	2018-03-05T07:38:53.529Z	6da17dab9f408da6169d6c46243d215f	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-05T07:39:08.832Z	6da17dab9f408da6169d6c46243d215f	charles darwin		11
+RankedRetrieveRecordInteraction	2018-03-05T07:39:12.137Z	6da17dab9f408da6169d6c46243d215f	charles darwin		/92023/BibliographicResource_2000068849960	1	11
+ArbitraryAccessInteraction	2018-03-05T07:44:35.175Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+SearchInteraction	2018-03-05T07:46:05.335Z	6da17dab9f408da6169d6c46243d215f	who:(Darwin, Charles)		835
+ArbitraryAccessInteraction	2018-03-05T07:59:02.169Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-05T07:22:27.845Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+SearchInteraction	2018-03-05T07:24:56.490Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		10
+ArbitraryAccessInteraction	2018-03-05T07:25:07.061Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-03-05T07:36:50.090Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:04.079Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:37:55.347Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:08.998Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:20.320Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:36.878Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:42.644Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:45.697Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:48.355Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+RefreshOrPaginationInteraction	2018-03-05T07:38:50.892Z	6da17dab9f408da6169d6c46243d215f	Angraecum sesquipedale		0
+SearchInteraction	2018-03-05T07:38:53.529Z	6da17dab9f408da6169d6c46243d215f	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-05T07:39:08.832Z	6da17dab9f408da6169d6c46243d215f	charles darwin		11
+RankedRetrieveRecordInteraction	2018-03-05T07:39:12.137Z	6da17dab9f408da6169d6c46243d215f	charles darwin		/92023/BibliographicResource_2000068849960	1	11
+ArbitraryAccessInteraction	2018-03-05T07:44:35.175Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+SearchInteraction	2018-03-05T07:46:05.335Z	6da17dab9f408da6169d6c46243d215f	who:(Darwin, Charles)		835
+ArbitraryAccessInteraction	2018-03-05T07:59:02.169Z	6da17dab9f408da6169d6c46243d215f	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)

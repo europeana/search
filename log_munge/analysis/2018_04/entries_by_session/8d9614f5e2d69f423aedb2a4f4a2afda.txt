@@ -1,0 +1,180 @@
+SearchInteraction	2018-03-03T00:27:12.819Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		417480
+CollectionFilterAdditionInteraction	2018-03-03T00:27:53.596Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+RefreshOrPaginationInteraction	2018-03-03T00:27:53.613Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+SearchInteraction	2018-03-03T00:28:29.244Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	9124
+SearchInteraction	2018-03-03T00:29:50.783Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:12.683Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/2023901/NatEu_HNHM_Library_HNHM_PHM_ml_00195_GER_004_um_jpg	5	7
+SearchInteraction	2018-03-03T00:30:30.420Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:36.521Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/08711/bibliography_13968	7	7
+SearchInteraction	2018-03-03T00:32:01.364Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:09.217Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/bibliography_62016	2	8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:19.974Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/item_97662	6	8952740
+SearchInteraction	2018-03-05T14:54:05.867Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+CollectionFilterAdditionInteraction	2018-03-05T15:36:50.052Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:37:25.681Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	278755
+SearchInteraction	2018-03-05T15:37:45.398Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:38:06.080Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	2836137
+SearchInteraction	2018-03-05T15:38:50.266Z	8d9614f5e2d69f423aedb2a4f4a2afda	 Cretaceous	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	146
+SearchInteraction	2018-03-05T16:12:04.241Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T16:12:15.094Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-05T17:17:39.375Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		154
+CollectionFilterAdditionInteraction	2018-03-05T17:18:02.695Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		1
+RankedRetrieveRecordInteraction	2018-03-05T17:18:11.577Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/9200365/BibliographicResource_1000055563855	1	1
+SearchInteraction	2018-03-05T17:18:27.990Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		2
+RankedRetrieveRecordInteraction	2018-03-05T17:18:38.425Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/2048092/Athena_Plus_ProvidedCHO_Hungarian_University_of_Fine_Arts__Budapest_bibIMA6942	1	2
+SearchInteraction	2018-03-05T17:20:03.682Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10
+RankedRetrieveRecordInteraction	2018-03-05T17:20:21.463Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/03919/public_mistral_joconde_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_50350116051	8	10
+SearchInteraction	2018-03-05T20:17:54.428Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:11.048Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:23.104Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:25:35.764Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+SearchInteraction	2018-03-05T20:25:47.208Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	464
+CollectionFilterAdditionInteraction	2018-03-05T20:25:56.760Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	135
+CollectionFilterRemovalInteraction	2018-03-05T20:26:08.941Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-03-05T20:26:16.754Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-03-05T20:26:26.603Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	/90402/RP_P_1896_A_19368_429	15	51
+SearchInteraction	2018-03-05T20:26:32.117Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-03T00:27:12.819Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		417480
+CollectionFilterAdditionInteraction	2018-03-03T00:27:53.596Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+RefreshOrPaginationInteraction	2018-03-03T00:27:53.613Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+SearchInteraction	2018-03-03T00:28:29.244Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	9124
+SearchInteraction	2018-03-03T00:29:50.783Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:12.683Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/2023901/NatEu_HNHM_Library_HNHM_PHM_ml_00195_GER_004_um_jpg	5	7
+SearchInteraction	2018-03-03T00:30:30.420Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:36.521Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/08711/bibliography_13968	7	7
+SearchInteraction	2018-03-03T00:32:01.364Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:09.217Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/bibliography_62016	2	8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:19.974Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/item_97662	6	8952740
+SearchInteraction	2018-03-05T14:54:05.867Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+CollectionFilterAdditionInteraction	2018-03-05T15:36:50.052Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:37:25.681Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	278755
+SearchInteraction	2018-03-05T15:37:45.398Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:38:06.080Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	2836137
+SearchInteraction	2018-03-05T15:38:50.266Z	8d9614f5e2d69f423aedb2a4f4a2afda	 Cretaceous	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	146
+SearchInteraction	2018-03-05T16:12:04.241Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T16:12:15.094Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-05T17:17:39.375Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		154
+CollectionFilterAdditionInteraction	2018-03-05T17:18:02.695Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		1
+RankedRetrieveRecordInteraction	2018-03-05T17:18:11.577Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/9200365/BibliographicResource_1000055563855	1	1
+SearchInteraction	2018-03-05T17:18:27.990Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		2
+RankedRetrieveRecordInteraction	2018-03-05T17:18:38.425Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/2048092/Athena_Plus_ProvidedCHO_Hungarian_University_of_Fine_Arts__Budapest_bibIMA6942	1	2
+SearchInteraction	2018-03-05T17:20:03.682Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10
+RankedRetrieveRecordInteraction	2018-03-05T17:20:21.463Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/03919/public_mistral_joconde_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_50350116051	8	10
+SearchInteraction	2018-03-05T20:17:54.428Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:11.048Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:23.104Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:25:35.764Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+SearchInteraction	2018-03-05T20:25:47.208Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	464
+CollectionFilterAdditionInteraction	2018-03-05T20:25:56.760Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	135
+CollectionFilterRemovalInteraction	2018-03-05T20:26:08.941Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-03-05T20:26:16.754Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-03-05T20:26:26.603Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	/90402/RP_P_1896_A_19368_429	15	51
+SearchInteraction	2018-03-05T20:26:32.117Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-03T00:27:12.819Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		417480
+CollectionFilterAdditionInteraction	2018-03-03T00:27:53.596Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+RefreshOrPaginationInteraction	2018-03-03T00:27:53.613Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+SearchInteraction	2018-03-03T00:28:29.244Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	9124
+SearchInteraction	2018-03-03T00:29:50.783Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:12.683Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/2023901/NatEu_HNHM_Library_HNHM_PHM_ml_00195_GER_004_um_jpg	5	7
+SearchInteraction	2018-03-03T00:30:30.420Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:36.521Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/08711/bibliography_13968	7	7
+SearchInteraction	2018-03-03T00:32:01.364Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:09.217Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/bibliography_62016	2	8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:19.974Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/item_97662	6	8952740
+SearchInteraction	2018-03-05T14:54:05.867Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+CollectionFilterAdditionInteraction	2018-03-05T15:36:50.052Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:37:25.681Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	278755
+SearchInteraction	2018-03-05T15:37:45.398Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:38:06.080Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	2836137
+SearchInteraction	2018-03-05T15:38:50.266Z	8d9614f5e2d69f423aedb2a4f4a2afda	 Cretaceous	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	146
+SearchInteraction	2018-03-05T16:12:04.241Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T16:12:15.094Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-05T17:17:39.375Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		154
+CollectionFilterAdditionInteraction	2018-03-05T17:18:02.695Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		1
+RankedRetrieveRecordInteraction	2018-03-05T17:18:11.577Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/9200365/BibliographicResource_1000055563855	1	1
+SearchInteraction	2018-03-05T17:18:27.990Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		2
+RankedRetrieveRecordInteraction	2018-03-05T17:18:38.425Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/2048092/Athena_Plus_ProvidedCHO_Hungarian_University_of_Fine_Arts__Budapest_bibIMA6942	1	2
+SearchInteraction	2018-03-05T17:20:03.682Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10
+RankedRetrieveRecordInteraction	2018-03-05T17:20:21.463Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/03919/public_mistral_joconde_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_50350116051	8	10
+SearchInteraction	2018-03-05T20:17:54.428Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:11.048Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:23.104Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:25:35.764Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+SearchInteraction	2018-03-05T20:25:47.208Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	464
+CollectionFilterAdditionInteraction	2018-03-05T20:25:56.760Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	135
+CollectionFilterRemovalInteraction	2018-03-05T20:26:08.941Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-03-05T20:26:16.754Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-03-05T20:26:26.603Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	/90402/RP_P_1896_A_19368_429	15	51
+SearchInteraction	2018-03-05T20:26:32.117Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-03T00:27:12.819Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		417480
+CollectionFilterAdditionInteraction	2018-03-03T00:27:53.596Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+RefreshOrPaginationInteraction	2018-03-03T00:27:53.613Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+SearchInteraction	2018-03-03T00:28:29.244Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	9124
+SearchInteraction	2018-03-03T00:29:50.783Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:12.683Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/2023901/NatEu_HNHM_Library_HNHM_PHM_ml_00195_GER_004_um_jpg	5	7
+SearchInteraction	2018-03-03T00:30:30.420Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:36.521Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/08711/bibliography_13968	7	7
+SearchInteraction	2018-03-03T00:32:01.364Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:09.217Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/bibliography_62016	2	8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:19.974Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/item_97662	6	8952740
+SearchInteraction	2018-03-05T14:54:05.867Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+CollectionFilterAdditionInteraction	2018-03-05T15:36:50.052Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:37:25.681Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	278755
+SearchInteraction	2018-03-05T15:37:45.398Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:38:06.080Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	2836137
+SearchInteraction	2018-03-05T15:38:50.266Z	8d9614f5e2d69f423aedb2a4f4a2afda	 Cretaceous	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	146
+SearchInteraction	2018-03-05T16:12:04.241Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T16:12:15.094Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-05T17:17:39.375Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		154
+CollectionFilterAdditionInteraction	2018-03-05T17:18:02.695Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		1
+RankedRetrieveRecordInteraction	2018-03-05T17:18:11.577Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/9200365/BibliographicResource_1000055563855	1	1
+SearchInteraction	2018-03-05T17:18:27.990Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		2
+RankedRetrieveRecordInteraction	2018-03-05T17:18:38.425Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/2048092/Athena_Plus_ProvidedCHO_Hungarian_University_of_Fine_Arts__Budapest_bibIMA6942	1	2
+SearchInteraction	2018-03-05T17:20:03.682Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10
+RankedRetrieveRecordInteraction	2018-03-05T17:20:21.463Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/03919/public_mistral_joconde_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_50350116051	8	10
+SearchInteraction	2018-03-05T20:17:54.428Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:11.048Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:23.104Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:25:35.764Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+SearchInteraction	2018-03-05T20:25:47.208Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	464
+CollectionFilterAdditionInteraction	2018-03-05T20:25:56.760Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	135
+CollectionFilterRemovalInteraction	2018-03-05T20:26:08.941Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-03-05T20:26:16.754Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-03-05T20:26:26.603Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	/90402/RP_P_1896_A_19368_429	15	51
+SearchInteraction	2018-03-05T20:26:32.117Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-03-03T00:27:12.819Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		417480
+CollectionFilterAdditionInteraction	2018-03-03T00:27:53.596Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+RefreshOrPaginationInteraction	2018-03-03T00:27:53.613Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		128827
+SearchInteraction	2018-03-03T00:28:29.244Z	8d9614f5e2d69f423aedb2a4f4a2afda	map AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	9124
+SearchInteraction	2018-03-03T00:29:50.783Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:12.683Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/2023901/NatEu_HNHM_Library_HNHM_PHM_ml_00195_GER_004_um_jpg	5	7
+SearchInteraction	2018-03-03T00:30:30.420Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		7
+RankedRetrieveRecordInteraction	2018-03-03T00:30:36.521Z	8d9614f5e2d69f423aedb2a4f4a2afda	dinosaur		/08711/bibliography_13968	7	7
+SearchInteraction	2018-03-03T00:32:01.364Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:09.217Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/bibliography_62016	2	8952740
+RankedRetrieveRecordInteraction	2018-03-03T00:32:19.974Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		/08711/item_97662	6	8952740
+SearchInteraction	2018-03-05T14:54:05.867Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		8952740
+CollectionFilterAdditionInteraction	2018-03-05T15:36:50.052Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:37:25.681Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	278755
+SearchInteraction	2018-03-05T15:37:45.398Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		5453373
+SearchInteraction	2018-03-05T15:38:06.080Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	2836137
+SearchInteraction	2018-03-05T15:38:50.266Z	8d9614f5e2d69f423aedb2a4f4a2afda	 Cretaceous	{'REUSABILITY': ['open'], 'RIGHTS': ['http*://creativecommons.org/publicdomain/mark*']}	146
+SearchInteraction	2018-03-05T16:12:04.241Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-05T16:12:15.094Z	8d9614f5e2d69f423aedb2a4f4a2afda	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10041721
+SearchInteraction	2018-03-05T17:17:39.375Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		154
+CollectionFilterAdditionInteraction	2018-03-05T17:18:02.695Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		1
+RankedRetrieveRecordInteraction	2018-03-05T17:18:11.577Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/9200365/BibliographicResource_1000055563855	1	1
+SearchInteraction	2018-03-05T17:18:27.990Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		2
+RankedRetrieveRecordInteraction	2018-03-05T17:18:38.425Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADES		/2048092/Athena_Plus_ProvidedCHO_Hungarian_University_of_Fine_Arts__Budapest_bibIMA6942	1	2
+SearchInteraction	2018-03-05T17:20:03.682Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10
+RankedRetrieveRecordInteraction	2018-03-05T17:20:21.463Z	8d9614f5e2d69f423aedb2a4f4a2afda	TIBERIADE	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/03919/public_mistral_joconde_fr_ACTION_CHERCHER_FIELD_1_REF_VALUE_1_50350116051	8	10
+SearchInteraction	2018-03-05T20:17:54.428Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:11.048Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:18:23.104Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+RefreshOrPaginationInteraction	2018-03-05T20:25:35.764Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		5490
+SearchInteraction	2018-03-05T20:25:47.208Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	464
+CollectionFilterAdditionInteraction	2018-03-05T20:25:56.760Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	135
+CollectionFilterRemovalInteraction	2018-03-05T20:26:08.941Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RefreshOrPaginationInteraction	2018-03-05T20:26:16.754Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51
+RankedRetrieveRecordInteraction	2018-03-05T20:26:26.603Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	/90402/RP_P_1896_A_19368_429	15	51
+SearchInteraction	2018-03-05T20:26:32.117Z	8d9614f5e2d69f423aedb2a4f4a2afda	SEED AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	51

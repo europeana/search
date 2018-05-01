@@ -1,0 +1,215 @@
+SearchInteraction	2018-02-28T12:18:49.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely		244
+SearchInteraction	2018-02-28T12:19:02.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:11.654Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-28T12:19:18.496Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:34.138Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:19:47.028Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:02.316Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:39.431Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:50.364Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15164.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:51.663Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15162.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:53.228Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15161.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:54.920Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.121Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15159.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.815Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15158.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:58.762Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15157.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:59.623Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:02.608Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15180.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:03.892Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15179.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:05.297Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15178.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:06.538Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15177.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:10.641Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:14.854Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15173.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:16.773Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:18.584Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15169.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:19.524Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:24.904Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15190.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:31.975Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:40.389Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15198.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:46.322Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15193.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:46.351Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:21:52.184Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:57.808Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15231.html (PortalController#show)
+SearchInteraction	2018-02-28T12:22:01.137Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:07.575Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:13.467Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:19.507Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+SearchInteraction	2018-02-28T12:23:55.428Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+SearchInteraction	2018-02-28T12:24:00.583Z	f1e02bdc719291508ce9ff37cbe1dfc5	Havas	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-28T12:24:07.957Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+ArbitraryAccessInteraction	2018-02-28T12:31:32.235Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:35:06.458Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		4
+RankedRetrieveRecordInteraction	2018-02-28T12:35:16.358Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		/2032004/15155	2	4
+SearchInteraction	2018-02-28T12:35:36.315Z	f1e02bdc719291508ce9ff37cbe1dfc5	europeana_collectionName:(2032004_Ag_EU_EInside_SzepmuveszetiMuzeum-FAB)		8038
+SearchInteraction	2018-02-28T12:18:49.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely		244
+SearchInteraction	2018-02-28T12:19:02.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:11.654Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-28T12:19:18.496Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:34.138Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:19:47.028Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:02.316Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:39.431Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:50.364Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15164.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:51.663Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15162.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:53.228Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15161.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:54.920Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.121Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15159.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.815Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15158.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:58.762Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15157.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:59.623Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:02.608Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15180.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:03.892Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15179.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:05.297Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15178.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:06.538Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15177.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:10.641Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:14.854Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15173.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:16.773Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:18.584Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15169.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:19.524Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:24.904Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15190.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:31.975Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:40.389Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15198.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:46.322Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15193.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:46.351Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:21:52.184Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:57.808Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15231.html (PortalController#show)
+SearchInteraction	2018-02-28T12:22:01.137Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:07.575Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:13.467Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:19.507Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+SearchInteraction	2018-02-28T12:23:55.428Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+SearchInteraction	2018-02-28T12:24:00.583Z	f1e02bdc719291508ce9ff37cbe1dfc5	Havas	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-28T12:24:07.957Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+ArbitraryAccessInteraction	2018-02-28T12:31:32.235Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:35:06.458Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		4
+RankedRetrieveRecordInteraction	2018-02-28T12:35:16.358Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		/2032004/15155	2	4
+SearchInteraction	2018-02-28T12:35:36.315Z	f1e02bdc719291508ce9ff37cbe1dfc5	europeana_collectionName:(2032004_Ag_EU_EInside_SzepmuveszetiMuzeum-FAB)		8038
+SearchInteraction	2018-02-28T12:18:49.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely		244
+SearchInteraction	2018-02-28T12:19:02.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:11.654Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-28T12:19:18.496Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:34.138Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:19:47.028Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:02.316Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:39.431Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:50.364Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15164.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:51.663Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15162.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:53.228Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15161.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:54.920Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.121Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15159.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.815Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15158.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:58.762Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15157.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:59.623Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:02.608Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15180.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:03.892Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15179.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:05.297Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15178.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:06.538Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15177.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:10.641Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:14.854Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15173.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:16.773Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:18.584Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15169.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:19.524Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:24.904Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15190.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:31.975Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:40.389Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15198.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:46.322Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15193.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:46.351Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:21:52.184Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:57.808Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15231.html (PortalController#show)
+SearchInteraction	2018-02-28T12:22:01.137Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:07.575Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:13.467Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:19.507Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+SearchInteraction	2018-02-28T12:23:55.428Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+SearchInteraction	2018-02-28T12:24:00.583Z	f1e02bdc719291508ce9ff37cbe1dfc5	Havas	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-28T12:24:07.957Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+ArbitraryAccessInteraction	2018-02-28T12:31:32.235Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:35:06.458Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		4
+RankedRetrieveRecordInteraction	2018-02-28T12:35:16.358Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		/2032004/15155	2	4
+SearchInteraction	2018-02-28T12:35:36.315Z	f1e02bdc719291508ce9ff37cbe1dfc5	europeana_collectionName:(2032004_Ag_EU_EInside_SzepmuveszetiMuzeum-FAB)		8038
+SearchInteraction	2018-02-28T12:18:49.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely		244
+SearchInteraction	2018-02-28T12:19:02.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:11.654Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-28T12:19:18.496Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:34.138Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:19:47.028Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:02.316Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:39.431Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:50.364Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15164.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:51.663Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15162.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:53.228Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15161.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:54.920Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.121Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15159.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.815Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15158.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:58.762Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15157.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:59.623Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:02.608Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15180.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:03.892Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15179.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:05.297Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15178.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:06.538Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15177.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:10.641Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:14.854Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15173.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:16.773Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:18.584Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15169.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:19.524Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:24.904Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15190.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:31.975Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:40.389Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15198.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:46.322Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15193.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:46.351Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:21:52.184Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:57.808Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15231.html (PortalController#show)
+SearchInteraction	2018-02-28T12:22:01.137Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:07.575Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:13.467Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:19.507Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+SearchInteraction	2018-02-28T12:23:55.428Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+SearchInteraction	2018-02-28T12:24:00.583Z	f1e02bdc719291508ce9ff37cbe1dfc5	Havas	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-28T12:24:07.957Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+ArbitraryAccessInteraction	2018-02-28T12:31:32.235Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:35:06.458Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		4
+RankedRetrieveRecordInteraction	2018-02-28T12:35:16.358Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		/2032004/15155	2	4
+SearchInteraction	2018-02-28T12:35:36.315Z	f1e02bdc719291508ce9ff37cbe1dfc5	europeana_collectionName:(2032004_Ag_EU_EInside_SzepmuveszetiMuzeum-FAB)		8038
+SearchInteraction	2018-02-28T12:18:49.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely		244
+SearchInteraction	2018-02-28T12:19:02.375Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:11.654Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-28T12:19:18.496Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'TYPE': ['IMAGE']}	242
+SearchInteraction	2018-02-28T12:19:34.138Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:19:47.028Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:02.316Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:39.431Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:20:50.364Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15164.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:51.663Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15162.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:53.228Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15161.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:54.920Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.121Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15159.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:56.815Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15158.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:20:58.762Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15157.html (PortalController#show)
+SearchInteraction	2018-02-28T12:20:59.623Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:02.608Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15180.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:03.892Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15179.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:05.297Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15178.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:06.538Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15177.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:10.641Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:14.854Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15173.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:16.773Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:18.584Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15169.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:19.524Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:24.904Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15190.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:31.975Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:40.389Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15198.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-28T12:21:46.322Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15193.html (PortalController#show)
+SearchInteraction	2018-02-28T12:21:46.351Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:21:52.184Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+ArbitraryAccessInteraction	2018-02-28T12:21:57.808Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15231.html (PortalController#show)
+SearchInteraction	2018-02-28T12:22:01.137Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:07.575Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:13.467Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+RefreshOrPaginationInteraction	2018-02-28T12:22:19.507Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	240
+SearchInteraction	2018-02-28T12:23:55.428Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+SearchInteraction	2018-02-28T12:24:00.583Z	f1e02bdc719291508ce9ff37cbe1dfc5	Havas	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	6
+SearchInteraction	2018-02-28T12:24:07.957Z	f1e02bdc719291508ce9ff37cbe1dfc5	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Szépművészeti Múzeum'], 'TYPE': ['IMAGE']}	8038
+ArbitraryAccessInteraction	2018-02-28T12:31:32.235Z	f1e02bdc719291508ce9ff37cbe1dfc5	[200] GET /portal/fr/record/2032004/15156.html (PortalController#show)
+SearchInteraction	2018-02-28T12:35:06.458Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		4
+RankedRetrieveRecordInteraction	2018-02-28T12:35:16.358Z	f1e02bdc719291508ce9ff37cbe1dfc5	Vasarely Bauhaus		/2032004/15155	2	4
+SearchInteraction	2018-02-28T12:35:36.315Z	f1e02bdc719291508ce9ff37cbe1dfc5	europeana_collectionName:(2032004_Ag_EU_EInside_SzepmuveszetiMuzeum-FAB)		8038

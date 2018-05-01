@@ -1,0 +1,160 @@
+SearchInteraction	2018-02-23T18:54:28.948Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl		1987
+SearchInteraction	2018-02-23T18:54:46.141Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+SearchInteraction	2018-02-23T18:55:39.727Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	1942
+SearchInteraction	2018-02-23T18:55:49.834Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:56:47.224Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-23T18:56:57.071Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_87092	1	2
+SearchInteraction	2018-02-23T18:58:35.075Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:58:39.773Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:58:50.150Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:59:01.668Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:59:20.493Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-23T18:59:30.414Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	249
+CollectionFilterAdditionInteraction	2018-02-23T19:00:11.974Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:00:16.993Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	3102
+CollectionFilterAdditionInteraction	2018-02-23T19:00:36.939Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:00:45.053Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:00.236Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:21.992Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:01:51.165Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-23T19:01:55.499Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:02:03.691Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:02:08.882Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	94
+CollectionFilterAdditionInteraction	2018-02-23T19:02:35.689Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:03:02.110Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	44491
+CollectionFilterAdditionInteraction	2018-02-23T19:03:22.752Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	246
+CollectionFilterAdditionInteraction	2018-02-23T19:03:33.829Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:03:38.783Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:03:59.428Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:04:07.448Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RankedRetrieveRecordInteraction	2018-02-23T19:04:19.272Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_73330	10	14
+ArbitraryAccessInteraction	2018-02-23T19:05:55.782Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73327.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T19:06:20.144Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73331.html (PortalController#show)
+SearchInteraction	2018-02-23T18:54:28.948Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl		1987
+SearchInteraction	2018-02-23T18:54:46.141Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+SearchInteraction	2018-02-23T18:55:39.727Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	1942
+SearchInteraction	2018-02-23T18:55:49.834Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:56:47.224Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-23T18:56:57.071Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_87092	1	2
+SearchInteraction	2018-02-23T18:58:35.075Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:58:39.773Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:58:50.150Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:59:01.668Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:59:20.493Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-23T18:59:30.414Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	249
+CollectionFilterAdditionInteraction	2018-02-23T19:00:11.974Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:00:16.993Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	3102
+CollectionFilterAdditionInteraction	2018-02-23T19:00:36.939Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:00:45.053Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:00.236Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:21.992Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:01:51.165Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-23T19:01:55.499Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:02:03.691Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:02:08.882Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	94
+CollectionFilterAdditionInteraction	2018-02-23T19:02:35.689Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:03:02.110Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	44491
+CollectionFilterAdditionInteraction	2018-02-23T19:03:22.752Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	246
+CollectionFilterAdditionInteraction	2018-02-23T19:03:33.829Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:03:38.783Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:03:59.428Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:04:07.448Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RankedRetrieveRecordInteraction	2018-02-23T19:04:19.272Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_73330	10	14
+ArbitraryAccessInteraction	2018-02-23T19:05:55.782Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73327.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T19:06:20.144Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73331.html (PortalController#show)
+SearchInteraction	2018-02-23T18:54:28.948Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl		1987
+SearchInteraction	2018-02-23T18:54:46.141Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+SearchInteraction	2018-02-23T18:55:39.727Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	1942
+SearchInteraction	2018-02-23T18:55:49.834Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:56:47.224Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-23T18:56:57.071Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_87092	1	2
+SearchInteraction	2018-02-23T18:58:35.075Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:58:39.773Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:58:50.150Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:59:01.668Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:59:20.493Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-23T18:59:30.414Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	249
+CollectionFilterAdditionInteraction	2018-02-23T19:00:11.974Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:00:16.993Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	3102
+CollectionFilterAdditionInteraction	2018-02-23T19:00:36.939Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:00:45.053Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:00.236Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:21.992Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:01:51.165Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-23T19:01:55.499Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:02:03.691Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:02:08.882Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	94
+CollectionFilterAdditionInteraction	2018-02-23T19:02:35.689Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:03:02.110Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	44491
+CollectionFilterAdditionInteraction	2018-02-23T19:03:22.752Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	246
+CollectionFilterAdditionInteraction	2018-02-23T19:03:33.829Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:03:38.783Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:03:59.428Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:04:07.448Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RankedRetrieveRecordInteraction	2018-02-23T19:04:19.272Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_73330	10	14
+ArbitraryAccessInteraction	2018-02-23T19:05:55.782Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73327.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T19:06:20.144Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73331.html (PortalController#show)
+SearchInteraction	2018-02-23T18:54:28.948Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl		1987
+SearchInteraction	2018-02-23T18:54:46.141Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+SearchInteraction	2018-02-23T18:55:39.727Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	1942
+SearchInteraction	2018-02-23T18:55:49.834Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:56:47.224Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-23T18:56:57.071Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_87092	1	2
+SearchInteraction	2018-02-23T18:58:35.075Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:58:39.773Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:58:50.150Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:59:01.668Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:59:20.493Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-23T18:59:30.414Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	249
+CollectionFilterAdditionInteraction	2018-02-23T19:00:11.974Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:00:16.993Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	3102
+CollectionFilterAdditionInteraction	2018-02-23T19:00:36.939Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:00:45.053Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:00.236Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:21.992Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:01:51.165Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-23T19:01:55.499Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:02:03.691Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:02:08.882Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	94
+CollectionFilterAdditionInteraction	2018-02-23T19:02:35.689Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:03:02.110Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	44491
+CollectionFilterAdditionInteraction	2018-02-23T19:03:22.752Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	246
+CollectionFilterAdditionInteraction	2018-02-23T19:03:33.829Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:03:38.783Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:03:59.428Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:04:07.448Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RankedRetrieveRecordInteraction	2018-02-23T19:04:19.272Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_73330	10	14
+ArbitraryAccessInteraction	2018-02-23T19:05:55.782Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73327.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T19:06:20.144Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73331.html (PortalController#show)
+SearchInteraction	2018-02-23T18:54:28.948Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl		1987
+SearchInteraction	2018-02-23T18:54:46.141Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+SearchInteraction	2018-02-23T18:55:39.727Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	1942
+SearchInteraction	2018-02-23T18:55:49.834Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:56:47.224Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-23T18:56:57.071Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_87092	1	2
+SearchInteraction	2018-02-23T18:58:35.075Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:58:39.773Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:58:50.150Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+CollectionFilterAdditionInteraction	2018-02-23T18:59:01.668Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterRemovalInteraction	2018-02-23T18:59:20.493Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-23T18:59:30.414Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	249
+CollectionFilterAdditionInteraction	2018-02-23T19:00:11.974Z	28e2c5538e1e66e79a2aacdee6f4fd68	shoemaker	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:00:16.993Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	3102
+CollectionFilterAdditionInteraction	2018-02-23T19:00:36.939Z	28e2c5538e1e66e79a2aacdee6f4fd68	eastern europe	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:00:45.053Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:00.236Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+RefreshOrPaginationInteraction	2018-02-23T19:01:21.992Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:01:51.165Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-23T19:01:55.499Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	1947
+CollectionFilterAdditionInteraction	2018-02-23T19:02:03.691Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:02:08.882Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	94
+CollectionFilterAdditionInteraction	2018-02-23T19:02:35.689Z	28e2c5538e1e66e79a2aacdee6f4fd68	innkeeper	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-23T19:03:02.110Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	44491
+CollectionFilterAdditionInteraction	2018-02-23T19:03:22.752Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	246
+CollectionFilterAdditionInteraction	2018-02-23T19:03:33.829Z	28e2c5538e1e66e79a2aacdee6f4fd68	jewish	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-23T19:03:38.783Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:03:59.428Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RefreshOrPaginationInteraction	2018-02-23T19:04:07.448Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	14
+RankedRetrieveRecordInteraction	2018-02-23T19:04:19.272Z	28e2c5538e1e66e79a2aacdee6f4fd68	shtetl	{'TYPE': ['IMAGE']}	/2058635/_tnn_73330	10	14
+ArbitraryAccessInteraction	2018-02-23T19:05:55.782Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73327.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-23T19:06:20.144Z	28e2c5538e1e66e79a2aacdee6f4fd68	[200] GET /portal/en/record/2058635/_tnn_73331.html (PortalController#show)

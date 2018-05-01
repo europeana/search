@@ -1,0 +1,105 @@
+ArbitraryAccessInteraction	2018-03-08T07:03:50.319Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_35989.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:05.556Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_128789.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:06.737Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_33347.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:07.216Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_34476.html (PortalController#show)
+SearchInteraction	2018-03-08T07:04:43.381Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+RefreshOrPaginationInteraction	2018-03-08T07:04:48.056Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+SearchInteraction	2018-03-08T07:07:17.352Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:22.267Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_845	1	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:23.729Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_43258	2	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:26.621Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_35552	3	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:37.414Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16711	12	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:38.262Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16721	11	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:39.871Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16723	10	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:41.794Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16729	9	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:42.701Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_17233	8	12
+SearchInteraction	2018-03-08T07:08:05.022Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+SearchInteraction	2018-03-08T07:08:21.707Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		0
+CollectionFilterRemovalInteraction	2018-03-08T07:08:25.028Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+SearchInteraction	2018-03-08T07:08:28.112Z	388daf5d543a545ba6be7068dffe3d61	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-08T07:08:33.823Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+RefreshOrPaginationInteraction	2018-03-08T07:08:38.926Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+ArbitraryAccessInteraction	2018-03-08T07:03:50.319Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_35989.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:05.556Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_128789.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:06.737Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_33347.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:07.216Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_34476.html (PortalController#show)
+SearchInteraction	2018-03-08T07:04:43.381Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+RefreshOrPaginationInteraction	2018-03-08T07:04:48.056Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+SearchInteraction	2018-03-08T07:07:17.352Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:22.267Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_845	1	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:23.729Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_43258	2	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:26.621Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_35552	3	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:37.414Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16711	12	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:38.262Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16721	11	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:39.871Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16723	10	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:41.794Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16729	9	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:42.701Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_17233	8	12
+SearchInteraction	2018-03-08T07:08:05.022Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+SearchInteraction	2018-03-08T07:08:21.707Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		0
+CollectionFilterRemovalInteraction	2018-03-08T07:08:25.028Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+SearchInteraction	2018-03-08T07:08:28.112Z	388daf5d543a545ba6be7068dffe3d61	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-08T07:08:33.823Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+RefreshOrPaginationInteraction	2018-03-08T07:08:38.926Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+ArbitraryAccessInteraction	2018-03-08T07:03:50.319Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_35989.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:05.556Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_128789.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:06.737Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_33347.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:07.216Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_34476.html (PortalController#show)
+SearchInteraction	2018-03-08T07:04:43.381Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+RefreshOrPaginationInteraction	2018-03-08T07:04:48.056Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+SearchInteraction	2018-03-08T07:07:17.352Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:22.267Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_845	1	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:23.729Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_43258	2	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:26.621Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_35552	3	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:37.414Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16711	12	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:38.262Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16721	11	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:39.871Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16723	10	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:41.794Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16729	9	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:42.701Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_17233	8	12
+SearchInteraction	2018-03-08T07:08:05.022Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+SearchInteraction	2018-03-08T07:08:21.707Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		0
+CollectionFilterRemovalInteraction	2018-03-08T07:08:25.028Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+SearchInteraction	2018-03-08T07:08:28.112Z	388daf5d543a545ba6be7068dffe3d61	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-08T07:08:33.823Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+RefreshOrPaginationInteraction	2018-03-08T07:08:38.926Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+ArbitraryAccessInteraction	2018-03-08T07:03:50.319Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_35989.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:05.556Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_128789.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:06.737Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_33347.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:07.216Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_34476.html (PortalController#show)
+SearchInteraction	2018-03-08T07:04:43.381Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+RefreshOrPaginationInteraction	2018-03-08T07:04:48.056Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+SearchInteraction	2018-03-08T07:07:17.352Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:22.267Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_845	1	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:23.729Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_43258	2	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:26.621Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_35552	3	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:37.414Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16711	12	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:38.262Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16721	11	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:39.871Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16723	10	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:41.794Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16729	9	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:42.701Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_17233	8	12
+SearchInteraction	2018-03-08T07:08:05.022Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+SearchInteraction	2018-03-08T07:08:21.707Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		0
+CollectionFilterRemovalInteraction	2018-03-08T07:08:25.028Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+SearchInteraction	2018-03-08T07:08:28.112Z	388daf5d543a545ba6be7068dffe3d61	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-08T07:08:33.823Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+RefreshOrPaginationInteraction	2018-03-08T07:08:38.926Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+ArbitraryAccessInteraction	2018-03-08T07:03:50.319Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_35989.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:05.556Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_128789.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:06.737Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_33347.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T07:04:07.216Z	388daf5d543a545ba6be7068dffe3d61	[200] GET /portal/fi/record/2021008/M011_34476.html (PortalController#show)
+SearchInteraction	2018-03-08T07:04:43.381Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+RefreshOrPaginationInteraction	2018-03-08T07:04:48.056Z	388daf5d543a545ba6be7068dffe3d61	kekonkivi		0
+SearchInteraction	2018-03-08T07:07:17.352Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:22.267Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_845	1	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:23.729Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_43258	2	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:26.621Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_35552	3	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:37.414Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16711	12	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:38.262Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16721	11	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:39.871Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16723	10	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:41.794Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_16729	9	12
+RankedRetrieveRecordInteraction	2018-03-08T07:07:42.701Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		/2021008/M011_17233	8	12
+SearchInteraction	2018-03-08T07:08:05.022Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+SearchInteraction	2018-03-08T07:08:21.707Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		0
+CollectionFilterRemovalInteraction	2018-03-08T07:08:25.028Z	388daf5d543a545ba6be7068dffe3d61	chr. kontturi		12
+SearchInteraction	2018-03-08T07:08:28.112Z	388daf5d543a545ba6be7068dffe3d61	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-08T07:08:33.823Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422
+RefreshOrPaginationInteraction	2018-03-08T07:08:38.926Z	388daf5d543a545ba6be7068dffe3d61	hans nielsen		2422

@@ -1,0 +1,30 @@
+ArbitraryAccessInteraction	2018-02-24T10:04:32.484Z	044e1bf9f432884d6fa0bc950600f1dd	[200] GET /portal/it/record/9200386/BibliographicResource_3000045303409.html (PortalController#show)
+SearchInteraction	2018-02-24T10:05:20.603Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		1114275
+CollectionFilterRemovalInteraction	2018-02-24T10:05:40.478Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		48
+SearchInteraction	2018-02-24T10:05:55.077Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission']}	2
+SearchInteraction	2018-02-24T10:06:06.548Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+RefreshOrPaginationInteraction	2018-02-24T10:06:18.195Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+ArbitraryAccessInteraction	2018-02-24T10:04:32.484Z	044e1bf9f432884d6fa0bc950600f1dd	[200] GET /portal/it/record/9200386/BibliographicResource_3000045303409.html (PortalController#show)
+SearchInteraction	2018-02-24T10:05:20.603Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		1114275
+CollectionFilterRemovalInteraction	2018-02-24T10:05:40.478Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		48
+SearchInteraction	2018-02-24T10:05:55.077Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission']}	2
+SearchInteraction	2018-02-24T10:06:06.548Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+RefreshOrPaginationInteraction	2018-02-24T10:06:18.195Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+ArbitraryAccessInteraction	2018-02-24T10:04:32.484Z	044e1bf9f432884d6fa0bc950600f1dd	[200] GET /portal/it/record/9200386/BibliographicResource_3000045303409.html (PortalController#show)
+SearchInteraction	2018-02-24T10:05:20.603Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		1114275
+CollectionFilterRemovalInteraction	2018-02-24T10:05:40.478Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		48
+SearchInteraction	2018-02-24T10:05:55.077Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission']}	2
+SearchInteraction	2018-02-24T10:06:06.548Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+RefreshOrPaginationInteraction	2018-02-24T10:06:18.195Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+ArbitraryAccessInteraction	2018-02-24T10:04:32.484Z	044e1bf9f432884d6fa0bc950600f1dd	[200] GET /portal/it/record/9200386/BibliographicResource_3000045303409.html (PortalController#show)
+SearchInteraction	2018-02-24T10:05:20.603Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		1114275
+CollectionFilterRemovalInteraction	2018-02-24T10:05:40.478Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		48
+SearchInteraction	2018-02-24T10:05:55.077Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission']}	2
+SearchInteraction	2018-02-24T10:06:06.548Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+RefreshOrPaginationInteraction	2018-02-24T10:06:18.195Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+ArbitraryAccessInteraction	2018-02-24T10:04:32.484Z	044e1bf9f432884d6fa0bc950600f1dd	[200] GET /portal/it/record/9200386/BibliographicResource_3000045303409.html (PortalController#show)
+SearchInteraction	2018-02-24T10:05:20.603Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		1114275
+CollectionFilterRemovalInteraction	2018-02-24T10:05:40.478Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)		48
+SearchInteraction	2018-02-24T10:05:55.077Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission']}	2
+SearchInteraction	2018-02-24T10:06:06.548Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48
+RefreshOrPaginationInteraction	2018-02-24T10:06:18.195Z	044e1bf9f432884d6fa0bc950600f1dd	europeana_collectionName:(9200386_Ag_EU_TEL_a1194_BSB)	{'REUSABILITY': ['permission', 'restricted']}	48

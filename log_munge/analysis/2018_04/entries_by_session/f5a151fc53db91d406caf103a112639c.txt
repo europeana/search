@@ -1,0 +1,285 @@
+ArbitraryAccessInteraction	2018-03-01T15:13:28.287Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:31.640Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:34.861Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:49.227Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:17:38.115Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+SearchInteraction	2018-03-01T15:19:03.047Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:16.868Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:19:19.750Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:19:54.428Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:55.912Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:20:08.120Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:20:21.294Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/OBJ29265	40	45
+ArbitraryAccessInteraction	2018-03-01T15:27:57.996Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:27:58.028Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:14.951Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:17.649Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+SearchInteraction	2018-03-01T15:32:20.713Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:27.330Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RankedRetrieveRecordInteraction	2018-03-01T15:32:36.900Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		/2048208/OBJ29274	19	3618
+SearchInteraction	2018-03-01T15:32:39.454Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:47.524Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:54.361Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:58.950Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+CollectionFilterRemovalInteraction	2018-03-01T15:33:07.983Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:14.808Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:19.196Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:23.425Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+ArbitraryAccessInteraction	2018-03-01T15:34:10.078Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:14.577Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:16.607Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:35:58.042Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:48.152Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:50.987Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:59.327Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+SearchInteraction	2018-03-01T15:39:36.918Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		540541
+CollectionFilterAdditionInteraction	2018-03-01T15:39:42.336Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:43.154Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.143Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.229Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.531Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:39:58.332Z	f5a151fc53db91d406caf103a112639c	dries van noten lee jenkins		0
+SearchInteraction	2018-03-01T15:40:02.307Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:40:08.612Z	f5a151fc53db91d406caf103a112639c	dries van noten		3731
+CollectionFilterAdditionInteraction	2018-03-01T15:40:18.379Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:27.759Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:38.354Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:59.781Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:19.017Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:31.703Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:42.825Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:56.432Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:09.856Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:22.495Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+CollectionFilterRemovalInteraction	2018-03-01T15:42:45.043Z	f5a151fc53db91d406caf103a112639c	dries van noten		45
+RankedRetrieveRecordInteraction	2018-03-01T15:42:51.549Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+RankedRetrieveRecordInteraction	2018-03-01T15:43:14.110Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:43:21.050Z	f5a151fc53db91d406caf103a112639c	who:(Jenkins, Lee Photographer)		1
+ArbitraryAccessInteraction	2018-03-01T15:13:28.287Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:31.640Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:34.861Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:49.227Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:17:38.115Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+SearchInteraction	2018-03-01T15:19:03.047Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:16.868Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:19:19.750Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:19:54.428Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:55.912Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:20:08.120Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:20:21.294Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/OBJ29265	40	45
+ArbitraryAccessInteraction	2018-03-01T15:27:57.996Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:27:58.028Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:14.951Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:17.649Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+SearchInteraction	2018-03-01T15:32:20.713Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:27.330Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RankedRetrieveRecordInteraction	2018-03-01T15:32:36.900Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		/2048208/OBJ29274	19	3618
+SearchInteraction	2018-03-01T15:32:39.454Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:47.524Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:54.361Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:58.950Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+CollectionFilterRemovalInteraction	2018-03-01T15:33:07.983Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:14.808Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:19.196Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:23.425Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+ArbitraryAccessInteraction	2018-03-01T15:34:10.078Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:14.577Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:16.607Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:35:58.042Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:48.152Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:50.987Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:59.327Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+SearchInteraction	2018-03-01T15:39:36.918Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		540541
+CollectionFilterAdditionInteraction	2018-03-01T15:39:42.336Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:43.154Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.143Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.229Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.531Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:39:58.332Z	f5a151fc53db91d406caf103a112639c	dries van noten lee jenkins		0
+SearchInteraction	2018-03-01T15:40:02.307Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:40:08.612Z	f5a151fc53db91d406caf103a112639c	dries van noten		3731
+CollectionFilterAdditionInteraction	2018-03-01T15:40:18.379Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:27.759Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:38.354Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:59.781Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:19.017Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:31.703Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:42.825Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:56.432Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:09.856Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:22.495Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+CollectionFilterRemovalInteraction	2018-03-01T15:42:45.043Z	f5a151fc53db91d406caf103a112639c	dries van noten		45
+RankedRetrieveRecordInteraction	2018-03-01T15:42:51.549Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+RankedRetrieveRecordInteraction	2018-03-01T15:43:14.110Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:43:21.050Z	f5a151fc53db91d406caf103a112639c	who:(Jenkins, Lee Photographer)		1
+ArbitraryAccessInteraction	2018-03-01T15:13:28.287Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:31.640Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:34.861Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:49.227Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:17:38.115Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+SearchInteraction	2018-03-01T15:19:03.047Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:16.868Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:19:19.750Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:19:54.428Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:55.912Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:20:08.120Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:20:21.294Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/OBJ29265	40	45
+ArbitraryAccessInteraction	2018-03-01T15:27:57.996Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:27:58.028Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:14.951Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:17.649Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+SearchInteraction	2018-03-01T15:32:20.713Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:27.330Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RankedRetrieveRecordInteraction	2018-03-01T15:32:36.900Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		/2048208/OBJ29274	19	3618
+SearchInteraction	2018-03-01T15:32:39.454Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:47.524Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:54.361Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:58.950Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+CollectionFilterRemovalInteraction	2018-03-01T15:33:07.983Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:14.808Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:19.196Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:23.425Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+ArbitraryAccessInteraction	2018-03-01T15:34:10.078Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:14.577Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:16.607Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:35:58.042Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:48.152Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:50.987Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:59.327Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+SearchInteraction	2018-03-01T15:39:36.918Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		540541
+CollectionFilterAdditionInteraction	2018-03-01T15:39:42.336Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:43.154Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.143Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.229Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.531Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:39:58.332Z	f5a151fc53db91d406caf103a112639c	dries van noten lee jenkins		0
+SearchInteraction	2018-03-01T15:40:02.307Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:40:08.612Z	f5a151fc53db91d406caf103a112639c	dries van noten		3731
+CollectionFilterAdditionInteraction	2018-03-01T15:40:18.379Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:27.759Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:38.354Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:59.781Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:19.017Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:31.703Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:42.825Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:56.432Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:09.856Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:22.495Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+CollectionFilterRemovalInteraction	2018-03-01T15:42:45.043Z	f5a151fc53db91d406caf103a112639c	dries van noten		45
+RankedRetrieveRecordInteraction	2018-03-01T15:42:51.549Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+RankedRetrieveRecordInteraction	2018-03-01T15:43:14.110Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:43:21.050Z	f5a151fc53db91d406caf103a112639c	who:(Jenkins, Lee Photographer)		1
+ArbitraryAccessInteraction	2018-03-01T15:13:28.287Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:31.640Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:34.861Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:49.227Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:17:38.115Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+SearchInteraction	2018-03-01T15:19:03.047Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:16.868Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:19:19.750Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:19:54.428Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:55.912Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:20:08.120Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:20:21.294Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/OBJ29265	40	45
+ArbitraryAccessInteraction	2018-03-01T15:27:57.996Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:27:58.028Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:14.951Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:17.649Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+SearchInteraction	2018-03-01T15:32:20.713Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:27.330Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RankedRetrieveRecordInteraction	2018-03-01T15:32:36.900Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		/2048208/OBJ29274	19	3618
+SearchInteraction	2018-03-01T15:32:39.454Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:47.524Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:54.361Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:58.950Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+CollectionFilterRemovalInteraction	2018-03-01T15:33:07.983Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:14.808Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:19.196Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:23.425Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+ArbitraryAccessInteraction	2018-03-01T15:34:10.078Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:14.577Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:16.607Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:35:58.042Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:48.152Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:50.987Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:59.327Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+SearchInteraction	2018-03-01T15:39:36.918Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		540541
+CollectionFilterAdditionInteraction	2018-03-01T15:39:42.336Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:43.154Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.143Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.229Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.531Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:39:58.332Z	f5a151fc53db91d406caf103a112639c	dries van noten lee jenkins		0
+SearchInteraction	2018-03-01T15:40:02.307Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:40:08.612Z	f5a151fc53db91d406caf103a112639c	dries van noten		3731
+CollectionFilterAdditionInteraction	2018-03-01T15:40:18.379Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:27.759Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:38.354Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:59.781Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:19.017Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:31.703Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:42.825Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:56.432Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:09.856Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:22.495Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+CollectionFilterRemovalInteraction	2018-03-01T15:42:45.043Z	f5a151fc53db91d406caf103a112639c	dries van noten		45
+RankedRetrieveRecordInteraction	2018-03-01T15:42:51.549Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+RankedRetrieveRecordInteraction	2018-03-01T15:43:14.110Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:43:21.050Z	f5a151fc53db91d406caf103a112639c	who:(Jenkins, Lee Photographer)		1
+ArbitraryAccessInteraction	2018-03-01T15:13:28.287Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:31.640Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:34.861Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:13:49.227Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:17:38.115Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+SearchInteraction	2018-03-01T15:19:03.047Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:16.868Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:19:19.750Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:19:54.428Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:19:55.912Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RefreshOrPaginationInteraction	2018-03-01T15:20:08.120Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		45
+RankedRetrieveRecordInteraction	2018-03-01T15:20:21.294Z	f5a151fc53db91d406caf103a112639c	dries van noten 2000		/2048208/OBJ29265	40	45
+ArbitraryAccessInteraction	2018-03-01T15:27:57.996Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:27:58.028Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:14.951Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:32:17.649Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+SearchInteraction	2018-03-01T15:32:20.713Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:27.330Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RankedRetrieveRecordInteraction	2018-03-01T15:32:36.900Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		/2048208/OBJ29274	19	3618
+SearchInteraction	2018-03-01T15:32:39.454Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:47.524Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:54.361Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+RefreshOrPaginationInteraction	2018-03-01T15:32:58.950Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		3618
+CollectionFilterRemovalInteraction	2018-03-01T15:33:07.983Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:14.808Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:19.196Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+RefreshOrPaginationInteraction	2018-03-01T15:33:23.425Z	f5a151fc53db91d406caf103a112639c	proxy_dc_creator: "http://data.europeana.eu/agent/base/78296" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/78296"		39
+ArbitraryAccessInteraction	2018-03-01T15:34:10.078Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:14.577Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:34:16.607Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:35:58.042Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29272.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:48.152Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:50.987Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/explore/people/78296-dries-van-noten.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-03-01T15:38:59.327Z	f5a151fc53db91d406caf103a112639c	[200] GET /portal/en/record/2048208/OBJ29269.html (PortalController#show)
+SearchInteraction	2018-03-01T15:39:36.918Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		540541
+CollectionFilterAdditionInteraction	2018-03-01T15:39:42.336Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:43.154Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.143Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.229Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+RefreshOrPaginationInteraction	2018-03-01T15:39:45.531Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:39:58.332Z	f5a151fc53db91d406caf103a112639c	dries van noten lee jenkins		0
+SearchInteraction	2018-03-01T15:40:02.307Z	f5a151fc53db91d406caf103a112639c	NO VALUE PROVIDED		51554302
+SearchInteraction	2018-03-01T15:40:08.612Z	f5a151fc53db91d406caf103a112639c	dries van noten		3731
+CollectionFilterAdditionInteraction	2018-03-01T15:40:18.379Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:27.759Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:38.354Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:40:59.781Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:19.017Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:31.703Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:42.825Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:41:56.432Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:09.856Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+RefreshOrPaginationInteraction	2018-03-01T15:42:22.495Z	f5a151fc53db91d406caf103a112639c	dries van noten		3721
+CollectionFilterRemovalInteraction	2018-03-01T15:42:45.043Z	f5a151fc53db91d406caf103a112639c	dries van noten		45
+RankedRetrieveRecordInteraction	2018-03-01T15:42:51.549Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+RankedRetrieveRecordInteraction	2018-03-01T15:43:14.110Z	f5a151fc53db91d406caf103a112639c	dries van noten		/2048208/c_pca_105650	13	45
+SearchInteraction	2018-03-01T15:43:21.050Z	f5a151fc53db91d406caf103a112639c	who:(Jenkins, Lee Photographer)		1

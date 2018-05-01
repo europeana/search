@@ -1,0 +1,155 @@
+SearchInteraction	2018-02-15T08:38:36.018Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T08:38:54.362Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:39:43.943Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:39:52.084Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:11.481Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:35.670Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+ArbitraryAccessInteraction	2018-02-15T08:41:32.211Z	80593e8734f634daa6f07d7e9957f677	[200] GET /portal/en/record/2058609/object_PSRL_5411777.html (PortalController#show)
+SearchInteraction	2018-02-15T09:05:33.171Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T09:05:49.729Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	10
+RankedRetrieveRecordInteraction	2018-02-15T09:05:58.560Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	/2023816/LINKEDH_Thm_S100000412	6	10
+RankedRetrieveRecordInteraction	2018-02-15T09:43:20.432Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52805575	673	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:28.688Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52790680	674	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:39.632Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52784322	675	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:31.548Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52780929	676	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:58.368Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52779105	677	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:09.430Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52772232	678	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:26.717Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52766571	679	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:32.582Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52763124	680	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:44.371Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52747405	682	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:53.348Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52729680	683	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:01.653Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52724187	684	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:06.764Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719831	685	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:11.593Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719363	686	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:22.836Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52713657	688	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:26.203Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52711799	689	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:46.231Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52707142	690	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:01.594Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52662288	695	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:07.968Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52655535	696	1293
+SearchInteraction	2018-02-15T11:09:10.511Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+RefreshOrPaginationInteraction	2018-02-15T12:51:14.761Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T12:51:37.289Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:38:36.018Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T08:38:54.362Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:39:43.943Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:39:52.084Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:11.481Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:35.670Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+ArbitraryAccessInteraction	2018-02-15T08:41:32.211Z	80593e8734f634daa6f07d7e9957f677	[200] GET /portal/en/record/2058609/object_PSRL_5411777.html (PortalController#show)
+SearchInteraction	2018-02-15T09:05:33.171Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T09:05:49.729Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	10
+RankedRetrieveRecordInteraction	2018-02-15T09:05:58.560Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	/2023816/LINKEDH_Thm_S100000412	6	10
+RankedRetrieveRecordInteraction	2018-02-15T09:43:20.432Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52805575	673	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:28.688Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52790680	674	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:39.632Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52784322	675	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:31.548Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52780929	676	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:58.368Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52779105	677	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:09.430Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52772232	678	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:26.717Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52766571	679	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:32.582Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52763124	680	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:44.371Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52747405	682	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:53.348Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52729680	683	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:01.653Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52724187	684	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:06.764Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719831	685	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:11.593Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719363	686	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:22.836Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52713657	688	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:26.203Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52711799	689	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:46.231Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52707142	690	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:01.594Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52662288	695	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:07.968Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52655535	696	1293
+SearchInteraction	2018-02-15T11:09:10.511Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+RefreshOrPaginationInteraction	2018-02-15T12:51:14.761Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T12:51:37.289Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:38:36.018Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T08:38:54.362Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:39:43.943Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:39:52.084Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:11.481Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:35.670Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+ArbitraryAccessInteraction	2018-02-15T08:41:32.211Z	80593e8734f634daa6f07d7e9957f677	[200] GET /portal/en/record/2058609/object_PSRL_5411777.html (PortalController#show)
+SearchInteraction	2018-02-15T09:05:33.171Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T09:05:49.729Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	10
+RankedRetrieveRecordInteraction	2018-02-15T09:05:58.560Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	/2023816/LINKEDH_Thm_S100000412	6	10
+RankedRetrieveRecordInteraction	2018-02-15T09:43:20.432Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52805575	673	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:28.688Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52790680	674	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:39.632Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52784322	675	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:31.548Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52780929	676	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:58.368Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52779105	677	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:09.430Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52772232	678	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:26.717Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52766571	679	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:32.582Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52763124	680	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:44.371Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52747405	682	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:53.348Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52729680	683	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:01.653Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52724187	684	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:06.764Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719831	685	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:11.593Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719363	686	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:22.836Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52713657	688	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:26.203Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52711799	689	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:46.231Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52707142	690	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:01.594Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52662288	695	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:07.968Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52655535	696	1293
+SearchInteraction	2018-02-15T11:09:10.511Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+RefreshOrPaginationInteraction	2018-02-15T12:51:14.761Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T12:51:37.289Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:38:36.018Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T08:38:54.362Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:39:43.943Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:39:52.084Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:11.481Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:35.670Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+ArbitraryAccessInteraction	2018-02-15T08:41:32.211Z	80593e8734f634daa6f07d7e9957f677	[200] GET /portal/en/record/2058609/object_PSRL_5411777.html (PortalController#show)
+SearchInteraction	2018-02-15T09:05:33.171Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T09:05:49.729Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	10
+RankedRetrieveRecordInteraction	2018-02-15T09:05:58.560Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	/2023816/LINKEDH_Thm_S100000412	6	10
+RankedRetrieveRecordInteraction	2018-02-15T09:43:20.432Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52805575	673	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:28.688Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52790680	674	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:39.632Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52784322	675	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:31.548Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52780929	676	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:58.368Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52779105	677	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:09.430Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52772232	678	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:26.717Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52766571	679	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:32.582Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52763124	680	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:44.371Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52747405	682	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:53.348Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52729680	683	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:01.653Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52724187	684	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:06.764Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719831	685	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:11.593Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719363	686	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:22.836Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52713657	688	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:26.203Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52711799	689	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:46.231Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52707142	690	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:01.594Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52662288	695	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:07.968Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52655535	696	1293
+SearchInteraction	2018-02-15T11:09:10.511Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+RefreshOrPaginationInteraction	2018-02-15T12:51:14.761Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T12:51:37.289Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:38:36.018Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T08:38:54.362Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547
+SearchInteraction	2018-02-15T08:39:43.943Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:39:52.084Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:11.481Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+RefreshOrPaginationInteraction	2018-02-15T08:40:35.670Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	1293
+ArbitraryAccessInteraction	2018-02-15T08:41:32.211Z	80593e8734f634daa6f07d7e9957f677	[200] GET /portal/en/record/2058609/object_PSRL_5411777.html (PortalController#show)
+SearchInteraction	2018-02-15T09:05:33.171Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T09:05:49.729Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	10
+RankedRetrieveRecordInteraction	2018-02-15T09:05:58.560Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['bulgaria']}	/2023816/LINKEDH_Thm_S100000412	6	10
+RankedRetrieveRecordInteraction	2018-02-15T09:43:20.432Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52805575	673	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:28.688Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52790680	674	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:43:39.632Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52784322	675	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:31.548Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52780929	676	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:46:58.368Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52779105	677	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:09.430Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52772232	678	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:26.717Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52766571	679	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:32.582Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52763124	680	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:44.371Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52747405	682	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:47:53.348Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52729680	683	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:01.653Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52724187	684	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:06.764Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719831	685	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:11.593Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52719363	686	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:22.836Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52713657	688	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:26.203Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52711799	689	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:48:46.231Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52707142	690	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:01.594Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52662288	695	1293
+RankedRetrieveRecordInteraction	2018-02-15T09:49:07.968Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'COUNTRY': ['netherlands'], 'REUSABILITY': ['open']}	/2021642/Atlantispubliek_Default_aspx_detail_52655535	696	1293
+SearchInteraction	2018-02-15T11:09:10.511Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+RefreshOrPaginationInteraction	2018-02-15T12:51:14.761Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE		85228
+SearchInteraction	2018-02-15T12:51:37.289Z	80593e8734f634daa6f07d7e9957f677	TYPE:IMAGE	{'REUSABILITY': ['open']}	15547

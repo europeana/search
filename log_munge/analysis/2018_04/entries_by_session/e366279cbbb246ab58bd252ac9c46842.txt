@@ -1,0 +1,340 @@
+SearchInteraction	2018-02-20T15:07:15.426Z	e366279cbbb246ab58bd252ac9c46842	Monet		9090
+RankedRetrieveRecordInteraction	2018-02-20T15:07:44.126Z	e366279cbbb246ab58bd252ac9c46842	Monet		/2063621/FRA_280_007	1	9090
+SearchInteraction	2018-02-20T15:09:40.281Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RankedRetrieveRecordInteraction	2018-02-20T15:10:00.375Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		/2022304/39D86307799914C46EE3158C0CD62D08296AB4D9	4	168
+SearchInteraction	2018-02-20T15:10:59.844Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:23.921Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:47.003Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+SearchInteraction	2018-02-20T15:12:12.741Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	124
+CollectionFilterRemovalInteraction	2018-02-20T15:12:34.724Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:13:33.194Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1977_86	10	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:01.567Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__5301	11	19
+SearchInteraction	2018-02-20T15:14:32.395Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:49.701Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/598	16	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:09.778Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/599	15	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:36.628Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_193325	19	19
+RankedRetrieveRecordInteraction	2018-02-20T15:16:07.679Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10220019	13	19
+SearchInteraction	2018-02-20T15:17:00.910Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+RefreshOrPaginationInteraction	2018-02-20T15:17:27.751Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:17:46.843Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:17:48.104Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:18:01.196Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	140
+CollectionFilterRemovalInteraction	2018-02-20T15:18:04.104Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:18:13.333Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1974_43	1	31
+SearchInteraction	2018-02-20T15:19:01.188Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RefreshOrPaginationInteraction	2018-02-20T15:19:26.963Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:19:47.859Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/094041/_nn5xxsW	30	31
+SearchInteraction	2018-02-20T15:20:43.321Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-20T15:20:50.152Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+SearchInteraction	2018-02-20T15:20:55.361Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:21:05.112Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:21:34.045Z	e366279cbbb246ab58bd252ac9c46842	Shjerfbeck	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:21:45.869Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:21:47.805Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:22:19.328Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		51581697
+CollectionFilterAdditionInteraction	2018-02-20T15:22:56.960Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		1289766
+SearchInteraction	2018-02-20T15:23:06.504Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:21.250Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	510817
+SearchInteraction	2018-02-20T15:23:31.950Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:34.158Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:23:48.972Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'MIME_TYPE': ['image/gif'], 'TYPE': ['IMAGE']}	357
+SearchInteraction	2018-02-20T15:23:58.314Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:24:23.662Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	33720
+SearchInteraction	2018-02-20T15:24:46.696Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	30864
+SearchInteraction	2018-02-20T15:25:12.600Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+RefreshOrPaginationInteraction	2018-02-20T15:25:27.335Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+SearchInteraction	2018-02-20T15:25:39.028Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:25:49.131Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	23036
+SearchInteraction	2018-02-20T15:25:54.674Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	85019
+SearchInteraction	2018-02-20T15:26:06.460Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:26:31.584Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-20T15:27:08.101Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-02-20T15:27:13.398Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-20T15:27:15.952Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:27:34.002Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:27:42.585Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	14	46
+RankedRetrieveRecordInteraction	2018-02-20T15:29:03.725Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1976_68	18	46
+SearchInteraction	2018-02-20T15:30:36.508Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:30:55.330Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:30.390Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2021012/app_si_A_II_906	41	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:56.416Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_202151	44	46
+RankedRetrieveRecordInteraction	2018-02-20T15:32:30.085Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194594	45	46
+SearchInteraction	2018-02-20T15:33:34.188Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-20T15:33:43.747Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	1	1
+SearchInteraction	2018-02-20T15:34:58.231Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:35:04.157Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:25.830Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:42.021Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+SearchInteraction	2018-02-20T15:36:05.779Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:07:15.426Z	e366279cbbb246ab58bd252ac9c46842	Monet		9090
+RankedRetrieveRecordInteraction	2018-02-20T15:07:44.126Z	e366279cbbb246ab58bd252ac9c46842	Monet		/2063621/FRA_280_007	1	9090
+SearchInteraction	2018-02-20T15:09:40.281Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RankedRetrieveRecordInteraction	2018-02-20T15:10:00.375Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		/2022304/39D86307799914C46EE3158C0CD62D08296AB4D9	4	168
+SearchInteraction	2018-02-20T15:10:59.844Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:23.921Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:47.003Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+SearchInteraction	2018-02-20T15:12:12.741Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	124
+CollectionFilterRemovalInteraction	2018-02-20T15:12:34.724Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:13:33.194Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1977_86	10	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:01.567Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__5301	11	19
+SearchInteraction	2018-02-20T15:14:32.395Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:49.701Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/598	16	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:09.778Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/599	15	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:36.628Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_193325	19	19
+RankedRetrieveRecordInteraction	2018-02-20T15:16:07.679Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10220019	13	19
+SearchInteraction	2018-02-20T15:17:00.910Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+RefreshOrPaginationInteraction	2018-02-20T15:17:27.751Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:17:46.843Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:17:48.104Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:18:01.196Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	140
+CollectionFilterRemovalInteraction	2018-02-20T15:18:04.104Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:18:13.333Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1974_43	1	31
+SearchInteraction	2018-02-20T15:19:01.188Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RefreshOrPaginationInteraction	2018-02-20T15:19:26.963Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:19:47.859Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/094041/_nn5xxsW	30	31
+SearchInteraction	2018-02-20T15:20:43.321Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-20T15:20:50.152Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+SearchInteraction	2018-02-20T15:20:55.361Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:21:05.112Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:21:34.045Z	e366279cbbb246ab58bd252ac9c46842	Shjerfbeck	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:21:45.869Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:21:47.805Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:22:19.328Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		51581697
+CollectionFilterAdditionInteraction	2018-02-20T15:22:56.960Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		1289766
+SearchInteraction	2018-02-20T15:23:06.504Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:21.250Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	510817
+SearchInteraction	2018-02-20T15:23:31.950Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:34.158Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:23:48.972Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'MIME_TYPE': ['image/gif'], 'TYPE': ['IMAGE']}	357
+SearchInteraction	2018-02-20T15:23:58.314Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:24:23.662Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	33720
+SearchInteraction	2018-02-20T15:24:46.696Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	30864
+SearchInteraction	2018-02-20T15:25:12.600Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+RefreshOrPaginationInteraction	2018-02-20T15:25:27.335Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+SearchInteraction	2018-02-20T15:25:39.028Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:25:49.131Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	23036
+SearchInteraction	2018-02-20T15:25:54.674Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	85019
+SearchInteraction	2018-02-20T15:26:06.460Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:26:31.584Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-20T15:27:08.101Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-02-20T15:27:13.398Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-20T15:27:15.952Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:27:34.002Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:27:42.585Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	14	46
+RankedRetrieveRecordInteraction	2018-02-20T15:29:03.725Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1976_68	18	46
+SearchInteraction	2018-02-20T15:30:36.508Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:30:55.330Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:30.390Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2021012/app_si_A_II_906	41	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:56.416Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_202151	44	46
+RankedRetrieveRecordInteraction	2018-02-20T15:32:30.085Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194594	45	46
+SearchInteraction	2018-02-20T15:33:34.188Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-20T15:33:43.747Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	1	1
+SearchInteraction	2018-02-20T15:34:58.231Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:35:04.157Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:25.830Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:42.021Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+SearchInteraction	2018-02-20T15:36:05.779Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:07:15.426Z	e366279cbbb246ab58bd252ac9c46842	Monet		9090
+RankedRetrieveRecordInteraction	2018-02-20T15:07:44.126Z	e366279cbbb246ab58bd252ac9c46842	Monet		/2063621/FRA_280_007	1	9090
+SearchInteraction	2018-02-20T15:09:40.281Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RankedRetrieveRecordInteraction	2018-02-20T15:10:00.375Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		/2022304/39D86307799914C46EE3158C0CD62D08296AB4D9	4	168
+SearchInteraction	2018-02-20T15:10:59.844Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:23.921Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:47.003Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+SearchInteraction	2018-02-20T15:12:12.741Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	124
+CollectionFilterRemovalInteraction	2018-02-20T15:12:34.724Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:13:33.194Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1977_86	10	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:01.567Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__5301	11	19
+SearchInteraction	2018-02-20T15:14:32.395Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:49.701Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/598	16	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:09.778Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/599	15	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:36.628Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_193325	19	19
+RankedRetrieveRecordInteraction	2018-02-20T15:16:07.679Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10220019	13	19
+SearchInteraction	2018-02-20T15:17:00.910Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+RefreshOrPaginationInteraction	2018-02-20T15:17:27.751Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:17:46.843Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:17:48.104Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:18:01.196Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	140
+CollectionFilterRemovalInteraction	2018-02-20T15:18:04.104Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:18:13.333Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1974_43	1	31
+SearchInteraction	2018-02-20T15:19:01.188Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RefreshOrPaginationInteraction	2018-02-20T15:19:26.963Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:19:47.859Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/094041/_nn5xxsW	30	31
+SearchInteraction	2018-02-20T15:20:43.321Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-20T15:20:50.152Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+SearchInteraction	2018-02-20T15:20:55.361Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:21:05.112Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:21:34.045Z	e366279cbbb246ab58bd252ac9c46842	Shjerfbeck	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:21:45.869Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:21:47.805Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:22:19.328Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		51581697
+CollectionFilterAdditionInteraction	2018-02-20T15:22:56.960Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		1289766
+SearchInteraction	2018-02-20T15:23:06.504Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:21.250Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	510817
+SearchInteraction	2018-02-20T15:23:31.950Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:34.158Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:23:48.972Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'MIME_TYPE': ['image/gif'], 'TYPE': ['IMAGE']}	357
+SearchInteraction	2018-02-20T15:23:58.314Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:24:23.662Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	33720
+SearchInteraction	2018-02-20T15:24:46.696Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	30864
+SearchInteraction	2018-02-20T15:25:12.600Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+RefreshOrPaginationInteraction	2018-02-20T15:25:27.335Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+SearchInteraction	2018-02-20T15:25:39.028Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:25:49.131Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	23036
+SearchInteraction	2018-02-20T15:25:54.674Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	85019
+SearchInteraction	2018-02-20T15:26:06.460Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:26:31.584Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-20T15:27:08.101Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-02-20T15:27:13.398Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-20T15:27:15.952Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:27:34.002Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:27:42.585Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	14	46
+RankedRetrieveRecordInteraction	2018-02-20T15:29:03.725Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1976_68	18	46
+SearchInteraction	2018-02-20T15:30:36.508Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:30:55.330Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:30.390Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2021012/app_si_A_II_906	41	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:56.416Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_202151	44	46
+RankedRetrieveRecordInteraction	2018-02-20T15:32:30.085Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194594	45	46
+SearchInteraction	2018-02-20T15:33:34.188Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-20T15:33:43.747Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	1	1
+SearchInteraction	2018-02-20T15:34:58.231Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:35:04.157Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:25.830Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:42.021Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+SearchInteraction	2018-02-20T15:36:05.779Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:07:15.426Z	e366279cbbb246ab58bd252ac9c46842	Monet		9090
+RankedRetrieveRecordInteraction	2018-02-20T15:07:44.126Z	e366279cbbb246ab58bd252ac9c46842	Monet		/2063621/FRA_280_007	1	9090
+SearchInteraction	2018-02-20T15:09:40.281Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RankedRetrieveRecordInteraction	2018-02-20T15:10:00.375Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		/2022304/39D86307799914C46EE3158C0CD62D08296AB4D9	4	168
+SearchInteraction	2018-02-20T15:10:59.844Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:23.921Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:47.003Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+SearchInteraction	2018-02-20T15:12:12.741Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	124
+CollectionFilterRemovalInteraction	2018-02-20T15:12:34.724Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:13:33.194Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1977_86	10	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:01.567Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__5301	11	19
+SearchInteraction	2018-02-20T15:14:32.395Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:49.701Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/598	16	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:09.778Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/599	15	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:36.628Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_193325	19	19
+RankedRetrieveRecordInteraction	2018-02-20T15:16:07.679Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10220019	13	19
+SearchInteraction	2018-02-20T15:17:00.910Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+RefreshOrPaginationInteraction	2018-02-20T15:17:27.751Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:17:46.843Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:17:48.104Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:18:01.196Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	140
+CollectionFilterRemovalInteraction	2018-02-20T15:18:04.104Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:18:13.333Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1974_43	1	31
+SearchInteraction	2018-02-20T15:19:01.188Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RefreshOrPaginationInteraction	2018-02-20T15:19:26.963Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:19:47.859Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/094041/_nn5xxsW	30	31
+SearchInteraction	2018-02-20T15:20:43.321Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-20T15:20:50.152Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+SearchInteraction	2018-02-20T15:20:55.361Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:21:05.112Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:21:34.045Z	e366279cbbb246ab58bd252ac9c46842	Shjerfbeck	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:21:45.869Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:21:47.805Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:22:19.328Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		51581697
+CollectionFilterAdditionInteraction	2018-02-20T15:22:56.960Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		1289766
+SearchInteraction	2018-02-20T15:23:06.504Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:21.250Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	510817
+SearchInteraction	2018-02-20T15:23:31.950Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:34.158Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:23:48.972Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'MIME_TYPE': ['image/gif'], 'TYPE': ['IMAGE']}	357
+SearchInteraction	2018-02-20T15:23:58.314Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:24:23.662Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	33720
+SearchInteraction	2018-02-20T15:24:46.696Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	30864
+SearchInteraction	2018-02-20T15:25:12.600Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+RefreshOrPaginationInteraction	2018-02-20T15:25:27.335Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+SearchInteraction	2018-02-20T15:25:39.028Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:25:49.131Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	23036
+SearchInteraction	2018-02-20T15:25:54.674Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	85019
+SearchInteraction	2018-02-20T15:26:06.460Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:26:31.584Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-20T15:27:08.101Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-02-20T15:27:13.398Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-20T15:27:15.952Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:27:34.002Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:27:42.585Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	14	46
+RankedRetrieveRecordInteraction	2018-02-20T15:29:03.725Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1976_68	18	46
+SearchInteraction	2018-02-20T15:30:36.508Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:30:55.330Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:30.390Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2021012/app_si_A_II_906	41	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:56.416Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_202151	44	46
+RankedRetrieveRecordInteraction	2018-02-20T15:32:30.085Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194594	45	46
+SearchInteraction	2018-02-20T15:33:34.188Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-20T15:33:43.747Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	1	1
+SearchInteraction	2018-02-20T15:34:58.231Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:35:04.157Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:25.830Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:42.021Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+SearchInteraction	2018-02-20T15:36:05.779Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:07:15.426Z	e366279cbbb246ab58bd252ac9c46842	Monet		9090
+RankedRetrieveRecordInteraction	2018-02-20T15:07:44.126Z	e366279cbbb246ab58bd252ac9c46842	Monet		/2063621/FRA_280_007	1	9090
+SearchInteraction	2018-02-20T15:09:40.281Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RankedRetrieveRecordInteraction	2018-02-20T15:10:00.375Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		/2022304/39D86307799914C46EE3158C0CD62D08296AB4D9	4	168
+SearchInteraction	2018-02-20T15:10:59.844Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:23.921Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+RefreshOrPaginationInteraction	2018-02-20T15:11:47.003Z	e366279cbbb246ab58bd252ac9c46842	Claude monet		168
+SearchInteraction	2018-02-20T15:12:12.741Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	124
+CollectionFilterRemovalInteraction	2018-02-20T15:12:34.724Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:13:33.194Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1977_86	10	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:01.567Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__5301	11	19
+SearchInteraction	2018-02-20T15:14:32.395Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	19
+RankedRetrieveRecordInteraction	2018-02-20T15:14:49.701Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/598	16	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:09.778Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2032004/599	15	19
+RankedRetrieveRecordInteraction	2018-02-20T15:15:36.628Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_193325	19	19
+RankedRetrieveRecordInteraction	2018-02-20T15:16:07.679Z	e366279cbbb246ab58bd252ac9c46842	Claude monet	{'TYPE': ['IMAGE']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10220019	13	19
+SearchInteraction	2018-02-20T15:17:00.910Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+RefreshOrPaginationInteraction	2018-02-20T15:17:27.751Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:17:46.843Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:17:48.104Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:18:01.196Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	140
+CollectionFilterRemovalInteraction	2018-02-20T15:18:04.104Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:18:13.333Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1974_43	1	31
+SearchInteraction	2018-02-20T15:19:01.188Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RefreshOrPaginationInteraction	2018-02-20T15:19:26.963Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+RankedRetrieveRecordInteraction	2018-02-20T15:19:47.859Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	/094041/_nn5xxsW	30	31
+SearchInteraction	2018-02-20T15:20:43.321Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-02-20T15:20:50.152Z	e366279cbbb246ab58bd252ac9c46842	Pierre-Auguste Renoir	{'TYPE': ['IMAGE']}	31
+SearchInteraction	2018-02-20T15:20:55.361Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+CollectionFilterRemovalInteraction	2018-02-20T15:21:05.112Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:21:34.045Z	e366279cbbb246ab58bd252ac9c46842	Shjerfbeck	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:21:45.869Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-20T15:21:47.805Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-20T15:22:19.328Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		51581697
+CollectionFilterAdditionInteraction	2018-02-20T15:22:56.960Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED		1289766
+SearchInteraction	2018-02-20T15:23:06.504Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:21.250Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	510817
+SearchInteraction	2018-02-20T15:23:31.950Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524
+SearchInteraction	2018-02-20T15:23:34.158Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:23:48.972Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'MIME_TYPE': ['image/gif'], 'TYPE': ['IMAGE']}	357
+SearchInteraction	2018-02-20T15:23:58.314Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	891884
+SearchInteraction	2018-02-20T15:24:23.662Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	33720
+SearchInteraction	2018-02-20T15:24:46.696Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	30864
+SearchInteraction	2018-02-20T15:25:12.600Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+RefreshOrPaginationInteraction	2018-02-20T15:25:27.335Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	32147
+SearchInteraction	2018-02-20T15:25:39.028Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait', 'Landscape'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:25:49.131Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'IMAGE_ASPECTRATIO': ['Portrait'], 'TYPE': ['IMAGE']}	23036
+SearchInteraction	2018-02-20T15:25:54.674Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	85019
+SearchInteraction	2018-02-20T15:26:06.460Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	35078
+SearchInteraction	2018-02-20T15:26:31.584Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-20T15:27:08.101Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['france', 'finland'], 'TYPE': ['IMAGE']}	7
+SearchInteraction	2018-02-20T15:27:13.398Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'COUNTRY': ['finland'], 'TYPE': ['IMAGE']}	2
+SearchInteraction	2018-02-20T15:27:15.952Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:27:34.002Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:27:42.585Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	14	46
+RankedRetrieveRecordInteraction	2018-02-20T15:29:03.725Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2058501/MTB_AW_1976_68	18	46
+SearchInteraction	2018-02-20T15:30:36.508Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RefreshOrPaginationInteraction	2018-02-20T15:30:55.330Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:30.390Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2021012/app_si_A_II_906	41	46
+RankedRetrieveRecordInteraction	2018-02-20T15:31:56.416Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_202151	44	46
+RankedRetrieveRecordInteraction	2018-02-20T15:32:30.085Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_194594	45	46
+SearchInteraction	2018-02-20T15:33:34.188Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-20T15:33:43.747Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	/2064116/Museu_ProvidedCHO_Nationalmuseum__Sweden_18806	1	1
+SearchInteraction	2018-02-20T15:34:58.231Z	e366279cbbb246ab58bd252ac9c46842	Paul Cézanne	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-20T15:35:04.157Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:25.830Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+RefreshOrPaginationInteraction	2018-02-20T15:35:42.021Z	e366279cbbb246ab58bd252ac9c46842	Matisse	{'TYPE': ['IMAGE']}	35
+SearchInteraction	2018-02-20T15:36:05.779Z	e366279cbbb246ab58bd252ac9c46842	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	1028524

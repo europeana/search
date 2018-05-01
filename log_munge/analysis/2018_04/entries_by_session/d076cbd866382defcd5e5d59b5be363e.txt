@@ -1,0 +1,70 @@
+SearchInteraction	2018-02-13T22:45:28.471Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	23
+CollectionFilterRemovalInteraction	2018-02-13T22:45:40.304Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:45:51.908Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:03.567Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:15.671Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:27.758Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:39.296Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:50.847Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:47:02.421Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+ArbitraryAccessInteraction	2018-02-13T22:47:14.536Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273319.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:25.761Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:37.181Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:48.790Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272074.html (PortalController#show)
+SearchInteraction	2018-02-13T22:47:59.942Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-13T22:45:28.471Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	23
+CollectionFilterRemovalInteraction	2018-02-13T22:45:40.304Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:45:51.908Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:03.567Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:15.671Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:27.758Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:39.296Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:50.847Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:47:02.421Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+ArbitraryAccessInteraction	2018-02-13T22:47:14.536Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273319.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:25.761Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:37.181Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:48.790Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272074.html (PortalController#show)
+SearchInteraction	2018-02-13T22:47:59.942Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-13T22:45:28.471Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	23
+CollectionFilterRemovalInteraction	2018-02-13T22:45:40.304Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:45:51.908Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:03.567Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:15.671Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:27.758Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:39.296Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:50.847Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:47:02.421Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+ArbitraryAccessInteraction	2018-02-13T22:47:14.536Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273319.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:25.761Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:37.181Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:48.790Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272074.html (PortalController#show)
+SearchInteraction	2018-02-13T22:47:59.942Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-13T22:45:28.471Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	23
+CollectionFilterRemovalInteraction	2018-02-13T22:45:40.304Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:45:51.908Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:03.567Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:15.671Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:27.758Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:39.296Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:50.847Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:47:02.421Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+ArbitraryAccessInteraction	2018-02-13T22:47:14.536Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273319.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:25.761Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:37.181Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:48.790Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272074.html (PortalController#show)
+SearchInteraction	2018-02-13T22:47:59.942Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+SearchInteraction	2018-02-13T22:45:28.471Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	23
+CollectionFilterRemovalInteraction	2018-02-13T22:45:40.304Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:45:51.908Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:03.567Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:15.671Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:27.758Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:39.296Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:46:50.847Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+RefreshOrPaginationInteraction	2018-02-13T22:47:02.421Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4
+ArbitraryAccessInteraction	2018-02-13T22:47:14.536Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273319.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:25.761Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126273315.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:37.181Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272473.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-13T22:47:48.790Z	d076cbd866382defcd5e5d59b5be363e	[200] GET /portal/fr/record/9200397/BibliographicResource_3000126272074.html (PortalController#show)
+SearchInteraction	2018-02-13T22:47:59.942Z	d076cbd866382defcd5e5d59b5be363e	fool	{'DATA_PROVIDER': ['The British Library'], 'LANGUAGE': ['en'], 'TYPE': ['IMAGE']}	4

@@ -1,0 +1,320 @@
+SearchInteraction	2018-02-10T22:15:14.159Z	1c625bc390573176710e64fc5281e295	europeana_collectionName:(9200178_Ag_EU_TEL_a0532_EUcollection14-18_Rome)		4119
+SearchInteraction	2018-02-10T22:18:13.425Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:18:31.091Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:18:41.822Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200495/yoolib_inha_13083	6	2798
+SearchInteraction	2018-02-10T22:19:20.843Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:19:44.959Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+ArbitraryAccessInteraction	2018-02-10T22:21:11.370Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354421.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:11.979Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:21:23.720Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354419.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:34.696Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:21:46.852Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:22:02.872Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100291186.html (PortalController#show)
+SearchInteraction	2018-02-10T22:22:09.132Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:23:52.250Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:39.098Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:53.505Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:25:02.125Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:25:35.175Z	1c625bc390573176710e64fc5281e295	Fortuny		/92062/BibliographicResource_1000126039681	1	2798
+SearchInteraction	2018-02-10T22:25:48.087Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:26:18.468Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+SearchInteraction	2018-02-10T22:26:25.842Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:26:38.007Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/9200376/BibliographicResource_3000100229455	10	207
+SearchInteraction	2018-02-10T22:26:47.623Z	1c625bc390573176710e64fc5281e295	what:"Henriette Fortuny"		1
+SearchInteraction	2018-02-10T22:27:19.949Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:27.351Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100229430.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:35.078Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048224/00000241.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:42.444Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_190150_inventary_CE111886_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:27:42.503Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:58.238Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157406_inventary_CE106174_table_FMUS_museum_MT.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:28:08.873Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_111932_inventary_CE088527_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:28:10.837Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:34:48.835Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110088_inventary_CE088509_table_FMUS_museum_MT	38	207
+SearchInteraction	2018-02-10T22:35:56.867Z	1c625bc390573176710e64fc5281e295	PROVIDER:"Europeana Fashion"		867177
+SearchInteraction	2018-02-10T22:36:38.053Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:38:11.325Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:38:18.173Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157403_inventary_CE106171_table_FMUS_museum_MT	15	118
+ArbitraryAccessInteraction	2018-02-10T22:38:46.393Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110054_inventary_CE088479_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:38:49.490Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:39:01.203Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:06.291Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110058_inventary_CE088483_table_FMUS_museum_MT	22	118
+SearchInteraction	2018-02-10T22:39:30.569Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:46.454Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110036_inventary_CE088463_table_FMUS_museum_MT	26	118
+SearchInteraction	2018-02-10T22:40:00.109Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:10.405Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:30.221Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:40.500Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:40:50.513Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109798_inventary_CE088400_table_FMUS_museum_MT	81	118
+SearchInteraction	2018-02-10T22:41:17.318Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:41:27.965Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109787_inventary_CE088390_table_FMUS_museum_MT	91	118
+SearchInteraction	2018-02-10T22:41:36.478Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano Lugar de nacimiento: Granada, 1871 - Lugar de defunción: Venecia, 1949)		0
+SearchInteraction	2018-02-10T22:41:48.750Z	1c625bc390573176710e64fc5281e295	DATA_PROVIDER:"CER.ES: Red Digital de Colecciones de museos de España"		256176
+SearchInteraction	2018-02-10T22:41:57.197Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+RefreshOrPaginationInteraction	2018-02-10T22:41:59.307Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:42:08.063Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:24.364Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:32.043Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:42:42.932Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/04101/collection_aspx_p_0848cab7_2776_4648_9003_25957707491a_inv_1914_GN	447	447
+SearchInteraction	2018-02-10T22:43:15.526Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+ArbitraryAccessInteraction	2018-02-10T22:43:21.153Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088467.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:25.304Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MSM_20262.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:41.141Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_10094.html (PortalController#show)
+SearchInteraction	2018-02-10T22:44:15.329Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:44:48.714Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088519	421	447
+RankedRetrieveRecordInteraction	2018-02-10T22:45:02.145Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088496	427	447
+SearchInteraction	2018-02-10T22:15:14.159Z	1c625bc390573176710e64fc5281e295	europeana_collectionName:(9200178_Ag_EU_TEL_a0532_EUcollection14-18_Rome)		4119
+SearchInteraction	2018-02-10T22:18:13.425Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:18:31.091Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:18:41.822Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200495/yoolib_inha_13083	6	2798
+SearchInteraction	2018-02-10T22:19:20.843Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:19:44.959Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+ArbitraryAccessInteraction	2018-02-10T22:21:11.370Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354421.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:11.979Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:21:23.720Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354419.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:34.696Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:21:46.852Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:22:02.872Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100291186.html (PortalController#show)
+SearchInteraction	2018-02-10T22:22:09.132Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:23:52.250Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:39.098Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:53.505Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:25:02.125Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:25:35.175Z	1c625bc390573176710e64fc5281e295	Fortuny		/92062/BibliographicResource_1000126039681	1	2798
+SearchInteraction	2018-02-10T22:25:48.087Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:26:18.468Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+SearchInteraction	2018-02-10T22:26:25.842Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:26:38.007Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/9200376/BibliographicResource_3000100229455	10	207
+SearchInteraction	2018-02-10T22:26:47.623Z	1c625bc390573176710e64fc5281e295	what:"Henriette Fortuny"		1
+SearchInteraction	2018-02-10T22:27:19.949Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:27.351Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100229430.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:35.078Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048224/00000241.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:42.444Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_190150_inventary_CE111886_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:27:42.503Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:58.238Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157406_inventary_CE106174_table_FMUS_museum_MT.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:28:08.873Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_111932_inventary_CE088527_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:28:10.837Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:34:48.835Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110088_inventary_CE088509_table_FMUS_museum_MT	38	207
+SearchInteraction	2018-02-10T22:35:56.867Z	1c625bc390573176710e64fc5281e295	PROVIDER:"Europeana Fashion"		867177
+SearchInteraction	2018-02-10T22:36:38.053Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:38:11.325Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:38:18.173Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157403_inventary_CE106171_table_FMUS_museum_MT	15	118
+ArbitraryAccessInteraction	2018-02-10T22:38:46.393Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110054_inventary_CE088479_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:38:49.490Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:39:01.203Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:06.291Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110058_inventary_CE088483_table_FMUS_museum_MT	22	118
+SearchInteraction	2018-02-10T22:39:30.569Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:46.454Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110036_inventary_CE088463_table_FMUS_museum_MT	26	118
+SearchInteraction	2018-02-10T22:40:00.109Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:10.405Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:30.221Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:40.500Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:40:50.513Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109798_inventary_CE088400_table_FMUS_museum_MT	81	118
+SearchInteraction	2018-02-10T22:41:17.318Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:41:27.965Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109787_inventary_CE088390_table_FMUS_museum_MT	91	118
+SearchInteraction	2018-02-10T22:41:36.478Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano Lugar de nacimiento: Granada, 1871 - Lugar de defunción: Venecia, 1949)		0
+SearchInteraction	2018-02-10T22:41:48.750Z	1c625bc390573176710e64fc5281e295	DATA_PROVIDER:"CER.ES: Red Digital de Colecciones de museos de España"		256176
+SearchInteraction	2018-02-10T22:41:57.197Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+RefreshOrPaginationInteraction	2018-02-10T22:41:59.307Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:42:08.063Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:24.364Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:32.043Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:42:42.932Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/04101/collection_aspx_p_0848cab7_2776_4648_9003_25957707491a_inv_1914_GN	447	447
+SearchInteraction	2018-02-10T22:43:15.526Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+ArbitraryAccessInteraction	2018-02-10T22:43:21.153Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088467.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:25.304Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MSM_20262.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:41.141Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_10094.html (PortalController#show)
+SearchInteraction	2018-02-10T22:44:15.329Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:44:48.714Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088519	421	447
+RankedRetrieveRecordInteraction	2018-02-10T22:45:02.145Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088496	427	447
+SearchInteraction	2018-02-10T22:15:14.159Z	1c625bc390573176710e64fc5281e295	europeana_collectionName:(9200178_Ag_EU_TEL_a0532_EUcollection14-18_Rome)		4119
+SearchInteraction	2018-02-10T22:18:13.425Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:18:31.091Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:18:41.822Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200495/yoolib_inha_13083	6	2798
+SearchInteraction	2018-02-10T22:19:20.843Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:19:44.959Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+ArbitraryAccessInteraction	2018-02-10T22:21:11.370Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354421.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:11.979Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:21:23.720Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354419.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:34.696Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:21:46.852Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:22:02.872Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100291186.html (PortalController#show)
+SearchInteraction	2018-02-10T22:22:09.132Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:23:52.250Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:39.098Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:53.505Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:25:02.125Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:25:35.175Z	1c625bc390573176710e64fc5281e295	Fortuny		/92062/BibliographicResource_1000126039681	1	2798
+SearchInteraction	2018-02-10T22:25:48.087Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:26:18.468Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+SearchInteraction	2018-02-10T22:26:25.842Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:26:38.007Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/9200376/BibliographicResource_3000100229455	10	207
+SearchInteraction	2018-02-10T22:26:47.623Z	1c625bc390573176710e64fc5281e295	what:"Henriette Fortuny"		1
+SearchInteraction	2018-02-10T22:27:19.949Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:27.351Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100229430.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:35.078Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048224/00000241.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:42.444Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_190150_inventary_CE111886_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:27:42.503Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:58.238Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157406_inventary_CE106174_table_FMUS_museum_MT.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:28:08.873Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_111932_inventary_CE088527_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:28:10.837Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:34:48.835Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110088_inventary_CE088509_table_FMUS_museum_MT	38	207
+SearchInteraction	2018-02-10T22:35:56.867Z	1c625bc390573176710e64fc5281e295	PROVIDER:"Europeana Fashion"		867177
+SearchInteraction	2018-02-10T22:36:38.053Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:38:11.325Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:38:18.173Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157403_inventary_CE106171_table_FMUS_museum_MT	15	118
+ArbitraryAccessInteraction	2018-02-10T22:38:46.393Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110054_inventary_CE088479_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:38:49.490Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:39:01.203Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:06.291Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110058_inventary_CE088483_table_FMUS_museum_MT	22	118
+SearchInteraction	2018-02-10T22:39:30.569Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:46.454Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110036_inventary_CE088463_table_FMUS_museum_MT	26	118
+SearchInteraction	2018-02-10T22:40:00.109Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:10.405Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:30.221Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:40.500Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:40:50.513Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109798_inventary_CE088400_table_FMUS_museum_MT	81	118
+SearchInteraction	2018-02-10T22:41:17.318Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:41:27.965Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109787_inventary_CE088390_table_FMUS_museum_MT	91	118
+SearchInteraction	2018-02-10T22:41:36.478Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano Lugar de nacimiento: Granada, 1871 - Lugar de defunción: Venecia, 1949)		0
+SearchInteraction	2018-02-10T22:41:48.750Z	1c625bc390573176710e64fc5281e295	DATA_PROVIDER:"CER.ES: Red Digital de Colecciones de museos de España"		256176
+SearchInteraction	2018-02-10T22:41:57.197Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+RefreshOrPaginationInteraction	2018-02-10T22:41:59.307Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:42:08.063Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:24.364Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:32.043Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:42:42.932Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/04101/collection_aspx_p_0848cab7_2776_4648_9003_25957707491a_inv_1914_GN	447	447
+SearchInteraction	2018-02-10T22:43:15.526Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+ArbitraryAccessInteraction	2018-02-10T22:43:21.153Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088467.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:25.304Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MSM_20262.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:41.141Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_10094.html (PortalController#show)
+SearchInteraction	2018-02-10T22:44:15.329Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:44:48.714Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088519	421	447
+RankedRetrieveRecordInteraction	2018-02-10T22:45:02.145Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088496	427	447
+SearchInteraction	2018-02-10T22:15:14.159Z	1c625bc390573176710e64fc5281e295	europeana_collectionName:(9200178_Ag_EU_TEL_a0532_EUcollection14-18_Rome)		4119
+SearchInteraction	2018-02-10T22:18:13.425Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:18:31.091Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:18:41.822Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200495/yoolib_inha_13083	6	2798
+SearchInteraction	2018-02-10T22:19:20.843Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:19:44.959Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+ArbitraryAccessInteraction	2018-02-10T22:21:11.370Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354421.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:11.979Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:21:23.720Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354419.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:34.696Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:21:46.852Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:22:02.872Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100291186.html (PortalController#show)
+SearchInteraction	2018-02-10T22:22:09.132Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:23:52.250Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:39.098Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:53.505Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:25:02.125Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:25:35.175Z	1c625bc390573176710e64fc5281e295	Fortuny		/92062/BibliographicResource_1000126039681	1	2798
+SearchInteraction	2018-02-10T22:25:48.087Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:26:18.468Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+SearchInteraction	2018-02-10T22:26:25.842Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:26:38.007Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/9200376/BibliographicResource_3000100229455	10	207
+SearchInteraction	2018-02-10T22:26:47.623Z	1c625bc390573176710e64fc5281e295	what:"Henriette Fortuny"		1
+SearchInteraction	2018-02-10T22:27:19.949Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:27.351Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100229430.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:35.078Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048224/00000241.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:42.444Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_190150_inventary_CE111886_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:27:42.503Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:58.238Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157406_inventary_CE106174_table_FMUS_museum_MT.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:28:08.873Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_111932_inventary_CE088527_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:28:10.837Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:34:48.835Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110088_inventary_CE088509_table_FMUS_museum_MT	38	207
+SearchInteraction	2018-02-10T22:35:56.867Z	1c625bc390573176710e64fc5281e295	PROVIDER:"Europeana Fashion"		867177
+SearchInteraction	2018-02-10T22:36:38.053Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:38:11.325Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:38:18.173Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157403_inventary_CE106171_table_FMUS_museum_MT	15	118
+ArbitraryAccessInteraction	2018-02-10T22:38:46.393Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110054_inventary_CE088479_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:38:49.490Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:39:01.203Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:06.291Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110058_inventary_CE088483_table_FMUS_museum_MT	22	118
+SearchInteraction	2018-02-10T22:39:30.569Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:46.454Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110036_inventary_CE088463_table_FMUS_museum_MT	26	118
+SearchInteraction	2018-02-10T22:40:00.109Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:10.405Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:30.221Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:40.500Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:40:50.513Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109798_inventary_CE088400_table_FMUS_museum_MT	81	118
+SearchInteraction	2018-02-10T22:41:17.318Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:41:27.965Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109787_inventary_CE088390_table_FMUS_museum_MT	91	118
+SearchInteraction	2018-02-10T22:41:36.478Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano Lugar de nacimiento: Granada, 1871 - Lugar de defunción: Venecia, 1949)		0
+SearchInteraction	2018-02-10T22:41:48.750Z	1c625bc390573176710e64fc5281e295	DATA_PROVIDER:"CER.ES: Red Digital de Colecciones de museos de España"		256176
+SearchInteraction	2018-02-10T22:41:57.197Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+RefreshOrPaginationInteraction	2018-02-10T22:41:59.307Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:42:08.063Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:24.364Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:32.043Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:42:42.932Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/04101/collection_aspx_p_0848cab7_2776_4648_9003_25957707491a_inv_1914_GN	447	447
+SearchInteraction	2018-02-10T22:43:15.526Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+ArbitraryAccessInteraction	2018-02-10T22:43:21.153Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088467.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:25.304Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MSM_20262.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:41.141Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_10094.html (PortalController#show)
+SearchInteraction	2018-02-10T22:44:15.329Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:44:48.714Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088519	421	447
+RankedRetrieveRecordInteraction	2018-02-10T22:45:02.145Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088496	427	447
+SearchInteraction	2018-02-10T22:15:14.159Z	1c625bc390573176710e64fc5281e295	europeana_collectionName:(9200178_Ag_EU_TEL_a0532_EUcollection14-18_Rome)		4119
+SearchInteraction	2018-02-10T22:18:13.425Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:18:31.091Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:18:41.822Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200495/yoolib_inha_13083	6	2798
+SearchInteraction	2018-02-10T22:19:20.843Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:19:44.959Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+ArbitraryAccessInteraction	2018-02-10T22:21:11.370Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354421.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:11.979Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:21:23.720Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000136354419.html (PortalController#show)
+SearchInteraction	2018-02-10T22:21:34.696Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:21:46.852Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+ArbitraryAccessInteraction	2018-02-10T22:22:02.872Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100291186.html (PortalController#show)
+SearchInteraction	2018-02-10T22:22:09.132Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:23:52.250Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:39.098Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:24:53.505Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RefreshOrPaginationInteraction	2018-02-10T22:25:02.125Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:25:35.175Z	1c625bc390573176710e64fc5281e295	Fortuny		/92062/BibliographicResource_1000126039681	1	2798
+SearchInteraction	2018-02-10T22:25:48.087Z	1c625bc390573176710e64fc5281e295	Fortuny		2798
+RankedRetrieveRecordInteraction	2018-02-10T22:26:18.468Z	1c625bc390573176710e64fc5281e295	Fortuny		/9200376/BibliographicResource_3000136354430	20	2798
+SearchInteraction	2018-02-10T22:26:25.842Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:26:38.007Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/9200376/BibliographicResource_3000100229455	10	207
+SearchInteraction	2018-02-10T22:26:47.623Z	1c625bc390573176710e64fc5281e295	what:"Henriette Fortuny"		1
+SearchInteraction	2018-02-10T22:27:19.949Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:27.351Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/9200376/BibliographicResource_3000100229430.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:35.078Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048224/00000241.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:27:42.444Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_190150_inventary_CE111886_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:27:42.503Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+ArbitraryAccessInteraction	2018-02-10T22:27:58.238Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157406_inventary_CE106174_table_FMUS_museum_MT.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:28:08.873Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_111932_inventary_CE088527_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:28:10.837Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		207
+RankedRetrieveRecordInteraction	2018-02-10T22:34:48.835Z	1c625bc390573176710e64fc5281e295	who:(Mariano Fortuny y Madrazo)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110088_inventary_CE088509_table_FMUS_museum_MT	38	207
+SearchInteraction	2018-02-10T22:35:56.867Z	1c625bc390573176710e64fc5281e295	PROVIDER:"Europeana Fashion"		867177
+SearchInteraction	2018-02-10T22:36:38.053Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:38:11.325Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:38:18.173Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_157403_inventary_CE106171_table_FMUS_museum_MT	15	118
+ArbitraryAccessInteraction	2018-02-10T22:38:46.393Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110054_inventary_CE088479_table_FMUS_museum_MT.html (PortalController#show)
+SearchInteraction	2018-02-10T22:38:49.490Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:39:01.203Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:06.291Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110058_inventary_CE088483_table_FMUS_museum_MT	22	118
+SearchInteraction	2018-02-10T22:39:30.569Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:39:46.454Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_110036_inventary_CE088463_table_FMUS_museum_MT	26	118
+SearchInteraction	2018-02-10T22:40:00.109Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:10.405Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:30.221Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RefreshOrPaginationInteraction	2018-02-10T22:40:40.500Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:40:50.513Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109798_inventary_CE088400_table_FMUS_museum_MT	81	118
+SearchInteraction	2018-02-10T22:41:17.318Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		118
+RankedRetrieveRecordInteraction	2018-02-10T22:41:27.965Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano  Designer)		/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_109787_inventary_CE088390_table_FMUS_museum_MT	91	118
+SearchInteraction	2018-02-10T22:41:36.478Z	1c625bc390573176710e64fc5281e295	who:(Fortuny y Madrazo, Mariano Lugar de nacimiento: Granada, 1871 - Lugar de defunción: Venecia, 1949)		0
+SearchInteraction	2018-02-10T22:41:48.750Z	1c625bc390573176710e64fc5281e295	DATA_PROVIDER:"CER.ES: Red Digital de Colecciones de museos de España"		256176
+SearchInteraction	2018-02-10T22:41:57.197Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+RefreshOrPaginationInteraction	2018-02-10T22:41:59.307Z	1c625bc390573176710e64fc5281e295	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T22:42:08.063Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:24.364Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RefreshOrPaginationInteraction	2018-02-10T22:42:32.043Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:42:42.932Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/04101/collection_aspx_p_0848cab7_2776_4648_9003_25957707491a_inv_1914_GN	447	447
+SearchInteraction	2018-02-10T22:43:15.526Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+ArbitraryAccessInteraction	2018-02-10T22:43:21.153Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088467.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:25.304Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MSM_20262.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-10T22:43:41.141Z	1c625bc390573176710e64fc5281e295	[200] GET /portal/nl/record/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_10094.html (PortalController#show)
+SearchInteraction	2018-02-10T22:44:15.329Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		447
+RankedRetrieveRecordInteraction	2018-02-10T22:44:48.714Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088519	421	447
+RankedRetrieveRecordInteraction	2018-02-10T22:45:02.145Z	1c625bc390573176710e64fc5281e295	Mariano Fortuny		/2022703/oai_euromuseos_mcu_es_euromuseos_MT_CE088496	427	447

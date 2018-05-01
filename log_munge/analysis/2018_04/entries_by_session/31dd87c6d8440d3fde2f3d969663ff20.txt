@@ -1,0 +1,60 @@
+SearchInteraction	2018-02-08T19:41:48.630Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		1171
+CollectionFilterAdditionInteraction	2018-02-09T09:31:34.199Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		0
+SearchInteraction	2018-02-09T09:31:37.732Z	31dd87c6d8440d3fde2f3d969663ff20	Jan Umbach		0
+SearchInteraction	2018-02-09T09:31:42.824Z	31dd87c6d8440d3fde2f3d969663ff20	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-09T09:31:51.101Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RefreshOrPaginationInteraction	2018-02-09T09:32:06.195Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RankedRetrieveRecordInteraction	2018-02-09T09:32:24.767Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/92062/BibliographicResource_1000126153224	2	213
+ArbitraryAccessInteraction	2018-02-09T09:32:51.374Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/92062/BibliographicResource_1000126153208.html (PortalController#show)
+SearchInteraction	2018-02-09T09:33:13.275Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		1
+RankedRetrieveRecordInteraction	2018-02-09T09:33:23.367Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/2048077/Athena_Plus_ProvidedCHO_Staatliche_Graphische_Sammlung_M_nchen___Digitaler_Portr_tindex_obj_34702043	1	1
+ArbitraryAccessInteraction	2018-02-09T09:34:21.054Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/2048077/Athena_Plus_ProvidedCHO_Germanisches_Nationalmuseum_N_rnberg___Digitaler_Portr_tindex_obj_33807981.html (PortalController#show)
+SearchInteraction	2018-02-09T09:36:00.632Z	31dd87c6d8440d3fde2f3d969663ff20	who:(Scholastika Heilige)		2
+SearchInteraction	2018-02-08T19:41:48.630Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		1171
+CollectionFilterAdditionInteraction	2018-02-09T09:31:34.199Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		0
+SearchInteraction	2018-02-09T09:31:37.732Z	31dd87c6d8440d3fde2f3d969663ff20	Jan Umbach		0
+SearchInteraction	2018-02-09T09:31:42.824Z	31dd87c6d8440d3fde2f3d969663ff20	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-09T09:31:51.101Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RefreshOrPaginationInteraction	2018-02-09T09:32:06.195Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RankedRetrieveRecordInteraction	2018-02-09T09:32:24.767Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/92062/BibliographicResource_1000126153224	2	213
+ArbitraryAccessInteraction	2018-02-09T09:32:51.374Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/92062/BibliographicResource_1000126153208.html (PortalController#show)
+SearchInteraction	2018-02-09T09:33:13.275Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		1
+RankedRetrieveRecordInteraction	2018-02-09T09:33:23.367Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/2048077/Athena_Plus_ProvidedCHO_Staatliche_Graphische_Sammlung_M_nchen___Digitaler_Portr_tindex_obj_34702043	1	1
+ArbitraryAccessInteraction	2018-02-09T09:34:21.054Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/2048077/Athena_Plus_ProvidedCHO_Germanisches_Nationalmuseum_N_rnberg___Digitaler_Portr_tindex_obj_33807981.html (PortalController#show)
+SearchInteraction	2018-02-09T09:36:00.632Z	31dd87c6d8440d3fde2f3d969663ff20	who:(Scholastika Heilige)		2
+SearchInteraction	2018-02-08T19:41:48.630Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		1171
+CollectionFilterAdditionInteraction	2018-02-09T09:31:34.199Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		0
+SearchInteraction	2018-02-09T09:31:37.732Z	31dd87c6d8440d3fde2f3d969663ff20	Jan Umbach		0
+SearchInteraction	2018-02-09T09:31:42.824Z	31dd87c6d8440d3fde2f3d969663ff20	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-09T09:31:51.101Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RefreshOrPaginationInteraction	2018-02-09T09:32:06.195Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RankedRetrieveRecordInteraction	2018-02-09T09:32:24.767Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/92062/BibliographicResource_1000126153224	2	213
+ArbitraryAccessInteraction	2018-02-09T09:32:51.374Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/92062/BibliographicResource_1000126153208.html (PortalController#show)
+SearchInteraction	2018-02-09T09:33:13.275Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		1
+RankedRetrieveRecordInteraction	2018-02-09T09:33:23.367Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/2048077/Athena_Plus_ProvidedCHO_Staatliche_Graphische_Sammlung_M_nchen___Digitaler_Portr_tindex_obj_34702043	1	1
+ArbitraryAccessInteraction	2018-02-09T09:34:21.054Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/2048077/Athena_Plus_ProvidedCHO_Germanisches_Nationalmuseum_N_rnberg___Digitaler_Portr_tindex_obj_33807981.html (PortalController#show)
+SearchInteraction	2018-02-09T09:36:00.632Z	31dd87c6d8440d3fde2f3d969663ff20	who:(Scholastika Heilige)		2
+SearchInteraction	2018-02-08T19:41:48.630Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		1171
+CollectionFilterAdditionInteraction	2018-02-09T09:31:34.199Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		0
+SearchInteraction	2018-02-09T09:31:37.732Z	31dd87c6d8440d3fde2f3d969663ff20	Jan Umbach		0
+SearchInteraction	2018-02-09T09:31:42.824Z	31dd87c6d8440d3fde2f3d969663ff20	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-09T09:31:51.101Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RefreshOrPaginationInteraction	2018-02-09T09:32:06.195Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RankedRetrieveRecordInteraction	2018-02-09T09:32:24.767Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/92062/BibliographicResource_1000126153224	2	213
+ArbitraryAccessInteraction	2018-02-09T09:32:51.374Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/92062/BibliographicResource_1000126153208.html (PortalController#show)
+SearchInteraction	2018-02-09T09:33:13.275Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		1
+RankedRetrieveRecordInteraction	2018-02-09T09:33:23.367Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/2048077/Athena_Plus_ProvidedCHO_Staatliche_Graphische_Sammlung_M_nchen___Digitaler_Portr_tindex_obj_34702043	1	1
+ArbitraryAccessInteraction	2018-02-09T09:34:21.054Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/2048077/Athena_Plus_ProvidedCHO_Germanisches_Nationalmuseum_N_rnberg___Digitaler_Portr_tindex_obj_33807981.html (PortalController#show)
+SearchInteraction	2018-02-09T09:36:00.632Z	31dd87c6d8440d3fde2f3d969663ff20	who:(Scholastika Heilige)		2
+SearchInteraction	2018-02-08T19:41:48.630Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		1171
+CollectionFilterAdditionInteraction	2018-02-09T09:31:34.199Z	31dd87c6d8440d3fde2f3d969663ff20	scholastica		0
+SearchInteraction	2018-02-09T09:31:37.732Z	31dd87c6d8440d3fde2f3d969663ff20	Jan Umbach		0
+SearchInteraction	2018-02-09T09:31:42.824Z	31dd87c6d8440d3fde2f3d969663ff20	NO VALUE PROVIDED		51533591
+SearchInteraction	2018-02-09T09:31:51.101Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RefreshOrPaginationInteraction	2018-02-09T09:32:06.195Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		213
+RankedRetrieveRecordInteraction	2018-02-09T09:32:24.767Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/92062/BibliographicResource_1000126153224	2	213
+ArbitraryAccessInteraction	2018-02-09T09:32:51.374Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/92062/BibliographicResource_1000126153208.html (PortalController#show)
+SearchInteraction	2018-02-09T09:33:13.275Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		1
+RankedRetrieveRecordInteraction	2018-02-09T09:33:23.367Z	31dd87c6d8440d3fde2f3d969663ff20	Jonas Umbach		/2048077/Athena_Plus_ProvidedCHO_Staatliche_Graphische_Sammlung_M_nchen___Digitaler_Portr_tindex_obj_34702043	1	1
+ArbitraryAccessInteraction	2018-02-09T09:34:21.054Z	31dd87c6d8440d3fde2f3d969663ff20	[200] GET /portal/lt/record/2048077/Athena_Plus_ProvidedCHO_Germanisches_Nationalmuseum_N_rnberg___Digitaler_Portr_tindex_obj_33807981.html (PortalController#show)
+SearchInteraction	2018-02-09T09:36:00.632Z	31dd87c6d8440d3fde2f3d969663ff20	who:(Scholastika Heilige)		2

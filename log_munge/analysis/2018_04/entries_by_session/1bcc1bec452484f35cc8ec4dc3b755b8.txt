@@ -1,0 +1,100 @@
+SearchInteraction	2018-03-06T08:41:40.902Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RefreshOrPaginationInteraction	2018-03-06T08:42:13.446Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RankedRetrieveRecordInteraction	2018-03-06T08:43:06.600Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		/90402/RP_T_1997_33	2	57
+SearchInteraction	2018-03-06T08:57:22.230Z	1bcc1bec452484f35cc8ec4dc3b755b8	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-03-06T08:57:46.577Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	12
+RankedRetrieveRecordInteraction	2018-03-06T08:58:24.825Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/15514/KI_14145_1231_3	9	12
+RankedRetrieveRecordInteraction	2018-03-06T09:01:42.249Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_309432	12	12
+SearchInteraction	2018-03-06T09:02:20.259Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:34.303Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:41.524Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:48.532Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+CollectionFilterRemovalInteraction	2018-03-06T09:03:24.372Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-03-06T09:03:45.061Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2024903/photography_ProvidedCHO_KU_Leuven_008808011	3	8
+SearchInteraction	2018-03-06T09:16:57.796Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T09:17:03.027Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2063629/AUS_280_005	1	20
+RankedRetrieveRecordInteraction	2018-03-06T11:42:03.829Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_4494	2	20
+SearchInteraction	2018-03-06T11:44:29.185Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T11:44:37.165Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_2504	3	20
+SearchInteraction	2018-03-06T11:47:33.979Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		0
+CollectionFilterRemovalInteraction	2018-03-06T11:47:50.310Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+SearchInteraction	2018-03-06T08:41:40.902Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RefreshOrPaginationInteraction	2018-03-06T08:42:13.446Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RankedRetrieveRecordInteraction	2018-03-06T08:43:06.600Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		/90402/RP_T_1997_33	2	57
+SearchInteraction	2018-03-06T08:57:22.230Z	1bcc1bec452484f35cc8ec4dc3b755b8	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-03-06T08:57:46.577Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	12
+RankedRetrieveRecordInteraction	2018-03-06T08:58:24.825Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/15514/KI_14145_1231_3	9	12
+RankedRetrieveRecordInteraction	2018-03-06T09:01:42.249Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_309432	12	12
+SearchInteraction	2018-03-06T09:02:20.259Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:34.303Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:41.524Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:48.532Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+CollectionFilterRemovalInteraction	2018-03-06T09:03:24.372Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-03-06T09:03:45.061Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2024903/photography_ProvidedCHO_KU_Leuven_008808011	3	8
+SearchInteraction	2018-03-06T09:16:57.796Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T09:17:03.027Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2063629/AUS_280_005	1	20
+RankedRetrieveRecordInteraction	2018-03-06T11:42:03.829Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_4494	2	20
+SearchInteraction	2018-03-06T11:44:29.185Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T11:44:37.165Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_2504	3	20
+SearchInteraction	2018-03-06T11:47:33.979Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		0
+CollectionFilterRemovalInteraction	2018-03-06T11:47:50.310Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+SearchInteraction	2018-03-06T08:41:40.902Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RefreshOrPaginationInteraction	2018-03-06T08:42:13.446Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RankedRetrieveRecordInteraction	2018-03-06T08:43:06.600Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		/90402/RP_T_1997_33	2	57
+SearchInteraction	2018-03-06T08:57:22.230Z	1bcc1bec452484f35cc8ec4dc3b755b8	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-03-06T08:57:46.577Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	12
+RankedRetrieveRecordInteraction	2018-03-06T08:58:24.825Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/15514/KI_14145_1231_3	9	12
+RankedRetrieveRecordInteraction	2018-03-06T09:01:42.249Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_309432	12	12
+SearchInteraction	2018-03-06T09:02:20.259Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:34.303Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:41.524Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:48.532Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+CollectionFilterRemovalInteraction	2018-03-06T09:03:24.372Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-03-06T09:03:45.061Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2024903/photography_ProvidedCHO_KU_Leuven_008808011	3	8
+SearchInteraction	2018-03-06T09:16:57.796Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T09:17:03.027Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2063629/AUS_280_005	1	20
+RankedRetrieveRecordInteraction	2018-03-06T11:42:03.829Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_4494	2	20
+SearchInteraction	2018-03-06T11:44:29.185Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T11:44:37.165Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_2504	3	20
+SearchInteraction	2018-03-06T11:47:33.979Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		0
+CollectionFilterRemovalInteraction	2018-03-06T11:47:50.310Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+SearchInteraction	2018-03-06T08:41:40.902Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RefreshOrPaginationInteraction	2018-03-06T08:42:13.446Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RankedRetrieveRecordInteraction	2018-03-06T08:43:06.600Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		/90402/RP_T_1997_33	2	57
+SearchInteraction	2018-03-06T08:57:22.230Z	1bcc1bec452484f35cc8ec4dc3b755b8	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-03-06T08:57:46.577Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	12
+RankedRetrieveRecordInteraction	2018-03-06T08:58:24.825Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/15514/KI_14145_1231_3	9	12
+RankedRetrieveRecordInteraction	2018-03-06T09:01:42.249Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_309432	12	12
+SearchInteraction	2018-03-06T09:02:20.259Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:34.303Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:41.524Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:48.532Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+CollectionFilterRemovalInteraction	2018-03-06T09:03:24.372Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-03-06T09:03:45.061Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2024903/photography_ProvidedCHO_KU_Leuven_008808011	3	8
+SearchInteraction	2018-03-06T09:16:57.796Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T09:17:03.027Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2063629/AUS_280_005	1	20
+RankedRetrieveRecordInteraction	2018-03-06T11:42:03.829Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_4494	2	20
+SearchInteraction	2018-03-06T11:44:29.185Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T11:44:37.165Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_2504	3	20
+SearchInteraction	2018-03-06T11:47:33.979Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		0
+CollectionFilterRemovalInteraction	2018-03-06T11:47:50.310Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+SearchInteraction	2018-03-06T08:41:40.902Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RefreshOrPaginationInteraction	2018-03-06T08:42:13.446Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		57
+RankedRetrieveRecordInteraction	2018-03-06T08:43:06.600Z	1bcc1bec452484f35cc8ec4dc3b755b8	klimt		/90402/RP_T_1997_33	2	57
+SearchInteraction	2018-03-06T08:57:22.230Z	1bcc1bec452484f35cc8ec4dc3b755b8	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	830702
+SearchInteraction	2018-03-06T08:57:46.577Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	12
+RankedRetrieveRecordInteraction	2018-03-06T08:58:24.825Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/15514/KI_14145_1231_3	9	12
+RankedRetrieveRecordInteraction	2018-03-06T09:01:42.249Z	1bcc1bec452484f35cc8ec4dc3b755b8	schiele	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_309432	12	12
+SearchInteraction	2018-03-06T09:02:20.259Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:34.303Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:41.524Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+RefreshOrPaginationInteraction	2018-03-06T09:02:48.532Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	1526
+CollectionFilterRemovalInteraction	2018-03-06T09:03:24.372Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	8
+RankedRetrieveRecordInteraction	2018-03-06T09:03:45.061Z	1bcc1bec452484f35cc8ec4dc3b755b8	Peter Paul Rubens	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2024903/photography_ProvidedCHO_KU_Leuven_008808011	3	8
+SearchInteraction	2018-03-06T09:16:57.796Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T09:17:03.027Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2063629/AUS_280_005	1	20
+RankedRetrieveRecordInteraction	2018-03-06T11:42:03.829Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_4494	2	20
+SearchInteraction	2018-03-06T11:44:29.185Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20
+RankedRetrieveRecordInteraction	2018-03-06T11:44:37.165Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_2504	3	20
+SearchInteraction	2018-03-06T11:47:33.979Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		0
+CollectionFilterRemovalInteraction	2018-03-06T11:47:50.310Z	1bcc1bec452484f35cc8ec4dc3b755b8	Gustav Klimt		20

@@ -1,0 +1,125 @@
+SearchInteraction	2018-01-16T17:26:20.681Z	fd99495477ae948a0c48307a015f74f9	bizantine art		30
+ArbitraryAccessInteraction	2018-01-29T18:15:23.175Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802135.html (PortalController#show)
+SearchInteraction	2018-01-29T18:16:03.761Z	fd99495477ae948a0c48307a015f74f9	aesopus		976
+RankedRetrieveRecordInteraction	2018-01-29T18:16:08.893Z	fd99495477ae948a0c48307a015f74f9	aesopus		/92078/BibliographicResource_2000068802132	4	976
+SearchInteraction	2018-01-29T18:16:17.962Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1030"		92
+ArbitraryAccessInteraction	2018-01-29T19:01:44.226Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92093/BibliographicResource_1000086149533.html (PortalController#show)
+SearchInteraction	2018-01-29T19:02:04.797Z	fd99495477ae948a0c48307a015f74f9	bellum iudaicum		9
+ArbitraryAccessInteraction	2018-02-05T09:58:33.562Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802099.html (PortalController#show)
+SearchInteraction	2018-02-05T14:30:28.017Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:51.688Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:57.238Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+SearchInteraction	2018-02-05T14:31:01.671Z	fd99495477ae948a0c48307a015f74f9	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T14:31:15.649Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+RefreshOrPaginationInteraction	2018-02-05T14:31:34.457Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+SearchInteraction	2018-02-05T14:31:43.494Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+RefreshOrPaginationInteraction	2018-02-05T14:31:44.427Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+CollectionFilterRemovalInteraction	2018-02-05T14:31:53.420Z	fd99495477ae948a0c48307a015f74f9	acquaviva		5
+ArbitraryAccessInteraction	2018-02-22T21:09:32.984Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126259049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T21:09:47.519Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126257991.html (PortalController#show)
+SearchInteraction	2018-02-22T21:10:30.117Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.123Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.322Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+SearchInteraction	2018-02-22T21:10:47.966Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1348"		33326
+ArbitraryAccessInteraction	2018-03-01T20:38:05.403Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/92081/BibliographicResource_1000157170782.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T06:46:25.037Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20280552_1_029_483.html (PortalController#show)
+SearchInteraction	2018-01-16T17:26:20.681Z	fd99495477ae948a0c48307a015f74f9	bizantine art		30
+ArbitraryAccessInteraction	2018-01-29T18:15:23.175Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802135.html (PortalController#show)
+SearchInteraction	2018-01-29T18:16:03.761Z	fd99495477ae948a0c48307a015f74f9	aesopus		976
+RankedRetrieveRecordInteraction	2018-01-29T18:16:08.893Z	fd99495477ae948a0c48307a015f74f9	aesopus		/92078/BibliographicResource_2000068802132	4	976
+SearchInteraction	2018-01-29T18:16:17.962Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1030"		92
+ArbitraryAccessInteraction	2018-01-29T19:01:44.226Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92093/BibliographicResource_1000086149533.html (PortalController#show)
+SearchInteraction	2018-01-29T19:02:04.797Z	fd99495477ae948a0c48307a015f74f9	bellum iudaicum		9
+ArbitraryAccessInteraction	2018-02-05T09:58:33.562Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802099.html (PortalController#show)
+SearchInteraction	2018-02-05T14:30:28.017Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:51.688Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:57.238Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+SearchInteraction	2018-02-05T14:31:01.671Z	fd99495477ae948a0c48307a015f74f9	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T14:31:15.649Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+RefreshOrPaginationInteraction	2018-02-05T14:31:34.457Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+SearchInteraction	2018-02-05T14:31:43.494Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+RefreshOrPaginationInteraction	2018-02-05T14:31:44.427Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+CollectionFilterRemovalInteraction	2018-02-05T14:31:53.420Z	fd99495477ae948a0c48307a015f74f9	acquaviva		5
+ArbitraryAccessInteraction	2018-02-22T21:09:32.984Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126259049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T21:09:47.519Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126257991.html (PortalController#show)
+SearchInteraction	2018-02-22T21:10:30.117Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.123Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.322Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+SearchInteraction	2018-02-22T21:10:47.966Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1348"		33326
+ArbitraryAccessInteraction	2018-03-01T20:38:05.403Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/92081/BibliographicResource_1000157170782.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T06:46:25.037Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20280552_1_029_483.html (PortalController#show)
+SearchInteraction	2018-01-16T17:26:20.681Z	fd99495477ae948a0c48307a015f74f9	bizantine art		30
+ArbitraryAccessInteraction	2018-01-29T18:15:23.175Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802135.html (PortalController#show)
+SearchInteraction	2018-01-29T18:16:03.761Z	fd99495477ae948a0c48307a015f74f9	aesopus		976
+RankedRetrieveRecordInteraction	2018-01-29T18:16:08.893Z	fd99495477ae948a0c48307a015f74f9	aesopus		/92078/BibliographicResource_2000068802132	4	976
+SearchInteraction	2018-01-29T18:16:17.962Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1030"		92
+ArbitraryAccessInteraction	2018-01-29T19:01:44.226Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92093/BibliographicResource_1000086149533.html (PortalController#show)
+SearchInteraction	2018-01-29T19:02:04.797Z	fd99495477ae948a0c48307a015f74f9	bellum iudaicum		9
+ArbitraryAccessInteraction	2018-02-05T09:58:33.562Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802099.html (PortalController#show)
+SearchInteraction	2018-02-05T14:30:28.017Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:51.688Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:57.238Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+SearchInteraction	2018-02-05T14:31:01.671Z	fd99495477ae948a0c48307a015f74f9	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T14:31:15.649Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+RefreshOrPaginationInteraction	2018-02-05T14:31:34.457Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+SearchInteraction	2018-02-05T14:31:43.494Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+RefreshOrPaginationInteraction	2018-02-05T14:31:44.427Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+CollectionFilterRemovalInteraction	2018-02-05T14:31:53.420Z	fd99495477ae948a0c48307a015f74f9	acquaviva		5
+ArbitraryAccessInteraction	2018-02-22T21:09:32.984Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126259049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T21:09:47.519Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126257991.html (PortalController#show)
+SearchInteraction	2018-02-22T21:10:30.117Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.123Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.322Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+SearchInteraction	2018-02-22T21:10:47.966Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1348"		33326
+ArbitraryAccessInteraction	2018-03-01T20:38:05.403Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/92081/BibliographicResource_1000157170782.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T06:46:25.037Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20280552_1_029_483.html (PortalController#show)
+SearchInteraction	2018-01-16T17:26:20.681Z	fd99495477ae948a0c48307a015f74f9	bizantine art		30
+ArbitraryAccessInteraction	2018-01-29T18:15:23.175Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802135.html (PortalController#show)
+SearchInteraction	2018-01-29T18:16:03.761Z	fd99495477ae948a0c48307a015f74f9	aesopus		976
+RankedRetrieveRecordInteraction	2018-01-29T18:16:08.893Z	fd99495477ae948a0c48307a015f74f9	aesopus		/92078/BibliographicResource_2000068802132	4	976
+SearchInteraction	2018-01-29T18:16:17.962Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1030"		92
+ArbitraryAccessInteraction	2018-01-29T19:01:44.226Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92093/BibliographicResource_1000086149533.html (PortalController#show)
+SearchInteraction	2018-01-29T19:02:04.797Z	fd99495477ae948a0c48307a015f74f9	bellum iudaicum		9
+ArbitraryAccessInteraction	2018-02-05T09:58:33.562Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802099.html (PortalController#show)
+SearchInteraction	2018-02-05T14:30:28.017Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:51.688Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:57.238Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+SearchInteraction	2018-02-05T14:31:01.671Z	fd99495477ae948a0c48307a015f74f9	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T14:31:15.649Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+RefreshOrPaginationInteraction	2018-02-05T14:31:34.457Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+SearchInteraction	2018-02-05T14:31:43.494Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+RefreshOrPaginationInteraction	2018-02-05T14:31:44.427Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+CollectionFilterRemovalInteraction	2018-02-05T14:31:53.420Z	fd99495477ae948a0c48307a015f74f9	acquaviva		5
+ArbitraryAccessInteraction	2018-02-22T21:09:32.984Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126259049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T21:09:47.519Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126257991.html (PortalController#show)
+SearchInteraction	2018-02-22T21:10:30.117Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.123Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.322Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+SearchInteraction	2018-02-22T21:10:47.966Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1348"		33326
+ArbitraryAccessInteraction	2018-03-01T20:38:05.403Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/92081/BibliographicResource_1000157170782.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T06:46:25.037Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20280552_1_029_483.html (PortalController#show)
+SearchInteraction	2018-01-16T17:26:20.681Z	fd99495477ae948a0c48307a015f74f9	bizantine art		30
+ArbitraryAccessInteraction	2018-01-29T18:15:23.175Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802135.html (PortalController#show)
+SearchInteraction	2018-01-29T18:16:03.761Z	fd99495477ae948a0c48307a015f74f9	aesopus		976
+RankedRetrieveRecordInteraction	2018-01-29T18:16:08.893Z	fd99495477ae948a0c48307a015f74f9	aesopus		/92078/BibliographicResource_2000068802132	4	976
+SearchInteraction	2018-01-29T18:16:17.962Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1030"		92
+ArbitraryAccessInteraction	2018-01-29T19:01:44.226Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92093/BibliographicResource_1000086149533.html (PortalController#show)
+SearchInteraction	2018-01-29T19:02:04.797Z	fd99495477ae948a0c48307a015f74f9	bellum iudaicum		9
+ArbitraryAccessInteraction	2018-02-05T09:58:33.562Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/92078/BibliographicResource_2000068802099.html (PortalController#show)
+SearchInteraction	2018-02-05T14:30:28.017Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:51.688Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+RefreshOrPaginationInteraction	2018-02-05T14:30:57.238Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo"		109
+SearchInteraction	2018-02-05T14:31:01.671Z	fd99495477ae948a0c48307a015f74f9	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T14:31:15.649Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+RefreshOrPaginationInteraction	2018-02-05T14:31:34.457Z	fd99495477ae948a0c48307a015f74f9	"andrea matteo III"		1
+SearchInteraction	2018-02-05T14:31:43.494Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+RefreshOrPaginationInteraction	2018-02-05T14:31:44.427Z	fd99495477ae948a0c48307a015f74f9	acquaviva		2643
+CollectionFilterRemovalInteraction	2018-02-05T14:31:53.420Z	fd99495477ae948a0c48307a015f74f9	acquaviva		5
+ArbitraryAccessInteraction	2018-02-22T21:09:32.984Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126259049.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T21:09:47.519Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/it/record/9200397/BibliographicResource_3000126257991.html (PortalController#show)
+SearchInteraction	2018-02-22T21:10:30.117Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.123Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+RankedRetrieveRecordInteraction	2018-02-22T21:10:33.322Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://www.bl.uk/catalogues/illuminatedmanuscripts/record.asp?MSID=3855"		/9200397/BibliographicResource_3000126270588	1	2
+SearchInteraction	2018-02-22T21:10:47.966Z	fd99495477ae948a0c48307a015f74f9	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1348"		33326
+ArbitraryAccessInteraction	2018-03-01T20:38:05.403Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/92081/BibliographicResource_1000157170782.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-12T06:46:25.037Z	fd99495477ae948a0c48307a015f74f9	[200] GET /portal/en/record/08501/Athena_Update_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20280552_1_029_483.html (PortalController#show)

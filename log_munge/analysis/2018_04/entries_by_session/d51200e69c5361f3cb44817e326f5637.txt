@@ -1,0 +1,60 @@
+ArbitraryAccessInteraction	2018-02-22T20:38:35.783Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:39:37.478Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11203.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:43:32.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+SearchInteraction	2018-02-22T20:43:42.259Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+RefreshOrPaginationInteraction	2018-02-22T20:44:44.814Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+SearchInteraction	2018-02-22T20:45:30.548Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+RefreshOrPaginationInteraction	2018-02-22T20:45:33.932Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+SearchInteraction	2018-02-22T20:45:45.264Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-22T20:45:51.181Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000036972_1	2	3
+ArbitraryAccessInteraction	2018-02-22T20:47:52.583Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_12749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:48:56.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_13059.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:49:16.360Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11494.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:38:35.783Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:39:37.478Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11203.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:43:32.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+SearchInteraction	2018-02-22T20:43:42.259Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+RefreshOrPaginationInteraction	2018-02-22T20:44:44.814Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+SearchInteraction	2018-02-22T20:45:30.548Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+RefreshOrPaginationInteraction	2018-02-22T20:45:33.932Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+SearchInteraction	2018-02-22T20:45:45.264Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-22T20:45:51.181Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000036972_1	2	3
+ArbitraryAccessInteraction	2018-02-22T20:47:52.583Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_12749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:48:56.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_13059.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:49:16.360Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11494.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:38:35.783Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:39:37.478Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11203.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:43:32.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+SearchInteraction	2018-02-22T20:43:42.259Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+RefreshOrPaginationInteraction	2018-02-22T20:44:44.814Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+SearchInteraction	2018-02-22T20:45:30.548Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+RefreshOrPaginationInteraction	2018-02-22T20:45:33.932Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+SearchInteraction	2018-02-22T20:45:45.264Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-22T20:45:51.181Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000036972_1	2	3
+ArbitraryAccessInteraction	2018-02-22T20:47:52.583Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_12749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:48:56.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_13059.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:49:16.360Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11494.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:38:35.783Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:39:37.478Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11203.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:43:32.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+SearchInteraction	2018-02-22T20:43:42.259Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+RefreshOrPaginationInteraction	2018-02-22T20:44:44.814Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+SearchInteraction	2018-02-22T20:45:30.548Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+RefreshOrPaginationInteraction	2018-02-22T20:45:33.932Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+SearchInteraction	2018-02-22T20:45:45.264Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-22T20:45:51.181Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000036972_1	2	3
+ArbitraryAccessInteraction	2018-02-22T20:47:52.583Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_12749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:48:56.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_13059.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:49:16.360Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11494.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:38:35.783Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:39:37.478Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11203.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:43:32.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11666.html (PortalController#show)
+SearchInteraction	2018-02-22T20:43:42.259Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+RefreshOrPaginationInteraction	2018-02-22T20:44:44.814Z	d51200e69c5361f3cb44817e326f5637	proxy_dc_publisher:"Βιβλιοθήκη και Κέντρο Πληροφόρησης Πανεπιστημίου Θεσσαλίας"		24
+SearchInteraction	2018-02-22T20:45:30.548Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+RefreshOrPaginationInteraction	2018-02-22T20:45:33.932Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true']}	110
+SearchInteraction	2018-02-22T20:45:45.264Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	3
+RankedRetrieveRecordInteraction	2018-02-22T20:45:51.181Z	d51200e69c5361f3cb44817e326f5637	jazz	{'MEDIA': ['true'], 'TYPE': ['VIDEO']}	/08602/avCreation_luce_it_IL_avCreation_IL5000036972_1	2	3
+ArbitraryAccessInteraction	2018-02-22T20:47:52.583Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_12749.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:48:56.533Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_13059.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-22T20:49:16.360Z	d51200e69c5361f3cb44817e326f5637	[200] GET /portal/en/record/2021728/10797_11494.html (PortalController#show)

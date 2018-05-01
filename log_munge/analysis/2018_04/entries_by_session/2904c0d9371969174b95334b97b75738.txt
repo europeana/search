@@ -1,0 +1,480 @@
+SearchInteraction	2018-02-15T21:55:50.994Z	2904c0d9371969174b95334b97b75738	vescovo valussi		0
+SearchInteraction	2018-02-15T21:56:00.538Z	2904c0d9371969174b95334b97b75738	valussi		3
+SearchInteraction	2018-02-15T21:56:26.792Z	2904c0d9371969174b95334b97b75738	antivari		38
+RefreshOrPaginationInteraction	2018-02-15T21:57:00.474Z	2904c0d9371969174b95334b97b75738	antivari		38
+SearchInteraction	2018-02-15T22:14:45.821Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:15:06.267Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-15T22:19:09.669Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:19:29.382Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:20:51.799Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+SearchInteraction	2018-02-15T22:21:24.330Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:21:42.812Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:22:33.402Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:22:46.995Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:19.024Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:31.269Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:41.962Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:52.850Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:01.072Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:10.965Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:19.761Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:29:48.083Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:34:23.727Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:33.888Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:35.122Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:50:04.326Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:51:04.503Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9032686_custom_att_2_simple_viewer	22	210
+SearchInteraction	2018-02-15T22:53:41.679Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:54:39.885Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:55:59.201Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:56:12.216Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9004519_custom_att_2_simple_viewer	36	210
+ArbitraryAccessInteraction	2018-02-15T22:59:09.383Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9042229_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:28.483Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9006190_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:42.468Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9003076_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:01:20.196Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9043750_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:02:53.446Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9001687_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:03:19.715Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9000256_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-15T23:03:39.337Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:04:30.467Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:05.563Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_8898984_custom_att_2_simple_viewer	57	210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:51.539Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_7202064_custom_att_2_simple_viewer	60	210
+SearchInteraction	2018-02-15T23:07:05.959Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:07:35.425Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:08:22.819Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6414832_custom_att_2_simple_viewer	79	210
+RankedRetrieveRecordInteraction	2018-02-15T23:10:12.313Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6413011_custom_att_2_simple_viewer	80	210
+RankedRetrieveRecordInteraction	2018-02-15T23:15:50.014Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6411526_custom_att_2_simple_viewer	81	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:14.023Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6410149_custom_att_2_simple_viewer	82	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:41.301Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6408364_custom_att_2_simple_viewer	83	210
+SearchInteraction	2018-02-15T23:19:26.281Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:19:40.146Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6401206_custom_att_2_simple_viewer	86	210
+RankedRetrieveRecordInteraction	2018-02-15T23:20:46.473Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6398359_custom_att_2_simple_viewer	87	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:08.498Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6246048_custom_att_2_simple_viewer	91	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:50.020Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6238130_custom_att_2_simple_viewer	96	210
+SearchInteraction	2018-02-15T23:24:03.639Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:24:17.345Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6218010_custom_att_2_simple_viewer	99	210
+RankedRetrieveRecordInteraction	2018-02-15T23:27:46.740Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6209360_custom_att_2_simple_viewer	100	210
+SearchInteraction	2018-02-15T23:29:31.738Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:29:57.847Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:30:19.515Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+RankedRetrieveRecordInteraction	2018-02-15T23:32:07.526Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2163818_custom_att_2_simple_viewer	122	210
+RankedRetrieveRecordInteraction	2018-02-15T23:33:39.387Z	2904c0d9371969174b95334b97b75738	viaggi del P		/2058606/bw5net_opac_aspx_web_PGDB_OPAC_Ranieri_IDS_41274	131	210
+RankedRetrieveRecordInteraction	2018-02-15T23:34:22.831Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+SearchInteraction	2018-02-15T23:35:39.659Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:20.157Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:27.494Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:32.493Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:41.093Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:46.403Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:36:59.675Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976345_	2	210
+RankedRetrieveRecordInteraction	2018-02-15T23:39:42.042Z	2904c0d9371969174b95334b97b75738	viaggi del P		/92004/BibliographicResource_2000059198730	3	210
+RankedRetrieveRecordInteraction	2018-02-15T23:40:07.136Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-16T00:27:12.007Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-16T00:27:15.836Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+SearchInteraction	2018-02-16T00:46:22.456Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:47:11.286Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:47:56.859Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+SearchInteraction	2018-02-16T00:49:17.983Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:24.478Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:34.570Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:50:12.843Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:50:51.438Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200369/webclient_DeliveryManager_pid_6401815_custom_att_2_simple_viewer	60	86
+SearchInteraction	2018-02-16T00:51:10.209Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:23.100Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:52.761Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:19.179Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:42.052Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:52:50.614Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+RankedRetrieveRecordInteraction	2018-02-16T00:56:44.957Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086476	14	86
+SearchInteraction	2018-02-16T01:11:01.520Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T01:11:06.560Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+SearchInteraction	2018-02-16T01:11:55.745Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RefreshOrPaginationInteraction	2018-02-16T01:12:37.066Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:00.354Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200376/BibliographicResource_3000100170583	20	24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:50.522Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200386/BibliographicResource_3000044880279	14	24
+RankedRetrieveRecordInteraction	2018-02-16T01:15:17.948Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200332/BibliographicResource_3000095455872	22	24
+RankedRetrieveRecordInteraction	2018-02-16T01:17:25.563Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/07931/diglit_schottus1654	23	24
+RankedRetrieveRecordInteraction	2018-02-16T01:18:56.543Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/04202/BibliographicResource_3000135705518	24	24
+SearchInteraction	2018-02-15T21:55:50.994Z	2904c0d9371969174b95334b97b75738	vescovo valussi		0
+SearchInteraction	2018-02-15T21:56:00.538Z	2904c0d9371969174b95334b97b75738	valussi		3
+SearchInteraction	2018-02-15T21:56:26.792Z	2904c0d9371969174b95334b97b75738	antivari		38
+RefreshOrPaginationInteraction	2018-02-15T21:57:00.474Z	2904c0d9371969174b95334b97b75738	antivari		38
+SearchInteraction	2018-02-15T22:14:45.821Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:15:06.267Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-15T22:19:09.669Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:19:29.382Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:20:51.799Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+SearchInteraction	2018-02-15T22:21:24.330Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:21:42.812Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:22:33.402Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:22:46.995Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:19.024Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:31.269Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:41.962Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:52.850Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:01.072Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:10.965Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:19.761Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:29:48.083Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:34:23.727Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:33.888Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:35.122Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:50:04.326Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:51:04.503Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9032686_custom_att_2_simple_viewer	22	210
+SearchInteraction	2018-02-15T22:53:41.679Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:54:39.885Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:55:59.201Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:56:12.216Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9004519_custom_att_2_simple_viewer	36	210
+ArbitraryAccessInteraction	2018-02-15T22:59:09.383Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9042229_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:28.483Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9006190_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:42.468Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9003076_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:01:20.196Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9043750_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:02:53.446Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9001687_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:03:19.715Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9000256_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-15T23:03:39.337Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:04:30.467Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:05.563Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_8898984_custom_att_2_simple_viewer	57	210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:51.539Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_7202064_custom_att_2_simple_viewer	60	210
+SearchInteraction	2018-02-15T23:07:05.959Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:07:35.425Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:08:22.819Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6414832_custom_att_2_simple_viewer	79	210
+RankedRetrieveRecordInteraction	2018-02-15T23:10:12.313Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6413011_custom_att_2_simple_viewer	80	210
+RankedRetrieveRecordInteraction	2018-02-15T23:15:50.014Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6411526_custom_att_2_simple_viewer	81	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:14.023Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6410149_custom_att_2_simple_viewer	82	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:41.301Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6408364_custom_att_2_simple_viewer	83	210
+SearchInteraction	2018-02-15T23:19:26.281Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:19:40.146Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6401206_custom_att_2_simple_viewer	86	210
+RankedRetrieveRecordInteraction	2018-02-15T23:20:46.473Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6398359_custom_att_2_simple_viewer	87	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:08.498Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6246048_custom_att_2_simple_viewer	91	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:50.020Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6238130_custom_att_2_simple_viewer	96	210
+SearchInteraction	2018-02-15T23:24:03.639Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:24:17.345Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6218010_custom_att_2_simple_viewer	99	210
+RankedRetrieveRecordInteraction	2018-02-15T23:27:46.740Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6209360_custom_att_2_simple_viewer	100	210
+SearchInteraction	2018-02-15T23:29:31.738Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:29:57.847Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:30:19.515Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+RankedRetrieveRecordInteraction	2018-02-15T23:32:07.526Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2163818_custom_att_2_simple_viewer	122	210
+RankedRetrieveRecordInteraction	2018-02-15T23:33:39.387Z	2904c0d9371969174b95334b97b75738	viaggi del P		/2058606/bw5net_opac_aspx_web_PGDB_OPAC_Ranieri_IDS_41274	131	210
+RankedRetrieveRecordInteraction	2018-02-15T23:34:22.831Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+SearchInteraction	2018-02-15T23:35:39.659Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:20.157Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:27.494Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:32.493Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:41.093Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:46.403Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:36:59.675Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976345_	2	210
+RankedRetrieveRecordInteraction	2018-02-15T23:39:42.042Z	2904c0d9371969174b95334b97b75738	viaggi del P		/92004/BibliographicResource_2000059198730	3	210
+RankedRetrieveRecordInteraction	2018-02-15T23:40:07.136Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-16T00:27:12.007Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-16T00:27:15.836Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+SearchInteraction	2018-02-16T00:46:22.456Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:47:11.286Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:47:56.859Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+SearchInteraction	2018-02-16T00:49:17.983Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:24.478Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:34.570Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:50:12.843Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:50:51.438Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200369/webclient_DeliveryManager_pid_6401815_custom_att_2_simple_viewer	60	86
+SearchInteraction	2018-02-16T00:51:10.209Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:23.100Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:52.761Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:19.179Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:42.052Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:52:50.614Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+RankedRetrieveRecordInteraction	2018-02-16T00:56:44.957Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086476	14	86
+SearchInteraction	2018-02-16T01:11:01.520Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T01:11:06.560Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+SearchInteraction	2018-02-16T01:11:55.745Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RefreshOrPaginationInteraction	2018-02-16T01:12:37.066Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:00.354Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200376/BibliographicResource_3000100170583	20	24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:50.522Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200386/BibliographicResource_3000044880279	14	24
+RankedRetrieveRecordInteraction	2018-02-16T01:15:17.948Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200332/BibliographicResource_3000095455872	22	24
+RankedRetrieveRecordInteraction	2018-02-16T01:17:25.563Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/07931/diglit_schottus1654	23	24
+RankedRetrieveRecordInteraction	2018-02-16T01:18:56.543Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/04202/BibliographicResource_3000135705518	24	24
+SearchInteraction	2018-02-15T21:55:50.994Z	2904c0d9371969174b95334b97b75738	vescovo valussi		0
+SearchInteraction	2018-02-15T21:56:00.538Z	2904c0d9371969174b95334b97b75738	valussi		3
+SearchInteraction	2018-02-15T21:56:26.792Z	2904c0d9371969174b95334b97b75738	antivari		38
+RefreshOrPaginationInteraction	2018-02-15T21:57:00.474Z	2904c0d9371969174b95334b97b75738	antivari		38
+SearchInteraction	2018-02-15T22:14:45.821Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:15:06.267Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-15T22:19:09.669Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:19:29.382Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:20:51.799Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+SearchInteraction	2018-02-15T22:21:24.330Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:21:42.812Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:22:33.402Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:22:46.995Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:19.024Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:31.269Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:41.962Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:52.850Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:01.072Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:10.965Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:19.761Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:29:48.083Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:34:23.727Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:33.888Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:35.122Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:50:04.326Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:51:04.503Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9032686_custom_att_2_simple_viewer	22	210
+SearchInteraction	2018-02-15T22:53:41.679Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:54:39.885Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:55:59.201Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:56:12.216Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9004519_custom_att_2_simple_viewer	36	210
+ArbitraryAccessInteraction	2018-02-15T22:59:09.383Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9042229_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:28.483Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9006190_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:42.468Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9003076_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:01:20.196Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9043750_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:02:53.446Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9001687_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:03:19.715Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9000256_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-15T23:03:39.337Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:04:30.467Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:05.563Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_8898984_custom_att_2_simple_viewer	57	210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:51.539Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_7202064_custom_att_2_simple_viewer	60	210
+SearchInteraction	2018-02-15T23:07:05.959Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:07:35.425Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:08:22.819Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6414832_custom_att_2_simple_viewer	79	210
+RankedRetrieveRecordInteraction	2018-02-15T23:10:12.313Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6413011_custom_att_2_simple_viewer	80	210
+RankedRetrieveRecordInteraction	2018-02-15T23:15:50.014Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6411526_custom_att_2_simple_viewer	81	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:14.023Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6410149_custom_att_2_simple_viewer	82	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:41.301Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6408364_custom_att_2_simple_viewer	83	210
+SearchInteraction	2018-02-15T23:19:26.281Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:19:40.146Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6401206_custom_att_2_simple_viewer	86	210
+RankedRetrieveRecordInteraction	2018-02-15T23:20:46.473Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6398359_custom_att_2_simple_viewer	87	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:08.498Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6246048_custom_att_2_simple_viewer	91	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:50.020Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6238130_custom_att_2_simple_viewer	96	210
+SearchInteraction	2018-02-15T23:24:03.639Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:24:17.345Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6218010_custom_att_2_simple_viewer	99	210
+RankedRetrieveRecordInteraction	2018-02-15T23:27:46.740Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6209360_custom_att_2_simple_viewer	100	210
+SearchInteraction	2018-02-15T23:29:31.738Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:29:57.847Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:30:19.515Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+RankedRetrieveRecordInteraction	2018-02-15T23:32:07.526Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2163818_custom_att_2_simple_viewer	122	210
+RankedRetrieveRecordInteraction	2018-02-15T23:33:39.387Z	2904c0d9371969174b95334b97b75738	viaggi del P		/2058606/bw5net_opac_aspx_web_PGDB_OPAC_Ranieri_IDS_41274	131	210
+RankedRetrieveRecordInteraction	2018-02-15T23:34:22.831Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+SearchInteraction	2018-02-15T23:35:39.659Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:20.157Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:27.494Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:32.493Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:41.093Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:46.403Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:36:59.675Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976345_	2	210
+RankedRetrieveRecordInteraction	2018-02-15T23:39:42.042Z	2904c0d9371969174b95334b97b75738	viaggi del P		/92004/BibliographicResource_2000059198730	3	210
+RankedRetrieveRecordInteraction	2018-02-15T23:40:07.136Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-16T00:27:12.007Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-16T00:27:15.836Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+SearchInteraction	2018-02-16T00:46:22.456Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:47:11.286Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:47:56.859Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+SearchInteraction	2018-02-16T00:49:17.983Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:24.478Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:34.570Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:50:12.843Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:50:51.438Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200369/webclient_DeliveryManager_pid_6401815_custom_att_2_simple_viewer	60	86
+SearchInteraction	2018-02-16T00:51:10.209Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:23.100Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:52.761Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:19.179Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:42.052Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:52:50.614Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+RankedRetrieveRecordInteraction	2018-02-16T00:56:44.957Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086476	14	86
+SearchInteraction	2018-02-16T01:11:01.520Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T01:11:06.560Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+SearchInteraction	2018-02-16T01:11:55.745Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RefreshOrPaginationInteraction	2018-02-16T01:12:37.066Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:00.354Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200376/BibliographicResource_3000100170583	20	24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:50.522Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200386/BibliographicResource_3000044880279	14	24
+RankedRetrieveRecordInteraction	2018-02-16T01:15:17.948Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200332/BibliographicResource_3000095455872	22	24
+RankedRetrieveRecordInteraction	2018-02-16T01:17:25.563Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/07931/diglit_schottus1654	23	24
+RankedRetrieveRecordInteraction	2018-02-16T01:18:56.543Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/04202/BibliographicResource_3000135705518	24	24
+SearchInteraction	2018-02-15T21:55:50.994Z	2904c0d9371969174b95334b97b75738	vescovo valussi		0
+SearchInteraction	2018-02-15T21:56:00.538Z	2904c0d9371969174b95334b97b75738	valussi		3
+SearchInteraction	2018-02-15T21:56:26.792Z	2904c0d9371969174b95334b97b75738	antivari		38
+RefreshOrPaginationInteraction	2018-02-15T21:57:00.474Z	2904c0d9371969174b95334b97b75738	antivari		38
+SearchInteraction	2018-02-15T22:14:45.821Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:15:06.267Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-15T22:19:09.669Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:19:29.382Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:20:51.799Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+SearchInteraction	2018-02-15T22:21:24.330Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:21:42.812Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:22:33.402Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:22:46.995Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:19.024Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:31.269Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:41.962Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:52.850Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:01.072Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:10.965Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:19.761Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:29:48.083Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:34:23.727Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:33.888Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:35.122Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:50:04.326Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:51:04.503Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9032686_custom_att_2_simple_viewer	22	210
+SearchInteraction	2018-02-15T22:53:41.679Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:54:39.885Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:55:59.201Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:56:12.216Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9004519_custom_att_2_simple_viewer	36	210
+ArbitraryAccessInteraction	2018-02-15T22:59:09.383Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9042229_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:28.483Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9006190_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:42.468Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9003076_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:01:20.196Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9043750_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:02:53.446Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9001687_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:03:19.715Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9000256_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-15T23:03:39.337Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:04:30.467Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:05.563Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_8898984_custom_att_2_simple_viewer	57	210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:51.539Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_7202064_custom_att_2_simple_viewer	60	210
+SearchInteraction	2018-02-15T23:07:05.959Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:07:35.425Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:08:22.819Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6414832_custom_att_2_simple_viewer	79	210
+RankedRetrieveRecordInteraction	2018-02-15T23:10:12.313Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6413011_custom_att_2_simple_viewer	80	210
+RankedRetrieveRecordInteraction	2018-02-15T23:15:50.014Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6411526_custom_att_2_simple_viewer	81	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:14.023Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6410149_custom_att_2_simple_viewer	82	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:41.301Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6408364_custom_att_2_simple_viewer	83	210
+SearchInteraction	2018-02-15T23:19:26.281Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:19:40.146Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6401206_custom_att_2_simple_viewer	86	210
+RankedRetrieveRecordInteraction	2018-02-15T23:20:46.473Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6398359_custom_att_2_simple_viewer	87	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:08.498Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6246048_custom_att_2_simple_viewer	91	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:50.020Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6238130_custom_att_2_simple_viewer	96	210
+SearchInteraction	2018-02-15T23:24:03.639Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:24:17.345Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6218010_custom_att_2_simple_viewer	99	210
+RankedRetrieveRecordInteraction	2018-02-15T23:27:46.740Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6209360_custom_att_2_simple_viewer	100	210
+SearchInteraction	2018-02-15T23:29:31.738Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:29:57.847Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:30:19.515Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+RankedRetrieveRecordInteraction	2018-02-15T23:32:07.526Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2163818_custom_att_2_simple_viewer	122	210
+RankedRetrieveRecordInteraction	2018-02-15T23:33:39.387Z	2904c0d9371969174b95334b97b75738	viaggi del P		/2058606/bw5net_opac_aspx_web_PGDB_OPAC_Ranieri_IDS_41274	131	210
+RankedRetrieveRecordInteraction	2018-02-15T23:34:22.831Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+SearchInteraction	2018-02-15T23:35:39.659Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:20.157Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:27.494Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:32.493Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:41.093Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:46.403Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:36:59.675Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976345_	2	210
+RankedRetrieveRecordInteraction	2018-02-15T23:39:42.042Z	2904c0d9371969174b95334b97b75738	viaggi del P		/92004/BibliographicResource_2000059198730	3	210
+RankedRetrieveRecordInteraction	2018-02-15T23:40:07.136Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-16T00:27:12.007Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-16T00:27:15.836Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+SearchInteraction	2018-02-16T00:46:22.456Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:47:11.286Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:47:56.859Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+SearchInteraction	2018-02-16T00:49:17.983Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:24.478Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:34.570Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:50:12.843Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:50:51.438Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200369/webclient_DeliveryManager_pid_6401815_custom_att_2_simple_viewer	60	86
+SearchInteraction	2018-02-16T00:51:10.209Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:23.100Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:52.761Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:19.179Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:42.052Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:52:50.614Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+RankedRetrieveRecordInteraction	2018-02-16T00:56:44.957Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086476	14	86
+SearchInteraction	2018-02-16T01:11:01.520Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T01:11:06.560Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+SearchInteraction	2018-02-16T01:11:55.745Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RefreshOrPaginationInteraction	2018-02-16T01:12:37.066Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:00.354Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200376/BibliographicResource_3000100170583	20	24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:50.522Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200386/BibliographicResource_3000044880279	14	24
+RankedRetrieveRecordInteraction	2018-02-16T01:15:17.948Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200332/BibliographicResource_3000095455872	22	24
+RankedRetrieveRecordInteraction	2018-02-16T01:17:25.563Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/07931/diglit_schottus1654	23	24
+RankedRetrieveRecordInteraction	2018-02-16T01:18:56.543Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/04202/BibliographicResource_3000135705518	24	24
+SearchInteraction	2018-02-15T21:55:50.994Z	2904c0d9371969174b95334b97b75738	vescovo valussi		0
+SearchInteraction	2018-02-15T21:56:00.538Z	2904c0d9371969174b95334b97b75738	valussi		3
+SearchInteraction	2018-02-15T21:56:26.792Z	2904c0d9371969174b95334b97b75738	antivari		38
+RefreshOrPaginationInteraction	2018-02-15T21:57:00.474Z	2904c0d9371969174b95334b97b75738	antivari		38
+SearchInteraction	2018-02-15T22:14:45.821Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:15:06.267Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-15T22:19:09.669Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:19:29.382Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:20:51.799Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+SearchInteraction	2018-02-15T22:21:24.330Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:21:42.812Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:22:33.402Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:22:46.995Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:19.024Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:31.269Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:41.962Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:24:52.850Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:01.072Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:10.965Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T22:25:19.761Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:29:48.083Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:34:23.727Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9033667_custom_att_2_simple_viewer	21	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:33.888Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:47:35.122Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9036715_custom_att_2_simple_viewer	19	210
+RankedRetrieveRecordInteraction	2018-02-15T22:50:04.326Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9035653_custom_att_2_simple_viewer	20	210
+RankedRetrieveRecordInteraction	2018-02-15T22:51:04.503Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9032686_custom_att_2_simple_viewer	22	210
+SearchInteraction	2018-02-15T22:53:41.679Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:54:39.885Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9011023_custom_att_2_simple_viewer	34	210
+SearchInteraction	2018-02-15T22:55:59.201Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T22:56:12.216Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_9004519_custom_att_2_simple_viewer	36	210
+ArbitraryAccessInteraction	2018-02-15T22:59:09.383Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9042229_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:28.483Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9006190_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T22:59:42.468Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9003076_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:01:20.196Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9043750_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:02:53.446Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9001687_custom_att_2_simple_viewer.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-15T23:03:19.715Z	2904c0d9371969174b95334b97b75738	[200] GET /portal/it/record/9200369/webclient_DeliveryManager_pid_9000256_custom_att_2_simple_viewer.html (PortalController#show)
+SearchInteraction	2018-02-15T23:03:39.337Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:04:30.467Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:05.563Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_8898984_custom_att_2_simple_viewer	57	210
+RankedRetrieveRecordInteraction	2018-02-15T23:06:51.539Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_7202064_custom_att_2_simple_viewer	60	210
+SearchInteraction	2018-02-15T23:07:05.959Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:07:35.425Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:08:22.819Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6414832_custom_att_2_simple_viewer	79	210
+RankedRetrieveRecordInteraction	2018-02-15T23:10:12.313Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6413011_custom_att_2_simple_viewer	80	210
+RankedRetrieveRecordInteraction	2018-02-15T23:15:50.014Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6411526_custom_att_2_simple_viewer	81	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:14.023Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6410149_custom_att_2_simple_viewer	82	210
+RankedRetrieveRecordInteraction	2018-02-15T23:18:41.301Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6408364_custom_att_2_simple_viewer	83	210
+SearchInteraction	2018-02-15T23:19:26.281Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:19:40.146Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6401206_custom_att_2_simple_viewer	86	210
+RankedRetrieveRecordInteraction	2018-02-15T23:20:46.473Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6398359_custom_att_2_simple_viewer	87	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:08.498Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6246048_custom_att_2_simple_viewer	91	210
+RankedRetrieveRecordInteraction	2018-02-15T23:22:50.020Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6238130_custom_att_2_simple_viewer	96	210
+SearchInteraction	2018-02-15T23:24:03.639Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:24:17.345Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6218010_custom_att_2_simple_viewer	99	210
+RankedRetrieveRecordInteraction	2018-02-15T23:27:46.740Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_6209360_custom_att_2_simple_viewer	100	210
+SearchInteraction	2018-02-15T23:29:31.738Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:29:57.847Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:30:19.515Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+RankedRetrieveRecordInteraction	2018-02-15T23:32:07.526Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2163818_custom_att_2_simple_viewer	122	210
+RankedRetrieveRecordInteraction	2018-02-15T23:33:39.387Z	2904c0d9371969174b95334b97b75738	viaggi del P		/2058606/bw5net_opac_aspx_web_PGDB_OPAC_Ranieri_IDS_41274	131	210
+RankedRetrieveRecordInteraction	2018-02-15T23:34:22.831Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200369/webclient_DeliveryManager_pid_2900738_custom_att_2_simple_viewer	121	210
+SearchInteraction	2018-02-15T23:35:39.659Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:20.157Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:27.494Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:32.493Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:41.093Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-15T23:36:46.403Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RankedRetrieveRecordInteraction	2018-02-15T23:36:59.675Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976345_	2	210
+RankedRetrieveRecordInteraction	2018-02-15T23:39:42.042Z	2904c0d9371969174b95334b97b75738	viaggi del P		/92004/BibliographicResource_2000059198730	3	210
+RankedRetrieveRecordInteraction	2018-02-15T23:40:07.136Z	2904c0d9371969174b95334b97b75738	viaggi del P		/9200479/item_7976351_	1	210
+SearchInteraction	2018-02-16T00:27:12.007Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+RefreshOrPaginationInteraction	2018-02-16T00:27:15.836Z	2904c0d9371969174b95334b97b75738	viaggi del P		210
+SearchInteraction	2018-02-16T00:46:22.456Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:47:11.286Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:47:56.859Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+SearchInteraction	2018-02-16T00:49:17.983Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:24.478Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:49:34.570Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:50:12.843Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:50:51.438Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200369/webclient_DeliveryManager_pid_6401815_custom_att_2_simple_viewer	60	86
+SearchInteraction	2018-02-16T00:51:10.209Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:23.100Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:51:52.761Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:19.179Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T00:52:42.052Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RankedRetrieveRecordInteraction	2018-02-16T00:52:50.614Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086633	13	86
+RankedRetrieveRecordInteraction	2018-02-16T00:56:44.957Z	2904c0d9371969174b95334b97b75738	Schott, Franz		/9200386/BibliographicResource_3000059086476	14	86
+SearchInteraction	2018-02-16T01:11:01.520Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+RefreshOrPaginationInteraction	2018-02-16T01:11:06.560Z	2904c0d9371969174b95334b97b75738	Schott, Franz		86
+SearchInteraction	2018-02-16T01:11:55.745Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RefreshOrPaginationInteraction	2018-02-16T01:12:37.066Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:00.354Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200376/BibliographicResource_3000100170583	20	24
+RankedRetrieveRecordInteraction	2018-02-16T01:13:50.522Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200386/BibliographicResource_3000044880279	14	24
+RankedRetrieveRecordInteraction	2018-02-16T01:15:17.948Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/9200332/BibliographicResource_3000095455872	22	24
+RankedRetrieveRecordInteraction	2018-02-16T01:17:25.563Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/07931/diglit_schottus1654	23	24
+RankedRetrieveRecordInteraction	2018-02-16T01:18:56.543Z	2904c0d9371969174b95334b97b75738	Itinerario overo Nova descrittione		/04202/BibliographicResource_3000135705518	24	24

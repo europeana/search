@@ -1,0 +1,40 @@
+ArbitraryAccessInteraction	2018-02-21T17:18:19.108Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430643.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T17:18:49.502Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430631.html (PortalController#show)
+SearchInteraction	2018-02-21T17:22:28.659Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+RefreshOrPaginationInteraction	2018-02-21T17:22:46.970Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+SearchInteraction	2018-02-21T17:23:35.674Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RankedRetrieveRecordInteraction	2018-02-21T17:23:48.972Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	/92026/pamphlets_dasmaa_2008_feb_partiprogrammer_object62385	1	6326
+SearchInteraction	2018-02-21T17:24:30.503Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RefreshOrPaginationInteraction	2018-02-21T17:24:46.706Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+ArbitraryAccessInteraction	2018-02-21T17:18:19.108Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430643.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T17:18:49.502Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430631.html (PortalController#show)
+SearchInteraction	2018-02-21T17:22:28.659Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+RefreshOrPaginationInteraction	2018-02-21T17:22:46.970Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+SearchInteraction	2018-02-21T17:23:35.674Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RankedRetrieveRecordInteraction	2018-02-21T17:23:48.972Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	/92026/pamphlets_dasmaa_2008_feb_partiprogrammer_object62385	1	6326
+SearchInteraction	2018-02-21T17:24:30.503Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RefreshOrPaginationInteraction	2018-02-21T17:24:46.706Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+ArbitraryAccessInteraction	2018-02-21T17:18:19.108Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430643.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T17:18:49.502Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430631.html (PortalController#show)
+SearchInteraction	2018-02-21T17:22:28.659Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+RefreshOrPaginationInteraction	2018-02-21T17:22:46.970Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+SearchInteraction	2018-02-21T17:23:35.674Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RankedRetrieveRecordInteraction	2018-02-21T17:23:48.972Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	/92026/pamphlets_dasmaa_2008_feb_partiprogrammer_object62385	1	6326
+SearchInteraction	2018-02-21T17:24:30.503Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RefreshOrPaginationInteraction	2018-02-21T17:24:46.706Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+ArbitraryAccessInteraction	2018-02-21T17:18:19.108Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430643.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T17:18:49.502Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430631.html (PortalController#show)
+SearchInteraction	2018-02-21T17:22:28.659Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+RefreshOrPaginationInteraction	2018-02-21T17:22:46.970Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+SearchInteraction	2018-02-21T17:23:35.674Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RankedRetrieveRecordInteraction	2018-02-21T17:23:48.972Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	/92026/pamphlets_dasmaa_2008_feb_partiprogrammer_object62385	1	6326
+SearchInteraction	2018-02-21T17:24:30.503Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RefreshOrPaginationInteraction	2018-02-21T17:24:46.706Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+ArbitraryAccessInteraction	2018-02-21T17:18:19.108Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430643.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T17:18:49.502Z	eb7074b0fddbe243a3b9eb461f20c640	[200] GET /portal/es/record/9200302/BibliographicResource_3000059430631.html (PortalController#show)
+SearchInteraction	2018-02-21T17:22:28.659Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+RefreshOrPaginationInteraction	2018-02-21T17:22:46.970Z	eb7074b0fddbe243a3b9eb461f20c640	cuba		14859
+SearchInteraction	2018-02-21T17:23:35.674Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RankedRetrieveRecordInteraction	2018-02-21T17:23:48.972Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	/92026/pamphlets_dasmaa_2008_feb_partiprogrammer_object62385	1	6326
+SearchInteraction	2018-02-21T17:24:30.503Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326
+RefreshOrPaginationInteraction	2018-02-21T17:24:46.706Z	eb7074b0fddbe243a3b9eb461f20c640	cuba	{'TYPE': ['TEXT']}	6326

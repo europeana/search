@@ -1,0 +1,60 @@
+ArbitraryAccessInteraction	2018-03-08T23:10:19.389Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:10:55.913Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:11:27.370Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:11:43.757Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2048001_Ag_EU_AthenaPlus_KIK-IRPA)		143702
+ArbitraryAccessInteraction	2018-03-08T23:11:55.336Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:12:13.339Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:12:28.807Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:12:57.830Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:20:49.555Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:00.835Z	49448bcb31d3a31c04a8c3942707c2c0	what:"inv. n° Sc.78"		0
+ArbitraryAccessInteraction	2018-03-08T23:21:11.043Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:31.232Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:10:19.389Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:10:55.913Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:11:27.370Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:11:43.757Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2048001_Ag_EU_AthenaPlus_KIK-IRPA)		143702
+ArbitraryAccessInteraction	2018-03-08T23:11:55.336Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:12:13.339Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:12:28.807Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:12:57.830Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:20:49.555Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:00.835Z	49448bcb31d3a31c04a8c3942707c2c0	what:"inv. n° Sc.78"		0
+ArbitraryAccessInteraction	2018-03-08T23:21:11.043Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:31.232Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:10:19.389Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:10:55.913Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:11:27.370Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:11:43.757Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2048001_Ag_EU_AthenaPlus_KIK-IRPA)		143702
+ArbitraryAccessInteraction	2018-03-08T23:11:55.336Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:12:13.339Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:12:28.807Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:12:57.830Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:20:49.555Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:00.835Z	49448bcb31d3a31c04a8c3942707c2c0	what:"inv. n° Sc.78"		0
+ArbitraryAccessInteraction	2018-03-08T23:21:11.043Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:31.232Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:10:19.389Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:10:55.913Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:11:27.370Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:11:43.757Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2048001_Ag_EU_AthenaPlus_KIK-IRPA)		143702
+ArbitraryAccessInteraction	2018-03-08T23:11:55.336Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:12:13.339Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:12:28.807Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:12:57.830Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:20:49.555Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:00.835Z	49448bcb31d3a31c04a8c3942707c2c0	what:"inv. n° Sc.78"		0
+ArbitraryAccessInteraction	2018-03-08T23:21:11.043Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:31.232Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:10:19.389Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:10:55.913Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:11:27.370Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:11:43.757Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2048001_Ag_EU_AthenaPlus_KIK-IRPA)		143702
+ArbitraryAccessInteraction	2018-03-08T23:11:55.336Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:12:13.339Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489
+ArbitraryAccessInteraction	2018-03-08T23:12:28.807Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:12:57.830Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-08T23:20:49.555Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10351812.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:00.835Z	49448bcb31d3a31c04a8c3942707c2c0	what:"inv. n° Sc.78"		0
+ArbitraryAccessInteraction	2018-03-08T23:21:11.043Z	49448bcb31d3a31c04a8c3942707c2c0	[200] GET /portal/en/record/2032006/RMAH_119435_FR.html (PortalController#show)
+SearchInteraction	2018-03-08T23:21:31.232Z	49448bcb31d3a31c04a8c3942707c2c0	europeana_collectionName:(2032006_Ag_EU_EInside_RoyalMuseumsArtHistory_KMKG)		29489

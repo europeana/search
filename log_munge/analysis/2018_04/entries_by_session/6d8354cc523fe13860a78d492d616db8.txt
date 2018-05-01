@@ -1,0 +1,65 @@
+SearchInteraction	2018-02-23T19:53:52.041Z	6d8354cc523fe13860a78d492d616db8	matthias grunewald		57
+SearchInteraction	2018-02-23T19:54:01.394Z	6d8354cc523fe13860a78d492d616db8	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T19:54:09.073Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald		57
+SearchInteraction	2018-02-23T19:54:14.674Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-23T19:54:26.382Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+RankedRetrieveRecordInteraction	2018-02-23T19:54:36.021Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_848209	10	16
+SearchInteraction	2018-02-23T19:54:46.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'permission'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:54:51.584Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	34
+SearchInteraction	2018-02-23T19:55:00.173Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission', 'restricted'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:55:03.456Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+SearchInteraction	2018-02-23T19:55:07.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-23T19:55:11.362Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-23T19:55:13.731Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2058635/_pau_oai_pauart_pl_FL_364_39	1	1
+SearchInteraction	2018-02-23T19:53:52.041Z	6d8354cc523fe13860a78d492d616db8	matthias grunewald		57
+SearchInteraction	2018-02-23T19:54:01.394Z	6d8354cc523fe13860a78d492d616db8	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T19:54:09.073Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald		57
+SearchInteraction	2018-02-23T19:54:14.674Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-23T19:54:26.382Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+RankedRetrieveRecordInteraction	2018-02-23T19:54:36.021Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_848209	10	16
+SearchInteraction	2018-02-23T19:54:46.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'permission'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:54:51.584Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	34
+SearchInteraction	2018-02-23T19:55:00.173Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission', 'restricted'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:55:03.456Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+SearchInteraction	2018-02-23T19:55:07.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-23T19:55:11.362Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-23T19:55:13.731Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2058635/_pau_oai_pauart_pl_FL_364_39	1	1
+SearchInteraction	2018-02-23T19:53:52.041Z	6d8354cc523fe13860a78d492d616db8	matthias grunewald		57
+SearchInteraction	2018-02-23T19:54:01.394Z	6d8354cc523fe13860a78d492d616db8	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T19:54:09.073Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald		57
+SearchInteraction	2018-02-23T19:54:14.674Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-23T19:54:26.382Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+RankedRetrieveRecordInteraction	2018-02-23T19:54:36.021Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_848209	10	16
+SearchInteraction	2018-02-23T19:54:46.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'permission'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:54:51.584Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	34
+SearchInteraction	2018-02-23T19:55:00.173Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission', 'restricted'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:55:03.456Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+SearchInteraction	2018-02-23T19:55:07.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-23T19:55:11.362Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-23T19:55:13.731Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2058635/_pau_oai_pauart_pl_FL_364_39	1	1
+SearchInteraction	2018-02-23T19:53:52.041Z	6d8354cc523fe13860a78d492d616db8	matthias grunewald		57
+SearchInteraction	2018-02-23T19:54:01.394Z	6d8354cc523fe13860a78d492d616db8	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T19:54:09.073Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald		57
+SearchInteraction	2018-02-23T19:54:14.674Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-23T19:54:26.382Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+RankedRetrieveRecordInteraction	2018-02-23T19:54:36.021Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_848209	10	16
+SearchInteraction	2018-02-23T19:54:46.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'permission'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:54:51.584Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	34
+SearchInteraction	2018-02-23T19:55:00.173Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission', 'restricted'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:55:03.456Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+SearchInteraction	2018-02-23T19:55:07.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-23T19:55:11.362Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-23T19:55:13.731Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2058635/_pau_oai_pauart_pl_FL_364_39	1	1
+SearchInteraction	2018-02-23T19:53:52.041Z	6d8354cc523fe13860a78d492d616db8	matthias grunewald		57
+SearchInteraction	2018-02-23T19:54:01.394Z	6d8354cc523fe13860a78d492d616db8	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-23T19:54:09.073Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald		57
+SearchInteraction	2018-02-23T19:54:14.674Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'TYPE': ['IMAGE']}	51
+SearchInteraction	2018-02-23T19:54:26.382Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+RankedRetrieveRecordInteraction	2018-02-23T19:54:36.021Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Kupferstichkabinett__Staatliche_Museen_zu_Berlin_848209	10	16
+SearchInteraction	2018-02-23T19:54:46.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'permission'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:54:51.584Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission'], 'TYPE': ['IMAGE']}	34
+SearchInteraction	2018-02-23T19:55:00.173Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['permission', 'restricted'], 'TYPE': ['IMAGE']}	50
+SearchInteraction	2018-02-23T19:55:03.456Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted'], 'TYPE': ['IMAGE']}	16
+SearchInteraction	2018-02-23T19:55:07.969Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['restricted', 'open'], 'TYPE': ['IMAGE']}	17
+SearchInteraction	2018-02-23T19:55:11.362Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-23T19:55:13.731Z	6d8354cc523fe13860a78d492d616db8	Matthias Grünewald	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/2058635/_pau_oai_pauart_pl_FL_364_39	1	1

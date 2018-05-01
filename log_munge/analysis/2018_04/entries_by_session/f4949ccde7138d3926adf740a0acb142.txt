@@ -1,0 +1,50 @@
+SearchInteraction	2018-02-18T08:50:33.500Z	f4949ccde7138d3926adf740a0acb142	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+SearchInteraction	2018-02-18T08:50:57.522Z	f4949ccde7138d3926adf740a0acb142	TYPE:TEXT		62401
+SearchInteraction	2018-02-18T08:51:50.594Z	f4949ccde7138d3926adf740a0acb142	Carte		1344250
+SearchInteraction	2018-02-18T08:52:06.607Z	f4949ccde7138d3926adf740a0acb142	Carte	{'TYPE': ['TEXT']}	1112332
+SearchInteraction	2018-02-18T08:52:23.297Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TYPE': ['TEXT']}	73600
+SearchInteraction	2018-02-18T08:52:39.528Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	68672
+SearchInteraction	2018-02-18T08:53:00.721Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:31.212Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:52.650Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RankedRetrieveRecordInteraction	2018-02-18T08:54:19.731Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	/9200452/handle_123456789_12461	353	370
+SearchInteraction	2018-02-18T08:50:33.500Z	f4949ccde7138d3926adf740a0acb142	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+SearchInteraction	2018-02-18T08:50:57.522Z	f4949ccde7138d3926adf740a0acb142	TYPE:TEXT		62401
+SearchInteraction	2018-02-18T08:51:50.594Z	f4949ccde7138d3926adf740a0acb142	Carte		1344250
+SearchInteraction	2018-02-18T08:52:06.607Z	f4949ccde7138d3926adf740a0acb142	Carte	{'TYPE': ['TEXT']}	1112332
+SearchInteraction	2018-02-18T08:52:23.297Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TYPE': ['TEXT']}	73600
+SearchInteraction	2018-02-18T08:52:39.528Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	68672
+SearchInteraction	2018-02-18T08:53:00.721Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:31.212Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:52.650Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RankedRetrieveRecordInteraction	2018-02-18T08:54:19.731Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	/9200452/handle_123456789_12461	353	370
+SearchInteraction	2018-02-18T08:50:33.500Z	f4949ccde7138d3926adf740a0acb142	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+SearchInteraction	2018-02-18T08:50:57.522Z	f4949ccde7138d3926adf740a0acb142	TYPE:TEXT		62401
+SearchInteraction	2018-02-18T08:51:50.594Z	f4949ccde7138d3926adf740a0acb142	Carte		1344250
+SearchInteraction	2018-02-18T08:52:06.607Z	f4949ccde7138d3926adf740a0acb142	Carte	{'TYPE': ['TEXT']}	1112332
+SearchInteraction	2018-02-18T08:52:23.297Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TYPE': ['TEXT']}	73600
+SearchInteraction	2018-02-18T08:52:39.528Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	68672
+SearchInteraction	2018-02-18T08:53:00.721Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:31.212Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:52.650Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RankedRetrieveRecordInteraction	2018-02-18T08:54:19.731Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	/9200452/handle_123456789_12461	353	370
+SearchInteraction	2018-02-18T08:50:33.500Z	f4949ccde7138d3926adf740a0acb142	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+SearchInteraction	2018-02-18T08:50:57.522Z	f4949ccde7138d3926adf740a0acb142	TYPE:TEXT		62401
+SearchInteraction	2018-02-18T08:51:50.594Z	f4949ccde7138d3926adf740a0acb142	Carte		1344250
+SearchInteraction	2018-02-18T08:52:06.607Z	f4949ccde7138d3926adf740a0acb142	Carte	{'TYPE': ['TEXT']}	1112332
+SearchInteraction	2018-02-18T08:52:23.297Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TYPE': ['TEXT']}	73600
+SearchInteraction	2018-02-18T08:52:39.528Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	68672
+SearchInteraction	2018-02-18T08:53:00.721Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:31.212Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:52.650Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RankedRetrieveRecordInteraction	2018-02-18T08:54:19.731Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	/9200452/handle_123456789_12461	353	370
+SearchInteraction	2018-02-18T08:50:33.500Z	f4949ccde7138d3926adf740a0acb142	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+SearchInteraction	2018-02-18T08:50:57.522Z	f4949ccde7138d3926adf740a0acb142	TYPE:TEXT		62401
+SearchInteraction	2018-02-18T08:51:50.594Z	f4949ccde7138d3926adf740a0acb142	Carte		1344250
+SearchInteraction	2018-02-18T08:52:06.607Z	f4949ccde7138d3926adf740a0acb142	Carte	{'TYPE': ['TEXT']}	1112332
+SearchInteraction	2018-02-18T08:52:23.297Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TYPE': ['TEXT']}	73600
+SearchInteraction	2018-02-18T08:52:39.528Z	f4949ccde7138d3926adf740a0acb142	Carte	{'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	68672
+SearchInteraction	2018-02-18T08:53:00.721Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:31.212Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RefreshOrPaginationInteraction	2018-02-18T08:53:52.650Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	370
+RankedRetrieveRecordInteraction	2018-02-18T08:54:19.731Z	f4949ccde7138d3926adf740a0acb142	Carte	{'COUNTRY': ['romania'], 'MIME_TYPE': ['application/pdf'], 'TEXT_FULLTEXT': ['true'], 'TYPE': ['TEXT']}	/9200452/handle_123456789_12461	353	370

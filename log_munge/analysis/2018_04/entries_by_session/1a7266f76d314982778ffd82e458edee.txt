@@ -1,0 +1,95 @@
+SearchInteraction	2018-02-21T08:54:16.358Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RefreshOrPaginationInteraction	2018-02-21T08:54:17.702Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RankedRetrieveRecordInteraction	2018-02-21T08:55:30.436Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		/11620/_MNHNBOTANY_MNHN_FRANCE_P00098864	6	10
+ArbitraryAccessInteraction	2018-02-21T08:55:51.721Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:07:34.480Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11616/_OPENUP_ACCESSIONS_RBGE_UK_20061104.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:08:01.546Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:41:34.718Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-02-21T09:42:14.146Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		582
+RankedRetrieveRecordInteraction	2018-02-21T09:42:30.597Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		/92023/BibliographicResource_2000068849960	5	582
+SearchInteraction	2018-02-21T09:46:21.275Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:32.041Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:51.701Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+SearchInteraction	2018-02-21T09:47:15.007Z	1a7266f76d314982778ffd82e458edee	NO VALUE PROVIDED		51512635
+SearchInteraction	2018-02-21T09:47:32.471Z	1a7266f76d314982778ffd82e458edee	1862		94555
+CollectionFilterAdditionInteraction	2018-02-21T09:47:49.150Z	1a7266f76d314982778ffd82e458edee	1862		8
+ArbitraryAccessInteraction	2018-02-21T09:48:03.038Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:48:44.407Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-21T09:48:51.950Z	1a7266f76d314982778ffd82e458edee	1862		/9200105/wellcome_historical_images_L0051097	2	8
+ArbitraryAccessInteraction	2018-02-21T10:10:53.377Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+SearchInteraction	2018-02-21T08:54:16.358Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RefreshOrPaginationInteraction	2018-02-21T08:54:17.702Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RankedRetrieveRecordInteraction	2018-02-21T08:55:30.436Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		/11620/_MNHNBOTANY_MNHN_FRANCE_P00098864	6	10
+ArbitraryAccessInteraction	2018-02-21T08:55:51.721Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:07:34.480Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11616/_OPENUP_ACCESSIONS_RBGE_UK_20061104.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:08:01.546Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:41:34.718Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-02-21T09:42:14.146Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		582
+RankedRetrieveRecordInteraction	2018-02-21T09:42:30.597Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		/92023/BibliographicResource_2000068849960	5	582
+SearchInteraction	2018-02-21T09:46:21.275Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:32.041Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:51.701Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+SearchInteraction	2018-02-21T09:47:15.007Z	1a7266f76d314982778ffd82e458edee	NO VALUE PROVIDED		51512635
+SearchInteraction	2018-02-21T09:47:32.471Z	1a7266f76d314982778ffd82e458edee	1862		94555
+CollectionFilterAdditionInteraction	2018-02-21T09:47:49.150Z	1a7266f76d314982778ffd82e458edee	1862		8
+ArbitraryAccessInteraction	2018-02-21T09:48:03.038Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:48:44.407Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-21T09:48:51.950Z	1a7266f76d314982778ffd82e458edee	1862		/9200105/wellcome_historical_images_L0051097	2	8
+ArbitraryAccessInteraction	2018-02-21T10:10:53.377Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+SearchInteraction	2018-02-21T08:54:16.358Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RefreshOrPaginationInteraction	2018-02-21T08:54:17.702Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RankedRetrieveRecordInteraction	2018-02-21T08:55:30.436Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		/11620/_MNHNBOTANY_MNHN_FRANCE_P00098864	6	10
+ArbitraryAccessInteraction	2018-02-21T08:55:51.721Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:07:34.480Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11616/_OPENUP_ACCESSIONS_RBGE_UK_20061104.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:08:01.546Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:41:34.718Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-02-21T09:42:14.146Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		582
+RankedRetrieveRecordInteraction	2018-02-21T09:42:30.597Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		/92023/BibliographicResource_2000068849960	5	582
+SearchInteraction	2018-02-21T09:46:21.275Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:32.041Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:51.701Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+SearchInteraction	2018-02-21T09:47:15.007Z	1a7266f76d314982778ffd82e458edee	NO VALUE PROVIDED		51512635
+SearchInteraction	2018-02-21T09:47:32.471Z	1a7266f76d314982778ffd82e458edee	1862		94555
+CollectionFilterAdditionInteraction	2018-02-21T09:47:49.150Z	1a7266f76d314982778ffd82e458edee	1862		8
+ArbitraryAccessInteraction	2018-02-21T09:48:03.038Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:48:44.407Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-21T09:48:51.950Z	1a7266f76d314982778ffd82e458edee	1862		/9200105/wellcome_historical_images_L0051097	2	8
+ArbitraryAccessInteraction	2018-02-21T10:10:53.377Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+SearchInteraction	2018-02-21T08:54:16.358Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RefreshOrPaginationInteraction	2018-02-21T08:54:17.702Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RankedRetrieveRecordInteraction	2018-02-21T08:55:30.436Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		/11620/_MNHNBOTANY_MNHN_FRANCE_P00098864	6	10
+ArbitraryAccessInteraction	2018-02-21T08:55:51.721Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:07:34.480Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11616/_OPENUP_ACCESSIONS_RBGE_UK_20061104.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:08:01.546Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:41:34.718Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-02-21T09:42:14.146Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		582
+RankedRetrieveRecordInteraction	2018-02-21T09:42:30.597Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		/92023/BibliographicResource_2000068849960	5	582
+SearchInteraction	2018-02-21T09:46:21.275Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:32.041Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:51.701Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+SearchInteraction	2018-02-21T09:47:15.007Z	1a7266f76d314982778ffd82e458edee	NO VALUE PROVIDED		51512635
+SearchInteraction	2018-02-21T09:47:32.471Z	1a7266f76d314982778ffd82e458edee	1862		94555
+CollectionFilterAdditionInteraction	2018-02-21T09:47:49.150Z	1a7266f76d314982778ffd82e458edee	1862		8
+ArbitraryAccessInteraction	2018-02-21T09:48:03.038Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:48:44.407Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-21T09:48:51.950Z	1a7266f76d314982778ffd82e458edee	1862		/9200105/wellcome_historical_images_L0051097	2	8
+ArbitraryAccessInteraction	2018-02-21T10:10:53.377Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)
+SearchInteraction	2018-02-21T08:54:16.358Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RefreshOrPaginationInteraction	2018-02-21T08:54:17.702Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		10
+RankedRetrieveRecordInteraction	2018-02-21T08:55:30.436Z	1a7266f76d314982778ffd82e458edee	Angraecum sesquipedale		/11620/_MNHNBOTANY_MNHN_FRANCE_P00098864	6	10
+ArbitraryAccessInteraction	2018-02-21T08:55:51.721Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:07:34.480Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11616/_OPENUP_ACCESSIONS_RBGE_UK_20061104.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:08:01.546Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200105/wellcome_historical_images_V0043097.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:41:34.718Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/11629/_HERBAR_BGBM_GERMANY_B_10_0347003.html (PortalController#show)
+SearchInteraction	2018-02-21T09:42:14.146Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		582
+RankedRetrieveRecordInteraction	2018-02-21T09:42:30.597Z	1a7266f76d314982778ffd82e458edee	Charles Darwin		/92023/BibliographicResource_2000068849960	5	582
+SearchInteraction	2018-02-21T09:46:21.275Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:32.041Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+RefreshOrPaginationInteraction	2018-02-21T09:46:51.701Z	1a7266f76d314982778ffd82e458edee	Contrivances		71
+SearchInteraction	2018-02-21T09:47:15.007Z	1a7266f76d314982778ffd82e458edee	NO VALUE PROVIDED		51512635
+SearchInteraction	2018-02-21T09:47:32.471Z	1a7266f76d314982778ffd82e458edee	1862		94555
+CollectionFilterAdditionInteraction	2018-02-21T09:47:49.150Z	1a7266f76d314982778ffd82e458edee	1862		8
+ArbitraryAccessInteraction	2018-02-21T09:48:03.038Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-21T09:48:44.407Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/9200386/BibliographicResource_3000045297693.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-21T09:48:51.950Z	1a7266f76d314982778ffd82e458edee	1862		/9200105/wellcome_historical_images_L0051097	2	8
+ArbitraryAccessInteraction	2018-02-21T10:10:53.377Z	1a7266f76d314982778ffd82e458edee	[200] GET /portal/it/record/08711/item_37200.html (PortalController#show)

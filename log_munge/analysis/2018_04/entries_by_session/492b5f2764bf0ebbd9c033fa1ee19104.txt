@@ -1,0 +1,90 @@
+ArbitraryAccessInteraction	2018-03-13T10:36:38.469Z	492b5f2764bf0ebbd9c033fa1ee19104	[200] GET /portal/nl/explore/people/7234-battista-franco-veneziano.html (EntitiesController#show)
+SearchInteraction	2018-03-13T10:37:08.585Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RefreshOrPaginationInteraction	2018-03-13T10:37:24.371Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RankedRetrieveRecordInteraction	2018-03-13T10:37:30.435Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/73E506FFE24B8ABBBA3417EF491283A45A527019	13	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:51.170Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:54.637Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:57.202Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:43:17.317Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+RankedRetrieveRecordInteraction	2018-03-13T10:46:39.304Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+SearchInteraction	2018-03-13T10:47:09.410Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RankedRetrieveRecordInteraction	2018-03-13T10:47:14.196Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/9200376/BibliographicResource_3000100183005	2	104
+RankedRetrieveRecordInteraction	2018-03-13T10:48:16.176Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/2048416/item_RGA2EPW5SXF3GGCQYAIW3SZJOOYOK7FV	10	104
+SearchInteraction	2018-03-13T10:48:58.941Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:08.642Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:59.923Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:10.937Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:18.067Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:24.858Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+ArbitraryAccessInteraction	2018-03-13T10:36:38.469Z	492b5f2764bf0ebbd9c033fa1ee19104	[200] GET /portal/nl/explore/people/7234-battista-franco-veneziano.html (EntitiesController#show)
+SearchInteraction	2018-03-13T10:37:08.585Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RefreshOrPaginationInteraction	2018-03-13T10:37:24.371Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RankedRetrieveRecordInteraction	2018-03-13T10:37:30.435Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/73E506FFE24B8ABBBA3417EF491283A45A527019	13	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:51.170Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:54.637Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:57.202Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:43:17.317Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+RankedRetrieveRecordInteraction	2018-03-13T10:46:39.304Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+SearchInteraction	2018-03-13T10:47:09.410Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RankedRetrieveRecordInteraction	2018-03-13T10:47:14.196Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/9200376/BibliographicResource_3000100183005	2	104
+RankedRetrieveRecordInteraction	2018-03-13T10:48:16.176Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/2048416/item_RGA2EPW5SXF3GGCQYAIW3SZJOOYOK7FV	10	104
+SearchInteraction	2018-03-13T10:48:58.941Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:08.642Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:59.923Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:10.937Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:18.067Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:24.858Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+ArbitraryAccessInteraction	2018-03-13T10:36:38.469Z	492b5f2764bf0ebbd9c033fa1ee19104	[200] GET /portal/nl/explore/people/7234-battista-franco-veneziano.html (EntitiesController#show)
+SearchInteraction	2018-03-13T10:37:08.585Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RefreshOrPaginationInteraction	2018-03-13T10:37:24.371Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RankedRetrieveRecordInteraction	2018-03-13T10:37:30.435Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/73E506FFE24B8ABBBA3417EF491283A45A527019	13	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:51.170Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:54.637Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:57.202Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:43:17.317Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+RankedRetrieveRecordInteraction	2018-03-13T10:46:39.304Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+SearchInteraction	2018-03-13T10:47:09.410Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RankedRetrieveRecordInteraction	2018-03-13T10:47:14.196Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/9200376/BibliographicResource_3000100183005	2	104
+RankedRetrieveRecordInteraction	2018-03-13T10:48:16.176Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/2048416/item_RGA2EPW5SXF3GGCQYAIW3SZJOOYOK7FV	10	104
+SearchInteraction	2018-03-13T10:48:58.941Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:08.642Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:59.923Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:10.937Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:18.067Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:24.858Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+ArbitraryAccessInteraction	2018-03-13T10:36:38.469Z	492b5f2764bf0ebbd9c033fa1ee19104	[200] GET /portal/nl/explore/people/7234-battista-franco-veneziano.html (EntitiesController#show)
+SearchInteraction	2018-03-13T10:37:08.585Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RefreshOrPaginationInteraction	2018-03-13T10:37:24.371Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RankedRetrieveRecordInteraction	2018-03-13T10:37:30.435Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/73E506FFE24B8ABBBA3417EF491283A45A527019	13	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:51.170Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:54.637Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:57.202Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:43:17.317Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+RankedRetrieveRecordInteraction	2018-03-13T10:46:39.304Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+SearchInteraction	2018-03-13T10:47:09.410Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RankedRetrieveRecordInteraction	2018-03-13T10:47:14.196Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/9200376/BibliographicResource_3000100183005	2	104
+RankedRetrieveRecordInteraction	2018-03-13T10:48:16.176Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/2048416/item_RGA2EPW5SXF3GGCQYAIW3SZJOOYOK7FV	10	104
+SearchInteraction	2018-03-13T10:48:58.941Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:08.642Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:59.923Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:10.937Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:18.067Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:24.858Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+ArbitraryAccessInteraction	2018-03-13T10:36:38.469Z	492b5f2764bf0ebbd9c033fa1ee19104	[200] GET /portal/nl/explore/people/7234-battista-franco-veneziano.html (EntitiesController#show)
+SearchInteraction	2018-03-13T10:37:08.585Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RefreshOrPaginationInteraction	2018-03-13T10:37:24.371Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		42
+RankedRetrieveRecordInteraction	2018-03-13T10:37:30.435Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/73E506FFE24B8ABBBA3417EF491283A45A527019	13	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:51.170Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:54.637Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:41:57.202Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/08562/3875FC00957D143A811ABD3BD1997DA111E7D9F9	14	42
+RankedRetrieveRecordInteraction	2018-03-13T10:43:17.317Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+RankedRetrieveRecordInteraction	2018-03-13T10:46:39.304Z	492b5f2764bf0ebbd9c033fa1ee19104	proxy_dc_creator: "http://data.europeana.eu/agent/base/7234" OR proxy_dc_contributor: "http://data.europeana.eu/agent/base/7234"		/9200376/BibliographicResource_3000100183005	20	42
+SearchInteraction	2018-03-13T10:47:09.410Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RankedRetrieveRecordInteraction	2018-03-13T10:47:14.196Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/9200376/BibliographicResource_3000100183005	2	104
+RankedRetrieveRecordInteraction	2018-03-13T10:48:16.176Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		/2048416/item_RGA2EPW5SXF3GGCQYAIW3SZJOOYOK7FV	10	104
+SearchInteraction	2018-03-13T10:48:58.941Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:08.642Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:49:59.923Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:10.937Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:18.067Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104
+RefreshOrPaginationInteraction	2018-03-13T10:50:24.858Z	492b5f2764bf0ebbd9c033fa1ee19104	who:(Giacomo Piccini)		104

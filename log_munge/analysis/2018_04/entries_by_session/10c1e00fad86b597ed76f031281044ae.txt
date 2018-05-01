@@ -1,0 +1,585 @@
+ArbitraryAccessInteraction	2018-02-18T01:24:58.162Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0069.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:28.534Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:36.331Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0077.html (PortalController#show)
+SearchInteraction	2018-02-18T01:25:46.835Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:07.287Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:24.129Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:26:32.877Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0015	28	497365
+SearchInteraction	2018-02-18T01:26:54.351Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:04.038Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0064	40	497365
+SearchInteraction	2018-02-18T01:27:23.681Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:31.291Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0009	50	497365
+RankedRetrieveRecordInteraction	2018-02-18T01:28:12.423Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0075	53	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:06.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0057	60	497365
+SearchInteraction	2018-02-18T02:04:31.193Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:32.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0047	63	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:50.581Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0040	67	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:05:03.700Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0031	70	497365
+SearchInteraction	2018-02-18T02:10:03.199Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:15.138Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0005	78	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:39.506Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css99_0030	84	497365
+SearchInteraction	2018-02-18T02:11:13.345Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+SearchInteraction	2018-02-18T02:11:44.394Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: wool']}	12654
+SearchInteraction	2018-02-18T02:11:51.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:12:11.959Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:13:20.013Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:03.062Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:36.966Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+CollectionFilterAdditionInteraction	2018-02-18T02:15:19.972Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:36.604Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0068	12	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:53.779Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0066	14	3111
+SearchInteraction	2018-02-18T02:19:17.379Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:19:27.698Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0046	100	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:21:34.812Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0042	104	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:22:14.763Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0071	146	3111
+SearchInteraction	2018-02-18T02:22:49.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:23:10.776Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0005	212	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:24:28.047Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css96_0055	243	3111
+SearchInteraction	2018-02-18T02:25:29.905Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:25:40.864Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0091	298	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:20.513Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0076	313	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:50.926Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0069	320	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:32.456Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0059	330	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:55.392Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0058	331	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:28:51.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0007	382	3111
+SearchInteraction	2018-02-18T02:29:16.460Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:29:24.885Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0004	385	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:31:24.637Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0053	402	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:10.598Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0063	458	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:33.369Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0049	406	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:19.352Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0067	454	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:44.854Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0060	461	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:00.550Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0003	386	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:36.181Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0046	475	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:55.474Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0052	469	3111
+SearchInteraction	2018-02-18T02:39:27.242Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:44.871Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0039	482	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:59.312Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0037	484	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:11.610Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0053	551	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:35.259Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0055	549	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:44:50.990Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0028	576	3111
+SearchInteraction	2018-02-18T02:46:48.954Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T02:48:08.856Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:13.540Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0010	594	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:39.154Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0001	603	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:36.714Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0061	632	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:51.934Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0052	641	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:19.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0037	656	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:56.596Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0073	620	3111
+SearchInteraction	2018-02-18T02:54:34.401Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:54:50.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0013	680	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:25.431Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0109	698	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:40.611Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0105	702	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:28.235Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0095	712	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:43.697Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0092	715	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:13.564Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0087	720	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:39.932Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0083	724	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:13.526Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0078	729	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:54.626Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0072	735	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:05.853Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0070	737	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:19.888Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0073	734	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:01:45.969Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0071	736	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:16.679Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0082	725	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:36.481Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0067	740	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:03:00.636Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0062	745	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:04:34.586Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0040	767	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:05:04.133Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0039	768	3111
+SearchInteraction	2018-02-18T03:05:28.508Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T03:07:52.789Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:09:46.350Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0005	883	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:09.053Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0103	892	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:44.112Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0099	896	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:08.405Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0097	898	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:36.633Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0096	899	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:56.034Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0094	901	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:16.659Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0090	905	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:54.240Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0082	913	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:17.517Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0079	916	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:43.569Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0077	918	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:58.775Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0076	919	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:34:24.678Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0075	920	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:25.359Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0052	943	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:56.772Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0048	947	3111
+SearchInteraction	2018-02-18T15:36:25.742Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:16.252Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0079	809	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:42.719Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0072	816	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:57.870Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0061	827	3111
+SearchInteraction	2018-02-18T15:38:44.656Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+CollectionFilterAdditionInteraction	2018-02-18T15:42:03.756Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	294
+SearchInteraction	2018-02-18T15:42:13.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: weaving techniques']}	2095
+SearchInteraction	2018-02-18T15:43:31.304Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:43:47.924Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	285
+CollectionFilterRemovalInteraction	2018-02-18T15:43:58.128Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:44:27.530Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	1365
+CollectionFilterRemovalInteraction	2018-02-18T15:44:46.505Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:44:55.130Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:45:05.353Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RankedRetrieveRecordInteraction	2018-02-18T15:45:13.178Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	/2048212/christian_dior_css90_0054	32	155
+ArbitraryAccessInteraction	2018-02-18T01:24:58.162Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0069.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:28.534Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:36.331Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0077.html (PortalController#show)
+SearchInteraction	2018-02-18T01:25:46.835Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:07.287Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:24.129Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:26:32.877Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0015	28	497365
+SearchInteraction	2018-02-18T01:26:54.351Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:04.038Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0064	40	497365
+SearchInteraction	2018-02-18T01:27:23.681Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:31.291Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0009	50	497365
+RankedRetrieveRecordInteraction	2018-02-18T01:28:12.423Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0075	53	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:06.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0057	60	497365
+SearchInteraction	2018-02-18T02:04:31.193Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:32.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0047	63	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:50.581Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0040	67	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:05:03.700Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0031	70	497365
+SearchInteraction	2018-02-18T02:10:03.199Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:15.138Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0005	78	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:39.506Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css99_0030	84	497365
+SearchInteraction	2018-02-18T02:11:13.345Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+SearchInteraction	2018-02-18T02:11:44.394Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: wool']}	12654
+SearchInteraction	2018-02-18T02:11:51.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:12:11.959Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:13:20.013Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:03.062Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:36.966Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+CollectionFilterAdditionInteraction	2018-02-18T02:15:19.972Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:36.604Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0068	12	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:53.779Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0066	14	3111
+SearchInteraction	2018-02-18T02:19:17.379Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:19:27.698Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0046	100	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:21:34.812Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0042	104	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:22:14.763Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0071	146	3111
+SearchInteraction	2018-02-18T02:22:49.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:23:10.776Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0005	212	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:24:28.047Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css96_0055	243	3111
+SearchInteraction	2018-02-18T02:25:29.905Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:25:40.864Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0091	298	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:20.513Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0076	313	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:50.926Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0069	320	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:32.456Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0059	330	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:55.392Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0058	331	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:28:51.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0007	382	3111
+SearchInteraction	2018-02-18T02:29:16.460Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:29:24.885Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0004	385	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:31:24.637Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0053	402	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:10.598Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0063	458	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:33.369Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0049	406	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:19.352Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0067	454	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:44.854Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0060	461	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:00.550Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0003	386	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:36.181Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0046	475	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:55.474Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0052	469	3111
+SearchInteraction	2018-02-18T02:39:27.242Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:44.871Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0039	482	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:59.312Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0037	484	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:11.610Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0053	551	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:35.259Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0055	549	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:44:50.990Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0028	576	3111
+SearchInteraction	2018-02-18T02:46:48.954Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T02:48:08.856Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:13.540Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0010	594	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:39.154Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0001	603	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:36.714Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0061	632	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:51.934Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0052	641	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:19.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0037	656	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:56.596Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0073	620	3111
+SearchInteraction	2018-02-18T02:54:34.401Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:54:50.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0013	680	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:25.431Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0109	698	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:40.611Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0105	702	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:28.235Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0095	712	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:43.697Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0092	715	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:13.564Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0087	720	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:39.932Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0083	724	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:13.526Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0078	729	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:54.626Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0072	735	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:05.853Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0070	737	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:19.888Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0073	734	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:01:45.969Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0071	736	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:16.679Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0082	725	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:36.481Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0067	740	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:03:00.636Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0062	745	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:04:34.586Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0040	767	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:05:04.133Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0039	768	3111
+SearchInteraction	2018-02-18T03:05:28.508Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T03:07:52.789Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:09:46.350Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0005	883	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:09.053Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0103	892	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:44.112Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0099	896	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:08.405Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0097	898	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:36.633Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0096	899	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:56.034Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0094	901	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:16.659Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0090	905	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:54.240Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0082	913	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:17.517Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0079	916	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:43.569Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0077	918	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:58.775Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0076	919	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:34:24.678Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0075	920	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:25.359Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0052	943	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:56.772Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0048	947	3111
+SearchInteraction	2018-02-18T15:36:25.742Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:16.252Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0079	809	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:42.719Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0072	816	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:57.870Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0061	827	3111
+SearchInteraction	2018-02-18T15:38:44.656Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+CollectionFilterAdditionInteraction	2018-02-18T15:42:03.756Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	294
+SearchInteraction	2018-02-18T15:42:13.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: weaving techniques']}	2095
+SearchInteraction	2018-02-18T15:43:31.304Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:43:47.924Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	285
+CollectionFilterRemovalInteraction	2018-02-18T15:43:58.128Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:44:27.530Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	1365
+CollectionFilterRemovalInteraction	2018-02-18T15:44:46.505Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:44:55.130Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:45:05.353Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RankedRetrieveRecordInteraction	2018-02-18T15:45:13.178Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	/2048212/christian_dior_css90_0054	32	155
+ArbitraryAccessInteraction	2018-02-18T01:24:58.162Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0069.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:28.534Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:36.331Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0077.html (PortalController#show)
+SearchInteraction	2018-02-18T01:25:46.835Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:07.287Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:24.129Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:26:32.877Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0015	28	497365
+SearchInteraction	2018-02-18T01:26:54.351Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:04.038Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0064	40	497365
+SearchInteraction	2018-02-18T01:27:23.681Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:31.291Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0009	50	497365
+RankedRetrieveRecordInteraction	2018-02-18T01:28:12.423Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0075	53	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:06.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0057	60	497365
+SearchInteraction	2018-02-18T02:04:31.193Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:32.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0047	63	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:50.581Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0040	67	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:05:03.700Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0031	70	497365
+SearchInteraction	2018-02-18T02:10:03.199Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:15.138Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0005	78	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:39.506Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css99_0030	84	497365
+SearchInteraction	2018-02-18T02:11:13.345Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+SearchInteraction	2018-02-18T02:11:44.394Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: wool']}	12654
+SearchInteraction	2018-02-18T02:11:51.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:12:11.959Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:13:20.013Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:03.062Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:36.966Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+CollectionFilterAdditionInteraction	2018-02-18T02:15:19.972Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:36.604Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0068	12	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:53.779Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0066	14	3111
+SearchInteraction	2018-02-18T02:19:17.379Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:19:27.698Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0046	100	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:21:34.812Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0042	104	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:22:14.763Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0071	146	3111
+SearchInteraction	2018-02-18T02:22:49.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:23:10.776Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0005	212	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:24:28.047Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css96_0055	243	3111
+SearchInteraction	2018-02-18T02:25:29.905Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:25:40.864Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0091	298	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:20.513Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0076	313	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:50.926Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0069	320	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:32.456Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0059	330	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:55.392Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0058	331	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:28:51.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0007	382	3111
+SearchInteraction	2018-02-18T02:29:16.460Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:29:24.885Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0004	385	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:31:24.637Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0053	402	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:10.598Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0063	458	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:33.369Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0049	406	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:19.352Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0067	454	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:44.854Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0060	461	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:00.550Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0003	386	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:36.181Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0046	475	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:55.474Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0052	469	3111
+SearchInteraction	2018-02-18T02:39:27.242Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:44.871Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0039	482	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:59.312Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0037	484	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:11.610Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0053	551	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:35.259Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0055	549	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:44:50.990Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0028	576	3111
+SearchInteraction	2018-02-18T02:46:48.954Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T02:48:08.856Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:13.540Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0010	594	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:39.154Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0001	603	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:36.714Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0061	632	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:51.934Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0052	641	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:19.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0037	656	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:56.596Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0073	620	3111
+SearchInteraction	2018-02-18T02:54:34.401Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:54:50.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0013	680	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:25.431Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0109	698	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:40.611Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0105	702	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:28.235Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0095	712	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:43.697Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0092	715	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:13.564Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0087	720	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:39.932Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0083	724	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:13.526Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0078	729	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:54.626Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0072	735	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:05.853Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0070	737	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:19.888Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0073	734	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:01:45.969Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0071	736	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:16.679Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0082	725	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:36.481Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0067	740	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:03:00.636Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0062	745	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:04:34.586Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0040	767	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:05:04.133Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0039	768	3111
+SearchInteraction	2018-02-18T03:05:28.508Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T03:07:52.789Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:09:46.350Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0005	883	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:09.053Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0103	892	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:44.112Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0099	896	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:08.405Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0097	898	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:36.633Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0096	899	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:56.034Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0094	901	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:16.659Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0090	905	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:54.240Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0082	913	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:17.517Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0079	916	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:43.569Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0077	918	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:58.775Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0076	919	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:34:24.678Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0075	920	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:25.359Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0052	943	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:56.772Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0048	947	3111
+SearchInteraction	2018-02-18T15:36:25.742Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:16.252Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0079	809	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:42.719Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0072	816	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:57.870Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0061	827	3111
+SearchInteraction	2018-02-18T15:38:44.656Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+CollectionFilterAdditionInteraction	2018-02-18T15:42:03.756Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	294
+SearchInteraction	2018-02-18T15:42:13.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: weaving techniques']}	2095
+SearchInteraction	2018-02-18T15:43:31.304Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:43:47.924Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	285
+CollectionFilterRemovalInteraction	2018-02-18T15:43:58.128Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:44:27.530Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	1365
+CollectionFilterRemovalInteraction	2018-02-18T15:44:46.505Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:44:55.130Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:45:05.353Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RankedRetrieveRecordInteraction	2018-02-18T15:45:13.178Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	/2048212/christian_dior_css90_0054	32	155
+ArbitraryAccessInteraction	2018-02-18T01:24:58.162Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0069.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:28.534Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:36.331Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0077.html (PortalController#show)
+SearchInteraction	2018-02-18T01:25:46.835Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:07.287Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:24.129Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:26:32.877Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0015	28	497365
+SearchInteraction	2018-02-18T01:26:54.351Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:04.038Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0064	40	497365
+SearchInteraction	2018-02-18T01:27:23.681Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:31.291Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0009	50	497365
+RankedRetrieveRecordInteraction	2018-02-18T01:28:12.423Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0075	53	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:06.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0057	60	497365
+SearchInteraction	2018-02-18T02:04:31.193Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:32.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0047	63	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:50.581Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0040	67	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:05:03.700Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0031	70	497365
+SearchInteraction	2018-02-18T02:10:03.199Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:15.138Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0005	78	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:39.506Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css99_0030	84	497365
+SearchInteraction	2018-02-18T02:11:13.345Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+SearchInteraction	2018-02-18T02:11:44.394Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: wool']}	12654
+SearchInteraction	2018-02-18T02:11:51.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:12:11.959Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:13:20.013Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:03.062Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:36.966Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+CollectionFilterAdditionInteraction	2018-02-18T02:15:19.972Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:36.604Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0068	12	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:53.779Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0066	14	3111
+SearchInteraction	2018-02-18T02:19:17.379Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:19:27.698Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0046	100	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:21:34.812Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0042	104	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:22:14.763Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0071	146	3111
+SearchInteraction	2018-02-18T02:22:49.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:23:10.776Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0005	212	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:24:28.047Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css96_0055	243	3111
+SearchInteraction	2018-02-18T02:25:29.905Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:25:40.864Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0091	298	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:20.513Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0076	313	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:50.926Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0069	320	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:32.456Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0059	330	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:55.392Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0058	331	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:28:51.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0007	382	3111
+SearchInteraction	2018-02-18T02:29:16.460Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:29:24.885Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0004	385	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:31:24.637Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0053	402	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:10.598Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0063	458	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:33.369Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0049	406	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:19.352Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0067	454	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:44.854Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0060	461	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:00.550Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0003	386	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:36.181Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0046	475	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:55.474Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0052	469	3111
+SearchInteraction	2018-02-18T02:39:27.242Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:44.871Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0039	482	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:59.312Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0037	484	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:11.610Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0053	551	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:35.259Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0055	549	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:44:50.990Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0028	576	3111
+SearchInteraction	2018-02-18T02:46:48.954Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T02:48:08.856Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:13.540Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0010	594	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:39.154Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0001	603	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:36.714Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0061	632	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:51.934Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0052	641	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:19.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0037	656	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:56.596Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0073	620	3111
+SearchInteraction	2018-02-18T02:54:34.401Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:54:50.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0013	680	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:25.431Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0109	698	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:40.611Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0105	702	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:28.235Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0095	712	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:43.697Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0092	715	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:13.564Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0087	720	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:39.932Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0083	724	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:13.526Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0078	729	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:54.626Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0072	735	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:05.853Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0070	737	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:19.888Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0073	734	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:01:45.969Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0071	736	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:16.679Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0082	725	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:36.481Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0067	740	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:03:00.636Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0062	745	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:04:34.586Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0040	767	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:05:04.133Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0039	768	3111
+SearchInteraction	2018-02-18T03:05:28.508Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T03:07:52.789Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:09:46.350Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0005	883	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:09.053Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0103	892	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:44.112Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0099	896	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:08.405Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0097	898	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:36.633Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0096	899	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:56.034Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0094	901	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:16.659Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0090	905	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:54.240Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0082	913	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:17.517Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0079	916	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:43.569Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0077	918	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:58.775Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0076	919	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:34:24.678Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0075	920	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:25.359Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0052	943	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:56.772Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0048	947	3111
+SearchInteraction	2018-02-18T15:36:25.742Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:16.252Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0079	809	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:42.719Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0072	816	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:57.870Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0061	827	3111
+SearchInteraction	2018-02-18T15:38:44.656Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+CollectionFilterAdditionInteraction	2018-02-18T15:42:03.756Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	294
+SearchInteraction	2018-02-18T15:42:13.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: weaving techniques']}	2095
+SearchInteraction	2018-02-18T15:43:31.304Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:43:47.924Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	285
+CollectionFilterRemovalInteraction	2018-02-18T15:43:58.128Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:44:27.530Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	1365
+CollectionFilterRemovalInteraction	2018-02-18T15:44:46.505Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:44:55.130Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:45:05.353Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RankedRetrieveRecordInteraction	2018-02-18T15:45:13.178Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	/2048212/christian_dior_css90_0054	32	155
+ArbitraryAccessInteraction	2018-02-18T01:24:58.162Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0069.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:28.534Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0070.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T01:25:36.331Z	10c1e00fad86b597ed76f031281044ae	[200] GET /portal/en/record/2048212/christian_dior_css96_0077.html (PortalController#show)
+SearchInteraction	2018-02-18T01:25:46.835Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:07.287Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RefreshOrPaginationInteraction	2018-02-18T01:26:24.129Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:26:32.877Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0015	28	497365
+SearchInteraction	2018-02-18T01:26:54.351Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:04.038Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0064	40	497365
+SearchInteraction	2018-02-18T01:27:23.681Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T01:27:31.291Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0009	50	497365
+RankedRetrieveRecordInteraction	2018-02-18T01:28:12.423Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0075	53	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:06.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0057	60	497365
+SearchInteraction	2018-02-18T02:04:31.193Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:32.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0047	63	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:04:50.581Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0040	67	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:05:03.700Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0031	70	497365
+SearchInteraction	2018-02-18T02:10:03.199Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:15.138Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css96_0005	78	497365
+RankedRetrieveRecordInteraction	2018-02-18T02:10:39.506Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		/2048212/christian_dior_css99_0030	84	497365
+SearchInteraction	2018-02-18T02:11:13.345Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED		497365
+SearchInteraction	2018-02-18T02:11:44.394Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: wool']}	12654
+SearchInteraction	2018-02-18T02:11:51.484Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:12:11.959Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:13:20.013Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:03.062Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+RefreshOrPaginationInteraction	2018-02-18T02:14:36.966Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	6367
+CollectionFilterAdditionInteraction	2018-02-18T02:15:19.972Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:36.604Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0068	12	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:15:53.779Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css99_0066	14	3111
+SearchInteraction	2018-02-18T02:19:17.379Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:19:27.698Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0046	100	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:21:34.812Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css98_0042	104	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:22:14.763Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0071	146	3111
+SearchInteraction	2018-02-18T02:22:49.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:23:10.776Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css97_0005	212	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:24:28.047Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css96_0055	243	3111
+SearchInteraction	2018-02-18T02:25:29.905Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:25:40.864Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0091	298	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:20.513Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0076	313	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:26:50.926Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0069	320	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:32.456Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0059	330	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:27:55.392Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0058	331	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:28:51.863Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0007	382	3111
+SearchInteraction	2018-02-18T02:29:16.460Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:29:24.885Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0004	385	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:31:24.637Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0053	402	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:10.598Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0063	458	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:36:33.369Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css94_0049	406	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:19.352Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0067	454	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:37:44.854Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0060	461	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:00.550Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css95_0003	386	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:36.181Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0046	475	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:38:55.474Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0052	469	3111
+SearchInteraction	2018-02-18T02:39:27.242Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:44.871Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0039	482	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:39:59.312Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css93_0037	484	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:11.610Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0053	551	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:42:35.259Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0055	549	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:44:50.990Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0028	576	3111
+SearchInteraction	2018-02-18T02:46:48.954Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T02:48:08.856Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:13.540Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0010	594	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:51:39.154Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css92_0001	603	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:36.714Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0061	632	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:52:51.934Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0052	641	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:19.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0037	656	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:53:56.596Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0073	620	3111
+SearchInteraction	2018-02-18T02:54:34.401Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:54:50.281Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css91_0013	680	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:25.431Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0109	698	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:55:40.611Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0105	702	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:28.235Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0095	712	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:56:43.697Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0092	715	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:13.564Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0087	720	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:57:39.932Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0083	724	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:13.526Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0078	729	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:58:54.626Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0072	735	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:05.853Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0070	737	3111
+RankedRetrieveRecordInteraction	2018-02-18T02:59:19.888Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0073	734	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:01:45.969Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0071	736	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:16.679Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0082	725	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:02:36.481Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0067	740	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:03:00.636Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0062	745	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:04:34.586Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0040	767	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:05:04.133Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css90_0039	768	3111
+SearchInteraction	2018-02-18T03:05:28.508Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RefreshOrPaginationInteraction	2018-02-18T03:07:52.789Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T03:09:46.350Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0005	883	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:09.053Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0103	892	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:30:44.112Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0099	896	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:08.405Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0097	898	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:36.633Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0096	899	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:31:56.034Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0094	901	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:16.659Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0090	905	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:32:54.240Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0082	913	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:17.517Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0079	916	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:43.569Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0077	918	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:33:58.775Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0076	919	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:34:24.678Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0075	920	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:25.359Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0052	943	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:35:56.772Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_caw99_0048	947	3111
+SearchInteraction	2018-02-18T15:36:25.742Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:16.252Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0079	809	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:42.719Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0072	816	3111
+RankedRetrieveRecordInteraction	2018-02-18T15:37:57.870Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	/2048212/yves_saint_laurent_css00_0061	827	3111
+SearchInteraction	2018-02-18T15:38:44.656Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	3111
+CollectionFilterAdditionInteraction	2018-02-18T15:42:03.756Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Yves Saint Laurent (Designer)'], 'THUMBNAIL': ['true']}	294
+SearchInteraction	2018-02-18T15:42:13.592Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dc_format.en': ['Technique: weaving techniques']}	2095
+SearchInteraction	2018-02-18T15:43:31.304Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:43:47.924Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	285
+CollectionFilterRemovalInteraction	2018-02-18T15:43:58.128Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	3593
+CollectionFilterAdditionInteraction	2018-02-18T15:44:27.530Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	1365
+CollectionFilterRemovalInteraction	2018-02-18T15:44:46.505Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:44:55.130Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RefreshOrPaginationInteraction	2018-02-18T15:45:05.353Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	155
+RankedRetrieveRecordInteraction	2018-02-18T15:45:13.178Z	10c1e00fad86b597ed76f031281044ae	NO VALUE PROVIDED	{'CREATOR': ['Christian Dior (Designer)'], 'THUMBNAIL': ['true']}	/2048212/christian_dior_css90_0054	32	155

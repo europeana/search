@@ -1,0 +1,275 @@
+ArbitraryAccessInteraction	2018-02-25T15:11:04.237Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T15:11:46.604Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		329431
+CollectionFilterRemovalInteraction	2018-02-25T15:11:53.150Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T15:12:25.768Z	b20cfb71487e2060f74d94a686451160	DARDANEL		26
+SearchInteraction	2018-02-25T15:12:54.128Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	23
+RankedRetrieveRecordInteraction	2018-02-25T15:13:00.318Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	/91973/u__vistes_1424	4	23
+SearchInteraction	2018-02-25T17:59:25.193Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T17:59:47.608Z	b20cfb71487e2060f74d94a686451160	turkey		/9200291/bildarchivaustria_at_Preview_4814256	9	299
+SearchInteraction	2018-02-25T18:01:52.895Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.609Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.781Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:24.634Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:34.629Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:45.853Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:03:01.564Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:03:11.759Z	b20cfb71487e2060f74d94a686451160	turkey		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_937_10	67	299
+ArbitraryAccessInteraction	2018-02-25T18:04:32.758Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_935_7.html (PortalController#show)
+SearchInteraction	2018-02-25T18:04:55.839Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:09.055Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:20.844Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:28.296Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:34.944Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:43.115Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:05:59.529Z	b20cfb71487e2060f74d94a686451160	turkey		/15601/C822DEDA3D74FAD45D1BD92FD020F24AE4D3B035	142	299
+SearchInteraction	2018-02-25T18:06:40.623Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:06:53.242Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:07:03.597Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:13.666Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:19.217Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:26.517Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:34.897Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:42.704Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:52.653Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496768	127	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:54.510Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496767	128	128
+SearchInteraction	2018-02-25T18:09:02.204Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+SearchInteraction	2018-02-25T18:09:24.546Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:09:29.776Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:09:43.429Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:02.434Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:16.311Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:26.982Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RankedRetrieveRecordInteraction	2018-02-25T18:10:42.341Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	/08622/IWM_19	79	109
+ArbitraryAccessInteraction	2018-02-25T20:38:38.893Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T21:02:54.175Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T21:03:23.611Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"		28
+SearchInteraction	2018-02-25T21:03:33.119Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	19
+RankedRetrieveRecordInteraction	2018-02-25T21:03:48.394Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08611/40282	3	19
+RankedRetrieveRecordInteraction	2018-02-25T21:07:38.093Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08614/cat150380	11	19
+SearchInteraction	2018-02-25T21:09:41.871Z	b20cfb71487e2060f74d94a686451160	europeana_collectionName:(08622_Ag_EU_EFG_Imperial_War_Museums)		1261
+SearchInteraction	2018-02-25T21:10:05.393Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-25T21:10:07.828Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T21:10:17.946Z	b20cfb71487e2060f74d94a686451160	jerusalem		22639
+SearchInteraction	2018-02-25T21:10:24.813Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	613
+CollectionFilterAdditionInteraction	2018-02-25T21:10:36.678Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	20
+RankedRetrieveRecordInteraction	2018-02-25T21:10:54.453Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	/08622/IWM_19	12	20
+ArbitraryAccessInteraction	2018-02-25T15:11:04.237Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T15:11:46.604Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		329431
+CollectionFilterRemovalInteraction	2018-02-25T15:11:53.150Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T15:12:25.768Z	b20cfb71487e2060f74d94a686451160	DARDANEL		26
+SearchInteraction	2018-02-25T15:12:54.128Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	23
+RankedRetrieveRecordInteraction	2018-02-25T15:13:00.318Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	/91973/u__vistes_1424	4	23
+SearchInteraction	2018-02-25T17:59:25.193Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T17:59:47.608Z	b20cfb71487e2060f74d94a686451160	turkey		/9200291/bildarchivaustria_at_Preview_4814256	9	299
+SearchInteraction	2018-02-25T18:01:52.895Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.609Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.781Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:24.634Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:34.629Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:45.853Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:03:01.564Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:03:11.759Z	b20cfb71487e2060f74d94a686451160	turkey		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_937_10	67	299
+ArbitraryAccessInteraction	2018-02-25T18:04:32.758Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_935_7.html (PortalController#show)
+SearchInteraction	2018-02-25T18:04:55.839Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:09.055Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:20.844Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:28.296Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:34.944Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:43.115Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:05:59.529Z	b20cfb71487e2060f74d94a686451160	turkey		/15601/C822DEDA3D74FAD45D1BD92FD020F24AE4D3B035	142	299
+SearchInteraction	2018-02-25T18:06:40.623Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:06:53.242Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:07:03.597Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:13.666Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:19.217Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:26.517Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:34.897Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:42.704Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:52.653Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496768	127	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:54.510Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496767	128	128
+SearchInteraction	2018-02-25T18:09:02.204Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+SearchInteraction	2018-02-25T18:09:24.546Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:09:29.776Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:09:43.429Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:02.434Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:16.311Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:26.982Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RankedRetrieveRecordInteraction	2018-02-25T18:10:42.341Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	/08622/IWM_19	79	109
+ArbitraryAccessInteraction	2018-02-25T20:38:38.893Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T21:02:54.175Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T21:03:23.611Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"		28
+SearchInteraction	2018-02-25T21:03:33.119Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	19
+RankedRetrieveRecordInteraction	2018-02-25T21:03:48.394Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08611/40282	3	19
+RankedRetrieveRecordInteraction	2018-02-25T21:07:38.093Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08614/cat150380	11	19
+SearchInteraction	2018-02-25T21:09:41.871Z	b20cfb71487e2060f74d94a686451160	europeana_collectionName:(08622_Ag_EU_EFG_Imperial_War_Museums)		1261
+SearchInteraction	2018-02-25T21:10:05.393Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-25T21:10:07.828Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T21:10:17.946Z	b20cfb71487e2060f74d94a686451160	jerusalem		22639
+SearchInteraction	2018-02-25T21:10:24.813Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	613
+CollectionFilterAdditionInteraction	2018-02-25T21:10:36.678Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	20
+RankedRetrieveRecordInteraction	2018-02-25T21:10:54.453Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	/08622/IWM_19	12	20
+ArbitraryAccessInteraction	2018-02-25T15:11:04.237Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T15:11:46.604Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		329431
+CollectionFilterRemovalInteraction	2018-02-25T15:11:53.150Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T15:12:25.768Z	b20cfb71487e2060f74d94a686451160	DARDANEL		26
+SearchInteraction	2018-02-25T15:12:54.128Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	23
+RankedRetrieveRecordInteraction	2018-02-25T15:13:00.318Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	/91973/u__vistes_1424	4	23
+SearchInteraction	2018-02-25T17:59:25.193Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T17:59:47.608Z	b20cfb71487e2060f74d94a686451160	turkey		/9200291/bildarchivaustria_at_Preview_4814256	9	299
+SearchInteraction	2018-02-25T18:01:52.895Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.609Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.781Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:24.634Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:34.629Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:45.853Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:03:01.564Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:03:11.759Z	b20cfb71487e2060f74d94a686451160	turkey		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_937_10	67	299
+ArbitraryAccessInteraction	2018-02-25T18:04:32.758Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_935_7.html (PortalController#show)
+SearchInteraction	2018-02-25T18:04:55.839Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:09.055Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:20.844Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:28.296Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:34.944Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:43.115Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:05:59.529Z	b20cfb71487e2060f74d94a686451160	turkey		/15601/C822DEDA3D74FAD45D1BD92FD020F24AE4D3B035	142	299
+SearchInteraction	2018-02-25T18:06:40.623Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:06:53.242Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:07:03.597Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:13.666Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:19.217Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:26.517Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:34.897Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:42.704Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:52.653Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496768	127	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:54.510Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496767	128	128
+SearchInteraction	2018-02-25T18:09:02.204Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+SearchInteraction	2018-02-25T18:09:24.546Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:09:29.776Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:09:43.429Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:02.434Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:16.311Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:26.982Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RankedRetrieveRecordInteraction	2018-02-25T18:10:42.341Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	/08622/IWM_19	79	109
+ArbitraryAccessInteraction	2018-02-25T20:38:38.893Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T21:02:54.175Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T21:03:23.611Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"		28
+SearchInteraction	2018-02-25T21:03:33.119Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	19
+RankedRetrieveRecordInteraction	2018-02-25T21:03:48.394Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08611/40282	3	19
+RankedRetrieveRecordInteraction	2018-02-25T21:07:38.093Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08614/cat150380	11	19
+SearchInteraction	2018-02-25T21:09:41.871Z	b20cfb71487e2060f74d94a686451160	europeana_collectionName:(08622_Ag_EU_EFG_Imperial_War_Museums)		1261
+SearchInteraction	2018-02-25T21:10:05.393Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-25T21:10:07.828Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T21:10:17.946Z	b20cfb71487e2060f74d94a686451160	jerusalem		22639
+SearchInteraction	2018-02-25T21:10:24.813Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	613
+CollectionFilterAdditionInteraction	2018-02-25T21:10:36.678Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	20
+RankedRetrieveRecordInteraction	2018-02-25T21:10:54.453Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	/08622/IWM_19	12	20
+ArbitraryAccessInteraction	2018-02-25T15:11:04.237Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T15:11:46.604Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		329431
+CollectionFilterRemovalInteraction	2018-02-25T15:11:53.150Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T15:12:25.768Z	b20cfb71487e2060f74d94a686451160	DARDANEL		26
+SearchInteraction	2018-02-25T15:12:54.128Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	23
+RankedRetrieveRecordInteraction	2018-02-25T15:13:00.318Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	/91973/u__vistes_1424	4	23
+SearchInteraction	2018-02-25T17:59:25.193Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T17:59:47.608Z	b20cfb71487e2060f74d94a686451160	turkey		/9200291/bildarchivaustria_at_Preview_4814256	9	299
+SearchInteraction	2018-02-25T18:01:52.895Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.609Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.781Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:24.634Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:34.629Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:45.853Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:03:01.564Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:03:11.759Z	b20cfb71487e2060f74d94a686451160	turkey		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_937_10	67	299
+ArbitraryAccessInteraction	2018-02-25T18:04:32.758Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_935_7.html (PortalController#show)
+SearchInteraction	2018-02-25T18:04:55.839Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:09.055Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:20.844Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:28.296Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:34.944Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:43.115Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:05:59.529Z	b20cfb71487e2060f74d94a686451160	turkey		/15601/C822DEDA3D74FAD45D1BD92FD020F24AE4D3B035	142	299
+SearchInteraction	2018-02-25T18:06:40.623Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:06:53.242Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:07:03.597Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:13.666Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:19.217Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:26.517Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:34.897Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:42.704Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:52.653Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496768	127	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:54.510Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496767	128	128
+SearchInteraction	2018-02-25T18:09:02.204Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+SearchInteraction	2018-02-25T18:09:24.546Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:09:29.776Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:09:43.429Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:02.434Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:16.311Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:26.982Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RankedRetrieveRecordInteraction	2018-02-25T18:10:42.341Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	/08622/IWM_19	79	109
+ArbitraryAccessInteraction	2018-02-25T20:38:38.893Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T21:02:54.175Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T21:03:23.611Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"		28
+SearchInteraction	2018-02-25T21:03:33.119Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	19
+RankedRetrieveRecordInteraction	2018-02-25T21:03:48.394Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08611/40282	3	19
+RankedRetrieveRecordInteraction	2018-02-25T21:07:38.093Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08614/cat150380	11	19
+SearchInteraction	2018-02-25T21:09:41.871Z	b20cfb71487e2060f74d94a686451160	europeana_collectionName:(08622_Ag_EU_EFG_Imperial_War_Museums)		1261
+SearchInteraction	2018-02-25T21:10:05.393Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-25T21:10:07.828Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T21:10:17.946Z	b20cfb71487e2060f74d94a686451160	jerusalem		22639
+SearchInteraction	2018-02-25T21:10:24.813Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	613
+CollectionFilterAdditionInteraction	2018-02-25T21:10:36.678Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	20
+RankedRetrieveRecordInteraction	2018-02-25T21:10:54.453Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	/08622/IWM_19	12	20
+ArbitraryAccessInteraction	2018-02-25T15:11:04.237Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T15:11:46.604Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		329431
+CollectionFilterRemovalInteraction	2018-02-25T15:11:53.150Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T15:12:25.768Z	b20cfb71487e2060f74d94a686451160	DARDANEL		26
+SearchInteraction	2018-02-25T15:12:54.128Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	23
+RankedRetrieveRecordInteraction	2018-02-25T15:13:00.318Z	b20cfb71487e2060f74d94a686451160	DARDANEL	{'TYPE': ['IMAGE']}	/91973/u__vistes_1424	4	23
+SearchInteraction	2018-02-25T17:59:25.193Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T17:59:47.608Z	b20cfb71487e2060f74d94a686451160	turkey		/9200291/bildarchivaustria_at_Preview_4814256	9	299
+SearchInteraction	2018-02-25T18:01:52.895Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.609Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:14.781Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:24.634Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:34.629Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:02:45.853Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:03:01.564Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:03:11.759Z	b20cfb71487e2060f74d94a686451160	turkey		/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_937_10	67	299
+ArbitraryAccessInteraction	2018-02-25T18:04:32.758Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/2024913/photography_ProvidedCHO_Parisienne_de_Photographie_935_7.html (PortalController#show)
+SearchInteraction	2018-02-25T18:04:55.839Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:09.055Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:20.844Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:28.296Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:34.944Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:05:43.115Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RankedRetrieveRecordInteraction	2018-02-25T18:05:59.529Z	b20cfb71487e2060f74d94a686451160	turkey		/15601/C822DEDA3D74FAD45D1BD92FD020F24AE4D3B035	142	299
+SearchInteraction	2018-02-25T18:06:40.623Z	b20cfb71487e2060f74d94a686451160	turkey		299
+RefreshOrPaginationInteraction	2018-02-25T18:06:53.242Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:07:03.597Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:13.666Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:19.217Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:26.517Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:34.897Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RefreshOrPaginationInteraction	2018-02-25T18:07:42.704Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:52.653Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496768	127	128
+RankedRetrieveRecordInteraction	2018-02-25T18:07:54.510Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	/08618/496767	128	128
+SearchInteraction	2018-02-25T18:09:02.204Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['IMAGE']}	128
+SearchInteraction	2018-02-25T18:09:24.546Z	b20cfb71487e2060f74d94a686451160	turkey		299
+SearchInteraction	2018-02-25T18:09:29.776Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:09:43.429Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:02.434Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:16.311Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RefreshOrPaginationInteraction	2018-02-25T18:10:26.982Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	109
+RankedRetrieveRecordInteraction	2018-02-25T18:10:42.341Z	b20cfb71487e2060f74d94a686451160	turkey	{'TYPE': ['VIDEO']}	/08622/IWM_19	79	109
+ArbitraryAccessInteraction	2018-02-25T20:38:38.893Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T21:02:54.175Z	b20cfb71487e2060f74d94a686451160	[200] GET /portal/en/record/08623/13041.html (PortalController#show)
+SearchInteraction	2018-02-25T21:03:23.611Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"		28
+SearchInteraction	2018-02-25T21:03:33.119Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	19
+RankedRetrieveRecordInteraction	2018-02-25T21:03:48.394Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08611/40282	3	19
+RankedRetrieveRecordInteraction	2018-02-25T21:07:38.093Z	b20cfb71487e2060f74d94a686451160	what:"World War, 1914-1918 -- Turkey"	{'TYPE': ['VIDEO']}	/08614/cat150380	11	19
+SearchInteraction	2018-02-25T21:09:41.871Z	b20cfb71487e2060f74d94a686451160	europeana_collectionName:(08622_Ag_EU_EFG_Imperial_War_Museums)		1261
+SearchInteraction	2018-02-25T21:10:05.393Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+RefreshOrPaginationInteraction	2018-02-25T21:10:07.828Z	b20cfb71487e2060f74d94a686451160	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-25T21:10:17.946Z	b20cfb71487e2060f74d94a686451160	jerusalem		22639
+SearchInteraction	2018-02-25T21:10:24.813Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	613
+CollectionFilterAdditionInteraction	2018-02-25T21:10:36.678Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	20
+RankedRetrieveRecordInteraction	2018-02-25T21:10:54.453Z	b20cfb71487e2060f74d94a686451160	jerusalem	{'TYPE': ['VIDEO']}	/08622/IWM_19	12	20

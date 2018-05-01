@@ -1,0 +1,410 @@
+ArbitraryAccessInteraction	2018-03-12T12:14:23.058Z	467b7b72c56233d65ee761c803aadc5e	[200] GET /portal/it/record/9200291/BibliographicResource_3000073510586.html (PortalController#show)
+SearchInteraction	2018-03-12T12:14:47.741Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:15:07.209Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:15:13.602Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4816001	1	219
+SearchInteraction	2018-03-12T12:15:58.957Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:16:06.842Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815995	2	219
+SearchInteraction	2018-03-12T12:16:55.019Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:17:01.619Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815971	6	219
+SearchInteraction	2018-03-12T12:17:30.763Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:17:49.404Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:18:13.043Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:00.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:20.791Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621778	43	219
+SearchInteraction	2018-03-12T12:19:37.612Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:47.492Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:59.528Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15620278	51	219
+SearchInteraction	2018-03-12T12:20:05.622Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterAdditionInteraction	2018-03-12T12:20:14.105Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+RankedRetrieveRecordInteraction	2018-03-12T12:20:20.511Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621869	2	2
+SearchInteraction	2018-03-12T12:20:33.747Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+CollectionFilterRemovalInteraction	2018-03-12T12:20:42.476Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		9
+CollectionFilterAdditionInteraction	2018-03-12T12:21:15.632Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:22.488Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:28.966Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:44.877Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:49.407Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:55.269Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:59.371Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:06.752Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:10.372Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:17.112Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+RankedRetrieveRecordInteraction	2018-03-12T12:22:27.048Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15616955	3	3
+SearchInteraction	2018-03-12T12:22:40.926Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+CollectionFilterRemovalInteraction	2018-03-12T12:22:46.345Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:52.756Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:57.293Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:23:05.714Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:23:13.221Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:23:39.206Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621834	41	219
+SearchInteraction	2018-03-12T12:24:08.498Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:25:22.611Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15619843	69	219
+SearchInteraction	2018-03-12T12:25:42.928Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:25:58.099Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:26:38.463Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15618846	85	219
+SearchInteraction	2018-03-12T12:26:44.350Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:27:08.931Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15617018	95	219
+SearchInteraction	2018-03-12T12:27:41.222Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:29:08.446Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:30:13.485Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15613837	180	219
+SearchInteraction	2018-03-12T12:30:26.116Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:30:59.589Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterRemovalInteraction	2018-03-12T12:31:13.677Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:20.028Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:24.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:30.189Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:35.044Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:42.046Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:46.231Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:31.934Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:46.259Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+SearchInteraction	2018-03-12T12:33:50.521Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T12:33:56.867Z	467b7b72c56233d65ee761c803aadc5e	piave		2906
+CollectionFilterRemovalInteraction	2018-03-12T12:34:04.643Z	467b7b72c56233d65ee761c803aadc5e	piave		912
+SearchInteraction	2018-03-12T12:34:13.611Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+RankedRetrieveRecordInteraction	2018-03-12T12:34:21.301Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	/9200291/bildarchivaustria_at_Preview_4816001	4	822
+SearchInteraction	2018-03-12T12:35:01.545Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+CollectionFilterAdditionInteraction	2018-03-12T12:35:15.211Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T12:39:00.029Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:12.120Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:18.634Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:39:41.278Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	21351421
+CollectionFilterRemovalInteraction	2018-03-12T12:39:47.914Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-12T12:40:04.667Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RefreshOrPaginationInteraction	2018-03-12T12:40:20.710Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+CollectionFilterRemovalInteraction	2018-03-12T12:40:37.587Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:40:44.298Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:40:58.716Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:18.381Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:37.116Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+SearchInteraction	2018-03-12T12:41:59.419Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:42:09.422Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+RefreshOrPaginationInteraction	2018-03-12T12:42:09.991Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+ArbitraryAccessInteraction	2018-03-12T12:14:23.058Z	467b7b72c56233d65ee761c803aadc5e	[200] GET /portal/it/record/9200291/BibliographicResource_3000073510586.html (PortalController#show)
+SearchInteraction	2018-03-12T12:14:47.741Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:15:07.209Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:15:13.602Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4816001	1	219
+SearchInteraction	2018-03-12T12:15:58.957Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:16:06.842Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815995	2	219
+SearchInteraction	2018-03-12T12:16:55.019Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:17:01.619Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815971	6	219
+SearchInteraction	2018-03-12T12:17:30.763Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:17:49.404Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:18:13.043Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:00.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:20.791Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621778	43	219
+SearchInteraction	2018-03-12T12:19:37.612Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:47.492Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:59.528Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15620278	51	219
+SearchInteraction	2018-03-12T12:20:05.622Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterAdditionInteraction	2018-03-12T12:20:14.105Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+RankedRetrieveRecordInteraction	2018-03-12T12:20:20.511Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621869	2	2
+SearchInteraction	2018-03-12T12:20:33.747Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+CollectionFilterRemovalInteraction	2018-03-12T12:20:42.476Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		9
+CollectionFilterAdditionInteraction	2018-03-12T12:21:15.632Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:22.488Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:28.966Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:44.877Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:49.407Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:55.269Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:59.371Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:06.752Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:10.372Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:17.112Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+RankedRetrieveRecordInteraction	2018-03-12T12:22:27.048Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15616955	3	3
+SearchInteraction	2018-03-12T12:22:40.926Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+CollectionFilterRemovalInteraction	2018-03-12T12:22:46.345Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:52.756Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:57.293Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:23:05.714Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:23:13.221Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:23:39.206Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621834	41	219
+SearchInteraction	2018-03-12T12:24:08.498Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:25:22.611Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15619843	69	219
+SearchInteraction	2018-03-12T12:25:42.928Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:25:58.099Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:26:38.463Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15618846	85	219
+SearchInteraction	2018-03-12T12:26:44.350Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:27:08.931Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15617018	95	219
+SearchInteraction	2018-03-12T12:27:41.222Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:29:08.446Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:30:13.485Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15613837	180	219
+SearchInteraction	2018-03-12T12:30:26.116Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:30:59.589Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterRemovalInteraction	2018-03-12T12:31:13.677Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:20.028Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:24.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:30.189Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:35.044Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:42.046Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:46.231Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:31.934Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:46.259Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+SearchInteraction	2018-03-12T12:33:50.521Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T12:33:56.867Z	467b7b72c56233d65ee761c803aadc5e	piave		2906
+CollectionFilterRemovalInteraction	2018-03-12T12:34:04.643Z	467b7b72c56233d65ee761c803aadc5e	piave		912
+SearchInteraction	2018-03-12T12:34:13.611Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+RankedRetrieveRecordInteraction	2018-03-12T12:34:21.301Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	/9200291/bildarchivaustria_at_Preview_4816001	4	822
+SearchInteraction	2018-03-12T12:35:01.545Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+CollectionFilterAdditionInteraction	2018-03-12T12:35:15.211Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T12:39:00.029Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:12.120Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:18.634Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:39:41.278Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	21351421
+CollectionFilterRemovalInteraction	2018-03-12T12:39:47.914Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-12T12:40:04.667Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RefreshOrPaginationInteraction	2018-03-12T12:40:20.710Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+CollectionFilterRemovalInteraction	2018-03-12T12:40:37.587Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:40:44.298Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:40:58.716Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:18.381Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:37.116Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+SearchInteraction	2018-03-12T12:41:59.419Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:42:09.422Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+RefreshOrPaginationInteraction	2018-03-12T12:42:09.991Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+ArbitraryAccessInteraction	2018-03-12T12:14:23.058Z	467b7b72c56233d65ee761c803aadc5e	[200] GET /portal/it/record/9200291/BibliographicResource_3000073510586.html (PortalController#show)
+SearchInteraction	2018-03-12T12:14:47.741Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:15:07.209Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:15:13.602Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4816001	1	219
+SearchInteraction	2018-03-12T12:15:58.957Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:16:06.842Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815995	2	219
+SearchInteraction	2018-03-12T12:16:55.019Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:17:01.619Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815971	6	219
+SearchInteraction	2018-03-12T12:17:30.763Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:17:49.404Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:18:13.043Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:00.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:20.791Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621778	43	219
+SearchInteraction	2018-03-12T12:19:37.612Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:47.492Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:59.528Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15620278	51	219
+SearchInteraction	2018-03-12T12:20:05.622Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterAdditionInteraction	2018-03-12T12:20:14.105Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+RankedRetrieveRecordInteraction	2018-03-12T12:20:20.511Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621869	2	2
+SearchInteraction	2018-03-12T12:20:33.747Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+CollectionFilterRemovalInteraction	2018-03-12T12:20:42.476Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		9
+CollectionFilterAdditionInteraction	2018-03-12T12:21:15.632Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:22.488Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:28.966Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:44.877Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:49.407Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:55.269Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:59.371Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:06.752Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:10.372Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:17.112Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+RankedRetrieveRecordInteraction	2018-03-12T12:22:27.048Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15616955	3	3
+SearchInteraction	2018-03-12T12:22:40.926Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+CollectionFilterRemovalInteraction	2018-03-12T12:22:46.345Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:52.756Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:57.293Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:23:05.714Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:23:13.221Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:23:39.206Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621834	41	219
+SearchInteraction	2018-03-12T12:24:08.498Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:25:22.611Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15619843	69	219
+SearchInteraction	2018-03-12T12:25:42.928Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:25:58.099Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:26:38.463Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15618846	85	219
+SearchInteraction	2018-03-12T12:26:44.350Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:27:08.931Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15617018	95	219
+SearchInteraction	2018-03-12T12:27:41.222Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:29:08.446Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:30:13.485Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15613837	180	219
+SearchInteraction	2018-03-12T12:30:26.116Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:30:59.589Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterRemovalInteraction	2018-03-12T12:31:13.677Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:20.028Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:24.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:30.189Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:35.044Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:42.046Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:46.231Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:31.934Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:46.259Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+SearchInteraction	2018-03-12T12:33:50.521Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T12:33:56.867Z	467b7b72c56233d65ee761c803aadc5e	piave		2906
+CollectionFilterRemovalInteraction	2018-03-12T12:34:04.643Z	467b7b72c56233d65ee761c803aadc5e	piave		912
+SearchInteraction	2018-03-12T12:34:13.611Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+RankedRetrieveRecordInteraction	2018-03-12T12:34:21.301Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	/9200291/bildarchivaustria_at_Preview_4816001	4	822
+SearchInteraction	2018-03-12T12:35:01.545Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+CollectionFilterAdditionInteraction	2018-03-12T12:35:15.211Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T12:39:00.029Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:12.120Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:18.634Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:39:41.278Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	21351421
+CollectionFilterRemovalInteraction	2018-03-12T12:39:47.914Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-12T12:40:04.667Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RefreshOrPaginationInteraction	2018-03-12T12:40:20.710Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+CollectionFilterRemovalInteraction	2018-03-12T12:40:37.587Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:40:44.298Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:40:58.716Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:18.381Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:37.116Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+SearchInteraction	2018-03-12T12:41:59.419Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:42:09.422Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+RefreshOrPaginationInteraction	2018-03-12T12:42:09.991Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+ArbitraryAccessInteraction	2018-03-12T12:14:23.058Z	467b7b72c56233d65ee761c803aadc5e	[200] GET /portal/it/record/9200291/BibliographicResource_3000073510586.html (PortalController#show)
+SearchInteraction	2018-03-12T12:14:47.741Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:15:07.209Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:15:13.602Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4816001	1	219
+SearchInteraction	2018-03-12T12:15:58.957Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:16:06.842Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815995	2	219
+SearchInteraction	2018-03-12T12:16:55.019Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:17:01.619Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815971	6	219
+SearchInteraction	2018-03-12T12:17:30.763Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:17:49.404Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:18:13.043Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:00.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:20.791Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621778	43	219
+SearchInteraction	2018-03-12T12:19:37.612Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:47.492Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:59.528Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15620278	51	219
+SearchInteraction	2018-03-12T12:20:05.622Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterAdditionInteraction	2018-03-12T12:20:14.105Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+RankedRetrieveRecordInteraction	2018-03-12T12:20:20.511Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621869	2	2
+SearchInteraction	2018-03-12T12:20:33.747Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+CollectionFilterRemovalInteraction	2018-03-12T12:20:42.476Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		9
+CollectionFilterAdditionInteraction	2018-03-12T12:21:15.632Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:22.488Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:28.966Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:44.877Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:49.407Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:55.269Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:59.371Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:06.752Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:10.372Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:17.112Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+RankedRetrieveRecordInteraction	2018-03-12T12:22:27.048Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15616955	3	3
+SearchInteraction	2018-03-12T12:22:40.926Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+CollectionFilterRemovalInteraction	2018-03-12T12:22:46.345Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:52.756Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:57.293Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:23:05.714Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:23:13.221Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:23:39.206Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621834	41	219
+SearchInteraction	2018-03-12T12:24:08.498Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:25:22.611Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15619843	69	219
+SearchInteraction	2018-03-12T12:25:42.928Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:25:58.099Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:26:38.463Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15618846	85	219
+SearchInteraction	2018-03-12T12:26:44.350Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:27:08.931Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15617018	95	219
+SearchInteraction	2018-03-12T12:27:41.222Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:29:08.446Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:30:13.485Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15613837	180	219
+SearchInteraction	2018-03-12T12:30:26.116Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:30:59.589Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterRemovalInteraction	2018-03-12T12:31:13.677Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:20.028Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:24.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:30.189Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:35.044Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:42.046Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:46.231Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:31.934Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:46.259Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+SearchInteraction	2018-03-12T12:33:50.521Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T12:33:56.867Z	467b7b72c56233d65ee761c803aadc5e	piave		2906
+CollectionFilterRemovalInteraction	2018-03-12T12:34:04.643Z	467b7b72c56233d65ee761c803aadc5e	piave		912
+SearchInteraction	2018-03-12T12:34:13.611Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+RankedRetrieveRecordInteraction	2018-03-12T12:34:21.301Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	/9200291/bildarchivaustria_at_Preview_4816001	4	822
+SearchInteraction	2018-03-12T12:35:01.545Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+CollectionFilterAdditionInteraction	2018-03-12T12:35:15.211Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T12:39:00.029Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:12.120Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:18.634Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:39:41.278Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	21351421
+CollectionFilterRemovalInteraction	2018-03-12T12:39:47.914Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-12T12:40:04.667Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RefreshOrPaginationInteraction	2018-03-12T12:40:20.710Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+CollectionFilterRemovalInteraction	2018-03-12T12:40:37.587Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:40:44.298Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:40:58.716Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:18.381Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:37.116Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+SearchInteraction	2018-03-12T12:41:59.419Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:42:09.422Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+RefreshOrPaginationInteraction	2018-03-12T12:42:09.991Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+ArbitraryAccessInteraction	2018-03-12T12:14:23.058Z	467b7b72c56233d65ee761c803aadc5e	[200] GET /portal/it/record/9200291/BibliographicResource_3000073510586.html (PortalController#show)
+SearchInteraction	2018-03-12T12:14:47.741Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:15:07.209Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:15:13.602Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4816001	1	219
+SearchInteraction	2018-03-12T12:15:58.957Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:16:06.842Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815995	2	219
+SearchInteraction	2018-03-12T12:16:55.019Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:17:01.619Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_4815971	6	219
+SearchInteraction	2018-03-12T12:17:30.763Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:17:49.404Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:18:13.043Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:00.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:20.791Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621778	43	219
+SearchInteraction	2018-03-12T12:19:37.612Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:19:47.492Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:19:59.528Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15620278	51	219
+SearchInteraction	2018-03-12T12:20:05.622Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterAdditionInteraction	2018-03-12T12:20:14.105Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+RankedRetrieveRecordInteraction	2018-03-12T12:20:20.511Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621869	2	2
+SearchInteraction	2018-03-12T12:20:33.747Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		2
+CollectionFilterRemovalInteraction	2018-03-12T12:20:42.476Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		9
+CollectionFilterAdditionInteraction	2018-03-12T12:21:15.632Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:22.488Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:28.966Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:44.877Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:49.407Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:21:55.269Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:21:59.371Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:06.752Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:10.372Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:17.112Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+RankedRetrieveRecordInteraction	2018-03-12T12:22:27.048Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15616955	3	3
+SearchInteraction	2018-03-12T12:22:40.926Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		3
+CollectionFilterRemovalInteraction	2018-03-12T12:22:46.345Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:22:52.756Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:22:57.293Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:23:05.714Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:23:13.221Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:23:39.206Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15621834	41	219
+SearchInteraction	2018-03-12T12:24:08.498Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:25:22.611Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15619843	69	219
+SearchInteraction	2018-03-12T12:25:42.928Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:25:58.099Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:26:38.463Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15618846	85	219
+SearchInteraction	2018-03-12T12:26:44.350Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:27:08.931Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15617018	95	219
+SearchInteraction	2018-03-12T12:27:41.222Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:29:08.446Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RankedRetrieveRecordInteraction	2018-03-12T12:30:13.485Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		/9200291/bildarchivaustria_at_Preview_15613837	180	219
+SearchInteraction	2018-03-12T12:30:26.116Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+RefreshOrPaginationInteraction	2018-03-12T12:30:59.589Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		219
+CollectionFilterRemovalInteraction	2018-03-12T12:31:13.677Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:20.028Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:24.315Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:30.189Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:35.044Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+CollectionFilterAdditionInteraction	2018-03-12T12:31:42.046Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		0
+CollectionFilterRemovalInteraction	2018-03-12T12:31:46.231Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:31.934Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+RefreshOrPaginationInteraction	2018-03-12T12:33:46.259Z	467b7b72c56233d65ee761c803aadc5e	who:(K.u.k. Kriegspressequartier, Lichtbildstelle - Wien)		37070
+SearchInteraction	2018-03-12T12:33:50.521Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED		51410425
+SearchInteraction	2018-03-12T12:33:56.867Z	467b7b72c56233d65ee761c803aadc5e	piave		2906
+CollectionFilterRemovalInteraction	2018-03-12T12:34:04.643Z	467b7b72c56233d65ee761c803aadc5e	piave		912
+SearchInteraction	2018-03-12T12:34:13.611Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+RankedRetrieveRecordInteraction	2018-03-12T12:34:21.301Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	/9200291/bildarchivaustria_at_Preview_4816001	4	822
+SearchInteraction	2018-03-12T12:35:01.545Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	822
+CollectionFilterAdditionInteraction	2018-03-12T12:35:15.211Z	467b7b72c56233d65ee761c803aadc5e	piave	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-12T12:39:00.029Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:12.120Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+RefreshOrPaginationInteraction	2018-03-12T12:39:18.634Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:39:41.278Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	21351421
+CollectionFilterRemovalInteraction	2018-03-12T12:39:47.914Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open']}	232841
+SearchInteraction	2018-03-12T12:40:04.667Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+RefreshOrPaginationInteraction	2018-03-12T12:40:20.710Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	57030
+CollectionFilterRemovalInteraction	2018-03-12T12:40:37.587Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:40:44.298Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:40:58.716Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:18.381Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+RefreshOrPaginationInteraction	2018-03-12T12:41:37.116Z	467b7b72c56233d65ee761c803aadc5e	piave	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	228
+SearchInteraction	2018-03-12T12:41:59.419Z	467b7b72c56233d65ee761c803aadc5e	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7995399
+SearchInteraction	2018-03-12T12:42:09.422Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205
+RefreshOrPaginationInteraction	2018-03-12T12:42:09.991Z	467b7b72c56233d65ee761c803aadc5e	sile	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	3205

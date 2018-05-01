@@ -1,0 +1,115 @@
+ArbitraryAccessInteraction	2018-02-08T20:08:32.078Z	694f633aa864cf0a6dd6fc8c6e193420	[200] GET /portal/it/record/2058610/pages_Main_idt_124683_inventary_CE0121C_table_FMUS_museum_MBASE.html (PortalController#show)
+SearchInteraction	2018-02-08T20:25:12.970Z	694f633aa864cf0a6dd6fc8c6e193420	rufina		871
+SearchInteraction	2018-02-08T20:25:25.006Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'TYPE': ['IMAGE']}	513
+SearchInteraction	2018-02-08T20:25:40.654Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RefreshOrPaginationInteraction	2018-02-08T20:26:22.309Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:31.819Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136365293	1	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:33.700Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136363078	2	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:36.576Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136360485	3	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:41.591Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2059519/data_foodanddrink_70_0085796	6	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:50.300Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_121860_inventary_CE0132P_table_FMUS_museum_MBASE	9	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:58.668Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2048046/10687_58180	13	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:15.646Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40227	26	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:17.771Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40226	27	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:23.553Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_34953	28	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:29.307Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_18155	31	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:36.523Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_00908	33	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:41.154Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_MORENO_02194_C	36	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:58.319Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23329_ent1	55	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:07.328Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23264_ent1	57	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:17.046Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNR_CE7125	60	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:20.133Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNC_CE1_13058	61	67
+SearchInteraction	2018-02-08T20:28:42.259Z	694f633aa864cf0a6dd6fc8c6e193420	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+SearchInteraction	2018-02-08T20:33:54.779Z	694f633aa864cf0a6dd6fc8c6e193420	what:"Iglesia de Santas Justa y Rufina"		12
+ArbitraryAccessInteraction	2018-02-08T20:08:32.078Z	694f633aa864cf0a6dd6fc8c6e193420	[200] GET /portal/it/record/2058610/pages_Main_idt_124683_inventary_CE0121C_table_FMUS_museum_MBASE.html (PortalController#show)
+SearchInteraction	2018-02-08T20:25:12.970Z	694f633aa864cf0a6dd6fc8c6e193420	rufina		871
+SearchInteraction	2018-02-08T20:25:25.006Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'TYPE': ['IMAGE']}	513
+SearchInteraction	2018-02-08T20:25:40.654Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RefreshOrPaginationInteraction	2018-02-08T20:26:22.309Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:31.819Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136365293	1	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:33.700Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136363078	2	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:36.576Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136360485	3	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:41.591Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2059519/data_foodanddrink_70_0085796	6	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:50.300Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_121860_inventary_CE0132P_table_FMUS_museum_MBASE	9	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:58.668Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2048046/10687_58180	13	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:15.646Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40227	26	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:17.771Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40226	27	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:23.553Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_34953	28	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:29.307Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_18155	31	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:36.523Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_00908	33	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:41.154Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_MORENO_02194_C	36	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:58.319Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23329_ent1	55	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:07.328Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23264_ent1	57	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:17.046Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNR_CE7125	60	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:20.133Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNC_CE1_13058	61	67
+SearchInteraction	2018-02-08T20:28:42.259Z	694f633aa864cf0a6dd6fc8c6e193420	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+SearchInteraction	2018-02-08T20:33:54.779Z	694f633aa864cf0a6dd6fc8c6e193420	what:"Iglesia de Santas Justa y Rufina"		12
+ArbitraryAccessInteraction	2018-02-08T20:08:32.078Z	694f633aa864cf0a6dd6fc8c6e193420	[200] GET /portal/it/record/2058610/pages_Main_idt_124683_inventary_CE0121C_table_FMUS_museum_MBASE.html (PortalController#show)
+SearchInteraction	2018-02-08T20:25:12.970Z	694f633aa864cf0a6dd6fc8c6e193420	rufina		871
+SearchInteraction	2018-02-08T20:25:25.006Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'TYPE': ['IMAGE']}	513
+SearchInteraction	2018-02-08T20:25:40.654Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RefreshOrPaginationInteraction	2018-02-08T20:26:22.309Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:31.819Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136365293	1	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:33.700Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136363078	2	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:36.576Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136360485	3	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:41.591Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2059519/data_foodanddrink_70_0085796	6	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:50.300Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_121860_inventary_CE0132P_table_FMUS_museum_MBASE	9	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:58.668Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2048046/10687_58180	13	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:15.646Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40227	26	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:17.771Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40226	27	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:23.553Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_34953	28	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:29.307Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_18155	31	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:36.523Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_00908	33	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:41.154Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_MORENO_02194_C	36	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:58.319Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23329_ent1	55	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:07.328Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23264_ent1	57	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:17.046Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNR_CE7125	60	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:20.133Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNC_CE1_13058	61	67
+SearchInteraction	2018-02-08T20:28:42.259Z	694f633aa864cf0a6dd6fc8c6e193420	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+SearchInteraction	2018-02-08T20:33:54.779Z	694f633aa864cf0a6dd6fc8c6e193420	what:"Iglesia de Santas Justa y Rufina"		12
+ArbitraryAccessInteraction	2018-02-08T20:08:32.078Z	694f633aa864cf0a6dd6fc8c6e193420	[200] GET /portal/it/record/2058610/pages_Main_idt_124683_inventary_CE0121C_table_FMUS_museum_MBASE.html (PortalController#show)
+SearchInteraction	2018-02-08T20:25:12.970Z	694f633aa864cf0a6dd6fc8c6e193420	rufina		871
+SearchInteraction	2018-02-08T20:25:25.006Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'TYPE': ['IMAGE']}	513
+SearchInteraction	2018-02-08T20:25:40.654Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RefreshOrPaginationInteraction	2018-02-08T20:26:22.309Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:31.819Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136365293	1	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:33.700Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136363078	2	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:36.576Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136360485	3	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:41.591Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2059519/data_foodanddrink_70_0085796	6	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:50.300Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_121860_inventary_CE0132P_table_FMUS_museum_MBASE	9	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:58.668Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2048046/10687_58180	13	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:15.646Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40227	26	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:17.771Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40226	27	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:23.553Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_34953	28	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:29.307Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_18155	31	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:36.523Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_00908	33	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:41.154Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_MORENO_02194_C	36	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:58.319Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23329_ent1	55	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:07.328Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23264_ent1	57	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:17.046Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNR_CE7125	60	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:20.133Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNC_CE1_13058	61	67
+SearchInteraction	2018-02-08T20:28:42.259Z	694f633aa864cf0a6dd6fc8c6e193420	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+SearchInteraction	2018-02-08T20:33:54.779Z	694f633aa864cf0a6dd6fc8c6e193420	what:"Iglesia de Santas Justa y Rufina"		12
+ArbitraryAccessInteraction	2018-02-08T20:08:32.078Z	694f633aa864cf0a6dd6fc8c6e193420	[200] GET /portal/it/record/2058610/pages_Main_idt_124683_inventary_CE0121C_table_FMUS_museum_MBASE.html (PortalController#show)
+SearchInteraction	2018-02-08T20:25:12.970Z	694f633aa864cf0a6dd6fc8c6e193420	rufina		871
+SearchInteraction	2018-02-08T20:25:25.006Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'TYPE': ['IMAGE']}	513
+SearchInteraction	2018-02-08T20:25:40.654Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RefreshOrPaginationInteraction	2018-02-08T20:26:22.309Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:31.819Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136365293	1	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:33.700Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136363078	2	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:36.576Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/9200376/BibliographicResource_3000136360485	3	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:41.591Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2059519/data_foodanddrink_70_0085796	6	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:50.300Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2058610/pages_Main_idt_121860_inventary_CE0132P_table_FMUS_museum_MBASE	9	67
+RankedRetrieveRecordInteraction	2018-02-08T20:26:58.668Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2048046/10687_58180	13	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:15.646Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40227	26	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:17.771Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_40226	27	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:23.553Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_34953	28	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:29.307Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_18155	31	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:36.523Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_RUIZ_20VERNACCI_VN_00908	33	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:41.154Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022709/oai_fototeca_mcu_es_fototeca_MORENO_02194_C	36	67
+RankedRetrieveRecordInteraction	2018-02-08T20:27:58.319Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23329_ent1	55	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:07.328Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022704/lod_oai_archivoimagen_jccm_es_23264_ent1	57	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:17.046Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNR_CE7125	60	67
+RankedRetrieveRecordInteraction	2018-02-08T20:28:20.133Z	694f633aa864cf0a6dd6fc8c6e193420	rufina	{'COUNTRY': ['spain'], 'TYPE': ['IMAGE']}	/2022703/oai_euromuseos_mcu_es_euromuseos_MNC_CE1_13058	61	67
+SearchInteraction	2018-02-08T20:28:42.259Z	694f633aa864cf0a6dd6fc8c6e193420	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1226"		122026
+SearchInteraction	2018-02-08T20:33:54.779Z	694f633aa864cf0a6dd6fc8c6e193420	what:"Iglesia de Santas Justa y Rufina"		12

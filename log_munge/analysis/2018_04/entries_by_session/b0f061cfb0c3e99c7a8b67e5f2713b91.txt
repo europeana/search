@@ -1,0 +1,340 @@
+SearchInteraction	2018-03-07T07:50:52.618Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:03.145Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/08547/sgml_eu_php_obj_bb043448	1	181
+SearchInteraction	2018-03-07T07:51:26.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:51:34.232Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:47.432Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_071832	16	181
+SearchInteraction	2018-03-07T07:52:21.635Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:41.306Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:53.214Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:07.879Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:19.743Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:29.350Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:37.716Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:43.018Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+ArbitraryAccessInteraction	2018-03-07T08:33:35.485Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T09:26:34.032Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-03-07T09:30:29.200Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:30:45.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:31:42.130Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:26.860Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:59.359Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T09:34:35.554Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+RefreshOrPaginationInteraction	2018-03-07T09:35:06.078Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-07T09:36:50.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+RankedRetrieveRecordInteraction	2018-03-07T09:37:31.367Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200229/BibliographicResource_3000135636886	35	4344
+SearchInteraction	2018-03-07T09:38:36.947Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+SearchInteraction	2018-03-07T09:42:02.698Z	b0f061cfb0c3e99c7a8b67e5f2713b91	stereoskop	{'TYPE': ['IMAGE']}	168
+SearchInteraction	2018-03-07T09:42:33.786Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+RefreshOrPaginationInteraction	2018-03-07T09:42:48.532Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+SearchInteraction	2018-03-07T09:43:07.149Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:43:50.585Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:45:29.688Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:46:42.646Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:47:23.068Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+SearchInteraction	2018-03-07T14:23:27.807Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:39.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:48.478Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:03.511Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:22.342Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:47.208Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RankedRetrieveRecordInteraction	2018-03-07T14:26:29.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		/2064108/Museu_ProvidedCHO_Ethnologisches_Museum__Staatliche_Museen_zu_Berlin_1551166	322	2730
+SearchInteraction	2018-03-07T14:27:38.177Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:28:10.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+SearchInteraction	2018-03-07T14:28:35.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:28:46.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:29:09.842Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/92023/BibliographicResource_3000074018704	1	168
+SearchInteraction	2018-03-07T14:30:38.044Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:31:14.320Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10284581	120	168
+SearchInteraction	2018-03-07T14:33:39.504Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:33:48.753Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		8
+RankedRetrieveRecordInteraction	2018-03-07T14:34:05.083Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		/2048429/item_THGVGONADDQKPKFNGQPJGCJZM4KQ4XVX	3	8
+SearchInteraction	2018-03-07T14:34:51.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:00.838Z	b0f061cfb0c3e99c7a8b67e5f2713b91	namur		22
+SearchInteraction	2018-03-07T14:35:39.070Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:49.193Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		1
+CollectionFilterRemovalInteraction	2018-03-07T14:35:53.389Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		71
+RankedRetrieveRecordInteraction	2018-03-07T14:36:29.539Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		/9200229/BibliographicResource_3000135638189	11	71
+SearchInteraction	2018-03-07T14:39:05.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		0
+SearchInteraction	2018-03-07T14:39:09.304Z	b0f061cfb0c3e99c7a8b67e5f2713b91	ensival		73
+SearchInteraction	2018-03-07T14:41:12.292Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:09.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	saint girons		121
+SearchInteraction	2018-03-07T14:42:40.339Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:50.732Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+RefreshOrPaginationInteraction	2018-03-07T14:44:32.981Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+SearchInteraction	2018-03-07T14:45:18.464Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:45:38.931Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+RefreshOrPaginationInteraction	2018-03-07T14:47:54.624Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+SearchInteraction	2018-03-07T14:48:49.271Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:49:05.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	serrabone		82
+SearchInteraction	2018-03-07T07:50:52.618Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:03.145Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/08547/sgml_eu_php_obj_bb043448	1	181
+SearchInteraction	2018-03-07T07:51:26.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:51:34.232Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:47.432Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_071832	16	181
+SearchInteraction	2018-03-07T07:52:21.635Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:41.306Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:53.214Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:07.879Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:19.743Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:29.350Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:37.716Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:43.018Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+ArbitraryAccessInteraction	2018-03-07T08:33:35.485Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T09:26:34.032Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-03-07T09:30:29.200Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:30:45.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:31:42.130Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:26.860Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:59.359Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T09:34:35.554Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+RefreshOrPaginationInteraction	2018-03-07T09:35:06.078Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-07T09:36:50.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+RankedRetrieveRecordInteraction	2018-03-07T09:37:31.367Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200229/BibliographicResource_3000135636886	35	4344
+SearchInteraction	2018-03-07T09:38:36.947Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+SearchInteraction	2018-03-07T09:42:02.698Z	b0f061cfb0c3e99c7a8b67e5f2713b91	stereoskop	{'TYPE': ['IMAGE']}	168
+SearchInteraction	2018-03-07T09:42:33.786Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+RefreshOrPaginationInteraction	2018-03-07T09:42:48.532Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+SearchInteraction	2018-03-07T09:43:07.149Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:43:50.585Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:45:29.688Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:46:42.646Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:47:23.068Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+SearchInteraction	2018-03-07T14:23:27.807Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:39.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:48.478Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:03.511Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:22.342Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:47.208Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RankedRetrieveRecordInteraction	2018-03-07T14:26:29.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		/2064108/Museu_ProvidedCHO_Ethnologisches_Museum__Staatliche_Museen_zu_Berlin_1551166	322	2730
+SearchInteraction	2018-03-07T14:27:38.177Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:28:10.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+SearchInteraction	2018-03-07T14:28:35.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:28:46.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:29:09.842Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/92023/BibliographicResource_3000074018704	1	168
+SearchInteraction	2018-03-07T14:30:38.044Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:31:14.320Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10284581	120	168
+SearchInteraction	2018-03-07T14:33:39.504Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:33:48.753Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		8
+RankedRetrieveRecordInteraction	2018-03-07T14:34:05.083Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		/2048429/item_THGVGONADDQKPKFNGQPJGCJZM4KQ4XVX	3	8
+SearchInteraction	2018-03-07T14:34:51.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:00.838Z	b0f061cfb0c3e99c7a8b67e5f2713b91	namur		22
+SearchInteraction	2018-03-07T14:35:39.070Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:49.193Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		1
+CollectionFilterRemovalInteraction	2018-03-07T14:35:53.389Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		71
+RankedRetrieveRecordInteraction	2018-03-07T14:36:29.539Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		/9200229/BibliographicResource_3000135638189	11	71
+SearchInteraction	2018-03-07T14:39:05.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		0
+SearchInteraction	2018-03-07T14:39:09.304Z	b0f061cfb0c3e99c7a8b67e5f2713b91	ensival		73
+SearchInteraction	2018-03-07T14:41:12.292Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:09.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	saint girons		121
+SearchInteraction	2018-03-07T14:42:40.339Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:50.732Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+RefreshOrPaginationInteraction	2018-03-07T14:44:32.981Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+SearchInteraction	2018-03-07T14:45:18.464Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:45:38.931Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+RefreshOrPaginationInteraction	2018-03-07T14:47:54.624Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+SearchInteraction	2018-03-07T14:48:49.271Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:49:05.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	serrabone		82
+SearchInteraction	2018-03-07T07:50:52.618Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:03.145Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/08547/sgml_eu_php_obj_bb043448	1	181
+SearchInteraction	2018-03-07T07:51:26.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:51:34.232Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:47.432Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_071832	16	181
+SearchInteraction	2018-03-07T07:52:21.635Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:41.306Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:53.214Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:07.879Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:19.743Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:29.350Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:37.716Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:43.018Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+ArbitraryAccessInteraction	2018-03-07T08:33:35.485Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T09:26:34.032Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-03-07T09:30:29.200Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:30:45.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:31:42.130Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:26.860Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:59.359Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T09:34:35.554Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+RefreshOrPaginationInteraction	2018-03-07T09:35:06.078Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-07T09:36:50.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+RankedRetrieveRecordInteraction	2018-03-07T09:37:31.367Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200229/BibliographicResource_3000135636886	35	4344
+SearchInteraction	2018-03-07T09:38:36.947Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+SearchInteraction	2018-03-07T09:42:02.698Z	b0f061cfb0c3e99c7a8b67e5f2713b91	stereoskop	{'TYPE': ['IMAGE']}	168
+SearchInteraction	2018-03-07T09:42:33.786Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+RefreshOrPaginationInteraction	2018-03-07T09:42:48.532Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+SearchInteraction	2018-03-07T09:43:07.149Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:43:50.585Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:45:29.688Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:46:42.646Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:47:23.068Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+SearchInteraction	2018-03-07T14:23:27.807Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:39.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:48.478Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:03.511Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:22.342Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:47.208Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RankedRetrieveRecordInteraction	2018-03-07T14:26:29.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		/2064108/Museu_ProvidedCHO_Ethnologisches_Museum__Staatliche_Museen_zu_Berlin_1551166	322	2730
+SearchInteraction	2018-03-07T14:27:38.177Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:28:10.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+SearchInteraction	2018-03-07T14:28:35.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:28:46.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:29:09.842Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/92023/BibliographicResource_3000074018704	1	168
+SearchInteraction	2018-03-07T14:30:38.044Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:31:14.320Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10284581	120	168
+SearchInteraction	2018-03-07T14:33:39.504Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:33:48.753Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		8
+RankedRetrieveRecordInteraction	2018-03-07T14:34:05.083Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		/2048429/item_THGVGONADDQKPKFNGQPJGCJZM4KQ4XVX	3	8
+SearchInteraction	2018-03-07T14:34:51.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:00.838Z	b0f061cfb0c3e99c7a8b67e5f2713b91	namur		22
+SearchInteraction	2018-03-07T14:35:39.070Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:49.193Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		1
+CollectionFilterRemovalInteraction	2018-03-07T14:35:53.389Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		71
+RankedRetrieveRecordInteraction	2018-03-07T14:36:29.539Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		/9200229/BibliographicResource_3000135638189	11	71
+SearchInteraction	2018-03-07T14:39:05.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		0
+SearchInteraction	2018-03-07T14:39:09.304Z	b0f061cfb0c3e99c7a8b67e5f2713b91	ensival		73
+SearchInteraction	2018-03-07T14:41:12.292Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:09.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	saint girons		121
+SearchInteraction	2018-03-07T14:42:40.339Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:50.732Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+RefreshOrPaginationInteraction	2018-03-07T14:44:32.981Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+SearchInteraction	2018-03-07T14:45:18.464Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:45:38.931Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+RefreshOrPaginationInteraction	2018-03-07T14:47:54.624Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+SearchInteraction	2018-03-07T14:48:49.271Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:49:05.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	serrabone		82
+SearchInteraction	2018-03-07T07:50:52.618Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:03.145Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/08547/sgml_eu_php_obj_bb043448	1	181
+SearchInteraction	2018-03-07T07:51:26.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:51:34.232Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:47.432Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_071832	16	181
+SearchInteraction	2018-03-07T07:52:21.635Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:41.306Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:53.214Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:07.879Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:19.743Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:29.350Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:37.716Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:43.018Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+ArbitraryAccessInteraction	2018-03-07T08:33:35.485Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T09:26:34.032Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-03-07T09:30:29.200Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:30:45.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:31:42.130Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:26.860Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:59.359Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T09:34:35.554Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+RefreshOrPaginationInteraction	2018-03-07T09:35:06.078Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-07T09:36:50.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+RankedRetrieveRecordInteraction	2018-03-07T09:37:31.367Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200229/BibliographicResource_3000135636886	35	4344
+SearchInteraction	2018-03-07T09:38:36.947Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+SearchInteraction	2018-03-07T09:42:02.698Z	b0f061cfb0c3e99c7a8b67e5f2713b91	stereoskop	{'TYPE': ['IMAGE']}	168
+SearchInteraction	2018-03-07T09:42:33.786Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+RefreshOrPaginationInteraction	2018-03-07T09:42:48.532Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+SearchInteraction	2018-03-07T09:43:07.149Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:43:50.585Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:45:29.688Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:46:42.646Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:47:23.068Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+SearchInteraction	2018-03-07T14:23:27.807Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:39.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:48.478Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:03.511Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:22.342Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:47.208Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RankedRetrieveRecordInteraction	2018-03-07T14:26:29.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		/2064108/Museu_ProvidedCHO_Ethnologisches_Museum__Staatliche_Museen_zu_Berlin_1551166	322	2730
+SearchInteraction	2018-03-07T14:27:38.177Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:28:10.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+SearchInteraction	2018-03-07T14:28:35.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:28:46.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:29:09.842Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/92023/BibliographicResource_3000074018704	1	168
+SearchInteraction	2018-03-07T14:30:38.044Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:31:14.320Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10284581	120	168
+SearchInteraction	2018-03-07T14:33:39.504Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:33:48.753Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		8
+RankedRetrieveRecordInteraction	2018-03-07T14:34:05.083Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		/2048429/item_THGVGONADDQKPKFNGQPJGCJZM4KQ4XVX	3	8
+SearchInteraction	2018-03-07T14:34:51.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:00.838Z	b0f061cfb0c3e99c7a8b67e5f2713b91	namur		22
+SearchInteraction	2018-03-07T14:35:39.070Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:49.193Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		1
+CollectionFilterRemovalInteraction	2018-03-07T14:35:53.389Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		71
+RankedRetrieveRecordInteraction	2018-03-07T14:36:29.539Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		/9200229/BibliographicResource_3000135638189	11	71
+SearchInteraction	2018-03-07T14:39:05.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		0
+SearchInteraction	2018-03-07T14:39:09.304Z	b0f061cfb0c3e99c7a8b67e5f2713b91	ensival		73
+SearchInteraction	2018-03-07T14:41:12.292Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:09.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	saint girons		121
+SearchInteraction	2018-03-07T14:42:40.339Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:50.732Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+RefreshOrPaginationInteraction	2018-03-07T14:44:32.981Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+SearchInteraction	2018-03-07T14:45:18.464Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:45:38.931Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+RefreshOrPaginationInteraction	2018-03-07T14:47:54.624Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+SearchInteraction	2018-03-07T14:48:49.271Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:49:05.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	serrabone		82
+SearchInteraction	2018-03-07T07:50:52.618Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:03.145Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/08547/sgml_eu_php_obj_bb043448	1	181
+SearchInteraction	2018-03-07T07:51:26.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:51:34.232Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RankedRetrieveRecordInteraction	2018-03-07T07:51:47.432Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_071832	16	181
+SearchInteraction	2018-03-07T07:52:21.635Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:41.306Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:52:53.214Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:07.879Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:19.743Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:29.350Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:37.716Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+RefreshOrPaginationInteraction	2018-03-07T07:53:43.018Z	b0f061cfb0c3e99c7a8b67e5f2713b91	(cyanotype OR cyanotypie OR cyanotypi)		181
+ArbitraryAccessInteraction	2018-03-07T08:33:35.485Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-07T09:26:34.032Z	b0f061cfb0c3e99c7a8b67e5f2713b91	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-03-07T09:30:29.200Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:30:45.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:31:42.130Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:26.860Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+RefreshOrPaginationInteraction	2018-03-07T09:32:59.359Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	7994373
+CollectionFilterAdditionInteraction	2018-03-07T09:34:35.554Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+RefreshOrPaginationInteraction	2018-03-07T09:35:06.078Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	455750
+SearchInteraction	2018-03-07T09:36:50.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+RankedRetrieveRecordInteraction	2018-03-07T09:37:31.367Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200229/BibliographicResource_3000135636886	35	4344
+SearchInteraction	2018-03-07T09:38:36.947Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'COUNTRY': ['belgium'], 'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	4344
+SearchInteraction	2018-03-07T09:42:02.698Z	b0f061cfb0c3e99c7a8b67e5f2713b91	stereoskop	{'TYPE': ['IMAGE']}	168
+SearchInteraction	2018-03-07T09:42:33.786Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+RefreshOrPaginationInteraction	2018-03-07T09:42:48.532Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		58516
+SearchInteraction	2018-03-07T09:43:07.149Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:43:50.585Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:45:29.688Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:46:42.646Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+RefreshOrPaginationInteraction	2018-03-07T09:47:23.068Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	56010
+SearchInteraction	2018-03-07T14:23:27.807Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:39.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:23:48.478Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:03.511Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:22.342Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:25:47.208Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RankedRetrieveRecordInteraction	2018-03-07T14:26:29.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		/2064108/Museu_ProvidedCHO_Ethnologisches_Museum__Staatliche_Museen_zu_Berlin_1551166	322	2730
+SearchInteraction	2018-03-07T14:27:38.177Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+RefreshOrPaginationInteraction	2018-03-07T14:28:10.663Z	b0f061cfb0c3e99c7a8b67e5f2713b91	hat		2730
+SearchInteraction	2018-03-07T14:28:35.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:28:46.993Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:29:09.842Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/92023/BibliographicResource_3000074018704	1	168
+SearchInteraction	2018-03-07T14:30:38.044Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		168
+RankedRetrieveRecordInteraction	2018-03-07T14:31:14.320Z	b0f061cfb0c3e99c7a8b67e5f2713b91	liège		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10284581	120	168
+SearchInteraction	2018-03-07T14:33:39.504Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:33:48.753Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		8
+RankedRetrieveRecordInteraction	2018-03-07T14:34:05.083Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Gilly		/2048429/item_THGVGONADDQKPKFNGQPJGCJZM4KQ4XVX	3	8
+SearchInteraction	2018-03-07T14:34:51.036Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:00.838Z	b0f061cfb0c3e99c7a8b67e5f2713b91	namur		22
+SearchInteraction	2018-03-07T14:35:39.070Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		1254976
+SearchInteraction	2018-03-07T14:35:49.193Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		1
+CollectionFilterRemovalInteraction	2018-03-07T14:35:53.389Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		71
+RankedRetrieveRecordInteraction	2018-03-07T14:36:29.539Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		/9200229/BibliographicResource_3000135638189	11	71
+SearchInteraction	2018-03-07T14:39:05.316Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Trooz		0
+SearchInteraction	2018-03-07T14:39:09.304Z	b0f061cfb0c3e99c7a8b67e5f2713b91	ensival		73
+SearchInteraction	2018-03-07T14:41:12.292Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:09.573Z	b0f061cfb0c3e99c7a8b67e5f2713b91	saint girons		121
+SearchInteraction	2018-03-07T14:42:40.339Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:42:50.732Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+RefreshOrPaginationInteraction	2018-03-07T14:44:32.981Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Cluny		1322
+SearchInteraction	2018-03-07T14:45:18.464Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:45:38.931Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+RefreshOrPaginationInteraction	2018-03-07T14:47:54.624Z	b0f061cfb0c3e99c7a8b67e5f2713b91	Vézelay		185
+SearchInteraction	2018-03-07T14:48:49.271Z	b0f061cfb0c3e99c7a8b67e5f2713b91	NO VALUE PROVIDED		51416561
+SearchInteraction	2018-03-07T14:49:05.072Z	b0f061cfb0c3e99c7a8b67e5f2713b91	serrabone		82

@@ -1,0 +1,230 @@
+ArbitraryAccessInteraction	2018-02-25T10:35:56.335Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+SearchInteraction	2018-02-25T10:36:38.891Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		251379
+SearchInteraction	2018-02-25T10:36:48.234Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		2304217
+SearchInteraction	2018-02-25T10:36:57.307Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		0
+RankedRetrieveRecordInteraction	2018-02-25T10:37:00.176Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		/9200332/BibliographicResource_3000095452273	1	2304217
+SearchInteraction	2018-02-25T10:37:16.124Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:37:26.636Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095367172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:27.629Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:28.877Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095324450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:30.068Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:03.354Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095393244.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:04.404Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095370051.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:05.660Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095396166.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:54.151Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:56.917Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:19.621Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095439313.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:21.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438678.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:22.232Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095430160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:23.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095413996.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:29.686Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:24.765Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095401175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:25.794Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095356548.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:26.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095355281.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:31.915Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095335462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:33.849Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000113555759.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:34.684Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095464478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:36.003Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095316072.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:41.803Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095463798.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:42.742Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095446073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:43.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095443228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:45.322Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438786.html (PortalController#show)
+SearchInteraction	2018-02-25T10:42:11.531Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:42:25.111Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394802.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:26.048Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095425514.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.200Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394141.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.837Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095372381.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.121Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095336766.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.775Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095325493.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:41.154Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605511.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:42.899Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605330.html (PortalController#show)
+SearchInteraction	2018-02-25T10:44:05.565Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		0
+SearchInteraction	2018-02-25T10:44:06.837Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		51595556
+CollectionFilterRemovalInteraction	2018-02-25T10:48:40.034Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		866466
+SearchInteraction	2018-02-25T11:03:12.127Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RefreshOrPaginationInteraction	2018-02-25T11:03:13.956Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RankedRetrieveRecordInteraction	2018-02-25T11:03:46.277Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	/2048227/SA_1_001	5	51608
+ArbitraryAccessInteraction	2018-02-25T10:35:56.335Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+SearchInteraction	2018-02-25T10:36:38.891Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		251379
+SearchInteraction	2018-02-25T10:36:48.234Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		2304217
+SearchInteraction	2018-02-25T10:36:57.307Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		0
+RankedRetrieveRecordInteraction	2018-02-25T10:37:00.176Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		/9200332/BibliographicResource_3000095452273	1	2304217
+SearchInteraction	2018-02-25T10:37:16.124Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:37:26.636Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095367172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:27.629Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:28.877Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095324450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:30.068Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:03.354Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095393244.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:04.404Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095370051.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:05.660Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095396166.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:54.151Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:56.917Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:19.621Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095439313.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:21.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438678.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:22.232Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095430160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:23.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095413996.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:29.686Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:24.765Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095401175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:25.794Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095356548.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:26.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095355281.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:31.915Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095335462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:33.849Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000113555759.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:34.684Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095464478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:36.003Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095316072.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:41.803Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095463798.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:42.742Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095446073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:43.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095443228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:45.322Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438786.html (PortalController#show)
+SearchInteraction	2018-02-25T10:42:11.531Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:42:25.111Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394802.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:26.048Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095425514.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.200Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394141.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.837Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095372381.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.121Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095336766.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.775Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095325493.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:41.154Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605511.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:42.899Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605330.html (PortalController#show)
+SearchInteraction	2018-02-25T10:44:05.565Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		0
+SearchInteraction	2018-02-25T10:44:06.837Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		51595556
+CollectionFilterRemovalInteraction	2018-02-25T10:48:40.034Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		866466
+SearchInteraction	2018-02-25T11:03:12.127Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RefreshOrPaginationInteraction	2018-02-25T11:03:13.956Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RankedRetrieveRecordInteraction	2018-02-25T11:03:46.277Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	/2048227/SA_1_001	5	51608
+ArbitraryAccessInteraction	2018-02-25T10:35:56.335Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+SearchInteraction	2018-02-25T10:36:38.891Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		251379
+SearchInteraction	2018-02-25T10:36:48.234Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		2304217
+SearchInteraction	2018-02-25T10:36:57.307Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		0
+RankedRetrieveRecordInteraction	2018-02-25T10:37:00.176Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		/9200332/BibliographicResource_3000095452273	1	2304217
+SearchInteraction	2018-02-25T10:37:16.124Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:37:26.636Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095367172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:27.629Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:28.877Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095324450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:30.068Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:03.354Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095393244.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:04.404Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095370051.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:05.660Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095396166.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:54.151Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:56.917Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:19.621Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095439313.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:21.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438678.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:22.232Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095430160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:23.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095413996.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:29.686Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:24.765Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095401175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:25.794Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095356548.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:26.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095355281.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:31.915Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095335462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:33.849Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000113555759.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:34.684Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095464478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:36.003Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095316072.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:41.803Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095463798.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:42.742Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095446073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:43.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095443228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:45.322Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438786.html (PortalController#show)
+SearchInteraction	2018-02-25T10:42:11.531Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:42:25.111Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394802.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:26.048Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095425514.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.200Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394141.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.837Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095372381.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.121Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095336766.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.775Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095325493.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:41.154Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605511.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:42.899Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605330.html (PortalController#show)
+SearchInteraction	2018-02-25T10:44:05.565Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		0
+SearchInteraction	2018-02-25T10:44:06.837Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		51595556
+CollectionFilterRemovalInteraction	2018-02-25T10:48:40.034Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		866466
+SearchInteraction	2018-02-25T11:03:12.127Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RefreshOrPaginationInteraction	2018-02-25T11:03:13.956Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RankedRetrieveRecordInteraction	2018-02-25T11:03:46.277Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	/2048227/SA_1_001	5	51608
+ArbitraryAccessInteraction	2018-02-25T10:35:56.335Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+SearchInteraction	2018-02-25T10:36:38.891Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		251379
+SearchInteraction	2018-02-25T10:36:48.234Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		2304217
+SearchInteraction	2018-02-25T10:36:57.307Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		0
+RankedRetrieveRecordInteraction	2018-02-25T10:37:00.176Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		/9200332/BibliographicResource_3000095452273	1	2304217
+SearchInteraction	2018-02-25T10:37:16.124Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:37:26.636Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095367172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:27.629Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:28.877Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095324450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:30.068Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:03.354Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095393244.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:04.404Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095370051.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:05.660Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095396166.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:54.151Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:56.917Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:19.621Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095439313.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:21.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438678.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:22.232Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095430160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:23.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095413996.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:29.686Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:24.765Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095401175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:25.794Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095356548.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:26.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095355281.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:31.915Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095335462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:33.849Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000113555759.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:34.684Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095464478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:36.003Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095316072.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:41.803Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095463798.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:42.742Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095446073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:43.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095443228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:45.322Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438786.html (PortalController#show)
+SearchInteraction	2018-02-25T10:42:11.531Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:42:25.111Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394802.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:26.048Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095425514.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.200Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394141.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.837Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095372381.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.121Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095336766.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.775Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095325493.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:41.154Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605511.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:42.899Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605330.html (PortalController#show)
+SearchInteraction	2018-02-25T10:44:05.565Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		0
+SearchInteraction	2018-02-25T10:44:06.837Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		51595556
+CollectionFilterRemovalInteraction	2018-02-25T10:48:40.034Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		866466
+SearchInteraction	2018-02-25T11:03:12.127Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RefreshOrPaginationInteraction	2018-02-25T11:03:13.956Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RankedRetrieveRecordInteraction	2018-02-25T11:03:46.277Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	/2048227/SA_1_001	5	51608
+ArbitraryAccessInteraction	2018-02-25T10:35:56.335Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+SearchInteraction	2018-02-25T10:36:38.891Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		251379
+SearchInteraction	2018-02-25T10:36:48.234Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		2304217
+SearchInteraction	2018-02-25T10:36:57.307Z	9630e56f1cd8c0803361bfd392c9f4e8	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a0660"		0
+RankedRetrieveRecordInteraction	2018-02-25T10:37:00.176Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		/9200332/BibliographicResource_3000095452273	1	2304217
+SearchInteraction	2018-02-25T10:37:16.124Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:37:26.636Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095367172.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:27.629Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:28.877Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095324450.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:37:30.068Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:03.354Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095393244.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:04.404Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095370051.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:05.660Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095396166.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:54.151Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095460803.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:38:56.917Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095368562.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:19.621Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095439313.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:21.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438678.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:22.232Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095430160.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:23.110Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095413996.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:39:29.686Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095334575.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:24.765Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095401175.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:25.794Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095356548.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:26.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095355281.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:31.915Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095335462.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:33.849Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000113555759.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:34.684Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095464478.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:36.003Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095316072.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:41.803Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095463798.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:42.742Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095446073.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:43.980Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095443228.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:40:45.322Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095438786.html (PortalController#show)
+SearchInteraction	2018-02-25T10:42:11.531Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		251379
+ArbitraryAccessInteraction	2018-02-25T10:42:25.111Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394802.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:26.048Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095425514.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.200Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095394141.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:27.837Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095372381.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.121Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095336766.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:35.775Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000095325493.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:41.154Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605511.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-25T10:42:42.899Z	9630e56f1cd8c0803361bfd392c9f4e8	[200] GET /portal/en/record/9200332/BibliographicResource_3000123605330.html (PortalController#show)
+SearchInteraction	2018-02-25T10:44:05.565Z	9630e56f1cd8c0803361bfd392c9f4e8	europeana_collectionName:(9200332_Ag_EU_TEL_a0660_ONB)		0
+SearchInteraction	2018-02-25T10:44:06.837Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		51595556
+CollectionFilterRemovalInteraction	2018-02-25T10:48:40.034Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED		866466
+SearchInteraction	2018-02-25T11:03:12.127Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RefreshOrPaginationInteraction	2018-02-25T11:03:13.956Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	51608
+RankedRetrieveRecordInteraction	2018-02-25T11:03:46.277Z	9630e56f1cd8c0803361bfd392c9f4e8	NO VALUE PROVIDED	{'LANGUAGE': ['it']}	/2048227/SA_1_001	5	51608

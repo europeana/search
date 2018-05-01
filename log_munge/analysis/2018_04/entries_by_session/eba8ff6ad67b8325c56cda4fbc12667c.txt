@@ -1,0 +1,105 @@
+SearchInteraction	2018-02-12T22:11:42.777Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-12T22:11:56.082Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+ArbitraryAccessInteraction	2018-02-12T22:12:16.570Z	eba8ff6ad67b8325c56cda4fbc12667c	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-02-12T22:12:48.997Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+SearchInteraction	2018-02-12T22:12:58.058Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:13:17.088Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_9377_attachments_145860	11	150
+SearchInteraction	2018-02-12T22:14:05.250Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:20.065Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8892_attachments_98530	20	150
+SearchInteraction	2018-02-12T22:14:36.318Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:48.052Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8052_attachments_80986	31	150
+SearchInteraction	2018-02-12T22:15:04.728Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:15.823Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:28.852Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_17606_attachments_201493	58	150
+SearchInteraction	2018-02-12T22:15:45.665Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:47.726Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:50.384Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16542_attachments_175149	65	150
+RankedRetrieveRecordInteraction	2018-02-12T22:16:08.508Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16464_attachments_173223	66	150
+SearchInteraction	2018-02-12T22:16:27.001Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:38.463Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:51.632Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:17:01.299Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+SearchInteraction	2018-02-12T22:11:42.777Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-12T22:11:56.082Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+ArbitraryAccessInteraction	2018-02-12T22:12:16.570Z	eba8ff6ad67b8325c56cda4fbc12667c	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-02-12T22:12:48.997Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+SearchInteraction	2018-02-12T22:12:58.058Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:13:17.088Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_9377_attachments_145860	11	150
+SearchInteraction	2018-02-12T22:14:05.250Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:20.065Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8892_attachments_98530	20	150
+SearchInteraction	2018-02-12T22:14:36.318Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:48.052Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8052_attachments_80986	31	150
+SearchInteraction	2018-02-12T22:15:04.728Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:15.823Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:28.852Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_17606_attachments_201493	58	150
+SearchInteraction	2018-02-12T22:15:45.665Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:47.726Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:50.384Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16542_attachments_175149	65	150
+RankedRetrieveRecordInteraction	2018-02-12T22:16:08.508Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16464_attachments_173223	66	150
+SearchInteraction	2018-02-12T22:16:27.001Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:38.463Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:51.632Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:17:01.299Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+SearchInteraction	2018-02-12T22:11:42.777Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-12T22:11:56.082Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+ArbitraryAccessInteraction	2018-02-12T22:12:16.570Z	eba8ff6ad67b8325c56cda4fbc12667c	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-02-12T22:12:48.997Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+SearchInteraction	2018-02-12T22:12:58.058Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:13:17.088Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_9377_attachments_145860	11	150
+SearchInteraction	2018-02-12T22:14:05.250Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:20.065Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8892_attachments_98530	20	150
+SearchInteraction	2018-02-12T22:14:36.318Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:48.052Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8052_attachments_80986	31	150
+SearchInteraction	2018-02-12T22:15:04.728Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:15.823Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:28.852Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_17606_attachments_201493	58	150
+SearchInteraction	2018-02-12T22:15:45.665Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:47.726Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:50.384Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16542_attachments_175149	65	150
+RankedRetrieveRecordInteraction	2018-02-12T22:16:08.508Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16464_attachments_173223	66	150
+SearchInteraction	2018-02-12T22:16:27.001Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:38.463Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:51.632Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:17:01.299Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+SearchInteraction	2018-02-12T22:11:42.777Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-12T22:11:56.082Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+ArbitraryAccessInteraction	2018-02-12T22:12:16.570Z	eba8ff6ad67b8325c56cda4fbc12667c	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-02-12T22:12:48.997Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+SearchInteraction	2018-02-12T22:12:58.058Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:13:17.088Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_9377_attachments_145860	11	150
+SearchInteraction	2018-02-12T22:14:05.250Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:20.065Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8892_attachments_98530	20	150
+SearchInteraction	2018-02-12T22:14:36.318Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:48.052Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8052_attachments_80986	31	150
+SearchInteraction	2018-02-12T22:15:04.728Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:15.823Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:28.852Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_17606_attachments_201493	58	150
+SearchInteraction	2018-02-12T22:15:45.665Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:47.726Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:50.384Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16542_attachments_175149	65	150
+RankedRetrieveRecordInteraction	2018-02-12T22:16:08.508Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16464_attachments_173223	66	150
+SearchInteraction	2018-02-12T22:16:27.001Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:38.463Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:51.632Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:17:01.299Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+SearchInteraction	2018-02-12T22:11:42.777Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+RefreshOrPaginationInteraction	2018-02-12T22:11:56.082Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+ArbitraryAccessInteraction	2018-02-12T22:12:16.570Z	eba8ff6ad67b8325c56cda4fbc12667c	[200] GET /portal/fr/rights/privacy.html (PagesController#show)
+SearchInteraction	2018-02-12T22:12:48.997Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918']}	1868
+SearchInteraction	2018-02-12T22:12:58.058Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:13:17.088Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_9377_attachments_145860	11	150
+SearchInteraction	2018-02-12T22:14:05.250Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:20.065Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8892_attachments_98530	20	150
+SearchInteraction	2018-02-12T22:14:36.318Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:14:48.052Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_8052_attachments_80986	31	150
+SearchInteraction	2018-02-12T22:15:04.728Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:15.823Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:28.852Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_17606_attachments_201493	58	150
+SearchInteraction	2018-02-12T22:15:45.665Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:15:47.726Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RankedRetrieveRecordInteraction	2018-02-12T22:15:50.384Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16542_attachments_175149	65	150
+RankedRetrieveRecordInteraction	2018-02-12T22:16:08.508Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	/2020601/contributions_16464_attachments_173223	66	150
+SearchInteraction	2018-02-12T22:16:27.001Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:38.463Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:16:51.632Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150
+RefreshOrPaginationInteraction	2018-02-12T22:17:01.299Z	eba8ff6ad67b8325c56cda4fbc12667c	women	{'PROVIDER': ['Europeana 1914-1918'], 'TYPE': ['IMAGE']}	150

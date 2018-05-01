@@ -1,0 +1,45 @@
+ArbitraryAccessInteraction	2018-03-01T14:44:00.406Z	16e6e3e5ad193c98200f1123ab8d3f7b	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+SearchInteraction	2018-03-01T14:44:17.201Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel		1
+SearchInteraction	2018-03-01T14:44:31.921Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	1
+RankedRetrieveRecordInteraction	2018-03-01T14:44:33.823Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	/92034/GVNRC_TM01_01939	1	1
+SearchInteraction	2018-03-01T14:44:41.388Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:44:59.140Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:11.681Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:20.706Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:28.472Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+ArbitraryAccessInteraction	2018-03-01T14:44:00.406Z	16e6e3e5ad193c98200f1123ab8d3f7b	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+SearchInteraction	2018-03-01T14:44:17.201Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel		1
+SearchInteraction	2018-03-01T14:44:31.921Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	1
+RankedRetrieveRecordInteraction	2018-03-01T14:44:33.823Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	/92034/GVNRC_TM01_01939	1	1
+SearchInteraction	2018-03-01T14:44:41.388Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:44:59.140Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:11.681Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:20.706Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:28.472Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+ArbitraryAccessInteraction	2018-03-01T14:44:00.406Z	16e6e3e5ad193c98200f1123ab8d3f7b	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+SearchInteraction	2018-03-01T14:44:17.201Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel		1
+SearchInteraction	2018-03-01T14:44:31.921Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	1
+RankedRetrieveRecordInteraction	2018-03-01T14:44:33.823Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	/92034/GVNRC_TM01_01939	1	1
+SearchInteraction	2018-03-01T14:44:41.388Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:44:59.140Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:11.681Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:20.706Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:28.472Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+ArbitraryAccessInteraction	2018-03-01T14:44:00.406Z	16e6e3e5ad193c98200f1123ab8d3f7b	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+SearchInteraction	2018-03-01T14:44:17.201Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel		1
+SearchInteraction	2018-03-01T14:44:31.921Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	1
+RankedRetrieveRecordInteraction	2018-03-01T14:44:33.823Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	/92034/GVNRC_TM01_01939	1	1
+SearchInteraction	2018-03-01T14:44:41.388Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:44:59.140Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:11.681Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:20.706Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:28.472Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+ArbitraryAccessInteraction	2018-03-01T14:44:00.406Z	16e6e3e5ad193c98200f1123ab8d3f7b	[200] GET /portal/en/rights/rr-f.html (PagesController#show)
+SearchInteraction	2018-03-01T14:44:17.201Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel		1
+SearchInteraction	2018-03-01T14:44:31.921Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	1
+RankedRetrieveRecordInteraction	2018-03-01T14:44:33.823Z	16e6e3e5ad193c98200f1123ab8d3f7b	fabriekstegel	{'DATA_PROVIDER': ['National Library of the Netherlands - Koninklijke Bibliotheek']}	/92034/GVNRC_TM01_01939	1	1
+SearchInteraction	2018-03-01T14:44:41.388Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:44:59.140Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:11.681Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:20.706Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637
+RefreshOrPaginationInteraction	2018-03-01T14:45:28.472Z	16e6e3e5ad193c98200f1123ab8d3f7b	proxy_dcterms_isPartOf:"Tegelcollectie"		11637

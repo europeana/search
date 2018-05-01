@@ -1,0 +1,100 @@
+SearchInteraction	2018-03-05T04:14:59.404Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-05T04:15:11.033Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-05T04:15:27.490Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+CollectionFilterAdditionInteraction	2018-03-05T04:16:22.830Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	10
+CollectionFilterAdditionInteraction	2018-03-05T04:16:53.508Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:02.399Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:12.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:22.077Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:24.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:32.932Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:38.608Z	496831a441cebcb9365b37aaf4c88ea1	"york place"	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:41.766Z	496831a441cebcb9365b37aaf4c88ea1	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	203507
+SearchInteraction	2018-03-05T04:17:50.985Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-05T04:17:57.599Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-05T04:18:02.229Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	/2058619/object_DP_9654241	1	1
+SearchInteraction	2018-03-06T20:00:02.088Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-06T20:00:09.769Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-06T20:00:11.522Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+SearchInteraction	2018-03-06T20:00:17.030Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+RefreshOrPaginationInteraction	2018-03-06T20:00:24.992Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+SearchInteraction	2018-03-05T04:14:59.404Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-05T04:15:11.033Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-05T04:15:27.490Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+CollectionFilterAdditionInteraction	2018-03-05T04:16:22.830Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	10
+CollectionFilterAdditionInteraction	2018-03-05T04:16:53.508Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:02.399Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:12.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:22.077Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:24.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:32.932Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:38.608Z	496831a441cebcb9365b37aaf4c88ea1	"york place"	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:41.766Z	496831a441cebcb9365b37aaf4c88ea1	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	203507
+SearchInteraction	2018-03-05T04:17:50.985Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-05T04:17:57.599Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-05T04:18:02.229Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	/2058619/object_DP_9654241	1	1
+SearchInteraction	2018-03-06T20:00:02.088Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-06T20:00:09.769Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-06T20:00:11.522Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+SearchInteraction	2018-03-06T20:00:17.030Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+RefreshOrPaginationInteraction	2018-03-06T20:00:24.992Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+SearchInteraction	2018-03-05T04:14:59.404Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-05T04:15:11.033Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-05T04:15:27.490Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+CollectionFilterAdditionInteraction	2018-03-05T04:16:22.830Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	10
+CollectionFilterAdditionInteraction	2018-03-05T04:16:53.508Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:02.399Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:12.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:22.077Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:24.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:32.932Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:38.608Z	496831a441cebcb9365b37aaf4c88ea1	"york place"	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:41.766Z	496831a441cebcb9365b37aaf4c88ea1	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	203507
+SearchInteraction	2018-03-05T04:17:50.985Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-05T04:17:57.599Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-05T04:18:02.229Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	/2058619/object_DP_9654241	1	1
+SearchInteraction	2018-03-06T20:00:02.088Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-06T20:00:09.769Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-06T20:00:11.522Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+SearchInteraction	2018-03-06T20:00:17.030Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+RefreshOrPaginationInteraction	2018-03-06T20:00:24.992Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+SearchInteraction	2018-03-05T04:14:59.404Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-05T04:15:11.033Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-05T04:15:27.490Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+CollectionFilterAdditionInteraction	2018-03-05T04:16:22.830Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	10
+CollectionFilterAdditionInteraction	2018-03-05T04:16:53.508Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:02.399Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:12.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:22.077Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:24.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:32.932Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:38.608Z	496831a441cebcb9365b37aaf4c88ea1	"york place"	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:41.766Z	496831a441cebcb9365b37aaf4c88ea1	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	203507
+SearchInteraction	2018-03-05T04:17:50.985Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-05T04:17:57.599Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-05T04:18:02.229Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	/2058619/object_DP_9654241	1	1
+SearchInteraction	2018-03-06T20:00:02.088Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-06T20:00:09.769Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-06T20:00:11.522Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+SearchInteraction	2018-03-06T20:00:17.030Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+RefreshOrPaginationInteraction	2018-03-06T20:00:24.992Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+SearchInteraction	2018-03-05T04:14:59.404Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-05T04:15:11.033Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-05T04:15:27.490Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+CollectionFilterAdditionInteraction	2018-03-05T04:16:22.830Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	10
+CollectionFilterAdditionInteraction	2018-03-05T04:16:53.508Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:02.399Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:12.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:22.077Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:24.898Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+RefreshOrPaginationInteraction	2018-03-05T04:17:32.932Z	496831a441cebcb9365b37aaf4c88ea1	london AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:38.608Z	496831a441cebcb9365b37aaf4c88ea1	"york place"	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-03-05T04:17:41.766Z	496831a441cebcb9365b37aaf4c88ea1	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	203507
+SearchInteraction	2018-03-05T04:17:50.985Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	0
+CollectionFilterRemovalInteraction	2018-03-05T04:17:57.599Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-05T04:18:02.229Z	496831a441cebcb9365b37aaf4c88ea1	"of alley"	{'TYPE': ['IMAGE']}	/2058619/object_DP_9654241	1	1
+SearchInteraction	2018-03-06T20:00:02.088Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*		1072287
+SearchInteraction	2018-03-06T20:00:09.769Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+RefreshOrPaginationInteraction	2018-03-06T20:00:11.522Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'TYPE': ['IMAGE']}	1048451
+SearchInteraction	2018-03-06T20:00:17.030Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018
+RefreshOrPaginationInteraction	2018-03-06T20:00:24.992Z	496831a441cebcb9365b37aaf4c88ea1	London AND RIGHTS:*creative* AND NOT RIGHTS:*nc* AND NOT RIGHTS:*nd*	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	111018

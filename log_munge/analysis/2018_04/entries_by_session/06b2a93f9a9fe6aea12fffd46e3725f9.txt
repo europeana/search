@@ -1,0 +1,625 @@
+SearchInteraction	2018-03-07T00:04:58.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		1761718
+CollectionFilterRemovalInteraction	2018-03-07T00:05:33.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		4
+SearchInteraction	2018-03-07T00:05:38.689Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-07T00:05:44.332Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	/11622/_MFN_MYRIAPODA_VERHOEFF_MFN_GERMANY_ZMB_Myr_12809a	1	1
+SearchInteraction	2018-03-07T12:28:48.260Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-07T19:56:00.899Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+RefreshOrPaginationInteraction	2018-03-07T19:56:16.318Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+SearchInteraction	2018-03-10T06:33:24.499Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:42.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661069	5	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:44.471Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661065	6	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:52.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:45.639Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:46.731Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661053	8	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:48.747Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661045	9	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:50.908Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661033	10	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:55.626Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660933	11	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:59.204Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660907	12	164
+SearchInteraction	2018-03-10T06:34:59.886Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:35:15.447Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:44.653Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/647437	5	10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:46.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/657560	4	10391
+SearchInteraction	2018-03-10T06:37:15.986Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:37:49.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/547864	24	10391
+SearchInteraction	2018-03-10T06:37:50.041Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:38:05.501Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:38:30.939Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:38:43.830Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:18.469Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/661045	60	10391
+SearchInteraction	2018-03-10T06:42:19.956Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:42:29.220Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:42.721Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/339998	84	10391
+SearchInteraction	2018-03-10T06:42:45.124Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:58.410Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/331208	90	10391
+SearchInteraction	2018-03-10T06:48:00.774Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:14.922Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:19.025Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:48:38.321Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		4
+RankedRetrieveRecordInteraction	2018-03-10T06:48:47.200Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2021750/https___apsida_cut_ac_cy_items_show_37457	4	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:06.036Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66472_autostart_24437	1	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:07.279Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66467_autostart_24434	2	4
+SearchInteraction	2018-03-10T06:49:41.310Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:43.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:45.974Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T06:49:53.246Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:50:12.866Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:32.479Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_36611_autostart_14439	19	123
+SearchInteraction	2018-03-10T06:50:40.416Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:48.897Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2048052/index_php_mpouketo_article_view_94490	27	123
+SearchInteraction	2018-03-10T06:50:57.394Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:51:17.249Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:05.757Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:32.727Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:52.575Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:06.112Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:28.262Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:54:38.593Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2021724/https___apsida_cut_ac_cy_items_show_9080	111	123
+SearchInteraction	2018-03-10T06:55:01.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+SearchInteraction	2018-03-10T06:55:50.232Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:00.601Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:01.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T07:09:10.251Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:09:24.115Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδα		0
+SearchInteraction	2018-03-10T07:09:29.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:31.905Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:38.673Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργών		0
+SearchInteraction	2018-03-10T07:09:43.664Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:50.079Z	06b2a93f9a9fe6aea12fffd46e3725f9	θαυματοποιός		5
+SearchInteraction	2018-03-10T07:10:09.609Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:10:21.746Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:37:52.756Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:14.018Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:24.496Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:42.769Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:40:11.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:40:27.462Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467312	5	48
+SearchInteraction	2018-03-10T07:41:11.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RefreshOrPaginationInteraction	2018-03-10T07:41:20.566Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:41:34.148Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_1000055506093	33	48
+SearchInteraction	2018-03-10T07:41:36.475Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+SearchInteraction	2018-03-10T07:50:03.393Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:50:14.008Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:30.427Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92040/BibliographicResource_3000135740117	1	242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:32.224Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92034/GVNRC_GAR01_1813_01_11	2	242
+SearchInteraction	2018-03-10T07:50:42.465Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T07:51:14.775Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:04:42.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		553550
+SearchInteraction	2018-03-10T08:05:38.765Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:05:40.837Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:05:41.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+RefreshOrPaginationInteraction	2018-03-10T08:05:52.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:06:14.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+RefreshOrPaginationInteraction	2018-03-10T08:06:27.408Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:06:32.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T08:06:37.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:06:45.309Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		5
+RankedRetrieveRecordInteraction	2018-03-10T08:06:51.574Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		/9200381/BibliographicResource_3000116079930	1	5
+SearchInteraction	2018-03-10T08:07:01.965Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:07:10.384Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+CollectionFilterAdditionInteraction	2018-03-10T08:07:24.485Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		0
+CollectionFilterRemovalInteraction	2018-03-10T08:07:28.480Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+SearchInteraction	2018-03-10T08:07:44.158Z	06b2a93f9a9fe6aea12fffd46e3725f9	melides		33
+SearchInteraction	2018-03-10T08:07:44.706Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:09:23.230Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:09:28.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:09:49.405Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:10:16.565Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+RefreshOrPaginationInteraction	2018-03-10T08:10:26.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:11:01.199Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:07.202Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès		33
+SearchInteraction	2018-03-10T08:11:34.857Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:35.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:37.399Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:38.776Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:41.948Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T08:11:52.374Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467321	4	48
+SearchInteraction	2018-03-10T08:23:38.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+RefreshOrPaginationInteraction	2018-03-10T08:24:01.027Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+SearchInteraction	2018-03-10T08:25:48.269Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:25:54.109Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+RefreshOrPaginationInteraction	2018-03-10T08:26:02.426Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+SearchInteraction	2018-03-10T08:26:12.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:22.900Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:32.785Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:27:42.334Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:38:37.819Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+SearchInteraction	2018-03-07T00:04:58.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		1761718
+CollectionFilterRemovalInteraction	2018-03-07T00:05:33.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		4
+SearchInteraction	2018-03-07T00:05:38.689Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-07T00:05:44.332Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	/11622/_MFN_MYRIAPODA_VERHOEFF_MFN_GERMANY_ZMB_Myr_12809a	1	1
+SearchInteraction	2018-03-07T12:28:48.260Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-07T19:56:00.899Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+RefreshOrPaginationInteraction	2018-03-07T19:56:16.318Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+SearchInteraction	2018-03-10T06:33:24.499Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:42.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661069	5	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:44.471Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661065	6	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:52.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:45.639Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:46.731Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661053	8	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:48.747Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661045	9	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:50.908Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661033	10	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:55.626Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660933	11	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:59.204Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660907	12	164
+SearchInteraction	2018-03-10T06:34:59.886Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:35:15.447Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:44.653Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/647437	5	10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:46.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/657560	4	10391
+SearchInteraction	2018-03-10T06:37:15.986Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:37:49.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/547864	24	10391
+SearchInteraction	2018-03-10T06:37:50.041Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:38:05.501Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:38:30.939Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:38:43.830Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:18.469Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/661045	60	10391
+SearchInteraction	2018-03-10T06:42:19.956Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:42:29.220Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:42.721Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/339998	84	10391
+SearchInteraction	2018-03-10T06:42:45.124Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:58.410Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/331208	90	10391
+SearchInteraction	2018-03-10T06:48:00.774Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:14.922Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:19.025Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:48:38.321Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		4
+RankedRetrieveRecordInteraction	2018-03-10T06:48:47.200Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2021750/https___apsida_cut_ac_cy_items_show_37457	4	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:06.036Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66472_autostart_24437	1	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:07.279Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66467_autostart_24434	2	4
+SearchInteraction	2018-03-10T06:49:41.310Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:43.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:45.974Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T06:49:53.246Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:50:12.866Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:32.479Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_36611_autostart_14439	19	123
+SearchInteraction	2018-03-10T06:50:40.416Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:48.897Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2048052/index_php_mpouketo_article_view_94490	27	123
+SearchInteraction	2018-03-10T06:50:57.394Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:51:17.249Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:05.757Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:32.727Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:52.575Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:06.112Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:28.262Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:54:38.593Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2021724/https___apsida_cut_ac_cy_items_show_9080	111	123
+SearchInteraction	2018-03-10T06:55:01.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+SearchInteraction	2018-03-10T06:55:50.232Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:00.601Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:01.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T07:09:10.251Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:09:24.115Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδα		0
+SearchInteraction	2018-03-10T07:09:29.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:31.905Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:38.673Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργών		0
+SearchInteraction	2018-03-10T07:09:43.664Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:50.079Z	06b2a93f9a9fe6aea12fffd46e3725f9	θαυματοποιός		5
+SearchInteraction	2018-03-10T07:10:09.609Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:10:21.746Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:37:52.756Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:14.018Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:24.496Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:42.769Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:40:11.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:40:27.462Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467312	5	48
+SearchInteraction	2018-03-10T07:41:11.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RefreshOrPaginationInteraction	2018-03-10T07:41:20.566Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:41:34.148Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_1000055506093	33	48
+SearchInteraction	2018-03-10T07:41:36.475Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+SearchInteraction	2018-03-10T07:50:03.393Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:50:14.008Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:30.427Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92040/BibliographicResource_3000135740117	1	242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:32.224Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92034/GVNRC_GAR01_1813_01_11	2	242
+SearchInteraction	2018-03-10T07:50:42.465Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T07:51:14.775Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:04:42.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		553550
+SearchInteraction	2018-03-10T08:05:38.765Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:05:40.837Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:05:41.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+RefreshOrPaginationInteraction	2018-03-10T08:05:52.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:06:14.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+RefreshOrPaginationInteraction	2018-03-10T08:06:27.408Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:06:32.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T08:06:37.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:06:45.309Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		5
+RankedRetrieveRecordInteraction	2018-03-10T08:06:51.574Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		/9200381/BibliographicResource_3000116079930	1	5
+SearchInteraction	2018-03-10T08:07:01.965Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:07:10.384Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+CollectionFilterAdditionInteraction	2018-03-10T08:07:24.485Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		0
+CollectionFilterRemovalInteraction	2018-03-10T08:07:28.480Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+SearchInteraction	2018-03-10T08:07:44.158Z	06b2a93f9a9fe6aea12fffd46e3725f9	melides		33
+SearchInteraction	2018-03-10T08:07:44.706Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:09:23.230Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:09:28.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:09:49.405Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:10:16.565Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+RefreshOrPaginationInteraction	2018-03-10T08:10:26.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:11:01.199Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:07.202Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès		33
+SearchInteraction	2018-03-10T08:11:34.857Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:35.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:37.399Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:38.776Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:41.948Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T08:11:52.374Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467321	4	48
+SearchInteraction	2018-03-10T08:23:38.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+RefreshOrPaginationInteraction	2018-03-10T08:24:01.027Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+SearchInteraction	2018-03-10T08:25:48.269Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:25:54.109Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+RefreshOrPaginationInteraction	2018-03-10T08:26:02.426Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+SearchInteraction	2018-03-10T08:26:12.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:22.900Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:32.785Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:27:42.334Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:38:37.819Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+SearchInteraction	2018-03-07T00:04:58.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		1761718
+CollectionFilterRemovalInteraction	2018-03-07T00:05:33.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		4
+SearchInteraction	2018-03-07T00:05:38.689Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-07T00:05:44.332Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	/11622/_MFN_MYRIAPODA_VERHOEFF_MFN_GERMANY_ZMB_Myr_12809a	1	1
+SearchInteraction	2018-03-07T12:28:48.260Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-07T19:56:00.899Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+RefreshOrPaginationInteraction	2018-03-07T19:56:16.318Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+SearchInteraction	2018-03-10T06:33:24.499Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:42.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661069	5	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:44.471Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661065	6	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:52.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:45.639Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:46.731Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661053	8	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:48.747Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661045	9	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:50.908Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661033	10	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:55.626Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660933	11	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:59.204Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660907	12	164
+SearchInteraction	2018-03-10T06:34:59.886Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:35:15.447Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:44.653Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/647437	5	10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:46.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/657560	4	10391
+SearchInteraction	2018-03-10T06:37:15.986Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:37:49.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/547864	24	10391
+SearchInteraction	2018-03-10T06:37:50.041Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:38:05.501Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:38:30.939Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:38:43.830Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:18.469Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/661045	60	10391
+SearchInteraction	2018-03-10T06:42:19.956Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:42:29.220Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:42.721Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/339998	84	10391
+SearchInteraction	2018-03-10T06:42:45.124Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:58.410Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/331208	90	10391
+SearchInteraction	2018-03-10T06:48:00.774Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:14.922Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:19.025Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:48:38.321Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		4
+RankedRetrieveRecordInteraction	2018-03-10T06:48:47.200Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2021750/https___apsida_cut_ac_cy_items_show_37457	4	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:06.036Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66472_autostart_24437	1	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:07.279Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66467_autostart_24434	2	4
+SearchInteraction	2018-03-10T06:49:41.310Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:43.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:45.974Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T06:49:53.246Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:50:12.866Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:32.479Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_36611_autostart_14439	19	123
+SearchInteraction	2018-03-10T06:50:40.416Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:48.897Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2048052/index_php_mpouketo_article_view_94490	27	123
+SearchInteraction	2018-03-10T06:50:57.394Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:51:17.249Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:05.757Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:32.727Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:52.575Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:06.112Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:28.262Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:54:38.593Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2021724/https___apsida_cut_ac_cy_items_show_9080	111	123
+SearchInteraction	2018-03-10T06:55:01.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+SearchInteraction	2018-03-10T06:55:50.232Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:00.601Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:01.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T07:09:10.251Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:09:24.115Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδα		0
+SearchInteraction	2018-03-10T07:09:29.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:31.905Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:38.673Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργών		0
+SearchInteraction	2018-03-10T07:09:43.664Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:50.079Z	06b2a93f9a9fe6aea12fffd46e3725f9	θαυματοποιός		5
+SearchInteraction	2018-03-10T07:10:09.609Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:10:21.746Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:37:52.756Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:14.018Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:24.496Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:42.769Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:40:11.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:40:27.462Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467312	5	48
+SearchInteraction	2018-03-10T07:41:11.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RefreshOrPaginationInteraction	2018-03-10T07:41:20.566Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:41:34.148Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_1000055506093	33	48
+SearchInteraction	2018-03-10T07:41:36.475Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+SearchInteraction	2018-03-10T07:50:03.393Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:50:14.008Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:30.427Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92040/BibliographicResource_3000135740117	1	242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:32.224Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92034/GVNRC_GAR01_1813_01_11	2	242
+SearchInteraction	2018-03-10T07:50:42.465Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T07:51:14.775Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:04:42.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		553550
+SearchInteraction	2018-03-10T08:05:38.765Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:05:40.837Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:05:41.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+RefreshOrPaginationInteraction	2018-03-10T08:05:52.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:06:14.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+RefreshOrPaginationInteraction	2018-03-10T08:06:27.408Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:06:32.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T08:06:37.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:06:45.309Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		5
+RankedRetrieveRecordInteraction	2018-03-10T08:06:51.574Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		/9200381/BibliographicResource_3000116079930	1	5
+SearchInteraction	2018-03-10T08:07:01.965Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:07:10.384Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+CollectionFilterAdditionInteraction	2018-03-10T08:07:24.485Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		0
+CollectionFilterRemovalInteraction	2018-03-10T08:07:28.480Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+SearchInteraction	2018-03-10T08:07:44.158Z	06b2a93f9a9fe6aea12fffd46e3725f9	melides		33
+SearchInteraction	2018-03-10T08:07:44.706Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:09:23.230Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:09:28.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:09:49.405Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:10:16.565Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+RefreshOrPaginationInteraction	2018-03-10T08:10:26.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:11:01.199Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:07.202Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès		33
+SearchInteraction	2018-03-10T08:11:34.857Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:35.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:37.399Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:38.776Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:41.948Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T08:11:52.374Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467321	4	48
+SearchInteraction	2018-03-10T08:23:38.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+RefreshOrPaginationInteraction	2018-03-10T08:24:01.027Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+SearchInteraction	2018-03-10T08:25:48.269Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:25:54.109Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+RefreshOrPaginationInteraction	2018-03-10T08:26:02.426Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+SearchInteraction	2018-03-10T08:26:12.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:22.900Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:32.785Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:27:42.334Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:38:37.819Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+SearchInteraction	2018-03-07T00:04:58.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		1761718
+CollectionFilterRemovalInteraction	2018-03-07T00:05:33.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		4
+SearchInteraction	2018-03-07T00:05:38.689Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-07T00:05:44.332Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	/11622/_MFN_MYRIAPODA_VERHOEFF_MFN_GERMANY_ZMB_Myr_12809a	1	1
+SearchInteraction	2018-03-07T12:28:48.260Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-07T19:56:00.899Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+RefreshOrPaginationInteraction	2018-03-07T19:56:16.318Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+SearchInteraction	2018-03-10T06:33:24.499Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:42.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661069	5	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:44.471Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661065	6	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:52.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:45.639Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:46.731Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661053	8	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:48.747Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661045	9	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:50.908Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661033	10	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:55.626Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660933	11	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:59.204Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660907	12	164
+SearchInteraction	2018-03-10T06:34:59.886Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:35:15.447Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:44.653Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/647437	5	10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:46.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/657560	4	10391
+SearchInteraction	2018-03-10T06:37:15.986Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:37:49.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/547864	24	10391
+SearchInteraction	2018-03-10T06:37:50.041Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:38:05.501Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:38:30.939Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:38:43.830Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:18.469Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/661045	60	10391
+SearchInteraction	2018-03-10T06:42:19.956Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:42:29.220Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:42.721Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/339998	84	10391
+SearchInteraction	2018-03-10T06:42:45.124Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:58.410Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/331208	90	10391
+SearchInteraction	2018-03-10T06:48:00.774Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:14.922Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:19.025Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:48:38.321Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		4
+RankedRetrieveRecordInteraction	2018-03-10T06:48:47.200Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2021750/https___apsida_cut_ac_cy_items_show_37457	4	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:06.036Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66472_autostart_24437	1	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:07.279Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66467_autostart_24434	2	4
+SearchInteraction	2018-03-10T06:49:41.310Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:43.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:45.974Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T06:49:53.246Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:50:12.866Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:32.479Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_36611_autostart_14439	19	123
+SearchInteraction	2018-03-10T06:50:40.416Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:48.897Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2048052/index_php_mpouketo_article_view_94490	27	123
+SearchInteraction	2018-03-10T06:50:57.394Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:51:17.249Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:05.757Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:32.727Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:52.575Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:06.112Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:28.262Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:54:38.593Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2021724/https___apsida_cut_ac_cy_items_show_9080	111	123
+SearchInteraction	2018-03-10T06:55:01.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+SearchInteraction	2018-03-10T06:55:50.232Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:00.601Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:01.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T07:09:10.251Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:09:24.115Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδα		0
+SearchInteraction	2018-03-10T07:09:29.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:31.905Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:38.673Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργών		0
+SearchInteraction	2018-03-10T07:09:43.664Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:50.079Z	06b2a93f9a9fe6aea12fffd46e3725f9	θαυματοποιός		5
+SearchInteraction	2018-03-10T07:10:09.609Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:10:21.746Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:37:52.756Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:14.018Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:24.496Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:42.769Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:40:11.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:40:27.462Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467312	5	48
+SearchInteraction	2018-03-10T07:41:11.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RefreshOrPaginationInteraction	2018-03-10T07:41:20.566Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:41:34.148Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_1000055506093	33	48
+SearchInteraction	2018-03-10T07:41:36.475Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+SearchInteraction	2018-03-10T07:50:03.393Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:50:14.008Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:30.427Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92040/BibliographicResource_3000135740117	1	242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:32.224Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92034/GVNRC_GAR01_1813_01_11	2	242
+SearchInteraction	2018-03-10T07:50:42.465Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T07:51:14.775Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:04:42.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		553550
+SearchInteraction	2018-03-10T08:05:38.765Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:05:40.837Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:05:41.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+RefreshOrPaginationInteraction	2018-03-10T08:05:52.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:06:14.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+RefreshOrPaginationInteraction	2018-03-10T08:06:27.408Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:06:32.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T08:06:37.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:06:45.309Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		5
+RankedRetrieveRecordInteraction	2018-03-10T08:06:51.574Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		/9200381/BibliographicResource_3000116079930	1	5
+SearchInteraction	2018-03-10T08:07:01.965Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:07:10.384Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+CollectionFilterAdditionInteraction	2018-03-10T08:07:24.485Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		0
+CollectionFilterRemovalInteraction	2018-03-10T08:07:28.480Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+SearchInteraction	2018-03-10T08:07:44.158Z	06b2a93f9a9fe6aea12fffd46e3725f9	melides		33
+SearchInteraction	2018-03-10T08:07:44.706Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:09:23.230Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:09:28.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:09:49.405Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:10:16.565Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+RefreshOrPaginationInteraction	2018-03-10T08:10:26.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:11:01.199Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:07.202Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès		33
+SearchInteraction	2018-03-10T08:11:34.857Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:35.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:37.399Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:38.776Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:41.948Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T08:11:52.374Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467321	4	48
+SearchInteraction	2018-03-10T08:23:38.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+RefreshOrPaginationInteraction	2018-03-10T08:24:01.027Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+SearchInteraction	2018-03-10T08:25:48.269Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:25:54.109Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+RefreshOrPaginationInteraction	2018-03-10T08:26:02.426Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+SearchInteraction	2018-03-10T08:26:12.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:22.900Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:32.785Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:27:42.334Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:38:37.819Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+SearchInteraction	2018-03-07T00:04:58.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		1761718
+CollectionFilterRemovalInteraction	2018-03-07T00:05:33.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	M		4
+SearchInteraction	2018-03-07T00:05:38.689Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-03-07T00:05:44.332Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	/11622/_MFN_MYRIAPODA_VERHOEFF_MFN_GERMANY_ZMB_Myr_12809a	1	1
+SearchInteraction	2018-03-07T12:28:48.260Z	06b2a93f9a9fe6aea12fffd46e3725f9	M	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-03-07T19:56:00.899Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+RefreshOrPaginationInteraction	2018-03-07T19:56:16.318Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès	{'TYPE': ['IMAGE']}	18
+SearchInteraction	2018-03-10T06:33:24.499Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:42.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661069	5	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:44.471Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661065	6	164
+RankedRetrieveRecordInteraction	2018-03-10T06:33:52.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:45.639Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661061	7	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:46.731Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661053	8	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:48.747Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661045	9	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:50.908Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/661033	10	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:55.626Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660933	11	164
+RankedRetrieveRecordInteraction	2018-03-10T06:34:59.204Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	/2055701/660907	12	164
+SearchInteraction	2018-03-10T06:34:59.886Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:35:15.447Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:44.653Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/647437	5	10391
+RankedRetrieveRecordInteraction	2018-03-10T06:35:46.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/657560	4	10391
+SearchInteraction	2018-03-10T06:37:15.986Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:37:49.090Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/547864	24	10391
+SearchInteraction	2018-03-10T06:37:50.041Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:38:05.501Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T06:38:30.939Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:38:43.830Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:18.469Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/661045	60	10391
+SearchInteraction	2018-03-10T06:42:19.956Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:42:29.220Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:42.721Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/339998	84	10391
+SearchInteraction	2018-03-10T06:42:45.124Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RankedRetrieveRecordInteraction	2018-03-10T06:42:58.410Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		/2055701/331208	90	10391
+SearchInteraction	2018-03-10T06:48:00.774Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:14.922Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T06:48:19.025Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T06:48:38.321Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		4
+RankedRetrieveRecordInteraction	2018-03-10T06:48:47.200Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2021750/https___apsida_cut_ac_cy_items_show_37457	4	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:06.036Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66472_autostart_24437	1	4
+RankedRetrieveRecordInteraction	2018-03-10T06:49:07.279Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργός		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_66467_autostart_24434	2	4
+SearchInteraction	2018-03-10T06:49:41.310Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:43.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T06:49:45.974Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T06:49:53.246Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:50:12.866Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:32.479Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2051920/data_euscreenXL_http___www_ert_archives_gr_V3_public_main_page_assetview_aspx_tid_36611_autostart_14439	19	123
+SearchInteraction	2018-03-10T06:50:40.416Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:50:48.897Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2048052/index_php_mpouketo_article_view_94490	27	123
+SearchInteraction	2018-03-10T06:50:57.394Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:51:17.249Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:05.757Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:32.727Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:53:52.575Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:06.112Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RefreshOrPaginationInteraction	2018-03-10T06:54:28.262Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+RankedRetrieveRecordInteraction	2018-03-10T06:54:38.593Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		/2021724/https___apsida_cut_ac_cy_items_show_9080	111	123
+SearchInteraction	2018-03-10T06:55:01.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	μάγος		123
+SearchInteraction	2018-03-10T06:55:50.232Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:00.601Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:01.412Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Hellenic Literary and Historical Archive (E.L.I.A.)']}	164
+SearchInteraction	2018-03-10T07:09:10.251Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:09:24.115Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδα		0
+SearchInteraction	2018-03-10T07:09:29.567Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T07:09:31.905Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:38.673Z	06b2a93f9a9fe6aea12fffd46e3725f9	ταχυδακτυλουργών		0
+SearchInteraction	2018-03-10T07:09:43.664Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:09:50.079Z	06b2a93f9a9fe6aea12fffd46e3725f9	θαυματοποιός		5
+SearchInteraction	2018-03-10T07:10:09.609Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:10:21.746Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:37:52.756Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:14.018Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:24.496Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+RefreshOrPaginationInteraction	2018-03-10T07:39:42.769Z	06b2a93f9a9fe6aea12fffd46e3725f9	what:"Θεατρικά Προγράμματα"		10391
+SearchInteraction	2018-03-10T07:40:11.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:40:27.462Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467312	5	48
+SearchInteraction	2018-03-10T07:41:11.538Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RefreshOrPaginationInteraction	2018-03-10T07:41:20.566Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T07:41:34.148Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_1000055506093	33	48
+SearchInteraction	2018-03-10T07:41:36.475Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+SearchInteraction	2018-03-10T07:50:03.393Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T07:50:14.008Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:30.427Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92040/BibliographicResource_3000135740117	1	242
+RankedRetrieveRecordInteraction	2018-03-10T07:50:32.224Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		/92034/GVNRC_GAR01_1813_01_11	2	242
+SearchInteraction	2018-03-10T07:50:42.465Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T07:51:14.775Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:04:42.325Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		553550
+SearchInteraction	2018-03-10T08:05:38.765Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:05:40.837Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:05:41.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+RefreshOrPaginationInteraction	2018-03-10T08:05:52.648Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:06:14.524Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+RefreshOrPaginationInteraction	2018-03-10T08:06:27.408Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:06:32.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	magicien		242
+SearchInteraction	2018-03-10T08:06:37.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:06:45.309Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		5
+RankedRetrieveRecordInteraction	2018-03-10T08:06:51.574Z	06b2a93f9a9fe6aea12fffd46e3725f9	μελίδης		/9200381/BibliographicResource_3000116079930	1	5
+SearchInteraction	2018-03-10T08:07:01.965Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:07:10.384Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+CollectionFilterAdditionInteraction	2018-03-10T08:07:24.485Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		0
+CollectionFilterRemovalInteraction	2018-03-10T08:07:28.480Z	06b2a93f9a9fe6aea12fffd46e3725f9	proxy_dc_format:"application/pdf"		1522378
+SearchInteraction	2018-03-10T08:07:44.158Z	06b2a93f9a9fe6aea12fffd46e3725f9	melides		33
+SearchInteraction	2018-03-10T08:07:44.706Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:09:23.230Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:09:28.441Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of Serbia"		37969
+SearchInteraction	2018-03-10T08:09:49.405Z	06b2a93f9a9fe6aea12fffd46e3725f9	DATA_PROVIDER:"National Library of the Netherlands - Koninklijke Bibliotheek"		52
+SearchInteraction	2018-03-10T08:10:16.565Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+RefreshOrPaginationInteraction	2018-03-10T08:10:26.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	Melides		33
+SearchInteraction	2018-03-10T08:11:01.199Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:07.202Z	06b2a93f9a9fe6aea12fffd46e3725f9	Mélidès		33
+SearchInteraction	2018-03-10T08:11:34.857Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:35.749Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:37.399Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+RefreshOrPaginationInteraction	2018-03-10T08:11:38.776Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:11:41.948Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		48
+RankedRetrieveRecordInteraction	2018-03-10T08:11:52.374Z	06b2a93f9a9fe6aea12fffd46e3725f9	prestidigitateur		/9200365/BibliographicResource_3000118467321	4	48
+SearchInteraction	2018-03-10T08:23:38.942Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+RefreshOrPaginationInteraction	2018-03-10T08:24:01.027Z	06b2a93f9a9fe6aea12fffd46e3725f9	conjuror		18
+SearchInteraction	2018-03-10T08:25:48.269Z	06b2a93f9a9fe6aea12fffd46e3725f9	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-10T08:25:54.109Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+RefreshOrPaginationInteraction	2018-03-10T08:26:02.426Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer		447
+SearchInteraction	2018-03-10T08:26:12.943Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:22.900Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:26:32.785Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:27:42.334Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254
+RefreshOrPaginationInteraction	2018-03-10T08:38:37.819Z	06b2a93f9a9fe6aea12fffd46e3725f9	 Zauberer	{'TYPE': ['IMAGE']}	254

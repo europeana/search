@@ -1,0 +1,75 @@
+ArbitraryAccessInteraction	2018-03-01T18:27:03.463Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/92033/BibliographicResource_3000053542866.html (PortalController#show)
+SearchInteraction	2018-03-01T18:27:08.203Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:24.905Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014685	4	2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:38.065Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014693	2	2138
+SearchInteraction	2018-03-01T18:28:15.910Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:28:34.808Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92076/BibliographicResource_1000056184180	24	2138
+SearchInteraction	2018-03-01T18:28:45.170Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	1410
+RankedRetrieveRecordInteraction	2018-03-01T18:28:50.144Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_illmanus_arunmancoll_a_zoomify74757_html	1	1410
+SearchInteraction	2018-03-01T18:29:49.248Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:29:52.965Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/9200369/webclient_DeliveryManager_pid_75693_custom_att_2_simple_viewer	1	47
+SearchInteraction	2018-03-01T18:30:49.565Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:07.597Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:24.376Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:31:41.754Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN4346_Pixels_0	44	47
+ArbitraryAccessInteraction	2018-03-01T18:46:31.741Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN3017_Pixels_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T18:27:03.463Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/92033/BibliographicResource_3000053542866.html (PortalController#show)
+SearchInteraction	2018-03-01T18:27:08.203Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:24.905Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014685	4	2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:38.065Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014693	2	2138
+SearchInteraction	2018-03-01T18:28:15.910Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:28:34.808Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92076/BibliographicResource_1000056184180	24	2138
+SearchInteraction	2018-03-01T18:28:45.170Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	1410
+RankedRetrieveRecordInteraction	2018-03-01T18:28:50.144Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_illmanus_arunmancoll_a_zoomify74757_html	1	1410
+SearchInteraction	2018-03-01T18:29:49.248Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:29:52.965Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/9200369/webclient_DeliveryManager_pid_75693_custom_att_2_simple_viewer	1	47
+SearchInteraction	2018-03-01T18:30:49.565Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:07.597Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:24.376Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:31:41.754Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN4346_Pixels_0	44	47
+ArbitraryAccessInteraction	2018-03-01T18:46:31.741Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN3017_Pixels_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T18:27:03.463Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/92033/BibliographicResource_3000053542866.html (PortalController#show)
+SearchInteraction	2018-03-01T18:27:08.203Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:24.905Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014685	4	2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:38.065Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014693	2	2138
+SearchInteraction	2018-03-01T18:28:15.910Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:28:34.808Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92076/BibliographicResource_1000056184180	24	2138
+SearchInteraction	2018-03-01T18:28:45.170Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	1410
+RankedRetrieveRecordInteraction	2018-03-01T18:28:50.144Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_illmanus_arunmancoll_a_zoomify74757_html	1	1410
+SearchInteraction	2018-03-01T18:29:49.248Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:29:52.965Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/9200369/webclient_DeliveryManager_pid_75693_custom_att_2_simple_viewer	1	47
+SearchInteraction	2018-03-01T18:30:49.565Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:07.597Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:24.376Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:31:41.754Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN4346_Pixels_0	44	47
+ArbitraryAccessInteraction	2018-03-01T18:46:31.741Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN3017_Pixels_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T18:27:03.463Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/92033/BibliographicResource_3000053542866.html (PortalController#show)
+SearchInteraction	2018-03-01T18:27:08.203Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:24.905Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014685	4	2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:38.065Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014693	2	2138
+SearchInteraction	2018-03-01T18:28:15.910Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:28:34.808Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92076/BibliographicResource_1000056184180	24	2138
+SearchInteraction	2018-03-01T18:28:45.170Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	1410
+RankedRetrieveRecordInteraction	2018-03-01T18:28:50.144Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_illmanus_arunmancoll_a_zoomify74757_html	1	1410
+SearchInteraction	2018-03-01T18:29:49.248Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:29:52.965Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/9200369/webclient_DeliveryManager_pid_75693_custom_att_2_simple_viewer	1	47
+SearchInteraction	2018-03-01T18:30:49.565Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:07.597Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:24.376Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:31:41.754Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN4346_Pixels_0	44	47
+ArbitraryAccessInteraction	2018-03-01T18:46:31.741Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN3017_Pixels_0.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-01T18:27:03.463Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/92033/BibliographicResource_3000053542866.html (PortalController#show)
+SearchInteraction	2018-03-01T18:27:08.203Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:24.905Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014685	4	2138
+RankedRetrieveRecordInteraction	2018-03-01T18:27:38.065Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92090/BibliographicResource_1000086014693	2	2138
+SearchInteraction	2018-03-01T18:28:15.910Z	455a80816552bcfb8641c021c128e2e6	Almanac		2138
+RankedRetrieveRecordInteraction	2018-03-01T18:28:34.808Z	455a80816552bcfb8641c021c128e2e6	Almanac		/92076/BibliographicResource_1000056184180	24	2138
+SearchInteraction	2018-03-01T18:28:45.170Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	1410
+RankedRetrieveRecordInteraction	2018-03-01T18:28:50.144Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_illmanus_arunmancoll_a_zoomify74757_html	1	1410
+SearchInteraction	2018-03-01T18:29:49.248Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:29:52.965Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/9200369/webclient_DeliveryManager_pid_75693_custom_att_2_simple_viewer	1	47
+SearchInteraction	2018-03-01T18:30:49.565Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:07.597Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RefreshOrPaginationInteraction	2018-03-01T18:31:24.376Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	47
+RankedRetrieveRecordInteraction	2018-03-01T18:31:41.754Z	455a80816552bcfb8641c021c128e2e6	Almanac	{'COUNTRY': ['italy']}	/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN4346_Pixels_0	44	47
+ArbitraryAccessInteraction	2018-03-01T18:46:31.741Z	455a80816552bcfb8641c021c128e2e6	[200] GET /portal/en/record/2058606/bw5ne5_ThumbJpeg_ashx_WEBIDS_FNBN3017_Pixels_0.html (PortalController#show)

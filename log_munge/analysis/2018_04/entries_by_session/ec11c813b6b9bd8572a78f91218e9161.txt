@@ -1,0 +1,155 @@
+SearchInteraction	2018-03-30T10:08:28.083Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+RankedRetrieveRecordInteraction	2018-03-30T10:08:38.069Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		/9200386/BibliographicResource_3000044852410	1	2
+SearchInteraction	2018-03-30T10:09:53.830Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+RankedRetrieveRecordInteraction	2018-03-30T10:10:00.412Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		/9200386/BibliographicResource_3000044738034	2	2
+SearchInteraction	2018-03-30T10:10:12.361Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+SearchInteraction	2018-03-30T10:10:30.729Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+SearchInteraction	2018-03-30T10:10:39.575Z	ec11c813b6b9bd8572a78f91218e9161	Jan di Piano Carpini		0
+SearchInteraction	2018-03-30T10:11:01.669Z	ec11c813b6b9bd8572a78f91218e9161	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T10:11:08.393Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		5
+RankedRetrieveRecordInteraction	2018-03-30T10:11:28.131Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/0940420/_nnhdnsw	4	5
+SearchInteraction	2018-03-30T10:12:37.073Z	ec11c813b6b9bd8572a78f91218e9161	who:(Carpine, Giovanni da Pian del ca 1182-1252)		1
+RankedRetrieveRecordInteraction	2018-03-30T10:12:52.021Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/9200418/BibliographicResource_3000125986139	1	5
+ArbitraryAccessInteraction	2018-03-30T11:02:07.129Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_541131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:33:07.806Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540304.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:36:02.025Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540302.html (PortalController#show)
+SearchInteraction	2018-03-30T15:18:35.212Z	ec11c813b6b9bd8572a78f91218e9161	казаки		20
+RankedRetrieveRecordInteraction	2018-03-30T15:18:54.464Z	ec11c813b6b9bd8572a78f91218e9161	казаки		/92004/TSL____TSL___173_I_097___3EEP9CB_ru	2	20
+SearchInteraction	2018-03-30T17:13:40.158Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:04.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:23.548Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:51.938Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:18.320Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:33.604Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:19.200Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:32.865Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:16:38.232Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+SearchInteraction	2018-03-30T17:17:28.274Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:17:34.112Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+RankedRetrieveRecordInteraction	2018-03-30T17:19:51.187Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580031_	14	69
+RankedRetrieveRecordInteraction	2018-03-30T17:20:59.583Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_570438_	15	69
+RankedRetrieveRecordInteraction	2018-03-30T17:22:20.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_509589_	16	69
+SearchInteraction	2018-03-30T10:08:28.083Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+RankedRetrieveRecordInteraction	2018-03-30T10:08:38.069Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		/9200386/BibliographicResource_3000044852410	1	2
+SearchInteraction	2018-03-30T10:09:53.830Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+RankedRetrieveRecordInteraction	2018-03-30T10:10:00.412Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		/9200386/BibliographicResource_3000044738034	2	2
+SearchInteraction	2018-03-30T10:10:12.361Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+SearchInteraction	2018-03-30T10:10:30.729Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+SearchInteraction	2018-03-30T10:10:39.575Z	ec11c813b6b9bd8572a78f91218e9161	Jan di Piano Carpini		0
+SearchInteraction	2018-03-30T10:11:01.669Z	ec11c813b6b9bd8572a78f91218e9161	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T10:11:08.393Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		5
+RankedRetrieveRecordInteraction	2018-03-30T10:11:28.131Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/0940420/_nnhdnsw	4	5
+SearchInteraction	2018-03-30T10:12:37.073Z	ec11c813b6b9bd8572a78f91218e9161	who:(Carpine, Giovanni da Pian del ca 1182-1252)		1
+RankedRetrieveRecordInteraction	2018-03-30T10:12:52.021Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/9200418/BibliographicResource_3000125986139	1	5
+ArbitraryAccessInteraction	2018-03-30T11:02:07.129Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_541131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:33:07.806Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540304.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:36:02.025Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540302.html (PortalController#show)
+SearchInteraction	2018-03-30T15:18:35.212Z	ec11c813b6b9bd8572a78f91218e9161	казаки		20
+RankedRetrieveRecordInteraction	2018-03-30T15:18:54.464Z	ec11c813b6b9bd8572a78f91218e9161	казаки		/92004/TSL____TSL___173_I_097___3EEP9CB_ru	2	20
+SearchInteraction	2018-03-30T17:13:40.158Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:04.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:23.548Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:51.938Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:18.320Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:33.604Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:19.200Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:32.865Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:16:38.232Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+SearchInteraction	2018-03-30T17:17:28.274Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:17:34.112Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+RankedRetrieveRecordInteraction	2018-03-30T17:19:51.187Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580031_	14	69
+RankedRetrieveRecordInteraction	2018-03-30T17:20:59.583Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_570438_	15	69
+RankedRetrieveRecordInteraction	2018-03-30T17:22:20.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_509589_	16	69
+SearchInteraction	2018-03-30T10:08:28.083Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+RankedRetrieveRecordInteraction	2018-03-30T10:08:38.069Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		/9200386/BibliographicResource_3000044852410	1	2
+SearchInteraction	2018-03-30T10:09:53.830Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+RankedRetrieveRecordInteraction	2018-03-30T10:10:00.412Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		/9200386/BibliographicResource_3000044738034	2	2
+SearchInteraction	2018-03-30T10:10:12.361Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+SearchInteraction	2018-03-30T10:10:30.729Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+SearchInteraction	2018-03-30T10:10:39.575Z	ec11c813b6b9bd8572a78f91218e9161	Jan di Piano Carpini		0
+SearchInteraction	2018-03-30T10:11:01.669Z	ec11c813b6b9bd8572a78f91218e9161	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T10:11:08.393Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		5
+RankedRetrieveRecordInteraction	2018-03-30T10:11:28.131Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/0940420/_nnhdnsw	4	5
+SearchInteraction	2018-03-30T10:12:37.073Z	ec11c813b6b9bd8572a78f91218e9161	who:(Carpine, Giovanni da Pian del ca 1182-1252)		1
+RankedRetrieveRecordInteraction	2018-03-30T10:12:52.021Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/9200418/BibliographicResource_3000125986139	1	5
+ArbitraryAccessInteraction	2018-03-30T11:02:07.129Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_541131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:33:07.806Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540304.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:36:02.025Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540302.html (PortalController#show)
+SearchInteraction	2018-03-30T15:18:35.212Z	ec11c813b6b9bd8572a78f91218e9161	казаки		20
+RankedRetrieveRecordInteraction	2018-03-30T15:18:54.464Z	ec11c813b6b9bd8572a78f91218e9161	казаки		/92004/TSL____TSL___173_I_097___3EEP9CB_ru	2	20
+SearchInteraction	2018-03-30T17:13:40.158Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:04.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:23.548Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:51.938Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:18.320Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:33.604Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:19.200Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:32.865Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:16:38.232Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+SearchInteraction	2018-03-30T17:17:28.274Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:17:34.112Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+RankedRetrieveRecordInteraction	2018-03-30T17:19:51.187Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580031_	14	69
+RankedRetrieveRecordInteraction	2018-03-30T17:20:59.583Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_570438_	15	69
+RankedRetrieveRecordInteraction	2018-03-30T17:22:20.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_509589_	16	69
+SearchInteraction	2018-03-30T10:08:28.083Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+RankedRetrieveRecordInteraction	2018-03-30T10:08:38.069Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		/9200386/BibliographicResource_3000044852410	1	2
+SearchInteraction	2018-03-30T10:09:53.830Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+RankedRetrieveRecordInteraction	2018-03-30T10:10:00.412Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		/9200386/BibliographicResource_3000044738034	2	2
+SearchInteraction	2018-03-30T10:10:12.361Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+SearchInteraction	2018-03-30T10:10:30.729Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+SearchInteraction	2018-03-30T10:10:39.575Z	ec11c813b6b9bd8572a78f91218e9161	Jan di Piano Carpini		0
+SearchInteraction	2018-03-30T10:11:01.669Z	ec11c813b6b9bd8572a78f91218e9161	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T10:11:08.393Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		5
+RankedRetrieveRecordInteraction	2018-03-30T10:11:28.131Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/0940420/_nnhdnsw	4	5
+SearchInteraction	2018-03-30T10:12:37.073Z	ec11c813b6b9bd8572a78f91218e9161	who:(Carpine, Giovanni da Pian del ca 1182-1252)		1
+RankedRetrieveRecordInteraction	2018-03-30T10:12:52.021Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/9200418/BibliographicResource_3000125986139	1	5
+ArbitraryAccessInteraction	2018-03-30T11:02:07.129Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_541131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:33:07.806Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540304.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:36:02.025Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540302.html (PortalController#show)
+SearchInteraction	2018-03-30T15:18:35.212Z	ec11c813b6b9bd8572a78f91218e9161	казаки		20
+RankedRetrieveRecordInteraction	2018-03-30T15:18:54.464Z	ec11c813b6b9bd8572a78f91218e9161	казаки		/92004/TSL____TSL___173_I_097___3EEP9CB_ru	2	20
+SearchInteraction	2018-03-30T17:13:40.158Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:04.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:23.548Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:51.938Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:18.320Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:33.604Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:19.200Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:32.865Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:16:38.232Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+SearchInteraction	2018-03-30T17:17:28.274Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:17:34.112Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+RankedRetrieveRecordInteraction	2018-03-30T17:19:51.187Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580031_	14	69
+RankedRetrieveRecordInteraction	2018-03-30T17:20:59.583Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_570438_	15	69
+RankedRetrieveRecordInteraction	2018-03-30T17:22:20.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_509589_	16	69
+SearchInteraction	2018-03-30T10:08:28.083Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+RankedRetrieveRecordInteraction	2018-03-30T10:08:38.069Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		/9200386/BibliographicResource_3000044852410	1	2
+SearchInteraction	2018-03-30T10:09:53.830Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+RankedRetrieveRecordInteraction	2018-03-30T10:10:00.412Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		/9200386/BibliographicResource_3000044738034	2	2
+SearchInteraction	2018-03-30T10:10:12.361Z	ec11c813b6b9bd8572a78f91218e9161	who:(Johannes, de Plano Carpini)		2
+SearchInteraction	2018-03-30T10:10:30.729Z	ec11c813b6b9bd8572a78f91218e9161	Johannes de Plano Carpini		2
+SearchInteraction	2018-03-30T10:10:39.575Z	ec11c813b6b9bd8572a78f91218e9161	Jan di Piano Carpini		0
+SearchInteraction	2018-03-30T10:11:01.669Z	ec11c813b6b9bd8572a78f91218e9161	NO VALUE PROVIDED		51374966
+SearchInteraction	2018-03-30T10:11:08.393Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		5
+RankedRetrieveRecordInteraction	2018-03-30T10:11:28.131Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/0940420/_nnhdnsw	4	5
+SearchInteraction	2018-03-30T10:12:37.073Z	ec11c813b6b9bd8572a78f91218e9161	who:(Carpine, Giovanni da Pian del ca 1182-1252)		1
+RankedRetrieveRecordInteraction	2018-03-30T10:12:52.021Z	ec11c813b6b9bd8572a78f91218e9161	Giovanni da Pian del Carpine		/9200418/BibliographicResource_3000125986139	1	5
+ArbitraryAccessInteraction	2018-03-30T11:02:07.129Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_541131.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:33:07.806Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540304.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-30T11:36:02.025Z	ec11c813b6b9bd8572a78f91218e9161	[200] GET /portal/en/record/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_540302.html (PortalController#show)
+SearchInteraction	2018-03-30T15:18:35.212Z	ec11c813b6b9bd8572a78f91218e9161	казаки		20
+RankedRetrieveRecordInteraction	2018-03-30T15:18:54.464Z	ec11c813b6b9bd8572a78f91218e9161	казаки		/92004/TSL____TSL___173_I_097___3EEP9CB_ru	2	20
+SearchInteraction	2018-03-30T17:13:40.158Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:04.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:23.548Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:14:51.938Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:18.320Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:15:33.604Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:19.200Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RefreshOrPaginationInteraction	2018-03-30T17:16:32.865Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:16:38.232Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+SearchInteraction	2018-03-30T17:17:28.274Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		69
+RankedRetrieveRecordInteraction	2018-03-30T17:17:34.112Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580074_	13	69
+RankedRetrieveRecordInteraction	2018-03-30T17:19:51.187Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_580031_	14	69
+RankedRetrieveRecordInteraction	2018-03-30T17:20:59.583Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_570438_	15	69
+RankedRetrieveRecordInteraction	2018-03-30T17:22:20.164Z	ec11c813b6b9bd8572a78f91218e9161	August Bielowski		/9200479/item_509589_	16	69

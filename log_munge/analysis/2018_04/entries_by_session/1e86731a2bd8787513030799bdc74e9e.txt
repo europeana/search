@@ -1,0 +1,95 @@
+ArbitraryAccessInteraction	2018-03-04T12:29:06.828Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+SearchInteraction	2018-03-04T12:59:56.157Z	1e86731a2bd8787513030799bdc74e9e	tristia		154
+SearchInteraction	2018-03-04T13:00:31.639Z	1e86731a2bd8787513030799bdc74e9e	tristia	{'TYPE': ['TEXT']}	122
+SearchInteraction	2018-03-04T13:00:52.372Z	1e86731a2bd8787513030799bdc74e9e	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+ArbitraryAccessInteraction	2018-03-04T13:00:54.087Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151186.html (PortalController#show)
+SearchInteraction	2018-03-04T13:01:04.604Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'TYPE': ['TEXT']}	76
+SearchInteraction	2018-03-04T13:01:27.722Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T13:01:34.171Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:02:44.230Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086158420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:03:20.428Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086149689.html (PortalController#show)
+SearchInteraction	2018-03-04T13:03:36.528Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+SearchInteraction	2018-03-04T13:04:00.823Z	1e86731a2bd8787513030799bdc74e9e	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1009g"		23680
+SearchInteraction	2018-03-04T13:09:30.737Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+RefreshOrPaginationInteraction	2018-03-04T13:09:50.316Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:00.470Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	4
+RankedRetrieveRecordInteraction	2018-03-04T13:10:08.016Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	/9200110/BibliographicResource_1000126558872	1	4
+SearchInteraction	2018-03-04T13:10:19.702Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:21.785Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es', 'mul']}	8
+SearchInteraction	2018-03-04T13:10:43.372Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T12:29:06.828Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+SearchInteraction	2018-03-04T12:59:56.157Z	1e86731a2bd8787513030799bdc74e9e	tristia		154
+SearchInteraction	2018-03-04T13:00:31.639Z	1e86731a2bd8787513030799bdc74e9e	tristia	{'TYPE': ['TEXT']}	122
+SearchInteraction	2018-03-04T13:00:52.372Z	1e86731a2bd8787513030799bdc74e9e	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+ArbitraryAccessInteraction	2018-03-04T13:00:54.087Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151186.html (PortalController#show)
+SearchInteraction	2018-03-04T13:01:04.604Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'TYPE': ['TEXT']}	76
+SearchInteraction	2018-03-04T13:01:27.722Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T13:01:34.171Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:02:44.230Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086158420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:03:20.428Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086149689.html (PortalController#show)
+SearchInteraction	2018-03-04T13:03:36.528Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+SearchInteraction	2018-03-04T13:04:00.823Z	1e86731a2bd8787513030799bdc74e9e	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1009g"		23680
+SearchInteraction	2018-03-04T13:09:30.737Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+RefreshOrPaginationInteraction	2018-03-04T13:09:50.316Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:00.470Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	4
+RankedRetrieveRecordInteraction	2018-03-04T13:10:08.016Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	/9200110/BibliographicResource_1000126558872	1	4
+SearchInteraction	2018-03-04T13:10:19.702Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:21.785Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es', 'mul']}	8
+SearchInteraction	2018-03-04T13:10:43.372Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T12:29:06.828Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+SearchInteraction	2018-03-04T12:59:56.157Z	1e86731a2bd8787513030799bdc74e9e	tristia		154
+SearchInteraction	2018-03-04T13:00:31.639Z	1e86731a2bd8787513030799bdc74e9e	tristia	{'TYPE': ['TEXT']}	122
+SearchInteraction	2018-03-04T13:00:52.372Z	1e86731a2bd8787513030799bdc74e9e	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+ArbitraryAccessInteraction	2018-03-04T13:00:54.087Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151186.html (PortalController#show)
+SearchInteraction	2018-03-04T13:01:04.604Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'TYPE': ['TEXT']}	76
+SearchInteraction	2018-03-04T13:01:27.722Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T13:01:34.171Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:02:44.230Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086158420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:03:20.428Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086149689.html (PortalController#show)
+SearchInteraction	2018-03-04T13:03:36.528Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+SearchInteraction	2018-03-04T13:04:00.823Z	1e86731a2bd8787513030799bdc74e9e	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1009g"		23680
+SearchInteraction	2018-03-04T13:09:30.737Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+RefreshOrPaginationInteraction	2018-03-04T13:09:50.316Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:00.470Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	4
+RankedRetrieveRecordInteraction	2018-03-04T13:10:08.016Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	/9200110/BibliographicResource_1000126558872	1	4
+SearchInteraction	2018-03-04T13:10:19.702Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:21.785Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es', 'mul']}	8
+SearchInteraction	2018-03-04T13:10:43.372Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T12:29:06.828Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+SearchInteraction	2018-03-04T12:59:56.157Z	1e86731a2bd8787513030799bdc74e9e	tristia		154
+SearchInteraction	2018-03-04T13:00:31.639Z	1e86731a2bd8787513030799bdc74e9e	tristia	{'TYPE': ['TEXT']}	122
+SearchInteraction	2018-03-04T13:00:52.372Z	1e86731a2bd8787513030799bdc74e9e	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+ArbitraryAccessInteraction	2018-03-04T13:00:54.087Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151186.html (PortalController#show)
+SearchInteraction	2018-03-04T13:01:04.604Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'TYPE': ['TEXT']}	76
+SearchInteraction	2018-03-04T13:01:27.722Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T13:01:34.171Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:02:44.230Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086158420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:03:20.428Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086149689.html (PortalController#show)
+SearchInteraction	2018-03-04T13:03:36.528Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+SearchInteraction	2018-03-04T13:04:00.823Z	1e86731a2bd8787513030799bdc74e9e	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1009g"		23680
+SearchInteraction	2018-03-04T13:09:30.737Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+RefreshOrPaginationInteraction	2018-03-04T13:09:50.316Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:00.470Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	4
+RankedRetrieveRecordInteraction	2018-03-04T13:10:08.016Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	/9200110/BibliographicResource_1000126558872	1	4
+SearchInteraction	2018-03-04T13:10:19.702Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:21.785Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es', 'mul']}	8
+SearchInteraction	2018-03-04T13:10:43.372Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T12:29:06.828Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+SearchInteraction	2018-03-04T12:59:56.157Z	1e86731a2bd8787513030799bdc74e9e	tristia		154
+SearchInteraction	2018-03-04T13:00:31.639Z	1e86731a2bd8787513030799bdc74e9e	tristia	{'TYPE': ['TEXT']}	122
+SearchInteraction	2018-03-04T13:00:52.372Z	1e86731a2bd8787513030799bdc74e9e	NO VALUE PROVIDED	{'TYPE': ['TEXT']}	22292244
+ArbitraryAccessInteraction	2018-03-04T13:00:54.087Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151186.html (PortalController#show)
+SearchInteraction	2018-03-04T13:01:04.604Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'TYPE': ['TEXT']}	76
+SearchInteraction	2018-03-04T13:01:27.722Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+ArbitraryAccessInteraction	2018-03-04T13:01:34.171Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086151185.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:02:44.230Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086158420.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-04T13:03:20.428Z	1e86731a2bd8787513030799bdc74e9e	[200] GET /portal/es/record/92093/BibliographicResource_1000086149689.html (PortalController#show)
+SearchInteraction	2018-03-04T13:03:36.528Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503
+SearchInteraction	2018-03-04T13:04:00.823Z	1e86731a2bd8787513030799bdc74e9e	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1009g"		23680
+SearchInteraction	2018-03-04T13:09:30.737Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+RefreshOrPaginationInteraction	2018-03-04T13:09:50.316Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:00.470Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	4
+RankedRetrieveRecordInteraction	2018-03-04T13:10:08.016Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es']}	/9200110/BibliographicResource_1000126558872	1	4
+SearchInteraction	2018-03-04T13:10:19.702Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio		81
+SearchInteraction	2018-03-04T13:10:21.785Z	1e86731a2bd8787513030799bdc74e9e	tristia ovidio	{'LANGUAGE': ['es', 'mul']}	8
+SearchInteraction	2018-03-04T13:10:43.372Z	1e86731a2bd8787513030799bdc74e9e	PROVIDER:"The European Library"		10327503

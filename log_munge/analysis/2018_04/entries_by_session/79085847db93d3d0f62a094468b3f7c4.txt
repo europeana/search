@@ -1,0 +1,510 @@
+ArbitraryAccessInteraction	2018-02-13T23:11:48.440Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:08.380Z	79085847db93d3d0f62a094468b3f7c4	who:(Barbo, Paolo 14..-1494. Préfacier)		0
+ArbitraryAccessInteraction	2018-02-16T20:30:19.495Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:26.867Z	79085847db93d3d0f62a094468b3f7c4	proxy_dc_publisher:"per Benignum et Johantonium fratres de Bonate Mediolani"		1
+ArbitraryAccessInteraction	2018-02-18T22:23:27.563Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158991.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T22:23:37.304Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158995.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T14:39:01.837Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/2048604/data_item_onb_abo__2BZ182416801.html (PortalController#show)
+SearchInteraction	2018-03-12T23:23:13.182Z	79085847db93d3d0f62a094468b3f7c4	Opus Sermonum De Adventu		7
+SearchInteraction	2018-03-12T23:39:36.432Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		91
+CollectionFilterAdditionInteraction	2018-03-12T23:40:23.240Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		5
+RankedRetrieveRecordInteraction	2018-03-12T23:40:47.090Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		/2022705/lod_oai_bvpb_mcu_es_485707_ent1	4	5
+SearchInteraction	2018-03-13T16:36:20.482Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T16:40:22.901Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T16:40:33.159Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:53:57.525Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:55:02.020Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095469767	6	52
+RankedRetrieveRecordInteraction	2018-03-13T16:56:45.740Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575359	2	52
+SearchInteraction	2018-03-13T17:37:55.225Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:41:37.138Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:14.495Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:46.008Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T17:43:23.919Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095312703	51	52
+SearchInteraction	2018-03-13T17:48:02.745Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-03-13T17:48:13.416Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+SearchInteraction	2018-03-13T17:48:30.139Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:48:54.604Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:49:18.476Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+SearchInteraction	2018-03-13T17:49:46.290Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+RefreshOrPaginationInteraction	2018-03-13T17:50:05.811Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+SearchInteraction	2018-03-13T17:50:13.529Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:22.722Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['CER.ES: Red Digital de Colecciones de museos de España']}	125
+SearchInteraction	2018-03-13T17:50:47.094Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:55.443Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:13.953Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:45.169Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:52:02.991Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-03-13T22:05:21.420Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126656931.html (PortalController#show)
+SearchInteraction	2018-03-13T23:04:07.616Z	79085847db93d3d0f62a094468b3f7c4	what:"Biblia., A.T., Reyes, Obras anteriores a 1800."		2
+SearchInteraction	2018-03-14T21:51:45.385Z	79085847db93d3d0f62a094468b3f7c4	who:(Tostado, Alphonsus)		189
+ArbitraryAccessInteraction	2018-03-14T22:02:26.008Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045185322.html (PortalController#show)
+SearchInteraction	2018-03-14T22:02:33.964Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+CollectionFilterAdditionInteraction	2018-03-14T22:03:25.365Z	79085847db93d3d0f62a094468b3f7c4	tostado		142
+CollectionFilterRemovalInteraction	2018-03-14T22:03:36.376Z	79085847db93d3d0f62a094468b3f7c4	tostado		3
+RankedRetrieveRecordInteraction	2018-03-14T22:03:43.494Z	79085847db93d3d0f62a094468b3f7c4	tostado		/9200332/BibliographicResource_3000095437727	1	3
+ArbitraryAccessInteraction	2018-03-15T21:41:16.215Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045184682.html (PortalController#show)
+SearchInteraction	2018-03-15T21:47:40.106Z	79085847db93d3d0f62a094468b3f7c4	abulensis		306
+CollectionFilterAdditionInteraction	2018-03-15T21:48:08.291Z	79085847db93d3d0f62a094468b3f7c4	abulensis		132
+CollectionFilterRemovalInteraction	2018-03-15T21:48:22.590Z	79085847db93d3d0f62a094468b3f7c4	abulensis		3
+ArbitraryAccessInteraction	2018-03-15T22:07:58.079Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200332/BibliographicResource_3000095403255.html (PortalController#show)
+SearchInteraction	2018-03-15T22:37:06.915Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED		51291701
+SearchInteraction	2018-03-15T22:37:14.424Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-15T22:37:20.152Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:37:52.821Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:03.393Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:26.452Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:51.110Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:39:42.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:18.707Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:42.280Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:54.189Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:18.631Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:36.956Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:11.645Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:29.650Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:04.972Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:31.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RankedRetrieveRecordInteraction	2018-03-15T22:44:01.321Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	/9200332/BibliographicResource_3000123575061	138	294
+SearchInteraction	2018-03-18T21:53:48.196Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium		166
+SearchInteraction	2018-03-18T21:53:57.475Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+CollectionFilterAdditionInteraction	2018-03-18T21:54:20.427Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-18T21:54:28.396Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+RankedRetrieveRecordInteraction	2018-03-18T21:54:42.467Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	/92004/AIPGGL_NKCR__27C000019T072578KIE_cs	9	128
+SearchInteraction	2018-03-18T21:54:46.645Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:01.719Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:08.916Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:40.926Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:01.839Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:23.883Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:38.788Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:50.390Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:02.106Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:13.205Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:23.654Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:37.783Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:55.601Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:12.448Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:46.335Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:17.953Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:31.680Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:44.755Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:12.827Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:29.220Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:51.344Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:13.613Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:57.539Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:02:37.194Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:03:02.624Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RankedRetrieveRecordInteraction	2018-03-18T22:03:16.665Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		/2022704/lod_oai_bibliotecadigital_jcyl_es_21354_ent1	289	312
+SearchInteraction	2018-03-18T22:08:52.182Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+ArbitraryAccessInteraction	2018-03-18T22:13:15.694Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200376/BibliographicResource_3000100209801.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-18T22:14:20.106Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126573525.html (PortalController#show)
+SearchInteraction	2018-03-23T07:51:58.660Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-02-13T23:11:48.440Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:08.380Z	79085847db93d3d0f62a094468b3f7c4	who:(Barbo, Paolo 14..-1494. Préfacier)		0
+ArbitraryAccessInteraction	2018-02-16T20:30:19.495Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:26.867Z	79085847db93d3d0f62a094468b3f7c4	proxy_dc_publisher:"per Benignum et Johantonium fratres de Bonate Mediolani"		1
+ArbitraryAccessInteraction	2018-02-18T22:23:27.563Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158991.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T22:23:37.304Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158995.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T14:39:01.837Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/2048604/data_item_onb_abo__2BZ182416801.html (PortalController#show)
+SearchInteraction	2018-03-12T23:23:13.182Z	79085847db93d3d0f62a094468b3f7c4	Opus Sermonum De Adventu		7
+SearchInteraction	2018-03-12T23:39:36.432Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		91
+CollectionFilterAdditionInteraction	2018-03-12T23:40:23.240Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		5
+RankedRetrieveRecordInteraction	2018-03-12T23:40:47.090Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		/2022705/lod_oai_bvpb_mcu_es_485707_ent1	4	5
+SearchInteraction	2018-03-13T16:36:20.482Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T16:40:22.901Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T16:40:33.159Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:53:57.525Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:55:02.020Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095469767	6	52
+RankedRetrieveRecordInteraction	2018-03-13T16:56:45.740Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575359	2	52
+SearchInteraction	2018-03-13T17:37:55.225Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:41:37.138Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:14.495Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:46.008Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T17:43:23.919Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095312703	51	52
+SearchInteraction	2018-03-13T17:48:02.745Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-03-13T17:48:13.416Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+SearchInteraction	2018-03-13T17:48:30.139Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:48:54.604Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:49:18.476Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+SearchInteraction	2018-03-13T17:49:46.290Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+RefreshOrPaginationInteraction	2018-03-13T17:50:05.811Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+SearchInteraction	2018-03-13T17:50:13.529Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:22.722Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['CER.ES: Red Digital de Colecciones de museos de España']}	125
+SearchInteraction	2018-03-13T17:50:47.094Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:55.443Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:13.953Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:45.169Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:52:02.991Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-03-13T22:05:21.420Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126656931.html (PortalController#show)
+SearchInteraction	2018-03-13T23:04:07.616Z	79085847db93d3d0f62a094468b3f7c4	what:"Biblia., A.T., Reyes, Obras anteriores a 1800."		2
+SearchInteraction	2018-03-14T21:51:45.385Z	79085847db93d3d0f62a094468b3f7c4	who:(Tostado, Alphonsus)		189
+ArbitraryAccessInteraction	2018-03-14T22:02:26.008Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045185322.html (PortalController#show)
+SearchInteraction	2018-03-14T22:02:33.964Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+CollectionFilterAdditionInteraction	2018-03-14T22:03:25.365Z	79085847db93d3d0f62a094468b3f7c4	tostado		142
+CollectionFilterRemovalInteraction	2018-03-14T22:03:36.376Z	79085847db93d3d0f62a094468b3f7c4	tostado		3
+RankedRetrieveRecordInteraction	2018-03-14T22:03:43.494Z	79085847db93d3d0f62a094468b3f7c4	tostado		/9200332/BibliographicResource_3000095437727	1	3
+ArbitraryAccessInteraction	2018-03-15T21:41:16.215Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045184682.html (PortalController#show)
+SearchInteraction	2018-03-15T21:47:40.106Z	79085847db93d3d0f62a094468b3f7c4	abulensis		306
+CollectionFilterAdditionInteraction	2018-03-15T21:48:08.291Z	79085847db93d3d0f62a094468b3f7c4	abulensis		132
+CollectionFilterRemovalInteraction	2018-03-15T21:48:22.590Z	79085847db93d3d0f62a094468b3f7c4	abulensis		3
+ArbitraryAccessInteraction	2018-03-15T22:07:58.079Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200332/BibliographicResource_3000095403255.html (PortalController#show)
+SearchInteraction	2018-03-15T22:37:06.915Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED		51291701
+SearchInteraction	2018-03-15T22:37:14.424Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-15T22:37:20.152Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:37:52.821Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:03.393Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:26.452Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:51.110Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:39:42.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:18.707Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:42.280Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:54.189Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:18.631Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:36.956Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:11.645Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:29.650Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:04.972Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:31.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RankedRetrieveRecordInteraction	2018-03-15T22:44:01.321Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	/9200332/BibliographicResource_3000123575061	138	294
+SearchInteraction	2018-03-18T21:53:48.196Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium		166
+SearchInteraction	2018-03-18T21:53:57.475Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+CollectionFilterAdditionInteraction	2018-03-18T21:54:20.427Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-18T21:54:28.396Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+RankedRetrieveRecordInteraction	2018-03-18T21:54:42.467Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	/92004/AIPGGL_NKCR__27C000019T072578KIE_cs	9	128
+SearchInteraction	2018-03-18T21:54:46.645Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:01.719Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:08.916Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:40.926Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:01.839Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:23.883Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:38.788Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:50.390Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:02.106Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:13.205Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:23.654Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:37.783Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:55.601Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:12.448Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:46.335Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:17.953Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:31.680Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:44.755Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:12.827Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:29.220Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:51.344Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:13.613Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:57.539Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:02:37.194Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:03:02.624Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RankedRetrieveRecordInteraction	2018-03-18T22:03:16.665Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		/2022704/lod_oai_bibliotecadigital_jcyl_es_21354_ent1	289	312
+SearchInteraction	2018-03-18T22:08:52.182Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+ArbitraryAccessInteraction	2018-03-18T22:13:15.694Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200376/BibliographicResource_3000100209801.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-18T22:14:20.106Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126573525.html (PortalController#show)
+SearchInteraction	2018-03-23T07:51:58.660Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-02-13T23:11:48.440Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:08.380Z	79085847db93d3d0f62a094468b3f7c4	who:(Barbo, Paolo 14..-1494. Préfacier)		0
+ArbitraryAccessInteraction	2018-02-16T20:30:19.495Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:26.867Z	79085847db93d3d0f62a094468b3f7c4	proxy_dc_publisher:"per Benignum et Johantonium fratres de Bonate Mediolani"		1
+ArbitraryAccessInteraction	2018-02-18T22:23:27.563Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158991.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T22:23:37.304Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158995.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T14:39:01.837Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/2048604/data_item_onb_abo__2BZ182416801.html (PortalController#show)
+SearchInteraction	2018-03-12T23:23:13.182Z	79085847db93d3d0f62a094468b3f7c4	Opus Sermonum De Adventu		7
+SearchInteraction	2018-03-12T23:39:36.432Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		91
+CollectionFilterAdditionInteraction	2018-03-12T23:40:23.240Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		5
+RankedRetrieveRecordInteraction	2018-03-12T23:40:47.090Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		/2022705/lod_oai_bvpb_mcu_es_485707_ent1	4	5
+SearchInteraction	2018-03-13T16:36:20.482Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T16:40:22.901Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T16:40:33.159Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:53:57.525Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:55:02.020Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095469767	6	52
+RankedRetrieveRecordInteraction	2018-03-13T16:56:45.740Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575359	2	52
+SearchInteraction	2018-03-13T17:37:55.225Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:41:37.138Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:14.495Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:46.008Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T17:43:23.919Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095312703	51	52
+SearchInteraction	2018-03-13T17:48:02.745Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-03-13T17:48:13.416Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+SearchInteraction	2018-03-13T17:48:30.139Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:48:54.604Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:49:18.476Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+SearchInteraction	2018-03-13T17:49:46.290Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+RefreshOrPaginationInteraction	2018-03-13T17:50:05.811Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+SearchInteraction	2018-03-13T17:50:13.529Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:22.722Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['CER.ES: Red Digital de Colecciones de museos de España']}	125
+SearchInteraction	2018-03-13T17:50:47.094Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:55.443Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:13.953Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:45.169Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:52:02.991Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-03-13T22:05:21.420Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126656931.html (PortalController#show)
+SearchInteraction	2018-03-13T23:04:07.616Z	79085847db93d3d0f62a094468b3f7c4	what:"Biblia., A.T., Reyes, Obras anteriores a 1800."		2
+SearchInteraction	2018-03-14T21:51:45.385Z	79085847db93d3d0f62a094468b3f7c4	who:(Tostado, Alphonsus)		189
+ArbitraryAccessInteraction	2018-03-14T22:02:26.008Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045185322.html (PortalController#show)
+SearchInteraction	2018-03-14T22:02:33.964Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+CollectionFilterAdditionInteraction	2018-03-14T22:03:25.365Z	79085847db93d3d0f62a094468b3f7c4	tostado		142
+CollectionFilterRemovalInteraction	2018-03-14T22:03:36.376Z	79085847db93d3d0f62a094468b3f7c4	tostado		3
+RankedRetrieveRecordInteraction	2018-03-14T22:03:43.494Z	79085847db93d3d0f62a094468b3f7c4	tostado		/9200332/BibliographicResource_3000095437727	1	3
+ArbitraryAccessInteraction	2018-03-15T21:41:16.215Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045184682.html (PortalController#show)
+SearchInteraction	2018-03-15T21:47:40.106Z	79085847db93d3d0f62a094468b3f7c4	abulensis		306
+CollectionFilterAdditionInteraction	2018-03-15T21:48:08.291Z	79085847db93d3d0f62a094468b3f7c4	abulensis		132
+CollectionFilterRemovalInteraction	2018-03-15T21:48:22.590Z	79085847db93d3d0f62a094468b3f7c4	abulensis		3
+ArbitraryAccessInteraction	2018-03-15T22:07:58.079Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200332/BibliographicResource_3000095403255.html (PortalController#show)
+SearchInteraction	2018-03-15T22:37:06.915Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED		51291701
+SearchInteraction	2018-03-15T22:37:14.424Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-15T22:37:20.152Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:37:52.821Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:03.393Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:26.452Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:51.110Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:39:42.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:18.707Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:42.280Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:54.189Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:18.631Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:36.956Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:11.645Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:29.650Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:04.972Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:31.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RankedRetrieveRecordInteraction	2018-03-15T22:44:01.321Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	/9200332/BibliographicResource_3000123575061	138	294
+SearchInteraction	2018-03-18T21:53:48.196Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium		166
+SearchInteraction	2018-03-18T21:53:57.475Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+CollectionFilterAdditionInteraction	2018-03-18T21:54:20.427Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-18T21:54:28.396Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+RankedRetrieveRecordInteraction	2018-03-18T21:54:42.467Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	/92004/AIPGGL_NKCR__27C000019T072578KIE_cs	9	128
+SearchInteraction	2018-03-18T21:54:46.645Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:01.719Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:08.916Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:40.926Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:01.839Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:23.883Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:38.788Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:50.390Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:02.106Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:13.205Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:23.654Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:37.783Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:55.601Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:12.448Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:46.335Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:17.953Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:31.680Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:44.755Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:12.827Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:29.220Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:51.344Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:13.613Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:57.539Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:02:37.194Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:03:02.624Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RankedRetrieveRecordInteraction	2018-03-18T22:03:16.665Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		/2022704/lod_oai_bibliotecadigital_jcyl_es_21354_ent1	289	312
+SearchInteraction	2018-03-18T22:08:52.182Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+ArbitraryAccessInteraction	2018-03-18T22:13:15.694Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200376/BibliographicResource_3000100209801.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-18T22:14:20.106Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126573525.html (PortalController#show)
+SearchInteraction	2018-03-23T07:51:58.660Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-02-13T23:11:48.440Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:08.380Z	79085847db93d3d0f62a094468b3f7c4	who:(Barbo, Paolo 14..-1494. Préfacier)		0
+ArbitraryAccessInteraction	2018-02-16T20:30:19.495Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:26.867Z	79085847db93d3d0f62a094468b3f7c4	proxy_dc_publisher:"per Benignum et Johantonium fratres de Bonate Mediolani"		1
+ArbitraryAccessInteraction	2018-02-18T22:23:27.563Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158991.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T22:23:37.304Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158995.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T14:39:01.837Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/2048604/data_item_onb_abo__2BZ182416801.html (PortalController#show)
+SearchInteraction	2018-03-12T23:23:13.182Z	79085847db93d3d0f62a094468b3f7c4	Opus Sermonum De Adventu		7
+SearchInteraction	2018-03-12T23:39:36.432Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		91
+CollectionFilterAdditionInteraction	2018-03-12T23:40:23.240Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		5
+RankedRetrieveRecordInteraction	2018-03-12T23:40:47.090Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		/2022705/lod_oai_bvpb_mcu_es_485707_ent1	4	5
+SearchInteraction	2018-03-13T16:36:20.482Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T16:40:22.901Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T16:40:33.159Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:53:57.525Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:55:02.020Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095469767	6	52
+RankedRetrieveRecordInteraction	2018-03-13T16:56:45.740Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575359	2	52
+SearchInteraction	2018-03-13T17:37:55.225Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:41:37.138Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:14.495Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:46.008Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T17:43:23.919Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095312703	51	52
+SearchInteraction	2018-03-13T17:48:02.745Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-03-13T17:48:13.416Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+SearchInteraction	2018-03-13T17:48:30.139Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:48:54.604Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:49:18.476Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+SearchInteraction	2018-03-13T17:49:46.290Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+RefreshOrPaginationInteraction	2018-03-13T17:50:05.811Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+SearchInteraction	2018-03-13T17:50:13.529Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:22.722Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['CER.ES: Red Digital de Colecciones de museos de España']}	125
+SearchInteraction	2018-03-13T17:50:47.094Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:55.443Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:13.953Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:45.169Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:52:02.991Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-03-13T22:05:21.420Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126656931.html (PortalController#show)
+SearchInteraction	2018-03-13T23:04:07.616Z	79085847db93d3d0f62a094468b3f7c4	what:"Biblia., A.T., Reyes, Obras anteriores a 1800."		2
+SearchInteraction	2018-03-14T21:51:45.385Z	79085847db93d3d0f62a094468b3f7c4	who:(Tostado, Alphonsus)		189
+ArbitraryAccessInteraction	2018-03-14T22:02:26.008Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045185322.html (PortalController#show)
+SearchInteraction	2018-03-14T22:02:33.964Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+CollectionFilterAdditionInteraction	2018-03-14T22:03:25.365Z	79085847db93d3d0f62a094468b3f7c4	tostado		142
+CollectionFilterRemovalInteraction	2018-03-14T22:03:36.376Z	79085847db93d3d0f62a094468b3f7c4	tostado		3
+RankedRetrieveRecordInteraction	2018-03-14T22:03:43.494Z	79085847db93d3d0f62a094468b3f7c4	tostado		/9200332/BibliographicResource_3000095437727	1	3
+ArbitraryAccessInteraction	2018-03-15T21:41:16.215Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045184682.html (PortalController#show)
+SearchInteraction	2018-03-15T21:47:40.106Z	79085847db93d3d0f62a094468b3f7c4	abulensis		306
+CollectionFilterAdditionInteraction	2018-03-15T21:48:08.291Z	79085847db93d3d0f62a094468b3f7c4	abulensis		132
+CollectionFilterRemovalInteraction	2018-03-15T21:48:22.590Z	79085847db93d3d0f62a094468b3f7c4	abulensis		3
+ArbitraryAccessInteraction	2018-03-15T22:07:58.079Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200332/BibliographicResource_3000095403255.html (PortalController#show)
+SearchInteraction	2018-03-15T22:37:06.915Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED		51291701
+SearchInteraction	2018-03-15T22:37:14.424Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-15T22:37:20.152Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:37:52.821Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:03.393Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:26.452Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:51.110Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:39:42.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:18.707Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:42.280Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:54.189Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:18.631Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:36.956Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:11.645Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:29.650Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:04.972Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:31.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RankedRetrieveRecordInteraction	2018-03-15T22:44:01.321Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	/9200332/BibliographicResource_3000123575061	138	294
+SearchInteraction	2018-03-18T21:53:48.196Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium		166
+SearchInteraction	2018-03-18T21:53:57.475Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+CollectionFilterAdditionInteraction	2018-03-18T21:54:20.427Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-18T21:54:28.396Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+RankedRetrieveRecordInteraction	2018-03-18T21:54:42.467Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	/92004/AIPGGL_NKCR__27C000019T072578KIE_cs	9	128
+SearchInteraction	2018-03-18T21:54:46.645Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:01.719Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:08.916Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:40.926Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:01.839Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:23.883Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:38.788Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:50.390Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:02.106Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:13.205Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:23.654Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:37.783Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:55.601Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:12.448Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:46.335Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:17.953Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:31.680Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:44.755Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:12.827Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:29.220Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:51.344Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:13.613Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:57.539Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:02:37.194Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:03:02.624Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RankedRetrieveRecordInteraction	2018-03-18T22:03:16.665Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		/2022704/lod_oai_bibliotecadigital_jcyl_es_21354_ent1	289	312
+SearchInteraction	2018-03-18T22:08:52.182Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+ArbitraryAccessInteraction	2018-03-18T22:13:15.694Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200376/BibliographicResource_3000100209801.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-18T22:14:20.106Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126573525.html (PortalController#show)
+SearchInteraction	2018-03-23T07:51:58.660Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-02-13T23:11:48.440Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:08.380Z	79085847db93d3d0f62a094468b3f7c4	who:(Barbo, Paolo 14..-1494. Préfacier)		0
+ArbitraryAccessInteraction	2018-02-16T20:30:19.495Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/9200365/BibliographicResource_1000054865180.html (PortalController#show)
+SearchInteraction	2018-02-16T20:30:26.867Z	79085847db93d3d0f62a094468b3f7c4	proxy_dc_publisher:"per Benignum et Johantonium fratres de Bonate Mediolani"		1
+ArbitraryAccessInteraction	2018-02-18T22:23:27.563Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158991.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-18T22:23:37.304Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/92093/BibliographicResource_1000086158995.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-10T14:39:01.837Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/es/record/2048604/data_item_onb_abo__2BZ182416801.html (PortalController#show)
+SearchInteraction	2018-03-12T23:23:13.182Z	79085847db93d3d0f62a094468b3f7c4	Opus Sermonum De Adventu		7
+SearchInteraction	2018-03-12T23:39:36.432Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		91
+CollectionFilterAdditionInteraction	2018-03-12T23:40:23.240Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		5
+RankedRetrieveRecordInteraction	2018-03-12T23:40:47.090Z	79085847db93d3d0f62a094468b3f7c4	opus sermonum		/2022705/lod_oai_bvpb_mcu_es_485707_ent1	4	5
+SearchInteraction	2018-03-13T16:36:20.482Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T16:40:22.901Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T16:40:33.159Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:53:57.525Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575688	1	52
+RankedRetrieveRecordInteraction	2018-03-13T16:55:02.020Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095469767	6	52
+RankedRetrieveRecordInteraction	2018-03-13T16:56:45.740Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000123575359	2	52
+SearchInteraction	2018-03-13T17:37:55.225Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:41:37.138Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:14.495Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RefreshOrPaginationInteraction	2018-03-13T17:42:46.008Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+RankedRetrieveRecordInteraction	2018-03-13T17:43:23.919Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	/9200332/BibliographicResource_3000095312703	51	52
+SearchInteraction	2018-03-13T17:48:02.745Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	1415321
+SearchInteraction	2018-03-13T17:48:13.416Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library']}	52
+SearchInteraction	2018-03-13T17:48:30.139Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:48:54.604Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+RefreshOrPaginationInteraction	2018-03-13T17:49:18.476Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Österreichische Nationalbibliothek - Austrian National Library', 'Biblioteca Digital de Castilla y León']}	67
+SearchInteraction	2018-03-13T17:49:46.290Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+RefreshOrPaginationInteraction	2018-03-13T17:50:05.811Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Biblioteca Digital de Castilla y León']}	15
+SearchInteraction	2018-03-13T17:50:13.529Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:22.722Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['CER.ES: Red Digital de Colecciones de museos de España']}	125
+SearchInteraction	2018-03-13T17:50:47.094Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-13T17:50:55.443Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:13.953Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:51:45.169Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+RefreshOrPaginationInteraction	2018-03-13T17:52:02.991Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132
+ArbitraryAccessInteraction	2018-03-13T22:05:21.420Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126656931.html (PortalController#show)
+SearchInteraction	2018-03-13T23:04:07.616Z	79085847db93d3d0f62a094468b3f7c4	what:"Biblia., A.T., Reyes, Obras anteriores a 1800."		2
+SearchInteraction	2018-03-14T21:51:45.385Z	79085847db93d3d0f62a094468b3f7c4	who:(Tostado, Alphonsus)		189
+ArbitraryAccessInteraction	2018-03-14T22:02:26.008Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045185322.html (PortalController#show)
+SearchInteraction	2018-03-14T22:02:33.964Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+CollectionFilterAdditionInteraction	2018-03-14T22:03:25.365Z	79085847db93d3d0f62a094468b3f7c4	tostado		142
+CollectionFilterRemovalInteraction	2018-03-14T22:03:36.376Z	79085847db93d3d0f62a094468b3f7c4	tostado		3
+RankedRetrieveRecordInteraction	2018-03-14T22:03:43.494Z	79085847db93d3d0f62a094468b3f7c4	tostado		/9200332/BibliographicResource_3000095437727	1	3
+ArbitraryAccessInteraction	2018-03-15T21:41:16.215Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200386/BibliographicResource_3000045184682.html (PortalController#show)
+SearchInteraction	2018-03-15T21:47:40.106Z	79085847db93d3d0f62a094468b3f7c4	abulensis		306
+CollectionFilterAdditionInteraction	2018-03-15T21:48:08.291Z	79085847db93d3d0f62a094468b3f7c4	abulensis		132
+CollectionFilterRemovalInteraction	2018-03-15T21:48:22.590Z	79085847db93d3d0f62a094468b3f7c4	abulensis		3
+ArbitraryAccessInteraction	2018-03-15T22:07:58.079Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200332/BibliographicResource_3000095403255.html (PortalController#show)
+SearchInteraction	2018-03-15T22:37:06.915Z	79085847db93d3d0f62a094468b3f7c4	NO VALUE PROVIDED		51291701
+SearchInteraction	2018-03-15T22:37:14.424Z	79085847db93d3d0f62a094468b3f7c4	tostado		472
+SearchInteraction	2018-03-15T22:37:20.152Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:37:52.821Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:03.393Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:26.452Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:38:51.110Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:39:42.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:18.707Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:42.280Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:40:54.189Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:18.631Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:41:36.956Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:11.645Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:42:29.650Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:04.972Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RefreshOrPaginationInteraction	2018-03-15T22:43:31.610Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	294
+RankedRetrieveRecordInteraction	2018-03-15T22:44:01.321Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'TYPE': ['TEXT']}	/9200332/BibliographicResource_3000123575061	138	294
+SearchInteraction	2018-03-18T21:53:48.196Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium		166
+SearchInteraction	2018-03-18T21:53:57.475Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+CollectionFilterAdditionInteraction	2018-03-18T21:54:20.427Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	0
+CollectionFilterRemovalInteraction	2018-03-18T21:54:28.396Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	128
+RankedRetrieveRecordInteraction	2018-03-18T21:54:42.467Z	79085847db93d3d0f62a094468b3f7c4	deuteronomium	{'TYPE': ['TEXT']}	/92004/AIPGGL_NKCR__27C000019T072578KIE_cs	9	128
+SearchInteraction	2018-03-18T21:54:46.645Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:01.719Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:08.916Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:55:40.926Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:01.839Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:23.883Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:38.788Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:56:50.390Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:02.106Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:13.205Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:23.654Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:37.783Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:57:55.601Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:12.448Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:58:46.335Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:17.953Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:31.680Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T21:59:44.755Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:12.827Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:29.220Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:00:51.344Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:13.613Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:01:57.539Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:02:37.194Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RefreshOrPaginationInteraction	2018-03-18T22:03:02.624Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+RankedRetrieveRecordInteraction	2018-03-18T22:03:16.665Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		/2022704/lod_oai_bibliotecadigital_jcyl_es_21354_ent1	289	312
+SearchInteraction	2018-03-18T22:08:52.182Z	79085847db93d3d0f62a094468b3f7c4	who:(Alfonso de Madrigal)		312
+ArbitraryAccessInteraction	2018-03-18T22:13:15.694Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200376/BibliographicResource_3000100209801.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-18T22:14:20.106Z	79085847db93d3d0f62a094468b3f7c4	[200] GET /portal/en/record/9200110/BibliographicResource_1000126573525.html (PortalController#show)
+SearchInteraction	2018-03-23T07:51:58.660Z	79085847db93d3d0f62a094468b3f7c4	tostado	{'DATA_PROVIDER': ['Bavarian State Library']}	132

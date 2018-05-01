@@ -1,0 +1,290 @@
+SearchInteraction	2018-02-09T21:07:47.770Z	67b41b91f788cec2fa82a0854aa3da19	timestamp_created:[2017-11-01T00:00:00.000Z TO 2017-11-30T23:59:59.000Z]	{'DATA_PROVIDER': ['Universitätsbibliothek Heidelberg']}	920
+SearchInteraction	2018-02-09T21:09:01.638Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-09T21:09:13.737Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	/2032004/11003	8	21
+SearchInteraction	2018-02-09T21:10:13.120Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-02-09T21:10:59.463Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau		4305
+SearchInteraction	2018-02-09T21:11:14.914Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau 	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst', 'Muzej za umjetnost i obrt, Zagreb', 'Röhsska museet'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-09T21:11:22.284Z	67b41b91f788cec2fa82a0854aa3da19	"Art Nouveau"		1078
+SearchInteraction	2018-02-09T21:11:39.443Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:12:07.907Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000275_C	8	641
+SearchInteraction	2018-02-09T21:12:25.748Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:34.993Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7754	2	392
+SearchInteraction	2018-02-09T21:12:48.977Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:55.264Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7753	3	392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:09.115Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018955	8	392
+SearchInteraction	2018-02-09T21:13:37.762Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:49.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055750102	21	392
+SearchInteraction	2018-02-09T21:14:31.282Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:14:40.406Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004392_C	2	641
+SearchInteraction	2018-02-09T21:14:46.346Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:14:58.961Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402805	2	103
+SearchInteraction	2018-02-09T21:15:44.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:15:49.147Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402736	3	103
+SearchInteraction	2018-02-09T21:22:50.236Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RefreshOrPaginationInteraction	2018-02-09T21:23:06.735Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:23:38.782Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10320268	1	641
+SearchInteraction	2018-02-09T21:23:48.070Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:04.113Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:16.014Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RankedRetrieveRecordInteraction	2018-02-09T21:24:25.734Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000603_C	3	641
+SearchInteraction	2018-02-09T21:24:32.903Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:30:08.960Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000072_C	12	38
+SearchInteraction	2018-02-09T21:31:01.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:31:09.657Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:31:22.644Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000011_C	14	38
+SearchInteraction	2018-02-09T21:31:34.137Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:33:04.357Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+SearchInteraction	2018-02-09T21:33:39.374Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:33:53.198Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000006_C	20	641
+ArbitraryAccessInteraction	2018-02-09T21:34:02.630Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:04.491Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:13.291Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858283.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:59.107Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:35:00.449Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:05.119Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:12.582Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000596_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:48.326Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:52.693Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10364457.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:39:15.097Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+RankedRetrieveRecordInteraction	2018-02-09T21:39:34.554Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004369_C	22	641
+SearchInteraction	2018-02-09T21:39:40.692Z	67b41b91f788cec2fa82a0854aa3da19	who:(Laskoff, Franz)		2
+RankedRetrieveRecordInteraction	2018-02-09T21:40:00.644Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000078_C	15	641
+SearchInteraction	2018-02-09T21:40:06.412Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:40:15.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018916	9	392
+RankedRetrieveRecordInteraction	2018-02-09T21:41:29.849Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056007404	12	392
+SearchInteraction	2018-02-09T21:42:55.520Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:43:09.280Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950190	13	392
+RankedRetrieveRecordInteraction	2018-02-09T21:45:37.376Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950174	14	392
+SearchInteraction	2018-02-09T22:20:04.674Z	67b41b91f788cec2fa82a0854aa3da19	Arts and Crafts	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst']}	266
+SearchInteraction	2018-02-09T21:07:47.770Z	67b41b91f788cec2fa82a0854aa3da19	timestamp_created:[2017-11-01T00:00:00.000Z TO 2017-11-30T23:59:59.000Z]	{'DATA_PROVIDER': ['Universitätsbibliothek Heidelberg']}	920
+SearchInteraction	2018-02-09T21:09:01.638Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-09T21:09:13.737Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	/2032004/11003	8	21
+SearchInteraction	2018-02-09T21:10:13.120Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-02-09T21:10:59.463Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau		4305
+SearchInteraction	2018-02-09T21:11:14.914Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau 	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst', 'Muzej za umjetnost i obrt, Zagreb', 'Röhsska museet'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-09T21:11:22.284Z	67b41b91f788cec2fa82a0854aa3da19	"Art Nouveau"		1078
+SearchInteraction	2018-02-09T21:11:39.443Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:12:07.907Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000275_C	8	641
+SearchInteraction	2018-02-09T21:12:25.748Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:34.993Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7754	2	392
+SearchInteraction	2018-02-09T21:12:48.977Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:55.264Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7753	3	392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:09.115Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018955	8	392
+SearchInteraction	2018-02-09T21:13:37.762Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:49.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055750102	21	392
+SearchInteraction	2018-02-09T21:14:31.282Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:14:40.406Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004392_C	2	641
+SearchInteraction	2018-02-09T21:14:46.346Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:14:58.961Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402805	2	103
+SearchInteraction	2018-02-09T21:15:44.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:15:49.147Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402736	3	103
+SearchInteraction	2018-02-09T21:22:50.236Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RefreshOrPaginationInteraction	2018-02-09T21:23:06.735Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:23:38.782Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10320268	1	641
+SearchInteraction	2018-02-09T21:23:48.070Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:04.113Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:16.014Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RankedRetrieveRecordInteraction	2018-02-09T21:24:25.734Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000603_C	3	641
+SearchInteraction	2018-02-09T21:24:32.903Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:30:08.960Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000072_C	12	38
+SearchInteraction	2018-02-09T21:31:01.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:31:09.657Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:31:22.644Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000011_C	14	38
+SearchInteraction	2018-02-09T21:31:34.137Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:33:04.357Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+SearchInteraction	2018-02-09T21:33:39.374Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:33:53.198Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000006_C	20	641
+ArbitraryAccessInteraction	2018-02-09T21:34:02.630Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:04.491Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:13.291Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858283.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:59.107Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:35:00.449Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:05.119Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:12.582Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000596_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:48.326Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:52.693Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10364457.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:39:15.097Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+RankedRetrieveRecordInteraction	2018-02-09T21:39:34.554Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004369_C	22	641
+SearchInteraction	2018-02-09T21:39:40.692Z	67b41b91f788cec2fa82a0854aa3da19	who:(Laskoff, Franz)		2
+RankedRetrieveRecordInteraction	2018-02-09T21:40:00.644Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000078_C	15	641
+SearchInteraction	2018-02-09T21:40:06.412Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:40:15.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018916	9	392
+RankedRetrieveRecordInteraction	2018-02-09T21:41:29.849Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056007404	12	392
+SearchInteraction	2018-02-09T21:42:55.520Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:43:09.280Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950190	13	392
+RankedRetrieveRecordInteraction	2018-02-09T21:45:37.376Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950174	14	392
+SearchInteraction	2018-02-09T22:20:04.674Z	67b41b91f788cec2fa82a0854aa3da19	Arts and Crafts	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst']}	266
+SearchInteraction	2018-02-09T21:07:47.770Z	67b41b91f788cec2fa82a0854aa3da19	timestamp_created:[2017-11-01T00:00:00.000Z TO 2017-11-30T23:59:59.000Z]	{'DATA_PROVIDER': ['Universitätsbibliothek Heidelberg']}	920
+SearchInteraction	2018-02-09T21:09:01.638Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-09T21:09:13.737Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	/2032004/11003	8	21
+SearchInteraction	2018-02-09T21:10:13.120Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-02-09T21:10:59.463Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau		4305
+SearchInteraction	2018-02-09T21:11:14.914Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau 	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst', 'Muzej za umjetnost i obrt, Zagreb', 'Röhsska museet'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-09T21:11:22.284Z	67b41b91f788cec2fa82a0854aa3da19	"Art Nouveau"		1078
+SearchInteraction	2018-02-09T21:11:39.443Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:12:07.907Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000275_C	8	641
+SearchInteraction	2018-02-09T21:12:25.748Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:34.993Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7754	2	392
+SearchInteraction	2018-02-09T21:12:48.977Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:55.264Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7753	3	392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:09.115Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018955	8	392
+SearchInteraction	2018-02-09T21:13:37.762Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:49.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055750102	21	392
+SearchInteraction	2018-02-09T21:14:31.282Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:14:40.406Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004392_C	2	641
+SearchInteraction	2018-02-09T21:14:46.346Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:14:58.961Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402805	2	103
+SearchInteraction	2018-02-09T21:15:44.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:15:49.147Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402736	3	103
+SearchInteraction	2018-02-09T21:22:50.236Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RefreshOrPaginationInteraction	2018-02-09T21:23:06.735Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:23:38.782Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10320268	1	641
+SearchInteraction	2018-02-09T21:23:48.070Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:04.113Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:16.014Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RankedRetrieveRecordInteraction	2018-02-09T21:24:25.734Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000603_C	3	641
+SearchInteraction	2018-02-09T21:24:32.903Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:30:08.960Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000072_C	12	38
+SearchInteraction	2018-02-09T21:31:01.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:31:09.657Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:31:22.644Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000011_C	14	38
+SearchInteraction	2018-02-09T21:31:34.137Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:33:04.357Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+SearchInteraction	2018-02-09T21:33:39.374Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:33:53.198Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000006_C	20	641
+ArbitraryAccessInteraction	2018-02-09T21:34:02.630Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:04.491Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:13.291Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858283.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:59.107Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:35:00.449Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:05.119Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:12.582Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000596_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:48.326Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:52.693Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10364457.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:39:15.097Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+RankedRetrieveRecordInteraction	2018-02-09T21:39:34.554Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004369_C	22	641
+SearchInteraction	2018-02-09T21:39:40.692Z	67b41b91f788cec2fa82a0854aa3da19	who:(Laskoff, Franz)		2
+RankedRetrieveRecordInteraction	2018-02-09T21:40:00.644Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000078_C	15	641
+SearchInteraction	2018-02-09T21:40:06.412Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:40:15.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018916	9	392
+RankedRetrieveRecordInteraction	2018-02-09T21:41:29.849Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056007404	12	392
+SearchInteraction	2018-02-09T21:42:55.520Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:43:09.280Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950190	13	392
+RankedRetrieveRecordInteraction	2018-02-09T21:45:37.376Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950174	14	392
+SearchInteraction	2018-02-09T22:20:04.674Z	67b41b91f788cec2fa82a0854aa3da19	Arts and Crafts	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst']}	266
+SearchInteraction	2018-02-09T21:07:47.770Z	67b41b91f788cec2fa82a0854aa3da19	timestamp_created:[2017-11-01T00:00:00.000Z TO 2017-11-30T23:59:59.000Z]	{'DATA_PROVIDER': ['Universitätsbibliothek Heidelberg']}	920
+SearchInteraction	2018-02-09T21:09:01.638Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-09T21:09:13.737Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	/2032004/11003	8	21
+SearchInteraction	2018-02-09T21:10:13.120Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-02-09T21:10:59.463Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau		4305
+SearchInteraction	2018-02-09T21:11:14.914Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau 	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst', 'Muzej za umjetnost i obrt, Zagreb', 'Röhsska museet'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-09T21:11:22.284Z	67b41b91f788cec2fa82a0854aa3da19	"Art Nouveau"		1078
+SearchInteraction	2018-02-09T21:11:39.443Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:12:07.907Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000275_C	8	641
+SearchInteraction	2018-02-09T21:12:25.748Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:34.993Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7754	2	392
+SearchInteraction	2018-02-09T21:12:48.977Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:55.264Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7753	3	392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:09.115Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018955	8	392
+SearchInteraction	2018-02-09T21:13:37.762Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:49.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055750102	21	392
+SearchInteraction	2018-02-09T21:14:31.282Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:14:40.406Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004392_C	2	641
+SearchInteraction	2018-02-09T21:14:46.346Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:14:58.961Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402805	2	103
+SearchInteraction	2018-02-09T21:15:44.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:15:49.147Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402736	3	103
+SearchInteraction	2018-02-09T21:22:50.236Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RefreshOrPaginationInteraction	2018-02-09T21:23:06.735Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:23:38.782Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10320268	1	641
+SearchInteraction	2018-02-09T21:23:48.070Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:04.113Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:16.014Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RankedRetrieveRecordInteraction	2018-02-09T21:24:25.734Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000603_C	3	641
+SearchInteraction	2018-02-09T21:24:32.903Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:30:08.960Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000072_C	12	38
+SearchInteraction	2018-02-09T21:31:01.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:31:09.657Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:31:22.644Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000011_C	14	38
+SearchInteraction	2018-02-09T21:31:34.137Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:33:04.357Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+SearchInteraction	2018-02-09T21:33:39.374Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:33:53.198Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000006_C	20	641
+ArbitraryAccessInteraction	2018-02-09T21:34:02.630Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:04.491Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:13.291Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858283.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:59.107Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:35:00.449Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:05.119Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:12.582Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000596_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:48.326Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:52.693Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10364457.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:39:15.097Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+RankedRetrieveRecordInteraction	2018-02-09T21:39:34.554Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004369_C	22	641
+SearchInteraction	2018-02-09T21:39:40.692Z	67b41b91f788cec2fa82a0854aa3da19	who:(Laskoff, Franz)		2
+RankedRetrieveRecordInteraction	2018-02-09T21:40:00.644Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000078_C	15	641
+SearchInteraction	2018-02-09T21:40:06.412Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:40:15.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018916	9	392
+RankedRetrieveRecordInteraction	2018-02-09T21:41:29.849Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056007404	12	392
+SearchInteraction	2018-02-09T21:42:55.520Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:43:09.280Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950190	13	392
+RankedRetrieveRecordInteraction	2018-02-09T21:45:37.376Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950174	14	392
+SearchInteraction	2018-02-09T22:20:04.674Z	67b41b91f788cec2fa82a0854aa3da19	Arts and Crafts	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst']}	266
+SearchInteraction	2018-02-09T21:07:47.770Z	67b41b91f788cec2fa82a0854aa3da19	timestamp_created:[2017-11-01T00:00:00.000Z TO 2017-11-30T23:59:59.000Z]	{'DATA_PROVIDER': ['Universitätsbibliothek Heidelberg']}	920
+SearchInteraction	2018-02-09T21:09:01.638Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+RankedRetrieveRecordInteraction	2018-02-09T21:09:13.737Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	/2032004/11003	8	21
+SearchInteraction	2018-02-09T21:10:13.120Z	67b41b91f788cec2fa82a0854aa3da19	who:(Leonardo da Vinci)	{'DATA_PROVIDER': ['Teylers Museum', 'KIK-IRPA, Brussels (Belgium)', 'Szépművészeti Múzeum', 'MuseiD-Italia'], 'TYPE': ['IMAGE']}	21
+SearchInteraction	2018-02-09T21:10:59.463Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau		4305
+SearchInteraction	2018-02-09T21:11:14.914Z	67b41b91f788cec2fa82a0854aa3da19	Art Nouveau 	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst', 'Muzej za umjetnost i obrt, Zagreb', 'Röhsska museet'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-09T21:11:22.284Z	67b41b91f788cec2fa82a0854aa3da19	"Art Nouveau"		1078
+SearchInteraction	2018-02-09T21:11:39.443Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:12:07.907Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000275_C	8	641
+SearchInteraction	2018-02-09T21:12:25.748Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:34.993Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7754	2	392
+SearchInteraction	2018-02-09T21:12:48.977Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:12:55.264Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200495/yoolib_inha_7753	3	392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:09.115Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018955	8	392
+SearchInteraction	2018-02-09T21:13:37.762Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:13:49.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055750102	21	392
+SearchInteraction	2018-02-09T21:14:31.282Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:14:40.406Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004392_C	2	641
+SearchInteraction	2018-02-09T21:14:46.346Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:14:58.961Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402805	2	103
+SearchInteraction	2018-02-09T21:15:44.335Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:15:49.147Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10402736	3	103
+SearchInteraction	2018-02-09T21:22:50.236Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RefreshOrPaginationInteraction	2018-02-09T21:23:06.735Z	67b41b91f788cec2fa82a0854aa3da19	who:(Donnay, Auguste)		103
+RankedRetrieveRecordInteraction	2018-02-09T21:23:38.782Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10320268	1	641
+SearchInteraction	2018-02-09T21:23:48.070Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:04.113Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RefreshOrPaginationInteraction	2018-02-09T21:24:16.014Z	67b41b91f788cec2fa82a0854aa3da19	who:(De Rudder, Isidore)		61
+RankedRetrieveRecordInteraction	2018-02-09T21:24:25.734Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000603_C	3	641
+SearchInteraction	2018-02-09T21:24:32.903Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:30:08.960Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000072_C	12	38
+SearchInteraction	2018-02-09T21:31:01.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:31:09.657Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RankedRetrieveRecordInteraction	2018-02-09T21:31:22.644Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000011_C	14	38
+SearchInteraction	2018-02-09T21:31:34.137Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+RefreshOrPaginationInteraction	2018-02-09T21:33:04.357Z	67b41b91f788cec2fa82a0854aa3da19	who:(Meunier, Henri Georges Jean Isidore)		38
+SearchInteraction	2018-02-09T21:33:39.374Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		641
+RankedRetrieveRecordInteraction	2018-02-09T21:33:53.198Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000006_C	20	641
+ArbitraryAccessInteraction	2018-02-09T21:34:02.630Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:04.491Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:13.291Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858283.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:34:59.107Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:35:00.449Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/9200306/BibliographicResource_3000092858227.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:05.119Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:36:12.582Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000596_C.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:48.326Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-09T21:38:52.693Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/record/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10364457.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-09T21:39:15.097Z	67b41b91f788cec2fa82a0854aa3da19	[200] GET /portal/pl/explore/people/9959-henri-privat-livemont.html (EntitiesController#show)
+RankedRetrieveRecordInteraction	2018-02-09T21:39:34.554Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_004369_C	22	641
+SearchInteraction	2018-02-09T21:39:40.692Z	67b41b91f788cec2fa82a0854aa3da19	who:(Laskoff, Franz)		2
+RankedRetrieveRecordInteraction	2018-02-09T21:40:00.644Z	67b41b91f788cec2fa82a0854aa3da19	posters AND "art nouveau"		/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_000078_C	15	641
+SearchInteraction	2018-02-09T21:40:06.412Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:40:15.502Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056018916	9	392
+RankedRetrieveRecordInteraction	2018-02-09T21:41:29.849Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000056007404	12	392
+SearchInteraction	2018-02-09T21:42:55.520Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		392
+RankedRetrieveRecordInteraction	2018-02-09T21:43:09.280Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950190	13	392
+RankedRetrieveRecordInteraction	2018-02-09T21:45:37.376Z	67b41b91f788cec2fa82a0854aa3da19	who:(Mucha, Alfons)		/9200365/BibliographicResource_1000055950174	14	392
+SearchInteraction	2018-02-09T22:20:04.674Z	67b41b91f788cec2fa82a0854aa3da19	Arts and Crafts	{'DATA_PROVIDER': ['MAK - Österreichisches Museum für angewandte Kunst / Gegenwartskunst']}	266

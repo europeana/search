@@ -1,0 +1,140 @@
+SearchInteraction	2018-02-21T14:16:32.171Z	94d7d9832cdfa5e514c839453e02549c	Capri		2157
+SearchInteraction	2018-02-21T14:16:47.540Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO']}	208
+SearchInteraction	2018-02-21T14:16:56.549Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:09.924Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:14.656Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:19.063Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+SearchInteraction	2018-02-21T15:05:23.252Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: leather']}	7355
+SearchInteraction	2018-02-21T15:05:38.993Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: cotton']}	21148
+SearchInteraction	2018-02-21T15:06:01.727Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'PROVIDER': ['ICAB']}	2276
+SearchInteraction	2018-02-21T17:12:40.650Z	94d7d9832cdfa5e514c839453e02549c	monet		9090
+RankedRetrieveRecordInteraction	2018-02-21T17:12:46.349Z	94d7d9832cdfa5e514c839453e02549c	monet		/2063621/FRA_280_007	1	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:05.967Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:21.575Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+SearchInteraction	2018-02-21T17:14:08.311Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-21T17:14:12.045Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+SearchInteraction	2018-02-21T17:17:13.487Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-21T17:17:24.937Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-21T17:17:29.356Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		/90402/RP_T_1969_200	14	1610
+SearchInteraction	2018-02-21T17:46:21.763Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+RankedRetrieveRecordInteraction	2018-02-21T17:46:32.962Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		/2048011/work_83504	5	875
+SearchInteraction	2018-02-21T17:47:11.217Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+SearchInteraction	2018-02-21T17:47:17.637Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:18.597Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.665Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.988Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T17:47:27.998Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		2162
+RankedRetrieveRecordInteraction	2018-02-21T17:47:33.013Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		/2048011/work_146	4	2162
+SearchInteraction	2018-02-21T17:47:54.167Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T14:16:32.171Z	94d7d9832cdfa5e514c839453e02549c	Capri		2157
+SearchInteraction	2018-02-21T14:16:47.540Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO']}	208
+SearchInteraction	2018-02-21T14:16:56.549Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:09.924Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:14.656Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:19.063Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+SearchInteraction	2018-02-21T15:05:23.252Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: leather']}	7355
+SearchInteraction	2018-02-21T15:05:38.993Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: cotton']}	21148
+SearchInteraction	2018-02-21T15:06:01.727Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'PROVIDER': ['ICAB']}	2276
+SearchInteraction	2018-02-21T17:12:40.650Z	94d7d9832cdfa5e514c839453e02549c	monet		9090
+RankedRetrieveRecordInteraction	2018-02-21T17:12:46.349Z	94d7d9832cdfa5e514c839453e02549c	monet		/2063621/FRA_280_007	1	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:05.967Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:21.575Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+SearchInteraction	2018-02-21T17:14:08.311Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-21T17:14:12.045Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+SearchInteraction	2018-02-21T17:17:13.487Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-21T17:17:24.937Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-21T17:17:29.356Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		/90402/RP_T_1969_200	14	1610
+SearchInteraction	2018-02-21T17:46:21.763Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+RankedRetrieveRecordInteraction	2018-02-21T17:46:32.962Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		/2048011/work_83504	5	875
+SearchInteraction	2018-02-21T17:47:11.217Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+SearchInteraction	2018-02-21T17:47:17.637Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:18.597Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.665Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.988Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T17:47:27.998Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		2162
+RankedRetrieveRecordInteraction	2018-02-21T17:47:33.013Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		/2048011/work_146	4	2162
+SearchInteraction	2018-02-21T17:47:54.167Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T14:16:32.171Z	94d7d9832cdfa5e514c839453e02549c	Capri		2157
+SearchInteraction	2018-02-21T14:16:47.540Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO']}	208
+SearchInteraction	2018-02-21T14:16:56.549Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:09.924Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:14.656Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:19.063Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+SearchInteraction	2018-02-21T15:05:23.252Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: leather']}	7355
+SearchInteraction	2018-02-21T15:05:38.993Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: cotton']}	21148
+SearchInteraction	2018-02-21T15:06:01.727Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'PROVIDER': ['ICAB']}	2276
+SearchInteraction	2018-02-21T17:12:40.650Z	94d7d9832cdfa5e514c839453e02549c	monet		9090
+RankedRetrieveRecordInteraction	2018-02-21T17:12:46.349Z	94d7d9832cdfa5e514c839453e02549c	monet		/2063621/FRA_280_007	1	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:05.967Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:21.575Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+SearchInteraction	2018-02-21T17:14:08.311Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-21T17:14:12.045Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+SearchInteraction	2018-02-21T17:17:13.487Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-21T17:17:24.937Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-21T17:17:29.356Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		/90402/RP_T_1969_200	14	1610
+SearchInteraction	2018-02-21T17:46:21.763Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+RankedRetrieveRecordInteraction	2018-02-21T17:46:32.962Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		/2048011/work_83504	5	875
+SearchInteraction	2018-02-21T17:47:11.217Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+SearchInteraction	2018-02-21T17:47:17.637Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:18.597Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.665Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.988Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T17:47:27.998Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		2162
+RankedRetrieveRecordInteraction	2018-02-21T17:47:33.013Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		/2048011/work_146	4	2162
+SearchInteraction	2018-02-21T17:47:54.167Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T14:16:32.171Z	94d7d9832cdfa5e514c839453e02549c	Capri		2157
+SearchInteraction	2018-02-21T14:16:47.540Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO']}	208
+SearchInteraction	2018-02-21T14:16:56.549Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:09.924Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:14.656Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:19.063Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+SearchInteraction	2018-02-21T15:05:23.252Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: leather']}	7355
+SearchInteraction	2018-02-21T15:05:38.993Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: cotton']}	21148
+SearchInteraction	2018-02-21T15:06:01.727Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'PROVIDER': ['ICAB']}	2276
+SearchInteraction	2018-02-21T17:12:40.650Z	94d7d9832cdfa5e514c839453e02549c	monet		9090
+RankedRetrieveRecordInteraction	2018-02-21T17:12:46.349Z	94d7d9832cdfa5e514c839453e02549c	monet		/2063621/FRA_280_007	1	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:05.967Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:21.575Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+SearchInteraction	2018-02-21T17:14:08.311Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-21T17:14:12.045Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+SearchInteraction	2018-02-21T17:17:13.487Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-21T17:17:24.937Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-21T17:17:29.356Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		/90402/RP_T_1969_200	14	1610
+SearchInteraction	2018-02-21T17:46:21.763Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+RankedRetrieveRecordInteraction	2018-02-21T17:46:32.962Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		/2048011/work_83504	5	875
+SearchInteraction	2018-02-21T17:47:11.217Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+SearchInteraction	2018-02-21T17:47:17.637Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:18.597Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.665Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.988Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T17:47:27.998Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		2162
+RankedRetrieveRecordInteraction	2018-02-21T17:47:33.013Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		/2048011/work_146	4	2162
+SearchInteraction	2018-02-21T17:47:54.167Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T14:16:32.171Z	94d7d9832cdfa5e514c839453e02549c	Capri		2157
+SearchInteraction	2018-02-21T14:16:47.540Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO']}	208
+SearchInteraction	2018-02-21T14:16:56.549Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:09.924Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:14.656Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+RefreshOrPaginationInteraction	2018-02-21T14:17:19.063Z	94d7d9832cdfa5e514c839453e02549c	Capri	{'TYPE': ['VIDEO'], 'VIDEO_DURATION': ['short']}	45
+SearchInteraction	2018-02-21T15:05:23.252Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: leather']}	7355
+SearchInteraction	2018-02-21T15:05:38.993Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'THUMBNAIL': ['true'], 'proxy_dcterms_medium.en': ['Material: cotton']}	21148
+SearchInteraction	2018-02-21T15:06:01.727Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED	{'PROVIDER': ['ICAB']}	2276
+SearchInteraction	2018-02-21T17:12:40.650Z	94d7d9832cdfa5e514c839453e02549c	monet		9090
+RankedRetrieveRecordInteraction	2018-02-21T17:12:46.349Z	94d7d9832cdfa5e514c839453e02549c	monet		/2063621/FRA_280_007	1	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:05.967Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+RankedRetrieveRecordInteraction	2018-02-21T17:13:21.575Z	94d7d9832cdfa5e514c839453e02549c	monet		/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1974_16	2	9090
+SearchInteraction	2018-02-21T17:14:08.311Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		1555
+RankedRetrieveRecordInteraction	2018-02-21T17:14:12.045Z	94d7d9832cdfa5e514c839453e02549c	Karl Heinrich Lämmel		/2024909/photography_ProvidedCHO_United_Archives_02299169_jpg	4	1555
+SearchInteraction	2018-02-21T17:17:13.487Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-21T17:17:24.937Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-21T17:17:29.356Z	94d7d9832cdfa5e514c839453e02549c	who:(Peter Paul Rubens)		/90402/RP_T_1969_200	14	1610
+SearchInteraction	2018-02-21T17:46:21.763Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+RankedRetrieveRecordInteraction	2018-02-21T17:46:32.962Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		/2048011/work_83504	5	875
+SearchInteraction	2018-02-21T17:47:11.217Z	94d7d9832cdfa5e514c839453e02549c	Pablo Picasso		875
+SearchInteraction	2018-02-21T17:47:17.637Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:18.597Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.665Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+RefreshOrPaginationInteraction	2018-02-21T17:47:20.988Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-21T17:47:27.998Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		2162
+RankedRetrieveRecordInteraction	2018-02-21T17:47:33.013Z	94d7d9832cdfa5e514c839453e02549c	leonardo da vinci		/2048011/work_146	4	2162
+SearchInteraction	2018-02-21T17:47:54.167Z	94d7d9832cdfa5e514c839453e02549c	NO VALUE PROVIDED		51594103

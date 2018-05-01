@@ -1,0 +1,115 @@
+ArbitraryAccessInteraction	2018-02-26T17:08:48.023Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T17:09:45.627Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-26T17:10:03.982Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		4221447
+RankedRetrieveRecordInteraction	2018-02-26T17:10:32.208Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		/90402/RP_F_K89513	6	4221447
+SearchInteraction	2018-02-26T17:11:18.772Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T17:11:35.664Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RankedRetrieveRecordInteraction	2018-02-26T17:11:45.123Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		/92054/URN_NBN_SI_doc_VIVNOALT	1	5446
+SearchInteraction	2018-02-26T17:12:11.904Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:40.651Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:42.363Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+CollectionFilterAdditionInteraction	2018-02-26T17:12:56.452Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		2
+CollectionFilterAdditionInteraction	2018-02-26T17:13:12.192Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		0
+SearchInteraction	2018-02-26T17:13:27.436Z	0c601bacca16386a8c3e4fc306448201	Smokvina		0
+SearchInteraction	2018-02-26T17:14:19.915Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:14:33.726Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6371	11	49
+SearchInteraction	2018-02-26T17:15:06.905Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RefreshOrPaginationInteraction	2018-02-26T17:15:13.629Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:22.351Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:24.109Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:49.315Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_341203	35	49
+SearchInteraction	2018-02-26T17:16:15.372Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:16:25.116Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2023901/ArcaSite_obj_peixes_MNHNL_0001790_MB_IMG_web_JPG	46	49
+SearchInteraction	2018-02-26T17:16:56.883Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+ArbitraryAccessInteraction	2018-02-26T17:08:48.023Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T17:09:45.627Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-26T17:10:03.982Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		4221447
+RankedRetrieveRecordInteraction	2018-02-26T17:10:32.208Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		/90402/RP_F_K89513	6	4221447
+SearchInteraction	2018-02-26T17:11:18.772Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T17:11:35.664Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RankedRetrieveRecordInteraction	2018-02-26T17:11:45.123Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		/92054/URN_NBN_SI_doc_VIVNOALT	1	5446
+SearchInteraction	2018-02-26T17:12:11.904Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:40.651Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:42.363Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+CollectionFilterAdditionInteraction	2018-02-26T17:12:56.452Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		2
+CollectionFilterAdditionInteraction	2018-02-26T17:13:12.192Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		0
+SearchInteraction	2018-02-26T17:13:27.436Z	0c601bacca16386a8c3e4fc306448201	Smokvina		0
+SearchInteraction	2018-02-26T17:14:19.915Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:14:33.726Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6371	11	49
+SearchInteraction	2018-02-26T17:15:06.905Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RefreshOrPaginationInteraction	2018-02-26T17:15:13.629Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:22.351Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:24.109Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:49.315Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_341203	35	49
+SearchInteraction	2018-02-26T17:16:15.372Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:16:25.116Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2023901/ArcaSite_obj_peixes_MNHNL_0001790_MB_IMG_web_JPG	46	49
+SearchInteraction	2018-02-26T17:16:56.883Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+ArbitraryAccessInteraction	2018-02-26T17:08:48.023Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T17:09:45.627Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-26T17:10:03.982Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		4221447
+RankedRetrieveRecordInteraction	2018-02-26T17:10:32.208Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		/90402/RP_F_K89513	6	4221447
+SearchInteraction	2018-02-26T17:11:18.772Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T17:11:35.664Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RankedRetrieveRecordInteraction	2018-02-26T17:11:45.123Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		/92054/URN_NBN_SI_doc_VIVNOALT	1	5446
+SearchInteraction	2018-02-26T17:12:11.904Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:40.651Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:42.363Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+CollectionFilterAdditionInteraction	2018-02-26T17:12:56.452Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		2
+CollectionFilterAdditionInteraction	2018-02-26T17:13:12.192Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		0
+SearchInteraction	2018-02-26T17:13:27.436Z	0c601bacca16386a8c3e4fc306448201	Smokvina		0
+SearchInteraction	2018-02-26T17:14:19.915Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:14:33.726Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6371	11	49
+SearchInteraction	2018-02-26T17:15:06.905Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RefreshOrPaginationInteraction	2018-02-26T17:15:13.629Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:22.351Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:24.109Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:49.315Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_341203	35	49
+SearchInteraction	2018-02-26T17:16:15.372Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:16:25.116Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2023901/ArcaSite_obj_peixes_MNHNL_0001790_MB_IMG_web_JPG	46	49
+SearchInteraction	2018-02-26T17:16:56.883Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+ArbitraryAccessInteraction	2018-02-26T17:08:48.023Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T17:09:45.627Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-26T17:10:03.982Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		4221447
+RankedRetrieveRecordInteraction	2018-02-26T17:10:32.208Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		/90402/RP_F_K89513	6	4221447
+SearchInteraction	2018-02-26T17:11:18.772Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T17:11:35.664Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RankedRetrieveRecordInteraction	2018-02-26T17:11:45.123Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		/92054/URN_NBN_SI_doc_VIVNOALT	1	5446
+SearchInteraction	2018-02-26T17:12:11.904Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:40.651Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:42.363Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+CollectionFilterAdditionInteraction	2018-02-26T17:12:56.452Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		2
+CollectionFilterAdditionInteraction	2018-02-26T17:13:12.192Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		0
+SearchInteraction	2018-02-26T17:13:27.436Z	0c601bacca16386a8c3e4fc306448201	Smokvina		0
+SearchInteraction	2018-02-26T17:14:19.915Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:14:33.726Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6371	11	49
+SearchInteraction	2018-02-26T17:15:06.905Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RefreshOrPaginationInteraction	2018-02-26T17:15:13.629Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:22.351Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:24.109Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:49.315Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_341203	35	49
+SearchInteraction	2018-02-26T17:16:15.372Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:16:25.116Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2023901/ArcaSite_obj_peixes_MNHNL_0001790_MB_IMG_web_JPG	46	49
+SearchInteraction	2018-02-26T17:16:56.883Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+ArbitraryAccessInteraction	2018-02-26T17:08:48.023Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-26T17:09:45.627Z	0c601bacca16386a8c3e4fc306448201	[200] GET /portal/en/record/90402/RP_F_K89529.html (PortalController#show)
+SearchInteraction	2018-02-26T17:10:03.982Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		4221447
+RankedRetrieveRecordInteraction	2018-02-26T17:10:32.208Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		/90402/RP_F_K89513	6	4221447
+SearchInteraction	2018-02-26T17:11:18.772Z	0c601bacca16386a8c3e4fc306448201	NO VALUE PROVIDED		51595556
+SearchInteraction	2018-02-26T17:11:35.664Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RankedRetrieveRecordInteraction	2018-02-26T17:11:45.123Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		/92054/URN_NBN_SI_doc_VIVNOALT	1	5446
+SearchInteraction	2018-02-26T17:12:11.904Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:40.651Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+RefreshOrPaginationInteraction	2018-02-26T17:12:42.363Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		5446
+CollectionFilterAdditionInteraction	2018-02-26T17:12:56.452Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		2
+CollectionFilterAdditionInteraction	2018-02-26T17:13:12.192Z	0c601bacca16386a8c3e4fc306448201	Rijeka 		0
+SearchInteraction	2018-02-26T17:13:27.436Z	0c601bacca16386a8c3e4fc306448201	Smokvina		0
+SearchInteraction	2018-02-26T17:14:19.915Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:14:33.726Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6371	11	49
+SearchInteraction	2018-02-26T17:15:06.905Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RefreshOrPaginationInteraction	2018-02-26T17:15:13.629Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:22.351Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:24.109Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2026011/_MMSU_6348	34	49
+RankedRetrieveRecordInteraction	2018-02-26T17:15:49.315Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_341203	35	49
+SearchInteraction	2018-02-26T17:16:15.372Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49
+RankedRetrieveRecordInteraction	2018-02-26T17:16:25.116Z	0c601bacca16386a8c3e4fc306448201	torpedo 		/2023901/ArcaSite_obj_peixes_MNHNL_0001790_MB_IMG_web_JPG	46	49
+SearchInteraction	2018-02-26T17:16:56.883Z	0c601bacca16386a8c3e4fc306448201	torpedo 		49

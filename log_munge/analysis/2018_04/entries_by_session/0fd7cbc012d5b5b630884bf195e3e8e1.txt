@@ -1,0 +1,320 @@
+ArbitraryAccessInteraction	2018-03-09T22:05:52.169Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/BibliographicResource_3000073493922.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:06:59.594Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4810855.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:09:21.617Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+SearchInteraction	2018-03-09T22:10:17.702Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		1824
+RankedRetrieveRecordInteraction	2018-03-09T22:11:03.541Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/92023/BibliographicResource_3000074018690	8	1824
+SearchInteraction	2018-03-09T22:11:44.939Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RefreshOrPaginationInteraction	2018-03-09T22:12:12.611Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RankedRetrieveRecordInteraction	2018-03-09T22:12:21.866Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/9200290/bildarchivaustria_at_Preview_14286944	14	81
+SearchInteraction	2018-03-09T22:15:17.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+SearchInteraction	2018-03-09T22:15:30.646Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:23.105Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärntner Abwehrkampf		0
+SearchInteraction	2018-03-09T22:16:36.712Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:55.385Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+RefreshOrPaginationInteraction	2018-03-09T22:17:24.614Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+CollectionFilterAdditionInteraction	2018-03-09T22:18:02.718Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		0
+SearchInteraction	2018-03-09T22:18:08.585Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:18:41.010Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RankedRetrieveRecordInteraction	2018-03-09T22:19:01.123Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		/92064/BibliographicResource_3000095544345	16	21951
+SearchInteraction	2018-03-09T22:19:27.459Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:19:58.316Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:15.955Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:37.455Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+SearchInteraction	2018-03-09T22:21:23.343Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:21:55.087Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:15.760Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:35.893Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:03.766Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:31.091Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:58.635Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-09T22:24:10.121Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15620046	63	791
+SearchInteraction	2018-03-09T22:27:31.999Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:01.525Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:27.096Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:45.814Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:13.220Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:41.390Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:57.015Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-10T09:45:04.534Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-10T09:45:15.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15614208	170	791
+SearchInteraction	2018-03-10T09:45:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:46:12.325Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:00.257Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+SearchInteraction	2018-03-10T09:58:06.411Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:19.621Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+SearchInteraction	2018-03-10T09:58:38.309Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T09:59:17.354Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		9
+RankedRetrieveRecordInteraction	2018-03-10T09:59:43.025Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		/9200196/BibliographicResource_3000005915546_source	6	9
+SearchInteraction	2018-03-10T10:02:42.318Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T10:03:19.889Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:03:38.205Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:06:41.540Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15624205	30	604
+RankedRetrieveRecordInteraction	2018-03-10T10:07:31.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15621876	36	604
+SearchInteraction	2018-03-10T10:11:54.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:13:55.278Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:14:48.755Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200231/BibliographicResource_3000060328532	221	604
+SearchInteraction	2018-03-10T10:17:57.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:19:17.222Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:20:56.254Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915286_source	457	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:09.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.538Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.870Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+SearchInteraction	2018-03-10T10:23:21.682Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:24:01.581Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005910518_source	517	604
+ArbitraryAccessInteraction	2018-03-09T22:05:52.169Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/BibliographicResource_3000073493922.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:06:59.594Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4810855.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:09:21.617Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+SearchInteraction	2018-03-09T22:10:17.702Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		1824
+RankedRetrieveRecordInteraction	2018-03-09T22:11:03.541Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/92023/BibliographicResource_3000074018690	8	1824
+SearchInteraction	2018-03-09T22:11:44.939Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RefreshOrPaginationInteraction	2018-03-09T22:12:12.611Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RankedRetrieveRecordInteraction	2018-03-09T22:12:21.866Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/9200290/bildarchivaustria_at_Preview_14286944	14	81
+SearchInteraction	2018-03-09T22:15:17.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+SearchInteraction	2018-03-09T22:15:30.646Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:23.105Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärntner Abwehrkampf		0
+SearchInteraction	2018-03-09T22:16:36.712Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:55.385Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+RefreshOrPaginationInteraction	2018-03-09T22:17:24.614Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+CollectionFilterAdditionInteraction	2018-03-09T22:18:02.718Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		0
+SearchInteraction	2018-03-09T22:18:08.585Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:18:41.010Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RankedRetrieveRecordInteraction	2018-03-09T22:19:01.123Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		/92064/BibliographicResource_3000095544345	16	21951
+SearchInteraction	2018-03-09T22:19:27.459Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:19:58.316Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:15.955Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:37.455Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+SearchInteraction	2018-03-09T22:21:23.343Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:21:55.087Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:15.760Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:35.893Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:03.766Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:31.091Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:58.635Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-09T22:24:10.121Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15620046	63	791
+SearchInteraction	2018-03-09T22:27:31.999Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:01.525Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:27.096Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:45.814Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:13.220Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:41.390Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:57.015Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-10T09:45:04.534Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-10T09:45:15.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15614208	170	791
+SearchInteraction	2018-03-10T09:45:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:46:12.325Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:00.257Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+SearchInteraction	2018-03-10T09:58:06.411Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:19.621Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+SearchInteraction	2018-03-10T09:58:38.309Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T09:59:17.354Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		9
+RankedRetrieveRecordInteraction	2018-03-10T09:59:43.025Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		/9200196/BibliographicResource_3000005915546_source	6	9
+SearchInteraction	2018-03-10T10:02:42.318Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T10:03:19.889Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:03:38.205Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:06:41.540Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15624205	30	604
+RankedRetrieveRecordInteraction	2018-03-10T10:07:31.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15621876	36	604
+SearchInteraction	2018-03-10T10:11:54.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:13:55.278Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:14:48.755Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200231/BibliographicResource_3000060328532	221	604
+SearchInteraction	2018-03-10T10:17:57.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:19:17.222Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:20:56.254Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915286_source	457	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:09.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.538Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.870Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+SearchInteraction	2018-03-10T10:23:21.682Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:24:01.581Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005910518_source	517	604
+ArbitraryAccessInteraction	2018-03-09T22:05:52.169Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/BibliographicResource_3000073493922.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:06:59.594Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4810855.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:09:21.617Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+SearchInteraction	2018-03-09T22:10:17.702Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		1824
+RankedRetrieveRecordInteraction	2018-03-09T22:11:03.541Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/92023/BibliographicResource_3000074018690	8	1824
+SearchInteraction	2018-03-09T22:11:44.939Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RefreshOrPaginationInteraction	2018-03-09T22:12:12.611Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RankedRetrieveRecordInteraction	2018-03-09T22:12:21.866Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/9200290/bildarchivaustria_at_Preview_14286944	14	81
+SearchInteraction	2018-03-09T22:15:17.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+SearchInteraction	2018-03-09T22:15:30.646Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:23.105Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärntner Abwehrkampf		0
+SearchInteraction	2018-03-09T22:16:36.712Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:55.385Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+RefreshOrPaginationInteraction	2018-03-09T22:17:24.614Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+CollectionFilterAdditionInteraction	2018-03-09T22:18:02.718Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		0
+SearchInteraction	2018-03-09T22:18:08.585Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:18:41.010Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RankedRetrieveRecordInteraction	2018-03-09T22:19:01.123Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		/92064/BibliographicResource_3000095544345	16	21951
+SearchInteraction	2018-03-09T22:19:27.459Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:19:58.316Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:15.955Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:37.455Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+SearchInteraction	2018-03-09T22:21:23.343Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:21:55.087Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:15.760Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:35.893Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:03.766Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:31.091Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:58.635Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-09T22:24:10.121Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15620046	63	791
+SearchInteraction	2018-03-09T22:27:31.999Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:01.525Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:27.096Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:45.814Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:13.220Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:41.390Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:57.015Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-10T09:45:04.534Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-10T09:45:15.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15614208	170	791
+SearchInteraction	2018-03-10T09:45:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:46:12.325Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:00.257Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+SearchInteraction	2018-03-10T09:58:06.411Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:19.621Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+SearchInteraction	2018-03-10T09:58:38.309Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T09:59:17.354Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		9
+RankedRetrieveRecordInteraction	2018-03-10T09:59:43.025Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		/9200196/BibliographicResource_3000005915546_source	6	9
+SearchInteraction	2018-03-10T10:02:42.318Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T10:03:19.889Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:03:38.205Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:06:41.540Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15624205	30	604
+RankedRetrieveRecordInteraction	2018-03-10T10:07:31.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15621876	36	604
+SearchInteraction	2018-03-10T10:11:54.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:13:55.278Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:14:48.755Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200231/BibliographicResource_3000060328532	221	604
+SearchInteraction	2018-03-10T10:17:57.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:19:17.222Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:20:56.254Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915286_source	457	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:09.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.538Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.870Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+SearchInteraction	2018-03-10T10:23:21.682Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:24:01.581Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005910518_source	517	604
+ArbitraryAccessInteraction	2018-03-09T22:05:52.169Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/BibliographicResource_3000073493922.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:06:59.594Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4810855.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:09:21.617Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+SearchInteraction	2018-03-09T22:10:17.702Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		1824
+RankedRetrieveRecordInteraction	2018-03-09T22:11:03.541Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/92023/BibliographicResource_3000074018690	8	1824
+SearchInteraction	2018-03-09T22:11:44.939Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RefreshOrPaginationInteraction	2018-03-09T22:12:12.611Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RankedRetrieveRecordInteraction	2018-03-09T22:12:21.866Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/9200290/bildarchivaustria_at_Preview_14286944	14	81
+SearchInteraction	2018-03-09T22:15:17.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+SearchInteraction	2018-03-09T22:15:30.646Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:23.105Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärntner Abwehrkampf		0
+SearchInteraction	2018-03-09T22:16:36.712Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:55.385Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+RefreshOrPaginationInteraction	2018-03-09T22:17:24.614Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+CollectionFilterAdditionInteraction	2018-03-09T22:18:02.718Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		0
+SearchInteraction	2018-03-09T22:18:08.585Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:18:41.010Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RankedRetrieveRecordInteraction	2018-03-09T22:19:01.123Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		/92064/BibliographicResource_3000095544345	16	21951
+SearchInteraction	2018-03-09T22:19:27.459Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:19:58.316Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:15.955Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:37.455Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+SearchInteraction	2018-03-09T22:21:23.343Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:21:55.087Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:15.760Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:35.893Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:03.766Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:31.091Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:58.635Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-09T22:24:10.121Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15620046	63	791
+SearchInteraction	2018-03-09T22:27:31.999Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:01.525Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:27.096Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:45.814Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:13.220Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:41.390Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:57.015Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-10T09:45:04.534Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-10T09:45:15.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15614208	170	791
+SearchInteraction	2018-03-10T09:45:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:46:12.325Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:00.257Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+SearchInteraction	2018-03-10T09:58:06.411Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:19.621Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+SearchInteraction	2018-03-10T09:58:38.309Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T09:59:17.354Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		9
+RankedRetrieveRecordInteraction	2018-03-10T09:59:43.025Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		/9200196/BibliographicResource_3000005915546_source	6	9
+SearchInteraction	2018-03-10T10:02:42.318Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T10:03:19.889Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:03:38.205Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:06:41.540Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15624205	30	604
+RankedRetrieveRecordInteraction	2018-03-10T10:07:31.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15621876	36	604
+SearchInteraction	2018-03-10T10:11:54.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:13:55.278Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:14:48.755Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200231/BibliographicResource_3000060328532	221	604
+SearchInteraction	2018-03-10T10:17:57.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:19:17.222Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:20:56.254Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915286_source	457	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:09.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.538Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.870Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+SearchInteraction	2018-03-10T10:23:21.682Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:24:01.581Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005910518_source	517	604
+ArbitraryAccessInteraction	2018-03-09T22:05:52.169Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/BibliographicResource_3000073493922.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:06:59.594Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4810855.html (PortalController#show)
+ArbitraryAccessInteraction	2018-03-09T22:09:21.617Z	0fd7cbc012d5b5b630884bf195e3e8e1	[200] GET /portal/de/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+SearchInteraction	2018-03-09T22:10:17.702Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		1824
+RankedRetrieveRecordInteraction	2018-03-09T22:11:03.541Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/92023/BibliographicResource_3000074018690	8	1824
+SearchInteraction	2018-03-09T22:11:44.939Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RefreshOrPaginationInteraction	2018-03-09T22:12:12.611Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+RankedRetrieveRecordInteraction	2018-03-09T22:12:21.866Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		/9200290/bildarchivaustria_at_Preview_14286944	14	81
+SearchInteraction	2018-03-09T22:15:17.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Vittorio Veneto		81
+SearchInteraction	2018-03-09T22:15:30.646Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:23.105Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärntner Abwehrkampf		0
+SearchInteraction	2018-03-09T22:16:36.712Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:16:55.385Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+RefreshOrPaginationInteraction	2018-03-09T22:17:24.614Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		130
+CollectionFilterAdditionInteraction	2018-03-09T22:18:02.718Z	0fd7cbc012d5b5b630884bf195e3e8e1	Freiheitskampf		0
+SearchInteraction	2018-03-09T22:18:08.585Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:18:41.010Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RankedRetrieveRecordInteraction	2018-03-09T22:19:01.123Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		/92064/BibliographicResource_3000095544345	16	21951
+SearchInteraction	2018-03-09T22:19:27.459Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:19:58.316Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:15.955Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+RefreshOrPaginationInteraction	2018-03-09T22:20:37.455Z	0fd7cbc012d5b5b630884bf195e3e8e1	Kärnten		21951
+SearchInteraction	2018-03-09T22:21:23.343Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		51423386
+SearchInteraction	2018-03-09T22:21:55.087Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:15.760Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:22:35.893Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:03.766Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:31.091Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:23:58.635Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-09T22:24:10.121Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15620046	63	791
+SearchInteraction	2018-03-09T22:27:31.999Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:01.525Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:27.096Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:28:45.814Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:13.220Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:41.390Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-09T22:29:57.015Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RefreshOrPaginationInteraction	2018-03-10T09:45:04.534Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		791
+RankedRetrieveRecordInteraction	2018-03-10T09:45:15.004Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15614208	170	791
+SearchInteraction	2018-03-10T09:45:44.751Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:46:12.325Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:00.257Z	0fd7cbc012d5b5b630884bf195e3e8e1	Generalmajor Waldstätten		0
+SearchInteraction	2018-03-10T09:58:06.411Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+RefreshOrPaginationInteraction	2018-03-10T09:58:19.621Z	0fd7cbc012d5b5b630884bf195e3e8e1	waltstätten		0
+SearchInteraction	2018-03-10T09:58:38.309Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T09:59:17.354Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		9
+RankedRetrieveRecordInteraction	2018-03-10T09:59:43.025Z	0fd7cbc012d5b5b630884bf195e3e8e1	villa giusti		/9200196/BibliographicResource_3000005915546_source	6	9
+SearchInteraction	2018-03-10T10:02:42.318Z	0fd7cbc012d5b5b630884bf195e3e8e1	NO VALUE PROVIDED		515712
+SearchInteraction	2018-03-10T10:03:19.889Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:03:38.205Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:06:41.540Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15624205	30	604
+RankedRetrieveRecordInteraction	2018-03-10T10:07:31.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200291/bildarchivaustria_at_Preview_15621876	36	604
+SearchInteraction	2018-03-10T10:11:54.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:13:55.278Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:14:48.755Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200231/BibliographicResource_3000060328532	221	604
+SearchInteraction	2018-03-10T10:17:57.470Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RefreshOrPaginationInteraction	2018-03-10T10:19:17.222Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:20:56.254Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915286_source	457	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:09.908Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.538Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+RankedRetrieveRecordInteraction	2018-03-10T10:22:14.870Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005915175_source	466	604
+SearchInteraction	2018-03-10T10:23:21.682Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		604
+RankedRetrieveRecordInteraction	2018-03-10T10:24:01.581Z	0fd7cbc012d5b5b630884bf195e3e8e1	Piave 1918		/9200196/BibliographicResource_3000005910518_source	517	604

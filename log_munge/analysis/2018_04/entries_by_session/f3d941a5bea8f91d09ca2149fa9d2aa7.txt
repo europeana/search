@@ -1,0 +1,60 @@
+SearchInteraction	2018-02-19T15:17:52.734Z	f3d941a5bea8f91d09ca2149fa9d2aa7	"piri reis"		16
+SearchInteraction	2018-02-19T15:19:09.590Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT		112216
+SearchInteraction	2018-02-19T15:19:34.673Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:20:32.855Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RankedRetrieveRecordInteraction	2018-02-19T15:20:47.569Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000134398036	24	832
+RankedRetrieveRecordInteraction	2018-02-19T15:21:18.191Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000140766795	23	832
+SearchInteraction	2018-02-19T15:21:40.697Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:21:59.901Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+CollectionFilterAdditionInteraction	2018-02-19T15:22:27.417Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	75
+CollectionFilterAdditionInteraction	2018-02-19T15:22:41.104Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RefreshOrPaginationInteraction	2018-02-19T15:22:58.049Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RankedRetrieveRecordInteraction	2018-02-19T15:23:08.790Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200327/BibliographicResource_3000059131353	14	18
+SearchInteraction	2018-02-19T15:17:52.734Z	f3d941a5bea8f91d09ca2149fa9d2aa7	"piri reis"		16
+SearchInteraction	2018-02-19T15:19:09.590Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT		112216
+SearchInteraction	2018-02-19T15:19:34.673Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:20:32.855Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RankedRetrieveRecordInteraction	2018-02-19T15:20:47.569Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000134398036	24	832
+RankedRetrieveRecordInteraction	2018-02-19T15:21:18.191Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000140766795	23	832
+SearchInteraction	2018-02-19T15:21:40.697Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:21:59.901Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+CollectionFilterAdditionInteraction	2018-02-19T15:22:27.417Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	75
+CollectionFilterAdditionInteraction	2018-02-19T15:22:41.104Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RefreshOrPaginationInteraction	2018-02-19T15:22:58.049Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RankedRetrieveRecordInteraction	2018-02-19T15:23:08.790Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200327/BibliographicResource_3000059131353	14	18
+SearchInteraction	2018-02-19T15:17:52.734Z	f3d941a5bea8f91d09ca2149fa9d2aa7	"piri reis"		16
+SearchInteraction	2018-02-19T15:19:09.590Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT		112216
+SearchInteraction	2018-02-19T15:19:34.673Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:20:32.855Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RankedRetrieveRecordInteraction	2018-02-19T15:20:47.569Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000134398036	24	832
+RankedRetrieveRecordInteraction	2018-02-19T15:21:18.191Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000140766795	23	832
+SearchInteraction	2018-02-19T15:21:40.697Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:21:59.901Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+CollectionFilterAdditionInteraction	2018-02-19T15:22:27.417Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	75
+CollectionFilterAdditionInteraction	2018-02-19T15:22:41.104Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RefreshOrPaginationInteraction	2018-02-19T15:22:58.049Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RankedRetrieveRecordInteraction	2018-02-19T15:23:08.790Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200327/BibliographicResource_3000059131353	14	18
+SearchInteraction	2018-02-19T15:17:52.734Z	f3d941a5bea8f91d09ca2149fa9d2aa7	"piri reis"		16
+SearchInteraction	2018-02-19T15:19:09.590Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT		112216
+SearchInteraction	2018-02-19T15:19:34.673Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:20:32.855Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RankedRetrieveRecordInteraction	2018-02-19T15:20:47.569Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000134398036	24	832
+RankedRetrieveRecordInteraction	2018-02-19T15:21:18.191Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000140766795	23	832
+SearchInteraction	2018-02-19T15:21:40.697Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:21:59.901Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+CollectionFilterAdditionInteraction	2018-02-19T15:22:27.417Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	75
+CollectionFilterAdditionInteraction	2018-02-19T15:22:41.104Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RefreshOrPaginationInteraction	2018-02-19T15:22:58.049Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RankedRetrieveRecordInteraction	2018-02-19T15:23:08.790Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200327/BibliographicResource_3000059131353	14	18
+SearchInteraction	2018-02-19T15:17:52.734Z	f3d941a5bea8f91d09ca2149fa9d2aa7	"piri reis"		16
+SearchInteraction	2018-02-19T15:19:09.590Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT		112216
+SearchInteraction	2018-02-19T15:19:34.673Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:20:32.855Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RankedRetrieveRecordInteraction	2018-02-19T15:20:47.569Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000134398036	24	832
+RankedRetrieveRecordInteraction	2018-02-19T15:21:18.191Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200365/BibliographicResource_3000140766795	23	832
+SearchInteraction	2018-02-19T15:21:40.697Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+RefreshOrPaginationInteraction	2018-02-19T15:21:59.901Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	832
+CollectionFilterAdditionInteraction	2018-02-19T15:22:27.417Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	75
+CollectionFilterAdditionInteraction	2018-02-19T15:22:41.104Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RefreshOrPaginationInteraction	2018-02-19T15:22:58.049Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	18
+RankedRetrieveRecordInteraction	2018-02-19T15:23:08.790Z	f3d941a5bea8f91d09ca2149fa9d2aa7	TYPE:TEXT	{'LANGUAGE': ['fr']}	/9200327/BibliographicResource_3000059131353	14	18

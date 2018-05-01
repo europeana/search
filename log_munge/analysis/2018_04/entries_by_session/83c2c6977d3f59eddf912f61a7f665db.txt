@@ -1,0 +1,195 @@
+SearchInteraction	2018-02-20T14:11:47.743Z	83c2c6977d3f59eddf912f61a7f665db	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T14:11:56.500Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:04.212Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:08.979Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:19.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:26.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T14:12:48.438Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__23600	616	691
+ArbitraryAccessInteraction	2018-02-20T14:13:23.396Z	83c2c6977d3f59eddf912f61a7f665db	[200] GET /portal/pl/record/08535/local__default__21393.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-20T15:14:45.285Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__33568	613	691
+RankedRetrieveRecordInteraction	2018-02-20T15:15:48.724Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__13841	620	691
+SearchInteraction	2018-02-20T15:17:43.673Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:17:58.668Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:09.485Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:36.146Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:18:55.325Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__43560	565	691
+SearchInteraction	2018-02-20T15:19:51.131Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:11.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:26.739Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:46.227Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:08.906Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:34.054Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:09.294Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:37.473Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:58.680Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:23:07.213Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_spp07302	457	691
+RankedRetrieveRecordInteraction	2018-02-20T15:24:04.027Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_s0033102	459	691
+SearchInteraction	2018-02-20T15:25:53.000Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:07.468Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:20.787Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:26:36.257Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2021008/M011_289341	427	691
+SearchInteraction	2018-02-20T15:27:03.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:27:16.484Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:27:29.392Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0458	398	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:04.705Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0457	399	691
+SearchInteraction	2018-02-20T15:28:22.923Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:36.901Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:46.914Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:56.293Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048436/item_EQ4HDUEPT5HGDIVU4EI2EAEEQBX5JMBM	361	691
+SearchInteraction	2018-02-20T15:29:16.606Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+SearchInteraction	2018-02-20T14:11:47.743Z	83c2c6977d3f59eddf912f61a7f665db	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T14:11:56.500Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:04.212Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:08.979Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:19.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:26.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T14:12:48.438Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__23600	616	691
+ArbitraryAccessInteraction	2018-02-20T14:13:23.396Z	83c2c6977d3f59eddf912f61a7f665db	[200] GET /portal/pl/record/08535/local__default__21393.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-20T15:14:45.285Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__33568	613	691
+RankedRetrieveRecordInteraction	2018-02-20T15:15:48.724Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__13841	620	691
+SearchInteraction	2018-02-20T15:17:43.673Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:17:58.668Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:09.485Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:36.146Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:18:55.325Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__43560	565	691
+SearchInteraction	2018-02-20T15:19:51.131Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:11.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:26.739Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:46.227Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:08.906Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:34.054Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:09.294Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:37.473Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:58.680Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:23:07.213Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_spp07302	457	691
+RankedRetrieveRecordInteraction	2018-02-20T15:24:04.027Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_s0033102	459	691
+SearchInteraction	2018-02-20T15:25:53.000Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:07.468Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:20.787Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:26:36.257Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2021008/M011_289341	427	691
+SearchInteraction	2018-02-20T15:27:03.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:27:16.484Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:27:29.392Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0458	398	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:04.705Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0457	399	691
+SearchInteraction	2018-02-20T15:28:22.923Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:36.901Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:46.914Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:56.293Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048436/item_EQ4HDUEPT5HGDIVU4EI2EAEEQBX5JMBM	361	691
+SearchInteraction	2018-02-20T15:29:16.606Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+SearchInteraction	2018-02-20T14:11:47.743Z	83c2c6977d3f59eddf912f61a7f665db	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T14:11:56.500Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:04.212Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:08.979Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:19.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:26.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T14:12:48.438Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__23600	616	691
+ArbitraryAccessInteraction	2018-02-20T14:13:23.396Z	83c2c6977d3f59eddf912f61a7f665db	[200] GET /portal/pl/record/08535/local__default__21393.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-20T15:14:45.285Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__33568	613	691
+RankedRetrieveRecordInteraction	2018-02-20T15:15:48.724Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__13841	620	691
+SearchInteraction	2018-02-20T15:17:43.673Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:17:58.668Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:09.485Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:36.146Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:18:55.325Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__43560	565	691
+SearchInteraction	2018-02-20T15:19:51.131Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:11.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:26.739Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:46.227Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:08.906Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:34.054Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:09.294Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:37.473Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:58.680Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:23:07.213Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_spp07302	457	691
+RankedRetrieveRecordInteraction	2018-02-20T15:24:04.027Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_s0033102	459	691
+SearchInteraction	2018-02-20T15:25:53.000Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:07.468Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:20.787Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:26:36.257Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2021008/M011_289341	427	691
+SearchInteraction	2018-02-20T15:27:03.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:27:16.484Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:27:29.392Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0458	398	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:04.705Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0457	399	691
+SearchInteraction	2018-02-20T15:28:22.923Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:36.901Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:46.914Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:56.293Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048436/item_EQ4HDUEPT5HGDIVU4EI2EAEEQBX5JMBM	361	691
+SearchInteraction	2018-02-20T15:29:16.606Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+SearchInteraction	2018-02-20T14:11:47.743Z	83c2c6977d3f59eddf912f61a7f665db	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T14:11:56.500Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:04.212Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:08.979Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:19.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:26.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T14:12:48.438Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__23600	616	691
+ArbitraryAccessInteraction	2018-02-20T14:13:23.396Z	83c2c6977d3f59eddf912f61a7f665db	[200] GET /portal/pl/record/08535/local__default__21393.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-20T15:14:45.285Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__33568	613	691
+RankedRetrieveRecordInteraction	2018-02-20T15:15:48.724Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__13841	620	691
+SearchInteraction	2018-02-20T15:17:43.673Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:17:58.668Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:09.485Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:36.146Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:18:55.325Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__43560	565	691
+SearchInteraction	2018-02-20T15:19:51.131Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:11.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:26.739Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:46.227Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:08.906Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:34.054Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:09.294Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:37.473Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:58.680Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:23:07.213Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_spp07302	457	691
+RankedRetrieveRecordInteraction	2018-02-20T15:24:04.027Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_s0033102	459	691
+SearchInteraction	2018-02-20T15:25:53.000Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:07.468Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:20.787Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:26:36.257Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2021008/M011_289341	427	691
+SearchInteraction	2018-02-20T15:27:03.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:27:16.484Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:27:29.392Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0458	398	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:04.705Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0457	399	691
+SearchInteraction	2018-02-20T15:28:22.923Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:36.901Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:46.914Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:56.293Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048436/item_EQ4HDUEPT5HGDIVU4EI2EAEEQBX5JMBM	361	691
+SearchInteraction	2018-02-20T15:29:16.606Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+SearchInteraction	2018-02-20T14:11:47.743Z	83c2c6977d3f59eddf912f61a7f665db	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10071621
+SearchInteraction	2018-02-20T14:11:56.500Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:04.212Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:08.979Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:19.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T14:12:26.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T14:12:48.438Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__23600	616	691
+ArbitraryAccessInteraction	2018-02-20T14:13:23.396Z	83c2c6977d3f59eddf912f61a7f665db	[200] GET /portal/pl/record/08535/local__default__21393.html (PortalController#show)
+RankedRetrieveRecordInteraction	2018-02-20T15:14:45.285Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__33568	613	691
+RankedRetrieveRecordInteraction	2018-02-20T15:15:48.724Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__13841	620	691
+SearchInteraction	2018-02-20T15:17:43.673Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:17:58.668Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:09.485Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:18:36.146Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:18:55.325Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08535/local__default__43560	565	691
+SearchInteraction	2018-02-20T15:19:51.131Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:11.465Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:26.739Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:20:46.227Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:08.906Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:21:34.054Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:09.294Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:37.473Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:22:58.680Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:23:07.213Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_spp07302	457	691
+RankedRetrieveRecordInteraction	2018-02-20T15:24:04.027Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/08547/sgml_eu_php_obj_s0033102	459	691
+SearchInteraction	2018-02-20T15:25:53.000Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:07.468Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:26:20.787Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:26:36.257Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2021008/M011_289341	427	691
+SearchInteraction	2018-02-20T15:27:03.977Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:27:16.484Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:27:29.392Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0458	398	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:04.705Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2022608/TFM_SVB_FTT_TSM_0457	399	691
+SearchInteraction	2018-02-20T15:28:22.923Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:36.901Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RefreshOrPaginationInteraction	2018-02-20T15:28:46.914Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691
+RankedRetrieveRecordInteraction	2018-02-20T15:28:56.293Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	/2048436/item_EQ4HDUEPT5HGDIVU4EI2EAEEQBX5JMBM	361	691
+SearchInteraction	2018-02-20T15:29:16.606Z	83c2c6977d3f59eddf912f61a7f665db	 Stettin	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	691

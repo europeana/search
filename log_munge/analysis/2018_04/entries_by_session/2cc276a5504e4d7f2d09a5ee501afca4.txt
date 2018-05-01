@@ -1,0 +1,60 @@
+SearchInteraction	2018-02-27T06:19:38.967Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		4121728
+CollectionFilterRemovalInteraction	2018-02-27T06:20:14.502Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		41427
+RankedRetrieveRecordInteraction	2018-02-27T06:20:27.140Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		/92064/BibliographicResource_1000126218453	3	41427
+ArbitraryAccessInteraction	2018-02-27T06:21:14.616Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T06:21:49.391Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4813354.html (PortalController#show)
+SearchInteraction	2018-02-27T06:21:58.165Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset		1086
+SearchInteraction	2018-02-27T06:22:16.086Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:31.964Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69151_html	10	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:49.917Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69150_html	11	761
+RankedRetrieveRecordInteraction	2018-02-27T06:23:09.931Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_d_zoomify53816_html	4	761
+SearchInteraction	2018-02-27T06:23:32.930Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	100
+RankedRetrieveRecordInteraction	2018-02-27T06:23:58.434Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117221472	10	100
+SearchInteraction	2018-02-27T06:19:38.967Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		4121728
+CollectionFilterRemovalInteraction	2018-02-27T06:20:14.502Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		41427
+RankedRetrieveRecordInteraction	2018-02-27T06:20:27.140Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		/92064/BibliographicResource_1000126218453	3	41427
+ArbitraryAccessInteraction	2018-02-27T06:21:14.616Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T06:21:49.391Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4813354.html (PortalController#show)
+SearchInteraction	2018-02-27T06:21:58.165Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset		1086
+SearchInteraction	2018-02-27T06:22:16.086Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:31.964Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69151_html	10	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:49.917Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69150_html	11	761
+RankedRetrieveRecordInteraction	2018-02-27T06:23:09.931Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_d_zoomify53816_html	4	761
+SearchInteraction	2018-02-27T06:23:32.930Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	100
+RankedRetrieveRecordInteraction	2018-02-27T06:23:58.434Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117221472	10	100
+SearchInteraction	2018-02-27T06:19:38.967Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		4121728
+CollectionFilterRemovalInteraction	2018-02-27T06:20:14.502Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		41427
+RankedRetrieveRecordInteraction	2018-02-27T06:20:27.140Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		/92064/BibliographicResource_1000126218453	3	41427
+ArbitraryAccessInteraction	2018-02-27T06:21:14.616Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T06:21:49.391Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4813354.html (PortalController#show)
+SearchInteraction	2018-02-27T06:21:58.165Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset		1086
+SearchInteraction	2018-02-27T06:22:16.086Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:31.964Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69151_html	10	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:49.917Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69150_html	11	761
+RankedRetrieveRecordInteraction	2018-02-27T06:23:09.931Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_d_zoomify53816_html	4	761
+SearchInteraction	2018-02-27T06:23:32.930Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	100
+RankedRetrieveRecordInteraction	2018-02-27T06:23:58.434Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117221472	10	100
+SearchInteraction	2018-02-27T06:19:38.967Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		4121728
+CollectionFilterRemovalInteraction	2018-02-27T06:20:14.502Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		41427
+RankedRetrieveRecordInteraction	2018-02-27T06:20:27.140Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		/92064/BibliographicResource_1000126218453	3	41427
+ArbitraryAccessInteraction	2018-02-27T06:21:14.616Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T06:21:49.391Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4813354.html (PortalController#show)
+SearchInteraction	2018-02-27T06:21:58.165Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset		1086
+SearchInteraction	2018-02-27T06:22:16.086Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:31.964Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69151_html	10	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:49.917Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69150_html	11	761
+RankedRetrieveRecordInteraction	2018-02-27T06:23:09.931Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_d_zoomify53816_html	4	761
+SearchInteraction	2018-02-27T06:23:32.930Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	100
+RankedRetrieveRecordInteraction	2018-02-27T06:23:58.434Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117221472	10	100
+SearchInteraction	2018-02-27T06:19:38.967Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		4121728
+CollectionFilterRemovalInteraction	2018-02-27T06:20:14.502Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		41427
+RankedRetrieveRecordInteraction	2018-02-27T06:20:27.140Z	2cc276a5504e4d7f2d09a5ee501afca4	NO VALUE PROVIDED		/92064/BibliographicResource_1000126218453	3	41427
+ArbitraryAccessInteraction	2018-02-27T06:21:14.616Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4815675.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-27T06:21:49.391Z	2cc276a5504e4d7f2d09a5ee501afca4	[200] GET /portal/en/record/9200291/bildarchivaustria_at_Preview_4813354.html (PortalController#show)
+SearchInteraction	2018-02-27T06:21:58.165Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset		1086
+SearchInteraction	2018-02-27T06:22:16.086Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:31.964Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69151_html	10	761
+RankedRetrieveRecordInteraction	2018-02-27T06:22:49.917Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_apac_other_zoomify69150_html	11	761
+RankedRetrieveRecordInteraction	2018-02-27T06:23:09.931Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'TYPE': ['IMAGE']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_d_zoomify53816_html	4	761
+SearchInteraction	2018-02-27T06:23:32.930Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	100
+RankedRetrieveRecordInteraction	2018-02-27T06:23:58.434Z	2cc276a5504e4d7f2d09a5ee501afca4	sunset	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	/9200166/BibliographicResource_3000117221472	10	100

@@ -1,0 +1,730 @@
+SearchInteraction	2018-02-08T11:05:47.303Z	58f5acd264cb290225932b3513731ccc	"charles darwin" OR "darwin, charles"		267
+SearchInteraction	2018-02-08T11:05:53.200Z	58f5acd264cb290225932b3513731ccc	who:(Linnaeus OR "Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus") OR what:("Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus")		1339
+SearchInteraction	2018-02-08T11:06:13.534Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+RankedRetrieveRecordInteraction	2018-02-08T11:06:22.794Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		/2021648/1297_C1968Z_47	12	27
+SearchInteraction	2018-02-08T11:06:28.940Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+SearchInteraction	2018-02-08T11:08:32.114Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:08:44.980Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+CollectionFilterAdditionInteraction	2018-02-08T11:08:57.009Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		0
+CollectionFilterRemovalInteraction	2018-02-08T11:09:03.417Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:12.605Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:18.883Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+SearchInteraction	2018-02-08T11:22:02.157Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		50937
+CollectionFilterRemovalInteraction	2018-02-08T11:22:05.734Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+RefreshOrPaginationInteraction	2018-02-08T11:22:08.522Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:12.947Z	58f5acd264cb290225932b3513731ccc	space		41929
+SearchInteraction	2018-02-08T11:22:30.074Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:38.768Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:05.188Z	58f5acd264cb290225932b3513731ccc	ruimte		0
+CollectionFilterRemovalInteraction	2018-02-08T11:23:08.676Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:14.660Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+RefreshOrPaginationInteraction	2018-02-08T11:23:15.694Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+SearchInteraction	2018-02-08T11:23:22.700Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		456246
+SearchInteraction	2018-02-08T11:23:55.937Z	58f5acd264cb290225932b3513731ccc	Astronomie		417
+SearchInteraction	2018-02-08T11:24:23.344Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+RefreshOrPaginationInteraction	2018-02-08T11:24:33.887Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+SearchInteraction	2018-02-08T11:24:40.937Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-08T11:24:50.444Z	58f5acd264cb290225932b3513731ccc	astroniomie	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-08T11:26:19.313Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-10T12:07:41.263Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+SearchInteraction	2018-02-10T12:07:42.005Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+CollectionFilterAdditionInteraction	2018-02-10T12:09:12.342Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		0
+SearchInteraction	2018-02-10T12:09:16.496Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RefreshOrPaginationInteraction	2018-02-10T12:09:24.728Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RankedRetrieveRecordInteraction	2018-02-10T12:11:45.195Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA04_SFA006004074	16	9616
+RankedRetrieveRecordInteraction	2018-02-10T12:39:46.027Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA03_SFA022827372	20	9616
+SearchInteraction	2018-02-10T12:40:15.780Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+SearchInteraction	2018-02-10T12:40:48.174Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T12:40:54.019Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:07.362Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:16.024Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:54.579Z	58f5acd264cb290225932b3513731ccc	sport		143536
+SearchInteraction	2018-02-11T09:29:02.979Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-11T09:29:10.765Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:10.423Z	58f5acd264cb290225932b3513731ccc	muybridge		/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_h_zoomify54244_html	1	294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:54.125Z	58f5acd264cb290225932b3513731ccc	muybridge		/92034/GVNRC_NAGO02_EYE_A19473	2	294
+RankedRetrieveRecordInteraction	2018-02-11T09:35:28.391Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048788	6	294
+SearchInteraction	2018-02-11T09:36:31.562Z	58f5acd264cb290225932b3513731ccc	muybridge		3
+CollectionFilterAdditionInteraction	2018-02-11T09:36:37.857Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:47.660Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:55.327Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:37:01.039Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:40.817Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048749	42	294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:55.171Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048747	44	294
+SearchInteraction	2018-02-13T09:48:36.532Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:42.843Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:48.202Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:53.678Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:49:13.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:16.413Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:42.449Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:22.642Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048749	40	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:45.141Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:07.685Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:30.257Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048744	45	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:55.199Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048725	63	280
+RankedRetrieveRecordInteraction	2018-02-13T09:53:56.154Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048742	47	280
+RankedRetrieveRecordInteraction	2018-02-13T09:54:27.998Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-13T09:55:28.057Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048717	71	280
+SearchInteraction	2018-02-13T09:55:55.814Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:01.964Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048713	75	280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:28.556Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+SearchInteraction	2018-02-13T09:59:53.925Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:00:01.185Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:36:09.058Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2023009/23096B51_priref_17318	16	37
+SearchInteraction	2018-02-13T10:36:16.946Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2023009_Ag_BE_Elocal_Sportimonium)		15027
+SearchInteraction	2018-02-13T10:43:53.040Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:44:30.121Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2021658/OT_0032	36	37
+SearchInteraction	2018-02-13T10:44:40.682Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:44:47.203Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2021658_Ag_NL_DigitaleCollectie_Moluks)		11193
+SearchInteraction	2018-02-13T10:44:52.182Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:45:03.850Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:08.969Z	58f5acd264cb290225932b3513731ccc	topsport		35
+SearchInteraction	2018-02-13T10:45:27.547Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:36.713Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:48.031Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:54.942Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:27.328Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:36.192Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:45.215Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+CollectionFilterRemovalInteraction	2018-02-14T16:05:28.934Z	58f5acd264cb290225932b3513731ccc	Sport 		143288
+CollectionFilterRemovalInteraction	2018-02-16T12:39:40.307Z	58f5acd264cb290225932b3513731ccc	Sport 		143378
+CollectionFilterRemovalInteraction	2018-02-19T19:09:21.521Z	58f5acd264cb290225932b3513731ccc	Sport 		143379
+SearchInteraction	2018-02-21T13:40:52.358Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+RefreshOrPaginationInteraction	2018-02-21T13:40:53.983Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+SearchInteraction	2018-02-21T13:41:03.172Z	58f5acd264cb290225932b3513731ccc	Sport 		143363
+SearchInteraction	2018-02-21T13:41:08.944Z	58f5acd264cb290225932b3513731ccc	sports		122286
+SearchInteraction	2018-02-22T11:12:03.541Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-22T11:12:48.405Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:41.062Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:52.132Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:17:27.915Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048753	36	280
+RankedRetrieveRecordInteraction	2018-02-22T11:19:33.274Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048761	28	280
+RankedRetrieveRecordInteraction	2018-02-22T11:21:23.807Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048760	29	280
+SearchInteraction	2018-02-22T11:22:04.875Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:09.063Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:50.457Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048747	42	280
+RankedRetrieveRecordInteraction	2018-02-22T11:23:02.791Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-22T11:24:23.795Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-22T11:25:24.245Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048723	65	280
+SearchInteraction	2018-02-22T11:26:41.453Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:26:53.574Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048707	80	280
+RankedRetrieveRecordInteraction	2018-02-22T11:27:49.908Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048688	97	280
+RankedRetrieveRecordInteraction	2018-02-22T11:28:44.888Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+RankedRetrieveRecordInteraction	2018-02-22T11:29:53.610Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048684	101	280
+SearchInteraction	2018-02-22T11:30:53.750Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:31:05.710Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048673	111	280
+RankedRetrieveRecordInteraction	2018-02-22T11:34:15.656Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048643	137	280
+RankedRetrieveRecordInteraction	2018-02-22T11:35:24.035Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048639	141	280
+RankedRetrieveRecordInteraction	2018-02-22T11:36:36.370Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048672	112	280
+RankedRetrieveRecordInteraction	2018-02-22T11:39:36.758Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048666	117	280
+RankedRetrieveRecordInteraction	2018-02-22T11:42:07.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048674	110	280
+SearchInteraction	2018-02-22T11:43:02.339Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:43:14.774Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048630	149	280
+RankedRetrieveRecordInteraction	2018-02-22T11:45:02.512Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048617	160	280
+SearchInteraction	2018-02-22T11:47:04.916Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:47:30.743Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048621	156	280
+SearchInteraction	2018-02-22T11:48:53.205Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-22T11:49:01.672Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:06.777Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_L0018599	234	280
+SearchInteraction	2018-02-22T11:49:37.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:48.970Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048782	10	280
+RankedRetrieveRecordInteraction	2018-02-22T11:50:42.042Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048772	18	280
+RankedRetrieveRecordInteraction	2018-02-22T11:51:49.871Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048775	16	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:29.846Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048755	34	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:38.383Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048787	5	280
+RankedRetrieveRecordInteraction	2018-02-22T11:53:15.949Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048784	8	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:04.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048763	26	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:59.627Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048768	21	280
+SearchInteraction	2018-02-22T11:55:57.004Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:56:02.261Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:15.017Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048738	51	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:45.737Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048716	72	280
+RankedRetrieveRecordInteraction	2018-02-22T11:58:04.072Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+SearchInteraction	2018-02-22T11:58:59.694Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:59:26.506Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048693	92	280
+ArbitraryAccessInteraction	2018-02-22T18:07:32.311Z	58f5acd264cb290225932b3513731ccc	[200] GET /portal/nl/record/9200365/BibliographicResource_1000055627012.html (PortalController#show)
+SearchInteraction	2018-02-08T11:05:47.303Z	58f5acd264cb290225932b3513731ccc	"charles darwin" OR "darwin, charles"		267
+SearchInteraction	2018-02-08T11:05:53.200Z	58f5acd264cb290225932b3513731ccc	who:(Linnaeus OR "Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus") OR what:("Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus")		1339
+SearchInteraction	2018-02-08T11:06:13.534Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+RankedRetrieveRecordInteraction	2018-02-08T11:06:22.794Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		/2021648/1297_C1968Z_47	12	27
+SearchInteraction	2018-02-08T11:06:28.940Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+SearchInteraction	2018-02-08T11:08:32.114Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:08:44.980Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+CollectionFilterAdditionInteraction	2018-02-08T11:08:57.009Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		0
+CollectionFilterRemovalInteraction	2018-02-08T11:09:03.417Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:12.605Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:18.883Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+SearchInteraction	2018-02-08T11:22:02.157Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		50937
+CollectionFilterRemovalInteraction	2018-02-08T11:22:05.734Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+RefreshOrPaginationInteraction	2018-02-08T11:22:08.522Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:12.947Z	58f5acd264cb290225932b3513731ccc	space		41929
+SearchInteraction	2018-02-08T11:22:30.074Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:38.768Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:05.188Z	58f5acd264cb290225932b3513731ccc	ruimte		0
+CollectionFilterRemovalInteraction	2018-02-08T11:23:08.676Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:14.660Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+RefreshOrPaginationInteraction	2018-02-08T11:23:15.694Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+SearchInteraction	2018-02-08T11:23:22.700Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		456246
+SearchInteraction	2018-02-08T11:23:55.937Z	58f5acd264cb290225932b3513731ccc	Astronomie		417
+SearchInteraction	2018-02-08T11:24:23.344Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+RefreshOrPaginationInteraction	2018-02-08T11:24:33.887Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+SearchInteraction	2018-02-08T11:24:40.937Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-08T11:24:50.444Z	58f5acd264cb290225932b3513731ccc	astroniomie	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-08T11:26:19.313Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-10T12:07:41.263Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+SearchInteraction	2018-02-10T12:07:42.005Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+CollectionFilterAdditionInteraction	2018-02-10T12:09:12.342Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		0
+SearchInteraction	2018-02-10T12:09:16.496Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RefreshOrPaginationInteraction	2018-02-10T12:09:24.728Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RankedRetrieveRecordInteraction	2018-02-10T12:11:45.195Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA04_SFA006004074	16	9616
+RankedRetrieveRecordInteraction	2018-02-10T12:39:46.027Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA03_SFA022827372	20	9616
+SearchInteraction	2018-02-10T12:40:15.780Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+SearchInteraction	2018-02-10T12:40:48.174Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T12:40:54.019Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:07.362Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:16.024Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:54.579Z	58f5acd264cb290225932b3513731ccc	sport		143536
+SearchInteraction	2018-02-11T09:29:02.979Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-11T09:29:10.765Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:10.423Z	58f5acd264cb290225932b3513731ccc	muybridge		/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_h_zoomify54244_html	1	294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:54.125Z	58f5acd264cb290225932b3513731ccc	muybridge		/92034/GVNRC_NAGO02_EYE_A19473	2	294
+RankedRetrieveRecordInteraction	2018-02-11T09:35:28.391Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048788	6	294
+SearchInteraction	2018-02-11T09:36:31.562Z	58f5acd264cb290225932b3513731ccc	muybridge		3
+CollectionFilterAdditionInteraction	2018-02-11T09:36:37.857Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:47.660Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:55.327Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:37:01.039Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:40.817Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048749	42	294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:55.171Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048747	44	294
+SearchInteraction	2018-02-13T09:48:36.532Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:42.843Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:48.202Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:53.678Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:49:13.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:16.413Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:42.449Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:22.642Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048749	40	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:45.141Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:07.685Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:30.257Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048744	45	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:55.199Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048725	63	280
+RankedRetrieveRecordInteraction	2018-02-13T09:53:56.154Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048742	47	280
+RankedRetrieveRecordInteraction	2018-02-13T09:54:27.998Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-13T09:55:28.057Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048717	71	280
+SearchInteraction	2018-02-13T09:55:55.814Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:01.964Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048713	75	280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:28.556Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+SearchInteraction	2018-02-13T09:59:53.925Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:00:01.185Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:36:09.058Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2023009/23096B51_priref_17318	16	37
+SearchInteraction	2018-02-13T10:36:16.946Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2023009_Ag_BE_Elocal_Sportimonium)		15027
+SearchInteraction	2018-02-13T10:43:53.040Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:44:30.121Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2021658/OT_0032	36	37
+SearchInteraction	2018-02-13T10:44:40.682Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:44:47.203Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2021658_Ag_NL_DigitaleCollectie_Moluks)		11193
+SearchInteraction	2018-02-13T10:44:52.182Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:45:03.850Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:08.969Z	58f5acd264cb290225932b3513731ccc	topsport		35
+SearchInteraction	2018-02-13T10:45:27.547Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:36.713Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:48.031Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:54.942Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:27.328Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:36.192Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:45.215Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+CollectionFilterRemovalInteraction	2018-02-14T16:05:28.934Z	58f5acd264cb290225932b3513731ccc	Sport 		143288
+CollectionFilterRemovalInteraction	2018-02-16T12:39:40.307Z	58f5acd264cb290225932b3513731ccc	Sport 		143378
+CollectionFilterRemovalInteraction	2018-02-19T19:09:21.521Z	58f5acd264cb290225932b3513731ccc	Sport 		143379
+SearchInteraction	2018-02-21T13:40:52.358Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+RefreshOrPaginationInteraction	2018-02-21T13:40:53.983Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+SearchInteraction	2018-02-21T13:41:03.172Z	58f5acd264cb290225932b3513731ccc	Sport 		143363
+SearchInteraction	2018-02-21T13:41:08.944Z	58f5acd264cb290225932b3513731ccc	sports		122286
+SearchInteraction	2018-02-22T11:12:03.541Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-22T11:12:48.405Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:41.062Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:52.132Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:17:27.915Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048753	36	280
+RankedRetrieveRecordInteraction	2018-02-22T11:19:33.274Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048761	28	280
+RankedRetrieveRecordInteraction	2018-02-22T11:21:23.807Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048760	29	280
+SearchInteraction	2018-02-22T11:22:04.875Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:09.063Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:50.457Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048747	42	280
+RankedRetrieveRecordInteraction	2018-02-22T11:23:02.791Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-22T11:24:23.795Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-22T11:25:24.245Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048723	65	280
+SearchInteraction	2018-02-22T11:26:41.453Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:26:53.574Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048707	80	280
+RankedRetrieveRecordInteraction	2018-02-22T11:27:49.908Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048688	97	280
+RankedRetrieveRecordInteraction	2018-02-22T11:28:44.888Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+RankedRetrieveRecordInteraction	2018-02-22T11:29:53.610Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048684	101	280
+SearchInteraction	2018-02-22T11:30:53.750Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:31:05.710Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048673	111	280
+RankedRetrieveRecordInteraction	2018-02-22T11:34:15.656Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048643	137	280
+RankedRetrieveRecordInteraction	2018-02-22T11:35:24.035Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048639	141	280
+RankedRetrieveRecordInteraction	2018-02-22T11:36:36.370Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048672	112	280
+RankedRetrieveRecordInteraction	2018-02-22T11:39:36.758Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048666	117	280
+RankedRetrieveRecordInteraction	2018-02-22T11:42:07.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048674	110	280
+SearchInteraction	2018-02-22T11:43:02.339Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:43:14.774Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048630	149	280
+RankedRetrieveRecordInteraction	2018-02-22T11:45:02.512Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048617	160	280
+SearchInteraction	2018-02-22T11:47:04.916Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:47:30.743Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048621	156	280
+SearchInteraction	2018-02-22T11:48:53.205Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-22T11:49:01.672Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:06.777Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_L0018599	234	280
+SearchInteraction	2018-02-22T11:49:37.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:48.970Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048782	10	280
+RankedRetrieveRecordInteraction	2018-02-22T11:50:42.042Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048772	18	280
+RankedRetrieveRecordInteraction	2018-02-22T11:51:49.871Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048775	16	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:29.846Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048755	34	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:38.383Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048787	5	280
+RankedRetrieveRecordInteraction	2018-02-22T11:53:15.949Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048784	8	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:04.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048763	26	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:59.627Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048768	21	280
+SearchInteraction	2018-02-22T11:55:57.004Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:56:02.261Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:15.017Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048738	51	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:45.737Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048716	72	280
+RankedRetrieveRecordInteraction	2018-02-22T11:58:04.072Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+SearchInteraction	2018-02-22T11:58:59.694Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:59:26.506Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048693	92	280
+ArbitraryAccessInteraction	2018-02-22T18:07:32.311Z	58f5acd264cb290225932b3513731ccc	[200] GET /portal/nl/record/9200365/BibliographicResource_1000055627012.html (PortalController#show)
+SearchInteraction	2018-02-08T11:05:47.303Z	58f5acd264cb290225932b3513731ccc	"charles darwin" OR "darwin, charles"		267
+SearchInteraction	2018-02-08T11:05:53.200Z	58f5acd264cb290225932b3513731ccc	who:(Linnaeus OR "Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus") OR what:("Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus")		1339
+SearchInteraction	2018-02-08T11:06:13.534Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+RankedRetrieveRecordInteraction	2018-02-08T11:06:22.794Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		/2021648/1297_C1968Z_47	12	27
+SearchInteraction	2018-02-08T11:06:28.940Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+SearchInteraction	2018-02-08T11:08:32.114Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:08:44.980Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+CollectionFilterAdditionInteraction	2018-02-08T11:08:57.009Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		0
+CollectionFilterRemovalInteraction	2018-02-08T11:09:03.417Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:12.605Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:18.883Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+SearchInteraction	2018-02-08T11:22:02.157Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		50937
+CollectionFilterRemovalInteraction	2018-02-08T11:22:05.734Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+RefreshOrPaginationInteraction	2018-02-08T11:22:08.522Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:12.947Z	58f5acd264cb290225932b3513731ccc	space		41929
+SearchInteraction	2018-02-08T11:22:30.074Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:38.768Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:05.188Z	58f5acd264cb290225932b3513731ccc	ruimte		0
+CollectionFilterRemovalInteraction	2018-02-08T11:23:08.676Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:14.660Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+RefreshOrPaginationInteraction	2018-02-08T11:23:15.694Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+SearchInteraction	2018-02-08T11:23:22.700Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		456246
+SearchInteraction	2018-02-08T11:23:55.937Z	58f5acd264cb290225932b3513731ccc	Astronomie		417
+SearchInteraction	2018-02-08T11:24:23.344Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+RefreshOrPaginationInteraction	2018-02-08T11:24:33.887Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+SearchInteraction	2018-02-08T11:24:40.937Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-08T11:24:50.444Z	58f5acd264cb290225932b3513731ccc	astroniomie	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-08T11:26:19.313Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-10T12:07:41.263Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+SearchInteraction	2018-02-10T12:07:42.005Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+CollectionFilterAdditionInteraction	2018-02-10T12:09:12.342Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		0
+SearchInteraction	2018-02-10T12:09:16.496Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RefreshOrPaginationInteraction	2018-02-10T12:09:24.728Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RankedRetrieveRecordInteraction	2018-02-10T12:11:45.195Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA04_SFA006004074	16	9616
+RankedRetrieveRecordInteraction	2018-02-10T12:39:46.027Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA03_SFA022827372	20	9616
+SearchInteraction	2018-02-10T12:40:15.780Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+SearchInteraction	2018-02-10T12:40:48.174Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T12:40:54.019Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:07.362Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:16.024Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:54.579Z	58f5acd264cb290225932b3513731ccc	sport		143536
+SearchInteraction	2018-02-11T09:29:02.979Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-11T09:29:10.765Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:10.423Z	58f5acd264cb290225932b3513731ccc	muybridge		/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_h_zoomify54244_html	1	294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:54.125Z	58f5acd264cb290225932b3513731ccc	muybridge		/92034/GVNRC_NAGO02_EYE_A19473	2	294
+RankedRetrieveRecordInteraction	2018-02-11T09:35:28.391Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048788	6	294
+SearchInteraction	2018-02-11T09:36:31.562Z	58f5acd264cb290225932b3513731ccc	muybridge		3
+CollectionFilterAdditionInteraction	2018-02-11T09:36:37.857Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:47.660Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:55.327Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:37:01.039Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:40.817Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048749	42	294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:55.171Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048747	44	294
+SearchInteraction	2018-02-13T09:48:36.532Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:42.843Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:48.202Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:53.678Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:49:13.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:16.413Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:42.449Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:22.642Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048749	40	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:45.141Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:07.685Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:30.257Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048744	45	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:55.199Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048725	63	280
+RankedRetrieveRecordInteraction	2018-02-13T09:53:56.154Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048742	47	280
+RankedRetrieveRecordInteraction	2018-02-13T09:54:27.998Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-13T09:55:28.057Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048717	71	280
+SearchInteraction	2018-02-13T09:55:55.814Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:01.964Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048713	75	280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:28.556Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+SearchInteraction	2018-02-13T09:59:53.925Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:00:01.185Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:36:09.058Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2023009/23096B51_priref_17318	16	37
+SearchInteraction	2018-02-13T10:36:16.946Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2023009_Ag_BE_Elocal_Sportimonium)		15027
+SearchInteraction	2018-02-13T10:43:53.040Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:44:30.121Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2021658/OT_0032	36	37
+SearchInteraction	2018-02-13T10:44:40.682Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:44:47.203Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2021658_Ag_NL_DigitaleCollectie_Moluks)		11193
+SearchInteraction	2018-02-13T10:44:52.182Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:45:03.850Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:08.969Z	58f5acd264cb290225932b3513731ccc	topsport		35
+SearchInteraction	2018-02-13T10:45:27.547Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:36.713Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:48.031Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:54.942Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:27.328Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:36.192Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:45.215Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+CollectionFilterRemovalInteraction	2018-02-14T16:05:28.934Z	58f5acd264cb290225932b3513731ccc	Sport 		143288
+CollectionFilterRemovalInteraction	2018-02-16T12:39:40.307Z	58f5acd264cb290225932b3513731ccc	Sport 		143378
+CollectionFilterRemovalInteraction	2018-02-19T19:09:21.521Z	58f5acd264cb290225932b3513731ccc	Sport 		143379
+SearchInteraction	2018-02-21T13:40:52.358Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+RefreshOrPaginationInteraction	2018-02-21T13:40:53.983Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+SearchInteraction	2018-02-21T13:41:03.172Z	58f5acd264cb290225932b3513731ccc	Sport 		143363
+SearchInteraction	2018-02-21T13:41:08.944Z	58f5acd264cb290225932b3513731ccc	sports		122286
+SearchInteraction	2018-02-22T11:12:03.541Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-22T11:12:48.405Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:41.062Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:52.132Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:17:27.915Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048753	36	280
+RankedRetrieveRecordInteraction	2018-02-22T11:19:33.274Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048761	28	280
+RankedRetrieveRecordInteraction	2018-02-22T11:21:23.807Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048760	29	280
+SearchInteraction	2018-02-22T11:22:04.875Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:09.063Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:50.457Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048747	42	280
+RankedRetrieveRecordInteraction	2018-02-22T11:23:02.791Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-22T11:24:23.795Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-22T11:25:24.245Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048723	65	280
+SearchInteraction	2018-02-22T11:26:41.453Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:26:53.574Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048707	80	280
+RankedRetrieveRecordInteraction	2018-02-22T11:27:49.908Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048688	97	280
+RankedRetrieveRecordInteraction	2018-02-22T11:28:44.888Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+RankedRetrieveRecordInteraction	2018-02-22T11:29:53.610Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048684	101	280
+SearchInteraction	2018-02-22T11:30:53.750Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:31:05.710Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048673	111	280
+RankedRetrieveRecordInteraction	2018-02-22T11:34:15.656Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048643	137	280
+RankedRetrieveRecordInteraction	2018-02-22T11:35:24.035Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048639	141	280
+RankedRetrieveRecordInteraction	2018-02-22T11:36:36.370Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048672	112	280
+RankedRetrieveRecordInteraction	2018-02-22T11:39:36.758Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048666	117	280
+RankedRetrieveRecordInteraction	2018-02-22T11:42:07.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048674	110	280
+SearchInteraction	2018-02-22T11:43:02.339Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:43:14.774Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048630	149	280
+RankedRetrieveRecordInteraction	2018-02-22T11:45:02.512Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048617	160	280
+SearchInteraction	2018-02-22T11:47:04.916Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:47:30.743Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048621	156	280
+SearchInteraction	2018-02-22T11:48:53.205Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-22T11:49:01.672Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:06.777Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_L0018599	234	280
+SearchInteraction	2018-02-22T11:49:37.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:48.970Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048782	10	280
+RankedRetrieveRecordInteraction	2018-02-22T11:50:42.042Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048772	18	280
+RankedRetrieveRecordInteraction	2018-02-22T11:51:49.871Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048775	16	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:29.846Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048755	34	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:38.383Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048787	5	280
+RankedRetrieveRecordInteraction	2018-02-22T11:53:15.949Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048784	8	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:04.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048763	26	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:59.627Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048768	21	280
+SearchInteraction	2018-02-22T11:55:57.004Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:56:02.261Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:15.017Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048738	51	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:45.737Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048716	72	280
+RankedRetrieveRecordInteraction	2018-02-22T11:58:04.072Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+SearchInteraction	2018-02-22T11:58:59.694Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:59:26.506Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048693	92	280
+ArbitraryAccessInteraction	2018-02-22T18:07:32.311Z	58f5acd264cb290225932b3513731ccc	[200] GET /portal/nl/record/9200365/BibliographicResource_1000055627012.html (PortalController#show)
+SearchInteraction	2018-02-08T11:05:47.303Z	58f5acd264cb290225932b3513731ccc	"charles darwin" OR "darwin, charles"		267
+SearchInteraction	2018-02-08T11:05:53.200Z	58f5acd264cb290225932b3513731ccc	who:(Linnaeus OR "Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus") OR what:("Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus")		1339
+SearchInteraction	2018-02-08T11:06:13.534Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+RankedRetrieveRecordInteraction	2018-02-08T11:06:22.794Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		/2021648/1297_C1968Z_47	12	27
+SearchInteraction	2018-02-08T11:06:28.940Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+SearchInteraction	2018-02-08T11:08:32.114Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:08:44.980Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+CollectionFilterAdditionInteraction	2018-02-08T11:08:57.009Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		0
+CollectionFilterRemovalInteraction	2018-02-08T11:09:03.417Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:12.605Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:18.883Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+SearchInteraction	2018-02-08T11:22:02.157Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		50937
+CollectionFilterRemovalInteraction	2018-02-08T11:22:05.734Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+RefreshOrPaginationInteraction	2018-02-08T11:22:08.522Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:12.947Z	58f5acd264cb290225932b3513731ccc	space		41929
+SearchInteraction	2018-02-08T11:22:30.074Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:38.768Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:05.188Z	58f5acd264cb290225932b3513731ccc	ruimte		0
+CollectionFilterRemovalInteraction	2018-02-08T11:23:08.676Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:14.660Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+RefreshOrPaginationInteraction	2018-02-08T11:23:15.694Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+SearchInteraction	2018-02-08T11:23:22.700Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		456246
+SearchInteraction	2018-02-08T11:23:55.937Z	58f5acd264cb290225932b3513731ccc	Astronomie		417
+SearchInteraction	2018-02-08T11:24:23.344Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+RefreshOrPaginationInteraction	2018-02-08T11:24:33.887Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+SearchInteraction	2018-02-08T11:24:40.937Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-08T11:24:50.444Z	58f5acd264cb290225932b3513731ccc	astroniomie	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-08T11:26:19.313Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-10T12:07:41.263Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+SearchInteraction	2018-02-10T12:07:42.005Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+CollectionFilterAdditionInteraction	2018-02-10T12:09:12.342Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		0
+SearchInteraction	2018-02-10T12:09:16.496Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RefreshOrPaginationInteraction	2018-02-10T12:09:24.728Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RankedRetrieveRecordInteraction	2018-02-10T12:11:45.195Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA04_SFA006004074	16	9616
+RankedRetrieveRecordInteraction	2018-02-10T12:39:46.027Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA03_SFA022827372	20	9616
+SearchInteraction	2018-02-10T12:40:15.780Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+SearchInteraction	2018-02-10T12:40:48.174Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T12:40:54.019Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:07.362Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:16.024Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:54.579Z	58f5acd264cb290225932b3513731ccc	sport		143536
+SearchInteraction	2018-02-11T09:29:02.979Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-11T09:29:10.765Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:10.423Z	58f5acd264cb290225932b3513731ccc	muybridge		/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_h_zoomify54244_html	1	294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:54.125Z	58f5acd264cb290225932b3513731ccc	muybridge		/92034/GVNRC_NAGO02_EYE_A19473	2	294
+RankedRetrieveRecordInteraction	2018-02-11T09:35:28.391Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048788	6	294
+SearchInteraction	2018-02-11T09:36:31.562Z	58f5acd264cb290225932b3513731ccc	muybridge		3
+CollectionFilterAdditionInteraction	2018-02-11T09:36:37.857Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:47.660Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:55.327Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:37:01.039Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:40.817Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048749	42	294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:55.171Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048747	44	294
+SearchInteraction	2018-02-13T09:48:36.532Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:42.843Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:48.202Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:53.678Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:49:13.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:16.413Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:42.449Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:22.642Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048749	40	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:45.141Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:07.685Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:30.257Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048744	45	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:55.199Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048725	63	280
+RankedRetrieveRecordInteraction	2018-02-13T09:53:56.154Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048742	47	280
+RankedRetrieveRecordInteraction	2018-02-13T09:54:27.998Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-13T09:55:28.057Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048717	71	280
+SearchInteraction	2018-02-13T09:55:55.814Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:01.964Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048713	75	280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:28.556Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+SearchInteraction	2018-02-13T09:59:53.925Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:00:01.185Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:36:09.058Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2023009/23096B51_priref_17318	16	37
+SearchInteraction	2018-02-13T10:36:16.946Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2023009_Ag_BE_Elocal_Sportimonium)		15027
+SearchInteraction	2018-02-13T10:43:53.040Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:44:30.121Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2021658/OT_0032	36	37
+SearchInteraction	2018-02-13T10:44:40.682Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:44:47.203Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2021658_Ag_NL_DigitaleCollectie_Moluks)		11193
+SearchInteraction	2018-02-13T10:44:52.182Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:45:03.850Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:08.969Z	58f5acd264cb290225932b3513731ccc	topsport		35
+SearchInteraction	2018-02-13T10:45:27.547Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:36.713Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:48.031Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:54.942Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:27.328Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:36.192Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:45.215Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+CollectionFilterRemovalInteraction	2018-02-14T16:05:28.934Z	58f5acd264cb290225932b3513731ccc	Sport 		143288
+CollectionFilterRemovalInteraction	2018-02-16T12:39:40.307Z	58f5acd264cb290225932b3513731ccc	Sport 		143378
+CollectionFilterRemovalInteraction	2018-02-19T19:09:21.521Z	58f5acd264cb290225932b3513731ccc	Sport 		143379
+SearchInteraction	2018-02-21T13:40:52.358Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+RefreshOrPaginationInteraction	2018-02-21T13:40:53.983Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+SearchInteraction	2018-02-21T13:41:03.172Z	58f5acd264cb290225932b3513731ccc	Sport 		143363
+SearchInteraction	2018-02-21T13:41:08.944Z	58f5acd264cb290225932b3513731ccc	sports		122286
+SearchInteraction	2018-02-22T11:12:03.541Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-22T11:12:48.405Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:41.062Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:52.132Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:17:27.915Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048753	36	280
+RankedRetrieveRecordInteraction	2018-02-22T11:19:33.274Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048761	28	280
+RankedRetrieveRecordInteraction	2018-02-22T11:21:23.807Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048760	29	280
+SearchInteraction	2018-02-22T11:22:04.875Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:09.063Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:50.457Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048747	42	280
+RankedRetrieveRecordInteraction	2018-02-22T11:23:02.791Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-22T11:24:23.795Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-22T11:25:24.245Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048723	65	280
+SearchInteraction	2018-02-22T11:26:41.453Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:26:53.574Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048707	80	280
+RankedRetrieveRecordInteraction	2018-02-22T11:27:49.908Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048688	97	280
+RankedRetrieveRecordInteraction	2018-02-22T11:28:44.888Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+RankedRetrieveRecordInteraction	2018-02-22T11:29:53.610Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048684	101	280
+SearchInteraction	2018-02-22T11:30:53.750Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:31:05.710Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048673	111	280
+RankedRetrieveRecordInteraction	2018-02-22T11:34:15.656Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048643	137	280
+RankedRetrieveRecordInteraction	2018-02-22T11:35:24.035Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048639	141	280
+RankedRetrieveRecordInteraction	2018-02-22T11:36:36.370Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048672	112	280
+RankedRetrieveRecordInteraction	2018-02-22T11:39:36.758Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048666	117	280
+RankedRetrieveRecordInteraction	2018-02-22T11:42:07.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048674	110	280
+SearchInteraction	2018-02-22T11:43:02.339Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:43:14.774Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048630	149	280
+RankedRetrieveRecordInteraction	2018-02-22T11:45:02.512Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048617	160	280
+SearchInteraction	2018-02-22T11:47:04.916Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:47:30.743Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048621	156	280
+SearchInteraction	2018-02-22T11:48:53.205Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-22T11:49:01.672Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:06.777Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_L0018599	234	280
+SearchInteraction	2018-02-22T11:49:37.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:48.970Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048782	10	280
+RankedRetrieveRecordInteraction	2018-02-22T11:50:42.042Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048772	18	280
+RankedRetrieveRecordInteraction	2018-02-22T11:51:49.871Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048775	16	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:29.846Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048755	34	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:38.383Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048787	5	280
+RankedRetrieveRecordInteraction	2018-02-22T11:53:15.949Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048784	8	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:04.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048763	26	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:59.627Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048768	21	280
+SearchInteraction	2018-02-22T11:55:57.004Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:56:02.261Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:15.017Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048738	51	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:45.737Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048716	72	280
+RankedRetrieveRecordInteraction	2018-02-22T11:58:04.072Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+SearchInteraction	2018-02-22T11:58:59.694Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:59:26.506Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048693	92	280
+ArbitraryAccessInteraction	2018-02-22T18:07:32.311Z	58f5acd264cb290225932b3513731ccc	[200] GET /portal/nl/record/9200365/BibliographicResource_1000055627012.html (PortalController#show)
+SearchInteraction	2018-02-08T11:05:47.303Z	58f5acd264cb290225932b3513731ccc	"charles darwin" OR "darwin, charles"		267
+SearchInteraction	2018-02-08T11:05:53.200Z	58f5acd264cb290225932b3513731ccc	who:(Linnaeus OR "Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus") OR what:("Carl von Linné" OR "von Linné, Carl" OR "Carl Linnaeus")		1339
+SearchInteraction	2018-02-08T11:06:13.534Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+RankedRetrieveRecordInteraction	2018-02-08T11:06:22.794Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		/2021648/1297_C1968Z_47	12	27
+SearchInteraction	2018-02-08T11:06:28.940Z	58f5acd264cb290225932b3513731ccc	(olympics OR olympiade OR "olympiska spelen" OR "jeux olympiques" OR "Olympische Spelen") AND (what:poster)		27
+SearchInteraction	2018-02-08T11:08:32.114Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:08:44.980Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+CollectionFilterAdditionInteraction	2018-02-08T11:08:57.009Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		0
+CollectionFilterRemovalInteraction	2018-02-08T11:09:03.417Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:12.605Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+RefreshOrPaginationInteraction	2018-02-08T11:09:18.883Z	58f5acd264cb290225932b3513731ccc	TYPE:IMAGE		46277
+SearchInteraction	2018-02-08T11:22:02.157Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		50937
+CollectionFilterRemovalInteraction	2018-02-08T11:22:05.734Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+RefreshOrPaginationInteraction	2018-02-08T11:22:08.522Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:12.947Z	58f5acd264cb290225932b3513731ccc	space		41929
+SearchInteraction	2018-02-08T11:22:30.074Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51542194
+SearchInteraction	2018-02-08T11:22:38.768Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:05.188Z	58f5acd264cb290225932b3513731ccc	ruimte		0
+CollectionFilterRemovalInteraction	2018-02-08T11:23:08.676Z	58f5acd264cb290225932b3513731ccc	ruimte		5489
+CollectionFilterAdditionInteraction	2018-02-08T11:23:14.660Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+RefreshOrPaginationInteraction	2018-02-08T11:23:15.694Z	58f5acd264cb290225932b3513731ccc	ruimte		11
+SearchInteraction	2018-02-08T11:23:22.700Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		456246
+SearchInteraction	2018-02-08T11:23:55.937Z	58f5acd264cb290225932b3513731ccc	Astronomie		417
+SearchInteraction	2018-02-08T11:24:23.344Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+RefreshOrPaginationInteraction	2018-02-08T11:24:33.887Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'COLOURPALETTE': ['#00008B'], 'TYPE': ['IMAGE']}	4739
+SearchInteraction	2018-02-08T11:24:40.937Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-08T11:24:50.444Z	58f5acd264cb290225932b3513731ccc	astroniomie	{'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-08T11:26:19.313Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27298748
+SearchInteraction	2018-02-10T12:07:41.263Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+SearchInteraction	2018-02-10T12:07:42.005Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+CollectionFilterAdditionInteraction	2018-02-10T12:09:12.342Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		0
+SearchInteraction	2018-02-10T12:09:16.496Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RefreshOrPaginationInteraction	2018-02-10T12:09:24.728Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+RankedRetrieveRecordInteraction	2018-02-10T12:11:45.195Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA04_SFA006004074	16	9616
+RankedRetrieveRecordInteraction	2018-02-10T12:39:46.027Z	58f5acd264cb290225932b3513731ccc	beweging		/92034/GVNRC_SFA03_SFA022827372	20	9616
+SearchInteraction	2018-02-10T12:40:15.780Z	58f5acd264cb290225932b3513731ccc	beweging		9616
+SearchInteraction	2018-02-10T12:40:48.174Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-10T12:40:54.019Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:07.362Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:16.024Z	58f5acd264cb290225932b3513731ccc	sport		143536
+RefreshOrPaginationInteraction	2018-02-10T12:41:54.579Z	58f5acd264cb290225932b3513731ccc	sport		143536
+SearchInteraction	2018-02-11T09:29:02.979Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51532090
+SearchInteraction	2018-02-11T09:29:10.765Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:10.423Z	58f5acd264cb290225932b3513731ccc	muybridge		/92037/_http___www_bl_uk_onlinegallery_onlineex_earlyphotos_h_zoomify54244_html	1	294
+RankedRetrieveRecordInteraction	2018-02-11T09:34:54.125Z	58f5acd264cb290225932b3513731ccc	muybridge		/92034/GVNRC_NAGO02_EYE_A19473	2	294
+RankedRetrieveRecordInteraction	2018-02-11T09:35:28.391Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048788	6	294
+SearchInteraction	2018-02-11T09:36:31.562Z	58f5acd264cb290225932b3513731ccc	muybridge		3
+CollectionFilterAdditionInteraction	2018-02-11T09:36:37.857Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:47.660Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:36:55.327Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RefreshOrPaginationInteraction	2018-02-11T09:37:01.039Z	58f5acd264cb290225932b3513731ccc	muybridge		294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:40.817Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048749	42	294
+RankedRetrieveRecordInteraction	2018-02-11T09:37:55.171Z	58f5acd264cb290225932b3513731ccc	muybridge		/9200105/wellcome_historical_images_V0048747	44	294
+SearchInteraction	2018-02-13T09:48:36.532Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:42.843Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:48.202Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:48:53.678Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-13T09:49:13.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:16.413Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:49:42.449Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:22.642Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048749	40	280
+RankedRetrieveRecordInteraction	2018-02-13T09:50:45.141Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:07.685Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:30.257Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048744	45	280
+RankedRetrieveRecordInteraction	2018-02-13T09:51:55.199Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048725	63	280
+RankedRetrieveRecordInteraction	2018-02-13T09:53:56.154Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048742	47	280
+RankedRetrieveRecordInteraction	2018-02-13T09:54:27.998Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-13T09:55:28.057Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048717	71	280
+SearchInteraction	2018-02-13T09:55:55.814Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:01.964Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048713	75	280
+RankedRetrieveRecordInteraction	2018-02-13T09:56:28.556Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+SearchInteraction	2018-02-13T09:59:53.925Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:00:01.185Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:36:09.058Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2023009/23096B51_priref_17318	16	37
+SearchInteraction	2018-02-13T10:36:16.946Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2023009_Ag_BE_Elocal_Sportimonium)		15027
+SearchInteraction	2018-02-13T10:43:53.040Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		37
+RankedRetrieveRecordInteraction	2018-02-13T10:44:30.121Z	58f5acd264cb290225932b3513731ccc	lichaamsbeweging		/2021658/OT_0032	36	37
+SearchInteraction	2018-02-13T10:44:40.682Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:44:47.203Z	58f5acd264cb290225932b3513731ccc	europeana_collectionName:(2021658_Ag_NL_DigitaleCollectie_Moluks)		11193
+SearchInteraction	2018-02-13T10:44:52.182Z	58f5acd264cb290225932b3513731ccc	proxy_dcterms_isPartOf:"Collectie O. Tatipikalawan"		637
+SearchInteraction	2018-02-13T10:45:03.850Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:08.969Z	58f5acd264cb290225932b3513731ccc	topsport		35
+SearchInteraction	2018-02-13T10:45:27.547Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-13T10:45:36.713Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:48.031Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T10:45:54.942Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:27.328Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:36.192Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+RefreshOrPaginationInteraction	2018-02-13T11:31:45.215Z	58f5acd264cb290225932b3513731ccc	Sport 		143276
+CollectionFilterRemovalInteraction	2018-02-14T16:05:28.934Z	58f5acd264cb290225932b3513731ccc	Sport 		143288
+CollectionFilterRemovalInteraction	2018-02-16T12:39:40.307Z	58f5acd264cb290225932b3513731ccc	Sport 		143378
+CollectionFilterRemovalInteraction	2018-02-19T19:09:21.521Z	58f5acd264cb290225932b3513731ccc	Sport 		143379
+SearchInteraction	2018-02-21T13:40:52.358Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+RefreshOrPaginationInteraction	2018-02-21T13:40:53.983Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51517410
+SearchInteraction	2018-02-21T13:41:03.172Z	58f5acd264cb290225932b3513731ccc	Sport 		143363
+SearchInteraction	2018-02-21T13:41:08.944Z	58f5acd264cb290225932b3513731ccc	sports		122286
+SearchInteraction	2018-02-22T11:12:03.541Z	58f5acd264cb290225932b3513731ccc	NO VALUE PROVIDED		51594103
+SearchInteraction	2018-02-22T11:12:48.405Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:41.062Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:15:52.132Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048767	22	280
+RankedRetrieveRecordInteraction	2018-02-22T11:17:27.915Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048753	36	280
+RankedRetrieveRecordInteraction	2018-02-22T11:19:33.274Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048761	28	280
+RankedRetrieveRecordInteraction	2018-02-22T11:21:23.807Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048760	29	280
+SearchInteraction	2018-02-22T11:22:04.875Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:09.063Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+RankedRetrieveRecordInteraction	2018-02-22T11:22:50.457Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048747	42	280
+RankedRetrieveRecordInteraction	2018-02-22T11:23:02.791Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048739	50	280
+RankedRetrieveRecordInteraction	2018-02-22T11:24:23.795Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048743	46	280
+RankedRetrieveRecordInteraction	2018-02-22T11:25:24.245Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048723	65	280
+SearchInteraction	2018-02-22T11:26:41.453Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:26:53.574Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048707	80	280
+RankedRetrieveRecordInteraction	2018-02-22T11:27:49.908Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048688	97	280
+RankedRetrieveRecordInteraction	2018-02-22T11:28:44.888Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048704	83	280
+RankedRetrieveRecordInteraction	2018-02-22T11:29:53.610Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048684	101	280
+SearchInteraction	2018-02-22T11:30:53.750Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:31:05.710Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048673	111	280
+RankedRetrieveRecordInteraction	2018-02-22T11:34:15.656Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048643	137	280
+RankedRetrieveRecordInteraction	2018-02-22T11:35:24.035Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048639	141	280
+RankedRetrieveRecordInteraction	2018-02-22T11:36:36.370Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048672	112	280
+RankedRetrieveRecordInteraction	2018-02-22T11:39:36.758Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048666	117	280
+RankedRetrieveRecordInteraction	2018-02-22T11:42:07.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048674	110	280
+SearchInteraction	2018-02-22T11:43:02.339Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:43:14.774Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048630	149	280
+RankedRetrieveRecordInteraction	2018-02-22T11:45:02.512Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048617	160	280
+SearchInteraction	2018-02-22T11:47:04.916Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:47:30.743Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048621	156	280
+SearchInteraction	2018-02-22T11:48:53.205Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RefreshOrPaginationInteraction	2018-02-22T11:49:01.672Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:06.777Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_L0018599	234	280
+SearchInteraction	2018-02-22T11:49:37.354Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:49:48.970Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048782	10	280
+RankedRetrieveRecordInteraction	2018-02-22T11:50:42.042Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048772	18	280
+RankedRetrieveRecordInteraction	2018-02-22T11:51:49.871Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048775	16	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:29.846Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048755	34	280
+RankedRetrieveRecordInteraction	2018-02-22T11:52:38.383Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048787	5	280
+RankedRetrieveRecordInteraction	2018-02-22T11:53:15.949Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048784	8	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:04.307Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048763	26	280
+RankedRetrieveRecordInteraction	2018-02-22T11:54:59.627Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048768	21	280
+SearchInteraction	2018-02-22T11:55:57.004Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:56:02.261Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048748	41	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:15.017Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048738	51	280
+RankedRetrieveRecordInteraction	2018-02-22T11:57:45.737Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048716	72	280
+RankedRetrieveRecordInteraction	2018-02-22T11:58:04.072Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048750	39	280
+SearchInteraction	2018-02-22T11:58:59.694Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		280
+RankedRetrieveRecordInteraction	2018-02-22T11:59:26.506Z	58f5acd264cb290225932b3513731ccc	Eadweard Muybridge		/9200105/wellcome_historical_images_V0048693	92	280
+ArbitraryAccessInteraction	2018-02-22T18:07:32.311Z	58f5acd264cb290225932b3513731ccc	[200] GET /portal/nl/record/9200365/BibliographicResource_1000055627012.html (PortalController#show)

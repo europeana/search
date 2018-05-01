@@ -1,0 +1,145 @@
+SearchInteraction	2018-03-02T18:15:48.819Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:16:26.954Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['VIDEO']}	2
+SearchInteraction	2018-03-02T18:17:21.462Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:17:25.025Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:47.647Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:57.434Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:18:08.018Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:18.373Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2059502/data_foodanddrink_http___www_bildarchivaustria_at_Preview_14274129_jpg	178	201
+SearchInteraction	2018-03-02T18:18:29.456Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:48.821Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/23482	185	201
+RankedRetrieveRecordInteraction	2018-03-02T18:19:18.309Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+SearchInteraction	2018-03-02T18:19:49.609Z	d12bb0ed3af145740399d1aea60e63bb	who:(Necskó)		1
+RankedRetrieveRecordInteraction	2018-03-02T18:20:01.987Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+RankedRetrieveRecordInteraction	2018-03-02T18:20:41.895Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20516	187	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:10.058Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20515	188	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:28.066Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20514	189	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:41.686Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20513	190	201
+SearchInteraction	2018-03-02T18:21:56.592Z	d12bb0ed3af145740399d1aea60e63bb	who:(Lang Károly)		26
+SearchInteraction	2018-03-02T18:22:33.237Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:22:55.356Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048128/352570	199	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:27.492Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2024014/1994860	200	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:43.899Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2022608/MND_NAB1982030118	201	201
+ArbitraryAccessInteraction	2018-03-02T18:24:07.144Z	d12bb0ed3af145740399d1aea60e63bb	[200] GET /portal/en/record/2022608/MND_NAB1983180101.html (PortalController#show)
+SearchInteraction	2018-03-02T18:24:30.697Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		184
+CollectionFilterRemovalInteraction	2018-03-02T18:24:37.836Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:40.914Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:24:46.602Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:57.680Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:25:11.467Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:15:48.819Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:16:26.954Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['VIDEO']}	2
+SearchInteraction	2018-03-02T18:17:21.462Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:17:25.025Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:47.647Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:57.434Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:18:08.018Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:18.373Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2059502/data_foodanddrink_http___www_bildarchivaustria_at_Preview_14274129_jpg	178	201
+SearchInteraction	2018-03-02T18:18:29.456Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:48.821Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/23482	185	201
+RankedRetrieveRecordInteraction	2018-03-02T18:19:18.309Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+SearchInteraction	2018-03-02T18:19:49.609Z	d12bb0ed3af145740399d1aea60e63bb	who:(Necskó)		1
+RankedRetrieveRecordInteraction	2018-03-02T18:20:01.987Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+RankedRetrieveRecordInteraction	2018-03-02T18:20:41.895Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20516	187	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:10.058Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20515	188	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:28.066Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20514	189	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:41.686Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20513	190	201
+SearchInteraction	2018-03-02T18:21:56.592Z	d12bb0ed3af145740399d1aea60e63bb	who:(Lang Károly)		26
+SearchInteraction	2018-03-02T18:22:33.237Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:22:55.356Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048128/352570	199	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:27.492Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2024014/1994860	200	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:43.899Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2022608/MND_NAB1982030118	201	201
+ArbitraryAccessInteraction	2018-03-02T18:24:07.144Z	d12bb0ed3af145740399d1aea60e63bb	[200] GET /portal/en/record/2022608/MND_NAB1983180101.html (PortalController#show)
+SearchInteraction	2018-03-02T18:24:30.697Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		184
+CollectionFilterRemovalInteraction	2018-03-02T18:24:37.836Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:40.914Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:24:46.602Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:57.680Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:25:11.467Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:15:48.819Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:16:26.954Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['VIDEO']}	2
+SearchInteraction	2018-03-02T18:17:21.462Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:17:25.025Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:47.647Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:57.434Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:18:08.018Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:18.373Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2059502/data_foodanddrink_http___www_bildarchivaustria_at_Preview_14274129_jpg	178	201
+SearchInteraction	2018-03-02T18:18:29.456Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:48.821Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/23482	185	201
+RankedRetrieveRecordInteraction	2018-03-02T18:19:18.309Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+SearchInteraction	2018-03-02T18:19:49.609Z	d12bb0ed3af145740399d1aea60e63bb	who:(Necskó)		1
+RankedRetrieveRecordInteraction	2018-03-02T18:20:01.987Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+RankedRetrieveRecordInteraction	2018-03-02T18:20:41.895Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20516	187	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:10.058Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20515	188	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:28.066Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20514	189	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:41.686Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20513	190	201
+SearchInteraction	2018-03-02T18:21:56.592Z	d12bb0ed3af145740399d1aea60e63bb	who:(Lang Károly)		26
+SearchInteraction	2018-03-02T18:22:33.237Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:22:55.356Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048128/352570	199	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:27.492Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2024014/1994860	200	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:43.899Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2022608/MND_NAB1982030118	201	201
+ArbitraryAccessInteraction	2018-03-02T18:24:07.144Z	d12bb0ed3af145740399d1aea60e63bb	[200] GET /portal/en/record/2022608/MND_NAB1983180101.html (PortalController#show)
+SearchInteraction	2018-03-02T18:24:30.697Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		184
+CollectionFilterRemovalInteraction	2018-03-02T18:24:37.836Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:40.914Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:24:46.602Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:57.680Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:25:11.467Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:15:48.819Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:16:26.954Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['VIDEO']}	2
+SearchInteraction	2018-03-02T18:17:21.462Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:17:25.025Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:47.647Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:57.434Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:18:08.018Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:18.373Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2059502/data_foodanddrink_http___www_bildarchivaustria_at_Preview_14274129_jpg	178	201
+SearchInteraction	2018-03-02T18:18:29.456Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:48.821Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/23482	185	201
+RankedRetrieveRecordInteraction	2018-03-02T18:19:18.309Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+SearchInteraction	2018-03-02T18:19:49.609Z	d12bb0ed3af145740399d1aea60e63bb	who:(Necskó)		1
+RankedRetrieveRecordInteraction	2018-03-02T18:20:01.987Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+RankedRetrieveRecordInteraction	2018-03-02T18:20:41.895Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20516	187	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:10.058Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20515	188	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:28.066Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20514	189	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:41.686Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20513	190	201
+SearchInteraction	2018-03-02T18:21:56.592Z	d12bb0ed3af145740399d1aea60e63bb	who:(Lang Károly)		26
+SearchInteraction	2018-03-02T18:22:33.237Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:22:55.356Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048128/352570	199	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:27.492Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2024014/1994860	200	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:43.899Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2022608/MND_NAB1982030118	201	201
+ArbitraryAccessInteraction	2018-03-02T18:24:07.144Z	d12bb0ed3af145740399d1aea60e63bb	[200] GET /portal/en/record/2022608/MND_NAB1983180101.html (PortalController#show)
+SearchInteraction	2018-03-02T18:24:30.697Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		184
+CollectionFilterRemovalInteraction	2018-03-02T18:24:37.836Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:40.914Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:24:46.602Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:57.680Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:25:11.467Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:15:48.819Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:16:26.954Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['VIDEO']}	2
+SearchInteraction	2018-03-02T18:17:21.462Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+SearchInteraction	2018-03-02T18:17:25.025Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:47.647Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:17:57.434Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RefreshOrPaginationInteraction	2018-03-02T18:18:08.018Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:18.373Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2059502/data_foodanddrink_http___www_bildarchivaustria_at_Preview_14274129_jpg	178	201
+SearchInteraction	2018-03-02T18:18:29.456Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:18:48.821Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/23482	185	201
+RankedRetrieveRecordInteraction	2018-03-02T18:19:18.309Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+SearchInteraction	2018-03-02T18:19:49.609Z	d12bb0ed3af145740399d1aea60e63bb	who:(Necskó)		1
+RankedRetrieveRecordInteraction	2018-03-02T18:20:01.987Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20517	186	201
+RankedRetrieveRecordInteraction	2018-03-02T18:20:41.895Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20516	187	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:10.058Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20515	188	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:28.066Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20514	189	201
+RankedRetrieveRecordInteraction	2018-03-02T18:21:41.686Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048214/20513	190	201
+SearchInteraction	2018-03-02T18:21:56.592Z	d12bb0ed3af145740399d1aea60e63bb	who:(Lang Károly)		26
+SearchInteraction	2018-03-02T18:22:33.237Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	201
+RankedRetrieveRecordInteraction	2018-03-02T18:22:55.356Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2048128/352570	199	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:27.492Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2024014/1994860	200	201
+RankedRetrieveRecordInteraction	2018-03-02T18:23:43.899Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda	{'TYPE': ['IMAGE']}	/2022608/MND_NAB1982030118	201	201
+ArbitraryAccessInteraction	2018-03-02T18:24:07.144Z	d12bb0ed3af145740399d1aea60e63bb	[200] GET /portal/en/record/2022608/MND_NAB1983180101.html (PortalController#show)
+SearchInteraction	2018-03-02T18:24:30.697Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		184
+CollectionFilterRemovalInteraction	2018-03-02T18:24:37.836Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:40.914Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:24:46.602Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212
+CollectionFilterAdditionInteraction	2018-03-02T18:24:57.680Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		0
+CollectionFilterRemovalInteraction	2018-03-02T18:25:11.467Z	d12bb0ed3af145740399d1aea60e63bb	Kikinda		212

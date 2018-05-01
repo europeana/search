@@ -1,0 +1,60 @@
+SearchInteraction	2018-02-15T12:36:37.037Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RankedRetrieveRecordInteraction	2018-02-15T12:38:50.655Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		/92004/AIPGGL_NKCR__49_F_000046_15IWWHE_cs	1	94
+ArbitraryAccessInteraction	2018-02-15T12:39:53.307Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-15T12:39:55.498Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:40:24.096Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RefreshOrPaginationInteraction	2018-02-18T22:19:19.207Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:28:07.367Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:28:54.853Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:43:15.735Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:46:49.229Z	3964d796243d9ebdaaeb25af651f56a7	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+ArbitraryAccessInteraction	2018-02-18T22:49:37.998Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-18T22:49:39.459Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:36:37.037Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RankedRetrieveRecordInteraction	2018-02-15T12:38:50.655Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		/92004/AIPGGL_NKCR__49_F_000046_15IWWHE_cs	1	94
+ArbitraryAccessInteraction	2018-02-15T12:39:53.307Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-15T12:39:55.498Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:40:24.096Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RefreshOrPaginationInteraction	2018-02-18T22:19:19.207Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:28:07.367Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:28:54.853Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:43:15.735Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:46:49.229Z	3964d796243d9ebdaaeb25af651f56a7	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+ArbitraryAccessInteraction	2018-02-18T22:49:37.998Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-18T22:49:39.459Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:36:37.037Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RankedRetrieveRecordInteraction	2018-02-15T12:38:50.655Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		/92004/AIPGGL_NKCR__49_F_000046_15IWWHE_cs	1	94
+ArbitraryAccessInteraction	2018-02-15T12:39:53.307Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-15T12:39:55.498Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:40:24.096Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RefreshOrPaginationInteraction	2018-02-18T22:19:19.207Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:28:07.367Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:28:54.853Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:43:15.735Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:46:49.229Z	3964d796243d9ebdaaeb25af651f56a7	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+ArbitraryAccessInteraction	2018-02-18T22:49:37.998Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-18T22:49:39.459Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:36:37.037Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RankedRetrieveRecordInteraction	2018-02-15T12:38:50.655Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		/92004/AIPGGL_NKCR__49_F_000046_15IWWHE_cs	1	94
+ArbitraryAccessInteraction	2018-02-15T12:39:53.307Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-15T12:39:55.498Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:40:24.096Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RefreshOrPaginationInteraction	2018-02-18T22:19:19.207Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:28:07.367Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:28:54.853Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:43:15.735Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:46:49.229Z	3964d796243d9ebdaaeb25af651f56a7	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+ArbitraryAccessInteraction	2018-02-18T22:49:37.998Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-18T22:49:39.459Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:36:37.037Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RankedRetrieveRecordInteraction	2018-02-15T12:38:50.655Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		/92004/AIPGGL_NKCR__49_F_000046_15IWWHE_cs	1	94
+ArbitraryAccessInteraction	2018-02-15T12:39:53.307Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-15T12:39:55.498Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+SearchInteraction	2018-02-15T12:40:24.096Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+RefreshOrPaginationInteraction	2018-02-18T22:19:19.207Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:28:07.367Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:28:54.853Z	3964d796243d9ebdaaeb25af651f56a7	who:(Pohl, Joseph)		94
+ArbitraryAccessInteraction	2018-02-18T22:43:15.735Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/record/9200386/BibliographicResource_3000059108116.html (PortalController#show)
+SearchInteraction	2018-02-18T22:46:49.229Z	3964d796243d9ebdaaeb25af651f56a7	proxy_dcterms_isPartOf:"http://data.theeuropeanlibrary.org/Collection/a1194"		1114275
+ArbitraryAccessInteraction	2018-02-18T22:49:37.998Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-18T22:49:39.459Z	3964d796243d9ebdaaeb25af651f56a7	[200] GET /portal/pt/explore/people/30993-joseph-pohl.html (EntitiesController#show)

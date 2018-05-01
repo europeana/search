@@ -1,0 +1,70 @@
+SearchInteraction	2018-02-22T09:01:03.802Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:01:22.759Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		7
+CollectionFilterRemovalInteraction	2018-02-22T09:03:05.903Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:03:13.252Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+RefreshOrPaginationInteraction	2018-02-22T09:03:40.016Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+SearchInteraction	2018-02-22T09:03:51.864Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium']}	50
+SearchInteraction	2018-02-22T09:04:08.552Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RankedRetrieveRecordInteraction	2018-02-22T09:04:29.236Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1964_18	5	48
+SearchInteraction	2018-02-22T09:04:52.168Z	5f35169ecef0e63e3950a6a4d9a749a2	what:"Artikel"		4114
+RankedRetrieveRecordInteraction	2018-02-22T09:05:24.216Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10330760	12	48
+SearchInteraction	2018-02-22T09:05:48.607Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:21.052Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:44.770Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+CollectionFilterRemovalInteraction	2018-02-22T09:07:27.816Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	94
+SearchInteraction	2018-02-22T09:01:03.802Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:01:22.759Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		7
+CollectionFilterRemovalInteraction	2018-02-22T09:03:05.903Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:03:13.252Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+RefreshOrPaginationInteraction	2018-02-22T09:03:40.016Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+SearchInteraction	2018-02-22T09:03:51.864Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium']}	50
+SearchInteraction	2018-02-22T09:04:08.552Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RankedRetrieveRecordInteraction	2018-02-22T09:04:29.236Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1964_18	5	48
+SearchInteraction	2018-02-22T09:04:52.168Z	5f35169ecef0e63e3950a6a4d9a749a2	what:"Artikel"		4114
+RankedRetrieveRecordInteraction	2018-02-22T09:05:24.216Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10330760	12	48
+SearchInteraction	2018-02-22T09:05:48.607Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:21.052Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:44.770Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+CollectionFilterRemovalInteraction	2018-02-22T09:07:27.816Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	94
+SearchInteraction	2018-02-22T09:01:03.802Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:01:22.759Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		7
+CollectionFilterRemovalInteraction	2018-02-22T09:03:05.903Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:03:13.252Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+RefreshOrPaginationInteraction	2018-02-22T09:03:40.016Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+SearchInteraction	2018-02-22T09:03:51.864Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium']}	50
+SearchInteraction	2018-02-22T09:04:08.552Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RankedRetrieveRecordInteraction	2018-02-22T09:04:29.236Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1964_18	5	48
+SearchInteraction	2018-02-22T09:04:52.168Z	5f35169ecef0e63e3950a6a4d9a749a2	what:"Artikel"		4114
+RankedRetrieveRecordInteraction	2018-02-22T09:05:24.216Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10330760	12	48
+SearchInteraction	2018-02-22T09:05:48.607Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:21.052Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:44.770Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+CollectionFilterRemovalInteraction	2018-02-22T09:07:27.816Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	94
+SearchInteraction	2018-02-22T09:01:03.802Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:01:22.759Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		7
+CollectionFilterRemovalInteraction	2018-02-22T09:03:05.903Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:03:13.252Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+RefreshOrPaginationInteraction	2018-02-22T09:03:40.016Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+SearchInteraction	2018-02-22T09:03:51.864Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium']}	50
+SearchInteraction	2018-02-22T09:04:08.552Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RankedRetrieveRecordInteraction	2018-02-22T09:04:29.236Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1964_18	5	48
+SearchInteraction	2018-02-22T09:04:52.168Z	5f35169ecef0e63e3950a6a4d9a749a2	what:"Artikel"		4114
+RankedRetrieveRecordInteraction	2018-02-22T09:05:24.216Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10330760	12	48
+SearchInteraction	2018-02-22T09:05:48.607Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:21.052Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:44.770Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+CollectionFilterRemovalInteraction	2018-02-22T09:07:27.816Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	94
+SearchInteraction	2018-02-22T09:01:03.802Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:01:22.759Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		7
+CollectionFilterRemovalInteraction	2018-02-22T09:03:05.903Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		826
+CollectionFilterAdditionInteraction	2018-02-22T09:03:13.252Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+RefreshOrPaginationInteraction	2018-02-22T09:03:40.016Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos		171
+SearchInteraction	2018-02-22T09:03:51.864Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium']}	50
+SearchInteraction	2018-02-22T09:04:08.552Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RankedRetrieveRecordInteraction	2018-02-22T09:04:29.236Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048012/Athena_Plus_ProvidedCHO_Openbaar_Kunstbezit_Vlaanderen_OKV1964_18	5	48
+SearchInteraction	2018-02-22T09:04:52.168Z	5f35169ecef0e63e3950a6a4d9a749a2	what:"Artikel"		4114
+RankedRetrieveRecordInteraction	2018-02-22T09:05:24.216Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10330760	12	48
+SearchInteraction	2018-02-22T09:05:48.607Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:21.052Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+RefreshOrPaginationInteraction	2018-02-22T09:06:44.770Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	48
+CollectionFilterRemovalInteraction	2018-02-22T09:07:27.816Z	5f35169ecef0e63e3950a6a4d9a749a2	cornelis de vos	{'COUNTRY': ['belgium'], 'LANGUAGE': ['mul']}	94

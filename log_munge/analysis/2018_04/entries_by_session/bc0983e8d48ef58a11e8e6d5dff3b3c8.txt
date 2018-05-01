@@ -1,0 +1,175 @@
+ArbitraryAccessInteraction	2018-02-15T10:57:19.706Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	[200] GET /portal/en/record/9200291/BibliographicResource_3000073516066.html (PortalController#show)
+SearchInteraction	2018-02-15T10:57:39.920Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:01.968Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:02.860Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T10:58:43.281Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093813203_source	5	46
+RankedRetrieveRecordInteraction	2018-02-15T11:00:10.358Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812974_source	6	46
+RankedRetrieveRecordInteraction	2018-02-15T11:01:15.763Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812969_source	7	46
+RankedRetrieveRecordInteraction	2018-02-15T11:02:52.532Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811715_source	9	46
+RankedRetrieveRecordInteraction	2018-02-15T11:03:48.344Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811714_source	10	46
+SearchInteraction	2018-02-15T11:04:25.309Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T11:04:41.835Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912492_source	16	46
+RankedRetrieveRecordInteraction	2018-02-15T11:05:33.330Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912039_source	21	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:07.485Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912038_source	22	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:49.812Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005911136_source	24	46
+SearchInteraction	2018-02-15T11:08:05.761Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+SearchInteraction	2018-02-15T11:08:31.433Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:08:44.107Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		3
+RankedRetrieveRecordInteraction	2018-02-15T11:09:17.699Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2022503/_KAMRA_103464	3	3
+RankedRetrieveRecordInteraction	2018-02-15T11:10:08.540Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2048357/providedCHO_SI_AS_1829_SI_AS_1829_421	2	3
+SearchInteraction	2018-02-15T11:11:58.778Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:21.876Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:40.530Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+CollectionFilterAdditionInteraction	2018-02-15T11:12:58.347Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		0
+SearchInteraction	2018-02-15T11:13:05.515Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:24.243Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:34.989Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+SearchInteraction	2018-02-15T11:13:59.539Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+RefreshOrPaginationInteraction	2018-02-15T11:14:40.696Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+SearchInteraction	2018-02-15T11:15:16.951Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:15:28.066Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+RankedRetrieveRecordInteraction	2018-02-15T11:16:07.422Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802715_source	8	35
+RankedRetrieveRecordInteraction	2018-02-15T11:18:00.560Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802714_source	9	35
+RankedRetrieveRecordInteraction	2018-02-15T11:20:30.897Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000005912335_source	10	35
+SearchInteraction	2018-02-15T11:21:20.305Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+SearchInteraction	2018-02-15T11:22:17.537Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+ArbitraryAccessInteraction	2018-02-15T10:57:19.706Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	[200] GET /portal/en/record/9200291/BibliographicResource_3000073516066.html (PortalController#show)
+SearchInteraction	2018-02-15T10:57:39.920Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:01.968Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:02.860Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T10:58:43.281Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093813203_source	5	46
+RankedRetrieveRecordInteraction	2018-02-15T11:00:10.358Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812974_source	6	46
+RankedRetrieveRecordInteraction	2018-02-15T11:01:15.763Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812969_source	7	46
+RankedRetrieveRecordInteraction	2018-02-15T11:02:52.532Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811715_source	9	46
+RankedRetrieveRecordInteraction	2018-02-15T11:03:48.344Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811714_source	10	46
+SearchInteraction	2018-02-15T11:04:25.309Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T11:04:41.835Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912492_source	16	46
+RankedRetrieveRecordInteraction	2018-02-15T11:05:33.330Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912039_source	21	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:07.485Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912038_source	22	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:49.812Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005911136_source	24	46
+SearchInteraction	2018-02-15T11:08:05.761Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+SearchInteraction	2018-02-15T11:08:31.433Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:08:44.107Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		3
+RankedRetrieveRecordInteraction	2018-02-15T11:09:17.699Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2022503/_KAMRA_103464	3	3
+RankedRetrieveRecordInteraction	2018-02-15T11:10:08.540Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2048357/providedCHO_SI_AS_1829_SI_AS_1829_421	2	3
+SearchInteraction	2018-02-15T11:11:58.778Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:21.876Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:40.530Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+CollectionFilterAdditionInteraction	2018-02-15T11:12:58.347Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		0
+SearchInteraction	2018-02-15T11:13:05.515Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:24.243Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:34.989Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+SearchInteraction	2018-02-15T11:13:59.539Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+RefreshOrPaginationInteraction	2018-02-15T11:14:40.696Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+SearchInteraction	2018-02-15T11:15:16.951Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:15:28.066Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+RankedRetrieveRecordInteraction	2018-02-15T11:16:07.422Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802715_source	8	35
+RankedRetrieveRecordInteraction	2018-02-15T11:18:00.560Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802714_source	9	35
+RankedRetrieveRecordInteraction	2018-02-15T11:20:30.897Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000005912335_source	10	35
+SearchInteraction	2018-02-15T11:21:20.305Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+SearchInteraction	2018-02-15T11:22:17.537Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+ArbitraryAccessInteraction	2018-02-15T10:57:19.706Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	[200] GET /portal/en/record/9200291/BibliographicResource_3000073516066.html (PortalController#show)
+SearchInteraction	2018-02-15T10:57:39.920Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:01.968Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:02.860Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T10:58:43.281Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093813203_source	5	46
+RankedRetrieveRecordInteraction	2018-02-15T11:00:10.358Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812974_source	6	46
+RankedRetrieveRecordInteraction	2018-02-15T11:01:15.763Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812969_source	7	46
+RankedRetrieveRecordInteraction	2018-02-15T11:02:52.532Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811715_source	9	46
+RankedRetrieveRecordInteraction	2018-02-15T11:03:48.344Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811714_source	10	46
+SearchInteraction	2018-02-15T11:04:25.309Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T11:04:41.835Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912492_source	16	46
+RankedRetrieveRecordInteraction	2018-02-15T11:05:33.330Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912039_source	21	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:07.485Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912038_source	22	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:49.812Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005911136_source	24	46
+SearchInteraction	2018-02-15T11:08:05.761Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+SearchInteraction	2018-02-15T11:08:31.433Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:08:44.107Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		3
+RankedRetrieveRecordInteraction	2018-02-15T11:09:17.699Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2022503/_KAMRA_103464	3	3
+RankedRetrieveRecordInteraction	2018-02-15T11:10:08.540Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2048357/providedCHO_SI_AS_1829_SI_AS_1829_421	2	3
+SearchInteraction	2018-02-15T11:11:58.778Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:21.876Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:40.530Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+CollectionFilterAdditionInteraction	2018-02-15T11:12:58.347Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		0
+SearchInteraction	2018-02-15T11:13:05.515Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:24.243Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:34.989Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+SearchInteraction	2018-02-15T11:13:59.539Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+RefreshOrPaginationInteraction	2018-02-15T11:14:40.696Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+SearchInteraction	2018-02-15T11:15:16.951Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:15:28.066Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+RankedRetrieveRecordInteraction	2018-02-15T11:16:07.422Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802715_source	8	35
+RankedRetrieveRecordInteraction	2018-02-15T11:18:00.560Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802714_source	9	35
+RankedRetrieveRecordInteraction	2018-02-15T11:20:30.897Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000005912335_source	10	35
+SearchInteraction	2018-02-15T11:21:20.305Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+SearchInteraction	2018-02-15T11:22:17.537Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+ArbitraryAccessInteraction	2018-02-15T10:57:19.706Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	[200] GET /portal/en/record/9200291/BibliographicResource_3000073516066.html (PortalController#show)
+SearchInteraction	2018-02-15T10:57:39.920Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:01.968Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:02.860Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T10:58:43.281Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093813203_source	5	46
+RankedRetrieveRecordInteraction	2018-02-15T11:00:10.358Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812974_source	6	46
+RankedRetrieveRecordInteraction	2018-02-15T11:01:15.763Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812969_source	7	46
+RankedRetrieveRecordInteraction	2018-02-15T11:02:52.532Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811715_source	9	46
+RankedRetrieveRecordInteraction	2018-02-15T11:03:48.344Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811714_source	10	46
+SearchInteraction	2018-02-15T11:04:25.309Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T11:04:41.835Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912492_source	16	46
+RankedRetrieveRecordInteraction	2018-02-15T11:05:33.330Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912039_source	21	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:07.485Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912038_source	22	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:49.812Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005911136_source	24	46
+SearchInteraction	2018-02-15T11:08:05.761Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+SearchInteraction	2018-02-15T11:08:31.433Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:08:44.107Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		3
+RankedRetrieveRecordInteraction	2018-02-15T11:09:17.699Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2022503/_KAMRA_103464	3	3
+RankedRetrieveRecordInteraction	2018-02-15T11:10:08.540Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2048357/providedCHO_SI_AS_1829_SI_AS_1829_421	2	3
+SearchInteraction	2018-02-15T11:11:58.778Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:21.876Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:40.530Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+CollectionFilterAdditionInteraction	2018-02-15T11:12:58.347Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		0
+SearchInteraction	2018-02-15T11:13:05.515Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:24.243Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:34.989Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+SearchInteraction	2018-02-15T11:13:59.539Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+RefreshOrPaginationInteraction	2018-02-15T11:14:40.696Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+SearchInteraction	2018-02-15T11:15:16.951Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:15:28.066Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+RankedRetrieveRecordInteraction	2018-02-15T11:16:07.422Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802715_source	8	35
+RankedRetrieveRecordInteraction	2018-02-15T11:18:00.560Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802714_source	9	35
+RankedRetrieveRecordInteraction	2018-02-15T11:20:30.897Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000005912335_source	10	35
+SearchInteraction	2018-02-15T11:21:20.305Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+SearchInteraction	2018-02-15T11:22:17.537Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+ArbitraryAccessInteraction	2018-02-15T10:57:19.706Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	[200] GET /portal/en/record/9200291/BibliographicResource_3000073516066.html (PortalController#show)
+SearchInteraction	2018-02-15T10:57:39.920Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:01.968Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RefreshOrPaginationInteraction	2018-02-15T10:58:02.860Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T10:58:43.281Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093813203_source	5	46
+RankedRetrieveRecordInteraction	2018-02-15T11:00:10.358Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812974_source	6	46
+RankedRetrieveRecordInteraction	2018-02-15T11:01:15.763Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093812969_source	7	46
+RankedRetrieveRecordInteraction	2018-02-15T11:02:52.532Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811715_source	9	46
+RankedRetrieveRecordInteraction	2018-02-15T11:03:48.344Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000093811714_source	10	46
+SearchInteraction	2018-02-15T11:04:25.309Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+RankedRetrieveRecordInteraction	2018-02-15T11:04:41.835Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912492_source	16	46
+RankedRetrieveRecordInteraction	2018-02-15T11:05:33.330Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912039_source	21	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:07.485Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005912038_source	22	46
+RankedRetrieveRecordInteraction	2018-02-15T11:06:49.812Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		/9200196/BibliographicResource_3000005911136_source	24	46
+SearchInteraction	2018-02-15T11:08:05.761Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	sei busi		46
+SearchInteraction	2018-02-15T11:08:31.433Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:08:44.107Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		3
+RankedRetrieveRecordInteraction	2018-02-15T11:09:17.699Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2022503/_KAMRA_103464	3	3
+RankedRetrieveRecordInteraction	2018-02-15T11:10:08.540Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	altran		/2048357/providedCHO_SI_AS_1829_SI_AS_1829_421	2	3
+SearchInteraction	2018-02-15T11:11:58.778Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:21.876Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+RefreshOrPaginationInteraction	2018-02-15T11:12:40.530Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		115
+CollectionFilterAdditionInteraction	2018-02-15T11:12:58.347Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	redipuglia		0
+SearchInteraction	2018-02-15T11:13:05.515Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:24.243Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+RefreshOrPaginationInteraction	2018-02-15T11:13:34.989Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	toti		1557
+SearchInteraction	2018-02-15T11:13:59.539Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+RefreshOrPaginationInteraction	2018-02-15T11:14:40.696Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	enrico toti		20
+SearchInteraction	2018-02-15T11:15:16.951Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295
+SearchInteraction	2018-02-15T11:15:28.066Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+RankedRetrieveRecordInteraction	2018-02-15T11:16:07.422Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802715_source	8	35
+RankedRetrieveRecordInteraction	2018-02-15T11:18:00.560Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000093802714_source	9	35
+RankedRetrieveRecordInteraction	2018-02-15T11:20:30.897Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		/9200196/BibliographicResource_3000005912335_source	10	35
+SearchInteraction	2018-02-15T11:21:20.305Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	quota 85		35
+SearchInteraction	2018-02-15T11:22:17.537Z	bc0983e8d48ef58a11e8e6d5dff3b3c8	NO VALUE PROVIDED		51528295

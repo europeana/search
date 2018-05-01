@@ -1,0 +1,55 @@
+SearchInteraction	2018-03-05T01:20:45.469Z	a29aff06531643954a3a8a356206be34	berlin		824425
+SearchInteraction	2018-03-05T01:21:04.117Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:22.761Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:31.305Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:21:45.876Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117288125	32	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:22:31.750Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117267657	36	6226
+SearchInteraction	2018-03-05T01:23:02.801Z	a29aff06531643954a3a8a356206be34	newcastle		4631
+RankedRetrieveRecordInteraction	2018-03-05T01:23:45.745Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_vicpopmus_t_zoomify87446_html	2	3714
+SearchInteraction	2018-03-05T01:25:09.228Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:25:19.543Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_t_zoomify82861_html	20	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:26:28.024Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_n_zoomify82860_html	21	3714
+SearchInteraction	2018-03-05T01:20:45.469Z	a29aff06531643954a3a8a356206be34	berlin		824425
+SearchInteraction	2018-03-05T01:21:04.117Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:22.761Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:31.305Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:21:45.876Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117288125	32	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:22:31.750Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117267657	36	6226
+SearchInteraction	2018-03-05T01:23:02.801Z	a29aff06531643954a3a8a356206be34	newcastle		4631
+RankedRetrieveRecordInteraction	2018-03-05T01:23:45.745Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_vicpopmus_t_zoomify87446_html	2	3714
+SearchInteraction	2018-03-05T01:25:09.228Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:25:19.543Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_t_zoomify82861_html	20	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:26:28.024Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_n_zoomify82860_html	21	3714
+SearchInteraction	2018-03-05T01:20:45.469Z	a29aff06531643954a3a8a356206be34	berlin		824425
+SearchInteraction	2018-03-05T01:21:04.117Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:22.761Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:31.305Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:21:45.876Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117288125	32	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:22:31.750Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117267657	36	6226
+SearchInteraction	2018-03-05T01:23:02.801Z	a29aff06531643954a3a8a356206be34	newcastle		4631
+RankedRetrieveRecordInteraction	2018-03-05T01:23:45.745Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_vicpopmus_t_zoomify87446_html	2	3714
+SearchInteraction	2018-03-05T01:25:09.228Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:25:19.543Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_t_zoomify82861_html	20	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:26:28.024Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_n_zoomify82860_html	21	3714
+SearchInteraction	2018-03-05T01:20:45.469Z	a29aff06531643954a3a8a356206be34	berlin		824425
+SearchInteraction	2018-03-05T01:21:04.117Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:22.761Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:31.305Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:21:45.876Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117288125	32	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:22:31.750Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117267657	36	6226
+SearchInteraction	2018-03-05T01:23:02.801Z	a29aff06531643954a3a8a356206be34	newcastle		4631
+RankedRetrieveRecordInteraction	2018-03-05T01:23:45.745Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_vicpopmus_t_zoomify87446_html	2	3714
+SearchInteraction	2018-03-05T01:25:09.228Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:25:19.543Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_t_zoomify82861_html	20	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:26:28.024Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_n_zoomify82860_html	21	3714
+SearchInteraction	2018-03-05T01:20:45.469Z	a29aff06531643954a3a8a356206be34	berlin		824425
+SearchInteraction	2018-03-05T01:21:04.117Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:22.761Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RefreshOrPaginationInteraction	2018-03-05T01:21:31.305Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:21:45.876Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117288125	32	6226
+RankedRetrieveRecordInteraction	2018-03-05T01:22:31.750Z	a29aff06531643954a3a8a356206be34	berlin	{'LANGUAGE': ['en']}	/9200387/BibliographicResource_3000117267657	36	6226
+SearchInteraction	2018-03-05T01:23:02.801Z	a29aff06531643954a3a8a356206be34	newcastle		4631
+RankedRetrieveRecordInteraction	2018-03-05T01:23:45.745Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_vicpopmus_t_zoomify87446_html	2	3714
+SearchInteraction	2018-03-05T01:25:09.228Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:25:19.543Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_t_zoomify82861_html	20	3714
+RankedRetrieveRecordInteraction	2018-03-05T01:26:28.024Z	a29aff06531643954a3a8a356206be34	newcastle	{'LANGUAGE': ['en']}	/92037/_http___www_bl_uk_onlinegallery_onlineex_unvbrit_n_zoomify82860_html	21	3714

@@ -1,0 +1,170 @@
+SearchInteraction	2018-02-19T12:54:30.363Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:54:55.133Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:55:10.598Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+CollectionFilterAdditionInteraction	2018-02-19T12:55:27.186Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		0
+CollectionFilterRemovalInteraction	2018-02-19T12:55:32.333Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+SearchInteraction	2018-02-19T12:55:35.871Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-19T12:55:42.346Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126256611	2	2
+SearchInteraction	2018-02-19T12:56:13.808Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:15.367Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:56:22.850Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T12:56:31.720Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung		10
+SearchInteraction	2018-02-19T12:56:41.909Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-19T12:56:45.153Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	/2020707/HA_http___arachne_uni_koeln_de_entity_1241544	1	1
+SearchInteraction	2018-02-19T12:56:55.134Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:56.304Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:57.610Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:57:05.195Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:25.973Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:31.478Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:36.850Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:44.834Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:58.579Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-19T12:58:46.845Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:58:48.267Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:58:53.680Z	f4e3bdcd814a77cc9191392e1e3e8215	karl v.	{'TYPE': ['IMAGE']}	5182
+SearchInteraction	2018-02-19T12:58:59.724Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:01.418Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:02.456Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T13:07:17.726Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'TYPE': ['IMAGE']}	2447
+SearchInteraction	2018-02-19T13:07:30.589Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	932
+SearchInteraction	2018-02-19T13:08:15.346Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:08:22.730Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1526
+SearchInteraction	2018-02-19T13:17:50.793Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:17:57.339Z	f4e3bdcd814a77cc9191392e1e3e8215	gilles le muisit	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T12:54:30.363Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:54:55.133Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:55:10.598Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+CollectionFilterAdditionInteraction	2018-02-19T12:55:27.186Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		0
+CollectionFilterRemovalInteraction	2018-02-19T12:55:32.333Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+SearchInteraction	2018-02-19T12:55:35.871Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-19T12:55:42.346Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126256611	2	2
+SearchInteraction	2018-02-19T12:56:13.808Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:15.367Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:56:22.850Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T12:56:31.720Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung		10
+SearchInteraction	2018-02-19T12:56:41.909Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-19T12:56:45.153Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	/2020707/HA_http___arachne_uni_koeln_de_entity_1241544	1	1
+SearchInteraction	2018-02-19T12:56:55.134Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:56.304Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:57.610Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:57:05.195Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:25.973Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:31.478Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:36.850Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:44.834Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:58.579Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-19T12:58:46.845Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:58:48.267Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:58:53.680Z	f4e3bdcd814a77cc9191392e1e3e8215	karl v.	{'TYPE': ['IMAGE']}	5182
+SearchInteraction	2018-02-19T12:58:59.724Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:01.418Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:02.456Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T13:07:17.726Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'TYPE': ['IMAGE']}	2447
+SearchInteraction	2018-02-19T13:07:30.589Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	932
+SearchInteraction	2018-02-19T13:08:15.346Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:08:22.730Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1526
+SearchInteraction	2018-02-19T13:17:50.793Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:17:57.339Z	f4e3bdcd814a77cc9191392e1e3e8215	gilles le muisit	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T12:54:30.363Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:54:55.133Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:55:10.598Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+CollectionFilterAdditionInteraction	2018-02-19T12:55:27.186Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		0
+CollectionFilterRemovalInteraction	2018-02-19T12:55:32.333Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+SearchInteraction	2018-02-19T12:55:35.871Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-19T12:55:42.346Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126256611	2	2
+SearchInteraction	2018-02-19T12:56:13.808Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:15.367Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:56:22.850Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T12:56:31.720Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung		10
+SearchInteraction	2018-02-19T12:56:41.909Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-19T12:56:45.153Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	/2020707/HA_http___arachne_uni_koeln_de_entity_1241544	1	1
+SearchInteraction	2018-02-19T12:56:55.134Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:56.304Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:57.610Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:57:05.195Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:25.973Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:31.478Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:36.850Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:44.834Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:58.579Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-19T12:58:46.845Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:58:48.267Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:58:53.680Z	f4e3bdcd814a77cc9191392e1e3e8215	karl v.	{'TYPE': ['IMAGE']}	5182
+SearchInteraction	2018-02-19T12:58:59.724Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:01.418Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:02.456Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T13:07:17.726Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'TYPE': ['IMAGE']}	2447
+SearchInteraction	2018-02-19T13:07:30.589Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	932
+SearchInteraction	2018-02-19T13:08:15.346Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:08:22.730Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1526
+SearchInteraction	2018-02-19T13:17:50.793Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:17:57.339Z	f4e3bdcd814a77cc9191392e1e3e8215	gilles le muisit	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T12:54:30.363Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:54:55.133Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:55:10.598Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+CollectionFilterAdditionInteraction	2018-02-19T12:55:27.186Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		0
+CollectionFilterRemovalInteraction	2018-02-19T12:55:32.333Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+SearchInteraction	2018-02-19T12:55:35.871Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-19T12:55:42.346Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126256611	2	2
+SearchInteraction	2018-02-19T12:56:13.808Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:15.367Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:56:22.850Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T12:56:31.720Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung		10
+SearchInteraction	2018-02-19T12:56:41.909Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-19T12:56:45.153Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	/2020707/HA_http___arachne_uni_koeln_de_entity_1241544	1	1
+SearchInteraction	2018-02-19T12:56:55.134Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:56.304Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:57.610Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:57:05.195Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:25.973Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:31.478Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:36.850Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:44.834Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:58.579Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-19T12:58:46.845Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:58:48.267Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:58:53.680Z	f4e3bdcd814a77cc9191392e1e3e8215	karl v.	{'TYPE': ['IMAGE']}	5182
+SearchInteraction	2018-02-19T12:58:59.724Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:01.418Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:02.456Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T13:07:17.726Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'TYPE': ['IMAGE']}	2447
+SearchInteraction	2018-02-19T13:07:30.589Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	932
+SearchInteraction	2018-02-19T13:08:15.346Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:08:22.730Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1526
+SearchInteraction	2018-02-19T13:17:50.793Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:17:57.339Z	f4e3bdcd814a77cc9191392e1e3e8215	gilles le muisit	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0
+SearchInteraction	2018-02-19T12:54:30.363Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:54:55.133Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+RefreshOrPaginationInteraction	2018-02-19T12:55:10.598Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+CollectionFilterAdditionInteraction	2018-02-19T12:55:27.186Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		0
+CollectionFilterRemovalInteraction	2018-02-19T12:55:32.333Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme		33
+SearchInteraction	2018-02-19T12:55:35.871Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	2
+RankedRetrieveRecordInteraction	2018-02-19T12:55:42.346Z	f4e3bdcd814a77cc9191392e1e3e8215	Nicola d'Oresme	{'TYPE': ['IMAGE']}	/9200397/BibliographicResource_3000126256611	2	2
+SearchInteraction	2018-02-19T12:56:13.808Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:15.367Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:56:22.850Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+SearchInteraction	2018-02-19T12:56:31.720Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung		10
+SearchInteraction	2018-02-19T12:56:41.909Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	1
+RankedRetrieveRecordInteraction	2018-02-19T12:56:45.153Z	f4e3bdcd814a77cc9191392e1e3e8215	ständeordnung	{'TYPE': ['IMAGE']}	/2020707/HA_http___arachne_uni_koeln_de_entity_1241544	1	1
+SearchInteraction	2018-02-19T12:56:55.134Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:56.304Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:56:57.610Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:57:05.195Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:25.973Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:31.478Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:36.850Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:44.834Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+RefreshOrPaginationInteraction	2018-02-19T12:57:58.579Z	f4e3bdcd814a77cc9191392e1e3e8215	spätmittelalter	{'TYPE': ['IMAGE']}	62
+SearchInteraction	2018-02-19T12:58:46.845Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:58:48.267Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T12:58:53.680Z	f4e3bdcd814a77cc9191392e1e3e8215	karl v.	{'TYPE': ['IMAGE']}	5182
+SearchInteraction	2018-02-19T12:58:59.724Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:01.418Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+RefreshOrPaginationInteraction	2018-02-19T12:59:02.456Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'TYPE': ['IMAGE']}	27363183
+SearchInteraction	2018-02-19T13:07:17.726Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'TYPE': ['IMAGE']}	2447
+SearchInteraction	2018-02-19T13:07:30.589Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'MIME_TYPE': ['image/jpeg'], 'TYPE': ['IMAGE']}	932
+SearchInteraction	2018-02-19T13:08:15.346Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:08:22.730Z	f4e3bdcd814a77cc9191392e1e3e8215	peste	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	1526
+SearchInteraction	2018-02-19T13:17:50.793Z	f4e3bdcd814a77cc9191392e1e3e8215	NO VALUE PROVIDED	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	8090978
+SearchInteraction	2018-02-19T13:17:57.339Z	f4e3bdcd814a77cc9191392e1e3e8215	gilles le muisit	{'REUSABILITY': ['open'], 'TYPE': ['IMAGE']}	0

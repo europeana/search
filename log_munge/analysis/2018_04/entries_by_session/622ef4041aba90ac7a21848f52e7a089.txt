@@ -1,0 +1,235 @@
+SearchInteraction	2018-02-05T22:02:02.787Z	622ef4041aba90ac7a21848f52e7a089	Leonardo da Vinci		2163
+SearchInteraction	2018-02-05T22:03:54.393Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T22:04:29.911Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-05T22:07:01.611Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:25:54.411Z	622ef4041aba90ac7a21848f52e7a089	tom roberts		631
+SearchInteraction	2018-02-07T01:26:06.609Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:16.174Z	622ef4041aba90ac7a21848f52e7a089	Tobias Stimmer		1994
+SearchInteraction	2018-02-07T01:26:32.743Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:41.834Z	622ef4041aba90ac7a21848f52e7a089	Aaron Douglas		0
+SearchInteraction	2018-02-07T01:28:18.374Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:26.862Z	622ef4041aba90ac7a21848f52e7a089	alexander brooke jackson		0
+SearchInteraction	2018-02-07T01:28:44.244Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:52.119Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		1
+RankedRetrieveRecordInteraction	2018-02-07T01:28:55.955Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		/2048613/data_item_cjh_yivoarchive_oai_digital_cjh_org_1434586	1	1
+SearchInteraction	2018-02-07T01:30:13.720Z	622ef4041aba90ac7a21848f52e7a089	aaron nagel		0
+SearchInteraction	2018-02-07T01:30:56.534Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:31:02.122Z	622ef4041aba90ac7a21848f52e7a089	Abbott Handerson Thayer		4
+SearchInteraction	2018-02-07T01:32:03.301Z	622ef4041aba90ac7a21848f52e7a089	Abdullah Gërguri		0
+SearchInteraction	2018-02-07T01:32:36.198Z	622ef4041aba90ac7a21848f52e7a089	Abdur Rahman Chughtai		0
+SearchInteraction	2018-02-07T01:33:02.288Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		1
+RankedRetrieveRecordInteraction	2018-02-07T01:33:10.208Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		/2022004/10851_62A94CA7_DCD2_477F_B700_59B97BA75254	1	1
+SearchInteraction	2018-02-07T01:33:40.068Z	622ef4041aba90ac7a21848f52e7a089	Abraham Begeyn		39
+SearchInteraction	2018-02-07T01:34:29.286Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:34:33.348Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		2
+RankedRetrieveRecordInteraction	2018-02-07T01:34:37.717Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		/2048359/providedCHO_3_20_09_3_20_09___706	1	2
+SearchInteraction	2018-02-07T01:35:23.552Z	622ef4041aba90ac7a21848f52e7a089	Achille Leonardi		12
+SearchInteraction	2018-02-07T01:35:36.762Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		2
+RankedRetrieveRecordInteraction	2018-02-07T01:35:41.195Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		/2048128/461136	1	2
+ArbitraryAccessInteraction	2018-02-07T01:44:20.295Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-07T01:56:04.325Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/59787-caravaggio.html (EntitiesController#show)
+SearchInteraction	2018-02-07T12:32:09.367Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-09T11:18:09.783Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+RankedRetrieveRecordInteraction	2018-02-09T11:18:16.264Z	622ef4041aba90ac7a21848f52e7a089	botticelli		/2048011/work_63812	1	544
+SearchInteraction	2018-02-09T11:19:45.341Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+SearchInteraction	2018-02-12T14:26:36.749Z	622ef4041aba90ac7a21848f52e7a089	Karl Bryullov		13
+SearchInteraction	2018-02-12T16:01:04.133Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-12T16:01:19.129Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-12T16:01:25.704Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+CollectionFilterRemovalInteraction	2018-02-12T16:06:29.389Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	831472
+CollectionFilterAdditionInteraction	2018-02-12T16:07:29.744Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+RefreshOrPaginationInteraction	2018-02-12T16:07:38.179Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+SearchInteraction	2018-02-12T16:23:05.348Z	622ef4041aba90ac7a21848f52e7a089	Thierry Mugler		2608
+SearchInteraction	2018-02-12T16:23:43.364Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-12T16:24:00.473Z	622ef4041aba90ac7a21848f52e7a089	Benjamin Franklin		1116
+SearchInteraction	2018-02-13T15:04:59.053Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-13T15:05:04.136Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+ArbitraryAccessInteraction	2018-02-14T17:18:19.758Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/record/90402/RP_P_1938_738.html (PortalController#show)
+SearchInteraction	2018-02-05T22:02:02.787Z	622ef4041aba90ac7a21848f52e7a089	Leonardo da Vinci		2163
+SearchInteraction	2018-02-05T22:03:54.393Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T22:04:29.911Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-05T22:07:01.611Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:25:54.411Z	622ef4041aba90ac7a21848f52e7a089	tom roberts		631
+SearchInteraction	2018-02-07T01:26:06.609Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:16.174Z	622ef4041aba90ac7a21848f52e7a089	Tobias Stimmer		1994
+SearchInteraction	2018-02-07T01:26:32.743Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:41.834Z	622ef4041aba90ac7a21848f52e7a089	Aaron Douglas		0
+SearchInteraction	2018-02-07T01:28:18.374Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:26.862Z	622ef4041aba90ac7a21848f52e7a089	alexander brooke jackson		0
+SearchInteraction	2018-02-07T01:28:44.244Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:52.119Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		1
+RankedRetrieveRecordInteraction	2018-02-07T01:28:55.955Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		/2048613/data_item_cjh_yivoarchive_oai_digital_cjh_org_1434586	1	1
+SearchInteraction	2018-02-07T01:30:13.720Z	622ef4041aba90ac7a21848f52e7a089	aaron nagel		0
+SearchInteraction	2018-02-07T01:30:56.534Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:31:02.122Z	622ef4041aba90ac7a21848f52e7a089	Abbott Handerson Thayer		4
+SearchInteraction	2018-02-07T01:32:03.301Z	622ef4041aba90ac7a21848f52e7a089	Abdullah Gërguri		0
+SearchInteraction	2018-02-07T01:32:36.198Z	622ef4041aba90ac7a21848f52e7a089	Abdur Rahman Chughtai		0
+SearchInteraction	2018-02-07T01:33:02.288Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		1
+RankedRetrieveRecordInteraction	2018-02-07T01:33:10.208Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		/2022004/10851_62A94CA7_DCD2_477F_B700_59B97BA75254	1	1
+SearchInteraction	2018-02-07T01:33:40.068Z	622ef4041aba90ac7a21848f52e7a089	Abraham Begeyn		39
+SearchInteraction	2018-02-07T01:34:29.286Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:34:33.348Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		2
+RankedRetrieveRecordInteraction	2018-02-07T01:34:37.717Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		/2048359/providedCHO_3_20_09_3_20_09___706	1	2
+SearchInteraction	2018-02-07T01:35:23.552Z	622ef4041aba90ac7a21848f52e7a089	Achille Leonardi		12
+SearchInteraction	2018-02-07T01:35:36.762Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		2
+RankedRetrieveRecordInteraction	2018-02-07T01:35:41.195Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		/2048128/461136	1	2
+ArbitraryAccessInteraction	2018-02-07T01:44:20.295Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-07T01:56:04.325Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/59787-caravaggio.html (EntitiesController#show)
+SearchInteraction	2018-02-07T12:32:09.367Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-09T11:18:09.783Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+RankedRetrieveRecordInteraction	2018-02-09T11:18:16.264Z	622ef4041aba90ac7a21848f52e7a089	botticelli		/2048011/work_63812	1	544
+SearchInteraction	2018-02-09T11:19:45.341Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+SearchInteraction	2018-02-12T14:26:36.749Z	622ef4041aba90ac7a21848f52e7a089	Karl Bryullov		13
+SearchInteraction	2018-02-12T16:01:04.133Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-12T16:01:19.129Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-12T16:01:25.704Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+CollectionFilterRemovalInteraction	2018-02-12T16:06:29.389Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	831472
+CollectionFilterAdditionInteraction	2018-02-12T16:07:29.744Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+RefreshOrPaginationInteraction	2018-02-12T16:07:38.179Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+SearchInteraction	2018-02-12T16:23:05.348Z	622ef4041aba90ac7a21848f52e7a089	Thierry Mugler		2608
+SearchInteraction	2018-02-12T16:23:43.364Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-12T16:24:00.473Z	622ef4041aba90ac7a21848f52e7a089	Benjamin Franklin		1116
+SearchInteraction	2018-02-13T15:04:59.053Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-13T15:05:04.136Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+ArbitraryAccessInteraction	2018-02-14T17:18:19.758Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/record/90402/RP_P_1938_738.html (PortalController#show)
+SearchInteraction	2018-02-05T22:02:02.787Z	622ef4041aba90ac7a21848f52e7a089	Leonardo da Vinci		2163
+SearchInteraction	2018-02-05T22:03:54.393Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T22:04:29.911Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-05T22:07:01.611Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:25:54.411Z	622ef4041aba90ac7a21848f52e7a089	tom roberts		631
+SearchInteraction	2018-02-07T01:26:06.609Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:16.174Z	622ef4041aba90ac7a21848f52e7a089	Tobias Stimmer		1994
+SearchInteraction	2018-02-07T01:26:32.743Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:41.834Z	622ef4041aba90ac7a21848f52e7a089	Aaron Douglas		0
+SearchInteraction	2018-02-07T01:28:18.374Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:26.862Z	622ef4041aba90ac7a21848f52e7a089	alexander brooke jackson		0
+SearchInteraction	2018-02-07T01:28:44.244Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:52.119Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		1
+RankedRetrieveRecordInteraction	2018-02-07T01:28:55.955Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		/2048613/data_item_cjh_yivoarchive_oai_digital_cjh_org_1434586	1	1
+SearchInteraction	2018-02-07T01:30:13.720Z	622ef4041aba90ac7a21848f52e7a089	aaron nagel		0
+SearchInteraction	2018-02-07T01:30:56.534Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:31:02.122Z	622ef4041aba90ac7a21848f52e7a089	Abbott Handerson Thayer		4
+SearchInteraction	2018-02-07T01:32:03.301Z	622ef4041aba90ac7a21848f52e7a089	Abdullah Gërguri		0
+SearchInteraction	2018-02-07T01:32:36.198Z	622ef4041aba90ac7a21848f52e7a089	Abdur Rahman Chughtai		0
+SearchInteraction	2018-02-07T01:33:02.288Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		1
+RankedRetrieveRecordInteraction	2018-02-07T01:33:10.208Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		/2022004/10851_62A94CA7_DCD2_477F_B700_59B97BA75254	1	1
+SearchInteraction	2018-02-07T01:33:40.068Z	622ef4041aba90ac7a21848f52e7a089	Abraham Begeyn		39
+SearchInteraction	2018-02-07T01:34:29.286Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:34:33.348Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		2
+RankedRetrieveRecordInteraction	2018-02-07T01:34:37.717Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		/2048359/providedCHO_3_20_09_3_20_09___706	1	2
+SearchInteraction	2018-02-07T01:35:23.552Z	622ef4041aba90ac7a21848f52e7a089	Achille Leonardi		12
+SearchInteraction	2018-02-07T01:35:36.762Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		2
+RankedRetrieveRecordInteraction	2018-02-07T01:35:41.195Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		/2048128/461136	1	2
+ArbitraryAccessInteraction	2018-02-07T01:44:20.295Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-07T01:56:04.325Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/59787-caravaggio.html (EntitiesController#show)
+SearchInteraction	2018-02-07T12:32:09.367Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-09T11:18:09.783Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+RankedRetrieveRecordInteraction	2018-02-09T11:18:16.264Z	622ef4041aba90ac7a21848f52e7a089	botticelli		/2048011/work_63812	1	544
+SearchInteraction	2018-02-09T11:19:45.341Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+SearchInteraction	2018-02-12T14:26:36.749Z	622ef4041aba90ac7a21848f52e7a089	Karl Bryullov		13
+SearchInteraction	2018-02-12T16:01:04.133Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-12T16:01:19.129Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-12T16:01:25.704Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+CollectionFilterRemovalInteraction	2018-02-12T16:06:29.389Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	831472
+CollectionFilterAdditionInteraction	2018-02-12T16:07:29.744Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+RefreshOrPaginationInteraction	2018-02-12T16:07:38.179Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+SearchInteraction	2018-02-12T16:23:05.348Z	622ef4041aba90ac7a21848f52e7a089	Thierry Mugler		2608
+SearchInteraction	2018-02-12T16:23:43.364Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-12T16:24:00.473Z	622ef4041aba90ac7a21848f52e7a089	Benjamin Franklin		1116
+SearchInteraction	2018-02-13T15:04:59.053Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-13T15:05:04.136Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+ArbitraryAccessInteraction	2018-02-14T17:18:19.758Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/record/90402/RP_P_1938_738.html (PortalController#show)
+SearchInteraction	2018-02-05T22:02:02.787Z	622ef4041aba90ac7a21848f52e7a089	Leonardo da Vinci		2163
+SearchInteraction	2018-02-05T22:03:54.393Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T22:04:29.911Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-05T22:07:01.611Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:25:54.411Z	622ef4041aba90ac7a21848f52e7a089	tom roberts		631
+SearchInteraction	2018-02-07T01:26:06.609Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:16.174Z	622ef4041aba90ac7a21848f52e7a089	Tobias Stimmer		1994
+SearchInteraction	2018-02-07T01:26:32.743Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:41.834Z	622ef4041aba90ac7a21848f52e7a089	Aaron Douglas		0
+SearchInteraction	2018-02-07T01:28:18.374Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:26.862Z	622ef4041aba90ac7a21848f52e7a089	alexander brooke jackson		0
+SearchInteraction	2018-02-07T01:28:44.244Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:52.119Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		1
+RankedRetrieveRecordInteraction	2018-02-07T01:28:55.955Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		/2048613/data_item_cjh_yivoarchive_oai_digital_cjh_org_1434586	1	1
+SearchInteraction	2018-02-07T01:30:13.720Z	622ef4041aba90ac7a21848f52e7a089	aaron nagel		0
+SearchInteraction	2018-02-07T01:30:56.534Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:31:02.122Z	622ef4041aba90ac7a21848f52e7a089	Abbott Handerson Thayer		4
+SearchInteraction	2018-02-07T01:32:03.301Z	622ef4041aba90ac7a21848f52e7a089	Abdullah Gërguri		0
+SearchInteraction	2018-02-07T01:32:36.198Z	622ef4041aba90ac7a21848f52e7a089	Abdur Rahman Chughtai		0
+SearchInteraction	2018-02-07T01:33:02.288Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		1
+RankedRetrieveRecordInteraction	2018-02-07T01:33:10.208Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		/2022004/10851_62A94CA7_DCD2_477F_B700_59B97BA75254	1	1
+SearchInteraction	2018-02-07T01:33:40.068Z	622ef4041aba90ac7a21848f52e7a089	Abraham Begeyn		39
+SearchInteraction	2018-02-07T01:34:29.286Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:34:33.348Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		2
+RankedRetrieveRecordInteraction	2018-02-07T01:34:37.717Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		/2048359/providedCHO_3_20_09_3_20_09___706	1	2
+SearchInteraction	2018-02-07T01:35:23.552Z	622ef4041aba90ac7a21848f52e7a089	Achille Leonardi		12
+SearchInteraction	2018-02-07T01:35:36.762Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		2
+RankedRetrieveRecordInteraction	2018-02-07T01:35:41.195Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		/2048128/461136	1	2
+ArbitraryAccessInteraction	2018-02-07T01:44:20.295Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-07T01:56:04.325Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/59787-caravaggio.html (EntitiesController#show)
+SearchInteraction	2018-02-07T12:32:09.367Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-09T11:18:09.783Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+RankedRetrieveRecordInteraction	2018-02-09T11:18:16.264Z	622ef4041aba90ac7a21848f52e7a089	botticelli		/2048011/work_63812	1	544
+SearchInteraction	2018-02-09T11:19:45.341Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+SearchInteraction	2018-02-12T14:26:36.749Z	622ef4041aba90ac7a21848f52e7a089	Karl Bryullov		13
+SearchInteraction	2018-02-12T16:01:04.133Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-12T16:01:19.129Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-12T16:01:25.704Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+CollectionFilterRemovalInteraction	2018-02-12T16:06:29.389Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	831472
+CollectionFilterAdditionInteraction	2018-02-12T16:07:29.744Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+RefreshOrPaginationInteraction	2018-02-12T16:07:38.179Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+SearchInteraction	2018-02-12T16:23:05.348Z	622ef4041aba90ac7a21848f52e7a089	Thierry Mugler		2608
+SearchInteraction	2018-02-12T16:23:43.364Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-12T16:24:00.473Z	622ef4041aba90ac7a21848f52e7a089	Benjamin Franklin		1116
+SearchInteraction	2018-02-13T15:04:59.053Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-13T15:05:04.136Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+ArbitraryAccessInteraction	2018-02-14T17:18:19.758Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/record/90402/RP_P_1938_738.html (PortalController#show)
+SearchInteraction	2018-02-05T22:02:02.787Z	622ef4041aba90ac7a21848f52e7a089	Leonardo da Vinci		2163
+SearchInteraction	2018-02-05T22:03:54.393Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-05T22:04:29.911Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-05T22:07:01.611Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:25:54.411Z	622ef4041aba90ac7a21848f52e7a089	tom roberts		631
+SearchInteraction	2018-02-07T01:26:06.609Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:16.174Z	622ef4041aba90ac7a21848f52e7a089	Tobias Stimmer		1994
+SearchInteraction	2018-02-07T01:26:32.743Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:26:41.834Z	622ef4041aba90ac7a21848f52e7a089	Aaron Douglas		0
+SearchInteraction	2018-02-07T01:28:18.374Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:26.862Z	622ef4041aba90ac7a21848f52e7a089	alexander brooke jackson		0
+SearchInteraction	2018-02-07T01:28:44.244Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:28:52.119Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		1
+RankedRetrieveRecordInteraction	2018-02-07T01:28:55.955Z	622ef4041aba90ac7a21848f52e7a089	aaron bohrod		/2048613/data_item_cjh_yivoarchive_oai_digital_cjh_org_1434586	1	1
+SearchInteraction	2018-02-07T01:30:13.720Z	622ef4041aba90ac7a21848f52e7a089	aaron nagel		0
+SearchInteraction	2018-02-07T01:30:56.534Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:31:02.122Z	622ef4041aba90ac7a21848f52e7a089	Abbott Handerson Thayer		4
+SearchInteraction	2018-02-07T01:32:03.301Z	622ef4041aba90ac7a21848f52e7a089	Abdullah Gërguri		0
+SearchInteraction	2018-02-07T01:32:36.198Z	622ef4041aba90ac7a21848f52e7a089	Abdur Rahman Chughtai		0
+SearchInteraction	2018-02-07T01:33:02.288Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		1
+RankedRetrieveRecordInteraction	2018-02-07T01:33:10.208Z	622ef4041aba90ac7a21848f52e7a089	Abidin Dino		/2022004/10851_62A94CA7_DCD2_477F_B700_59B97BA75254	1	1
+SearchInteraction	2018-02-07T01:33:40.068Z	622ef4041aba90ac7a21848f52e7a089	Abraham Begeyn		39
+SearchInteraction	2018-02-07T01:34:29.286Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51542209
+SearchInteraction	2018-02-07T01:34:33.348Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		2
+RankedRetrieveRecordInteraction	2018-02-07T01:34:37.717Z	622ef4041aba90ac7a21848f52e7a089	Abraham Bosschaert		/2048359/providedCHO_3_20_09_3_20_09___706	1	2
+SearchInteraction	2018-02-07T01:35:23.552Z	622ef4041aba90ac7a21848f52e7a089	Achille Leonardi		12
+SearchInteraction	2018-02-07T01:35:36.762Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		2
+RankedRetrieveRecordInteraction	2018-02-07T01:35:41.195Z	622ef4041aba90ac7a21848f52e7a089	"Achille Leonardi"		/2048128/461136	1	2
+ArbitraryAccessInteraction	2018-02-07T01:44:20.295Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/146741-leonardo-da-vinci.html (EntitiesController#show)
+ArbitraryAccessInteraction	2018-02-07T01:56:04.325Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/explore/people/59787-caravaggio.html (EntitiesController#show)
+SearchInteraction	2018-02-07T12:32:09.367Z	622ef4041aba90ac7a21848f52e7a089	City of London		104663
+SearchInteraction	2018-02-09T11:18:09.783Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+RankedRetrieveRecordInteraction	2018-02-09T11:18:16.264Z	622ef4041aba90ac7a21848f52e7a089	botticelli		/2048011/work_63812	1	544
+SearchInteraction	2018-02-09T11:19:45.341Z	622ef4041aba90ac7a21848f52e7a089	botticelli		544
+SearchInteraction	2018-02-12T14:26:36.749Z	622ef4041aba90ac7a21848f52e7a089	Karl Bryullov		13
+SearchInteraction	2018-02-12T16:01:04.133Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['SOUND']}	77641
+SearchInteraction	2018-02-12T16:01:19.129Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-12T16:01:25.704Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+CollectionFilterRemovalInteraction	2018-02-12T16:06:29.389Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	831472
+CollectionFilterAdditionInteraction	2018-02-12T16:07:29.744Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+RefreshOrPaginationInteraction	2018-02-12T16:07:38.179Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+SearchInteraction	2018-02-12T16:23:05.348Z	622ef4041aba90ac7a21848f52e7a089	Thierry Mugler		2608
+SearchInteraction	2018-02-12T16:23:43.364Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED		51527252
+SearchInteraction	2018-02-12T16:24:00.473Z	622ef4041aba90ac7a21848f52e7a089	Benjamin Franklin		1116
+SearchInteraction	2018-02-13T15:04:59.053Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	10082748
+CollectionFilterRemovalInteraction	2018-02-13T15:05:04.136Z	622ef4041aba90ac7a21848f52e7a089	NO VALUE PROVIDED	{'MEDIA': ['true'], 'TYPE': ['IMAGE']}	686345
+ArbitraryAccessInteraction	2018-02-14T17:18:19.758Z	622ef4041aba90ac7a21848f52e7a089	[200] GET /portal/en/record/90402/RP_P_1938_738.html (PortalController#show)

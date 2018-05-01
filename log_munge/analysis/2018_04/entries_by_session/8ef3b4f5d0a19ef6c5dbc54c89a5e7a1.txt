@@ -1,0 +1,340 @@
+ArbitraryAccessInteraction	2018-02-07T14:21:55.416Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T14:24:18.999Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+SearchInteraction	2018-02-07T14:25:02.420Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:42.746Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:52.813Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-07T14:28:12.769Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		/90402/RP_T_1921_16	36	1610
+SearchInteraction	2018-02-07T14:30:35.673Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	744
+CollectionFilterAdditionInteraction	2018-02-07T14:30:45.667Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:48.226Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:56.723Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:04.879Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:11.484Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:19.101Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:35.445Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:45.636Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:52.656Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:01.662Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:35.414Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:43.132Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:33:54.270Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:05.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:11.674Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:24.917Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:33.629Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:41.741Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+SearchInteraction	2018-02-07T14:35:06.852Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+SearchInteraction	2018-02-07T14:35:20.096Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:35:52.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/SK_C_296	3	1602
+SearchInteraction	2018-02-07T14:36:46.886Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:36:53.963Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:37:02.936Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/RP_T_1921_16	36	1602
+SearchInteraction	2018-02-07T14:38:23.324Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:38:30.200Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+SearchInteraction	2018-02-07T14:39:07.402Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	200
+SearchInteraction	2018-02-07T14:39:21.617Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:32.350Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:37.856Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+SearchInteraction	2018-02-07T14:40:12.456Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:40:32.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:46.367Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:57.588Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:03.293Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:10.822Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:21.814Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-02-07T14:41:36.231Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	29
+CollectionFilterRemovalInteraction	2018-02-07T14:41:37.881Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-02-07T14:41:50.121Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:42:41.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant		407
+SearchInteraction	2018-02-07T14:42:55.596Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'TYPE': ['IMAGE']}	404
+SearchInteraction	2018-02-07T14:43:03.479Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:19.296Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Gem_ldegalerie__Staatliche_Museen_zu_Berlin_868879	11	330
+SearchInteraction	2018-02-07T14:43:40.872Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:43:52.105Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:57.212Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2020903/KMSsp406	26	330
+SearchInteraction	2018-02-07T14:44:28.066Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:33.916Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:38.581Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:43.524Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:49.099Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:54.333Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:01.645Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:11.910Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:30.191Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:35.478Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:41.229Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:47.289Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:52.297Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:45:59.638Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/094041/_nn3z0Zr	323	330
+ArbitraryAccessInteraction	2018-02-07T14:21:55.416Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T14:24:18.999Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+SearchInteraction	2018-02-07T14:25:02.420Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:42.746Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:52.813Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-07T14:28:12.769Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		/90402/RP_T_1921_16	36	1610
+SearchInteraction	2018-02-07T14:30:35.673Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	744
+CollectionFilterAdditionInteraction	2018-02-07T14:30:45.667Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:48.226Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:56.723Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:04.879Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:11.484Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:19.101Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:35.445Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:45.636Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:52.656Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:01.662Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:35.414Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:43.132Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:33:54.270Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:05.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:11.674Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:24.917Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:33.629Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:41.741Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+SearchInteraction	2018-02-07T14:35:06.852Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+SearchInteraction	2018-02-07T14:35:20.096Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:35:52.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/SK_C_296	3	1602
+SearchInteraction	2018-02-07T14:36:46.886Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:36:53.963Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:37:02.936Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/RP_T_1921_16	36	1602
+SearchInteraction	2018-02-07T14:38:23.324Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:38:30.200Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+SearchInteraction	2018-02-07T14:39:07.402Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	200
+SearchInteraction	2018-02-07T14:39:21.617Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:32.350Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:37.856Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+SearchInteraction	2018-02-07T14:40:12.456Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:40:32.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:46.367Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:57.588Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:03.293Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:10.822Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:21.814Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-02-07T14:41:36.231Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	29
+CollectionFilterRemovalInteraction	2018-02-07T14:41:37.881Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-02-07T14:41:50.121Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:42:41.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant		407
+SearchInteraction	2018-02-07T14:42:55.596Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'TYPE': ['IMAGE']}	404
+SearchInteraction	2018-02-07T14:43:03.479Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:19.296Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Gem_ldegalerie__Staatliche_Museen_zu_Berlin_868879	11	330
+SearchInteraction	2018-02-07T14:43:40.872Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:43:52.105Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:57.212Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2020903/KMSsp406	26	330
+SearchInteraction	2018-02-07T14:44:28.066Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:33.916Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:38.581Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:43.524Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:49.099Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:54.333Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:01.645Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:11.910Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:30.191Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:35.478Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:41.229Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:47.289Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:52.297Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:45:59.638Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/094041/_nn3z0Zr	323	330
+ArbitraryAccessInteraction	2018-02-07T14:21:55.416Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T14:24:18.999Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+SearchInteraction	2018-02-07T14:25:02.420Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:42.746Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:52.813Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-07T14:28:12.769Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		/90402/RP_T_1921_16	36	1610
+SearchInteraction	2018-02-07T14:30:35.673Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	744
+CollectionFilterAdditionInteraction	2018-02-07T14:30:45.667Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:48.226Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:56.723Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:04.879Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:11.484Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:19.101Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:35.445Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:45.636Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:52.656Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:01.662Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:35.414Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:43.132Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:33:54.270Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:05.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:11.674Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:24.917Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:33.629Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:41.741Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+SearchInteraction	2018-02-07T14:35:06.852Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+SearchInteraction	2018-02-07T14:35:20.096Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:35:52.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/SK_C_296	3	1602
+SearchInteraction	2018-02-07T14:36:46.886Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:36:53.963Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:37:02.936Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/RP_T_1921_16	36	1602
+SearchInteraction	2018-02-07T14:38:23.324Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:38:30.200Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+SearchInteraction	2018-02-07T14:39:07.402Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	200
+SearchInteraction	2018-02-07T14:39:21.617Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:32.350Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:37.856Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+SearchInteraction	2018-02-07T14:40:12.456Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:40:32.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:46.367Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:57.588Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:03.293Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:10.822Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:21.814Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-02-07T14:41:36.231Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	29
+CollectionFilterRemovalInteraction	2018-02-07T14:41:37.881Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-02-07T14:41:50.121Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:42:41.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant		407
+SearchInteraction	2018-02-07T14:42:55.596Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'TYPE': ['IMAGE']}	404
+SearchInteraction	2018-02-07T14:43:03.479Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:19.296Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Gem_ldegalerie__Staatliche_Museen_zu_Berlin_868879	11	330
+SearchInteraction	2018-02-07T14:43:40.872Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:43:52.105Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:57.212Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2020903/KMSsp406	26	330
+SearchInteraction	2018-02-07T14:44:28.066Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:33.916Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:38.581Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:43.524Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:49.099Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:54.333Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:01.645Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:11.910Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:30.191Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:35.478Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:41.229Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:47.289Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:52.297Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:45:59.638Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/094041/_nn3z0Zr	323	330
+ArbitraryAccessInteraction	2018-02-07T14:21:55.416Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T14:24:18.999Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+SearchInteraction	2018-02-07T14:25:02.420Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:42.746Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:52.813Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-07T14:28:12.769Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		/90402/RP_T_1921_16	36	1610
+SearchInteraction	2018-02-07T14:30:35.673Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	744
+CollectionFilterAdditionInteraction	2018-02-07T14:30:45.667Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:48.226Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:56.723Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:04.879Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:11.484Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:19.101Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:35.445Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:45.636Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:52.656Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:01.662Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:35.414Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:43.132Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:33:54.270Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:05.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:11.674Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:24.917Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:33.629Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:41.741Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+SearchInteraction	2018-02-07T14:35:06.852Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+SearchInteraction	2018-02-07T14:35:20.096Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:35:52.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/SK_C_296	3	1602
+SearchInteraction	2018-02-07T14:36:46.886Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:36:53.963Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:37:02.936Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/RP_T_1921_16	36	1602
+SearchInteraction	2018-02-07T14:38:23.324Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:38:30.200Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+SearchInteraction	2018-02-07T14:39:07.402Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	200
+SearchInteraction	2018-02-07T14:39:21.617Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:32.350Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:37.856Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+SearchInteraction	2018-02-07T14:40:12.456Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:40:32.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:46.367Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:57.588Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:03.293Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:10.822Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:21.814Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-02-07T14:41:36.231Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	29
+CollectionFilterRemovalInteraction	2018-02-07T14:41:37.881Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-02-07T14:41:50.121Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:42:41.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant		407
+SearchInteraction	2018-02-07T14:42:55.596Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'TYPE': ['IMAGE']}	404
+SearchInteraction	2018-02-07T14:43:03.479Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:19.296Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Gem_ldegalerie__Staatliche_Museen_zu_Berlin_868879	11	330
+SearchInteraction	2018-02-07T14:43:40.872Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:43:52.105Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:57.212Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2020903/KMSsp406	26	330
+SearchInteraction	2018-02-07T14:44:28.066Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:33.916Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:38.581Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:43.524Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:49.099Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:54.333Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:01.645Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:11.910Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:30.191Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:35.478Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:41.229Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:47.289Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:52.297Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:45:59.638Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/094041/_nn3z0Zr	323	330
+ArbitraryAccessInteraction	2018-02-07T14:21:55.416Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+ArbitraryAccessInteraction	2018-02-07T14:24:18.999Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	[200] GET /portal/en/record/2021672/resource_document_mauritshuis_275.html (PortalController#show)
+SearchInteraction	2018-02-07T14:25:02.420Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:42.746Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RefreshOrPaginationInteraction	2018-02-07T14:27:52.813Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+RankedRetrieveRecordInteraction	2018-02-07T14:28:12.769Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		/90402/RP_T_1921_16	36	1610
+SearchInteraction	2018-02-07T14:30:35.673Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	744
+CollectionFilterAdditionInteraction	2018-02-07T14:30:45.667Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:48.226Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:30:56.723Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:04.879Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:11.484Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:19.101Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:35.445Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:45.636Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:31:52.656Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:01.662Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:35.414Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:32:43.132Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:33:54.270Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:05.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:11.674Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:24.917Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:33.629Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+RefreshOrPaginationInteraction	2018-02-07T14:34:41.741Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who: Henri de Toulouse-Lautrec	{'TYPE': ['IMAGE']}	405
+SearchInteraction	2018-02-07T14:35:06.852Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)		1610
+SearchInteraction	2018-02-07T14:35:20.096Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:35:52.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/SK_C_296	3	1602
+SearchInteraction	2018-02-07T14:36:46.886Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:36:53.963Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RankedRetrieveRecordInteraction	2018-02-07T14:37:02.936Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	/90402/RP_T_1921_16	36	1602
+SearchInteraction	2018-02-07T14:38:23.324Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+RefreshOrPaginationInteraction	2018-02-07T14:38:30.200Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Peter Paul Rubens)	{'TYPE': ['IMAGE']}	1602
+SearchInteraction	2018-02-07T14:39:07.402Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	200
+SearchInteraction	2018-02-07T14:39:21.617Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:32.350Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+RefreshOrPaginationInteraction	2018-02-07T14:39:37.856Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	who:(Raffaello 1483 - 1520)	{'IMAGE_COLOUR': ['true'], 'IMAGE_SIZE': ['medium'], 'TYPE': ['IMAGE']}	100
+SearchInteraction	2018-02-07T14:40:12.456Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:40:32.267Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:46.367Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:40:57.588Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:03.293Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:10.822Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+RefreshOrPaginationInteraction	2018-02-07T14:41:21.814Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+CollectionFilterAdditionInteraction	2018-02-07T14:41:36.231Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	29
+CollectionFilterRemovalInteraction	2018-02-07T14:41:37.881Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch	{'TYPE': ['IMAGE']}	81
+SearchInteraction	2018-02-07T14:41:50.121Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	dc_creator:Edvard Munch		3720
+SearchInteraction	2018-02-07T14:42:41.047Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant		407
+SearchInteraction	2018-02-07T14:42:55.596Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'TYPE': ['IMAGE']}	404
+SearchInteraction	2018-02-07T14:43:03.479Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:19.296Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2064108/Museu_ProvidedCHO_Gem_ldegalerie__Staatliche_Museen_zu_Berlin_868879	11	330
+SearchInteraction	2018-02-07T14:43:40.872Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:43:52.105Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:43:57.212Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/2020903/KMSsp406	26	330
+SearchInteraction	2018-02-07T14:44:28.066Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:33.916Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:38.581Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:43.524Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:49.099Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:44:54.333Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:01.645Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:11.910Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:30.191Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:35.478Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:41.229Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:47.289Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RefreshOrPaginationInteraction	2018-02-07T14:45:52.297Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	330
+RankedRetrieveRecordInteraction	2018-02-07T14:45:59.638Z	8ef3b4f5d0a19ef6c5dbc54c89a5e7a1	rembrant	{'IMAGE_COLOUR': ['true'], 'TYPE': ['IMAGE']}	/094041/_nn3z0Zr	323	330
