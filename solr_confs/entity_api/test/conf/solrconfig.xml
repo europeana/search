@@ -582,7 +582,10 @@
             <str name="name">suggestEntity</str>
             <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
+            <!-- 
             <str name="field">skos_prefLabel</str>
+            -->
+            <str name="field">label</str>
             <str name="weightField">derived_score</str>
             <str name="payloadField">payload</str>
             <str name="suggestAnalyzerFieldType">suggestType</str>

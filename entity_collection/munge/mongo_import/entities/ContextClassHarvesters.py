@@ -7,7 +7,7 @@ class LanguageValidator:
         import os
         self.langmap = {}
         langlistloc = os.path.join(os.path.dirname(__file__), '..', 'all_langs.wkp')
-        with open(langlistloc, 'r') as all_langs:
+        with open(langlistloc, 'r', encoding="UTF-8") as all_langs:
             for lang in all_langs:
                 if(not(lang.startswith("#")) and ("|" in lang)):
                     (name, code) = lang.split('|')
@@ -47,12 +47,12 @@ class LanguageValidator:
     def print_langs(self):
         print(self.langmap)
 
+
 class ContextClassHarvester:
 
     import os
 
-   # MONGO_HOST = 'mongodb://136.243.103.29'
-    MONGO_HOST = 'metis-storage.eanadev.org'
+    MONGO_HOST = 'mongodb://localhost'
     MONGO_PORT = 27017
     CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
@@ -68,6 +68,7 @@ class ContextClassHarvester:
         'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
         'altLabel' : { 'label': 'skos_altLabel' , 'type' : 'string' },
         'hiddenLabel' : { 'label' : 'skos_hiddenLabel', 'type' : 'string'},
+        'edmAcronym' : { 'label' : 'edm_acronym', 'type' : 'string'},
         'note' : { 'label': 'skos_note' , 'type' : 'string' },
         'begin' : { 'label' : 'edm_begin', 'type' : 'string'},
         'end' : { 'label' : 'edm_end', 'type' : 'string'}, 
@@ -110,6 +111,7 @@ class ContextClassHarvester:
         'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
         'edmGeographicalLevel' : { 'label' : 'geoLevel', 'type' : 'string'},
         'edmCountry' : { 'label' : 'edm_country', 'type' : 'string'},
+        'address_about' : { 'label' : 'vcard_hasAddress', 'type' : 'string'},
         'vcardStreetAddress' : { 'label' : 'vcard_streetAddress', 'type' : 'string'},
         'vcardLocality' : { 'label' : 'vcard_locality', 'type' : 'string' },
         'vcardPostalCode' : { 'label' : 'vcard_postalCode', 'type' : 'string'},
@@ -117,6 +119,15 @@ class ContextClassHarvester:
         'vcardPostOfficeBox' : { 'label' : 'vcard_postOfficeBox', 'type' : 'string'}
  
     }
+
+    def log_warm_message(self, entity_id, message):
+        # TODO: differentiate logfiles by date
+        filename = "warn.txt"
+        filepath = LanguageValidator.LOG_LOCATION + filename
+        with open(filepath, 'a') as lgout:
+            msg = "Warning info on processing entity " + str(entity_id) + ": " + str(message)
+            lgout.write(msg)
+            lgout.write("\n")
 
     # TODO: add address processing
 
@@ -139,6 +150,7 @@ class ContextClassHarvester:
 
         docroot = ET.Element('add')
         for entity_id, values  in entities.items():
+            print("processing entity:" + entity_id)
             self.build_entity_doc(docroot, entity_id, values)
         self.client.close()
         return self.write_to_file(docroot, start)
@@ -156,6 +168,7 @@ class ContextClassHarvester:
     def sanitize_field(self, field_value):
         field_value = field_value.replace("\n", " ")
         field_value = field_value.replace("\\n", " ")
+        field_value = field_value.replace("\t", " ")
         return field_value
 
     def write_to_file(self, doc, start):
@@ -188,16 +201,23 @@ class ContextClassHarvester:
         return True
 
     def process_address(self, docroot, entity_id, address):
-        address_components = []
+        #TODO check if the full address is needed
+        #address_components = []
         for k, v in address.items():
-            if(k in ContextClassHarvester.FIELD_MAP.keys()):
-                field_name = ContextClassHarvester.FIELD_MAP[k]['label']
-                field_name = field_name + ".1"
-                self.add_field(docroot, field_name, v)
-                address_components.append(v)
-        if(len(address_components) > 0):
-            self.add_field(docroot, "vcard_hasAddress.1", ",".join(address_components))
+            key = k	
+            if ("about" == k):
+                key = "address_" + k
+            if(key not in ContextClassHarvester.FIELD_MAP.keys()):
+                self.log_warm_message(entity_id, "unmapped field: " + key)
+                continue
+            
+            field_name = ContextClassHarvester.FIELD_MAP[key]['label']
+            field_name = field_name + ".1"
+            self.add_field(docroot, field_name, v)
+            #address_components.append(v)
 
+        #if(len(address_components) > 0):
+        #    self.add_field(docroot, "vcard_fulladdresskey...", ",".join(address_components))
 
     def process_representation(self, docroot, entity_id, entity_rows):
         # TODO: Refactor to shrink this method
@@ -208,6 +228,7 @@ class ContextClassHarvester:
                 self.process_address(docroot, entity_id, entity_rows['representation']['address']['AddressImpl'])
             elif str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
+                print("unmapped property: " + str(characteristic))
                 continue
             # TODO: Refactor horrible conditional
             elif(str(characteristic) == "dcIdentifier"):
@@ -244,6 +265,10 @@ class ContextClassHarvester:
                                 if(field_value in prev_alts):
                                     continue
                                 prev_alts.append(field_value)
+
+                            if(characteristic == 'edmAcronym'):
+                                print("edmAcronym: " +  q_field_name + field_value)
+  
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0):
                                 pref_label_count = 1
@@ -400,10 +425,11 @@ class OrganizationHarvester(ContextClassHarvester):
         import RelevanceCounter
         from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'organizations', 'eu.europeana.corelib.solr.entity.OrganizationImpl')
-        self.relevance_counter = RelevanceCounter.PlaceRelevanceCounter()
+        self.relevance_counter = RelevanceCounter.OrganizationRelevanceCounter()
 
     def get_entity_count(self):
         org_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/organization/).*$' }} )
+        print("importing organizations: " + str(len(org_list)))
         return len(org_list)
 
     def build_entity_chunk(self, start):
