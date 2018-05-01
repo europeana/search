@@ -115,3 +115,8 @@ class PlaceRelevanceCounter(RelevanceCounter):
 
     def __init__(self):
         RelevanceCounter.__init__(self, 'place')
+
+class OrganizationRelevanceCounter(RelevanceCounter):
+
+    def __init__(self):
+        RelevanceCounter.__init__(self, 'organization')
