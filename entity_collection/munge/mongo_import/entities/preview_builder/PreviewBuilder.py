@@ -35,9 +35,12 @@ class PreviewBuilder:
             # for some reason the preview data model for multilingual 
             # Organization fields is different from the mulitilingual
             # model elsewhere
-            build_org_preview_field('edmCountry', preview_fields, entity_rows)
-            build_org_preview_field('edmAcronym', preview_fields, entity_rows)
-            build_org_preview_field('edmOrganizationDomain', preview_fields, entity_rows)
+            preview_fields['acronym'] = self.build_acronym(entity_rows)
+            #build_org_preview_field('acronym', preview_fields, entity_rows, "edmAcronym")
+            if(self.get_org_field(entity_rows, "edmCountry")):
+                preview_fields['country'] = self.get_org_field(entity_rows, "edmCountry")
+            if(self.get_org_field(entity_rows, "edmOrganizationDomain")):
+                preview_fields['organizationDomain'] = self.get_org_field(entity_rows, "edmOrganizationDomain")
         return preview_fields
 
     def build_pref_label(self, entity_rows):
@@ -46,25 +49,32 @@ class PreviewBuilder:
             all_langs[k] = entity_rows['prefLabel'][k][0]
         return all_langs
 
-    def build_org_preview_field(field_name, preview_dictionary, entity_rows):
-        if(field_name in entity_rows.keys()):
-            for lang_code in entity_rows[field_name]:
-                preview_dictionary[field_name + "." + lang_code] = entity_rows[field_name][lang_code]
+    def build_acronym(self, entity_rows):
+        all_langs = {}
+        for k in entity_rows['edmAcronym']:
+            all_langs[k] = entity_rows['edmAcronym'][k]
+        return all_langs
 
+    def get_org_field(self, entity_rows, entity_key):
+        if(entity_key in entity_rows.keys()):
+            #only english values are available for now and need to be converted to string literals    
+            if "en" in entity_rows[entity_key].keys():
+                return entity_rows[entity_key]["en"]
+    
     def build_max_recall(self, entity_type, entity_rows):
         all_langs = {}
         for k in entity_rows['prefLabel']:
             all_langs[k] = self.transpose_terms(entity_type, entity_rows['prefLabel'][k][0])
         return all_langs
 
-    def transpose_terms(self, type, term):
+    def transpose_terms(self, entity_type, term):
         # reimplements (with trim_term())
         # https://github.com/europeana/uim-europeana/blob/master/workflow_plugins/
         # europeana-uim-plugin-enrichment/src/main/java/eu/europeana/uim/enrichment/
         # normalizer/AgentNormalizer.java
         term = self.trim_term(term)
         all_terms = [term]
-        if(type != 'Agent'): # only agents need bibliographic inversion
+        if(entity_type != 'Agent'): # only agents need bibliographic inversion
             return all_terms
         elif(' ' not in term): # not possible to invert a single term
             return all_terms
