@@ -130,8 +130,8 @@ def get_org_count(self):
 def build_org_file(self, start):
     try:
         ol = ContextClassHarvesters.OrganizationHarvester()
-        entity_list = pl.build_entity_chunk(start)
-        status = pl.build_solr_doc(entity_list, start)
+        entity_list = ol.build_entity_chunk(start)
+        status = ol.build_solr_doc(entity_list, start)
         return status
     except ServerSelectionTimeoutError as ss:
         try:
