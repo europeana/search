@@ -89,9 +89,14 @@ class RelevanceCounter:
         if(pagerank is None): pagerank = 0
         pagerank = pagerank + 1 # eliminate values > 1
         # two effects: pagerank only boosts values
-        # no europeana hits drops relevance to zero
-        # no pagerank value leaves relevance as europeana hits
-        relevance = eu_doc_count * pagerank
+        # old: no europeana hits drops relevance to zero
+        # old: no pagerank value leaves relevance as europeana hits
+        # new: no enrichments for this entity found -> use term hits
+        # new: use 1+ln(term hits) to reduce the effect of false positives (the search is ambiguous)
+        if(eu_doc_count > 0):
+            relevance = eu_doc_count * pagerank
+        elif(eu_term_count > 0):
+            relevance = (1 + math.log(eu_term_count)) * pagerank   
         # but let's get this into a sensible range
         if(relevance == 0):
             return 0
