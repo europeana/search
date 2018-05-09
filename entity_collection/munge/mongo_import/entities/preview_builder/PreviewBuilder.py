@@ -51,8 +51,11 @@ class PreviewBuilder:
 
     def build_acronym(self, entity_rows):
         all_langs = {}
-        for k in entity_rows['edmAcronym']:
-            all_langs[k] = entity_rows['edmAcronym'][k]
+        if('edmAcronym' in entity_rows.keys()):
+            for k in entity_rows['edmAcronym']:
+                all_langs[k] = entity_rows['edmAcronym'][k]
+        else:
+            return None        
         return all_langs
 
     def get_org_field(self, entity_rows, entity_key):
@@ -60,6 +63,7 @@ class PreviewBuilder:
             #only english values are available for now and need to be converted to string literals    
             if "en" in entity_rows[entity_key].keys():
                 return entity_rows[entity_key]["en"]
+        return None
     
     def build_max_recall(self, entity_type, entity_rows):
         all_langs = {}
