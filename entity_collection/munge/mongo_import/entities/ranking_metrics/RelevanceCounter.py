@@ -93,6 +93,7 @@ class RelevanceCounter:
         # old: no pagerank value leaves relevance as europeana hits
         # new: no enrichments for this entity found -> use term hits
         # new: use 1+ln(term hits) to reduce the effect of false positives (the search is ambiguous)
+        relevance = 0;
         if(eu_doc_count > 0):
             relevance = eu_doc_count * pagerank
         elif(eu_term_count > 0):

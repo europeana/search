@@ -75,6 +75,7 @@ class ContextClassHarvester:
         'owlSameAs' : { 'label': 'owl_sameAs' , 'type' : 'ref' },
         'edmIsRelatedTo' : { 'label': 'edm_isRelatedTo' , 'type' : 'ref' },
         'dcIdentifier' : { 'label': 'dc_identifier' , 'type' : 'string' },
+        'dcDescription' : { 'label': 'dc_description' , 'type' : 'string' },
         'rdaGr2DateOfBirth' : { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' },
         'rdaGr2DateOfDeath' : { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' },
         'rdaGr2PlaceOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
@@ -109,7 +110,7 @@ class ContextClassHarvester:
         'edmOrganizationDomain' : { 'label' : 'edm_organizationDomain', 'type' : 'string'},
         'edmOrganizationSector' : { 'label' : 'edm_organizationSector', 'type' : 'string'},
         'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
-        'edmGeographicalLevel' : { 'label' : 'geoLevel', 'type' : 'string'},
+        'edmGeographicLevel' : { 'label' : 'geoLevel', 'type' : 'string'},
         'edmCountry' : { 'label' : 'edm_country', 'type' : 'string'},
         'address_about' : { 'label' : 'vcard_hasAddress', 'type' : 'string'},
         'vcardStreetAddress' : { 'label' : 'vcard_streetAddress', 'type' : 'string'},
@@ -117,7 +118,6 @@ class ContextClassHarvester:
         'vcardPostalCode' : { 'label' : 'vcard_postalCode', 'type' : 'string'},
         'vcardCountryName' : { 'label' : 'vcard_countryName', 'type' : 'string' },
         'vcardPostOfficeBox' : { 'label' : 'vcard_postOfficeBox', 'type' : 'string'}
- 
     }
 
     def log_warm_message(self, entity_id, message):
@@ -266,9 +266,6 @@ class ContextClassHarvester:
                                     continue
                                 prev_alts.append(field_value)
 
-                            if(characteristic == 'edmAcronym'):
-                                print("edmAcronym: " +  q_field_name + field_value)
-  
                             self.add_field(docroot, q_field_name, field_value)
                             if(characteristic == 'prefLabel' and pref_label_count == 0):
                                 pref_label_count = 1

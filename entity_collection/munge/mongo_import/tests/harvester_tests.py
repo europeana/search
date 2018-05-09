@@ -22,15 +22,18 @@ class HarvesterTest(unittest.TestCase):
         test_entities = [
              "http://data.europeana.eu/agent/base/11241",   # Paris Hilton
              "http://data.europeana.eu/agent/base/146741",  # Leonardo da Vinci
-             "http://data.europeana.eu/place/base/40361",   # Den Haag
+             "http://data.europeana.eu/place/base/40360",   # Den Haag
              "http://data.europeana.eu/place/base/143914",  # Ferrara
              "http://data.europeana.eu/concept/base/214",   # Neoclassicism
-             "http://data.europeana.eu/concept/base/207"    # Byzantine art
+             "http://data.europeana.eu/concept/base/207",    # Byzantine art
+             "http://data.europeana.eu/organization/1482250000002112001"    # BnF 
         ]
         for test_entity in test_entities:
-            #ieb.build_individual_entity(test_entity, is_test=True)
-            print("Entity uri: " + test_entity)
-
+            ieb.build_individual_entity(test_entity, is_test=True)
+        #errors = test_files_against_mongo('dynamic')
+        #errors.extend(test_json_formation('dynamic'))
+        #return errors
+        
     # tests on a couple of entities of each type
     def test_build_bnf_preview(self):
         bnf_id = "http://data.europeana.eu/organization/1482250000002112001"
@@ -38,3 +41,4 @@ class HarvesterTest(unittest.TestCase):
         ieb = entities.ContextClassHarvesters.IndividualEntityBuilder()
         ieb.build_individual_entity(bnf_id, is_test=True)
       
+        
