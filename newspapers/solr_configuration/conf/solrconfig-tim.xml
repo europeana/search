@@ -705,8 +705,7 @@
     <lst name="defaults">
       <str name="echoParams">explicit</str>
       <int name="rows">10</int>
-      <str name="df">text</str>
-	  <str name="q.op">AND</str>
+      <!-- <str name="df">text</str> -->
     </lst>
     <!-- In addition to defaults, "appends" params can be specified
          to identify values which should be appended to the list of
@@ -1184,7 +1183,7 @@
        
        See http://wiki.apache.org/solr/GuessingFieldTypes
     -->
- <updateRequestProcessorChain name="files-update-processor">
+ <!-- <updateRequestProcessorChain name="files-update-processor">
     <processor class="solr.UUIDUpdateProcessorFactory" />
     <processor class="solr.RemoveBlankFieldUpdateProcessorFactory"/>
     <processor class="solr.FieldNameMutatingUpdateProcessorFactory">
@@ -1215,8 +1214,7 @@
         <str>yyyy-MM-dd</str>
       </arr>
     </processor>
-
-<!--    <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+    <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
       <str name="defaultFieldType">strings</str>
       <lst name="typeMapping">
         <str name="valueClass">java.lang.Boolean</str>
@@ -1236,7 +1234,7 @@
         <str name="fieldType">tdoubles</str>
       </lst>
     </processor>
--->
+
 
     <processor class="org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory">
       <lst name="defaults">
@@ -1254,7 +1252,7 @@
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>
   </updateRequestProcessorChain>
-
+-->
   <!-- Deduplication
 
        An example dedup update processor that creates the "id" field
