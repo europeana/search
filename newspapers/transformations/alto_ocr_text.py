@@ -70,11 +70,18 @@ def alto_ocr_2_text_profile(alto_xml_file, issue_no="", page_no=""):
     :param page_no:
     :return: list, list of text blocks from given ALTO file
     """
+
     namespace = {'alto-1': 'http://schema.ccs-gmbh.com/ALTO',
                  'alto-2': 'http://www.loc.gov/standards/alto/ns-v2#',
                  'alto-3': 'http://www.loc.gov/standards/alto/ns-v3#'}
     tree = ET.ElementTree(ET.fromstring(alto_xml_file))
     xmlns = tree.getroot().tag.split('}')[0].strip('{')
+    if xmlns == "alto":
+        alto_xml_file = alto_xml_file.replace("<alto", "<alto xmlns=\"http://www.loc.gov/standards/alto/ns-v2#\"")
+        # no default namespace e.g., National_Library_of_Estonia\Postimees\1897-08-08.alto.zip
+        # quick fix by inserting name space
+        tree = ET.ElementTree(ET.fromstring(alto_xml_file))
+        xmlns = tree.getroot().tag.split('}')[0].strip('{')
 
     fulltext_profile = FullTextProfile("", issue_no, page_no)
     text_blocks = list()
@@ -117,7 +124,6 @@ def _determine_page_language(text_blocks):
     return language
 
 
-
 def extract_fulltext_4_issue(issue_fulltext_zip_file):
     """
     load fulltext of page from an issue in sequence
@@ -146,8 +152,9 @@ def load_alto_ocr_files(fulltext_zip_file_path):
     """
     print("loading fulltext files from [%s] ... " % fulltext_zip_file_path)
     zipped_alto_files = zipfile.ZipFile(fulltext_zip_file_path)
-    #print("issue name: ", zipped_alto_files.filename.split("\\")[-1].replace(".alto.zip", ""))
     issue_name = os.path.basename(zipped_alto_files.filename).replace(".alto.zip", "")
+    # adapt for National_Library_of_the_Netherlands dataset
+    issue_name = issue_name.replace('_',' ')
     print("issue name: ", issue_name)
     alto_files = zipped_alto_files.filelist
     print("total alto file size: ", len(alto_files))

@@ -32,6 +32,7 @@ class BibliographicResource(object):
     """
     def __int__(self):
         self.europeana_id = ""
+        self.issue_id = ""
         self.dc_title = ""
         self.dc_identifier = ""
         self.dcterms_isPartOf = ""
@@ -88,6 +89,7 @@ def load_edm_in_xml(edm_xml_path):
     g = graph_in_memory.parse(edm_xml_path,format="xml")
 
     namespaces = list(g.namespaces())
+    # namespaces_dict = dict()
     namespaces_dict = dict([(str(ns), abv) for abv, ns in namespaces])
 
     predicates = list(g.predicates(None, None))
@@ -149,6 +151,21 @@ def load_edm_in_xml(edm_xml_path):
                 else:
                     attr_name = "provider_aggregation_" + attr_name
 
+            if resource_uri in resource_type_dict \
+                    and resource_type_dict[resource_uri] == rdflib.term.URIRef('http://www.europeana.eu/schemas/edm/Place'):
+                # http://preview.labs.eanadev.org/api/data-fields/#edmplace
+                attr_name = "pl_" + attr_name
+
+            if resource_uri in resource_type_dict \
+                    and resource_type_dict[resource_uri] == rdflib.term.URIRef('http://www.w3.org/2004/02/skos/core#Concept'):
+                # http://preview.labs.eanadev.org/api/data-fields/#skosconcept
+                attr_name = "cc_" + attr_name
+
+            if resource_uri in resource_type_dict \
+                    and resource_type_dict[resource_uri] == rdflib.term.URIRef('http://www.europeana.eu/schemas/edm/TimeSpan'):
+                # http://preview.labs.eanadev.org/api/data-fields/#edmTimeSpan
+                attr_name = "ts_" + attr_name
+
             attr_name_lang_specific=None
             if lang:
                 attr_name_lang_specific = attr_name+"."+lang
@@ -178,4 +195,4 @@ def _load_resource_types(g, namespaces_dict, predicates):
     return resource_type_dict
 
 # C:\Data\europeana\Te%C3%9Fmann_Library\Tiroler_Volksbote\1919-12-24.alto.zip
-# load_edm_in_xml("C:\\Data\\europeana\\National_Library_of_France\\Le_Petit_Journal\\1941-08-11.edm.xml")
+# load_edm_in_xml("C:\\Data\\europeana\\%C3%96sterreichische_Nationalbibliothek_-_Austrian_National_Library\\Illustrirtes_Wiener_Extrablatt\\1875-11-17.edm.xml")
