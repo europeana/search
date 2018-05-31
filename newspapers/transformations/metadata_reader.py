@@ -8,6 +8,9 @@ import json
 see also https://docs.google.com/document/d/1vhQstotXm4b-t8FHCzStHNCoz1dVzGFsaXLrn2vCPVI
 """
 
+supported_langs = ["de", "el", "en", "es", "et", "fi", "fr", "hr", "it", "la", "lv", "nl", "pl", "ru", "sr",
+                   "sv", "uk", "ar", "bg", "ca", "cz", "da", "eu", "fa", "ga", "gl", "hi", "hu", "hy", "id",
+                   "no", "pt", "ro", "ja", "th", "tr", "ws", "und"]
 
 def _ns_prefix_uri(uriref_str, namespace_dict):
     if '#' in uriref_str:
@@ -59,7 +62,10 @@ class BibliographicResource(object):
         return self.__dict__
 
 
-def _add_attr_value(obj, attr, value):
+def _add_attr_value_multi(obj, attr, value):
+    if not _validate_value(attr, value):
+        return
+
     if hasattr(obj, attr):
         current_value = getattr(obj, attr, [])
         if str(value) not in current_value:
@@ -70,6 +76,10 @@ def _add_attr_value(obj, attr, value):
         setattr(obj, attr, current_value)
     else:
         setattr(obj, attr, [str(value)])
+
+
+def _add_attr_value_single(obj, attr, value):
+    setattr(obj, attr, value)
 
 
 def load_edm_in_xml(edm_xml_path):
@@ -111,13 +121,6 @@ def load_edm_in_xml(edm_xml_path):
             resource_uri = obj_tuple[0]
             value = obj_tuple[1]
 
-            """
-            frag = ""
-            if "#" in resource_uri:
-                frag = resource_uri.split("#")[1]+"_"
-
-            attr_name = frag+abbv_pred.replace(":","_")
-           """
             attr_name = abbv_pred.replace(":","_")
 
             lang=None
@@ -125,6 +128,7 @@ def load_edm_in_xml(edm_xml_path):
                 if hasattr(value, 'language'):
                     lang = value.language
                     # rare case: en-US, e.g., Te%C3%9Fmann_Library\Tiroler_Volksbote\1919-12-24.alto.zip
+                    # do we need to differentiate UK english and US english ?
                     if lang is not None and '-' in lang:
                         lang = lang.split('-')[0]
 
@@ -170,18 +174,48 @@ def load_edm_in_xml(edm_xml_path):
             if lang:
                 attr_name_lang_specific = attr_name+"."+lang
 
-            _add_attr_value(bg_resource, attr_name, value)
+            _add_attr_value_multi(bg_resource, attr_name, value)
 
             if attr_name_lang_specific:
-                _add_attr_value(bg_resource, attr_name_lang_specific, value)
+                _add_attr_value_multi(bg_resource, attr_name_lang_specific, value)
 
             if 'proxy_dc_title' == attr_name or 'proxy_dc_type' == attr_name or 'proxy_edm_type' == attr_name:
                 bg_resource.issue_id = str(resource_uri)
+
+            # newspaper fulltext specific fields
+            if 'proxy_dc_format' == attr_name:
+                if "[OCR confidence]" in value:
+                    ocr_confidence_value = None
+                    try:
+                        ocr_confidence_value = float(value.replace("[OCR confidence]", "").strip().replace(',','.'))
+                    except:
+                        print("ocr_confidence value conversion error. ignore this field. Original value: %s" % value)
+
+                    ocr_confidence_attr = "ocr_confidence"
+                    if ocr_confidence_value:
+                        _add_attr_value_single(bg_resource, ocr_confidence_attr, ocr_confidence_value)
+
 
     # print(bg_resource.to_json())
     # print("resource type dictionary: ", resource_type_dict)
 
     return bg_resource
+
+
+def _validate_value(attr, value):
+    """
+    validate value before indexing
+
+    :param value:
+    :return:
+    """
+    if "[OCR confidence]" in str(value):
+        return False
+
+    if "proxy_dc_language" == str(attr) and str(value) not in supported_langs:
+        return False
+
+    return True
 
 
 def _load_resource_types(g, namespaces_dict, predicates):
