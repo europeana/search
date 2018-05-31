@@ -88,13 +88,12 @@
         <field name="derived_score" type="float" indexed="true" stored="true" multiValued="false"/>
 
 		<!-- entity fields -->
+        <!--  suggester field -->
         <field name="skos_prefLabel" type="proper_name" indexed="true" stored="true" multiValued="false"/>   
         <dynamicField name="skos_prefLabel.*" type="string" indexed="false" stored="true" multiValued="false"/>   
         <dynamicField name="skos_altLabel.*" type="string" indexed="false" stored="true" multiValued="true"/>
         <dynamicField name="skos_hiddenLabel.*" type="string" indexed="false" stored="true" multiValued="true"/>
         <dynamicField name="skos_note.*" type="string" indexed="false" stored="true" multiValued="true"/>
-        
-        <!--  suggester field -->
         <field name="label" type="proper_name" indexed="true" stored="true" multiValued="true"/>
         <!-- populated by import scripts-->
         <dynamicField name="label.*" type="proper_name" indexed="true" stored="true" multiValued="true"/>

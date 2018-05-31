@@ -52,7 +52,7 @@ class ContextClassHarvester:
 
     import os
 
-    MONGO_HOST = 'mongodb://localhost'
+    MONGO_HOST = 'mongodb://mongo_server'
     MONGO_PORT = 27017
     CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
@@ -141,10 +141,16 @@ class ContextClassHarvester:
 
         self.mongo_entity_class = entity_class
         self.name = name
-        self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
+        self.client = MongoClient(self.get_mongo_host(), self.get_mongo_port())
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
         self.preview_builder = PreviewBuilder.PreviewBuilder()
 
+    def get_mongo_host (self):
+        return ContextClassHarvester.MONGO_HOST
+    
+    def get_mongo_port (self):
+        return ContextClassHarvester.MONGO_PORT
+    
     def build_solr_doc(self, entities, start):
         from xml.etree import ElementTree as ET
 
@@ -222,6 +228,7 @@ class ContextClassHarvester:
     def process_representation(self, docroot, entity_id, entity_rows):
         # TODO: Refactor to shrink this method
         import json
+        #all pref labels
         all_preflabels = []
         for characteristic in entity_rows['representation']:
             if(characteristic == "address"):
@@ -241,50 +248,78 @@ class ContextClassHarvester:
                 self.add_field(docroot, "edm_organizationSector.en", entity_rows['representation']['edmOrganizationSector']['en'])
             elif(str(characteristic) == "edmOrganizationScope"):
                 self.add_field(docroot, "edm_organizationScope.en", entity_rows['representation']['edmOrganizationScope']['en'])            
-            # if the entry is a dictionary, then the keys should be language codes
+            # if the entry is a dictionary (language map), then the keys should be language codes
             elif(type(entity_rows['representation'][characteristic]) is dict):
+                #for each entry in the language map
                 for lang in entity_rows['representation'][characteristic]:
                     pref_label_count = 0
+                    #avoid duplicates when adding values from prefLabel
                     prev_alts = []
                     if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
                         field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                         field_values = entity_rows['representation'][characteristic][lang]
-                        for field_value in field_values:
-                            q_field_name = field_name
+                        #property is language map of strings
+                        if(type(field_values) == str):
                             unq_name = lang if lang != 'def' else ''
-                            if(ContextClassHarvester.FIELD_MAP[characteristic]['type'] == 'string'):
-                                q_field_name = field_name + "."+ unq_name
-                            # Code snarl: we often have more than one prefLabel per language in the data
-                            # We can also have altLabels
-                            # We want to shunt all but the first-encountered prefLabel into the altLabel field
-                            # while ensuring the altLabels are individually unique
-                            # TODO: Refactor (though note that this is a non-trivial refactoring)
-                            if(characteristic == 'prefLabel' and pref_label_count > 0):
-                                q_field_name = "skos_altLabel." + unq_name
-                            if('altLabel' in q_field_name):
-                                if(field_value in prev_alts):
-                                    continue
-                                prev_alts.append(field_value)
-
-                            self.add_field(docroot, q_field_name, field_value)
-                            if(characteristic == 'prefLabel' and pref_label_count == 0):
-                                pref_label_count = 1
-                                all_preflabels.append(field_value)
+                            q_field_name = field_name + "."+ unq_name
+                            #field value = field_values
+                            self.add_field(docroot, q_field_name, field_values) 
+                        else:
+                            #for each value in the list
+                            for field_value in field_values:
+                                q_field_name = field_name
+                                unq_name = lang if lang != 'def' else ''
+                                if(ContextClassHarvester.FIELD_MAP[characteristic]['type'] == 'string'):
+                                    q_field_name = field_name + "."+ unq_name
+                                # Code snarl: we often have more than one prefLabel per language in the data
+                                # We can also have altLabels
+                                # We want to shunt all but the first-encountered prefLabel into the altLabel field
+                                # while ensuring the altLabels are individually unique
+                                # TODO: Refactor (though note that this is a non-trivial refactoring)
+                                if(characteristic == 'prefLabel' and pref_label_count > 0):
+                                    #move all additional labels to alt label
+                                    q_field_name = "skos_altLabel." + unq_name
+                                    #SG - TODO: add dropped pref labels to prev_alts??
+                                    #prev_alts.append(field_value)
+                                if('altLabel' in q_field_name):
+                                    #TODO: SG why this? we skip alt labels here, but we don't add the gained entries from prefLabels
+                                    if(field_value in prev_alts):
+                                        continue
+                                    prev_alts.append(field_value)
+                                    #suggester uses alt labels for some entity types (organizations) 
+                                    self.add_alt_label_to_suggest(field_value, all_preflabels)
+                                if(str(characteristic) == "edmAcronym"):
+                                    #suggester uses alt labels for some entity types (organizations) 
+                                    self.add_acronym_to_suggest(field_value, all_preflabels)
+                                    
+                                if(characteristic == 'prefLabel' and pref_label_count == 0):
+                                    pref_label_count = 1
+                                    #TODO: SG - the suggester could actually make use of all pref labels, but the hightlighter might crash
+                                    all_preflabels.append(field_value)
+                                
+                                #add field to solr doc
+                                self.add_field(docroot, q_field_name, field_value)                                                          
+            #property is list
             elif(type(entity_rows['representation'][characteristic]) is list):
                 field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                 for entry in entity_rows['representation'][characteristic]:
                     self.add_field(docroot, field_name, entry)
-            else: # if a single value
+            # property is a single value
+            else: 
                 try:
                     field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
                     field_value = entity_rows['representation'][characteristic]
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
+        #add suggester payload
         payload = self.build_payload(entity_id, entity_rows)
         self.add_field(docroot, 'payload', json.dumps(payload))
+        #add suggester field
         all_preflabels = self.shingle_preflabels(all_preflabels)
-        self.add_field(docroot, 'skos_prefLabel', "_".join(sorted(set(all_preflabels))))
+        # SG: values in the same language are joined using space separator. underscore is not really needed 
+        #self.add_field(docroot, 'skos_prefLabel', "_".join(sorted(set(all_preflabels))))
+        self.add_field(docroot, 'skos_prefLabel', " ".join(sorted(set(all_preflabels))))
         depiction = self.preview_builder.get_depiction(entity_id)
         if(depiction):
             self.add_field(docroot, 'foaf_depiction', depiction)
@@ -310,7 +345,23 @@ class ContextClassHarvester:
         self.add_field(docroot, 'suggest_filters', entity_type)
         if(term_hits > 0):
             self.add_field(docroot, 'suggest_filters', 'in_europeana')
-
+    
+    def suggest_by_alt_label(self):
+        #this functionality can be activated by individual harvesters
+        return False
+    
+    def suggest_by_acronym(self):
+        #this functionality can be activated by individual harvesters
+        return False
+        
+    def add_alt_label_to_suggest(self, value, suggester_values):
+        if(self.suggest_by_alt_label() and (value not in suggester_values)):
+            suggester_values.append(value)
+            
+    def add_acronym_to_suggest(self, value, suggester_values):
+        if(self.suggest_by_acronym() and (value not in suggester_values)):
+            suggester_values.append(value)
+    
 class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
@@ -424,6 +475,18 @@ class OrganizationHarvester(ContextClassHarvester):
         ContextClassHarvester.__init__(self, 'organizations', 'eu.europeana.corelib.solr.entity.OrganizationImpl')
         self.relevance_counter = RelevanceCounter.OrganizationRelevanceCounter()
 
+    def get_mongo_host (self):
+        return 'mongodb://localhost'
+    
+    def get_mongo_port (self):
+        return 27017
+    
+    def suggest_by_alt_label(self):
+        return True
+    
+    def suggest_by_acronym(self):
+        return True
+    
     def get_entity_count(self):
         org_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/organization/).*$' }} )
         print("importing organizations: " + str(len(org_list)))
@@ -455,19 +518,21 @@ class IndividualEntityBuilder:
     def build_individual_entity(self, entity_id, is_test=False):
         from pymongo import MongoClient
         import os, shutil
-        self.client = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
+        if(entity_id.find("/place/") > 0):
+            harvester = PlaceHarvester()
+        elif(entity_id.find("/agent/") > 0):
+            harvester = AgentHarvester()
+        elif(entity_id.find("/organization/") > 0):
+            harvester = OrganizationHarvester()
+        else:
+            harvester = ConceptHarvester()
+        
+        self.client = MongoClient(harvester.get_mongo_host(), harvester.get_mongo_port())
         entity_rows = self.client.annocultor_db.TermList.find_one({ "codeUri" : entity_id })
         entity_chunk = {}
         entity_chunk[entity_id] = entity_rows
         rawtype = entity_rows['entityType']
-        if(rawtype == 'PlaceImpl'):
-            harvester = PlaceHarvester()
-        elif(rawtype == 'AgentImpl'):
-            harvester = AgentHarvester()
-        elif(rawtype == 'OrganizationImpl'):
-            harvester = OrganizationHarvester()
-        else:
-            harvester = ConceptHarvester()
+        
         start = int(entity_id.split("/")[-1])
         harvester.build_solr_doc(entity_chunk, start)
         if(not(is_test)): print("Entity " + entity_id + " written to " + rawtype[0:-4].lower() + "_" + str(start) + ".xml file.")
