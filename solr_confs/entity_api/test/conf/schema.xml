@@ -272,8 +272,8 @@
         <copyField source="europeanaRole.*" dest="edm_europeanaRole.*" />
         
         <!-- TODO: alias -->
-        <dynamicField name="edm_organizationDomain.*" type="string" indexed="true" stored="true" multiValued="false"/>
-        <dynamicField name="orgDomain.*" type="string" indexed="true" stored="true" multiValued="false" />
+        <dynamicField name="edm_organizationDomain.*" type="string" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="orgDomain.*" type="string" indexed="true" stored="true" multiValued="true" />
         <copyField source="orgDomain.*" dest="edm_organizationDomain.*" />
 
 		<!-- 
