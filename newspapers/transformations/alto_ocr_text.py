@@ -129,7 +129,7 @@ def extract_fulltext_4_issue(issue_fulltext_zip_file):
     load fulltext of page from an issue in sequence
 
     :param issue_fulltext_zip_file:
-    :return:
+    :return:list
     """
     fulltext_alto_files = load_alto_ocr_files(issue_fulltext_zip_file)
 

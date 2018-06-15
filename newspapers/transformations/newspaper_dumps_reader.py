@@ -1,13 +1,20 @@
 #!/usr/bin/env python
-# Usage: python newspaper_dumps_reader.py <newspaper_library_directory>
+# Usage: python newspaper_dumps_reader.py <solr_server_url> <newspaper_library_directory>
 
 import os
 
+import zipfile
 from SolrClient import SolrClient, SolrError
 from metadata_reader import load_edm_in_xml, BibliographicResource
 from alto_ocr_text import extract_fulltext_4_issue
 
 solrClient = SolrClient("http://144.76.218.178:9192/solr/fulltext")
+
+# global statistics
+invalid_fulltext_file = 0
+fulltext_without_edm_metadata = 0
+fulltext_without_page_level_lang = 0
+total_page_indexed = 0
 
 
 def load_all_issues_fulltext(newspaper_dir):
@@ -67,6 +74,13 @@ def index_whole_library_newspapers(library_dir):
     for newspaper_dir in all_newspaper_dir:
         index_whole_newspaper_fulltext(newspaper_dir)
 
+    print("all newspapers are indexed from library [%s] " % library_dir)
+    print("total page indexed: ", total_page_indexed)
+    print("total documents without fulltext or fulltext file is invalid: ", invalid_fulltext_file)
+    print("total documents without edm metadata: ", fulltext_without_edm_metadata)
+    print("total documents without page level language: ", fulltext_without_page_level_lang)
+
+
 
 def index_whole_newspaper_fulltext(newspaper_dir):
     """
@@ -86,13 +100,20 @@ def index_issue_page_fulltext(issue_fulltext_path):
     :param page_fulltext_path: page fulltext file of an issue
     :return:
     """
-    import zipfile
+
+    global invalid_fulltext_file
+    global fulltext_without_edm_metadata
+    global fulltext_without_page_level_lang
+    global total_page_indexed
+
     parsing_err = False
+    issue_fulltext_pages = []
     try:
         issue_fulltext_pages = extract_fulltext_4_issue(issue_fulltext_path)
     except zipfile.BadZipFile as badFileErr:
         # e.g., National_Library_of_Estonia\Postimees\1897-11-06.alto.zip is invalid
         print("Failed to index current issue [%s] !!! Error: %s " % (issue_fulltext_path, badFileErr))
+        invalid_fulltext_file += 1
         parsing_err = True
 
     if parsing_err:
@@ -109,6 +130,7 @@ def index_issue_page_fulltext(issue_fulltext_path):
         print("Warning: no edm metadata found for issue [%s]" % issue_fulltext_path)
         bb_resource = BibliographicResource()
         bb_resource.issue_id = os.path.basename(issue_fulltext_path).replace(".alto.zip", "")
+        fulltext_without_edm_metadata += 1
 
     bb_resource_dict = bb_resource.to_dict()
     issue_id = bb_resource_dict['issue_id']
@@ -121,6 +143,7 @@ def index_issue_page_fulltext(issue_fulltext_path):
             # we use the language in issue level edm metadata temporarily instead if it is available
             #   set page level language with issue level page
             issue_fulltext_page.language = bb_resource_dict["proxy_dc_language"][0]
+            fulltext_without_page_level_lang += 1
 
         # combine page fulltext with metadata into every individual Solr doc
         solr_doc = {**issue_fulltext_page.to_edm_json(), **bb_resource_dict}
@@ -132,6 +155,7 @@ def index_issue_page_fulltext(issue_fulltext_path):
     print("total [%s] solr document size to be indexed for issue [%s]: " % (len(solr_docs), issue_fulltext_path))
 
     # print(solr_docs)
+    total_page_indexed += len(solr_docs)
     response = solrClient.batch_update_documents(solr_docs)
     print("indexing done. status: ", response)
 
@@ -144,4 +168,7 @@ if __name__ == '__main__':
         news_paper_library_directory_path = str(sys.argv[1])
         print("news_paper_library_directory_path: ", news_paper_library_directory_path)
         index_whole_library_newspapers(news_paper_library_directory_path)
+    else:
+        print("python newspaper_dumps_reader.py <solr_server_url> <newspaper_library_directory>")
+
 

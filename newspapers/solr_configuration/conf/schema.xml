@@ -7,12 +7,13 @@
   <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
   <fieldType name="booleans" class="solr.BoolField" sortMissingLast="true" multiValued="true"/>
   <fieldType name="date" class="solr.TrieDateField" positionIncrementGap="0" precisionStep="0"/>
-  <!--<fieldType name="binary" class="solr.BinaryField"/>      
+  <fieldType name="float" class="solr.TrieFloatField" positionIncrementGap="0" precisionStep="0"/>
+  <fieldType name="floats" class="solr.TrieFloatField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>  <!--<fieldType name="binary" class="solr.BinaryField"/>      
   <fieldType name="dates" class="solr.TrieDateField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
   <fieldType name="double" class="solr.TrieDoubleField" positionIncrementGap="0" precisionStep="0"/>
   <fieldType name="doubles" class="solr.TrieDoubleField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
-  <fieldType name="float" class="solr.TrieFloatField" positionIncrementGap="0" precisionStep="0"/>
-  <fieldType name="floats" class="solr.TrieFloatField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
+  
+  
   <fieldType name="ignored" class="solr.StrField" indexed="false" stored="false" multiValued="true"/>
   <fieldType name="int" class="solr.TrieIntField" positionIncrementGap="0" precisionStep="0"/>
   <fieldType name="ints" class="solr.TrieIntField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
@@ -1156,10 +1157,12 @@
 		</analyzer>
 	</fieldType>
 		
+  <!-- newspaper fulltext specific fields -->
   <!-- <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/> -->
   <field name="europeana_id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
   <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false"/>
   <field name="text" type="text_und" indexed="true" stored="false" multiValued="true"/>
+  <field name="ocr_confidence" type="float" indexed="true" stored="true" multiValued="false"/>
   
   <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
   <field name="doc_type" type="string" indexed="true" stored="true"/>
