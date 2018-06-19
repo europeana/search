@@ -760,6 +760,10 @@
          <str>nameOfCustomComponent2</str>
        </arr>
       -->
+	  <!-- enable elevator in select request handler -->
+	  <arr name="last-components">  
+		 <str>elevator</str>  
+	  </arr>  
   </requestHandler>
 
   <!-- A request handler that returns indented JSON by default -->
