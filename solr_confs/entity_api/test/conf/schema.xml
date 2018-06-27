@@ -211,6 +211,9 @@
         <dynamicField name="rdagr2_placeOfBirth.*" type="string" indexed="false" stored="true" multiValued="true"/>
         <!--  TODO: alias -->    
         <field name="placeOfBirth" type="string" indexed="true" stored="true" multiValued="true" />
+        <field name="placeOfBirth.uri" type="string" indexed="true" stored="true" multiValued="true"/>
+        <copyField source="rdagr2_placeOfBirth." dest="placeOfBirth.uri" />       
+        
         <dynamicField name="placeOfBirth.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_placeOfBirth" dest="placeOfBirth" />
         <copyField source="rdagr2_placeOfBirth.*" dest="placeOfBirth.*" />       
