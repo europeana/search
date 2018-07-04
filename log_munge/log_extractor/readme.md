@@ -26,6 +26,7 @@ Step 2 is performed by the `EntryExtractor`. The `EntryExtractor` reads the list
 ```
 >>> from log_extractor import entry_extractor
 >>> ee = entry_extractor.EntryExtractor("2017-10-01", "2017-11-01")
+>>> ee.extract_entries()
 ```
 
 After this a number of possibilities arise. For example, the `FieldAndTermExractor` extracts a list of named fields used in search, and the associated search terms; the `TermExtractor` extracts just the terms; etc. 
