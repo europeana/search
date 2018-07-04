@@ -165,13 +165,15 @@
         <field name="identifier" type="string" indexed="true" stored="true" multiValued="true"/>
         <copyField source="dc_identifier" dest="identifier" />
 
-        <!-- some Agent-related date fields. Check datatyping -->
-        <field name="foaf_name" type="string" indexed="false" stored="true" multiValued="true"/>
-        
+        <!-- not available yet -->
+		<!--
+		<field name="foaf_name" type="string" indexed="false" stored="true" multiValued="true"/>
         <dynamicField name="foaf_name.*" type="proper_name" indexed="true" stored="true"
             multiValued="true"/>
         <copyField source="foaf_name.*" dest="foaf_name"/>
+		-->
         
+        <!-- some Agent-related date fields. Check datatyping -->
         <field name="edm_begin" type="string" indexed="false" stored="true" multiValued="true"/>
         <field name="rdagr2_dateOfBirth" type="string" indexed="false" stored="true" multiValued="true"/>
         <field name="rdagr2_dateOfEstablishment" type="string" indexed="false" stored="true" multiValued="true"/>
@@ -190,11 +192,13 @@
             multiValued="true"/>
         <copyField source="rdagr2_dateOfTermination.*" dest="rdagr2_dateOfTermination"/>
         
+		<!-- search field -->
         <field name="end" type="string" indexed="true" stored="false" multiValued="true" />
         <copyField source="edm_end" dest="end" />
         <copyField source="rdagr2_dateOfTermination" dest="end" />
         <copyField source="rdagr2_placeOfDeath" dest="end" />
         
+		<!-- search field -->
         <field name="dc_date" type="string" indexed="false" stored="true" multiValued="true"/>
         <!-- extracted dates -->
         <field name="date_extracted" type="date" indexed="false" stored="true" multiValued="true" />
@@ -221,15 +225,17 @@
         <!--  only URIs -->
         <field name="rdagr2_placeOfDeath" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="rdagr2_placeOfDeath.*" type="string" indexed="false" stored="true" multiValued="true"/>
-        <!-- TODO: alias -->    
+        
+		<!-- TODO: alias -->    
         <field name="placeOfDeath" type="string" indexed="true" stored="true" multiValued="true" />
-        <dynamicField name="placeOfDeath.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
+        <field name="placeOfDeath.uri" type="string" indexed="true" stored="true" multiValued="true"/>
+		<copyField source="rdagr2_placeOfDeath." dest="placeOfDeath.uri" />       
+        
+		<dynamicField name="placeOfDeath.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_placeOfDeath" dest="placeOfDeath" />
         <copyField source="rdagr2_placeOfDeath.*" dest="placeOfDeath.*" />       
         
-        <!-- URI only -->
-        <field name="rdagr2_professionOrOccupation" type="string" indexed="true" stored="true"
-            multiValued="true"/>
+		
         <!-- TODO: alias -->
         <field name="professionOrOccupation" type="string" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_professionOrOccupation" dest="professionOrOccupation"/>
@@ -237,6 +243,11 @@
             stored="true" multiValued="true"/>
         <dynamicField name="professionOrOccupation.*" type="text" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_professionOrOccupation.*" dest="professionOrOccupation.*" />
+		<!-- URI only -->
+        <field name="rdagr2_professionOrOccupation.uri" type="string" indexed="true" stored="true"
+            multiValued="true"/>
+        <copyField source="rdagr2_professionOrOccupation." dest="professionOrOccupation.uri" />
+
         
         <field name="rdagr2_gender" type="string" indexed="true" stored="true" multiValued="true"/>
         <!-- TODO alias -->
@@ -245,7 +256,8 @@
         <dynamicField name="rdagr2_biographicalInformation.*" type="string" indexed="false" stored="true" multiValued="true"/>
         <field name="edm_hasMet" type="string" indexed="false" stored="true" multiValued="true" />
         <field name="hasMet" type="string" indexed="true" stored="true" multiValued="true" />
-        <copyField source="edm_hasMet" dest="hasMet" />
+        <!-- URI or text?? -->
+		<copyField source="edm_hasMet" dest="hasMet" />
         <copyField source="rdagr2_placeOfBirth" dest="hasMet" />
         <copyField source="rdagr2_placeOfDeath" dest="hasMet" />
         
@@ -270,14 +282,18 @@
         <field name="foaf_mbox" type="string" indexed="false" stored="true" multiValued="true" />
         <!-- these fields are all populated by controlled values. These are all en, but in future may be expanded -->
         <!-- TODO: alias -->
-        <dynamicField name="edm_europeanaRole.*" type="string" indexed="true" multiValued="true" />
-        <dynamicField name="europeanaRole.*" type="string" indexed="true" multiValued="true" stored="false" />
-        <copyField source="europeanaRole.*" dest="edm_europeanaRole.*" />
+        <dynamicField name="europeanaRole.*" type="string" indexed="true" multiValued="true" stored="true" />
+        <!--
+		<dynamicField name="edm_europeanaRole.*" type="string" indexed="true" multiValued="true" />
+		<copyField source="europeanaRole.*" dest="edm_europeanaRole.*" />
+        -->
         
         <!-- TODO: alias -->
-        <dynamicField name="edm_organizationDomain.*" type="string" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="orgDomain.*" type="string" indexed="true" stored="true" multiValued="true" />
+        <dynamicField name="organizationDomain.*" type="string" indexed="true" stored="true" multiValued="true" />
+        <!--
+		<dynamicField name="edm_organizationDomain.*" type="string" indexed="true" stored="true" multiValued="true"/>
         <copyField source="orgDomain.*" dest="edm_organizationDomain.*" />
+		-->
 
 		<!-- 
         <dynamicField name="edm_organizationScope.*" type="string" indexed="false" stored="true" multiValued="false"/>
@@ -291,19 +307,25 @@
          -->
 
 		<!-- TODO: alias -->
-        <dynamicField name="edm_geographicLevel.*" type="string" indexed="true" stored="true" multiValued="false"/> 
-        <dynamicField name="geoLevel.*" type="string" indexed="true" stored="true" multiValued="false" />
+        <dynamicField name="geographicLevel.*" type="string" indexed="true" stored="true" multiValued="false" />
+        <!--
+		<dynamicField name="edm_geographicLevel.*" type="string" indexed="true" stored="true" multiValued="false"/> 
         <copyField source="geoLevel.*" dest="edm_geographicLevel.*" />
+		-->
 
         <!-- standard language-defined dynamicField -->
         <dynamicField name="edm_acronym.*" type="string" indexed="false" stored="true" multiValued="true"/>
         <!-- ISO ALPHA-2 codes  -->
         <field name="country" type="string" indexed="true" stored="true" multiValued="false"/>
         <!-- TODO: alias -->
+		<!--
         <field name="edm_country" type="string" indexed="true" stored="true" multiValued="false"/>
         <copyField source="country" dest="edm_country"/>
-        <field name="inCountry" type="string" indexed="true" stored="true" multiValued="true" />
-        <!-- wildcards here indicate numbers; used because of the possibility of one organization having more
+		-->
+		<!-- Determine the top resource linked through edm:isPartOf -->
+		<field name="inCountry" type="string" indexed="true" stored="true" multiValued="true" />
+		
+		<!-- wildcards here indicate numbers; used because of the possibility of one organization having more
              than one address -->
         <dynamicField name="vcard_hasAddress.*" type="string" indexed="false" stored="true" multiValued="false" />
         <dynamicField name="vcard_streetAddress.*" type="string" indexed="false" stored="true" multiValued="false"/>
@@ -324,8 +346,9 @@
          in the import pipeline -->
 
     <field name="text" type="text" indexed="true" stored="true" multiValued="true"/>
-    <dynamicField name="text.*" type="text" indexed="true" stored="true" multiValued="true"/>
+    <dynamicField name="text.*" type="text" indexed="true" stored="false" multiValued="true"/>
     
+	<!-- copy to localized text -->
     <copyField source="skos_prefLabel.*" dest="text.*" />
     <copyField source="skos_altLabel.*" dest="text.*" />
     <copyField source="edm_acronym.*" dest="text.*" />
@@ -335,10 +358,14 @@
     <copyField source="rdagr2_biographicalInformation.*" dest="text.*" />
     <copyField source="europeanaRole.*" dest="text.*" />
     <copyField source="organizationDomain.*" dest="text.*" />
-    <copyField source="organizationScope.*" dest="text.*" />
-    <copyField source="organizationSector.*" dest="text.*" />
     <copyField source="geographicLevel.*" dest="text.*" />
-    <copyField source="skos_prefLabel.*" dest="text" />
+    <!-- not available anymore
+	<copyField source="organizationScope.*" dest="text.*" />
+    <copyField source="organizationSector.*" dest="text.*" />
+	-->
+    
+	<!--  copy to general search field -->
+	<copyField source="skos_prefLabel.*" dest="text" />
     <copyField source="skos_altLabel.*" dest="text" />
     <copyField source="edm_acronym.*" dest="text" />
     <copyField source="skos_note.*" dest="text" />
@@ -347,10 +374,10 @@
     <copyField source="rdagr2_biographicalInformation.*" dest="text" />
     <copyField source="europeanaRole.*" dest="text" />
     <copyField source="organizationDomain.*" dest="text" />
-    <copyField source="organizationScope.*" dest="text" />
-    <copyField source="organizationSector.*" dest="text" />
     <copyField source="geographicLevel.*" dest="text" />
-
-
-
+	<!-- not available anymore
+	<copyField source="organizationScope.*" dest="text" />
+    <copyField source="organizationSector.*" dest="text" />
+	-->
+    
 </schema>
