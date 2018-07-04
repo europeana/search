@@ -52,12 +52,25 @@ class ContextClassHarvester:
 
     import os
 
-    MONGO_HOST = 'mongodb://mongo_server'
-    MONGO_PORT = 27017
+    DEFAULT_CONFIG_SECTION = 'CONFIG'
+    HARVESTER_MONGO_HOST = 'harvester.mongo.host'
+    HARVESTER_MONGO_PORT = 'harvester.mongo.port'
+    
+    ORGHARVESTER_MONGO_HOST = 'organization.harvester.mongo.host'
+    ORGHARVESTER_MONGO_PORT = 'organization.harvester.mongo.port'
+    
     CHUNK_SIZE = 250   # each file will consist of 250 entities
     WRITEDIR = os.path.join(os.path.dirname(__file__), '..', 'entities_out')
+    CONFIG_DIR = os.path.join(os.path.dirname(__file__), '..', 'config')
     LANG_VALIDATOR = LanguageValidator()
     LOG_LOCATION = 'logs/entlogs/'
+    
+    DC_IDENTIFIER = 'dc_identifier'
+    ORGANIZATION_DOMAIN = 'organizationDomain'
+    EUROPEANA_ROLE = 'europeanaRole'
+    GEOGRAPHIC_LEVEL = 'geographicLevel'
+    COUNTRY = 'country'
+    
     FIELD_MAP = {
         # maps mongo fields to their solr equivalents
         # TODO: there are numerous fields defined in the schema but not 
@@ -74,19 +87,36 @@ class ContextClassHarvester:
         'end' : { 'label' : 'edm_end', 'type' : 'string'}, 
         'owlSameAs' : { 'label': 'owl_sameAs' , 'type' : 'ref' },
         'edmIsRelatedTo' : { 'label': 'edm_isRelatedTo' , 'type' : 'ref' },
-        'dcIdentifier' : { 'label': 'dc_identifier' , 'type' : 'string' },
+        'dcIdentifier' : { 'label': DC_IDENTIFIER , 'type' : 'string' },
         'dcDescription' : { 'label': 'dc_description' , 'type' : 'string' },
         'rdaGr2DateOfBirth' : { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' },
+        #not used yet
+        #'rdaGr2DateOfEstablishment' : { 'label': 'rdagr2_dateOfEstablishment' , 'type' : 'string' },
         'rdaGr2DateOfDeath' : { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' },
+        #not used yet
+        #'rdaGr2DateOfTermination' : { 'label': 'rdagr2_dateOfTermination' , 'type' : 'string' },
         'rdaGr2PlaceOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
         'placeOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
+        #not used yet
+        #'placeOfBirth_uri' : { 'label': 'rdagr2_placeOfBirth.uri' , 'type' : 'string' },
         'rdaGr2PlaceOfDeath' : { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' },
+        #not used yet
+        #'placeOfDeath_uri' : { 'label': 'rdagr2_placeOfDeath.uri' , 'type' : 'string' },
+        'rdaGr2PlaceOfDeath' : { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' },
+        #not used yet
+        #'professionOrOccupation_uri' : { 'label': 'professionOrOccupation.uri' , 'type' : 'string' },
         'rdaGr2ProfessionOrOccupation' :  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' },
+        #not used yet
+        #'gender' : { 'label': 'gender' , 'type' : 'string' },
         'rdaGr2BiographicalInformation' : { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' },
         'latitude' : { 'label': 'wgs84_pos_lat' , 'type' : 'string' },
         'longitude' : { 'label': 'wgs84_pos_long' , 'type' : 'string' },
         'begin' : { 'label': 'edm_begin' , 'type' : 'string' },
+        #not used yet
+        #'beginDate' : { 'label': 'edm_beginDate' , 'type' : 'string' },
         'end' : { 'label': 'edm_end' , 'type' : 'string' },
+        #not used yet
+        #'endDate' : { 'label': 'edm_endDate' , 'type' : 'string' },
         'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
         'hasPart' : { 'label' : 'dcterms_hasPart', 'type' : 'ref'},
         'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
@@ -105,13 +135,16 @@ class ContextClassHarvester:
         'inScheme' : { 'label' : 'skos_inScheme', 'type' : 'ref' },
         'note' : { 'label' : 'skos_note', 'type' : 'string' },
         'foafLogo' : { 'label' : 'foaf_logo', 'type' : 'ref' },
+        # not used yet
+        #name' : { 'label' : 'foaf_name', 'type' : 'string' },
         'foafHomepage' : { 'label' : 'foaf_homepage', 'type' : 'ref'},
-        'edmEuropeanaRole' : { 'label' : 'edm_europeanaRole', 'type' : 'string'},
-        'edmOrganizationDomain' : { 'label' : 'edm_organizationDomain', 'type' : 'string'},
-        'edmOrganizationSector' : { 'label' : 'edm_organizationSector', 'type' : 'string'},
-        'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
-        'edmGeographicLevel' : { 'label' : 'geoLevel', 'type' : 'string'},
-        'edmCountry' : { 'label' : 'edm_country', 'type' : 'string'},
+        'edmEuropeanaRole' : { 'label' : EUROPEANA_ROLE, 'type' : 'string'},
+        'edmOrganizationDomain' : { 'label' : ORGANIZATION_DOMAIN, 'type' : 'string'},
+        #TODO: remove, not supported anymore
+        #'edmOrganizationSector' : { 'label' : 'edm_organizationSector', 'type' : 'string'},
+        #'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
+        'edmGeographicLevel' : { 'label' : GEOGRAPHIC_LEVEL, 'type' : 'string'},
+        'edmCountry' : { 'label' : COUNTRY, 'type' : 'string'},
         'address_about' : { 'label' : 'vcard_hasAddress', 'type' : 'string'},
         'vcardStreetAddress' : { 'label' : 'vcard_streetAddress', 'type' : 'string'},
         'vcardLocality' : { 'label' : 'vcard_locality', 'type' : 'string' },
@@ -133,24 +166,30 @@ class ContextClassHarvester:
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
-        import sys, os
-        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
-        sys.path.append(os.path.join(os.path.dirname(__file__), 'preview_builder'))
+        from configparser import RawConfigParser 
+        import sys, os 
         import RelevanceCounter
         import PreviewBuilder
-
+        import HarvesterConfig
+        
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
+        sys.path.append(os.path.join(os.path.dirname(__file__), 'preview_builder'))
+        
+        self.config = HarvesterConfig.HarvesterConfig()
         self.mongo_entity_class = entity_class
         self.name = name
         self.client = MongoClient(self.get_mongo_host(), self.get_mongo_port())
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
-        self.preview_builder = PreviewBuilder.PreviewBuilder()
-
+        self.preview_builder = PreviewBuilder.PreviewBuilder(self.client)
+        
     def get_mongo_host (self):
-        return ContextClassHarvester.MONGO_HOST
-    
+        #return default mongo host, the subclasses may use the type based config (e.g. see organizations)
+        return self.config.get_mongo_host() 
+        
     def get_mongo_port (self):
-        return ContextClassHarvester.MONGO_PORT
-    
+        #return default mongo port, the subclasses may use the type based config (e.g. see also organizations host)
+        return self.config.get_mongo_port()
+        
     def build_solr_doc(self, entities, start):
         from xml.etree import ElementTree as ET
 
@@ -239,15 +278,21 @@ class ContextClassHarvester:
                 continue
             # TODO: Refactor horrible conditional
             elif(str(characteristic) == "dcIdentifier"):
-                self.add_field(docroot, "dc_identifier", entity_rows['representation']['dcIdentifier']['def'][0])
+                self.add_field(docroot, ContextClassHarvester.DC_IDENTIFIER, entity_rows['representation']['dcIdentifier']['def'][0])
             elif(str(characteristic) == "edmOrganizationDomain"):
-                self.add_field(docroot, "edm_organizationDomain.en", entity_rows['representation']['edmOrganizationDomain']['en'])
+                #TODO: create method to add solr field for .en fields
+                self.add_field(docroot, ContextClassHarvester.ORGANIZATION_DOMAIN + ".en", entity_rows['representation']['edmOrganizationDomain']['en'])
+            elif(str(characteristic) == "edmEuropeanaRole"):
+                self.add_field(docroot, ContextClassHarvester.EUROPEANA_ROLE + ".en", entity_rows['representation']['edmEuropeanaRole']['en'])
+            elif(str(characteristic) == "edmGeographicLevel"):
+                self.add_field(docroot, ContextClassHarvester.GEOGRAPHIC_LEVEL + ".en", entity_rows['representation']['edmGeographicLevel']['en'])
             elif(str(characteristic) == "edmCountry"):
-                self.add_field(docroot, "edm_country", entity_rows['representation']['edmCountry']['en'])
-            elif(str(characteristic) == "edmOrganizationSector"):
-                self.add_field(docroot, "edm_organizationSector.en", entity_rows['representation']['edmOrganizationSector']['en'])
-            elif(str(characteristic) == "edmOrganizationScope"):
-                self.add_field(docroot, "edm_organizationScope.en", entity_rows['representation']['edmOrganizationScope']['en'])            
+                self.add_field(docroot, ContextClassHarvester.COUNTRY, entity_rows['representation']['edmCountry']['en'])
+            #not supported anymore 
+            #elif(str(characteristic) == "edmOrganizationSector"):
+            #    self.add_field(docroot, "edm_organizationSector.en", entity_rows['representation']['edmOrganizationSector']['en'])
+            #elif(str(characteristic) == "edmOrganizationScope"):
+            #    self.add_field(docroot, "edm_organizationScope.en", entity_rows['representation']['edmOrganizationScope']['en'])            
             # if the entry is a dictionary (language map), then the keys should be language codes
             elif(type(entity_rows['representation'][characteristic]) is dict):
                 #for each entry in the language map
@@ -387,10 +432,10 @@ class ConceptHarvester(ContextClassHarvester):
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
         doc = ET.SubElement(docroot, 'doc')
-        id = entity_rows['codeUri']
-        self.add_field(doc, 'id', id)
+        uri = entity_rows['codeUri']
+        self.add_field(doc, 'id', uri)
         self.add_field(doc, 'internal_type', 'Concept')
-        self.process_representation(doc, id, entity_rows)
+        self.process_representation(doc, uri, entity_rows)
 
 class AgentHarvester(ContextClassHarvester):
 
@@ -476,11 +521,8 @@ class OrganizationHarvester(ContextClassHarvester):
         self.relevance_counter = RelevanceCounter.OrganizationRelevanceCounter()
 
     def get_mongo_host (self):
-        return 'mongodb://localhost'
-    
-    def get_mongo_port (self):
-        return 27017
-    
+        return self.config.get_mongo_host(self.name)
+     
     def suggest_by_alt_label(self):
         return True
     
