@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-MONGO_HOST = 'mongodb://136.243.103.29'
+MONGO_HOST = 'mongodb://localhost'
 MONGO_PORT = 27017
 all_keys = {}
 

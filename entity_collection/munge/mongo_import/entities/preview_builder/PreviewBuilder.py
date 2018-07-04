@@ -7,14 +7,14 @@ class PreviewBuilder:
     PROFESSIONS = jobtree.getroot()
     ns = {'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'skos':'http://www.w3.org/2004/02/skos/core#', 'xml':'http://www.w3.org/XML/1998/namespace'}
 
-    def __init__(self):
+    def __init__(self, mongo_client):
         from pymongo import MongoClient
         # note fixed import path
         from entities.ContextClassHarvesters import ContextClassHarvester
         import sys, os
         import yaml
         self.load_depictions()
-        self.mongoclient = MongoClient(ContextClassHarvester.MONGO_HOST, ContextClassHarvester.MONGO_PORT)
+        self.mongoclient = mongo_client
 
     def build_preview(self, entity_type, entity_id, entity_rows):
         import json
@@ -37,10 +37,10 @@ class PreviewBuilder:
             # model elsewhere
             preview_fields['acronym'] = self.build_acronym(entity_rows)
             #build_org_preview_field('acronym', preview_fields, entity_rows, "edmAcronym")
-            if(self.get_org_field(entity_rows, "edmCountry")):
-                preview_fields['country'] = self.get_org_field(entity_rows, "edmCountry")
-            if(self.get_org_field(entity_rows, "edmOrganizationDomain")):
-                preview_fields['organizationDomain'] = self.get_org_field(entity_rows, "edmOrganizationDomain")
+            if(self.get_org_field_en(entity_rows, "edmCountry")):
+                preview_fields['country'] = self.get_org_field_en(entity_rows, "edmCountry")
+            if(self.get_org_field_en(entity_rows, "edmOrganizationDomain")):
+                preview_fields['organizationDomain'] = self.get_org_field_en(entity_rows, "edmOrganizationDomain")
         return preview_fields
 
     def build_pref_label(self, entity_rows):
@@ -58,7 +58,7 @@ class PreviewBuilder:
             return None        
         return all_langs
 
-    def get_org_field(self, entity_rows, entity_key):
+    def get_org_field_en(self, entity_rows, entity_key):
         if(entity_key in entity_rows.keys()):
             #only english values are available for now and need to be converted to string literals    
             if "en" in entity_rows[entity_key].keys():

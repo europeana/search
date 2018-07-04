@@ -9,8 +9,6 @@
 #=========================================================================#
 
 import unittest
-import requests, json, os, sys, re, time
-from pymongo import MongoClient
 import entities.ContextClassHarvesters
 import entities.preview_builder.PreviewBuilder
 
