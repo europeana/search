@@ -47,7 +47,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
     -->
-  <luceneMatchVersion>4.10.1</luceneMatchVersion>
+  <luceneMatchVersion>6.6.2</luceneMatchVersion>
 
   <!-- lib directives can be used to instruct Solr to load an Jars
        identified and use them to resolve any "plugins" specified in
@@ -136,6 +136,38 @@
   <directoryFactory name="DirectoryFactory"
     class="${solr.directoryFactory:solr.StandardDirectoryFactory}"/>
 
+    <!-- The CodecFactory for defining the format of the inverted index.
+       The default implementation is SchemaCodecFactory, which is the official Lucene
+       index format, but hooks into the schema to provide per-field customization of
+       the postings lists and per-document values in the fieldType element
+       (postingsFormat/docValuesFormat). Note that most of the alternative implementations
+       are experimental, so if you choose to customize the index format, its a good
+       idea to convert back to the official format e.g. via IndexWriter.addIndexes(IndexReader)
+       before upgrading to a newer version to avoid unnecessary reindexing.
+  -->
+  <codecFactory class="solr.SchemaCodecFactory"/>
+
+  <!-- To enable dynamic schema REST APIs, use the following for <schemaFactory>:
+  
+       <schemaFactory class="ManagedIndexSchemaFactory">
+         <bool name="mutable">true</bool>
+         <str name="managedSchemaResourceName">managed-schema</str>
+       </schemaFactory>
+       
+       When ManagedIndexSchemaFactory is specified, Solr will load the schema from
+       he resource named in 'managedSchemaResourceName', rather than from schema.xml.
+       Note that the managed schema resource CANNOT be named schema.xml.  If the managed
+       schema does not exist, Solr will create it after reading schema.xml, then rename
+       'schema.xml' to 'schema.xml.bak'. 
+       
+       Do NOT hand edit the managed schema - external modifications will be ignored and
+       overwritten as a result of schema modification REST API calls.
+
+       When ManagedIndexSchemaFactory is specified with mutable = true, schema
+       modification REST API calls will be allowed; otherwise, error responses will be
+       sent back for these requests. 
+  -->
+  <schemaFactory class="ClassicIndexSchemaFactory"/>
 
   <!-- Index Defaults
 
@@ -177,11 +209,17 @@
          Even older versions of Lucene used LogDocMergePolicy.
       -->
 
-    <mergePolicy class="org.apache.lucene.index.TieredMergePolicy">
+   <!-- <mergePolicy class="org.apache.lucene.index.TieredMergePolicy">
       <int name="maxMergeAtOnce">10</int>
       <int name="segmentsPerTier">10</int>
       <double name="reclaimDeletesWeight">5.0</double>
     </mergePolicy>
+-->
+    <mergePolicyFactory class="org.apache.solr.index.TieredMergePolicyFactory">
+      <int name="maxMergeAtOnce">10</int>
+      <int name="segmentsPerTier">10</int>
+      <double name="reclaimDeletesWeight">5.0</double>
+    </mergePolicyFactory>
 
 
     <!-- Merge Factor
@@ -1191,23 +1229,23 @@
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
     -->
-  <requestHandler name="alias" class="solr.AliasingRequestHandler" default="true">
-    <!-- default values for query parameters can be specified, these
-         will be overridden by parameters in the request
-      -->
+<!--  <requestHandler name="alias" class="solr.AliasingRequestHandler" default="true">
+   //  default values for query parameters can be specified, these
+   //      will be overridden by parameters in the request
+    
     <lst name="defaults">
       <str name="echoParams">explicit</str>
       <int name="rows">10</int>
       <str name="f.TYPE.facet.method">enum</str>
       <str name="f.UGC.facet.method">enum</str>
       <str name="f.COMPLETENESS.facet.method">enum</str>
-      <str name="defType">bm25f</str>
+     // disable for now due to the incompatibility <str name="defType">bm25f</str>
     </lst>
     <arr name="last-components">
       <str>elevator</str>
     </arr>
   </requestHandler>
-
+-->
     <requestHandler name="search" class="solr.SearchHandler" default="false">
     <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
@@ -1218,7 +1256,7 @@
       <str name="f.TYPE.facet.method">enum</str>
       <str name="f.UGC.facet.method">enum</str>
       <str name="f.COMPLETENESS.facet.method">enum</str>
-      <str name="defType">bm25f</str>
+      <!-- disable for now due to the incompatibility <str name="defType">bm25f</str> -->
     </lst>
     <arr name="last-components">
       <str>elevator</str>
@@ -1252,7 +1290,7 @@
   <requestHandler name="standard" class="solr.SearchHandler" default="false">
     <lst name="defaults">
       <str name="echoParams">explicit</str>
-      <str name="defType">bm25f</str>
+      <!-- disable for now due to the incompatibility <str name="defType">bm25f</str>-->
     </lst>
     <arr name="last-components">
       <str>elevator</str>
@@ -1272,7 +1310,7 @@
   <!-- Custom Europeana Handler (old name 'europeana')-->
   <requestHandler name="simple" class="solr.SearchHandler">
     <lst name="defaults">
-      <str name="defType">bm25f</str>
+      <!-- disable for now due to the incompatibility <str name="defType">bm25f</str> -->
       <str name="echoParams">explicit</str>
       <float name="tie">0.01</float>
       <str name="qf">
@@ -1455,7 +1493,7 @@
   <!-- Binary Update Request Handler
        http://wiki.apache.org/solr/javabin
     -->
-  <requestHandler name="/update/javabin" class="solr.BinaryUpdateRequestHandler"/>
+  <!--<requestHandler name="/update/javabin" class="solr.BinaryUpdateRequestHandler"/> -->
 
   <!-- CSV Update Request Handler
        http://wiki.apache.org/solr/UpdateCSV
@@ -1465,7 +1503,7 @@
   <!-- JSON Update Request Handler
        http://wiki.apache.org/solr/UpdateJSON
     -->
-  <requestHandler name="/update/json" class="solr.JsonUpdateRequestHandler" startup="lazy"/>
+  <!-- <requestHandler name="/update/json" class="solr.JsonUpdateRequestHandler" startup="lazy"/> -->
 
   <!-- Solr Cell Update Request Handler
 
@@ -1491,7 +1529,7 @@
   <!-- XSLT Update Request Handler
        Transforms incoming XML with stylesheet identified by tr=
   -->
-  <requestHandler name="/update/xslt" startup="lazy" class="solr.XsltUpdateRequestHandler"/>
+ <!-- <requestHandler name="/update/xslt" startup="lazy" class="solr.XsltUpdateRequestHandler"/> -->
 
   <!-- Field Analysis Request Handler
 
@@ -1552,7 +1590,8 @@
        Admin Handlers - This will register all the standard admin
        RequestHandlers.
     -->
-  <requestHandler name="/admin/" class="solr.admin.AdminHandlers"/>
+  <!-- <requestHandler name="/admin/" class="solr.admin.AdminHandlers"/> -->
+
   <!-- This single handler is equivalent to the following... -->
   <!--
      <requestHandler name="/admin/luke"       class="solr.admin.LukeRequestHandler" />
@@ -1670,13 +1709,14 @@
            org.apache.solr.spelling.suggest.jaspell.JaspellLookup [default, jaspell-based]
            org.apache.solr.spelling.suggest.tst.TSTLookup   [ternary trees]
       -->
-      <str name="field">titleSpell</str>
+      <!-- <str name="field">titleSpell</str> -->
+      <str name="field">title</str>
       <!--
       <str name="field">proxy_dc_title.*</str>   the indexed field to derive suggestions from
       <str name="field">proxy_dcterms_alternative.*</str>-->
       <float name="threshold">0</float>
       <str name="buildOnOptimize">true</str>
-      <str name="storeDir">suggestTitle</str>
+      <!--<str name="storeDir">suggestTitle</str>-->
       <!--
       <str name="sourceLocation">american-english</str>
 -->
@@ -1719,11 +1759,11 @@
        <str name="field">proxy_dc_creator.*</str>
 	<str name="field">ag_skos_prefLabel.*</str>
  -->
-      <str name="field">whoSpell</str>
+      <str name="field">who</str>
       <!-- the indexed field to derive suggestions from -->
       <float name="threshold">0</float>
       <str name="buildOnOptimize">true</str>
-      <str name="storeDir">suggestWho</str>
+      <!--<str name="storeDir">suggestWho</str>-->
       <!--
       <str name="sourceLocation">american-english</str>
 -->
@@ -1764,10 +1804,10 @@
       <str name="field">cc_skos_prefLabel.*"</str>
 	<str name="field">cc_skos_broaderLabel.*</str>
 -->
-      <str name="field">whatSpell</str>
+      <str name="field">what</str>
       <float name="threshold">0</float>
       <str name="buildOnOptimize">true</str>
-      <str name="storeDir">suggestWhat</str>
+      <!--<str name="storeDir">suggestWhat</str>-->
       <!--
       <str name="sourceLocation">american-english</str>
 -->
@@ -1808,11 +1848,11 @@
 	<str name="field">proxy_dc_date.*</str>
 	<str name="field">ts_skos_prefLabel.*</str>
 -->
-      <str name="field">whenSpell</str>
+      <str name="field">when</str>
       <!-- the indexed field to derive suggestions from -->
       <float name="threshold">0</float>
       <str name="buildOnOptimize">true</str>
-      <str name="storeDir">suggestWhen</str>
+      <!--<str name="storeDir">suggestWhen</str>-->
       <!--
       <str name="sourceLocation">american-english</str>
 -->
@@ -1851,11 +1891,11 @@
 	<str name="field">proxy_dcterms_spatial.*</str>
 	<str name="field">pl_skos_prefLabel.*</str>
 -->
-      <str name="field">whereSpell</str>
+      <str name="field">where</str>
       <!-- the indexed field to derive suggestions from -->
       <float name="threshold">0</float>
       <str name="buildOnOptimize">true</str>
-      <str name="storeDir">suggestWhere</str>
+      <!--<str name="storeDir">suggestWhere</str>-->
       <!--
       <str name="sourceLocation">american-english</str>
 -->
@@ -1900,7 +1940,7 @@
       -->
     <lst name="spellchecker">
       <str name="name">default</str>
-      <str name="field">spell</str>
+      <str name="field">text</str>
       <str name="spellcheckIndexDir">./spellchecker</str>
       <str name="buildOnOptimize">true</str>
       <!-- uncomment this to require terms to occur in 1% of the documents in order to be included in the dictionary
@@ -1968,7 +2008,8 @@
       <str name="spellcheck.extendedResults">false</str>
       <str name="spellcheck.count">1</str>
       <str name="spellcheck">true</str>
-      <str name="defType">bm25f</str>
+	  
+      <!-- disable for now due to the incompatibility <str name="defType">bm25f</str> -->
     </lst>
     <arr name="last-components">
       <str>spellcheck</str>
@@ -2132,7 +2173,7 @@
     -->
   <searchComponent name="elevator" class="solr.QueryElevationComponent">
     <!-- pick a fieldType to analyze queries -->
-    <str name="queryFieldType">text</str>
+    <str name="queryFieldType">text_general</str>
     <str name="config-file">elevate.xml</str>
   </searchComponent>
 
@@ -2350,7 +2391,8 @@
   <!--
      <queryParser name="myparser" class="com.mycompany.MyQParserPlugin"/>
     -->
-
+  <!--
+  disable for now due to the incompatibility
   <queryParser name="bm25f" class="eu.europeana.ranking.bm25f.BM25FParserPlugin">
     <str name="mainField">text</str>
     <float name="k1">2.052941</float>
@@ -2369,6 +2411,7 @@
       <float name="who"> 0.8619799</float>
     </lst>
   </queryParser>
+  -->
   <!-- Function Parsers
 
        http://wiki.apache.org/solr/FunctionQuery
