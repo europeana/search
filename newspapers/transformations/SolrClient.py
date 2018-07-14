@@ -145,7 +145,7 @@ class SolrClient(object):
         """
         batch update documents
 
-        docs: documment object set in dict json format
+        docs: document object set in dict json format
         """
 
         docs = json.dumps(docs, ensure_ascii=False).encode(encoding='utf_8')

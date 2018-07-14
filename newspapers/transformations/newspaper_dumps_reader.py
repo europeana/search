@@ -1,12 +1,14 @@
 #!/usr/bin/env python
-# Usage: python newspaper_dumps_reader.py <solr_server_url> <newspaper_library_directory>
+# Usage: python newspaper_dumps_reader.py <solr_server_url> <dataset_type> ("metadata"| "fulltext") <newspaper_library_directory>
 
 import os
 
 import zipfile
 from SolrClient import SolrClient, SolrError
-from metadata_reader import load_edm_in_xml, BibliographicResource
+from metadata_reader import load_edm_in_xml, extract_edm_metadata_model, BibliographicResource
 from alto_ocr_text import extract_fulltext_4_issue
+from etl_util import load_files_path_from_dir, load_all_files_from_zip_file, extract_file_name
+from edm_fulltext_reader import extract_edm_fulltext_model
 
 solrClient = SolrClient("http://144.76.218.178:9192/solr/fulltext")
 
@@ -17,28 +19,22 @@ fulltext_without_page_level_lang = 0
 total_page_indexed = 0
 
 
-def load_all_issues_fulltext(newspaper_dir):
+def load_all_issues_alto_fulltext(newspaper_dir):
     """
-    load fulltext file path from newspaper issue directory
+    load ALTO fulltext file path from newspaper issue directory
 
     usage: le_temps_full_text = load_issue_alto_files("/europeana-research-newspapers-dump-2nd/National_Library_of_France/Le_Temps")
 
     :param issue_dir:
     :return:
     """
-    all_alto_files = []
-    for file in os.listdir(newspaper_dir):
-        if file.endswith(".alto.zip"):
-            # skip entire issue alto zip file
-            if file[0].isdigit():
-                all_alto_files.append(os.path.join(newspaper_dir, file))
-    return all_alto_files
+    return load_files_path_from_dir(newspaper_dir, file_suffix=".alto.zip")
 
 
-def load_all_newspapers_from_library(library_dir):
+def load_all_newspapers_from_provider(provider_dir):
     all_newspapers_dir = []
-    for newspaper_dir in os.listdir(library_dir):
-        newspaper_abs_dir = os.path.join(library_dir, newspaper_dir)
+    for newspaper_dir in os.listdir(provider_dir):
+        newspaper_abs_dir = os.path.join(provider_dir, newspaper_dir)
         if os.path.isdir(newspaper_abs_dir):
             all_newspapers_dir.append(newspaper_abs_dir)
     return all_newspapers_dir
@@ -63,32 +59,31 @@ def _get_edm_xml_file(alto_zip_file_path):
     return edm_xml_file_path
 
 
-def index_whole_library_newspapers(library_dir):
+def index_whole_library_newspapers(provider_dir):
     """
 
-    :param library_dir: library directory path that contains all the issues datasets
+    :param provider_dir: data provider directory path that contains all the issues datasets
     :return: None
     """
-    all_newspaper_dir = load_all_newspapers_from_library(library_dir)
-    print("total [%s] newspapers found from library [%s]" % (len(all_newspaper_dir), library_dir))
+    all_newspaper_dir = load_all_newspapers_from_provider(provider_dir)
+    print("total [%s] newspapers found from library [%s]" % (len(all_newspaper_dir), provider_dir))
     for newspaper_dir in all_newspaper_dir:
-        index_whole_newspaper_fulltext(newspaper_dir)
+        index_whole_newspaper_alto_fulltext(newspaper_dir)
 
-    print("all newspapers are indexed from library [%s] " % library_dir)
+    print("all newspapers are indexed from data provider [%s] " % provider_dir)
     print("total page indexed: ", total_page_indexed)
     print("total documents without fulltext or fulltext file is invalid: ", invalid_fulltext_file)
     print("total documents without edm metadata: ", fulltext_without_edm_metadata)
     print("total documents without page level language: ", fulltext_without_page_level_lang)
 
 
-
-def index_whole_newspaper_fulltext(newspaper_dir):
+def index_whole_newspaper_alto_fulltext(newspaper_dir):
     """
 
     :param newspaper_dir: issue directory path that contains all the page fulltext datasets of an issue
     :return:
     """
-    issue_all_issue_files = load_all_issues_fulltext(newspaper_dir)
+    issue_all_issue_files = load_all_issues_alto_fulltext(newspaper_dir)
     print("total [%s] issues found from newspaper [%s]" % (len(issue_all_issue_files), newspaper_dir))
     for issue_fulltext_path in issue_all_issue_files:
         index_issue_page_fulltext(issue_fulltext_path)
@@ -162,13 +157,92 @@ def index_issue_page_fulltext(issue_fulltext_path):
     print(">>>>>>>>>>>>>>>>>>>>>>>")
 
 
+def index_all_edm_fulltext_datasets(edm_dir):
+    """
+    load all edm fulltext zipped datasets
+    :param edm_dir: directory containing all fulltext edm datasets
+    :return: list, edm zipped datasets
+    """
+    all_fulltext_edm_dataset = load_files_path_from_dir(edm_dir, file_suffix=".zip")
+
+
+def index_fulltext_edm_dataset(solr_collection_uri, zipped_dataset_path):
+    print("indexing Fulltext EDM dataset %s ..." % zipped_dataset_path)
+
+    all_fulltext_edm_files = load_all_files_from_zip_file(zipped_dataset_path)
+    #total_files = len(all_fulltext_edm_files)
+    #print("total [%s] files to be indexed" % total_files)
+
+    index_batch_num = 10
+    solr_docs = []
+    solr_client = SolrClient(solr_collection_uri)
+    progress = 0
+
+    for fulltext_edm_file_content, file_name, total_files_size in all_fulltext_edm_files:
+        fulltext_edm_model = extract_edm_fulltext_model(fulltext_edm_file_content, file_name)
+        try:
+            solr_docs.append(fulltext_edm_model.to_edm_json())
+            if len(solr_docs) == index_batch_num:
+                #print(solr_docs)
+                response = solr_client.batch_update_documents(solr_docs)
+                print("indexing current batch done. status: ", response)
+                print("progress: ", float(progress/total_files_size))
+                progress += index_batch_num
+                solr_docs.clear()
+        except SolrError as err:
+            print("Indexing error", str(err))
+            print("doc: ", fulltext_edm_model.to_json())
+            break
+
+    print("all complete.")
+
+
+def index_metadata_edm_dataset(solr_collection_uri, zipped_dataset_path):
+    print("indexing Metadata EDM dataset %s ..." % zipped_dataset_path)
+
+    all_metadata_edm_files = load_all_files_from_zip_file(zipped_dataset_path)
+
+    dataset_id = extract_file_name(zipped_dataset_path, extension=".zip")
+    index_batch_num = 10
+    solr_docs = []
+    solr_client = SolrClient(solr_collection_uri)
+    progress = 0
+
+    for metadata_edm_file_content, file_name, total_files_size in all_metadata_edm_files:
+        bb_resource = extract_edm_metadata_model(metadata_edm_file_content)
+        bb_resource.set_europeana_id(dataset_id)
+        try:
+            solr_docs.append(bb_resource.to_dict())
+            if len(solr_docs) == index_batch_num:
+                response = solr_client.batch_update_documents(solr_docs)
+                print("indexing current batch done. status: ", response)
+                print("progress: ", float(progress/total_files_size))
+                progress += index_batch_num
+                solr_docs.clear()
+        except SolrError as err:
+            print("Indexing error", str(err))
+            print("doc: ", bb_resource.to_json())
+            print("doc: ", file_name)
+            break
+    print("all complete.")
+
+
 if __name__ == '__main__':
     import sys
-    if len(sys.argv) > 1:
-        news_paper_library_directory_path = str(sys.argv[1])
-        print("news_paper_library_directory_path: ", news_paper_library_directory_path)
-        index_whole_library_newspapers(news_paper_library_directory_path)
+    if len(sys.argv) > 2:
+        solr_server_uri = str(sys.argv[1])
+        dataset_type = str(sys.argv[2])
+        index_target = str(sys.argv[3])
+        print("indexing [%s] into [%s] ... " % (solr_server_uri, index_target))
+        if dataset_type == "fulltext":
+            print("indexing the EDM fulltext dataset ...")
+            index_fulltext_edm_dataset(solr_server_uri, index_target)
+        elif dataset_type == "metadata":
+            print("indexing with EDM metadata dataset ...")
+            index_metadata_edm_dataset(solr_server_uri, index_target)
+
     else:
-        print("python newspaper_dumps_reader.py <solr_server_url> <newspaper_library_directory>")
+        # ("metadata"| "fulltext")
+        print("python newspaper_dumps_reader.py <solr_server_url> <dataset_type> <newspaper_library_directory>")
 
 

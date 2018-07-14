@@ -86,6 +86,10 @@
   <!-- browse-resources must come before solr-velocity JAR in order to override localized resources -->
   <lib path="${solr.install.dir:../../../..}/example/files/browse-resources"/>
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-velocity-\d.*\.jar" />
+  
+  <!--<lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib/" regex=".*\.jar" />-->
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs/" regex="lucene-analyzers-morfologik-*\.jar" />
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs/" regex="morfologik-ukrainian-search-*\.jar" />
   <!-- an exact 'path' can be used instead of a 'dir' to specify a 
        specific jar file.  This will cause a serious error to be logged 
        if it can't be loaded.
@@ -277,8 +281,10 @@
                 solr data directory.  -->
     <updateLog>
       <str name="dir">${solr.ulog.dir:}</str>
+	  <int name="numVersionBuckets">${solr.ulog.numVersionBuckets:65536}</int>
     </updateLog>
-
+	
+	
     <!-- AutoCommit
 
          Perform a hard commit automatically under certain conditions.
@@ -299,9 +305,12 @@
 
          If the updateLog is enabled, then it's highly recommended to
          have some sort of hard autoCommit to limit the log size.
+		 
+		see how to configure commits with 'autoCommit' and 'autoSoftCommit'
+		via https://lucene.apache.org/solr/guide/7_1/near-real-time-searching.html
       -->
     <autoCommit>
-      <maxTime>15000</maxTime>
+	  <maxTime>${solr.autoCommit.maxTime:60000}</maxTime>
       <openSearcher>false</openSearcher>
     </autoCommit>
 
@@ -310,12 +319,10 @@
          but does not ensure that data is synced to disk.  This is
          faster and more near-realtime friendly than a hard commit.
       -->
-    <!--
-      <autoSoftCommit> 
-        <maxTime>1000</maxTime> 
-      </autoSoftCommit>
-     -->
-
+    <autoSoftCommit>
+	   <maxTime>${solr.autoSoftCommit.maxTime:900000}</maxTime>
+       <openSearcher>true</openSearcher>
+    </autoSoftCommit>
     <!-- Update Related Event Listeners
          
          Various IndexWriter related events can trigger Listeners to
@@ -433,7 +440,15 @@
     <documentCache class="solr.LRUCache"
                    size="512"
                    initialSize="512"
-                   autowarmCount="0"/>
+                   autowarmCount="256"/>
+				   
+	<!-- custom cache currently used by block join -->
+    <cache name="perSegFilter"
+           class="solr.search.LRUCache"
+           size="10"
+           initialSize="0"
+           autowarmCount="10"
+           regenerator="solr.NoOpRegenerator" />
 
     <!-- Field Value Cache
          
@@ -778,11 +793,17 @@
 
   <!--These useParams values are available in params.json-->
   <requestHandler name="/browse" class="solr.SearchHandler" useParams="query,facets,velocity,browse"/>
-
+	
+  <!-- 
+  When using SolrCloud, the ReplicationHandler must be available via the /replication path.
+  
+  see details via https://lucene.apache.org/solr/guide/6_6/index-replication.html#IndexReplication-IndexReplicationinSolr
+  -->
+  <requestHandler name="/replication" class="solr.ReplicationHandler"/>
 
   <initParams path="/update/**,/query,/select,/tvrh,/elevate,/spell,/browse">
     <lst name="defaults">
-      <str name="df">_text_</str>
+      <str name="df">fulltext.</str>
     </lst>
   </initParams>
 
@@ -814,13 +835,19 @@
                   startup="lazy"
                   class="solr.extraction.ExtractingRequestHandler" >
     <lst name="defaults">
-      <str name="xpath">/xhtml:html/xhtml:body/descendant:node()</str>
-      <str name="capture">content</str>
-      <str name="fmap.meta">attr_meta_</str>
-      <str name="uprefix">attr_</str>
+      <!-- All the main content goes into "text"... if you need to return
+           the extracted text or do highlighting, use a stored field. -->
+      <str name="fmap.content">fulltext.</str>
       <str name="lowernames">true</str>
+      <str name="uprefix">ignored_</str>
+
+      <!-- capture link hrefs but ignore div attributes -->
+      <str name="captureAttr">true</str>
+      <str name="fmap.a">links</str>
+      <str name="fmap.div">ignored_</str>
     </lst>
   </requestHandler>
+  
   <!-- Search Components
 
        Search components are registered to SolrCore and used by 
@@ -1175,18 +1202,12 @@
 
     -->
   
-  <!-- Add unknown fields to the schema 
+  <!-- Default Newspapers Document update request processor chain
   
-       An example field type guessing update processor that will
-       attempt to parse string-typed field values as Booleans, Longs,
-       Doubles, or Dates, and then add schema fields with the guessed
-       field types.  
-       
-       This requires that the schema is both managed and mutable, by
-       declaring schemaFactory as ManagedIndexSchemaFactory, with
-       mutable specified as true. 
-       
-       See http://wiki.apache.org/solr/GuessingFieldTypes
+	In most cases, when running in SolrCloud mode, indexing client applications should not send explicit commit requests.
+	
+	see details via https://lucene.apache.org/solr/guide/6_6/update-request-processors.html
+	
     -->
  <updateRequestProcessorChain name="files-update-processor">
     <processor class="solr.UUIDUpdateProcessorFactory" />
@@ -1219,8 +1240,8 @@
         <str>yyyy-MM-dd</str>
       </arr>
     </processor>
-
-<!--    <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+    <!--<processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+	
       <str name="defaultFieldType">strings</str>
       <lst name="typeMapping">
         <str name="valueClass">java.lang.Boolean</str>
@@ -1239,21 +1260,13 @@
         <str name="valueClass">java.lang.Number</str>
         <str name="fieldType">tdoubles</str>
       </lst>
-    </processor>
--->
-
-    <processor class="org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory">
-      <lst name="defaults">
-        <str name="langid.fl">content</str>
-        <str name="langid.langField">language</str>
-      </lst>
-    </processor>
-
-    <processor class="solr.StatelessScriptUpdateProcessorFactory">
-      <str name="script">update-script.js</str>
-
-    </processor>
-
+    </processor>-->
+	<processor class="solr.TimestampUpdateProcessorFactory">
+	   <str name="fieldName">timestamp_update</str>
+	</processor>
+	<processor class="solr.IgnoreCommitOptimizeUpdateProcessorFactory">
+		<int name="statusCode">200</int>
+	</processor>
     <processor class="solr.LogUpdateProcessorFactory"/>
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>

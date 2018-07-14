@@ -1,0 +1,1 @@
+nohup ~/Python-3.6.3/python newspaper_dumps_reader.py http://<hostname>:<port>/solr/search_fulltext_test fulltext /projects/newspapers/fulltext/edm/<dataset_id>.zip > indexing_newspaper_edm_fulltext_<dataset_id>.log &

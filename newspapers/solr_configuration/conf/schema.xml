@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Solr managed schema - automatically generated - DO NOT EDIT -->
-<schema name="multilingual-fulltext" version="0.1">
-  <uniqueKey>europeana_id</uniqueKey>
+<schema name="multilingual-fulltext" version="0.2">
   
   <!-- deprecating all non-text types for the moment (fulltext) -->
   <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
   <fieldType name="booleans" class="solr.BoolField" sortMissingLast="true" multiValued="true"/>
   <fieldType name="date" class="solr.TrieDateField" positionIncrementGap="0" precisionStep="0"/>
   <fieldType name="float" class="solr.TrieFloatField" positionIncrementGap="0" precisionStep="0"/>
-  <fieldType name="floats" class="solr.TrieFloatField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>  <!--<fieldType name="binary" class="solr.BinaryField"/>      
+  <fieldType name="floats" class="solr.TrieFloatField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>  
+  <fieldType name="int" class="solr.TrieIntField" positionIncrementGap="0" precisionStep="0"/>
+  <!--<fieldType name="binary" class="solr.BinaryField"/>      
   <fieldType name="dates" class="solr.TrieDateField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
   <fieldType name="double" class="solr.TrieDoubleField" positionIncrementGap="0" precisionStep="0"/>
   <fieldType name="doubles" class="solr.TrieDoubleField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
   
-  
   <fieldType name="ignored" class="solr.StrField" indexed="false" stored="false" multiValued="true"/>
-  <fieldType name="int" class="solr.TrieIntField" positionIncrementGap="0" precisionStep="0"/>
+  
   <fieldType name="ints" class="solr.TrieIntField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
   <fieldType name="long" class="solr.TrieLongField" positionIncrementGap="0" precisionStep="0"/>
   <fieldType name="longs" class="solr.TrieLongField" positionIncrementGap="0" multiValued="true" precisionStep="0"/>
    <fieldType name="point" class="solr.PointType" subFieldSuffix="_d" dimension="2"/>
   <fieldType name="random" class="solr.RandomSortField" indexed="true"/>
-  <fieldType name="string" class="solr.StrField" sortMissingLast="true"/>
-  <fieldType name="strings" class="solr.StrField" sortMissingLast="true" multiValued="true"/>
+  
   <fieldType name="tdate" class="solr.TrieDateField" positionIncrementGap="0" precisionStep="6"/>
   <fieldType name="tdates" class="solr.TrieDateField" positionIncrementGap="0" multiValued="true" precisionStep="6"/>
   <fieldType name="tdouble" class="solr.TrieDoubleField" positionIncrementGap="0" precisionStep="8"/>
   <fieldType name="tdoubles" class="solr.TrieDoubleField" positionIncrementGap="0" multiValued="true" precisionStep="8"/>
   -->
   <fieldType name="string" class="solr.StrField" sortMissingLast="true"/>
+  <fieldType name="strings" class="solr.StrField" sortMissingLast="true" multiValued="true"/>
+  
   <fieldType name="long" class="solr.TrieLongField" positionIncrementGap="0" precisionStep="0"/>
   
-  <fieldType name="text_und_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_und_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -46,11 +46,11 @@
   </fieldType>
   
   <fieldType name="text_und" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -59,12 +59,11 @@
     </analyzer>
   </fieldType>
 
-  <fieldType name="text_de_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_de_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -77,7 +76,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_de" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -93,11 +92,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_de" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -113,12 +112,11 @@
     </analyzer>
   </fieldType>
   
-  <fieldType name="text_el_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_el_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.GreekLowerCaseFilterFactory"/>
@@ -131,7 +129,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_el" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -147,11 +145,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_el" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.GreekLowerCaseFilterFactory"/>
@@ -167,12 +165,11 @@
     </analyzer>
   </fieldType>
 
-  <fieldType name="text_en_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_en_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -185,7 +182,7 @@
     </analyzer>
   </fieldType> 
   <fieldType name="text_en" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -201,11 +198,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_en" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -221,12 +218,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_es_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_es_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -239,7 +235,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_es" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -255,11 +251,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_es" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -275,12 +271,11 @@
     </analyzer>
   </fieldType>        
  
-  <fieldType name="text_et_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_et_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -292,7 +287,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_et" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -307,11 +302,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_et" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -327,12 +322,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_fi_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_fi_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -345,7 +339,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_fi" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -361,11 +355,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_fi" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -381,12 +375,11 @@
     </analyzer>
   </fieldType>
   
-  <fieldType name="text_fr_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_fr_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -399,7 +392,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_fr" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -415,11 +408,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_fr" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -435,25 +428,26 @@
     </analyzer>
   </fieldType>
   
-  <fieldType name="text_hr_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_hr_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_hrv.txt"
         />
       <!--                 <filter class="solr.PorterStemFilterFactory"/> -->
+	  <!-- Serbian stemmer largely applicable to Croatian -->
+	  <filter class="solr.SerbianNormalizationFilterFactory" haircut="bald"/>
       <filter class="solr.ASCIIFoldingFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
       <filter class="solr.TrimFilterFactory" />
     </analyzer>
   </fieldType>
   <fieldType name="text_hr" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -463,17 +457,20 @@
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_hrv.txt"
       />
       <!--                 <filter class="solr.PorterStemFilterFactory"/> -->
+	  <!-- Serbian stemmer largely applicable to Croatian -->
+	  <filter class="solr.SerbianNormalizationFilterFactory" haircut="bald"/>
+	  
       <filter class="solr.ASCIIFoldingFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
       <filter class="solr.TrimFilterFactory" />
     </analyzer>
   </fieldType>
   <fieldType name="shingle_hr" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -489,12 +486,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_it_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_it_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -507,7 +503,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_it" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -523,11 +519,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_it" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -543,12 +539,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_la_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_la_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -561,7 +556,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_la" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -577,11 +572,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_la" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -597,12 +592,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_lv_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_lv_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -614,7 +608,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_lv" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -629,11 +623,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_lv" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -649,12 +643,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_nl_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_nl_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -667,7 +660,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_nl" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -683,11 +676,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_nl" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -703,12 +696,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_pl_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_pl_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -721,7 +713,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_pl" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -737,11 +729,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_pl" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -757,12 +749,11 @@
     </analyzer>
   </fieldType>
 
-  <fieldType name="text_ru_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_ru_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -775,7 +766,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_ru" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -791,11 +782,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_ru" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -811,12 +802,11 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_sr_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_sr_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -829,7 +819,7 @@
     </analyzer>
   </fieldType>
   <fieldType name="text_sr" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -845,11 +835,11 @@
     </analyzer>
   </fieldType>
   <fieldType name="shingle_sr" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -865,25 +855,25 @@
     </analyzer>
   </fieldType>
  
-  <fieldType name="text_sv_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_sv_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_swe.txt"
         />
       <filter class="solr.SnowballPorterFilterFactory" language="Swedish" />
+	  <filter class="solr.ScandinavianFoldingFilterFactory"/>
       <filter class="solr.ASCIIFoldingFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
       <filter class="solr.TrimFilterFactory" />
     </analyzer>
   </fieldType>
   <fieldType name="text_sv" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -893,17 +883,18 @@
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_swe.txt"
       />
       <filter class="solr.SnowballPorterFilterFactory" language="Swedish" />
+	  <filter class="solr.ScandinavianFoldingFilterFactory"/>
       <filter class="solr.ASCIIFoldingFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
       <filter class="solr.TrimFilterFactory" />
     </analyzer>
   </fieldType>
   <fieldType name="shingle_sv" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -919,25 +910,28 @@
     </analyzer>
   </fieldType>
 
-  <fieldType name="text_uk_payload" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+  <fieldType name="text_uk_payload" class="solr.TextField" positionIncrementGap="100" omitNorms="false" omitTermFreqAndPositions="false">
+	 <!-- Ukranian -->
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
-      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt"
-        />
+      <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt"/>
       <!--                 <filter class="solr.SnowballPorterFilterFactory" /> -->
+	   <!-- (required) lemmatizer dictionary - the lucene-analyzers-morfologik located in contrib/analysis-extras/lucene-libs -->
+	   <!-- (required) morfologik-ukrainian-search.jar for the ukrainian.dict (see LUCENE-7785) -->
+	  <!--<filter class="solr.MorfologikFilterFactory" dictionary="ua/net/nlp/ukrainian.dict"/>-->
       <filter class="solr.ASCIIFoldingFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
       <filter class="solr.TrimFilterFactory" />
     </analyzer>
   </fieldType>
   <fieldType name="text_uk" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
+	 <!-- Ukranian -->
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -947,17 +941,20 @@
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt"
       />
       <!--                 <filter class="solr.SnowballPorterFilterFactory" /> -->
+	  <!-- (required) lemmatizer dictionary - the lucene-analyzers-morfologik located in contrib/analysis-extras/lucene-libs -->
+	   <!-- (required) morfologik-ukrainian-search.jar for the ukrainian.dict (see LUCENE-7785) -->
+	  <!--<filter class="solr.MorfologikFilterFactory" dictionary="ua/net/nlp/ukrainian.dict"/>-->
       <filter class="solr.ASCIIFoldingFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
       <filter class="solr.TrimFilterFactory" />
     </analyzer>
   </fieldType>
   <fieldType name="shingle_uk" class="solr.TextField" positionIncrementGap="100"
-    autoGeneratePhraseQueries="false" omitNorms="false" omitTermFreqAndPositions="false">
+     omitNorms="false" omitTermFreqAndPositions="false">
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.DelimitedPayloadTokenFilterFactory" encoder="identity"/>
+      <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
       <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
@@ -992,9 +989,9 @@
   </fieldType>
   <fieldType name="text_ca" class="solr.TextField" positionIncrementGap="100">
     <analyzer>
-      <tokenizer class="solr.StandardTokenizerFactory"/>
-      <filter class="solr.ElisionFilterFactory" articles="lang/contractions_ca.txt" ignoreCase="true"/>
+      <tokenizer class="solr.StandardTokenizerFactory"/>	  
       <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.ElisionFilterFactory" articles="lang/contractions_ca.txt" ignoreCase="true"/>
       <filter class="solr.StopFilterFactory" words="lang/stopwords_ca.txt" ignoreCase="true"/>
       <filter class="solr.SnowballPorterFilterFactory" language="Catalan"/>
     </analyzer>
@@ -1109,7 +1106,7 @@
       <filter class="solr.SnowballPorterFilterFactory" language="Romanian"/>
     </analyzer>
   </fieldType>
-  <fieldType name="text_ja" class="solr.TextField" autoGeneratePhraseQueries="false" positionIncrementGap="100">
+  <fieldType name="text_ja" class="solr.TextField"  positionIncrementGap="100">
     <analyzer>
       <tokenizer class="solr.JapaneseTokenizerFactory" mode="search"/>
       <filter class="solr.JapaneseBaseFormFilterFactory"/>
@@ -1159,368 +1156,70 @@
 		
   <!-- newspaper fulltext specific fields -->
   <!-- <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/> -->
-  <field name="europeana_id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
-  <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false"/>
-  <field name="text" type="text_und" indexed="true" stored="false" multiValued="true"/>
-  <field name="ocr_confidence" type="float" indexed="true" stored="true" multiValued="false"/>
+  <!-- The 'fulltext_id' field holds the identifier of the full-text associated to a page. Format: '/{DATASET_ID}/{RECORD_ID}/{PAGE_NR}' -->
+  <field name="fulltext_id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
+  
+  <!-- The 'europeana_id' field holds the identifier of the metadata record. Format: '/{DATASET_ID}/{RECORD_ID}' -->
+  <field name="europeana_id" type="string" indexed="true" required="true" multiValued="false" stored="true" docValues="true"/>
+  
+  <!-- 'edm_webResource' Holds the URL of the image (can be or not a IIIF image URL) -->
+  <field name="edm_webResource" type="string" indexed="true" required="true" multiValued="true" stored="true"/>
+  
+  <field name="fulltextresource" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
+  <!-- Average Page confidence -->
+  <field name="nif_confidence" type="float" indexed="true" stored="true" multiValued="false"/>
+  
+  <!-- Potential field for future use case that would index finer-grained levels of full text granularity, default to 'page' -->
+  <field name="dc_type" type="string" indexed="true" stored="true"/>
+  
+  <field name="language" type="string" indexed="true" stored="true" multiValued="false"/>
+  
+  <field name="page_number" type="int" indexed="true" stored="true" multiValued="false"/>
   
   <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
-  <field name="doc_type" type="string" indexed="true" stored="true"/>
-  <field name="title" type="string" indexed="true" stored="true"/>
-  <field name="language" type="string" indexed="true" stored="true" multiValued="true"/>
-  <field name="issue" type="string" indexed="true" stored="true"/>
-  <field name="date" type="string" indexed="true" stored="true"/>
-  <field name="fulltext." type="text_und" indexed="true" stored="true"/>
-  <field name="fulltext.de" type="text_de" indexed="true" stored="true"/>
-  <field name="fulltext.el" type="text_el" indexed="true" stored="true"/>
-  <field name="fulltext.en" type="text_en" indexed="true" stored="true"/>
-  <field name="fulltext.es" type="text_es" indexed="true" stored="true"/>
-  <field name="fulltext.et" type="text_et" indexed="true" stored="true"/>
-  <field name="fulltext.fi" type="text_fi" indexed="true" stored="true"/>
-  <field name="fulltext.fr" type="text_fr" indexed="true" stored="true"/>
-  <field name="fulltext.hr" type="text_hr" indexed="true" stored="true"/>
-  <field name="fulltext.it" type="text_it" indexed="true" stored="true"/>
-  <field name="fulltext.la" type="text_la" indexed="true" stored="true"/>
-  <field name="fulltext.lv" type="text_lv" indexed="true" stored="true"/>
-  <field name="fulltext.nl" type="text_nl" indexed="true" stored="true"/>
-  <field name="fulltext.pl" type="text_pl" indexed="true" stored="true"/>
-  <field name="fulltext.ru" type="text_ru" indexed="true" stored="true"/>
-  <field name="fulltext.sr" type="text_sr" indexed="true" stored="true"/>
-  <field name="fulltext.sv" type="text_sv" indexed="true" stored="true"/>
-  <field name="fulltext.uk" type="text_uk" indexed="true" stored="true"/>
-  <field name="fulltext.annotated." type="text_und_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.de" type="text_de_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.el" type="text_el_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.en" type="text_en_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.es" type="text_es_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.et" type="text_et_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.fi" type="text_fi_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.fr" type="text_fr_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.hr" type="text_hr_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.it" type="text_it_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.la" type="text_la_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.lv" type="text_lv_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.nl" type="text_nl_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.pl" type="text_pl_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.ru" type="text_ru_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.sr" type="text_sr_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.sv" type="text_sv_payload" indexed="true" stored="true"/>
-  <field name="fulltext.annotated.uk" type="text_uk_payload" indexed="true" stored="true"/>
+
+  <!-- Support Unified Highlighter with "Postings with term vectors"   -->
+  <field name="fulltext." type="text_und" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.de" type="text_de" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.el" type="text_el" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.en" type="text_en" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.es" type="text_es" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.et" type="text_et" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.fi" type="text_fi" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.fr" type="text_fr" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.hr" type="text_hr" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.it" type="text_it" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.la" type="text_la" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.lv" type="text_lv" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.nl" type="text_nl" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.pl" type="text_pl" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.ru" type="text_ru" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.sr" type="text_sr" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.sv" type="text_sv" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.uk" type="text_uk" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+  <field name="fulltext.annotated." type="text_und_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.de" type="text_de_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.el" type="text_el_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.en" type="text_en_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.es" type="text_es_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.et" type="text_et_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.fi" type="text_fi_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.fr" type="text_fr_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.hr" type="text_hr_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.it" type="text_it_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.la" type="text_la_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.lv" type="text_lv_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.nl" type="text_nl_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.pl" type="text_pl_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.ru" type="text_ru_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.sr" type="text_sr_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.sv" type="text_sv_payload" indexed="true" stored="false"/>
+  <field name="fulltext.annotated.uk" type="text_uk_payload" indexed="true" stored="false"/>
   
-  <!-- EDM metadata -->
-  <!-- PROVIDER AGGREGATION RELATED -->
-   <field name="provider_aggregation_ore_aggregation" type="string" indexed="true" stored="false" multiValued="true"/>
-   <field name="provider_aggregation_ore_aggregates" type="string" indexed="true" stored = "false" multiValued="false"/>
-   <field name="provider_aggregation_edm_aggregatedCHO" type="string" indexed="true" stored="false" multiValued="false"/>
-   <field name="provider_aggregation_edm_dataProvider" type="string" indexed="true" stored="true" multiValued="true"/>
-   <dynamicField name="provider_aggregation_edm_dataProvider.*" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="provider_aggregation_edm_hasView" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="provider_aggregation_edm_isShownBy" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="provider_aggregation_edm_isShownAt" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="provider_aggregation_edm_object" type="string" indexed="true" stored="true" multiValued="true" />
-   <field name="provider_aggregation_edm_provider" type="string" indexed="true" stored="true" multiValued="true" />
-   <dynamicField name="provider_aggregation_edm_provider.*" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="provider_aggregation_dc_rights" type="string" indexed="true" stored="true" multiValued="true" />
-   <dynamicfield name="provider_aggregation_dc_rights.*" type="string" indexed="true" stored="true" multiValued="true"/>
-   <field name="provider_aggregation_edm_rights" type="string" indexed="true" stored="true" multiValued="true" />
-   <dynamicField name="provider_aggregation_edm_rights.*" type="string" indexed="true" stored="true" multiValued="false"/>
-   <field name="provider_aggregation_edm_unstored" type="string" indexed="true" stored="false" multiValued="true" />
-   <field name="provider_aggregation_edm_intermediateProvider" type="string" indexed="true" stored="true" multiValued="true"/>
-   <dynamicField name="provider_aggregation_edm_intermediateProvider.*" type="string" indexed="true" stored="true" multiValued="true"/>
-   
-   <!-- EUROPEANA AGGREGATION -->
-	<field name="edm_europeana_aggregation" type="string" indexed="true" stored="true" multiValued="false"/>
-	<field name="europeana_aggregation_ore_aggregatedCHO" type="string" indexed="true" stored="true" multiValued="false"/>
-	<field name="europeana_aggregation_ore_aggregates" type="string" indexed="true" stored="false" multiValued="true"/>
-	<field name="europeana_aggregation_dc_creator" type="string" indexed="true" stored="false" multiValued="false" default="Europeana"/>
-	<dynamicField name="europeana_aggregation_dc_creator.*" type="string" indexed="true" stored="false" multiValued="false"/>
-	<field name="europeana_aggregation_edm_landingPage" type="string" indexed="true" stored="true" multiValued="false"/>
-	<field name="europeana_aggregation_edm_isShownBy" type="string" indexed="true" stored="true" multiValued="false"/>
-	<field name="europeana_aggregation_edm_hasView" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="europeana_aggregation_edm_country" type="string" indexed="true" stored="true" multiValued="false"/>
-	<dynamicField name="europeana_aggregation_edm_country.*" type="string" indexed="true" stored="true" multiValued="false"/>
-	<field name="europeana_aggregation_edm_language" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="europeana_aggregation_edm_language.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="europeana_aggregation_edm_rights" type="string" indexed="true" stored="false" multiValued="false"/>
-	<dynamicField name="europeana_aggregation_edm_rights.*" type="string" indexed="true" stored="false" multiValued="false"/>
-	
-  <!-- else -->
-  <field name="europeana_collectionName" type="string" indexed="true" required="false" multiValued="true" stored="true"/>
-  <field name="edm_datasetName" type="string" indexed="true" required="false" multiValued="true" stored="true"/>
-  <field name="who" type="proper_name" indexed="true" stored="true" multiValued="true" termVectors="true"/>
-  <field name="when" type="text_und" indexed="true" stored="true" multiValued="true" termVectors="true"/>
-  <field name="what" type="text_und" indexed="true" stored="true" multiValued="true" termVectors="true"/>
-  <field name="where" type="proper_name" indexed="true" stored="true" multiValued="true" termVectors="true"/>
-  <field name="europeana_completeness" type="tint" indexed="true" stored="true" multiValued="false"/>
-  <field name="CREATOR" type="string" indexed="true" stored="true" multiValued="true"/>
-  <field name="CONTRIBUTOR" type="string" indexed="true" stored="true" multiValued="true"/>
-  <field name="UGC" type="string" indexed="true" stored="true" multiValued="false"/>
-  <!-- <field name="LANGUAGE" type="string" indexed="true" stored="true" multiValued="true"/> -->
-  <field name="YEAR" type="string" indexed="true" stored="true" multiValued="true"/>
-  <field name="PROVIDER" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="DATA_PROVIDER" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="COUNTRY" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="RIGHTS" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="COMPLETENESS" type="string" indexed="true" stored="true" multiValued="false"/>
-	<field name="edm_previewNoDistribute" type="boolean" indexed="true" stored="true" multiValued="false"/>
-	<field name="subject" type="text_und" indexed="true" stored="true" multiValued="true" termVectors="true"/>
-	
-	<!-- WEB RESOURCE -->
-	<field name="edm_webResource" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="wr_dc_rights" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="wr_dc_rights.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="wr_edm_rights" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="wr_edm_rights.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="wr_dc_description" type="string" indexed="true" stored="false" multiValued="true" />
-	<dynamicField name="wr_dc_description.*" type="string" indexed="true" stored="false" multiValued="true"/>
-	<field name="wr_dc_format" type="string" indexed="true" stored="false" multiValued="true"/>
-    <dynamicField name="wr_dc_format.*" type="string" indexed="true" stored="false" multiValued="true"/>
-    <field name="wr_dc_source" type="string" indexed="true" stored="false" multiValued="true"/>
-    <dynamicField name="wr_dc_source.*" type="string" indexed="true" stored="false" multiValued="true"/>
-	<field name="wr_dcterms_extent" type="string" indexed="true" stored="false" multiValued="true"/>
-   <dynamicField name="wr_dcterms_extent.*" type="string" indexed="true" stored="false" multiValued="true"/>
-   <field name="wr_dcterms_issued" type="string" indexed="true" stored="false" multiValued="true"/>
-   <field name="wr_dcterms_issued.*" type="string" indexed="true" stored="false" multiValued="true"/>
-   <field name="wr_dcterms_conformsTo" type="string" indexed="true" stored="false" multiValued="true"/>
-    <field name="wr_dcterms_conformsTo.*" type="string" indexed="true" stored="false" multiValued="true"/>
-	<field name="wr_dcterms_created" type="string" indexed="true" stored="false" multiValued="true"/>
-	<dynamicField name="wr_dcterms_created.*" type="string" indexed="true" stored="false" multiValued="true"/>
-	<field name="wr_dcterms_isFormatOf" type="string" indexed="true" stored="false" multiValued="true" />
-	<dynamicField name="wr_dcterms_isFormatOf.*" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="wr_dcterms_hasPart" type="string" indexed="true" stored="false" multiValued="true" />
-	<dynamicField name="wr_dcterms_hasPart.*" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="wr_edm_isNextInSequence" type="string" indexed="true" stored="true" multiValued="true"/>
-	
-	<!--PROVIDER PROXY RELATED-->
-	<field name="proxy_ore_proxy" type="string" indexed="true" stored="false" multiValued="true" />
-    <field name="edm_europeana_proxy" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="proxy_owl_sameAs" type="string" indexed="true" stored="true" multiValued="true" />
-	<field name="proxy_ore_proxyFor" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="proxy_ore_proxyIn" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="proxy_edm_isNextInSequence" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="proxy_dc_contributor" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_contributor.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_coverage" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_coverage.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_creator" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_creator.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_date" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_date.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_description" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_description.*" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_language" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_language.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_subject" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_subject.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_format" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_format.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_title" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_title.*" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_type" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_type.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_type_search" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_type_search.*" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_relation" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="proxy_dc_source" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_source.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_rights" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_rights.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_identifier" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_identifier.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_created" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_created.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_extent" type="string" indexed="true" stored="false" multiValued="true" />
-	<dynamicField name="proxy_dcterms_extent.*" type="string" indexed="true" stored="false" multiValued="true" />
-	<field name="proxy_dcterms_issued" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_issued.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_spatial" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_spatial.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_temporal" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_temporal.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dc_publisher" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dc_publisher.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_hasPart" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_hasPart.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_isPartOf" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_isPartOf.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_provenance" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_provenance.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_medium" type="text_und" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_medium.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_dcterms_alternative" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="proxy_dcterms_alternative.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="proxy_edm_type" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="edm_UGC" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="edm_agent" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="ag_skos_prefLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="ag_skos_prefLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="ag_skos_altLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="ag_skos_altLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="ag_foaf_name" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="ag_foaf_name.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="edm_timespan" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="ts_skos_prefLabel" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="ts_skos_prefLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="ts_skos_altLabel" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="ts_skos_altLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="edm_place" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="pl_skos_prefLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="pl_skos_prefLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="pl_skos_altLabel" type="proper_name" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="pl_skos_altLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="pl_wgs84_pos_lat" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="pl_wgs84_pos_long" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="pl_wgs84_pos_alt" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="skos_concept" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="cc_skos_prefLabel" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="cc_skos_prefLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="cc_skos_altLabel" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="cc_skos_altLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="provider_aggregation_cc_license" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="provider_aggregation_odrl_inherited_from" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="wr_cc_license" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="wr_cc_deprecated_on" type="date" indexed="true" stored="true" multiValued="true"/>
-	<field name="foaf_organization" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="org_skos_prefLabel" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="org_skos_prefLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="org_skos_altLabel" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="org_skos_altLabel.*" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="svcs_service" type="string" indexed="true" stored="true" multiValued="true"/>
-	<field name="sv_dcterms_conformsTo" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false"/>
-	
-	<copyField source="europeana_completeness" dest="COMPLETENESS"/>
-	<copyField source="proxy_dc_contributor.*" dest="CONTRIBUTOR"/>
-	<copyField source="europeana_aggregation_edm_country.*" dest="COUNTRY"/>
-	<copyField source="europeana_aggregation_edm_country.*" dest="europeana_aggregation_edm_country"/>
-	<copyField source="proxy_dc_creator.*" dest="CREATOR"/>
-	<copyField source="provider_aggregation_edm_dataProvider.*" dest="DATA_PROVIDER"/>
-	<!-- <copyField source="europeana_aggregation_edm_language.*" dest="LANGUAGE"/> -->
-	<copyField source="europeana_aggregation_edm_language.*" dest="language"/>
-	<copyField source="europeana_aggregation_edm_language.*" dest="europeana_aggregation_edm_language"/>
-	<copyField source="provider_aggregation_edm_provider.*" dest="PROVIDER"/>
-	<copyField source="provider_aggregation_edm_rights.*" dest="RIGHTS"/>
-	<copyField source="provider_aggregation_odrl_inherited_from" dest="RIGHTS"/>
-	<!-- <copyField source="proxy_edm_type" dest="TYPE"/> -->
-	<copyField source="proxy_edm_type" dest="doc_type"/>
-	<copyField source="edm_UGC" dest="UGC"/>
-	<copyField source="proxy_edm_year.*" dest="YEAR"/>
-	<copyField source="ag_foaf_name.*" dest="ag_foaf_name"/>
-	<!-- <copyField source="ag_rdagr2_dateOfBirth.*" dest="ag_rdagr2_dateOfBirth"/>
-	<copyField source="ag_rdagr2_dateOfDeath.*" dest="ag_rdagr2_dateOfDeath"/>
-	<copyField source="ag_rdagr2_placeOfBirth.*" dest="ag_rdagr2_placeOfBirth"/>
-	<copyField source="ag_rdagr2_placeOfDeath.*" dest="ag_rdagr2_placeOfDeath"/>
-	<copyField source="ag_rdagr2_professionOrOccupation.*" dest="ag_rdagr2_professionOrOccupation"/> -->
-	<copyField source="ag_skos_altLabel.*" dest="ag_skos_altLabel"/>
-	<copyField source="ag_skos_prefLabel.*" dest="ag_skos_prefLabel"/>
-	<copyField source="cc_skos_altLabel.*" dest="cc_skos_altLabel"/>
-	<copyField source="cc_skos_prefLabel.*" dest="cc_skos_prefLabel"/>
-	<copyField source="europeana_collectionName" dest="edm_datasetName"/>
-	<copyField source="org_skos_altLabel.*" dest="org_skos_altLabel"/>
-	<copyField source="org_skos_prefLabel.*" dest="org_skos_prefLabel"/>
-	<copyField source="pl_skos_altLabel.*" dest="pl_skos_altLabel"/>
-	<copyField source="pl_skos_prefLabel.*" dest="pl_skos_prefLabel"/>
-	<copyField source="provider_aggregation_dc_rights.*" dest="provider_aggregation_dc_rights"/>
-	<copyField source="provider_aggregation_edm_dataProvider.*" dest="provider_aggregation_edm_dataProvider"/>
-	<copyField source="provider_aggregation_edm_intermediateProvider.*" dest="provider_aggregation_edm_intermediateProvider"/>
-	<copyField source="provider_aggregation_edm_provider.*" dest="provider_aggregation_edm_provider"/>
-	<copyField source="provider_aggregation_edm_rights.*" dest="provider_aggregation_edm_rights"/>
-	<copyField source="proxy_dc_contributor.*" dest="proxy_dc_contributor"/>
-	<copyField source="proxy_dc_coverage.*" dest="proxy_dc_coverage"/>
-	<copyField source="proxy_dc_creator.*" dest="proxy_dc_creator"/>
-	<copyField source="proxy_dc_date.*" dest="proxy_dc_date"/>
-	<copyField source="proxy_dc_description.*" dest="proxy_dc_description"/>
-	<copyField source="proxy_dc_format.*" dest="proxy_dc_format"/>
-	<copyField source="proxy_dc_identifier.*" dest="proxy_dc_identifier"/>
-	<copyField source="proxy_dc_language.*" dest="proxy_dc_language"/>
-	<copyField source="proxy_dc_publisher.*" dest="proxy_dc_publisher"/>
-	<copyField source="proxy_dc_rights.*" dest="proxy_dc_rights"/>
-	<copyField source="proxy_dc_source.*" dest="proxy_dc_source"/>
-	<copyField source="proxy_dc_subject.*" dest="proxy_dc_subject"/>
-	<copyField source="proxy_dc_title.*" dest="proxy_dc_title"/>
-	<copyField source="proxy_dc_type.*" dest="proxy_dc_type"/>
-	<copyField source="proxy_dc_type.*" dest="proxy_dc_type_search"/>
-	<copyField source="proxy_dc_type_search.*" dest="proxy_dc_type_search"/>
-	<copyField source="proxy_dcterms_alternative.*" dest="proxy_dcterms_alternative"/>
-	<copyField source="proxy_dcterms_created.*" dest="proxy_dcterms_created"/>
-	<copyField source="proxy_dcterms_extent.*" dest = "proxy_dcterms_extent" />
-	<copyField source="proxy_dcterms_hasPart.*" dest="proxy_dcterms_hasPart"/>
-	<copyField source="proxy_dcterms_isPartOf.*" dest="proxy_dcterms_isPartOf"/>
-	<copyField source="proxy_dcterms_issued.*" dest="proxy_dcterms_issued"/>
-	<copyField source="proxy_dcterms_medium.*" dest="proxy_dcterms_medium"/>
-	<copyField source="proxy_dcterms_provenance.*" dest="proxy_dcterms_provenance"/>
-	<copyField source="proxy_dcterms_spatial.*" dest="proxy_dcterms_spatial"/>
-	<copyField source="proxy_dcterms_temporal.*" dest="proxy_dcterms_temporal"/>
-	<!-- <copyField source="proxy_edm_currentLocation.*" dest="proxy_edm_currentLocation"/> 
-	<copyField source="proxy_edm_hasMet.*" dest="proxy_edm_hasMet"/>
-	<copyField source="proxy_edm_isRelatedTo.*" dest="proxy_edm_isRelatedTo"/>-->
-	<!--<copyField source="proxy_edm_year.*" dest="proxy_edm_year"/>-->
-	<copyField source="proxy_dc_subject.*" dest="subject"/>
-	<copyField source="proxy_dc_coverage.*" dest="subject"/>
-	<copyField source="proxy_dcterms_spatial.*" dest="subject"/>
-	<copyField source="proxy_dcterms_temporal.*" dest="subject"/>
-	<copyField source="provider_aggregation_edm_dataProvider.*" dest="text"/>
-	<copyField source="provider_aggregation_edm_intermediateProvider.*" dest="text"/>
-	<copyField source="provider_aggregation_edm_provider.*" dest="text"/>
-	<copyField source="proxy_dc_contributor.*" dest="text"/>
-	<copyField source="proxy_dc_coverage.*" dest="text"/>
-	<copyField source="proxy_dc_creator.*" dest="text"/>
-	<copyField source="proxy_dc_date.*" dest="text"/>
-	<copyField source="proxy_dc_description.*" dest="text"/>
-	<copyField source="proxy_dc_format.*" dest="text"/>
-	<copyField source="proxy_dc_language.*" dest="text"/>
-	<copyField source="proxy_dc_publisher.*" dest="text"/>
-	<copyField source="proxy_dc_source.*" dest="text"/>
-	<copyField source="proxy_dc_subject.*" dest="text"/>
-	<copyField source="proxy_dc_title.*" dest="text"/>
-	<copyField source="proxy_dc_type.*" dest="text"/>
-	<copyField source="proxy_dcterms_alternative.*" dest="text"/>
-	<copyField source="proxy_dcterms_created.*" dest="text"/>
-	<copyField source="proxy_dcterms_issued.*" dest="text"/>
-	<copyField source="proxy_dcterms_medium.*" dest="text"/>
-	<copyField source="proxy_dcterms_provenance.*" dest="text"/>
-	<copyField source="proxy_dcterms_spatial.*" dest="text"/>
-	<copyField source="proxy_dcterms_temporal.*" dest="text"/>
-	<copyField source="proxy_edm_currentLocation.*" dest="text"/>
-	<copyField source="proxy_edm_type" dest="text"/>
-	<copyField source="ag_skos_altLabel.*" dest="text"/>
-	<copyField source="ag_skos_prefLabel.*" dest="text"/>
-	<copyField source="ag_foaf_name.*" dest="text"/>
-	<copyField source="ts_skos_altLabel.*" dest="text"/>
-	<copyField source="ts_skos_prefLabel.*" dest="text"/>
-	<copyField source="pl_skos_altLabel.*" dest="text"/>
-	<copyField source="pl_skos_prefLabel.*" dest="text"/>
-	<copyField source="cc_skos_altLabel.*" dest="text"/>
-	<copyField source="cc_skos_prefLabel.*" dest="text"/>
-	<copyField source="proxy_dc_type_search.*" dest="text"/>
-	<copyField source="proxy_dc_title.*" dest="title"/>
-	<copyField source="proxy_dcterms_alternative.*" dest="title"/>
-	<copyField source="ts_skos_altLabel.*" dest="ts_skos_altLabel"/>
-	<copyField source="ts_skos_prefLabel.*" dest="ts_skos_prefLabel"/>
-	<!-- <copyField source="proxy_dc_format.*" dest="what"/> -->
-	<copyField source="proxy_dc_type.*" dest="what"/>
-	<copyField source="proxy_dc_subject.*" dest="what"/>
-	<copyField source="proxy_dcterms_medium.*" dest="what"/>
-	<copyField source="cc_skos_prefLabel.*" dest="what"/>
-	<copyField source="cc_skos_altLabel.*" dest="what"/>
-	<copyField source="proxy_dcterms_created.*" dest="when"/>
-	<copyField source="proxy_dcterms_temporal.*" dest="when"/>
-	<copyField source="proxy_dc_date.*" dest="when"/>
-	<copyField source="ts_skos_prefLabel.*" dest="when"/>
-	<copyField source="ts_skos_altLabel.*" dest="when"/>
-	<copyField source="proxy_edm_year.*" dest="when"/>
-	<copyField source="proxy_dcterms_issued.*" dest="when"/>
-	<copyField source="proxy_dcterms_spatial.*" dest="where"/>
-	<copyField source="pl_skos_prefLabel.*" dest="where"/>
-	<copyField source="pl_skos_altLabel.*" dest="where"/>
-	<copyField source="proxy_dc_contributor.*" dest="who"/>
-	<copyField source="proxy_dc_creator.*" dest="who"/>
-	<copyField source="ag_skos_prefLabel.*" dest="who"/>
-	<copyField source="ag_skos_altLabel.*" dest="who"/>
-	<copyField source="ag_foaf_name.*" dest="who"/>
-	<copyField source="wr_dc_rights.*" dest="wr_dc_rights"/>
-	<!--<copyField source="wr_dcterms_isReferencedBy.*" dest="wr_dcterms_isReferencedBy"/>-->
-	<copyField source="wr_edm_rights.*" dest="wr_edm_rights"/>
-	<!--<copyField source="wr_svcs_hasservice.*" dest="wr_svcs_hasservice"/>-->
+  <!-- 'timestamp_created' and 'timestamp_update' fields with ISO 8601 UTC time-->
+  <field name="timestamp_created" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+  <dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false"/>
+			
+  <uniqueKey>fulltext_id</uniqueKey>
 		
 </schema>
