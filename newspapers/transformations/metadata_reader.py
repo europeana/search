@@ -81,102 +81,71 @@ def extract_edm_metadata_model(edm_content):
     predicates = list(g.predicates(None, None))
     bg_resource = BibliographicResource()
     # load resource types
-    resource_type_dict = load_resource_types(g, namespaces_dict, predicates)
-    for pred in predicates:
-        abbv_pred = ns_prefix_uri(pred, namespaces_dict)
-        subject_object_tuples = g.subject_objects(pred)
+    resource_type_dict = load_resource_types(g, namespaces_dict)
+
+    for subject, predicate, object in g:
+        abbv_pred = ns_prefix_uri(predicate, namespaces_dict)
         if "rdf:type" == abbv_pred:
             continue
 
-        # print("pred: ", abbv_pred)
-        for obj_tuple in subject_object_tuples:
-            # print(obj_tuple)
-            resource_uri = obj_tuple[0]
-            value = obj_tuple[1]
+        # print(subject, abbv_pred, object)
+        attr_name = abbv_pred.replace(":", "_")
+        lang = None
 
-            attr_name = abbv_pred.replace(":", "_")
+        if "dc:language"== abbv_pred:
+            lang = str(object)
+            if lang is not None and '-' in lang:
+                lang = lang.split('-')[0]
 
-            lang = None
-            if isinstance(value, rdflib.term.Literal):
-                if hasattr(value, 'language'):
-                    lang = value.language
-                    # rare case: en-US, e.g., Te%C3%9Fmann_Library\Tiroler_Volksbote\1919-12-24.alto.zip
-                    # do we need to differentiate UK english and US english ?
-                    if lang is not None and '-' in lang:
-                        lang = lang.split('-')[0]
+        # if resource (i.e.,resource_uri) is a web resource, the property/pred name should start with "wr_*"
+        # http://preview.labs.eanadev.org/api/data-fields/#edmwebresource
+        if str(subject) in resource_type_dict \
+                and resource_type_dict[str(subject)] == 'http://www.europeana.eu/schemas/edm/WebResource':
+            # print(resource_uri, " is a web resource!")
+            attr_name = "wr_" + attr_name
 
-            # attr_name = edm_field_mapping.get(attr_name, attr_name)
+        if str(subject) in resource_type_dict \
+                and resource_type_dict[str(subject)] == 'http://www.europeana.eu/schemas/edm/ProvidedCHO':
+            # http://preview.labs.eanadev.org/api/data-fields/#edmprovidedcho
+            # print(resource_uri, " is ProvidedCHO!")
+            attr_name = "proxy_" + attr_name
 
-            # if resource (i.e.,resource_uri) is a web resource, the property/pred name should start with "wr_*"
-            # http://preview.labs.eanadev.org/api/data-fields/#edmwebresource
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.europeana.eu/schemas/edm/WebResource'):
-                # print(resource_uri, " is a web resource!")
-                attr_name = "wr_" + attr_name
+        if str(subject) in resource_type_dict \
+                and resource_type_dict[str(subject)] == 'http://www.openarchives.org/ore/terms/Aggregation':
+            # http://preview.labs.eanadev.org/api/data-fields/#oreaggregation
+            if attr_name == "edm:ugc":
+                attr_name = "edm_UGC"
+            else:
+                attr_name = "provider_aggregation_" + attr_name
 
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.europeana.eu/schemas/edm/ProvidedCHO'):
-                # http://preview.labs.eanadev.org/api/data-fields/#edmprovidedcho
-                # print(resource_uri, " is ProvidedCHO!")
-                attr_name = "proxy_" + attr_name
+        if str(subject) in resource_type_dict \
+                and resource_type_dict[str(subject)] == 'http://www.europeana.eu/schemas/edm/Place':
+            # http://preview.labs.eanadev.org/api/data-fields/#edmplace
+            attr_name = "pl_" + attr_name
 
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.openarchives.org/ore/terms/Aggregation'):
-                # http://preview.labs.eanadev.org/api/data-fields/#oreaggregation
-                if attr_name == "edm:ugc":
-                    attr_name = "edm_UGC"
-                else:
-                    attr_name = "provider_aggregation_" + attr_name
+        if str(subject) in resource_type_dict \
+                and resource_type_dict[str(subject)] == 'http://www.w3.org/2004/02/skos/core#Concept':
+            # http://preview.labs.eanadev.org/api/data-fields/#skosconcept
+            attr_name = "cc_" + attr_name
 
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.europeana.eu/schemas/edm/Place'):
-                # http://preview.labs.eanadev.org/api/data-fields/#edmplace
-                attr_name = "pl_" + attr_name
+        if str(subject) in resource_type_dict \
+                and resource_type_dict[str(subject)] == 'http://www.europeana.eu/schemas/edm/TimeSpan':
+            # http://preview.labs.eanadev.org/api/data-fields/#edmTimeSpan
+            attr_name = "ts_" + attr_name
 
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.w3.org/2004/02/skos/core#Concept'):
-                # http://preview.labs.eanadev.org/api/data-fields/#skosconcept
-                attr_name = "cc_" + attr_name
+        attr_name_lang_specific = None
+        if lang:
+            attr_name_lang_specific = attr_name + "." + lang
 
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.europeana.eu/schemas/edm/TimeSpan'):
-                # http://preview.labs.eanadev.org/api/data-fields/#edmTimeSpan
-                attr_name = "ts_" + attr_name
+        if attr_name_lang_specific:
+            add_attr_value_multi(bg_resource, attr_name_lang_specific, object)
 
-            attr_name_lang_specific = None
-            if lang:
-                attr_name_lang_specific = attr_name + "." + lang
+        add_attr_value_multi(bg_resource, attr_name, object)
 
-            add_attr_value_multi(bg_resource, attr_name, value)
-
-            if attr_name_lang_specific:
-                add_attr_value_multi(bg_resource, attr_name_lang_specific, value)
-
-            if 'proxy_dc_title' == attr_name or 'proxy_dc_type' == attr_name or 'proxy_edm_type' == attr_name:
-                bg_resource.issue_id = str(resource_uri)
-
-            # newspaper fulltext specific fields
-            if 'proxy_dc_format' == attr_name:
-                if "[OCR confidence]" in value:
-                    ocr_confidence_value = None
-                    try:
-                        ocr_confidence_value = float(value.replace("[OCR confidence]", "").strip().replace(',', '.'))
-                    except:
-                        print("ocr_confidence value conversion error. ignore this field. Original value: %s" % value)
-
-                    ocr_confidence_attr = "ocr_confidence"
-                    if ocr_confidence_value:
-                        add_attr_value_single(bg_resource, ocr_confidence_attr, ocr_confidence_value)
-    # print(bg_resource.to_json())
-    # print("resource type dictionary: ", resource_type_dict)
+        if 'proxy_dc_title' == attr_name or 'proxy_dc_type' == attr_name or 'proxy_edm_type' == attr_name:
+            bg_resource.issue_id = str(subject)
 
     return bg_resource
 
-# C:\Data\europeana\Te%C3%9Fmann_Library\Tiroler_Volksbote\1919-12-24.alto.zip
-# load_edm_in_xml("C:\\Data\\europeana\\%C3%96sterreichische_Nationalbibliothek_-_Austrian_National_Library\\Illustrirtes_Wiener_Extrablatt\\1875-11-17.edm.xml")
+# bg_resource = load_edm_in_xml("C:\\Data\\europeana\\newspapers\\metadata\\9200396\\http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F3000118435009.edm.xml")
+# print(bg_resource.to_json())

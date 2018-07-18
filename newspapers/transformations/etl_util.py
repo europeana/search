@@ -53,7 +53,7 @@ def add_attr_value_multi(obj, attr, value):
 def add_attr_value_single(obj, attr, value):
     setattr(obj, attr, value)
 
-
+"""
 def load_resource_types(g, namespaces_dict, predicates):
     resource_type_dict = {}
     for pred in predicates:
@@ -63,11 +63,25 @@ def load_resource_types(g, namespaces_dict, predicates):
             for obj_tuple in subject_object_tuples:
                 resource_type_dict[obj_tuple[0]] = obj_tuple[1]
     return resource_type_dict
+"""
+
+
+def load_resource_types(g, namespaces_dict):
+    resource_type_dict = {}
+    for subject, pred, object in g:
+        abbv_pred = ns_prefix_uri(pred, namespaces_dict)
+        if "rdf:type" == abbv_pred and str(subject) not in resource_type_dict:
+            resource_type_dict[str(subject)] = str(object)
+    return resource_type_dict
 
 
 def load_files_path_from_dir(data_dir, file_suffix=".zip"):
     all_files = []
     for file in os.listdir(data_dir):
+        if os.path.isdir(os.path.join(data_dir, file)):
+            files_from_subdir = load_files_path_from_dir(os.path.join(data_dir, file), file_suffix=file_suffix)
+            all_files.extend(files_from_subdir)
+
         if file.endswith(file_suffix):
             # skip entire issue alto zip file
             if file[0].isdigit():
@@ -100,3 +114,28 @@ def load_all_files_from_zip_file(zip_file_path):
             yield xml_content.decode(encoding='utf-8'), file_name, total_files_size
 
 
+def load_file_content(file_path):
+    file_content = ""
+    with open(file_path, "r", encoding="utf-8") as f:
+        file_content = f.read()
+    return file_content
+
+
+def load_all_files_from_dir(file_dir, file_suffix=".xml"):
+    """
+
+    :param file_dir: file dir
+    :param file_suffix: file suffix to filter unwanted files
+    :return: tuple (content, file name, total file size)
+    """
+    all_files = load_files_path_from_dir(file_dir, file_suffix=file_suffix)
+    total_files_size = len(all_files)
+    for file in all_files:
+        xml_content = load_file_content(file)
+        file_name = extract_file_name(file)
+        yield xml_content, file_name,total_files_size
+
+
+
+#all_files = load_files_path_from_dir("C:\\Data\\europeana\\newspapers\\fulltext\\edm\\9200396", file_suffix=".xml")
+#print("all files: ", len(all_files))

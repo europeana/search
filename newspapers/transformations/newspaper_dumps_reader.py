@@ -2,12 +2,16 @@
 # Usage: python newspaper_dumps_reader.py <solr_server_url> <dataset_type> ("metadata"| "fulltext") <newspaper_library_directory>
 
 import os
+import threading
+import multiprocessing
+from multiprocessing import Pool
+from itertools import repeat
 
 import zipfile
 from SolrClient import SolrClient, SolrError
 from metadata_reader import load_edm_in_xml, extract_edm_metadata_model, BibliographicResource
 from alto_ocr_text import extract_fulltext_4_issue
-from etl_util import load_files_path_from_dir, load_all_files_from_zip_file, extract_file_name
+from etl_util import load_files_path_from_dir, load_all_files_from_zip_file, extract_file_name, load_all_files_from_dir
 from edm_fulltext_reader import extract_edm_fulltext_model
 
 solrClient = SolrClient("http://144.76.218.178:9192/solr/fulltext")
@@ -17,6 +21,27 @@ invalid_fulltext_file = 0
 fulltext_without_edm_metadata = 0
 fulltext_without_page_level_lang = 0
 total_page_indexed = 0
+
+# Define the maximum number of cpu cores to use
+MAX_PROCESSES = multiprocessing.cpu_count()
+
+
+class AtomicBulkDocCache:
+    def __init__(self, initial=list()):
+        """Initialize a new atomic counter to given initial value (default 0)."""
+        self.buffer = initial
+        self._lock = threading.Lock()
+        self.value = 0
+
+    def add_new(self, doc_json):
+        with self._lock:
+            self.buffer.append(doc_json)
+            self.value += 1
+            return self.buffer
+
+    def clean_top_n(self, top_n=100):
+        with self._lock:
+            del self.buffer[:top_n]
 
 
 def load_all_issues_alto_fulltext(newspaper_dir):
@@ -163,38 +188,89 @@ def index_all_edm_fulltext_datasets(edm_dir):
     :param edm_dir: directory containing all fulltext edm datasets
     :return: list, edm zipped datasets
     """
-    all_fulltext_edm_dataset = load_files_path_from_dir(edm_dir, file_suffix=".zip")
+    all_fulltext_edm_dataset = load_files_path_from_dir(edm_dir)
 
 
-def index_fulltext_edm_dataset(solr_collection_uri, zipped_dataset_path):
+def index_fulltext_edm_dataset(solr_collection_uri, zipped_dataset_path, cpu_cores=1):
     print("indexing Fulltext EDM dataset %s ..." % zipped_dataset_path)
 
     all_fulltext_edm_files = load_all_files_from_zip_file(zipped_dataset_path)
-    #total_files = len(all_fulltext_edm_files)
-    #print("total [%s] files to be indexed" % total_files)
 
-    index_batch_num = 10
+    if cpu_cores > 1:
+        parallel_bulk_indexing_fulltext_edm_dataset(all_fulltext_edm_files, cpu_cores, solr_collection_uri)
+    else:
+        batch_bulk_indexing_fulltext_edm_dataset(all_fulltext_edm_files, solr_collection_uri)
+
+    print("all complete.")
+
+
+def batch_bulk_indexing_fulltext_edm_dataset(all_fulltext_edm_files, solr_collection_uri):
+    index_batch_num = 100
     solr_docs = []
     solr_client = SolrClient(solr_collection_uri)
     progress = 0
-
     for fulltext_edm_file_content, file_name, total_files_size in all_fulltext_edm_files:
         fulltext_edm_model = extract_edm_fulltext_model(fulltext_edm_file_content, file_name)
         try:
             solr_docs.append(fulltext_edm_model.to_edm_json())
             if len(solr_docs) == index_batch_num:
-                #print(solr_docs)
                 response = solr_client.batch_update_documents(solr_docs)
                 print("indexing current batch done. status: ", response)
-                print("progress: ", float(progress/total_files_size))
                 progress += index_batch_num
+                print("progress: %s (%s/%s) " % (float(progress / total_files_size), progress, total_files_size))
                 solr_docs.clear()
         except SolrError as err:
             print("Indexing error", str(err))
             print("doc: ", fulltext_edm_model.to_json())
             break
+    if len(solr_docs) > 0:
+        print("submitting remaining [%s] documents" % len(solr_docs))
+        try:
+            response = solr_client.batch_update_documents(solr_docs)
+            print("indexing current batch done. status: ", response)
+        except SolrError as err:
+            print("Indexing error", str(err))
 
-    print("all complete.")
+
+def parallel_bulk_indexing_fulltext_edm_dataset(all_fulltext_edm_files, cpu_cores, solr_collection_uri):
+    """
+    Warning: Experimental method and need more test
+
+    :param all_fulltext_edm_files:
+    :param cpu_cores:
+    :param solr_collection_uri:
+    :return:
+    """
+    print("cpu cores: ", cpu_cores)
+    with Pool(processes=cpu_cores) as pool:
+        pool.starmap(_index_edm_fulltext_content, zip(all_fulltext_edm_files, repeat(solr_collection_uri)),
+                     chunksize=200)
+
+
+# fulltext_edm_file_content, file_name, total_files_size,
+def _index_edm_fulltext_content(edm_file_data, solr_server_uri):
+    fulltext_edm_file_content, file_name, total_files_size = edm_file_data
+    fulltext_edm_model = extract_edm_fulltext_model(fulltext_edm_file_content, file_name)
+    solr_client = SolrClient(solr_server_uri)
+    try:
+        solr_client.batch_update_documents([fulltext_edm_model.to_edm_json()])
+    except SolrError as err:
+        print("Indexing error", str(err))
+        print("doc: ", fulltext_edm_model.to_json())
+    """
+    docs_buffer = bulkDocUpdateCache.add_new(fulltext_edm_model.to_edm_json())
+    if len(docs_buffer) == index_batch_num:
+        progress = bulkDocUpdateCache.value
+        print("progress: %s (%s/%s)" % (float(progress/total_files_size), progress, total_files_size))
+        solr_client = SolrClient(solr_server_uri)
+        try:
+            solr_client.batch_update_documents(docs_buffer)
+        except SolrError as err:
+            print("Indexing error", str(err))
+            print("doc: ", fulltext_edm_model.to_json())
+
+        bulkDocUpdateCache.clean_top_n(index_batch_num)
+    """
 
 
 def index_metadata_edm_dataset(solr_collection_uri, zipped_dataset_path):
@@ -233,16 +309,26 @@ if __name__ == '__main__':
         solr_server_uri = str(sys.argv[1])
         dataset_type = str(sys.argv[2])
         index_target = str(sys.argv[3])
-        print("indexing [%s] into [%s] ... " % (solr_server_uri, index_target))
+        cpu_cores = 1
+        if len(sys.argv) == 5:
+            cpu_cores = int(sys.argv[4])
+
+        print("indexing [%s] into [%s] ... " % (index_target, solr_server_uri))
         if dataset_type == "fulltext":
             print("indexing the EDM fulltext dataset ...")
-            index_fulltext_edm_dataset(solr_server_uri, index_target)
+            import time
+            start_time = time.time()
+            index_fulltext_edm_dataset(solr_server_uri, index_target, cpu_cores=cpu_cores)
+            print("--- %s seconds ---" % (time.time() - start_time))
         elif dataset_type == "metadata":
             print("indexing with EDM metadata dataset ...")
+            import time
+            start_time = time.time()
             index_metadata_edm_dataset(solr_server_uri, index_target)
+            print("--- %s seconds ---" % (time.time() - start_time))
 
     else:
         # ("metadata"| "fulltext")
-        print("python newspaper_dumps_reader.py <solr_server_url> <dataset_type> <newspaper_library_directory>")
+        print("python newspaper_dumps_reader.py <solr_server_url> <dataset_type> <newspaper_library_directory> <CPU_CORES>")
 
 

@@ -1,6 +1,7 @@
 import json
 
 import os
+import time
 from pathlib import Path
 import rdflib
 from datetime import datetime
@@ -44,12 +45,15 @@ class EDMFullTextResource(object):
         if self.language != "":
             #language_specific_fulltext_attr = "fulltext." + self.language
             #dd_attr_value_single(newspaper_fulltext, language_specific_fulltext_attr, self.fulltext)
-            newspaper_fulltext["fulltext." + self.language] = self.fulltext
+            lang = self.language
+            if lang == "en-US":
+                lang = "en"
+            newspaper_fulltext["fulltext." + lang] = self.fulltext
             del newspaper_fulltext['fulltext']
 
         record_created_time = datetime.utcnow().replace(microsecond=0).isoformat()
         newspaper_fulltext['timestamp_created'] = record_created_time
-        newspaper_fulltext['timestamp_updated'] = record_created_time
+        newspaper_fulltext['timestamp_update'] = record_created_time
 
         return newspaper_fulltext
 
@@ -105,6 +109,8 @@ def extract_europeana_id(fulltextresource):
 def extract_edm_webresource(targetURL):
     """
     extract image URL from word annotation target URL
+    
+    A simple approach to get page image URI instead of checking if annotation type is "Page"
     :param param:
     :return:
     """
@@ -132,55 +138,42 @@ def extract_edm_fulltext_model(edm_xml_content, page_no):
     graph_in_memory = rdflib.Graph("IOMemory")
     # g = graph_in_memory.parse(edm_xml_path,format="xml")
     g = graph_in_memory.parse(data=_correct_edm_content(edm_xml_content), format="xml")
+
     namespaces = list(g.namespaces())
     namespaces_dict = dict([(str(ns), abv) for abv, ns in namespaces])
-    predicates = list(g.predicates(None, None))
+    # predicates = list(g.predicates(None, None))
     # print(predicates)
     ft_resource = EDMFullTextResource("", "", page_no)
-    # load resource types
-    resource_type_dict = load_resource_types(g, namespaces_dict, predicates)
+    # load resource types (take around 4 seconds)
+    resource_type_dict = load_resource_types(g, namespaces_dict)
 
-    for pred in predicates:
-        abbv_pred = ns_prefix_uri(pred, namespaces_dict)
-        # print(abbv_pred)
-        subject_object_tuples = g.subject_objects(pred)
-
+    word_confidences = []
+    for subject, predicate, object in g:
+        abbv_pred = ns_prefix_uri(predicate, namespaces_dict)
+        # print(subject, abbv_pred, object)
         if "rdf:type" == abbv_pred:
             continue
 
+        if ft_resource.fulltextresource == "" and \
+                str(subject) in resource_type_dict and \
+                resource_type_dict[str(subject)] == "http://www.europeana.eu/schemas/edm/FullTextResource":
+            ft_resource.fulltextresource = str(subject)
+
+        if ft_resource.fulltext == "" and \
+                str(subject) in resource_type_dict and \
+                resource_type_dict[str(subject)] == "http://www.europeana.eu/schemas/edm/FullTextResource" and \
+                abbv_pred == "rdf:value":
+            ft_resource.fulltext = str(object)
+
+        if abbv_pred == "dc:language":
+            ft_resource.language = str(object)
+
         if abbv_pred == "nif:confidence":
-            word_confidences = []
+            word_confidences.append(float(str(object)))
 
-        for obj_tuple in subject_object_tuples:
-
-            resource_uri = obj_tuple[0]
-            value = obj_tuple[1]
-            # print(abbv_pred)
-            # print(resource_uri, ", ", abbv_pred, ",", value)
-            # print(" -> ", obj_tuple)
-
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.europeana.eu/schemas/edm/FullTextResource'):
-                ft_resource.fulltextresource = str(resource_uri)
-
-            if abbv_pred == "dc:language":
-                ft_resource.language = str(value)
-
-            if resource_uri in resource_type_dict \
-                    and resource_type_dict[resource_uri] == rdflib.term.URIRef(
-                'http://www.europeana.eu/schemas/edm/FullTextResource') \
-                    and abbv_pred == "rdf:value":
-                ft_resource.fulltext = str(value)
-
-            if abbv_pred == "oa:hasTarget" and len(ft_resource.edm_webResource) == 0:
-                edm_webResource = extract_edm_webresource(str(value))
-                # print(edm_webResource)
-                ft_resource.edm_webResource = [edm_webResource]
-
-            if abbv_pred == "nif:confidence":
-                word_confidences.append(float(value))
-    # print("word size: ", len(word_confidences))
+        if abbv_pred == "oa:hasTarget" and len(ft_resource.edm_webResource) == 0:
+            edm_webResource = extract_edm_webresource(str(object))
+            ft_resource.edm_webResource = [edm_webResource]
 
     if len(word_confidences) > 0:
         ft_resource.nif_confidence = float(sum(word_confidences) / len(word_confidences))
@@ -192,9 +185,9 @@ def extract_edm_fulltext_model(edm_xml_content, page_no):
     return ft_resource
 
 
-#load_edm_in_xml("C:\\Data\\europeana\\test_edm_fulltext.xml")
-
-#load_edm_in_xml("C:\\Data\\europeana\\newspapers\\fulltext\\edm\\9200396\\BibliographicResource_3000118436329\\1.xml")
+#start_time = time.time()
+#edm_model = load_edm_in_xml("C:\\Data\\europeana\\newspapers\\fulltext\\edm\\9200396\\BibliographicResource_3000118436329\\45.xml")
+#print("--- %s seconds ---" % (time.time() - start_time))
 #edm_model = load_edm_in_xml("C:\\Data\\europeana\\newspapers\\fulltext\\edm\\9200396\\BibliographicResource_3000118436329\\22.xml")
 #print(edm_model.to_edm_json())
 #print(not is_ncname("/35d2d91d706860e30e9dff101921347d"))
