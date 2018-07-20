@@ -21,7 +21,7 @@ invalid_fulltext_file = 0
 fulltext_without_edm_metadata = 0
 fulltext_without_page_level_lang = 0
 total_page_indexed = 0
-
+index_batch_num = 100
 # Define the maximum number of cpu cores to use
 MAX_PROCESSES = multiprocessing.cpu_count()
 
@@ -205,7 +205,8 @@ def index_fulltext_edm_dataset(solr_collection_uri, zipped_dataset_path, cpu_cor
 
 
 def batch_bulk_indexing_fulltext_edm_dataset(all_fulltext_edm_files, solr_collection_uri):
-    index_batch_num = 100
+    global index_batch_num
+
     solr_docs = []
     solr_client = SolrClient(solr_collection_uri)
     progress = 0
@@ -275,11 +276,11 @@ def _index_edm_fulltext_content(edm_file_data, solr_server_uri):
 
 def index_metadata_edm_dataset(solr_collection_uri, zipped_dataset_path):
     print("indexing Metadata EDM dataset %s ..." % zipped_dataset_path)
-
+    global index_batch_num
     all_metadata_edm_files = load_all_files_from_zip_file(zipped_dataset_path)
 
     dataset_id = extract_file_name(zipped_dataset_path, extension=".zip")
-    index_batch_num = 10
+
     solr_docs = []
     solr_client = SolrClient(solr_collection_uri)
     progress = 0
@@ -288,7 +289,9 @@ def index_metadata_edm_dataset(solr_collection_uri, zipped_dataset_path):
         bb_resource = extract_edm_metadata_model(metadata_edm_file_content)
         bb_resource.set_europeana_id(dataset_id)
         try:
+
             solr_docs.append(bb_resource.to_dict())
+            # print(bb_resource.europeana_id)
             if len(solr_docs) == index_batch_num:
                 response = solr_client.batch_update_documents(solr_docs)
                 print("indexing current batch done. status: ", response)
@@ -297,9 +300,17 @@ def index_metadata_edm_dataset(solr_collection_uri, zipped_dataset_path):
                 solr_docs.clear()
         except SolrError as err:
             print("Indexing error", str(err))
-            print("doc: ", bb_resource.to_json())
-            print("doc: ", file_name)
+            # print("doc: ", bb_resource.to_json())
+            print("doc: ", file_name, " europeana_id: ", bb_resource.europeana_id)
             break
+
+    if len(solr_docs) > 0:
+        print("submitting remaining [%s] documents" % len(solr_docs))
+        try:
+            response = solr_client.batch_update_documents(solr_docs)
+            print("indexing current batch done. status: ", response)
+        except SolrError as err:
+            print("Indexing error", str(err))
     print("all complete.")
 
 

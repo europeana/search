@@ -49,7 +49,7 @@ class BibliographicResource(object):
 
     def set_europeana_id(self, dataset_id):
         if hasattr(self,"proxy_dc_identifier"):
-            record_id = self.proxy_dc_identifier[0].split("/")
+            record_id = self.proxy_dc_identifier[0].split("/")[-1]
             self.europeana_id = "/%s/BibliographicResource_%s" % (dataset_id, record_id)
 
 
@@ -147,5 +147,7 @@ def extract_edm_metadata_model(edm_content):
 
     return bg_resource
 
-# bg_resource = load_edm_in_xml("C:\\Data\\europeana\\newspapers\\metadata\\9200396\\http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F3000118435009.edm.xml")
-# print(bg_resource.to_json())
+
+#bg_resource = load_edm_in_xml("C:\\Data\\europeana\\newspapers\\metadata\\9200396\\http%3A%2F%2Fdata.theeuropeanlibrary.org%2FBibliographicResource%2F3000118435956.edm.xml")
+#bg_resource.set_europeana_id(9200396)
+#print(bg_resource.to_json())

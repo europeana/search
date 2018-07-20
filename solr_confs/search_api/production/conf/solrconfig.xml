@@ -1304,11 +1304,12 @@
       <float name="tie">0.01</float>
       <str name="qf">
         <!--text^0.5 title^1.5 description PROVIDER YEAR^1.5 date^1.4 creator^1.5 dc_publisher subject TYPE source language-->
+		<!-- newspapers related fields: 'provider_aggregation_edm_dataProvider', 'proxy_dc_title' for issue title -->
         text^0.5 title^1.5 description PROVIDER YEAR^1.5 date^1.4 creator^1.5 dc_publisher subject
-        TYPE source language </str>
+        TYPE source language provider_aggregation_edm_dataProvider^1.5 proxy_dc_title^1.5</str>
       <str name="pf"> text^0.8 title^1.5 date^1.4 creator^1.5 </str>
       <str name="bf"> ord(popularity)^0.5 </str>
-      <str name="fl"> europeana_uri, title, YEAR, source, LANGUAGE, TYPE, contributor </str>
+      <str name="fl"> europeana_uri, title, YEAR, source, LANGUAGE, TYPE, contributor, proxy_dc_title, provider_aggregation_edm_dataProvider </str>
       <str name="mm"> 2&lt;-1 5&lt;-2 6&lt;90% </str>
       <int name="ps">100</int>
       <str name="q.alt">*:*</str>

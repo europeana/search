@@ -720,7 +720,7 @@
     <lst name="defaults">
       <str name="echoParams">explicit</str>
       <int name="rows">10</int>
-      <str name="df">text</str>
+      <str name="df">fulltext.en</str>
 	  <str name="q.op">AND</str>
     </lst>
     <!-- In addition to defaults, "appends" params can be specified
@@ -793,7 +793,52 @@
 
   <!--These useParams values are available in params.json-->
   <requestHandler name="/browse" class="solr.SearchHandler" useParams="query,facets,velocity,browse"/>
-	
+  
+  <!-- Custom newspapers fulltext search handler-->
+   <requestHandler name="/simple" class="solr.SearchHandler">   
+    <lst name="defaults">
+	  <str name="defType">dismax</str>
+      <str name="echoParams">explicit</str>
+      <int name="rows">10</int>
+      <str name="qf">
+	  fulltext.de fulltext.el fulltext.en fulltext.es fulltext.et fulltext.fi fulltext.fr fulltext.hr fulltext.it fulltext.la fulltext.lv fulltext.nl fulltext.pl fulltext.ru fulltext.sr fulltext.sv fulltext.uk
+	  </str>
+	  <str name="q.alt">*:*</str>
+	  <str name="mm">2&lt;-1 5&lt;-2 6&lt;90% </str>
+	  <str name="hl">on</str>
+	  <str name="hl.method">unified</str>
+	  <bool name="hl.highlightMultiTerm">true</bool>
+	  <str name="hl.fl">fulltext.de fulltext.el fulltext.en fulltext.es fulltext.et fulltext.fi fulltext.fr fulltext.hr fulltext.it fulltext.la fulltext.lv fulltext.nl fulltext.pl fulltext.ru fulltext.sr fulltext.sv fulltext.uk
+	  </str>
+	  <!-- 
+	  <str name="facet">on</str>
+	  <str name="facet.missing">true</str>
+	  <str name="facet.limit">50</str>
+	  <str name="facet.mincount">1</str>
+	  <str name="facet.sort">count</str>
+	  <str name="facet.field">fulltext.de</str>
+	  <str name="facet.field">fulltext.el</str>
+	  <str name="facet.field">fulltext.en</str>
+	  <str name="facet.field">fulltext.es</str>
+	  <str name="facet.field">fulltext.et</str>
+	  <str name="facet.field">fulltext.fi</str>
+	  <str name="facet.field">fulltext.fr</str>
+	  <str name="facet.field">fulltext.hr</str>
+	  <str name="facet.field">fulltext.it</str>
+	  <str name="facet.field">fulltext.la</str>
+	  <str name="facet.field">fulltext.lv</str>
+	  <str name="facet.field">fulltext.nl</str>
+	  <str name="facet.field">fulltext.pl</str>
+	  <str name="facet.field">fulltext.ru</str>
+	  <str name="facet.field">fulltext.sr</str>
+	  <str name="facet.field">fulltext.sv</str>
+	  <str name="facet.field">fulltext.uk</str>
+	  -->	  
+    </lst>
+	<arr name="last-components">  
+	  <str>spellcheck</str>  
+	</arr>  
+  </requestHandler>
   <!-- 
   When using SolrCloud, the ReplicationHandler must be available via the /replication path.
   

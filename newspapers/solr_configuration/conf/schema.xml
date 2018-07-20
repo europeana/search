@@ -37,7 +37,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -51,7 +51,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -64,7 +64,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ger.txt"
@@ -80,7 +80,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ger.txt"
@@ -97,7 +97,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -117,7 +117,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.GreekLowerCaseFilterFactory"/>
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_gre.txt"
@@ -133,7 +133,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.GreekLowerCaseFilterFactory"/>
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_gre.txt"
@@ -150,7 +150,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.GreekLowerCaseFilterFactory"/>
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -170,7 +170,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_eng.txt"
@@ -186,7 +186,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_eng.txt"
@@ -203,7 +203,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -223,7 +223,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_spa.txt"
@@ -239,7 +239,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_spa.txt"
@@ -256,7 +256,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -276,7 +276,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_est.txt"
@@ -291,7 +291,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_est.txt"
@@ -307,7 +307,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -327,7 +327,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fin.txt"
@@ -343,7 +343,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fin.txt"
@@ -360,7 +360,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -380,7 +380,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fre.txt"
@@ -396,7 +396,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_fre.txt"
@@ -413,7 +413,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -433,7 +433,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_hrv.txt"
@@ -451,7 +451,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_hrv.txt"
@@ -471,7 +471,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -491,7 +491,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ita.txt"
@@ -507,7 +507,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ita.txt"
@@ -524,7 +524,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -544,7 +544,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lat.txt"
@@ -560,7 +560,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lat.txt"
@@ -577,7 +577,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -597,7 +597,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lav.txt"
@@ -612,7 +612,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lav.txt"
@@ -628,7 +628,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -648,7 +648,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_dut.txt"
@@ -664,7 +664,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_dut.txt"
@@ -681,7 +681,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -701,7 +701,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_pol.txt"
@@ -717,7 +717,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_pol.txt"
@@ -734,7 +734,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -754,7 +754,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_rus.txt"
@@ -770,7 +770,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_rus.txt"
@@ -787,7 +787,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -807,7 +807,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_srp.txt"
@@ -823,7 +823,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_srp.txt"
@@ -840,7 +840,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -860,7 +860,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_swe.txt"
@@ -877,7 +877,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_swe.txt"
@@ -895,7 +895,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
@@ -916,7 +916,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt"/>
@@ -935,7 +935,7 @@
     <analyzer>
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt"
@@ -955,7 +955,7 @@
       <charFilter class="solr.HTMLStripCharFilterFactory" />
       <tokenizer class="solr.WhitespaceTokenizerFactory" />
       <filter class="solr.DelimitedPayloadTokenFilterFactory"  encoder="float" delimiter="|"/>
-      <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1" generateNumberParts="1"
+      <filter class="solr.WordDelimiterGraphFilterFactory" generateWordParts="1" generateNumberParts="1"
         catenateWords="1" catenateNumbers="1" catenateAll="0" splitOnCaseChange="1" />
       <filter class="solr.LowerCaseFilterFactory" />
       <filter class="solr.PatternReplaceFilterFactory" pattern="\p{Punct}" replace="all" replacement=" " />
