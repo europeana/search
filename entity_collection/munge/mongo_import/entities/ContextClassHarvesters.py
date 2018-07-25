@@ -176,12 +176,13 @@ class ContextClassHarvester:
     # TODO: add address processing
 
     def __init__(self, name, entity_class):
-        from pymongo import MongoClient
-        from preview_builder import PreviewBuilder
-        import HarvesterConfig
         
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         sys.path.append(os.path.join(os.path.dirname(__file__), 'preview_builder'))
+        
+        from pymongo import MongoClient
+        import PreviewBuilder
+        import HarvesterConfig
         
         self.config = HarvesterConfig.HarvesterConfig()
         self.mongo_entity_class = entity_class
@@ -433,7 +434,7 @@ class ConceptHarvester(ContextClassHarvester):
     def __init__(self):
         ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
-        import RelevanceCounter
+        from ranking_metrics import RelevanceCounter
         self.relevance_counter = RelevanceCounter.ConceptRelevanceCounter()
 
     def get_entity_count(self):
