@@ -177,6 +177,7 @@ class ContextClassHarvester:
 
     def __init__(self, name, entity_class):
         
+        sys.path.append(os.path.join(os.path.dirname(__file__)))
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         sys.path.append(os.path.join(os.path.dirname(__file__), 'preview_builder'))
         
