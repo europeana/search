@@ -177,7 +177,7 @@ class ContextClassHarvester:
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
-        import PreviewBuilder
+        from preview_builder import PreviewBuilder
         import HarvesterConfig
         
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
