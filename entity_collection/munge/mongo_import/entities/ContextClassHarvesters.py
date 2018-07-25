@@ -16,9 +16,9 @@ class LanguageValidator:
     def validate_lang_code(self, entity_id, code):
        if(code in self.langmap.keys()):
            return True
-       elif(code == 'def'):
+       elif(code == ContextClassHarvester.LANG_DEF):
            # TODO: sort out the 'def' mess at some point
-           self.log_invalid_lang_code(entity_id, 'def')
+           self.log_invalid_lang_code(entity_id, ContextClassHarvester.LANG_DEF)
            return True
        elif(code == ''):
            self.log_invalid_lang_code(entity_id, 'Empty string')
@@ -30,7 +30,7 @@ class LanguageValidator:
     def pure_validate_lang_code(self, code):
        if(code in self.langmap.keys()):
            return True
-       elif(code == 'def'):
+       elif(code == ContextClassHarvester.LANG_DEF):
            return True
        else:
            return False
@@ -71,6 +71,15 @@ class ContextClassHarvester:
     GEOGRAPHIC_LEVEL = 'geographicLevel'
     COUNTRY = 'country'
     
+    REPRESENTATION = 'representation'
+        
+    LABEL = 'label'
+    TYPE = 'type'
+    TYPE_STRING = 'string'
+    TYPE_REF = 'ref'
+    LANG_DEF = 'def'
+    LANG_EN = 'en'
+    
     FIELD_MAP = {
         # maps mongo fields to their solr equivalents
         # TODO: there are numerous fields defined in the schema but not 
@@ -78,79 +87,83 @@ class ContextClassHarvester:
         # For a list of all fields that might conceivably exist in accordance
         # with the data model, see https://docs.google.com/spreadsheets/d/
         #           1b1UN27M2eCia0L54di0KQY7KcndTq8-wxzwM4wN-8DU/edit#gid=340708208
-        'prefLabel' : { 'label' : 'skos_prefLabel' , 'type' : 'string' },
-        'altLabel' : { 'label': 'skos_altLabel' , 'type' : 'string' },
-        'hiddenLabel' : { 'label' : 'skos_hiddenLabel', 'type' : 'string'},
-        'edmAcronym' : { 'label' : 'edm_acronym', 'type' : 'string'},
-        'note' : { 'label': 'skos_note' , 'type' : 'string' },
-        'begin' : { 'label' : 'edm_begin', 'type' : 'string'},
-        'end' : { 'label' : 'edm_end', 'type' : 'string'}, 
-        'owlSameAs' : { 'label': 'owl_sameAs' , 'type' : 'ref' },
-        'edmIsRelatedTo' : { 'label': 'edm_isRelatedTo' , 'type' : 'ref' },
-        'dcIdentifier' : { 'label': DC_IDENTIFIER , 'type' : 'string' },
-        'dcDescription' : { 'label': 'dc_description' , 'type' : 'string' },
-        'rdaGr2DateOfBirth' : { 'label': 'rdagr2_dateOfBirth' , 'type' : 'string' },
+        'prefLabel' : { LABEL : 'skos_prefLabel' , TYPE : TYPE_STRING },
+        'altLabel' : { LABEL: 'skos_altLabel' , TYPE : TYPE_STRING },
+        'hiddenLabel' : { LABEL : 'skos_hiddenLabel', TYPE : TYPE_STRING},
+        'edmAcronym' : { LABEL : 'edm_acronym', TYPE : TYPE_STRING},
+        'note' : { LABEL: 'skos_note' , TYPE : TYPE_STRING },
+        'begin' : { LABEL : 'edm_begin', TYPE : TYPE_STRING},
+        'end' : { LABEL : 'edm_end', TYPE : TYPE_STRING}, 
+        'owlSameAs' : { LABEL: 'owl_sameAs' , TYPE : TYPE_REF },
+        'edmIsRelatedTo' : { LABEL: 'edm_isRelatedTo' , TYPE : TYPE_REF },
+        'dcIdentifier' : { LABEL: DC_IDENTIFIER , TYPE : TYPE_STRING },
+        'dcDescription' : { LABEL: 'dc_description' , TYPE : TYPE_STRING },
+        'rdaGr2DateOfBirth' : { LABEL: 'rdagr2_dateOfBirth' , TYPE : TYPE_STRING },
         #not used yet
-        #'rdaGr2DateOfEstablishment' : { 'label': 'rdagr2_dateOfEstablishment' , 'type' : 'string' },
-        'rdaGr2DateOfDeath' : { 'label': 'rdagr2_dateOfDeath' , 'type' : 'string' },
+        #'rdaGr2DateOfEstablishment' : { 'label': 'rdagr2_dateOfEstablishment' , TYPE : TYPE_STRING },
+        'rdaGr2DateOfDeath' : { LABEL: 'rdagr2_dateOfDeath' , TYPE : TYPE_STRING },
         #not used yet
-        #'rdaGr2DateOfTermination' : { 'label': 'rdagr2_dateOfTermination' , 'type' : 'string' },
-        'rdaGr2PlaceOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
-        'placeOfBirth' : { 'label': 'rdagr2_placeOfBirth' , 'type' : 'string' },
+        #'rdaGr2DateOfTermination' : { 'label': 'rdagr2_dateOfTermination' , TYPE : TYPE_STRING },
+        'rdaGr2PlaceOfBirth' : { LABEL: 'rdagr2_placeOfBirth' , TYPE : TYPE_STRING },
+        'placeOfBirth' : { LABEL: 'rdagr2_placeOfBirth' , TYPE : TYPE_STRING },
         #not used yet
-        #'placeOfBirth_uri' : { 'label': 'rdagr2_placeOfBirth.uri' , 'type' : 'string' },
-        'rdaGr2PlaceOfDeath' : { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' },
+        #'placeOfBirth_uri' : { 'label': 'rdagr2_placeOfBirth.uri' , TYPE : TYPE_STRING },
+        'rdaGr2PlaceOfDeath' : { LABEL: 'rdagr2_placeOfDeath' , TYPE : TYPE_STRING },
         #not used yet
-        #'placeOfDeath_uri' : { 'label': 'rdagr2_placeOfDeath.uri' , 'type' : 'string' },
-        'rdaGr2PlaceOfDeath' : { 'label': 'rdagr2_placeOfDeath' , 'type' : 'string' },
+        #'placeOfDeath_uri' : { 'label': 'rdagr2_placeOfDeath.uri' , TYPE : TYPE_STRING },
+        'rdaGr2PlaceOfDeath' : { LABEL: 'rdagr2_placeOfDeath' , TYPE : TYPE_STRING },
         #not used yet
-        #'professionOrOccupation_uri' : { 'label': 'professionOrOccupation.uri' , 'type' : 'string' },
-        'rdaGr2ProfessionOrOccupation' :  { 'label': 'rdagr2_professionOrOccupation' , 'type' : 'string' },
+        #'professionOrOccupation_uri' : { 'label': 'professionOrOccupation.uri' , TYPE : TYPE_STRING },
+        'rdaGr2ProfessionOrOccupation' :  { LABEL: 'rdagr2_professionOrOccupation' , TYPE : TYPE_STRING },
         #not used yet
-        #'gender' : { 'label': 'gender' , 'type' : 'string' },
-        'rdaGr2BiographicalInformation' : { 'label': 'rdagr2_biographicalInformation' , 'type' : 'string' },
-        'latitude' : { 'label': 'wgs84_pos_lat' , 'type' : 'string' },
-        'longitude' : { 'label': 'wgs84_pos_long' , 'type' : 'string' },
-        'begin' : { 'label': 'edm_begin' , 'type' : 'string' },
+        #'gender' : { 'label': 'gender' , TYPE : TYPE_STRING },
+        'rdaGr2BiographicalInformation' : { LABEL: 'rdagr2_biographicalInformation' , TYPE : TYPE_STRING },
+        'latitude' : { LABEL: 'wgs84_pos_lat' , TYPE : TYPE_STRING },
+        'longitude' : { LABEL: 'wgs84_pos_long' , TYPE : TYPE_STRING },
+        'begin' : { LABEL: 'edm_begin' , TYPE : TYPE_STRING },
         #not used yet
-        #'beginDate' : { 'label': 'edm_beginDate' , 'type' : 'string' },
-        'end' : { 'label': 'edm_end' , 'type' : 'string' },
+        #'beginDate' : { 'label': 'edm_beginDate' , TYPE : TYPE_STRING },
+        'end' : { LABEL: 'edm_end' , TYPE : TYPE_STRING },
         #not used yet
-        #'endDate' : { 'label': 'edm_endDate' , 'type' : 'string' },
-        'isPartOf' : { 'label': 'dcterms_isPartOf' , 'type' : 'ref' },
-        'hasPart' : { 'label' : 'dcterms_hasPart', 'type' : 'ref'},
-        'hasMet' : { 'label' : 'edm_hasMet', 'type' : 'ref' },
-        'date' : { 'label' : 'dc_date', 'type' : 'string' },
-        'exactMatch': { 'label' :  'skos_exactMatch', 'type' : 'string' },
-        'related' : { 'label' : 'skos_related', 'type' : 'ref'  },
-        'broader' : { 'label' : 'skos_broader', 'type' : 'ref'},
-        'narrower' : { 'label' : 'skos_narrower', 'type' : 'ref'},
-        'related' : { 'label' : 'skos_related', 'type' : 'ref'},
-        'broadMatch' : { 'label' : 'skos_broadMatch', 'type' : 'ref'},
-        'narrowMatch' : { 'label' : 'skos_narrowMatch', 'type' : 'ref' },
-        'relatedMatch' : { 'label' : 'skos_relatedMatch', 'type' : 'ref' },
-        'exactMatch' : { 'label' : 'skos_exactMatch', 'type' : 'ref' },
-        'closeMatch' : { 'label' : 'skos_closeMatch', 'type' : 'ref' },
-        'notation' : { 'label' : 'skos_notation', 'type' : 'ref' },
-        'inScheme' : { 'label' : 'skos_inScheme', 'type' : 'ref' },
-        'note' : { 'label' : 'skos_note', 'type' : 'string' },
-        'foafLogo' : { 'label' : 'foaf_logo', 'type' : 'ref' },
+        #'endDate' : { 'label': 'edm_endDate' , TYPE : TYPE_STRING },
+        'isPartOf' : { LABEL: 'dcterms_isPartOf' , TYPE : TYPE_REF },
+        'hasPart' : { LABEL : 'dcterms_hasPart', TYPE : TYPE_REF},
+        'hasMet' : { LABEL : 'edm_hasMet', TYPE : TYPE_REF },
+        'date' : { LABEL : 'dc_date', TYPE : TYPE_STRING },
+        'exactMatch': { LABEL :  'skos_exactMatch', TYPE : TYPE_STRING },
+        'related' : { LABEL : 'skos_related', TYPE : TYPE_REF  },
+        'broader' : { LABEL : 'skos_broader', TYPE : TYPE_REF},
+        'narrower' : { LABEL : 'skos_narrower', TYPE : TYPE_REF},
+        'related' : { LABEL : 'skos_related', TYPE : TYPE_REF},
+        'broadMatch' : { LABEL : 'skos_broadMatch', TYPE : TYPE_REF},
+        'narrowMatch' : { LABEL : 'skos_narrowMatch', TYPE : TYPE_REF },
+        'relatedMatch' : { LABEL : 'skos_relatedMatch', TYPE : TYPE_REF },
+        'exactMatch' : { LABEL : 'skos_exactMatch', TYPE : TYPE_REF },
+        'closeMatch' : { LABEL : 'skos_closeMatch', TYPE : TYPE_REF },
+        'notation' : { LABEL : 'skos_notation', TYPE : TYPE_REF },
+        'inScheme' : { LABEL : 'skos_inScheme', TYPE : TYPE_REF },
+        'note' : { LABEL : 'skos_note', TYPE : TYPE_STRING },
+        'foafLogo' : { LABEL : 'foaf_logo', TYPE : TYPE_REF },
         # not used yet
-        #name' : { 'label' : 'foaf_name', 'type' : 'string' },
-        'foafHomepage' : { 'label' : 'foaf_homepage', 'type' : 'ref'},
-        'edmEuropeanaRole' : { 'label' : EUROPEANA_ROLE, 'type' : 'string'},
-        'edmOrganizationDomain' : { 'label' : ORGANIZATION_DOMAIN, 'type' : 'string'},
+        #name' : { 'label' : 'foaf_name', TYPE : TYPE_STRING },
+        'foafHomepage' : { LABEL : 'foaf_homepage', TYPE : TYPE_REF},
+        'foafPhone' : { LABEL : 'foaf_phone', TYPE : TYPE_STRING},
+        'foafMbox' : { LABEL : 'foaf_mbox', TYPE : TYPE_STRING},
+        'edmCountry' : { LABEL : COUNTRY, TYPE : TYPE_STRING},
+        'edmEuropeanaRole' : { LABEL : EUROPEANA_ROLE, TYPE : TYPE_STRING},
+        'edmOrganizationDomain' : { LABEL : ORGANIZATION_DOMAIN, TYPE : TYPE_STRING},
         #TODO: remove, not supported anymore
-        #'edmOrganizationSector' : { 'label' : 'edm_organizationSector', 'type' : 'string'},
-        #'edmOrganizationScope' : { 'label' : 'edm_organizationScope', 'type' : 'string'},
-        'edmGeographicLevel' : { 'label' : GEOGRAPHIC_LEVEL, 'type' : 'string'},
-        'edmCountry' : { 'label' : COUNTRY, 'type' : 'string'},
-        'address_about' : { 'label' : 'vcard_hasAddress', 'type' : 'string'},
-        'vcardStreetAddress' : { 'label' : 'vcard_streetAddress', 'type' : 'string'},
-        'vcardLocality' : { 'label' : 'vcard_locality', 'type' : 'string' },
-        'vcardPostalCode' : { 'label' : 'vcard_postalCode', 'type' : 'string'},
-        'vcardCountryName' : { 'label' : 'vcard_countryName', 'type' : 'string' },
-        'vcardPostOfficeBox' : { 'label' : 'vcard_postOfficeBox', 'type' : 'string'}
+        #'edmOrganizationSector' : { 'label' : 'edm_organizationSector', TYPE : TYPE_STRING},
+        #'edmOrganizationScope' : { 'label' : 'edm_organizationScope', TYPE : TYPE_STRING},
+        'edmGeographicLevel' : { LABEL : GEOGRAPHIC_LEVEL, TYPE : TYPE_STRING},
+        'address_about' : { LABEL : 'vcard_hasAddress', TYPE : TYPE_STRING},
+        'vcardStreetAddress' : { LABEL : 'vcard_streetAddress', TYPE : TYPE_STRING},
+        'vcardLocality' : { LABEL : 'vcard_locality', TYPE : TYPE_STRING },
+        #not used yet
+        #'vcardRegion' : { LABEL : 'vcard_region', TYPE : TYPE_STRING },
+        'vcardPostalCode' : { LABEL : 'vcard_postalCode', TYPE : TYPE_STRING},
+        'vcardCountryName' : { LABEL : 'vcard_countryName', TYPE : TYPE_STRING },
+        'vcardPostOfficeBox' : { LABEL : 'vcard_postOfficeBox', TYPE : TYPE_STRING}
     }
 
     def log_warm_message(self, entity_id, message):
@@ -179,7 +192,8 @@ class ContextClassHarvester:
         self.mongo_entity_class = entity_class
         self.name = name
         self.client = MongoClient(self.get_mongo_host(), self.get_mongo_port())
-        self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.name
+        self.ranking_model = self.config.get_relevance_ranking_model()
+        self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.ranking_model +"/" + self.name
         self.preview_builder = PreviewBuilder.PreviewBuilder(self.client)
         
     def get_mongo_host (self):
@@ -200,6 +214,12 @@ class ContextClassHarvester:
         self.client.close()
         return self.write_to_file(docroot, start)
 
+    def add_field_list(self, docroot, field_name, values):
+        if(values is None):
+            return
+        for value in values:
+            self.add_field(docroot, field_name, value)
+        
     def add_field(self, docroot, field_name, field_value):
         from xml.etree import ElementTree as ET
 
@@ -237,7 +257,12 @@ class ContextClassHarvester:
         eu_enrichments = hitcounts["europeana_enrichment_hits"]
         eu_terms = hitcounts["europeana_string_hits"]
         pagerank = hitcounts["pagerank"]
-        ds = self.relevance_counter.calculate_relevance_score(entity_id, pagerank, eu_enrichments, eu_terms)
+        if(self.ranking_model == self.config.HARVESTER_RELEVANCE_RANKING_MODEL_DEFAULT):
+            ds = self.relevance_counter.calculate_relevance_score(entity_id, pagerank, eu_enrichments, eu_terms)
+        elif(self.ranking_model == self.config.HARVESTER_RELEVANCE_RANKING_MODEL_NORMALIZED):
+            ds = self.relevance_counter.calculate_normalized_score(pagerank, eu_enrichments, eu_terms)
+        else:
+            raise ValueError("Must set property harvester.relevance.ranking.model to one of the values <default> or <normalized>")    
         self.add_field(docroot, 'europeana_doc_count', str(eu_enrichments))
         self.add_field(docroot, 'europeana_term_hits', str(eu_terms))
         self.add_field(docroot, 'pagerank', str(pagerank))
@@ -256,7 +281,7 @@ class ContextClassHarvester:
                 self.log_warm_message(entity_id, "unmapped field: " + key)
                 continue
             
-            field_name = ContextClassHarvester.FIELD_MAP[key]['label']
+            field_name = ContextClassHarvester.FIELD_MAP[key][self.LABEL]
             field_name = field_name + ".1"
             self.add_field(docroot, field_name, v)
             #address_components.append(v)
@@ -269,43 +294,45 @@ class ContextClassHarvester:
         import json
         #all pref labels
         all_preflabels = []
-        for characteristic in entity_rows['representation']:
+        for characteristic in entity_rows[self.REPRESENTATION]:
             if(characteristic == "address"):
-                self.process_address(docroot, entity_id, entity_rows['representation']['address']['AddressImpl'])
+                self.process_address(docroot, entity_id, entity_rows[self.REPRESENTATION]['address']['AddressImpl'])
             elif str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
                 # TODO: log this?
                 print("unmapped property: " + str(characteristic))
                 continue
             # TODO: Refactor horrible conditional
             elif(str(characteristic) == "dcIdentifier"):
-                self.add_field(docroot, ContextClassHarvester.DC_IDENTIFIER, entity_rows['representation']['dcIdentifier']['def'][0])
+                self.add_field_list(docroot, ContextClassHarvester.DC_IDENTIFIER, entity_rows[self.REPRESENTATION]['dcIdentifier'][self.LANG_DEF])
             elif(str(characteristic) == "edmOrganizationDomain"):
                 #TODO: create method to add solr field for .en fields
-                self.add_field(docroot, ContextClassHarvester.ORGANIZATION_DOMAIN + ".en", entity_rows['representation']['edmOrganizationDomain']['en'])
-            elif(str(characteristic) == "edmEuropeanaRole"):
-                self.add_field(docroot, ContextClassHarvester.EUROPEANA_ROLE + ".en", entity_rows['representation']['edmEuropeanaRole']['en'])
+                self.add_field(docroot, ContextClassHarvester.ORGANIZATION_DOMAIN + "." + self.LANG_EN, entity_rows[self.REPRESENTATION]['edmOrganizationDomain'][self.LANG_EN])
+            elif(str(characteristic) == "edmEuropeanaRole"): 
+                #multivalued
+                roles = entity_rows[self.REPRESENTATION]['edmEuropeanaRole'][self.LANG_EN]
+                self.add_field_list(docroot, ContextClassHarvester.EUROPEANA_ROLE + "." + self.LANG_EN, roles)
             elif(str(characteristic) == "edmGeographicLevel"):
-                self.add_field(docroot, ContextClassHarvester.GEOGRAPHIC_LEVEL + ".en", entity_rows['representation']['edmGeographicLevel']['en'])
+                self.add_field(docroot, ContextClassHarvester.GEOGRAPHIC_LEVEL + "." + self.LANG_EN, entity_rows[self.REPRESENTATION]['edmGeographicLevel'][self.LANG_EN])
             elif(str(characteristic) == "edmCountry"):
-                self.add_field(docroot, ContextClassHarvester.COUNTRY, entity_rows['representation']['edmCountry']['en'])
+                self.add_field(docroot, ContextClassHarvester.COUNTRY, entity_rows[self.REPRESENTATION]['edmCountry'][self.LANG_EN])
             #not supported anymore 
             #elif(str(characteristic) == "edmOrganizationSector"):
-            #    self.add_field(docroot, "edm_organizationSector.en", entity_rows['representation']['edmOrganizationSector']['en'])
+            #    self.add_field(docroot, "edm_organizationSector.en", entity_rows[self.REPRESENTATION]['edmOrganizationSector'][self.LANG_EN])
             #elif(str(characteristic) == "edmOrganizationScope"):
-            #    self.add_field(docroot, "edm_organizationScope.en", entity_rows['representation']['edmOrganizationScope']['en'])            
+            #    self.add_field(docroot, "edm_organizationScope.en", entity_rows[self.REPRESENTATION]['edmOrganizationScope'][self.LANG_EN])            
             # if the entry is a dictionary (language map), then the keys should be language codes
-            elif(type(entity_rows['representation'][characteristic]) is dict):
+            elif(type(entity_rows[self.REPRESENTATION][characteristic]) is dict):
                 #for each entry in the language map
-                for lang in entity_rows['representation'][characteristic]:
+                for lang in entity_rows[self.REPRESENTATION][characteristic]:
                     pref_label_count = 0
                     #avoid duplicates when adding values from prefLabel
                     prev_alts = []
                     if(ContextClassHarvester.LANG_VALIDATOR.validate_lang_code(entity_id, lang)):
-                        field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
-                        field_values = entity_rows['representation'][characteristic][lang]
+                        field_name = ContextClassHarvester.FIELD_MAP[characteristic][self.LABEL]
+                        field_values = entity_rows[self.REPRESENTATION][characteristic][lang]
                         #property is language map of strings
                         if(type(field_values) == str):
-                            unq_name = lang if lang != 'def' else ''
+                            unq_name = lang if lang != self.LANG_DEF else ''
                             q_field_name = field_name + "."+ unq_name
                             #field value = field_values
                             self.add_field(docroot, q_field_name, field_values) 
@@ -313,8 +340,8 @@ class ContextClassHarvester:
                             #for each value in the list
                             for field_value in field_values:
                                 q_field_name = field_name
-                                unq_name = lang if lang != 'def' else ''
-                                if(ContextClassHarvester.FIELD_MAP[characteristic]['type'] == 'string'):
+                                unq_name = lang if lang != self.LANG_DEF else ''
+                                if(ContextClassHarvester.FIELD_MAP[characteristic][self.TYPE] == self.TYPE_STRING):
                                     q_field_name = field_name + "."+ unq_name
                                 # Code snarl: we often have more than one prefLabel per language in the data
                                 # We can also have altLabels
@@ -345,15 +372,15 @@ class ContextClassHarvester:
                                 #add field to solr doc
                                 self.add_field(docroot, q_field_name, field_value)                                                          
             #property is list
-            elif(type(entity_rows['representation'][characteristic]) is list):
-                field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
-                for entry in entity_rows['representation'][characteristic]:
+            elif(type(entity_rows[self.REPRESENTATION][characteristic]) is list):
+                field_name = ContextClassHarvester.FIELD_MAP[characteristic][self.LABEL]
+                for entry in entity_rows[self.REPRESENTATION][characteristic]:
                     self.add_field(docroot, field_name, entry)
             # property is a single value
             else: 
                 try:
-                    field_name = ContextClassHarvester.FIELD_MAP[characteristic]['label']
-                    field_value = entity_rows['representation'][characteristic]
+                    field_name = ContextClassHarvester.FIELD_MAP[characteristic][self.LABEL]
+                    field_value = entity_rows[self.REPRESENTATION][characteristic]
                     self.add_field(docroot, field_name, str(field_value))
                 except KeyError as ke:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
@@ -368,7 +395,7 @@ class ContextClassHarvester:
         depiction = self.preview_builder.get_depiction(entity_id)
         if(depiction):
             self.add_field(docroot, 'foaf_depiction', depiction)
-        self.grab_relevance_ratings(docroot, entity_id, entity_rows['representation'])
+        self.grab_relevance_ratings(docroot, entity_id, entity_rows[self.REPRESENTATION])
 
     def shingle_preflabels(self, preflabels):
         shingled_labels = []
@@ -382,7 +409,7 @@ class ContextClassHarvester:
     def build_payload(self, entity_id, entity_rows):
         import json
         entity_type = entity_rows['entityType'].replace('Impl', '')
-        payload = self.preview_builder.build_preview(entity_type, entity_id, entity_rows['representation'])
+        payload = self.preview_builder.build_preview(entity_type, entity_id, entity_rows[self.REPRESENTATION])
         return payload
 
     def add_suggest_filters(self, docroot, term_hits):
