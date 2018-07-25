@@ -1,10 +1,10 @@
+import os, sys
 class LanguageValidator:
-    import sys, os
+
     # TODO: What to do with weird 'def' language tags all over the place?
     LOG_LOCATION = os.path.join(os.path.dirname(__file__), '..', 'logs', 'langlogs')
 
     def __init__(self):
-        import os
         self.langmap = {}
         langlistloc = os.path.join(os.path.dirname(__file__), '..', 'all_langs.wkp')
         with open(langlistloc, 'r', encoding="UTF-8") as all_langs:
@@ -14,26 +14,26 @@ class LanguageValidator:
                     self.langmap[code.strip()] = name
 
     def validate_lang_code(self, entity_id, code):
-       if(code in self.langmap.keys()):
-           return True
-       elif(code == ContextClassHarvester.LANG_DEF):
-           # TODO: sort out the 'def' mess at some point
-           self.log_invalid_lang_code(entity_id, ContextClassHarvester.LANG_DEF)
-           return True
-       elif(code == ''):
-           self.log_invalid_lang_code(entity_id, 'Empty string')
-           return True
-       else:
-           self.log_invalid_lang_code(entity_id, code)
-           return False
+        if(code in self.langmap.keys()):
+            return True
+        elif(code == ContextClassHarvester.LANG_DEF):
+            # TODO: sort out the 'def' mess at some point
+            self.log_invalid_lang_code(entity_id, ContextClassHarvester.LANG_DEF)
+            return True
+        elif(code == ''):
+            self.log_invalid_lang_code(entity_id, 'Empty string')
+            return True
+        else:
+            self.log_invalid_lang_code(entity_id, code)
+            return False
 
     def pure_validate_lang_code(self, code):
-       if(code in self.langmap.keys()):
-           return True
-       elif(code == ContextClassHarvester.LANG_DEF):
-           return True
-       else:
-           return False
+        if(code in self.langmap.keys()):
+            return True
+        elif(code == ContextClassHarvester.LANG_DEF):
+            return True
+        else:
+            return False
 
     def log_invalid_lang_code(self, entity_id, code):
         # TODO: differentiate logfiles by date
@@ -49,8 +49,6 @@ class LanguageValidator:
 
 
 class ContextClassHarvester:
-
-    import os
 
     DEFAULT_CONFIG_SECTION = 'CONFIG'
     HARVESTER_MONGO_HOST = 'harvester.mongo.host'
@@ -179,9 +177,6 @@ class ContextClassHarvester:
 
     def __init__(self, name, entity_class):
         from pymongo import MongoClient
-        from configparser import RawConfigParser 
-        import sys, os 
-        import RelevanceCounter
         import PreviewBuilder
         import HarvesterConfig
         
@@ -382,7 +377,7 @@ class ContextClassHarvester:
                     field_name = ContextClassHarvester.FIELD_MAP[characteristic][self.LABEL]
                     field_value = entity_rows[self.REPRESENTATION][characteristic]
                     self.add_field(docroot, field_name, str(field_value))
-                except KeyError as ke:
+                except KeyError:
                     print('Attribute ' + field_name + ' found in source but undefined in schema.')
         #add suggester payload
         payload = self.build_payload(entity_id, entity_rows)
@@ -407,7 +402,6 @@ class ContextClassHarvester:
         return shingled_labels
 
     def build_payload(self, entity_id, entity_rows):
-        import json
         entity_type = entity_rows['entityType'].replace('Impl', '')
         payload = self.preview_builder.build_preview(entity_type, entity_id, entity_rows[self.REPRESENTATION])
         return payload
@@ -437,7 +431,6 @@ class ContextClassHarvester:
 class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys, os
         ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
@@ -455,7 +448,6 @@ class ConceptHarvester(ContextClassHarvester):
         return concepts_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
-        import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
         doc = ET.SubElement(docroot, 'doc')
@@ -467,10 +459,8 @@ class ConceptHarvester(ContextClassHarvester):
 class AgentHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys, os
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
-        from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
         self.relevance_counter = RelevanceCounter.AgentRelevanceCounter()
 
@@ -489,12 +479,10 @@ class AgentHarvester(ContextClassHarvester):
         if(entity_rows is None):
             self.log_missing_entry(entity_id)
             return
-        import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-        id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        self.add_field(doc, 'id', id)
+        self.add_field(doc, 'id', entity_id)
         self.add_field(doc, 'internal_type', 'Agent')
         self.process_representation(doc, entity_id, entity_rows)
 
@@ -509,10 +497,8 @@ class AgentHarvester(ContextClassHarvester):
 class PlaceHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys, os
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
-        from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
         self.relevance_counter = RelevanceCounter.PlaceRelevanceCounter()
 
@@ -528,22 +514,18 @@ class PlaceHarvester(ContextClassHarvester):
         return places_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
-        import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-        id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        self.add_field(doc, 'id', id)
+        self.add_field(doc, 'id', entity_id)
         self.add_field(doc, 'internal_type', 'Place')
         self.process_representation(doc, entity_id, entity_rows)
 
 class OrganizationHarvester(ContextClassHarvester):
 
     def __init__(self):
-        import sys, os
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
-        from pymongo import MongoClient
         ContextClassHarvester.__init__(self, 'organizations', 'eu.europeana.corelib.solr.entity.OrganizationImpl')
         self.relevance_counter = RelevanceCounter.OrganizationRelevanceCounter()
 
@@ -569,24 +551,21 @@ class OrganizationHarvester(ContextClassHarvester):
         return orgs_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
-        import sys
         sys.path.append('ranking_metrics')
         from xml.etree import ElementTree as ET
-        id = entity_id
         doc = ET.SubElement(docroot, 'doc')
-        self.add_field(doc, 'id', id)
+        self.add_field(doc, 'id', entity_id)
         self.add_field(doc, 'internal_type', 'Organization')
         self.process_representation(doc, entity_id, entity_rows)
 
 
 class IndividualEntityBuilder:
-    import os, shutil
-
+    
     TESTDIR = os.path.join(os.path.dirname(__file__), '..', 'tests', 'testfiles', 'dynamic')
 
     def build_individual_entity(self, entity_id, is_test=False):
         from pymongo import MongoClient
-        import os, shutil
+        import shutil
         if(entity_id.find("/place/") > 0):
             harvester = PlaceHarvester()
         elif(entity_id.find("/agent/") > 0):
