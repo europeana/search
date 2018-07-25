@@ -20,7 +20,7 @@ class RelevanceCounter:
 
     #MOSERVER = 'mongodb:localhost'
     #MOPORT = 27017
-    SOLR_URI = "http://sol1.eanadev.org:9191/solr/search_1/search?wt=json&rows=0"
+    #SOLR_URI = "http://sol1.eanadev.org:9191/solr/search_1/search?wt=json&rows=0"
 
     METRIC_PAGERANK = 'pagerank'
     METRIC_ENRICHMENT_HITS = 'europeana_enrichment_hits'
@@ -61,7 +61,9 @@ class RelevanceCounter:
      
     def __init__(self, name):
         import sqlite3 as slt
-        import sys, os
+        import HarvesterConfig
+        self.config = HarvesterConfig.HarvesterConfig()
+        
         self.name = name
         self.dbpath = os.path.join(os.path.dirname(__file__), 'db', name + ".db")
         self.db = slt.connect(self.dbpath)
@@ -92,7 +94,7 @@ class RelevanceCounter:
             europeana_enrichment_hits = self.get_enrichment_count(uri)
             europeana_string_hits = self.get_label_count(representation)
             pagerank = 0
-            z = csr.execute("INSERT INTO hits(id, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank) VALUES (?, ?, ?, ?, ?)", (uri, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank))
+            csr.execute("INSERT INTO hits(id, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank) VALUES (?, ?, ?, ?, ?)", (uri, wikipedia_hits, europeana_enrichment_hits, europeana_string_hits, pagerank))
             self.db.commit()
         metrics = {
             "wikipedia_hits" : wikipedia_hits,
@@ -130,7 +132,7 @@ class RelevanceCounter:
         return metrics
     
     def get_enrichment_count(self, uri):
-        qry = RelevanceCounter.SOLR_URI + "?q=\"" + uri + "\""
+        qry = self.config.get_relevance_solr() + "&q=\"" + uri + "\""
         res = requests.get(qry)
         try:
             return res.json()['response']['numFound']
@@ -142,7 +144,7 @@ class RelevanceCounter:
         [all_labels.extend(l) for l in representation['prefLabel'].values()]
         qry_labels = ["\"" + label + "\"" for label in all_labels]
         qs = " OR ".join(qry_labels)
-        qry = RelevanceCounter.SOLR_URI + "&q=" + qs
+        qry = self.config.get_relevance_solr() + "&q=" + qs
         res = requests.get(qry)
         try:
             return res.json()['response']['numFound']

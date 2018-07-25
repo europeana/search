@@ -7,7 +7,7 @@
 # data of the imported entities itself.
 #
 #=========================================================================#
-
+import sys
 import unittest
 import entities.ContextClassHarvesters
 import entities.preview_builder.PreviewBuilder
@@ -40,8 +40,11 @@ class HarvesterTest(unittest.TestCase):
         
     # tests on a couple of entities of each type
     def test_build_bnf_preview(self):
-        bnf_id = "http://data.europeana.eu/organization/1482250000002112001"
+        #bnf
+        #entity_id = "http://data.europeana.eu/organization/1482250000002112001"
+        #government of catalunia
+        entity_id = "http://data.europeana.eu/organization/1482250000004503580"
         ieb = entities.ContextClassHarvesters.IndividualEntityBuilder()
-        ieb.build_individual_entity(bnf_id, is_test=True)
+        ieb.build_individual_entity(entity_id, is_test=True)
       
         
