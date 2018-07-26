@@ -585,7 +585,9 @@
             <!-- suggester field -->
             <str name="field">skos_prefLabel</str>
             <!-- multivalued fields don't work propertly in the current solr version -->
+            <!-- 
             <str name="field">label</str>
+             -->
             <str name="weightField">derived_score</str>
             <str name="payloadField">payload</str>
             <str name="suggestAnalyzerFieldType">suggestType</str>
