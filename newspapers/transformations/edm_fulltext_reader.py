@@ -6,6 +6,7 @@ from pathlib import Path
 import rdflib
 from datetime import datetime
 import re, random
+import uuid
 from urllib.parse import urldefrag
 
 from etl_util import ns_prefix_uri, add_attr_value_single, load_resource_types
@@ -73,7 +74,7 @@ def _correct_edm_content(rdf_xml_content):
     :param rdf_xml_content:
     :return:
     """
-    return re.sub("<oa:Annotation rdf:ID=\"/", lambda x: "<oa:Annotation rdf:ID=\"ID%s%s_" % (random.randint(10,999),random.randint(10,999)),rdf_xml_content)
+    return re.sub("<oa:Annotation rdf:ID=\"/", lambda x: "<oa:Annotation rdf:ID=\"ID%s%s_" % (str(uuid.uuid4())[:8],str(uuid.uuid4())[:8]), rdf_xml_content)
     # return re.sub("<oa:Annotation rdf:ID=\"/", lambda x: "<oa:Annotation rdf:ID=\"ID"+str(random.randint(10,999))
 
 
@@ -99,7 +100,7 @@ def extract_europeana_id(fulltextresource):
     Format: '/{DATASET_ID}/{RECORD_ID}'
 
     :param fulltextresource:
-    :return:
+    :return:f
     """
     fulltext_id = os.path.basename(fulltextresource)
     data_uri = "http://data.europeana.eu/fulltext"
