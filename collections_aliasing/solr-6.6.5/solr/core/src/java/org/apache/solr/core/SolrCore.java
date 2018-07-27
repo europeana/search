@@ -186,6 +186,11 @@ public final class SolrCore implements SolrInfoMBean, SolrMetricProducer, Closea
   private StatsCache statsCache;
 
   private final SolrConfig solrConfig;
+  /**
+   * added thill 2017.11.02
+   * updated by Jerry Gao 2018.07.27
+   */
+  private final AliasConfig aliasConfig;
   private final SolrResourceLoader resourceLoader;
   private volatile IndexSchema schema;
   private final NamedList configSetProperties;
@@ -275,6 +280,17 @@ public final class SolrCore implements SolrInfoMBean, SolrMetricProducer, Closea
    */
   public SolrConfig getSolrConfig() {
     return solrConfig;
+  }
+
+  /*
+   * Added thill 2011.11.02
+   * updated by Jerry Gao 2018.07.27
+   */
+
+  public AliasConfig getAliasConfig() {
+
+    return aliasConfig;
+
   }
 
   /**
@@ -637,7 +653,7 @@ public final class SolrCore implements SolrInfoMBean, SolrMetricProducer, Closea
         CoreDescriptor cd = new CoreDescriptor(name, getCoreDescriptor());
         cd.loadExtraProperties(); //Reload the extra properties
         core = new SolrCore(coreContainer, getName(), getDataDir(), coreConfig.getSolrConfig(),
-            coreConfig.getIndexSchema(), coreConfig.getProperties(),
+            coreConfig.getIndexSchema(), coreConfig.getAliasConfig(), coreConfig.getProperties(),
             cd, updateHandler, solrDelPolicy, currentCore, true);
         
         // we open a new IndexWriter to pick up the latest config
@@ -827,7 +843,8 @@ public final class SolrCore implements SolrInfoMBean, SolrMetricProducer, Closea
   }
 
   public SolrCore(CoreContainer coreContainer, CoreDescriptor cd, ConfigSet coreConfig) {
-    this(coreContainer, cd.getName(), null, coreConfig.getSolrConfig(), coreConfig.getIndexSchema(), coreConfig.getProperties(),
+    this(coreContainer, cd.getName(), null, coreConfig.getSolrConfig(), coreConfig.getIndexSchema(),
+        coreConfig.getAliasConfig(), coreConfig.getProperties(),
         cd, null, null, null, false);
   }
 
@@ -850,7 +867,7 @@ public final class SolrCore implements SolrInfoMBean, SolrMetricProducer, Closea
    * @since solr 1.3
    */
   public SolrCore(CoreContainer coreContainer, String name, String dataDir, SolrConfig config,
-                  IndexSchema schema, NamedList configSetProperties,
+                  IndexSchema schema, AliasConfig aliasConfig, NamedList configSetProperties,
                   CoreDescriptor coreDescriptor, UpdateHandler updateHandler,
                   IndexDeletionPolicyWrapper delPolicy, SolrCore prev, boolean reload) {
 
@@ -866,6 +883,8 @@ public final class SolrCore implements SolrInfoMBean, SolrMetricProducer, Closea
     
     resourceLoader = config.getResourceLoader();
     this.solrConfig = config;
+    //updated by Jerry Gao 2018.07.27
+    this.aliasConfig = aliasConfig;
     this.configSetProperties = configSetProperties;
     // Initialize the metrics manager
     this.coreMetricManager = initCoreMetricManager(config);

@@ -90,7 +90,9 @@ public abstract class ConfigSetService {
 
       SolrConfig solrConfig = createSolrConfig(dcore, coreLoader);
       IndexSchema schema = createIndexSchema(dcore, solrConfig);
-      return new ConfigSet(configName(dcore), solrConfig, schema, properties, trusted);
+      //updated by Jerry Gao 2018.07.27
+      AliasConfig aliasConfig = createAliasConfig(dcore, coreLoader);
+      return new ConfigSet(configName(dcore), solrConfig, schema, aliasConfig, properties, trusted);
     } catch (Exception e) {
       throw new SolrException(SolrException.ErrorCode.SERVER_ERROR,
           "Could not load conf for core " + dcore.getName() +
@@ -117,6 +119,15 @@ public abstract class ConfigSetService {
    */
   protected IndexSchema createIndexSchema(CoreDescriptor cd, SolrConfig solrConfig) {
     return IndexSchemaFactory.buildIndexSchema(cd.getSchemaName(), solrConfig);
+  }
+
+
+  /**
+   * Added thill 2017.11.02
+   * Updated by JerryGao 2018.07.27
+   */
+  protected AliasConfig createAliasConfig(CoreDescriptor cd, SolrResourceLoader loader) {
+    return AliasConfig.readFromResourceLoader(loader, cd.getConfigName());
   }
 
   /**

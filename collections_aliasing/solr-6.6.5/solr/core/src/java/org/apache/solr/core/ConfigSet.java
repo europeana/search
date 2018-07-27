@@ -34,11 +34,15 @@ public class ConfigSet {
 
   private final boolean trusted;
 
-  public ConfigSet(String name, SolrConfig solrConfig, IndexSchema indexSchema,
+  //updated by Jerry Gao 2018.07.27
+  private final AliasConfig aliasconfig;
+
+  public ConfigSet(String name, SolrConfig solrConfig, IndexSchema indexSchema, AliasConfig aliasConfig,
       NamedList properties, boolean trusted) {
     this.name = name;
     this.solrconfig = solrConfig;
     this.indexSchema = indexSchema;
+    this.aliasconfig = aliasConfig;
     this.properties = properties;
     this.trusted = trusted;
   }
@@ -61,5 +65,9 @@ public class ConfigSet {
   
   public boolean isTrusted() {
     return trusted;
+  }
+
+  public AliasConfig getAliasConfig() {
+    return aliasconfig;
   }
 }
