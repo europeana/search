@@ -112,6 +112,8 @@ public class AliasConfig extends Config {
         aliasMap.put(alias, query);
 
       }
+
+      log.info(String.format("total [%s] queries are loaded for alias field [%s]", aliasMap.values().size(), fieldName));
       allAliases.put(fieldName, aliasMap);
     }
 

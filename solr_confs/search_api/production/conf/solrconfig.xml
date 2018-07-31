@@ -35,7 +35,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>6.6.2</luceneMatchVersion>
+  <luceneMatchVersion>6.6.5</luceneMatchVersion>
   
     <!-- Set this to 'false' if you want solr to continue working after
        it has encountered an severe configuration error.  In a
@@ -1171,9 +1171,9 @@
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
     -->
-  <!-- <requestHandler name="alias" class="solr.AliasingRequestHandler" default="true">
-   // default values for query parameters can be specified, these
-   //      will be overridden by parameters in the request
+   <requestHandler name="alias" class="solr.AliasingRequestHandler" default="true">
+   <!-- default values for query parameters can be specified, these
+        will be overridden by parameters in the request-->
      
     <lst name="defaults">
       <str name="echoParams">explicit</str>
@@ -1181,12 +1181,12 @@
       <str name="f.TYPE.facet.method">enum</str>
       <str name="f.UGC.facet.method">enum</str>
       <str name="f.COMPLETENESS.facet.method">enum</str>
-      // <str name="defType">bm25f</str>
+      <!--<str name="defType">bm25f</str>-->
     </lst>
     <arr name="last-components">
       <str>elevator</str>
     </arr>
-  </requestHandler>-->
+  </requestHandler>
   
   <requestHandler name="search" class="solr.SearchHandler" default="false">
     <!-- default values for query parameters can be specified, these
