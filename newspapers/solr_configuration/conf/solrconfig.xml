@@ -427,9 +427,10 @@
                        to occupy
       -->
     <queryResultCache class="solr.LRUCache"
-                      size="512"
-                      initialSize="512"
-                      autowarmCount="0"/>
+                  size="512"
+                  initialSize="512"
+                  autowarmCount="128"
+                  maxRamMB="1000"/>
 
     <!-- Document Cache
 
@@ -571,7 +572,19 @@
          will block until the first searcher is done warming.
       -->
     <useColdSearcher>false</useColdSearcher>
+	<!-- Max Warming Searchers
 
+		 Maximum number of searchers that may be warming in the
+		 background concurrently.  An error is returned if this limit
+		 is exceeded.
+
+		 Recommend values of 1-2 for read-only slaves, higher for
+		 masters w/o cache warming.
+		 
+		 To determine the optimal value of the 'maxWarmingSearchers', 
+			pls regularly check the filterCache, autowarmCount and Warm-up times (Searcher MBean) from the admin console. 
+	-->
+	<maxWarmingSearchers>2</maxWarmingSearchers>
   </query>
 
 
@@ -677,12 +690,12 @@
          (lastModifiedFrom and etagSeed are both ignored if you use
          the never304="true" option)
       -->
-    <!--
+    
        <httpCaching lastModifiedFrom="openTime"
                     etagSeed="Solr">
-         <cacheControl>max-age=30, public</cacheControl> 
+         <cacheControl>max-age=2000000, public</cacheControl> 
        </httpCaching>
-      -->
+      
   </requestDispatcher>
 
   <!-- Request Handlers 
@@ -712,8 +725,11 @@
        provided with Solr is "SearchHandler" It delegates to a sequent
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
+	   
+	   It is very important to set 'AliasingRequestHandler' as default request handler, 
+		so that warm-up queries will be handled by default
     -->
-  <requestHandler name="/alias" class="solr.AliasingRequestHandler" default="true">
+  <requestHandler name="/select" class="solr.AliasingRequestHandler" default="true">
     <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
       -->

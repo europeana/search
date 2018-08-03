@@ -448,10 +448,12 @@
             maxRamMB - the maximum amount of RAM (in MB) that this cache is allowed
                        to occupy
       -->
-    <queryResultCache class="solr.LRUCache"
-                      size="512"
-                      initialSize="512"
-                      autowarmCount="0"/>
+    
+	<queryResultCache class="solr.LRUCache"
+                  size="512"
+                  initialSize="512"
+                  autowarmCount="128"
+                  maxRamMB="1000"/>
 
     <!-- Document Cache
 
@@ -749,6 +751,8 @@
           <str name="facet.field">proxy_dc_format.yi</str>
           <str name="facet.field">proxy_dc_format.zh</str>
         </lst>
+		<!-- if there is no 'qt' parameter, the default search handler is chosen. 
+		It is very important to make sure our custom aliasing search handler is used. -->
         <lst>
           <str name="q">*:*</str>
           <str name="q">collection:art</str>
@@ -973,6 +977,8 @@
           <str name="facet.field">proxy_dc_format.yi</str>
           <str name="facet.field">proxy_dc_format.zh</str>
         </lst>
+		<!-- if there is no 'qt' parameter, the default search handler is chosen. 
+		It is very important to make sure our custom aliasing search handler is used. -->
         <lst>
           <str name="q">*:*</str>
           <str name="q">collection:art</str>
@@ -1028,6 +1034,9 @@
 
 		 Recommend values of 1-2 for read-only slaves, higher for
 		 masters w/o cache warming.
+		 
+		 To determine the optimal value of the 'maxWarmingSearchers', 
+			pls regularly check the filterCache, autowarmCount and Warm-up times (Searcher MBean) from the admin console. 
 	-->
 	<maxWarmingSearchers>2</maxWarmingSearchers>
   </query>
@@ -1170,8 +1179,11 @@
        provided with Solr is "SearchHandler" It delegates to a sequent
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
+	   		
+	   It is very important to set 'AliasingRequestHandler' as default request handler, 
+		so that warm-up queries will be handled by default
     -->
-   <requestHandler name="/alias" class="solr.AliasingRequestHandler" default="true">
+   <requestHandler name="/select" class="solr.AliasingRequestHandler" default="true">
    <!-- default values for query parameters can be specified, these
         will be overridden by parameters in the request-->
      
