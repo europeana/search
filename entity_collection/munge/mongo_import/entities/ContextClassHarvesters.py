@@ -345,6 +345,7 @@ class ContextClassHarvester:
                                 # We want to shunt all but the first-encountered prefLabel into the altLabel field
                                 # while ensuring the altLabels are individually unique
                                 # TODO: Refactor (though note that this is a non-trivial refactoring)
+                                # NOTE: prev_alts are for one language, all_preflabels include labels in any language
                                 if(characteristic == 'prefLabel' and pref_label_count > 0):
                                     #move all additional labels to alt label
                                     q_field_name = "skos_altLabel." + unq_name
@@ -352,6 +353,7 @@ class ContextClassHarvester:
                                     #prev_alts.append(field_value)
                                 if('altLabel' in q_field_name):
                                     #TODO: SG why this? we skip alt labels here, but we don't add the gained entries from prefLabels
+                                    
                                     if(field_value in prev_alts):
                                         continue
                                     prev_alts.append(field_value)
@@ -386,9 +388,8 @@ class ContextClassHarvester:
         self.add_field(docroot, 'payload', json.dumps(payload))
         #add suggester field
         all_preflabels = self.shingle_preflabels(all_preflabels)
-        # SG: values in the same language are joined using space separator. underscore is not really needed 
-        #self.add_field(docroot, 'skos_prefLabel', "_".join(sorted(set(all_preflabels))))
-        self.add_field(docroot, 'skos_prefLabel', " ".join(sorted(set(all_preflabels))))
+        # SG: values in the same language are joined using space separator. values in different languages are joined using underscore as it is used as tokenization pattern. see schema.xml  
+        self.add_field(docroot, 'skos_prefLabel', "_".join(sorted(set(all_preflabels))))
         depiction = self.preview_builder.get_depiction(entity_id)
         if(depiction):
             self.add_field(docroot, 'foaf_depiction', depiction)
