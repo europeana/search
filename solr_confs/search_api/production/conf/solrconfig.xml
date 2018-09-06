@@ -2012,7 +2012,7 @@
     </processor>
     <processor class="solr.TruncateFieldUpdateProcessorFactory">
       <str name="typeClass">solr.StrField</str>
-      <int name="maxLength">32700</int>
+      <int name="maxLength">8000</int>
     </processor>
     <processor class="solr.ParseBooleanFieldUpdateProcessorFactory"/>
     <processor class="solr.ParseLongFieldUpdateProcessorFactory"/>
