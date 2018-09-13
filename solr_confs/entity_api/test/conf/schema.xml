@@ -236,18 +236,18 @@
         <copyField source="rdagr2_placeOfDeath.*" dest="placeOfDeath.*" />       
         
 		
-        <!-- TODO: alias -->
-        <field name="professionOrOccupation" type="string" indexed="true" stored="false" multiValued="true" />
-        <copyField source="rdagr2_professionOrOccupation" dest="professionOrOccupation"/>
         <dynamicField name="rdagr2_professionOrOccupation.*" type="text" indexed="false"
             stored="true" multiValued="true"/>
+        <!-- TODO: alias -->
+        <!-- 
+        <field name="professionOrOccupation" type="string" indexed="true" stored="false" multiValued="true" />
+         -->
         <dynamicField name="professionOrOccupation.*" type="text" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_professionOrOccupation.*" dest="professionOrOccupation.*" />
 		<!-- URI only -->
         <field name="rdagr2_professionOrOccupation.uri" type="string" indexed="true" stored="true"
             multiValued="true"/>
         <copyField source="rdagr2_professionOrOccupation." dest="professionOrOccupation.uri" />
-
         
         <field name="rdagr2_gender" type="string" indexed="true" stored="true" multiValued="true"/>
         <!-- TODO alias -->

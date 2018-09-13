@@ -585,17 +585,23 @@
             <!-- suggester field -->
             <str name="field">skos_prefLabel</str>
             <!-- multivalued fields don't work propertly in the current solr version -->
+            <!-- 
             <str name="field">label</str>
+             -->
             <str name="weightField">derived_score</str>
             <str name="payloadField">payload</str>
             <str name="suggestAnalyzerFieldType">suggestType</str>
+            <!-- 
             <str name="allTermsRequired">true</str>
+             -->
             <str name="minPrefixChars">2</str>
+            <!-- 
             <str name="highlight">true</str>
+             -->
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
-            <str name="contextField">internal_type</str>
+            <str name="contextField">suggest_filters</str>
             <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
