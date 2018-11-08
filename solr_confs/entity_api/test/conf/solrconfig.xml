@@ -434,6 +434,7 @@
             <str name="echoParams">explicit</str>
             <int name="rows">10</int>
             <str name="df">text</str>
+            <str name="q.op">AND</str> 
         </lst>
 
     </requestHandler>
@@ -609,6 +610,7 @@
         name="/suggestEntity">
         <lst name="defaults">
             <str name="suggest">true</str>
+            <str name="suggest.highlight">true</str>
             <str name="suggest.count">10</str>
             <str name="suggest.dictionary">suggestEntity</str>
         </lst>
