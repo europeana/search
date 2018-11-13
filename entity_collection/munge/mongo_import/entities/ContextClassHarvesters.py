@@ -358,7 +358,8 @@ class ContextClassHarvester:
                                         continue
                                     prev_alts.append(field_value)
                                     #suggester uses alt labels for some entity types (organizations) 
-                                    self.add_alt_label_to_suggest(field_value, all_preflabels)
+                                    #disables until altLabels are added to payload 
+                                    #self.add_alt_label_to_suggest(field_value, all_preflabels)
                                 if(str(characteristic) == "edmAcronym"):
                                     #suggester uses alt labels for some entity types (organizations) 
                                     self.add_acronym_to_suggest(field_value, all_preflabels)
