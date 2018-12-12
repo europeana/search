@@ -34,18 +34,18 @@ class HarvesterTest(unittest.TestCase):
         ]
         for test_entity in test_entities:
             print("building entity: " + test_entity)
-            ieb.build_individual_entity(test_entity, is_test=True)
+            ieb.build_individual_entity(test_entity)
         #errors = test_files_against_mongo('dynamic')
         #errors.extend(test_json_formation('dynamic'))
         #return errors
         
     # tests on a couple of entities of each type
-    def test_build_bnf_preview(self):
+    def test_build_individual_entity(self):
         #bnf
-        #entity_id = "http://data.europeana.eu/organization/1482250000002112001"
+        entity_id = "http://data.europeana.eu/organization/1482250000002112001"
         #government of catalunia
-        entity_id = "http://data.europeana.eu/organization/1482250000004503580"
+        #entity_id = "http://data.europeana.eu/organization/1482250000004503580"
         ieb = entities.ContextClassHarvesters.IndividualEntityBuilder()
-        ieb.build_individual_entity(entity_id, is_test=True)
+        ieb.build_individual_entity(entity_id)
       
         

@@ -190,7 +190,7 @@ class ContextClassHarvester:
         self.name = name
         self.client = MongoClient(self.get_mongo_host(), self.get_mongo_port())
         self.ranking_model = self.config.get_relevance_ranking_model()
-        self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.ranking_model +"/" + self.name
+        self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.ranking_model
         self.preview_builder = PreviewBuilder.PreviewBuilder(self.client)
         
     def get_mongo_host (self):
@@ -200,8 +200,13 @@ class ContextClassHarvester:
     def get_mongo_port (self):
         #return default mongo port, the subclasses may use the type based config (e.g. see also organizations host)
         return self.config.get_mongo_port()
-        
-    def build_solr_doc(self, entities, start):
+    
+    def extract_numeric_id(self, entity_id):
+        parts = entity_id.split("/")
+        #numeric id is the last part of the URL 
+        return parts[len(parts) - 1]
+    
+    def build_solr_doc(self, entities, start, one_entity = False):
         from xml.etree import ElementTree as ET
 
         docroot = ET.Element('add')
@@ -209,7 +214,8 @@ class ContextClassHarvester:
             print("processing entity:" + entity_id)
             self.build_entity_doc(docroot, entity_id, values)
         self.client.close()
-        return self.write_to_file(docroot, start)
+        return self.write_to_file(docroot, start, one_entity)
+        
 
     def add_field_list(self, docroot, field_name, values):
         if(values is None):
@@ -233,11 +239,11 @@ class ContextClassHarvester:
         field_value = field_value.replace("\t", " ")
         return field_value
 
-    def write_to_file(self, doc, start):
+    def write_to_file(self, doc, start, one_entity):
         from xml.etree import ElementTree as ET
         from xml.dom import minidom
         import io
-        writepath = self.get_writepath(start)
+        writepath = self.get_writepath(start, one_entity)
         roughstring = ET.tostring(doc, encoding='utf-8')
         reparsed = minidom.parseString(roughstring)
         reparsed = reparsed.toprettyxml(encoding='utf-8', indent="     ").decode('utf-8')
@@ -246,8 +252,11 @@ class ContextClassHarvester:
             writefile.close()
         return writepath
 
-    def get_writepath(self, start):
-        return self.write_dir + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
+    def get_writepath(self, start, one_entity):
+        if(one_entity):
+            return self.write_dir + "/individual_entities/"+ self.name + "/" + str(start) +  ".xml"
+        else:
+            return self.write_dir + "/" + self.name + "/" + self.name + "_" + str(start) + "_" + str(start + ContextClassHarvester.CHUNK_SIZE) +  ".xml"
 
     def grab_relevance_ratings(self, docroot, entity_id, entity_rows):
         hitcounts = self.relevance_counter.get_raw_relevance_metrics(entity_id, entity_rows)
@@ -565,9 +574,9 @@ class OrganizationHarvester(ContextClassHarvester):
 
 class IndividualEntityBuilder:
     
-    TESTDIR = os.path.join(os.path.dirname(__file__), '..', 'tests', 'testfiles', 'dynamic')
+    OUTDIR = os.path.join(os.path.dirname(__file__), '..', 'tests', 'testfiles', 'dynamic')
 
-    def build_individual_entity(self, entity_id, is_test=False):
+    def build_individual_entity(self, entity_id):
         from pymongo import MongoClient
         import shutil
         if(entity_id.find("/place/") > 0):
@@ -583,20 +592,23 @@ class IndividualEntityBuilder:
         entity_rows = self.client.annocultor_db.TermList.find_one({ "codeUri" : entity_id })
         entity_chunk = {}
         entity_chunk[entity_id] = entity_rows
-        rawtype = entity_rows['entityType']
+        #rawtype = entity_rows['entityType']
         
         start = int(entity_id.split("/")[-1])
-        harvester.build_solr_doc(entity_chunk, start)
-        solrDocFile = rawtype[0:-4].lower() + "_" + str(start) + ".xml file."
-        if(not(is_test)): print("Entity " + entity_id + " written to " + solrDocFile)
-        if(is_test):
-            current_location = harvester.get_writepath(start)
-            namebits = entity_id.split("/")
-            newname = namebits[-3] + "_" + namebits[-1] + ".xml"
-            solrDocFile = IndividualEntityBuilder.TESTDIR + "/" + newname
-            shutil.copyfile(current_location, solrDocFile)
-            os.remove(current_location) # cleaning up
-            return solrDocFile
+        #one_entity
+        solrDocFile = harvester.build_solr_doc(entity_chunk, start, True)
+        return solrDocFile
+    
+        #solrDocFile = rawtype[0:-4].lower() + "_" + str(start) + ".xml file."
+        #if(not(is_test)): print("Entity " + entity_id + " written to " + solrDocFile)
+        #if(is_test):
+        #    current_location = harvester.get_writepath(start)
+        #    namebits = entity_id.split("/")
+        #    newname = namebits[-3] + "_" + namebits[-1] + ".xml"
+        #    solrDocFile = IndividualEntityBuilder.OUTDIR + "/" + newname
+        #    shutil.copyfile(current_location, solrDocFile)
+        #    os.remove(current_location) # cleaning up
+        #    return solrDocFile
 #        except Exception as e:
 #            print("No entity with that ID found in database. " + str(e))
 #            return
