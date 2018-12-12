@@ -587,13 +587,16 @@ class IndividualEntityBuilder:
         
         start = int(entity_id.split("/")[-1])
         harvester.build_solr_doc(entity_chunk, start)
-        if(not(is_test)): print("Entity " + entity_id + " written to " + rawtype[0:-4].lower() + "_" + str(start) + ".xml file.")
+        solrDocFile = rawtype[0:-4].lower() + "_" + str(start) + ".xml file."
+        if(not(is_test)): print("Entity " + entity_id + " written to " + solrDocFile)
         if(is_test):
             current_location = harvester.get_writepath(start)
             namebits = entity_id.split("/")
             newname = namebits[-3] + "_" + namebits[-1] + ".xml"
-            shutil.copyfile(current_location, IndividualEntityBuilder.TESTDIR + "/" + newname)
+            solrDocFile = IndividualEntityBuilder.TESTDIR + "/" + newname
+            shutil.copyfile(current_location, solrDocFile)
             os.remove(current_location) # cleaning up
+            return solrDocFile
 #        except Exception as e:
 #            print("No entity with that ID found in database. " + str(e))
 #            return

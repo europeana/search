@@ -30,6 +30,7 @@ class HarvesterTest(unittest.TestCase):
             "http://data.europeana.eu/place/base/216254", #place max page rank: United States
             "http://data.europeana.eu/concept/base/83", #concept max page rank: World War I
             "http://data.europeana.eu/organization/1482250000004505021", #organization max page rank: Internet Archive
+            "http://data.europeana.eu/organization/1482250000004503580"
         ]
         for test_entity in test_entities:
             print("building entity: " + test_entity)
