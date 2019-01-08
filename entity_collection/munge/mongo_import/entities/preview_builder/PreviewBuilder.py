@@ -7,15 +7,18 @@ class PreviewBuilder:
     PROFESSIONS = jobtree.getroot()
     ns = {'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#', 'skos':'http://www.w3.org/2004/02/skos/core#', 'xml':'http://www.w3.org/XML/1998/namespace'}
 
-    def __init__(self, mongo_client):
+    def __init__(self, mongo_client, entity_type):
         from pymongo import MongoClient
         # note fixed import path
         from entities.ContextClassHarvesters import ContextClassHarvester
         import sys, os
         import yaml
-        self.load_depictions()
         self.mongoclient = mongo_client
-
+        self.depictions = {}
+        must_load_depictions = (entity_type == 'agent') or (entity_type == 'concept') 
+        if(must_load_depictions):
+            self.load_depictions()
+        
     def build_preview(self, entity_type, entity_id, entity_rows):
         import json
         preview_fields = {}
@@ -181,10 +184,9 @@ class PreviewBuilder:
     # and they are pulled in ad hoc from a static file
 
     def load_depictions(self):
-        self.depictions = {}
         image_files = ['agents.wikidata.images.csv', 'concepts.merge.images.csv']
         for image_file in image_files:
-            with open(os.path.join(os.getcwd(), 'entities', 'resources', image_file)) as imgs:
+            with open(os.path.join(os.getcwd(), 'entities', 'resources', image_file), encoding="utf-8") as imgs:
                 for line in imgs.readlines():
                     (agent_id, image_id) = line.split(sep=",", maxsplit=1)
                     agent_id = agent_id.strip()

@@ -191,7 +191,9 @@ class ContextClassHarvester:
         self.client = MongoClient(self.get_mongo_host(), self.get_mongo_port())
         self.ranking_model = self.config.get_relevance_ranking_model()
         self.write_dir = ContextClassHarvester.WRITEDIR + "/" + self.ranking_model
-        self.preview_builder = PreviewBuilder.PreviewBuilder(self.client)
+        #TODO create working dir here, including folders for individual entities and organization type
+        entity_type = name[:-1]
+        self.preview_builder = PreviewBuilder.PreviewBuilder(self.client, entity_type)
         
     def get_mongo_host (self):
         #return default mongo host, the subclasses may use the type based config (e.g. see organizations)
@@ -415,6 +417,7 @@ class ContextClassHarvester:
         return shingled_labels
 
     def build_payload(self, entity_id, entity_rows):
+        #TODO set entity type as class attribute in Harvester
         entity_type = entity_rows['entityType'].replace('Impl', '')
         payload = self.preview_builder.build_preview(entity_type, entity_id, entity_rows[self.REPRESENTATION])
         return payload
@@ -520,6 +523,7 @@ class PlaceHarvester(ContextClassHarvester):
         return len(place_list)
 
     def build_entity_chunk(self, start):
+        #TODO rename variables, places-> entity
         places = self.client.annocultor_db.place.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
         places_chunk = {}
         for place in places:
@@ -620,8 +624,10 @@ class ChunkBuilder:
         self.start = start
 
     def build_chunk(self):
-        harvester = ConceptHarvester()
-        if(self.entity_type == "agent"):
+        #TODO 
+        if(self.entity_type == "concept"):
+            harvester = ConceptHarvester()
+        elif(self.entity_type == "agent"):
             harvester = AgentHarvester()
         elif(self.entity_type == "place"):
             harvester = PlaceHarvester()
