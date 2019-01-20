@@ -1,0 +1,10 @@
+org/apache/solr/core/MockQuerySenderListenerReqHandler.class
+org/apache/solr/search/FooQParserPlugin.class
+org/apache/solr/search/FooQParser.class
+org/apache/solr/handler/component/AliasingSearchHandlerHttpSolrClientTest$SolrInstance.class
+org/apache/solr/handler/component/AliasingSearchHandlerHttpSolrClientTest.class
+org/apache/solr/handler/component/DummyCustomParamSpellChecker.class
+org/apache/solr/handler/component/AliasingSearchHandlerTest.class
+org/apache/solr/search/similarities/CustomSimilarityFactory.class
+org/apache/solr/search/similarities/MockConfigurableSimilarity.class
+org/apache/solr/spelling/SampleComparator.class
