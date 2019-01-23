@@ -35,7 +35,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>6.6.2</luceneMatchVersion>
+  <luceneMatchVersion>6.6.5</luceneMatchVersion>
 
   <!-- <lib/> directives can be used to instruct Solr to load any Jars
        identified and use them to resolve any "plugins" specified in
@@ -86,6 +86,10 @@
   <!-- browse-resources must come before solr-velocity JAR in order to override localized resources -->
   <lib path="${solr.install.dir:../../../..}/example/files/browse-resources"/>
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-velocity-\d.*\.jar" />
+  
+  <!--<lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib/" regex=".*\.jar" />-->
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs/" regex="lucene-analyzers-morfologik-*\.jar" />
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs/" regex="morfologik-ukrainian-search-*\.jar" />
   <!-- an exact 'path' can be used instead of a 'dir' to specify a 
        specific jar file.  This will cause a serious error to be logged 
        if it can't be loaded.
@@ -277,8 +281,10 @@
                 solr data directory.  -->
     <updateLog>
       <str name="dir">${solr.ulog.dir:}</str>
+	  <int name="numVersionBuckets">${solr.ulog.numVersionBuckets:65536}</int>
     </updateLog>
-
+	
+	
     <!-- AutoCommit
 
          Perform a hard commit automatically under certain conditions.
@@ -299,23 +305,24 @@
 
          If the updateLog is enabled, then it's highly recommended to
          have some sort of hard autoCommit to limit the log size.
+		 
+		see how to configure commits with 'autoCommit' and 'autoSoftCommit'
+		via https://lucene.apache.org/solr/guide/7_1/near-real-time-searching.html
       -->
-    <autoCommit>
-      <maxTime>15000</maxTime>
+    <!--<autoCommit>
+	  <maxTime>${solr.autoCommit.maxTime:60000}</maxTime>
       <openSearcher>false</openSearcher>
-    </autoCommit>
+    </autoCommit>-->
 
     <!-- softAutoCommit is like autoCommit except it causes a
          'soft' commit which only ensures that changes are visible
          but does not ensure that data is synced to disk.  This is
          faster and more near-realtime friendly than a hard commit.
       -->
-    <!--
-      <autoSoftCommit> 
-        <maxTime>1000</maxTime> 
-      </autoSoftCommit>
-     -->
-
+    <autoSoftCommit>
+	   <maxTime>${solr.autoSoftCommit.maxTime:60000}</maxTime>
+       <openSearcher>true</openSearcher>
+    </autoSoftCommit>
     <!-- Update Related Event Listeners
          
          Various IndexWriter related events can trigger Listeners to
@@ -420,9 +427,10 @@
                        to occupy
       -->
     <queryResultCache class="solr.LRUCache"
-                      size="512"
-                      initialSize="512"
-                      autowarmCount="0"/>
+                  size="512"
+                  initialSize="512"
+                  autowarmCount="128"
+                  maxRamMB="1000"/>
 
     <!-- Document Cache
 
@@ -433,7 +441,15 @@
     <documentCache class="solr.LRUCache"
                    size="512"
                    initialSize="512"
-                   autowarmCount="0"/>
+                   autowarmCount="256"/>
+				   
+	<!-- custom cache currently used by block join -->
+    <cache name="perSegFilter"
+           class="solr.search.LRUCache"
+           size="10"
+           initialSize="0"
+           autowarmCount="10"
+           regenerator="solr.NoOpRegenerator" />
 
     <!-- Field Value Cache
          
@@ -556,7 +572,19 @@
          will block until the first searcher is done warming.
       -->
     <useColdSearcher>false</useColdSearcher>
+	<!-- Max Warming Searchers
 
+		 Maximum number of searchers that may be warming in the
+		 background concurrently.  An error is returned if this limit
+		 is exceeded.
+
+		 Recommend values of 1-2 for read-only slaves, higher for
+		 masters w/o cache warming.
+		 
+		 To determine the optimal value of the 'maxWarmingSearchers', 
+			pls regularly check the filterCache, autowarmCount and Warm-up times (Searcher MBean) from the admin console. 
+	-->
+	<maxWarmingSearchers>2</maxWarmingSearchers>
   </query>
 
 
@@ -662,12 +690,12 @@
          (lastModifiedFrom and etagSeed are both ignored if you use
          the never304="true" option)
       -->
-    <!--
+    
        <httpCaching lastModifiedFrom="openTime"
                     etagSeed="Solr">
-         <cacheControl>max-age=30, public</cacheControl> 
+         <cacheControl>max-age=2000000, public</cacheControl> 
        </httpCaching>
-      -->
+      
   </requestDispatcher>
 
   <!-- Request Handlers 
@@ -697,15 +725,21 @@
        provided with Solr is "SearchHandler" It delegates to a sequent
        of SearchComponents (see below) and supports distributed
        queries across multiple shards
+	   
+	   It is very important to set 'AliasingRequestHandler' as default request handler, 
+		so that warm-up queries will be handled by default
     -->
-  <requestHandler name="/select" class="solr.SearchHandler">
+  <requestHandler name="/select" class="solr.AliasingRequestHandler" default="true">
     <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
       -->
     <lst name="defaults">
       <str name="echoParams">explicit</str>
       <int name="rows">10</int>
-      <str name="df">text</str>
+	  <str name="f.TYPE.facet.method">enum</str>
+      <str name="f.UGC.facet.method">enum</str>
+      <str name="f.COMPLETENESS.facet.method">enum</str>
+      <str name="df">fulltext.en</str>
 	  <str name="q.op">AND</str>
     </lst>
     <!-- In addition to defaults, "appends" params can be specified
@@ -778,11 +812,62 @@
 
   <!--These useParams values are available in params.json-->
   <requestHandler name="/browse" class="solr.SearchHandler" useParams="query,facets,velocity,browse"/>
-
+  
+  <!-- Custom newspapers fulltext search handler-->
+   <requestHandler name="/simple" class="solr.SearchHandler">   
+    <lst name="defaults">
+	  <str name="defType">dismax</str>
+      <str name="echoParams">explicit</str>
+      <int name="rows">10</int>
+      <str name="qf">
+	  fulltext.de fulltext.el fulltext.en fulltext.es fulltext.et fulltext.fi fulltext.fr fulltext.hr fulltext.it fulltext.la fulltext.lv fulltext.nl fulltext.pl fulltext.ru fulltext.sr fulltext.sv fulltext.uk
+	  </str>
+	  <str name="q.alt">*:*</str>
+	  <str name="mm">2&lt;-1 5&lt;-2 6&lt;90% </str>
+	  <str name="hl">on</str>
+	  <str name="hl.method">unified</str>
+	  <bool name="hl.highlightMultiTerm">true</bool>
+	  <str name="hl.fl">fulltext.de fulltext.el fulltext.en fulltext.es fulltext.et fulltext.fi fulltext.fr fulltext.hr fulltext.it fulltext.la fulltext.lv fulltext.nl fulltext.pl fulltext.ru fulltext.sr fulltext.sv fulltext.uk
+	  </str>
+	  <!-- 
+	  <str name="facet">on</str>
+	  <str name="facet.missing">true</str>
+	  <str name="facet.limit">50</str>
+	  <str name="facet.mincount">1</str>
+	  <str name="facet.sort">count</str>
+	  <str name="facet.field">fulltext.de</str>
+	  <str name="facet.field">fulltext.el</str>
+	  <str name="facet.field">fulltext.en</str>
+	  <str name="facet.field">fulltext.es</str>
+	  <str name="facet.field">fulltext.et</str>
+	  <str name="facet.field">fulltext.fi</str>
+	  <str name="facet.field">fulltext.fr</str>
+	  <str name="facet.field">fulltext.hr</str>
+	  <str name="facet.field">fulltext.it</str>
+	  <str name="facet.field">fulltext.la</str>
+	  <str name="facet.field">fulltext.lv</str>
+	  <str name="facet.field">fulltext.nl</str>
+	  <str name="facet.field">fulltext.pl</str>
+	  <str name="facet.field">fulltext.ru</str>
+	  <str name="facet.field">fulltext.sr</str>
+	  <str name="facet.field">fulltext.sv</str>
+	  <str name="facet.field">fulltext.uk</str>
+	  -->	  
+    </lst>
+	<arr name="last-components">  
+	  <str>spellcheck</str>  
+	</arr>  
+  </requestHandler>
+  <!-- 
+  When using SolrCloud, the ReplicationHandler must be available via the /replication path.
+  
+  see details via https://lucene.apache.org/solr/guide/6_6/index-replication.html#IndexReplication-IndexReplicationinSolr
+  -->
+  <requestHandler name="/replication" class="solr.ReplicationHandler"/>
 
   <initParams path="/update/**,/query,/select,/tvrh,/elevate,/spell,/browse">
     <lst name="defaults">
-      <str name="df">_text_</str>
+      <str name="df">fulltext.</str>
     </lst>
   </initParams>
 
@@ -814,13 +899,19 @@
                   startup="lazy"
                   class="solr.extraction.ExtractingRequestHandler" >
     <lst name="defaults">
-      <str name="xpath">/xhtml:html/xhtml:body/descendant:node()</str>
-      <str name="capture">content</str>
-      <str name="fmap.meta">attr_meta_</str>
-      <str name="uprefix">attr_</str>
+      <!-- All the main content goes into "text"... if you need to return
+           the extracted text or do highlighting, use a stored field. -->
+      <str name="fmap.content">fulltext.</str>
       <str name="lowernames">true</str>
+      <str name="uprefix">ignored_</str>
+
+      <!-- capture link hrefs but ignore div attributes -->
+      <str name="captureAttr">true</str>
+      <str name="fmap.a">links</str>
+      <str name="fmap.div">ignored_</str>
     </lst>
   </requestHandler>
+  
   <!-- Search Components
 
        Search components are registered to SolrCore and used by 
@@ -882,7 +973,7 @@
     <!-- a spellchecker built from a field of the main index -->
     <lst name="spellchecker">
       <str name="name">default</str>
-      <str name="field">text</str>
+      <str name="field">fulltext.en</str>
       <str name="classname">solr.DirectSolrSpellChecker</str>
       <!-- the spellcheck distance measure used, the default is the internal levenshtein -->
       <str name="distanceMeasure">internal</str>
@@ -1175,18 +1266,12 @@
 
     -->
   
-  <!-- Add unknown fields to the schema 
+  <!-- Default Newspapers Document update request processor chain
   
-       An example field type guessing update processor that will
-       attempt to parse string-typed field values as Booleans, Longs,
-       Doubles, or Dates, and then add schema fields with the guessed
-       field types.  
-       
-       This requires that the schema is both managed and mutable, by
-       declaring schemaFactory as ManagedIndexSchemaFactory, with
-       mutable specified as true. 
-       
-       See http://wiki.apache.org/solr/GuessingFieldTypes
+	In most cases, when running in SolrCloud mode, indexing client applications should not send explicit commit requests.
+	
+	see details via https://lucene.apache.org/solr/guide/6_6/update-request-processors.html
+	
     -->
  <updateRequestProcessorChain name="files-update-processor">
     <processor class="solr.UUIDUpdateProcessorFactory" />
@@ -1219,8 +1304,8 @@
         <str>yyyy-MM-dd</str>
       </arr>
     </processor>
-
-<!--    <processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+    <!--<processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+	
       <str name="defaultFieldType">strings</str>
       <lst name="typeMapping">
         <str name="valueClass">java.lang.Boolean</str>
@@ -1239,21 +1324,13 @@
         <str name="valueClass">java.lang.Number</str>
         <str name="fieldType">tdoubles</str>
       </lst>
-    </processor>
--->
-
-    <processor class="org.apache.solr.update.processor.LangDetectLanguageIdentifierUpdateProcessorFactory">
-      <lst name="defaults">
-        <str name="langid.fl">content</str>
-        <str name="langid.langField">language</str>
-      </lst>
-    </processor>
-
-    <processor class="solr.StatelessScriptUpdateProcessorFactory">
-      <str name="script">update-script.js</str>
-
-    </processor>
-
+    </processor>-->
+	<processor class="solr.TimestampUpdateProcessorFactory">
+	   <str name="fieldName">timestamp_update</str>
+	</processor>
+	<processor class="solr.IgnoreCommitOptimizeUpdateProcessorFactory">
+		<int name="statusCode">200</int>
+	</processor>
     <processor class="solr.LogUpdateProcessorFactory"/>
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>
