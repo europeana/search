@@ -4,7 +4,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 public class Session {
+	
+	static Logger logger = Logger.getLogger(Process.class);
 
 	List<String> queries = new ArrayList<String>();
 	List<String> filters = new ArrayList<String>();
@@ -39,14 +45,24 @@ public class Session {
 	
 	public void addFilter(String filter) {
 		filters.add(filter);
-	}
-	
-	public void addFilterType(String fType) {
-		filterType.add(fType);
+		addFilterTypes(filter);
 	}
 	
 	public void addClick() {
 		clicks++;
+	}
+	
+	private void addFilterTypes(String filters) {
+		if (!filters.isEmpty()) {
+			try {
+				JSONObject json_fil = new JSONObject(filters.replace("\\x00", " ").replace("\\xa0", " "));
+				for (String key: json_fil.keySet()) {
+					filterType.add(key);
+				}
+			} catch (JSONException e) {
+				logger.warn("Error on session " + this.getIdSession() + " filter: " + filters);
+			}
+		}
 	}
 
 }
