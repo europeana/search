@@ -1,0 +1,4 @@
+org/apache/solr/handler/component/QueryAliasing.class
+org/apache/solr/handler/component/AliasingSearchHandler.class
+org/apache/solr/handler/component/AliasingQueryComponent.class
+org/apache/solr/core/AliasConfig.class
