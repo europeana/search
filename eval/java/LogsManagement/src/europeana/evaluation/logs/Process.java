@@ -65,17 +65,6 @@ public class Process {
 						String filters;
 						query = items[3].trim();
 						filters = items[4].trim();
-						if (!filters.isEmpty()) {
-							try {
-								JSONObject json_fil = new JSONObject(filters.replace("\\x00", " ").replace("\\xa0", " "));
-								for (String key: json_fil.keySet()) {
-									current.addFilterType(key);
-								}
-							} catch (JSONException e) {
-								logger.warn("Error on session " + idSession + " filter: " + filters);
-							}
-						}
-						
 						current.addQuery(query);
 						current.addFilter(filters);
 					} else if (items.length > 0 && items[0].equals("RankedRetrieveRecordInteraction") && items.length == 8) {
@@ -135,6 +124,7 @@ public class Process {
 	public static void PrintStatisticsSessions(List<Session> entries) {
 		System.out.println("Number of sessions: " + entries.size());
 		System.out.println("Number of sessions with filter: " + entries.stream().filter(p -> (p.filters.stream().filter(f -> !f.isEmpty()).count() > 0)).count());
+		System.out.println("Number of sessions with filter + clicks: " + entries.stream().filter(p -> (p.filters.stream().filter(f -> !f.isEmpty() && (p.clicks > 0)).count() > 0)).count());
 		System.out.println("Number of sessions with query keywords: " + entries.stream().filter(p -> (p.queries.stream().filter(q -> (!q.equals("") && !q.equals("NO VALUE PROVIDED") && !q.equals("*") && !q.equals("*:*"))).count()) > 0).count());
 		System.out.println("Number of sessions with query keywords + filter: " + entries.stream().filter(p -> ((p.filters.stream().filter(f -> !f.isEmpty()).count() > 0) && (p.queries.stream().filter(q -> (!q.equals("") && !q.equals("NO VALUE PROVIDED") && !q.equals("*") && !q.equals("*:*"))).count()) > 0)).count());
 		System.out.println("Number of sessions with clicks: " + entries.stream().filter(p -> (p.clicks > 0)).count());
@@ -146,43 +136,51 @@ public class Process {
 		}
 	}	
 	
-	public static void PrintStatisticsQueries(List<Entry> entries) {
-		System.out.println("Number of queries: " + entries.size());
-		
+	public static void PrintStatisticsQueries(OutputStream os, List<Entry> entries, String queryType) {
+		PrintWriter pw = new PrintWriter(os);
+		Long queriesWfilter = entries.stream().filter(p -> (!p.filters.isEmpty())).count();
+		Long queriesWclicks = entries.stream().filter(p -> (!p.clicks.isEmpty())).count();
+		Long queriesWfilterclicks = entries.stream().filter(p -> (!p.filters.isEmpty() && !p.clicks.isEmpty())).count();
+		Long queriesOnlyFilter = entries.stream().filter(p -> (!p.filters.isEmpty()) && (p.query.equals("") || p.query.equals("NO VALUE PROVIDED") || p.query.equals("*") || p.query.equals("*:*"))).count();
 		List<Entry> userQueries = entries.stream().filter(p -> (!p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).collect(Collectors.toList());
-		System.out.println("Number of queries with actual keywords: " + userQueries.size());
-		System.out.println("*** Statistics all the queries");
-		System.out.println("Number of queries with filter: " + entries.stream().filter(p -> (!p.filters.isEmpty())).count());
-		System.out.println("Number of queries only filter: " + entries.stream().filter(p -> (!p.filters.isEmpty()) && (p.query.equals("") || p.query.equals("NO VALUE PROVIDED") || p.query.equals("*") || p.query.equals("*:*"))).count());
-		System.out.println("Number of queries keyword+filter: " + entries.stream().filter(p -> (!p.filters.isEmpty()) && (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).count());
-		//System.out.println("Number of queries keyword+filter: " + entries.stream().filter(p -> (!p.filters.isEmpty()) && (!p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).count());
-		System.out.println("Number of queries with clicks: " + entries.stream().filter(p -> (!p.clicks.isEmpty())).count());
-		System.out.println("Number of queries with clicks & only filter: " + entries.stream().filter(p -> (!p.clicks.isEmpty() && (!p.filters.isEmpty()) && (p.query.equals("") || p.query.equals("NO VALUE PROVIDED") || p.query.equals("*") || p.query.equals("*:*")))).count());
-		System.out.println("Number of queries with clicks & keyword+filter: " + entries.stream().filter(p -> (!p.clicks.isEmpty() && (!p.filters.isEmpty()) && (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*")))).count());
-		System.out.println("Average number of sessions per query: " + entries.stream().mapToDouble(p -> (p.clicks.keySet().size())).average());
-		System.out.println("Max. sessions per query: " + entries.stream().mapToDouble(p -> (p.clicks.keySet().size())).max());
-		System.out.println("Average clicks per query/session: " + entries.stream().flatMap(p -> (p.clicks.values().stream())).mapToDouble(p -> (p.size())).average());
 		
-		System.out.println("*** Statistics user queries");
-		System.out.println("Number of queries with filter: " + userQueries.stream().filter(p -> (!p.filters.isEmpty())).count());
-		System.out.println("Number of queries with clicks: " + userQueries.stream().filter(p -> (!p.clicks.isEmpty())).count());
-		System.out.println("Average number of sessions per query: " + userQueries.stream().mapToDouble(p -> (p.clicks.keySet().size())).average());
-		System.out.println("Max. sessions per query: " + userQueries.stream().mapToDouble(p -> (p.clicks.keySet().size())).max());
-		System.out.println("Average clicks per query/session: " + userQueries.stream().flatMap(p -> (p.clicks.values().stream())).mapToDouble(p -> (p.size())).average());
-		
-		List<Entry> withClicks = userQueries.stream().filter(p -> (!p.clicks.isEmpty())).collect(Collectors.toList());
-		System.out.println("*** Statistics queries with clicks");
-		System.out.println("Number of queries with filter: " + withClicks.stream().filter(p -> (!p.filters.isEmpty())).count());
-		System.out.println("Average number of sessions per query: " + withClicks.stream().mapToDouble(p -> (p.clicks.keySet().size())).average());
-		System.out.println("Max. sessions per query: " + withClicks.stream().mapToDouble(p -> (p.clicks.keySet().size())).max());
-		System.out.println("Average clicks per query/session: " + withClicks.stream().flatMap(p -> (p.clicks.values().stream())).mapToDouble(p -> (p.size())).average());
+		pw.println("Type of queries: " + queryType);
+		pw.println("Number of queries: " + entries.size());
+		pw.println("*** Measures for evaluation report");
+		pw.println("Percentage of queries with clicks (% all queries): " + (queriesWclicks / Double.valueOf(entries.size())) * 100);
+		pw.println("Percentage of queries with filter (% all queries): " + (queriesWfilter / Double.valueOf(entries.size())) * 100);
+		pw.println("Percentage of queries with filters that have clicks: " + (queriesWfilterclicks /  Double.valueOf(queriesWfilter)) * 100);
+		pw.println("Percentage of queries only filter (% all queries): " + (queriesOnlyFilter / Double.valueOf(entries.size())) * 100);
+		pw.println("Type of filters used and percentage of queries with filters where it has been used:");
+		Map<String, Integer> filterType = new HashMap<String, Integer>();
+		entries.forEach(p -> p.getFilterType().forEach(f -> {if (filterType.containsKey(f)) {Integer count = filterType.get(f); filterType.put(f, ++count);} else {filterType.put(f, 1);} }));
+		Integer total = filterType.values().stream().mapToInt(p -> p).sum();
+		for (String key: filterType.keySet()) {
+			pw.println(key + " : " + (filterType.get(key) / Double.valueOf(total)) * 100);
+		}
 
+		pw.println();
+		pw.println("*** Other measures");
+		pw.println("Number of queries with actual keywords (user queries): " + userQueries.size());
+		pw.println("Number of queries with filter: " + queriesWfilter);
+		pw.println("Number of queries with filter + clicks: " + queriesWfilterclicks);
+		pw.println("Number of queries only filter: " + queriesOnlyFilter);
+		pw.println("Number of queries keyword+filter: " + entries.stream().filter(p -> (!p.filters.isEmpty()) && (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).count());
+		//System.out.println("Number of queries keyword+filter: " + entries.stream().filter(p -> (!p.filters.isEmpty()) && (!p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).count());
+		pw.println("Number of queries with clicks: " + queriesWclicks);
+		pw.println("Number of queries with clicks & only filter: " + entries.stream().filter(p -> (!p.clicks.isEmpty() && (!p.filters.isEmpty()) && (p.query.equals("") || p.query.equals("NO VALUE PROVIDED") || p.query.equals("*") || p.query.equals("*:*")))).count());
+		pw.println("Number of queries with clicks & keyword+filter: " + entries.stream().filter(p -> (!p.clicks.isEmpty() && (!p.filters.isEmpty()) && (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*")))).count());
+		pw.println("Average number of sessions per query: " + entries.stream().mapToDouble(p -> (p.clicks.keySet().size())).average());
+		pw.println("Max. sessions per query: " + entries.stream().mapToDouble(p -> (p.clicks.keySet().size())).max());
+		pw.println("Average clicks per query/session: " + entries.stream().flatMap(p -> (p.clicks.values().stream())).mapToDouble(p -> (p.size())).average());
+		pw.println();
+		pw.close();
 	}
 	
 	private static void printQrel(List<Entry> entries, OutputStream os) {
-		List<Entry> userQueriesClicked = entries.stream().filter(p -> (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*") && !p.clicks.isEmpty())).collect(Collectors.toList());
 		PrintWriter pw = new PrintWriter(os);
-		for (Entry e: userQueriesClicked) {
+		
+		for (Entry e: entries.stream().filter(p -> (!p.clicks.isEmpty())).collect(Collectors.toList())) {
 			for (String doc:e.getIdsClicked().keySet()) {
 				pw.write(e.hashCode() + " " + "Logs" + " " + doc + " " + "1"  + "\n");
 			}
@@ -191,17 +189,14 @@ public class Process {
 	}
 	
 	private static void printResults(List<Entry> entries, OutputStream os) {
-		List<Entry> userQueriesClicked = entries.stream().filter(p -> (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*") && !p.clicks.isEmpty())).collect(Collectors.toList());
 		PrintWriter pw = new PrintWriter(os);
-		
-		for (Entry e: userQueriesClicked) {
+		for (Entry e: entries.stream().filter(p -> (!p.clicks.isEmpty())).collect(Collectors.toList())) {
 			Integer maxRank = 0;
 			maxRank = Collections.max(e.getIdsClicked().values());
 			for (int i = 1; i <= maxRank; i++) {
 				if (!e.getIdsClicked().values().contains(i)) {
 					Double score = (maxRank / Double.valueOf(i)) / maxRank;
 					pw.write(e.hashCode() + " " + "Logs" + " " + i + " " + e.hashCode()+"-"+ i + " " + score +  " " + "Logs" + "\n");
-
 				}
 			}
 			for (String doc:e.getIdsClicked().keySet()) {
@@ -222,20 +217,45 @@ public class Process {
 
 	public static void main(String[] args) throws IOException {
 		try {
-		InputStream is = Process.class.getClassLoader().getResourceAsStream("log4j.properties");
-		PropertyConfigurator.configure(is);
-		Properties p;
-			p = Utils.readProperties(Process.class.getClassLoader().getResourceAsStream("config.properties"));
-			Path data = Paths.get(p.getProperty("path"));
+			System.out.println("Processing...");
+			InputStream is = Process.class.getClassLoader().getResourceAsStream("resources/log4j.properties");
+			PropertyConfigurator.configure(is);
+			Properties prop;
+			prop = Utils.readProperties(Process.class.getClassLoader().getResourceAsStream("resources/config.properties"));
+			Path data = Paths.get(prop.getProperty("path"));
 			List<Entry> entries = ImportEntries(data);
-			PrintStatisticsQueries(entries);
-			List<Session> session = ImportSessions(data);
-			PrintStatisticsSessions(session);
-			OutputStream qrel = new FileOutputStream("qrel.txt");
-			OutputStream res = new FileOutputStream("res.txt");
+			List<Entry> queriesWkeywords = entries.stream().filter(p -> (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).collect(Collectors.toList());
+			List<Entry> queriesOnlyFilter = entries.stream().filter(p -> ((p.query.equals("") || p.query.equals("NO VALUE PROVIDED") || p.query.equals("*") || p.query.equals("*:*")))).collect(Collectors.toList());
+
+			OutputStream stats = new FileOutputStream("stats_all.txt");
+			PrintStatisticsQueries(stats, entries, "All queries");
+			stats.close();
+			stats = new FileOutputStream("stats_keywords.txt");
+			PrintStatisticsQueries(stats, queriesWkeywords, "Only queries with keywords different from '*' or '*:*' (not only filters)");
+			stats.close();
+			stats = new FileOutputStream("stats_filters.txt");
+			PrintStatisticsQueries(stats, queriesOnlyFilter, "Only queries with filters (or where query is '*' or '*:*')");
+			stats.close();
+			//List<Session> session = ImportSessions(data);
+			//PrintStatisticsSessions(session);
+			OutputStream qrel = new FileOutputStream("qrel_all.txt");
+			OutputStream res = new FileOutputStream("res_all.txt");
 			printTRECfiles(entries, qrel, res);
 			qrel.close();
 			res.close();
+			
+			qrel = new FileOutputStream("qrel_keywords.txt");
+			res = new FileOutputStream("res_keywords.txt");
+			printTRECfiles(queriesWkeywords, qrel, res);
+			qrel.close();
+			res.close();
+
+			qrel = new FileOutputStream("qrel_filters.txt");
+			res = new FileOutputStream("res_filters.txt");
+			printTRECfiles(queriesOnlyFilter, qrel, res);
+			qrel.close();
+			res.close();
+			System.out.println("Stats and TREC files generated");
 		} catch (IOException e) {
 			logger.fatal(e.getMessage());
 			throw e;
