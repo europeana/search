@@ -243,7 +243,6 @@ public class Process {
 			printTRECfiles(entries, qrel, res);
 			qrel.close();
 			res.close();
-			
 			qrel = new FileOutputStream("qrel_keywords.txt");
 			res = new FileOutputStream("res_keywords.txt");
 			printTRECfiles(queriesWkeywords, qrel, res);
