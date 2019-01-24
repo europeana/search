@@ -272,7 +272,7 @@
         <copyField source="wgs84_pos_alt" dest="alt" />
 
 
-        <field name="payload" type="json" indexed="true" stored="true" multiValued="true"/>
+        <field name="payload" type="json" indexed="true" stored="true" multiValued="false"/>
         <field name="suggest_filters" indexed="true" stored="true" multiValued="true" type="string"/>
         
         <!-- Organization fields -->
