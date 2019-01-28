@@ -20,14 +20,15 @@ class PreviewBuilder:
             self.load_depictions()
         
     def build_preview(self, entity_type, entity_id, entity_rows):
-        import json
         preview_fields = {}
         preview_fields['id'] = entity_id
         preview_fields['type'] = entity_type
         preview_fields['prefLabel'] = self.build_pref_label(entity_rows)
         preview_fields['hiddenLabel'] = self.build_max_recall(entity_type, entity_rows)
-        if(self.get_depiction(entity_id)):
-            preview_fields['depiction'] = self.get_depiction(entity_id)
+        #depiction
+        depiction = self.build_depiction(entity_id, entity_rows)
+        if(depiction):
+            preview_fields['depiction'] = depiction 
         if(entity_type == "Agent"):
             if(self.build_birthdate(entity_rows)): preview_fields['dateOfBirth'] = self.build_birthdate(entity_rows)
             if(self.build_deathdate(entity_rows)): preview_fields['dateOfDeath'] = self.build_deathdate(entity_rows)
@@ -51,6 +52,16 @@ class PreviewBuilder:
         for k in entity_rows['prefLabel']:
             all_langs[k] = entity_rows['prefLabel'][k][0]
         return all_langs
+
+    def build_depiction(self, entity_id, entity_rows):
+        #if available in database
+        if(entity_rows['foafDepiction']):
+            return entity_rows['foafDepiction'];
+        #if available in csv files    
+        elif(self.get_depiction(entity_id)):
+            return self.get_depiction(entity_id)
+        else:
+            return None
 
     def build_acronym(self, entity_rows):
         all_langs = {}
