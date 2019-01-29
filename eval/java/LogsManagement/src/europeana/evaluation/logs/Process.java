@@ -250,8 +250,7 @@ public class Process {
 			res = new FileOutputStream("res_keywords.txt");
 			printTRECfiles(queriesWkeywords, qrel, res);
 			qrel.close();
-			res.close();
-
+			res.close(); 
 			qrel = new FileOutputStream("qrel_filters.txt");
 			res = new FileOutputStream("res_filters.txt");
 			printTRECfiles(queriesOnlyFilter, qrel, res);
