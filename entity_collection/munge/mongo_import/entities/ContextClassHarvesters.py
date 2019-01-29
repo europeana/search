@@ -142,6 +142,7 @@ class ContextClassHarvester:
         'inScheme' : { LABEL : 'skos_inScheme', TYPE : TYPE_REF },
         'note' : { LABEL : 'skos_note', TYPE : TYPE_STRING },
         'foafLogo' : { LABEL : 'foaf_logo', TYPE : TYPE_REF },
+        'foafDepiction' : { LABEL : 'foaf_depiction', TYPE : TYPE_REF },
         # not used yet
         #name' : { 'label' : 'foaf_name', TYPE : TYPE_STRING },
         'foafHomepage' : { LABEL : 'foaf_homepage', TYPE : TYPE_REF},
@@ -161,7 +162,9 @@ class ContextClassHarvester:
         #'vcardRegion' : { LABEL : 'vcard_region', TYPE : TYPE_STRING },
         'vcardPostalCode' : { LABEL : 'vcard_postalCode', TYPE : TYPE_STRING},
         'vcardCountryName' : { LABEL : 'vcard_countryName', TYPE : TYPE_STRING },
-        'vcardPostOfficeBox' : { LABEL : 'vcard_postOfficeBox', TYPE : TYPE_STRING}
+        'vcardPostOfficeBox' : { LABEL : 'vcard_postOfficeBox', TYPE : TYPE_STRING},
+        'vcardHasGeo' : { LABEL : 'vcard_hasGeo', TYPE : TYPE_STRING}
+        
     }
 
     def log_warm_message(self, entity_id, message):
@@ -283,15 +286,20 @@ class ContextClassHarvester:
         #address_components = []
         for k, v in address.items():
             key = k	
+            value = v
             if ("about" == k):
                 key = "address_" + k
+            elif ("vcardHasGeo" == k):
+                #remove geo:, keep just lat,long 
+                value = v.split(":")[-1]
+                    
             if(key not in ContextClassHarvester.FIELD_MAP.keys()):
                 self.log_warm_message(entity_id, "unmapped field: " + key)
                 continue
-            
+        
             field_name = ContextClassHarvester.FIELD_MAP[key][self.LABEL]
             field_name = field_name + ".1"
-            self.add_field(docroot, field_name, v)
+            self.add_field(docroot, field_name, value)
             #address_components.append(v)
 
         #if(len(address_components) > 0):

@@ -12,8 +12,9 @@
         <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true" omitNorms="true"/>
         <fieldType name="date" class="solr.TrieDateField" omitNorms="true" precisionStep="0"
             positionIncrementGap="0"/>
-        <fieldType name="location" class="solr.LatLonType" subFieldSuffix="_coords"/>    
-
+        <!-- DEPRECATED to be changed to solr.LatLonPointSpatialField in solr 6.6 -->    
+        <fieldType name="location" class="solr.LatLonType" subFieldSuffix="_coordinate"/>    
+        
         <fieldType name="suggestType" class="solr.TextField" positionIncrementGap="100" termVectors="true" termPositions="true" termOffsets="true" storeOffsetsWithPositions="true">
             <analyzer>
                 <charFilter class="solr.PatternReplaceCharFilterFactory"
@@ -56,8 +57,6 @@
     <fields>
         <!-- required field -->
         <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
-        <!-- required for spatial search -->
-        <dynamicField name="*_coords" type="double" indexed="true" stored="false" />
         <!-- unique key -->
         <!-- Deprecated replace by entity_uri--> 
         <field name="id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
@@ -266,7 +265,13 @@
         <field name="wgs84_pos_long" type="float" indexed="false" stored="true" multiValued="false"/>
         <field name="wgs84_pos_alt" type="float" indexed="false" stored="true" multiValued="false"/>
         <field name="wgs84_pos_lat_long" type="string" indexed="false" stored="true" multiValued="false"/>
+        <!-- this fields was never used 
         <field name="coord" type="location" indexed="true" stored="true" multiValued="false" />
+         -->
+         <!-- required for spatial search -->
+         <!-- this field was never used see  
+        <dynamicField name="*_coords" type="double" indexed="true" stored="false" />
+         -->
         <!-- TODO: alias  -->
         <field name="alt" type="float" indexed="false" stored="true" multiValued="false"/>      
         <copyField source="wgs84_pos_alt" dest="alt" />
@@ -334,7 +339,12 @@
         <dynamicField name="vcard_postalCode.*" type="string" indexed="false" stored="true" multiValued="false" />
         <dynamicField name="vcard_countryName.*" type="string" indexed="false" stored="true" multiValued="false" />
         <dynamicField name="vcard_postOfficeBox.*" type="string" indexed="false" stored="true" multiValued="false" />
-        <!-- dc: description not currently in the profile -->
+        <!--  location fields cannot be defined as dynamic fields, we manually append .1 for consistency -->
+        <field name="vcard_hasGeo.1" type="location" indexed="true" stored="true" multiValued="false" />
+        <!-- DEPRECATED dynamic field type matching the suffix to store the data points, type tdouble not defined -->
+        <dynamicField name="*_coordinate"  type="double" indexed="true"  stored="false"/>
+        
+		<!-- dc: description not currently in the profile -->
         <dynamicField name="dc_description.*" type="string" indexed="false" stored="true"/>
         
     </fields>

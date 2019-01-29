@@ -1,14 +1,17 @@
 #section name is mandatory .. do not delete next line
 [CONFIG]
 #COMON harvester configs
-#database config 
-harvester.mongo.host = mongodb://localhost
-harvester.mongo.port = 27017
+#database config
+ 
+harvester.mongo.host = mongodb://localhost:27017
+#deprecated add port to host
+harvester.mongo.port = -1
 
 
 #OrganizationHarvester configs
-organizations.harvester.mongo.host = mongodb://localhost
-organizations.harvester.mongo.port = 27017
+organizations.harvester.mongo.host = mongodb://localhost:27017
+#deprecated add port to host
+organizations.harvester.mongo.port = -1
 
 #RelevanceCounter configs
 #harvester.relevance.solr.uri = http://localhost:9191/solr/search/search?wt=json&rows=0
