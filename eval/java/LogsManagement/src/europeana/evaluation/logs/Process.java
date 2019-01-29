@@ -34,6 +34,7 @@ import europeana.utils.Utils;
  * Software to get insights from logs coming from ELK.
  * Generates TREC_EVAL files to calculate performance measures from logs (assuming a document clicked is relevant)
  * The logs are assumed to be contained in a folder resulting from applying Tim's code log_extractor.session_extractor and log_extractor.entry_extractor (resulting folder called 'entries_by_session')
+ * Important: the filters reflected here do not include those coming from the page in the portal from where that query was launched (eg. search from collection pages)
  * @author mmarrero
  * 
  */
@@ -161,6 +162,7 @@ public class Process {
 
 		pw.println();
 		pw.println("*** Other measures");
+		pw.println("Number of queries with no hits: " + entries.stream().filter(p -> p.getHits() == 0).count());
 		pw.println("Number of queries with actual keywords (user queries): " + userQueries.size());
 		pw.println("Number of queries with filter: " + queriesWfilter);
 		pw.println("Number of queries with filter + clicks: " + queriesWfilterclicks);
@@ -224,6 +226,7 @@ public class Process {
 			prop = Utils.readProperties(Process.class.getClassLoader().getResourceAsStream("resources/config.properties"));
 			Path data = Paths.get(prop.getProperty("path"));
 			List<Entry> entries = ImportEntries(data);
+			//entries = entries.stream().filter(p -> p.getHits() > 0).collect(Collectors.toList());
 			List<Entry> queriesWkeywords = entries.stream().filter(p -> (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).collect(Collectors.toList());
 			List<Entry> queriesOnlyFilter = entries.stream().filter(p -> ((p.query.equals("") || p.query.equals("NO VALUE PROVIDED") || p.query.equals("*") || p.query.equals("*:*")))).collect(Collectors.toList());
 
