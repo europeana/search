@@ -55,7 +55,7 @@ class PreviewBuilder:
 
     def build_depiction(self, entity_id, entity_rows):
         #if available in database
-        if(entity_rows['foafDepiction']):
+        if('foafDepiction' in entity_rows.keys()):
             return entity_rows['foafDepiction'];
         #if available in csv files    
         elif(self.get_depiction(entity_id)):
@@ -119,7 +119,7 @@ class PreviewBuilder:
             term = term.split("<")[0]
         elif(";" in term):
             term = term.split(";")[0]
-        return term
+        return term.strip()
 
     def build_birthdate(self, entity_rows):
         # TODO: Validation routines to ensure agents have only one birthdate and deathdate apiece

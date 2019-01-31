@@ -42,7 +42,9 @@ class HarvesterTest(unittest.TestCase):
     # tests on a couple of entities of each type
     def test_build_individual_entity(self):
         #bnf
-        entity_id = "http://data.europeana.eu/organization/1482250000002112001"
+        #entity_id = "http://data.europeana.eu/organization/1482250000002112001"
+        #sofia japanese band 
+        entity_id = "http://data.europeana.eu/agent/base/6376"
         #government of catalunia
         #entity_id = "http://data.europeana.eu/organization/1482250000004503580"
         ieb = entities.ContextClassHarvesters.IndividualEntityBuilder()
