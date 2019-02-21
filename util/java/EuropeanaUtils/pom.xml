@@ -32,5 +32,22 @@
   		<artifactId>json</artifactId>
   		<version>20180813</version>
   	</dependency>
+  	<dependency>
+  		<groupId>com.google.http-client</groupId>
+  		<artifactId>google-http-client-gson</artifactId>
+  		<version>1.28.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.google.apis</groupId>
+  		<artifactId>google-api-services-oauth2</artifactId>
+  		<version>v2-rev141-1.25.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.google.apis</groupId>
+  		<artifactId>
+  			google-api-services-analyticsreporting
+  		</artifactId>
+  		<version>v4-rev128-1.25.0</version>
+  	</dependency>
   </dependencies>
 </project>
