@@ -88,7 +88,7 @@ public class Process {
 	}
 
 	private static List<Query> Filter(List<Query> queries){
-		return queries.stream().filter(p -> (!p.query.contains("*") && !p.query.contains(":") && p.uniqueSearches <= 10 && p.query.matches("[\"\'\\“A-Za-z\\s]+") && !p.query.contains("AND") && !p.query.contains("OR") && !p.query.startsWith("<") && p.query.length() > 2)).collect(Collectors.toList());
+		return queries.stream().filter(p -> (p.uniqueSearches <= 10 && p.query.matches("[\"\'\\“A-Za-z\\s]+") && !p.query.contains("AND") && !p.query.contains("OR") && p.query.length() > 2)).collect(Collectors.toList());
 	}
 	
 	private static void AddEntityInfo(List<Query> queries, String solrClient) throws SolrServerException, IOException {
