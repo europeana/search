@@ -43,6 +43,14 @@ import europeana.utils.GoogleAnalytics;
 import europeana.utils.SolrErrorHandling;
 import europeana.utils.Utils;
 
+
+/***
+ * Software to get insights from logs in Google Analytics.
+ * For the moment it generates a sample of the queries done and attach information about their existence as labels or part of the contents of the entities in our Entity Collection. 
+ * @author mmarrero
+ * 
+ */
+
 public class Process {
 	
 	static Logger logger = Logger.getLogger(Process.class);
