@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.security.GeneralSecurityException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -18,6 +20,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
@@ -42,10 +45,11 @@ import europeana.utils.Utils;
 
 public class Process {
 	
+	static Logger logger = Logger.getLogger(Process.class);
+	
 	//private static final String URL_PATTERN = "/portal/(?<lang>.*?)/(search|collections/(?<cname>.+?))\\?.*?q\\=(?<query>.*?)(&|$)";
 	private static final String URL_PATTERN = "/portal/(?<lang>[^/]+)(/collections/(?<cname>.+?)\\?)?";
 	private static final Pattern pattern = Pattern.compile(URL_PATTERN);
-
 	
 	private static List<Query> GetQueries(GetReportsResponse response) throws Exception {
 		List<Query> queries = new ArrayList<Query>();
@@ -97,7 +101,6 @@ public class Process {
 			String queryLC = q.getQuery().toLowerCase();
 			SolrQuery query = new SolrQuery();
 			String solr_query = "skos_prefLabel:\"" + queryLC + "\" OR label:\"" + queryLC + "\" OR text:\"" + queryLC + "\"";
-			System.out.println(solr_query);
 			query.setQuery(solr_query);
 			QueryResponse response = SolrErrorHandling.Query(client, query);
 			for (SolrDocument doc: response.getResults()) {
@@ -141,7 +144,7 @@ public class Process {
 		}
 	}
 	
-	private static GetReportsResponse GoogleAnalyticsRequest(String startDate, String endDate, String gaSamplingLevel) throws GeneralSecurityException, IOException {
+	private static GetReportsResponse GoogleAnalyticsRequest(Path gakey, String startDate, String endDate, String gaSamplingLevel) throws GeneralSecurityException, IOException {
 		// Create the DateRange object.
 		DateRange dateRange = new DateRange();
 		dateRange.setStartDate(startDate);
@@ -164,7 +167,7 @@ public class Process {
 				.setDimensions(Arrays.asList(sterms, startPage));
 				//.setPageSize(10000);
 	
-		europeana.utils.GoogleAnalytics ga = new GoogleAnalytics();
+		europeana.utils.GoogleAnalytics ga = new GoogleAnalytics(gakey);
 		return ga.GetRequest(request);
 	}
 	
@@ -192,18 +195,19 @@ public class Process {
 	public static void main(String[] args) throws Exception {
 		
 		System.out.println("Processing...");
-		InputStream is = Process.class.getClassLoader().getResourceAsStream("log4j.properties");
+		InputStream is = Process.class.getClassLoader().getResourceAsStream("resources/log4j.properties");
 		PropertyConfigurator.configure(is);
 		Properties prop;
-		prop = Utils.readProperties(Process.class.getClassLoader().getResourceAsStream("config.properties"));
+		prop = Utils.readProperties(Process.class.getClassLoader().getResourceAsStream("resources/config.properties"));
 		String startDate = prop.getProperty("start_date");
 		String endDate = prop.getProperty("start_date");
 		String solrClient = prop.getProperty("solr_entity");
 		Integer sampleSize = Integer.parseInt(prop.getProperty("sample_size"));
 		String gaSamplingLevel = prop.getProperty("ga_sampling");
+		Path gakey = Paths.get(prop.getProperty("gakey"));
 
 
-		GetReportsResponse gaResponse = GoogleAnalyticsRequest(startDate, endDate, gaSamplingLevel);
+		GetReportsResponse gaResponse = GoogleAnalyticsRequest(gakey, startDate, endDate, gaSamplingLevel);
 		List<Query> queries = GetQueries(gaResponse);
 		queries = Filter(queries);
 		queries = Sample(queries, sampleSize);
@@ -212,6 +216,7 @@ public class Process {
 		OutputStream file = new FileOutputStream("query_sample.csv"); 
 		Print(file, queries);
 		file.close();
+		System.out.println("Done. Created file query_sample.csv");
 	}
 	
 

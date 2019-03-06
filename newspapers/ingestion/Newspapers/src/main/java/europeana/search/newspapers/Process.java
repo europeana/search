@@ -147,8 +147,9 @@ public class Process {
 			}
 			
 			//TEST
-			System.out.println("Different items: "+buffer.GetItemsBuffered());
-			System.out.println("Different ids: "+buffer.ids.size());
+			System.out.println("Checking. Different items indexed: "+buffer.GetItemsBuffered());
+			System.out.println("Checking. Different ids indexed: "+buffer.ids.size());
+			System.out.println("Done. Note that the results may be take some time to be updated in Solr depending on the configuration");
 		} catch (InterruptedException e) {
 			logger.fatal("Thread pool error: "+ e.getMessage());
 			e.printStackTrace();

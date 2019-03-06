@@ -1,0 +1,5 @@
+2019-03-06 10:10:07 FATAL Process:239 - Fatal errornull
+2019-03-06 10:10:40 INFO  Process:121 - Processing dataset 9200396.zip
+2019-03-06 10:10:40 INFO  Process:129 - Processed dataset 9200396.zip with 1317 entries 
+2019-03-06 10:12:30 INFO  IndexFile:69 - Indexed documents file /media/mmarrero/data/test/9200396.zip - batch 1 - Total documents indexed: 1317
+2019-03-06 10:12:42 INFO  Process:145 - Indexed documents batch 1 - Total documents indexed: 1317
