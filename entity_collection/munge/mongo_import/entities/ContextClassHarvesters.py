@@ -1,4 +1,5 @@
 import os, sys
+from _sqlite3 import connect
 class LanguageValidator:
 
     # TODO: What to do with weird 'def' language tags all over the place?
@@ -115,6 +116,7 @@ class ContextClassHarvester:
         'rdaGr2ProfessionOrOccupation' :  { LABEL: 'rdagr2_professionOrOccupation' , TYPE : TYPE_STRING },
         #not used yet
         #'gender' : { 'label': 'gender' , TYPE : TYPE_STRING },
+        'rdaGr2Gender' : { LABEL: 'rdagr2_gender' , TYPE : TYPE_STRING },
         'rdaGr2BiographicalInformation' : { LABEL: 'rdagr2_biographicalInformation' , TYPE : TYPE_STRING },
         'latitude' : { LABEL: 'wgs84_pos_lat' , TYPE : TYPE_STRING },
         'longitude' : { LABEL: 'wgs84_pos_long' , TYPE : TYPE_STRING },
