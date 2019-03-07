@@ -241,6 +241,14 @@
         <!-- PLACE OF BIRTH -->
         <dynamicField name="rdagr2_placeOfBirth.*" type="string" indexed="false" stored="true" multiValued="true"/>
         
+        <!--  URIs only -->
+        <field name="placeOfBirth.uri" type="string" indexed="true" stored="true" multiValued="true"/>
+        <copyField source="rdagr2_placeOfBirth." dest="placeOfBirth.uri" />       
+        
+        <!--  only URIs -->
+        <field name="placeOfDeath.uri" type="string" indexed="true" stored="true" multiValued="true"/>
+        <copyField source="rdagr2_placeOfDeath." dest="placeOfDeath.uri" />       
+        
         <!--  alias for localized search -->    
         <dynamicField name="placeOfBirth.*" type="proper_name" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_placeOfBirth.*" dest="placeOfBirth.*" />       
@@ -248,10 +256,6 @@
         <!--  alias for general search -->    
         <field name="placeOfBirth" type="string" indexed="true" stored="false" multiValued="true" />
         <copyField source="rdagr2_placeOfBirth.*" dest="placeOfBirth" />       
-        
-        <!--  URIs only -->
-        <field name="placeOfBirth.uri" type="string" indexed="true" stored="true" multiValued="true"/>
-        <copyField source="rdagr2_placeOfBirth." dest="placeOfBirth.uri" />       
         
         <!-- PLACE OF DEATH -->
         <dynamicField name="rdagr2_placeOfDeath.*" type="string" indexed="false" stored="true" multiValued="true"/>
@@ -263,10 +267,6 @@
         <!--  alias for general search -->    
         <field name="placeOfDeath" type="string" indexed="true" stored="true" multiValued="true" />
         <copyField source="rdagr2_placeOfDeath.*" dest="placeOfDeath" />
-        
-        <!--  only URIs -->
-        <field name="placeOfDeath.uri" type="string" indexed="true" stored="true" multiValued="true"/>
-		<copyField source="rdagr2_placeOfDeath." dest="placeOfDeath.uri" />       
         
         <!-- NOT USED specs to be fixed 
         <field name="rdagr2_placeOfDeath" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -284,18 +284,19 @@
 		<!-- PROFESSION OR OCCUPATION -->
         <dynamicField name="rdagr2_professionOrOccupation.*" type="text" indexed="false"
             stored="true" multiValued="true"/>
-        <!--  alias for localized search -->
-        <dynamicField name="professionOrOccupation.*" type="text" indexed="true" stored="false" multiValued="true" />
-        <copyField source="rdagr2_professionOrOccupation.*" dest="professionOrOccupation.*" />
-        
-        <!-- alias for general search  -->
-        <dynamicField name="professionOrOccupation" type="text" indexed="true" stored="false" multiValued="true" />
-        <copyField source="rdagr2_professionOrOccupation.*" dest="professionOrOccupation" />
         
         <!-- URI only -->
         <field name="professionOrOccupation.uri" type="string" indexed="true" stored="true"
             multiValued="true"/>
         <copyField source="rdagr2_professionOrOccupation." dest="professionOrOccupation.uri" />
+        
+        <!--  alias for localized search -->
+        <dynamicField name="professionOrOccupation.*" type="text" indexed="true" stored="true" multiValued="true" />
+        <copyField source="rdagr2_professionOrOccupation.*" dest="professionOrOccupation.*" />
+        
+        <!-- alias for general search  -->
+        <field name="professionOrOccupation" type="text" indexed="true" stored="false" multiValued="true" />
+        <copyField source="rdagr2_professionOrOccupation.*" dest="professionOrOccupation" />
         
         <!-- GENDER -->
         <field name="rdagr2_gender" type="string" indexed="true" stored="true" multiValued="true"/>
