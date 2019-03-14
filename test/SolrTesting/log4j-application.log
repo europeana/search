@@ -1,0 +1,23 @@
+2019-03-10 20:43:40 INFO  Process:36 - Starting validation
+2019-03-10 20:44:28 INFO  Process:79 - Validation completed: 500 records checked
+2019-03-10 20:48:23 INFO  Process:36 - Starting validation
+2019-03-10 20:52:35 INFO  Process:79 - Validation completed: 500 records checked
+2019-03-10 20:55:40 INFO  Process:36 - Starting validation
+2019-03-11 10:16:10 INFO  Process:36 - Starting validation
+2019-03-11 10:16:59 FATAL Process:95 - Fatal errorServer refused connection at: http://solr1-metis-dr.eanadev.org:9191/solr/search_production_publish_1
+2019-03-11 10:19:27 INFO  Process:36 - Starting validation
+2019-03-11 10:20:53 INFO  Process:78 - Validation completed: 500 records checked
+2019-03-11 10:22:24 INFO  Process:36 - Starting validation
+2019-03-11 10:22:58 INFO  Process:78 - Validation completed: 50 records checked
+2019-03-11 10:32:10 INFO  Process:36 - Starting validation
+2019-03-11 10:32:25 FATAL Process:96 - Fatal errorError from server at http://solr1-metis-dr.eanadev.org:9191/solr/search_production_publish_1: no servers hosting shard: shard1
+2019-03-11 10:32:54 INFO  Process:36 - Starting validation
+2019-03-11 10:33:00 FATAL Process:96 - Fatal errorError from server at http://solr1-metis-dr.eanadev.org:9191/solr/search_production_publish_1: no servers hosting shard: shard1
+2019-03-11 10:33:19 INFO  Process:36 - Starting validation
+2019-03-11 10:33:22 FATAL Process:95 - Fatal errorError from server at http://solr1-metis-dr.eanadev.org:9191/solr/search_production_publish_1: no servers hosting shard: shard1
+2019-03-11 10:42:49 INFO  Process:36 - Starting validation
+2019-03-11 10:43:42 INFO  Process:78 - Validation completed: 50 records checked
+2019-03-11 11:11:06 INFO  Process:36 - Starting validation
+2019-03-11 11:12:40 INFO  Process:36 - Starting validation
+2019-03-11 15:40:09 INFO  Process:65 - Starting validation
+2019-03-11 16:02:43 INFO  Process:97 - Validation completed: 50000 records checked
