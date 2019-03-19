@@ -1222,12 +1222,12 @@
       <str name="f.text.qf">provider_aggregation_edm_dataProvider.* provider_aggregation_edm_intermediateProvider.* provider_aggregation_edm_provider.* proxy_dc_contributor.* proxy_dc_coverage.* proxy_dc_creator.* proxy_dc_date.* proxy_dc_description.* proxy_dc_format.* proxy_dc_language.* proxy_dc_publisher.* proxy_dc_source.* proxy_dc_subject.* proxy_dc_title.* proxy_dc_type.* proxy_dcterms_alternative.* proxy_dcterms_created.* proxy_dcterms_issued.* proxy_dcterms_medium.* proxy_dcterms_provenance.* proxy_dcterms_spatial.* proxy_dcterms_temporal.* proxy_edm_currentLocation.* proxy_edm_type ag_skos_altLabel.* ag_skos_prefLabel.* ag_foaf_name.* ts_skos_altLabel.* ts_skos_prefLabel.* pl_skos_altLabel.* pl_skos_prefLabel.* cc_skos_altLabel.* cc_skos_prefLabel.* proxy_dc_type_search.*</str>
       <!-- Predefined to fulltext only, removed: <str name="qf">text fulltext</str> -->
       <str name="qf">fulltext</str>
-      <str name="pf2">text</str>
-      <str name="pf3">fulltext</str>
+      <str name="pf">fulltext.^5 fulltext.de^5 fulltext.el^5 fulltext.en^5 fulltext.es^5 fulltext.et^5 fulltext.fi^5 fulltext.fr^5 fulltext.hr^5 fulltext.it^5 fulltext.la^5 fulltext.lv^5 fulltext.nl^5 fulltext.pl^5 fulltext.ru^5 fulltext.sr^5 fulltext.sv^5 fulltext.uk^5</str>
+      <str name="ps">1</str>
       <!-- Default fields highlight -by default it is going to work with the fields specified in qf, which are not valid for highlighting, 'text' because it is not stored, and 'fulltext' because it is a virtual field- -->
       <str name="hl.fl">fulltext.*</str>
       <str name="hl.method">unified</str>
-      <str name="hl.maxAnalizedChars">200000</str>
+      <str name="hl.maxAnalizedChars">1000000</str>
       <!-- Default fields faceting over a virtual field-->
       
       <str name="facet.range">issued</str>
