@@ -295,7 +295,7 @@ class ContextClassHarvester:
                 #remove geo:, keep just lat,long 
                 value = v.split(":")[-1]
                     
-            if(key not in ContextClassHarvester.FIELD_MAP.keys() & key != 'about'):
+            if(key not in ContextClassHarvester.FIELD_MAP.keys() and key != 'about'):
                 self.log_warm_message(entity_id, "unmapped field: " + key)
                 continue
         
