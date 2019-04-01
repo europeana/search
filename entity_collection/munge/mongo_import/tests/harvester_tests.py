@@ -44,10 +44,17 @@ class HarvesterTest(unittest.TestCase):
         #bnf
         #entity_id = "http://data.europeana.eu/organization/1482250000002112001"
         #sofia japanese band 
-        entity_id = "http://data.europeana.eu/agent/base/6376"
+        #entity_id = "http://data.europeana.eu/agent/base/6376"
+        #Centraal Museum 
+        entity_id = "http://data.europeana.eu/organization/1482250000004500796"
         #government of catalunia
         #entity_id = "http://data.europeana.eu/organization/1482250000004503580"
         ieb = entities.ContextClassHarvesters.IndividualEntityBuilder()
         ieb.build_individual_entity(entity_id)
-      
+    
+    def test_OrganizationHarvester(self):
+        ol = entities.ContextClassHarvesters.OrganizationHarvester()
+        entity_list = ol.build_entity_chunk(0)
+        print("First chunk: 0" + len(entity_list))
+          
         
