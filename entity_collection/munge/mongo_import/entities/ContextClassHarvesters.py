@@ -180,7 +180,7 @@ class ContextClassHarvester:
 
     # TODO: add address processing
 
-    def __init__(self, name, entity_class):
+    def __init__(self, name):
         
         sys.path.append(os.path.join(os.path.dirname(__file__)))
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
@@ -191,7 +191,8 @@ class ContextClassHarvester:
         import HarvesterConfig
         
         self.config = HarvesterConfig.HarvesterConfig()
-        self.mongo_entity_class = entity_class
+        #TODO: check if entity_class is still needed
+        #self.mongo_entity_class = entity_class
         self.name = name
         self.client = MongoClient(self.get_mongo_host(), self.get_mongo_port())
         self.ranking_model = self.config.get_relevance_ranking_model()
@@ -457,17 +458,21 @@ class ContextClassHarvester:
 class ConceptHarvester(ContextClassHarvester):
 
     def __init__(self):
-        ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
+        # TODO check if 'eu.europeana.corelib.solr.entity.ConceptImpl' is correct and needed (see entityType column in the database)
+        #ContextClassHarvester.__init__(self, 'concepts', 'eu.europeana.corelib.solr.entity.ConceptImpl')
+        ContextClassHarvester.__init__(self, 'concepts')
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         from ranking_metrics import RelevanceCounter
         self.relevance_counter = RelevanceCounter.ConceptRelevanceCounter()
 
     def get_entity_count(self):
-        concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )
-        return len(concepts)
+        #concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )
+        concept_count = self.client.annocultor_db.TermList.find({'entityType': 'ConceptImpl'}).count()
+        return concept_count
 
     def build_entity_chunk(self, start):
-        concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )[start:start + ContextClassHarvester.CHUNK_SIZE]
+        #concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )[start:start + ContextClassHarvester.CHUNK_SIZE]
+        concepts = self.client.annocultor_db.TermList.distinct( 'codeUri', {'entityType': 'ConceptImpl'} )[start:start + ContextClassHarvester.CHUNK_SIZE]
         concepts_chunk = {}
         for concept in concepts:
             concepts_chunk[concept] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : concept })
@@ -487,15 +492,22 @@ class AgentHarvester(ContextClassHarvester):
     def __init__(self):
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
-        ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
+        # TODO check if 'eu.europeana.corelib.solr.entity.AgentImpl' is correct and needed (see entityType column in the database)
+        #ContextClassHarvester.__init__(self, 'agents', 'eu.europeana.corelib.solr.entity.AgentImpl')
+        ContextClassHarvester.__init__(self, 'agents')
         self.relevance_counter = RelevanceCounter.AgentRelevanceCounter()
 
     def get_entity_count(self):
-        agents = self.client.annocultor_db.people.distinct( 'codeUri' )
-        return len(agents)
+        #agents = self.client.annocultor_db.people.distinct( 'codeUri' )
+        # TODO: refactor to generic implementation
+        agent_count = self.client.annocultor_db.TermList.find({'entityType': 'AgentImpl'}).count()
+        return agent_count
 
     def build_entity_chunk(self, start):
-        agents = self.client.annocultor_db.people.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        #agents = self.client.annocultor_db.people.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        # TODO: refactor to generic implementation
+        agents = self.client.annocultor_db.TermList.distinct( 'codeUri', {'entityType': 'AgentImpl'} )[start:start + ContextClassHarvester.CHUNK_SIZE]
+        
         agents_chunk = {}
         for agent in agents:
             agents_chunk[agent] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : agent })
@@ -525,16 +537,21 @@ class PlaceHarvester(ContextClassHarvester):
     def __init__(self):
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
-        ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
+        #TODO: check if 'eu.europeana.corelib.solr.entity.PlaceImpl' still needed/used
+        #ContextClassHarvester.__init__(self, 'places', 'eu.europeana.corelib.solr.entity.PlaceImpl')
+        ContextClassHarvester.__init__(self, 'places')
         self.relevance_counter = RelevanceCounter.PlaceRelevanceCounter()
 
     def get_entity_count(self):
-        place_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/place/).*$' }} )
-        return len(place_list)
+        #place_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/place/).*$' }} )
+        place_count = self.client.annocultor_db.TermList.find( {"entityType": "ConceptImpl"} ).count()
+        return place_count
 
     def build_entity_chunk(self, start):
         #TODO rename variables, places-> entity
-        places = self.client.annocultor_db.place.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        #places = self.client.annocultor_db.place.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        places = self.client.annocultor_db.TermList.distinct( 'codeUri', {"entityType": "PlaceImpl"} )[start:start + ContextClassHarvester.CHUNK_SIZE]
+        
         places_chunk = {}
         for place in places:
             places_chunk[place] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : place })
@@ -553,7 +570,9 @@ class OrganizationHarvester(ContextClassHarvester):
     def __init__(self):
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         import RelevanceCounter
-        ContextClassHarvester.__init__(self, 'organizations', 'eu.europeana.corelib.solr.entity.OrganizationImpl')
+        #TODO: check if 'eu.europeana.corelib.solr.entity.OrganizationImpl' still needed/used
+        #ContextClassHarvester.__init__(self, 'organizations', 'eu.europeana.corelib.solr.entity.OrganizationImpl')
+        ContextClassHarvester.__init__(self, 'organizations')
         self.relevance_counter = RelevanceCounter.OrganizationRelevanceCounter()
 
     def get_mongo_host (self):
@@ -566,12 +585,13 @@ class OrganizationHarvester(ContextClassHarvester):
         return True
     
     def get_entity_count(self):
-        org_list = self.client.annocultor_db.TermList.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/organization/).*$' }} )
-        print("importing organizations: " + str(len(org_list)))
-        return len(org_list)
+        org_count = self.client.annocultor_db.TermList.find( {'entityType': 'OrganizationImpl'} ).count()
+        print("importing organizations: " + str(org_count))
+        return org_count
 
     def build_entity_chunk(self, start):
-        orgs = self.client.annocultor_db.organization.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        #orgs = self.client.annocultor_db.organization.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
+        orgs = self.client.annocultor_db.TermList.find( {'entityType': 'OrganizationImpl'}, {'codeUri':1, '_id': 0})[start:start + ContextClassHarvester.CHUNK_SIZE]
         orgs_chunk = {}
         for org in orgs:
             orgs_chunk[org] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : org })
