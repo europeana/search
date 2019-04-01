@@ -471,7 +471,7 @@ class ConceptHarvester(ContextClassHarvester):
 
     def build_entity_chunk(self, start):
         #concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )[start:start + ContextClassHarvester.CHUNK_SIZE]
-        concepts = self.client.annocultor_db.TermList.distinct( 'codeUri', {'entityType': 'ConceptImpl'} )[start:start + ContextClassHarvester.CHUNK_SIZE]
+        concepts = self.client.annocultor_db.TermList.find( {'entityType': 'ConceptImpl'}, {'codeUri':1, '_id': 0})[start:start + ContextClassHarvester.CHUNK_SIZE]
         concepts_chunk = {}
         for concept in concepts:
             concept_id = concept['codeUri']
@@ -506,7 +506,7 @@ class AgentHarvester(ContextClassHarvester):
     def build_entity_chunk(self, start):
         #agents = self.client.annocultor_db.people.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
         # TODO: refactor to generic implementation
-        agents = self.client.annocultor_db.TermList.distinct( 'codeUri', {'entityType': 'AgentImpl'} )[start:start + ContextClassHarvester.CHUNK_SIZE]
+        agents = self.client.annocultor_db.TermList.find( {'entityType': 'AgentImpl'}, {'codeUri':1, '_id': 0})[start:start + ContextClassHarvester.CHUNK_SIZE]
         
         agents_chunk = {}
         for agent in agents:
@@ -551,7 +551,7 @@ class PlaceHarvester(ContextClassHarvester):
     def build_entity_chunk(self, start):
         #TODO rename variables, places-> entity
         #places = self.client.annocultor_db.place.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
-        places = self.client.annocultor_db.TermList.distinct( 'codeUri', {"entityType": "PlaceImpl"} )[start:start + ContextClassHarvester.CHUNK_SIZE]
+        places = self.client.annocultor_db.TermList.find( {'entityType': 'PlaceImpl'}, {'codeUri':1, '_id': 0})[start:start + ContextClassHarvester.CHUNK_SIZE]
         
         places_chunk = {}
         for place in places:
