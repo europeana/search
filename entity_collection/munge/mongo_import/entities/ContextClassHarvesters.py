@@ -181,7 +181,6 @@ class ContextClassHarvester:
     # TODO: add address processing
 
     def __init__(self, name):
-        
         sys.path.append(os.path.join(os.path.dirname(__file__)))
         sys.path.append(os.path.join(os.path.dirname(__file__), 'ranking_metrics'))
         sys.path.append(os.path.join(os.path.dirname(__file__), 'preview_builder'))
@@ -467,15 +466,16 @@ class ConceptHarvester(ContextClassHarvester):
 
     def get_entity_count(self):
         #concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )
-        concept_count = self.client.annocultor_db.TermList.find({'entityType': 'ConceptImpl'}).count()
-        return concept_count
+        concepts = self.client.annocultor_db.TermList.find({'entityType': 'ConceptImpl'}).count()
+        return concepts
 
     def build_entity_chunk(self, start):
         #concepts = self.client.annocultor_db.concept.distinct( 'codeUri', { 'codeUri': {'$regex': '^(http://data\.europeana\.eu/concept/base).*$' }} )[start:start + ContextClassHarvester.CHUNK_SIZE]
         concepts = self.client.annocultor_db.TermList.distinct( 'codeUri', {'entityType': 'ConceptImpl'} )[start:start + ContextClassHarvester.CHUNK_SIZE]
         concepts_chunk = {}
         for concept in concepts:
-            concepts_chunk[concept] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : concept })
+            concept_id = concept['codeUri']
+            concepts_chunk[concept_id] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : concept_id })
         return concepts_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
@@ -500,8 +500,8 @@ class AgentHarvester(ContextClassHarvester):
     def get_entity_count(self):
         #agents = self.client.annocultor_db.people.distinct( 'codeUri' )
         # TODO: refactor to generic implementation
-        agent_count = self.client.annocultor_db.TermList.find({'entityType': 'AgentImpl'}).count()
-        return agent_count
+        agents = self.client.annocultor_db.TermList.find({'entityType': 'AgentImpl'}).count()
+        return agents
 
     def build_entity_chunk(self, start):
         #agents = self.client.annocultor_db.people.distinct('codeUri')[start:start + ContextClassHarvester.CHUNK_SIZE]
@@ -510,7 +510,8 @@ class AgentHarvester(ContextClassHarvester):
         
         agents_chunk = {}
         for agent in agents:
-            agents_chunk[agent] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : agent })
+            agent_id = agent['codeUri']
+            agents_chunk[agent_id] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : agent_id })
         return agents_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
@@ -554,7 +555,8 @@ class PlaceHarvester(ContextClassHarvester):
         
         places_chunk = {}
         for place in places:
-            places_chunk[place] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : place })
+            place_id = place['codeUri']
+            places_chunk[place] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : place_id })
         return places_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
@@ -594,7 +596,8 @@ class OrganizationHarvester(ContextClassHarvester):
         orgs = self.client.annocultor_db.TermList.find( {'entityType': 'OrganizationImpl'}, {'codeUri':1, '_id': 0})[start:start + ContextClassHarvester.CHUNK_SIZE]
         orgs_chunk = {}
         for org in orgs:
-            orgs_chunk[org] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : org })
+            org_id = org['codeUri']
+            orgs_chunk[org_id] = self.client.annocultor_db.TermList.find_one({ 'codeUri' : org_id })
         return orgs_chunk
 
     def build_entity_doc(self, docroot, entity_id, entity_rows):
