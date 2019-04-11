@@ -382,6 +382,9 @@
 		<!-- dc: description not currently in the profile -->
         <dynamicField name="dc_description.*" type="string" indexed="false" stored="true"/>
         
+        <!-- ConceptScheme fields -->
+        <dynamicField name="skos_definition.*" type="string" indexed="false" stored="true" multiValued="true"/>
+        
     </fields>
     <uniqueKey>id</uniqueKey>
     <!-- COPYFIELDS -->
