@@ -57,13 +57,16 @@
     <fields>
         <!-- required field -->
         <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
+        <!-- administrative information  -->
+        <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+        <field name="created" type="date" indexed="true" stored="true" multiValued="false"/>
+        <field name="created" type="modified" indexed="true" stored="true" multiValued="false"/>
+        
         <!-- unique key -->
         <!-- Deprecated replace by entity_uri--> 
         <field name="id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
         <field name="entity_uri" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
         <copyField source="id" dest="entity_uri"/>
-        
-        <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
         
         <!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
         <!-- about to be deprecated ... should be fully replaced by type field, for backward compatibility is currently copied to type field-->
