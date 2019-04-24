@@ -60,7 +60,7 @@
         <!-- administrative information  -->
         <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
         <field name="created" type="date" indexed="true" stored="true" multiValued="false"/>
-        <field name="created" type="modified" indexed="true" stored="true" multiValued="false"/>
+        <field name="modified" type="date" indexed="true" stored="true" multiValued="false"/>
         
         <!-- unique key -->
         <!-- Deprecated replace by entity_uri--> 
