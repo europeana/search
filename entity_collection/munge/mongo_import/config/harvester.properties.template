@@ -15,5 +15,5 @@ organizations.harvester.mongo.port = -1
 
 #RelevanceCounter configs
 #harvester.relevance.solr.uri = http://localhost:9191/solr/search/search?wt=json&rows=0
-harvester.relevance.solr.core.uri = http://localhost:9191/solr/search_production_publish_1
+harvester.relevance.solr.core.uri = http://localhost:9191/solr/search_production_publish_1/select?indent=on&wt=json
 harvester.relevance.ranking.model = normalized

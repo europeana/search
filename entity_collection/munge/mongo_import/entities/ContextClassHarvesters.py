@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, datetime
 from _sqlite3 import connect
 class LanguageValidator:
 
@@ -307,6 +307,13 @@ class ContextClassHarvester:
         #if(len(address_components) > 0):
         #    self.add_field(docroot, "vcard_fulladdresskey...", ",".join(address_components))
 
+    def process_created_modified_timestamps(self, docroot, entity_rows):
+        # Solr time format YYYY-MM-DDThh:mm:ssZ
+        if "created" in entity_rows:
+            self.add_field(docroot, 'created', entity_rows["created"].isoformat()+"Z")
+        if "modified" in entity_rows:
+            self.add_field(docroot, "modified", entity_rows["modified"].isoformat()+"Z")
+    
     def process_representation(self, docroot, entity_id, entity_rows):
         # TODO: Refactor to shrink this method
         import json
@@ -485,6 +492,7 @@ class ConceptHarvester(ContextClassHarvester):
         uri = entity_rows['codeUri']
         self.add_field(doc, 'id', uri)
         self.add_field(doc, 'internal_type', 'Concept')
+        self.process_created_modified_timestamps(doc, entity_rows)
         self.process_representation(doc, uri, entity_rows)
 
 class AgentHarvester(ContextClassHarvester):
@@ -523,6 +531,7 @@ class AgentHarvester(ContextClassHarvester):
         doc = ET.SubElement(docroot, 'doc')
         self.add_field(doc, 'id', entity_id)
         self.add_field(doc, 'internal_type', 'Agent')
+        self.process_created_modified_timestamps(doc, entity_rows)
         self.process_representation(doc, entity_id, entity_rows)
 
     def log_missing_entry(self, entity_id):
@@ -565,6 +574,7 @@ class PlaceHarvester(ContextClassHarvester):
         doc = ET.SubElement(docroot, 'doc')
         self.add_field(doc, 'id', entity_id)
         self.add_field(doc, 'internal_type', 'Place')
+        self.process_created_modified_timestamps(doc, entity_rows)
         self.process_representation(doc, entity_id, entity_rows)
 
 class OrganizationHarvester(ContextClassHarvester):
@@ -606,6 +616,7 @@ class OrganizationHarvester(ContextClassHarvester):
         doc = ET.SubElement(docroot, 'doc')
         self.add_field(doc, 'id', entity_id)
         self.add_field(doc, 'internal_type', 'Organization')
+        self.process_created_modified_timestamps(doc, entity_rows)
         self.process_representation(doc, entity_id, entity_rows)
 
 
