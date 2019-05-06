@@ -530,7 +530,7 @@
 
 		<!-- ConceptScheme fields -->
 		<dynamicField name="skos_definition.*" type="string"
-			indexed="false" stored="true" multiValued="true" />
+			indexed="false" stored="true" multiValued="false" />
 
 		<!-- COPYFIELDS -->
 		<!-- note that many 'copyfields' are populated artificially during the 

@@ -386,7 +386,7 @@
         <dynamicField name="dc_description.*" type="string" indexed="false" stored="true"/>
         
         <!-- ConceptScheme fields -->
-        <dynamicField name="skos_definition.*" type="string" indexed="false" stored="true" multiValued="true"/>
+        <dynamicField name="skos_definition.*" type="string" indexed="false" stored="true" multiValued="false"/>
         
     </fields>
     <uniqueKey>id</uniqueKey>
