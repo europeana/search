@@ -519,11 +519,7 @@
 			.1 for consistency -->
 		<field name="vcard_hasGeo.1" type="location" indexed="true"
 			stored="true" multiValued="false" />
-		<!-- DEPRECATED dynamic field type matching the suffix to store the data 
-			points, type tdouble not defined -->
-		<dynamicField name="*_coordinate" type="double"
-			indexed="true" stored="false" />
-
+		
 		<!-- dc: description not currently in the profile -->
 		<dynamicField name="dc_description.*" type="string"
 			indexed="false" stored="true" />
