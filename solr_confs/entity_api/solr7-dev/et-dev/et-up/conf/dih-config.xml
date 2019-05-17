@@ -6,7 +6,7 @@
             and passes them to other entities which parse the file contents. 
         -->
         <entity name="pickupdir" processor="FileListEntityProcessor" rootEntity="false"
-            dataSource="null" fileName="^[\w\d-]+\.xml$" baseDir="/opt/solr/data/import/autocomplete_cloud/"
+            dataSource="null" fileName="^[\w\d-]+\.xml$" baseDir="${solr.solr.home}/import/autocomplete_cloud/"
             recursive="false">
             <!--
             Pickupxmlfile parses standard Solr update XML.
