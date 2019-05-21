@@ -110,14 +110,14 @@
 		<field name="id" type="string" indexed="true" required="true"
 			multiValued="false" stored="true" />
 		<field name="entity_uri" type="string" indexed="true"
-			required="true" multiValued="false" stored="true" />
+			multiValued="false" stored="true" />
 		<copyField source="id" dest="entity_uri" />
 
 		<!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
 		<!-- about to be deprecated ... should be fully replaced by type field, 
 			for backward compatibility is currently copied to type field -->
 		<field name="internal_type" type="string" indexed="true"
-			stored="true" multiValued="false" required="true" />
+			stored="true" multiValued="false"/>
 		<!-- use this shortly ... -->
 		<field name="type" type="string" indexed="true" stored="true"
 			multiValued="false" required="false" />
