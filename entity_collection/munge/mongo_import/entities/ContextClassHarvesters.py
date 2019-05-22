@@ -293,13 +293,13 @@ class ContextClassHarvester:
                 key = "address_" + k
             elif ("vcardHasGeo" == k):
                 #remove geo:, keep just lat,long 
-                value = v.split(":")[-1]
-                    
-            if(key not in ContextClassHarvester.FIELD_MAP.keys() and key != 'about'):
+                value = v.split(":")[-1]        
+            elif(key not in ContextClassHarvester.FIELD_MAP.keys()):
                 self.log_warm_message(entity_id, "unmapped field: " + key)
                 continue
         
             field_name = ContextClassHarvester.FIELD_MAP[key][self.LABEL]
+            #first address has suffix .1 
             field_name = field_name + ".1"
             self.add_field(docroot, field_name, value)
             #address_components.append(v)
@@ -323,8 +323,9 @@ class ContextClassHarvester:
             if(characteristic == "address"):
                 self.process_address(docroot, entity_id, entity_rows[self.REPRESENTATION]['address']['AddressImpl'])
             elif str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
-                # TODO: log this?
-                print("unmapped property: " + str(characteristic))
+                # TODO: log unmaped properties
+                if(characteristic != "about"):
+                    print("unmapped property: " + str(characteristic))
                 continue
             # TODO: Refactor horrible conditional
             elif(str(characteristic) == "dcIdentifier"):
