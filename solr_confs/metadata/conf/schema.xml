@@ -13,6 +13,7 @@
         <fieldType name="tlong" class="solr.TrieLongField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="date" class="solr.TrieDateField" omitNorms="true" precisionStep="0" positionIncrementGap="0"/>
+        <fieldType name="random" class="solr.RandomSortField"/>
         <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
             <analyzer type="index">
                 <tokenizer class="solr.WhitespaceTokenizerFactory"/>
@@ -76,6 +77,8 @@
         <field name="subject" type="text_general" indexed="true" stored="true" multiValued="true" termVectors="true"/>
         <field name="provider_aggregation_edm_dataProvider" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="provider_aggregation_edm_dataProvider.*" type="string" indexed="true" stored="true" multiValued="true"/>
+        <!-- EA1660 SG: edm:preview field -->	
+		<field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_hasView" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_isShownBy" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_isShownAt" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -185,8 +188,11 @@
         <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
         <field name="svcs_service" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="sv_dcterms_conformsTo" type="string" indexed="true" stored="true" multiValued="true"/>
-	<dynamicField name="timestamp_*" type="date" indexed="true" stored="true"
+		<dynamicField name="timestamp_*" type="date" indexed="true" stored="true"
 			multiValued="false"/>
+		<!-- EA1660 SG: field for random search  -->	
+		<dynamicField name="random_*" type="random" />	
+        
         <!--Fields previously undeclared in schema-->
         <field name="wr_svcs_hasservice" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="wr_svcs_hasservice.*" type="string" indexed="true" stored="true" multiValued="true"/>
