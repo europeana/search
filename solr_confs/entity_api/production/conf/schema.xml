@@ -14,7 +14,7 @@
             positionIncrementGap="0"/>
         <!-- DEPRECATED to be changed to solr.LatLonPointSpatialField in solr 6.6 -->    
         <fieldType name="location" class="solr.LatLonType" subFieldSuffix="_coordinate"/>    
-
+        
         <fieldType name="suggestType" class="solr.TextField" positionIncrementGap="100" termVectors="true" termPositions="true" termOffsets="true" storeOffsetsWithPositions="true">
             <analyzer>
                 <charFilter class="solr.PatternReplaceCharFilterFactory"
@@ -57,13 +57,16 @@
     <fields>
         <!-- required field -->
         <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
+        <!-- administrative information  -->
+        <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
+        <field name="created" type="date" indexed="true" stored="true" multiValued="false"/>
+        <field name="modified" type="date" indexed="true" stored="true" multiValued="false"/>
+        
         <!-- unique key -->
         <!-- Deprecated replace by entity_uri--> 
         <field name="id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
         <field name="entity_uri" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
         <copyField source="id" dest="entity_uri"/>
-        
-        <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
         
         <!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
         <!-- about to be deprecated ... should be fully replaced by type field, for backward compatibility is currently copied to type field-->
@@ -89,6 +92,7 @@
 		<!-- entity fields -->
         <!--  suggester field populated by import scripts-->
         <field name="skos_prefLabel" type="proper_name" indexed="true" stored="true" multiValued="false"/>   
+        
         <dynamicField name="skos_prefLabel.*" type="string" indexed="false" stored="true" multiValued="false"/>   
         <dynamicField name="skos_altLabel.*" type="string" indexed="false" stored="true" multiValued="true"/>
         <dynamicField name="skos_hiddenLabel.*" type="string" indexed="false" stored="true" multiValued="true"/>
@@ -168,12 +172,13 @@
         <copyField source="dc_identifier" dest="identifier" />
 
         <!-- not available yet -->
-		<!--
+        <!-- 
 		<field name="foaf_name" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="foaf_name.*" type="proper_name" indexed="true" stored="true"
             multiValued="true"/>
         <copyField source="foaf_name.*" dest="foaf_name"/>
-		-->
+         -->
+		
         
         <!-- some Agent-related date fields. Check datatyping -->
         <!--  BEGIN RELATED FIELDS -->
@@ -198,7 +203,7 @@
         <copyField source="rdagr2_dateOfBirth.*" dest="begin" />
         <copyField source="rdagr2_dateOfEstablishment.*" dest="begin" />
         
-        
+                
         <!--  END RELATED FIELDS -->
         <field name="edm_end" type="string" indexed="false" stored="true" multiValued="true"/>
         <dynamicField name="rdagr2_dateOfDeath.*" type="string" indexed="false" stored="true"
@@ -213,7 +218,7 @@
         <copyField source="rdagr2_dateOfTermination.*" dest="rdagr2_dateOfTermination"/>
         
 		<!--  END FIELD -->
-		<!-- search field -->
+        <!-- search field -->
         <field name="end" type="string" indexed="true" stored="false" multiValued="true" />
         <copyField source="edm_end" dest="end" />
         <copyField source="rdagr2_dateOfTermination.*" dest="end" />
@@ -269,7 +274,7 @@
         <!-- NOT USED specs to be fixed 
         <field name="rdagr2_placeOfDeath" type="string" indexed="true" stored="true" multiValued="true"/>
          -->
-        
+		
 		<!--  HAS MET -->
 		<field name="edm_hasMet" type="string" indexed="false" stored="true" multiValued="true" />
         <field name="hasMet" type="string" indexed="true" stored="true" multiValued="true" />
@@ -283,7 +288,7 @@
         <dynamicField name="rdagr2_professionOrOccupation.*" type="text" indexed="false"
             stored="true" multiValued="true"/>
         
-		<!-- URI only -->
+        <!-- URI only -->
         <field name="professionOrOccupation.uri" type="string" indexed="true" stored="true"
             multiValued="true"/>
         <copyField source="rdagr2_professionOrOccupation." dest="professionOrOccupation.uri" />
@@ -301,6 +306,7 @@
         <!-- TODO alias -->
         <field name="gender" type="string" indexed="true" stored="true" multiValued="true"/>
         <copyField source="rdagr2_gender" dest="gender" />
+        
         <dynamicField name="rdagr2_biographicalInformation.*" type="string" indexed="false" stored="true" multiValued="true"/>
         
         <!-- Place-related fields -->
@@ -376,8 +382,11 @@
         <!-- DEPRECATED dynamic field type matching the suffix to store the data points, type tdouble not defined -->
         <dynamicField name="*_coordinate"  type="double" indexed="true"  stored="false"/>
         
-        <!-- dc: description not currently in the profile -->
+		<!-- dc: description not currently in the profile -->
         <dynamicField name="dc_description.*" type="string" indexed="false" stored="true"/>
+        
+        <!-- ConceptScheme fields -->
+        <dynamicField name="skos_definition.*" type="string" indexed="false" stored="true" multiValued="false"/>
         
     </fields>
     <uniqueKey>id</uniqueKey>
@@ -413,5 +422,5 @@
     <copyField source="europeanaRole.*" dest="text" />
     <copyField source="organizationDomain.*" dest="text" />
     <copyField source="geographicLevel.*" dest="text" />
-    
+	
 </schema>
