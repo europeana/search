@@ -104,8 +104,6 @@
 			</analyzer>
 		</fieldType>
 
-
-
 		<fieldType name="title" class="solr.TextField"
 			positionIncrementGap="100">
 			<analyzer>
@@ -117,6 +115,10 @@
 				<filter class="solr.RemoveDuplicatesTokenFilterFactory" />
 			</analyzer>
 		</fieldType>
+		
+		<!--  ENUMERATIONS -->
+        <fieldType name="contentTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
+		<fieldType name="metadataTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="metadata_tier"    /> 
 	</types>
 
 
@@ -135,7 +137,10 @@
                 <field name="timestamp" type="date" indexed="true" stored="true"
 			default="NOW" multiValued="false" />
                 
-                
+        <!-- EPF tiers -->
+        <field name="contentTier" type="contentTier" indexed="true" stored="true" multiValued="false"/>
+		<field name="metadataTier" type="metadataTier" indexed="true" stored="true" multiValued="false"/>
+		        
                 <!-- Spell fields-->
               
                 <field name="spell" type="textSpell" indexed="true" stored="true"
@@ -260,6 +265,9 @@
                 <!-- EUROPEANA AGGREGATION -->
 		<field name="edm_europeana_aggregation" type="string" indexed="true"
 			stored="true" multiValued="false" />
+		<!-- EA1660 SG: edm:preview field -->	
+		<field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="true"/>
+		
 		<dynamicField name="europeana_aggregation_*" type="string"
 			indexed="true" stored="false" multiValued="true" />
                 <field name="europeana_aggregation_edm_aggregatedCHO" type="string"
@@ -702,7 +710,9 @@
 		
 		<!-- Yorgos Mamakis 12/11/2013  -->
 		<dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false"/>
-		<!-- SERVICE FIELDS-->
+		<!-- EA1660 SG: random search field -->
+		<dynamicField name="random_*" type="random" />	
+        <!-- SERVICE FIELDS-->
 		<field name="svcs_service" type="string"
                         indexed="true" stored="true" multiValued="true" />
 		<field name="sv_dcterms_conformsTo" type="string"
