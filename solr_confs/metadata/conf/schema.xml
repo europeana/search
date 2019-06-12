@@ -45,7 +45,7 @@
         </fieldType>
         <!--  ENUMERATIONS -->
         <fieldType name="contentTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
-		<fieldType name="metadataTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="metadata_tier"    /> 
+        <fieldType name="metadataTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="metadata_tier"/> 
     </types>
     <fields>
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false"/>
@@ -80,8 +80,8 @@
         <field name="subject" type="text_general" indexed="true" stored="true" multiValued="true" termVectors="true"/>
         <field name="provider_aggregation_edm_dataProvider" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="provider_aggregation_edm_dataProvider.*" type="string" indexed="true" stored="true" multiValued="true"/>
-        <!-- EA1660 SG: edm:preview field -->	
-		<field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="true"/>
+        <!-- EA1660 SG: edm:preview field -->
+        <field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_hasView" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_isShownBy" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_isShownAt" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -191,13 +191,11 @@
         <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
         <field name="svcs_service" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="sv_dcterms_conformsTo" type="string" indexed="true" stored="true" multiValued="true"/>
-		<!-- EA1660 SG: fields for EPF tiers and random search  -->
-		<field name="metadataTier" type="metadataTier" indexed="true" stored="true" multiValued="false"/>
-		<field name="contentTier" type="contentTier" indexed="true" stored="true" multiValued="false"/>
-		<dynamicField name="random_*" type="random" />	
-        
-	<dynamicField name="timestamp_*" type="date" indexed="true" stored="true"
-			multiValued="false"/>
+        <!-- EA1660 SG: fields for EPF tiers and random search  -->
+        <field name="metadataTier" type="metadataTier" indexed="true" stored="true" multiValued="false"/>
+        <field name="contentTier" type="contentTier" indexed="true" stored="true" multiValued="false"/>
+        <dynamicField name="random_*" type="random" />
+        <dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false"/>
         <!--Fields previously undeclared in schema-->
         <field name="wr_svcs_hasservice" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="wr_svcs_hasservice.*" type="string" indexed="true" stored="true" multiValued="true"/>
