@@ -265,9 +265,6 @@
                 <!-- EUROPEANA AGGREGATION -->
 		<field name="edm_europeana_aggregation" type="string" indexed="true"
 			stored="true" multiValued="false" />
-		<!-- EA1660 SG: edm:preview field -->	
-		<field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="true"/>
-		
 		<dynamicField name="europeana_aggregation_*" type="string"
 			indexed="true" stored="false" multiValued="true" />
                 <field name="europeana_aggregation_edm_aggregatedCHO" type="string"
