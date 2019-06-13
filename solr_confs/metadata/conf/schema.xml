@@ -81,7 +81,7 @@
         <field name="provider_aggregation_edm_dataProvider" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="provider_aggregation_edm_dataProvider.*" type="string" indexed="true" stored="true" multiValued="true"/>
         <!-- EA1660 SG: edm:preview field -->
-        <field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="true"/>
+        <field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="false"/>
         <field name="provider_aggregation_edm_hasView" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_isShownBy" type="string" indexed="true" stored="true" multiValued="true"/>
         <field name="provider_aggregation_edm_isShownAt" type="string" indexed="true" stored="true" multiValued="true"/>
