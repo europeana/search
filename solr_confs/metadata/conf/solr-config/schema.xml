@@ -28,7 +28,8 @@
 			precisionStep="8" omitNorms="true" positionIncrementGap="0" />
 		<fieldType name="date" class="solr.TrieDateField" omitNorms="true"
 			precisionStep="0" positionIncrementGap="0" />
-		<fieldType name="text" class="solr.TextField"
+		<fieldType name="random" class="solr.RandomSortField"/>
+        <fieldType name="text" class="solr.TextField"
 			positionIncrementGap="100">
 			<analyzer type="index">
 				<tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -104,8 +105,6 @@
 			</analyzer>
 		</fieldType>
 
-
-
 		<fieldType name="title" class="solr.TextField"
 			positionIncrementGap="100">
 			<analyzer>
@@ -117,6 +116,10 @@
 				<filter class="solr.RemoveDuplicatesTokenFilterFactory" />
 			</analyzer>
 		</fieldType>
+		
+		<!--  ENUMERATIONS -->
+        <fieldType name="contentTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
+		<fieldType name="metadataTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="metadata_tier"    /> 
 	</types>
 
 
@@ -135,7 +138,10 @@
                 <field name="timestamp" type="date" indexed="true" stored="true"
 			default="NOW" multiValued="false" />
                 
-                
+        <!-- EPF tiers -->
+        <field name="contentTier" type="contentTier" indexed="true" stored="true" multiValued="false"/>
+		<field name="metadataTier" type="metadataTier" indexed="true" stored="true" multiValued="false"/>
+		        
                 <!-- Spell fields-->
               
                 <field name="spell" type="textSpell" indexed="true" stored="true"
@@ -232,7 +238,9 @@
 			type="string" indexed="true" stored="true" multiValued="true" />
 		<field name="provider_aggregation_edm_hasView" type="string"
 			indexed="true" stored="true" multiValued="true" />
-		<field name="provider_aggregation_edm_isShownBy" type="string"
+		<!-- EA1660 SG: edm:preview field -->
+        <field name="europeana_aggregation_edm_preview" type="string" indexed="false" stored="true" multiValued="false"/>
+        <field name="provider_aggregation_edm_isShownBy" type="string"
 			indexed="true" stored="true" multiValued="true" />
 		<field name="provider_aggregation_edm_isShownAt" type="string"
 			indexed="true" stored="true" multiValued="true" />
@@ -702,7 +710,9 @@
 		
 		<!-- Yorgos Mamakis 12/11/2013  -->
 		<dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false"/>
-		<!-- SERVICE FIELDS-->
+		<!-- EA1660 SG: random search field -->
+		<dynamicField name="random_*" type="random" />	
+        <!-- SERVICE FIELDS-->
 		<field name="svcs_service" type="string"
                         indexed="true" stored="true" multiValued="true" />
 		<field name="sv_dcterms_conformsTo" type="string"
