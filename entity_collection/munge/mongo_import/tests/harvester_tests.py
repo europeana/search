@@ -49,6 +49,9 @@ class HarvesterTest(unittest.TestCase):
         entity_id = "http://data.europeana.eu/organization/1482250000004500796"
         #government of catalunia
         #entity_id = "http://data.europeana.eu/organization/1482250000004503580"
+        #NISV
+        #http://data.europeana.eu/organization/1482250000000338645
+        
         ieb = entities.ContextClassHarvesters.IndividualEntityBuilder()
         ieb.build_individual_entity(entity_id)
     
