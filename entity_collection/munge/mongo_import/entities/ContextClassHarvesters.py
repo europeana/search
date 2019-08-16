@@ -165,7 +165,7 @@ class ContextClassHarvester:
         'vcardPostalCode' : { LABEL : 'vcard_postalCode', TYPE : TYPE_STRING},
         'vcardCountryName' : { LABEL : 'vcard_countryName', TYPE : TYPE_STRING },
         'vcardPostOfficeBox' : { LABEL : 'vcard_postOfficeBox', TYPE : TYPE_STRING},
-        'vcardHasGeo' : { LABEL : 'vcard_hasGeo', TYPE : TYPE_STRING}
+        'vcardHasGeo' : { LABEL : 'hasGeo', TYPE : TYPE_STRING}
         
     }
 
@@ -294,13 +294,14 @@ class ContextClassHarvester:
             elif ("vcardHasGeo" == k):
                 #remove geo:, keep just lat,long 
                 value = v.split(":")[-1]        
-            elif(key not in ContextClassHarvester.FIELD_MAP.keys()):
+                    
+            if(key not in ContextClassHarvester.FIELD_MAP.keys() and key != 'about'):
                 self.log_warm_message(entity_id, "unmapped field: " + key)
                 continue
         
             field_name = ContextClassHarvester.FIELD_MAP[key][self.LABEL]
-            #first address has suffix .1 
-            field_name = field_name + ".1"
+            if("vcardHasGeo" != k):
+                field_name = field_name + ".1"
             self.add_field(docroot, field_name, value)
             #address_components.append(v)
 
@@ -323,9 +324,8 @@ class ContextClassHarvester:
             if(characteristic == "address"):
                 self.process_address(docroot, entity_id, entity_rows[self.REPRESENTATION]['address']['AddressImpl'])
             elif str(characteristic) not in ContextClassHarvester.FIELD_MAP.keys():
-                # TODO: log unmaped properties
-                if(characteristic != "about"):
-                    print("unmapped property: " + str(characteristic))
+                # TODO: log this?
+                print("unmapped property: " + str(characteristic))
                 continue
             # TODO: Refactor horrible conditional
             elif(str(characteristic) == "dcIdentifier"):
