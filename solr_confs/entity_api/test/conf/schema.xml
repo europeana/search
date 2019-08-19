@@ -515,9 +515,7 @@
 			indexed="false" stored="true" multiValued="false" />
 		<dynamicField name="vcard_postOfficeBox.*" type="string"
 			indexed="false" stored="true" multiValued="false" />
-		<!-- location fields cannot be defined as dynamic fields, we manually append 
-			.1 for consistency -->
-		<field name="vcard_hasGeo.1" type="location" indexed="true"
+		<field name="hasGeo" type="location" indexed="true"
 			stored="true" multiValued="false" />
 		
 		<!-- dc: description not currently in the profile -->
