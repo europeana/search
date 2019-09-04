@@ -1,4 +1,4 @@
-package main.java;
+package europeana.evaluation.ga;
 
 import java.io.IOException;
 import java.io.OutputStream;

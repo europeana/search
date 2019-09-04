@@ -1,4 +1,4 @@
-
+package europeana.evaluation.ga;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -50,7 +50,7 @@ import europeana.utils.Utils;
  * 
  */
 
-public class App {
+public class Process {
 	
 	static Logger logger = Logger.getLogger(Process.class);
 	
@@ -59,12 +59,9 @@ public class App {
 	public static void main(String[] args) throws Exception {
 		
 		System.out.println("Processing...");
-		
-		
-		
-		//InputStream is = Process.class.getClassLoader().getResourceAsStream("resources/log4j.properties");
-		//PropertyConfigurator.configure(is);
-		PropertyConfigurator.configure("log4j.properties");
+		InputStream is = Process.class.getClassLoader().getResourceAsStream("resources/log4j.properties");
+		PropertyConfigurator.configure(is);
+		//PropertyConfigurator.configure("log4j.properties");
 		Properties prop;
 		prop = Utils.readProperties(Process.class.getClassLoader().getResourceAsStream("resources/config.properties"));
 		String startDate = prop.getProperty("start_date");
