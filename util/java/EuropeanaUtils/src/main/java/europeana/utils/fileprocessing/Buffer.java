@@ -1,4 +1,4 @@
-package europeana.utils;
+package europeana.utils.fileprocessing;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -17,11 +17,11 @@ public class Buffer<T> {
 	public Set<String> ids = new HashSet<String>();
 	public int maxChars = 0;
 	
-	public Integer GetCapacity() {
+	public Integer getCapacity() {
 		return maxCapacity;
 	}
 	
-	public Integer GetItemsBuffered() {
+	public Integer getItemsBuffered() {
 		return itemsBuffered;
 	}
 	
@@ -30,7 +30,7 @@ public class Buffer<T> {
 		this.itemsBuffered = 0;
 	}
 	
-	synchronized public void Add(T item) {
+	synchronized public void add(T item) {
 		buffer.add(item);
 		itemsBuffered++;
 		
@@ -45,13 +45,13 @@ public class Buffer<T> {
 //		}
 	}
 	
-	synchronized public List<T> Retrieve(){
+	synchronized public List<T> retrieve(){
 		List<T> items = new ArrayList<T>(buffer);
 		buffer.clear();
 		return items;
 	}
 	
-	synchronized public void Clear() {
+	synchronized public void clear() {
 		buffer.clear();
 	}
 	

@@ -39,10 +39,10 @@ import org.apache.solr.common.SolrInputDocument;
 import org.apache.solr.common.params.CommonParams;
 import org.apache.solr.common.util.SimpleOrderedMap;
 
-import europeana.utils.Buffer;
 import europeana.utils.ExceptionThreadFactory;
 import europeana.utils.SolrErrorHandling;
 import europeana.utils.Utils;
+import europeana.utils.fileprocessing.Buffer;
 
 
 public class Process {
@@ -140,14 +140,14 @@ public class Process {
 			pool.shutdown();
 			pool.awaitTermination(Integer.MAX_VALUE, TimeUnit.DAYS);
 			if (!buffer.isEmpty()) {
-				indexClient.add(buffer.Retrieve());
+				indexClient.add(buffer.retrieve());
 				//SolrErrorHandling.Commit(indexClient); //This is already done automatically according to the Solr configuration in solrconfig.xml
-				logger.info("Indexed documents batch "+ buffer.GetItemsBuffered() / buffer.GetCapacity() + " - Total documents indexed: " + buffer.GetItemsBuffered());
+				logger.info("Indexed documents batch "+ buffer.getItemsBuffered() / buffer.getCapacity() + " - Total documents indexed: " + buffer.getItemsBuffered());
 				
 			}
 			
 			//TEST
-			System.out.println("Checking. Different items indexed: "+buffer.GetItemsBuffered());
+			System.out.println("Checking. Different items indexed: "+buffer.getItemsBuffered());
 			System.out.println("Checking. Different ids indexed: "+buffer.ids.size());
 			System.out.println("Done. Note that the results may be take some time to be updated in Solr depending on the configuration");
 		} catch (InterruptedException e) {

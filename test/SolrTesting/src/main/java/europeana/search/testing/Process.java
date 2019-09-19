@@ -24,9 +24,9 @@ import org.apache.solr.common.params.CommonParams;
 import org.apache.solr.common.params.CursorMarkParams;
 import org.apache.solr.common.util.SimpleOrderedMap;
 
-import europeana.utils.Buffer;
 import europeana.utils.SolrErrorHandling;
 import europeana.utils.Utils;
+import europeana.utils.fileprocessing.Buffer;
 
 public class Process {
 	

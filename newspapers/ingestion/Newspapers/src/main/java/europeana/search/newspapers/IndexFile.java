@@ -24,8 +24,8 @@ import org.apache.solr.common.SolrInputField;
 
 import com.ctc.wstx.api.WstxInputProperties;
 
-import europeana.utils.Buffer;
 import europeana.utils.SolrErrorHandling;
+import europeana.utils.fileprocessing.Buffer;
 
 public class IndexFile implements Runnable {
 	static Logger logger = Logger.getLogger(IndexFile.class);
@@ -60,13 +60,13 @@ public class IndexFile implements Runnable {
 			SolrDocument metadataDocument = GetMetadataDoc(queryClient, queryCollection, ftDocument.getFieldValue("europeana_id").toString());
 			SolrInputDocument mergeDocument = Merge(ftDocument, metadataDocument, nvfields);
 			synchronized(this) {
-				buffer.Add(mergeDocument);
+				buffer.add(mergeDocument);
 				if (buffer.isFull()) {
-					List<SolrInputDocument> toindex = buffer.Retrieve();
+					List<SolrInputDocument> toindex = buffer.retrieve();
 					if (!toindex.isEmpty()) {
 						indexClient.add(toindex);
 						//SolrErrorHandling.Commit(solrIndex); //This is already done automatically according to the Solr configuration in solrconfig.xml
-						logger.info("Indexed documents file " + zipFile.getName()+ " - batch "+ buffer.GetItemsBuffered() / buffer.GetCapacity() + " - Total documents indexed: " + buffer.GetItemsBuffered());
+						logger.info("Indexed documents file " + zipFile.getName()+ " - batch "+ buffer.getItemsBuffered() / buffer.getCapacity() + " - Total documents indexed: " + buffer.getItemsBuffered());
 					}
 				}
 			}

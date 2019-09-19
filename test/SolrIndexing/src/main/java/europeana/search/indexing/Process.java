@@ -24,9 +24,9 @@ import org.apache.solr.common.params.CommonParams;
 import org.apache.solr.common.params.CursorMarkParams;
 import org.apache.solr.common.util.SimpleOrderedMap;
 
-import europeana.utils.Buffer;
 import europeana.utils.SolrErrorHandling;
 import europeana.utils.Utils;
+import europeana.utils.fileprocessing.Buffer;
 
 public class Process {
 	
@@ -63,13 +63,13 @@ public class Process {
 	        String nextCursorMark = rsp.getNextCursorMark();
 	        for (SolrDocument d : rsp.getResults()) {
 	        	SolrInputDocument toIndex = GetDocument(d, nvfields);
-				buffer.Add(toIndex);
+				buffer.add(toIndex);
 				records--;
 				if (buffer.isFull()) {
-					List<SolrInputDocument> toindex = buffer.Retrieve();
+					List<SolrInputDocument> toindex = buffer.retrieve();
 					if (!toindex.isEmpty()) {
 						targetClient.add(toindex);
-						logger.info(" - batch "+ buffer.GetItemsBuffered() / buffer.GetCapacity() + " - Total documents indexed: " + buffer.GetItemsBuffered());
+						logger.info(" - batch "+ buffer.getItemsBuffered() / buffer.getCapacity() + " - Total documents indexed: " + buffer.getItemsBuffered());
 					}
 				}
 			}
