@@ -1,4 +1,4 @@
-package europeana.utils;
+package europeana.utils.fileprocessing;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;

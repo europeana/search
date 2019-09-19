@@ -39,10 +39,10 @@ import org.apache.solr.common.SolrInputDocument;
 import org.apache.solr.common.params.CommonParams;
 import org.apache.solr.common.util.SimpleOrderedMap;
 
-import europeana.utils.ExceptionThreadFactory;
 import europeana.utils.SolrErrorHandling;
 import europeana.utils.Utils;
 import europeana.utils.fileprocessing.Buffer;
+import europeana.utils.fileprocessing.ExceptionThreadFactory;
 
 
 public class Process {

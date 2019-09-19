@@ -35,8 +35,8 @@ public class Buffer<T> {
 		itemsBuffered++;
 		
 		//TEST
-		SolrInputDocument d = (SolrInputDocument) item;
-		ids.add(d.getField("europeana_id").toString());
+//		SolrInputDocument d = (SolrInputDocument) item;
+//		ids.add(d.getField("europeana_id").toString());
 //		for (Object lang : d.getFieldValues("LANGUAGE")) {
 //			if (d.getFieldValue("fulltext." + lang.toString()) != null) {
 //				int len = d.getFieldValue("fulltext." + lang.toString()).toString().length();
