@@ -1,4 +1,4 @@
-package europeana.utils.fileprocessing;
+package europeana.utils.filesetprocessing;
 
 import java.io.InputStream;
 import java.util.Collection;

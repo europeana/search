@@ -1,4 +1,4 @@
-package europeana.utils.fileprocessing;
+package europeana.utils.exception;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 

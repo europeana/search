@@ -1,4 +1,4 @@
-package europeana.utils.fileprocessing;
+package europeana.utils.filesetprocessing;
 
 import java.util.ArrayList;
 import java.util.HashSet;

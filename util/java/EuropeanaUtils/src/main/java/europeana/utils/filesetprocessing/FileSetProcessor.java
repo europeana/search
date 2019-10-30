@@ -1,4 +1,4 @@
-package europeana.utils.fileprocessing;
+package europeana.utils.filesetprocessing;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,8 +16,10 @@ import org.apache.log4j.Logger;
 
 import com.google.common.io.Files;
 
-public class SetProcessor<T> {
-	static Logger logger = Logger.getLogger(SetProcessor.class);
+import europeana.utils.exception.ExceptionThreadFactory;
+
+public class FileSetProcessor<T> {
+	static Logger logger = Logger.getLogger(FileSetProcessor.class);
 	
 	ExceptionThreadFactory threadFactory;
 	ExecutorService pool;
@@ -45,7 +47,7 @@ public class SetProcessor<T> {
 		return buffer;
 	}
 	
-	public SetProcessor(Integer buffersize, Integer numberThreads, FileProcessor<T> fileProcessor) {
+	public FileSetProcessor(Integer buffersize, Integer numberThreads, FileProcessor<T> fileProcessor) {
 		this.threadFactory = new ExceptionThreadFactory();
 		this.pool = Executors.newFixedThreadPool(numberThreads, threadFactory);
 		this.buffer = new Buffer<T>(buffersize);
