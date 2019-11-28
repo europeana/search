@@ -57,7 +57,7 @@
          <alias-def>
               <alias>ccsearch</alias>
               <query>(europeana_collectionName:("92062_Ag_EU_TEL_a0480_Austria" OR "9200387_Ag_EU_TEL_a1225_British_Library" OR "9200397_Ag_EU_TEL_ a1348_BL") OR (DATA_PROVIDER:"Naturalis Biodiversity Center" AND PROVIDER:"OpenUp!")) AND contentTier:[3 TO 4]</query>
-         </alias-def>
+         </alias-def> 
       </alias-defs>
    </alias-config>
 </alias-configs>
