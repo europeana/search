@@ -1,4 +1,4 @@
-![](https://pro.europeana.eu/files/Brand%20Guidelines/europeana-logos.png)
+![](https://github.com/europeana/search/blob/master/EU_basic_logo_landscape.jpg)
 
 # Europeana: catalyst for change in the world of cultural heritage
 
