@@ -13,8 +13,8 @@ Configuration used in our Solr search engines. See more information in our [webs
 
 ## LICENSE
 
-The Europeana Foundation
-
+The Europeana Foundation 
+ 
 Licenced under the EUPL, Version 1.1 (the "Licence") and subsequent versions as approved by the European Commission;
 You may not use this work except in compliance with the Licence.
 
