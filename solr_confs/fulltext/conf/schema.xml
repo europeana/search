@@ -213,6 +213,15 @@
             </analyzer>
         </fieldType>
         
+        <!-- Estonian -->
+        <fieldType name="text_et" class="solr.TextField" positionIncrementGap="100">
+        	<analyzer>
+            	<tokenizer class="solr.StandardTokenizerFactory"/>
+          		<filter class="solr.LowerCaseFilterFactory" />
+           		<filter class="solr.SnowballPorterFilterFactory" language="Estonian"/>
+        	</analyzer>
+      	</fieldType>
+        
         <!-- Basque -->
         <fieldType name="text_eu" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
@@ -441,6 +450,16 @@
             </analyzer>
         </fieldType>
 
+       <!-- Latin -->
+        <fieldType name="text_la" class="solr.TextField" positionIncrementGap="100">
+            <analyzer>
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <tokenizer class="solr.ThaiTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lat.txt" />
+            </analyzer>
+        </fieldType>
+
         <!-- Latvian -->
         <fieldType name="text_lv" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
@@ -556,6 +575,17 @@
                 <filter class="solr.StopFilterFactory" ignoreCase="false" words="lang/stopwords_tr.txt" />
                 <filter class="solr.SnowballPorterFilterFactory" language="Turkish"/>
             </analyzer>
+        </fieldType>
+        
+       <!-- Ukrainian -->
+        <fieldType name="text_uk" class="solr.TextField" positionIncrementGap="100">
+            <analyzer>
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <tokenizer class="solr.ThaiTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_ukr.txt" />
+                <filter class="solr.MorfologikFilterFactory" dictionary="org/apache/lucene/analysis/uk/ukrainian.dict"/>
+           </analyzer>
         </fieldType>
     </types>
 
@@ -780,9 +810,15 @@
 
         <field name="fulltext_sv" type="text_sv"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext_sr" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext_bs" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext_sh" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext_hr" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext_th" type="text_th"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext_tr" type="text_tr"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext_yi" type="text_ji"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext_uk" type="text_uk"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext_la" type="text_la"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext_et" type="text_et"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
 
     </fields>
     <uniqueKey>europeana_id</uniqueKey>
