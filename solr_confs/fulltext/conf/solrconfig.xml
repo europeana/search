@@ -76,7 +76,7 @@
 <!-- TODO: check-->
   <lib dir="${solr.install.dir:../../../..}/contrib/lib" regex=".*\.jar" /> <!-- Alias plugin -->
   <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lib" regex=".*\.jar" /> <!-- ICU tokenizer -->
-  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" regex="lucene-analyzers-icu-\d.*\.jar" /> <!-- ICU tokenizer -->
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" regex=".*\.jar" /> <!-- ICU tokenizer, Polish stemmer, Estonian lemmatizer -->
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-analysis-extras-\d.*\.jar" />
   <lib dir="${solr.install.dir:../../../..}/contrib/clustering/lib/" regex=".*\.jar" /> 
   <lib dir="${solr.install.dir:../../../..}/dist/" regex="solr-clustering-\d.*\.jar" />
