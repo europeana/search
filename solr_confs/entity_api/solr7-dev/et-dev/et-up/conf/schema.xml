@@ -190,6 +190,16 @@
 
 		<field name="foaf_depiction" type="string" indexed="false"
 			stored="true" multiValued="false" />
+			
+		<field name="isShownBy" type="string" indexed="true"
+			stored="true" multiValued="false" />
+		
+		<field name="isShownBy.source" type="string" indexed="true"
+			stored="true" multiValued="false" />
+		
+		<field name="isShownBy.thumbnail" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		
 		<field name="edm_isRelatedTo" type="string" indexed="true"
 			stored="true" multiValued="true" />
 		<!-- TODO: alias -->

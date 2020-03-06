@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse-pydev version="1.0"?><pydev_project>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python interpreter</pydev_property>
+<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
+<path>/${PROJECT_DIR_NAME}/munge/mongo_import/entities</path>
+<path>/${PROJECT_DIR_NAME}/munge/mongo_import</path>
+<path>/${PROJECT_DIR_NAME}/munge/mongo_import/tests</path>
+<path>/${PROJECT_DIR_NAME}/evaluation</path>
+<path>/${PROJECT_DIR_NAME}</path>
+<path>/${PROJECT_DIR_NAME}/munge/mongo_import/entities/preview_builder</path>
+<path>/${PROJECT_DIR_NAME}/munge/mongo_import/entities/ranking_metrics</path>
+</pydev_pathproperty>
+</pydev_project>

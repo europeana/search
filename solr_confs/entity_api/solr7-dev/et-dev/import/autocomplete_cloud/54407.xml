@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/agent/base/54407</field>
+          <field name="internal_type">Agent</field>
+          <field name="owl_sameAs">http://no.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://wikidata.dbpedia.org/resource/Q728263</field>
+          <field name="owl_sameAs">http://ru.dbpedia.org/resource/Сёберг,_Биргер</field>
+          <field name="owl_sameAs">http://de.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://it.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://rdf.freebase.com/ns/m.074r77</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q728263</field>
+          <field name="owl_sameAs">http://fr.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://pt.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://fi.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://gl.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://da.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://sv.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://br.dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="owl_sameAs">http://dbpedia.org/resource/Birger_Sjöberg</field>
+          <field name="rdagr2_dateOfDeath.">1929-04-30</field>
+          <field name="rdagr2_placeOfBirth.">http://dbpedia.org/resource/Vänersborg</field>
+          <field name="rdagr2_biographicalInformation.fi">Birger Sjöberg (6. joulukuuta 1885 Vänersborg – 30. huhtikuuta 1929 Växjö) oli ruotsalainen kirjailija.Sjöberg sävelsi ja esitti idyllisiä esikoisrunoja. Idyllin kuitenkin katsottiin näennäiseksi. Ruotsissa hän on hyvin tunnettu Fridas bokista. Hän oli myös toimittaja Ruotsin lehdistössä, kuten Stockholms Dagbladissa, Helsingborgs-Postenissa. Hänen kokeellinen kokoelma Kriser och kransar sai huonon vastaanoton, mutta uudisti kuitenkin Ruotsin lyriikkaa.</field>
+          <field name="rdagr2_biographicalInformation.en">Birger Sjöberg (1885-1929) was a Swedish poet, novelist and songwriter, whose best-known works include the song collection Fridas Bok (Frida's Book) and the novel Kvartetten Som Sprängdes (The Quartet That Split Up).Originally a journalist, Sjöberg wrote songs in his spare time. His debuted as a serious writer with the 1922 publication of Fridas Bok (Frida's Book), which was both a critical and popular success. Following a series of concert tours, he withdrew from public life and focused on his writing.After his death in 1929, a new series of songs and a selection of poems were published.</field>
+          <field name="rdagr2_biographicalInformation.ru">Биргер Сёберг (швед. Birger Sjöberg, род. 6 декабря 1885 г. Венерсборг — ум. 3 апреля 1929 г. Векшё) — шведский поэт и писатель.</field>
+          <field name="rdagr2_biographicalInformation.no">Birger Sjöberg (født 6. desember 1885 i Vänersborg i Västra Götalands län (Västergötland), død 30. april 1929 i Växjö) var en svensk forfatter, visesanger og journalist.</field>
+          <field name="rdagr2_biographicalInformation.fr">Birger Sjöberg, né le 6 décembre 1885 à Vänersborg et mort le 30 avril 1929 à Växjö, est un poète suédois.</field>
+          <field name="rdagr2_biographicalInformation.pt">Birger Sjöberg (6 de dezembro de 1885 - 30 de abril de 1929) foi um poeta e compositor sueco.</field>
+          <field name="rdagr2_biographicalInformation.gl">Birger Sjöberg, nado en Vänersborg o 6 de decembro de 1885 e finado en Växjö o 30 de abril de 1929 , foi un poeta sueco, así como novelista e músico, sendo as súas obras máis coñecidas a colección de cancións Fridas Bok (O libro de Frida) e a novela Kvartetten Som Sprängdes (O cuarteto que se separou).Orixinalmente xornalista, Sjöberg escribía cancións no seu tempo libre. Debutou como escritor serio coa publicación en 1922 de Fridas Bok, que tivo éxito entre o público como a crítica. Tras un serie e xiras de concertos, afastouse da vida pública e centrouse na escrita. Tras a súa morte en 1929, publicáronse novas canción e poemas de Sjöberg.</field>
+          <field name="rdagr2_biographicalInformation.sv">För andra betydelser, se Birger Sjöberg (olika betydelser).Birger Sjöberg, född 6 december 1885 i Vänersborg, dåvarande Älvsborgs län (Västergötland), död 30 april 1929 i Växjö, Kronobergs län (Småland), var en svensk skald, författare, vissångare och journalist. Han är känd för vissamlingen Fridas bok (ibland felaktigt kallad &quot;Fridas visor&quot;), romanen Kvartetten som sprängdes och det modernistiska diktverket Kriser och kransar.</field>
+          <field name="rdagr2_biographicalInformation.de">Birger Sjöberg (* 6. Dezember 1885 in Vänersborg; † 30. April 1929 in Växjö) war ein schwedischer Dichter und Schriftsteller.</field>
+          <field name="rdagr2_biographicalInformation.da">Birger Sjöberg (6. december 1885 i Vänersborg – 30. april 1929 i Växjö) var en svensk forfatter, komponist og sanger. Han er mest kendt for sine viser om Frida, men skrev også andre digte samt romanen Kvartetten som sprängdes (1924).</field>
+          <field name="rdagr2_biographicalInformation.it">Birger Sjöberg (Vänersborg, 6 dicembre 1885 – Växjö, 30 aprile 1929) è stato un poeta e giornalista svedese.Benché inizialmente giornalista, Sjöberg scrisse diverse canzoni nel suo tempo libero. La sua prima collezione, intitolata Fridas bok, del 1922, divenne in breve tempo molto popolare. Dopo aver iniziato una serie di tour in concerto, si concentrò solamente sulla poesia e sulla scrittura. Dopo la sua morte, avvenuta nel 1929, diversi suoi brani inediti vennero pubblicati postumi.</field>
+          <field name="rdagr2_professionOrOccupation.en">poet, novelist, songwriter</field>
+          <field name="edm_end.">1929-04-30</field>
+          <field name="rdagr2_dateOfBirth.">1885-12-06</field>
+          <field name="skos_prefLabel.fi">Birger Sjöberg</field>
+          <field name="skos_prefLabel.en">Birger Sjöberg</field>
+          <field name="skos_prefLabel.ru">Сёберг, Биргер</field>
+          <field name="skos_prefLabel.no">Birger Sjöberg</field>
+          <field name="skos_prefLabel.fr">Birger Sjöberg</field>
+          <field name="skos_prefLabel.pt">Birger Sjöberg</field>
+          <field name="skos_prefLabel.gl">Birger Sjöberg</field>
+          <field name="skos_prefLabel.sv">Birger Sjöberg</field>
+          <field name="skos_prefLabel.de">Birger Sjöberg</field>
+          <field name="skos_prefLabel.da">Birger Sjöberg</field>
+          <field name="skos_prefLabel.it">Birger Sjöberg</field>
+          <field name="rdagr2_placeOfDeath.">http://dbpedia.org/resource/Växjö</field>
+          <field name="payload">{&quot;professionOrOccupation&quot;: {&quot;en&quot;: [&quot;poet, novelist, songwriter&quot;]}, &quot;hiddenLabel&quot;: {&quot;fi&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;en&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;de&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;no&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;pt&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;gl&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;sv&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;ru&quot;: [&quot;\u0421\u0451\u0431\u0435\u0440\u0433, \u0411\u0438\u0440\u0433\u0435\u0440&quot;, &quot;\u0411\u0438\u0440\u0433\u0435\u0440 \u0421\u0451\u0431\u0435\u0440\u0433&quot;], &quot;it&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;fr&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;], &quot;da&quot;: [&quot;Birger Sj\u00f6berg&quot;, &quot;Sj\u00f6berg, Birger&quot;]}, &quot;depiction&quot;: &quot;http://commons.wikimedia.org/wiki/Special:FilePath/Birger%20Sj%C3%B6berg.png&quot;, &quot;dateOfDeath&quot;: &quot;1929-04-30&quot;, &quot;id&quot;: &quot;http://data.europeana.eu/agent/base/54407&quot;, &quot;type&quot;: &quot;Agent&quot;, &quot;dateOfBirth&quot;: &quot;1885-12-06&quot;, &quot;prefLabel&quot;: {&quot;fi&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;en&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;de&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;no&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;pt&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;gl&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;sv&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;ru&quot;: &quot;\u0421\u0451\u0431\u0435\u0440\u0433, \u0411\u0438\u0440\u0433\u0435\u0440&quot;, &quot;it&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;fr&quot;: &quot;Birger Sj\u00f6berg&quot;, &quot;da&quot;: &quot;Birger Sj\u00f6berg&quot;}}</field>
+          <field name="skos_prefLabel">Birger Sjöberg_Sjöberg_Биргер_Сёберг, Биргер</field>
+          <field name="foaf_depiction">http://commons.wikimedia.org/wiki/Special:FilePath/Birger%20Sj%C3%B6berg.png</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">245</field>
+          <field name="pagerank">0.0</field>
+          <field name="derived_score">88712</field>
+          <field name="suggest_filters">Agent</field>
+     </doc>
+</add>
