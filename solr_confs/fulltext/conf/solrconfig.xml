@@ -742,46 +742,94 @@
           <str name="facet.field">proxy_dc_format.zh</str>
         </lst>
         <lst>
-          <str name="q">collection:archaeology</str>
+          <str name="fq">collection:archaeology</str>
         </lst>
         <lst>
-          <str name="q">collection:art</str>
+          <str name="fq">collection:art</str>
         </lst>
         <lst>
-          <str name="q">collection:fashion</str>
+          <str name="fq">collection:fashion</str>
         </lst>
         <lst>
-          <str name="q">collection:manuscript</str>
+          <str name="fq">collection:manuscript</str>
         </lst>
         <lst>
-          <str name="q">collection:map</str>
+          <str name="fq">collection:map</str>
         </lst>
         <lst>
-          <str name="q">collection:migration</str>
+          <str name="fq">collection:migration</str>
         </lst>
         <lst>
-          <str name="q">collection:music</str>
+          <str name="fq">collection:music</str>
         </lst>
         <lst>
-          <str name="q">collection:nature</str>
+          <str name="fq">collection:nature</str>
         </lst>
         <lst>
-          <str name="q">collection:newspaper</str>
+          <str name="fq">collection:newspaper</str>
         </lst>
         <lst>
-          <str name="q">collection:photography</str>
+          <str name="fq">collection:photography</str>
         </lst>
         <lst>
-          <str name="q">collection:sport</str>
+          <str name="fq">collection:sport</str>
         </lst>
         <lst> 
-          <str name="q">collection:ww1</str>
+          <str name="fq">collection:ww1</str>
         </lst>
         <lst> 
-          <str name="q">collection:industrial</str>
+          <str name="fq">collection:industrial</str>
         </lst>
         <lst> 
-          <str name="q">collection:ccsearch</str>
+          <str name="fq">collection:ccsearch</str>
+        </lst>
+        <lst> 
+          <str name="fq">contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">contentTier:(1 OR 2 OR 3 OR 4)</str>
+        </lst>
+         <lst>
+          <str name="fq">collection:archaeology AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:art AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:fashion AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:manuscript AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:map AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:migration AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:music AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:nature AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:newspaper AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:photography AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:sport AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:ww1 AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:industrial AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:ccsearch AND contentTier:(2 OR 3 OR 4)</str>
         </lst>
       </arr>
     </listener>
@@ -973,46 +1021,94 @@
           <str name="facet.field">proxy_dc_format.zh</str>
         </lst>
         <lst>
-          <str name="q">collection:archaeology</str>
+          <str name="fq">collection:archaeology</str>
         </lst>
         <lst>
-          <str name="q">collection:art</str>
+          <str name="fq">collection:art</str>
         </lst>
         <lst>
-          <str name="q">collection:fashion</str>
+          <str name="fq">collection:fashion</str>
         </lst>
         <lst>
-          <str name="q">collection:manuscript</str>
+          <str name="fq">collection:manuscript</str>
         </lst>
         <lst>
-          <str name="q">collection:map</str>
+          <str name="fq">collection:map</str>
         </lst>
         <lst>
-          <str name="q">collection:migration</str>
+          <str name="fq">collection:migration</str>
         </lst>
         <lst>
-          <str name="q">collection:music</str>
+          <str name="fq">collection:music</str>
         </lst>
         <lst>
-          <str name="q">collection:nature</str>
+          <str name="fq">collection:nature</str>
         </lst>
         <lst>
-          <str name="q">collection:newspaper</str>
+          <str name="fq">collection:newspaper</str>
         </lst>
         <lst>
-          <str name="q">collection:photography</str>
+          <str name="fq">collection:photography</str>
         </lst>
         <lst>
-          <str name="q">collection:sport</str>
+          <str name="fq">collection:sport</str>
         </lst>
         <lst> 
-          <str name="q">collection:ww1</str>
+          <str name="fq">collection:ww1</str>
         </lst>
         <lst> 
-          <str name="q">collection:industrial</str>
+          <str name="fq">collection:industrial</str>
         </lst>
         <lst> 
-          <str name="q">collection:ccsearch</str>
+          <str name="fq">collection:ccsearch</str>
+        </lst>
+        <lst> 
+          <str name="fq">contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">contentTier:(1 OR 2 OR 3 OR 4)</str>
+        </lst>
+         <lst>
+          <str name="fq">collection:archaeology AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:art AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:fashion AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:manuscript AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:map AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:migration AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:music AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:nature AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:newspaper AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:photography AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst>
+          <str name="fq">collection:sport AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:ww1 AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:industrial AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:ccsearch AND contentTier:(2 OR 3 OR 4)</str>
         </lst>
       </arr>
     </listener>
