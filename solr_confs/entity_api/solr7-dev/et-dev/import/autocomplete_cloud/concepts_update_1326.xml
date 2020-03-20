@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/concept/base/1326</field>
+          <field name="internal_type">Concept</field>
+          <field name="skos_altLabel.de">Minimal-Techno</field>
+          <field name="skos_altLabel.de">Mnml</field>
+          <field name="skos_altLabel.de">Minimaltechno</field>
+          <field name="skos_altLabel.nl">Minimal</field>
+          <field name="skos_altLabel.nl">Mnml</field>
+          <field name="skos_altLabel.ro">Muzică minimal</field>
+          <field name="skos_altLabel.es">Minimal tecno</field>
+          <field name="skos_altLabel.pt">Minimal</field>
+          <field name="skos_altLabel.it">Minimal house</field>
+          <field name="skos_altLabel.it">Minimal</field>
+          <field name="skos_altLabel.it">Techno minimal</field>
+          <field name="skos_altLabel.it">Elettronica minimale</field>
+          <field name="skos_altLabel.uk">Minimal techno</field>
+          <field name="skos_altLabel.sv">Minimal techno</field>
+          <field name="skos_altLabel.fr">Dub techno</field>
+          <field name="skos_altLabel.fr">Musique électronique minimale</field>
+          <field name="skos_altLabel.fr">Minimal techno</field>
+          <field name="skos_altLabel.fr">Techno minimaliste</field>
+          <field name="skos_prefLabel.fi">Minimal techno</field>
+          <field name="skos_prefLabel.nl">Minimal techno</field>
+          <field name="skos_prefLabel.pt">Minimal techno</field>
+          <field name="skos_prefLabel.uk">Мінімал-техно</field>
+          <field name="skos_prefLabel.ru">Минимал-техно</field>
+          <field name="skos_prefLabel.sk">Minimal techno</field>
+          <field name="skos_prefLabel.de">Minimal Techno</field>
+          <field name="skos_prefLabel.en">minimal techno</field>
+          <field name="skos_prefLabel.pl">Minimal techno</field>
+          <field name="skos_prefLabel.ro">Minimal</field>
+          <field name="skos_prefLabel.es">Minimal techno</field>
+          <field name="skos_prefLabel.it">Minimal techno</field>
+          <field name="skos_prefLabel.cs">Minimal Techno</field>
+          <field name="skos_prefLabel.sv">Minimal</field>
+          <field name="skos_prefLabel.fr">Techno minimale</field>
+          <field name="skos_exactMatch">http://es.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://ro.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">https://www.freebase.com/m/06953q</field>
+          <field name="skos_exactMatch">http://it.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://da.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://uk.dbpedia.org/resource/Мінімал-техно</field>
+          <field name="skos_exactMatch">http://cs.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://fi.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://www.wikidata.org/entity/Q1430587</field>
+          <field name="skos_exactMatch">http://ru.dbpedia.org/resource/Минимал-техно</field>
+          <field name="skos_exactMatch">http://pt.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://nl.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://sv.dbpedia.org/resource/Minimal</field>
+          <field name="skos_exactMatch">https://g.co/kg/m/06953q</field>
+          <field name="skos_exactMatch">http://pl.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_exactMatch">http://fr.dbpedia.org/resource/Techno_minimale</field>
+          <field name="skos_exactMatch">http://de.dbpedia.org/resource/Minimal_Techno</field>
+          <field name="skos_exactMatch">http://sk.dbpedia.org/resource/Minimal_techno</field>
+          <field name="skos_note.en">minimalist subgenre of techno</field>
+          <field name="skos_broader">http://www.wikidata.org/entity/Q188451</field>
+          <field name="skos_broader">http://data.europeana.eu/concept/base/1401</field>
+          <field name="payload">{&quot;hiddenLabel&quot;: {&quot;cs&quot;: [&quot;Minimal Techno&quot;], &quot;fi&quot;: [&quot;Minimal techno&quot;], &quot;pl&quot;: [&quot;Minimal techno&quot;], &quot;pt&quot;: [&quot;Minimal techno&quot;], &quot;uk&quot;: [&quot;\u041c\u0456\u043d\u0456\u043c\u0430\u043b-\u0442\u0435\u0445\u043d\u043e&quot;], &quot;ru&quot;: [&quot;\u041c\u0438\u043d\u0438\u043c\u0430\u043b-\u0442\u0435\u0445\u043d\u043e&quot;], &quot;sk&quot;: [&quot;Minimal techno&quot;], &quot;de&quot;: [&quot;Minimal Techno&quot;], &quot;nl&quot;: [&quot;Minimal techno&quot;], &quot;ro&quot;: [&quot;Minimal&quot;], &quot;es&quot;: [&quot;Minimal techno&quot;], &quot;it&quot;: [&quot;Minimal techno&quot;], &quot;en&quot;: [&quot;minimal techno&quot;], &quot;sv&quot;: [&quot;Minimal&quot;], &quot;fr&quot;: [&quot;Techno minimale&quot;]}, &quot;id&quot;: &quot;http://data.europeana.eu/concept/base/1326&quot;, &quot;prefLabel&quot;: {&quot;cs&quot;: &quot;Minimal Techno&quot;, &quot;fi&quot;: &quot;Minimal techno&quot;, &quot;pl&quot;: &quot;Minimal techno&quot;, &quot;pt&quot;: &quot;Minimal techno&quot;, &quot;uk&quot;: &quot;\u041c\u0456\u043d\u0456\u043c\u0430\u043b-\u0442\u0435\u0445\u043d\u043e&quot;, &quot;ru&quot;: &quot;\u041c\u0438\u043d\u0438\u043c\u0430\u043b-\u0442\u0435\u0445\u043d\u043e&quot;, &quot;sk&quot;: &quot;Minimal techno&quot;, &quot;de&quot;: &quot;Minimal Techno&quot;, &quot;nl&quot;: &quot;Minimal techno&quot;, &quot;ro&quot;: &quot;Minimal&quot;, &quot;es&quot;: &quot;Minimal techno&quot;, &quot;it&quot;: &quot;Minimal techno&quot;, &quot;en&quot;: &quot;minimal techno&quot;, &quot;sv&quot;: &quot;Minimal&quot;, &quot;fr&quot;: &quot;Techno minimale&quot;}, &quot;type&quot;: &quot;Concept&quot;}</field>
+          <field name="skos_prefLabel">Minimal_Minimal Techno_Minimal techno_Techno_Techno minimale_minimal techno_minimale_techno_Минимал-техно_Мінімал-техно</field>
+          <field name="isShownBy">http://archive.org/download/srn2009-07-26/srn2009-07-26.mp3</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/2059210/data_sounds_srn2009_07_26</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/api/v2/thumbnail-by-url.json?uri=http://archive.org/download/srn2009-07-26/srn2009-07-26.mp3&amp;type=SOUND </field>
+          <field name="europeana_doc_count">4</field>
+          <field name="europeana_term_hits">8908</field>
+          <field name="pagerank">6.167428909000467</field>
+          <field name="derived_score">4177940</field>
+          <field name="suggest_filters">Concept</field>
+          <field name="suggest_filters">in_europeana</field>
+     </doc>
+</add>

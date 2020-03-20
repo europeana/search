@@ -133,7 +133,7 @@
 
 		<!-- @Field("body_tag_id") -->
 		<field name="body_uri" type="keyword" indexed="true"
-			required="false" multiValued="false" stored="true" />
+			required="false" multiValued="true" stored="true" />
 
 		<!-- @Field("updated_timestamp") -->
 		<field name="modified" type="date" indexed="true" required="true"
