@@ -1273,6 +1273,15 @@
       <str name="hl.fl">fulltext_*</str>
       <str name="hl.method">unified</str>
       <str name="hl.maxAnalizedChars">1000000</str>
+      
+      <!-- Faceting -->
+      <str name="f.TYPE.facet.method">enum</str>
+      <str name="f.UGC.facet.method">enum</str>
+      <str name="f.COMPLETENESS.facet.method">enum</str>
+      <str name="facet.range">issued</str>
+      <str name="f.issued.facet.range.start">0000-01-01T00:00:00Z</str>
+      <str name="f.issued.facet.range.end">NOW</str>
+      <str name="f.issued.facet.range.gap">+1YEAR</str>
 
       <!-- Default search field
          <str name="df">text</str> 
