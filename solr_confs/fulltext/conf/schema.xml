@@ -739,6 +739,10 @@
         <field name="metadataTier" type="metadataTier" indexed="true" stored="true" multiValued="false"/>
         <field name="contentTier" type="contentTier" indexed="true" stored="true" multiValued="false"/>
         <dynamicField name="random_*" type="random" />
+        <!--  
+        mmarrero: Used for 'timestamp_created' and 'timestamp_update' for the metadata collection. 
+        Additionally used for 'timestamp_update_annotation' for the transcription collection.
+         -->
         <dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false"/>
         <!--Fields previously undeclared in schema-->
         <field name="wr_svcs_hasservice" type="string" indexed="true" stored="true" multiValued="true"/>
