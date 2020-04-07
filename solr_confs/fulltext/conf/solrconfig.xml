@@ -1258,7 +1258,7 @@
       <str name="defType">edismax</str>
       <str name="q.op">OR</str>
       <!-- Default fields search -->
-      <str name="f.fulltext.qf">fulltext_und fulltext_ar fulltext_bg fulltext_bs fulltext_ca fulltext_cjk fulltext_cs fulltext_da fulltext_de fulltext_el fulltext_en fulltext_es fulltext_fa fulltext_fi fulltext_fr fulltext_ga fulltext_gl fulltext_hi fulltext_hr fulltext_hu fulltext_hy fulltext_ji fulltext_id fulltext_id fulltext_it fulltext_ko fulltext_lv fulltext_nl fulltext_no fulltext_pl fulltext_pt fulltext_ro fulltext_ru fulltext_sk fulltext_sl fulltext_sv fulltext_sr fulltext_th fulltext_tr fulltext_yi</str>
+      <str name="f.fulltext.qf">fulltext_und fulltext_ar fulltext_bg fulltext_bs fulltext_ca fulltext_cjk fulltext_cs fulltext_da fulltext_de fulltext_el fulltext_en fulltext_es fulltext_et fulltext_fa fulltext_fi fulltext_fr fulltext_ga fulltext_gl fulltext_he fulltext_hi fulltext_hr fulltext_hu fulltext_hy fulltext_ji fulltext_id fulltext_id fulltext_it fulltext_ko fulltext_la fulltext_lv fulltext_nl fulltext_no fulltext_pa fulltext_pl fulltext_pt fulltext_ro fulltext_ru fulltext_sh fulltext_sk fulltext_sl fulltext_sr fulltext_sv fulltext_th fulltext_tr fulltext_uk fulltext_yi</str>
       
       <!-- Default field -->
       <str name="qf">fulltext</str>
