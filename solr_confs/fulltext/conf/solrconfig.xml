@@ -1258,7 +1258,7 @@
       <str name="defType">edismax</str>
       <str name="q.op">OR</str>
       <!-- Default fields search -->
-      <str name="f.fulltext.qf">fulltext_und fulltext_ar fulltext_bg fulltext_bs fulltext_ca fulltext_cjk fulltext_cs fulltext_da fulltext_de fulltext_el fulltext_en fulltext_es fulltext_et fulltext_fa fulltext_fi fulltext_fr fulltext_ga fulltext_gl fulltext_he fulltext_hi fulltext_hr fulltext_hu fulltext_hy fulltext_ji fulltext_id fulltext_id fulltext_it fulltext_ko fulltext_la fulltext_lv fulltext_nl fulltext_no fulltext_pa fulltext_pl fulltext_pt fulltext_ro fulltext_ru fulltext_sh fulltext_sk fulltext_sl fulltext_sr fulltext_sv fulltext_th fulltext_tr fulltext_uk fulltext_yi</str>
+      <str name="f.fulltext.qf">fulltext. fulltext.ar fulltext.bg fulltext.bs fulltext.ca fulltext.cjk fulltext.cs fulltext.da fulltext.de fulltext.el fulltext.en fulltext.es fulltext.et fulltext.fa fulltext.fi fulltext.fr fulltext.ga fulltext.gl fulltext.he fulltext.hi fulltext.hr fulltext.hu fulltext.hy fulltext.ji fulltext.id fulltext.id fulltext.it fulltext.ko fulltext.la fulltext.lv fulltext.nl fulltext.no fulltext.pa fulltext.pl fulltext.pt fulltext.ro fulltext.ru fulltext.sh fulltext.sk fulltext.sl fulltext.sr fulltext.sv fulltext.th fulltext.tr fulltext.uk fulltext.yi</str>
       
       <!-- Default field -->
       <str name="qf">fulltext</str>
@@ -1270,7 +1270,7 @@
       <str name="ps2">1</str>
       
       <!-- Highlighting -->
-      <str name="hl.fl">fulltext_*</str>
+      <str name="hl.fl">fulltext.*</str>
       <str name="hl.method">unified</str>
       <str name="hl.maxAnalizedChars">1000000</str>
       
@@ -1375,7 +1375,7 @@
 <!-- TODO: init params shared by all handlers -->
   <initParams path="/update/**,/query,/select,/tvrh,/elevate,/spell,/browse">
     <lst name="defaults">
-      <str name="df">*</str>
+      <str name="df">fulltext</str>
     </lst>
   </initParams>
 
@@ -1390,7 +1390,7 @@
     <lst name="defaults">
       <str name="lowernames">true</str>
       <str name="fmap.meta">ignored_</str>
-      <str name="fmap.content">fulltext_en</str>
+      <str name="fmap.content">fulltext.en</str>
     </lst>
   </requestHandler>
 
@@ -1457,7 +1457,7 @@
     <!-- a spellchecker built from a field of the main index -->
     <lst name="spellchecker">
       <str name="name">default</str>
-      <str name="field">fulltext_en</str>
+      <str name="field">fulltext.en</str>
       <str name="classname">solr.DirectSolrSpellChecker</str>
       <!-- the spellcheck distance measure used, the default is the internal levenshtein -->
       <str name="distanceMeasure">internal</str>

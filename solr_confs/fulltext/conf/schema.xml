@@ -12,7 +12,8 @@
         <fieldType name="tfloat" class="solr.TrieFloatField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="tlong" class="solr.TrieLongField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
-        <fieldType name="date" class="solr.TrieDateField" omitNorms="true" precisionStep="0" positionIncrementGap="0"/>
+	    <fieldType name="date" class="solr.DatePointField" omitNorms="true"/>
+    	<fieldType name="daterange" class="solr.DateRangeField" omitNorms="true"/>
         <fieldType name="random" class="solr.RandomSortField"/>
         <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
             <analyzer type="index">
@@ -739,6 +740,8 @@
         <field name="metadataTier" type="metadataTier" indexed="true" stored="true" multiValued="false"/>
         <field name="contentTier" type="contentTier" indexed="true" stored="true" multiValued="false"/>
         <dynamicField name="random_*" type="random" />
+        <!--  mmarrero: Used for 'timestamp_created' and 'timestamp_update' for the metadata collection. 
+        Additionally used for 'timestamp_update_annotation' for the transcription collection -->
         <dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false"/>
         <!--Fields previously undeclared in schema-->
         <field name="wr_svcs_hasservice" type="string" indexed="true" stored="true" multiValued="true"/>
@@ -771,55 +774,58 @@
 
         <!-- Issue date, taken from field proxy_dcterm_issued, which is a string. Temporal fix while metadata index is updated -->
         <field name="issued" type="date" indexed="true" stored="true" docValues="true" multiValued="true"/>
+        <!-- Average Page confidence for newspapers-->
+        <field name="nif_confidence" type="float" indexed="true" stored="true" multiValued="false"/>
+        
 
         <!-- full-text fields. StoredOffsets and termVectors for highlighting support -->
-        <field name="fulltext_und" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_ar" type="text_ar"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_bg" type="text_bg"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_bs" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_ca" type="text_ca"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_cjk" type="text_cjk"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_cs" type="text_cs"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_da" type="text_da"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_de" type="text_de"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_el" type="text_el"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_en" type="text_en"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_es" type="text_eu"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_fa" type="text_fa"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_fi" type="text_fi"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_fr" type="text_fr"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_ga" type="text_ga"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_gl" type="text_gl"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_hi" type="text_hi"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_hr" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_hu" type="text_hu"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_hy" type="text_hy"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_ji" type="text_ji"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_id" type="text_id"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_it" type="text_it"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_ko" type="text_ko"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_lv" type="text_lv"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_nl" type="text_nl"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_no" type="text_no"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_pl" type="text_pl"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_pt" type="text_pt"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_ro" type="text_ro"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_ru" type="text_ru"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_sk" type="text_sk"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_sv" type="text_sv"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_sr" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_sh" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_th" type="text_th"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_tr" type="text_tr"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_yi" type="text_ji"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_la" type="text_la"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext." type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.ar" type="text_ar"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.bg" type="text_bg"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.bs" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.ca" type="text_ca"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.cjk" type="text_cjk"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.cs" type="text_cs"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.da" type="text_da"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.de" type="text_de"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.el" type="text_el"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.en" type="text_en"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.es" type="text_eu"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.fa" type="text_fa"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.fi" type="text_fi"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.fr" type="text_fr"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.ga" type="text_ga"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.gl" type="text_gl"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.hi" type="text_hi"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.hr" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.hu" type="text_hu"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.hy" type="text_hy"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.ji" type="text_ji"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.id" type="text_id"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.it" type="text_it"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.ko" type="text_ko"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.lv" type="text_lv"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.nl" type="text_nl"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.no" type="text_no"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.pl" type="text_pl"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.pt" type="text_pt"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.ro" type="text_ro"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.ru" type="text_ru"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.sk" type="text_sk"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.sv" type="text_sv"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.sr" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.sh" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.th" type="text_th"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.tr" type="text_tr"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.yi" type="text_ji"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.la" type="text_la"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
 
         <!--TODO: find specific analyzer for Slovene, Hebrew, Estonian, Ukrainian and Punjabi. Estonian and Ukrainian are supported in recent versions -Ukrainan was supported before but there is a bug- -->
-        <field name="fulltext_sl" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_he" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_pa" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
-        <field name="fulltext_et" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>  
-        <field name="fulltext_uk" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.sl" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.he" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.pa" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <field name="fulltext.et" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>  
+        <field name="fulltext.uk" type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         
 
 
