@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/agent/base/100013</field>
+          <field name="internal_type">Agent</field>
+          <field name="rdagr2_biographicalInformation.en">Courtney O. Peebles, a.k.a. &quot;J.R.&quot;, (born March 4, 1979) is a Christian singer and producer formerly signed to Cross Movement Records. J.R. is also half of the So Hot Productions team along with N.A.B. His debut album was Metamorphosis, released in 2005. He often appears on the hooks of songs by fellow labelmates, such as FLAME and Da' T.R.U.T.H.. He was expected to release his second album, Life By Stereo, in September 2007; however, it was pushed back to December. In 2009, J.R. left Cross Movement Records and went indie to work on a new sound.</field>
+          <field name="owl_sameAs">http://rdf.freebase.com/ns/m.02v_txp</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q6104322</field>
+          <field name="owl_sameAs">http://wikidata.dbpedia.org/resource/Q6104322</field>
+          <field name="owl_sameAs">http://dbpedia.org/resource/J.R._(musician)</field>
+          <field name="rdagr2_dateOfBirth.">1979-03-04</field>
+          <field name="skos_prefLabel.en">J.R. (musician)</field>
+          <field name="skos_altLabel.en">J.R.</field>
+          <field name="skos_altLabel.en">Peebles, Courtney O.</field>
+          <field name="rdagr2_professionOrOccupation.en">Singer-songwriter, Producer</field>
+          <field name="payload">{&quot;dateOfBirth&quot;: &quot;1979-03-04&quot;, &quot;hiddenLabel&quot;: {&quot;en&quot;: [&quot;J.R.&quot;]}, &quot;prefLabel&quot;: {&quot;en&quot;: &quot;J.R. (musician)&quot;}, &quot;altLabel&quot;: {&quot;en&quot;: [&quot;J.R.&quot;, &quot;Peebles, Courtney O.&quot;]}, &quot;professionOrOccupation&quot;: {&quot;en&quot;: [&quot;Singer-songwriter, Producer&quot;]}, &quot;id&quot;: &quot;http://data.europeana.eu/agent/base/100013&quot;, &quot;type&quot;: &quot;Agent&quot;}</field>
+          <field name="skos_prefLabel">(musician)_J.R. (musician)</field>
+          <field name="isShownBy">http://www.collectiedeventermusea.nl/wwwwopacx/wwwopac.ashx?command=getcontent&amp;server=images&amp;value=Historie%5C3589A.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/2021659/3589_a</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/api/v2/thumbnail-by-url.json?uri=http%3A%2F%2Fwww.collectiedeventermusea.nl%2Fwwwwopacx%2Fwwwopac.ashx%3Fcommand%3Dgetcontent%26server%3Dimages%26value%3DHistorie%255C3589A.jpg&amp;type=IMAGE</field>
+          <field name="europeana_doc_count">2</field>
+          <field name="europeana_term_hits">8</field>
+          <field name="pagerank">0.5371676630938931</field>
+          <field name="derived_score">115273</field>
+          <field name="suggest_filters">Agent</field>
+          <field name="suggest_filters">in_europeana</field>
+     </doc>
+</add>
