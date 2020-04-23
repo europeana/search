@@ -13,8 +13,10 @@
 
                            // Process each field / split entry from array 
                             var arrayLength = result.length;
-                            for (var i = 0; i < arrayLength; i++) { 
-                              row.put(colNames[i] , result[i]);                    
+                            var resultUdapted;
+                            for (var i = 0; i < arrayLength; i++) {
+                              resultUdapted = result[i].replace("http://wikidata.dbpedia.org/resource/", "http://www.wikidata.org/entity/");
+                              row.put(colNames[i] , resultUdapted);                    
                             }  
                             // add some more info 
                             // row.put('message', 'scriptTransformer:parseTheRow');
