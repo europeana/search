@@ -5,8 +5,8 @@ import sys
 import pdb
 
 
-READ_DIR = '/home/mmarrero/bin/evalTim/log_munge_master/data_21Nov18_21Jan19/entries_by_session'
-WRITE_DIR = 'as_xml'
+READ_DIR = '/media/mmarrero/data/SearchEvaluation/April2020/28Nov19_1Feb2020/entries_by_session'
+WRITE_DIR = '/media/mmarrero/data/SearchEvaluation/April2020/28Nov19_1Feb2020/as_xml'
 
 def parse_filters(raw_filters):
 	# returns a dictionary where the keys are the field name
