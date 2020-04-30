@@ -46,10 +46,7 @@
         </fieldType>
         <!--  ENUMERATIONS -->
         <fieldType name="contentTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
-        <fieldType name="metadataTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="metadata_tier"/>
-        
-        <!-- Field type for nested documents -->
-        <fieldType name="_nest_path_" class="solr.NestPathField" /> <field name="_nest_path_" type="nest_path" /> 
+        <fieldType name="metadataTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="metadata_tier"/> 
 
         <!-- Full text field types -->
         <fieldType name="text_und" class="solr.TextField" positionIncrementGap="100">
@@ -596,12 +593,6 @@
     </types> 
 
     <fields>
-    	<!-- Fields for nested documents -->
-    	<field name="_root_" type="string" indexed="true" stored="false" docValues="false" />
-    	<field name="_nest_parent_" type="string" indexed="true" stored="true"/>
-    	<field name="is_parent" type="boolean" indexed="true" stored="true" multiValued="false"/>
-    
-    	<!-- Fields in Metadata index (except for copy fields) -->
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false"/>
         <field name="has_thumbnails" type="boolean" indexed="true" stored="true" multiValued="false"/>
         <field name="has_media" type="boolean" indexed="true" stored="true" multiValued="false"/>
@@ -787,7 +778,7 @@
         <field name="nif_confidence" type="float" indexed="true" stored="true" multiValued="false"/>
         
 
-        <!-- Full-text fields. StoredOffsets and termVectors for highlighting support -->
+        <!-- full-text fields. StoredOffsets and termVectors for highlighting support -->
         <field name="fulltext." type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext.ar" type="text_ar"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext.bg" type="text_bg"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
