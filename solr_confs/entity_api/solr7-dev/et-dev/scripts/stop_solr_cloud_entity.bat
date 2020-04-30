@@ -1,0 +1,1 @@
+"c:\app\solr-7.7.2\bin\solr.cmd" stop -p 8983

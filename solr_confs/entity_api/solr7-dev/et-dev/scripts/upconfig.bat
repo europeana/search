@@ -1,0 +1,2 @@
+set SDIR=/app/solr-7.7.2
+java -classpath .;%SDIR%/server/lib/ext/*;%SDIR%/server/solr-webapp/webapp/WEB-INF/lib/* org.apache.solr.cloud.ZkCLI -cmd upconfig -zkhost localhost:9983 --confdir ../et-up/conf --confname et-up
