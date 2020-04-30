@@ -593,6 +593,11 @@
     </types> 
 
     <fields>
+    	<!-- Fields for nested documents -in Solr 7- -->
+    	<field name="_root_" type="string" indexed="true" stored="false" multiValued="false"/>
+    	<field name="is_parent" type="boolean" indexed="true" stored="true" multiValued="false"/>
+    	
+    	<!-- Metadata fields, excluding copy fields -->
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false"/>
         <field name="has_thumbnails" type="boolean" indexed="true" stored="true" multiValued="false"/>
         <field name="has_media" type="boolean" indexed="true" stored="true" multiValued="false"/>
