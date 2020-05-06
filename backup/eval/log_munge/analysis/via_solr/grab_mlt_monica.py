@@ -54,13 +54,14 @@ class MLTCandidate:
 		self.lang_code = "en"
 
 	def populate_similar_items(self):
-		uri = "https://www.europeana.eu/portal/" + self.lang_code + self.record_id + "/similar.json"
+		uri = "https://classic.europeana.eu/portal/" + self.lang_code + self.record_id + "/similar.json"
 		try:
 			res = requests.get(uri).json()
 			for doc in res["documents"]:
 				self.similar_items[doc["url"]] = False
+			print("Success URI: " + uri)
 		except Exception as e:
-			print("Exception on: " + str(e))
+			print("Exception on: " + str(e) + " lang:" + str(self.lang_code) + " id:"+str(self.record_id) + " URI: " + str(uri))
 		
 	def query_for_similar_items(self):
 		count = 0
@@ -107,7 +108,7 @@ class MLTCandidate:
 		return self.avg_ndcg
 
 # solr_stub = "http://144.76.218.178:8989/solr/analytics/select?fl=session_id,uri&fq=operation:%22RankedRetrieveRecordInteraction%22&indent=on&q=*:*&wt=json"
-solr_stub = "http://localhost:8983/solr/logAnalysisCustom/select?fl=session_id,uri&fq=operation:%22RankedRetrieveRecordInteraction%22&indent=on&q=*:*&wt=json"
+solr_stub = "http://localhost:8983/solr/logAnalysis/select?fl=session_id,uri&fq=operation:%22RankedRetrieveRecordInteraction%22&indent=on&q=*:*&wt=json"
 json_monica = requests.get(solr_stub).json()
 res_monica = json_monica["response"]
 total_count = res_monica["numFound"]
@@ -144,10 +145,11 @@ percentage_clicked = len(clicked_mlt_candidates) / len(mlt_candidates)
 ndcgs = []
 for clandidate in clicked_mlt_candidates:
 	ndcgs.append(clandidate.get_avg_ndcg())
+print("Percentage clicked: " + str(percentage_clicked))
 print(ndcgs)
 total_avg_ndcg = sum(ndcgs) / len(ndcgs)
 
-print("Percentage clicked: " + str(percentage_clicked))
+
 print("Avg nDCG: " + str(total_avg_ndcg))
 
 

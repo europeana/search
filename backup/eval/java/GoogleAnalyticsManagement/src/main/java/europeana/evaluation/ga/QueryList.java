@@ -183,10 +183,12 @@ public class QueryList<T extends BasicQuery> {
 			List<ReportRow> rows = report.getData().getRows();
 			
 			for (ReportRow row: rows) {
+				
 				List<String> dimensions = row.getDimensions();
 				List<DateRangeValues> metrics = row.getMetrics();
 				String dim = dimensions.get(indexPage);
 				String query = dimensions.get(indexTerm);
+				try {
 				Matcher matcherPortal = portalPat.matcher(dim);
 				Matcher matcherCollections = collectionsPat.matcher(dim);
 				String lang,cname;
@@ -204,10 +206,14 @@ public class QueryList<T extends BasicQuery> {
 					Integer uniqueViews = Integer.parseInt(metrics.get(0).getValues().get(0));
 					
 					
-					queries.add((T) T.CreateQuery(query, lang, cname, uniqueViews, solrClient));
+					//TODO: I can't use override in static methods so this is not working, I have to change the class from Basic
+					queries.add((T) EntityQuery.CreateQuery(query, lang, cname, uniqueViews, solrClient));
 				} else {
 					System.out.println("Not processed ga:searchStartPage = " + dim);
 					//throw new IllegalArgumentException("Regex didn't recognize dimension " + report.getColumnHeader().getDimensions().get(indexPage) + ": " + dim);
+				}
+				} catch (Exception e) {
+					logger.error("Processing row " + query);
 				}
 			}
 		}

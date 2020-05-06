@@ -75,7 +75,7 @@ public class Process {
 		QueryList<EntityQuery> entityList = new QueryList<EntityQuery>(gakey, startDate, endDate, gaSamplingLevel, client);
 		entityList.Filter_SimpleQueries();
 		entityList.Filter_UniquePageViews(10);
-		//entityList.Sample(sampleSize);
+		entityList.Sample(sampleSize);
 		
 		OutputStream os_entity = new FileOutputStream("query_sample_entity.csv"); 
 		entityList.Print(os_entity);
