@@ -1705,6 +1705,19 @@
     </highlighting>
   </searchComponent>
 
+
+	<!-- Block join faceting component and search handler -->
+	 ​<searchComponent name="bjqFacetComponent" class="org.apache.solr.search.join.BlockJoinDocSetFacetComponent"/>
+
+	  ​<requestHandler name="/bjqfacet" class="org.apache.solr.handler.component.SearchHandler">
+	   ​<lst name="defaults">
+	     ​<str name="shards.qt">/bjqfacet</str>
+	   ​</lst>
+	   ​<arr name="last-components">
+	     ​<str>bjqFacetComponent</str>
+	   ​</arr>
+	 ​</requestHandler>
+
   <!-- Update Processors
 
        Chains of Update Processor Factories for dealing with Update
