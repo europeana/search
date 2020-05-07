@@ -77,9 +77,15 @@ public class Process {
 	private static List<Entry> ImportEntries(Path data) throws IOException {
 		List<Entry> entries = new ArrayList<Entry>();
 		File[] files = data.toFile().listFiles();
+		int nfiles = 0;
 		for (File file: files) {
 			if (file.isFile()) {
+				System.out.println(nfiles++);
+				if (nfiles > 1000000) {
+					break;
+				}
 				List<String> lines = Files.readAllLines(file.toPath());
+
 				for (String line: lines) {
 					String[] items = line.split("\t");
 					if (items.length > 0 && items[0].equals("SearchInteraction") && items.length == 6) {
@@ -192,7 +198,8 @@ public class Process {
 			for (int i = 1; i <= maxRank; i++) {
 				if (!e.getIdsClicked().values().contains(i)) {
 					Double score = (maxRank / Double.valueOf(i)) / maxRank;
-					pw.write(e.hashCode() + " " + "Logs" + " " + i + " " + e.hashCode()+"-"+ i + " " + score +  " " + "Logs" + "\n");
+					//pw.write(e.hashCode() + " " + "Logs" + " " + i + " " + e.hashCode()+"-"+ i + " " + score +  " " + "Logs" + "\n");
+					pw.write(e.hashCode() + " " + "Logs" + " " +  e.hashCode()+"-"+ i + " " + i + " " + score +  " " + "Logs" + "\n");
 				}
 			}
 			for (String doc:e.getIdsClicked().keySet()) {
@@ -213,17 +220,20 @@ public class Process {
 
 	public static void main(String[] args) throws IOException {
 		try {
-			System.out.println("Processing...");
+			System.out.println("Reading data...");
 			InputStream is = Process.class.getClassLoader().getResourceAsStream("resources/log4j.properties");
 			PropertyConfigurator.configure(is);
 			Properties prop;
 			prop = Utils.readProperties(Process.class.getClassLoader().getResourceAsStream("resources/config.properties"));
 			Path data = Paths.get(prop.getProperty("path"));
 			List<Entry> entries = ImportEntries(data);
+			
+			System.out.println("Processing...");
 			//entries = entries.stream().filter(p -> p.getHits() > 0).collect(Collectors.toList());
 			List<Entry> queriesWkeywords = entries.stream().filter(p -> (!p.query.equals("") && !p.query.equals("NO VALUE PROVIDED") && !p.query.equals("*") && !p.query.equals("*:*"))).collect(Collectors.toList());
 			List<Entry> queriesOnlyFilter = entries.stream().filter(p -> ((p.query.equals("") || p.query.equals("NO VALUE PROVIDED") || p.query.equals("*") || p.query.equals("*:*")))).collect(Collectors.toList());
 
+			System.out.println("Calculating stats...");
 			OutputStream stats = new FileOutputStream("stats_all.txt");
 			PrintStatisticsQueries(stats, entries, "All queries");
 			stats.close();
@@ -235,6 +245,8 @@ public class Process {
 			stats.close();
 			//List<Session> session = ImportSessions(data);
 			//PrintStatisticsSessions(session);
+			
+			System.out.println("Generating TREC files...");
 			OutputStream qrel = new FileOutputStream("qrel_all.txt");
 			OutputStream res = new FileOutputStream("res_all.txt");
 			printTRECfiles(entries, qrel, res);
