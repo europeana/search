@@ -596,6 +596,7 @@
     	<!-- Fields for nested documents -in Solr 7- -->
     	<field name="_root_" type="string" indexed="true" stored="false" multiValued="false"/> <!--  required nested docs -->
     	<field name="is_parent" type="boolean" indexed="true" stored="true" multiValued="false"/>
+    	 <field name="web_resource_id" type="string" indexed="true" stored="true" multiValued="false"/>
     	<!--  <field name="root" type="string" indexed="true" stored="true" multiValued="false"/> --> 
     	
     	<!-- Metadata fields, excluding copy fields -->
