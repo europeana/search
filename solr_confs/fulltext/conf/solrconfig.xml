@@ -1271,8 +1271,8 @@
       
       <!-- Highlighting -->
       <str name="hl.fl">fulltext.*</str>
-      <str name="hl.method">unified</str>
-      <str name="hl.maxAnalizedChars">1000000</str>
+<!--       <str name="hl.method">unified</str> -->
+<!--       <str name="hl.maxAnalizedChars">1000000</str> -->
       
       <!-- Faceting -->
       <str name="f.TYPE.facet.method">enum</str>
