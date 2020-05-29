@@ -37,9 +37,11 @@
 			docValues="true" multiValued="true" />
 		<fieldType name="pdoubles" class="solr.DoublePointField"
 			docValues="true" multiValued="true" />
+			-->
+		
 		<fieldType name="random" class="solr.RandomSortField"
 			indexed="true" />
-		-->
+		
 		<fieldType name="date" class="solr.DatePointField"
 			omitNorms="true" />
 		<!-- DEPRECATED to be changed to solr.LatLonPointSpatialField in solr 6.6 -->
@@ -535,7 +537,10 @@
 		<!-- ConceptScheme fields -->
 		<dynamicField name="skos_definition.*" type="string"
 			indexed="false" stored="true" multiValued="false" />
-
+		
+		<!-- Random Search -->
+		<dynamicField name="random_*" type="random" />
+		
 		<!-- COPYFIELDS -->
 		<!-- note that many 'copyfields' are populated artificially during the 
 			import process rather than relying on Solr built-in functionality. In particular, 
