@@ -1271,10 +1271,11 @@
       
       <!-- Highlighting -->
       <str name="hl.fl">fulltext.*</str>
-      <str name="hl.method">unified</str>
-      <str name="hl.maxAnalizedChars">1000000</str>
-      <str name="f.title.hl.offsetSource">ANALYSIS</str> <!-- Fields 'title' and 'where' generate an error with the unified highligther -->
-      <str name="f.where.hl.offsetSource">ANALYSIS</str>
+      <!-- <str name="hl.method">unified</str> -->
+      <!-- <str name="hl.maxAnalizedChars">1000000</str> -->
+      <!-- Fields 'title' and 'where' generate an error with the unified highligther -->
+      <!--  <str name="f.title.hl.offsetSource">ANALYSIS</str>  -->
+      <!--  <str name="f.where.hl.offsetSource">ANALYSIS</str>  -->
       
       <!-- Faceting -->
       <str name="f.TYPE.facet.method">enum</str>
