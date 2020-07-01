@@ -593,10 +593,9 @@
     </types> 
 
     <fields>
-    	<!-- Fields for nested documents -in Solr 7- -->
-    	<field name="_root_" type="string" indexed="true" stored="false" multiValued="false"/> <!--  required nested docs -->
-    	<field name="is_parent" type="boolean" indexed="true" stored="true" multiValued="false"/>
-    	<field name="root" type="string" indexed="true" stored="true" multiValued="false"/> 
+    	<!-- Fields for indexing independent documents for CHOs and fulltext resources -->
+    	<field name="_isParent" type="boolean" indexed="true" stored="true" multiValued="false"/>
+    	<field name="_parent" type="string" indexed="true" stored="true" multiValued="false"/> 
     	
     	<!-- Metadata fields, excluding copy fields -->
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false"/>
@@ -785,7 +784,8 @@
         
 
         <!-- full-text fields. StoredOffsets and termVectors for highlighting support -->
-        <field name="fulltext." type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <dynamicField name="fulltext.*" type="text_und" indexed="true" stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
+        <!--  <field name="fulltext." type="text_und"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/> -->
         <field name="fulltext.ar" type="text_ar"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext.bg" type="text_bg"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
         <field name="fulltext.bs" type="text_stokavian"  indexed="true"  stored="true" storeOffsetsWithPositions="true" termVectors="true"/>
