@@ -269,7 +269,7 @@
 		<!-- some Agent-related date fields. Check datatyping -->
 		<!-- BEGIN RELATED FIELDS -->
 		<field name="edm_begin" type="string" indexed="false"
-			stored="true" multiValued="true" />
+			stored="true" multiValued="false" />
 		<field name="rdagr2_dateOfBirth" type="string" indexed="false"
 			stored="true" multiValued="true" />
 		<dynamicField name="rdagr2_dateOfBirth.*" type="string"
@@ -299,7 +299,7 @@
 
 		<!-- END RELATED FIELDS -->
 		<field name="edm_end" type="string" indexed="false"
-			stored="true" multiValued="true" />
+			stored="true" multiValued="false" />
 		<dynamicField name="rdagr2_dateOfDeath.*" type="string"
 			indexed="false" stored="true" multiValued="false" />
 		<field name="rdagr2_dateOfDeath" type="string" indexed="false"
