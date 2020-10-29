@@ -51,6 +51,7 @@
         <!-- Full text field types -->
         <fieldType name="text_und" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
+            	<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory" />
                 <filter class="solr.ASCIIFoldingFilterFactory" />
@@ -63,6 +64,7 @@
         <fieldType name="text_sk" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> --> 
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_sk.txt" />
@@ -74,6 +76,7 @@
         <fieldType name="text_stokavian" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.SerbianNormalizationFilterFactory" haircut="bald"/>
@@ -83,6 +86,7 @@
         <fieldType name="text_ji" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.ICUTokenizerFactory" />
                 <filter class="solr.LowerCaseFilterFactory" />
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_yid.txt"/>
@@ -96,6 +100,7 @@
         <fieldType name="text_ar" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <!-- for any non-arabic -->
                 <filter class="solr.LowerCaseFilterFactory"/>
@@ -110,6 +115,7 @@
         <fieldType name="text_bg" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/> 
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_bg.txt" /> 
@@ -121,6 +127,7 @@
         <fieldType name="text_ca" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <!-- removes l', etc -->
                 <filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_ca.txt"/>
@@ -134,6 +141,7 @@
         <fieldType name="text_cjk" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <!-- normalize width before bigram, as e.g. half-width dakuten combine  -->
                 <filter class="solr.CJKWidthFilterFactory"/>
@@ -147,6 +155,7 @@
         <fieldType name="text_cs" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_cz.txt" />
@@ -158,6 +167,7 @@
         <fieldType name="text_da" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_da.txt" format="snowball" />
@@ -169,6 +179,7 @@
         <fieldType name="text_de" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_de.txt" format="snowball" />
@@ -183,6 +194,7 @@
         <fieldType name="text_el" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <!-- greek specific lowercase for sigma -->
                 <filter class="solr.GreekLowerCaseFilterFactory"/>
@@ -195,6 +207,7 @@
         <fieldType name="text_en" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory" />
                 <filter class="solr.LowerCaseFilterFactory" />
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
@@ -206,6 +219,7 @@
         <fieldType name="text_es" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_es.txt" format="snowball" />
@@ -228,6 +242,7 @@
         <fieldType name="text_eu" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_eu.txt" />
@@ -240,6 +255,7 @@
             <analyzer>
                 <!-- for ZWNJ -->
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <charFilter class="solr.PersianCharFilterFactory"/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
@@ -253,6 +269,7 @@
         <fieldType name="text_fi" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_fi.txt" format="snowball" />
@@ -265,6 +282,7 @@
         <fieldType name="text_fr" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <!-- removes l', etc -->
                 <filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_fr.txt"/>
@@ -280,6 +298,7 @@
         <fieldType name="text_ga" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <!-- removes d', etc -->
                 <filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_ga.txt"/>
@@ -295,6 +314,7 @@
         <fieldType name="text_gl" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_gl.txt" />
@@ -307,6 +327,7 @@
         <fieldType name="text_hi" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <!-- normalizes unicode representation -->
@@ -322,6 +343,7 @@
         <fieldType name="text_hu" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_hu.txt" format="snowball" />
@@ -334,6 +356,7 @@
         <fieldType name="text_hy" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_hy.txt" />
@@ -345,6 +368,7 @@
         <fieldType name="text_id" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_id.txt" />
@@ -357,6 +381,7 @@
       <fieldType name="text_it" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <!-- removes l', etc -->
                 <filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_it.txt"/>
@@ -401,6 +426,7 @@
                    Punctuation characters are discarded by default.  Use discardPunctuation="false" to keep them.
                 -->
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.JapaneseTokenizerFactory" mode="search"/>
                 <!--<tokenizer class="solr.JapaneseTokenizerFactory" mode="search" userDictionary="lang/userdict_ja.txt"/>-->
                 <!-- Reduces inflected verbs and adjectives to their base/dictionary forms (辞書形) -->
@@ -439,6 +465,7 @@
                     * outputUnknownUnigrams: If true outputs unigrams for unknown words.
                 -->
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.KoreanTokenizerFactory" decompoundMode="discard" outputUnknownUnigrams="false"/>
                 <!-- Removes some part of speech stuff like EOMI (Pos.E), you can add a parameter 'tags',
                   listing the tags to remove. By default it removes: 
@@ -456,6 +483,7 @@
         <fieldType name="text_la" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.ThaiTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_lat.txt" />
@@ -466,6 +494,7 @@
         <fieldType name="text_lv" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_lv.txt" />
@@ -477,6 +506,7 @@
         <fieldType name="text_nl" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_nl.txt" format="snowball" />
@@ -489,6 +519,7 @@
         <fieldType name="text_no" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_no.txt" format="snowball" />
@@ -502,6 +533,7 @@
         <fieldType name="text_pl" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_pol.txt" format="snowball" />
@@ -513,6 +545,7 @@
       <fieldType name="text_pt" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_pt.txt" format="snowball" />
@@ -527,6 +560,7 @@
         <fieldType name="text_ro" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_ro.txt" />
@@ -538,6 +572,7 @@
         <fieldType name="text_ru" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_ru.txt" format="snowball" />
@@ -550,6 +585,7 @@
         <fieldType name="text_sv" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_sv.txt" format="snowball" />
@@ -562,6 +598,7 @@
         <fieldType name="text_th" class="solr.TextField" positionIncrementGap="100">
             <analyzer>
                 <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>
                 <tokenizer class="solr.ThaiTokenizerFactory"/>
                 <filter class="solr.LowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_th.txt" />
@@ -571,7 +608,8 @@
         <!-- Turkish -->
         <fieldType name="text_tr" class="solr.TextField" positionIncrementGap="100">
             <analyzer> 
-                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->         
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->  
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/>       
                 <tokenizer class="solr.StandardTokenizerFactory"/>
                 <filter class="solr.TurkishLowerCaseFilterFactory"/>
                 <filter class="solr.StopFilterFactory" ignoreCase="false" words="lang/stopwords_tr.txt" />
