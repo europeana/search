@@ -1530,7 +1530,7 @@
   
   <initParams path="/update/**,/query,/select,/tvrh,/elevate,/spell,/browse">
     <lst name="defaults">
-      <str name="df">fulltext.</str>
+      <str name="df">text</str>
     </lst>
   </initParams>
 
