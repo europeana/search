@@ -7,18 +7,13 @@
 			sortMissingLast="true" />
 		<fieldType name="json" class="solr.StrField"
 			sortMissingLast="true" />
-
+<!-- 
 		<fieldType name="strings" class="solr.StrField"
 			sortMissingLast="true" multiValued="true" docValues="true" />
-
+ -->
 		<!-- boolean type: "true" or "false" -->
 		<fieldType name="boolean" class="solr.BoolField"
 			sortMissingLast="true" />
-
-		<!-- 
-		<fieldType name="booleans" class="solr.BoolField"
-			sortMissingLast="true" multiValued="true" />
-	 	-->
 
 		<!-- Numeric field types that index values using KD-trees. Point fields 
 			don't support FieldCache, so they must have docValues="true" if needed for 
@@ -27,24 +22,12 @@
 		<fieldType name="float" class="solr.FloatPointField" />
 		<fieldType name="long" class="solr.LongPointField" />
 		<fieldType name="double" class="solr.DoublePointField" />
-
-		<!-- 
-		<fieldType name="pints" class="solr.IntPointField"
-			docValues="true" multiValued="true" />
-		<fieldType name="pfloats" class="solr.FloatPointField"
-			docValues="true" multiValued="true" />
-		<fieldType name="plongs" class="solr.LongPointField"
-			docValues="true" multiValued="true" />
-		<fieldType name="pdoubles" class="solr.DoublePointField"
-			docValues="true" multiValued="true" />
-			-->
 		
 		<fieldType name="random" class="solr.RandomSortField"
 			indexed="true" />
 		
 		<fieldType name="date" class="solr.DatePointField"
 			omitNorms="true" />
-		<!-- DEPRECATED to be changed to solr.LatLonPointSpatialField in solr 6.6 -->
 		<fieldType name="location"
 			class="solr.LatLonPointSpatialField" docValues="true" />
 
@@ -83,6 +66,17 @@
 		</fieldType>
 
 		<fieldType name="proper_name" class="solr.TextField"
+			positionIncrementGap="100">
+			<analyzer>
+				<tokenizer class="solr.WhitespaceTokenizerFactory" />
+				<filter class="solr.PatternReplaceFilterFactory"
+					pattern="^\p{Punct}*(.+?)\p{Punct}*$" replacement="$1" />
+				<filter class="solr.ASCIIFoldingFilterFactory" />
+				<filter class="solr.LowerCaseFilterFactory" />
+				<filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+			</analyzer>
+		</fieldType>
+		<fieldType name="proper_name_sortable" class="solr.SortableTextField"
 			positionIncrementGap="100">
 			<analyzer>
 				<tokenizer class="solr.WhitespaceTokenizerFactory" />
@@ -145,21 +139,21 @@
 
 		<!-- entity fields -->
 		<!-- suggester field populated by import scripts -->
-		<field name="skos_prefLabel" type="proper_name" indexed="true"
-			stored="true" multiValued="false" />
+		<field name="skos_prefLabel" type="proper_name_sortable" indexed="true"
+			stored="true" multiValued="false"/>
 
 		<dynamicField name="skos_prefLabel.*" type="string"
-			indexed="false" stored="true" multiValued="false" />
+			indexed="false" stored="true" multiValued="false" docValues="true"/>
 		<dynamicField name="skos_altLabel.*" type="string"
-			indexed="false" stored="true" multiValued="true" />
+			indexed="false" stored="true" multiValued="true" docValues="true"/>
 		<dynamicField name="skos_hiddenLabel.*" type="string"
-			indexed="false" stored="true" multiValued="true" />
+			indexed="false" stored="true" multiValued="true"/>
 		<dynamicField name="skos_note.*" type="string"
 			indexed="false" stored="true" multiValued="true" />
-		<field name="label" type="proper_name" indexed="true"
-			stored="true" multiValued="true" />
-		<dynamicField name="label.*" type="proper_name"
-			indexed="true" stored="true" multiValued="true" />
+		<field name="label" type="proper_name_sortable" indexed="true"
+			stored="true" multiValued="true"/>
+		<dynamicField name="label.*" type="proper_name_sortable"
+			indexed="true" stored="true" multiValued="true"/>
 		<copyField source="skos_prefLabel.*" dest="label" />
 		<copyField source="skos_prefLabel.*" dest="label.*" />
 		<copyField source="skos_altLabel.*" dest="label" />
@@ -275,7 +269,7 @@
 		<!-- some Agent-related date fields. Check datatyping -->
 		<!-- BEGIN RELATED FIELDS -->
 		<field name="edm_begin" type="string" indexed="false"
-			stored="true" multiValued="true" />
+			stored="true" multiValued="false" />
 		<field name="rdagr2_dateOfBirth" type="string" indexed="false"
 			stored="true" multiValued="true" />
 		<dynamicField name="rdagr2_dateOfBirth.*" type="string"
@@ -305,7 +299,7 @@
 
 		<!-- END RELATED FIELDS -->
 		<field name="edm_end" type="string" indexed="false"
-			stored="true" multiValued="true" />
+			stored="true" multiValued="false" />
 		<dynamicField name="rdagr2_dateOfDeath.*" type="string"
 			indexed="false" stored="true" multiValued="false" />
 		<field name="rdagr2_dateOfDeath" type="string" indexed="false"
