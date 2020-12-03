@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/1</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">1. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">Ensimmäinen vuosisata</field>
+          <field name="skos_prefLabel.ru">I век</field>
+          <field name="skos_prefLabel.pt">século I</field>
+          <field name="skos_prefLabel.bg">1 век</field>
+          <field name="skos_prefLabel.lt">I amžius</field>
+          <field name="skos_prefLabel.lv">1. gadsimts</field>
+          <field name="skos_prefLabel.hr">1. stoljeće</field>
+          <field name="skos_prefLabel.fr">Ier siècle</field>
+          <field name="skos_prefLabel.hu">1. század</field>
+          <field name="skos_prefLabel.sk">1. storočie</field>
+          <field name="skos_prefLabel.sl">1. stoletje</field>
+          <field name="skos_prefLabel.ga">1ú haois</field>
+          <field name="skos_prefLabel.ca">segle I</field>
+          <field name="skos_prefLabel.sv">000-talet</field>
+          <field name="skos_prefLabel.el">1ος αιώνας</field>
+          <field name="skos_prefLabel.en">1st century</field>
+          <field name="skos_prefLabel.it">I secolo</field>
+          <field name="skos_prefLabel.es">siglo I</field>
+          <field name="skos_prefLabel.et">1. sajand</field>
+          <field name="skos_prefLabel.cs">1. století</field>
+          <field name="skos_prefLabel.pl">I wiek</field>
+          <field name="skos_prefLabel.da">1. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul I</field>
+          <field name="skos_prefLabel.nl">1e eeuw</field>
+          <field name="skos_altLabel.ru">1 век</field>
+          <field name="skos_altLabel.sv">000-tal</field>
+          <field name="skos_altLabel.sv">1:a seklet</field>
+          <field name="skos_altLabel.sv">1:a århundradet</field>
+          <field name="skos_altLabel.en">1st-century</field>
+          <field name="skos_altLabel.it">I Secolo D.C.</field>
+          <field name="skos_altLabel.it">Primo secolo</field>
+          <field name="skos_altLabel.it">I Secolo</field>
+          <field name="skos_altLabel.it">Secolo I</field>
+          <field name="skos_altLabel.it">1° secolo</field>
+          <field name="skos_altLabel.it">I sec. d.C.</field>
+          <field name="skos_altLabel.it">I secolo d.C.</field>
+          <field name="skos_altLabel.ca">segle I dC</field>
+          <field name="skos_hiddenLabel.ru">1й век</field>
+          <field name="skos_hiddenLabel.fr">1er siècle</field>
+          <field name="skos_hiddenLabel.nl">1ste eeuw</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q8106</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404493</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02820627n</field>
+          <field name="owl_sameAs">http://semium.org/time/00xx</field>
+          <field name="edm_begin">0001-01-01</field>
+          <field name="edm_end">0100-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD1xxx</field>
+          <field name="isShownBy">https://lh4.ggpht.com/6F6o5WKGTq8XtisUEXLjwnd0kA5cdTuXZ8HC1zScDFMuCt8--djkmPyDsHevbkefcF6FL2ikEZ-pFRHcepouGjmvW54=s0</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/90402/RP_P_OB_76_852</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Flh4.ggpht.com%2F6F6o5WKGTq8XtisUEXLjwnd0kA5cdTuXZ8HC1zScDFMuCt8--djkmPyDsHevbkefcF6FL2ikEZ-pFRHcepouGjmvW54%3Ds0&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/1&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;1. Jahrhundert&quot;, &quot;fi&quot;: &quot;Ensimm\u00e4inen vuosisata&quot;, &quot;ru&quot;: &quot;I \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo I&quot;, &quot;bg&quot;: &quot;1 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;I am\u017eius&quot;, &quot;lv&quot;: &quot;1. gadsimts&quot;, &quot;hr&quot;: &quot;1. stolje\u0107e&quot;, &quot;fr&quot;: &quot;Ier si\u00e8cle&quot;, &quot;hu&quot;: &quot;1. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;1. storo\u010die&quot;, &quot;sl&quot;: &quot;1. stoletje&quot;, &quot;ga&quot;: &quot;1\u00fa haois&quot;, &quot;ca&quot;: &quot;segle I&quot;, &quot;sv&quot;: &quot;000-talet&quot;, &quot;el&quot;: &quot;1\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;1st century&quot;, &quot;it&quot;: &quot;I secolo&quot;, &quot;es&quot;: &quot;siglo I&quot;, &quot;et&quot;: &quot;1. sajand&quot;, &quot;cs&quot;: &quot;1. stolet\u00ed&quot;, &quot;pl&quot;: &quot;I wiek&quot;, &quot;da&quot;: &quot;1. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul I&quot;, &quot;nl&quot;: &quot;1e eeuw&quot;}, &quot;altLabel&quot;: {&quot;ru&quot;: [&quot;1 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;000-tal&quot;, &quot;1:a seklet&quot;, &quot;1:a \u00e5rhundradet&quot;], &quot;en&quot;: [&quot;1st-century&quot;], &quot;it&quot;: [&quot;I Secolo D.C.&quot;, &quot;Primo secolo&quot;, &quot;I Secolo&quot;, &quot;Secolo I&quot;, &quot;1\u00b0 secolo&quot;, &quot;I sec. d.C.&quot;, &quot;I secolo d.C.&quot;], &quot;ca&quot;: [&quot;segle I dC&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://lh4.ggpht.com/6F6o5WKGTq8XtisUEXLjwnd0kA5cdTuXZ8HC1zScDFMuCt8--djkmPyDsHevbkefcF6FL2ikEZ-pFRHcepouGjmvW54=s0&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/90402/RP_P_OB_76_852&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Flh4.ggpht.com%2F6F6o5WKGTq8XtisUEXLjwnd0kA5cdTuXZ8HC1zScDFMuCt8--djkmPyDsHevbkefcF6FL2ikEZ-pFRHcepouGjmvW54%3Ds0&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;0001-01-01&quot;, &quot;end&quot;: &quot;0100-12-31&quot;}</field>
+          <field name="skos_prefLabel">000-talet_1 век_1. Jahrhundert_1. gadsimts_1. sajand_1. stoletje_1. století_1. stoljeće_1. storočie_1. század_1. århundrede_1e eeuw_1st century_1ú haois_1ος αιώνας_Ensimmäinen vuosisata_I_I amžius_I secolo_I wiek_I век_Ier siècle_Jahrhundert_Secolul I_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle I_siglo I_siècle_stoletje_století_stoljeće_storočie_század_século I_vuosisata_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">57922</field>
+          <field name="pagerank">368.618935286574</field>
+          <field name="derived_score">10395991</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

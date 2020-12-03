@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/6</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">6. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">VI век</field>
+          <field name="skos_prefLabel.fi">500-luku</field>
+          <field name="skos_prefLabel.pt">século VI</field>
+          <field name="skos_prefLabel.bg">6 век</field>
+          <field name="skos_prefLabel.lt">VI amžius</field>
+          <field name="skos_prefLabel.lv">6. gadsimts</field>
+          <field name="skos_prefLabel.hr">6. stoljeće</field>
+          <field name="skos_prefLabel.fr">VIe siècle</field>
+          <field name="skos_prefLabel.hu">6. század</field>
+          <field name="skos_prefLabel.sk">6. storočie</field>
+          <field name="skos_prefLabel.sl">6. stoletje</field>
+          <field name="skos_prefLabel.ga">6ú haois</field>
+          <field name="skos_prefLabel.ca">segle VI</field>
+          <field name="skos_prefLabel.sv">500-talet</field>
+          <field name="skos_prefLabel.el">6ος αιώνας</field>
+          <field name="skos_prefLabel.en">6th century</field>
+          <field name="skos_prefLabel.it">VI secolo</field>
+          <field name="skos_prefLabel.es">siglo VI</field>
+          <field name="skos_prefLabel.et">6. sajand</field>
+          <field name="skos_prefLabel.cs">6. století</field>
+          <field name="skos_prefLabel.pl">VI wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al VI-lea</field>
+          <field name="skos_prefLabel.da">6. århundrede</field>
+          <field name="skos_prefLabel.nl">6e eeuw</field>
+          <field name="skos_altLabel.sv">500-tal</field>
+          <field name="skos_altLabel.sv">6:e seklet</field>
+          <field name="skos_altLabel.sv">500-talet (sekel)</field>
+          <field name="skos_altLabel.sv">6:e århundradet</field>
+          <field name="skos_altLabel.sv">500-talet (århundrade)</field>
+          <field name="skos_altLabel.en">6th-century</field>
+          <field name="skos_altLabel.it">VI secolo d.C.</field>
+          <field name="skos_altLabel.it">6° secolo</field>
+          <field name="skos_altLabel.it">Secolo VI</field>
+          <field name="skos_hiddenLabel.ru">6й век</field>
+          <field name="skos_hiddenLabel.fr">6e siècle</field>
+          <field name="skos_hiddenLabel.nl">6de eeuw</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404498</field>
+          <field name="owl_sameAs">http://semium.org/time/05xx</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q8090</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02829992n</field>
+          <field name="edm_begin">0501-01-01</field>
+          <field name="edm_end">0600-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD1xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/5</field>
+          <field name="isShownBy">http://resolver.kb.nl/resolve?urn=BYVANCKB:mimi_ka20:158r_min_a-c</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/9200122/BibliographicResource_1000056123603</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DBYVANCKB%3Amimi_ka20%3A158r_min_a-c&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/6&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;6. Jahrhundert&quot;, &quot;ru&quot;: &quot;VI \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;500-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo VI&quot;, &quot;bg&quot;: &quot;6 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;VI am\u017eius&quot;, &quot;lv&quot;: &quot;6. gadsimts&quot;, &quot;hr&quot;: &quot;6. stolje\u0107e&quot;, &quot;fr&quot;: &quot;VIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;6. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;6. storo\u010die&quot;, &quot;sl&quot;: &quot;6. stoletje&quot;, &quot;ga&quot;: &quot;6\u00fa haois&quot;, &quot;ca&quot;: &quot;segle VI&quot;, &quot;sv&quot;: &quot;500-talet&quot;, &quot;el&quot;: &quot;6\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;6th century&quot;, &quot;it&quot;: &quot;VI secolo&quot;, &quot;es&quot;: &quot;siglo VI&quot;, &quot;et&quot;: &quot;6. sajand&quot;, &quot;cs&quot;: &quot;6. stolet\u00ed&quot;, &quot;pl&quot;: &quot;VI wiek&quot;, &quot;ro&quot;: &quot;Secolul al VI-lea&quot;, &quot;da&quot;: &quot;6. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;6e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;500-tal&quot;, &quot;6:e seklet&quot;, &quot;500-talet (sekel)&quot;, &quot;6:e \u00e5rhundradet&quot;, &quot;500-talet (\u00e5rhundrade)&quot;], &quot;en&quot;: [&quot;6th-century&quot;], &quot;it&quot;: [&quot;VI secolo d.C.&quot;, &quot;6\u00b0 secolo&quot;, &quot;Secolo VI&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://resolver.kb.nl/resolve?urn=BYVANCKB:mimi_ka20:158r_min_a-c&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/9200122/BibliographicResource_1000056123603&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DBYVANCKB%3Amimi_ka20%3A158r_min_a-c&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;0501-01-01&quot;, &quot;end&quot;: &quot;0600-12-31&quot;}</field>
+          <field name="skos_prefLabel">500-luku_500-talet_6 век_6. Jahrhundert_6. gadsimts_6. sajand_6. stoletje_6. století_6. stoljeće_6. storočie_6. század_6. århundrede_6e eeuw_6th century_6ú haois_6ος αιώνας_Jahrhundert_Secolul al VI-lea_VI_VI amžius_VI secolo_VI wiek_VI век_VI-lea_VIe siècle_al VI-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle VI_siglo VI_siècle_stoletje_století_stoljeće_storočie_század_século VI_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">5374</field>
+          <field name="pagerank">475.72680176065995</field>
+          <field name="derived_score">8805275</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

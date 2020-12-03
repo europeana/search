@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/13</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">13. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">XIII век</field>
+          <field name="skos_prefLabel.fi">1200-luku</field>
+          <field name="skos_prefLabel.pt">século XIII</field>
+          <field name="skos_prefLabel.bg">13 век</field>
+          <field name="skos_prefLabel.lt">XIII amžius</field>
+          <field name="skos_prefLabel.hr">13. stoljeće</field>
+          <field name="skos_prefLabel.lv">13. gadsimts</field>
+          <field name="skos_prefLabel.fr">XIIIe siècle</field>
+          <field name="skos_prefLabel.hu">13. század</field>
+          <field name="skos_prefLabel.sk">13. storočie</field>
+          <field name="skos_prefLabel.sl">13. stoletje</field>
+          <field name="skos_prefLabel.ga">13ú haois</field>
+          <field name="skos_prefLabel.ca">segle XIII</field>
+          <field name="skos_prefLabel.sv">1200-talet</field>
+          <field name="skos_prefLabel.el">13ος αιώνας</field>
+          <field name="skos_prefLabel.en">13th century</field>
+          <field name="skos_prefLabel.it">XIII secolo</field>
+          <field name="skos_prefLabel.es">siglo XIII</field>
+          <field name="skos_prefLabel.et">13. sajand</field>
+          <field name="skos_prefLabel.cs">13. století</field>
+          <field name="skos_prefLabel.pl">XIII wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al XIII-lea</field>
+          <field name="skos_prefLabel.da">13. århundrede</field>
+          <field name="skos_prefLabel.nl">13e eeuw</field>
+          <field name="skos_altLabel.ru">13 век</field>
+          <field name="skos_altLabel.sv">1200-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">13:e århundradet</field>
+          <field name="skos_altLabel.sv">13:e seklet</field>
+          <field name="skos_altLabel.sv">1200-tal</field>
+          <field name="skos_altLabel.en">13th-century</field>
+          <field name="skos_altLabel.en">13. century</field>
+          <field name="skos_altLabel.it">Duecento</field>
+          <field name="skos_altLabel.it">XIII secolo d.C.</field>
+          <field name="skos_altLabel.it">Secolo XIII</field>
+          <field name="skos_altLabel.it">13° secolo</field>
+          <field name="skos_altLabel.fr">13e siècle</field>
+          <field name="skos_hiddenLabel.">13..</field>
+          <field name="skos_hiddenLabel.">13??</field>
+          <field name="skos_hiddenLabel.">13e</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85134907</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q7049</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02821113n</field>
+          <field name="owl_sameAs">http://semium.org/time/12xx</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404505</field>
+          <field name="edm_begin">1201-01-01</field>
+          <field name="edm_end">1300-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/12</field>
+          <field name="isShownBy">http://images.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size3/UoEsha-4-NA/1009/0003513c.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/9200264/BibliographicResource_3000058485005</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimages.is.ed.ac.uk%2FMediaManager%2Fsrvr%3Fmediafile%3D%2FSize3%2FUoEsha-4-NA%2F1009%2F0003513c.jpg&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/13&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;13. Jahrhundert&quot;, &quot;ru&quot;: &quot;XIII \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;1200-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo XIII&quot;, &quot;bg&quot;: &quot;13 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XIII am\u017eius&quot;, &quot;hr&quot;: &quot;13. stolje\u0107e&quot;, &quot;lv&quot;: &quot;13. gadsimts&quot;, &quot;fr&quot;: &quot;XIIIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;13. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;13. storo\u010die&quot;, &quot;sl&quot;: &quot;13. stoletje&quot;, &quot;ga&quot;: &quot;13\u00fa haois&quot;, &quot;ca&quot;: &quot;segle XIII&quot;, &quot;sv&quot;: &quot;1200-talet&quot;, &quot;el&quot;: &quot;13\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;13th century&quot;, &quot;it&quot;: &quot;XIII secolo&quot;, &quot;es&quot;: &quot;siglo XIII&quot;, &quot;et&quot;: &quot;13. sajand&quot;, &quot;cs&quot;: &quot;13. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XIII wiek&quot;, &quot;ro&quot;: &quot;Secolul al XIII-lea&quot;, &quot;da&quot;: &quot;13. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;13e eeuw&quot;}, &quot;altLabel&quot;: {&quot;ru&quot;: [&quot;13 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;1200-talet (\u00e5rhundrade)&quot;, &quot;13:e \u00e5rhundradet&quot;, &quot;13:e seklet&quot;, &quot;1200-tal&quot;], &quot;en&quot;: [&quot;13th-century&quot;, &quot;13. century&quot;], &quot;it&quot;: [&quot;Duecento&quot;, &quot;XIII secolo d.C.&quot;, &quot;Secolo XIII&quot;, &quot;13\u00b0 secolo&quot;], &quot;fr&quot;: [&quot;13e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://images.is.ed.ac.uk/MediaManager/srvr?mediafile=/Size3/UoEsha-4-NA/1009/0003513c.jpg&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/9200264/BibliographicResource_3000058485005&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fimages.is.ed.ac.uk%2FMediaManager%2Fsrvr%3Fmediafile%3D%2FSize3%2FUoEsha-4-NA%2F1009%2F0003513c.jpg&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1201-01-01&quot;, &quot;end&quot;: &quot;1300-12-31&quot;}</field>
+          <field name="skos_prefLabel">1200-luku_1200-talet_13 век_13. Jahrhundert_13. gadsimts_13. sajand_13. stoletje_13. století_13. stoljeće_13. storočie_13. század_13. århundrede_13e eeuw_13th century_13ú haois_13ος αιώνας_Jahrhundert_Secolul al XIII-lea_XIII_XIII amžius_XIII secolo_XIII wiek_XIII век_XIII-lea_XIIIe siècle_al XIII-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle XIII_siglo XIII_siècle_stoletje_století_stoljeće_storočie_század_século XIII_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">67539</field>
+          <field name="pagerank">1050.0097746837541</field>
+          <field name="derived_score">11918076</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

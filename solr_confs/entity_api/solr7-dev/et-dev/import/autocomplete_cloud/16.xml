@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/16</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">16. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">1500-luku</field>
+          <field name="skos_prefLabel.ru">XVI век</field>
+          <field name="skos_prefLabel.pt">século XVI</field>
+          <field name="skos_prefLabel.bg">16 век</field>
+          <field name="skos_prefLabel.lt">XVI amžius</field>
+          <field name="skos_prefLabel.lv">16. gadsimts</field>
+          <field name="skos_prefLabel.hr">16. stoljeće</field>
+          <field name="skos_prefLabel.fr">XVIe siècle</field>
+          <field name="skos_prefLabel.hu">16. század</field>
+          <field name="skos_prefLabel.sk">16. storočie</field>
+          <field name="skos_prefLabel.sl">16. stoletje</field>
+          <field name="skos_prefLabel.ga">16ú haois</field>
+          <field name="skos_prefLabel.ca">segle XVI</field>
+          <field name="skos_prefLabel.sv">1500-talet</field>
+          <field name="skos_prefLabel.el">16ος αιώνας</field>
+          <field name="skos_prefLabel.en">16th century</field>
+          <field name="skos_prefLabel.it">XVI secolo</field>
+          <field name="skos_prefLabel.es">siglo XVI</field>
+          <field name="skos_prefLabel.et">16. sajand</field>
+          <field name="skos_prefLabel.cs">16. století</field>
+          <field name="skos_prefLabel.pl">XVI wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al XVI-lea</field>
+          <field name="skos_prefLabel.da">16. århundrede</field>
+          <field name="skos_prefLabel.nl">16e eeuw</field>
+          <field name="skos_altLabel.ru">16 век</field>
+          <field name="skos_altLabel.sv">1500-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">16:e århundradet</field>
+          <field name="skos_altLabel.sv">1500-tal</field>
+          <field name="skos_altLabel.sv">1500-talet (sekel)</field>
+          <field name="skos_altLabel.sv">16:e seklet</field>
+          <field name="skos_altLabel.en">16th-century</field>
+          <field name="skos_altLabel.it">Cinquecento</field>
+          <field name="skos_altLabel.it">Secolo XVI</field>
+          <field name="skos_altLabel.it">XVI Secolo</field>
+          <field name="skos_altLabel.it">'500</field>
+          <field name="skos_altLabel.it">Sedicesimo secolo</field>
+          <field name="skos_altLabel.it">16° secolo</field>
+          <field name="skos_altLabel.fr">16e siècle</field>
+          <field name="skos_hiddenLabel.">16??</field>
+          <field name="skos_hiddenLabel.">16e</field>
+          <field name="skos_hiddenLabel.">16..</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404510</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02814512n</field>
+          <field name="owl_sameAs">http://id.nlm.nih.gov/mesh/D049669</field>
+          <field name="owl_sameAs">http://semium.org/time/15xx</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85123070</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q7017</field>
+          <field name="edm_begin">1501-01-01</field>
+          <field name="edm_end">1600-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/15</field>
+          <field name="isShownBy">http://purl.pt/4662/service/media/cover/max</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/10501/bib_rnod_31386</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fpurl.pt%2F4662%2Fservice%2Fmedia%2Fcover%2Fmax&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/16&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;16. Jahrhundert&quot;, &quot;fi&quot;: &quot;1500-luku&quot;, &quot;ru&quot;: &quot;XVI \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo XVI&quot;, &quot;bg&quot;: &quot;16 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XVI am\u017eius&quot;, &quot;lv&quot;: &quot;16. gadsimts&quot;, &quot;hr&quot;: &quot;16. stolje\u0107e&quot;, &quot;fr&quot;: &quot;XVIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;16. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;16. storo\u010die&quot;, &quot;sl&quot;: &quot;16. stoletje&quot;, &quot;ga&quot;: &quot;16\u00fa haois&quot;, &quot;ca&quot;: &quot;segle XVI&quot;, &quot;sv&quot;: &quot;1500-talet&quot;, &quot;el&quot;: &quot;16\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;16th century&quot;, &quot;it&quot;: &quot;XVI secolo&quot;, &quot;es&quot;: &quot;siglo XVI&quot;, &quot;et&quot;: &quot;16. sajand&quot;, &quot;cs&quot;: &quot;16. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XVI wiek&quot;, &quot;ro&quot;: &quot;Secolul al XVI-lea&quot;, &quot;da&quot;: &quot;16. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;16e eeuw&quot;}, &quot;altLabel&quot;: {&quot;ru&quot;: [&quot;16 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;1500-talet (\u00e5rhundrade)&quot;, &quot;16:e \u00e5rhundradet&quot;, &quot;1500-tal&quot;, &quot;1500-talet (sekel)&quot;, &quot;16:e seklet&quot;], &quot;en&quot;: [&quot;16th-century&quot;], &quot;it&quot;: [&quot;Cinquecento&quot;, &quot;Secolo XVI&quot;, &quot;XVI Secolo&quot;, &quot;'500&quot;, &quot;Sedicesimo secolo&quot;, &quot;16\u00b0 secolo&quot;], &quot;fr&quot;: [&quot;16e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://purl.pt/4662/service/media/cover/max&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/10501/bib_rnod_31386&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fpurl.pt%2F4662%2Fservice%2Fmedia%2Fcover%2Fmax&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1501-01-01&quot;, &quot;end&quot;: &quot;1600-12-31&quot;}</field>
+          <field name="skos_prefLabel">1500-luku_1500-talet_16 век_16. Jahrhundert_16. gadsimts_16. sajand_16. stoletje_16. století_16. stoljeće_16. storočie_16. század_16. århundrede_16e eeuw_16th century_16ú haois_16ος αιώνας_Jahrhundert_Secolul al XVI-lea_XVI_XVI amžius_XVI secolo_XVI wiek_XVI век_XVI-lea_XVIe siècle_al XVI-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle XVI_siglo XVI_siècle_stoletje_století_stoljeće_storočie_század_século XVI_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">714854</field>
+          <field name="pagerank">1883.1756449880859</field>
+          <field name="derived_score">14938326</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

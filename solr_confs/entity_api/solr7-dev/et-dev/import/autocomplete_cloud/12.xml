@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/12</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">12. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">XII век</field>
+          <field name="skos_prefLabel.fi">1100-luku</field>
+          <field name="skos_prefLabel.pt">Século XII</field>
+          <field name="skos_prefLabel.bg">12 век</field>
+          <field name="skos_prefLabel.lt">XII amžius</field>
+          <field name="skos_prefLabel.lv">12. gadsimts</field>
+          <field name="skos_prefLabel.hr">12. stoljeće</field>
+          <field name="skos_prefLabel.fr">XIIe siècle</field>
+          <field name="skos_prefLabel.hu">12. század</field>
+          <field name="skos_prefLabel.sk">12. storočie</field>
+          <field name="skos_prefLabel.sl">12. stoletje</field>
+          <field name="skos_prefLabel.ga">12ú haois</field>
+          <field name="skos_prefLabel.ca">Segle XII</field>
+          <field name="skos_prefLabel.sv">1100-talet</field>
+          <field name="skos_prefLabel.el">12ος αιώνας</field>
+          <field name="skos_prefLabel.en">12th century</field>
+          <field name="skos_prefLabel.it">XII secolo</field>
+          <field name="skos_prefLabel.es">siglo XII</field>
+          <field name="skos_prefLabel.et">12. sajand</field>
+          <field name="skos_prefLabel.cs">12. století</field>
+          <field name="skos_prefLabel.pl">XII wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al XII-lea</field>
+          <field name="skos_prefLabel.da">12. århundrede</field>
+          <field name="skos_prefLabel.nl">12e eeuw</field>
+          <field name="skos_altLabel.sv">1100-tal</field>
+          <field name="skos_altLabel.sv">1100-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">12:e seklet</field>
+          <field name="skos_altLabel.sv">12:e århundradet</field>
+          <field name="skos_altLabel.en">12th-century</field>
+          <field name="skos_altLabel.it">Dodicesimo secolo</field>
+          <field name="skos_altLabel.it">Secolo XII</field>
+          <field name="skos_altLabel.it">12° secolo</field>
+          <field name="skos_altLabel.fr">12e siècle</field>
+          <field name="skos_hiddenLabel.">12??</field>
+          <field name="skos_hiddenLabel.">12..</field>
+          <field name="skos_hiddenLabel.">12e</field>
+          <field name="owl_sameAs">http://semium.org/time/11xx</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02822307n</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q7061</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404504</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85139013</field>
+          <field name="edm_begin">1101-01-01</field>
+          <field name="edm_end">1200-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/11</field>
+          <field name="isShownBy">https://upload.wikimedia.org/wikipedia/commons/a/ae/ID1862_Abbaye_de_Fontenay_PM_48176.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/2058612/object_CHB_996e7d0fc409259fba1ce9dc5ffa0b0d6787966a</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fae%2FID1862_Abbaye_de_Fontenay_PM_48176.jpg&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/12&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;12. Jahrhundert&quot;, &quot;ru&quot;: &quot;XII \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;1100-luku&quot;, &quot;pt&quot;: &quot;S\u00e9culo XII&quot;, &quot;bg&quot;: &quot;12 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XII am\u017eius&quot;, &quot;lv&quot;: &quot;12. gadsimts&quot;, &quot;hr&quot;: &quot;12. stolje\u0107e&quot;, &quot;fr&quot;: &quot;XIIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;12. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;12. storo\u010die&quot;, &quot;sl&quot;: &quot;12. stoletje&quot;, &quot;ga&quot;: &quot;12\u00fa haois&quot;, &quot;ca&quot;: &quot;Segle XII&quot;, &quot;sv&quot;: &quot;1100-talet&quot;, &quot;el&quot;: &quot;12\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;12th century&quot;, &quot;it&quot;: &quot;XII secolo&quot;, &quot;es&quot;: &quot;siglo XII&quot;, &quot;et&quot;: &quot;12. sajand&quot;, &quot;cs&quot;: &quot;12. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XII wiek&quot;, &quot;ro&quot;: &quot;Secolul al XII-lea&quot;, &quot;da&quot;: &quot;12. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;12e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;1100-tal&quot;, &quot;1100-talet (\u00e5rhundrade)&quot;, &quot;12:e seklet&quot;, &quot;12:e \u00e5rhundradet&quot;], &quot;en&quot;: [&quot;12th-century&quot;], &quot;it&quot;: [&quot;Dodicesimo secolo&quot;, &quot;Secolo XII&quot;, &quot;12\u00b0 secolo&quot;], &quot;fr&quot;: [&quot;12e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://upload.wikimedia.org/wikipedia/commons/a/ae/ID1862_Abbaye_de_Fontenay_PM_48176.jpg&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/2058612/object_CHB_996e7d0fc409259fba1ce9dc5ffa0b0d6787966a&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fa%2Fae%2FID1862_Abbaye_de_Fontenay_PM_48176.jpg&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1101-01-01&quot;, &quot;end&quot;: &quot;1200-12-31&quot;}</field>
+          <field name="skos_prefLabel">1100-luku_1100-talet_12 век_12. Jahrhundert_12. gadsimts_12. sajand_12. stoletje_12. století_12. stoljeće_12. storočie_12. század_12. århundrede_12e eeuw_12th century_12ú haois_12ος αιώνας_Jahrhundert_Secolul al XII-lea_Segle XII_Século XII_XII_XII amžius_XII secolo_XII wiek_XII век_XII-lea_XIIe siècle_al XII-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_siglo XII_siècle_stoletje_století_stoljeće_storočie_század_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">70692</field>
+          <field name="pagerank">1059.8901438335424</field>
+          <field name="derived_score">11971275</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/7</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">7. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">VII век</field>
+          <field name="skos_prefLabel.fi">600-luku</field>
+          <field name="skos_prefLabel.pt">século VII</field>
+          <field name="skos_prefLabel.bg">7 век</field>
+          <field name="skos_prefLabel.lt">VII amžius</field>
+          <field name="skos_prefLabel.lv">7. gadsimts</field>
+          <field name="skos_prefLabel.hr">7. stoljeće</field>
+          <field name="skos_prefLabel.fr">VIIe siècle</field>
+          <field name="skos_prefLabel.hu">7. század</field>
+          <field name="skos_prefLabel.sk">7. storočie</field>
+          <field name="skos_prefLabel.sl">7. stoletje</field>
+          <field name="skos_prefLabel.ga">7ú haois</field>
+          <field name="skos_prefLabel.ca">segle VII</field>
+          <field name="skos_prefLabel.sv">600-talet</field>
+          <field name="skos_prefLabel.el">7ος αιώνας</field>
+          <field name="skos_prefLabel.en">7th century</field>
+          <field name="skos_prefLabel.it">VII secolo</field>
+          <field name="skos_prefLabel.es">siglo VII</field>
+          <field name="skos_prefLabel.et">7. sajand</field>
+          <field name="skos_prefLabel.cs">7. století</field>
+          <field name="skos_prefLabel.pl">VII wiek</field>
+          <field name="skos_prefLabel.da">7. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul al VII-lea</field>
+          <field name="skos_prefLabel.nl">7e eeuw</field>
+          <field name="skos_altLabel.sv">600-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">7:e seklet</field>
+          <field name="skos_altLabel.sv">600-tal</field>
+          <field name="skos_altLabel.sv">600-talet (sekel)</field>
+          <field name="skos_altLabel.sv">7:e århundrade</field>
+          <field name="skos_altLabel.en">7th-century</field>
+          <field name="skos_altLabel.it">7° secolo</field>
+          <field name="skos_altLabel.it">VII secolo d.C.</field>
+          <field name="skos_altLabel.it">Secolo VII</field>
+          <field name="skos_altLabel.it">VII sec. d.C.</field>
+          <field name="skos_hiddenLabel.ru">7й век</field>
+          <field name="skos_hiddenLabel.fr">7e siècle</field>
+          <field name="skos_hiddenLabel.nl">7de eeuw</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q8089</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02829338n</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404499</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85120428</field>
+          <field name="owl_sameAs">http://semium.org/time/06xx</field>
+          <field name="edm_begin">0601-01-01</field>
+          <field name="edm_end">0700-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD1xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/6</field>
+          <field name="isShownBy">http://collections.smvk.se/carlotta-om/web/image/zoom/313085/representation</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/91643/SMVK_OM_objekt_110016</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fcollections.smvk.se%2Fcarlotta-om%2Fweb%2Fimage%2Fzoom%2F313085%2Frepresentation&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/7&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;7. Jahrhundert&quot;, &quot;ru&quot;: &quot;VII \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;600-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo VII&quot;, &quot;bg&quot;: &quot;7 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;VII am\u017eius&quot;, &quot;lv&quot;: &quot;7. gadsimts&quot;, &quot;hr&quot;: &quot;7. stolje\u0107e&quot;, &quot;fr&quot;: &quot;VIIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;7. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;7. storo\u010die&quot;, &quot;sl&quot;: &quot;7. stoletje&quot;, &quot;ga&quot;: &quot;7\u00fa haois&quot;, &quot;ca&quot;: &quot;segle VII&quot;, &quot;sv&quot;: &quot;600-talet&quot;, &quot;el&quot;: &quot;7\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;7th century&quot;, &quot;it&quot;: &quot;VII secolo&quot;, &quot;es&quot;: &quot;siglo VII&quot;, &quot;et&quot;: &quot;7. sajand&quot;, &quot;cs&quot;: &quot;7. stolet\u00ed&quot;, &quot;pl&quot;: &quot;VII wiek&quot;, &quot;da&quot;: &quot;7. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul al VII-lea&quot;, &quot;nl&quot;: &quot;7e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;600-talet (\u00e5rhundrade)&quot;, &quot;7:e seklet&quot;, &quot;600-tal&quot;, &quot;600-talet (sekel)&quot;, &quot;7:e \u00e5rhundrade&quot;], &quot;en&quot;: [&quot;7th-century&quot;], &quot;it&quot;: [&quot;7\u00b0 secolo&quot;, &quot;VII secolo d.C.&quot;, &quot;Secolo VII&quot;, &quot;VII sec. d.C.&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://collections.smvk.se/carlotta-om/web/image/zoom/313085/representation&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/91643/SMVK_OM_objekt_110016&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fcollections.smvk.se%2Fcarlotta-om%2Fweb%2Fimage%2Fzoom%2F313085%2Frepresentation&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;0601-01-01&quot;, &quot;end&quot;: &quot;0700-12-31&quot;}</field>
+          <field name="skos_prefLabel">600-luku_600-talet_7 век_7. Jahrhundert_7. gadsimts_7. sajand_7. stoletje_7. století_7. stoljeće_7. storočie_7. század_7. århundrede_7e eeuw_7th century_7ú haois_7ος αιώνας_Jahrhundert_Secolul al VII-lea_VII_VII amžius_VII secolo_VII wiek_VII век_VII-lea_VIIe siècle_al VII-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle VII_siglo VII_siècle_stoletje_století_stoljeće_storočie_század_século VII_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">2915</field>
+          <field name="pagerank">500.4248359877783</field>
+          <field name="derived_score">8361006</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

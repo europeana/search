@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/organization/1482250000004503580</field>
+          <field name="internal_type">Organization</field>
+          <field name="created">2017-12-04T14:17:55Z</field>
+          <field name="modified">2018-09-14T14:23:20Z</field>
+          <field name="skos_prefLabel.en">The Government of Catalonia</field>
+          <field name="skos_altLabel.ca">Generalitat de Catalunya</field>
+          <field name="dc_identifier">1482250000004503580</field>
+          <field name="edm_acronym.ca">GENCAT</field>
+          <field name="foaf_homepage">http://cultura.gencat.cat/ca/inici</field>
+          <field name="europeanaRole.en">Data Provider</field>
+          <field name="organizationDomain.en">Government</field>
+          <field name="country">ES</field>
+          <field name="vcard_hasAddress.1">http://data.europeana.eu/organization/1482250000004503580#address</field>
+          <field name="vcard_countryName.1">Spain</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/organization/1482250000004503580&quot;, &quot;type&quot;: &quot;Organization&quot;, &quot;prefLabel&quot;: {&quot;en&quot;: &quot;The Government of Catalonia&quot;}, &quot;altLabel&quot;: {&quot;ca&quot;: [&quot;Generalitat de Catalunya&quot;]}, &quot;acronym&quot;: {&quot;ca&quot;: [&quot;GENCAT&quot;]}, &quot;country&quot;: &quot;ES&quot;, &quot;organizationDomain&quot;: &quot;Government&quot;}</field>
+          <field name="skos_prefLabel">Catalonia_GENCAT_Government of Catalonia_The Government of Catalonia_of Catalonia</field>
+          <field name="europeana_doc_count">1</field>
+          <field name="europeana_term_hits">0</field>
+          <field name="pagerank">0.0</field>
+          <field name="derived_score">10000</field>
+          <field name="suggest_filters">Organization</field>
+          <field name="suggest_filters">in_europeana</field>
+     </doc>
+</add>

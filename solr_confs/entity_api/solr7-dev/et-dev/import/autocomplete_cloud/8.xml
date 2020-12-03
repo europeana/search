@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/8</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">8. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">VIII век</field>
+          <field name="skos_prefLabel.fi">700-luku</field>
+          <field name="skos_prefLabel.pt">século VIII</field>
+          <field name="skos_prefLabel.bg">8 век</field>
+          <field name="skos_prefLabel.lt">VIII amžius</field>
+          <field name="skos_prefLabel.lv">8. gadsimts</field>
+          <field name="skos_prefLabel.hr">8. stoljeće</field>
+          <field name="skos_prefLabel.fr">VIIIe siècle</field>
+          <field name="skos_prefLabel.hu">8. század</field>
+          <field name="skos_prefLabel.sk">8. storočie</field>
+          <field name="skos_prefLabel.sl">8. stoletje</field>
+          <field name="skos_prefLabel.ga">8ú haois</field>
+          <field name="skos_prefLabel.ca">Segle VIII</field>
+          <field name="skos_prefLabel.sv">700-talet</field>
+          <field name="skos_prefLabel.el">8ος αιώνας</field>
+          <field name="skos_prefLabel.en">8th century</field>
+          <field name="skos_prefLabel.it">VIII secolo</field>
+          <field name="skos_prefLabel.es">siglo VIII</field>
+          <field name="skos_prefLabel.et">8. sajand</field>
+          <field name="skos_prefLabel.cs">8. století</field>
+          <field name="skos_prefLabel.pl">VIII wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al VIII-lea</field>
+          <field name="skos_prefLabel.da">8. århundrede</field>
+          <field name="skos_prefLabel.nl">8e eeuw</field>
+          <field name="skos_altLabel.sv">700-talet (sekel)</field>
+          <field name="skos_altLabel.sv">700-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">8:e seklet</field>
+          <field name="skos_altLabel.sv">8:e århundradet</field>
+          <field name="skos_altLabel.sv">700-tal</field>
+          <field name="skos_altLabel.en">8th-century</field>
+          <field name="skos_altLabel.it">VIII secolo d.C.</field>
+          <field name="skos_altLabel.it">Secolo VIII</field>
+          <field name="skos_altLabel.it">VIII Secolo</field>
+          <field name="skos_altLabel.it">Sec. VIII</field>
+          <field name="skos_altLabel.it">8° secolo</field>
+          <field name="skos_altLabel.it">VIII</field>
+          <field name="skos_hiddenLabel.ru">8й век</field>
+          <field name="skos_hiddenLabel.fr">8e siècle</field>
+          <field name="skos_hiddenLabel.nl">8de eeuw</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q8086</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404500</field>
+          <field name="owl_sameAs">http://semium.org/time/07xx</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02829896n</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh00001495</field>
+          <field name="edm_begin">0701-01-01</field>
+          <field name="edm_end">0800-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD1xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/7</field>
+          <field name="isShownBy">https://cc.museon.nl/cc/imageproxy.ashx?server=localhost&amp;port=17512&amp;filename=images/geschiedenis/60180.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/2021657/resource_document_museon_60180</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fcc.museon.nl%2Fcc%2Fimageproxy.ashx%3Fserver%3Dlocalhost%26port%3D17512%26filename%3Dimages%2Fgeschiedenis%2F60180.jpg&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/8&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;8. Jahrhundert&quot;, &quot;ru&quot;: &quot;VIII \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;700-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo VIII&quot;, &quot;bg&quot;: &quot;8 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;VIII am\u017eius&quot;, &quot;lv&quot;: &quot;8. gadsimts&quot;, &quot;hr&quot;: &quot;8. stolje\u0107e&quot;, &quot;fr&quot;: &quot;VIIIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;8. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;8. storo\u010die&quot;, &quot;sl&quot;: &quot;8. stoletje&quot;, &quot;ga&quot;: &quot;8\u00fa haois&quot;, &quot;ca&quot;: &quot;Segle VIII&quot;, &quot;sv&quot;: &quot;700-talet&quot;, &quot;el&quot;: &quot;8\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;8th century&quot;, &quot;it&quot;: &quot;VIII secolo&quot;, &quot;es&quot;: &quot;siglo VIII&quot;, &quot;et&quot;: &quot;8. sajand&quot;, &quot;cs&quot;: &quot;8. stolet\u00ed&quot;, &quot;pl&quot;: &quot;VIII wiek&quot;, &quot;ro&quot;: &quot;Secolul al VIII-lea&quot;, &quot;da&quot;: &quot;8. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;8e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;700-talet (sekel)&quot;, &quot;700-talet (\u00e5rhundrade)&quot;, &quot;8:e seklet&quot;, &quot;8:e \u00e5rhundradet&quot;, &quot;700-tal&quot;], &quot;en&quot;: [&quot;8th-century&quot;], &quot;it&quot;: [&quot;VIII secolo d.C.&quot;, &quot;Secolo VIII&quot;, &quot;VIII Secolo&quot;, &quot;Sec. VIII&quot;, &quot;8\u00b0 secolo&quot;, &quot;VIII&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://cc.museon.nl/cc/imageproxy.ashx?server=localhost&amp;port=17512&amp;filename=images/geschiedenis/60180.jpg&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/2021657/resource_document_museon_60180&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fcc.museon.nl%2Fcc%2Fimageproxy.ashx%3Fserver%3Dlocalhost%26port%3D17512%26filename%3Dimages%2Fgeschiedenis%2F60180.jpg&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;0701-01-01&quot;, &quot;end&quot;: &quot;0800-12-31&quot;}</field>
+          <field name="skos_prefLabel">700-luku_700-talet_8 век_8. Jahrhundert_8. gadsimts_8. sajand_8. stoletje_8. století_8. stoljeće_8. storočie_8. század_8. århundrede_8e eeuw_8th century_8ú haois_8ος αιώνας_Jahrhundert_Secolul al VIII-lea_Segle VIII_VIII_VIII amžius_VIII secolo_VIII wiek_VIII век_VIII-lea_VIIIe siècle_al VIII-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_siglo VIII_siècle_stoletje_století_stoljeće_storočie_század_século VIII_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">6299</field>
+          <field name="pagerank">490.10346011244246</field>
+          <field name="derived_score">8966880</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

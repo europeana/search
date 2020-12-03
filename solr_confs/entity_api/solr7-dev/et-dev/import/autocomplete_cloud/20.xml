@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/20</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">20. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">1900-luku</field>
+          <field name="skos_prefLabel.ru">XX век</field>
+          <field name="skos_prefLabel.pt">século XX</field>
+          <field name="skos_prefLabel.bg">20 век</field>
+          <field name="skos_prefLabel.lt">XX amžius</field>
+          <field name="skos_prefLabel.hr">20. stoljeće</field>
+          <field name="skos_prefLabel.lv">20. gadsimts</field>
+          <field name="skos_prefLabel.fr">XXe siècle</field>
+          <field name="skos_prefLabel.hu">20. század</field>
+          <field name="skos_prefLabel.sk">20. storočie</field>
+          <field name="skos_prefLabel.sl">20. stoletje</field>
+          <field name="skos_prefLabel.ga">20ú haois</field>
+          <field name="skos_prefLabel.ca">segle XX</field>
+          <field name="skos_prefLabel.sv">1900-talet</field>
+          <field name="skos_prefLabel.el">20ός αιώνας</field>
+          <field name="skos_prefLabel.en">20th century</field>
+          <field name="skos_prefLabel.it">XX secolo</field>
+          <field name="skos_prefLabel.es">siglo XX</field>
+          <field name="skos_prefLabel.et">20. sajand</field>
+          <field name="skos_prefLabel.cs">20. století</field>
+          <field name="skos_prefLabel.pl">XX wiek</field>
+          <field name="skos_prefLabel.da">20. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul al XX-lea</field>
+          <field name="skos_prefLabel.nl">20e eeuw</field>
+          <field name="skos_altLabel.ru">20 век</field>
+          <field name="skos_altLabel.sv">20:e århundradet</field>
+          <field name="skos_altLabel.sv">1900-talet (sekel)</field>
+          <field name="skos_altLabel.sv">20:e seklet</field>
+          <field name="skos_altLabel.sv">1900-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">1900-tal</field>
+          <field name="skos_altLabel.pt">periodo 1901-2000</field>
+          <field name="skos_altLabel.pt">século 20</field>
+          <field name="skos_altLabel.pt">século vinte</field>
+          <field name="skos_altLabel.pt">ciclo (1901-2000)</field>
+          <field name="skos_altLabel.en">20th-century</field>
+          <field name="skos_altLabel.it">Novecento</field>
+          <field name="skos_altLabel.it">20° secolo</field>
+          <field name="skos_altLabel.it">'900</field>
+          <field name="skos_altLabel.fr">20e siècle</field>
+          <field name="skos_hiddenLabel.">20??</field>
+          <field name="skos_hiddenLabel.">20..</field>
+          <field name="skos_hiddenLabel.">20e</field>
+          <field name="owl_sameAs">http://id.nlm.nih.gov/mesh/D049673</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404514</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh2002012476</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85139020</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q6927</field>
+          <field name="owl_sameAs">http://semium.org/time/19xx</field>
+          <field name="edm_begin">1901-01-01</field>
+          <field name="edm_end">2000-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/19</field>
+          <field name="isShownBy">https://www.dropbox.com/s/3cgdkhtv09blh30/Germany_SAARLAND_Blaues%20Pferdchen%20Kinderbild.jpg?raw=1</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/2063623/GER_280_009</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2F3cgdkhtv09blh30%2FGermany_SAARLAND_Blaues%2520Pferdchen%2520Kinderbild.jpg%3Fraw%3D1&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/20&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;20. Jahrhundert&quot;, &quot;fi&quot;: &quot;1900-luku&quot;, &quot;ru&quot;: &quot;XX \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo XX&quot;, &quot;bg&quot;: &quot;20 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XX am\u017eius&quot;, &quot;hr&quot;: &quot;20. stolje\u0107e&quot;, &quot;lv&quot;: &quot;20. gadsimts&quot;, &quot;fr&quot;: &quot;XXe si\u00e8cle&quot;, &quot;hu&quot;: &quot;20. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;20. storo\u010die&quot;, &quot;sl&quot;: &quot;20. stoletje&quot;, &quot;ga&quot;: &quot;20\u00fa haois&quot;, &quot;ca&quot;: &quot;segle XX&quot;, &quot;sv&quot;: &quot;1900-talet&quot;, &quot;el&quot;: &quot;20\u03cc\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;20th century&quot;, &quot;it&quot;: &quot;XX secolo&quot;, &quot;es&quot;: &quot;siglo XX&quot;, &quot;et&quot;: &quot;20. sajand&quot;, &quot;cs&quot;: &quot;20. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XX wiek&quot;, &quot;da&quot;: &quot;20. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul al XX-lea&quot;, &quot;nl&quot;: &quot;20e eeuw&quot;}, &quot;altLabel&quot;: {&quot;ru&quot;: [&quot;20 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;20:e \u00e5rhundradet&quot;, &quot;1900-talet (sekel)&quot;, &quot;20:e seklet&quot;, &quot;1900-talet (\u00e5rhundrade)&quot;, &quot;1900-tal&quot;], &quot;pt&quot;: [&quot;periodo 1901-2000&quot;, &quot;s\u00e9culo 20&quot;, &quot;s\u00e9culo vinte&quot;, &quot;ciclo (1901-2000)&quot;], &quot;en&quot;: [&quot;20th-century&quot;], &quot;it&quot;: [&quot;Novecento&quot;, &quot;20\u00b0 secolo&quot;, &quot;'900&quot;], &quot;fr&quot;: [&quot;20e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://www.dropbox.com/s/3cgdkhtv09blh30/Germany_SAARLAND_Blaues%20Pferdchen%20Kinderbild.jpg?raw=1&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/2063623/GER_280_009&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2F3cgdkhtv09blh30%2FGermany_SAARLAND_Blaues%2520Pferdchen%2520Kinderbild.jpg%3Fraw%3D1&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1901-01-01&quot;, &quot;end&quot;: &quot;2000-12-31&quot;}</field>
+          <field name="skos_prefLabel">1900-luku_1900-talet_20 век_20. Jahrhundert_20. gadsimts_20. sajand_20. stoletje_20. století_20. stoljeće_20. storočie_20. század_20. århundrede_20e eeuw_20th century_20ú haois_20ός αιώνας_Jahrhundert_Secolul al XX-lea_XX_XX amžius_XX secolo_XX wiek_XX век_XX-lea_XXe siècle_al XX-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle XX_siglo XX_siècle_stoletje_století_stoljeće_storočie_század_século XX_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">2071295</field>
+          <field name="pagerank">575.9404160000316</field>
+          <field name="derived_score">13955921</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

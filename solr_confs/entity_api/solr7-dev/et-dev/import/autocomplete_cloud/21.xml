@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/21</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">21. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">2000-luku</field>
+          <field name="skos_prefLabel.ru">XXI век</field>
+          <field name="skos_prefLabel.pt">século XXI</field>
+          <field name="skos_prefLabel.bg">21 век</field>
+          <field name="skos_prefLabel.lt">XXI amžius</field>
+          <field name="skos_prefLabel.lv">21. gadsimts</field>
+          <field name="skos_prefLabel.hr">21. stoljeće</field>
+          <field name="skos_prefLabel.fr">XXIe siècle</field>
+          <field name="skos_prefLabel.hu">21. század</field>
+          <field name="skos_prefLabel.sk">21. storočie</field>
+          <field name="skos_prefLabel.sl">21. stoletje</field>
+          <field name="skos_prefLabel.ga">21ú haois</field>
+          <field name="skos_prefLabel.ca">segle XXI</field>
+          <field name="skos_prefLabel.sv">2000-talet</field>
+          <field name="skos_prefLabel.el">21ος αιώνας</field>
+          <field name="skos_prefLabel.en">21st century</field>
+          <field name="skos_prefLabel.it">XXI secolo</field>
+          <field name="skos_prefLabel.es">siglo XXI</field>
+          <field name="skos_prefLabel.et">21. sajand</field>
+          <field name="skos_prefLabel.cs">21. století</field>
+          <field name="skos_prefLabel.pl">XXI wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al XXI-lea</field>
+          <field name="skos_prefLabel.da">21. århundrede</field>
+          <field name="skos_prefLabel.nl">21e eeuw</field>
+          <field name="skos_altLabel.de">22. Jhd.</field>
+          <field name="skos_altLabel.de">22. Jh.</field>
+          <field name="skos_altLabel.de">22. Hektode</field>
+          <field name="skos_altLabel.de">22. Jhrh.</field>
+          <field name="skos_altLabel.de">22. Jahrh.</field>
+          <field name="skos_altLabel.de">22. Zentennium</field>
+          <field name="skos_altLabel.de">22. Jhdt.</field>
+          <field name="skos_altLabel.de">22. Centennium</field>
+          <field name="skos_altLabel.ru">21 век</field>
+          <field name="skos_altLabel.sv">2000-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">21:a århundradet</field>
+          <field name="skos_altLabel.sv">2000-talet (sekel)</field>
+          <field name="skos_altLabel.sv">2000-tal</field>
+          <field name="skos_altLabel.sv">21:a seklet</field>
+          <field name="skos_altLabel.en">twenty-first century</field>
+          <field name="skos_altLabel.en">21st-century</field>
+          <field name="skos_altLabel.it">21° secolo</field>
+          <field name="skos_altLabel.it">Secolo XXI</field>
+          <field name="skos_altLabel.it">XXI Secolo</field>
+          <field name="skos_altLabel.it">Ventunesimo secolo</field>
+          <field name="skos_altLabel.it">Duemila</field>
+          <field name="skos_altLabel.fr">21e siècle</field>
+          <field name="skos_hiddenLabel.">21??</field>
+          <field name="skos_hiddenLabel.">21..</field>
+          <field name="skos_hiddenLabel.">21e</field>
+          <field name="owl_sameAs">http://semium.org/time/20xx</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q6939</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s01157225n</field>
+          <field name="owl_sameAs">http://id.nlm.nih.gov/mesh/D049674</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404515</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85139024</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh2002012478</field>
+          <field name="edm_begin">2001-01-01</field>
+          <field name="edm_end">2100-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/20</field>
+          <field name="isShownBy">https://www.dropbox.com/s/xkdqdmox6tlftpz/UK_Wales_Shane_Williams.jpg?raw=1</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/2063624/UK_280_020</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fxkdqdmox6tlftpz%2FUK_Wales_Shane_Williams.jpg%3Fraw%3D1&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/21&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;21. Jahrhundert&quot;, &quot;fi&quot;: &quot;2000-luku&quot;, &quot;ru&quot;: &quot;XXI \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo XXI&quot;, &quot;bg&quot;: &quot;21 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XXI am\u017eius&quot;, &quot;lv&quot;: &quot;21. gadsimts&quot;, &quot;hr&quot;: &quot;21. stolje\u0107e&quot;, &quot;fr&quot;: &quot;XXIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;21. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;21. storo\u010die&quot;, &quot;sl&quot;: &quot;21. stoletje&quot;, &quot;ga&quot;: &quot;21\u00fa haois&quot;, &quot;ca&quot;: &quot;segle XXI&quot;, &quot;sv&quot;: &quot;2000-talet&quot;, &quot;el&quot;: &quot;21\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;21st century&quot;, &quot;it&quot;: &quot;XXI secolo&quot;, &quot;es&quot;: &quot;siglo XXI&quot;, &quot;et&quot;: &quot;21. sajand&quot;, &quot;cs&quot;: &quot;21. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XXI wiek&quot;, &quot;ro&quot;: &quot;Secolul al XXI-lea&quot;, &quot;da&quot;: &quot;21. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;21e eeuw&quot;}, &quot;altLabel&quot;: {&quot;de&quot;: [&quot;22. Jhd.&quot;, &quot;22. Jh.&quot;, &quot;22. Hektode&quot;, &quot;22. Jhrh.&quot;, &quot;22. Jahrh.&quot;, &quot;22. Zentennium&quot;, &quot;22. Jhdt.&quot;, &quot;22. Centennium&quot;], &quot;ru&quot;: [&quot;21 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;2000-talet (\u00e5rhundrade)&quot;, &quot;21:a \u00e5rhundradet&quot;, &quot;2000-talet (sekel)&quot;, &quot;2000-tal&quot;, &quot;21:a seklet&quot;], &quot;en&quot;: [&quot;twenty-first century&quot;, &quot;21st-century&quot;], &quot;it&quot;: [&quot;21\u00b0 secolo&quot;, &quot;Secolo XXI&quot;, &quot;XXI Secolo&quot;, &quot;Ventunesimo secolo&quot;, &quot;Duemila&quot;], &quot;fr&quot;: [&quot;21e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://www.dropbox.com/s/xkdqdmox6tlftpz/UK_Wales_Shane_Williams.jpg?raw=1&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/2063624/UK_280_020&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fxkdqdmox6tlftpz%2FUK_Wales_Shane_Williams.jpg%3Fraw%3D1&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;2001-01-01&quot;, &quot;end&quot;: &quot;2100-12-31&quot;}</field>
+          <field name="skos_prefLabel">2000-luku_2000-talet_21 век_21. Jahrhundert_21. gadsimts_21. sajand_21. stoletje_21. století_21. stoljeće_21. storočie_21. század_21. århundrede_21e eeuw_21st century_21ú haois_21ος αιώνας_Jahrhundert_Secolul al XXI-lea_XXI_XXI amžius_XXI secolo_XXI wiek_XXI век_XXI-lea_XXIe siècle_al XXI-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle XXI_siglo XXI_siècle_stoletje_století_stoljeće_storočie_század_século XXI_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">6202</field>
+          <field name="pagerank">644.8687849351272</field>
+          <field name="derived_score">9256119</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>
