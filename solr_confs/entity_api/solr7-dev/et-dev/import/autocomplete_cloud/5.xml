@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/5</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">5. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">400-luku</field>
+          <field name="skos_prefLabel.ru">V век</field>
+          <field name="skos_prefLabel.pt">século V</field>
+          <field name="skos_prefLabel.bg">5 век</field>
+          <field name="skos_prefLabel.lt">V amžius</field>
+          <field name="skos_prefLabel.lv">5. gadsimts</field>
+          <field name="skos_prefLabel.hr">5. stoljeće</field>
+          <field name="skos_prefLabel.fr">Ve siècle</field>
+          <field name="skos_prefLabel.hu">5. század</field>
+          <field name="skos_prefLabel.sk">5. storočie</field>
+          <field name="skos_prefLabel.sl">5. stoletje</field>
+          <field name="skos_prefLabel.ga">5ú haois</field>
+          <field name="skos_prefLabel.ca">segle V</field>
+          <field name="skos_prefLabel.sv">400-talet</field>
+          <field name="skos_prefLabel.el">5ος αιώνας</field>
+          <field name="skos_prefLabel.en">5th century</field>
+          <field name="skos_prefLabel.it">V secolo</field>
+          <field name="skos_prefLabel.es">siglo V</field>
+          <field name="skos_prefLabel.et">5. sajand</field>
+          <field name="skos_prefLabel.cs">5. století</field>
+          <field name="skos_prefLabel.pl">V wiek</field>
+          <field name="skos_prefLabel.da">5. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul al V-lea</field>
+          <field name="skos_prefLabel.nl">5e eeuw</field>
+          <field name="skos_altLabel.sv">400-talet (sekel)</field>
+          <field name="skos_altLabel.sv">400-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">5:e seklet</field>
+          <field name="skos_altLabel.sv">400-tal</field>
+          <field name="skos_altLabel.sv">5:e århundradet</field>
+          <field name="skos_altLabel.en">5th-century</field>
+          <field name="skos_altLabel.it">V secolo d.C.</field>
+          <field name="skos_altLabel.it">V sec.</field>
+          <field name="skos_altLabel.it">Secolo V</field>
+          <field name="skos_altLabel.it">5° secolo</field>
+          <field name="skos_hiddenLabel.ru">5й век</field>
+          <field name="skos_hiddenLabel.fr">5e siècle</field>
+          <field name="skos_hiddenLabel.nl">5de eeuw</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02830090n</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q8095</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404497</field>
+          <field name="owl_sameAs">http://semium.org/time/04xx</field>
+          <field name="edm_begin">0401-01-01</field>
+          <field name="edm_end">0500-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD1xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/4</field>
+          <field name="isShownBy">http://resolver.kb.nl/resolve?urn=BYVANCKB:mimi_ka20:147v_min_b-c</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/9200122/BibliographicResource_1000056123598</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DBYVANCKB%3Amimi_ka20%3A147v_min_b-c&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/5&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;5. Jahrhundert&quot;, &quot;fi&quot;: &quot;400-luku&quot;, &quot;ru&quot;: &quot;V \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo V&quot;, &quot;bg&quot;: &quot;5 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;V am\u017eius&quot;, &quot;lv&quot;: &quot;5. gadsimts&quot;, &quot;hr&quot;: &quot;5. stolje\u0107e&quot;, &quot;fr&quot;: &quot;Ve si\u00e8cle&quot;, &quot;hu&quot;: &quot;5. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;5. storo\u010die&quot;, &quot;sl&quot;: &quot;5. stoletje&quot;, &quot;ga&quot;: &quot;5\u00fa haois&quot;, &quot;ca&quot;: &quot;segle V&quot;, &quot;sv&quot;: &quot;400-talet&quot;, &quot;el&quot;: &quot;5\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;5th century&quot;, &quot;it&quot;: &quot;V secolo&quot;, &quot;es&quot;: &quot;siglo V&quot;, &quot;et&quot;: &quot;5. sajand&quot;, &quot;cs&quot;: &quot;5. stolet\u00ed&quot;, &quot;pl&quot;: &quot;V wiek&quot;, &quot;da&quot;: &quot;5. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul al V-lea&quot;, &quot;nl&quot;: &quot;5e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;400-talet (sekel)&quot;, &quot;400-talet (\u00e5rhundrade)&quot;, &quot;5:e seklet&quot;, &quot;400-tal&quot;, &quot;5:e \u00e5rhundradet&quot;], &quot;en&quot;: [&quot;5th-century&quot;], &quot;it&quot;: [&quot;V secolo d.C.&quot;, &quot;V sec.&quot;, &quot;Secolo V&quot;, &quot;5\u00b0 secolo&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://resolver.kb.nl/resolve?urn=BYVANCKB:mimi_ka20:147v_min_b-c&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/9200122/BibliographicResource_1000056123598&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fresolver.kb.nl%2Fresolve%3Furn%3DBYVANCKB%3Amimi_ka20%3A147v_min_b-c&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;0401-01-01&quot;, &quot;end&quot;: &quot;0500-12-31&quot;}</field>
+          <field name="skos_prefLabel">400-luku_400-talet_5 век_5. Jahrhundert_5. gadsimts_5. sajand_5. stoletje_5. století_5. stoljeće_5. storočie_5. század_5. århundrede_5e eeuw_5th century_5ú haois_5ος αιώνας_Jahrhundert_Secolul al V-lea_V_V amžius_V secolo_V wiek_V век_V-lea_Ve siècle_al V-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle V_siglo V_siècle_stoletje_století_stoljeće_storočie_század_século V_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">6954</field>
+          <field name="pagerank">527.6609255349894</field>
+          <field name="derived_score">9129475</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

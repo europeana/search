@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/organization/1482250000004375509</field>
+          <field name="internal_type">Organization</field>
+          <field name="created">2017-11-27T15:11:56Z</field>
+          <field name="modified">2019-03-11T23:49:07Z</field>
+          <field name="skos_prefLabel.en">German Film Institute &amp; Film Museum</field>
+          <field name="skos_altLabel.de">DFF – Deutsches Filminstitut &amp; Filmmuseum</field>
+          <field name="dc_identifier">1482250000004375509</field>
+          <field name="edm_acronym.de">DFF</field>
+          <field name="foaf_homepage">https://www.dff.film/</field>
+          <field name="europeanaRole.en">Data Provider</field>
+          <field name="organizationDomain.en">GLAM</field>
+          <field name="country">DE</field>
+          <field name="vcard_hasAddress.1">http://data.europeana.eu/organization/1482250000004375509#address</field>
+          <field name="vcard_streetAddress.1">Schaumainkai 41</field>
+          <field name="vcard_locality.1">Frankfurt am Main</field>
+          <field name="vcard_postalCode.1">60596</field>
+          <field name="vcard_countryName.1">Germany</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/organization/1482250000004375509&quot;, &quot;type&quot;: &quot;Organization&quot;, &quot;prefLabel&quot;: {&quot;en&quot;: &quot;German Film Institute &amp; Film Museum&quot;}, &quot;altLabel&quot;: {&quot;de&quot;: [&quot;DFF \u2013 Deutsches Filminstitut &amp; Filmmuseum&quot;]}, &quot;acronym&quot;: {&quot;de&quot;: [&quot;DFF&quot;]}, &quot;country&quot;: &quot;DE&quot;, &quot;organizationDomain&quot;: &quot;GLAM&quot;}</field>
+          <field name="skos_prefLabel">&amp; Film Museum_DFF_Film Institute &amp; Film Museum_Film Museum_German Film Institute &amp; Film Museum_Institute &amp; Film Museum_Museum</field>
+          <field name="europeana_doc_count">1</field>
+          <field name="europeana_term_hits">0</field>
+          <field name="pagerank">0.0</field>
+          <field name="derived_score">10000</field>
+          <field name="suggest_filters">Organization</field>
+          <field name="suggest_filters">in_europeana</field>
+     </doc>
+</add>

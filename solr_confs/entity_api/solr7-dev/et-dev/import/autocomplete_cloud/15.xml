@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/15</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">15. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">XV век</field>
+          <field name="skos_prefLabel.fi">1400-luku</field>
+          <field name="skos_prefLabel.pt">século XV</field>
+          <field name="skos_prefLabel.bg">15 век</field>
+          <field name="skos_prefLabel.lt">XV amžius</field>
+          <field name="skos_prefLabel.hr">15. stoljeće</field>
+          <field name="skos_prefLabel.lv">15. gadsimts</field>
+          <field name="skos_prefLabel.fr">XVe siècle</field>
+          <field name="skos_prefLabel.hu">15. század</field>
+          <field name="skos_prefLabel.sk">15. storočie</field>
+          <field name="skos_prefLabel.sl">15. stoletje</field>
+          <field name="skos_prefLabel.ga">15ú haois</field>
+          <field name="skos_prefLabel.ca">Segle XV</field>
+          <field name="skos_prefLabel.sv">1400-talet</field>
+          <field name="skos_prefLabel.el">15ος αιώνας</field>
+          <field name="skos_prefLabel.en">15th century</field>
+          <field name="skos_prefLabel.it">XV secolo</field>
+          <field name="skos_prefLabel.es">siglo XV</field>
+          <field name="skos_prefLabel.et">15. sajand</field>
+          <field name="skos_prefLabel.cs">15. století</field>
+          <field name="skos_prefLabel.pl">XV wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al XV-lea</field>
+          <field name="skos_prefLabel.da">15. århundrede</field>
+          <field name="skos_prefLabel.nl">15e eeuw</field>
+          <field name="skos_altLabel.sv">1400-tal</field>
+          <field name="skos_altLabel.sv">15:e århundradet</field>
+          <field name="skos_altLabel.sv">15:e seklet</field>
+          <field name="skos_altLabel.sv">1400-talet (sekel)</field>
+          <field name="skos_altLabel.sv">1400-talet (århundrade)</field>
+          <field name="skos_altLabel.ru">15 век</field>
+          <field name="skos_altLabel.en">15th-century</field>
+          <field name="skos_altLabel.it">Quindicesimo secolo</field>
+          <field name="skos_altLabel.it">Secolo XV</field>
+          <field name="skos_altLabel.it">XV secolo d.C</field>
+          <field name="skos_altLabel.it">15° secolo</field>
+          <field name="skos_altLabel.it">Quattrocento</field>
+          <field name="skos_altLabel.it">XV Secolo</field>
+          <field name="skos_altLabel.fr">15e siècle</field>
+          <field name="skos_hiddenLabel.">15??</field>
+          <field name="skos_hiddenLabel.">15e</field>
+          <field name="skos_hiddenLabel.">15..</field>
+          <field name="owl_sameAs">http://id.nlm.nih.gov/mesh/D049668</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02814426n</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85048142</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q7018</field>
+          <field name="owl_sameAs">http://semium.org/time/14xx</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404465</field>
+          <field name="edm_begin">1401-01-01</field>
+          <field name="edm_end">1500-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/14</field>
+          <field name="isShownBy">http://tools.yoolib.net/i/s4/inha/files/7001-8000/7885/media/7891/1041_bensba_est007497_4/WID800/HEI900.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/9200495/yoolib_inha_7885</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ftools.yoolib.net%2Fi%2Fs4%2Finha%2Ffiles%2F7001-8000%2F7885%2Fmedia%2F7891%2F1041_bensba_est007497_4%2FWID800%2FHEI900.jpg&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/15&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;15. Jahrhundert&quot;, &quot;ru&quot;: &quot;XV \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;1400-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo XV&quot;, &quot;bg&quot;: &quot;15 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XV am\u017eius&quot;, &quot;hr&quot;: &quot;15. stolje\u0107e&quot;, &quot;lv&quot;: &quot;15. gadsimts&quot;, &quot;fr&quot;: &quot;XVe si\u00e8cle&quot;, &quot;hu&quot;: &quot;15. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;15. storo\u010die&quot;, &quot;sl&quot;: &quot;15. stoletje&quot;, &quot;ga&quot;: &quot;15\u00fa haois&quot;, &quot;ca&quot;: &quot;Segle XV&quot;, &quot;sv&quot;: &quot;1400-talet&quot;, &quot;el&quot;: &quot;15\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;15th century&quot;, &quot;it&quot;: &quot;XV secolo&quot;, &quot;es&quot;: &quot;siglo XV&quot;, &quot;et&quot;: &quot;15. sajand&quot;, &quot;cs&quot;: &quot;15. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XV wiek&quot;, &quot;ro&quot;: &quot;Secolul al XV-lea&quot;, &quot;da&quot;: &quot;15. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;15e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;1400-tal&quot;, &quot;15:e \u00e5rhundradet&quot;, &quot;15:e seklet&quot;, &quot;1400-talet (sekel)&quot;, &quot;1400-talet (\u00e5rhundrade)&quot;], &quot;ru&quot;: [&quot;15 \u0432\u0435\u043a&quot;], &quot;en&quot;: [&quot;15th-century&quot;], &quot;it&quot;: [&quot;Quindicesimo secolo&quot;, &quot;Secolo XV&quot;, &quot;XV secolo d.C&quot;, &quot;15\u00b0 secolo&quot;, &quot;Quattrocento&quot;, &quot;XV Secolo&quot;], &quot;fr&quot;: [&quot;15e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://tools.yoolib.net/i/s4/inha/files/7001-8000/7885/media/7891/1041_bensba_est007497_4/WID800/HEI900.jpg&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/9200495/yoolib_inha_7885&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Ftools.yoolib.net%2Fi%2Fs4%2Finha%2Ffiles%2F7001-8000%2F7885%2Fmedia%2F7891%2F1041_bensba_est007497_4%2FWID800%2FHEI900.jpg&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1401-01-01&quot;, &quot;end&quot;: &quot;1500-12-31&quot;}</field>
+          <field name="skos_prefLabel">1400-luku_1400-talet_15 век_15. Jahrhundert_15. gadsimts_15. sajand_15. stoletje_15. století_15. stoljeće_15. storočie_15. század_15. århundrede_15e eeuw_15th century_15ú haois_15ος αιώνας_Jahrhundert_Secolul al XV-lea_Segle XV_XV_XV amžius_XV secolo_XV wiek_XV век_XV-lea_XVe siècle_al XV-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_siglo XV_siècle_stoletje_století_stoljeće_storočie_század_século XV_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">473190</field>
+          <field name="pagerank">1836.0808135457287</field>
+          <field name="derived_score">14508099</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/3</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">3. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">III век</field>
+          <field name="skos_prefLabel.fi">200-luku</field>
+          <field name="skos_prefLabel.pt">século III</field>
+          <field name="skos_prefLabel.bg">3 век</field>
+          <field name="skos_prefLabel.lt">III amžius</field>
+          <field name="skos_prefLabel.lv">3. gadsimts</field>
+          <field name="skos_prefLabel.hr">3. stoljeće</field>
+          <field name="skos_prefLabel.fr">IIIe siècle</field>
+          <field name="skos_prefLabel.hu">3. század</field>
+          <field name="skos_prefLabel.sk">3. storočie</field>
+          <field name="skos_prefLabel.sl">3. stoletje</field>
+          <field name="skos_prefLabel.ga">3ú haois</field>
+          <field name="skos_prefLabel.ca">Segle III</field>
+          <field name="skos_prefLabel.sv">200-talet</field>
+          <field name="skos_prefLabel.el">3ος αιώνας</field>
+          <field name="skos_prefLabel.en">3rd century</field>
+          <field name="skos_prefLabel.it">III secolo</field>
+          <field name="skos_prefLabel.es">siglo III</field>
+          <field name="skos_prefLabel.et">3. sajand</field>
+          <field name="skos_prefLabel.cs">3. století</field>
+          <field name="skos_prefLabel.pl">III wiek</field>
+          <field name="skos_prefLabel.da">3. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul al III-lea</field>
+          <field name="skos_prefLabel.nl">3e eeuw</field>
+          <field name="skos_altLabel.ru">3 век</field>
+          <field name="skos_altLabel.sv">3:e århundradet</field>
+          <field name="skos_altLabel.sv">200-tal</field>
+          <field name="skos_altLabel.sv">200-talet (sekel)</field>
+          <field name="skos_altLabel.sv">200-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">3:e seklet</field>
+          <field name="skos_altLabel.en">3rd-century</field>
+          <field name="skos_altLabel.it">3º secolo</field>
+          <field name="skos_altLabel.it">3° secolo</field>
+          <field name="skos_altLabel.it">Secolo III</field>
+          <field name="skos_altLabel.it">III Secolo</field>
+          <field name="skos_altLabel.it">III secolo d.C</field>
+          <field name="skos_altLabel.it">III secolo d.C.</field>
+          <field name="skos_altLabel.fr">3e siècle</field>
+          <field name="skos_hiddenLabel.ru">3й век</field>
+          <field name="skos_hiddenLabel.nl">3de eeuw</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02830156n</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404495</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q8101</field>
+          <field name="owl_sameAs">http://semium.org/time/02xx</field>
+          <field name="edm_begin">0201-01-01</field>
+          <field name="edm_end">0300-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD1xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/2</field>
+          <field name="isShownBy">https://lh3.ggpht.com/8LYE1UxYK8BzO2_xYgnQoe5uT_s519ApDx_1dB1a0YTMt_VNJS5P5dusCZOMkeRoQmjs3jGxTuiq9yet5BFmxbsS2Jg=s0</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/90402/RP_T_1956_127</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.rijksmuseum.nl%2Fassetimage2.jsp%3Fid%3DRP-T-1956-127&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/3&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;3. Jahrhundert&quot;, &quot;ru&quot;: &quot;III \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;200-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo III&quot;, &quot;bg&quot;: &quot;3 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;III am\u017eius&quot;, &quot;lv&quot;: &quot;3. gadsimts&quot;, &quot;hr&quot;: &quot;3. stolje\u0107e&quot;, &quot;fr&quot;: &quot;IIIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;3. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;3. storo\u010die&quot;, &quot;sl&quot;: &quot;3. stoletje&quot;, &quot;ga&quot;: &quot;3\u00fa haois&quot;, &quot;ca&quot;: &quot;Segle III&quot;, &quot;sv&quot;: &quot;200-talet&quot;, &quot;el&quot;: &quot;3\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;3rd century&quot;, &quot;it&quot;: &quot;III secolo&quot;, &quot;es&quot;: &quot;siglo III&quot;, &quot;et&quot;: &quot;3. sajand&quot;, &quot;cs&quot;: &quot;3. stolet\u00ed&quot;, &quot;pl&quot;: &quot;III wiek&quot;, &quot;da&quot;: &quot;3. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul al III-lea&quot;, &quot;nl&quot;: &quot;3e eeuw&quot;}, &quot;altLabel&quot;: {&quot;ru&quot;: [&quot;3 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;3:e \u00e5rhundradet&quot;, &quot;200-tal&quot;, &quot;200-talet (sekel)&quot;, &quot;200-talet (\u00e5rhundrade)&quot;, &quot;3:e seklet&quot;], &quot;en&quot;: [&quot;3rd-century&quot;], &quot;it&quot;: [&quot;3\u00ba secolo&quot;, &quot;3\u00b0 secolo&quot;, &quot;Secolo III&quot;, &quot;III Secolo&quot;, &quot;III secolo d.C&quot;, &quot;III secolo d.C.&quot;], &quot;fr&quot;: [&quot;3e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://lh3.ggpht.com/8LYE1UxYK8BzO2_xYgnQoe5uT_s519ApDx_1dB1a0YTMt_VNJS5P5dusCZOMkeRoQmjs3jGxTuiq9yet5BFmxbsS2Jg=s0&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/90402/RP_T_1956_127&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.rijksmuseum.nl%2Fassetimage2.jsp%3Fid%3DRP-T-1956-127&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;0201-01-01&quot;, &quot;end&quot;: &quot;0300-12-31&quot;}</field>
+          <field name="skos_prefLabel">200-luku_200-talet_3 век_3. Jahrhundert_3. gadsimts_3. sajand_3. stoletje_3. století_3. stoljeće_3. storočie_3. század_3. århundrede_3e eeuw_3rd century_3ú haois_3ος αιώνας_III_III amžius_III secolo_III wiek_III век_III-lea_IIIe siècle_Jahrhundert_Secolul al III-lea_Segle III_al III-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_siglo III_siècle_stoletje_století_stoljeće_storočie_század_século III_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">32227</field>
+          <field name="pagerank">334.91063726790566</field>
+          <field name="derived_score">9814141</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

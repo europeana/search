@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/14</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">14. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">XIV век</field>
+          <field name="skos_prefLabel.fi">1300-luku</field>
+          <field name="skos_prefLabel.pt">século XIV</field>
+          <field name="skos_prefLabel.bg">14 век</field>
+          <field name="skos_prefLabel.lt">XIV amžius</field>
+          <field name="skos_prefLabel.lv">14. gadsimts</field>
+          <field name="skos_prefLabel.hr">14. stoljeće</field>
+          <field name="skos_prefLabel.fr">XIVe siècle</field>
+          <field name="skos_prefLabel.hu">14. század</field>
+          <field name="skos_prefLabel.sk">14. storočie</field>
+          <field name="skos_prefLabel.sl">14. stoletje</field>
+          <field name="skos_prefLabel.ga">14ú haois</field>
+          <field name="skos_prefLabel.ca">Segle XIV</field>
+          <field name="skos_prefLabel.sv">1300-talet</field>
+          <field name="skos_prefLabel.el">14ος αιώνας</field>
+          <field name="skos_prefLabel.en">14th century</field>
+          <field name="skos_prefLabel.it">XIV secolo</field>
+          <field name="skos_prefLabel.es">siglo XIV</field>
+          <field name="skos_prefLabel.et">14. sajand</field>
+          <field name="skos_prefLabel.cs">14. století</field>
+          <field name="skos_prefLabel.pl">XIV wiek</field>
+          <field name="skos_prefLabel.da">14. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul al XIV-lea</field>
+          <field name="skos_prefLabel.nl">14e eeuw</field>
+          <field name="skos_altLabel.ru">14 век</field>
+          <field name="skos_altLabel.sv">1300-talet (sekel)</field>
+          <field name="skos_altLabel.sv">1300-tal</field>
+          <field name="skos_altLabel.sv">14:e århundradet</field>
+          <field name="skos_altLabel.sv">14:e seklet</field>
+          <field name="skos_altLabel.sv">1300-talet (århundrade)</field>
+          <field name="skos_altLabel.en">14th-century</field>
+          <field name="skos_altLabel.it">14° secolo</field>
+          <field name="skos_altLabel.it">Trecento</field>
+          <field name="skos_altLabel.it">Secolo XIV</field>
+          <field name="skos_altLabel.it">XIV Secolo</field>
+          <field name="skos_altLabel.fr">14e siècle</field>
+          <field name="skos_hiddenLabel.">14??</field>
+          <field name="skos_hiddenLabel.">14..</field>
+          <field name="skos_hiddenLabel.">14e</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85051098</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404506</field>
+          <field name="owl_sameAs">http://semium.org/time/13xx</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q7034</field>
+          <field name="edm_begin">1301-01-01</field>
+          <field name="edm_end">1400-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/13</field>
+          <field name="isShownBy">https://iiif.wellcomecollection.org/image/L0065629.jpg/full/512,/0/default.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/9200579/yktxndxv</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fiiif.wellcomecollection.org%2Fimage%2FL0065629.jpg%2Ffull%2F500%2C%2F0%2Fdefault.jpg&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/14&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;14. Jahrhundert&quot;, &quot;ru&quot;: &quot;XIV \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;1300-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo XIV&quot;, &quot;bg&quot;: &quot;14 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XIV am\u017eius&quot;, &quot;lv&quot;: &quot;14. gadsimts&quot;, &quot;hr&quot;: &quot;14. stolje\u0107e&quot;, &quot;fr&quot;: &quot;XIVe si\u00e8cle&quot;, &quot;hu&quot;: &quot;14. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;14. storo\u010die&quot;, &quot;sl&quot;: &quot;14. stoletje&quot;, &quot;ga&quot;: &quot;14\u00fa haois&quot;, &quot;ca&quot;: &quot;Segle XIV&quot;, &quot;sv&quot;: &quot;1300-talet&quot;, &quot;el&quot;: &quot;14\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;14th century&quot;, &quot;it&quot;: &quot;XIV secolo&quot;, &quot;es&quot;: &quot;siglo XIV&quot;, &quot;et&quot;: &quot;14. sajand&quot;, &quot;cs&quot;: &quot;14. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XIV wiek&quot;, &quot;da&quot;: &quot;14. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul al XIV-lea&quot;, &quot;nl&quot;: &quot;14e eeuw&quot;}, &quot;altLabel&quot;: {&quot;ru&quot;: [&quot;14 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;1300-talet (sekel)&quot;, &quot;1300-tal&quot;, &quot;14:e \u00e5rhundradet&quot;, &quot;14:e seklet&quot;, &quot;1300-talet (\u00e5rhundrade)&quot;], &quot;en&quot;: [&quot;14th-century&quot;], &quot;it&quot;: [&quot;14\u00b0 secolo&quot;, &quot;Trecento&quot;, &quot;Secolo XIV&quot;, &quot;XIV Secolo&quot;], &quot;fr&quot;: [&quot;14e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://iiif.wellcomecollection.org/image/L0065629.jpg/full/512,/0/default.jpg&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/9200579/yktxndxv&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fiiif.wellcomecollection.org%2Fimage%2FL0065629.jpg%2Ffull%2F500%2C%2F0%2Fdefault.jpg&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1301-01-01&quot;, &quot;end&quot;: &quot;1400-12-31&quot;}</field>
+          <field name="skos_prefLabel">1300-luku_1300-talet_14 век_14. Jahrhundert_14. gadsimts_14. sajand_14. stoletje_14. století_14. stoljeće_14. storočie_14. század_14. århundrede_14e eeuw_14th century_14ú haois_14ος αιώνας_Jahrhundert_Secolul al XIV-lea_Segle XIV_XIV_XIV amžius_XIV secolo_XIV wiek_XIV век_XIV-lea_XIVe siècle_al XIV-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_siglo XIV_siècle_stoletje_století_stoljeće_storočie_század_século XIV_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">107455</field>
+          <field name="pagerank">1248.3064594156203</field>
+          <field name="derived_score">12571091</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/4</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">4. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">300-luku</field>
+          <field name="skos_prefLabel.ru">IV век</field>
+          <field name="skos_prefLabel.pt">século IV</field>
+          <field name="skos_prefLabel.bg">4 век</field>
+          <field name="skos_prefLabel.lt">IV amžius</field>
+          <field name="skos_prefLabel.hr">4. stoljeće</field>
+          <field name="skos_prefLabel.lv">4. gadsimts</field>
+          <field name="skos_prefLabel.fr">IVe siècle</field>
+          <field name="skos_prefLabel.hu">4. század</field>
+          <field name="skos_prefLabel.sk">4. storočie</field>
+          <field name="skos_prefLabel.sl">4. stoletje</field>
+          <field name="skos_prefLabel.ga">4ú haois</field>
+          <field name="skos_prefLabel.ca">segle IV</field>
+          <field name="skos_prefLabel.sv">300-talet</field>
+          <field name="skos_prefLabel.el">4ος αιώνας</field>
+          <field name="skos_prefLabel.en">4th century</field>
+          <field name="skos_prefLabel.it">IV secolo</field>
+          <field name="skos_prefLabel.es">siglo IV</field>
+          <field name="skos_prefLabel.et">4. sajand</field>
+          <field name="skos_prefLabel.cs">4. století</field>
+          <field name="skos_prefLabel.pl">IV wiek</field>
+          <field name="skos_prefLabel.da">4. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul al IV-lea</field>
+          <field name="skos_prefLabel.nl">4e eeuw</field>
+          <field name="skos_altLabel.sv">4:e seklet</field>
+          <field name="skos_altLabel.sv">4:e århundradet</field>
+          <field name="skos_altLabel.sv">300-talet (sekel)</field>
+          <field name="skos_altLabel.sv">300-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">300-tal</field>
+          <field name="skos_altLabel.en">4th-century</field>
+          <field name="skos_altLabel.it">IV secolo d.C.</field>
+          <field name="skos_altLabel.it">Quarto secolo</field>
+          <field name="skos_altLabel.it">4° secolo</field>
+          <field name="skos_altLabel.it">Secolo IV</field>
+          <field name="skos_hiddenLabel.ru">4й век</field>
+          <field name="skos_hiddenLabel.fr">4e siècle</field>
+          <field name="skos_hiddenLabel.nl">4de eeuw</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q8099</field>
+          <field name="owl_sameAs">http://semium.org/time/03xx</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404496</field>
+          <field name="edm_begin">0301-01-01</field>
+          <field name="edm_end">0400-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD1xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/3</field>
+          <field name="isShownBy">http://molcat1.bl.uk/IllImages/Kslides/big/K045/K045873.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/9200397/BibliographicResource_3000126269237</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fmolcat1.bl.uk%2FIllImages%2FKslides%2Fbig%2FK045%2FK045873.jpg&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/4&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;4. Jahrhundert&quot;, &quot;fi&quot;: &quot;300-luku&quot;, &quot;ru&quot;: &quot;IV \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo IV&quot;, &quot;bg&quot;: &quot;4 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;IV am\u017eius&quot;, &quot;hr&quot;: &quot;4. stolje\u0107e&quot;, &quot;lv&quot;: &quot;4. gadsimts&quot;, &quot;fr&quot;: &quot;IVe si\u00e8cle&quot;, &quot;hu&quot;: &quot;4. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;4. storo\u010die&quot;, &quot;sl&quot;: &quot;4. stoletje&quot;, &quot;ga&quot;: &quot;4\u00fa haois&quot;, &quot;ca&quot;: &quot;segle IV&quot;, &quot;sv&quot;: &quot;300-talet&quot;, &quot;el&quot;: &quot;4\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;4th century&quot;, &quot;it&quot;: &quot;IV secolo&quot;, &quot;es&quot;: &quot;siglo IV&quot;, &quot;et&quot;: &quot;4. sajand&quot;, &quot;cs&quot;: &quot;4. stolet\u00ed&quot;, &quot;pl&quot;: &quot;IV wiek&quot;, &quot;da&quot;: &quot;4. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul al IV-lea&quot;, &quot;nl&quot;: &quot;4e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;4:e seklet&quot;, &quot;4:e \u00e5rhundradet&quot;, &quot;300-talet (sekel)&quot;, &quot;300-talet (\u00e5rhundrade)&quot;, &quot;300-tal&quot;], &quot;en&quot;: [&quot;4th-century&quot;], &quot;it&quot;: [&quot;IV secolo d.C.&quot;, &quot;Quarto secolo&quot;, &quot;4\u00b0 secolo&quot;, &quot;Secolo IV&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://molcat1.bl.uk/IllImages/Kslides/big/K045/K045873.jpg&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/9200397/BibliographicResource_3000126269237&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fmolcat1.bl.uk%2FIllImages%2FKslides%2Fbig%2FK045%2FK045873.jpg&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;0301-01-01&quot;, &quot;end&quot;: &quot;0400-12-31&quot;}</field>
+          <field name="skos_prefLabel">300-luku_300-talet_4 век_4. Jahrhundert_4. gadsimts_4. sajand_4. stoletje_4. století_4. stoljeće_4. storočie_4. század_4. århundrede_4e eeuw_4th century_4ú haois_4ος αιώνας_IV_IV amžius_IV secolo_IV wiek_IV век_IV-lea_IVe siècle_Jahrhundert_Secolul al IV-lea_al IV-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle IV_siglo IV_siècle_stoletje_století_stoljeće_storočie_század_século IV_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">46327</field>
+          <field name="pagerank">442.1770433932628</field>
+          <field name="derived_score">10457250</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

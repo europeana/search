@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/19</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">19. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">1800-luku</field>
+          <field name="skos_prefLabel.ru">XIX век</field>
+          <field name="skos_prefLabel.pt">século XIX</field>
+          <field name="skos_prefLabel.bg">19 век</field>
+          <field name="skos_prefLabel.lt">XIX amžius</field>
+          <field name="skos_prefLabel.hr">19. stoljeće</field>
+          <field name="skos_prefLabel.lv">19. gadsimts</field>
+          <field name="skos_prefLabel.fr">XIXᵉ siècle</field>
+          <field name="skos_prefLabel.hu">19. század</field>
+          <field name="skos_prefLabel.sk">19. storočie</field>
+          <field name="skos_prefLabel.sl">19. stoletje</field>
+          <field name="skos_prefLabel.ga">19ú haois</field>
+          <field name="skos_prefLabel.ca">segle XIX</field>
+          <field name="skos_prefLabel.sv">1800-talet</field>
+          <field name="skos_prefLabel.el">19ος αιώνας</field>
+          <field name="skos_prefLabel.en">19th century</field>
+          <field name="skos_prefLabel.it">XIX secolo</field>
+          <field name="skos_prefLabel.es">siglo XIX</field>
+          <field name="skos_prefLabel.et">19. sajand</field>
+          <field name="skos_prefLabel.cs">19. století</field>
+          <field name="skos_prefLabel.pl">XIX wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al XIX-lea</field>
+          <field name="skos_prefLabel.da">19. århundrede</field>
+          <field name="skos_prefLabel.nl">19e eeuw</field>
+          <field name="skos_altLabel.ru">19 век</field>
+          <field name="skos_altLabel.sv">1800-talet (sekel)</field>
+          <field name="skos_altLabel.sv">19:e seklet</field>
+          <field name="skos_altLabel.sv">19:e århundradet</field>
+          <field name="skos_altLabel.sv">1800-tal</field>
+          <field name="skos_altLabel.sv">1800-talet (århundrade)</field>
+          <field name="skos_altLabel.en">19. century</field>
+          <field name="skos_altLabel.en">19th-century</field>
+          <field name="skos_altLabel.en">nineteenth century</field>
+          <field name="skos_altLabel.it">19esimo secolo</field>
+          <field name="skos_altLabel.it">Diciannovesimo secolo</field>
+          <field name="skos_altLabel.it">Secolo XIX</field>
+          <field name="skos_altLabel.it">XIX Secolo</field>
+          <field name="skos_altLabel.it">19° secolo</field>
+          <field name="skos_altLabel.it">Ottocento</field>
+          <field name="skos_altLabel.it">'800</field>
+          <field name="skos_altLabel.fr">XIXe siècle</field>
+          <field name="skos_altLabel.fr">19e siècle</field>
+          <field name="skos_altLabel.da">1800-tallet</field>
+          <field name="skos_altLabel.es">19. siglo</field>
+          <field name="skos_altLabel.ca">XIX</field>
+          <field name="skos_altLabel.ca">segle dinou</field>
+          <field name="skos_altLabel.ca">segle 19</field>
+          <field name="skos_hiddenLabel.">19e</field>
+          <field name="skos_hiddenLabel.">19??</field>
+          <field name="skos_hiddenLabel.">19..</field>
+          <field name="owl_sameAs">http://datos.bne.es/resource/XX4343988</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02210346n</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85091984</field>
+          <field name="owl_sameAs">http://id.nlm.nih.gov/mesh/D049672</field>
+          <field name="owl_sameAs">http://semium.org/time/18xx</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh2002012475</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404513</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q6955</field>
+          <field name="edm_begin">1801-01-01</field>
+          <field name="edm_end">1900-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/18</field>
+          <field name="isShownBy">https://lh3.googleusercontent.com/0bgOiMrBM2GuhW_pNeQW711GuB3kD7Gq7AILGHaJGeWKa1Fu1hUJGpOjvSpiP_XpgRlC4jVmH0Z1233PEPMJTfNRR7Q=s0</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/90402/SK_A_3584</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Flh3.googleusercontent.com%2F0bgOiMrBM2GuhW_pNeQW711GuB3kD7Gq7AILGHaJGeWKa1Fu1hUJGpOjvSpiP_XpgRlC4jVmH0Z1233PEPMJTfNRR7Q%3Ds0&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/19&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;19. Jahrhundert&quot;, &quot;fi&quot;: &quot;1800-luku&quot;, &quot;ru&quot;: &quot;XIX \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo XIX&quot;, &quot;bg&quot;: &quot;19 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XIX am\u017eius&quot;, &quot;hr&quot;: &quot;19. stolje\u0107e&quot;, &quot;lv&quot;: &quot;19. gadsimts&quot;, &quot;fr&quot;: &quot;XIX\u1d49 si\u00e8cle&quot;, &quot;hu&quot;: &quot;19. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;19. storo\u010die&quot;, &quot;sl&quot;: &quot;19. stoletje&quot;, &quot;ga&quot;: &quot;19\u00fa haois&quot;, &quot;ca&quot;: &quot;segle XIX&quot;, &quot;sv&quot;: &quot;1800-talet&quot;, &quot;el&quot;: &quot;19\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;19th century&quot;, &quot;it&quot;: &quot;XIX secolo&quot;, &quot;es&quot;: &quot;siglo XIX&quot;, &quot;et&quot;: &quot;19. sajand&quot;, &quot;cs&quot;: &quot;19. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XIX wiek&quot;, &quot;ro&quot;: &quot;Secolul al XIX-lea&quot;, &quot;da&quot;: &quot;19. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;19e eeuw&quot;}, &quot;altLabel&quot;: {&quot;ru&quot;: [&quot;19 \u0432\u0435\u043a&quot;], &quot;sv&quot;: [&quot;1800-talet (sekel)&quot;, &quot;19:e seklet&quot;, &quot;19:e \u00e5rhundradet&quot;, &quot;1800-tal&quot;, &quot;1800-talet (\u00e5rhundrade)&quot;], &quot;en&quot;: [&quot;19. century&quot;, &quot;19th-century&quot;, &quot;nineteenth century&quot;], &quot;it&quot;: [&quot;19esimo secolo&quot;, &quot;Diciannovesimo secolo&quot;, &quot;Secolo XIX&quot;, &quot;XIX Secolo&quot;, &quot;19\u00b0 secolo&quot;, &quot;Ottocento&quot;, &quot;'800&quot;], &quot;fr&quot;: [&quot;XIXe si\u00e8cle&quot;, &quot;19e si\u00e8cle&quot;], &quot;da&quot;: [&quot;1800-tallet&quot;], &quot;es&quot;: [&quot;19. siglo&quot;], &quot;ca&quot;: [&quot;XIX&quot;, &quot;segle dinou&quot;, &quot;segle 19&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://lh3.googleusercontent.com/0bgOiMrBM2GuhW_pNeQW711GuB3kD7Gq7AILGHaJGeWKa1Fu1hUJGpOjvSpiP_XpgRlC4jVmH0Z1233PEPMJTfNRR7Q=s0&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/90402/SK_A_3584&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Flh3.googleusercontent.com%2F0bgOiMrBM2GuhW_pNeQW711GuB3kD7Gq7AILGHaJGeWKa1Fu1hUJGpOjvSpiP_XpgRlC4jVmH0Z1233PEPMJTfNRR7Q%3Ds0&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1801-01-01&quot;, &quot;end&quot;: &quot;1900-12-31&quot;}</field>
+          <field name="skos_prefLabel">1800-luku_1800-talet_19 век_19. Jahrhundert_19. gadsimts_19. sajand_19. stoletje_19. století_19. stoljeće_19. storočie_19. század_19. århundrede_19e eeuw_19th century_19ú haois_19ος αιώνας_Jahrhundert_Secolul al XIX-lea_XIX_XIX amžius_XIX secolo_XIX wiek_XIX век_XIX-lea_XIXᵉ siècle_al XIX-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle XIX_siglo XIX_siècle_stoletje_století_stoljeće_storočie_század_século XIX_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">6346449</field>
+          <field name="pagerank">3277.060237829065</field>
+          <field name="derived_score">18003084</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

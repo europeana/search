@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/11</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">11. Jahrhundert</field>
+          <field name="skos_prefLabel.fi">1000-luku</field>
+          <field name="skos_prefLabel.ru">XI век</field>
+          <field name="skos_prefLabel.pt">século XI</field>
+          <field name="skos_prefLabel.bg">11 век</field>
+          <field name="skos_prefLabel.lt">XI amžius</field>
+          <field name="skos_prefLabel.hr">11. stoljeće</field>
+          <field name="skos_prefLabel.lv">11. gadsimts</field>
+          <field name="skos_prefLabel.fr">XIe siècle</field>
+          <field name="skos_prefLabel.hu">11. század</field>
+          <field name="skos_prefLabel.sk">11. storočie</field>
+          <field name="skos_prefLabel.sl">11. stoletje</field>
+          <field name="skos_prefLabel.ga">11ú haois</field>
+          <field name="skos_prefLabel.ca">segle XI</field>
+          <field name="skos_prefLabel.sv">1000-talet</field>
+          <field name="skos_prefLabel.el">11ος αιώνας</field>
+          <field name="skos_prefLabel.en">11th century</field>
+          <field name="skos_prefLabel.it">XI secolo</field>
+          <field name="skos_prefLabel.es">siglo XI</field>
+          <field name="skos_prefLabel.et">11. sajand</field>
+          <field name="skos_prefLabel.cs">11. století</field>
+          <field name="skos_prefLabel.pl">XI wiek</field>
+          <field name="skos_prefLabel.da">11. århundrede</field>
+          <field name="skos_prefLabel.ro">Secolul al XI-lea</field>
+          <field name="skos_prefLabel.nl">11e eeuw</field>
+          <field name="skos_altLabel.sv">1000-tal</field>
+          <field name="skos_altLabel.sv">11:e seklet</field>
+          <field name="skos_altLabel.sv">11:e århundradet</field>
+          <field name="skos_altLabel.sv">1000-talet (århundrade)</field>
+          <field name="skos_altLabel.sv">1000-talet (sekel)</field>
+          <field name="skos_altLabel.en">11th-century</field>
+          <field name="skos_altLabel.it">Secolo XI</field>
+          <field name="skos_altLabel.it">11° secolo</field>
+          <field name="skos_altLabel.it">Undicesimo secolo</field>
+          <field name="skos_altLabel.fr">11e siècle</field>
+          <field name="skos_hiddenLabel.">11??</field>
+          <field name="skos_hiddenLabel.">11e</field>
+          <field name="skos_hiddenLabel.">11..</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q7063</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85042563</field>
+          <field name="owl_sameAs">http://semium.org/time/10xx</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404503</field>
+          <field name="edm_begin">1001-01-01</field>
+          <field name="edm_end">1100-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/10</field>
+          <field name="isShownBy">http://collections.smvk.se/carlotta-mhm/web/image/zoom/4000283/image.jpg</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/91644/SMVK_MM_Egypt_3010419</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fcollections.smvk.se%2Fcarlotta-mhm%2Fweb%2Fimage%2Fzoom%2F4000283%2Fimage.jpg&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/11&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;11. Jahrhundert&quot;, &quot;fi&quot;: &quot;1000-luku&quot;, &quot;ru&quot;: &quot;XI \u0432\u0435\u043a&quot;, &quot;pt&quot;: &quot;s\u00e9culo XI&quot;, &quot;bg&quot;: &quot;11 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XI am\u017eius&quot;, &quot;hr&quot;: &quot;11. stolje\u0107e&quot;, &quot;lv&quot;: &quot;11. gadsimts&quot;, &quot;fr&quot;: &quot;XIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;11. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;11. storo\u010die&quot;, &quot;sl&quot;: &quot;11. stoletje&quot;, &quot;ga&quot;: &quot;11\u00fa haois&quot;, &quot;ca&quot;: &quot;segle XI&quot;, &quot;sv&quot;: &quot;1000-talet&quot;, &quot;el&quot;: &quot;11\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;en&quot;: &quot;11th century&quot;, &quot;it&quot;: &quot;XI secolo&quot;, &quot;es&quot;: &quot;siglo XI&quot;, &quot;et&quot;: &quot;11. sajand&quot;, &quot;cs&quot;: &quot;11. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XI wiek&quot;, &quot;da&quot;: &quot;11. \u00e5rhundrede&quot;, &quot;ro&quot;: &quot;Secolul al XI-lea&quot;, &quot;nl&quot;: &quot;11e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;1000-tal&quot;, &quot;11:e seklet&quot;, &quot;11:e \u00e5rhundradet&quot;, &quot;1000-talet (\u00e5rhundrade)&quot;, &quot;1000-talet (sekel)&quot;], &quot;en&quot;: [&quot;11th-century&quot;], &quot;it&quot;: [&quot;Secolo XI&quot;, &quot;11\u00b0 secolo&quot;, &quot;Undicesimo secolo&quot;], &quot;fr&quot;: [&quot;11e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;http://collections.smvk.se/carlotta-mhm/web/image/zoom/4000283/image.jpg&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/91644/SMVK_MM_Egypt_3010419&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=http%3A%2F%2Fcollections.smvk.se%2Fcarlotta-mhm%2Fweb%2Fimage%2Fzoom%2F4000283%2Fimage.jpg&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1001-01-01&quot;, &quot;end&quot;: &quot;1100-12-31&quot;}</field>
+          <field name="skos_prefLabel">1000-luku_1000-talet_11 век_11. Jahrhundert_11. gadsimts_11. sajand_11. stoletje_11. století_11. stoljeće_11. storočie_11. század_11. århundrede_11e eeuw_11th century_11ú haois_11ος αιώνας_Jahrhundert_Secolul al XI-lea_XI_XI amžius_XI secolo_XI wiek_XI век_XI-lea_XIe siècle_al XI-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle XI_siglo XI_siècle_stoletje_století_stoljeće_storočie_század_século XI_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">29245</field>
+          <field name="pagerank">869.3750223164801</field>
+          <field name="derived_score">10936029</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>

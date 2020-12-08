@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<add>
+     <doc>
+          <field name="id">http://data.europeana.eu/timespan/17</field>
+          <field name="internal_type">Timespan</field>
+          <field name="skos_prefLabel.de">17. Jahrhundert</field>
+          <field name="skos_prefLabel.ru">XVII век</field>
+          <field name="skos_prefLabel.fi">1600-luku</field>
+          <field name="skos_prefLabel.pt">século XVII</field>
+          <field name="skos_prefLabel.bg">17 век</field>
+          <field name="skos_prefLabel.lt">XVII amžius</field>
+          <field name="skos_prefLabel.lv">17. gadsimts</field>
+          <field name="skos_prefLabel.hr">17. stoljeće</field>
+          <field name="skos_prefLabel.fr">XVIIe siècle</field>
+          <field name="skos_prefLabel.hu">17. század</field>
+          <field name="skos_prefLabel.sk">17. storočie</field>
+          <field name="skos_prefLabel.sl">17. stoletje</field>
+          <field name="skos_prefLabel.ga">17ú haois</field>
+          <field name="skos_prefLabel.ca">segle XVII</field>
+          <field name="skos_prefLabel.sv">1600-talet</field>
+          <field name="skos_prefLabel.el">17ος αιώνας</field>
+          <field name="skos_prefLabel.mt">seklu XVII</field>
+          <field name="skos_prefLabel.en">17th century</field>
+          <field name="skos_prefLabel.it">XVII secolo</field>
+          <field name="skos_prefLabel.es">siglo XVII</field>
+          <field name="skos_prefLabel.et">17. sajand</field>
+          <field name="skos_prefLabel.cs">17. století</field>
+          <field name="skos_prefLabel.pl">XVII wiek</field>
+          <field name="skos_prefLabel.ro">Secolul al XVII-lea</field>
+          <field name="skos_prefLabel.da">17. århundrede</field>
+          <field name="skos_prefLabel.nl">17e eeuw</field>
+          <field name="skos_altLabel.sv">1600-tal</field>
+          <field name="skos_altLabel.sv">17:e århundradet</field>
+          <field name="skos_altLabel.sv">17:e seklet</field>
+          <field name="skos_altLabel.sv">1600-talet (sekel)</field>
+          <field name="skos_altLabel.sv">1600-talet (århundrade)</field>
+          <field name="skos_altLabel.ru">17 век</field>
+          <field name="skos_altLabel.mt">seklu 17</field>
+          <field name="skos_altLabel.en">17th-century</field>
+          <field name="skos_altLabel.it">'600</field>
+          <field name="skos_altLabel.it">XVII Secolo</field>
+          <field name="skos_altLabel.it">Seicento</field>
+          <field name="skos_altLabel.it">Secolo XVII</field>
+          <field name="skos_altLabel.it">17º secolo</field>
+          <field name="skos_altLabel.it">17° secolo</field>
+          <field name="skos_altLabel.it">Diciassettesimo secolo</field>
+          <field name="skos_altLabel.fr">17e siècle</field>
+          <field name="skos_hiddenLabel.">17..</field>
+          <field name="skos_hiddenLabel.">17??</field>
+          <field name="skos_hiddenLabel.">17e</field>
+          <field name="owl_sameAs">http://www.wikidata.org/entity/Q7016</field>
+          <field name="owl_sameAs">http://vocab.getty.edu/aat/300404511</field>
+          <field name="owl_sameAs">http://id.nlm.nih.gov/mesh/D049670</field>
+          <field name="owl_sameAs">http://babelnet.org/rdf/s02814624n</field>
+          <field name="owl_sameAs">http://semium.org/time/16xx</field>
+          <field name="owl_sameAs">http://id.loc.gov/authorities/names/sh85120427</field>
+          <field name="edm_begin">1601-01-01</field>
+          <field name="edm_end">1700-12-31</field>
+          <field name="dcterms_isPartOf">http://semium.org/time/AD2xxx</field>
+          <field name="edm_isNextInSequence">http://data.europeana.eu/timespan/16</field>
+          <field name="isShownBy">https://www.dropbox.com/s/evzm16uhjxuae2s/MALTA_03%20Valentin.jpg?raw=1</field>
+          <field name="isShownBy.source">http://data.europeana.eu/item/2063617/MAL_280_003</field>
+          <field name="isShownBy.thumbnail">https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fq45356rqyuzl1d6%2FMALTA_03%2520Valentin.jpg%3Fraw%3D1&amp;type=IMAGE</field>
+          <field name="payload">{&quot;id&quot;: &quot;http://data.europeana.eu/timespan/17&quot;, &quot;type&quot;: &quot;Timespan&quot;, &quot;prefLabel&quot;: {&quot;de&quot;: &quot;17. Jahrhundert&quot;, &quot;ru&quot;: &quot;XVII \u0432\u0435\u043a&quot;, &quot;fi&quot;: &quot;1600-luku&quot;, &quot;pt&quot;: &quot;s\u00e9culo XVII&quot;, &quot;bg&quot;: &quot;17 \u0432\u0435\u043a&quot;, &quot;lt&quot;: &quot;XVII am\u017eius&quot;, &quot;lv&quot;: &quot;17. gadsimts&quot;, &quot;hr&quot;: &quot;17. stolje\u0107e&quot;, &quot;fr&quot;: &quot;XVIIe si\u00e8cle&quot;, &quot;hu&quot;: &quot;17. sz\u00e1zad&quot;, &quot;sk&quot;: &quot;17. storo\u010die&quot;, &quot;sl&quot;: &quot;17. stoletje&quot;, &quot;ga&quot;: &quot;17\u00fa haois&quot;, &quot;ca&quot;: &quot;segle XVII&quot;, &quot;sv&quot;: &quot;1600-talet&quot;, &quot;el&quot;: &quot;17\u03bf\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b1\u03c2&quot;, &quot;mt&quot;: &quot;seklu XVII&quot;, &quot;en&quot;: &quot;17th century&quot;, &quot;it&quot;: &quot;XVII secolo&quot;, &quot;es&quot;: &quot;siglo XVII&quot;, &quot;et&quot;: &quot;17. sajand&quot;, &quot;cs&quot;: &quot;17. stolet\u00ed&quot;, &quot;pl&quot;: &quot;XVII wiek&quot;, &quot;ro&quot;: &quot;Secolul al XVII-lea&quot;, &quot;da&quot;: &quot;17. \u00e5rhundrede&quot;, &quot;nl&quot;: &quot;17e eeuw&quot;}, &quot;altLabel&quot;: {&quot;sv&quot;: [&quot;1600-tal&quot;, &quot;17:e \u00e5rhundradet&quot;, &quot;17:e seklet&quot;, &quot;1600-talet (sekel)&quot;, &quot;1600-talet (\u00e5rhundrade)&quot;], &quot;ru&quot;: [&quot;17 \u0432\u0435\u043a&quot;], &quot;mt&quot;: [&quot;seklu 17&quot;], &quot;en&quot;: [&quot;17th-century&quot;], &quot;it&quot;: [&quot;'600&quot;, &quot;XVII Secolo&quot;, &quot;Seicento&quot;, &quot;Secolo XVII&quot;, &quot;17\u00ba secolo&quot;, &quot;17\u00b0 secolo&quot;, &quot;Diciassettesimo secolo&quot;], &quot;fr&quot;: [&quot;17e si\u00e8cle&quot;]}, &quot;isShownBy&quot;: {&quot;id&quot;: &quot;https://www.dropbox.com/s/evzm16uhjxuae2s/MALTA_03%20Valentin.jpg?raw=1&quot;, &quot;type&quot;: &quot;WebResource&quot;, &quot;source&quot;: &quot;http://data.europeana.eu/item/2063617/MAL_280_003&quot;, &quot;thumbnail&quot;: &quot;https://api.europeana.eu/thumbnail/v2/url.json?uri=https%3A%2F%2Fwww.dropbox.com%2Fs%2Fq45356rqyuzl1d6%2FMALTA_03%2520Valentin.jpg%3Fraw%3D1&amp;type=IMAGE&quot;}, &quot;begin&quot;: &quot;1601-01-01&quot;, &quot;end&quot;: &quot;1700-12-31&quot;}</field>
+          <field name="skos_prefLabel">1600-luku_1600-talet_17 век_17. Jahrhundert_17. gadsimts_17. sajand_17. stoletje_17. století_17. stoljeće_17. storočie_17. század_17. århundrede_17e eeuw_17th century_17ú haois_17ος αιώνας_Jahrhundert_Secolul al XVII-lea_XVII_XVII amžius_XVII secolo_XVII wiek_XVII век_XVII-lea_XVIIe siècle_al XVII-lea_amžius_century_eeuw_gadsimts_haois_sajand_secolo_segle XVII_seklu XVII_siglo XVII_siècle_stoletje_století_stoljeće_storočie_század_século XVII_wiek_århundrede_αιώνας_век</field>
+          <field name="europeana_doc_count">0</field>
+          <field name="europeana_term_hits">1417073</field>
+          <field name="pagerank">2328.53193784091</field>
+          <field name="derived_score">15936254</field>
+          <field name="suggest_filters">Timespan</field>
+     </doc>
+</add>
