@@ -17,29 +17,31 @@
         <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
             <analyzer type="index">
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
-                <filter class="solr.WordDelimiterGraphFilterFactory"/>
+                <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
                 <filter class="solr.FlattenGraphFilterFactory"/>
                 <filter class="solr.LowerCaseFilterFactory" />
-                <filter class="solr.ASCIIFoldingFilterFactory"/>                
+                <filter class="solr.ASCIIFoldingFilterFactory"/>
+                <!--  <filter class="solr.KStemFilterFactory"/> -->                
             </analyzer>
             <analyzer type="query">
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
-                <filter class="solr.WordDelimiterGraphFilterFactory"/>
+                <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
                 <filter class="solr.LowerCaseFilterFactory" />
-                <filter class="solr.ASCIIFoldingFilterFactory"/>                
+                <filter class="solr.ASCIIFoldingFilterFactory"/>   
+                <!--  <filter class="solr.KStemFilterFactory"/> -->             
             </analyzer>
         </fieldType>
         <fieldType name="proper_name" class="solr.TextField" positionIncrementGap="100">
             <analyzer type="index">
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
-                <filter class="solr.WordDelimiterGraphFilterFactory"/>
+                <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
                 <filter class="solr.FlattenGraphFilterFactory"/>
                 <filter class="solr.LowerCaseFilterFactory" />
                 <filter class="solr.ASCIIFoldingFilterFactory"/>                
             </analyzer>
             <analyzer type="query">
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
-                <filter class="solr.WordDelimiterGraphFilterFactory"/>
+                <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
                 <filter class="solr.LowerCaseFilterFactory" />
                 <filter class="solr.ASCIIFoldingFilterFactory"/>                
             </analyzer>
