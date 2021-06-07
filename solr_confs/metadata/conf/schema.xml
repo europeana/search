@@ -25,7 +25,8 @@
                 <filter class="solr.ASCIIFoldingFilterFactory"/>   
             </analyzer>
         </fieldType>
-        <fieldType name="sortable_text_general" class="solr.SortableTextField" positionIncrementGap="100">
+        <!-- Text field type with all strings as doc values for sorting and faceting -->
+        <fieldType name="sortable_text_general" class="solr.SortableTextField" positionIncrementGap="100" maxCharsForDocValues="0">
             <analyzer type="index">
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
                 <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
@@ -69,7 +70,7 @@
         <field name="filter_tags" type="int" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="facet_tags" type="int" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="has_landingpage" type="boolean" indexed="true" stored="true" multiValued="false" docValues="true"/>
-        <field name="text" type="text_general" indexed="true" stored="false" multiValued="true"/>
+        <field name="text" type="text_general" indexed="true" stored="false" multiValued="true" uninvertible="false"/>
         <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false" docValues="true"/>
         <field name="europeana_id" type="string" indexed="true" required="true" multiValued="false" stored="true" docValues="true"/>
         <field name="europeana_collectionName" type="string" indexed="true" multiValued="true" stored="true" docValues="true"/>
@@ -119,28 +120,28 @@
         <field name="wr_edm_rights" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <dynamicField name="wr_edm_rights.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="wr_edm_isNextInSequence" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="proxy_dc_contributor" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="proxy_dc_contributor" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
         <dynamicField name="proxy_dc_contributor.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="proxy_dc_coverage" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <dynamicField name="proxy_dc_coverage.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="proxy_dc_creator" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="proxy_dc_creator" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
         <dynamicField name="proxy_dc_creator.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="proxy_dc_date" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <dynamicField name="proxy_dc_date.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="proxy_dc_description" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="proxy_dc_description.*" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="proxy_dc_description" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
+        <dynamicField name="proxy_dc_description.*" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
         <field name="proxy_dc_language" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <dynamicField name="proxy_dc_language.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="proxy_dc_subject" type="sortable_text_general" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="proxy_dc_subject.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="proxy_dc_format" type="sortable_text_general" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="proxy_dc_format.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="proxy_dc_title" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="proxy_dc_title.*" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="proxy_dc_title" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
+        <dynamicField name="proxy_dc_title.*" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
         <field name="proxy_dc_type" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <dynamicField name="proxy_dc_type.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="proxy_dc_type_search" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="proxy_dc_type_search.*" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="proxy_dc_type_search" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
+        <dynamicField name="proxy_dc_type_search.*" type="text_general" indexed="true" stored="true" multiValued="true" uninvertible="false"/>
         <field name="proxy_dc_source" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <dynamicField name="proxy_dc_source.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="proxy_dc_rights" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
