@@ -223,8 +223,8 @@
         <field name="wr_dcterms_isReferencedBy" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="wr_dcterms_isReferencedBy.*" type="string" indexed="true" stored="true" multiValued="true"/>
         <!--  EA2563: fields for the URI of edm:dataProvider (dataProvider), and edm:intermediateProvider and/or edm:provider (provider) -->
-        <field name="dataProvider" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
-		<field name="provider" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <field name="dataProvider" type="string" indexed="true" stored="true" multiValued="false"/>
+		<field name="provider" type="string" indexed="true" stored="true" multiValued="true"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
     </fields>
