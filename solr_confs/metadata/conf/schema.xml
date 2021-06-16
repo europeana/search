@@ -56,6 +56,10 @@
         <field name="facet_tags" type="int" indexed="true" stored="true" multiValued="true"/>
         <field name="has_landingpage" type="boolean" indexed="true" stored="true" multiValued="false"/>
         <field name="text" type="text_general" indexed="true" stored="false" multiValued="true"/>
+        <!--  New field for Spanish pilot -->
+        <field name="text.en" type="text_general" indexed="true" stored="false" multiValued="true"/>
+        <field name="text.es" type="text_general" indexed="true" stored="false" multiValued="true"/>
+        
         <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false"/>
         <field name="europeana_id" type="string" indexed="true" required="true" multiValued="false" stored="true"/>
         <field name="europeana_collectionName" type="string" indexed="true" required="false" multiValued="true" stored="true"/>
@@ -359,4 +363,77 @@
     <copyField source="wr_dcterms_isReferencedBy.*" dest="wr_dcterms_isReferencedBy"/>
     <copyField source="wr_edm_rights.*" dest="wr_edm_rights"/>
     <copyField source="wr_svcs_hasservice.*" dest="wr_svcs_hasservice"/>
+    
+    <!--  population of text.en for Spanish pilot -->
+    <copyField source="provider_aggregation_edm_dataProvider.en" dest="text.en"/>
+    <copyField source="provider_aggregation_edm_intermediateProvider.en" dest="text.en"/>
+    <copyField source="provider_aggregation_edm_provider.en" dest="text.en"/>
+    <copyField source="proxy_dc_contributor.en" dest="text.en"/>
+    <copyField source="proxy_dc_coverage.en" dest="text.en"/>
+    <copyField source="proxy_dc_creator.en" dest="text.en"/>
+    <copyField source="proxy_dc_date.en" dest="text.en"/>
+    <copyField source="proxy_dc_description.en" dest="text.en"/>
+    <copyField source="proxy_dc_format.en" dest="text.en"/>
+    <copyField source="proxy_dc_language.en" dest="text.en"/>
+    <copyField source="proxy_dc_publisher.en" dest="text.en"/>
+    <copyField source="proxy_dc_source.en" dest="text.en"/>
+    <copyField source="proxy_dc_subject.en" dest="text.en"/>
+    <copyField source="proxy_dc_title.en" dest="text.en"/>
+    <copyField source="proxy_dc_type.en" dest="text.en"/>
+    <copyField source="proxy_dcterms_alternative.en" dest="text.en"/>
+    <copyField source="proxy_dcterms_created.en" dest="text.en"/>
+    <copyField source="proxy_dcterms_issued.en" dest="text.en"/>
+    <copyField source="proxy_dcterms_medium.en" dest="text.en"/>
+    <copyField source="proxy_dcterms_provenance.en" dest="text.en"/>
+    <copyField source="proxy_dcterms_spatial.en" dest="text.en"/>
+    <copyField source="proxy_dcterms_temporal.en" dest="text.en"/>
+    <copyField source="proxy_edm_currentLocation.en" dest="text.en"/>
+    <copyField source="proxy_edm_type" dest="text.en"/>
+    <copyField source="ag_skos_altLabel.en" dest="text.en"/>
+    <copyField source="ag_skos_prefLabel.en" dest="text.en"/>
+    <copyField source="ag_foaf_name.en" dest="text.en"/>
+    <copyField source="ts_skos_altLabel.en" dest="text.en"/>
+    <copyField source="ts_skos_prefLabel.en" dest="text.en"/>
+    <copyField source="pl_skos_altLabel.en" dest="text.en"/>
+    <copyField source="pl_skos_prefLabel.en" dest="text.en"/>
+    <copyField source="cc_skos_altLabel.en" dest="text.en"/>
+    <copyField source="cc_skos_prefLabel.en" dest="text.en"/>
+    <copyField source="proxy_dc_type_search.en" dest="text.en"/>
+    
+    <!--  population of text.es for Spanish pilot -->
+    <copyField source="provider_aggregation_edm_dataProvider.es" dest="text.es"/>
+    <copyField source="provider_aggregation_edm_intermediateProvider.es" dest="text.es"/>
+    <copyField source="provider_aggregation_edm_provider.es" dest="text.es"/>
+    <copyField source="proxy_dc_contributor.es" dest="text.es"/>
+    <copyField source="proxy_dc_coverage.es" dest="text.es"/>
+    <copyField source="proxy_dc_creator.es" dest="text.es"/>
+    <copyField source="proxy_dc_date.es" dest="text.es"/>
+    <copyField source="proxy_dc_description.es" dest="text.es"/>
+    <copyField source="proxy_dc_format.es" dest="text.es"/>
+    <copyField source="proxy_dc_language.es" dest="text.es"/>
+    <copyField source="proxy_dc_publisher.es" dest="text.es"/>
+    <copyField source="proxy_dc_source.es" dest="text.es"/>
+    <copyField source="proxy_dc_subject.es" dest="text.es"/>
+    <copyField source="proxy_dc_title.es" dest="text.es"/>
+    <copyField source="proxy_dc_type.es" dest="text.es"/>
+    <copyField source="proxy_dcterms_alternative.es" dest="text.es"/>
+    <copyField source="proxy_dcterms_created.es" dest="text.es"/>
+    <copyField source="proxy_dcterms_issued.es" dest="text.es"/>
+    <copyField source="proxy_dcterms_medium.es" dest="text.es"/>
+    <copyField source="proxy_dcterms_provenance.es" dest="text.es"/>
+    <copyField source="proxy_dcterms_spatial.es" dest="text.es"/>
+    <copyField source="proxy_dcterms_temporal.es" dest="text.es"/>
+    <copyField source="proxy_edm_currentLocation.es" dest="text.es"/>
+    <copyField source="proxy_edm_type" dest="text.es"/>
+    <copyField source="ag_skos_altLabel.es" dest="text.es"/>
+    <copyField source="ag_skos_prefLabel.es" dest="text.es"/>
+    <copyField source="ag_foaf_name.es" dest="text.es"/>
+    <copyField source="ts_skos_altLabel.es" dest="text.es"/>
+    <copyField source="ts_skos_prefLabel.es" dest="text.es"/>
+    <copyField source="pl_skos_altLabel.es" dest="text.es"/>
+    <copyField source="pl_skos_prefLabel.es" dest="text.es"/>
+    <copyField source="cc_skos_altLabel.es" dest="text.es"/>
+    <copyField source="cc_skos_prefLabel.es" dest="text.es"/>
+    <copyField source="proxy_dc_type_search.es" dest="text.es"/>
+ 
 </schema>
