@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="entity" version="1.0">
+
+	<types>
+		<!-- The StrField type is not analyzed, but indexed/stored verbatim. -->
+		<fieldType name="string" class="solr.StrField"
+			sortMissingLast="true" />
+		<fieldType name="json" class="solr.StrField"
+			sortMissingLast="true" />
+<!-- 
+		<fieldType name="strings" class="solr.StrField"
+			sortMissingLast="true" multiValued="true" docValues="true" />
+ -->
+		<!-- boolean type: "true" or "false" -->
+		<fieldType name="boolean" class="solr.BoolField"
+			sortMissingLast="true" />
+
+		<!-- Numeric field types that index values using KD-trees. Point fields 
+			don't support FieldCache, so they must have docValues="true" if needed for 
+			sorting, faceting, functions, etc. -->
+		<fieldType name="int" class="solr.IntPointField" />
+		<fieldType name="float" class="solr.FloatPointField" />
+		<fieldType name="long" class="solr.LongPointField" />
+		<fieldType name="double" class="solr.DoublePointField" />
+		
+		<fieldType name="random" class="solr.RandomSortField"
+			indexed="true" />
+		
+		<fieldType name="date" class="solr.DatePointField"
+			omitNorms="true" />
+		<fieldType name="location"
+			class="solr.LatLonPointSpatialField" docValues="true" />
+
+		<fieldType name="suggestType" class="solr.TextField"
+			positionIncrementGap="100" termVectors="true" termPositions="true"
+			termOffsets="true" storeOffsetsWithPositions="true">
+			<analyzer>
+				<charFilter class="solr.PatternReplaceCharFilterFactory"
+					pattern="[!'#%'()*+,-./:;=>?@[/]^{|}~]" replacement="" />
+				<charFilter class="solr.MappingCharFilterFactory"
+					mapping="accent-map.txt" />
+				<tokenizer class="solr.PatternTokenizerFactory"
+					pattern="_" />
+				<filter class="solr.LowerCaseFilterFactory" />
+			</analyzer>
+		</fieldType>
+
+		<fieldType name="text" class="solr.TextField"
+			positionIncrementGap="100">
+			<analyzer type="index">
+				<tokenizer class="solr.WhitespaceTokenizerFactory" />
+				<filter class="solr.StopFilterFactory" ignoreCase="true"
+					words="stopwords.txt" />
+				<filter class="solr.ASCIIFoldingFilterFactory" />
+				<filter class="solr.LowerCaseFilterFactory" />
+				<filter class="solr.KStemFilterFactory" />
+			</analyzer>
+			<analyzer type="query">
+				<tokenizer class="solr.WhitespaceTokenizerFactory" />
+				<filter class="solr.StopFilterFactory" ignoreCase="true"
+					words="stopwords.txt" />
+				<filter class="solr.ASCIIFoldingFilterFactory" />
+				<filter class="solr.LowerCaseFilterFactory" />
+				<filter class="solr.KStemFilterFactory" />
+			</analyzer>
+		</fieldType>
+
+		<fieldType name="proper_name" class="solr.TextField"
+			positionIncrementGap="100">
+			<analyzer>
+				<tokenizer class="solr.WhitespaceTokenizerFactory" />
+				<filter class="solr.PatternReplaceFilterFactory"
+					pattern="^\p{Punct}*(.+?)\p{Punct}*$" replacement="$1" />
+				<filter class="solr.ASCIIFoldingFilterFactory" />
+				<filter class="solr.LowerCaseFilterFactory" />
+				<filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+			</analyzer>
+		</fieldType>
+		<fieldType name="proper_name_sortable" class="solr.SortableTextField"
+			positionIncrementGap="100">
+			<analyzer>
+				<tokenizer class="solr.WhitespaceTokenizerFactory" />
+				<filter class="solr.PatternReplaceFilterFactory"
+					pattern="^\p{Punct}*(.+?)\p{Punct}*$" replacement="$1" />
+				<filter class="solr.ASCIIFoldingFilterFactory" />
+				<filter class="solr.LowerCaseFilterFactory" />
+				<filter class="solr.RemoveDuplicatesTokenFilterFactory" />
+			</analyzer>
+		</fieldType>
+	</types>
+
+	<fields>
+		<!-- required field -->
+		<field name="_version_" type="long" indexed="true" stored="true"
+			multiValued="false" />
+		<!-- administrative information -->
+		<field name="timestamp" type="date" indexed="true" stored="true"
+			default="NOW" multiValued="false" />
+		<field name="created" type="date" indexed="true" stored="true"
+			multiValued="false" />
+		<field name="modified" type="date" indexed="true" stored="true"
+			multiValued="false" />
+
+		<!-- unique key -->
+		<!-- Deprecated replace by entity_uri -->
+		<field name="id" type="string" indexed="true" required="true"
+			multiValued="false" stored="true" />
+		<field name="entity_uri" type="string" indexed="true"
+			multiValued="false" stored="true" />
+		<copyField source="id" dest="entity_uri" />
+
+		<!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
+		<!-- about to be deprecated ... should be fully replaced by type field, 
+			for backward compatibility is currently copied to type field -->
+		<field name="internal_type" type="string" indexed="true"
+			stored="true" multiValued="false"/>
+		<!-- use this shortly ... -->
+		<field name="type" type="string" indexed="true" stored="true"
+			multiValued="false" required="false" />
+		<copyField source="internal_type" dest="type" />
+
+		<!-- License info -->
+		<field name="rights" type="string" indexed="true" stored="true"
+			multiValued="true" />
+
+		<!-- Relevance fields -->
+		<field name="europeana_doc_count" type="int" indexed="true"
+			stored="true" multiValued="false" />
+		<field name="europeana_term_hits" type="int" indexed="true"
+			stored="true" multiValued="false" />
+		<field name="wikipedia_clicks" type="int" indexed="true"
+			stored="true" multiValued="false" />
+		<field name="pagerank" type="float" indexed="true" stored="true"
+			multiValued="false" />
+		<!-- the above = factors are combined to produce the derived_score, which 
+			is used directly for ranking -->
+		<field name="derived_score" type="float" indexed="true"
+			stored="true" multiValued="false" />
+
+		<!-- entity fields -->
+		<!-- suggester field populated by import scripts -->
+		<field name="skos_prefLabel" type="proper_name_sortable" indexed="true"
+			stored="true" multiValued="false"/>
+
+		<dynamicField name="skos_prefLabel.*" type="string"
+			indexed="false" stored="true" multiValued="false" docValues="true"/>
+		<dynamicField name="skos_altLabel.*" type="string"
+			indexed="false" stored="true" multiValued="true" docValues="true"/>
+		<dynamicField name="skos_hiddenLabel.*" type="string"
+			indexed="false" stored="true" multiValued="true"/>
+		<dynamicField name="skos_note.*" type="string"
+			indexed="false" stored="true" multiValued="true" />
+		<field name="label" type="proper_name_sortable" indexed="true"
+			stored="true" multiValued="true"/>
+		<dynamicField name="label.*" type="proper_name_sortable"
+			indexed="true" stored="true" multiValued="true"/>
+		<copyField source="skos_prefLabel.*" dest="label" />
+		<copyField source="skos_prefLabel.*" dest="label.*" />
+		<copyField source="skos_altLabel.*" dest="label" />
+		<copyField source="skos_altLabel.*" dest="label.*" />
+		<copyField source="edm_acronym.*" dest="label.*" />
+		<copyField source="edm_acronym.*" dest="label" />
+		<!-- not available yet <copyField source="foaf_name.*" dest="label"/> <copyField 
+			source="foaf_name.*" dest="label.*"/> -->
+
+		<!-- these fields all consist of URI identifiers -->
+		<!-- TODO: alias -->
+		<field name="dcterms_isPartOf" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<field name="isPartOf" type="string" indexed="true"
+			stored="false" multiValued="true" />
+		<copyField source="dcterms_isPartOf" dest="isPartOf" />
+		<!-- TODO: alias -->
+		<field name="dcterms_hasPart" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<field name="hasPart" type="string" indexed="true"
+			stored="false" multiValued="true" />
+		<copyField source="dcterms_hasPart" dest="hasPart" />
+
+		<field name="owl_sameAs" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="coref" type="string" indexed="true" stored="true"
+			multiValued="true" />
+		<copyField source="owl_sameAs" dest="coref" />
+		<copyField source="skos_exactMatch" dest="coref" />
+
+		<field name="foaf_depiction" type="string" indexed="false"
+			stored="true" multiValued="false" />
+			
+		<field name="isShownBy" type="string" indexed="true"
+			stored="true" multiValued="false" />
+		
+		<field name="isShownBy.source" type="string" indexed="true"
+			stored="true" multiValued="false" />
+		
+		<field name="isShownBy.thumbnail" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		
+		<field name="edm_isRelatedTo" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<!-- TODO: alias -->
+		<field name="isRelatedTo" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<copyField source="edm_isRelatedTo" dest="isRelatedTo" />
+
+		<field name="edm_isNextInSequence" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="edm_wasPresentAt" type="string" indexed="false"
+			stored="true" multiValued="true" />
+
+		<field name="skos_broader" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<!-- TODO: alias -->
+		<field name="broader" type="string" indexed="true" stored="true"
+			multiValued="true" />
+		<copyField source="skos_broader" dest="broader" />
+
+		<field name="skos_narrower" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<!-- TODO: alias -->
+		<field name="narrower" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<copyField source="skos_narrower" dest="narrower" />
+
+		<field name="skos_broadMatch" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="skos_narrowMatch" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="skos_relatedMatch" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="skos_exactMatch" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="skos_closeMatch" type="string" indexed="false"
+			stored="true" multiValued="true" />
+
+		<field name="skos_related" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<!-- TODO: alias -->
+		<field name="related" type="string" indexed="true" stored="true"
+			multiValued="true" />
+		<copyField source="skos_related" dest="related" />
+
+		<field name="relatedMatch" type="string" indexed="true"
+			stored="false" multiValued="true" />
+		<copyField source="skos_narrowMatch" dest="relatedMatch" />
+		<copyField source="skos_broadMatch" dest="relatedMatch" />
+		<copyField source="skos_closeMatch" dest="relatedMatch" />
+		<copyField source="skos_relatedMatch" dest="relatedMatch" />
+
+		<field name="skos_notation" type="text" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="skos_inScheme" type="string" indexed="true"
+			stored="true" multiValued="true" />
+
+		<!-- TODO: alias -->
+		<field name="dc_identifier" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="identifier" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<copyField source="dc_identifier" dest="identifier" />
+
+		<!-- not available yet -->
+		<!-- <field name="foaf_name" type="string" indexed="true" stored="true" 
+			multiValued="true"/> <dynamicField name="foaf_name.*" type="proper_name" 
+			indexed="true" stored="true" multiValued="true"/> <copyField source="foaf_name.*" 
+			dest="foaf_name"/> -->
+
+
+		<!-- some Agent-related date fields. Check datatyping -->
+		<!-- BEGIN RELATED FIELDS -->
+		<field name="edm_begin" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		<field name="rdagr2_dateOfBirth" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<dynamicField name="rdagr2_dateOfBirth.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<!-- copy language versions to the main display field -->
+		<copyField source="rdagr2_dateOfBirth.*"
+			dest="rdagr2_dateOfBirth" />
+
+
+		<dynamicField name="rdagr2_dateOfEstablishment.*"
+			type="string" indexed="false" stored="true" multiValued="false" />
+		<field name="rdagr2_dateOfEstablishment" type="string"
+			indexed="false" stored="true" multiValued="true" />
+		<!-- copy language versions to the main display field -->
+		<copyField source="rdagr2_dateOfEstablishment.*"
+			dest="rdagr2_dateOfEstablishment" />
+
+		<!-- BEGIN FIELD -->
+		<field name="begin" type="string" indexed="true" stored="false"
+			multiValued="true" />
+		<!-- Index all begin related dates -->
+		<copyField source="edm_begin" dest="begin" />
+		<copyField source="rdagr2_dateOfBirth.*" dest="begin" />
+		<copyField source="rdagr2_dateOfEstablishment.*"
+			dest="begin" />
+
+
+		<!-- END RELATED FIELDS -->
+		<field name="edm_end" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		<dynamicField name="rdagr2_dateOfDeath.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<field name="rdagr2_dateOfDeath" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<copyField source="rdagr2_dateOfDeath.*"
+			dest="rdagr2_dateOfDeath" />
+
+		<dynamicField name="rdagr2_dateOfTermination.*"
+			type="string" indexed="false" stored="true" multiValued="false" />
+		<field name="rdagr2_dateOfTermination" type="string"
+			indexed="false" stored="true" multiValued="true" />
+		<copyField source="rdagr2_dateOfTermination.*"
+			dest="rdagr2_dateOfTermination" />
+
+		<!-- END FIELD -->
+		<!-- search field -->
+		<field name="end" type="string" indexed="true" stored="false"
+			multiValued="true" />
+		<copyField source="edm_end" dest="end" />
+		<copyField source="rdagr2_dateOfTermination.*" dest="end" />
+		<copyField source="rdagr2_dateOfDeath.*" dest="end" />
+
+		<!-- DATE TYPE FIELDS -->
+		<!-- search field -->
+		<field name="dc_date" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<!-- extracted dates -->
+		<field name="date_extracted" type="date" indexed="false"
+			stored="true" multiValued="true" />
+		<!-- NOT USED as date extraction/formating is not implemented in importer -->
+		<field name="beginDate" type="date" indexed="true" stored="true"
+			multiValued="true" />
+		<!-- NOT USED as date extraction/formating is not implemented in importer -->
+		<field name="endDate" type="date" indexed="true" stored="true"
+			multiValued="true" />
+
+		<field name="date" type="date" indexed="true" stored="true"
+			multiValued="true" />
+		<copyField source="date_extracted" dest="date" />
+		<copyField source="beginDate" dest="date" />
+		<copyField source="endDate" dest="date" />
+
+
+		<!-- other Agent-related fields -->
+		<!-- PLACE OF BIRTH -->
+		<dynamicField name="rdagr2_placeOfBirth.*" type="string"
+			indexed="false" stored="true" multiValued="true" />
+
+		<!-- URIs only -->
+		<field name="placeOfBirth.uri" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<copyField source="rdagr2_placeOfBirth."
+			dest="placeOfBirth.uri" />
+
+		<!-- only URIs -->
+		<field name="placeOfDeath.uri" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<copyField source="rdagr2_placeOfDeath."
+			dest="placeOfDeath.uri" />
+
+		<!-- alias for localized search -->
+		<dynamicField name="placeOfBirth.*" type="proper_name"
+			indexed="true" stored="false" multiValued="true" />
+		<copyField source="rdagr2_placeOfBirth.*"
+			dest="placeOfBirth.*" />
+
+		<!-- alias for general search -->
+		<field name="placeOfBirth" type="string" indexed="true"
+			stored="false" multiValued="true" />
+		<copyField source="rdagr2_placeOfBirth.*"
+			dest="placeOfBirth" />
+
+		<!-- PLACE OF DEATH -->
+		<dynamicField name="rdagr2_placeOfDeath.*" type="string"
+			indexed="false" stored="true" multiValued="true" />
+
+		<!-- alias for localized search -->
+		<dynamicField name="placeOfDeath.*" type="proper_name"
+			indexed="true" stored="false" multiValued="true" />
+		<copyField source="rdagr2_placeOfDeath.*"
+			dest="placeOfDeath.*" />
+
+		<!-- alias for general search -->
+		<field name="placeOfDeath" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<copyField source="rdagr2_placeOfDeath.*"
+			dest="placeOfDeath" />
+
+		<!-- NOT USED specs to be fixed <field name="rdagr2_placeOfDeath" type="string" 
+			indexed="true" stored="true" multiValued="true"/> -->
+
+		<!-- HAS MET -->
+		<field name="edm_hasMet" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="hasMet" type="string" indexed="true" stored="true"
+			multiValued="true" />
+		<!-- URI or text?? -->
+		<copyField source="edm_hasMet" dest="hasMet" />
+		<copyField source="rdagr2_placeOfBirth.*" dest="hasMet" />
+		<copyField source="rdagr2_placeOfDeath.*" dest="hasMet" />
+
+
+		<!-- PROFESSION OR OCCUPATION -->
+		<dynamicField name="rdagr2_professionOrOccupation.*"
+			type="text" indexed="false" stored="true" multiValued="true" />
+
+		<!-- URI only -->
+		<field name="professionOrOccupation.uri" type="string"
+			indexed="true" stored="true" multiValued="true" />
+		<copyField source="rdagr2_professionOrOccupation."
+			dest="professionOrOccupation.uri" />
+
+		<!-- alias for localized search -->
+		<dynamicField name="professionOrOccupation.*" type="text"
+			indexed="true" stored="true" multiValued="true" />
+		<copyField source="rdagr2_professionOrOccupation.*"
+			dest="professionOrOccupation.*" />
+
+		<!-- alias for general search -->
+		<field name="professionOrOccupation" type="text" indexed="true"
+			stored="false" multiValued="true" />
+		<copyField source="rdagr2_professionOrOccupation.*"
+			dest="professionOrOccupation" />
+
+		<!-- GENDER -->
+		<field name="rdagr2_gender" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		<!-- TODO alias -->
+		<field name="gender" type="string" indexed="true" stored="true"
+			multiValued="true" />
+		<copyField source="rdagr2_gender" dest="gender" />
+
+		<dynamicField name="rdagr2_biographicalInformation.*"
+			type="string" indexed="false" stored="true" multiValued="true" />
+
+		<!-- Place-related fields -->
+		<field name="wgs84_pos_lat" type="float" indexed="false"
+			stored="true" multiValued="false" />
+		<field name="wgs84_pos_long" type="float" indexed="false"
+			stored="true" multiValued="false" />
+		<field name="wgs84_pos_alt" type="float" indexed="false"
+			stored="true" multiValued="false" />
+		<field name="wgs84_pos_lat_long" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		<!-- this fields was never used <field name="coord" type="location" indexed="true" 
+			stored="true" multiValued="false" /> -->
+		<!-- required for spatial search -->
+		<!-- this field was never used see <dynamicField name="*_coords" type="double" 
+			indexed="true" stored="false" /> -->
+		<!-- TODO: alias -->
+		<field name="alt" type="float" indexed="false" stored="true"
+			multiValued="false" />
+		<copyField source="wgs84_pos_alt" dest="alt" />
+
+
+		<field name="payload" type="json" indexed="true" stored="true"
+			multiValued="false" />
+		<field name="suggest_filters" indexed="true" stored="true"
+			multiValued="true" type="string" />
+
+		<!-- Organization fields -->
+		<field name="foaf_logo" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		<field name="foaf_homepage" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		<field name="foaf_phone" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="foaf_mbox" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<!-- these fields are all populated by controlled values. These are all 
+			en, but in future may be expanded -->
+		<!-- TODO: alias -->
+		<dynamicField name="europeanaRole.*" type="string"
+			indexed="true" multiValued="true" stored="true" />
+		<!-- <dynamicField name="edm_europeanaRole.*" type="string" indexed="true" 
+			multiValued="true" /> <copyField source="europeanaRole.*" dest="edm_europeanaRole.*" 
+			/> -->
+
+		<!-- TODO: alias -->
+		<dynamicField name="organizationDomain.*" type="string"
+			indexed="true" stored="true" multiValued="true" />
+		<!-- <dynamicField name="edm_organizationDomain.*" type="string" indexed="true" 
+			stored="true" multiValued="true"/> <copyField source="orgDomain.*" dest="edm_organizationDomain.*" 
+			/> -->
+
+		<!-- TODO: alias -->
+		<dynamicField name="geographicLevel.*" type="string"
+			indexed="true" stored="true" multiValued="false" />
+		<!-- <dynamicField name="edm_geographicLevel.*" type="string" indexed="true" 
+			stored="true" multiValued="false"/> <copyField source="geoLevel.*" dest="edm_geographicLevel.*" 
+			/> -->
+
+		<!-- standard language-defined dynamicField -->
+		<dynamicField name="edm_acronym.*" type="string"
+			indexed="false" stored="true" multiValued="true" />
+		<!-- ISO ALPHA-2 codes -->
+		<field name="country" type="string" indexed="true" stored="true"
+			multiValued="false" />
+		<!-- TODO: alias -->
+		<!-- <field name="edm_country" type="string" indexed="true" stored="true" 
+			multiValued="false"/> <copyField source="country" dest="edm_country"/> -->
+		<!-- Determine the top resource linked through edm:isPartOf -->
+		<field name="inCountry" type="string" indexed="true"
+			stored="true" multiValued="true" />
+
+		<!-- wildcards here indicate numbers; used because of the possibility of 
+			one organization having more than one address -->
+		<dynamicField name="vcard_hasAddress.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<dynamicField name="vcard_streetAddress.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<dynamicField name="vcard_locality.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<dynamicField name="vcard_region.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<dynamicField name="vcard_postalCode.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<dynamicField name="vcard_countryName.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<dynamicField name="vcard_postOfficeBox.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		<field name="hasGeo" type="location" indexed="true"
+			stored="true" multiValued="false" />
+		
+		<!-- dc: description not currently in the profile -->
+		<dynamicField name="dc_description.*" type="string"
+			indexed="false" stored="true" />
+
+		<!-- ConceptScheme fields -->
+		<dynamicField name="skos_definition.*" type="string"
+			indexed="false" stored="true" multiValued="false" />
+		
+		<!-- Random Search -->
+		<dynamicField name="random_*" type="random" />
+		
+		<!-- COPYFIELDS -->
+		<!-- note that many 'copyfields' are populated artificially during the 
+			import process rather than relying on Solr built-in functionality. In particular, 
+			language-specific values for individual fields are also assigned to a language-specific 
+			text 'copyfield' in the import pipeline -->
+
+		<field name="text" type="text" indexed="true" stored="true"
+			multiValued="true" />
+		<dynamicField name="text.*" type="text" indexed="true"
+			stored="false" multiValued="true" />
+
+		<!-- copy to localized text -->
+		<copyField source="skos_prefLabel.*" dest="text.*" />
+		<copyField source="skos_altLabel.*" dest="text.*" />
+		<copyField source="edm_acronym.*" dest="text.*" />
+		<copyField source="skos_note.*" dest="text.*" />
+		<copyField source="dc_description.*" dest="text.*" />
+		<copyField source="rdagr2_professionOrOccupation.*"
+			dest="text.*" />
+		<copyField source="rdagr2_biographicalInformation.*"
+			dest="text.*" />
+		<copyField source="europeanaRole.*" dest="text.*" />
+		<copyField source="organizationDomain.*" dest="text.*" />
+		<copyField source="geographicLevel.*" dest="text.*" />
+
+		<!-- copy to general search field -->
+		<copyField source="skos_prefLabel.*" dest="text" />
+		<copyField source="skos_altLabel.*" dest="text" />
+		<copyField source="edm_acronym.*" dest="text" />
+		<copyField source="skos_note.*" dest="text" />
+		<copyField source="dc_description.*" dest="text" />
+		<copyField source="rdagr2_professionOrOccupation.*"
+			dest="text" />
+		<copyField source="rdagr2_biographicalInformation.*"
+			dest="text" />
+		<copyField source="europeanaRole.*" dest="text" />
+		<copyField source="organizationDomain.*" dest="text" />
+		<copyField source="geographicLevel.*" dest="text" />
+
+	</fields>
+
+	<uniqueKey>id</uniqueKey>
+</schema>
