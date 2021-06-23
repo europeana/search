@@ -377,4 +377,7 @@
     <copyField source="wr_dcterms_isReferencedBy.*" dest="wr_dcterms_isReferencedBy"/>
     <copyField source="wr_edm_rights.*" dest="wr_edm_rights"/>
     <copyField source="wr_svcs_hasservice.*" dest="wr_svcs_hasservice"/>
+    <!--  Extension of EA2563: copy fields to support organizations in general -->
+    <copyField source="provider" dest="foaf_organization"/>
+    <copyField source="dataProvider" dest="foaf_organization"/>
 </schema>
