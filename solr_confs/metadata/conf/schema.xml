@@ -26,7 +26,7 @@
             </analyzer>
         </fieldType>
         <!-- Text field type with all strings as doc values for sorting and faceting -->
-        <fieldType name="sortable_text_general" class="solr.SortableTextField" positionIncrementGap="100" maxCharsForDocValues="0">
+        <fieldType name="sortable_text_general" class="solr.SortableTextField" positionIncrementGap="100">
             <analyzer type="index">
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
                 <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
