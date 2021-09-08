@@ -140,12 +140,12 @@
 			multiValued="false" stored="true" />
 
 		<!-- @Field("body_value") -->
-		<field name="body_value" type="string" indexed="true" required="false"
+		<field name="body_value" type="text" indexed="true" required="false"
 			multiValued="false" stored="true" />
 			
 		<!-- @Field("body_value.*") NEW -->
-		<dynamicField name="body_value.*" type="string" required="false"
-			multiValued="true" indexed="true" stored="true" />	
+		<dynamicField name="body_value.*" type="text" required="false"
+			multiValued="false" indexed="true" stored="true" />	
 
 		<!-- Body Text Search Field, generated -->
 <!-- 		<field name="body_text" type="text" indexed="true" stored="false" -->
