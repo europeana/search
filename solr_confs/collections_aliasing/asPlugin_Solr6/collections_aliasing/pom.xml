@@ -75,9 +75,35 @@
 
 	</dependencies>
 
+	<repositories>
+		<!--Release repositories-->
+		<repository>
+			<id>libs-release</id>
+			<name>libs-release</name>
+			<url>http://artifactory.eanadev.org/artifactory/libs-release</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>libs-snapshot</id>
+			<name>libs-snapshot</name>
+			<url>http://artifactory.eanadev.org/artifactory/libs-snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<build>
         <finalName>
-            ${artifactId}-solr${solr.version}-${version}
+            ${artifactId}-solr${solr.version}-${project.version}
         </finalName>
         
         <testResources>
