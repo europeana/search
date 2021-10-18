@@ -222,6 +222,9 @@
         <field name="provider_aggregation_cc_deprecated_on" type="date" indexed="true" stored="true" multiValued="true"/>
         <field name="wr_dcterms_isReferencedBy" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="wr_dcterms_isReferencedBy.*" type="string" indexed="true" stored="true" multiValued="true"/>
+        <!--  EA2563: fields for the URI of edm:dataProvider (dataProvider), and edm:intermediateProvider and/or edm:provider (provider) -->
+        <field name="dataProvider" type="string" indexed="true" stored="true" multiValued="false"/>
+		<field name="provider" type="string" indexed="true" stored="true" multiValued="true"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
     </fields>
@@ -359,4 +362,7 @@
     <copyField source="wr_dcterms_isReferencedBy.*" dest="wr_dcterms_isReferencedBy"/>
     <copyField source="wr_edm_rights.*" dest="wr_edm_rights"/>
     <copyField source="wr_svcs_hasservice.*" dest="wr_svcs_hasservice"/>
+    <!--  Extension of EA2563: copy fields to support organizations in general -->
+    <copyField source="provider" dest="foaf_organization"/>
+    <copyField source="dataProvider" dest="foaf_organization"/>
 </schema>
