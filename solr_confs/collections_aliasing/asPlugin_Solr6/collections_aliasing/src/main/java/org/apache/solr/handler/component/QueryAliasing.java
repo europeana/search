@@ -56,11 +56,11 @@ public class QueryAliasing {
           Path instanceDir = core.getCoreDescriptor().getInstanceDir();
           Path confDir = instanceDir.resolve("conf");
           aliasConfig = new AliasConfig(confDir, AliasConfig.DEFAULT_CONF_FILE, null);
-          coreAliasConfigMap.put(core, aliasConfig);
         } catch (Exception e) {
           throw new SolrException(SolrException.ErrorCode.NOT_FOUND, "Alias config file not found", e);
         }
       }
+      coreAliasConfigMap.put(core, aliasConfig);
     }
     return aliasConfig;
   }
