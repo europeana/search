@@ -12,7 +12,7 @@
           </alias-def>
           <alias-def>
               <alias>fashion</alias>
-              <query>(PROVIDER:"Europeana Fashion") AND NOT(proxy_dc_identifier:"01457L") AND NOT(proxy_dcterms_created:[0001 TO 1300]) OR NOT(proxy_dcterms_created:[2018 TO 9999]) OR NOT(YEAR:[2018 TO 9999])</query>
+              <query>(PROVIDER:"European Fashion Heritage Association") AND NOT(proxy_dc_identifier:"01457L") AND NOT(proxy_dcterms_created:[0001 TO 1300]) OR NOT(proxy_dcterms_created:[2018 TO 9999]) OR NOT(YEAR:[2018 TO 9999])</query>
           </alias-def>
           <alias-def>
               <alias>industrial</alias>
