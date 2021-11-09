@@ -138,7 +138,9 @@
 			stored="true" multiValued="false" />
 
 		<!-- entity fields -->
-		<!-- suggester field populated by import scripts -->
+		<!-- deprecated - to be removed toghether with the old suggester -->
+		<!-- suggester field popu
+ed by import scripts -->
 		<field name="skos_prefLabel" type="proper_name_sortable" indexed="true"
 			stored="true" multiValued="false"/>
 
@@ -442,6 +444,7 @@
 			stored="true" multiValued="false" />
 		<field name="wgs84_pos_alt" type="float" indexed="false"
 			stored="true" multiValued="false" />
+		<!-- deprecated: not in edm, replaces by geo search fields -->
 		<field name="wgs84_pos_lat_long" type="string" indexed="false"
 			stored="true" multiValued="false" />
 		<!-- this fields was never used <field name="coord" type="location" indexed="true" 
