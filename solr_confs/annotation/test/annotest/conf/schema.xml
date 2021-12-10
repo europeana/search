@@ -83,6 +83,11 @@
 		<!-- @Field("anno_id") New -->
 		<field name="anno_id" type="keyword" indexed="true" required="true"
 			multiValued="false" stored="true" />
+			
+		<!-- @Field("scenario") New -->
+		<field name="scenario" type="keyword" indexed="true" required="false"
+			multiValued="false" stored="true" />
+			
 		<!-- @Field("internalTypeKey") -->
 <!--
 		<field name="internal_type" type="keyword" indexed="false"
