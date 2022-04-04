@@ -62,6 +62,8 @@
         <!--  ENUMERATIONS -->
         <fieldType name="contentTier" class="solr.EnumFieldType" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
         <fieldType name="metadataTier" class="solr.EnumFieldType" enumsConfig="enumsConfig.xml" enumName="metadata_tier"/>
+        <!--  MET4285: geospatial support -->
+        <fieldType name="coordinates" class="solr.LatLonPointSpatialField"/>
     </types>
     <fields>
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false" docValues="true"/>
@@ -240,6 +242,10 @@
         <!--  EA2563: fields for the URI of edm:dataProvider (dataProvider), and edm:intermediateProvider and/or edm:provider (provider) -->
         <field name="dataProvider" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
 		<field name="provider" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<!--  MET4285: geospatial support -->
+		<field name="currentLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<field name="coverageLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<field name="location_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
     </fields>
