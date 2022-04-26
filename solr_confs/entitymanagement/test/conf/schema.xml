@@ -65,6 +65,17 @@
 			</analyzer>
 		</fieldType>
 
+		<fieldType name="untokenized" class="solr.TextField"
+			positionIncrementGap="100">
+			<analyzer>
+				<tokenizer class="solr.KeywordTokenizerFactory"/>
+				<filter class="solr.ASCIIFoldingFilterFactory" />
+				<filter class="solr.LowerCaseFilterFactory" />
+				<filter class="solr.PatternReplaceFilterFactory"
+					pattern="^\p{Punct}*(.+?)\p{Punct}*$" replacement="$1" />
+			</analyzer>
+		</fieldType>
+		
 		<fieldType name="proper_name" class="solr.TextField"
 			positionIncrementGap="100">
 			<analyzer>
@@ -138,7 +149,9 @@
 			stored="true" multiValued="false" />
 
 		<!-- entity fields -->
-		<!-- suggester field populated by import scripts -->
+		<!-- deprecated - to be removed toghether with the old suggester -->
+		<!-- suggester field popu
+ed by import scripts -->
 		<field name="skos_prefLabel" type="proper_name_sortable" indexed="true"
 			stored="true" multiValued="false"/>
 
@@ -150,6 +163,8 @@
 			indexed="false" stored="true" multiValued="true"/>
 		<dynamicField name="skos_note.*" type="string"
 			indexed="false" stored="true" multiValued="true" />
+		
+		<!--  fields for suggester -->
 		<field name="label" type="proper_name_sortable" indexed="true"
 			stored="true" multiValued="true"/>
 		<dynamicField name="label.*" type="proper_name_sortable"
@@ -158,11 +173,26 @@
 		<copyField source="skos_prefLabel.*" dest="label.*" />
 		<copyField source="skos_altLabel.*" dest="label" />
 		<copyField source="skos_altLabel.*" dest="label.*" />
+		<copyField source="skos_hidden.*" dest="label" />
+		<copyField source="skos_hidden.*" dest="label.*" />
 		<copyField source="edm_acronym.*" dest="label.*" />
 		<copyField source="edm_acronym.*" dest="label" />
-		<!-- not available yet <copyField source="foaf_name.*" dest="label"/> <copyField 
-			source="foaf_name.*" dest="label.*"/> -->
-
+		
+		<!--  fields for enrichments -->
+		<field name="label_enrich" type="untokenized" indexed="true"
+			stored="false" multiValued="true"/>
+		<dynamicField name="label_enrich.*" type="untokenized"
+			indexed="true" stored="false" multiValued="true"/>
+		
+		<copyField source="skos_prefLabel.*" dest="label_enrich" />
+		<copyField source="skos_prefLabel.*" dest="label_enrich.*" />
+		<copyField source="skos_altLabel.*" dest="label_enrich" />
+		<copyField source="skos_altLabel.*" dest="label_enrich.*" />
+		<copyField source="skos_hidden.*" dest="label_enrich" />
+		<copyField source="skos_hidden.*" dest="label_enrich.*" />
+		<copyField source="edm_acronym.*" dest="label_enrich.*" />
+		<copyField source="edm_acronym.*" dest="label_enrich" />
+		
 		<!-- these fields all consist of URI identifiers -->
 		<!-- TODO: alias -->
 		<field name="dcterms_isPartOf" type="string" indexed="true"

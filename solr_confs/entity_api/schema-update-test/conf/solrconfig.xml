@@ -318,7 +318,7 @@
          have some sort of hard autoCommit to limit the log size.
       -->
     <autoCommit>
-      <maxTime>${solr.autoCommit.maxTime:15000}</maxTime>
+      <maxTime>${solr.autoCommit.maxTime:60000}</maxTime>
       <openSearcher>false</openSearcher>
     </autoCommit>
 
@@ -329,7 +329,7 @@
       -->
 
     <autoSoftCommit>
-      <maxTime>${solr.autoSoftCommit.maxTime:-1}</maxTime>
+      <maxTime>${solr.autoSoftCommit.maxTime:15000}</maxTime>
     </autoSoftCommit>
 
     <!-- Update Related Event Listeners
@@ -890,36 +890,28 @@
     </arr>
   </requestHandler>
 
-	<!-- SG DIH Handler -->
+	<!-- SG DIH Handler DISABLED in entity management, but could be used later-->
+	<!--   
 	<requestHandler name="/dataimporthandler"
         class="org.apache.solr.handler.dataimport.DataImportHandler">
         <lst name="defaults">
             <str name="config">dih-config.xml</str>
         </lst>
     </requestHandler>
+    -->
     
-    <!-- SG Suggest components -->
+    <!-- SG Suggest components DISABLED in entity management, to be deleted when the use of old suggester is dropped -->
+    <!-- 
     <searchComponent class="solr.SuggestComponent" name="suggestEntity">
         <lst name="suggester">
             <str name="name">suggestEntity</str>
             <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
             <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <!-- suggester field -->
             <str name="field">skos_prefLabel</str>
-            <!-- multivalued fields don't work propertly in the current solr version -->
-            <!-- 
-            <str name="field">label</str>
-             -->
             <str name="weightField">derived_score</str>
             <str name="payloadField">payload</str>
             <str name="suggestAnalyzerFieldType">suggestType</str>
-            <!-- 
-            <str name="allTermsRequired">true</str>
-             -->
             <str name="minPrefixChars">2</str>
-            <!-- 
-            <str name="highlight">true</str>
-             -->
             <str name="buildOnStartup">false</str>
             <str name="buildOnCommit">false</str>
             <str name="buildOnOptimize">true</str>
@@ -927,6 +919,7 @@
             <str name="exactMatchFirst">true</str>
         </lst>
     </searchComponent>
+    
     <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
         name="/suggestEntity">
         <lst name="defaults">
@@ -939,6 +932,7 @@
             <str>suggestEntity</str>
         </arr>
     </requestHandler>
+     -->
  
   <!-- Highlighting Component
 
