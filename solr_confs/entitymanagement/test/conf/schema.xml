@@ -173,8 +173,8 @@ ed by import scripts -->
 		<copyField source="skos_prefLabel.*" dest="label.*" />
 		<copyField source="skos_altLabel.*" dest="label" />
 		<copyField source="skos_altLabel.*" dest="label.*" />
-		<copyField source="skos_hidden.*" dest="label" />
-		<copyField source="skos_hidden.*" dest="label.*" />
+		<copyField source="skos_hiddenLabel.*" dest="label" />
+		<copyField source="skos_hiddenLabel.*" dest="label.*" />
 		<copyField source="edm_acronym.*" dest="label.*" />
 		<copyField source="edm_acronym.*" dest="label" />
 		
@@ -188,8 +188,8 @@ ed by import scripts -->
 		<copyField source="skos_prefLabel.*" dest="label_enrich.*" />
 		<copyField source="skos_altLabel.*" dest="label_enrich" />
 		<copyField source="skos_altLabel.*" dest="label_enrich.*" />
-		<copyField source="skos_hidden.*" dest="label_enrich" />
-		<copyField source="skos_hidden.*" dest="label_enrich.*" />
+		<copyField source="skos_hiddenLabel.*" dest="label_enrich" />
+		<copyField source="skos_hiddenLabel.*" dest="label_enrich.*" />
 		<copyField source="edm_acronym.*" dest="label_enrich.*" />
 		<copyField source="edm_acronym.*" dest="label_enrich" />
 		
