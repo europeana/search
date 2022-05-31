@@ -173,8 +173,10 @@ ed by import scripts -->
 		<copyField source="skos_prefLabel.*" dest="label.*" />
 		<copyField source="skos_altLabel.*" dest="label" />
 		<copyField source="skos_altLabel.*" dest="label.*" />
+		<!-- used only for enrichments search 
 		<copyField source="skos_hiddenLabel.*" dest="label" />
 		<copyField source="skos_hiddenLabel.*" dest="label.*" />
+		 -->
 		<copyField source="edm_acronym.*" dest="label.*" />
 		<copyField source="edm_acronym.*" dest="label" />
 		
@@ -188,10 +190,38 @@ ed by import scripts -->
 		<copyField source="skos_prefLabel.*" dest="label_enrich.*" />
 		<copyField source="skos_altLabel.*" dest="label_enrich" />
 		<copyField source="skos_altLabel.*" dest="label_enrich.*" />
-		<copyField source="skos_hiddenLabel.*" dest="label_enrich" />
-		<copyField source="skos_hiddenLabel.*" dest="label_enrich.*" />
 		<copyField source="edm_acronym.*" dest="label_enrich.*" />
 		<copyField source="edm_acronym.*" dest="label_enrich" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich" />
+		<!--  hidden labels are language agnostic and must be matched in any language -->
+		<copyField source="skos_hiddenLabel." dest="label_enrich.en" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.nl" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.fr" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.de" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.es" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.sv" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.it" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.fi" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.da" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.el" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.cs" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.sk" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.sl" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.pt" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.hu" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.lt" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.pl" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.ro" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.bg" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.hr" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.lv" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.ga" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.mt" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.et" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.no" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.ca" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.ru" />
+		<copyField source="skos_hiddenLabel." dest="label_enrich.eu" />
 		
 		<!-- these fields all consist of URI identifiers -->
 		<!-- TODO: alias -->
