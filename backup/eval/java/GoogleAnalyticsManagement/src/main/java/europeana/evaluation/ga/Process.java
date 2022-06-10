@@ -71,37 +71,44 @@ public class Process {
 		String gaSamplingLevel = prop.getProperty("ga_sampling");
 		Path gakey = Paths.get(prop.getProperty("gakey"));
 		SolrClient client = new HttpSolrClient.Builder(solrClient).build();
-
-		QueryList<EntityQuery> entityList = new QueryList<EntityQuery>(gakey, startDate, endDate, gaSamplingLevel, client);
-		entityList.Filter_SimpleQueries();
-		entityList.Filter_UniquePageViews(10);
-		entityList.Sample(sampleSize);
-		
-		OutputStream os_entity = new FileOutputStream("query_sample_entity.csv"); 
-		entityList.Print(os_entity);
-		os_entity.close();
-		System.out.println("Done. Created file query_sample_entity.csv");
-		
 		
 		QueryList<BasicQuery> basicList = new QueryList<BasicQuery>(gakey, startDate, endDate, gaSamplingLevel, client);
 		basicList.Filter_SimpleQueries();
-		basicList.Filter_Collection("world-war-I"); //Filter by 1914-18 thematic collection
-		Set<String> languages = new HashSet<String>();
-		basicList.getQueries().forEach(p -> languages.add(p.getLanguage()));
-		Integer sample = sampleSize / languages.size();
-		List<BasicQuery> listQueries = new ArrayList<BasicQuery>();
-		for (String langTag: languages) {
-			QueryList<BasicQuery> langQuery = new QueryList<BasicQuery>(basicList.getQueries());
-			langQuery.Filter_Language(langTag);
-			if (sample < langQuery.getQueries().size())
-				langQuery.Sample(sample);
-			listQueries.addAll(langQuery.getQueries());
-		}
-		QueryList<BasicQuery> langQueries = new QueryList<BasicQuery>(listQueries);
-		OutputStream os_lang = new FileOutputStream("query_sample_lang_WWI.csv"); 
-		langQueries.Print(os_lang);
-		os_lang.close();
-		System.out.println("Done. Created file query_sample_lang.csv.  Number of languages: " + languages.size() );
+		OutputStream os_list = new FileOutputStream("query_sample.csv");
+		basicList.Print(os_list);
+		os_list.close();
+		System.out.println("Done. Created file query_sample.csv");
+
+//		QueryList<EntityQuery> entityList = new QueryList<EntityQuery>(gakey, startDate, endDate, gaSamplingLevel, client);
+//		entityList.Filter_SimpleQueries();
+//		entityList.Filter_UniquePageViews(10);
+//		entityList.Sample(sampleSize);
+//		
+//		OutputStream os_entity = new FileOutputStream("query_sample_entity.csv"); 
+//		entityList.Print(os_entity);
+//		os_entity.close();
+//		System.out.println("Done. Created file query_sample_entity.csv");
+		
+		
+//		QueryList<BasicQuery> basicList = new QueryList<BasicQuery>(gakey, startDate, endDate, gaSamplingLevel, client);
+//		basicList.Filter_SimpleQueries();
+//		//basicList.Filter_Collection("world-war-I"); //Filter by 1914-18 thematic collection
+//		Set<String> languages = new HashSet<String>();
+//		basicList.getQueries().forEach(p -> languages.add(p.getLanguage()));
+//		Integer sample = sampleSize / languages.size();
+//		List<BasicQuery> listQueries = new ArrayList<BasicQuery>();
+//		for (String langTag: languages) {
+//			QueryList<BasicQuery> langQuery = new QueryList<BasicQuery>(basicList.getQueries());
+//			langQuery.Filter_Language(langTag);
+//			if (sample < langQuery.getQueries().size())
+//				langQuery.Sample(sample);
+//			listQueries.addAll(langQuery.getQueries());
+//		}
+//		QueryList<BasicQuery> langQueries = new QueryList<BasicQuery>(listQueries);
+//		OutputStream os_lang = new FileOutputStream("query_sample_lang.csv"); 
+//		langQueries.Print(os_lang);
+//		os_lang.close();
+//		System.out.println("Done. Created file query_sample_lang.csv.  Number of languages: " + languages.size() );
 
 
 	}

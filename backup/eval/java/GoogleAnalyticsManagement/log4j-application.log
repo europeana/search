@@ -1,2 +1,21 @@
 2020-04-01 18:57:51 ERROR QueryList:216 - Processing row rzeżba mariana rejewskiego\
 2020-04-01 19:04:15 ERROR QueryList:216 - Processing row rzeżba mariana rejewskiego\
+2021-02-03 08:01:51 ERROR QueryList:216 - Processing row " Germania Hamburg"
+2021-02-03 08:01:53 ERROR QueryList:216 - Processing row "an unfinished life"
+2021-02-03 08:01:55 ERROR QueryList:216 - Processing row "Badasch"
+2021-02-03 08:01:57 ERROR QueryList:216 - Processing row "bydgoszcz Rejewski"
+2021-02-03 08:01:59 ERROR QueryList:216 - Processing row "charles darwin" OR "darwin, charles"
+2021-02-03 08:02:02 ERROR QueryList:216 - Processing row "China" AND PROVIDER:"Photoconsortium"
+2021-02-03 08:02:05 ERROR QueryList:216 - Processing row "China" AND PROVIDER:"Photoconsortium" AND (DATA_PROVIDER:"Arbejdermuseet
+2021-02-03 08:02:08 ERROR QueryList:216 - Processing row "China" AND PROVIDER:"Photoconsortium" AND (DATA_PROVIDER:"TopFoto.co.uk" OR DATA_PROVIDER:"Promoter Digital Gallery" OR DATA_PROVIDER:"Arbejdermuseet
+2021-02-03 08:02:11 ERROR QueryList:216 - Processing row "China" AND PROVIDER:"Photoconsortium" AND DATA_PROVIDER:"Arbejdermuseet
+2021-02-03 08:02:13 ERROR QueryList:216 - Processing row "China" AND PROVIDER:"Photoconsortium" AND DATA_PROVIDER:"TopFoto.co.uk"
+2021-02-03 08:02:16 ERROR QueryList:216 - Processing row "China" AND PROVIDER:"Photoconsortium" AND NOT DATA_PROVIDER:"Parisienne de Photographie" AND NOT COUNTRY:"Austria"
+2021-02-03 08:02:19 ERROR QueryList:216 - Processing row "Deters"
+2021-02-03 08:02:22 ERROR QueryList:216 - Processing row "ekman group"
+2021-02-03 08:05:33 ERROR QueryList:216 - Processing row " Germania Hamburg"
+2021-02-03 08:05:35 ERROR QueryList:216 - Processing row "an unfinished life"
+2021-02-03 08:05:37 ERROR QueryList:216 - Processing row "Badasch"
+2021-02-03 08:07:56 ERROR QueryList:216 - Processing row " Germania Hamburg"
+2021-02-03 08:07:58 ERROR QueryList:216 - Processing row "an unfinished life"
+2021-02-03 08:08:00 ERROR QueryList:216 - Processing row "Badasch"

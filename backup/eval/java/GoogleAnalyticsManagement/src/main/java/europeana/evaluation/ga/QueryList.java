@@ -36,8 +36,8 @@ public class QueryList<T extends BasicQuery> {
 	
 	//private static final String URL_PATTERN = "/portal/(?<lang>[^/]+)(/collections/(?<cname>.+?)\\?)?";
 	//private static final Pattern pattern = Pattern.compile(URL_PATTERN);
-	private static final String COLLECTIONS = "/collections/(?<cname>[^/\\?]+)";
-	private static final String PORTAL = "/portal/(?<lang>[^/\\?]+)";
+	private static final String COLLECTIONS = "(?<lang>[^/\\\\?]+)/collections/(?<cname>[^/\\?]+)";
+	private static final String PORTAL = "(?<lang>[^/\\?]+)/search";
 	private static final String QUERY = "q=(?<query>[^/\\?\\&]+)";
 	private static final Pattern collectionsPat = Pattern.compile(COLLECTIONS);
 	private static final Pattern portalPat = Pattern.compile(PORTAL);
@@ -149,16 +149,17 @@ public class QueryList<T extends BasicQuery> {
 
 		// Create the dimension object.
 		Dimension sterms = new Dimension().setName("ga:searchKeyword");
-		Dimension startPage = new Dimension().setName("ga:searchStartPage");
+		Dimension startPage = new Dimension().setName("ga:pagePath");
 
 		// Create the ReportRequest object.
 		ReportRequest request = new ReportRequest()
+				.setViewId("ga:203268401")
 				.setDateRanges(Arrays.asList(dateRange))
 				.setMetrics(Arrays.asList(searches))
-				.setFiltersExpression("ga:searchStartPage!@(entrance);ga:searchStartPage!@(other)")
+				//.setFiltersExpression("ga:pagePath=@(/de/collections);ga:pagePath=@(/de/search)")
 				//.setOrderBys(Arrays.asList(order))
 				.setSamplingLevel(gaSamplingLevel)
-				.setPageSize(100000)
+				//.setPageSize(100000)
 				.setDimensions(Arrays.asList(sterms, startPage));
 				//.setPageSize(10000);
 
@@ -177,7 +178,7 @@ public class QueryList<T extends BasicQuery> {
 		for (Report report: response.getReports()) {
 			ColumnHeader header = report.getColumnHeader();
 			List<String> dimensionHeaders = header.getDimensions();
-			int indexPage = dimensionHeaders.indexOf("ga:searchStartPage");
+			int indexPage = dimensionHeaders.indexOf("ga:pagePath");
 			int indexTerm = dimensionHeaders.indexOf("ga:searchKeyword");
 			//List<MetricHeaderEntry> metricHeaders = header.getMetricHeader().getMetricHeaderEntries();
 			List<ReportRow> rows = report.getData().getRows();
@@ -207,7 +208,7 @@ public class QueryList<T extends BasicQuery> {
 					
 					
 					//TODO: I can't use override in static methods so this is not working, I have to change the class from Basic
-					queries.add((T) EntityQuery.CreateQuery(query, lang, cname, uniqueViews, solrClient));
+					queries.add((T) BasicQuery.CreateQuery(query, lang, cname, uniqueViews, solrClient));
 				} else {
 					System.out.println("Not processed ga:searchStartPage = " + dim);
 					//throw new IllegalArgumentException("Regex didn't recognize dimension " + report.getColumnHeader().getDimensions().get(indexPage) + ": " + dim);
@@ -229,6 +230,7 @@ public class QueryList<T extends BasicQuery> {
 	public void Filter_SimpleQueries(){
 		this.setQueries(queries.stream().filter(p -> (p.getQuery().matches("[\"\'\\“A-Za-z\\s]+") && !p.getQuery().contains("AND") && !p.query.contains("OR") && !p.query.contains(":") && p.getQuery().length() > 2)).collect(Collectors.toList()));
 	}
+	
 	
 	//TODO: check unique page views <= 10
 	public void Filter_UniquePageViews(Integer lessEqualThan) {
