@@ -179,6 +179,10 @@
 		<!-- required field -->
 		<field name="_version_" type="long" indexed="true" stored="true"
 				multiValued="false" />
+		
+		<!-- administration fields -->		
+		<field name="timestamp" type="date" indexed="true" stored="true"
+			default="NOW" multiValued="false" />
 
 	</fields>
 

@@ -81,8 +81,13 @@
 			multiValued="false" stored="true" />
 
 		<!-- @Field("anno_id") New -->
-		<field name="anno_id" type="keyword" indexed="true" required="true"
+		<field name="anno_id" type="long" indexed="true" required="true"
 			multiValued="false" stored="true" />
+			
+		<!-- @Field("scenario") New -->
+		<field name="scenario" type="keyword" indexed="true" required="false"
+			multiValued="false" stored="true" />
+			
 		<!-- @Field("internalTypeKey") -->
 <!--
 		<field name="internal_type" type="keyword" indexed="false"
@@ -140,12 +145,12 @@
 			multiValued="false" stored="true" />
 
 		<!-- @Field("body_value") -->
-		<field name="body_value" type="string" indexed="true" required="false"
+		<field name="body_value" type="text" indexed="true" required="false"
 			multiValued="false" stored="true" />
 			
 		<!-- @Field("body_value.*") NEW -->
-		<dynamicField name="body_value.*" type="string" required="false"
-			multiValued="true" indexed="true" stored="true" />	
+		<dynamicField name="body_value.*" type="text" required="false"
+			multiValued="false" indexed="true" stored="true" />	
 
 		<!-- Body Text Search Field, generated -->
 <!-- 		<field name="body_text" type="text" indexed="true" stored="false" -->
@@ -174,6 +179,10 @@
 		<!-- required field -->
 		<field name="_version_" type="long" indexed="true" stored="true"
 				multiValued="false" />
+		
+		<!-- administration fields -->		
+		<field name="timestamp" type="date" indexed="true" stored="true"
+			default="NOW" multiValued="false" />
 
 	</fields>
 
