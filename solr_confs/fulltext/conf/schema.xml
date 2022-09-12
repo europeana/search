@@ -873,5 +873,39 @@
     <defaultSearchField>text</defaultSearchField>
     <solrQueryParser defaultOperator="AND"/> -->
     
-    <!-- Copy fields removed in order to copy metadata directly from production -->
+    <!-- Copy fields removed in order to copy metadata directly from production -except for field 'text' because it is not stored- -->
+    <copyField source="provider_aggregation_edm_dataProvider.*" dest="text"/>
+    <copyField source="provider_aggregation_edm_intermediateProvider.*" dest="text"/>
+    <copyField source="provider_aggregation_edm_provider.*" dest="text"/>
+    <copyField source="proxy_dc_contributor.*" dest="text"/>
+    <copyField source="proxy_dc_coverage.*" dest="text"/>
+    <copyField source="proxy_dc_creator.*" dest="text"/>
+    <copyField source="proxy_dc_date.*" dest="text"/>
+    <copyField source="proxy_dc_description.*" dest="text"/>
+    <copyField source="proxy_dc_format.*" dest="text"/>
+    <copyField source="proxy_dc_language.*" dest="text"/>
+    <copyField source="proxy_dc_publisher.*" dest="text"/>
+    <copyField source="proxy_dc_source.*" dest="text"/>
+    <copyField source="proxy_dc_subject.*" dest="text"/>
+    <copyField source="proxy_dc_title.*" dest="text"/>
+    <copyField source="proxy_dc_type.*" dest="text"/>
+    <copyField source="proxy_dcterms_alternative.*" dest="text"/>
+    <copyField source="proxy_dcterms_created.*" dest="text"/>
+    <copyField source="proxy_dcterms_issued.*" dest="text"/>
+    <copyField source="proxy_dcterms_medium.*" dest="text"/>
+    <copyField source="proxy_dcterms_provenance.*" dest="text"/>
+    <copyField source="proxy_dcterms_spatial.*" dest="text"/>
+    <copyField source="proxy_dcterms_temporal.*" dest="text"/>
+    <copyField source="proxy_edm_currentLocation.*" dest="text"/>
+    <copyField source="proxy_edm_type" dest="text"/>
+    <copyField source="ag_skos_altLabel.*" dest="text"/>
+    <copyField source="ag_skos_prefLabel.*" dest="text"/>
+    <copyField source="ag_foaf_name.*" dest="text"/>
+    <copyField source="ts_skos_altLabel.*" dest="text"/>
+    <copyField source="ts_skos_prefLabel.*" dest="text"/>
+    <copyField source="pl_skos_altLabel.*" dest="text"/>
+    <copyField source="pl_skos_prefLabel.*" dest="text"/>
+    <copyField source="cc_skos_altLabel.*" dest="text"/>
+    <copyField source="cc_skos_prefLabel.*" dest="text"/>
+    <copyField source="proxy_dc_type_search.*" dest="text"/>
 </schema>
