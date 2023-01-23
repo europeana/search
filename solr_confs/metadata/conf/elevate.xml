@@ -12061,6 +12061,42 @@
     
     <!-- ENTITY BESTBETS: START -->
 
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004509120&quot;">
+    <doc id="/2021672/resource_document_mauritshuis_21"/>
+    <doc id="/2021672/resource_document_mauritshuis_785"/>
+    <doc id="/2021672/resource_document_mauritshuis_266"/>
+    <doc id="/2021672/resource_document_mauritshuis_136"/>
+    <doc id="/2021672/resource_document_mauritshuis_1203"/>
+    <doc id="/2021672/resource_document_mauritshuis_742"/>
+    <doc id="/2021672/resource_document_mauritshuis_1032"/>
+    <doc id="/2021672/resource_document_mauritshuis_679"/>
+  </query>
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004477257&quot;">
+    <doc id="/15508/3073"/>
+    <doc id="/15508/28336"/>
+    <doc id="/15508/39929"/>
+    <doc id="/15508/36058"/>
+    <doc id="/15508/3075"/>
+    <doc id="/15508/123v"/>
+    <doc id="/15508/4839"/>
+    <doc id="/15508/7875"/>
+    <doc id="/15508/4840"/>
+    <doc id="/15508/7876"/>
+    <doc id="/15508/3106"/>
+    <doc id="/15508/DG1930_1525"/>
+    <doc id="/15508/3113"/>
+    <doc id="/15508/120r"/>
+    <doc id="/15508/17558"/>
+    <doc id="/15508/17650"/>
+    <doc id="/15508/DG1935_56"/>
+    <doc id="/15508/17298"/>
+    <doc id="/15508/34723"/>
+    <doc id="/15508/25659"/>
+    <doc id="/15508/31173"/>
+    <doc id="/15508/30395"/>
+    <doc id="/15508/DG2001_450"/>
+    <doc id="/15508/26276"/>
+  </query>
   <query text="skos_concept:&quot;http://data.europeana.eu/concept/247&quot;">
     <doc id="/2021007/_SLSA_1270_SLSA_1270_34_foto_1413"/>
     <doc id="/2021007/_SLSA_1270_SLSA_1270_34_foto_1409a"/>
@@ -12149,6 +12185,30 @@
     <doc id="/90402/SK_A_4119"/>
     <doc id="/2021672/resource_document_mauritshuis_462"/>
     <doc id="/2048087/ProvidedCHO_Horniman_Museum_and_Gardens_http___collections_horniman_ac_uk_objects_5066"/>
+  </query>
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000001721054&quot;">
+    <doc id="/525/RF0765"/>
+    <doc id="/525/RF0756"/>
+    <doc id="/525/RF0719"/>
+    <doc id="/525/NU0200"/>
+    <doc id="/525/NU0164"/>
+    <doc id="/2024903/photography_ProvidedCHO_KADOC_KU_Leuven_FL15317989"/>
+    <doc id="/2024903/photography_ProvidedCHO_KU_Leuven_9982460690101488"/>
+    <doc id="/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_341436"/>
+    <doc id="/2024919/photography_ProvidedCHO_Promoter_Digital_Gallery_situzhaoguang_working_23_JPG"/>
+    <doc id="/2024904/https___www_topfoto_co_uk_asset_3009806"/>
+    <doc id="/2024904/https___www_topfoto_co_uk_asset_1825789"/>
+    <doc id="/2024904/https___www_topfoto_co_uk_asset_1823000"/>
+    <doc id="/2024904/https___www_topfoto_co_uk_asset_3165400"/>
+    <doc id="/2024904/https___www_topfoto_co_uk_asset_3173254"/>
+    <doc id="/149/image_thumbnail_M066123_jpg"/>
+    <doc id="/2024909/photography_ProvidedCHO_United_Archives_p_01753383_jpg"/>
+    <doc id="/2024918/photography_ProvidedCHO_The_Israel_Museum__Jerusalem_314256"/>
+    <doc id="/149/image_thumbnail_A128228_jpg"/>
+    <doc id="/2024909/photography_ProvidedCHO_United_Archives_02302588_jpg"/>
+    <doc id="/2024909/photography_ProvidedCHO_United_Archives_01585387_jpg"/>
+    <doc id="/149/photography_ProvidedCHO_KIK_IRPA__Brussels__Belgium___11047722"/>
+    <doc id="/2024919/photography_ProvidedCHO_Promoter_Digital_Gallery_situzhaoguang_working_14_JPG"/>
   </query>
   <query text="skos_concept:&quot;http://data.europeana.eu/concept/30&quot;">
     <doc id="/9200579/zezzwazj"/>
