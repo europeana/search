@@ -899,40 +899,6 @@
         </lst>
     </requestHandler>
     -->
-    
-    <!-- SG Suggest components DISABLED in entity management, to be deleted when the use of old suggester is dropped -->
-    <!-- 
-    <searchComponent class="solr.SuggestComponent" name="suggestEntity">
-        <lst name="suggester">
-            <str name="name">suggestEntity</str>
-            <str name="lookupImpl">AnalyzingInfixLookupFactory</str>
-            <str name="dictionaryImpl">DocumentDictionaryFactory</str>
-            <str name="field">skos_prefLabel</str>
-            <str name="weightField">derived_score</str>
-            <str name="payloadField">payload</str>
-            <str name="suggestAnalyzerFieldType">suggestType</str>
-            <str name="minPrefixChars">2</str>
-            <str name="buildOnStartup">false</str>
-            <str name="buildOnCommit">false</str>
-            <str name="buildOnOptimize">true</str>
-            <str name="contextField">suggest_filters</str>
-            <str name="exactMatchFirst">true</str>
-        </lst>
-    </searchComponent>
-    
-    <requestHandler class="org.apache.solr.handler.component.SearchHandler" startup="lazy"
-        name="/suggestEntity">
-        <lst name="defaults">
-            <str name="suggest">true</str>
-            <str name="suggest.highlight">true</str>
-            <str name="suggest.count">10</str>
-            <str name="suggest.dictionary">suggestEntity</str>
-        </lst>
-        <arr name="components">
-            <str>suggestEntity</str>
-        </arr>
-    </requestHandler>
-     -->
  
   <!-- Highlighting Component
 

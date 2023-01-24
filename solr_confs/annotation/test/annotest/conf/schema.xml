@@ -81,7 +81,7 @@
 			multiValued="false" stored="true" />
 
 		<!-- @Field("anno_id") New -->
-		<field name="anno_id" type="keyword" indexed="true" required="true"
+		<field name="anno_id" type="long" indexed="true" required="true"
 			multiValued="false" stored="true" />
 			
 		<!-- @Field("scenario") New -->
@@ -179,6 +179,10 @@
 		<!-- required field -->
 		<field name="_version_" type="long" indexed="true" stored="true"
 				multiValued="false" />
+		
+		<!-- administration fields -->		
+		<field name="timestamp" type="date" indexed="true" stored="true"
+			default="NOW" multiValued="false" />
 
 	</fields>
 
