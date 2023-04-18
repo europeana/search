@@ -542,8 +542,10 @@
 			indexed="false" stored="true" />
 
 		<!-- ConceptScheme fields -->
+		<field name="skos_subject" type="string" indexed="true" stored="true" multiValued="false" />
 		<dynamicField name="skos_definition.*" type="string"
 			indexed="false" stored="true" multiValued="false" />
+			
 		
 		<!-- Random Search -->
 		<dynamicField name="random_*" type="random" />
