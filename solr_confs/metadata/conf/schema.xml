@@ -386,4 +386,7 @@
     <!--  Extension of EA2563: copy fields to support organizations in general -->
     <copyField source="provider" dest="foaf_organization"/>
     <copyField source="dataProvider" dest="foaf_organization"/>
+    <!--  Extension of EA2563: copy fields to support default search -->
+    <copyField source="provider" dest="text"/>
+    <copyField source="dataProvider" dest="text"/> 
 </schema>
