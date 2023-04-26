@@ -45,6 +45,8 @@
         <!--  ENUMERATIONS -->
         <fieldType name="contentTier" class="solr.EnumFieldType" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
         <fieldType name="metadataTier" class="solr.EnumFieldType" enumsConfig="enumsConfig.xml" enumName="metadata_tier"/>
+        <!--  MET4285: geospatial support -->
+        <fieldType name="coordinates" class="solr.LatLonPointSpatialField"/>
 
         <!-- Full text field types -->
         <fieldType name="text_und" class="solr.TextField" positionIncrementGap="100">
