@@ -808,6 +808,10 @@
         <!--  EA2563: fields for the URI of edm:dataProvider (dataProvider), and edm:intermediateProvider and/or edm:provider (provider) -->
         <field name="dataProvider" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
 		<field name="provider" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<!--  MET4285: geospatial support -->
+		<field name="currentLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<field name="coverageLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<field name="location_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
 
@@ -910,4 +914,7 @@
     <copyField source="cc_skos_altLabel.*" dest="text"/>
     <copyField source="cc_skos_prefLabel.*" dest="text"/>
     <copyField source="proxy_dc_type_search.*" dest="text"/>
+    <!--  Extension of EA2563: copy fields to support default search -->
+    <copyField source="provider" dest="text"/>
+    <copyField source="dataProvider" dest="text"/> 
 </schema>
