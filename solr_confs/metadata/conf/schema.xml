@@ -46,6 +46,8 @@
         <!--  ENUMERATIONS -->
         <fieldType name="contentTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
         <fieldType name="metadataTier" class="solr.EnumField" enumsConfig="enumsConfig.xml" enumName="metadata_tier"/> 
+        <!--  MET4285: geospatial support -->
+        <fieldType name="coordinates" class="solr.LatLonPointSpatialField"/>        
     </types>
     <fields>
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false"/>
@@ -221,6 +223,10 @@
         <field name="provider_aggregation_cc_deprecated_on" type="date" indexed="true" stored="true" multiValued="true"/>
         <field name="wr_dcterms_isReferencedBy" type="string" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="wr_dcterms_isReferencedBy.*" type="string" indexed="true" stored="true" multiValued="true"/>
+        <!--  MET4285: geospatial support -->
+		<field name="currentLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<field name="coverageLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+		<field name="location_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
     </fields>
@@ -358,4 +364,7 @@
     <copyField source="wr_dcterms_isReferencedBy.*" dest="wr_dcterms_isReferencedBy"/>
     <copyField source="wr_edm_rights.*" dest="wr_edm_rights"/>
     <copyField source="wr_svcs_hasservice.*" dest="wr_svcs_hasservice"/>
+    <!--  Extension of EA2563: copy fields to support default search -->
+    <copyField source="provider" dest="text"/>
+    <copyField source="dataProvider" dest="text"/> 
 </schema>
