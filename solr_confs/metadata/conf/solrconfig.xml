@@ -1304,6 +1304,11 @@
       <int name="rows">10</int>
       <str name="df">text</str>
 	  <str name="q.op">AND</str>
+	  <str name="defType">edismax</str>
+	  <str name="qf">title^5 proxy_dc_creator proxy_dc_description subject text</str> <!-- replaces df -->
+	  <str name="pf">text</str>
+	  <str name="ps">2</str>
+	  <str name="tie">0.1</str>
     </lst>
     <!-- In addition to defaults, "appends" params can be specified
          to identify values which should be appended to the list of
