@@ -1,0 +1,30 @@
+Patch display also offsets of the matches when using highlighting. 
+This is necessary for the API to quickly highlight the matches in the image: go to the IIIF annotations, find the text that matched by its offsets, and then get the coordinates in the image.
+
+Solr repository in Github: https://github.com/apache/lucene-solr
+
+1. Create local repository with Solr project: 
+# git clone https://github.com/apache/lucene-solr.git
+
+2. Checkout branch with version 7.7
+.../lucene-solr#git checkout branch_7_7
+
+3. Apply patch. It includes public patch SOLR-1954, located at https://issues.apache.org/jira/browse/SOLR-1954, plus bug fixed (see ticket EA-2255), plus changes in lucene/common_build.xml (there is a bug in JDK that affects code made with JDK < 13 when using JDK >=13. The solution is either using a lower JDK (11 for Solr 7), or modify lucene/build_common.xml and add -Xdoclint:-accessibility to javadoc.doclint.args and javac.doclint.args. Ref: https://issues.apache.org/jira/browse/LUCENE-8729 related to Xdoclint, that caused trouble when compiling with a JDK different from version 11).
+.../lucene-solr#git apply add_offsets_v7_7.patch
+
+4. Compile Solr code (ref. README.md at https://github.com/apache/lucene-solr)
+.../lucene-solr# ant compile 
+
+5. Compile server (ref. README.md at https://github.com/apache/lucene-solr)
+.../lucene-solr/solr# ant server
+
+Possible issues:
+- Java compilation problems: use JDK 11
+- Issues when starting solr:
+	- Alias not foudn: Add alias plugin to /solr/contrib/lib
+	- Library x not found: Add several libraries for fulltext analysis to solr/contrib/analysis-extras/lucene-libs: 
+	.../solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-7.7.0.jar
+	.../solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-7.7.0.jar
+	.../solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-opennlp-7.7.0.jar
+	.../solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-7.7.0.jar
+	.../solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-7.7.0.jar
