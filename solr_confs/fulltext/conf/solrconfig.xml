@@ -1264,9 +1264,9 @@
       <str name="qf">fulltext</str>
 
       <!-- Boost phrases -->
-      <str name="pf">fulltext^3</str>
+      <str name="pf">fulltext.^5 fulltext.ar^5 fulltext.bg^5 fulltext.bs^5 fulltext.ca^5 fulltext.cjk^5 fulltext.cs^5 fulltext.da^5 fulltext.de^5 fulltext.el^5 fulltext.en^5 fulltext.es^5 fulltext.et^5 fulltext.fa^5 fulltext.fi^5 fulltext.fr^5 fulltext.ga^5 fulltext.gl^5 fulltext.he^5 fulltext.hi^5 fulltext.hr^5 fulltext.hu^5 fulltext.hy^5 fulltext.ji^5 fulltext.id^5 fulltext.id^5 fulltext.it^5 fulltext.ko^5 fulltext.la^5 fulltext.lv^5 fulltext.nl^5 fulltext.no^5 fulltext.pa^5 fulltext.pl^5 fulltext.pt^5 fulltext.ro^5 fulltext.ru^5 fulltext.sh^5 fulltext.sk^5 fulltext.sl^5 fulltext.sr^5 fulltext.sv^5 fulltext.th^5 fulltext.tr^5 fulltext.uk^5 fulltext.yi^5</str>
       <str name="ps">2</str>
-      <str name="pf2">fulltext^2</str>
+      <str name="pf2">fulltext.^2 fulltext.ar^2 fulltext.bg^2 fulltext.bs^2 fulltext.ca^2 fulltext.cjk^2 fulltext.cs^2 fulltext.da^2 fulltext.de^2 fulltext.el^2 fulltext.en^2 fulltext.es^2 fulltext.et^2 fulltext.fa^2 fulltext.fi^2 fulltext.fr^2 fulltext.ga^2 fulltext.gl^2 fulltext.he^2 fulltext.hi^2 fulltext.hr^2 fulltext.hu^2 fulltext.hy^2 fulltext.ji^2 fulltext.id^2 fulltext.id^2 fulltext.it^2 fulltext.ko^2 fulltext.la^2 fulltext.lv^2 fulltext.nl^2 fulltext.no^2 fulltext.pa^2 fulltext.pl^2 fulltext.pt^2 fulltext.ro^2 fulltext.ru^2 fulltext.sh^2 fulltext.sk^2 fulltext.sl^2 fulltext.sr^2 fulltext.sv^2 fulltext.th^2 fulltext.tr^2 fulltext.uk^2 fulltext.yi^2</str>
       <str name="ps2">1</str>
       
       <!-- Highlighting -->
