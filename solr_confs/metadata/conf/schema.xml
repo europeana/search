@@ -65,7 +65,6 @@
         <!--  MET4285: geospatial support -->
         <fieldType name="coordinates" class="solr.LatLonPointSpatialField"/>
         <!--  DATE SUPPORT -->
-        <fieldType name="date" class="solr.DatePointField" omitNorms="true"/>
 		<fieldType name="daterange" class="solr.DateRangeField" omitNorms="true"/>
     </types>
     <fields>
