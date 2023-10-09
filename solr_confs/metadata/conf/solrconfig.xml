@@ -2184,6 +2184,9 @@
         <str>yyyy-MM-dd</str>
       </arr>
     </processor>
+    <processor class="solr.UniqFieldsUpdateProcessorFactory">
+    	<str name="fieldRegex">.*</str>
+  	</processor>
     <!--<processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
 	
       <str name="defaultFieldType">strings</str>
