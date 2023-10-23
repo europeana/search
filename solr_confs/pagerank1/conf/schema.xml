@@ -23,7 +23,7 @@
   </fieldType>
    -->
   <field name="_version_" type="long" multiValued="false" indexed="true" stored="true"/>
-  <field name="page_url" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="page_url" type="string" multiValued="false" indexed="true" required="false" stored="true"/>
   <field name="identifier" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
   <field name="page_rank" type="double" multiValued="false" indexed="true" required="true" stored="true"/>
 </schema>
