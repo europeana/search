@@ -33,7 +33,7 @@
        <entity name="pdoc"  
                dataSource="null" 
                processor="FileListEntityProcessor" 
-               fileName="^[\w\d-]+\.tsv$"
+               fileName=".*rank$"
                recursive="true" 
                baseDir="/opt/solr/data/import/page_ranks"  
   		       rootEntity="false"
