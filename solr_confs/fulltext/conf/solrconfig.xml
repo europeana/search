@@ -1381,6 +1381,12 @@
       <str name="df">fulltext</str>
     </lst>
   </initParams>
+  
+    <initParams path="/update/**">
+    <lst name="defaults">
+      <str name="update.chain">files-update-processor</str>
+    </lst>
+  </initParams>
 
   <!-- Solr Cell Update Request Handler
 
@@ -1732,71 +1738,73 @@
 
        See http://wiki.apache.org/solr/GuessingFieldTypes
     -->
-  <!--
-  <updateProcessor class="solr.UUIDUpdateProcessorFactory" name="uuid"/>
-  <updateProcessor class="solr.RemoveBlankFieldUpdateProcessorFactory" name="remove-blank"/>
-  <updateProcessor class="solr.FieldNameMutatingUpdateProcessorFactory" name="field-name-mutating">
-    <str name="pattern">[^\w-\.]</str>
-    <str name="replacement">_</str>
-  </updateProcessor>
-  <updateProcessor class="solr.ParseBooleanFieldUpdateProcessorFactory" name="parse-boolean"/>
-  <updateProcessor class="solr.ParseLongFieldUpdateProcessorFactory" name="parse-long"/>
-  <updateProcessor class="solr.ParseDoubleFieldUpdateProcessorFactory" name="parse-double"/>
-  <updateProcessor class="solr.ParseDateFieldUpdateProcessorFactory" name="parse-date">
-    <arr name="format">
-      <str>yyyy-MM-dd'T'HH:mm:ss.SSSZ</str>
-      <str>yyyy-MM-dd'T'HH:mm:ss,SSSZ</str>
-      <str>yyyy-MM-dd'T'HH:mm:ss.SSS</str>
-      <str>yyyy-MM-dd'T'HH:mm:ss,SSS</str>
-      <str>yyyy-MM-dd'T'HH:mm:ssZ</str>
-      <str>yyyy-MM-dd'T'HH:mm:ss</str>
-      <str>yyyy-MM-dd'T'HH:mmZ</str>
-      <str>yyyy-MM-dd'T'HH:mm</str>
-      <str>yyyy-MM-dd HH:mm:ss.SSSZ</str>
-      <str>yyyy-MM-dd HH:mm:ss,SSSZ</str>
-      <str>yyyy-MM-dd HH:mm:ss.SSS</str>
-      <str>yyyy-MM-dd HH:mm:ss,SSS</str>
-      <str>yyyy-MM-dd HH:mm:ssZ</str>
-      <str>yyyy-MM-dd HH:mm:ss</str>
-      <str>yyyy-MM-dd HH:mmZ</str>
-      <str>yyyy-MM-dd HH:mm</str>
-      <str>yyyy-MM-dd</str>
-    </arr>
-  </updateProcessor>
-  <updateProcessor class="solr.AddSchemaFieldsUpdateProcessorFactory" name="add-schema-fields">
-    <lst name="typeMapping">
-      <str name="valueClass">java.lang.String</str>
-      <str name="fieldType">text_und</str>
-      <lst name="copyField">
-        <str name="dest">*_str</str>
-        <int name="maxChars">256</int>
+ <updateRequestProcessorChain name="files-update-processor">
+    <processor class="solr.UUIDUpdateProcessorFactory" />
+    <processor class="solr.RemoveBlankFieldUpdateProcessorFactory"/>
+    <processor class="solr.FieldNameMutatingUpdateProcessorFactory">
+      <str name="pattern">[^\w-\.]</str>
+      <str name="replacement">_</str>
+    </processor>
+    <processor class="solr.TruncateFieldUpdateProcessorFactory">
+      <str name="typeClass">solr.StrField</str>
+      <int name="maxLength">8000</int>
+    </processor>
+    <processor class="solr.ParseBooleanFieldUpdateProcessorFactory"/>
+    <processor class="solr.ParseLongFieldUpdateProcessorFactory"/>
+    <processor class="solr.ParseDoubleFieldUpdateProcessorFactory"/>
+    <processor class="solr.ParseDateFieldUpdateProcessorFactory">
+      <arr name="format">
+        <str>yyyy-MM-dd'T'HH:mm:ss.SSSZ</str>
+        <str>yyyy-MM-dd'T'HH:mm:ss,SSSZ</str>
+        <str>yyyy-MM-dd'T'HH:mm:ss.SSS</str>
+        <str>yyyy-MM-dd'T'HH:mm:ss,SSS</str>
+        <str>yyyy-MM-dd'T'HH:mm:ssZ</str>
+        <str>yyyy-MM-dd'T'HH:mm:ss</str>
+        <str>yyyy-MM-dd'T'HH:mmZ</str>
+        <str>yyyy-MM-dd'T'HH:mm</str>
+        <str>yyyy-MM-dd HH:mm:ss.SSSZ</str>
+        <str>yyyy-MM-dd HH:mm:ss,SSSZ</str>
+        <str>yyyy-MM-dd HH:mm:ss.SSS</str>
+        <str>yyyy-MM-dd HH:mm:ss,SSS</str>
+        <str>yyyy-MM-dd HH:mm:ssZ</str>
+        <str>yyyy-MM-dd HH:mm:ss</str>
+        <str>yyyy-MM-dd HH:mmZ</str>
+        <str>yyyy-MM-dd HH:mm</str>
+        <str>yyyy-MM-dd</str>
+      </arr>
+    </processor>
+    <processor class="solr.UniqFieldsUpdateProcessorFactory">
+    	<str name="fieldRegex">.*</str>
+  	</processor>
+    <!--<processor class="solr.AddSchemaFieldsUpdateProcessorFactory">
+	
+      <str name="defaultFieldType">strings</str>
+      <lst name="typeMapping">
+        <str name="valueClass">java.lang.Boolean</str>
+        <str name="fieldType">booleans</str>
       </lst>
-  -->
-
-      <!-- Use as default mapping instead of defaultFieldType -->
-  <!--
-      <bool name="default">true</bool>
-    </lst>
-    <lst name="typeMapping">
-      <str name="valueClass">java.lang.Boolean</str>
-      <str name="fieldType">booleans</str>
-    </lst>
-    <lst name="typeMapping">
-      <str name="valueClass">java.util.Date</str>
-      <str name="fieldType">pdates</str>
-    </lst>
-    <lst name="typeMapping">
-      <str name="valueClass">java.lang.Long</str>
-      <str name="valueClass">java.lang.Integer</str>
-      <str name="fieldType">plongs</str>
-    </lst>
-    <lst name="typeMapping">
-      <str name="valueClass">java.lang.Number</str>
-      <str name="fieldType">pdoubles</str>
-    </lst>
-  </updateProcessor>
-  -->
-
+      <lst name="typeMapping">
+        <str name="valueClass">java.util.Date</str>
+        <str name="fieldType">tdates</str>
+      </lst>
+      <lst name="typeMapping">
+        <str name="valueClass">java.lang.Long</str>
+        <str name="valueClass">java.lang.Integer</str>
+        <str name="fieldType">tlongs</str>
+      </lst>
+      <lst name="typeMapping">
+        <str name="valueClass">java.lang.Number</str>
+        <str name="fieldType">tdoubles</str>
+      </lst>
+    </processor>-->
+	<processor class="solr.TimestampUpdateProcessorFactory">
+	   <str name="fieldName">timestamp_update</str>
+	</processor>
+    <processor class="solr.LogUpdateProcessorFactory"/>
+    <processor class="solr.DistributedUpdateProcessorFactory"/>
+    <processor class="solr.RunUpdateProcessorFactory"/>
+  </updateRequestProcessorChain>
+  
   <!-- TODO: disabled schemaless mode, enable again if needed -->
   <schemaFactory class="ClassicIndexSchemaFactory"/>
 
