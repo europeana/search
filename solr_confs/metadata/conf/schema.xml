@@ -249,14 +249,12 @@
 		<field name="coverageLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
 		<field name="location_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
 		<!-- DATE SUPPORT -->
-		<field name="dcterms_created" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
-		<field name="dcterms_created_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<field name="dcterms_created_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<field name="dcterms_created_textual" type="sortable_text_general" indexed="true" stored="true" multiValued="true"/>
-		<field name="dcterms_issued" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
-		<field name="dcterms_issued_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<field name="dcterms_issued_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<field name="dcterms_issued_textual" type="sortable_text_general" indexed="true" stored="true" multiValued="true"/>
+		<field name="created_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
+		<field name="created_date_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+		<field name="created_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+		<field name="issued_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
+		<field name="issued_date_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+		<field name="issued_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
     </fields>
