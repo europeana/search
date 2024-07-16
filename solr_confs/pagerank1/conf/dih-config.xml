@@ -1,0 +1,54 @@
+<dataConfig>
+   <dataSource name="myfilereader" type="FileDataSource" encoding="UTF-8" />  
+        <script><![CDATA[
+                  function parseTheRow(row)    
+                         {
+                            var rawLine = row.get("rawLine")
+               
+                            // Split the rawLine by TAB character as we are using TSV 
+                               
+                            var result = rawLine.split("\t");  
+
+                            var colNames = [ "identifier", "page_rank"]; 
+
+                           // Process each field / split entry from array 
+                            var arrayLength = result.length;
+                            var resultUdapted;
+                            for (var i = 0; i < arrayLength; i++) {
+                              //dbpedia URI not used anymore in the new pagerank dumps
+                              //resultUdapted = result[i].replace("http://wikidata.dbpedia.org/resource/", "http://www.wikidata.org/entity/");
+                               resultUdapted = result[i];
+                              row.put(colNames[i] , resultUdapted);                    
+                            }  
+                            
+                            return row; 
+                            // Note: Don't forget to add the fields you are indexing to your schema.xml !!!  
+							// source: https://github.com/tweep/index-tsv-files-with-solr-DIH-one-doc-per-line
+                         }
+         ]]></script>     
+
+
+     <document>
+     <!--  old definition 	fileName="^[\w\d-]+\.tsv$"  -->
+       <entity name="pdoc"  
+               dataSource="null" 
+               processor="FileListEntityProcessor" 
+               fileName=".*rank$"
+               recursive="true" 
+               baseDir="/opt/solr/data/import/page_ranks"  
+  		       rootEntity="false"
+               header="true"
+             > 
+
+				<entity 
+				   dataSource="myfilereader"
+				   name="entryline"  
+				   processor="LineEntityProcessor"
+				   url="${pdoc.fileAbsolutePath}" 
+				   transformer="script:parseTheRow"
+                   onError="skip"
+				 >   
+              </entity>    
+        </entity> 
+     </document> 
+</dataConfig>

@@ -197,6 +197,9 @@
 		<copyField source="owl_sameAs" dest="coref" />
 		<copyField source="skos_exactMatch" dest="coref" />
 
+		<field name="edm_aggregatedVia" type="string" indexed="yes"
+			stored="true" multiValued="true" />			
+
 		<field name="foaf_depiction" type="string" indexed="false"
 			stored="true" multiValued="false" />
 			
@@ -484,36 +487,20 @@
 			stored="true" multiValued="true" />
 		<!-- these fields are all populated by controlled values. These are all 
 			en, but in future may be expanded -->
-		<!-- TODO: alias -->
-		<dynamicField name="europeanaRole.*" type="string"
-			indexed="true" multiValued="true" stored="true" />
-		<!-- <dynamicField name="edm_europeanaRole.*" type="string" indexed="true" 
-			multiValued="true" /> <copyField source="europeanaRole.*" dest="edm_europeanaRole.*" 
-			/> -->
-
-		<!-- TODO: alias -->
-		<dynamicField name="organizationDomain.*" type="string"
-			indexed="true" stored="true" multiValued="true" />
-		<!-- <dynamicField name="edm_organizationDomain.*" type="string" indexed="true" 
-			stored="true" multiValued="true"/> <copyField source="orgDomain.*" dest="edm_organizationDomain.*" 
-			/> -->
-
-		<!-- TODO: alias -->
-		<dynamicField name="geographicLevel.*" type="string"
-			indexed="true" stored="true" multiValued="false" />
-		<!-- <dynamicField name="edm_geographicLevel.*" type="string" indexed="true" 
-			stored="true" multiValued="false"/> <copyField source="geoLevel.*" dest="edm_geographicLevel.*" 
-			/> -->
-
+		<field name="europeanaRole" type="string" indexed="true"
+			stored="true" multiValued="true" />
+		
 		<!-- standard language-defined dynamicField -->
 		<dynamicField name="edm_acronym.*" type="string"
 			indexed="false" stored="true" multiValued="true" />
-		<!-- ISO ALPHA-2 codes -->
+		<!-- ISO ALPHA-2 codes  and URI for organization country-->
 		<field name="country" type="string" indexed="true" stored="true"
-			multiValued="false" />
+			multiValued="true" />
+		<!-- prefLabels for Organization country -->
+		<dynamicField name="countryLabel.*" type="string"
+			indexed="false" stored="true" multiValued="false" docValues="true" />
+			
 		<!-- TODO: alias -->
-		<!-- <field name="edm_country" type="string" indexed="true" stored="true" 
-			multiValued="false"/> <copyField source="country" dest="edm_country"/> -->
 		<!-- Determine the top resource linked through edm:isPartOf -->
 		<field name="inCountry" type="string" indexed="true"
 			stored="true" multiValued="true" />
@@ -545,7 +532,6 @@
 		<field name="skos_subject" type="string" indexed="true" stored="true" multiValued="false" />
 		<dynamicField name="skos_definition.*" type="string"
 			indexed="false" stored="true" multiValued="false" />
-			
 		
 		<!-- Random Search -->
 		<dynamicField name="random_*" type="random" />
@@ -571,10 +557,7 @@
 			dest="text.*" />
 		<copyField source="rdagr2_biographicalInformation.*"
 			dest="text.*" />
-		<copyField source="europeanaRole.*" dest="text.*" />
-		<copyField source="organizationDomain.*" dest="text.*" />
-		<copyField source="geographicLevel.*" dest="text.*" />
-
+		
 		<!-- copy to general search field -->
 		<copyField source="skos_prefLabel.*" dest="text" />
 		<copyField source="skos_altLabel.*" dest="text" />
@@ -585,9 +568,7 @@
 			dest="text" />
 		<copyField source="rdagr2_biographicalInformation.*"
 			dest="text" />
-		<copyField source="europeanaRole.*" dest="text" />
-		<copyField source="organizationDomain.*" dest="text" />
-		<copyField source="geographicLevel.*" dest="text" />
+		
 
 	</fields>
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Solr managed schema - automatically generated - DO NOT EDIT -->
+<schema name="pageranks" version="0.1">
+  <uniqueKey>identifier</uniqueKey>
+  <fieldType name="double" class="solr.DoublePointField"/>
+  <fieldType name="long" class="solr.LongPointField" />
+  <fieldType name="string" class="solr.StrField" omitNorms="true" sortMissingLast="true"/>
+  <!-- 
+  <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      <filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
+      <filter class="solr.ASCIIFoldingFilterFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.KStemFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+      <filter class="solr.ASCIIFoldingFilterFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.KStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+   -->
+  <field name="_version_" type="long" multiValued="false" indexed="true" stored="true"/>
+  <field name="page_url" type="string" multiValued="false" indexed="true" required="false" stored="true"/>
+  <field name="identifier" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="page_rank" type="double" multiValued="false" indexed="true" required="true" stored="true"/>
+</schema>
