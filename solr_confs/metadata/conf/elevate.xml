@@ -12061,7 +12061,104 @@
     
     <!-- ENTITY BESTBETS: START -->
 
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000364299&quot;">
+  <query text="skos_concept:&quot;http://data.europeana.eu/concept/30&quot;">
+    <doc id="/9200579/zezzwazj"/>
+    <doc id="/2064107/Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_7310"/>
+    <doc id="/2064107/Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_7114"/>
+    <doc id="/08547/sgml_eu_php_obj_z0001084"/>
+    <doc id="/317/69cb5cc7_201b_46a1_891c_234a02b1fffa"/>
+    <doc id="/317/2325be25_8862_4b34_8a46_edf36c2fc7d8"/>
+    <doc id="/2021624/https___hdl_handle_net_11653_post104003680"/>
+    <doc id="/2021624/https___hdl_handle_net_11653_post104002084"/>
+    <doc id="/2021624/https___hdl_handle_net_11653_post104003688"/>
+    <doc id="/2021624/https___hdl_handle_net_11653_post104000343"/>
+    <doc id="/2021624/https___hdl_handle_net_11653_obj18"/>
+    <doc id="/91616/arme_object_AM066119"/>
+    <doc id="/916123/SLM_item_319399"/>
+    <doc id="/91617/upmu_photo_PS02492"/>
+    <doc id="/08547/sgml_eu_php_obj_gr001651"/>
+    <doc id="/2022608/TFM_SVB_FTTF_SCH_K_007318"/>
+    <doc id="/91616/arme_object_AM066185"/>
+    <doc id="/91616/arme_object_AM066121"/>
+    <doc id="/91616/arme_object_AM066146"/>
+    <doc id="/91616/arme_object_AM066122"/>
+    <doc id="/9200579/fcg5z54v"/>
+    <doc id="/2022091/data_hope_5000082"/>
+    <doc id="/9200579/f85gkdxg"/>
+    <doc id="/9200579/yzrx97fx"/>
+    <doc id="/2024904/https___www_topfoto_co_uk_asset_1823490"/>
+    <doc id="/2022091/data_hope_5000083"/>
+  </query>
+  <query text="edm_agent:&quot;http://data.europeana.eu/agent/113938&quot;">
+    <doc id="/2048401/item_ADCP4YLGDS7WMNDICFFV2EJPBORS6SNV"/>
+    <doc id="/2048401/item_P6232O6QZRTS6HOPBOXOW6F3KBJWUWWE"/>
+  </query>
+  <query text="skos_concept:&quot;http://data.europeana.eu/concept/2909&quot;">
+    <doc id="/2064138/Museu_ProvidedCHO_museum_digital_19437__technical_number_"/>
+  </query>
+  <query text="skos_concept:&quot;http://data.europeana.eu/concept/2346&quot;">
+    <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
+  </query>
+  <query text="skos_concept:&quot;http://data.europeana.eu/concept/44&quot;">
+    <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
+  </query>
+  <query text="skos_concept:&quot;http://data.europeana.eu/concept/2690&quot;">
+    <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
+  </query>
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1548&quot;">
+    <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
+  </query>
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4550&quot;">
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_101918"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_101927"/>
+    <doc id="/2058401/_providedCHO_a009a551_c1bf_795f_5dd5_ca1466c43054"/>
+    <doc id="/2058401/_providedCHO_dc24490d_18ca_fc34_3183_582f1daf0ae8"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_101732"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_101735"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_1011504"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_100720"/>
+    <doc id="/2021001/_oai_www_doria_fi_10024_66620"/>
+    <doc id="/2021001/_oai_www_doria_fi_10024_66567"/>
+    <doc id="/2021001/_oai_www_doria_fi_10024_66482"/>
+    <doc id="/2021001/_oai_www_doria_fi_10024_66432"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_104336"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_1044423"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_1045100"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_100832"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_100069"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_100680"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_100552"/>
+    <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_10042"/>
+  </query>
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1863&quot;">
+    <doc id="/2024909/photography_ProvidedCHO_United_Archives___Carl_Simon_02404302"/>
+  </query>
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4548&quot;">
+    <doc id="/392/_vd678j83q"/>
+    <doc id="/921/_qz216j82t"/>
+    <doc id="/438/_cv442c75r"/>
+    <doc id="/216/_t148tz24x"/>
+    <doc id="/438/_p267mb34d"/>
+    <doc id="/615/_7s75sz18f"/>
+    <doc id="/139/_tq582575b"/>
+    <doc id="/574/_xk81z7698"/>
+    <doc id="/394/_tm711915k"/>
+    <doc id="/15409/_zc786910p"/>
+    <doc id="/169/_q8120458w"/>
+    <doc id="/785/_gf06vv17v"/>
+    <doc id="/204/_pr76tp354"/>
+    <doc id="/214/_63968n969"/>
+    <doc id="/707/_ws85q5671"/>
+    <doc id="/641/_cr571p558"/>
+    <doc id="/438/_0c48h112v"/>
+    <doc id="/15405/_c534vb416"/>
+    <doc id="/255/_8s463q69w"/>
+    <doc id="/15409/_3b5918592"/>
+    <doc id="/574/_6t05h440x"/>
+    <doc id="/139/_g445rt87g"/>
+    <doc id="/574/_0v83nn871"/>
+  </query>
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4522&quot;">
     <doc id="/08631/1037479000000279003"/>
     <doc id="/08631/1037479000000334042"/>
     <doc id="/08631/1037479000000281029"/>
@@ -12087,7 +12184,7 @@
     <doc id="/08631/1037479000000281042"/>
     <doc id="/08631/1037479000000270003"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004506265&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/3386&quot;">
     <doc id="/08620/1037479000000093031"/>
     <doc id="/08620/1037479000000093043"/>
     <doc id="/08620/1037479000000180090"/>
@@ -12113,7 +12210,7 @@
     <doc id="/08620/1037479000000093007"/>
     <doc id="/08620/1037479000000180103"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000001267039&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4425&quot;">
     <doc id="/08622/IWM_191"/>
     <doc id="/08622/IWM_522"/>
     <doc id="/08622/IWM_479"/>
@@ -12139,7 +12236,7 @@
     <doc id="/08622/IWM_34"/>
     <doc id="/08622/IWM_487"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000003421183&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4355&quot;">
     <doc id="/08625/FILM00071002c_2"/>
     <doc id="/08625/FILM00066004c_6"/>
     <doc id="/08625/FILM00306277c_X"/>
@@ -12165,7 +12262,7 @@
     <doc id="/08625/FILM00072026c_9"/>
     <doc id="/08625/FILM00319092c_2"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004375580&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4242&quot;">
     <doc id="/08614/cat23734"/>
     <doc id="/08614/poster10201"/>
     <doc id="/08614/poster7395"/>
@@ -12191,7 +12288,7 @@
     <doc id="/08614/cat15322"/>
     <doc id="/08614/cat11569"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000368701&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4511&quot;">
     <doc id="/08617/1037479000000110003"/>
     <doc id="/08617/1037479000000195003"/>
     <doc id="/08617/1037479000000144016"/>
@@ -12217,7 +12314,7 @@
     <doc id="/08617/1037479000000096003"/>
     <doc id="/08617/1037479000000097017"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004502033&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/3968&quot;">
     <doc id="/08623/13738"/>
     <doc id="/08623/12780"/>
     <doc id="/08623/35767"/>
@@ -12243,7 +12340,7 @@
     <doc id="/08623/12487"/>
     <doc id="/08623/12788"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000338735&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4533&quot;">
     <doc id="/08626/1037479000000107017"/>
     <doc id="/08626/1037479000000112045"/>
     <doc id="/08626/1037479000000112037"/>
@@ -12269,7 +12366,7 @@
     <doc id="/08626/1037479000000107037"/>
     <doc id="/08626/1037479000000137007"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000046579031&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/903&quot;">
     <doc id="/471/MFN6"/>
     <doc id="/471/BNF010000016"/>
     <doc id="/471/MFN2753"/>
@@ -12295,7 +12392,7 @@
     <doc id="/471/MFN2764"/>
     <doc id="/471/8884"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000049047001&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/476&quot;">
     <doc id="/819/V_544_3"/>
     <doc id="/819/V_542_3"/>
     <doc id="/819/V_544_4"/>
@@ -12321,7 +12418,7 @@
     <doc id="/819/V_394_2_3"/>
     <doc id="/819/V_394_2_4"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004510599&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/2618&quot;">
     <doc id="/2048359/providedCHO_4_ZHPB4_4_ZHPB4___11"/>
     <doc id="/2048359/providedCHO_4_WCA_4_WCA___11626"/>
     <doc id="/2048359/providedCHO_4_VTH_4_VTH___3803"/>
@@ -12345,7 +12442,7 @@
     <doc id="/2048359/providedCHO_4_ZHPB4_4_ZHPB4___38"/>
     <doc id="/2048359/providedCHO_4_ZHPB4_4_ZHPB4___98"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000002112001&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4373&quot;">
     <doc id="/794/ark__12148_btv1b7300348g"/>
     <doc id="/9200517/ark__12148_btv1b55008763x"/>
     <doc id="/9200518/ark__12148_btv1b90052187"/>
@@ -12374,7 +12471,7 @@
   <query text="skos_concept:&quot;http://data.europeana.eu/concept/60&quot;">
     <doc id="/08604/1ADB732C788B47F4B1DCACB34B647B73"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004375509&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4254&quot;">
     <doc id="/08604/9CB38337B724494F9F6C105D069FFD32"/>
     <doc id="/08604/node_1663243"/>
     <doc id="/08604/node_1680988"/>
@@ -12403,7 +12500,7 @@
   <query text="skos_concept:&quot;http://data.europeana.eu/concept/2691&quot;">
     <doc id="/2048210/europeana_fashion_2007_6_0261"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000368903&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4470&quot;">
     <doc id="/2048208/europeana_fashion_JDDEM_jaargang_17_18490101_001_jpg"/>
     <doc id="/2048208/europeana_fashion_FEM_jaargang_05_19051101_011_jpg"/>
     <doc id="/2048208/europeana_fashion_EXH734"/>
@@ -12428,11 +12525,7 @@
   <query text="skos_concept:&quot;http://data.europeana.eu/concept/744&quot;">
     <doc id="/2059210/data_sounds_http___archive_org_download_srn2004_05_30_sbd_flac_16_srn2004_05_30_sbd_flac_16_part03_mp3"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/113938&quot;">
-    <doc id="/2048401/item_ADCP4YLGDS7WMNDICFFV2EJPBORS6SNV"/>
-    <doc id="/2048401/item_P6232O6QZRTS6HOPBOXOW6F3KBJWUWWE"/>
-  </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000338795&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4579&quot;">
     <doc id="/90402/SK_C_5"/>
     <doc id="/90402/SK_A_4691"/>
   </query>
@@ -12452,33 +12545,7 @@
     <doc id="/91624/shm_object_403069"/>
     <doc id="/2021802/LIMIS_112195878"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000364879&quot;">
-    <doc id="/438/_cv442c75r"/>
-    <doc id="/216/_t148tz24x"/>
-    <doc id="/438/_p267mb34d"/>
-    <doc id="/155/_pv63vf551"/>
-    <doc id="/392/_rf56bt65h"/>
-    <doc id="/615/_7s75sz18f"/>
-    <doc id="/139/_tq582575b"/>
-    <doc id="/574/_xk81z7698"/>
-    <doc id="/438/_6t05gx732"/>
-    <doc id="/394/_tm711915k"/>
-    <doc id="/15409/_zc786910p"/>
-    <doc id="/169/_q8120458w"/>
-    <doc id="/785/_gf06vv17v"/>
-    <doc id="/204/_pr76tp354"/>
-    <doc id="/214/_63968n969"/>
-    <doc id="/707/_ws85q5671"/>
-    <doc id="/641/_cr571p558"/>
-    <doc id="/438/_0c48h112v"/>
-    <doc id="/15405/_c534vb416"/>
-    <doc id="/255/_8s463q69w"/>
-    <doc id="/15409/_3b5918592"/>
-    <doc id="/574/_6t05h440x"/>
-    <doc id="/139/_g445rt87g"/>
-    <doc id="/574/_0v83nn871"/>
-  </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000338951&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4563&quot;">
     <doc id="/267/10444"/>
     <doc id="/795/11168_11_266789"/>
     <doc id="/283/1015_B"/>
@@ -12504,7 +12571,7 @@
     <doc id="/433/photo_003_039749_46"/>
     <doc id="/282/gab6621"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000000362665&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4531&quot;">
     <doc id="/525/RF0737"/>
     <doc id="/525/RF0920"/>
     <doc id="/525/RF0759"/>
@@ -12530,7 +12597,7 @@
     <doc id="/525/RF0932"/>
     <doc id="/525/RF0761"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004509120&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/2888&quot;">
     <doc id="/2021672/resource_document_mauritshuis_670"/>
     <doc id="/2021672/resource_document_mauritshuis_32"/>
     <doc id="/2021672/resource_document_mauritshuis_1203"/>
@@ -12556,7 +12623,7 @@
     <doc id="/2021672/resource_document_mauritshuis_1032"/>
     <doc id="/2021672/resource_document_mauritshuis_679"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004671152&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1589&quot;">
     <doc id="/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_113742_000"/>
     <doc id="/2026128/Partage_Plus_ProvidedCHO_Kunstbibliothek__Staatliche_Museen_zu_Berlin_1791697"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_1981_1900"/>
@@ -12582,7 +12649,7 @@
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Culture_Grid_PP1038_KK01"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Culture_Grid_PP1063_KK01"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000046393006&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/862&quot;">
     <doc id="/226/8678_Betlemme_2007"/>
     <doc id="/226/13228_RM_2019"/>
     <doc id="/226/13252_RM_2015"/>
@@ -12608,7 +12675,7 @@
     <doc id="/226/13235_RM_2018"/>
     <doc id="/226/12043_Roma_2011"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000046543016&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/837&quot;">
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_26_6a"/>
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_62_32"/>
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_62_20"/>
@@ -12632,10 +12699,10 @@
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_130_17c"/>
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_126_5"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004509068&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/2992&quot;">
     <doc id="/2051943/data_euscreenXL_EUS_0945923E42834841BA1C2B31B6BE3A2E"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000004477257&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4305&quot;">
     <doc id="/15508/3073"/>
     <doc id="/15508/28336"/>
     <doc id="/15508/39929"/>
@@ -12750,7 +12817,7 @@
     <doc id="/2021672/resource_document_mauritshuis_462"/>
     <doc id="/2048087/ProvidedCHO_Horniman_Museum_and_Gardens_http___collections_horniman_ac_uk_objects_5066"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1482250000001721054&quot;">
+  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4402&quot;">
     <doc id="/525/RF0765"/>
     <doc id="/525/RF0756"/>
     <doc id="/525/RF0719"/>
@@ -12773,35 +12840,6 @@
     <doc id="/2024909/photography_ProvidedCHO_United_Archives_01585387_jpg"/>
     <doc id="/149/photography_ProvidedCHO_KIK_IRPA__Brussels__Belgium___11047722"/>
     <doc id="/2024919/photography_ProvidedCHO_Promoter_Digital_Gallery_situzhaoguang_working_14_JPG"/>
-  </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/30&quot;">
-    <doc id="/9200579/zezzwazj"/>
-    <doc id="/9200579/qu6tgfz5"/>
-    <doc id="/2064107/Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_7310"/>
-    <doc id="/2064107/Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_7114"/>
-    <doc id="/08547/sgml_eu_php_obj_z0001084"/>
-    <doc id="/317/69cb5cc7_201b_46a1_891c_234a02b1fffa"/>
-    <doc id="/317/2325be25_8862_4b34_8a46_edf36c2fc7d8"/>
-    <doc id="/2021624/https___hdl_handle_net_11653_post104003680"/>
-    <doc id="/2021624/https___hdl_handle_net_11653_post104002084"/>
-    <doc id="/2021624/https___hdl_handle_net_11653_post104003688"/>
-    <doc id="/2021624/https___hdl_handle_net_11653_post104000343"/>
-    <doc id="/2021624/https___hdl_handle_net_11653_obj18"/>
-    <doc id="/91616/arme_object_AM066119"/>
-    <doc id="/916123/SLM_item_319399"/>
-    <doc id="/91617/upmu_photo_PS02492"/>
-    <doc id="/08547/sgml_eu_php_obj_gr001651"/>
-    <doc id="/2022608/TFM_SVB_FTTF_SCH_K_007318"/>
-    <doc id="/91616/arme_object_AM066185"/>
-    <doc id="/91616/arme_object_AM066121"/>
-    <doc id="/91616/arme_object_AM066146"/>
-    <doc id="/91616/arme_object_AM066122"/>
-    <doc id="/9200579/fcg5z54v"/>
-    <doc id="/2022091/data_hope_5000082"/>
-    <doc id="/9200579/f85gkdxg"/>
-    <doc id="/9200579/yzrx97fx"/>
-    <doc id="/2024904/https___www_topfoto_co_uk_asset_1823490"/>
-    <doc id="/2022091/data_hope_5000083"/>
   </query>
   <query text="skos_concept:&quot;http://data.europeana.eu/concept/70&quot;">
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3034098"/>
@@ -13198,32 +13236,6 @@
     <doc id="/9200579/v873er5j"/>
     <doc id="/9200579/gmtje33g"/>
     <doc id="/2022091/data_hope_5001203"/>
-  </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/17&quot;">
-    <doc id="/9200211/en_list_one_zhl_0041"/>
-    <doc id="/9200211/en_list_one_zhl_N0175"/>
-    <doc id="/9200211/en_list_one_zos_pa0031"/>
-    <doc id="/9200211/en_list_one_zos_pa0032"/>
-    <doc id="/5/URN_NBN_SI_IMG_TFT6D7SB"/>
-    <doc id="/5/URN_NBN_SI_IMG_49FPVLAI"/>
-    <doc id="/92028/MUS01000203071"/>
-    <doc id="/495/item_SD7MR2KHULMMO5SWPH4HWC6ELQTQNWEF"/>
-    <doc id="/2048424/item_7V7PWZ4V6EK7JSWYMLP5GRHOWLYJKL2U"/>
-    <doc id="/308/bib_BDME20130062617"/>
-    <doc id="/207/https___binadi_navarra_es_registro_oai_binadi_navarra_es_00008110_aggregation"/>
-    <doc id="/207/https___binadi_navarra_es_registro_oai_binadi_navarra_es_00008363_aggregation"/>
-    <doc id="/207/https___binadi_navarra_es_registro_oai_binadi_navarra_es_00008095_aggregation"/>
-    <doc id="/207/https___binadi_navarra_es_registro_oai_binadi_navarra_es_00008074_aggregation"/>
-    <doc id="/543/ciconia_lod_oai_bibliotecaciconia_gobex_es_8760_ent1"/>
-    <doc id="/273/resource_document_jhm_documenten_D016368"/>
-    <doc id="/273/resource_document_jhm_documenten_D014660"/>
-    <doc id="/91/_Resource_144784196"/>
-    <doc id="/91/_Resource_144783088"/>
-    <doc id="/91/_Resource_144782491"/>
-    <doc id="/101/10107_4680449"/>
-    <doc id="/101/10107_4682190"/>
-    <doc id="/298/item_3163959"/>
-    <doc id="/298/item_3164192"/>
   </query>
   <query text="skos_concept:&quot;http://data.europeana.eu/concept/6&quot;">
     <doc id="/97/419285"/>
