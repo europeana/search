@@ -1,7 +1,0 @@
-ArbitraryAccessInteraction	2018-03-21T16:15:25.025Z	492f4331bb9a937832fabefdbe43251a	[200] GET /portal/nl/record/2021650/memorix_6d870082_548c_7ccc_8975_455e83154ebf.html (PortalController#show)
-ArbitraryAccessInteraction	2018-03-21T16:16:16.345Z	492f4331bb9a937832fabefdbe43251a	[200] GET /portal/nl/explore/topics/48-photograph.html (EntitiesController#show)
-SearchInteraction	2018-03-21T16:16:17.796Z	492f4331bb9a937832fabefdbe43251a	what: "http://data.europeana.eu/concept/base/48"		2437763
-ArbitraryAccessInteraction	2018-03-21T16:16:27.442Z	492f4331bb9a937832fabefdbe43251a	[200] GET /portal/nl/record/2021650/memorix_6d870082_548c_7ccc_8975_455e83154ebf.html (PortalController#show)
-ArbitraryAccessInteraction	2018-03-21T16:16:30.024Z	492f4331bb9a937832fabefdbe43251a	[200] GET /portal/nl/record/2021650/memorix_6d870082_548c_7ccc_8975_455e83154ebf.html (PortalController#show)
-ArbitraryAccessInteraction	2018-03-21T16:16:32.400Z	492f4331bb9a937832fabefdbe43251a	[200] GET /portal/nl/record/2021650/memorix_6d870082_548c_7ccc_8975_455e83154ebf.html (PortalController#show)
-ArbitraryAccessInteraction	2018-03-21T16:16:33.754Z	492f4331bb9a937832fabefdbe43251a	[200] GET /portal/nl/record/2021650/memorix_6d870082_548c_7ccc_8975_455e83154ebf.html (PortalController#show)

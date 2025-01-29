@@ -1,2 +1,0 @@
-class ZeroResultsException(Exception):
-	pass

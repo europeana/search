@@ -1,6 +1,0 @@
-SearchInteraction	2018-03-21T14:30:13.926Z	1c5e8c6098fc3b8b5562e5923e6647bc	Archaeology		1485015
-SearchInteraction	2018-03-21T14:30:20.223Z	1c5e8c6098fc3b8b5562e5923e6647bc	Archaeology	{'TYPE': ['3D']}	1749
-SearchInteraction	2018-03-21T14:30:24.882Z	1c5e8c6098fc3b8b5562e5923e6647bc	Archaeology	{'MIME_TYPE': ['application/pdf'], 'TYPE': ['3D']}	210
-RankedRetrieveRecordInteraction	2018-03-21T14:30:35.485Z	1c5e8c6098fc3b8b5562e5923e6647bc	Archaeology	{'MIME_TYPE': ['application/pdf'], 'TYPE': ['3D']}	/2048703/object_HA_96	3	210
-ArbitraryAccessInteraction	2018-03-21T14:30:50.578Z	1c5e8c6098fc3b8b5562e5923e6647bc	[200] GET /portal/it/record/2048703/object_HA_242.html (PortalController#show)
-ArbitraryAccessInteraction	2018-03-21T14:31:58.434Z	1c5e8c6098fc3b8b5562e5923e6647bc	[200] GET /portal/it/about.html (PagesController#show)
