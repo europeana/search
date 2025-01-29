@@ -1,6 +1,0 @@
-SearchInteraction	2018-03-21T10:01:38.712Z	105d9cc8f9c9bf8c13126e029130840b	Porto		22393
-SearchInteraction	2018-03-21T10:01:48.112Z	105d9cc8f9c9bf8c13126e029130840b	Porto	{'LANGUAGE': ['pt']}	8292
-SearchInteraction	2018-03-21T10:02:16.051Z	105d9cc8f9c9bf8c13126e029130840b	Porto	{'LANGUAGE': ['pt'], 'TYPE': ['TEXT']}	5962
-CollectionFilterAdditionInteraction	2018-03-21T10:02:59.084Z	105d9cc8f9c9bf8c13126e029130840b	Porto	{'LANGUAGE': ['pt'], 'TYPE': ['TEXT']}	0
-CollectionFilterRemovalInteraction	2018-03-21T10:03:03.283Z	105d9cc8f9c9bf8c13126e029130840b	Porto	{'LANGUAGE': ['pt'], 'TYPE': ['TEXT']}	5962
-SearchInteraction	2018-03-21T10:03:10.565Z	105d9cc8f9c9bf8c13126e029130840b	Porto	{'LANGUAGE': ['pt'], 'MIME_TYPE': ['application/pdf'], 'TYPE': ['TEXT']}	3

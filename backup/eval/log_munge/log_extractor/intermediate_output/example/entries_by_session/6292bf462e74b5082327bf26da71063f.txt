@@ -1,4 +1,0 @@
-ArbitraryAccessInteraction	2018-03-21T16:53:14.440Z	6292bf462e74b5082327bf26da71063f	[200] GET /portal/sv/record/2020702/raa_fmi_10214305920001.html (PortalController#show)
-SearchInteraction	2018-03-21T16:55:30.765Z	6292bf462e74b5082327bf26da71063f	proxy_dc_publisher:"Riksantikvarieämbetet"		701946
-SearchInteraction	2018-03-21T16:55:46.698Z	6292bf462e74b5082327bf26da71063f	proxy_dc_publisher:"Riksantikvarieämbetet"	{'REUSABILITY': ['open']}	701943
-ArbitraryAccessInteraction	2018-03-21T20:26:36.323Z	6292bf462e74b5082327bf26da71063f	[200] GET /portal/sv/record/2020702/raa_fmi_10211601180001.html (PortalController#show)

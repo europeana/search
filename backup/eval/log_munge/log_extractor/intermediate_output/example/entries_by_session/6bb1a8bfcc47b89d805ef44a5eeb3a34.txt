@@ -1,4 +1,0 @@
-ArbitraryAccessInteraction	2018-03-21T19:52:04.799Z	6bb1a8bfcc47b89d805ef44a5eeb3a34	[200] GET /portal/nl/record/2021653/detail_php_id_1295625.html (PortalController#show)
-ArbitraryAccessInteraction	2018-03-21T19:52:33.510Z	6bb1a8bfcc47b89d805ef44a5eeb3a34	[200] GET /portal/nl/explore/topics/48-photograph.html (EntitiesController#show)
-SearchInteraction	2018-03-21T19:52:40.361Z	6bb1a8bfcc47b89d805ef44a5eeb3a34	what: "http://data.europeana.eu/concept/base/48"		2437763
-SearchInteraction	2018-03-21T19:53:16.140Z	6bb1a8bfcc47b89d805ef44a5eeb3a34	what:"Boerderijen"		48363
