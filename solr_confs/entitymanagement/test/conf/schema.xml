@@ -7,10 +7,7 @@
 			sortMissingLast="true" />
 		<fieldType name="json" class="solr.StrField"
 			sortMissingLast="true" />
-<!-- 
-		<fieldType name="strings" class="solr.StrField"
-			sortMissingLast="true" multiValued="true" docValues="true" />
- -->
+
 		<!-- boolean type: "true" or "false" -->
 		<fieldType name="boolean" class="solr.BoolField"
 			sortMissingLast="true" />
@@ -121,15 +118,9 @@
 		<copyField source="id" dest="entity_uri" />
 
 		<!-- Entity type, in human-readable form (Concept|Agent|Place|Organization|Work) -->
-		<!-- about to be deprecated ... should be fully replaced by type field, 
-			for backward compatibility is currently copied to type field -->
-		<field name="internal_type" type="string" indexed="true"
-			stored="true" multiValued="false"/>
-		<!-- use this shortly ... -->
 		<field name="type" type="string" indexed="true" stored="true"
-			multiValued="false" required="false" />
-		<copyField source="internal_type" dest="type" />
-
+			multiValued="false" required="true" />
+		
 		<!-- License info -->
 		<field name="rights" type="string" indexed="true" stored="true"
 			multiValued="true" />
@@ -196,9 +187,6 @@
 			multiValued="true" />
 		<copyField source="owl_sameAs" dest="coref" />
 		<copyField source="skos_exactMatch" dest="coref" />
-
-		<field name="edm_aggregatedVia" type="string" indexed="yes"
-			stored="true" multiValued="true" />			
 
 		<field name="foaf_depiction" type="string" indexed="false"
 			stored="true" multiValued="false" />
@@ -274,13 +262,6 @@
 		<field name="identifier" type="string" indexed="true"
 			stored="true" multiValued="true" />
 		<copyField source="dc_identifier" dest="identifier" />
-
-		<!-- not available yet -->
-		<!-- <field name="foaf_name" type="string" indexed="true" stored="true" 
-			multiValued="true"/> <dynamicField name="foaf_name.*" type="proper_name" 
-			indexed="true" stored="true" multiValued="true"/> <copyField source="foaf_name.*" 
-			dest="foaf_name"/> -->
-
 
 		<!-- some Agent-related date fields. Check datatyping -->
 		<!-- BEGIN RELATED FIELDS -->
@@ -404,9 +385,6 @@
 		<copyField source="rdagr2_placeOfDeath.*"
 			dest="placeOfDeath" />
 
-		<!-- NOT USED specs to be fixed <field name="rdagr2_placeOfDeath" type="string" 
-			indexed="true" stored="true" multiValued="true"/> -->
-
 		<!-- HAS MET -->
 		<field name="edm_hasMet" type="string" indexed="false"
 			stored="true" multiValued="true" />
@@ -460,12 +438,7 @@
 			stored="true" multiValued="false" />
 		<field name="wgs84_pos_lat_long" type="string" indexed="false"
 			stored="true" multiValued="false" />
-		<!-- this fields was never used <field name="coord" type="location" indexed="true" 
-			stored="true" multiValued="false" /> -->
 		<!-- required for spatial search -->
-		<!-- this field was never used see <dynamicField name="*_coords" type="double" 
-			indexed="true" stored="false" /> -->
-		<!-- TODO: alias -->
 		<field name="alt" type="float" indexed="false" stored="true"
 			multiValued="false" />
 		<copyField source="wgs84_pos_alt" dest="alt" />
@@ -483,7 +456,24 @@
 			stored="true" multiValued="false" />
 		<field name="foaf_phone" type="string" indexed="false"
 			stored="true" multiValued="true" />
-		<field name="foaf_mbox" type="string" indexed="false"
+		
+		<field name="aggregatedVia" type="string" indexed="yes"
+			stored="true" multiValued="true" />			
+		
+		<!-- Aggregator Fields -->	
+		<field name="mbox" type="string" indexed="false"
+			stored="true" multiValued="false" />	
+		<field name="geographicScope" type="string" indexed="false"
+			stored="true" multiValued="false" />
+		<field name="heritageDomain" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="providesSupportForMediaType" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="providesSupportForDataActivity" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="providesCapacityBuildingActivity" type="string" indexed="false"
+			stored="true" multiValued="true" />
+		<field name="providesAudienceEngagementActivity" type="string" indexed="false"
 			stored="true" multiValued="true" />
 		<!-- these fields are all populated by controlled values. These are all 
 			en, but in future may be expanded -->
