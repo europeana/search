@@ -457,7 +457,7 @@
 		<field name="foaf_phone" type="string" indexed="false"
 			stored="true" multiValued="true" />
 		
-		<field name="aggregatedVia" type="string" indexed="yes"
+		<field name="aggregatedVia" type="string" indexed="true"
 			stored="true" multiValued="true" />			
 		
 		<!-- Aggregator Fields -->	
