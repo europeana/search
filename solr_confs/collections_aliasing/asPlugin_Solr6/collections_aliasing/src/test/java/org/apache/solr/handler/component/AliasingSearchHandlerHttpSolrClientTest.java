@@ -19,23 +19,30 @@ package org.apache.solr.handler.component;
 import java.io.File;
 import java.io.IOException;
 import java.lang.invoke.MethodHandles;
+import java.net.http.HttpClient;
 import java.nio.file.Files;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
 import com.carrotsearch.randomizedtesting.annotations.ThreadLeakFilters;
 import org.apache.commons.io.FileUtils;
+import org.apache.http.client.config.RequestConfig;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.impl.client.HttpClients;
 import org.apache.lucene.util.IOUtils;
-import org.apache.lucene.util.LuceneTestCase.Slow;
-import org.apache.lucene.util.QuickPatchThreadsFilter;
+import org.apache.lucene.tests.util.LuceneTestCase;
+import org.apache.lucene.tests.util.QuickPatchThreadsFilter;
 import org.apache.solr.SolrIgnoredThreadsFilter;
 import org.apache.solr.SolrTestCaseJ4;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
-import org.apache.solr.client.solrj.embedded.JettyConfig;
-import org.apache.solr.client.solrj.embedded.JettySolrRunner;
+import org.apache.solr.embedded.JettyConfig;
+import org.apache.solr.embedded.JettySolrRunner;
+//import org.apache.solr.client.solrj.embedded.JettyConfig;
+//import org.apache.solr.client.solrj.embedded.JettySolrRunner;
 import org.apache.solr.client.solrj.impl.HttpClientUtil;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
@@ -53,7 +60,7 @@ import org.slf4j.LoggerFactory;
  *
  * @since solr 1.4
  */
-@Slow
+//@Slow
 @ThreadLeakFilters(defaultFilters = true, filters = {
         SolrIgnoredThreadsFilter.class,
         QuickPatchThreadsFilter.class
@@ -96,8 +103,10 @@ public class AliasingSearchHandlerHttpSolrClientTest
     public void setUp()
             throws Exception {
         super.setUp();
-        httpClient = HttpClientUtil.createClient(null);
-        HttpClientUtil.setConnectionTimeout(httpClient, 1000);
+        //httpClient = HttpClientUtil.createClient(null);
+        RequestConfig config = RequestConfig.custom().setConnectTimeout(1000).build();
+        httpClient= HttpClientBuilder.create().setDefaultRequestConfig(config).build();
+        //HttpClientUtil.setConnectionTimeout(httpClient, 1000);
         solr = new SolrInstance("solr/collection1", createTempDir("instance").toFile(), 0);
         solr.setUp();
         solr.startJetty();
