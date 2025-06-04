@@ -20,9 +20,9 @@ import org.apache.solr.handler.RequestHandlerBase;
 import org.apache.solr.request.SolrQueryRequest;
 import org.apache.solr.response.SolrQueryResponse;
 import org.apache.solr.common.util.NamedList;
+import org.apache.solr.security.AuthorizationContext;
 
 import java.util.concurrent.atomic.AtomicInteger;
-
 
 /**
  *
@@ -52,11 +52,20 @@ public class MockQuerySenderListenerReqHandler extends RequestHandlerBase {
     return result;
   }
 
-  @Override
   public NamedList<Object> getStatistics() {
+    NamedList<Object> stats = new NamedList<>();
+    stats.add("requests", initCounter.get());
+    return stats;
+  }
+
+  /*public NamedList<Object> getStatistics() {
     NamedList<Object> lst = super.getStatistics();
     lst.add("initCount", initCounter.intValue());
     return lst;
+  }*/
+
+  @Override
+  public Name getPermissionName(AuthorizationContext request) {
+    return null;
   }
- 
 }

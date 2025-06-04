@@ -19,9 +19,7 @@ package org.apache.solr.handler.component;
 import java.io.File;
 import java.io.IOException;
 import java.lang.invoke.MethodHandles;
-import java.net.http.HttpClient;
 import java.nio.file.Files;
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -31,9 +29,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
 import org.apache.lucene.util.IOUtils;
-import org.apache.lucene.tests.util.LuceneTestCase;
 import org.apache.lucene.tests.util.QuickPatchThreadsFilter;
 import org.apache.solr.SolrIgnoredThreadsFilter;
 import org.apache.solr.SolrTestCaseJ4;
@@ -43,7 +39,6 @@ import org.apache.solr.embedded.JettyConfig;
 import org.apache.solr.embedded.JettySolrRunner;
 //import org.apache.solr.client.solrj.embedded.JettyConfig;
 //import org.apache.solr.client.solrj.embedded.JettySolrRunner;
-import org.apache.solr.client.solrj.impl.HttpClientUtil;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
 import org.apache.solr.client.solrj.response.QueryResponse;
 import org.apache.solr.client.solrj.response.SolrResponseBase;
@@ -104,7 +99,7 @@ public class AliasingSearchHandlerHttpSolrClientTest
             throws Exception {
         super.setUp();
         //httpClient = HttpClientUtil.createClient(null);
-        RequestConfig config = RequestConfig.custom().setConnectTimeout(1000).build();
+        RequestConfig config = RequestConfig.custom().setConnectTimeout(1000).setAuthenticationEnabled(false).build();
         httpClient= HttpClientBuilder.create().setDefaultRequestConfig(config).build();
         //HttpClientUtil.setConnectionTimeout(httpClient, 1000);
         solr = new SolrInstance("solr/collection1", createTempDir("instance").toFile(), 0);
@@ -195,6 +190,10 @@ public class AliasingSearchHandlerHttpSolrClientTest
             return "solrj/solr/solr.xml";
         }
 
+        public String getAliasFile() {
+            return "solrj/solr/collection1/conf/"+ AliasConfig.DEFAULT_CONF_FILE;
+        }
+
 
         public void setUp()
                 throws Exception {
@@ -209,7 +208,7 @@ public class AliasingSearchHandlerHttpSolrClientTest
             f = new File(confDir, "schema.xml");
             FileUtils.copyFile(SolrTestCaseJ4.getFile(getSchemaFile()), f);
             f = new File(confDir, AliasConfig.DEFAULT_CONF_FILE);
-            FileUtils.copyFile(SolrTestCaseJ4.getFile(getSchemaFile()), f);
+            FileUtils.copyFile(SolrTestCaseJ4.getFile(getAliasFile()), f);
 
             Files.createFile(homeDir.toPath().resolve("collection1/core.properties"));
         }

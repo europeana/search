@@ -22,6 +22,7 @@
 -->
 <config>
     <luceneMatchVersion>${tests.luceneMatchVersion:LATEST}</luceneMatchVersion>
+    <!-- <luceneMatchVersion>9.4.0</luceneMatchVersion> -->
     <indexConfig>
         <useCompoundFile>${useCompoundFile:false}</useCompoundFile>
     </indexConfig>
@@ -107,5 +108,5 @@
         <defaultQuery>*:*</defaultQuery>
     </admin>
 
-</config>
+ </config>
 

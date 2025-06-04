@@ -48,6 +48,7 @@ public class QueryAliasing {
     if (aliasConfig == null) {
       try {
         //First try to load resource with the default loader
+        System.out.println("test");
         aliasConfig = new AliasConfig(core.getResourceLoader(), AliasConfig.DEFAULT_CONF_FILE, null);
       } catch (Exception exception) {
         LOGGER.warn("Could not find file in default resource loader. Will try core directory now.", exception);

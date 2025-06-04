@@ -16,11 +16,13 @@
  */
 package org.apache.solr.handler.component;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.solr.SolrTestCaseJ4;
-import org.apache.solr.client.solrj.embedded.JettySolrRunner;
+//import org.apache.solr.client.solrj.embedded.JettySolrRunner;
+import org.apache.solr.embedded.JettySolrRunner;
 import org.apache.solr.client.solrj.impl.CloudSolrClient;
 import org.apache.solr.client.solrj.request.CollectionAdminRequest;
 import org.apache.solr.client.solrj.request.QueryRequest;
@@ -40,6 +42,8 @@ public class AliasingSearchHandlerTest
     @BeforeClass
     public static void beforeTests()
             throws Exception {
+        System.out.println("hello");
+        System.out.println(System.getProperty("user.dir"));
         initCore("solrconfig.xml", "schema.xml");
     }
 

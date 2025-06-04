@@ -55,9 +55,10 @@
 
   <schemaFactory class="ClassicIndexSchemaFactory"/>
 
-  <luceneMatchVersion>${tests.luceneMatchVersion:LATEST}</luceneMatchVersion>
+    <!-- <luceneMatchVersion>${tests.luceneMatchVersion:LATEST}</luceneMatchVersion>-->
+    <luceneMatchVersion>9.4.0</luceneMatchVersion>
 
-  <statsCache class="${solr.statsCache:}"/>
+    <statsCache class="${solr.statsCache:}"/>
 
   <xi:include href="solrconfig.snippet.randomindexconfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
@@ -187,7 +188,7 @@
       The "standard" request handler is the default and will be used if qt
      is not specified in the request.
   -->
-  <requestHandler name="standard" class="solr.StandardRequestHandler">
+  <requestHandler name="standard" class="solr.SearchHandler">
     <bool name="httpCaching">true</bool>
   </requestHandler>
 
@@ -215,7 +216,7 @@
   <requestHandler name="mock" class="org.apache.solr.core.MockQuerySenderListenerReqHandler"/>
 
   <!-- test query parameter defaults -->
-  <requestHandler name="defaults" class="solr.StandardRequestHandler">
+  <requestHandler name="defaults" class="solr.SearchHandler">
     <lst name="defaults">
       <int name="rows">4</int>
       <bool name="hl">true</bool>
@@ -224,7 +225,7 @@
   </requestHandler>
 
   <!-- test query parameter defaults -->
-  <requestHandler name="lazy" class="solr.StandardRequestHandler" startup="lazy">
+  <requestHandler name="lazy" class="solr.SearchHandler" startup="lazy">
     <lst name="defaults">
       <int name="rows">4</int>
       <bool name="hl">true</bool>

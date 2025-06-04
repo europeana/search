@@ -1,10 +1,11 @@
 package org.apache.solr.core;
 
 //import com.sun.org.apache.xerces.internal.dom.ElementImpl;
+
 import org.w3c.dom.Element;
 import org.apache.solr.cloud.ZkSolrResourceLoader;
 import org.apache.solr.common.SolrException;
-import org.apache.solr.core.SolrConfig;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.NodeList;
@@ -12,11 +13,10 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-import javax.swing.text.Document;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.*;
 import java.io.IOException;
+import java.io.InputStream;
 import java.lang.invoke.MethodHandles;
 import java.nio.file.Path;
 import java.util.HashMap;
@@ -28,7 +28,8 @@ import java.util.HashMap;
  *
  * @author thill
  * @author n.ireson@sheffield.ac.uk
- * @version 2018.07.28
+ * @author mmarrero (upgrade to Solr 9)
+ * @version 2025.05.23
  */
 public class AliasConfig
         extends SolrConfig {
@@ -44,10 +45,9 @@ public class AliasConfig
      */
 
     public AliasConfig()
-            throws ParserConfigurationException, IOException, SAXException {
+            throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
         this(DEFAULT_CONF_FILE);
     }
-
 
 /**
      * Creates a configuration instance from a configuration name.
@@ -57,7 +57,7 @@ public class AliasConfig
      */
 
     public AliasConfig(String name)
-            throws ParserConfigurationException, IOException, SAXException {
+            throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
         this((SolrResourceLoader) null, name, null);
     }
 
@@ -73,7 +73,7 @@ public class AliasConfig
      */
 
     public AliasConfig(String name, InputSource is)
-            throws ParserConfigurationException, IOException, SAXException {
+            throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
         this((SolrResourceLoader) null, name, is);
     }
 
@@ -87,34 +87,43 @@ public class AliasConfig
      */
 
     public AliasConfig(Path instanceDir, String name, InputSource is)
-            throws ParserConfigurationException, IOException, SAXException {
+            throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+        //this(new SolrResourceLoader(instanceDir), name, is);
         this(new SolrResourceLoader(instanceDir), name, is);
     }
 
 
     public AliasConfig(SolrResourceLoader loader, String name, InputSource is)
-            throws ParserConfigurationException, IOException, SAXException {
-
-        super(loader, name, is, "/alias-configs/");
-        this.aliases = populateAliases();
+            throws ParserConfigurationException, IOException, SAXException, XPathExpressionException {
+        //super(loader.getInstancePath(), name);
+        super(loader.getInstancePath(), loader.getSolrConfig().getName());
+        InputStream alias_stream = loader.openResource(name);
+        //super(loader, name, is, "/alias-configs/");
+        this.aliases = populateAliases(new InputSource(alias_stream));
         log.info("Loaded Aliases Config: " + name);
         configFilename = name;
     }
 
     public String getConfigFilename() { return configFilename; }
 
-    private HashMap<String, HashMap<String, String>> populateAliases() {
+    private HashMap<String, HashMap<String, String>> populateAliases(InputSource is) throws XPathExpressionException {
 
         HashMap<String, HashMap<String, String>> allAliases = new HashMap<>();
 
-        NodeList aliasFields = (NodeList) evaluate("alias-config", XPathConstants.NODESET);
+
+        XPathFactory xPathFactory = XPathFactory.newInstance();
+        XPath xpath = xPathFactory.newXPath();
+        String expression = "/alias-configs/alias-config";
+        NodeList aliasFields = (NodeList) xpath.compile(expression).evaluate(is, XPathConstants.NODESET);
+        //NodeList aliasFields = (NodeList) evaluate("alias-config", XPathConstants.NODESET);
+
         System.out.println("Processing alias");
         for (int i = 0; i < aliasFields.getLength(); i++) {
             Element pseudofieldNode = (Element) aliasFields.item(i);
             String fieldName = pseudofieldNode.getElementsByTagName("alias-pseudofield").item(0).getTextContent();
             System.out.println("Field name:"+ fieldName);
             NodeList configs = pseudofieldNode.getElementsByTagName("alias-def");
-            
+
             HashMap<String, String> aliasMap = new HashMap<>();
             for (int j = 0; j < configs.getLength(); j++) {
                 Element configNode = (Element) configs.item(j);

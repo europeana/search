@@ -24,7 +24,7 @@
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
 
         <junit.version>4.12</junit.version>
-        <lucene.version>9.4</lucene.version>
+        <lucene.version>9.4.0</lucene.version>
         <slf4j.version>1.7.25</slf4j.version>
         <solr.version>9.2.1</solr.version>
     </properties>
@@ -120,6 +120,7 @@
 						<release>11</release>
 					</configuration>
 			</plugin>
+
         </plugins>
 	</build>
     

@@ -16,7 +16,8 @@
  */
 package org.apache.solr.handler.component;
 
-import org.apache.lucene.analysis.Token;
+//import org.apache.lucene.tests.analysis.Token;
+import org.apache.solr.spelling.Token;
 import org.apache.solr.core.SolrCore;
 import org.apache.solr.search.SolrIndexSearcher;
 import org.apache.solr.spelling.SolrSpellChecker;
@@ -61,6 +62,7 @@ public class DummyCustomParamSpellChecker extends SolrSpellChecker {
     int i = 0;
     for (String name : lst) {
       String value = options.customParams.get(name);
+
       result.add(new Token(name, i, i+1),  Collections.singletonList(value));
       i += 2;
     }    
