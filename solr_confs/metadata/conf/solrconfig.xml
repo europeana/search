@@ -1331,9 +1331,9 @@
 <updateRequestProcessorChain name="files-update-processor" processor="remove-blank,field-name-mutating,default-timestamp-update,truncate-string,
 clone-fields-title, clone-fields-description, clone-fields-creator, clone-fields-creatorProfession, clone-fields-objectType, clone-fields-subject, 
 clone-fields-format, clone-fields-medium, clone-fields-created, clone-fields-issued, clone-fields-temporalCoverage, clone-fields-providingCountry, 
-clone-fields-currentLocation, clone-fields-spatialCoverage, clone-fields-dataProvider, clone-fields-provider, clone-fields-metadataText_lang,
-clone-fields-metadataText_contentCategory, remove-duplicates-lang, remove-duplicates-id, clone-fields-titlePlus, clone-fields-who, clone-fields-what, 
-clone-fields-where, clone-fields-when,clone-fields-metadataText,remove-duplicates">
+clone-fields-currentLocation, clone-fields-spatialCoverage, clone-fields-dataProvider, clone-fields-provider, 
+clone-fields-metadataText_contentCategory, clone-fields-titlePlus, clone-fields-who, clone-fields-what, 
+clone-fields-where, clone-fields-when,remove-duplicates-lang, remove-duplicates-id,clone-fields-metadataText_lang,clone-fields-metadataText,remove-duplicates">
     <processor class="solr.LogUpdateProcessorFactory"/>
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>
