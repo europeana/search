@@ -473,7 +473,8 @@
         <dynamicField name="*_lang_undef" type="text_general" indexed="true" stored="true" multiValued="true"/>
         <!--  used for language tagged contents in other non-official or supported languages of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
         <dynamicField name="*_lang_other" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <!--  used for language tagged contents in official or supported languages of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
+
+        <!--  used for language tagged contents in official or supported languages of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider -->        
         <dynamicField name="*_lang_en" type="text_en" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="*_lang_nl" type="text_nl" indexed="true" stored="true" multiValued="true"/>
         <dynamicField name="*_lang_fr" type="text_fr" indexed="true" stored="true" multiValued="true"/>
@@ -499,6 +500,36 @@
         <dynamicField name="*_lang_mt" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Maltese not supported -->
         <dynamicField name="*_lang_et" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Estonian not supported in this version-->
         <dynamicField name="*_lang_eu" type="text_eu" indexed="true" stored="true" multiValued="true"/> <!-- Basque: only if possible --> 
+
+        <!--  metadataText fields are not stored -we are not going to used them for highlighting- -->
+        <field name="metadata_lang_undef" type="text_en" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_other" type="text_en" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_en" type="text_en" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_nl" type="text_nl" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_fr" type="text_fr" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_de" type="text_de" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_es" type="text_es" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_sv" type="text_sv" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_it" type="text_it" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_fi" type="text_fi" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_da" type="text_da" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_el" type="text_el" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_cs" type="text_cs" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_sk" type="text_sk" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_sl" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Slovenian not supported -->
+        <field name="metadata_lang_pt" type="text_pt" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_hu" type="text_hu" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_lt" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Lithuanian not supported -->
+        <field name="metadata_lang_pl" type="text_pl" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_ro" type="text_ro" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_bg" type="text_bg" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_hr" type="text_stokavian" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_lv" type="text_lv" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_ga" type="text_ga" indexed="true" stored="false" multiValued="true"/>
+        <field name="metadata_lang_mt" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Maltese not supported -->
+        <field name="metadata_lang_et" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Estonian not supported in this version-->
+        <field name="metadata_lang_eu" type="text_eu" indexed="true" stored="false" multiValued="true"/> <!-- Basque: only if possible --> 
+        
     </fields>
 
     <uniqueKey>id</uniqueKey>
