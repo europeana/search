@@ -1142,66 +1142,33 @@
     <str name="typeClass">solr.StrField</str>
     <int name="maxLength">8000</int>
   </updateProcessor>
-  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadatatext">
-    <arr name="source"> <!-- mmarrero: we might consider including the name of the language of metadata and maybe content -->
-         <str>title</str>
-         <str>description</str>
-         <str>creator</str>
-         <str>creatorProfession</str>
-         <str>objectType</str>
-         <str>subject</str>
-         <str>format</str>
-         <str>medium</str>
-         <str>created</str>
-         <str>issued</str>
-         <str>temporalCoverage</str>
-         <str>providingCountry</str>
-         <str>currentLocation</str>
-         <str>spatialCoverage</str>
-         <str>contentCategory</str>
-         <str>dataProvider</str>
-         <str>provider</str>
-    </arr>
-       <str name="dest">metadataText</str>     
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText">
+    	<str name="pattern">^(title|description|creator|creatorProfession|objectType|subject|format|medium|created|issued|temporalCoverage|providingCountry|currentLocation|spatialCoverage|dataProvider|provider)_lang_(.*)$</str>
+    	<str name="replacement">metadataText_lang_$1</str>     
   </updateProcessor>
-    <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-titlePlus">
-     <lst name="source">
-         <str name="fieldRegex">title_lang_*</str>
-         <str name="fieldRegex">description_lang_*</str>
-       </lst>
-       <str name="dest">titlePlus</str>   
+  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText_contentCategory">
+       <str name="source">contentCategory</str>
+       <str name="dest">metadataText_lang_en</str>
+  </processor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-titlePlus">
+  	<str name="pattern">^(title|description)_lang_(.*)$</str>
+    <str name="replacement">titlePlus_lang_$1</str>
   </updateProcessor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-who">
-     <lst name="source">
-         <str name="fieldRegex">creator_lang_*</str>
-         <str name="fieldRegex">creatorProfession_lang_*</str>
-       </lst>
-       <str name="dest">who</str>   
+  	<str name="pattern">^(creator|creatorProfession)_lang_(.*)$</str>
+    <str name="replacement">who_lang_$1</str>     
   </updateProcessor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-what">
-     <lst name="source">
-         <str name="fieldRegex">objectType_lang_*</str>
-         <str name="fieldRegex">subject_lang_*</str>
-         <str name="fieldRegex">format_lang_*</str>
-         <str name="fieldRegex">medium_lang_*</str>
-       </lst>
-       <str name="dest">what</str>   
+    	<str name="pattern">^(objectType|subject|format|medium)_lang_(.*)$</str>
+    	<str name="replacement">what_lang_$1</str>   
   </updateProcessor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-when">
-     <lst name="source">
-         <str name="fieldRegex">created_lang_*</str>
-         <str name="fieldRegex">issued_lang_*</str>
-         <str name="fieldRegex">temporalCoverage_lang_*</str>
-       </lst>
-       <str name="dest">when</str>   
+  	<str name="pattern">^(created|issued|temporalCoverage)_lang_(.*)$</str>
+    <str name="replacement">when_lang_$1</str>   
   </updateProcessor>
     <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-where">
-     <lst name="source">
-         <str name="fieldRegex">providingCountry_lang_*</str>
-         <str name="fieldRegex">currentLocation_lang_*</str>
-         <str name="fieldRegex">spatialCoverage_lang_*</str>
-       </lst>
-       <str name="dest">where</str>   
+      	<str name="pattern">^(providingCountry|currentLocation|spatialCoverage)_lang_(.*)$</str>
+    	<str name="replacement">where_lang_$1</str>
   </updateProcessor>
   
   
@@ -1272,7 +1239,7 @@
   </updateRequestProcessorChain>
 -->
   <!-- mmarrero: custom processor -->
-<updateRequestProcessorChain name="files-update-processor" processor="remove-blank,field-name-mutating,default-timestamp-update,truncate-string,clone-fields-metadatatext, clone-fields-metadatatext-id,remove-duplicates">
+<updateRequestProcessorChain name="files-update-processor" processor="remove-blank,field-name-mutating,default-timestamp-update,truncate-string,clone-fields-metadataText,clone-fields-metadataText_contentCategory, clone-fields-titlePlus, clone-fields-who, clone-fields-what, clone-fields-where, clone-fields-when,remove-duplicates">
     <processor class="solr.LogUpdateProcessorFactory"/>
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>
