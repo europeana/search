@@ -867,17 +867,42 @@
       <int name="rows">10</int>
        <str name="q.op">AND</str>
        <str name="defType">edismax</str>
-       <str name="qf">title^5 creator description subject metadataText</str> <!-- replaces df -->
+       <str name="qf">metadataText_lang_undef metadataText_lang_other metadataText_lang_en metadataText_lang_nl metadataText_lang_fr metadataText_lang_de metadataText_lang_es metadataText_lang_sv metadataText_lang_it metadataText_lang_fi metadataText_lang_da metadataText_lang_da metadataText_lang_el metadataText_lang_cs metadataText_lang_sk metadataText_lang_sl metadataText_lang_pt metadataText_lang_hu metadataText_lang_lt metadataText_lang_pl metadataText_lang_ro metadataText_lang_bg metadataText_lang_hr metadataText_lang_lv metadataText_lang_ga metadataText_lang_mt metadataText_lang_et metadataText_lang_eu</str> <!-- replaces df -->
        <str name="tie">0.1</str>
-        <str name="f.titlePlus.qf">title description</str>
-        <str name="f.who.qf">creator creatorProfession</str>
+       <!-- mmarrero: test if general search can be done using language specific normalization, if performance is bad, then use fields with standard normalization -->
+       <str name="f.title.qf">title_lang_undef title_lang_other title_lang_en title_lang_nl title_lang_fr title_lang_de title_lang_es title_lang_sv title_lang_it title_lang_fi title_lang_da title_lang_da title_lang_el title_lang_cs title_lang_sk title_lang_sl title_lang_pt title_lang_hu title_lang_lt title_lang_pl title_lang_ro title_lang_bg title_lang_hr title_lang_lv title_lang_ga title_lang_mt title_lang_et title_lang_eu</str>
+        <str name="f.description.qf">description_lang_undef description_lang_other description_lang_en description_lang_nl description_lang_fr description_lang_de description_lang_es description_lang_sv description_lang_it description_lang_fi description_lang_da description_lang_da description_lang_el description_lang_cs description_lang_sk description_lang_sl description_lang_pt description_lang_hu description_lang_lt description_lang_pl description_lang_ro description_lang_bg description_lang_hr description_lang_lv description_lang_ga description_lang_mt description_lang_et description_lang_eu</str>
+         <str name="f.titlePlus.qf">titlePlus_lang_undef titlePlus_lang_other titlePlus_lang_en titlePlus_lang_nl titlePlus_lang_fr titlePlus_lang_de titlePlus_lang_es titlePlus_lang_sv titlePlus_lang_it titlePlus_lang_fi titlePlus_lang_da titlePlus_lang_da titlePlus_lang_el titlePlus_lang_cs titlePlus_lang_sk titlePlus_lang_sl titlePlus_lang_pt titlePlus_lang_hu titlePlus_lang_lt titlePlus_lang_pl titlePlus_lang_ro titlePlus_lang_bg titlePlus_lang_hr titlePlus_lang_lv titlePlus_lang_ga titlePlus_lang_mt titlePlus_lang_et titlePlus_lang_eu</str>
+
+        <str name="f.creator.qf">creator_lang_undef creator_lang_other creator_lang_en creator_lang_nl creator_lang_fr creator_lang_de creator_lang_es creator_lang_sv creator_lang_it creator_lang_fi creator_lang_da creator_lang_da creator_lang_el creator_lang_cs creator_lang_sk creator_lang_sl creator_lang_pt creator_lang_hu creator_lang_lt creator_lang_pl creator_lang_ro creator_lang_bg creator_lang_hr creator_lang_lv creator_lang_ga creator_lang_mt creator_lang_et creator_lang_eu</str>
+        <str name="f.creatorProfession.qf">creatorProfession_lang_undef creatorProfession_lang_other creatorProfession_lang_en creatorProfession_lang_nl creatorProfession_lang_fr creatorProfession_lang_de creatorProfession_lang_es creatorProfession_lang_sv creatorProfession_lang_it creatorProfession_lang_fi creatorProfession_lang_da creatorProfession_lang_da creatorProfession_lang_el creatorProfession_lang_cs creatorProfession_lang_sk creatorProfession_lang_sl creatorProfession_lang_pt creatorProfession_lang_hu creatorProfession_lang_lt creatorProfession_lang_pl creatorProfession_lang_ro creatorProfession_lang_bg creatorProfession_lang_hr creatorProfession_lang_lv creatorProfession_lang_ga creatorProfession_lang_mt creatorProfession_lang_et creatorProfession_lang_eu</str>
+         <str name="f.who.qf">who_lang_undef who_lang_other who_lang_en who_lang_nl who_lang_fr who_lang_de who_lang_es who_lang_sv who_lang_it who_lang_fi who_lang_da who_lang_da who_lang_el who_lang_cs who_lang_sk who_lang_sl who_lang_pt who_lang_hu who_lang_lt who_lang_pl who_lang_ro who_lang_bg who_lang_hr who_lang_lv who_lang_ga who_lang_mt who_lang_et who_lang_eu</str>
         <str name="f.who_id.qf">creator_id creatorProfession_id</str>
-        <str name="f.what.qf">objectType subject medium format</str>
+        
+        <str name="f.objectType.qf">objectType_lang_undef objectType_lang_other objectType_lang_en objectType_lang_nl objectType_lang_fr objectType_lang_de objectType_lang_es objectType_lang_sv objectType_lang_it objectType_lang_fi objectType_lang_da objectType_lang_da objectType_lang_el objectType_lang_cs objectType_lang_sk objectType_lang_sl objectType_lang_pt objectType_lang_hu objectType_lang_lt objectType_lang_pl objectType_lang_ro objectType_lang_bg objectType_lang_hr objectType_lang_lv objectType_lang_ga objectType_lang_mt objectType_lang_et objectType_lang_eu</str>
+        <str name="f.subject.qf">subject_lang_undef subject_lang_other subject_lang_en subject_lang_nl subject_lang_fr subject_lang_de subject_lang_es subject_lang_sv subject_lang_it subject_lang_fi subject_lang_da subject_lang_da subject_lang_el subject_lang_cs subject_lang_sk subject_lang_sl subject_lang_pt subject_lang_hu subject_lang_lt subject_lang_pl subject_lang_ro subject_lang_bg subject_lang_hr subject_lang_lv subject_lang_ga subject_lang_mt subject_lang_et subject_lang_eu</str>
+        <str name="f.format.qf">format_lang_undef format_lang_other format_lang_en format_lang_nl format_lang_fr format_lang_de format_lang_es format_lang_sv format_lang_it format_lang_fi format_lang_da format_lang_da format_lang_el format_lang_cs format_lang_sk format_lang_sl format_lang_pt format_lang_hu format_lang_lt format_lang_pl format_lang_ro format_lang_bg format_lang_hr format_lang_lv format_lang_ga format_lang_mt format_lang_et format_lang_eu</str>
+        <str name="f.medium.qf">medium_lang_undef medium_lang_other medium_lang_en medium_lang_nl medium_lang_fr medium_lang_de medium_lang_es medium_lang_sv medium_lang_it medium_lang_fi medium_lang_da medium_lang_da medium_lang_el medium_lang_cs medium_lang_sk medium_lang_sl medium_lang_pt medium_lang_hu medium_lang_lt medium_lang_pl medium_lang_ro medium_lang_bg medium_lang_hr medium_lang_lv medium_lang_ga medium_lang_mt medium_lang_et medium_lang_eu</str>
+        <str name="f.what.qf">what_lang_undef what_lang_other what_lang_en what_lang_nl what_lang_fr what_lang_de what_lang_es what_lang_sv what_lang_it what_lang_fi what_lang_da what_lang_da what_lang_el what_lang_cs what_lang_sk what_lang_sl what_lang_pt what_lang_hu what_lang_lt what_lang_pl what_lang_ro what_lang_bg what_lang_hr what_lang_lv what_lang_ga what_lang_mt what_lang_et what_lang_eu</str>
         <str name="f.what_id.qf">objectType_id subject_id medium_id format_id</str>
-        <str name="f.when.qf">created issued temporalCoverage</str>
+        
+        <str name="f.created.qf">created_lang_undef created_lang_other created_lang_en created_lang_nl created_lang_fr created_lang_de created_lang_es created_lang_sv created_lang_it created_lang_fi created_lang_da created_lang_da created_lang_el created_lang_cs created_lang_sk created_lang_sl created_lang_pt created_lang_hu created_lang_lt created_lang_pl created_lang_ro created_lang_bg created_lang_hr created_lang_lv created_lang_ga created_lang_mt created_lang_et created_lang_eu</str>
+        <str name="f.issued.qf">issued_lang_undef issued_lang_other issued_lang_en issued_lang_nl issued_lang_fr issued_lang_de issued_lang_es issued_lang_sv issued_lang_it issued_lang_fi issued_lang_da issued_lang_da issued_lang_el issued_lang_cs issued_lang_sk issued_lang_sl issued_lang_pt issued_lang_hu issued_lang_lt issued_lang_pl issued_lang_ro issued_lang_bg issued_lang_hr issued_lang_lv issued_lang_ga issued_lang_mt issued_lang_et issued_lang_eu</str>
+        <str name="f.temporalCoverage.qf">temporalCoverage_lang_undef temporalCoverage_lang_other temporalCoverage_lang_en temporalCoverage_lang_nl temporalCoverage_lang_fr temporalCoverage_lang_de temporalCoverage_lang_es temporalCoverage_lang_sv temporalCoverage_lang_it temporalCoverage_lang_fi temporalCoverage_lang_da temporalCoverage_lang_da temporalCoverage_lang_el temporalCoverage_lang_cs temporalCoverage_lang_sk temporalCoverage_lang_sl temporalCoverage_lang_pt temporalCoverage_lang_hu temporalCoverage_lang_lt temporalCoverage_lang_pl temporalCoverage_lang_ro temporalCoverage_lang_bg temporalCoverage_lang_hr temporalCoverage_lang_lv temporalCoverage_lang_ga temporalCoverage_lang_mt temporalCoverage_lang_et temporalCoverage_lang_eu</str>
+        <str name="f.when.qf">when_lang_undef when_lang_other when_lang_en when_lang_nl when_lang_fr when_lang_de when_lang_es when_lang_sv when_lang_it when_lang_fi when_lang_da when_lang_da when_lang_el when_lang_cs when_lang_sk when_lang_sl when_lang_pt when_lang_hu when_lang_lt when_lang_pl when_lang_ro when_lang_bg when_lang_hr when_lang_lv when_lang_ga when_lang_mt when_lang_et when_lang_eu</str>
         <str name="f.when_id.qf">created_id issued_id temporalCoverage_id</str>
-        <str name="f.where.qf">providingCountry currentLocation spatialCoverage</str>
+        
+		<str name="f.providingCountry.qf">providingCountry_lang_undef providingCountry_lang_other providingCountry_lang_en providingCountry_lang_nl providingCountry_lang_fr providingCountry_lang_de providingCountry_lang_es providingCountry_lang_sv providingCountry_lang_it providingCountry_lang_fi providingCountry_lang_da providingCountry_lang_da providingCountry_lang_el providingCountry_lang_cs providingCountry_lang_sk providingCountry_lang_sl providingCountry_lang_pt providingCountry_lang_hu providingCountry_lang_lt providingCountry_lang_pl providingCountry_lang_ro providingCountry_lang_bg providingCountry_lang_hr providingCountry_lang_lv providingCountry_lang_ga providingCountry_lang_mt providingCountry_lang_et providingCountry_lang_eu</str>        
+        <str name="f.currentLocation.qf">currentLocation_lang_undef currentLocation_lang_other currentLocation_lang_en currentLocation_lang_nl currentLocation_lang_fr currentLocation_lang_de currentLocation_lang_es currentLocation_lang_sv currentLocation_lang_it currentLocation_lang_fi currentLocation_lang_da currentLocation_lang_da currentLocation_lang_el currentLocation_lang_cs currentLocation_lang_sk currentLocation_lang_sl currentLocation_lang_pt currentLocation_lang_hu currentLocation_lang_lt currentLocation_lang_pl currentLocation_lang_ro currentLocation_lang_bg currentLocation_lang_hr currentLocation_lang_lv currentLocation_lang_ga currentLocation_lang_mt currentLocation_lang_et currentLocation_lang_eu</str>
+		<str name="f.spatialCoverage.qf">spatialCoverage_lang_undef spatialCoverage_lang_other spatialCoverage_lang_en spatialCoverage_lang_nl spatialCoverage_lang_fr spatialCoverage_lang_de spatialCoverage_lang_es spatialCoverage_lang_sv spatialCoverage_lang_it spatialCoverage_lang_fi spatialCoverage_lang_da spatialCoverage_lang_da spatialCoverage_lang_el spatialCoverage_lang_cs spatialCoverage_lang_sk spatialCoverage_lang_sl spatialCoverage_lang_pt spatialCoverage_lang_hu spatialCoverage_lang_lt spatialCoverage_lang_pl spatialCoverage_lang_ro spatialCoverage_lang_bg spatialCoverage_lang_hr spatialCoverage_lang_lv spatialCoverage_lang_ga spatialCoverage_lang_mt spatialCoverage_lang_et spatialCoverage_lang_eu</str>        
+        <str name="f.where.qf">where_lang_undef where_lang_other where_lang_en where_lang_nl where_lang_fr where_lang_de where_lang_es where_lang_sv where_lang_it where_lang_fi where_lang_da where_lang_da where_lang_el where_lang_cs where_lang_sk where_lang_sl where_lang_pt where_lang_hu where_lang_lt where_lang_pl where_lang_ro where_lang_bg where_lang_hr where_lang_lv where_lang_ga where_lang_mt where_lang_et where_lang_eu</str>
         <str name="f.where_id.qf">providingCountry_id currentLocation_id spatialCoverage_id</str>
+        
+        <str name="f.dataProvider.qf">dataProvider_lang_undef dataProvider_lang_other dataProvider_lang_en dataProvider_lang_nl dataProvider_lang_fr dataProvider_lang_de dataProvider_lang_es dataProvider_lang_sv dataProvider_lang_it dataProvider_lang_fi dataProvider_lang_da dataProvider_lang_da dataProvider_lang_el dataProvider_lang_cs dataProvider_lang_sk dataProvider_lang_sl dataProvider_lang_pt dataProvider_lang_hu dataProvider_lang_lt dataProvider_lang_pl dataProvider_lang_ro dataProvider_lang_bg dataProvider_lang_hr dataProvider_lang_lv dataProvider_lang_ga dataProvider_lang_mt dataProvider_lang_et dataProvider_lang_eu</str>
+        <str name="f.provider.qf">provider_lang_undef provider_lang_other provider_lang_en provider_lang_nl provider_lang_fr provider_lang_de provider_lang_es provider_lang_sv provider_lang_it provider_lang_fi provider_lang_da provider_lang_da provider_lang_el provider_lang_cs provider_lang_sk provider_lang_sl provider_lang_pt provider_lang_hu provider_lang_lt provider_lang_pl provider_lang_ro provider_lang_bg provider_lang_hr provider_lang_lv provider_lang_ga provider_lang_mt provider_lang_et provider_lang_eu</str>
+        
+        <str name="f.metadataText.qf">metadataText_lang_undef metadataText_lang_other metadataText_lang_en metadataText_lang_nl metadataText_lang_fr metadataText_lang_de metadataText_lang_es metadataText_lang_sv metadataText_lang_it metadataText_lang_fi metadataText_lang_da metadataText_lang_da metadataText_lang_el metadataText_lang_cs metadataText_lang_sk metadataText_lang_sl metadataText_lang_pt metadataText_lang_hu metadataText_lang_lt metadataText_lang_pl metadataText_lang_ro metadataText_lang_bg metadataText_lang_hr metadataText_lang_lv metadataText_lang_ga metadataText_lang_mt metadataText_lang_et metadataText_lang_eu</str>
+        <str name="f.metadataText_id.qf">creator_id creatorProfession_id objectType_id subject_id medium_id format_id created_id issued_id temporalCoverage_id providingCountry_id currentLocation_id spatialCoverage_id provider_id dataProvider_id</str>
     </lst>
        <arr name="last-components">  
            <str>elevator</str>  
@@ -1139,7 +1164,49 @@
     </arr>
        <str name="dest">metadataText</str>     
   </updateProcessor>
-  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadatatext-id">
+    <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-titlePlus">
+     <lst name="source">
+         <str name="fieldRegex">title_lang_*</str>
+         <str name="fieldRegex">description_lang_*</str>
+       </lst>
+       <str name="dest">titlePlus</str>   
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-who">
+     <lst name="source">
+         <str name="fieldRegex">creator_lang_*</str>
+         <str name="fieldRegex">creatorProfession_lang_*</str>
+       </lst>
+       <str name="dest">who</str>   
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-what">
+     <lst name="source">
+         <str name="fieldRegex">objectType_lang_*</str>
+         <str name="fieldRegex">subject_lang_*</str>
+         <str name="fieldRegex">format_lang_*</str>
+         <str name="fieldRegex">medium_lang_*</str>
+       </lst>
+       <str name="dest">what</str>   
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-when">
+     <lst name="source">
+         <str name="fieldRegex">created_lang_*</str>
+         <str name="fieldRegex">issued_lang_*</str>
+         <str name="fieldRegex">temporalCoverage_lang_*</str>
+       </lst>
+       <str name="dest">when</str>   
+  </updateProcessor>
+    <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-where">
+     <lst name="source">
+         <str name="fieldRegex">providingCountry_lang_*</str>
+         <str name="fieldRegex">currentLocation_lang_*</str>
+         <str name="fieldRegex">spatialCoverage_lang_*</str>
+       </lst>
+       <str name="dest">where</str>   
+  </updateProcessor>
+  
+  
+ <!--  
+ <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadatatext-id">
     <arr name="source">
          <str>creator_id</str>
          <str>creatorProfession_id</str>
@@ -1158,6 +1225,7 @@
     </arr>
        <str name="dest">metadataText_id</str>     
   </updateProcessor>
+   -->
   <updateProcessor class="org.apache.solr.update.processor.UniqFieldsUpdateProcessorFactory" name="remove-duplicates">
      <arr name="fieldName">
          <str>pid</str> <!-- TODO: check if multivalued -->

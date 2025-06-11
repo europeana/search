@@ -70,6 +70,7 @@
         <fieldType name="random" class="solr.RandomSortField"/>
         <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
             <analyzer type="index">
+            	<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
                 <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
                 <filter class="solr.FlattenGraphFilterFactory"/>
@@ -77,12 +78,15 @@
                 <filter class="solr.ASCIIFoldingFilterFactory"/>
             </analyzer>
             <analyzer type="query">
+            	<charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
                 <tokenizer class="solr.WhitespaceTokenizerFactory" />
                 <filter class="solr.WordDelimiterGraphFilterFactory" splitOnNumerics="0"/>
                 <filter class="solr.LowerCaseFilterFactory" />
                 <filter class="solr.ASCIIFoldingFilterFactory"/>   
             </analyzer>
         </fieldType>
+        
+        
         <fieldType name="snippet_text" class="solr.TextField"/>
         <!--  Enum -->
         <fieldType name="contentTier" class="solr.EnumFieldType" enumsConfig="enumsConfig.xml" enumName="content_tier"/>
@@ -91,6 +95,294 @@
         <fieldType name="coordinates" class="solr.LatLonPointSpatialField"/>
         <!--  Date support -->
         <fieldType name="daterange" class="solr.DateRangeField" omitNorms="true"/>
+        
+        <!-- Full text field types: non specific types for Estonian (et), Slovenian (sl), Lithuanian (lt), Maltese (hr) -->
+
+        <!-- Slovak: config and stopwords taken from https://jira.xwiki.org/browse/XWIKI-12265 removing ASCIIFolding filter (stemmer seems to be enough)-->
+        <fieldType name="text_sk" class="solr.TextField" positionIncrementGap="100">
+            <analyzer>
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> --> 
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_sk.txt" />
+                <filter class="solr.CzechStemFilterFactory"/>
+            </analyzer>
+        </fieldType>
+        
+        <!-- Serbian, Croatian and Bosnian languages, which are dialects, are normalized as serbian as there is no normalizers for Croatian and Bosnian-->
+        <fieldType name="text_stokavian" class="solr.TextField" positionIncrementGap="100">
+            <analyzer>
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.SerbianNormalizationFilterFactory" haircut="bald"/>
+            </analyzer>
+        </fieldType>
+
+        <!-- Bulgarian -->
+        <fieldType name="text_bg" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/> 
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_bg.txt" /> 
+                <filter class="solr.BulgarianStemFilterFactory"/>       
+            </analyzer>
+        </fieldType>
+  
+        <!-- Czech -->
+        <fieldType name="text_cs" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_cz.txt" />
+                <filter class="solr.CzechStemFilterFactory"/>       
+            </analyzer>
+        </fieldType>
+        
+        <!-- Danish -->
+        <fieldType name="text_da" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_da.txt" format="snowball" />
+                <filter class="solr.SnowballPorterFilterFactory" language="Danish"/>       
+            </analyzer>
+        </fieldType>
+        
+        <!-- German -->
+        <fieldType name="text_de" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_de.txt" format="snowball" />
+                <filter class="solr.GermanNormalizationFilterFactory"/>
+                <!--  <filter class="solr.GermanLightStemFilterFactory"/>
+                less aggressive: <filter class="solr.GermanMinimalStemFilterFactory"/> -->
+                <filter class="solr.SnowballPorterFilterFactory" language="German2"/>
+            </analyzer>
+        </fieldType>
+        
+        <!-- Greek -->
+        <fieldType name="text_el" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <!-- greek specific lowercase for sigma -->
+                <filter class="solr.GreekLowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="false" words="lang/stopwords_el.txt" />
+                <filter class="solr.GreekStemFilterFactory"/>
+            </analyzer>
+        </fieldType>
+
+        <!-- English -->
+        <fieldType name="text_en" class="solr.TextField" positionIncrementGap="100">
+            <analyzer>
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory" />
+                <filter class="solr.LowerCaseFilterFactory" />
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_en.txt"/>
+                <filter class="solr.PorterStemFilterFactory"/>
+            </analyzer>
+        </fieldType>
+        
+        <!-- Spanish -->
+        <fieldType name="text_es" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_es.txt" format="snowball" />
+                <!-- <filter class="solr.SpanishLightStemFilterFactory"/> -->
+                <filter class="solr.SnowballPorterFilterFactory" language="Spanish"/>
+            </analyzer>
+        </fieldType>
+        
+<!-- TODO: not supported in this version of Solr. Supported in 8 -->      
+<!--         Estonian -->
+<!--         <fieldType name="text_et" class="solr.TextField" positionIncrementGap="100"> -->
+<!--         	<analyzer> -->
+<!--             	<tokenizer class="solr.StandardTokenizerFactory"/> -->
+<!--           		<filter class="solr.LowerCaseFilterFactory" /> -->
+<!--            		<filter class="solr.SnowballPorterFilterFactory" language="Estonian"/> -->
+<!--         	</analyzer> -->
+<!--       	</fieldType> -->
+        
+        <!-- Basque -->
+        <fieldType name="text_eu" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_eu.txt" />
+                <filter class="solr.SnowballPorterFilterFactory" language="Basque"/>
+            </analyzer>
+        </fieldType>
+        
+        <!-- Finnish -->
+        <fieldType name="text_fi" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_fi.txt" format="snowball" />
+                <filter class="solr.SnowballPorterFilterFactory" language="Finnish"/>
+                <!-- less aggressive: <filter class="solr.FinnishLightStemFilterFactory"/> -->
+            </analyzer>
+        </fieldType>
+        
+        <!-- French -->
+        <fieldType name="text_fr" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <!-- removes l', etc -->
+                <filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_fr.txt"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_fr.txt" format="snowball" />
+                <!--<filter class="solr.FrenchLightStemFilterFactory"/>
+                less aggressive: <filter class="solr.FrenchMinimalStemFilterFactory"/> -->
+                <filter class="solr.SnowballPorterFilterFactory" language="French"/>
+            </analyzer>
+        </fieldType>
+        
+        <!-- Hungarian -->
+        <fieldType name="text_hu" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_hu.txt" format="snowball" />
+                <filter class="solr.SnowballPorterFilterFactory" language="Hungarian"/>
+                <!-- less aggressive: <filter class="solr.HungarianLightStemFilterFactory"/> -->   
+            </analyzer>
+        </fieldType>
+        
+        <!-- Irish -->
+        <fieldType name="text_ga" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <!-- removes d', etc -->
+                <filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_ga.txt"/>
+                <!-- removes n-, etc. position increments is intentionally false! -->
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/hyphenations_ga.txt"/>
+                <filter class="solr.IrishLowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_ga.txt"/>
+                <filter class="solr.SnowballPorterFilterFactory" language="Irish"/>
+            </analyzer>
+        </fieldType>
+       
+        <!-- Italian -->
+      <fieldType name="text_it" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <!-- removes l', etc -->
+                <filter class="solr.ElisionFilterFactory" ignoreCase="true" articles="lang/contractions_it.txt"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_it.txt" format="snowball" />
+                <!-- <filter class="solr.ItalianLightStemFilterFactory"/> -->
+                <filter class="solr.SnowballPorterFilterFactory" language="Italian"/>
+            </analyzer>
+        </fieldType>
+        
+        <!-- Latvian -->
+        <fieldType name="text_lv" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_lv.txt" />
+                <filter class="solr.LatvianStemFilterFactory"/>
+            </analyzer>
+        </fieldType>
+        
+        <!-- Dutch -->
+        <fieldType name="text_nl" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_nl.txt" format="snowball" />
+                <filter class="solr.StemmerOverrideFilterFactory" dictionary="lang/stemdict_nl.txt" ignoreCase="false"/>
+                <filter class="solr.SnowballPorterFilterFactory" language="Dutch"/>
+            </analyzer>
+        </fieldType>
+               
+        <!-- Polish -->
+        <fieldType name="text_pl" class="solr.TextField" positionIncrementGap="100">
+            <analyzer>
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="tel_stopwords/stopwords_pol.txt" format="snowball" />
+                <filter class="solr.StempelPolishStemFilterFactory"/>
+            </analyzer>
+        </fieldType>
+
+        <!-- Portuguese -->
+      <fieldType name="text_pt" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_pt.txt" format="snowball" />
+                <!-- <filter class="solr.PortugueseLightStemFilterFactory"/>
+                less aggressive: <filter class="solr.PortugueseMinimalStemFilterFactory"/> -->
+                <filter class="solr.SnowballPorterFilterFactory" language="Portuguese"/>
+                <!-- most aggressive: <filter class="solr.PortugueseStemFilterFactory"/> -->
+            </analyzer>
+        </fieldType>
+        
+        <!-- Romanian -->
+        <fieldType name="text_ro" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_ro.txt" />
+                <filter class="solr.SnowballPorterFilterFactory" language="Romanian"/>
+            </analyzer>
+        </fieldType>
+               
+        <!-- Swedish -->
+        <fieldType name="text_sv" class="solr.TextField" positionIncrementGap="100">
+            <analyzer> 
+                <!-- <charFilter class="solr.HTMLStripCharFilterFactory" /> -->
+                <charFilter class="solr.PatternReplaceCharFilterFactory" pattern="\{http.+\}" replacement=""/> <!--  necessary for fulltext highlighting -->
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="lang/stopwords_sv.txt" format="snowball" />
+                <filter class="solr.SnowballPorterFilterFactory" language="Swedish"/>
+                <!-- less aggressive: <filter class="solr.SwedishLightStemFilterFactory"/> -->
+            </analyzer>
+        </fieldType>
+        
+
     </types>
 
     <fields>
@@ -99,32 +391,21 @@
         <field name="pid" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         
         <!-- Title and description -->
-        <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="title_sort" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
-        <field name="description" type="text_general" indexed="true" stored="true" multiValued="true"/>
+<!--         <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="description" type="text_general" indexed="true" stored="false" multiValued="true"/>  -->
 
         <!-- Authorities -->
-        <field name="creator" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="creator_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="creator_sort" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
-        <field name="creatorProfession" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="creatorProfession_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="objectType" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="objectType_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+<!--        <field name="creator" type="text_general" indexed="true" stored="true" multiValued="true"/>  
+        <field name="creatorProfession" type="text_general" indexed="true" stored="true" multiValued="true"/> 
+        <field name="objectType" type="text_general" indexed="true" stored="true" multiValued="true"/> 
         <field name="subject" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="subject_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <field name="format" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="format_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="medium" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="medium_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <field name="medium" type="text_general" indexed="true" stored="true" multiValued="true"/> -->
 
         <!-- Time dimension. Textual fields -->
-        <field name="created" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="created_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+<!--        <field name="created" type="text_general" indexed="true" stored="true" multiValued="true"/>
         <field name="issued" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="issued_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="temporalCoverage" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="temporalCoverage_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <field name="temporalCoverage" type="text_general" indexed="false" stored="true" multiValued="true"/> -->
 
         <!-- Time dimension. Date fields -->
         <field name="created_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
@@ -141,12 +422,9 @@
         <field name="when_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
 
         <!-- Spatial dimension. Textual fields -->
-        <field name="providingCountry" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="providingCountry_id" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
+<!--        <field name="providingCountry" type="text_general" indexed="true" stored="true" multiValued="true"/>
         <field name="currentLocation" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="currentLocation_id" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
-        <field name="spatialCoverage" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="spatialCoverage_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <field name="spatialCoverage" type="text_general" indexed="true" stored="true" multiValued="true"/> -->
 
         <!-- Spatial dimension. Geo fields -->
         <field name="currentLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/> <!-- TODO: check, shouldn't it be single value? -->
@@ -158,7 +436,7 @@
         <field name="contentLanguage" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
 
         <!-- Media content -->
-        <field name="mediaCategory" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
+        <field name="contentCategory" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
         <field name="filter_tags"  type="string" indexed="true" stored="false" multiValued="true"/>
         <field name="facet_tags" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <!-- See if this can be included in the snippet
@@ -166,16 +444,12 @@
         -->
 
         <!-- Provenance -->
-        <field name="dataProvider" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="dataProvider_id" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
-        <field name="dataProvider_sort" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
-        <field name="provider" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="provider_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-        <field name="provider_sort" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
+<!--        <field name="dataProvider" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="provider" type="text_general" indexed="true" stored="true" multiValued="true"/> -->
 
         <!-- General -->
-        <field name="metadataText" type="text_general" indexed="true" stored="false" multiValued="true"/>
-        <field name="metadataText_id" type="string" indexed="true" stored="false" multiValued="true"/>
+<!--        <field name="metadataText" type="text_general" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="metadataText_id" type="string" indexed="true" stored="false" multiValued="true" docValues="true"/> -->
         <dynamicField name="random_*" type="random"/>
         <field name="snippet" type="snippet_text" indexed="false" stored="true" multiValued="false"/> <!-- Test -->
 
@@ -183,11 +457,48 @@
         <field name="datasetId" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
         <field name="contentQuality" type="contentTier" indexed="true" stored="true" multiValued="false" docValues="true"/>
         <field name="metadataQuality" type="metadataTier" indexed="true" stored="true" multiValued="false" docValues="true"/>
+        <!--  timestamp_update, timestamp_update_source, timestamp_created -->
         <dynamicField name="timestamp_*" type="date" indexed="true" stored="true" multiValued="false" docValues="true"/>
 
         <!-- Technical -->
         <field name="timestamp" type="date" indexed="true" stored="true" default="NOW" multiValued="false" docValues="true"/>
         <field name="_version_" type="long" indexed="false" stored="false" docValues="true"/>
+        
+        <!-- Shared fields -->
+        <!--  used for sorting/faceting of title, creator, provider and data provider. Include also country for the moment -->
+        <dynamicField name="*_sort" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
+        <!--  used for URIs of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText --> 
+        <dynamicField name="*_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <!--  used for non language tagged values of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
+        <dynamicField name="*_lang_undef" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <!--  used for language tagged contents in other non-official or supported languages of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
+        <dynamicField name="*_lang_other" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <!--  used for language tagged contents in official or supported languages of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
+        <dynamicField name="*_lang_en" type="text_en" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_nl" type="text_nl" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_fr" type="text_fr" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_de" type="text_de" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_es" type="text_es" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_sv" type="text_sv" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_it" type="text_it" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_fi" type="text_fi" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_da" type="text_da" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_el" type="text_el" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_cs" type="text_cs" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_sk" type="text_sk" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_sl" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Slovenian not supported -->
+        <dynamicField name="*_lang_pt" type="text_pt" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_hu" type="text_hu" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_lt" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Lithuanian not supported -->
+        <dynamicField name="*_lang_pl" type="text_pl" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_ro" type="text_ro" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_bg" type="text_bg" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_hr" type="text_stokavian" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_lv" type="text_lv" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_ga" type="text_ga" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_mt" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Maltese not supported -->
+        <dynamicField name="*_lang_et" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Estonian not supported in this version-->
+        <dynamicField name="*_lang_eu" type="text_eu" indexed="true" stored="true" multiValued="true"/> <!-- Basque: only if possible --> 
     </fields>
 
     <uniqueKey>id</uniqueKey>
