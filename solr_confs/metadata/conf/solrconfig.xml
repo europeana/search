@@ -886,6 +886,8 @@
         <str name="f.where.qf">providingCountry currentLocation spatialCoverage</str>
         <str name="f.where_id.qf">providingCountry_id currentLocation_id spatialCoverage_id</str>
         
+        <str name="f.organization_id.qf">provider_id dataProvider_id</str>
+        
         <str name="f.metadataText_id.qf">creator_id creatorProfession_id objectType_id subject_id medium_id format_id created_id issued_id temporalCoverage_id providingCountry_id currentLocation_id spatialCoverage_id provider_id dataProvider_id</str>
     </lst>
        <arr name="last-components">  

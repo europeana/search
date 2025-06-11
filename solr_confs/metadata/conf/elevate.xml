@@ -12061,7 +12061,7 @@
     
     <!-- ENTITY BESTBETS: START -->
 
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/30&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/30&quot;">
     <doc id="/9200579/zezzwazj"/>
     <doc id="/2064107/Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_7310"/>
     <doc id="/2064107/Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_7114"/>
@@ -12089,26 +12089,26 @@
     <doc id="/2024904/https___www_topfoto_co_uk_asset_1823490"/>
     <doc id="/2022091/data_hope_5000083"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/113938&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/113938&quot;">
     <doc id="/2048401/item_ADCP4YLGDS7WMNDICFFV2EJPBORS6SNV"/>
     <doc id="/2048401/item_P6232O6QZRTS6HOPBOXOW6F3KBJWUWWE"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/2909&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/2909&quot;">
     <doc id="/2064138/Museu_ProvidedCHO_museum_digital_19437__technical_number_"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/2346&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/2346&quot;">
     <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/44&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/44&quot;">
     <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/2690&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/2690&quot;">
     <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1548&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/1548&quot;">
     <doc id="/463/item_YDTYIMKO6F7KESYBJHWLLHFKYL3HQEJR"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4550&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4550&quot;">
     <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_101918"/>
     <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_101927"/>
     <doc id="/2058401/_providedCHO_a009a551_c1bf_795f_5dd5_ca1466c43054"/>
@@ -12130,10 +12130,10 @@
     <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_100552"/>
     <doc id="/2021010/_oai_digi_kansalliskirjasto_fi_10042"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1863&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/1863&quot;">
     <doc id="/2024909/photography_ProvidedCHO_United_Archives___Carl_Simon_02404302"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4548&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4548&quot;">
     <doc id="/392/_vd678j83q"/>
     <doc id="/921/_qz216j82t"/>
     <doc id="/438/_cv442c75r"/>
@@ -12158,7 +12158,7 @@
     <doc id="/139/_g445rt87g"/>
     <doc id="/574/_0v83nn871"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4522&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4522&quot;">
     <doc id="/08631/1037479000000279003"/>
     <doc id="/08631/1037479000000334042"/>
     <doc id="/08631/1037479000000281029"/>
@@ -12184,7 +12184,7 @@
     <doc id="/08631/1037479000000281042"/>
     <doc id="/08631/1037479000000270003"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/3386&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/3386&quot;">
     <doc id="/08620/1037479000000093031"/>
     <doc id="/08620/1037479000000093043"/>
     <doc id="/08620/1037479000000180090"/>
@@ -12210,7 +12210,7 @@
     <doc id="/08620/1037479000000093007"/>
     <doc id="/08620/1037479000000180103"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4425&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4425&quot;">
     <doc id="/08622/IWM_191"/>
     <doc id="/08622/IWM_522"/>
     <doc id="/08622/IWM_479"/>
@@ -12236,7 +12236,7 @@
     <doc id="/08622/IWM_34"/>
     <doc id="/08622/IWM_487"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4355&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4355&quot;">
     <doc id="/08625/FILM00071002c_2"/>
     <doc id="/08625/FILM00066004c_6"/>
     <doc id="/08625/FILM00306277c_X"/>
@@ -12262,7 +12262,7 @@
     <doc id="/08625/FILM00072026c_9"/>
     <doc id="/08625/FILM00319092c_2"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4242&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4242&quot;">
     <doc id="/08614/cat23734"/>
     <doc id="/08614/poster10201"/>
     <doc id="/08614/poster7395"/>
@@ -12288,7 +12288,7 @@
     <doc id="/08614/cat15322"/>
     <doc id="/08614/cat11569"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4511&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4511&quot;">
     <doc id="/08617/1037479000000110003"/>
     <doc id="/08617/1037479000000195003"/>
     <doc id="/08617/1037479000000144016"/>
@@ -12314,7 +12314,7 @@
     <doc id="/08617/1037479000000096003"/>
     <doc id="/08617/1037479000000097017"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/3968&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/3968&quot;">
     <doc id="/08623/13738"/>
     <doc id="/08623/12780"/>
     <doc id="/08623/35767"/>
@@ -12340,7 +12340,7 @@
     <doc id="/08623/12487"/>
     <doc id="/08623/12788"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4533&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4533&quot;">
     <doc id="/08626/1037479000000107017"/>
     <doc id="/08626/1037479000000112045"/>
     <doc id="/08626/1037479000000112037"/>
@@ -12366,7 +12366,7 @@
     <doc id="/08626/1037479000000107037"/>
     <doc id="/08626/1037479000000137007"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/903&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/903&quot;">
     <doc id="/471/MFN6"/>
     <doc id="/471/BNF010000016"/>
     <doc id="/471/MFN2753"/>
@@ -12392,7 +12392,7 @@
     <doc id="/471/MFN2764"/>
     <doc id="/471/8884"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/476&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/476&quot;">
     <doc id="/819/V_544_3"/>
     <doc id="/819/V_542_3"/>
     <doc id="/819/V_544_4"/>
@@ -12418,7 +12418,7 @@
     <doc id="/819/V_394_2_3"/>
     <doc id="/819/V_394_2_4"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/2618&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/2618&quot;">
     <doc id="/2048359/providedCHO_4_ZHPB4_4_ZHPB4___11"/>
     <doc id="/2048359/providedCHO_4_WCA_4_WCA___11626"/>
     <doc id="/2048359/providedCHO_4_VTH_4_VTH___3803"/>
@@ -12442,7 +12442,7 @@
     <doc id="/2048359/providedCHO_4_ZHPB4_4_ZHPB4___38"/>
     <doc id="/2048359/providedCHO_4_ZHPB4_4_ZHPB4___98"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4373&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4373&quot;">
     <doc id="/794/ark__12148_btv1b7300348g"/>
     <doc id="/9200517/ark__12148_btv1b55008763x"/>
     <doc id="/9200518/ark__12148_btv1b90052187"/>
@@ -12468,10 +12468,10 @@
     <doc id="/9200521/ark__12148_btv1b55010750q"/>
     <doc id="/9200517/ark__12148_btv1b8469648d"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/60&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/60&quot;">
     <doc id="/08604/1ADB732C788B47F4B1DCACB34B647B73"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4254&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4254&quot;">
     <doc id="/08604/9CB38337B724494F9F6C105D069FFD32"/>
     <doc id="/08604/node_1663243"/>
     <doc id="/08604/node_1680988"/>
@@ -12497,10 +12497,10 @@
     <doc id="/08604/node_1680979"/>
     <doc id="/08604/CF95D3FEB0034CF2B9AEE150F0FF26F0"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/2691&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/2691&quot;">
     <doc id="/2048210/europeana_fashion_2007_6_0261"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4470&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4470&quot;">
     <doc id="/2048208/europeana_fashion_JDDEM_jaargang_17_18490101_001_jpg"/>
     <doc id="/2048208/europeana_fashion_FEM_jaargang_05_19051101_011_jpg"/>
     <doc id="/2048208/europeana_fashion_EXH734"/>
@@ -12522,14 +12522,14 @@
     <doc id="/2048208/europeana_fashion_JDDEDM_jaargang_22_18180320_005_jpg"/>
     <doc id="/2048208/europeana_fashion_JDDEDMR_jaargang_05_18250303_004_jpg"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/744&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/744&quot;">
     <doc id="/2059210/data_sounds_http___archive_org_download_srn2004_05_30_sbd_flac_16_srn2004_05_30_sbd_flac_16_part03_mp3"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4579&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4579&quot;">
     <doc id="/90402/SK_C_5"/>
     <doc id="/90402/SK_A_4691"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/80&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/80&quot;">
     <doc id="/181/share3d_1114"/>
     <doc id="/181/share3d_1092"/>
     <doc id="/181/share3d_1098"/>
@@ -12545,7 +12545,7 @@
     <doc id="/91624/shm_object_403069"/>
     <doc id="/2021802/LIMIS_112195878"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4563&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4563&quot;">
     <doc id="/267/10444"/>
     <doc id="/795/11168_11_266789"/>
     <doc id="/283/1015_B"/>
@@ -12571,7 +12571,7 @@
     <doc id="/433/photo_003_039749_46"/>
     <doc id="/282/gab6621"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4531&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4531&quot;">
     <doc id="/525/RF0737"/>
     <doc id="/525/RF0920"/>
     <doc id="/525/RF0759"/>
@@ -12597,7 +12597,7 @@
     <doc id="/525/RF0932"/>
     <doc id="/525/RF0761"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/2888&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/2888&quot;">
     <doc id="/2021672/resource_document_mauritshuis_670"/>
     <doc id="/2021672/resource_document_mauritshuis_32"/>
     <doc id="/2021672/resource_document_mauritshuis_1203"/>
@@ -12623,7 +12623,7 @@
     <doc id="/2021672/resource_document_mauritshuis_1032"/>
     <doc id="/2021672/resource_document_mauritshuis_679"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/1589&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/1589&quot;">
     <doc id="/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_113742_000"/>
     <doc id="/2026128/Partage_Plus_ProvidedCHO_Kunstbibliothek__Staatliche_Museen_zu_Berlin_1791697"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_1981_1900"/>
@@ -12649,7 +12649,7 @@
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Culture_Grid_PP1038_KK01"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Culture_Grid_PP1063_KK01"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/862&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/862&quot;">
     <doc id="/226/8678_Betlemme_2007"/>
     <doc id="/226/13228_RM_2019"/>
     <doc id="/226/13252_RM_2015"/>
@@ -12675,7 +12675,7 @@
     <doc id="/226/13235_RM_2018"/>
     <doc id="/226/12043_Roma_2011"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/837&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/837&quot;">
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_26_6a"/>
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_62_32"/>
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_62_20"/>
@@ -12699,10 +12699,10 @@
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_130_17c"/>
     <doc id="/603/_providedCHO_NL_BwdADRKF_2_126_5"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/2992&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/2992&quot;">
     <doc id="/2051943/data_euscreenXL_EUS_0945923E42834841BA1C2B31B6BE3A2E"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4305&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4305&quot;">
     <doc id="/15508/3073"/>
     <doc id="/15508/28336"/>
     <doc id="/15508/39929"/>
@@ -12728,13 +12728,13 @@
     <doc id="/15508/DG2001_450"/>
     <doc id="/15508/26276"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/247&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/247&quot;">
     <doc id="/2021007/_SLSA_1270_SLSA_1270_34_foto_1413"/>
     <doc id="/2021007/_SLSA_1270_SLSA_1270_34_foto_1409a"/>
     <doc id="/2021007/_SLSA_1270_SLSA_1270_34_foto_1004"/>
     <doc id="/2021007/_SLSA_1270_SLSA_1270_34_foto_1939"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60404&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60404&quot;">
     <doc id="/2021672/resource_document_mauritshuis_670"/>
     <doc id="/92034/GVNRC_MAU01_0670"/>
     <doc id="/15502/GG_9128"/>
@@ -12751,7 +12751,7 @@
     <doc id="/92034/GVNRC_NCRD01_107484099"/>
     <doc id="/2021618/internetserver_Details_kunst_35487"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/29&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/29&quot;">
     <doc id="/916118/S_TEK_photo_TEKA0113986"/>
     <doc id="/2058611/_kimbl_504cdcef_adea_45a1_b010_c8581dd4a691"/>
     <doc id="/2058611/_kimbl_a2f6a622_825b_4fc3_a7f1_328e52158562"/>
@@ -12786,7 +12786,7 @@
     <doc id="/385/SLO_3D_2"/>
     <doc id="/916105/bhm_photo_UMFA54527_0005"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/47&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/47&quot;">
     <doc id="/2058501/MTB_AW_1954_1"/>
     <doc id="/2058501/MTB_AW_1936_5"/>
     <doc id="/2058501/MTB_AW_1935_2"/>
@@ -12817,7 +12817,7 @@
     <doc id="/2021672/resource_document_mauritshuis_462"/>
     <doc id="/2048087/ProvidedCHO_Horniman_Museum_and_Gardens_http___collections_horniman_ac_uk_objects_5066"/>
   </query>
-  <query text="foaf_organization:&quot;http://data.europeana.eu/organization/4402&quot;">
+  <query text="organization_id:&quot;http://data.europeana.eu/organization/4402&quot;">
     <doc id="/525/RF0765"/>
     <doc id="/525/RF0756"/>
     <doc id="/525/RF0719"/>
@@ -12841,10 +12841,10 @@
     <doc id="/149/photography_ProvidedCHO_KIK_IRPA__Brussels__Belgium___11047722"/>
     <doc id="/2024919/photography_ProvidedCHO_Promoter_Digital_Gallery_situzhaoguang_working_14_JPG"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/70&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/70&quot;">
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3034098"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/106&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/106&quot;">
     <doc id="/2021007/_FMI_473_FMI_473_foto_9"/>
     <doc id="/2021012/app_si_S_1998_104"/>
     <doc id="/2024908/photography_ProvidedCHO_Archivio_fotografico_Societ__Geografica_Italia_7011"/>
@@ -12871,7 +12871,7 @@
     <doc id="/92062/BibliographicResource_1000126098963"/>
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3033066"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/134&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/134&quot;">
     <doc id="/08711/https___www_biodiversitylibrary_org_item_68906"/>
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3029497"/>
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3027853"/>
@@ -12909,18 +12909,18 @@
     <doc id="/08711/item_150863"/>
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3037164"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/1669&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/1669&quot;">
     <doc id="/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_653489"/>
     <doc id="/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_545710"/>
     <doc id="/2021660/GW_1230_10"/>
     <doc id="/2021660/GW_0487_17"/>
     <doc id="/2021660/GW_1462_13"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/156&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/156&quot;">
     <doc id="/2051939/data_euscreenXL_EUS_3C1789B5D701907376D378C1F6E71A7D"/>
     <doc id="/2051939/data_euscreenXL_EUS_0B4EEB795ED3BB7BF9E28D744DC5BB6F"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/55&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/55&quot;">
     <doc id="/2048217/europeana_fashion_MUDE_J_0001"/>
     <doc id="/2048217/europeana_fashion_MUDE_M_0004_03"/>
     <doc id="/2048217/europeana_fashion_MUDE_M_0004_02"/>
@@ -12929,17 +12929,17 @@
     <doc id="/2048217/europeana_fashion_MUDE_J_0008_02"/>
     <doc id="/2048217/europeana_fashion_MUDE_J_0004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/69103&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/69103&quot;">
     <doc id="/2048205/europeana_fashion_DS00389"/>
     <doc id="/2048205/europeana_fashion_SC01918"/>
     <doc id="/2048205/europeana_fashion_SC01915"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/113&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/113&quot;">
     <doc id="/2048087/ProvidedCHO_Wakefield_Council_1996_969"/>
     <doc id="/2022365/Bristol_20Museums_2C_20Galleries_20_26_20Archives_emu_ecatalogue_socialhistory_131141"/>
     <doc id="/2022365/Bristol_20Museums_2C_20Galleries_20_26_20Archives_emu_mshed_ecatalogue_socialhistory_155676"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/1659&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/1659&quot;">
     <doc id="/437/item_GN24S5S7OFLQREEARRFKCK5BP6O6NXLV"/>
     <doc id="/463/item_TKX7VRUCJTUEGESGXPGCMITFBQJJUFZZ"/>
     <doc id="/2048429/item_J62KIO7MS4ECI3OMKSGVNLC4B3IJVL36"/>
@@ -12968,10 +12968,10 @@
     <doc id="/2048429/item_HW6BRPORHK6QZP72BOADXNEEOL43USOM"/>
     <doc id="/437/item_CRK52FP76CT46QQOAFEZ7FHFJGMZ34LW"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/31&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/31&quot;">
     <doc id="/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_369733"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/51&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/51&quot;">
     <doc id="/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10304865"/>
     <doc id="/2058639/object_SAB_19060139"/>
     <doc id="/92085/27311"/>
@@ -12999,7 +12999,7 @@
     <doc id="/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10350872"/>
     <doc id="/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10304861"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/37&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/37&quot;">
     <doc id="/2026117/Partage_Plus_ProvidedCHO_Museu_Nacional_d_Art_de_Catalunya_212899_000"/>
     <doc id="/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_3581"/>
     <doc id="/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_3227"/>
@@ -13014,7 +13014,7 @@
     <doc id="/2024909/photography_ProvidedCHO_United_Archives___WHA_02405692"/>
     <doc id="/2024909/photography_ProvidedCHO_United_Archives___WHA_02406152"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/1427&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/1427&quot;">
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3034098"/>
     <doc id="/2024904/https___www_topfoto_co_uk_asset_3007533"/>
     <doc id="/9200387/BibliographicResource_3000117243165"/>
@@ -13040,10 +13040,10 @@
     <doc id="/9200579/qznzpk7q"/>
     <doc id="/9200579/qyyb7g4r"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/1654&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/1654&quot;">
     <doc id="/2024902/photography_ProvidedCHO_Private_Collections_Library_Bikop_eu__ICIMSS__oai_bikop_eu_2546"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/41&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/41&quot;">
     <doc id="/2064107/Museu_ProvidedCHO_Museum_of_English_Rural_Life__University_of_Reading_4581"/>
     <doc id="/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_11296_inventary_CE011162_table_FMUS_museum_MT"/>
     <doc id="/2048215/europeana_fashion_http___ceres_mcu_es_pages_Main_idt_159549_inventary_CE106861_table_FMUS_museum_MT"/>
@@ -13070,18 +13070,18 @@
     <doc id="/91619/SMVK_EM_objekt_1309113"/>
     <doc id="/15502/KK_2734"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/170&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/170&quot;">
     <doc id="/2059510/foodanddrink_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Comarcal_del_Vall_s_Occidental_ACVOC_90_87_N_345686_1"/>
     <doc id="/2059510/foodanddrink_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Comarcal_de_l_Alt_Pened_s_ACAP_20_1046_N_243"/>
     <doc id="/2059510/foodanddrink_ProvidedCHO_Generalitat_de_Catalunya__Arxiu_Comarcal_de_l_Alt_Pened_s_ACAP_20_1046_N_114"/>
     <doc id="/2024914/photography_ProvidedCHO_Ajuntament_de_Girona_637090"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/1692&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/1692&quot;">
     <doc id="/90402/RP_F_2017_73"/>
     <doc id="/90402/RP_F_F10144"/>
     <doc id="/9200579/g8hswhjh"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/48&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/48&quot;">
     <doc id="/9200478/COBISS_BH_ID_16213766"/>
     <doc id="/9200323/BibliographicResource_3000094952659"/>
     <doc id="/2048098/Athena_Plus_ProvidedCHO________________________________PH_KPI_1902_1_051_0"/>
@@ -13107,7 +13107,7 @@
     <doc id="/0940429/_nhd2qcb"/>
     <doc id="/602/S_DM_object_DM22663_223"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/190&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/190&quot;">
     <doc id="/2063612/NO_280_003"/>
     <doc id="/2063612/NO_280_008"/>
     <doc id="/2063612/NO_280_001"/>
@@ -13133,7 +13133,7 @@
     <doc id="/549/SM000465"/>
     <doc id="/602/S_DM_object_DM22663_015"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/43&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/43&quot;">
     <doc id="/2020741/object_DP_28264556"/>
     <doc id="/2020741/object_DP_28266612"/>
     <doc id="/9200517/ark__12148_btv1b8593091j"/>
@@ -13159,7 +13159,7 @@
     <doc id="/2022717/bnesearch_detalle_bdh0000217795"/>
     <doc id="/2024909/photography_ProvidedCHO_United_Archives___Carl_Simon_02407988"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/35&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/35&quot;">
     <doc id="/2064401/_gocsej_GOCSEJMUSEUM114881"/>
     <doc id="/2021803/C130000499662"/>
     <doc id="/2063607/EST_280_007"/>
@@ -13185,7 +13185,7 @@
     <doc id="/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_127266"/>
     <doc id="/2022362/_Royal_Museums_Greenwich__http___collections_rmg_co_uk_collections_objects_120264"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/33&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/33&quot;">
     <doc id="/2024905/photography_ProvidedCHO_NALIS_Foundation_F13819327490475"/>
     <doc id="/2024905/photography_ProvidedCHO_NALIS_Foundation_F13716299350045"/>
     <doc id="/2024905/photography_ProvidedCHO_NALIS_Foundation_F13733591080267"/>
@@ -13211,7 +13211,7 @@
     <doc id="/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10358089"/>
     <doc id="/9200579/k77wfwmc"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/19&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/19&quot;">
     <doc id="/2048128/600427"/>
     <doc id="/2048128/507787"/>
     <doc id="/2048128/497034"/>
@@ -13237,7 +13237,7 @@
     <doc id="/9200579/gmtje33g"/>
     <doc id="/2022091/data_hope_5001203"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/6&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/6&quot;">
     <doc id="/97/419285"/>
     <doc id="/97/418078"/>
     <doc id="/97/416402"/>
@@ -13263,10 +13263,10 @@
     <doc id="/15507/oai_www_digital_wienbibliothek_at_1994077"/>
     <doc id="/15507/oai_www_digital_wienbibliothek_at_424844"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/77182&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/77182&quot;">
     <doc id="/90402/SK_A_4"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60753&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60753&quot;">
     <doc id="/2048011/work_63812"/>
     <doc id="/2048011/work_63813"/>
     <doc id="/2048011/work_63830"/>
@@ -13280,25 +13280,25 @@
     <doc id="/2059101/MP_P02839"/>
     <doc id="/2048011/work_63549"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/90386&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/90386&quot;">
     <doc id="/2063603/LIT_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/64553&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/64553&quot;">
     <doc id="/90402/RP_T_1980_25"/>
     <doc id="/2022311/6E76DBB5A27C295CD2DB65E5854DA173A8E93E7D"/>
     <doc id="/90402/RP_T_1978_39"/>
     <doc id="/90402/RP_T_1978_40"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62373&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62373&quot;">
     <doc id="/90402/SK_A_4981"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/157423&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/157423&quot;">
     <doc id="/2063627/BEL_280_012"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/154276&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/154276&quot;">
     <doc id="/2063614/BU_280_09"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/153188&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/153188&quot;">
     <doc id="/2032004/576"/>
     <doc id="/2048417/item_DGPRETK2J2G63BFIKDVHE32JIYVSYWYM"/>
     <doc id="/08535/local__default__46193"/>
@@ -13312,16 +13312,16 @@
     <doc id="/2021618/internetserver_Details_kunst_27175"/>
     <doc id="/08571/2993E8D512772A54590F9AFD749AC894E6572582"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/63225&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/63225&quot;">
     <doc id="/2063625/HU_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/30576&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/30576&quot;">
     <doc id="/2063602/SWE_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/164862&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/164862&quot;">
     <doc id="/2063620/GRE_280_08"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/49291&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/49291&quot;">
     <doc id="/90402/RP_P_1978_13"/>
     <doc id="/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__5451"/>
     <doc id="/08501/89CDE3A6DDE2C05F03B6DB6EE4523A595A174C11"/>
@@ -13335,7 +13335,7 @@
     <doc id="/2032004/13545"/>
     <doc id="/2058501/MTB_AW_1979_18"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/155929&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/155929&quot;">
     <doc id="/08547/sgml_eu_php_obj_s0014281"/>
     <doc id="/2048416/item_S5DEPFB7ABGG2YH6W36VJVEIH7D6NEM4"/>
     <doc id="/08535/Inventarnummer_1983_728"/>
@@ -13349,10 +13349,10 @@
     <doc id="/15508/28283"/>
     <doc id="/08547/sgml_eu_php_obj_vs001077"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53313&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53313&quot;">
     <doc id="/2063606/POR_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53315&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53315&quot;">
     <doc id="/15508/25280"/>
     <doc id="/08501/05FC1D3A9CC0B092B046CFF30141ED38975A808E"/>
     <doc id="/15508/26218"/>
@@ -13366,7 +13366,7 @@
     <doc id="/08501/8BD8ECBBBD06D8F56D42A280D807BBEF09FA1BCB"/>
     <doc id="/15508/26993"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147747&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147747&quot;">
     <doc id="/2063627/BEL_280_005"/>
     <doc id="/04101/0FC13BA6560C31E450F02FBF9F048E20955F1045"/>
     <doc id="/04101/A940B7C199C3A5DAFD0399AB3A1A72EBE9C61BFA"/>
@@ -13381,7 +13381,7 @@
     <doc id="/08501/7B4C3F426DF78204713D66A4D1536639B81BBFDA"/>
     <doc id="/2048001/Athena_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__AP_10100752"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/120840&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/120840&quot;">
     <doc id="/91912/0C1DCBE32155DFA806AF71D3EE19947716DC5FE1"/>
     <doc id="/2022344/32712736A401DC423EBBDC9F230358A32746F254"/>
     <doc id="/92033/BibliographicResource_3000053525003"/>
@@ -13395,13 +13395,13 @@
     <doc id="/92006/BibliographicResource_1000095228206"/>
     <doc id="/2022344/6DC0F278D285737AD0F408DE8CFF491F82EDAD1D"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56390&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56390&quot;">
     <doc id="/2063605/LAT_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/22148&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/22148&quot;">
     <doc id="/2063609/ES_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/157558&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/157558&quot;">
     <doc id="/2022608/LMU_NL_03150077"/>
     <doc id="/2022026/11088_499F11CD_7D41_482E_B69A_D6FD5C56AD26"/>
     <doc id="/2022037/11088_016452FE_83CB_475E_BB61_ADF3EAD14023"/>
@@ -13415,7 +13415,7 @@
     <doc id="/92064/04915EF30CD190BEAB54584FA765E5E231EC1295"/>
     <doc id="/92060/1C062E38362A1994BD4DE79CF68E45BA956CC501"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/216&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/216&quot;">
     <doc id="/2048011/work_63802"/>
     <doc id="/2048011/work_28793"/>
     <doc id="/2048011/work_63810"/>
@@ -13429,7 +13429,7 @@
     <doc id="/15407/923B16AAC0B1B2FB10EFFBE460DAF0DCB589AD92"/>
     <doc id="/15502/GG_83"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/156108&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/156108&quot;">
     <doc id="/2048011/work_467"/>
     <doc id="/9200105/BibliographicResource_3000006111739"/>
     <doc id="/90402/RP_P_OB_17_420"/>
@@ -13439,13 +13439,13 @@
     <doc id="/15508/3351"/>
     <doc id="/15508/3345"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/155139&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/155139&quot;">
     <doc id="/2063623/GER_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56399&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56399&quot;">
     <doc id="/2063611/CRO_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59786&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59786&quot;">
     <doc id="/2058501/MTB_AW_1956_1"/>
     <doc id="/15502/GG_6331"/>
     <doc id="/05812/BBDBED95_C9E1_489E_994B_9F6A97C3B92F"/>
@@ -13453,7 +13453,7 @@
     <doc id="/90402/SK_A_3384"/>
     <doc id="/2048011/work_6612"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/81322&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/81322&quot;">
     <doc id="/2022608/NMK_B_NG_K_H_B_04476"/>
     <doc id="/2021002/e_IsShownAt_C2B45855_6944_4D43_93C4_BB60242A49B8"/>
     <doc id="/2022608/OMU_OB_00527"/>
@@ -13467,7 +13467,7 @@
     <doc id="/2022608/NMK_B_NG_K_H_B_08025"/>
     <doc id="/2022608/NMK_B_NG_K_H_B_04418"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59787&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59787&quot;">
     <doc id="/2063617/MAL_280_002"/>
     <doc id="/2063626/IT_280_005"/>
     <doc id="/2063617/MAL_280_001"/>
@@ -13482,10 +13482,10 @@
     <doc id="/2032004/9207"/>
     <doc id="/15502/GG_307"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/155130&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/155130&quot;">
     <doc id="/2063625/HU_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/66963&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/66963&quot;">
     <doc id="/08501/EF2DEA833233E97CF99831D1E7E02C7855096362"/>
     <doc id="/08533/artifact_aspx_id_130"/>
     <doc id="/15502/GG_6811"/>
@@ -13499,10 +13499,10 @@
     <doc id="/90402/SK_A_3899"/>
     <doc id="/08501/48C26A4ADD886A637F886E5F1DB62A9B0E4EEC1D"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/50609&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/50609&quot;">
     <doc id="/2063619/CZR_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62248&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62248&quot;">
     <doc id="/2048011/work_63984"/>
     <doc id="/2048011/work_63844"/>
     <doc id="/2048011/work_64030"/>
@@ -13516,16 +13516,16 @@
     <doc id="/08535/local__default__F_1063"/>
     <doc id="/2032004/2525"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/66964&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/66964&quot;">
     <doc id="/2063611/CRO_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/35570&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/35570&quot;">
     <doc id="/90402/RP_T_1940_509"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/14314&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/14314&quot;">
     <doc id="/2063612/NO_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146788&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146788&quot;">
     <doc id="/08501/AA25DB6D10217A82562F04CFF2F29F14FD3CFFD6"/>
     <doc id="/08501/2BA684BEA6FE3C6C2FAD19323FF85E06580D71BE"/>
     <doc id="/2048415/item_YU33ZFBCBLBUJAZPRFRUW2HI6D76OHYH"/>
@@ -13539,16 +13539,16 @@
     <doc id="/2022608/NMK_B_NG_K_H_B_16029"/>
     <doc id="/2048418/item_DCP4DMB2UWIIXUOVYPDGUFN6YQKVWWYD"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60181&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60181&quot;">
     <doc id="/2063604/DEN_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/51703&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/51703&quot;">
     <doc id="/90402/RP_T_1947_176"/>
     <doc id="/08533/artifact_aspx_id_578"/>
     <doc id="/2058501/MTB_AW_1982_12"/>
     <doc id="/08571/EDEC1369E6D2129A6018FC89BE5C33C4CA12F6A7"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/148721&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/148721&quot;">
     <doc id="/15502/GG_1669"/>
     <doc id="/2048011/work_125"/>
     <doc id="/2022365/Bristol_20Museums_2C_20Galleries_20_26_20Archives_emu_ecatalogue_fineart_117587"/>
@@ -13562,16 +13562,16 @@
     <doc id="/15502/GG_1668"/>
     <doc id="/2023847/dkult_DE_MUS_038015_142265"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/105119&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/105119&quot;">
     <doc id="/2063608/CYP_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/25891&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/25891&quot;">
     <doc id="/2063604/DEN_280_017"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/48533&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/48533&quot;">
     <doc id="/2063605/LAT_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/5&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/5&quot;">
     <doc id="/2063626/IT_280_004"/>
     <doc id="/08562/1E9E1F8672B36521EA764852602A5C21E7D86055"/>
     <doc id="/2059101/MP_P00296"/>
@@ -13586,7 +13586,7 @@
     <doc id="/2021618/internetserver_Details_kunst_2084"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MRABASF_0143"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62239&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62239&quot;">
     <doc id="/2063626/IT_280_003"/>
     <doc id="/2048011/work_28795"/>
     <doc id="/15502/GG_301"/>
@@ -13599,7 +13599,7 @@
     <doc id="/2021618/internetserver_Details_kunst_545"/>
     <doc id="/2048011/work_72135"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62238&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62238&quot;">
     <doc id="/2022608/MH_SS_37774"/>
     <doc id="/2048011/work_28782"/>
     <doc id="/07602/9DF91112B49753A1AAFE6D678E9D06FED6DAC7E1"/>
@@ -13613,19 +13613,19 @@
     <doc id="/08501/2CE4919C5227E5BCB4E49823A796A49174DC463F"/>
     <doc id="/2048011/work_63899"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/40825&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/40825&quot;">
     <doc id="/2063611/CRO_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/54780&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/54780&quot;">
     <doc id="/2063605/LAT_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/7291&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/7291&quot;">
     <doc id="/2063607/EST_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/153042&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/153042&quot;">
     <doc id="/2063628/IRE_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60057&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60057&quot;">
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_08454"/>
     <doc id="/9200579/a95te7qk"/>
     <doc id="/2022365/Bristol_20Museums_2C_20Galleries_20_26_20Archives_emu_ecatalogue_fineart_116728"/>
@@ -13639,10 +13639,10 @@
     <doc id="/15407/56415ACD789EA07C818B9C15D8A94A47A1D958A7"/>
     <doc id="/2022326/CB0CA74A493519A60EA98804A8ABC4F911DAC2EA"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56166&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56166&quot;">
     <doc id="/2063607/EST_280_012"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59795&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59795&quot;">
     <doc id="/2048011/work_64023"/>
     <doc id="/2048011/work_63987"/>
     <doc id="/2048011/work_64015"/>
@@ -13652,7 +13652,7 @@
     <doc id="/2048011/work_64029"/>
     <doc id="/90402/BK_NM_12030"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61383&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61383&quot;">
     <doc id="/15502/KK_881"/>
     <doc id="/08562/196675299095A99AD8C572939A8A7C9610854D7A"/>
     <doc id="/2048011/work_63992"/>
@@ -13663,10 +13663,10 @@
     <doc id="/2022701/oai_catedramariustorres_udl_cat_cont_897"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MAN_1993_80_133"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/40148&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/40148&quot;">
     <doc id="/2063622/LUX_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/153287&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/153287&quot;">
     <doc id="/08501/F2419A6D144B5CBCE951E5380197AE1FDB5F12C0"/>
     <doc id="/08501/FD6A3D095FBEB4EC48126741D9DB86FE8EC02C94"/>
     <doc id="/08501/3DD19B514FD8B7791F509C1D6F3AF699792D2A24"/>
@@ -13678,7 +13678,7 @@
     <doc id="/08501/4A70DC215BEC5F5DB77220DAD3433840AD80406B"/>
     <doc id="/08501/1FABD7AC3EB1DEF1981E5AF9B4AA915BFA452159"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/65746&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/65746&quot;">
     <doc id="/15502/GG_9685"/>
     <doc id="/08501/7A678DB8988C81B22416290E98AF0593E883C299"/>
     <doc id="/08501/6EE7DDFB5415CBD49EF0C3B634FCD41F8938CA28"/>
@@ -13692,19 +13692,19 @@
     <doc id="/08501/654B54FFB4D7F6A7E22A551C156B0B322F305C0E"/>
     <doc id="/15508/11554"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/66834&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/66834&quot;">
     <doc id="/90402/SK_A_351"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/164767&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/164767&quot;">
     <doc id="/2063620/GRE_280_05"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/164768&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/164768&quot;">
     <doc id="/2063620/GRE_280_10"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/13315&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/13315&quot;">
     <doc id="/2063620/GRE_280_03"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147962&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147962&quot;">
     <doc id="/2048011/work_28815"/>
     <doc id="/9200105/BibliographicResource_3000006125757"/>
     <doc id="/2048011/work_28817"/>
@@ -13716,10 +13716,10 @@
     <doc id="/2048011/work_73062"/>
     <doc id="/2048011/work_15839"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/162223&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/162223&quot;">
     <doc id="/2063612/NO_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147167&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147167&quot;">
     <doc id="/2026122/Partage_Plus_ProvidedCHO_Sainsbury_Centre_for_Visual_Arts__University_of_East_Anglia_21022A"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_1448_1902"/>
     <doc id="/2021608/dispatcher_aspx_action_search_database_ChoiceCollect_search_priref_76047"/>
@@ -13731,32 +13731,32 @@
     <doc id="/2026127/Partage_Plus_ProvidedCHO_Digitales_Kunst__und_Kulturarchiv_D_sseldorf_348813"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_1453_A_1902"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53573&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53573&quot;">
     <doc id="/2063605/LAT_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53333&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53333&quot;">
     <doc id="/2063610/O_2424"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/74699&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/74699&quot;">
     <doc id="/2063627/BEL_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/74215&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/74215&quot;">
     <doc id="/2063612/NO_280_005"/>
     <doc id="/2022608/OMU_OB_01051"/>
     <doc id="/2022608/MH_A_BA_00540"/>
     <doc id="/2048417/item_GFBIMNUVCNS24CQOEGCK5S6EO33WAV5Y"/>
     <doc id="/2048417/item_E4FHX52YKH3ZMQY2SR62QNREWAXH572J"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/78933&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/78933&quot;">
     <doc id="/2063614/BU_280_10"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60843&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60843&quot;">
     <doc id="/2063630/NE_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/58233&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/58233&quot;">
     <doc id="/2063627/BEL_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60289&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60289&quot;">
     <doc id="/15502/GG_6271"/>
     <doc id="/08501/9D34C5D989B41732459CD2F103799FD4277B5B12"/>
     <doc id="/2022326/153FAECDC12E2FAD5C1D01F7D9618E889DDDF1D2"/>
@@ -13770,10 +13770,10 @@
     <doc id="/2022365/Bristol_20Museums_2C_20Galleries_20_26_20Archives_emu_ecatalogue_fineart_117037"/>
     <doc id="/2048410/item_FSFI6JAZCMVHOKSFWWIDHZUILL3LGF7D"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/69417&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/69417&quot;">
     <doc id="/2063628/IRE_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61016&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61016&quot;">
     <doc id="/9200518/ark__12148_btv1b90051629"/>
     <doc id="/2026107/Partage_Plus_ProvidedCHO_www_esbirky_cz_GF_1170"/>
     <doc id="/9200365/BibliographicResource_1000055462319"/>
@@ -13787,14 +13787,14 @@
     <doc id="/9200365/BibliographicResource_1000055750081"/>
     <doc id="/9200365/BibliographicResource_1000055440508"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/66821&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/66821&quot;">
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_1141___"/>
     <doc id="/15502/GG_2069"/>
     <doc id="/2058501/MTB_AW_1959_4"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_1142___"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_1186___"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/148820&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/148820&quot;">
     <doc id="/2063624/UK_280_003"/>
     <doc id="/2022311/4AB41C7AADEF4DE53848C8587FB2246BFD1E20C6"/>
     <doc id="/2022325/112627C189E78D339EDF4FC4B05B52815F077ADE"/>
@@ -13804,7 +13804,7 @@
     <doc id="/90402/BK_1960_58"/>
     <doc id="/2021618/internetserver_Details_kunst_19024"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146880&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146880&quot;">
     <doc id="/2048043/Athena_Plus_ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_4085"/>
     <doc id="/9200522/ark__12148_btv1b550025366"/>
     <doc id="/2023708/72C6DFA2904DE84188B41D4F58C2C4823B2D09DB"/>
@@ -13818,10 +13818,10 @@
     <doc id="/9200365/BibliographicResource_1000055688023"/>
     <doc id="/2024901/photography_ProvidedCHO_Alinari_Archives_AVQ_A_000047_0143"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/150901&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/150901&quot;">
     <doc id="/2063614/BU_280_04"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146769&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146769&quot;">
     <doc id="/15502/GG_6427"/>
     <doc id="/15508/25227"/>
     <doc id="/15502/GG_2923"/>
@@ -13835,13 +13835,13 @@
     <doc id="/08536/object_bam_library_ubhd_ub_graphische_sammlung_3734_html"/>
     <doc id="/08501/9BBF3174733F79D53782AB4D3CB89A1CC026CC80"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/134006&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/134006&quot;">
     <doc id="/2063615/SLO_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/39582&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/39582&quot;">
     <doc id="/2063622/LUX_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60678&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60678&quot;">
     <doc id="/2022109/D6A8835FC5AD09EFD1711FA14DACAC76CD58C2B5"/>
     <doc id="/2048416/item_S6FZS5NDTN6AOMPHZYQRSN7ECBQAZ5XU"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_CIRC_272_1964"/>
@@ -13855,13 +13855,13 @@
     <doc id="/15508/DGNF9476"/>
     <doc id="/2026107/Partage_Plus_ProvidedCHO_www_esbirky_cz_GP_11932"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60316&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60316&quot;">
     <doc id="/2032003/GR_item_71952"/>
     <doc id="/2022026/11088_6C3946BD_D90F_4C31_8D9E_C94010C88B90"/>
     <doc id="/2048416/item_S55J325DRP57LBFIOZ6HFJ35XHYEQ5NU"/>
     <doc id="/2032004/18098"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60430&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60430&quot;">
     <doc id="/2063630/NE_280_003"/>
     <doc id="/2063627/BEL_280_015"/>
     <doc id="/9200105/BibliographicResource_3000006112126"/>
@@ -13873,7 +13873,7 @@
     <doc id="/9200105/BibliographicResource_3000006111810"/>
     <doc id="/04101/95DA438609EA41D361DC7DE0FA56DA7A83DE04C5"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/154198&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/154198&quot;">
     <doc id="/2064114/Museu_ProvidedCHO_Digitales_Kunst__und_Kulturarchiv_D_sseldorf_141966"/>
     <doc id="/2022608/NMK_B_NG_K_H_B_15883"/>
     <doc id="/2048417/item_G67U3LD2EACXS5LZICUHVZSD6INCKVC4"/>
@@ -13887,10 +13887,10 @@
     <doc id="/2048416/item_UJ3EZDCXIKZ24LBIEEUB24EBLCLDREUX"/>
     <doc id="/2048419/item_TLXG6A6KF6LBJ34T2YRQ3AZLSRTTETHR"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61087&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61087&quot;">
     <doc id="/2064113/search_result_php_item_id_1214"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62297&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62297&quot;">
     <doc id="/2048011/work_28767"/>
     <doc id="/2048011/work_2922"/>
     <doc id="/2048011/work_28766"/>
@@ -13902,10 +13902,10 @@
     <doc id="/2024903/photography_ProvidedCHO_KU_Leuven_008868158"/>
     <doc id="/08501/43C24B924782B36098CE46F549BD85748BE3A296"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/153783&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/153783&quot;">
     <doc id="/2063606/POR_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/160987&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/160987&quot;">
     <doc id="/2048011/work_35836"/>
     <doc id="/2048011/work_35614"/>
     <doc id="/2048411/item_2JBI6YGBN7IXXILUGIMWPN4GCHG525XO"/>
@@ -13916,7 +13916,7 @@
     <doc id="/2048411/item_4FPPKSFYRNLZAJ2XWMUKEGF5I4RNTLKL"/>
     <doc id="/07927/diglit_hamilton1791ga"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/162128&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/162128&quot;">
     <doc id="/90402/SK_A_886"/>
     <doc id="/2021002/e_IsShownAt_EFB0579B_C5A7_40BE_BEF4_45E51D216E01"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NMGrh_1366___"/>
@@ -13930,10 +13930,10 @@
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_1938___"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NMGrh_1098___"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147304&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147304&quot;">
     <doc id="/2063624/UK_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59979&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59979&quot;">
     <doc id="/2063609/ES_280_009"/>
     <doc id="/2048011/work_73076"/>
     <doc id="/08501/8859971D0FCE68F95C6210C5E4A400E95B62D329"/>
@@ -13948,7 +13948,7 @@
     <doc id="/08501/9E7FCB0983EB585C646C253DFB272A26DBF06A1C"/>
     <doc id="/08501/DFE6EF00247EDB901473C4EB1613804ACB57A662"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53517&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53517&quot;">
     <doc id="/08501/9A35587BE49A896E4A47CB2098430D3CD4B99795"/>
     <doc id="/15407/3D49780473D9DFBD59C3C5755CEBEDB152AE5F8F"/>
     <doc id="/08501/5798EC3E81A802C5FD8C51AF66470DFDE4FC0C19"/>
@@ -13962,7 +13962,7 @@
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_779___"/>
     <doc id="/08501/70A258E0583D509A25C4E820606DAB69CA0F3720"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62174&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62174&quot;">
     <doc id="/90402/SK_A_1865"/>
     <doc id="/05812/7AC8FB0C_AE6F_47DC_BFF6_B19AB8BC45F2"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_6349___"/>
@@ -13976,7 +13976,7 @@
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_3380___"/>
     <doc id="/08501/7841E00B5A59E4506DF5D7B2869B87F51D036459"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/65441&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/65441&quot;">
     <doc id="/2048011/work_28232"/>
     <doc id="/15407/FC38221F0E005C253B174583732168D3A4323E3D"/>
     <doc id="/2032004/9099"/>
@@ -13990,19 +13990,19 @@
     <doc id="/2048011/work_73070"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MRABASF_0217"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/44002&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/44002&quot;">
     <doc id="/2063628/IRE_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/29663&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/29663&quot;">
     <doc id="/2063615/SLO_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53633&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53633&quot;">
     <doc id="/2063627/BEL_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/45450&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/45450&quot;">
     <doc id="/2064113/search_result_php_item_id_687"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/111&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/111&quot;">
     <doc id="/2022112/urn_axmedis_00000_obj_84e13677_1b67_4a2a_96b5_80adfac0f0bd"/>
     <doc id="/2022104/urn_axmedis_00000_obj_97f7a713_04e4_40f4_83b6_b9c172c131d4"/>
     <doc id="/2022107/urn_axmedis_00000_obj_cec60e30_8d78_4acd_9419_95e14a450b28"/>
@@ -14016,7 +14016,7 @@
     <doc id="/2022110/urn_axmedis_00000_obj_ca64a402_f70d_484c_9dc7_418e988e2c62"/>
     <doc id="/2022107/urn_axmedis_00000_obj_6adbf579_bdcc_4585_9ab4_03438e4f9aa1"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60307&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60307&quot;">
     <doc id="/2063624/UK_280_004"/>
     <doc id="/92006/BibliographicResource_1000095225523"/>
     <doc id="/9200134/BibliographicResource_2000000016331"/>
@@ -14030,13 +14030,13 @@
     <doc id="/15508/DGNF9346_1"/>
     <doc id="/15508/DGNF9346_4"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/41423&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/41423&quot;">
     <doc id="/2063626/IT_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/137740&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/137740&quot;">
     <doc id="/2063610/O_1377"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/4335&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/4335&quot;">
     <doc id="/05812/437163B3_B367_4458_A228_6346268B571B"/>
     <doc id="/90402/RP_T_1969_207"/>
     <doc id="/08501/4086B97B4C29A77D2C211B57FA12A32F977F6066"/>
@@ -14047,10 +14047,10 @@
     <doc id="/08501/4BE92571538A9EC5932C542FC39BAD547AA56F4E"/>
     <doc id="/08501/9B01B34D982330E4D6532170545352C16C2766D5"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/54175&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/54175&quot;">
     <doc id="/2063604/DEN_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60305&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60305&quot;">
     <doc id="/2022326/A468D7B1E4A3123F41C1E5DA98F5541A66DBA085"/>
     <doc id="/2022345/grabimg_php_wm_1_kv_116255"/>
     <doc id="/08547/sgml_eu_php_obj_mt007485"/>
@@ -14064,22 +14064,22 @@
     <doc id="/2022113/urn_axmedis_00000_obj_125de6ca_0477_4701_a650_bfc517eeb7ac"/>
     <doc id="/92006/BibliographicResource_1000095229903"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56233&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56233&quot;">
     <doc id="/2063604/DEN_280_015"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/131085&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/131085&quot;">
     <doc id="/2063624/UK_280_011"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59983&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59983&quot;">
     <doc id="/2063624/UK_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62043&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62043&quot;">
     <doc id="/2063618/FI_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/108158&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/108158&quot;">
     <doc id="/2063602/SWE_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/74706&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/74706&quot;">
     <doc id="/2048011/work_63929"/>
     <doc id="/05812/C706F3CF_B301_4DD3_9220_E45DBB44D322"/>
     <doc id="/2048011/work_79726"/>
@@ -14091,10 +14091,10 @@
     <doc id="/15508/2615"/>
     <doc id="/2048011/work_72142"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/161700&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/161700&quot;">
     <doc id="/2063605/LAT_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62163&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62163&quot;">
     <doc id="/2032004/106"/>
     <doc id="/2032004/107"/>
     <doc id="/2022365/Bristol_Museums__Galleries___Archives_emu_ecatalogue_fineart_117591"/>
@@ -14108,7 +14108,7 @@
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_2110___"/>
     <doc id="/2021002/e_IsShownAt_97C6EC06_CD58_4275_B2D2_140872FA293A"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/162477&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/162477&quot;">
     <doc id="/90402/SK_A_3257"/>
     <doc id="/2058501/MTB_AW_1935_14"/>
     <doc id="/90402/RP_T_1950_93"/>
@@ -14117,13 +14117,13 @@
     <doc id="/2021002/e_IsShownAt_7520C3EE_44E7_49CA_AE4F_5F47093F20DC"/>
     <doc id="/2048419/item_SHXCR6TSVXAKOQGG5CZ5JGA63WX7H4WI"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/54613&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/54613&quot;">
     <doc id="/0940435/_nn6hfxv"/>
     <doc id="/09404/id_oai_cyfrowe_mnw_art_pl_4693"/>
     <doc id="/09404/id_oai_cyfrowe_mnw_art_pl_4831"/>
     <doc id="/09404/id_oai_cyfrowe_mnw_art_pl_4698"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/113189&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/113189&quot;">
     <doc id="/2063627/BEL_280_014"/>
     <doc id="/04101/641BA99D004DC1C158ABE81DB39DBB48529044CE"/>
     <doc id="/08501/49BAAD21846CAB557F76AED571E31892B7727D4B"/>
@@ -14138,11 +14138,11 @@
     <doc id="/2021002/e_IsShownAt_03860E66_4568_4788_857C_568E5C2704DB"/>
     <doc id="/04101/39953A8C9A4BB9E0931DD9E9C1A14056E0E760E3"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/154617&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/154617&quot;">
     <doc id="/2063603/LIT_280_011"/>
     <doc id="/2063603/LIT_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/154977&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/154977&quot;">
     <doc id="/2032004/10300"/>
     <doc id="/08501/DDE0992A69AE4D462C35DB8DBFF6B6B375977998"/>
     <doc id="/2058501/MTB_AW_1955_3"/>
@@ -14156,13 +14156,13 @@
     <doc id="/08501/7BE9BABA5C7F9F3049E8F59AA3C19F8511E6AE78"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_03558"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56366&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56366&quot;">
     <doc id="/2063622/LUX_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/40220&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/40220&quot;">
     <doc id="/2063622/LUX_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62274&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62274&quot;">
     <doc id="/90402/SK_A_3434"/>
     <doc id="/2048011/work_28843"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_03559"/>
@@ -14176,16 +14176,16 @@
     <doc id="/15407/D7F5C9387D5D772D0A92FA2FC6AC15FB9440EAF3"/>
     <doc id="/08501/EFE808A5C28996F9A430565742CF5CC52FFD874A"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/127386&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/127386&quot;">
     <doc id="/2063611/CRO_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/72519&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/72519&quot;">
     <doc id="/2063606/POR_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/68011&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/68011&quot;">
     <doc id="/2063626/IT_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59999&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59999&quot;">
     <doc id="/2063629/AUS_280_005"/>
     <doc id="/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_4494"/>
     <doc id="/05812/C50C0E41_04B0_4C45_AE89_AC9A5B4C8350"/>
@@ -14200,10 +14200,10 @@
     <doc id="/2026116/Partage_Plus_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20184057_LA_5_957_15a"/>
     <doc id="/2058206/10970_objects_H489010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62151&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62151&quot;">
     <doc id="/2063624/UK_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61062&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61062&quot;">
     <doc id="/2063624/UK_280_009"/>
     <doc id="/2022326/119B4AC095D71B1BE2060B4543A4B135097B8292"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_01992"/>
@@ -14218,19 +14218,19 @@
     <doc id="/2022357/90024A1685ADA12D9BE2FFF9B645B7F22BD96F27"/>
     <doc id="/08501/3F51DC8B2548001FC42A4E7200D10C067B7F8805"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/63480&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/63480&quot;">
     <doc id="/2063621/FRA_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/126727&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/126727&quot;">
     <doc id="/2063602/SWE_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/119054&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/119054&quot;">
     <doc id="/08501/C3E6BFD6C79FCB180D7FEE536AC19AA67E25E0F2"/>
     <doc id="/2048417/item_FB4EMIV2RCYAME5AZD6J6CLWVPEULPRU"/>
     <doc id="/15508/24504"/>
     <doc id="/15508/14890"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53530&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53530&quot;">
     <doc id="/2063621/FRA_280_009"/>
     <doc id="/08501/5DB71EF0713F0DFD6497C8EF0A5863B2B623ABDB"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_6350___"/>
@@ -14245,7 +14245,7 @@
     <doc id="/90402/RP_T_1984_3"/>
     <doc id="/2021002/e_IsShownAt_AB103D02_4494_4D47_A1F8_0AA75EEFE1F2"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/150936&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/150936&quot;">
     <doc id="/08501/034AE0F31C9ED103717CE43AE59A01636E197929"/>
     <doc id="/2032004/518"/>
     <doc id="/08501/2E79B58984FB31460BC5743ABEBE857B227C3478"/>
@@ -14254,13 +14254,13 @@
     <doc id="/08571/693DE10CB86F56C38AF8088DCEF74666B50C6075"/>
     <doc id="/08501/4B36F73E35A0ADEFE1F8709F829F0C56806831C0"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/84614&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/84614&quot;">
     <doc id="/2063630/NE_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60886&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60886&quot;">
     <doc id="/2063602/SWE_280_011"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60644&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60644&quot;">
     <doc id="/2063621/FRA_280_005"/>
     <doc id="/15502/GG_1556"/>
     <doc id="/08501/C250098666572BE95314B812E9CD7130C28A9E2C"/>
@@ -14275,7 +14275,7 @@
     <doc id="/9200105/BibliographicResource_3000006111625"/>
     <doc id="/08501/EC15E7C165D7FFF2F8D78B726E180FDCB2A4D2B9"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60645&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60645&quot;">
     <doc id="/2063621/FRA_280_006"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MCM_03729"/>
     <doc id="/05812/73AE5F67_75DC_4550_92F5_0B5795554E86"/>
@@ -14290,10 +14290,10 @@
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_883___"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NMGrh_24___"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/93203&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/93203&quot;">
     <doc id="/2063602/SWE_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60640&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60640&quot;">
     <doc id="/92066/BibliographicResource_1000060481255"/>
     <doc id="/07602/39744F36410CEBFA3E1B1F26DB463C467DA16BB7"/>
     <doc id="/2023708/C5B2A22D39ECD420F41809BA93380E53EB7D21F4"/>
@@ -14307,7 +14307,7 @@
     <doc id="/92034/GVNRC_NAGO02_TIN_T1991_222"/>
     <doc id="/2048209/29597_001_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/152683&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/152683&quot;">
     <doc id="/2048417/item_CZLM6A4IN3IVRT5DF34DKAI2SCHGQN3U"/>
     <doc id="/04101/05D65343DADB584412C48D46CB47DD673D99669D"/>
     <doc id="/2048011/Athena_Plus_ProvidedCHO_CulturaInternet_Culturale___biblioteca_nazionale_centrale___firenze_oai_www_internetculturale_it_metaoaicat_oai_bncf_firenze_sbn_it_21_FI0098_Bertini_CFI0482384"/>
@@ -14318,34 +14318,34 @@
     <doc id="/2048417/item_FBH5Q5OBIQZFIZ4Q3KSO2CHC5LDX2L6M"/>
     <doc id="/2022608/NMK_B_NG_K_H_1978_0105"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/86113&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/86113&quot;">
     <doc id="/2063601/_3ab5a65a_a09e_46a5_aeb3_85d17db54840"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/154072&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/154072&quot;">
     <doc id="/2063629/AUS_280_011"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62140&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62140&quot;">
     <doc id="/2063628/IRE_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/42891&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/42891&quot;">
     <doc id="/2063606/POR_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/54757&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/54757&quot;">
     <doc id="/2063609/ES_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/27930&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/27930&quot;">
     <doc id="/2063610/O_3"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/40766&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/40766&quot;">
     <doc id="/2063611/CRO_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/48803&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/48803&quot;">
     <doc id="/2063617/MAL_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/83217&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/83217&quot;">
     <doc id="/2022608/SFKM_SFKM_001376"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/150631&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/150631&quot;">
     <doc id="/2032003/GR_item_72197"/>
     <doc id="/2021618/internetserver_Details_kunst_26198"/>
     <doc id="/15508/11914"/>
@@ -14353,17 +14353,17 @@
     <doc id="/90402/RP_P_BI_7450X"/>
     <doc id="/2023869/museaalView_102074"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/2107&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/2107&quot;">
     <doc id="/2063613/POL_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60471&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60471&quot;">
     <doc id="/2048419/item_SNLV7CWS6OJUSYNYBO4HET4NZLLPNBGJ"/>
     <doc id="/2048409/item_GREOFHRDPKOZEGJY6RUGA3Z5W2AECTVV"/>
     <doc id="/2022608/NMK_B_NG_K_H_1956_0113"/>
     <doc id="/2048418/item_AUTQWJXOQZD36TDTW6VZGKI62RN4WKGW"/>
     <doc id="/2022608/NMK_B_NG_K_H_1956_0109"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60593&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60593&quot;">
     <doc id="/2048415/item_W2SEYCOVRCYOVCAC4UN4DCGM25XEVNI5"/>
     <doc id="/2048011/146692000"/>
     <doc id="/2048011/work_83519"/>
@@ -14377,7 +14377,7 @@
     <doc id="/92054/BibliographicResource_1000098002559"/>
     <doc id="/05812/B2E597CB_BAFD_416A_93CD_0D50AA56FEDF"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61685&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61685&quot;">
     <doc id="/15502/GG_230"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NMGrh_1603___"/>
     <doc id="/2048011/work_72166"/>
@@ -14391,10 +14391,10 @@
     <doc id="/15502/GG_3837"/>
     <doc id="/2021618/internetserver_Details_kunst_1361"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/52627&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/52627&quot;">
     <doc id="/2063619/CZR_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56427&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56427&quot;">
     <doc id="/2063621/FRA_280_004"/>
     <doc id="/90402/RP_P_1939_441"/>
     <doc id="/08501/2A6069643B5E85C885679D7DBA0ECB2193A6D9BC"/>
@@ -14409,7 +14409,7 @@
     <doc id="/08501/8EB0D2079132D5FCF57793755DD04626F871943F"/>
     <doc id="/08501/011A1D7EC4B58FF521621ED305358D1EAFAF1596"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/148556&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/148556&quot;">
     <doc id="/08501/FED4075CAF5985B9601933B55E1560B97C29469C"/>
     <doc id="/08501/89D59E4A95CC59D92C70BD2F90ED37A80A68FD85"/>
     <doc id="/08501/2197F97666191B8A551CD1E34F97D24A616D8CC2"/>
@@ -14423,22 +14423,22 @@
     <doc id="/08501/49A37C6819509216BE18AF87DEDDBD7573601CC1"/>
     <doc id="/08501/143D15BF1597EF27A90AC70A47FEC4BC55EDB2FC"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/54805&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/54805&quot;">
     <doc id="/2063625/HU_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/64393&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/64393&quot;">
     <doc id="/2063601/_2A81B629148F4DE3B3AED49CDF0F9F52"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/149762&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/149762&quot;">
     <doc id="/2063608/CYP_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/32115&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/32115&quot;">
     <doc id="/2022326/work_aspx_obj_17866"/>
     <doc id="/2022326/18CC2076498FCD674488162635C0D92A7C83636F"/>
     <doc id="/15508/25815"/>
     <doc id="/15508/27208"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53397&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53397&quot;">
     <doc id="/08501/F557EA0CAFAC7C90699D39292DDD753DCBDD0814"/>
     <doc id="/2026010/nl_work_BEK_201714_20a_c_20_MK_"/>
     <doc id="/2026010/nl_work_BEK_201467_20_MK_"/>
@@ -14448,13 +14448,13 @@
     <doc id="/08501/79539A13FC726CF61E954470566FA59C849270D5"/>
     <doc id="/2022701/oai_bibliotecavirtualandalucia_juntadeandalucia_es_1041153"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147906&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147906&quot;">
     <doc id="/2063626/IT_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/54003&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/54003&quot;">
     <doc id="/2063610/O_3857"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146816&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146816&quot;">
     <doc id="/2048011/work_64125"/>
     <doc id="/2048011/work_64132"/>
     <doc id="/2048011/work_63671"/>
@@ -14463,7 +14463,7 @@
     <doc id="/2048011/work_63708"/>
     <doc id="/90402/SK_A_3376"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/58&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/58&quot;">
     <doc id="/09428/urn_nbn_de_hbz_061_2_2038"/>
     <doc id="/09204/EUS_6EFDC3CEDC4746999BDA6775F99A119A"/>
     <doc id="/91643/SMVK_OM_objekt_109153"/>
@@ -14476,7 +14476,7 @@
     <doc id="/07927/diglit_schnorr_von_carolsfeld1852ga"/>
     <doc id="/08547/sgml_eu_php_obj_gr018821"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/48486&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/48486&quot;">
     <doc id="/2048017/Athena_Plus_ProvidedCHO_Pictures_bank_eu__ICIMSS__5087"/>
     <doc id="/08501/E8B409F58617A7D6F3E4B7EC4346328740F0A986"/>
     <doc id="/9200365/BibliographicResource_2000081598807"/>
@@ -14490,7 +14490,7 @@
     <doc id="/08501/5C3AC0E46EA0608CB7461059E9B94093DF1A3291"/>
     <doc id="/90402/SK_A_2980"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60907&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60907&quot;">
     <doc id="/08501/F6CF66B6F7B561CE9C3F0EAC5DE2B4E20BFF5FF9"/>
     <doc id="/08535/local__default__F_1023"/>
     <doc id="/2048011/work_64017"/>
@@ -14499,37 +14499,37 @@
     <doc id="/08501/48DC3C9A9809A245FF84AFB3AC88F418DEEBF114"/>
     <doc id="/08562/AFC44A729D57794A3AE9C297B897A2331D871620"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/57083&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/57083&quot;">
     <doc id="/2063621/FRA_280_011"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/7221&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/7221&quot;">
     <doc id="/08501/CCE05C9A584C619110312B7FA20A196CB05BCAA4"/>
     <doc id="/08501/DF4F064DF81D85E50AB913AE7BD8701FD3494B8F"/>
     <doc id="/08501/5A1A3B9285FC67B385FAD98C930BB8BCECDB5BC4"/>
     <doc id="/08501/C110190F188724A75F2A88B18B2728086AB77C4B"/>
     <doc id="/90402/RP_T_1969_207"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/2353&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/2353&quot;">
     <doc id="/2063617/MAL_280_009"/>
     <doc id="/2063617/MAL_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/152823&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/152823&quot;">
     <doc id="/2063629/AUS_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/55221&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/55221&quot;">
     <doc id="/2063604/DEN_280_014"/>
     <doc id="/2063604/DEN_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60469&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60469&quot;">
     <doc id="/2063602/SWE_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53608&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53608&quot;">
     <doc id="/2063625/HU_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53609&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53609&quot;">
     <doc id="/2063604/DEN_280_020"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59821&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59821&quot;">
     <doc id="/2063629/AUS_280_004"/>
     <doc id="/2024901/photography_ProvidedCHO_Alinari_Archives_ACA_F_007516_0000"/>
     <doc id="/08504/E75C7D19D2C1F96722E6CF9F66EE7ADD690FBB49"/>
@@ -14544,13 +14544,13 @@
     <doc id="/2032004/10287"/>
     <doc id="/9200105/BibliographicResource_3000006133159"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/49103&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/49103&quot;">
     <doc id="/2063625/HU_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/150851&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/150851&quot;">
     <doc id="/2063609/ES_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62510&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62510&quot;">
     <doc id="/2048227/DEC_1_005"/>
     <doc id="/2048011/work_20936"/>
     <doc id="/08502/Athena_Update_ProvidedCHO_The_Israel_Museum__Jerusalem_191798"/>
@@ -14560,7 +14560,7 @@
     <doc id="/2048419/item_RCWFNYZNMTNPGWBPUNANQSXMH6XFVUKA"/>
     <doc id="/2048011/work_83401"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62993&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62993&quot;">
     <doc id="/05811/B3DEC847_DBAA_4CA4_8968_36818C7F3A96"/>
     <doc id="/2022365/Bristol_Museums__Galleries___Archives_emu_ecatalogue_fineart_117273"/>
     <doc id="/15508/GE120DL"/>
@@ -14574,19 +14574,19 @@
     <doc id="/08501/A17AF535EE8351C13FA6D3362BA9D6B22D47C66F"/>
     <doc id="/08501/B07F654E7A3C365610713C796022FBE319AC2ECA"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/52889&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/52889&quot;">
     <doc id="/2063625/HU_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/161897&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/161897&quot;">
     <doc id="/2063617/MAL_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/64370&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/64370&quot;">
     <doc id="/2063627/BEL_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/50108&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/50108&quot;">
     <doc id="/2063627/BEL_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56208&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56208&quot;">
     <doc id="/08501/5FDF4532A775235E557D3121C888318CEDEACA9A"/>
     <doc id="/90402/RP_P_1956_16"/>
     <doc id="/2058501/MTB_AW_1973_23"/>
@@ -14600,7 +14600,7 @@
     <doc id="/08501/912FF07AF4DD0DD2A1137D2741FAF01C53359EBB"/>
     <doc id="/08501/8A5B1FCAA7CF3B7830DB96C6157714BEE3A877AB"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/52649&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/52649&quot;">
     <doc id="/90402/SK_A_2709"/>
     <doc id="/08501/BE0AFEF3D6AE200884FBCBED0B35CCED981B53CB"/>
     <doc id="/04101/C783AB45A8D368CBDB65BFC18FCF89A9E013F0E9"/>
@@ -14610,7 +14610,7 @@
     <doc id="/2021608/dispatcher_aspx_action_search_database_ChoiceCollect_search_priref_42883"/>
     <doc id="/04101/C2F4798A6B58CE97D6A6AABA85A97CC11A0F783D"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/17665&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/17665&quot;">
     <doc id="/2048416/item_Z7TNCLQTWDHWJFQW7NALXUL6GXJVD6YA"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MNAD_CE25012"/>
     <doc id="/2026116/Partage_Plus_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20142292_fmd467695"/>
@@ -14619,13 +14619,13 @@
     <doc id="/2026116/Partage_Plus_ProvidedCHO_Bildarchiv_Foto_Marburg_t2_20100773_fmd481368"/>
     <doc id="/2026111/Partage_Plus_ProvidedCHO_Design_Museum_Gent_inv__87_1429"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/34434&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/34434&quot;">
     <doc id="/2063628/IRE_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/108000&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/108000&quot;">
     <doc id="/2063604/DEN_280_013"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59832&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59832&quot;">
     <doc id="/90402/SK_A_3262"/>
     <doc id="/90402/RP_P_1912_609"/>
     <doc id="/92034/GVNRC_VGM01_d0420"/>
@@ -14638,16 +14638,16 @@
     <doc id="/92034/GVNRC_VGM01_b4873"/>
     <doc id="/92034/GVNRC_VGM01_s0083"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/49357&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/49357&quot;">
     <doc id="/2063623/GER_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/43372&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/43372&quot;">
     <doc id="/2063604/DEN_280_019"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/49110&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/49110&quot;">
     <doc id="/2063603/LIT_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/67082&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/67082&quot;">
     <doc id="/2048011/work_63834"/>
     <doc id="/2048011/work_64102"/>
     <doc id="/2021618/internetserver_Details_kunst_1435"/>
@@ -14661,7 +14661,7 @@
     <doc id="/2048011/work_14597"/>
     <doc id="/2048011/work_15918"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60209&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60209&quot;">
     <doc id="/2058501/MTB_AW_1974_43"/>
     <doc id="/15508/DG1912_210"/>
     <doc id="/2048416/item_VXDDO3RU6UX3BBSII7P4FHQFUD3CGBND"/>
@@ -14675,10 +14675,10 @@
     <doc id="/15508/23843"/>
     <doc id="/15508/24110"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60688&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60688&quot;">
     <doc id="/2063604/DEN_280_021"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60204&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60204&quot;">
     <doc id="/2048011/work_63864"/>
     <doc id="/2048011/work_63702"/>
     <doc id="/9200105/BibliographicResource_3000006123052"/>
@@ -14688,13 +14688,13 @@
     <doc id="/2048011/work_23330"/>
     <doc id="/08501/963A866104AC083714D2036FABD5C166CE6AE660"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/64805&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/64805&quot;">
     <doc id="/2063604/DEN_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/55244&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/55244&quot;">
     <doc id="/2063607/EST_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60206&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60206&quot;">
     <doc id="/11001/F12AE830D5A7574283EF7E13B2546A11D152A20F"/>
     <doc id="/03915/A90F2D522103322CCD1A7A99ACDEFA1ADC58B51D"/>
     <doc id="/92034/GVNRC_NAGO02_IISG_30051002865795"/>
@@ -14708,7 +14708,7 @@
     <doc id="/2048011/work_83504"/>
     <doc id="/04802/BA6619EC30060088FA997FB6E61FAA23C859D039"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59963&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59963&quot;">
     <doc id="/2063612/NO_280_001"/>
     <doc id="/2063612/NO_280_002"/>
     <doc id="/9200105/BibliographicResource_3000006092094"/>
@@ -14724,10 +14724,10 @@
     <doc id="/2022608/ROCK_ROCK3579"/>
     <doc id="/04802/3FACEA961E1C4AD73DD50F7E95E76383FC36A14D"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/81144&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/81144&quot;">
     <doc id="/2063613/POL_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61654&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61654&quot;">
     <doc id="/15508/DG2007DL4"/>
     <doc id="/2064114/Museu_ProvidedCHO_Digitales_Kunst__und_Kulturarchiv_D_sseldorf_41245"/>
     <doc id="/08501/C21412F4A09906883AEA3E56D4D2BEF2C7EED6C6"/>
@@ -14741,10 +14741,10 @@
     <doc id="/15508/DG2009DL61"/>
     <doc id="/15508/DL517"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/39558&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/39558&quot;">
     <doc id="/2063622/LUX_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60680&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60680&quot;">
     <doc id="/2063621/FRA_280_003"/>
     <doc id="/2021002/e_IsShownAt_5AC72484_934E_4CC6_9AB6_AD55621FA309"/>
     <doc id="/08501/0ACA70D6F12EF8D1A6F5913A3448799A1C869C9B"/>
@@ -14759,16 +14759,16 @@
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_2322___"/>
     <doc id="/08501/867497E2A7548764D5BAA882A44AC0AF4A5BDFA4"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/156721&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/156721&quot;">
     <doc id="/2063607/EST_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/58516&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/58516&quot;">
     <doc id="/2063615/SLO_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56337&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56337&quot;">
     <doc id="/2063607/EST_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61096&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61096&quot;">
     <doc id="/2032004/19094"/>
     <doc id="/90402/SK_A_3970"/>
     <doc id="/2021664/search_identifier_ubm_items_89ddf005ada1e48add81d81ccc2dca7b"/>
@@ -14776,7 +14776,7 @@
     <doc id="/15502/GG_1835"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MRABASF_0350"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61095&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61095&quot;">
     <doc id="/2063620/GRE_280_02"/>
     <doc id="/2063609/ES_280_002"/>
     <doc id="/2048047/Athena_Plus_ProvidedCHO_Institutul_Na_ional_al_Patrimoniului_E55F8C54AC81456AB1BB510F8554035A"/>
@@ -14789,7 +14789,7 @@
     <doc id="/2032004/9931"/>
     <doc id="/2059101/MP_P00824"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/83&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/83&quot;">
     <doc id="/2021401/97915DFD19A75198DFF685F331A3847B96047330"/>
     <doc id="/2021401/346666F66841E9E93BE7116FC163E44069E92741"/>
     <doc id="/2022326/6F53BA20D911E2DE237A565D7C430E07F9E1E7A3"/>
@@ -14803,10 +14803,10 @@
     <doc id="/9200310/BibliographicResource_3000093744536_source"/>
     <doc id="/2020601/attachments_3025_740_3025_original_3025_jpg"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/67871&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/67871&quot;">
     <doc id="/2063601/_112C80A75AAE11DBA0615254ABDD25F5"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56576&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56576&quot;">
     <doc id="/2063623/GER_280_001"/>
     <doc id="/08501/32F4E51E52AD2996500CC9DFF1E7C93D7514C707"/>
     <doc id="/15502/GG_835"/>
@@ -14822,7 +14822,7 @@
     <doc id="/15508/3099"/>
     <doc id="/08501/C646C0CB417A7474B45E9996402E7E2F474CBEA6"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146803&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146803&quot;">
     <doc id="/2023702/308AED0B4C9DEA3A0D43449B92C3E015472961D3"/>
     <doc id="/2023601/oai_eu_dismarc_PATA_829410908368"/>
     <doc id="/2023702/E03BD7755FABC85A60BDAD500452345505E155FD"/>
@@ -14836,17 +14836,17 @@
     <doc id="/2023708/CD3DAFF1336A5C3E811D0710146895392A0FEF08"/>
     <doc id="/2023701/ANS69a069986d1211e1ae16bc305bd461d9"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/110058&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/110058&quot;">
     <doc id="/2032004/8572"/>
     <doc id="/2048047/Athena_Plus_ProvidedCHO_Institutul_Na_ional_al_Patrimoniului_C98AE6FC73D34277B1DB0EACF8126754"/>
     <doc id="/2048047/Athena_Plus_ProvidedCHO_Institutul_Na_ional_al_Patrimoniului_C420017C2E2A49B8A4AAD522F6A72152"/>
     <doc id="/2048047/Athena_Plus_ProvidedCHO_Institutul_Na_ional_al_Patrimoniului_91709F612EB74F95A9D7A14D3E61F981"/>
     <doc id="/08501/E4D4057A7668EC79F56300D7D03F1D661D7D5878"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/152295&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/152295&quot;">
     <doc id="/2063602/SWE_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/149211&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/149211&quot;">
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MNAD_CE25019"/>
     <doc id="/04101/FC53130A657813B4679F30D51A14D94F0F6C37A4"/>
     <doc id="/2026116/Partage_Plus_ProvidedCHO_Bildarchiv_Foto_Marburg_t2_20064565_fmd470239"/>
@@ -14860,7 +14860,7 @@
     <doc id="/2026116/Partage_Plus_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20065468_fmd477555"/>
     <doc id="/08501/72E04C568D5B9151943118B56204487D15EA1067"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/58244&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/58244&quot;">
     <doc id="/90402/SK_A_3461"/>
     <doc id="/08501/CDD82577722BA24A050EA3CBD985D8068985660E"/>
     <doc id="/08501/95984C4FDCB1F228B218E09B7BEA0567F6C0757F"/>
@@ -14868,16 +14868,16 @@
     <doc id="/08501/0B80D1D713044FFC26FB23B6193B3CA54C2C4004"/>
     <doc id="/15407/10E994266C4D06BFAB6D0F29A7B48B56B8AF0EAE"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/163858&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/163858&quot;">
     <doc id="/2063617/MAL_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/159129&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/159129&quot;">
     <doc id="/2063617/MAL_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62454&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62454&quot;">
     <doc id="/90402/SK_A_3584"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/61002&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/61002&quot;">
     <doc id="/2048011/work_63907"/>
     <doc id="/15502/GG_274"/>
     <doc id="/2048011/work_28811"/>
@@ -14889,13 +14889,13 @@
     <doc id="/2032004/10019"/>
     <doc id="/9200166/BibliographicResource_3000117229393"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/81193&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/81193&quot;">
     <doc id="/2063606/POR_280_005"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/39507&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/39507&quot;">
     <doc id="/2063622/LUX_280_005"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/96&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/96&quot;">
     <doc id="/2026109/Partage_Plus_ProvidedCHO_KIK_IRPA__Brussels__Belgium__10336755"/>
     <doc id="/2026122/Partage_Plus_ProvidedCHO_Sainsbury_Centre_for_Visual_Arts__University_of_East_Anglia_21022A"/>
     <doc id="/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_4494"/>
@@ -14909,10 +14909,10 @@
     <doc id="/2026116/Partage_Plus_ProvidedCHO_Bildarchiv_Foto_Marburg_obj_20046051_fmd481860"/>
     <doc id="/09206/EUS_551D22023C65473E8FB18B0F006B8FA0"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/66496&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/66496&quot;">
     <doc id="/2063627/BEL_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53232&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53232&quot;">
     <doc id="/90402/BK_1969_25"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MNAD_CE06789"/>
     <doc id="/2023847/dkult_DE_MUS_038015_137031"/>
@@ -14926,10 +14926,10 @@
     <doc id="/2026106/Partage_Plus_ProvidedCHO_MAK____sterreichisches_Museum_f_r_angewandte_Kunst___Gegenwartskunst_3"/>
     <doc id="/2023847/dkult_DE_MUS_038015_55107"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/152617&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/152617&quot;">
     <doc id="/2063628/IRE_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60828&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60828&quot;">
     <doc id="/90402/SK_A_4977"/>
     <doc id="/15407/192819259B63A637B5CE5BEB01AD976361427408"/>
     <doc id="/08501/4154DCD380EA194E54869FA4922DC4897C7331FF"/>
@@ -14943,7 +14943,7 @@
     <doc id="/2058501/MTB_AW_1966_3"/>
     <doc id="/08501/71D4BB7C9EF4B319F4C4001942C72FBFCA747E25"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/52942&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/52942&quot;">
     <doc id="/2063609/ES_280_011"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MRABASF_0641"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MNR_CE7319"/>
@@ -14958,13 +14958,13 @@
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MRABASF_0343"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MRABASF_0658"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/52941&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/52941&quot;">
     <doc id="/2063606/POR_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/57160&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/57160&quot;">
     <doc id="/2063610/O_88"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/57280&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/57280&quot;">
     <doc id="/2063609/ES_280_008"/>
     <doc id="/15502/GG_321"/>
     <doc id="/2032004/9201"/>
@@ -14979,10 +14979,10 @@
     <doc id="/15502/GG_2129"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_01535"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/21530&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/21530&quot;">
     <doc id="/2063604/DEN_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/82853&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/82853&quot;">
     <doc id="/90402/SK_C_5"/>
     <doc id="/2063602/SWE_280_003"/>
     <doc id="/90402/SK_A_4691"/>
@@ -14997,7 +14997,7 @@
     <doc id="/9200235/BibliographicResource_3000031463758"/>
     <doc id="/2021618/internetserver_Details_kunst_11174"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60386&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60386&quot;">
     <doc id="/9200518/ark__12148_btv1b6903223g"/>
     <doc id="/2022067/10796_12D106CE_D2AC_4F6A_A5A6_6B4BB29DA404"/>
     <doc id="/09003/53E8CC500430D8B7208C2861550A3C677294CB70"/>
@@ -15011,16 +15011,16 @@
     <doc id="/91638/tekm_media_126405"/>
     <doc id="/92006/BibliographicResource_2000060223816"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/56991&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/56991&quot;">
     <doc id="/2063607/EST_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/157995&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/157995&quot;">
     <doc id="/2063604/DEN_280_004"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/58012&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/58012&quot;">
     <doc id="/2063603/LIT_280_007"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/155335&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/155335&quot;">
     <doc id="/2048011/work_27999"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NMB_1075___"/>
     <doc id="/05812/E72E1232_7E38_4BC8_A441_F9A06DF9A088"/>
@@ -15034,10 +15034,10 @@
     <doc id="/2048011/work_6605"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NMB_6___"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/111712&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/111712&quot;">
     <doc id="/2063618/FI_280_010"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60263&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60263&quot;">
     <doc id="/2063604/DEN_280_002"/>
     <doc id="/15502/GG_285"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_08486"/>
@@ -15046,22 +15046,22 @@
     <doc id="/2048011/work_6667"/>
     <doc id="/02030/MatrizNet_Objectos_ObjectosConsultar_aspx_IdReg_1008791"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147833&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147833&quot;">
     <doc id="/2063629/AUS_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/32666&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/32666&quot;">
     <doc id="/2063604/DEN_280_011"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147831&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147831&quot;">
     <doc id="/2063618/FI_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/57967&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/57967&quot;">
     <doc id="/2063603/LIT_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/72925&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/72925&quot;">
     <doc id="/2063604/DEN_280_012"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146741&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146741&quot;">
     <doc id="/03919/FCD38BDE7A03579F24BEDA5D157943B75BB36F11"/>
     <doc id="/07501/8D3349C2B4008DF51B1AC698A083EF6F1F9B27BF"/>
     <doc id="/92035/BibliographicResource_1000096336091"/>
@@ -15075,7 +15075,7 @@
     <doc id="/2020801/dmglib_handler_docum_664009"/>
     <doc id="/9200134/BibliographicResource_2000000010189"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147951&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147951&quot;">
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_05224"/>
     <doc id="/2021002/e_IsShownAt_DF9AF206_E7DF_4A29_9367_BF67F8004085"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_02349"/>
@@ -15089,16 +15089,16 @@
     <doc id="/15508/14580"/>
     <doc id="/2048011/work_35944"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/160330&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/160330&quot;">
     <doc id="/2063629/AUS_280_012"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/164375&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/164375&quot;">
     <doc id="/2063620/GRE_280_09"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60816&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60816&quot;">
     <doc id="/2063623/GER_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59908&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59908&quot;">
     <doc id="/2063621/FRA_280_007"/>
     <doc id="/08501/BEC9CF341A250BBF2E38E566566CCF36C9F50C24"/>
     <doc id="/08501/3E54A44D653F880CE880664737D63F1DC862FDB6"/>
@@ -15113,10 +15113,10 @@
     <doc id="/2022304/39D86307799914C46EE3158C0CD62D08296AB4D9"/>
     <doc id="/08501/41DA80267040A5A0198A14BEBAA02DAC2CC7F734"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/72482&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/72482&quot;">
     <doc id="/2063624/UK_280_014"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/63529&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/63529&quot;">
     <doc id="/08504/A40955414DBD4EA9AE5087921C3051DA102F90F1"/>
     <doc id="/2022326/work_aspx_obj_16430"/>
     <doc id="/2048011/work_64118"/>
@@ -15130,7 +15130,7 @@
     <doc id="/2032003/GR_item_74829"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden_21467"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147010&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147010&quot;">
     <doc id="/2063627/BEL_280_016"/>
     <doc id="/2063627/BEL_280_013"/>
     <doc id="/2032004/9827"/>
@@ -15143,7 +15143,7 @@
     <doc id="/08501/FABA5FF50BFCBE3630572BAB55F32B403FAA38CF"/>
     <doc id="/90402/RP_T_00_576"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/106020&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/106020&quot;">
     <doc id="/08501/E1E97748D6465F70D720C8119315BF2B8EEA6DF4"/>
     <doc id="/2064114/Museu_ProvidedCHO_Digitales_Kunst__und_Kulturarchiv_D_sseldorf_141763"/>
     <doc id="/08501/B398934EE8B8B9AC4104BE17F0DCBB9583CE7F5C"/>
@@ -15157,10 +15157,10 @@
     <doc id="/15508/5681"/>
     <doc id="/15508/25792"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/63645&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/63645&quot;">
     <doc id="/2063601/_20327b5f_6343_4d7b_98cf_e96971c2834c"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59916&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59916&quot;">
     <doc id="/05811/D909FCC9_71A6_4BEB_93BD_7A21C0D78316"/>
     <doc id="/90402/RP_P_1950_772"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_2086___"/>
@@ -15174,7 +15174,7 @@
     <doc id="/2032004/433"/>
     <doc id="/2058501/MTB_AW_1976_74"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146951&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146951&quot;">
     <doc id="/92060/BibliographicResource_1000126012400"/>
     <doc id="/15503/FS_PA84283alt"/>
     <doc id="/9200365/BibliographicResource_3000004794342"/>
@@ -15188,7 +15188,7 @@
     <doc id="/9200106/29D0FC759A41492F95BBFBA48E6B4B9564D829EF"/>
     <doc id="/08562/F8C10D0EE46FD66CB9D80606B45803FAA00ABFA4"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/16653&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/16653&quot;">
     <doc id="/2021002/e_IsShownAt_956AD796_3E02_4EAE_BA1F_23099C5D5FDF"/>
     <doc id="/08501/B4F17D3D5176CB1735296F8746BAAB0D24EF84DB"/>
     <doc id="/08501/C4243E36642871023097998384B4BF372C1DBBDE"/>
@@ -15202,7 +15202,7 @@
     <doc id="/08501/C4892D2F1BC3440B1B306B2613B48D49600916B0"/>
     <doc id="/08501/202CCF56B714D7C62504BC02B75C2213802BDE36"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/91409&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/91409&quot;">
     <doc id="/92034/GVNRC_OHR01_47"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MLGM_02341"/>
     <doc id="/90402/RP_T_1927_14"/>
@@ -15216,28 +15216,28 @@
     <doc id="/2022326/D3EC418B4561E8F08BE881699BC0CB7C7BCD59B8"/>
     <doc id="/2022326/403D3741EB733DAF6B51B704C1994A7BFFDC59AF"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/48347&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/48347&quot;">
     <doc id="/2063619/CZR_280_009"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/70177&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/70177&quot;">
     <doc id="/2063624/UK_280_012"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/49551&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/49551&quot;">
     <doc id="/2063609/ES_280_012"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/146835&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/146835&quot;">
     <doc id="/90402/SK_A_1718"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/147802&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/147802&quot;">
     <doc id="/2063628/IRE_280_003"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/25244&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/25244&quot;">
     <doc id="/2063604/DEN_280_022"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/73683&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/73683&quot;">
     <doc id="/2063607/EST_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/50663&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/50663&quot;">
     <doc id="/15502/KK_T_XV_7"/>
     <doc id="/08501/D852BB4790214528067E9A0A80528B47DB3D3DD8"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_798___"/>
@@ -15250,16 +15250,16 @@
     <doc id="/08501/1D8422BEB7DDFA568774369239641E0FB1E2A61D"/>
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_801___"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/65813&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/65813&quot;">
     <doc id="/2063624/UK_280_013"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/53380&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/53380&quot;">
     <doc id="/2063610/O_1223"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/4995&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/4995&quot;">
     <doc id="/2063602/SWE_280_013"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/51086&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/51086&quot;">
     <doc id="/08501/DE8E80A65BBF0A737929D3596095DCED3A933283"/>
     <doc id="/2022703/oai_euromuseos_mcu_es_euromuseos_MRABASF_0710"/>
     <doc id="/15407/DBBE0BA5150EA2A3620475CD861AB527D9813FEF"/>
@@ -15273,7 +15273,7 @@
     <doc id="/2048005/Athena_Plus_ProvidedCHO_Nationalmuseum__Sweden__Inv__Nr__NM_2774___"/>
     <doc id="/9200376/BibliographicResource_3000100301824"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/110088&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/110088&quot;">
     <doc id="/08547/sgml_eu_php_obj_pk000497"/>
     <doc id="/03486/BibliographicResource_2000081699277"/>
     <doc id="/2048043/Athena_Plus_ProvidedCHO_Universit_t_Osnabr_ck___Historische_Bildpostkarten_6398"/>
@@ -15287,16 +15287,16 @@
     <doc id="/08547/sgml_eu_php_obj_z0005150"/>
     <doc id="/15507/oai_www_digital_wienbibliothek_at_435840"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60122&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60122&quot;">
     <doc id="/2063623/GER_280_011"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/152283&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/152283&quot;">
     <doc id="/2063622/LUX_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/133649&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/133649&quot;">
     <doc id="/2063628/IRE_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/60003&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/60003&quot;">
     <doc id="/2048410/item_IZPCLYV24NM6HIMENY7RQRZHFAD7NQ3A"/>
     <doc id="/LinkedHeritage_Update_ProvidedCHO_Pictures_bank_eu__ICIMSS__20272"/>
     <doc id="/08504/4D965598741D844573933308046C94E17BC0D41A"/>
@@ -15309,16 +15309,16 @@
     <doc id="/2024903/photography_ProvidedCHO_KU_Leuven_9989071580101488"/>
     <doc id="/2048011/work_2742"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/14212&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/14212&quot;">
     <doc id="/2063618/FI_280_001"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/68769&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/68769&quot;">
     <doc id="/2063623/GER_280_006"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/63634&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/63634&quot;">
     <doc id="/2063624/UK_280_019"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/62302&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/62302&quot;">
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_E_446_1965"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Manchester_Metropolitan_University_BD0113r"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_E_405_1998"/>
@@ -15330,13 +15330,13 @@
     <doc id="/2026110/Partage_Plus_ProvidedCHO_Museum_of_Applied_Arts__Budapest_1202"/>
     <doc id="/2026101/Partage_Plus_ProvidedCHO_Victoria_and_Albert_Museum_E_578_1932"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/81182&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/81182&quot;">
     <doc id="/2063604/DEN_280_016"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/84570&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/84570&quot;">
     <doc id="/2063608/CYP_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/59803&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/59803&quot;">
     <doc id="/08533/artifact_aspx_id_1063"/>
     <doc id="/90402/RP_P_1984_87"/>
     <doc id="/08533/artifact_aspx_id_1059"/>
@@ -15350,16 +15350,16 @@
     <doc id="/9200365/BibliographicResource_3000094948622"/>
     <doc id="/9200105/BibliographicResource_3000006132386"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/127768&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/127768&quot;">
     <doc id="/2063611/CRO_280_002"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/78208&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/78208&quot;">
     <doc id="/2063604/DEN_280_008"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/42491&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/42491&quot;">
     <doc id="/90402/SK_A_4100"/>
   </query>
-  <query text="edm_agent:&quot;http://data.europeana.eu/agent/150308&quot;">
+  <query text="who_id:&quot;http://data.europeana.eu/agent/150308&quot;">
     <doc id="/2048077/Athena_Plus_ProvidedCHO_Germanisches_Nationalmuseum_N_rnberg___Digitaler_Portr_tindex_obj_33707278"/>
     <doc id="/2032004/10354"/>
     <doc id="/2021618/internetserver_Details_kunst_25082"/>
@@ -15373,7 +15373,7 @@
     <doc id="/92062/BibliographicResource_1000126161204"/>
     <doc id="/2048419/item_QSYAWEG7T5TRSG7BSM73GJQEJHFT35YB"/>
   </query>
-  <query text="skos_concept:&quot;http://data.europeana.eu/concept/193&quot;">
+  <query text="what_id:&quot;http://data.europeana.eu/concept/193&quot;">
     <doc id="/2058616/omeka_items_show_2087"/>
     <doc id="/2058616/omeka_items_show_2090"/>
   </query>
