@@ -868,7 +868,7 @@
        <str name="q.op">AND</str>
        <str name="defType">edismax</str>
        <str name="qf">metadataText</str> <!-- replaces df -->
-       <str name="tie">1</str>
+       <str name="tie">1.0</str>
        <!-- mmarrero: test if general search can be done using language specific normalization, if performance is bad, then use fields with standard normalization -->
         <str name="f.titlePlus.qf">title description</str>
         
