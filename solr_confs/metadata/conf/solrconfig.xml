@@ -1130,108 +1130,108 @@
     	<str name="pattern">^(title|description|creator|creatorProfession|objectType|subject|format|medium|created|issued|temporalCoverage|providingCountry|currentLocation|spatialCoverage|dataProvider|provider)_lang_(.*)$</str>
     	<str name="replacement">metadataText_lang_$1</str>     
   </updateProcessor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText_contentCategory">
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText_contentCategory">
        <str name="source">contentCategory</str>
        <str name="dest">metadataText_lang_en</str>
-  </processor>
+  </updateProcessor>
   
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-title">
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-title">
   	<lst name="source">
          <str name="fieldRegex">title_lang_.*$</str>
     </lst>
     <str name="dest">title</str>
-  </processor>
-    <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-description">
+  </updateProcessor>
+    <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-description">
   	<lst name="source">
          <str name="fieldRegex">description_lang_.*$</str>
     </lst>
     <str name="dest">description</str>
-  </processor>
+  </updateProcessor>
   
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-creator">
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-creator">
   	<lst name="source">
          <str name="fieldRegex">creator_lang_.*$</str>
     </lst>
     <str name="dest">creator</str>
-  </processor>
-      <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-creatorProfession">
+  </updateProcessor>
+      <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-creatorProfession">
   	<lst name="source">
          <str name="fieldRegex">creatorProfession_lang_.*$</str>
     </lst>
     <str name="dest">creatorProfession</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-objectType">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-objectType">
   	<lst name="source">
          <str name="fieldRegex">objectType_lang_.*$</str>
     </lst>
     <str name="dest">objectType</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-subject">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-subject">
   	<lst name="source">
          <str name="fieldRegex">subject_lang_.*$</str>
     </lst>
     <str name="dest">subject</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-format">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-format">
   	<lst name="source">
          <str name="fieldRegex">format_lang_.*$</str>
     </lst>
     <str name="dest">format</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-medium">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-medium">
   	<lst name="source">
          <str name="fieldRegex">medium_lang_.*$</str>
     </lst>
     <str name="dest">medium</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-created">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-created">
   	<lst name="source">
          <str name="fieldRegex">created_lang_.*$</str>
     </lst>
     <str name="dest">created</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-issued">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-issued">
   	<lst name="source">
          <str name="fieldRegex">issued_lang_.*$</str>
     </lst>
     <str name="dest">issued</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-temporalCoverage">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-temporalCoverage">
   	<lst name="source">
          <str name="fieldRegex">temporalCoverage_lang_.*$</str>
     </lst>
     <str name="dest">temporalCoverage</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-providingCountry">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-providingCountry">
   	<lst name="source">
          <str name="fieldRegex">providingCountry_lang_.*$</str>
     </lst>
     <str name="dest">providingCountry</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-currentLocation">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-currentLocation">
   	<lst name="source">
          <str name="fieldRegex">currentLocation_lang_.*$</str>
     </lst>
     <str name="dest">currentLocation</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-spatialCoverage">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-spatialCoverage">
   	<lst name="source">
          <str name="fieldRegex">spatialCoverage_lang_.*$</str>
     </lst>
     <str name="dest">spatialCoverage</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-dataProvider">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-dataProvider">
   	<lst name="source">
          <str name="fieldRegex">dataProvider_lang_.*$</str>
     </lst>
     <str name="dest">dataProvider</str>
-  </processor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-provider">
+  </updateProcessor>
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-provider">
   	<lst name="source">
          <str name="fieldRegex">provider_lang_.*$</str>
     </lst>
     <str name="dest">provider</str>
-  </processor>
+  </updateProcessor>
      
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-titlePlus">
   	<str name="pattern">^(title|description)_lang_(.*)$</str>
