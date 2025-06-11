@@ -391,21 +391,21 @@
         <field name="pid" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         
         <!-- Title and description -->
-<!--         <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="description" type="text_general" indexed="true" stored="false" multiValued="true"/>  -->
+        <field name="title" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="description" type="text_general" indexed="true" stored="false" multiValued="true"/>  
 
         <!-- Authorities -->
-<!--        <field name="creator" type="text_general" indexed="true" stored="true" multiValued="true"/>  
+        <field name="creator" type="text_general" indexed="true" stored="true" multiValued="true"/>  
         <field name="creatorProfession" type="text_general" indexed="true" stored="true" multiValued="true"/> 
         <field name="objectType" type="text_general" indexed="true" stored="true" multiValued="true"/> 
         <field name="subject" type="text_general" indexed="true" stored="true" multiValued="true"/>
         <field name="format" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="medium" type="text_general" indexed="true" stored="true" multiValued="true"/> -->
+        <field name="medium" type="text_general" indexed="true" stored="true" multiValued="true"/> 
 
         <!-- Time dimension. Textual fields -->
-<!--        <field name="created" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="created" type="text_general" indexed="true" stored="true" multiValued="true"/>
         <field name="issued" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="temporalCoverage" type="text_general" indexed="false" stored="true" multiValued="true"/> -->
+        <field name="temporalCoverage" type="text_general" indexed="false" stored="true" multiValued="true"/> 
 
         <!-- Time dimension. Date fields -->
         <field name="created_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
@@ -422,9 +422,9 @@
         <field name="when_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
 
         <!-- Spatial dimension. Textual fields -->
-<!--        <field name="providingCountry" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="providingCountry" type="text_general" indexed="true" stored="true" multiValued="true"/>
         <field name="currentLocation" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="spatialCoverage" type="text_general" indexed="true" stored="true" multiValued="true"/> -->
+        <field name="spatialCoverage" type="text_general" indexed="true" stored="true" multiValued="true"/> 
 
         <!-- Spatial dimension. Geo fields -->
         <field name="currentLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/> <!-- TODO: check, shouldn't it be single value? -->
@@ -444,12 +444,12 @@
         -->
 
         <!-- Provenance -->
-<!--        <field name="dataProvider" type="text_general" indexed="true" stored="true" multiValued="true"/>
-        <field name="provider" type="text_general" indexed="true" stored="true" multiValued="true"/> -->
+        <field name="dataProvider" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <field name="provider" type="text_general" indexed="true" stored="true" multiValued="true"/> 
 
         <!-- General -->
-<!--        <field name="metadataText" type="text_general" indexed="true" stored="false" multiValued="true"/>
-        <dynamicField name="metadataText_id" type="string" indexed="true" stored="false" multiValued="true" docValues="true"/> -->
+        <field name="metadataText" type="text_general" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="metadataText_id" type="string" indexed="true" stored="false" multiValued="true" docValues="true"/> 
         <dynamicField name="random_*" type="random"/>
         <field name="snippet" type="snippet_text" indexed="false" stored="true" multiValued="false"/> <!-- Test -->
 
@@ -470,35 +470,35 @@
         <!--  used for URIs of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText --> 
         <dynamicField name="*_id" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <!--  used for non language tagged values of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
-        <dynamicField name="*_lang_undef" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_undef" type="text_general" indexed="true" stored="false" multiValued="true"/>
         <!--  used for language tagged contents in other non-official or supported languages of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
-        <dynamicField name="*_lang_other" type="text_general" indexed="true" stored="true" multiValued="true"/>
+        <dynamicField name="*_lang_other" type="text_general" indexed="true" stored="false" multiValued="true"/>
         <!--  used for language tagged contents in official or supported languages of creator, creatorProfession, objectType, subject, format, medium, created, issued, temporalCoverage, providingCountry, currentLocation, spatialCoverage, dataProvider, provider, metadataText -->
-        <dynamicField name="*_lang_en" type="text_en" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_nl" type="text_nl" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_fr" type="text_fr" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_de" type="text_de" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_es" type="text_es" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_sv" type="text_sv" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_it" type="text_it" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_fi" type="text_fi" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_da" type="text_da" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_el" type="text_el" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_cs" type="text_cs" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_sk" type="text_sk" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_sl" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Slovenian not supported -->
-        <dynamicField name="*_lang_pt" type="text_pt" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_hu" type="text_hu" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_lt" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Lithuanian not supported -->
-        <dynamicField name="*_lang_pl" type="text_pl" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_ro" type="text_ro" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_bg" type="text_bg" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_hr" type="text_stokavian" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_lv" type="text_lv" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_ga" type="text_ga" indexed="true" stored="true" multiValued="true"/>
-        <dynamicField name="*_lang_mt" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Maltese not supported -->
-        <dynamicField name="*_lang_et" type="text_general" indexed="true" stored="true" multiValued="true"/> <!-- Estonian not supported in this version-->
-        <dynamicField name="*_lang_eu" type="text_eu" indexed="true" stored="true" multiValued="true"/> <!-- Basque: only if possible --> 
+        <dynamicField name="*_lang_en" type="text_en" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_nl" type="text_nl" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_fr" type="text_fr" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_de" type="text_de" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_es" type="text_es" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_sv" type="text_sv" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_it" type="text_it" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_fi" type="text_fi" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_da" type="text_da" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_el" type="text_el" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_cs" type="text_cs" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_sk" type="text_sk" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_sl" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Slovenian not supported -->
+        <dynamicField name="*_lang_pt" type="text_pt" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_hu" type="text_hu" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_lt" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Lithuanian not supported -->
+        <dynamicField name="*_lang_pl" type="text_pl" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_ro" type="text_ro" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_bg" type="text_bg" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_hr" type="text_stokavian" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_lv" type="text_lv" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_ga" type="text_ga" indexed="true" stored="false" multiValued="true"/>
+        <dynamicField name="*_lang_mt" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Maltese not supported -->
+        <dynamicField name="*_lang_et" type="text_general" indexed="true" stored="false" multiValued="true"/> <!-- Estonian not supported in this version-->
+        <dynamicField name="*_lang_eu" type="text_eu" indexed="true" stored="false" multiValued="true"/> <!-- Basque: only if possible --> 
     </fields>
 
     <uniqueKey>id</uniqueKey>
