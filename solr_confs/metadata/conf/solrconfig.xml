@@ -1170,63 +1170,12 @@
       	<str name="pattern">^(providingCountry|currentLocation|spatialCoverage)_lang_(.*)$</str>
     	<str name="replacement">where_lang_$1</str>
   </updateProcessor>
-  
-  
- <!--  
- <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadatatext-id">
-    <arr name="source">
-         <str>creator_id</str>
-         <str>creatorProfession_id</str>
-         <str>objectType_id</str>
-         <str>subject_id</str>
-         <str>format_id</str>
-         <str>medium_id</str>
-         <str>created_id</str>
-         <str>issued_id</str>
-         <str>temporalCoverage_id</str>
-         <str>providingCountry_id</str>
-         <str>currentLocation_id</str>
-         <str>spatialCoverage_id</str>
-         <str>dataProvider_id</str>
-         <str>provider_id</str>
-    </arr>
-       <str name="dest">metadataText_id</str>     
-  </updateProcessor>
-   -->
-  <updateProcessor class="org.apache.solr.update.processor.UniqFieldsUpdateProcessorFactory" name="remove-duplicates">
-     <arr name="fieldName">
-         <str>pid</str> <!-- TODO: check if multivalued -->
-         <str>title</str>
-         <str>description</str>
-         <str>creator</str>
-         <str>creatorProfession</str>
-         <str>objectType</str>
-         <str>subject</str>
-         <str>format</str>
-         <str>medium</str>
-         <str>created</str>
-         <str>issued</str>
-         <str>temporalCoverage</str>
-         <str>providingCountry</str>
-         <str>currentLocation</str>
-         <str>spatialCoverage</str>
-         <str>contentCategory</str>
-         <str>dataProvider</str>
-         <str>provider</str>
-         <str>creator_id</str>
-         <str>creatorProfession_id</str>
-         <str>objectType_id</str>
-         <str>subject_id</str>
-         <str>format_id</str>
-         <str>medium_id</str>
-         <str>created_id</str>
-         <str>issued_id</str>
-         <str>temporalCoverage_id</str>
-         <str>spatialCoverage_id</str>
-         <str>provider_id</str>
-         <str>metadataLanguage</str>
-         <str>contentLanguage</str>
-     </arr>      
+    
+   <updateProcessor class="org.apache.solr.update.processor.UniqFieldsUpdateProcessorFactory" name="remove-duplicates-lang">
+		<str name="fieldRegex">.*_lang_.*</str>
+   </updateProcessor>
+   <updateProcessor class="org.apache.solr.update.processor.UniqFieldsUpdateProcessorFactory" name="remove-duplicates-id">
+		<str name="fieldRegex">.*_id</str>
    </updateProcessor>
 
 
@@ -1239,7 +1188,7 @@
   </updateRequestProcessorChain>
 -->
   <!-- mmarrero: custom processor -->
-<updateRequestProcessorChain name="files-update-processor" processor="remove-blank,field-name-mutating,default-timestamp-update,truncate-string,clone-fields-metadataText,clone-fields-metadataText_contentCategory, clone-fields-titlePlus, clone-fields-who, clone-fields-what, clone-fields-where, clone-fields-when,remove-duplicates">
+<updateRequestProcessorChain name="files-update-processor" processor="remove-blank,field-name-mutating,default-timestamp-update,truncate-string,clone-fields-titlePlus,clone-fields-who, clone-fields-what, clone-fields-where, clone-fields-when,remove-duplicates-lang, remove-duplicates-id, clone-fields-metadataText,clone-fields-metadataText_contentCategory">
     <processor class="solr.LogUpdateProcessorFactory"/>
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>
