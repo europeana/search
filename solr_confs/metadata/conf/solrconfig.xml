@@ -84,6 +84,9 @@
 
   <!-- mmarrero: adding directive to load alias plugin -->
   <lib dir="${solr.install.dir:../../../..}/contrib/lib" regex=".*\.jar" />
+  <!-- mmarrero: adding directive to load additional libraries for language normalization -->
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" regex=".*\.jar" />
+  
 
   <!-- an exact 'path' can be used instead of a 'dir' to specify a
        specific jar file.  This will cause a serious error to be logged
@@ -1146,10 +1149,10 @@
     	<str name="pattern">^(title|description|creator|creatorProfession|objectType|subject|format|medium|created|issued|temporalCoverage|providingCountry|currentLocation|spatialCoverage|dataProvider|provider)_lang_(.*)$</str>
     	<str name="replacement">metadataText_lang_$2</str>     
   </updateProcessor>
-  <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText_contentCategory">
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText_contentCategory">
        <str name="source">contentCategory</str>
        <str name="dest">metadataText_lang_en</str>
-  </processor>
+  </updateProcessor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-titlePlus">
   	<str name="pattern">^(title|description)_lang_(.*)$</str>
     <str name="replacement">titlePlus_lang_$2</str>
