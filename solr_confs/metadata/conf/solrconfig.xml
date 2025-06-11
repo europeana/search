@@ -84,6 +84,8 @@
 
   <!-- mmarrero: adding directive to load alias plugin -->
   <lib dir="${solr.install.dir:../../../..}/contrib/lib" regex=".*\.jar" />
+  <!-- mmarrero: adding directive to load additional libraries for language normalization -->
+  <lib dir="${solr.install.dir:../../../..}/contrib/analysis-extras/lucene-libs" regex=".*\.jar" />
 
   <!-- an exact 'path' can be used instead of a 'dir' to specify a
        specific jar file.  This will cause a serious error to be logged
