@@ -1142,9 +1142,9 @@
     <str name="typeClass">solr.StrField</str>
     <int name="maxLength">8000</int>
   </updateProcessor>
-  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText">
+  <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText_lang">
     	<str name="pattern">^(title|description|creator|creatorProfession|objectType|subject|format|medium|created|issued|temporalCoverage|providingCountry|currentLocation|spatialCoverage|dataProvider|provider)_lang_(.*)$</str>
-    	<str name="replacement">metadataText_lang_$1</str>     
+    	<str name="replacement">metadataText_lang_$2</str>     
   </updateProcessor>
   <processor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-metadataText_contentCategory">
        <str name="source">contentCategory</str>
@@ -1152,23 +1152,23 @@
   </processor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-titlePlus">
   	<str name="pattern">^(title|description)_lang_(.*)$</str>
-    <str name="replacement">titlePlus_lang_$1</str>
+    <str name="replacement">titlePlus_lang_$2</str>
   </updateProcessor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-who">
   	<str name="pattern">^(creator|creatorProfession)_lang_(.*)$</str>
-    <str name="replacement">who_lang_$1</str>     
+    <str name="replacement">who_lang_$2</str>     
   </updateProcessor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-what">
     	<str name="pattern">^(objectType|subject|format|medium)_lang_(.*)$</str>
-    	<str name="replacement">what_lang_$1</str>   
+    	<str name="replacement">what_lang_$2</str>   
   </updateProcessor>
   <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-when">
   	<str name="pattern">^(created|issued|temporalCoverage)_lang_(.*)$</str>
-    <str name="replacement">when_lang_$1</str>   
+    <str name="replacement">when_lang_$2</str>   
   </updateProcessor>
     <updateProcessor class="solr.CloneFieldUpdateProcessorFactory" name="clone-fields-where">
       	<str name="pattern">^(providingCountry|currentLocation|spatialCoverage)_lang_(.*)$</str>
-    	<str name="replacement">where_lang_$1</str>
+    	<str name="replacement">where_lang_$2</str>
   </updateProcessor>
     
    <updateProcessor class="org.apache.solr.update.processor.UniqFieldsUpdateProcessorFactory" name="remove-duplicates-lang">
@@ -1188,7 +1188,7 @@
   </updateRequestProcessorChain>
 -->
   <!-- mmarrero: custom processor -->
-<updateRequestProcessorChain name="files-update-processor" processor="remove-blank,field-name-mutating,default-timestamp-update,truncate-string,clone-fields-titlePlus,clone-fields-who, clone-fields-what, clone-fields-where, clone-fields-when,remove-duplicates-lang, remove-duplicates-id, clone-fields-metadataText,clone-fields-metadataText_contentCategory">
+<updateRequestProcessorChain name="files-update-processor" processor="remove-blank,field-name-mutating,default-timestamp-update,truncate-string,clone-fields-titlePlus,clone-fields-who, clone-fields-what, clone-fields-where, clone-fields-when,remove-duplicates-lang, remove-duplicates-id, clone-fields-metadataText_lang,clone-fields-metadataText_contentCategory">
     <processor class="solr.LogUpdateProcessorFactory"/>
     <processor class="solr.DistributedUpdateProcessorFactory"/>
     <processor class="solr.RunUpdateProcessorFactory"/>
