@@ -255,6 +255,8 @@
 		<field name="issued_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
 		<field name="issued_date_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
 		<field name="issued_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+		<!-- PID SUPPORT: only canonical form, more than one is possible -->
+		<field name="pid" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
     </fields>
