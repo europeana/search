@@ -243,20 +243,30 @@
         <dynamicField name="wr_dcterms_isReferencedBy.*" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
         <!--  EA2563: fields for the URI of edm:dataProvider (dataProvider), and edm:intermediateProvider and/or edm:provider (provider) -->
         <field name="dataProvider" type="string" indexed="true" stored="true" multiValued="false" docValues="true"/>
-		<field name="provider" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
-		<!--  MET4285: geospatial support -->
-		<field name="currentLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
-		<field name="coverageLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
-		<field name="location_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
-		<!-- DATE SUPPORT -->
-		<field name="created_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
-		<field name="created_date_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<field name="created_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<field name="issued_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
-		<field name="issued_date_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<field name="issued_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
-		<!-- PID SUPPORT: only canonical form, more than one is possible -->
-		<field name="pid" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <field name="provider" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <!--  MET4285: geospatial support -->
+        <field name="currentLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <field name="coverageLocation_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <field name="location_wgs" type="coordinates" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <!-- DATE SUPPORT -->
+        <field name="created_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
+        <field name="created_date_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+        <field name="created_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+        <field name="issued_date" type="daterange" indexed="true" stored="true" multiValued="true"/> <!-- docValues not supported -->
+        <field name="issued_date_begin" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+        <field name="issued_date_end" type="date" indexed="true" stored="true" docValues="true" multiValued="false"/>
+        <!-- PID SUPPORT: only canonical form, more than one is possible -->
+        <field name="pid" type="string" indexed="true" stored="true" multiValued="true" docValues="true"/>
+        <!-- 3D SUPPORT -->
+        <field name="wr_schema_digitalsourcetype" indexed="true" stored="true" multiValued="false"/>
+        <field name="wr_edm_intendedusage" indexed="true" stored="true" multiValued="true"/>
+        <field name="wr_dc_title" indexed="true" stored="true" multiValued="true"/>
+        <field name="wr_dc_language" indexed="true" stored="true" multiValued="true"/>
+        <field name="wr_dc_termstemporal" indexed="true" stored="true" multiValued="true"/>
+        <field name="wr_edm_pointcount" indexed="true" stored="true" multiValued="false"/>
+        <field name="wr_edm_polygoncount" indexed="true" stored="true" multiValued="false"/>
+        <field name="wr_edm_verticecount" indexed="true" stored="true" multiValued="false"/>
+        <field name="wr_rdfs_seealso" indexed="true" stored="true" multiValued="false"/>
         <!-- undeclared fields are simply ignored: -->
         <dynamicField name="*" type="string" indexed="false" stored="false"  multiValued="true"/>
     </fields>
