@@ -35,7 +35,7 @@
        that you fully re-index after changing this setting as it can
        affect both how text is indexed and queried.
   -->
-  <luceneMatchVersion>7.7.0</luceneMatchVersion>
+  <luceneMatchVersion>7.7.2</luceneMatchVersion>
 
   <!-- <lib/> directives can be used to instruct Solr to load any Jars
        identified and use them to resolve any "plugins" specified in
@@ -425,7 +425,7 @@
     <filterCache class="solr.FastLRUCache"
                  size="512"
                  initialSize="512"
-                 autowarmCount="0"/>
+                 autowarmCount="256"/>
 
     <!-- Query Result Cache
 
@@ -561,185 +561,43 @@
            <lst><str name="q">rocks</str><str name="sort">weight asc</str></lst>
           -->
       <arr name="queries">
+        <!--TODO: add warming queries if any -->
+        <!--
         <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">LANGUAGE</str>
-          <!--  <str name="facet.field">TYPE</str>
-      <str name="facet.field">YEAR</str>
-      <str name="facet.field">PROVIDER</str>
-      <str name="facet.field">DATA_PROVIDER</str>
-      <str name="facet.field">COUNTRY</str>
-      <str name="facet.field">RIGHTS</str>
-      <str name="facet.field">UGC</str>
-      <str name="facet.field">facet_tags</str>-->
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
+          <str name="q">static firstSearcher warming in solrconfig.xml</str>
         </lst>
+        -->
         <lst>
           <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">TYPE</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">YEAR</str>
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
           <str name="facet.field">PROVIDER</str>
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
           <str name="facet.field">DATA_PROVIDER</str>
-          <str name="facet.limit">25</str>
+          <str name="facet.limit">125000</str>
           <str name="rows">24</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">COUNTRY</str>
-          <str name="facet.limit">25</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
+          <str name="facet.field">PROVIDER</str>
+          <str name="facet.field">DATA_PROVIDER</str>
+          <str name="facet.limit">125000</str>
           <str name="rows">24</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">RIGHTS</str>
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">UGC</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
           <str name="facet.field">facet_tags</str>
+          <str name="facet.field">RIGHTS</str>
+          <str name="facet.limit">750</str>
           <str name="rows">24</str>
         </lst>
         <lst>
-          <str name="q">PROVIDER:"Europeana Fashion"</str>
-          <str name="sort">score desc</str>
-          <str name="facet.field">CREATOR</str>
-          <str name="facet.field">cc_skos_prefLabel.ar</str>
-          <str name="facet.field">cc_skos_prefLabel.az</str>
-          <str name="facet.field">cc_skos_prefLabel.be</str>
-          <str name="facet.field">cc_skos_prefLabel.bg</str>
-          <str name="facet.field">cc_skos_prefLabel.bs</str>
-          <str name="facet.field">cc_skos_prefLabel.ca</str>
-          <str name="facet.field">cc_skos_prefLabel.cs</str>
-          <str name="facet.field">cc_skos_prefLabel.cz</str>
-          <str name="facet.field">cc_skos_prefLabel.da</str>
-          <str name="facet.field">cc_skos_prefLabel.de</str>
-          <str name="facet.field">cc_skos_prefLabel.def</str>
-          <str name="facet.field">cc_skos_prefLabel.el</str>
-          <str name="facet.field">cc_skos_prefLabel.en</str>
-          <str name="facet.field">cc_skos_prefLabel.en-gb</str>
-          <str name="facet.field">cc_skos_prefLabel.en-us</str>
-          <str name="facet.field">cc_skos_prefLabel.es</str>
-          <str name="facet.field">cc_skos_prefLabel.eu</str>
-          <str name="facet.field">cc_skos_prefLabel.fi</str>
-          <str name="facet.field">cc_skos_prefLabel.fr</str>
-          <str name="facet.field">cc_skos_prefLabel.ga</str>
-          <str name="facet.field">cc_skos_prefLabel.gd</str>
-          <str name="facet.field">cc_skos_prefLabel.gl</str>
-          <str name="facet.field">cc_skos_prefLabel.he</str>
-          <str name="facet.field">cc_skos_prefLabel.hi</str>
-          <str name="facet.field">cc_skos_prefLabel.hr</str>
-          <str name="facet.field">cc_skos_prefLabel.hu</str>
-          <str name="facet.field">cc_skos_prefLabel.hy</str>
-          <str name="facet.field">cc_skos_prefLabel.is</str>
-          <str name="facet.field">cc_skos_prefLabel.ik</str>
-          <str name="facet.field">cc_skos_prefLabel.ja</str>
-          <str name="facet.field">cc_skos_prefLabel.ka</str>
-          <str name="facet.field">cc_skos_prefLabel.ko</str>
-          <str name="facet.field">cc_skos_prefLabel.la</str>
-          <str name="facet.field">cc_skos_prefLabel.lt</str>
-          <str name="facet.field">cc_skos_prefLabel.lv</str>
-          <str name="facet.field">cc_skos_prefLabel.mk</str>
-          <str name="facet.field">cc_skos_prefLabel.mt</str>
-          <str name="facet.field">cc_skos_prefLabel.nl</str>
-          <str name="facet.field">cc_skos_prefLabel.nn</str>
-          <str name="facet.field">cc_skos_prefLabel.no</str>
-          <str name="facet.field">cc_skos_prefLabel.pl</str>
-          <str name="facet.field">cc_skos_prefLabel.pt</str>
-          <str name="facet.field">cc_skos_prefLabel.ro</str>
-          <str name="facet.field">cc_skos_prefLabel.ru</str>
-          <str name="facet.field">cc_skos_prefLabel.sh</str>
-          <str name="facet.field">cc_skos_prefLabel.sl</str>
-          <str name="facet.field">cc_skos_prefLabel.sg</str>
-          <str name="facet.field">cc_skos_prefLabel.sp</str>
-          <str name="facet.field">cc_skos_prefLabel.su</str>
-          <str name="facet.field">cc_skos_prefLabel.tr</str>
-          <str name="facet.field">cc_skos_prefLabel.uk</str>
-          <str name="facet.field">cc_skos_prefLabel.yi</str>
-          <str name="facet.field">cc_skos_prefLabel.zh</str>
-          <str name="facet.field">skos_concept</str>
-          <str name="facet.field">proxy_dc_format.ar</str>
-          <str name="facet.field">proxy_dc_format.az</str>
-          <str name="facet.field">proxy_dc_format.be</str>
-          <str name="facet.field">proxy_dc_format.bg</str>
-          <str name="facet.field">proxy_dc_format.bs</str>
-          <str name="facet.field">proxy_dc_format.ca</str>
-          <str name="facet.field">proxy_dc_format.cs</str>
-          <str name="facet.field">proxy_dc_format.cz</str>
-          <str name="facet.field">proxy_dc_format.da</str>
-          <str name="facet.field">proxy_dc_format.de</str>
-          <str name="facet.field">proxy_dc_format.def</str>
-          <str name="facet.field">proxy_dc_format.el</str>
-          <str name="facet.field">proxy_dc_format.en</str>
-          <str name="facet.field">proxy_dc_format.en-gb</str>
-          <str name="facet.field">proxy_dc_format.en-us</str>
-          <str name="facet.field">proxy_dc_format.es</str>
-          <str name="facet.field">proxy_dc_format.eu</str>
-          <str name="facet.field">proxy_dc_format.fi</str>
-          <str name="facet.field">proxy_dc_format.fr</str>
-          <str name="facet.field">proxy_dc_format.ga</str>
-          <str name="facet.field">proxy_dc_format.gd</str>
-          <str name="facet.field">proxy_dc_format.gl</str>
-          <str name="facet.field">proxy_dc_format.he</str>
-          <str name="facet.field">proxy_dc_format.hi</str>
-          <str name="facet.field">proxy_dc_format.hr</str>
-          <str name="facet.field">proxy_dc_format.hu</str>
-          <str name="facet.field">proxy_dc_format.hy</str>
-          <str name="facet.field">proxy_dc_format.is</str>
-          <str name="facet.field">proxy_dc_format.ik</str>
-          <str name="facet.field">proxy_dc_format.ja</str>
-          <str name="facet.field">proxy_dc_format.ka</str>
-          <str name="facet.field">proxy_dc_format.ko</str>
-          <str name="facet.field">proxy_dc_format.la</str>
-          <str name="facet.field">proxy_dc_format.lt</str>
-          <str name="facet.field">proxy_dc_format.lv</str>
-          <str name="facet.field">proxy_dc_format.mk</str>
-          <str name="facet.field">proxy_dc_format.mt</str>
-          <str name="facet.field">proxy_dc_format.nl</str>
-          <str name="facet.field">proxy_dc_format.nn</str>
-          <str name="facet.field">proxy_dc_format.no</str>
-          <str name="facet.field">proxy_dc_format.pl</str>
-          <str name="facet.field">proxy_dc_format.pt</str>
-          <str name="facet.field">proxy_dc_format.ro</str>
-          <str name="facet.field">proxy_dc_format.ru</str>
-          <str name="facet.field">proxy_dc_format.sh</str>
-          <str name="facet.field">proxy_dc_format.sl</str>
-          <str name="facet.field">proxy_dc_format.sg</str>
-          <str name="facet.field">proxy_dc_format.sp</str>
-          <str name="facet.field">proxy_dc_format.su</str>
-          <str name="facet.field">proxy_dc_format.tr</str>
-          <str name="facet.field">proxy_dc_format.uk</str>
-          <str name="facet.field">proxy_dc_format.yi</str>
-          <str name="facet.field">proxy_dc_format.zh</str>
+          <str name="q">*:*</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
+          <str name="facet.field">facet_tags</str>
+          <str name="facet.field">RIGHTS</str>
+          <str name="facet.limit">750</str>
+          <str name="rows">24</str>
         </lst>
         <lst>
           <str name="fq">collection:archaeology</str>
@@ -789,47 +647,68 @@
         <lst> 
           <str name="fq">contentTier:(1 OR 2 OR 3 OR 4)</str>
         </lst>
-         <lst>
-          <str name="fq">collection:archaeology AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:art AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:fashion AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:manuscript AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:map AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:migration AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:music AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:nature AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:newspaper AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:photography AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:sport AND contentTier:(2 OR 3 OR 4)</str>
+        <!--  Reusability options used in portal as 'open' -->
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/publicdomain\/mark\/*</str>
         </lst>
         <lst> 
-          <str name="fq">collection:ww1 AND contentTier:(2 OR 3 OR 4)</str>
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/*</str>
         </lst>
         <lst> 
-          <str name="fq">collection:industrial AND contentTier:(2 OR 3 OR 4)</str>
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by\/*</str>
         </lst>
         <lst> 
-          <str name="fq">collection:ccsearch AND contentTier:(2 OR 3 OR 4)</str>
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-sa\/*</str>
+        </lst>
+        <!--  Reusability options used in portal as 'restricted' -->
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nc\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nc-sa\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nc-nd\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nd\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/out-of-copyright-non-commercial\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/InC-EDU\/1.0\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/NoC-NC\/1.0\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/NoC-OKLR\/1.0\/*</str>
+        </lst>
+        <!--  Reusability options used in portal as 'permission' -->
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/rr-f\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/rr-p\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/rr-r\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/unknown\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/test-orphan-work-test\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/InC\/1.0\/*</str>
+        </lst>
+       	<lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/InC-OW-EU\/1.0\/*</str>
+        </lst>
+       	<lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/CNE\/1.0\/*</str>
         </lst>
       </arr>
     </listener>
@@ -843,182 +722,35 @@
         -->
         <lst>
           <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">LANGUAGE</str>
-          <!--  <str name="facet.field">TYPE</str>
-    <str name="facet.field">YEAR</str>
-    <str name="facet.field">PROVIDER</str>
-    <str name="facet.field">DATA_PROVIDER</str>
-    <str name="facet.field">COUNTRY</str>
-    <str name="facet.field">RIGHTS</str>
-    <str name="facet.field">UGC</str>
-    <str name="facet.field">facet_tags</str>-->
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">TYPE</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">YEAR</str>
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
           <str name="facet.field">PROVIDER</str>
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
           <str name="facet.field">DATA_PROVIDER</str>
-          <str name="facet.limit">25</str>
+          <str name="facet.limit">125000</str>
           <str name="rows">24</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">COUNTRY</str>
-          <str name="facet.limit">25</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
+          <str name="facet.field">PROVIDER</str>
+          <str name="facet.field">DATA_PROVIDER</str>
+          <str name="facet.limit">125000</str>
           <str name="rows">24</str>
         </lst>
         <lst>
           <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">RIGHTS</str>
-          <str name="facet.limit">25</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
-          <str name="facet.field">UGC</str>
-          <str name="rows">24</str>
-        </lst>
-        <lst>
-          <str name="q">*:*</str>
-          <str name="sort">score desc, europeana_id asc</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
           <str name="facet.field">facet_tags</str>
+          <str name="facet.field">RIGHTS</str>
+          <str name="facet.limit">750</str>
           <str name="rows">24</str>
         </lst>
         <lst>
-          <str name="q">PROVIDER:"Europeana Fashion"</str>
-          <str name="sort">score desc</str>
-          <str name="facet.field">CREATOR</str>
-          <str name="facet.field">cc_skos_prefLabel.ar</str>
-          <str name="facet.field">cc_skos_prefLabel.az</str>
-          <str name="facet.field">cc_skos_prefLabel.be</str>
-          <str name="facet.field">cc_skos_prefLabel.bg</str>
-          <str name="facet.field">cc_skos_prefLabel.bs</str>
-          <str name="facet.field">cc_skos_prefLabel.ca</str>
-          <str name="facet.field">cc_skos_prefLabel.cs</str>
-          <str name="facet.field">cc_skos_prefLabel.cz</str>
-          <str name="facet.field">cc_skos_prefLabel.da</str>
-          <str name="facet.field">cc_skos_prefLabel.de</str>
-          <str name="facet.field">cc_skos_prefLabel.def</str>
-          <str name="facet.field">cc_skos_prefLabel.el</str>
-          <str name="facet.field">cc_skos_prefLabel.en</str>
-          <str name="facet.field">cc_skos_prefLabel.en-gb</str>
-          <str name="facet.field">cc_skos_prefLabel.en-us</str>
-          <str name="facet.field">cc_skos_prefLabel.es</str>
-          <str name="facet.field">cc_skos_prefLabel.eu</str>
-          <str name="facet.field">cc_skos_prefLabel.fi</str>
-          <str name="facet.field">cc_skos_prefLabel.fr</str>
-          <str name="facet.field">cc_skos_prefLabel.ga</str>
-          <str name="facet.field">cc_skos_prefLabel.gd</str>
-          <str name="facet.field">cc_skos_prefLabel.gl</str>
-          <str name="facet.field">cc_skos_prefLabel.he</str>
-          <str name="facet.field">cc_skos_prefLabel.hi</str>
-          <str name="facet.field">cc_skos_prefLabel.hr</str>
-          <str name="facet.field">cc_skos_prefLabel.hu</str>
-          <str name="facet.field">cc_skos_prefLabel.hy</str>
-          <str name="facet.field">cc_skos_prefLabel.is</str>
-          <str name="facet.field">cc_skos_prefLabel.ik</str>
-          <str name="facet.field">cc_skos_prefLabel.ja</str>
-          <str name="facet.field">cc_skos_prefLabel.ka</str>
-          <str name="facet.field">cc_skos_prefLabel.ko</str>
-          <str name="facet.field">cc_skos_prefLabel.la</str>
-          <str name="facet.field">cc_skos_prefLabel.lt</str>
-          <str name="facet.field">cc_skos_prefLabel.lv</str>
-          <str name="facet.field">cc_skos_prefLabel.mk</str>
-          <str name="facet.field">cc_skos_prefLabel.mt</str>
-          <str name="facet.field">cc_skos_prefLabel.nl</str>
-          <str name="facet.field">cc_skos_prefLabel.nn</str>
-          <str name="facet.field">cc_skos_prefLabel.no</str>
-          <str name="facet.field">cc_skos_prefLabel.pl</str>
-          <str name="facet.field">cc_skos_prefLabel.pt</str>
-          <str name="facet.field">cc_skos_prefLabel.ro</str>
-          <str name="facet.field">cc_skos_prefLabel.ru</str>
-          <str name="facet.field">cc_skos_prefLabel.sh</str>
-          <str name="facet.field">cc_skos_prefLabel.sl</str>
-          <str name="facet.field">cc_skos_prefLabel.sg</str>
-          <str name="facet.field">cc_skos_prefLabel.sp</str>
-          <str name="facet.field">cc_skos_prefLabel.su</str>
-          <str name="facet.field">cc_skos_prefLabel.tr</str>
-          <str name="facet.field">cc_skos_prefLabel.uk</str>
-          <str name="facet.field">cc_skos_prefLabel.yi</str>
-          <str name="facet.field">cc_skos_prefLabel.zh</str>
-          <str name="facet.field">skos_concept</str>
-          <str name="facet.field">proxy_dc_format.ar</str>
-          <str name="facet.field">proxy_dc_format.az</str>
-          <str name="facet.field">proxy_dc_format.be</str>
-          <str name="facet.field">proxy_dc_format.bg</str>
-          <str name="facet.field">proxy_dc_format.bs</str>
-          <str name="facet.field">proxy_dc_format.ca</str>
-          <str name="facet.field">proxy_dc_format.cs</str>
-          <str name="facet.field">proxy_dc_format.cz</str>
-          <str name="facet.field">proxy_dc_format.da</str>
-          <str name="facet.field">proxy_dc_format.de</str>
-          <str name="facet.field">proxy_dc_format.def</str>
-          <str name="facet.field">proxy_dc_format.el</str>
-          <str name="facet.field">proxy_dc_format.en</str>
-          <str name="facet.field">proxy_dc_format.en-gb</str>
-          <str name="facet.field">proxy_dc_format.en-us</str>
-          <str name="facet.field">proxy_dc_format.es</str>
-          <str name="facet.field">proxy_dc_format.eu</str>
-          <str name="facet.field">proxy_dc_format.fi</str>
-          <str name="facet.field">proxy_dc_format.fr</str>
-          <str name="facet.field">proxy_dc_format.ga</str>
-          <str name="facet.field">proxy_dc_format.gd</str>
-          <str name="facet.field">proxy_dc_format.gl</str>
-          <str name="facet.field">proxy_dc_format.he</str>
-          <str name="facet.field">proxy_dc_format.hi</str>
-          <str name="facet.field">proxy_dc_format.hr</str>
-          <str name="facet.field">proxy_dc_format.hu</str>
-          <str name="facet.field">proxy_dc_format.hy</str>
-          <str name="facet.field">proxy_dc_format.is</str>
-          <str name="facet.field">proxy_dc_format.ik</str>
-          <str name="facet.field">proxy_dc_format.ja</str>
-          <str name="facet.field">proxy_dc_format.ka</str>
-          <str name="facet.field">proxy_dc_format.ko</str>
-          <str name="facet.field">proxy_dc_format.la</str>
-          <str name="facet.field">proxy_dc_format.lt</str>
-          <str name="facet.field">proxy_dc_format.mk</str>
-          <str name="facet.field">proxy_dc_format.mt</str>
-          <str name="facet.field">proxy_dc_format.nl</str>
-          <str name="facet.field">proxy_dc_format.nn</str>
-          <str name="facet.field">proxy_dc_format.no</str>
-          <str name="facet.field">proxy_dc_format.pl</str>
-          <str name="facet.field">proxy_dc_format.pt</str>
-          <str name="facet.field">proxy_dc_format.ro</str>
-          <str name="facet.field">proxy_dc_format.ru</str>
-          <str name="facet.field">proxy_dc_format.sh</str>
-          <str name="facet.field">proxy_dc_format.sl</str>
-          <str name="facet.field">proxy_dc_format.sg</str>
-          <str name="facet.field">proxy_dc_format.sp</str>
-          <str name="facet.field">proxy_dc_format.su</str>
-          <str name="facet.field">proxy_dc_format.tr</str>
-          <str name="facet.field">proxy_dc_format.uk</str>
-          <str name="facet.field">proxy_dc_format.yi</str>
-          <str name="facet.field">proxy_dc_format.zh</str>
+          <str name="q">*:*</str>
+          <str name="sort">sort=score desc,contentTier desc,metadataTier desc,timestamp_update desc,europeana_id asc</str>
+          <str name="facet.field">facet_tags</str>
+          <str name="facet.field">RIGHTS</str>
+          <str name="facet.limit">750</str>
+          <str name="rows">24</str>
         </lst>
         <lst>
           <str name="fq">collection:archaeology</str>
@@ -1068,47 +800,68 @@
         <lst> 
           <str name="fq">contentTier:(1 OR 2 OR 3 OR 4)</str>
         </lst>
-         <lst>
-          <str name="fq">collection:archaeology AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:art AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:fashion AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:manuscript AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:map AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:migration AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:music AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:nature AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:newspaper AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:photography AND contentTier:(2 OR 3 OR 4)</str>
-        </lst>
-        <lst>
-          <str name="fq">collection:sport AND contentTier:(2 OR 3 OR 4)</str>
+        <!--  Reusability options used in portal as 'open' -->
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/publicdomain\/mark\/*</str>
         </lst>
         <lst> 
-          <str name="fq">collection:ww1 AND contentTier:(2 OR 3 OR 4)</str>
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/publicdomain\/zero\/1.0\/*</str>
         </lst>
         <lst> 
-          <str name="fq">collection:industrial AND contentTier:(2 OR 3 OR 4)</str>
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by\/*</str>
         </lst>
         <lst> 
-          <str name="fq">collection:ccsearch AND contentTier:(2 OR 3 OR 4)</str>
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-sa\/*</str>
+        </lst>
+        <!--  Reusability options used in portal as 'restricted' -->
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nc\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nc-sa\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nc-nd\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/creativecommons.org\/licenses\/by-nd\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/out-of-copyright-non-commercial\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/InC-EDU\/1.0\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/NoC-NC\/1.0\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/NoC-OKLR\/1.0\/*</str>
+        </lst>
+        <!--  Reusability options used in portal as 'permission' -->
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/rr-f\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/rr-p\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/rr-r\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/unknown\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/www.europeana.eu\/rights\/test-orphan-work-test\/*</str>
+        </lst>
+        <lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/InC\/1.0\/*</str>
+        </lst>
+       	<lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/InC-OW-EU\/1.0\/*</str>
+        </lst>
+       	<lst> 
+          <str name="fq">RIGHTS:http\:\/\/rightsstatements.org\/vocab\/CNE\/1.0\/*</str>
         </lst>
       </arr>
     </listener>
@@ -1248,6 +1001,7 @@
 
 
   <!-- TODO: adapt handler to specific search in transcriptions -->
+  <!-- mmarrero: removing metadata elevation as it would be confusing searching in fulltext but elevating based on the metadata -->
   <requestHandler name="/select" class="solr.AliasingSearchHandler">
     <!-- default values for query parameters can be specified, these
          will be overridden by parameters in the request
@@ -1258,15 +1012,15 @@
       <str name="defType">edismax</str>
       <str name="q.op">OR</str>
       <!-- Default fields search -->
-      <str name="f.fulltext.qf">fulltext. fulltext.ar fulltext.bg fulltext.bs fulltext.ca fulltext.cjk fulltext.cs fulltext.da fulltext.de fulltext.el fulltext.en fulltext.es fulltext.et fulltext.fa fulltext.fi fulltext.fr fulltext.ga fulltext.gl fulltext.he fulltext.hi fulltext.hr fulltext.hu fulltext.hy fulltext.ji fulltext.id fulltext.id fulltext.it fulltext.ko fulltext.la fulltext.lv fulltext.nl fulltext.no fulltext.pa fulltext.pl fulltext.pt fulltext.ro fulltext.ru fulltext.sh fulltext.sk fulltext.sl fulltext.sr fulltext.sv fulltext.th fulltext.tr fulltext.uk fulltext.yi</str>
+      <str name="f.fulltext.qf">fulltext. fulltext.bg fulltext.cs fulltext.da fulltext.de fulltext.el fulltext.en fulltext.es fulltext.et fulltext.fi fulltext.fr fulltext.ga fulltext.hr fulltext.hu fulltext.it fulltext.lv fulltext.nl fulltext.pl fulltext.pt fulltext.ro fulltext.sk fulltext.sl fulltext.sv fulltext.mt fulltext.lt fulltext.eu</str>
       
       <!-- Default field -->
       <str name="qf">fulltext</str>
 
       <!-- Boost phrases -->
-      <str name="pf">fulltext.^5 fulltext.ar^5 fulltext.bg^5 fulltext.bs^5 fulltext.ca^5 fulltext.cjk^5 fulltext.cs^5 fulltext.da^5 fulltext.de^5 fulltext.el^5 fulltext.en^5 fulltext.es^5 fulltext.et^5 fulltext.fa^5 fulltext.fi^5 fulltext.fr^5 fulltext.ga^5 fulltext.gl^5 fulltext.he^5 fulltext.hi^5 fulltext.hr^5 fulltext.hu^5 fulltext.hy^5 fulltext.ji^5 fulltext.id^5 fulltext.id^5 fulltext.it^5 fulltext.ko^5 fulltext.la^5 fulltext.lv^5 fulltext.nl^5 fulltext.no^5 fulltext.pa^5 fulltext.pl^5 fulltext.pt^5 fulltext.ro^5 fulltext.ru^5 fulltext.sh^5 fulltext.sk^5 fulltext.sl^5 fulltext.sr^5 fulltext.sv^5 fulltext.th^5 fulltext.tr^5 fulltext.uk^5 fulltext.yi^5</str>
+      <str name="pf">fulltext.^5 fulltext.bg^5 fulltext.cs^5 fulltext.da^5 fulltext.de^5 fulltext.el^5 fulltext.en^5 fulltext.es^5 fulltext.et^5 fulltext.fi^5 fulltext.fr^5 fulltext.ga^5 fulltext.hr^5 fulltext.hu^5 fulltext.it^5 fulltext.lv^5 fulltext.nl^5 fulltext.pl^5 fulltext.pt^5 fulltext.ro^5 fulltext.sk^5 fulltext.sl^5 fulltext.sv^5 fulltext.mt^5 fulltext.lt^5 fulltext.eu^5</str>
       <str name="ps">2</str>
-      <str name="pf2">fulltext.^2 fulltext.ar^2 fulltext.bg^2 fulltext.bs^2 fulltext.ca^2 fulltext.cjk^2 fulltext.cs^2 fulltext.da^2 fulltext.de^2 fulltext.el^2 fulltext.en^2 fulltext.es^2 fulltext.et^2 fulltext.fa^2 fulltext.fi^2 fulltext.fr^2 fulltext.ga^2 fulltext.gl^2 fulltext.he^2 fulltext.hi^2 fulltext.hr^2 fulltext.hu^2 fulltext.hy^2 fulltext.ji^2 fulltext.id^2 fulltext.id^2 fulltext.it^2 fulltext.ko^2 fulltext.la^2 fulltext.lv^2 fulltext.nl^2 fulltext.no^2 fulltext.pa^2 fulltext.pl^2 fulltext.pt^2 fulltext.ro^2 fulltext.ru^2 fulltext.sh^2 fulltext.sk^2 fulltext.sl^2 fulltext.sr^2 fulltext.sv^2 fulltext.th^2 fulltext.tr^2 fulltext.uk^2 fulltext.yi^2</str>
+      <str name="pf2">fulltext.^2 fulltext.bg^2 fulltext.cs^2 fulltext.da^2 fulltext.de^2 fulltext.el^2 fulltext.en^2 fulltext.es^2 fulltext.et^2 fulltext.fi^2 fulltext.fr^2 fulltext.ga^2 fulltext.hr^2 fulltext.hu^2 fulltext.it^2 fulltext.lv^2 fulltext.nl^2 fulltext.pl^2 fulltext.pt^2 fulltext.ro^2 fulltext.sk^2 fulltext.sl^2 fulltext.sv^2 fulltext.mt^2 fulltext.lt^2 fulltext.eu^2</str>
       <str name="ps2">1</str>
       
       <!-- Highlighting -->
@@ -1346,7 +1100,8 @@
        </arr>
       -->
     <arr name="last-components">  
-      <str>elevator</str>  
+      <!-- mmarrero: removing metadata elevation as it would be confusing searching in fulltext but elevating based on the metadata -->
+      <!-- <str>elevator</str> -->  
     </arr>
   </requestHandler>
 
@@ -1587,6 +1342,7 @@
     -->
 
   <!-- TODO: configure properly if elevation is required -->
+  <!-- mmarrero: removing metadata elevation as it would be confusing searching in fulltext but elevating based on the metadata -->
   <searchComponent name="elevator" class="solr.QueryElevationComponent" >
     <!-- pick a fieldType to analyze queries -->
     <str name="queryFieldType">string</str>
