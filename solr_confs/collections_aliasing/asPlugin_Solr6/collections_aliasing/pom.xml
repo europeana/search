@@ -26,7 +26,7 @@
         <junit.version>4.12</junit.version>
         <lucene.version>6.6.5</lucene.version>
         <slf4j.version>1.7.25</slf4j.version>
-        <solr.version>6.6.5</solr.version>
+        <solr.version>8.4.1</solr.version>
     </properties>
 
     <dependencies>
