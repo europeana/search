@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema name="europeana-simplified" version="1.6">
+<schema name="europeana-simplified" version="1.7">
     <types>
         <!--  ASSETS TRAINING FIELDTYPES  -->
         <fieldType name="int" class="solr.IntPointField" positionIncrementGap="0"/>
