@@ -1124,6 +1124,10 @@
 
        Not all Request Handlers are defined in the solrconfig.xml, many are implicit.
     -->
+    
+	<searchComponent name="aliasing" class="eu.europeana.research.solr.ExtendedSearchComponent">
+		<str name="queryAliasFile">query_aliases.xml</str>
+	</searchComponent>
 
   <!-- Primary search handler, expected by most clients, examples and UI frameworks -->
   <requestHandler name="/select" class="solr.AliasingSearchHandler">
@@ -1135,9 +1139,12 @@
           <str name="qf">title^5 proxy_dc_creator proxy_dc_description subject text</str> <!-- replaces df -->
           <str name="tie">0.1</str>
      </lst>
-     <arr name="last-components">  
-          <str>elevator</str>  
-     </arr> 
+	<arr name="first-components">
+		<str>aliasing</str>
+	</arr>
+	<arr name="last-components">  
+		<str>elevator</str>  
+	</arr> 
   </requestHandler>
 
 
