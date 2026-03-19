@@ -65,7 +65,7 @@
         <!--  MET4285: geospatial support -->
         <fieldType name="coordinates" class="solr.LatLonPointSpatialField"/>
         <!--  DATE SUPPORT -->
-		<fieldType name="daterange" class="solr.DateRangeField" omitNorms="true"/>
+		<fieldType name="daterange" class="solr.DateRangeField"/>
     </types>
     <fields>
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false" docValues="true"/>
