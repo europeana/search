@@ -20,6 +20,22 @@
      For more details about configurations options that may appear in
      this file, see https://solr.apache.org/guide/solr/latest/configuration-guide/configuring-solrconfig-xml.html.
 -->
+
+<!--mmarrero: main changes respect to previous configuration for solr 7.7
+	Removal: 
+	- <jxm/>
+	- <abortOnConfigurationError>${solr.abortOnConfigurationError:true}</abortOnConfigurationError>
+	- <int name="numVersionBuckets">${solr.ulog.numVersionBuckets:65536}</int> from <updateLog>
+	- attribute handleSelect="true" from <requestDispatcher>
+	- <requestParsers enableRemoteStreaming="true" multipartUploadLimitInKB="2048000" formdataUploadLimitInKB="2048"/>
+	- Custom, obsolete and already predefined handlers, and related folders (clustering)
+	- Response writers for velocity and xslt, and related folders (xslt, velocity)
+	- stopwords.txt and synonyms.txt files in configuration root folder
+	
+	Change:
+	- Starting with Solr 9.0 the default cache implementation used is CaffeineCache.  
+ -->
+
 <config>
   <!-- In all configuration below, a prefix of "solr." for class names
        is an alias that causes solr to search appropriate packages,
