@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema name="europeana-simplified" version="1.6">
+<schema name="europeana-simplified" version="1.7">
     <types>
         <!--  ASSETS TRAINING FIELDTYPES  -->
         <fieldType name="int" class="solr.IntPointField" positionIncrementGap="0"/>
@@ -65,7 +65,7 @@
         <!--  MET4285: geospatial support -->
         <fieldType name="coordinates" class="solr.LatLonPointSpatialField"/>
         <!--  DATE SUPPORT -->
-		<fieldType name="daterange" class="solr.DateRangeField" omitNorms="true"/>
+		<fieldType name="daterange" class="solr.DateRangeField"/>
     </types>
     <fields>
         <field name="is_fulltext" type="boolean" indexed="true" stored="true" multiValued="false" docValues="true"/>
