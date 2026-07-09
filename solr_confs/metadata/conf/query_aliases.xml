@@ -58,6 +58,11 @@
               <alias>ccsearch</alias>
               <query>(edm_datasetName:"92062_Ag_EU_TEL_a0480_Austria" OR (foaf_organization:(*/4513) OR foaf_organization:(*/1609))) AND contentTier:[3 TO 4]</query>
          </alias-def> 
+         <alias-def>
+              <alias>audiovisual</alias>
+              <query>(foaf_organization:"http://data.europeana.eu/organization/1607") OR PROVIDER:"EUscreen"</query>
+         </alias-def>
+         
       </alias-defs>
    </alias-config>
 </alias-configs>
