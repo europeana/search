@@ -62,7 +62,6 @@
               <alias>audiovisual</alias>
               <query>(foaf_organization:"http://data.europeana.eu/organization/1607") OR PROVIDER:"EUscreen"</query>
          </alias-def>
-         
       </alias-defs>
    </alias-config>
 </alias-configs>
