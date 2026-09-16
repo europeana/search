@@ -709,6 +709,9 @@
           <str name="fq">collection:ccsearch</str>
         </lst>
         <lst> 
+          <str name="fq">collection:audiovisual</str>
+        </lst>
+        <lst> 
           <str name="fq">contentTier:(2 OR 3 OR 4)</str>
         </lst>
         <lst> 
@@ -755,6 +758,9 @@
         </lst>
         <lst> 
           <str name="fq">collection:ccsearch AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:audiovisual AND contentTier:(2 OR 3 OR 4)</str>
         </lst>
       </arr>
     </listener>
@@ -975,6 +981,9 @@
           <str name="fq">collection:ccsearch</str>
         </lst>
         <lst> 
+          <str name="fq">collection:audiovisual</str>
+        </lst>
+        <lst> 
           <str name="fq">contentTier:(2 OR 3 OR 4)</str>
         </lst>
         <lst> 
@@ -1021,6 +1030,9 @@
         </lst>
         <lst> 
           <str name="fq">collection:ccsearch AND contentTier:(2 OR 3 OR 4)</str>
+        </lst>
+        <lst> 
+          <str name="fq">collection:audiovisual AND contentTier:(2 OR 3 OR 4)</str>
         </lst>
       </arr>
     </listener>
